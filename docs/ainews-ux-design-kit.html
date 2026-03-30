@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AINews — UX Design Kit</title>
+<style>
+  :root {
+    --glass-bg:     rgba(255,255,255,0.06);
+    --glass-border: rgba(255,255,255,0.12);
+    --glass-hover:  rgba(255,255,255,0.10);
+    --accent-cyan:    #22d3ee;
+    --accent-violet:  #a78bfa;
+    --accent-emerald: #34d399;
+    --accent-amber:   #fbbf24;
+    --accent-rose:    #fb7185;
+    --text-primary:   #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted:     #64748b;
+    --bg-deep:    #060a14;
+    --bg-surface: #0d1526;
+    --bg-raised:  #121f38;
+    --radius-card: 16px;
+    --font-body: 'Segoe UI', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* ── Ambient orbs ── */
+  .orb-wrap {
+    position: fixed; inset: 0;
+    pointer-events: none; z-index: 0;
+    overflow: hidden;
+  }
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+  }
+  .orb-violet  { top:-15%; left:-8%;  width:640px; height:640px; background:radial-gradient(circle,rgba(167,139,250,0.18) 0%,transparent 70%); }
+  .orb-cyan    { bottom:-18%; right:-8%; width:720px; height:720px; background:radial-gradient(circle,rgba(34,211,238,0.14) 0%,transparent 70%); }
+  .orb-emerald { top:45%; left:38%; width:420px; height:420px; background:radial-gradient(circle,rgba(52,211,153,0.08) 0%,transparent 70%); }
+
+  /* ── Shell ── */
+  .shell { position:relative; z-index:1; min-height:100vh; display:flex; flex-direction:column; }
+
+  /* ── Kit header ── */
+  .kit-header {
+    padding: 28px 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 20px;
+  }
+  .kit-brand { display:flex; align-items:center; gap:12px; }
+  .kit-badge {
+    font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent-violet);
+    background:rgba(167,139,250,0.12); border:1px solid rgba(167,139,250,0.25);
+    border-radius:100px; padding:4px 12px;
+  }
+  .kit-title { font-size:22px; font-weight:700; color:var(--text-primary); }
+  .kit-title span { color:var(--accent-violet); }
+  .kit-meta { font-size:12px; color:var(--text-muted); font-family:monospace; }
+
+  /* ── Nav tabs ── */
+  .tab-nav {
+    display: flex;
+    gap: 2px;
+    padding: 12px 40px;
+    border-bottom: 1px solid var(--glass-border);
+    background: rgba(13,21,38,0.6);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .tab-btn {
+    padding: 9px 22px;
+    border-radius: 10px;
+    font-size: 13px; font-weight: 500;
+    cursor: pointer;
+    color: var(--text-muted);
+    border: none; background: transparent;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .tab-btn:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+  .tab-btn.active {
+    background: rgba(167,139,250,0.18);
+    color: var(--accent-violet);
+    border: 1px solid rgba(167,139,250,0.28);
+  }
+
+  /* ── Section visibility ── */
+  .section { display: none; padding: 36px 40px 80px; }
+  .section.active { display: block; }
+
+  /* ── Shared utilities ── */
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-card);
+    position: relative; overflow: hidden;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .glass::before {
+    content:'';
+    position:absolute; top:0; left:0; right:0; height:1px;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);
+  }
+  .glass:hover {
+    background: var(--glass-hover);
+    border-color: rgba(255,255,255,0.20);
+    transform: translateY(-2px);
+  }
+  .glass-static { /* no hover */ }
+  .glass-static:hover { transform: none; }
+
+  .mono { font-family: 'Courier New', monospace; }
+  .label-tag {
+    display:inline-flex; align-items:center;
+    font-family:'Courier New',monospace;
+    font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    padding:3px 10px; border-radius:100px;
+  }
+  .pill-chip {
+    display:inline-flex; align-items:center;
+    font-size:12px; font-weight:500;
+    padding:6px 16px; border-radius:100px;
+    border: 1px solid; cursor:pointer;
+    transition: all 0.15s;
+  }
+
+  /* ── Section header ── */
+  .sec-eyebrow {
+    font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent-violet); margin-bottom:8px;
+  }
+  .sec-title { font-size:24px; font-weight:700; color:var(--text-primary); margin-bottom:8px; tracking-tight; }
+  .sec-desc  { font-size:14px; color:var(--text-secondary); line-height:1.6; margin-bottom:36px; max-width:680px; }
+
+  /* annotation helper */
+  .annot {
+    font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace;
+    margin-top:10px; padding:8px 12px;
+    background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07);
+    border-radius:8px; line-height:1.6;
+  }
+
+  /* ══════════════════════════════════════════════
+     TAB 1 — HOME FEED
+  ══════════════════════════════════════════════ */
+
+  /* App nav bar */
+  .app-nav {
+    background: rgba(13,21,38,0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .app-nav-brand { font-size:18px; font-weight:700; }
+  .app-nav-brand em { color:var(--accent-violet); font-style:normal; }
+  .app-nav-actions { display:flex; gap:12px; align-items:center; }
+  .nav-icon-btn {
+    width:36px; height:36px; border-radius:9px;
+    display:flex; align-items:center; justify-content:center;
+    background: rgba(255,255,255,0.05); border:1px solid var(--glass-border);
+    color:var(--text-muted); cursor:pointer; font-size:14px;
+    transition:all 0.15s;
+  }
+  .nav-icon-btn:hover { color:var(--accent-cyan); border-color:rgba(34,211,238,0.3); }
+
+  /* Search bar */
+  .search-wrap {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .search-icon { color:var(--text-muted); font-size:14px; }
+  .search-placeholder { font-size:14px; color:var(--text-muted); flex:1; }
+
+  /* Filter chips row */
+  .chip-row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:28px; }
+
+  /* Column grid */
+  .column-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  /* Column */
+  .topic-col { display:flex; flex-direction:column; gap:12px; }
+  .col-header {
+    border-radius:12px; padding:12px 16px;
+    display:flex; align-items:center; justify-content:space-between;
+    border:1px solid;
+  }
+  .col-header-label { font-family:'Courier New',monospace; font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+  .col-header-count { font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace; }
+
+  /* News card */
+  .news-card {
+    padding: 18px;
+    cursor: pointer;
+  }
+  .card-top { display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:10px; }
+  .card-title {
+    font-size:14px; font-weight:600; line-height:1.4;
+    color:var(--text-primary);
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+    margin-bottom:8px;
+  }
+  .card-summary {
+    font-size:12px; color:var(--text-secondary); line-height:1.6;
+    display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+    margin-bottom:12px;
+  }
+  .card-footer { display:flex; align-items:center; justify-content:space-between; padding-top:10px; border-top:1px solid rgba(255,255,255,0.06); }
+  .card-source { font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace; }
+  .card-date   { font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace; }
+  .bm-btn { background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:13px; padding:2px 4px; transition:color 0.15s; }
+  .bm-btn:hover { color:var(--accent-cyan); }
+
+  /* ══════════════════════════════════════════════
+     TAB 2 — CARD STYLE
+  ══════════════════════════════════════════════ */
+  .card-gallery { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-bottom:40px; }
+  .card-variant-label {
+    font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--text-muted); font-family:'Courier New',monospace;
+    margin-bottom:10px;
+  }
+  .news-card-lg { padding:24px; }
+
+  /* ══════════════════════════════════════════════
+     TAB 3 — ITEM DETAIL
+  ══════════════════════════════════════════════ */
+  .detail-layout { display:grid; grid-template-columns:1fr 380px; gap:24px; }
+  .detail-panel { padding:32px; }
+  .detail-back {
+    font-size:12px; color:var(--text-muted); font-family:'Courier New',monospace;
+    display:flex; align-items:center; gap:6px; margin-bottom:24px; cursor:pointer;
+  }
+  .detail-back:hover { color:var(--accent-cyan); }
+  .detail-topic-row { display:flex; align-items:center; gap:12px; margin-bottom:16px; }
+  .detail-title { font-size:22px; font-weight:700; line-height:1.3; color:var(--text-primary); margin-bottom:16px; }
+  .detail-meta { display:flex; gap:20px; margin-bottom:24px; }
+  .detail-meta-item { display:flex; flex-direction:column; gap:3px; }
+  .detail-meta-key { font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-muted); font-family:'Courier New',monospace; }
+  .detail-meta-val { font-size:13px; color:var(--text-secondary); }
+  .detail-divider { height:1px; background:rgba(255,255,255,0.08); margin:20px 0; }
+  .detail-body { font-size:14px; line-height:1.8; color:var(--text-secondary); }
+  .detail-body p { margin-bottom:14px; }
+  .detail-section-title { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--text-muted); font-family:'Courier New',monospace; margin-bottom:12px; margin-top:24px; }
+  .concept-chip {
+    display:inline-block; font-size:11px; padding:4px 12px; border-radius:100px;
+    background:rgba(167,139,250,0.10); border:1px solid rgba(167,139,250,0.22);
+    color:var(--accent-violet); margin:4px;
+  }
+
+  /* Quiz sidebar */
+  .quiz-sidebar { padding:24px; height:fit-content; }
+  .quiz-q { font-size:15px; font-weight:600; color:var(--text-primary); line-height:1.4; margin-bottom:20px; }
+  .quiz-opt {
+    width:100%; text-align:left; padding:14px 16px;
+    background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.10);
+    border-radius:12px; color:var(--text-secondary); font-size:13px;
+    margin-bottom:10px; cursor:pointer;
+    transition:all 0.15s;
+  }
+  .quiz-opt:hover { background:rgba(255,255,255,0.09); border-color:rgba(255,255,255,0.20); color:var(--text-primary); }
+  .quiz-opt.correct { background:rgba(52,211,153,0.15); border-color:rgba(52,211,153,0.35); color:var(--accent-emerald); }
+  .quiz-opt.wrong   { background:rgba(251,113,133,0.15); border-color:rgba(251,113,133,0.35); color:var(--accent-rose); }
+
+  /* ══════════════════════════════════════════════
+     TAB 4 — TYPOGRAPHY & COLORS
+  ══════════════════════════════════════════════ */
+  .color-grid   { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:40px; }
+  .color-swatch { border-radius:12px; overflow:hidden; border:1px solid var(--glass-border); }
+  .swatch-block { height:72px; }
+  .swatch-info  { padding:14px; background:rgba(13,21,38,0.8); }
+  .swatch-name  { font-size:13px; font-weight:600; margin-bottom:4px; }
+  .swatch-hex   { font-size:11px; font-family:'Courier New',monospace; color:var(--text-muted); margin-bottom:3px; }
+  .swatch-use   { font-size:11px; color:var(--text-muted); line-height:1.4; }
+
+  .type-scale { margin-bottom:40px; }
+  .type-row {
+    display:grid; grid-template-columns:180px 1fr 240px;
+    align-items:center; gap:16px;
+    padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,0.06);
+  }
+  .type-label { font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace; }
+  .type-spec   { font-size:11px; color:var(--text-muted); font-family:'Courier New',monospace; background:rgba(255,255,255,0.04); padding:4px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.07); }
+
+  .token-block {
+    background: rgba(4,13,30,0.8);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:12px; padding:20px;
+    margin-bottom:16px;
+  }
+  .token-row {
+    display:flex; align-items:center; gap:12px;
+    padding:10px 0;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+  }
+  .token-row:last-child { border-bottom:none; }
+  .token-name  { font-size:12px; color:var(--accent-violet); font-family:'Courier New',monospace; min-width:200px; }
+  .token-val   { font-size:12px; color:var(--text-secondary); font-family:'Courier New',monospace; flex:1; }
+  .token-swatch { width:28px; height:28px; border-radius:6px; border:1px solid var(--glass-border); flex-shrink:0; }
+  .copy-btn {
+    font-size:10px; padding:3px 10px; border-radius:6px;
+    border:1px solid var(--glass-border); background:transparent;
+    color:var(--text-muted); cursor:pointer; transition:all 0.15s; white-space:nowrap;
+  }
+  .copy-btn:hover { border-color:var(--accent-cyan); color:var(--accent-cyan); }
+  .copy-btn.copied { border-color:var(--accent-emerald); color:var(--accent-emerald); }
+
+  /* ══════════════════════════════════════════════
+     TAB 5 — NAV & HEADERS
+  ══════════════════════════════════════════════ */
+  .component-block { margin-bottom:48px; }
+  .component-name {
+    font-size:13px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent-cyan); margin-bottom:16px; padding-bottom:10px;
+    border-bottom:1px solid var(--glass-border);
+  }
+  .component-demo { margin-bottom:14px; }
+  .spec-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:16px; }
+  .spec-card { background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07); border-radius:10px; padding:16px; }
+  .spec-key { font-size:10px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-muted); font-family:'Courier New',monospace; margin-bottom:6px; }
+  .spec-val { font-size:12px; color:var(--text-secondary); font-family:'Courier New',monospace; line-height:1.6; }
+
+  /* mobile tab row (demo) */
+  .mobile-tab-row {
+    display:flex; gap:4px; overflow-x:auto;
+    background:rgba(13,21,38,0.9); border:1px solid var(--glass-border);
+    border-radius:14px; padding:6px;
+  }
+  .mobile-tab {
+    flex-shrink:0; padding:8px 18px; border-radius:10px;
+    font-size:13px; font-weight:500; color:var(--text-muted); cursor:pointer;
+    white-space:nowrap; transition:all 0.15s;
+  }
+  .mobile-tab.active {
+    background:rgba(167,139,250,0.18); color:var(--accent-violet);
+    border:1px solid rgba(167,139,250,0.28);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .column-grid { grid-template-columns:repeat(2,1fr); }
+    .card-gallery { grid-template-columns:1fr 1fr; }
+    .detail-layout { grid-template-columns:1fr; }
+    .color-grid { grid-template-columns:repeat(2,1fr); }
+    .spec-grid { grid-template-columns:1fr; }
+    .tab-nav { overflow-x:auto; padding:10px 20px; }
+    .section { padding:28px 20px 60px; }
+    .kit-header { padding:20px; flex-direction:column; gap:8px; align-items:flex-start; }
+  }
+
+  /* scrollbar */
+  ::-webkit-scrollbar { width:5px; height:5px; }
+  ::-webkit-scrollbar-track { background:transparent; }
+  ::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.12); border-radius:3px; }
+</style>
+</head>
+<body>
+
+<!-- Ambient orbs -->
+<div class="orb-wrap">
+  <div class="orb orb-violet"></div>
+  <div class="orb orb-cyan"></div>
+  <div class="orb orb-emerald"></div>
+</div>
+
+<div class="shell">
+
+  <!-- Kit header -->
+  <div class="kit-header">
+    <div class="kit-brand">
+      <div class="kit-badge">⬡ UX Design Kit</div>
+      <div class="kit-title">AI<span>News</span> — Design Reference</div>
+    </div>
+    <div class="kit-meta">Dark Glassmorphism · React + Tailwind · Phase 1 MVP</div>
+  </div>
+
+  <!-- Tab navigation -->
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="showTab('feed',this)">① Home Feed</button>
+    <button class="tab-btn" onclick="showTab('card',this)">② Card Style</button>
+    <button class="tab-btn" onclick="showTab('detail',this)">③ Item Detail</button>
+    <button class="tab-btn" onclick="showTab('tokens',this)">④ Typography &amp; Colors</button>
+    <button class="tab-btn" onclick="showTab('nav',this)">⑤ Nav &amp; Headers</button>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       TAB 1 — HOME FEED / MAIN LAYOUT
+  ══════════════════════════════════════════ -->
+  <div class="section active" id="tab-feed">
+    <div class="sec-eyebrow">Tab 1 of 5</div>
+    <div class="sec-title">Home Feed — Main Layout</div>
+    <div class="sec-desc">Full dashboard view: app nav bar → search + filter strip → 4-column topic grid. Each column has a sticky accent-colored header and stacked glass news cards.</div>
+
+    <!-- App nav bar -->
+    <div class="app-nav">
+      <div class="app-nav-brand">AI<em>News</em></div>
+      <div style="flex:1; max-width:400px; margin:0 40px;">
+        <div class="search-wrap" style="margin:0; padding:8px 16px;">
+          <span class="search-icon">🔍</span>
+          <span class="search-placeholder">Search articles, topics, papers…</span>
+        </div>
+      </div>
+      <div class="app-nav-actions">
+        <div class="nav-icon-btn" title="Bookmarks">🔖</div>
+        <div class="nav-icon-btn" title="Settings">⚙</div>
+      </div>
+    </div>
+
+    <!-- Filter chips -->
+    <div class="chip-row">
+      <button class="pill-chip" style="background:rgba(167,139,250,0.15);border-color:rgba(167,139,250,0.30);color:var(--accent-violet);">All Topics</button>
+      <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Engineering</button>
+      <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Research</button>
+      <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Jobs</button>
+      <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Products</button>
+    </div>
+
+    <!-- 4-column grid -->
+    <div class="column-grid">
+
+      <!-- Engineering -->
+      <div class="topic-col">
+        <div class="col-header" style="background:rgba(167,139,250,0.08);border-color:rgba(167,139,250,0.25);">
+          <span class="col-header-label" style="color:var(--accent-violet);">Engineering</span>
+          <span class="col-header-count">12</span>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Tool</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">GitHub Copilot Workspace ships multi-file reasoning with full repo context window</div>
+          <div class="card-summary">Copilot Workspace now supports 100k-token project context, enabling agents to plan and execute changes across entire codebases in a single session.</div>
+          <div class="card-footer">
+            <span class="card-source">github.blog</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Paper</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">SWE-bench Verified 2.0 raises the bar — top agents now reach 71% resolution rate</div>
+          <div class="card-summary">The updated benchmark introduces concurrency bugs and ambiguous specs that tripped all previous top-scorers. Claude 3.7 leads with 71.2%.</div>
+          <div class="card-footer">
+            <span class="card-source">arxiv.org</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Guide</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Cursor 2.0 ships AI diff view and inline terminal agent</div>
+          <div class="card-summary">A redesigned diff panel lets developers accept, reject, or partially apply AI-generated changes at the hunk level.</div>
+          <div class="card-footer">
+            <span class="card-source">cursor.sh</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research -->
+      <div class="topic-col">
+        <div class="col-header" style="background:rgba(34,211,238,0.07);border-color:rgba(34,211,238,0.22);">
+          <span class="col-header-label" style="color:var(--accent-cyan);">Research</span>
+          <span class="col-header-count">9</span>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);color:var(--accent-cyan);">Paper</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Constitutional AI v3 — self-correction via red-teaming without human labels</div>
+          <div class="card-summary">Anthropic's updated CAI loop generates and filters harmful outputs autonomously during training, reducing RLHF labelling costs by 60%.</div>
+          <div class="card-footer">
+            <span class="card-source">anthropic.com</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);color:var(--accent-cyan);">Research</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Mixture of Depths: sparse token computation reduces inference FLOPs by 50%</div>
+          <div class="card-summary">A new routing mechanism skips transformer layers for low-information tokens, trading minor accuracy loss for dramatic latency improvements.</div>
+          <div class="card-footer">
+            <span class="card-source">arxiv.org</span>
+            <span class="card-date">Feb 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);color:var(--accent-cyan);">Video</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Attention Is All You Need — 7 years on: what changed and what didn't</div>
+          <div class="card-summary">Andrej Karpathy's retrospective on the original paper, tracing which design choices proved durable and which have been superseded.</div>
+          <div class="card-footer">
+            <span class="card-source">youtube.com</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jobs -->
+      <div class="topic-col">
+        <div class="col-header" style="background:rgba(52,211,153,0.07);border-color:rgba(52,211,153,0.20);">
+          <span class="col-header-label" style="color:var(--accent-emerald);">Jobs</span>
+          <span class="col-header-count">7</span>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(52,211,153,0.10);border:1px solid rgba(52,211,153,0.22);color:var(--accent-emerald);">Market</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">AI Engineer median salary reaches $245k in San Francisco — Levels.fyi survey</div>
+          <div class="card-summary">The 2026 compensation survey shows AI Engineering pulling 38% ahead of senior SWE roles, driven by model evaluation and fine-tuning specialisations.</div>
+          <div class="card-footer">
+            <span class="card-source">levels.fyi</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(52,211,153,0.10);border:1px solid rgba(52,211,153,0.22);color:var(--accent-emerald);">Trend</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">"Prompt Engineer" title fades — replaced by "AI Product Manager" and "Agent Architect"</div>
+          <div class="card-summary">LinkedIn job postings analysis reveals prompt engineering listings down 62% YoY while AI PM and agent design roles tripled.</div>
+          <div class="card-footer">
+            <span class="card-source">linkedin.com</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div class="topic-col">
+        <div class="col-header" style="background:rgba(251,191,36,0.07);border-color:rgba(251,191,36,0.20);">
+          <span class="col-header-label" style="color:var(--accent-amber);">Products</span>
+          <span class="col-header-count">11</span>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(251,191,36,0.10);border:1px solid rgba(251,191,36,0.22);color:var(--accent-amber);">Launch</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Perplexity Pro adds deep research mode with 50-source citation synthesis</div>
+          <div class="card-summary">The new mode runs up to 8 parallel searches, reads full article bodies, and produces a structured report with inline source links in under 90 seconds.</div>
+          <div class="card-footer">
+            <span class="card-source">perplexity.ai</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(251,191,36,0.10);border:1px solid rgba(251,191,36,0.22);color:var(--accent-amber);">Analysis</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">OpenAI o3-mini vs Claude 3.7 — head-to-head on 12 real engineering tasks</div>
+          <div class="card-summary">Independent benchmark across code generation, debugging, system design, and documentation. Includes cost-per-token comparisons and latency profiles.</div>
+          <div class="card-footer">
+            <span class="card-source">newsletter.pragmaticengineer.com</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+        <div class="glass news-card">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(251,191,36,0.10);border:1px solid rgba(251,191,36,0.22);color:var(--accent-amber);">News</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title">Google Gemini Ultra 2.0 achieves human-level performance on MMMU multimodal benchmark</div>
+          <div class="card-summary">The new model scores 91.4% on MMMU — surpassing the estimated average human expert score of 88.6% for the first time on this benchmark.</div>
+          <div class="card-footer">
+            <span class="card-source">deepmind.google</span>
+            <span class="card-date">Feb 2026</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /column-grid -->
+
+    <div class="annot" style="margin-top:24px;">
+      Layout: <strong>grid grid-cols-4 gap-4</strong> · Column header: <strong>sticky top-0 backdrop-blur-md</strong> · Card: <strong>bg-white/[0.06] backdrop-blur-xl border border-white/[0.12] rounded-2xl hover:-translate-y-0.5</strong>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       TAB 2 — INDIVIDUAL CARD / ITEM STYLE
+  ══════════════════════════════════════════ -->
+  <div class="section" id="tab-card">
+    <div class="sec-eyebrow">Tab 2 of 5</div>
+    <div class="sec-title">Individual Card — Item Style</div>
+    <div class="sec-desc">All card states and topic variants. Every card carries a shimmer line, topic tag, 2-line title clamp, 3-line summary clamp, and source / date footer.</div>
+
+    <!-- State variations -->
+    <div style="margin-bottom:12px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text-muted);">States</div>
+    <div class="card-gallery" style="margin-bottom:48px;">
+
+      <div>
+        <div class="card-variant-label">Default</div>
+        <div class="glass news-card-lg">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Paper</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">Constitutional AI v3 — self-correction via red-teaming without human labels</div>
+          <div class="card-summary" style="font-size:13px;">Anthropic's updated CAI loop generates and filters harmful outputs autonomously during training, reducing RLHF labelling costs by 60%.</div>
+          <div class="card-footer">
+            <span class="card-source">anthropic.com</span>
+            <span class="card-date">Mar 29, 2026</span>
+          </div>
+        </div>
+        <div class="annot">bg-white/[0.06] · border-white/[0.12]</div>
+      </div>
+
+      <div>
+        <div class="card-variant-label">Hover (lifted)</div>
+        <div class="glass news-card-lg" style="background:var(--glass-hover);border-color:rgba(255,255,255,0.22);transform:translateY(-3px);box-shadow:0 12px 36px rgba(0,0,0,0.4);">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Paper</span>
+            <button class="bm-btn" style="color:var(--accent-cyan);">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">Constitutional AI v3 — self-correction via red-teaming without human labels</div>
+          <div class="card-summary" style="font-size:13px;">Anthropic's updated CAI loop generates and filters harmful outputs autonomously during training, reducing RLHF labelling costs by 60%.</div>
+          <div class="card-footer">
+            <span class="card-source">anthropic.com</span>
+            <span class="card-date">Mar 29, 2026</span>
+          </div>
+        </div>
+        <div class="annot">bg-white/[0.10] · border-white/[0.22] · -translate-y-0.5</div>
+      </div>
+
+      <div>
+        <div class="card-variant-label">Bookmarked</div>
+        <div class="glass news-card-lg" style="border-color:rgba(34,211,238,0.22);">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Paper</span>
+            <button class="bm-btn" style="color:var(--accent-cyan);">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">Constitutional AI v3 — self-correction via red-teaming without human labels</div>
+          <div class="card-summary" style="font-size:13px;">Anthropic's updated CAI loop generates and filters harmful outputs autonomously during training, reducing RLHF labelling costs by 60%.</div>
+          <div class="card-footer">
+            <span class="card-source">anthropic.com</span>
+            <span class="card-date">Mar 29, 2026</span>
+          </div>
+        </div>
+        <div class="annot">border-cyan-400/22 · bookmark icon text-cyan-400</div>
+      </div>
+    </div>
+
+    <!-- Topic variants -->
+    <div style="margin-bottom:12px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--text-muted);">Topic Accent Variants</div>
+    <div class="card-gallery">
+
+      <div>
+        <div class="card-variant-label" style="color:var(--accent-violet);">Engineering — Violet</div>
+        <div class="glass news-card-lg">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(167,139,250,0.12);border:1px solid rgba(167,139,250,0.25);color:var(--accent-violet);">Tool</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">GitHub Copilot Workspace ships multi-file reasoning</div>
+          <div class="card-summary" style="font-size:13px;">Full repo context window now supports 100k tokens, enabling multi-file planning and execution in a single agent session.</div>
+          <div class="card-footer">
+            <span class="card-source">github.blog</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card-variant-label" style="color:var(--accent-cyan);">Research — Cyan</div>
+        <div class="glass news-card-lg">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);color:var(--accent-cyan);">Paper</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">Mixture of Depths reduces inference FLOPs by 50%</div>
+          <div class="card-summary" style="font-size:13px;">Sparse token routing skips transformer layers for low-information tokens, trading minor accuracy loss for dramatic latency gains.</div>
+          <div class="card-footer">
+            <span class="card-source">arxiv.org</span>
+            <span class="card-date">Feb 2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card-variant-label" style="color:var(--accent-emerald);">Jobs — Emerald</div>
+        <div class="glass news-card-lg">
+          <div class="card-top">
+            <span class="label-tag" style="background:rgba(52,211,153,0.10);border:1px solid rgba(52,211,153,0.22);color:var(--accent-emerald);">Market</span>
+            <button class="bm-btn">🔖</button>
+          </div>
+          <div class="card-title" style="font-size:15px;">AI Engineer median salary reaches $245k in San Francisco</div>
+          <div class="card-summary" style="font-size:13px;">Levels.fyi 2026 survey finds AI Engineering pulling 38% ahead of senior SWE roles across all major tech hubs.</div>
+          <div class="card-footer">
+            <span class="card-source">levels.fyi</span>
+            <span class="card-date">Mar 2026</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Anatomy callout -->
+    <div class="glass glass-static" style="padding:24px;margin-top:32px;">
+      <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:16px;">Card Anatomy — Required Elements</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;font-size:13px;">
+        <div><span style="color:var(--accent-violet);">shimmer line</span> — before:h-px gradient via-white/20, always top edge</div>
+        <div><span style="color:var(--accent-cyan);">topic tag</span> — font-mono uppercase, accent-colored pill, top-left</div>
+        <div><span style="color:var(--accent-emerald);">title</span> — line-clamp-2, text-[15px] font-semibold text-slate-100</div>
+        <div><span style="color:var(--accent-amber);">summary</span> — line-clamp-3, text-sm text-slate-400</div>
+        <div><span style="color:var(--text-secondary);">footer</span> — border-t white/6, source + date mono text-slate-500</div>
+        <div><span style="color:var(--text-secondary);">bookmark</span> — ghost btn top-right, hover:text-cyan-400</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       TAB 3 — ITEM DETAIL VIEW
+  ══════════════════════════════════════════ -->
+  <div class="section" id="tab-detail">
+    <div class="sec-eyebrow">Tab 3 of 5</div>
+    <div class="sec-title">Item Detail View</div>
+    <div class="sec-desc">Expanded article panel with key concepts, why-it-matters summary, and the Knowledge Check sidebar — the primary learning interaction surface.</div>
+
+    <div class="detail-layout">
+
+      <!-- Main article panel -->
+      <div class="glass detail-panel glass-static" style="cursor:default;">
+        <div class="detail-back">← Back to feed</div>
+
+        <div class="detail-topic-row">
+          <span class="label-tag" style="background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);color:var(--accent-cyan);">Research Paper</span>
+          <span style="font-size:12px;color:var(--text-muted);font-family:'Courier New',monospace;">arxiv · Feb 2026</span>
+        </div>
+
+        <h1 class="detail-title">Constitutional AI v3 — self-correction via red-teaming without human labels</h1>
+
+        <div class="detail-meta">
+          <div class="detail-meta-item">
+            <div class="detail-meta-key">Source</div>
+            <div class="detail-meta-val">anthropic.com</div>
+          </div>
+          <div class="detail-meta-item">
+            <div class="detail-meta-key">Published</div>
+            <div class="detail-meta-val">Mar 29, 2026</div>
+          </div>
+          <div class="detail-meta-item">
+            <div class="detail-meta-key">Read time</div>
+            <div class="detail-meta-val">~8 min</div>
+          </div>
+          <div class="detail-meta-item">
+            <div class="detail-meta-key">Type</div>
+            <div class="detail-meta-val">Research paper</div>
+          </div>
+        </div>
+
+        <div class="detail-divider"></div>
+
+        <div class="detail-section-title">Why It Matters</div>
+        <div class="detail-body">
+          <p>This work directly addresses one of the costliest bottlenecks in RLHF: human labellers. By enabling the model to generate and filter its own training signal, Anthropic reduces the need for annotated harmful examples without sacrificing safety performance.</p>
+          <p>The 60% reduction in labelling costs could meaningfully lower the barrier for smaller labs to train safer models — or allow frontier labs to iterate faster on alignment techniques.</p>
+        </div>
+
+        <div class="detail-section-title">Summary</div>
+        <div class="detail-body">
+          <p>CAI v3 introduces a self-play red-teaming loop where a helper model attempts to elicit harmful outputs, and the primary model learns to refuse them — all within training, without human-in-the-loop annotation at each step.</p>
+          <p>The paper demonstrates that this technique maintains 96% of supervised safety performance while operating with dramatically fewer labelled examples, and generalises better to out-of-distribution harmful prompts.</p>
+        </div>
+
+        <div class="detail-section-title">Key Concepts</div>
+        <div style="margin-bottom:16px;">
+          <span class="concept-chip">Constitutional AI</span>
+          <span class="concept-chip">RLHF</span>
+          <span class="concept-chip">Red-teaming</span>
+          <span class="concept-chip">Self-play</span>
+          <span class="concept-chip">Safety alignment</span>
+          <span class="concept-chip">Reward modelling</span>
+        </div>
+
+        <div class="detail-divider"></div>
+
+        <a href="#" style="display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--accent-cyan);text-decoration:none;font-family:'Courier New',monospace;">
+          → Read full paper on anthropic.com
+        </a>
+      </div>
+
+      <!-- Knowledge quiz sidebar -->
+      <div class="glass quiz-sidebar glass-static" style="cursor:default;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-cyan);margin-bottom:16px;font-family:'Courier New',monospace;">Knowledge Check</div>
+
+        <div class="quiz-q">What is the primary advantage of CAI v3's self-play red-teaming loop over traditional RLHF?</div>
+
+        <button class="quiz-opt">A. It eliminates the need for a reward model entirely</button>
+        <button class="quiz-opt correct">B. It reduces reliance on human-labelled harmful examples during training ✓</button>
+        <button class="quiz-opt wrong">C. It increases the model's context window ✗</button>
+        <button class="quiz-opt">D. It replaces PPO with a simpler optimisation algorithm</button>
+
+        <div style="margin-top:20px;padding:14px;background:rgba(52,211,153,0.08);border:1px solid rgba(52,211,153,0.20);border-radius:10px;">
+          <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent-emerald);margin-bottom:6px;">Correct!</div>
+          <div style="font-size:12px;color:var(--text-secondary);line-height:1.5;">CAI v3's self-play loop generates its own training signal, reducing annotation costs by 60% while maintaining 96% of safety performance.</div>
+        </div>
+
+        <div style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.06);">
+          <div style="font-size:11px;color:var(--text-muted);font-family:'Courier New',monospace;margin-bottom:10px;">1 of 3 questions</div>
+          <button style="width:100%;padding:12px;background:rgba(34,211,238,0.10);border:1px solid rgba(34,211,238,0.25);border-radius:10px;color:var(--accent-cyan);font-size:13px;cursor:pointer;">Next question →</button>
+        </div>
+      </div>
+
+    </div><!-- /detail-layout -->
+
+    <div class="annot" style="margin-top:20px;">
+      Detail layout: <strong>grid grid-cols-[1fr_380px] gap-6</strong> · Correct option: <strong>bg-emerald-500/15 border-emerald-500/35</strong> · Wrong: <strong>bg-rose-500/15 border-rose-500/35</strong> · Quiz overlay alt: <strong>fixed inset-0 bg-black/60 backdrop-blur-sm z-50</strong>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       TAB 4 — TYPOGRAPHY & COLORS
+  ══════════════════════════════════════════ -->
+  <div class="section" id="tab-tokens">
+    <div class="sec-eyebrow">Tab 4 of 5</div>
+    <div class="sec-title">Typography &amp; Color Swatches</div>
+    <div class="sec-desc">All design tokens: accent palette, background system, text hierarchy, and glass utilities — copy-paste ready for Tailwind config and JSX.</div>
+
+    <!-- Accent colors -->
+    <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:16px;">Accent Color System — 1 accent per topic column, never mixed</div>
+    <div class="color-grid" style="margin-bottom:40px;">
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(167,139,250,0.6),rgba(167,139,250,0.2));"></div>
+        <div class="swatch-info">
+          <div class="swatch-name" style="color:#a78bfa;">Violet — Engineering</div>
+          <div class="swatch-hex">#a78bfa · violet-400</div>
+          <div class="swatch-use">text-violet-400 · bg-violet-500/10 · border-violet-500/25</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(34,211,238,0.6),rgba(34,211,238,0.2));"></div>
+        <div class="swatch-info">
+          <div class="swatch-name" style="color:#22d3ee;">Cyan — Research</div>
+          <div class="swatch-hex">#22d3ee · cyan-400</div>
+          <div class="swatch-use">text-cyan-400 · bg-cyan-500/10 · border-cyan-500/25</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(52,211,153,0.6),rgba(52,211,153,0.2));"></div>
+        <div class="swatch-info">
+          <div class="swatch-name" style="color:#34d399;">Emerald — Jobs</div>
+          <div class="swatch-hex">#34d399 · emerald-400</div>
+          <div class="swatch-use">text-emerald-400 · bg-emerald-500/10 · border-emerald-500/25</div>
+        </div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(251,191,36,0.6),rgba(251,191,36,0.2));"></div>
+        <div class="swatch-info">
+          <div class="swatch-name" style="color:#fbbf24;">Amber — Products</div>
+          <div class="swatch-hex">#fbbf24 · amber-400</div>
+          <div class="swatch-use">text-amber-400 · bg-amber-500/10 · border-amber-500/25</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Background system -->
+    <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:16px;">Background System</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:40px;">
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:#060a14;border-bottom:1px solid rgba(255,255,255,0.08);"></div>
+        <div class="swatch-info"><div class="swatch-name">Page Background</div><div class="swatch-hex">#060a14</div><div class="swatch-use">bg-[#060a14] · &lt;body&gt; and root</div></div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:#0d1526;border-bottom:1px solid rgba(255,255,255,0.08);"></div>
+        <div class="swatch-info"><div class="swatch-name">Surface Base</div><div class="swatch-hex">#0d1526</div><div class="swatch-use">bg-[#0d1526] · nav, panels</div></div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:#121f38;border-bottom:1px solid rgba(255,255,255,0.08);"></div>
+        <div class="swatch-info"><div class="swatch-name">Surface Raised</div><div class="swatch-hex">#121f38</div><div class="swatch-use">bg-[#121f38] · elevated panels</div></div>
+      </div>
+    </div>
+
+    <!-- Text hierarchy -->
+    <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:16px;">Text Colors</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:40px;">
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(241,245,249,0.12),rgba(241,245,249,0.04));display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:#f1f5f9;">Aa</div>
+        <div class="swatch-info"><div class="swatch-name" style="color:#f1f5f9;">Primary</div><div class="swatch-hex">#f1f5f9 · slate-100</div><div class="swatch-use">Headings, card titles, active UI</div></div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(148,163,184,0.12),rgba(148,163,184,0.04));display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:#94a3b8;">Aa</div>
+        <div class="swatch-info"><div class="swatch-name" style="color:#94a3b8;">Secondary</div><div class="swatch-hex">#94a3b8 · slate-400</div><div class="swatch-use">Body, summaries, descriptions</div></div>
+      </div>
+      <div class="color-swatch">
+        <div class="swatch-block" style="background:linear-gradient(135deg,rgba(100,116,139,0.12),rgba(100,116,139,0.04));display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:#64748b;">Aa</div>
+        <div class="swatch-info"><div class="swatch-name" style="color:#64748b;">Muted</div><div class="swatch-hex">#64748b · slate-500</div><div class="swatch-use">Timestamps, sources, counts</div></div>
+      </div>
+    </div>
+
+    <!-- Type scale -->
+    <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:16px;">Type Scale</div>
+    <div class="token-block type-scale">
+      <div class="type-row">
+        <div class="type-label">heading-primary</div>
+        <div style="font-size:24px;font-weight:700;color:var(--text-primary);tracking-tight;">Page heading</div>
+        <div class="type-spec">24px / 700 / tracking-tight / slate-100</div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">card-title</div>
+        <div style="font-size:15px;font-weight:600;color:var(--text-primary);line-height:1.4;">News card headline — 2-line clamp</div>
+        <div class="type-spec">15px / 600 / line-h 1.4 / line-clamp-2</div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">body-secondary</div>
+        <div style="font-size:14px;color:var(--text-secondary);line-height:1.6;">Summary text — 3-line clamp applied</div>
+        <div class="type-spec">14px / 400 / line-h 1.6 / slate-400</div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">metadata</div>
+        <div style="font-size:12px;color:var(--text-muted);font-family:'Courier New',monospace;">arxiv.org · Mar 2026</div>
+        <div class="type-spec">12px / 400 / mono / slate-500</div>
+      </div>
+      <div class="type-row">
+        <div class="type-label">label-tag</div>
+        <div style="font-size:11px;font-family:'Courier New',monospace;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-violet);">ENGINEERING</div>
+        <div class="type-spec">11px / 700 / mono / uppercase / tracking-widest</div>
+      </div>
+      <div class="type-row" style="border-bottom:none;">
+        <div class="type-label">filter-chip</div>
+        <div>
+          <span class="pill-chip" style="font-size:12px;background:rgba(167,139,250,0.15);border-color:rgba(167,139,250,0.30);color:var(--accent-violet);">Active chip</span>
+          &nbsp;
+          <span class="pill-chip" style="font-size:12px;background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Inactive</span>
+        </div>
+        <div class="type-spec">12px / 500 / rounded-full / px-4 py-1.5</div>
+      </div>
+    </div>
+
+    <!-- Glass tokens -->
+    <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin:32px 0 16px;">Glass Utility Tokens</div>
+    <div class="token-block">
+      <div class="token-row">
+        <div class="token-name">glass-card-base</div>
+        <div class="token-val">bg-white/[0.06] backdrop-blur-xl border border-white/[0.12] rounded-2xl</div>
+        <button class="copy-btn" onclick="copyToken(this,'bg-white/[0.06] backdrop-blur-xl border border-white/[0.12] rounded-2xl')">Copy</button>
+      </div>
+      <div class="token-row">
+        <div class="token-name">glass-card-hover</div>
+        <div class="token-val">hover:bg-white/[0.10] hover:border-white/[0.20] hover:-translate-y-0.5 transition-all duration-200</div>
+        <button class="copy-btn" onclick="copyToken(this,'hover:bg-white/[0.10] hover:border-white/[0.20] hover:-translate-y-0.5 transition-all duration-200')">Copy</button>
+      </div>
+      <div class="token-row">
+        <div class="token-name">glass-shimmer</div>
+        <div class="token-val">before:absolute before:top-0 before:inset-x-0 before:h-px before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent</div>
+        <button class="copy-btn" onclick="copyToken(this,'before:absolute before:top-0 before:inset-x-0 before:h-px before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent')">Copy</button>
+      </div>
+      <div class="token-row">
+        <div class="token-name">glass-search-input</div>
+        <div class="token-val">bg-white/[0.07] border border-white/[0.15] focus:border-cyan-400/50 rounded-xl text-slate-100 placeholder:text-slate-500</div>
+        <button class="copy-btn" onclick="copyToken(this,'bg-white/[0.07] border border-white/[0.15] focus:border-cyan-400/50 rounded-xl text-slate-100 placeholder:text-slate-500')">Copy</button>
+      </div>
+      <div class="token-row">
+        <div class="token-name">glass-modal-overlay</div>
+        <div class="token-val">fixed inset-0 bg-black/60 backdrop-blur-sm z-50</div>
+        <button class="copy-btn" onclick="copyToken(this,'fixed inset-0 bg-black/60 backdrop-blur-sm z-50')">Copy</button>
+      </div>
+      <div class="token-row" style="border-bottom:none;">
+        <div class="token-name">glass-modal-panel</div>
+        <div class="token-val">bg-white/[0.10] backdrop-blur-2xl border border-white/[0.15] rounded-2xl</div>
+        <button class="copy-btn" onclick="copyToken(this,'bg-white/[0.10] backdrop-blur-2xl border border-white/[0.15] rounded-2xl')">Copy</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════
+       TAB 5 — NAV & HEADER COMPONENTS
+  ══════════════════════════════════════════ -->
+  <div class="section" id="tab-nav">
+    <div class="sec-eyebrow">Tab 5 of 5</div>
+    <div class="sec-title">Navigation &amp; Header Components</div>
+    <div class="sec-desc">All top-level navigation surfaces: app nav bar, topic column headers (desktop 4-column and mobile tab variants), and the search + filter strip.</div>
+
+    <!-- App nav bar -->
+    <div class="component-block">
+      <div class="component-name">App Navigation Bar</div>
+      <div class="component-demo">
+        <div class="app-nav">
+          <div class="app-nav-brand">AI<em style="color:var(--accent-violet);font-style:normal;">News</em></div>
+          <div style="flex:1;max-width:480px;margin:0 40px;">
+            <div class="search-wrap" style="margin:0;padding:9px 16px;">
+              <span class="search-icon">🔍</span>
+              <span class="search-placeholder">Search articles, topics, papers…</span>
+            </div>
+          </div>
+          <div class="app-nav-actions">
+            <div class="nav-icon-btn">🔖</div>
+            <div class="nav-icon-btn" style="color:var(--accent-cyan);border-color:rgba(34,211,238,0.3);">⚙</div>
+          </div>
+        </div>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card"><div class="spec-key">Container</div><div class="spec-val">sticky top-0 z-20<br>bg-[#0d1526]/80 backdrop-blur-md<br>border-b border-white/[0.08]<br>px-8 py-4</div></div>
+        <div class="spec-card"><div class="spec-key">Brand wordmark</div><div class="spec-val">text-lg font-semibold text-slate-100<br>"AI" default · "News" text-violet-400</div></div>
+        <div class="spec-card"><div class="spec-key">Inline search</div><div class="spec-val">max-w-[480px] flex-1 mx-10<br>glass-search-input token<br>focus:border-cyan-400/50</div></div>
+        <div class="spec-card"><div class="spec-key">Icon buttons</div><div class="spec-val">w-9 h-9 rounded-[9px]<br>bg-white/[0.05] border-white/[0.12]<br>hover:text-cyan-400 hover:border-cyan-400/30</div></div>
+      </div>
+    </div>
+
+    <!-- Topic column headers -->
+    <div class="component-block">
+      <div class="component-name">Topic Column Headers — Desktop (4-Column)</div>
+      <div class="component-demo">
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+          <div class="col-header" style="background:rgba(167,139,250,0.08);border-color:rgba(167,139,250,0.25);">
+            <span class="col-header-label" style="color:var(--accent-violet);">Engineering</span>
+            <span class="col-header-count">12</span>
+          </div>
+          <div class="col-header" style="background:rgba(34,211,238,0.07);border-color:rgba(34,211,238,0.22);">
+            <span class="col-header-label" style="color:var(--accent-cyan);">Research</span>
+            <span class="col-header-count">9</span>
+          </div>
+          <div class="col-header" style="background:rgba(52,211,153,0.07);border-color:rgba(52,211,153,0.20);">
+            <span class="col-header-label" style="color:var(--accent-emerald);">Jobs</span>
+            <span class="col-header-count">7</span>
+          </div>
+          <div class="col-header" style="background:rgba(251,191,36,0.07);border-color:rgba(251,191,36,0.20);">
+            <span class="col-header-label" style="color:var(--accent-amber);">Products</span>
+            <span class="col-header-count">11</span>
+          </div>
+        </div>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card"><div class="spec-key">Container</div><div class="spec-val">sticky top-[56px] z-10 backdrop-blur-md<br>rounded-t-2xl px-4 py-3<br>flex items-center justify-between</div></div>
+        <div class="spec-card"><div class="spec-key">Background</div><div class="spec-val">bg-{accent}-500/[0.08]<br>border border-{accent}-500/25<br>border-b border-b-{accent}-500/25</div></div>
+        <div class="spec-card"><div class="spec-key">Topic label</div><div class="spec-val">font-mono text-[11px] font-semibold<br>tracking-widest uppercase<br>text-{accent}-400</div></div>
+        <div class="spec-card"><div class="spec-key">Item count</div><div class="spec-val">text-xs text-slate-500 font-mono<br>right-aligned</div></div>
+      </div>
+    </div>
+
+    <!-- Mobile tab row -->
+    <div class="component-block">
+      <div class="component-name">Mobile Tab Row (≤768px — replaces 4 columns)</div>
+      <div class="component-demo" style="max-width:480px;">
+        <div class="mobile-tab-row">
+          <div class="mobile-tab active">Engineering</div>
+          <div class="mobile-tab">Research</div>
+          <div class="mobile-tab">Jobs</div>
+          <div class="mobile-tab">Products</div>
+        </div>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card"><div class="spec-key">Container</div><div class="spec-val">flex gap-1 overflow-x-auto<br>bg-[#0d1526]/90 border border-white/[0.12]<br>rounded-[14px] p-1.5</div></div>
+        <div class="spec-card"><div class="spec-key">Active tab</div><div class="spec-val">bg-violet-500/18 text-violet-400<br>border border-violet-500/28 rounded-[10px]<br>px-4 py-2 font-medium text-sm</div></div>
+      </div>
+    </div>
+
+    <!-- Search + filter strip -->
+    <div class="component-block">
+      <div class="component-name">Search + Filter Strip</div>
+      <div class="component-demo">
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <!-- Default state -->
+          <div>
+            <div style="font-size:11px;color:var(--text-muted);font-family:'Courier New',monospace;margin-bottom:6px;">Default</div>
+            <div class="search-wrap">
+              <span class="search-icon">🔍</span>
+              <span class="search-placeholder">Search articles, topics, papers…</span>
+            </div>
+          </div>
+          <!-- Focus state -->
+          <div>
+            <div style="font-size:11px;color:var(--text-muted);font-family:'Courier New',monospace;margin-bottom:6px;">Focus state</div>
+            <div class="search-wrap" style="border-color:rgba(34,211,238,0.5);background:rgba(255,255,255,0.09);">
+              <span class="search-icon" style="color:var(--accent-cyan);">🔍</span>
+              <span style="font-size:14px;color:var(--text-primary);">GPT-5 benchmark</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chip-row" style="margin-top:14px;">
+          <button class="pill-chip" style="background:rgba(167,139,250,0.15);border-color:rgba(167,139,250,0.30);color:var(--accent-violet);">All Topics</button>
+          <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Engineering</button>
+          <button class="pill-chip" style="background:rgba(34,211,238,0.12);border-color:rgba(34,211,238,0.28);color:var(--accent-cyan);">Research</button>
+          <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Jobs</button>
+          <button class="pill-chip" style="background:rgba(255,255,255,0.04);border-color:rgba(255,255,255,0.10);color:var(--text-muted);">Products</button>
+        </div>
+      </div>
+      <div class="spec-grid">
+        <div class="spec-card"><div class="spec-key">Input — default</div><div class="spec-val">bg-white/[0.07] border-white/[0.15]<br>rounded-xl pl-11 pr-4 py-3<br>text-sm text-slate-100</div></div>
+        <div class="spec-card"><div class="spec-key">Input — focus</div><div class="spec-val">focus:outline-none focus:ring-0<br>focus:border-cyan-400/50<br>transition-colors duration-200</div></div>
+        <div class="spec-card"><div class="spec-key">Chip — active</div><div class="spec-val">bg-{accent}/15 border-{accent}/30<br>text-{accent}-400 rounded-full<br>px-4 py-1.5 text-xs font-semibold</div></div>
+        <div class="spec-card"><div class="spec-key">Chip — inactive</div><div class="spec-val">bg-white/[0.04] border-white/[0.10]<br>text-slate-400 rounded-full<br>hover:bg-white/[0.08] hover:text-slate-200</div></div>
+      </div>
+    </div>
+
+  </div><!-- /tab-nav -->
+
+</div><!-- /shell -->
+
+<script>
+function showTab(name, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+function copyToken(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>
