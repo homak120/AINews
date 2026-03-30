@@ -86,8 +86,9 @@ be chosen.
 | **Data Source** | `data/news.json` (static) | Phase 1 only |
 | **Persistence** | localStorage | Bookmarks, notes, preferences |
 
-**Content Topics**: AI in Software Engineering · AI Research & CS · AI Job
-Market · AI Products & Industry
+**Content Topics**: AI Engineering & Skill Development · AI Research & Future
+Technology · AI Career & Workforce Intelligence · AI Industry Strategy &
+Product Landscape
 
 **Content Types**: YouTube videos (embedded), articles, arXiv papers,
 X/social posts from key AI figures
@@ -98,8 +99,8 @@ checks (2-3 questions per item), related content suggestions
 ## Deployment Strategy
 
 - **Phase 1 (MVP)**: Self-hosted — runs locally or on a personal VPS.
-  No CI/CD required. Weekly content refresh = re-run the seed script and
-  redeploy.
+  No CI/CD required. Weekly content refresh = run the Claude Code trigger
+  and redeploy.
 - **Phase 2**: Migrate to Vercel. All code MUST be written to be
   Vercel-compatible from day one (no server-only Node.js assumptions in
   frontend code, no hardcoded localhost URLs).

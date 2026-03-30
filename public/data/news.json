@@ -1,0 +1,510 @@
+{
+  "generatedAt": "2026-03-30T12:00:00Z",
+  "weekOf": "2026-03-23",
+  "items": [
+    {
+      "id": "article-builder-claude-code-march-updates",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Every Claude Code Update From March 2026, Explained",
+      "sourceUrl": "https://www.builder.io/blog/claude-code-updates",
+      "publishedAt": "2026-03-25",
+      "summary": "A comprehensive breakdown of all Claude Code updates shipped in March 2026, including computer use for Pro and Max users, voice mode with push-to-talk, the /loop command for background task scheduling, and 64k-128k output token limits. The article explains how each feature changes day-to-day developer workflows.",
+      "keyConcepts": [
+        "Computer use in Claude Code",
+        "Voice mode with push-to-talk",
+        "/loop scheduled background tasks",
+        "Extended output token limits"
+      ],
+      "whyItMatters": "Claude Code is now the most-used AI coding tool at 46% developer preference — these updates push it from code assistant to autonomous development environment, and every engineer using it should understand the new capabilities.",
+      "tags": ["claude-code", "anthropic", "developer-tools", "agentic-coding"],
+      "relatedIds": ["article-medium-state-of-ai-coding-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the /loop feature in Claude Code enable?",
+          "options": [
+            "Running code in an infinite loop for stress testing",
+            "Scheduling background tasks like PR reviews and deployment monitoring on a recurring basis",
+            "Looping through all files in a repository automatically",
+            "Repeating the last command until it succeeds"
+          ],
+          "correctIndex": 1,
+          "explanation": "The /loop feature turns Claude Code into a background worker with cron-like scheduled tasks, making it valuable for recurring tasks like PR reviews, deployment monitoring, and automated checks."
+        },
+        {
+          "question": "Why is computer use significant for Claude Code users?",
+          "options": [
+            "It allows Claude to mine cryptocurrency",
+            "It lets Claude open files, run dev tools, and navigate the screen autonomously with no setup",
+            "It replaces the need for a physical keyboard",
+            "It enables Claude to install operating system updates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Computer use lets Claude Code interact with the full desktop environment — opening files, clicking through GUIs, running dev tools — expanding its capabilities beyond just the terminal and code editor."
+        }
+      ]
+    },
+    {
+      "id": "article-medium-state-of-ai-coding-agents",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "The State of AI Coding Agents (2026): From Pair Programming to Autonomous AI Teams",
+      "sourceUrl": "https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a",
+      "publishedAt": "2026-03-24",
+      "summary": "A detailed analysis of how AI coding tools have evolved from autocomplete into autonomous agents that reason across multiple files, execute terminal commands, and verify their own work. The article benchmarks Claude Code, Cursor, Copilot, and Codex across real-world coding tasks and compares their agentic capabilities.",
+      "keyConcepts": [
+        "Autonomous coding agents",
+        "Multi-file reasoning",
+        "Self-verifying code generation",
+        "Agent team collaboration"
+      ],
+      "whyItMatters": "The shift from AI-as-autocomplete to AI-as-autonomous-agent fundamentally changes how engineers work — understanding which tools lead in agentic capabilities helps you choose the right workflow for your projects.",
+      "tags": ["agentic-coding", "claude-code", "cursor", "copilot", "autonomous-agents"],
+      "relatedIds": ["article-builder-claude-code-march-updates"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between 2024-era AI coding tools and 2026 agentic coding tools?",
+          "options": [
+            "2026 tools are cheaper",
+            "2026 agents can reason across multiple files, run commands, and verify their own work autonomously",
+            "2026 tools only work with Python",
+            "2026 tools require no internet connection"
+          ],
+          "correctIndex": 1,
+          "explanation": "The defining shift is from short prompt-response interactions to autonomous execution loops where agents plan multi-step tasks, execute them across files and terminals, and self-verify results — a fundamentally different paradigm from single-line autocomplete."
+        },
+        {
+          "question": "According to the article, which AI coding tool has the highest developer preference in 2026?",
+          "options": [
+            "GitHub Copilot",
+            "Cursor",
+            "Claude Code at 46%",
+            "OpenAI Codex"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code leads with 46% developer preference, largely due to its Agent Teams feature that allows multiple AI agents to communicate and share discoveries during complex tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-yc-w26-demo-day",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "16 of the Most Interesting Startups from YC W26 Demo Day",
+      "sourceUrl": "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
+      "publishedAt": "2026-03-26",
+      "summary": "Y Combinator's Winter 2026 batch featured nearly 190 startups, with 14 hitting $1M ARR by Demo Day — the highest ever. The cohort marks a shift from ChatGPT wrappers to deeply vertical, workflow-specific AI tools solving specific enterprise pain points across law, healthcare, transportation, and developer tooling.",
+      "keyConcepts": [
+        "YC W26 Demo Day",
+        "Vertical AI applications",
+        "Enterprise workflow automation",
+        "AI startup maturation"
+      ],
+      "whyItMatters": "The shift from generic AI wrappers to domain-specific tools signals where real enterprise value is being created — and where engineering talent will be in highest demand over the next 12 months.",
+      "tags": ["y-combinator", "startups", "demo-day", "enterprise-ai", "vertical-ai"],
+      "relatedIds": ["article-techcrunch-ai-startups-eating-vc"],
+      "knowledgeChecks": [
+        {
+          "question": "What trend distinguishes YC W26 startups from earlier AI cohorts?",
+          "options": [
+            "They all focus on consumer social apps",
+            "They moved from generic ChatGPT wrappers to deeply vertical, workflow-specific enterprise tools",
+            "They exclusively build open-source projects",
+            "They avoid using AI entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "The W26 cohort represents AI maturing past the hype phase — startups now build deeply vertical tools solving specific enterprise pain points rather than thin wrappers around foundation models."
+        },
+        {
+          "question": "How many YC W26 companies reached $1M ARR by Demo Day?",
+          "options": [
+            "3 companies",
+            "7 companies",
+            "14 companies — the highest ever for any YC cohort",
+            "All 190 companies"
+          ],
+          "correctIndex": 2,
+          "explanation": "14 out of nearly 190 companies hit $1M ARR by Demo Day, which YC CEO Garry Tan confirmed was the highest ever recorded for any cohort — a sign of how quickly AI-native startups can reach revenue milestones."
+        }
+      ]
+    },
+    {
+      "id": "article-science-agentic-ai-intelligence-explosion",
+      "topics": ["ai-research"],
+      "type": "paper",
+      "title": "Agentic AI and the Next Intelligence Explosion",
+      "sourceUrl": "https://www.science.org/doi/10.1126/science.aeg1895",
+      "publishedAt": "2026-03-24",
+      "summary": "Published in Science, this paper by James Evans et al. demonstrates that when reinforcement learning rewards base models solely for reasoning accuracy, they spontaneously develop multi-agent-like internal behaviors — termed 'societies of thought' — where distinct cognitive perspectives argue, question, and reconcile within a single chain of thought. None of the models were explicitly trained to produce this behavior.",
+      "keyConcepts": [
+        "Societies of thought",
+        "Emergent multi-agent reasoning",
+        "Reinforcement learning for reasoning",
+        "Spontaneous cognitive specialization"
+      ],
+      "whyItMatters": "This finding suggests that agentic behavior may be an emergent property of reasoning optimization, not something that needs to be explicitly engineered — a fundamental insight for anyone building or using AI agent systems.",
+      "tags": ["agentic-ai", "reinforcement-learning", "reasoning", "emergent-behavior", "science"],
+      "relatedIds": ["article-techcrunch-ami-labs-jepa"],
+      "knowledgeChecks": [
+        {
+          "question": "What are 'societies of thought' as described in this paper?",
+          "options": [
+            "Groups of researchers collaborating on AI safety",
+            "Multi-agent-like internal debates that emerge spontaneously within a single model's chain of thought",
+            "A new social media platform for AI researchers",
+            "Pre-programmed debate templates for language models"
+          ],
+          "correctIndex": 1,
+          "explanation": "Societies of thought are emergent behaviors where a single model spontaneously generates internal debates among distinct cognitive perspectives — arguing, questioning, verifying, and reconciling — despite never being trained to do so."
+        },
+        {
+          "question": "What makes this finding surprising from a training perspective?",
+          "options": [
+            "The models were trained specifically for debate",
+            "The models required massive amounts of data",
+            "The multi-perspective reasoning emerged without any explicit training for it — only from rewarding reasoning accuracy",
+            "The behavior only works with very small models"
+          ],
+          "correctIndex": 2,
+          "explanation": "The key surprise is that reinforcement learning optimizing solely for reasoning accuracy spontaneously produces complex multi-agent-like behaviors — suggesting agentic reasoning is an emergent property, not something that needs to be explicitly designed."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ami-labs-jepa",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Yann LeCun's AMI Labs Raises $1.03B to Build World Models Based on JEPA",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "publishedAt": "2026-03-23",
+      "summary": "Turing Award winner Yann LeCun's new venture AMI Labs has raised $1.03 billion — the largest seed round in European history — to develop world models based on Joint Embedding Predictive Architecture (JEPA). The approach learns abstract representations of real-world data rather than generating text, positioning it as a potential successor to the LLM paradigm.",
+      "keyConcepts": [
+        "Joint Embedding Predictive Architecture (JEPA)",
+        "World models vs language models",
+        "Abstract representation learning",
+        "Post-LLM AI paradigm"
+      ],
+      "whyItMatters": "If world models succeed, they represent the biggest architectural shift since transformers — engineers building on LLMs should understand the alternative paradigm that just attracted over a billion dollars in funding.",
+      "tags": ["ami-labs", "yann-lecun", "jepa", "world-models", "seed-round"],
+      "relatedIds": ["article-science-agentic-ai-intelligence-explosion"],
+      "knowledgeChecks": [
+        {
+          "question": "How does JEPA differ from traditional large language models?",
+          "options": [
+            "JEPA only works with images",
+            "JEPA learns abstract representations of real-world data rather than generating text token by token",
+            "JEPA requires less compute than any other approach",
+            "JEPA is a type of reinforcement learning algorithm"
+          ],
+          "correctIndex": 1,
+          "explanation": "JEPA (Joint Embedding Predictive Architecture) learns by predicting abstract representations in embedding space, ignoring unpredictable details — a fundamentally different approach from LLMs that generate text tokens sequentially."
+        },
+        {
+          "question": "Why is this seed round historically significant?",
+          "options": [
+            "It's the first AI company to go public",
+            "At $1.03B, it's the largest seed round in European startup history",
+            "It was funded entirely by government grants",
+            "It raised money without a product"
+          ],
+          "correctIndex": 1,
+          "explanation": "The $1.03B seed round at a $3.5B pre-money valuation is the largest seed ever for a European startup, backed by Nvidia, Toyota, Samsung, Bezos Expeditions, and many prominent investors — reflecting massive conviction in the world model approach."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-gtc-2026-agents",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "NVIDIA GTC 2026: Open Source Enterprise AI Agents and the Vera Rubin Platform",
+      "sourceUrl": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "publishedAt": "2026-03-23",
+      "summary": "At GTC 2026, NVIDIA announced seven new chips, the Vera Rubin platform (successor to Blackwell), and open-source software for autonomous enterprise AI agents. The AI-Q Blueprint for agentic search topped DeepResearch Bench accuracy leaderboards using a hybrid approach that cuts query costs in half. Adobe, Atlassian, SAP, and Salesforce are building agents on NVIDIA's toolkit.",
+      "keyConcepts": [
+        "NVIDIA Vera Rubin platform",
+        "Open-source enterprise AI agents",
+        "AI-Q Blueprint for agentic search",
+        "Physical AI Data Factory"
+      ],
+      "whyItMatters": "NVIDIA is building the infrastructure layer for the agent economy — their open-source agent toolkit and new chips will define what's possible for enterprise AI applications over the next 2-3 years.",
+      "tags": ["nvidia", "gtc-2026", "vera-rubin", "enterprise-agents", "open-source"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Vera Rubin platform?",
+          "options": [
+            "A telescope for space observation",
+            "NVIDIA's successor to the Blackwell architecture for AI training",
+            "An open-source language model",
+            "A cloud storage solution"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vera Rubin is NVIDIA's next-generation AI compute platform, succeeding Blackwell, with cloud providers planning to offer rack-scale systems in the second half of 2026 — it will power the next wave of frontier model training."
+        },
+        {
+          "question": "What makes NVIDIA's AI-Q Blueprint notable for enterprise AI?",
+          "options": [
+            "It only works with NVIDIA hardware",
+            "It tops accuracy leaderboards using a hybrid approach that cuts query costs in half",
+            "It replaces all human customer service agents",
+            "It requires no training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "The AI-Q Blueprint combines frontier and open models in a hybrid approach that achieves the highest accuracy on DeepResearch Bench while reducing query costs by 50% — making enterprise-grade agentic search economically viable."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-cfo-survey-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "CFOs Admit Privately That AI Layoffs Will Be 9x Higher This Year",
+      "sourceUrl": "https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/",
+      "publishedAt": "2026-03-24",
+      "summary": "A National Bureau of Economic Research survey of 750 CFOs reveals that 44% plan AI-related job cuts this year, translating to roughly 502,000 roles — a 9x increase from last year's 55,000 AI-attributed layoffs. The study's co-author notes this is 'not the doomsday scenario' seen in headlines, but about half the losses will hit white-collar roles.",
+      "keyConcepts": [
+        "CFO survey on AI job displacement",
+        "9x increase in AI-attributed layoffs",
+        "White-collar role vulnerability",
+        "Productivity paradox"
+      ],
+      "whyItMatters": "This is the first large-scale executive survey quantifying planned AI layoffs — the 9x increase signals that AI-driven workforce restructuring is accelerating from experiment to strategy, making upskilling urgent for every knowledge worker.",
+      "tags": ["layoffs", "cfo-survey", "workforce", "white-collar", "job-displacement"],
+      "relatedIds": ["article-techcrunch-atlassian-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "How do the projected 2026 AI layoffs compare to 2025?",
+          "options": [
+            "They are roughly the same",
+            "They are projected to be 9x higher — approximately 502,000 roles vs 55,000 last year",
+            "They are expected to decrease",
+            "The survey found no AI-related layoffs planned"
+          ],
+          "correctIndex": 1,
+          "explanation": "The NBER survey of 750 CFOs found that 44% plan AI-related cuts totaling roughly 502,000 roles in 2026 — a 9x increase from the 55,000 AI-attributed layoffs in 2025, signaling a dramatic acceleration."
+        },
+        {
+          "question": "Which types of roles are most affected by AI-driven layoffs?",
+          "options": [
+            "Only manufacturing and warehouse roles",
+            "Primarily executive and C-suite positions",
+            "About half will be white-collar knowledge work roles",
+            "Only entry-level positions"
+          ],
+          "correctIndex": 2,
+          "explanation": "The study found that roughly half of the projected job losses will come from white-collar roles — content creation, customer support, QA, and project management are the areas where AI tools have demonstrated the most capability."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-atlassian-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Atlassian Cuts 1,600 Jobs While Hiring 800 AI Engineers — The 'Cut and Redirect' Playbook",
+      "sourceUrl": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
+      "publishedAt": "2026-03-23",
+      "summary": "Atlassian laid off 1,600 employees (10% of its workforce) concentrated in content creation, customer support, QA, and project management — areas where AI has proven most capable. Simultaneously, the company announced 800 new hires in AI engineering, ML operations, and AI safety. CEO Mike Cannon-Brookes stated it would be 'disingenuous to pretend AI doesn't change the mix of skills we need.'",
+      "keyConcepts": [
+        "Cut-and-redirect workforce strategy",
+        "AI-vulnerable role categories",
+        "AI engineering hiring surge",
+        "Workforce composition reshaping"
+      ],
+      "whyItMatters": "Atlassian's approach is becoming the template for Big Tech restructuring — cutting traditional roles while hiring AI specialists. Understanding which roles are being cut vs. created tells you exactly where to invest your skill development.",
+      "tags": ["atlassian", "layoffs", "hiring", "ai-engineering", "workforce-reshaping"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'cut and redirect' pattern in AI-driven layoffs?",
+          "options": [
+            "Cutting all employees and rehiring them at lower salaries",
+            "Laying off roles where AI is most capable while simultaneously hiring AI engineering specialists",
+            "Redirecting laid-off employees to different departments",
+            "Cutting AI research budgets to redirect to traditional engineering"
+          ],
+          "correctIndex": 1,
+          "explanation": "Atlassian exemplifies the 'cut and redirect' pattern: laying off 1,600 in areas where AI tools perform well (content, QA, support, project management) while hiring 800 in AI engineering, ML ops, and AI safety — a net reduction but a fundamental skill composition shift."
+        },
+        {
+          "question": "Which role categories were most affected by Atlassian's AI-driven cuts?",
+          "options": [
+            "Executive leadership and sales",
+            "Content creation, customer support, QA, and project management",
+            "AI research and machine learning",
+            "Finance and legal"
+          ],
+          "correctIndex": 1,
+          "explanation": "The cuts targeted roles where AI tools have demonstrated the most capability: content creation, customer support, quality assurance, and project management — while AI engineering, ML ops, and AI safety roles were expanded."
+        }
+      ]
+    },
+    {
+      "id": "article-techtimes-ai-jobs-soar-layoffs-surge",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Tech Layoffs Surge While AI Jobs Soar: Key Trends Shaping the 2026 Tech Industry",
+      "sourceUrl": "https://www.techtimes.com/articles/315282/20260321/tech-layoffs-surge-while-ai-jobs-soar-key-trends-shaping-2026-tech-industry.htm",
+      "publishedAt": "2026-03-23",
+      "summary": "Through early March 2026, 45,363 tech layoffs have been confirmed worldwide, with 20.4% explicitly linked to AI and automation — up from fewer than 8% in 2025. Meanwhile, LinkedIn data shows AI-related job postings have increased 340% since 2024, while traditional software engineering roles declined 15%. The article identifies AI engineers, MLOps specialists, and AI safety researchers as the fastest-growing roles.",
+      "keyConcepts": [
+        "AI-attributed layoff percentage doubling",
+        "340% growth in AI job postings",
+        "15% decline in traditional SE roles",
+        "MLOps and AI safety demand surge"
+      ],
+      "whyItMatters": "The data paints a clear picture: the tech job market is bifurcating. AI-fluent engineers are in unprecedented demand while traditional roles contract — making AI skill development the single most important career investment right now.",
+      "tags": ["job-market", "ai-jobs", "layoffs", "mlops", "career-trends"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "How has the percentage of AI-attributed layoffs changed from 2025 to 2026?",
+          "options": [
+            "It decreased from 20% to 8%",
+            "It stayed roughly the same at 8%",
+            "It more than doubled from under 8% in 2025 to 20.4% in early 2026",
+            "AI has not been cited in any layoff announcements"
+          ],
+          "correctIndex": 2,
+          "explanation": "In 2025, AI was cited as a factor in fewer than 8% of layoff announcements. By early 2026, that figure has more than doubled to 20.4% of all confirmed tech layoffs — a dramatic acceleration in AI-driven workforce restructuring."
+        },
+        {
+          "question": "What does LinkedIn data reveal about the current software engineering job market?",
+          "options": [
+            "All software engineering roles are growing equally",
+            "AI-related postings are up 340% since 2024, while traditional SE roles declined 15%",
+            "Job postings have stopped entirely",
+            "Only senior roles are in demand"
+          ],
+          "correctIndex": 1,
+          "explanation": "The market is bifurcating: AI-related job postings grew 340% since 2024, indicating massive demand for AI-fluent engineers, while traditional software engineering roles declined 15% — making AI skills the critical differentiator."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-gpt54-launch",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "OpenAI Launches GPT-5.4 With Pro and Thinking Versions",
+      "sourceUrl": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "publishedAt": "2026-03-23",
+      "summary": "OpenAI released GPT-5.4, combining the coding strengths of GPT-5.3-Codex with improved reasoning and autonomous computer use. The model scored 83% on GDPval (expert-level knowledge work), offers a 1M token context window, and is 33% less likely to make factual errors than GPT-5.2. It ships in three variants: standard, Thinking (deep reasoning), and Pro (enterprise-optimized).",
+      "keyConcepts": [
+        "GPT-5.4 model variants",
+        "GDPval benchmark (expert-level tasks)",
+        "Autonomous computer use capability",
+        "1M token context window"
+      ],
+      "whyItMatters": "GPT-5.4 merges coding, reasoning, and computer use into a single model — the convergence of these capabilities into one API call changes what's possible for developers building AI-powered applications.",
+      "tags": ["openai", "gpt-5-4", "frontier-models", "computer-use", "reasoning"],
+      "relatedIds": ["article-techcrunch-ami-labs-jepa"],
+      "knowledgeChecks": [
+        {
+          "question": "What does GPT-5.4 combine that its predecessors handled separately?",
+          "options": [
+            "Text and image generation only",
+            "Coding (from GPT-5.3-Codex), improved reasoning, and autonomous computer use in a single model",
+            "Only improvements to chat conversation",
+            "Video and audio generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.4 is notable for converging three previously separate capabilities — the coding prowess of GPT-5.3-Codex, enhanced reasoning, and the ability to autonomously navigate desktops and browsers — into one unified model."
+        },
+        {
+          "question": "How does GPT-5.4 improve on factual accuracy?",
+          "options": [
+            "It eliminates all errors completely",
+            "Individual claims are 33% less likely to contain errors compared to GPT-5.2",
+            "It only answers questions it's 100% sure about",
+            "It uses a fact-checking database"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI reported GPT-5.4 is 33% less likely to make errors in individual claims and overall responses are 18% less likely to contain errors compared to GPT-5.2 — a significant reliability improvement for production use cases."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ai-startups-eating-vc",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "AI Startups Are Eating the Venture Industry — And the Returns Are Good",
+      "sourceUrl": "https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry-and-the-returns-so-far-are-good/",
+      "publishedAt": "2026-03-23",
+      "summary": "AI startups captured 41% of the $128B in venture dollars raised on Carta last year. In February 2026 alone, a record $189B in global VC flowed to startups, with AI accounting for 90% ($171B). Three companies — OpenAI, Anthropic, and Waymo — captured 83% of that month's funding. Despite the concentration, Carta data shows post-ChatGPT vintage funds (2023-2024) are posting the highest IRR of any recent cohort.",
+      "keyConcepts": [
+        "AI captures 90% of VC funding",
+        "K-shaped venture market",
+        "Concentration in mega-rounds",
+        "Post-ChatGPT fund performance"
+      ],
+      "whyItMatters": "The extreme funding concentration means the AI infrastructure layer is being built by a handful of companies — engineers should understand which platforms are winning the capital war, as that determines which tools and APIs will dominate.",
+      "tags": ["venture-capital", "ai-funding", "openai", "anthropic", "startup-ecosystem"],
+      "relatedIds": ["article-techcrunch-yc-w26-demo-day"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of global VC funding went to AI startups in February 2026?",
+          "options": [
+            "About 25%",
+            "About 50%",
+            "90% — with $171B out of $189B going to AI",
+            "100% — no non-AI startups received funding"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI startups raised $171 billion of the $189 billion in global VC raised in February 2026 — a staggering 90% concentration. Three companies alone (OpenAI, Anthropic, Waymo) captured 83% of that total."
+        },
+        {
+          "question": "What does the 'K-shaped' venture market mean?",
+          "options": [
+            "All startups are growing at the same rate",
+            "Capital is concentrated in a few top firms while the rest struggle — a bifurcated market",
+            "Only startups whose names start with K get funded",
+            "The market is shrinking for everyone"
+          ],
+          "correctIndex": 1,
+          "explanation": "The K-shaped market means capital is concentrated in a select few VC firms that back a handful of mega-companies, while the majority of startups face a much tighter funding environment — creating a stark bifurcation in the venture ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-ai-jobs-vulnerable",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "article",
+      "title": "Fortune 500 Firm Estimates 93% of Jobs Vulnerable to AI Disruption, Puts Price Tag at $4.5 Trillion",
+      "sourceUrl": "https://fortune.com/2026/03/19/ai-jobs-vulnerable-disruption-layoffs-warning-price-tag/",
+      "publishedAt": "2026-03-23",
+      "summary": "A major Fortune 500 consulting firm has updated its AI workforce impact analysis, estimating that 93% of jobs have some exposure to AI disruption, with a total economic displacement value of $4.5 trillion. The report breaks down vulnerability by role category and identifies the skills that provide the most insulation — including complex system design, cross-functional leadership, and novel problem-solving.",
+      "keyConcepts": [
+        "93% job exposure to AI disruption",
+        "$4.5 trillion displacement estimate",
+        "Role vulnerability categories",
+        "AI-insulated skill profiles"
+      ],
+      "whyItMatters": "This report provides the most granular analysis yet of which skills protect against AI displacement — making it essential reading for anyone planning their career development or team composition strategy.",
+      "tags": ["workforce-disruption", "fortune-500", "career-planning", "skills-gap", "ai-impact"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the report, what percentage of jobs have some exposure to AI disruption?",
+          "options": [
+            "About 25%",
+            "About 50%",
+            "93% of all jobs",
+            "Only tech industry jobs"
+          ],
+          "correctIndex": 2,
+          "explanation": "The analysis estimates 93% of jobs have some degree of exposure to AI disruption — though 'exposure' ranges from minor task automation to full role replacement. The key differentiator is which skills provide insulation."
+        },
+        {
+          "question": "Which skills does the report identify as most insulating against AI disruption?",
+          "options": [
+            "Data entry and repetitive task management",
+            "Complex system design, cross-functional leadership, and novel problem-solving",
+            "Basic content creation and copywriting",
+            "Manual testing and quality assurance"
+          ],
+          "correctIndex": 1,
+          "explanation": "The report identifies complex system design, cross-functional leadership, and novel problem-solving as the most AI-insulated skills — tasks requiring contextual judgment, stakeholder navigation, and creative synthesis that AI currently cannot replicate."
+        }
+      ]
+    }
+  ]
+}

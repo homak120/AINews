@@ -27,8 +27,7 @@ and clicking an item shows its full detail. Can be demonstrated with static
 
 1. **Given** the app is open, **When** the feed loads, **Then** at least one
    news item is visible per topic area with a title, source badge, and date.
-2. **Given** multiple topics exist, **When** the user selects "AI in Software
-   Engineering", **Then** only items tagged to that topic are shown.
+2. **Given** multiple topics exist, **When** the user selects "AI Engineering & Skill Development", **Then** only items tagged to that topic are shown.
 3. **Given** a news item in the feed, **When** the user clicks it, **Then** a
    detail view opens showing the full structured breakdown.
 4. **Given** a video item, **When** the detail view opens, **Then** an embedded
@@ -118,27 +117,30 @@ click a suggestion — it opens the related item's detail view.
 
 ---
 
-### User Story 5 - Weekly Content Refresh via Seed Script (Priority: P5)
+### User Story 5 - Weekly Content Refresh via Claude Code Trigger (Priority: P5)
 
-The user (as operator) runs a seed script that searches for the past 7 days of
-AI news across all sources and topic areas, then generates a fresh `news.json`
-file. After redeploying, the app shows the latest content.
+The operator uses a Claude Code scheduled trigger (weekly cron job) that
+searches for the past 7 days of AI news across all sources and topic areas,
+then generates a fresh `news.json` file. No API key is needed — it runs under
+the Claude Pro plan. After reviewing and redeploying, the app shows the latest
+content.
 
-**Why this priority**: Without fresh data, the app becomes stale. The seed
-script is the content pipeline for Phase 1 MVP.
+**Why this priority**: Without fresh data, the app becomes stale. The Claude
+Code trigger is the content pipeline for Phase 1 MVP.
 
-**Independent Test**: Run the script, inspect the generated `news.json` — it
-must contain valid items across all 4 topic areas for the last 7 days.
+**Independent Test**: Run the trigger (or ask Claude Code manually), inspect
+the generated `news.json` — it must contain valid items across all 4 topic
+areas for the last 7 days.
 
 **Acceptance Scenarios**:
 
-1. **Given** the seed script is run, **When** it completes, **Then** a valid
-   `news.json` file is generated at the expected location.
+1. **Given** the Claude Code trigger runs, **When** it completes, **Then** a
+   valid `news.json` file is generated at the expected location.
 2. **Given** the generated file, **When** inspected, **Then** it contains items
    from all 4 topic areas with the required fields populated.
 3. **Given** the generated file, **When** the app is loaded, **Then** all new
    items are displayed correctly in the feed.
-4. **Given** a previous `news.json` exists, **When** the script runs again,
+4. **Given** a previous `news.json` exists, **When** the trigger runs again,
    **Then** the file is replaced with fresh content.
 
 ---
@@ -206,6 +208,15 @@ must contain valid items across all 4 topic areas for the last 7 days.
 - **FR-019**: System MUST persist knowledge check completion state across
   sessions.
 
+**Search**
+
+- **FR-019a**: Users MUST be able to search items in real-time by typing in the
+  nav bar search input. Search MUST filter across `title`, `summary`, and `tags`
+  fields client-side (no server required). Results update instantly as the user
+  types. Clearing the input restores the full feed.
+- **FR-019b**: Search and topic filter MUST compose — applying both simultaneously
+  shows items matching both the search query AND the selected topic.
+
 **Related Content**
 
 - **FR-020**: System MUST display related content suggestions for items that
@@ -216,21 +227,83 @@ must contain valid items across all 4 topic areas for the last 7 days.
 
 **Data & Content Seed**
 
-- **FR-022**: A seed script MUST be provided to generate `data/news.json`
-  covering the previous 7 days using an LLM with web search capability to
-  discover, summarize, and structure content automatically.
-- **FR-022a**: The seed script MUST produce a human-reviewable draft that the
+- **FR-022**: A Claude Code scheduled trigger MUST generate `public/data/news.json`
+  covering the previous 7 days using web search to discover, summarize, and
+  structure content automatically. No external API key required.
+- **FR-022a**: The trigger MUST produce a human-reviewable draft that the
   operator can inspect and optionally edit before committing the output.
-- **FR-022b**: The seed script MUST auto-generate 2-3 multiple-choice knowledge
-  check questions per item using the same LLM pass that produces the summary
+- **FR-022b**: The trigger MUST auto-generate 2-3 multiple-choice knowledge
+  check questions per item during the same pass that produces the summary
   and breakdown fields.
-- **FR-023**: The seed script MUST produce content across all 4 topic areas.
+- **FR-023**: The trigger MUST produce content across all 4 topic areas.
 - **FR-024**: Each item in `news.json` MUST conform to the schema defined in
   `contracts/news-schema.md`, including fields: `id`, `topics`, `type`,
   `title`, `sourceUrl`, `publishedAt`, `summary`, `keyConcepts`,
   `whyItMatters`, `tags`, `relatedIds`, and `knowledgeChecks`.
 - **FR-025**: `youtube_id` is optional in the schema and MUST only be present
   for video items.
+
+### Topic Definitions
+
+#### 1. AI Engineering & Skill Development (`ai-engineering`)
+
+News, tutorials, tools, frameworks, and best practices focused on how AI
+improves software engineering, system design, and developer productivity.
+Emphasizes practical learning and skill growth for software engineers, including
+AI-assisted coding workflows, architecture patterns, development tools, testing
+automation, debugging support, DevOps integration, and engineering leadership.
+
+Examples: AI coding assistants (GitHub Copilot, Claude), agentic coding
+workflows, software tutorials and hands-on guides, AI-assisted system design,
+code review and test generation, developer productivity tools.
+
+**Primary research question**: How can this help improve my software engineering
+skills, workflow, and technical leadership capabilities?
+
+#### 2. AI Research & Future Technology (`ai-research`)
+
+News and research focused on emerging AI technologies, scientific breakthroughs,
+computer science innovation, and advancements that may shape the future of
+software, products, and society. Includes research papers, model architecture
+breakthroughs, multimodal systems, robotics, reasoning models, and
+next-generation AI capabilities not necessarily tied to immediate engineering
+use cases.
+
+Examples: research papers and arXiv preprints, model architecture breakthroughs,
+multimodal AI systems, reasoning and long-context models, on-device AI and edge
+computing, future human-AI interaction paradigms.
+
+**Primary research question**: What new AI knowledge or technological
+breakthrough may influence the future of technology and society?
+
+#### 3. AI Career & Workforce Intelligence (`ai-career`)
+
+News and analysis focused on how AI is changing the job market, workforce
+structure, hiring trends, role evolution, and skill requirements across
+industries. Tracks career risks, new opportunities, layoffs, emerging job roles,
+and the evolving skills needed to remain competitive in the AI era.
+
+Examples: layoffs and workforce restructuring, hiring trends in AI-related
+roles, new job categories and responsibilities, salary and market demand shifts,
+skill requirements for the AI era, workforce automation impact.
+
+**Primary research question**: How is AI changing the job market, and what new
+skills should I develop to stay future-ready?
+
+#### 4. AI Industry Strategy & Product Landscape (`ai-industry`)
+
+News focused on company strategy, product launches, startup activity, market
+competition, and the broader commercial AI ecosystem. Tracks how organizations
+are building products, competing strategically, investing in AI, and shaping the
+business landscape. Examples may involve companies such as OpenAI, Microsoft,
+Google, and Amazon.
+
+Examples: product launches and feature announcements, startup funding and
+acquisitions, Big Tech AI strategy updates, enterprise AI platforms, competitive
+market analysis, ecosystem and platform trends.
+
+**Primary research question**: How is the AI industry evolving, and where is
+the market heading strategically?
 
 ### Key Entities
 
@@ -261,8 +334,8 @@ must contain valid items across all 4 topic areas for the last 7 days.
   a new session opened the next day, without any login.
 - **SC-004**: Every item that includes knowledge check questions presents them
   within the detail view without requiring any additional navigation.
-- **SC-005**: The seed script produces a valid `news.json` containing at least 3
-  items per topic area, covering the past 7 days, within a single run.
+- **SC-005**: The Claude Code trigger produces a valid `news.json` containing at
+  least 3 items per topic area, covering the past 7 days, within a single run.
 - **SC-006**: All 4 topic areas are represented with content after every weekly
   refresh.
 - **SC-007**: Embedded YouTube videos play within the app without redirecting
@@ -272,16 +345,16 @@ must contain valid items across all 4 topic areas for the last 7 days.
 
 ### Session 2026-03-28
 
-- Q: How does the seed script gather content? → A: AI-assisted — an LLM with
-  web search discovers, summarizes, and structures items automatically; operator
-  reviews draft before deploying. No external API keys required for Phase 1.
+- Q: How is content generated? → A: A Claude Code scheduled trigger (cron job)
+  uses web search to discover, summarize, and structure items automatically;
+  operator reviews draft before deploying. No API keys required.
 - Q: Who authors knowledge check questions? → A: AI-generated automatically
-  during the seed script run, alongside the summary and breakdown fields.
+  during the content generation pass, alongside the summary and breakdown fields.
 - Q: What is the default feed view when no topic filter is selected? → A: All
   4 topics displayed simultaneously as labelled sections, each showing their
   items — a dashboard-style home page.
-- Q: How are related items determined? → A: AI-suggested during the seed run —
-  the LLM identifies and links related items from the same batch by ID.
+- Q: How are related items determined? → A: AI-suggested during content
+  generation — related items from the same batch are linked by ID.
 - Q: What format are item IDs? → A: URL-derived slug (e.g., `youtube-abc123`,
   `arxiv-2401-12345`) — human-readable, stable if the same content reappears.
 
@@ -289,12 +362,11 @@ must contain valid items across all 4 topic areas for the last 7 days.
 
 - Users have a stable internet connection; embedded YouTube playback requires
   connectivity. Offline mode is out of scope for Phase 1.
-- The seed script is run manually by the operator (the primary user) once per
-  week. Automated scheduling is a Phase 2 concern.
-- The seed script uses an LLM with web search to discover and summarize
-  content automatically. The operator reviews and optionally edits the output
-  before deploying. No external API keys (YouTube Data API, RSS aggregators)
-  are required for Phase 1.
+- Content is generated via a Claude Code scheduled trigger (weekly cron job)
+  that uses web search to discover and summarize content automatically. The
+  operator reviews and optionally edits the output before deploying. No
+  external API keys (YouTube Data API, RSS aggregators, Anthropic API) are
+  required.
 - No user authentication is required for Phase 1. All visitors see identical
   content. Access control (if needed) is handled at the deployment/hosting
   level.

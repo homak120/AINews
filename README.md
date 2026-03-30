@@ -28,10 +28,10 @@ Content is organized by topic and refreshed weekly.
 
 | Topic | Coverage |
 |---|---|
-| **AI in Software Engineering** | Copilots, agentic coding, LLM APIs, dev tooling |
-| **AI Research & Computer Science** | New models, papers, benchmarks, breakthroughs |
-| **AI & Job Market** | Hiring trends, in-demand skills, role disruption |
-| **AI Products & Industry** | Product launches, funding, company moves |
+| **AI Engineering & Skill Development** | AI coding assistants, agentic workflows, tutorials, system design, dev tools |
+| **AI Research & Future Technology** | Research papers, model breakthroughs, multimodal systems, next-gen AI |
+| **AI Career & Workforce Intelligence** | Job market shifts, hiring trends, skill requirements, workforce automation |
+| **AI Industry Strategy & Product Landscape** | Product launches, startup funding, Big Tech strategy, market competition |
 
 ## Interactive Features
 
@@ -55,13 +55,18 @@ Content is organized by topic and refreshed weekly.
 ## Phased Delivery
 
 ### Phase 0 — Data Seed
-A one-time research script pulls the last 7 days of AI content and generates a structured `data/news.json` file. This seeds the app with real content from day one without requiring a live data pipeline.
+A Claude Code scheduled trigger (cron job) uses web search to discover the
+past 7 days of AI content and generates a structured `public/data/news.json`
+file. No API key needed — runs under the Claude Pro plan.
 
 ### Phase 1 — MVP (current)
-Web app reads from the static `data/news.json`. Full interactive UI with all features above. Weekly refresh = re-run the seed script and redeploy. Self-hosted deployment.
+Web app reads from the static `data/news.json`. Full interactive UI with all
+features above. Weekly refresh = Claude Code trigger generates new content,
+operator reviews and redeploys. Self-hosted deployment.
 
 ### Phase 2 — Live Pipeline
-Automated content fetching on a schedule. Migrate to Vercel. Real-time or daily refresh replaces the manual weekly script.
+Fully automated weekly refresh via Claude Code scheduled triggers. Migrate to
+Vercel.
 
 ## Who It's For
 

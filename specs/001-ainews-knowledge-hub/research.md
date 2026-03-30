@@ -41,17 +41,17 @@ cleanly into domain hooks (`useBookmarks`, `useNotes`, `useKnowledgeChecks`).
 **Alternatives considered**: Raw `localStorage` API — verbose, error-prone,
 requires manual JSON handling in every consumer.
 
-## 5. Seed Script Runtime
+## 5. Content Generation
 
-**Decision**: Node.js TypeScript script using `@anthropic-ai/sdk`
-**Rationale**: Programmatic control over prompting, web search tool use,
-structured JSON output, retry logic, and error handling. TypeScript matches the
-project's language. The Anthropic SDK supports tool use (web search) natively,
-enabling the LLM to discover recent AI news and structure it into `news.json`
-schema in a single pass. Operator reviews and optionally edits the output
-before committing.
-**Alternatives considered**: Markdown prompt file — no automation, no structured
-output guarantee, requires manual copy-paste.
+**Decision**: Claude Code scheduled trigger (weekly cron job) with web search
+**Rationale**: No API key needed — runs under Claude Pro plan. Claude Code has
+built-in web search and file writing capabilities, so it can discover recent AI
+news and write structured `news.json` directly. Operator reviews and optionally
+edits the output before committing. Simpler than maintaining a separate script
+with SDK dependencies.
+**Alternatives considered**: Node.js script using `@anthropic-ai/sdk` —
+requires API key management and additional dependencies (`tsx`, SDK). Replaced
+in favor of the simpler Claude Code trigger approach.
 
 ## 6. CSS Class Composition
 
@@ -89,8 +89,5 @@ vitest                 # testing
 @testing-library/jest-dom
 ```
 
-**Seed script dependencies** (separate or devDependency):
-```
-@anthropic-ai/sdk      # LLM + web search for content generation
-tsx                    # run TypeScript scripts directly
-```
+**Content generation**: Handled by Claude Code scheduled trigger — no
+additional npm dependencies needed.

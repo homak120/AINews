@@ -6,7 +6,6 @@
 
 - Node.js 20+
 - npm 9+
-- An Anthropic API key (for the seed script only)
 
 ---
 
@@ -18,18 +17,18 @@ npm install
 
 ---
 
-## 2. Generate Content (Seed Script)
+## 2. Generate Content
 
-The seed script uses Claude with web search to generate `data/news.json`
-covering the past 7 days. Run it before starting the app for the first time,
-and each week to refresh content.
+Content is generated via a **Claude Code scheduled trigger** (cron job) that
+uses web search to discover the past 7 days of AI news and writes a structured
+`public/data/news.json`. No API key is needed — it runs under your Claude Pro
+plan.
 
-```bash
-ANTHROPIC_API_KEY=your_key_here npm run seed
-```
+To generate content manually during development, run the Claude Code trigger
+or ask Claude Code directly to research and produce the JSON.
 
-The script outputs a draft `data/news.json`. Review and optionally edit it
-before proceeding. The file is human-readable JSON.
+The output is a human-readable `public/data/news.json`. Review and optionally
+edit it before deploying.
 
 ---
 
@@ -43,16 +42,7 @@ App runs at `http://localhost:5173`
 
 ---
 
-## 4. Run Tests
-
-```bash
-npm run test          # run all tests
-npm run test:watch    # watch mode
-```
-
----
-
-## 5. Build for Production
+## 4. Build for Production
 
 ```bash
 npm run build
@@ -66,7 +56,7 @@ npm run preview
 
 ---
 
-## 6. Deploy (Self-Hosted)
+## 5. Deploy (Self-Hosted)
 
 Copy the `dist/` folder to your server or VPS and serve with any static file
 server (nginx, Caddy, serve, etc.).
@@ -78,31 +68,24 @@ npx serve dist
 
 ---
 
-## 7. Deploy to Vercel (Phase 2)
+## 6. Deploy to Vercel (Phase 2)
 
 ```bash
 npx vercel
 ```
 
-Set `ANTHROPIC_API_KEY` as an environment variable in the Vercel dashboard
-(only needed if running the seed script from Vercel — not required for the
-static app itself).
-
 ---
 
 ## Weekly Content Refresh Workflow
 
-1. Run `npm run seed` to generate a new `data/news.json`
+1. Claude Code scheduled trigger generates a new `public/data/news.json`
+   (or run manually via Claude Code)
 2. Review the output — edit any items if needed
-3. `git add data/news.json && git commit -m "chore: weekly content refresh"`
+3. `git add public/data/news.json && git commit -m "chore: weekly content refresh"`
 4. Redeploy (`npm run build` + copy to server, or `npx vercel`)
 
 ---
 
 ## Environment Variables
 
-| Variable | Required | Used By |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Seed script only | `npm run seed` |
-
-The web app itself requires no environment variables in Phase 1.
+The web app requires no environment variables in Phase 1.

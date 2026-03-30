@@ -5,9 +5,13 @@
 
 ## Overview
 
-`data/news.json` is the sole data contract between the seed script and the web
-application. The seed script MUST produce valid output conforming to this
-schema. The app MUST treat any deviation as an error condition.
+`public/data/news.json` is the sole data contract between the content generation
+process (Claude Code trigger) and the web application. The trigger MUST produce
+valid output conforming to this schema. The app MUST treat any deviation as an
+error condition.
+
+**Companion document**: [`content-generation-prompt.md`](content-generation-prompt.md)
+— the prompt template that produces content conforming to this schema.
 
 ---
 
@@ -23,7 +27,7 @@ schema. The app MUST treat any deviation as an error condition.
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `generatedAt` | ISO 8601 string | ✅ | Timestamp of seed script execution |
+| `generatedAt` | ISO 8601 string | ✅ | Timestamp of content generation |
 | `weekOf` | ISO 8601 date | ✅ | Start date of the 7-day content window |
 | `items` | `NewsItem[]` | ✅ | All curated news items for the week |
 
@@ -34,7 +38,7 @@ schema. The app MUST treat any deviation as an error condition.
 ```json
 {
   "id": "youtube-dQw4w9WgXcQ",
-  "topics": ["ai-software-engineering"],
+  "topics": ["ai-engineering"],
   "type": "video",
   "title": "How AI Coding Assistants Are Changing Software Development",
   "sourceUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -86,10 +90,10 @@ schema. The app MUST treat any deviation as an error condition.
 ### Allowed Topic Values
 
 ```
-"ai-software-engineering"
-"ai-research-cs"
-"ai-job-market"
-"ai-products-industry"
+"ai-engineering"
+"ai-research"
+"ai-career"
+"ai-industry"
 ```
 
 ### Allowed ContentType Values
@@ -132,7 +136,7 @@ renaming fields) MUST:
 
 1. Update this contract document with a new version number
 2. Update `data-model.md` TypeScript interfaces
-3. Update the seed script to produce the new schema
+3. Update the Claude Code trigger prompt to produce the new schema
 4. Update all app consumers of the affected fields
 
 Additive optional fields (adding a new optional field) are non-breaking.
