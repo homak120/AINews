@@ -140,8 +140,10 @@ areas for the last 7 days.
    from all 4 topic areas with the required fields populated.
 3. **Given** the generated file, **When** the app is loaded, **Then** all new
    items are displayed correctly in the feed.
-4. **Given** a previous `news.json` exists, **When** the trigger runs again,
-   **Then** the file is replaced with fresh content.
+4. **Given** a previous `news.json` exists, **When** the trigger runs in weekly
+   mode, **Then** new items are appended to the existing `items` array,
+   `generatedAt`, `weekOf`, and `coverageEnd` are updated, and all previously
+   existing items are preserved unchanged.
 
 ---
 
@@ -227,9 +229,10 @@ areas for the last 7 days.
 
 **Data & Content Seed**
 
-- **FR-022**: A Claude Code scheduled trigger MUST generate `public/data/news.json`
-  covering the previous 7 days using web search to discover, summarize, and
-  structure content automatically. No external API key required.
+- **FR-022**: A Claude Code scheduled trigger MUST update `public/data/news.json`
+  by appending items covering the previous 7 days using web search to discover,
+  summarize, and structure content automatically. An initial generation mode
+  MUST produce a full month of content (4 weeks). No external API key required.
 - **FR-022a**: The trigger MUST produce a human-reviewable draft that the
   operator can inspect and optionally edit before committing the output.
 - **FR-022b**: The trigger MUST auto-generate 2-3 multiple-choice knowledge

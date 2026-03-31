@@ -53,8 +53,10 @@ interface NewsItem {
 
 ```typescript
 interface NewsData {
-  generatedAt: string;        // ISO 8601 timestamp of content generation
-  weekOf: string;             // ISO 8601 date — start of the 7-day window
+  generatedAt: string;        // ISO 8601 timestamp of most recent content generation
+  weekOf: string;             // ISO 8601 date — start of the most recent 7-day window
+  coverageStart: string;      // ISO 8601 date — earliest publishedAt date covered
+  coverageEnd: string;        // ISO 8601 date — latest publishedAt date covered
   items: NewsItem[];
 }
 ```
