@@ -1,7 +1,7 @@
 # Contract: news.json Schema
 
-**Version**: 1.0.0 | **Date**: 2026-03-28
-**Status**: Active — Phase 1 contract. Any change is a breaking change.
+**Version**: 1.1.0 | **Date**: 2026-03-30
+**Status**: Active — Phase 1 contract.
 
 ## Overview
 
@@ -21,15 +21,19 @@ error condition.
 {
   "generatedAt": "2026-03-28T10:00:00Z",
   "weekOf": "2026-03-22",
+  "coverageStart": "2026-03-02",
+  "coverageEnd": "2026-03-29",
   "items": [ ...NewsItem ]
 }
 ```
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `generatedAt` | ISO 8601 string | ✅ | Timestamp of content generation |
-| `weekOf` | ISO 8601 date | ✅ | Start date of the 7-day content window |
-| `items` | `NewsItem[]` | ✅ | All curated news items for the week |
+| `generatedAt` | ISO 8601 string | ✅ | Timestamp of the most recent content generation |
+| `weekOf` | ISO 8601 date | ✅ | Start date of the most recent 7-day content window |
+| `coverageStart` | ISO 8601 date | ✅ | Earliest `publishedAt` date covered in the file |
+| `coverageEnd` | ISO 8601 date | ✅ | Latest `publishedAt` date covered in the file |
+| `items` | `NewsItem[]` | ✅ | All curated news items across the coverage period |
 
 ---
 
@@ -79,7 +83,7 @@ error condition.
 | `title` | string | ✅ | Non-empty; max 200 chars recommended |
 | `sourceUrl` | string | ✅ | Valid URL to original content |
 | `youtubeId` | string | ❌ | Present only when `type === "video"`; 11-char YouTube video ID |
-| `publishedAt` | string | ✅ | ISO 8601 date (`YYYY-MM-DD`); within the `weekOf` window |
+| `publishedAt` | string | ✅ | ISO 8601 date (`YYYY-MM-DD`); within the `coverageStart`–`coverageEnd` window |
 | `summary` | string | ✅ | 2-4 sentences; non-empty |
 | `keyConcepts` | string[] | ✅ | 3-5 entries; non-empty strings |
 | `whyItMatters` | string | ✅ | 1-2 sentences; non-empty |
