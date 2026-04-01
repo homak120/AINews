@@ -13,10 +13,9 @@ const COLUMN_ACCENT: Record<Topic, string> = {
 interface TopicSectionProps {
   topic: Topic;
   items: NewsItem[];
-  bookmarkedIds?: Set<string>;
 }
 
-export function TopicSection({ topic, items, bookmarkedIds = new Set() }: TopicSectionProps) {
+export function TopicSection({ topic, items }: TopicSectionProps) {
   const accentClasses = COLUMN_ACCENT[topic];
 
   return (
@@ -47,7 +46,6 @@ export function TopicSection({ topic, items, bookmarkedIds = new Set() }: TopicS
               key={item.id}
               item={item}
               primaryTopic={topic}
-              isBookmarked={bookmarkedIds.has(item.id)}
             />
           ))}
         </div>

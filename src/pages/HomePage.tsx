@@ -13,7 +13,6 @@ export function HomePage() {
   const { search, isLoading, error } = useNews();
   const { preferences } = useUserPreferences();
 
-  const bookmarkedIds = new Set(preferences.bookmarks);
   const filteredItems = search(searchQuery, activeTopic);
 
   return (
@@ -42,7 +41,6 @@ export function HomePage() {
               items={filteredItems}
               activeTopic={activeTopic}
               onTopicChange={setActiveTopic}
-              bookmarkedIds={bookmarkedIds}
             />
           )}
         </main>
