@@ -105,6 +105,32 @@ export function NewsCard({ item, primaryTopic }: NewsCardProps) {
           </button>
         </header>
 
+        {item.type === 'video' && !!item.youtubeId && (
+          <div className="relative overflow-hidden rounded-xl mt-3 mb-4">
+            <img
+              src={`https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).src =
+                  `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`;
+              }}
+              alt={item.title}
+              className="w-full object-cover rounded-xl aspect-video"
+            />
+            <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-[#060a14]/60 to-transparent pointer-events-none rounded-b-xl" />
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="w-10 h-10 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center">
+                <svg
+                  className="w-4 h-4 text-white ml-0.5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        )}
+
         <h2 className="text-[15px] font-semibold leading-snug text-slate-100 line-clamp-2">
           {item.title}
         </h2>
