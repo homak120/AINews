@@ -155,11 +155,36 @@ required fields are populated, `relatedIds` reference valid IDs, and
 
 **Purpose**: Final touches that span multiple user stories.
 
-- [ ] T042 Add bookmark count badge to `Header` Bookmarks nav link in `src/components/layout/Header.tsx`: shows number of bookmarked items when > 0
+- [x] T042 Add bookmark count badge to `Header` Bookmarks nav link in `src/components/layout/Header.tsx`: shows number of bookmarked items when > 0
 - [ ] T043 Verify all deep-links work: `/`, `/item/:id` with valid ID, `/item/:id` with unknown ID (ErrorState), `/bookmarks`
-- [ ] T044 Visual QA pass against `docs/ux-design-guide.md`: verify ambient orb background (§4.1), glass tokens (§1.2), accent color mapping (§1.3), card shimmer lines (§4.2), column header sticky offset (§4.4), and interaction transitions (§5) are all applied correctly across `TopicSection`, `NewsCard`, `ItemDetail`, and `Header`
+- [x] T044 Visual QA pass against `docs/ux-design-guide.md`: verify ambient orb background (§4.1), glass tokens (§1.2), accent color mapping (§1.3), card shimmer lines (§4.2), column header sticky offset (§4.4), and interaction transitions (§5) are all applied correctly across `TopicSection`, `NewsCard`, `ItemDetail`, and `Header`
 - [ ] T045 [P] Run quickstart.md end-to-end: fresh install → generate content via Claude Code → `npm run dev` → verify full user flow in browser
 - [ ] T046 [P] Update `README.md` setup instructions to match final `npm` scripts and environment variable requirements
+
+---
+
+## Post-MVP Improvements
+
+> Tracked in `specs/001-ainews-knowledge-hub/plans/`. Each plan is a
+> self-contained Claude Code instruction document.
+
+### Batch 1 — UX Improvements (completed 2026-03-31)
+
+See full detail: [`plans/002-ux-improvements.md`](plans/002-ux-improvements.md)
+
+- [x] T047 Add interactive bookmark button to `NewsCard` feed card
+- [x] T048 Fix Key Concepts chip colors to use topic accent (Breakdown + ItemDetail)
+- [x] T049 Replace inline `style` prop with Tailwind classes on ItemDetail bookmark button
+- [x] T050 Add `✓ Checked` completion badge to feed cards (NewsCard)
+- [x] T051 Fix related content hover border to use topic accent color (RelatedContent)
+- [x] T052 Improve knowledge check completion view with per-question breakdown (KnowledgeCheck)
+- [x] T053 Implement mobile horizontal tab row per design guide §4.8 (NewsFeed)
+
+### Batch 2 — Video Thumbnail Preview (pending)
+
+See full detail: [`plans/003-video-thumbnail.md`](plans/003-video-thumbnail.md)
+
+- [ ] T054 Add static YouTube thumbnail preview with play button overlay to video cards (NewsCard)
 
 ---
 

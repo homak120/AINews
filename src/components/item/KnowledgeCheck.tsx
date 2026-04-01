@@ -60,14 +60,42 @@ export function KnowledgeCheck({ item }: KnowledgeCheckProps) {
         <p className="text-[10px] font-mono font-semibold tracking-widest uppercase text-cyan-400 mb-4">
           Knowledge Check
         </p>
-        <div className="text-center py-4">
-          <div className="text-3xl mb-3">{correctCount === questions.length ? '🎉' : '📚'}</div>
-          <p className="text-slate-100 font-semibold mb-1">
-            {correctCount}/{questions.length} correct
-          </p>
-          <p className="text-xs text-slate-500 font-mono">
-            Completed {new Date(existingResult.completedAt).toLocaleDateString()}
-          </p>
+        <div className="space-y-3">
+          <div className="flex items-center justify-between">
+            <p className="text-slate-100 font-semibold text-sm">
+              {correctCount}/{questions.length} correct
+            </p>
+            <p className="text-[10px] text-slate-500 font-mono">
+              {new Date(existingResult.completedAt).toLocaleDateString()}
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            {questions.map((q, i) => {
+              const userAnswer = existingResult.answers[i];
+              const correct = userAnswer === q.correctIndex;
+              return (
+                <div
+                  key={i}
+                  className={cn(
+                    'flex items-center gap-2 px-3 py-2 rounded-lg border',
+                    correct
+                      ? 'bg-emerald-500/[0.06] border-emerald-500/20'
+                      : 'bg-rose-500/[0.06] border-rose-500/20'
+                  )}
+                >
+                  <span className={cn(
+                    'flex-shrink-0 text-xs font-semibold',
+                    correct ? 'text-emerald-400' : 'text-rose-400'
+                  )}>
+                    {correct ? '✓' : '✗'}
+                  </span>
+                  <span className="text-xs text-slate-400 line-clamp-1">
+                    {q.question}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     );

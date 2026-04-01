@@ -1,10 +1,13 @@
+import { cn } from '../../utils/cn';
+
 interface BreakdownProps {
   summary: string;
   keyConcepts: string[];
   whyItMatters: string;
+  topicAccent?: string;
 }
 
-export function Breakdown({ summary, keyConcepts, whyItMatters }: BreakdownProps) {
+export function Breakdown({ summary, keyConcepts, whyItMatters, topicAccent }: BreakdownProps) {
   return (
     <div className="space-y-6">
       <section>
@@ -29,7 +32,10 @@ export function Breakdown({ summary, keyConcepts, whyItMatters }: BreakdownProps
           {keyConcepts.map((concept) => (
             <span
               key={concept}
-              className="text-[11px] px-3 py-1 rounded-full bg-violet-500/10 border border-violet-500/22 text-violet-400"
+              className={cn(
+                'text-[11px] px-3 py-1 rounded-full border',
+                topicAccent ?? 'bg-violet-500/10 border-violet-500/22 text-violet-400'
+              )}
             >
               {concept}
             </span>

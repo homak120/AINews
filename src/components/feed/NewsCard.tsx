@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn';
+import { useBookmarks } from '../../hooks/useBookmarks';
+import { useKnowledgeChecks } from '../../hooks/useKnowledgeChecks';
 import type { NewsItem, Topic } from '../../types';
 
 const TOPIC_ACCENT: Record<Topic, { tag: string; border: string }> = {
@@ -31,12 +33,17 @@ const TYPE_LABELS: Record<string, string> = {
 interface NewsCardProps {
   item: NewsItem;
   primaryTopic: Topic;
-  isBookmarked?: boolean;
 }
 
-export function NewsCard({ item, primaryTopic, isBookmarked = false }: NewsCardProps) {
+export function NewsCard({ item, primaryTopic }: NewsCardProps) {
   const accent = TOPIC_ACCENT[primaryTopic];
   const typeLabel = TYPE_LABELS[item.type] ?? item.type.toUpperCase();
+
+  const { toggle, isBookmarked } = useBookmarks();
+  const bookmarked = isBookmarked(item.id);
+
+  const { isCompleted } = useKnowledgeChecks();
+  const checked = isCompleted(item.id) && item.knowledgeChecks.length > 0;
 
   const date = new Date(item.publishedAt).toLocaleDateString('en-US', {
     month: 'short',
@@ -62,7 +69,7 @@ export function NewsCard({ item, primaryTopic, isBookmarked = false }: NewsCardP
           'hover:bg-white/[0.10] hover:border-white/[0.20] hover:-translate-y-0.5',
           'before:absolute before:top-0 before:inset-x-0 before:h-px',
           'before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent',
-          isBookmarked ? accent.border : 'border-white/[0.12]'
+          bookmarked ? accent.border : 'border-white/[0.12]'
         )}
       >
         <header className="flex items-start justify-between gap-2 mb-3">
@@ -75,11 +82,27 @@ export function NewsCard({ item, primaryTopic, isBookmarked = false }: NewsCardP
           >
             {typeLabel}
           </span>
-          {isBookmarked && (
-            <svg className="w-4 h-4 flex-shrink-0 text-cyan-400 mt-0.5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M5 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16l-7-3.5L5 21V5z" />
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              toggle(item.id);
+            }}
+            className={cn(
+              'flex-shrink-0 mt-0.5 transition-colors',
+              bookmarked ? 'text-cyan-400' : 'text-slate-600 hover:text-cyan-400'
+            )}
+          >
+            <svg
+              className="w-4 h-4"
+              fill={bookmarked ? 'currentColor' : 'none'}
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16l-7-3.5L5 21V5z" />
             </svg>
-          )}
+          </button>
         </header>
 
         <h2 className="text-[15px] font-semibold leading-snug text-slate-100 line-clamp-2">
@@ -90,9 +113,14 @@ export function NewsCard({ item, primaryTopic, isBookmarked = false }: NewsCardP
           {item.summary}
         </p>
 
-        <footer className="flex items-center justify-between mt-4 pt-3 border-t border-white/[0.06]">
+        <footer className="flex items-center gap-2 mt-4 pt-3 border-t border-white/[0.06]">
           <span className="text-xs text-slate-500 font-mono">{sourceDomain}</span>
-          <span className="text-xs text-slate-500 font-mono">{date}</span>
+          {checked && (
+            <span className="text-[10px] font-mono font-semibold tracking-widest uppercase px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400">
+              ✓ Checked
+            </span>
+          )}
+          <span className="text-xs text-slate-500 font-mono ml-auto">{date}</span>
         </footer>
       </article>
     </Link>

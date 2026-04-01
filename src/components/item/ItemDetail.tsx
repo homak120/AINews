@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { cn } from '../../utils/cn';
 import type { NewsItem, Topic } from '../../types';
 import { TOPIC_DISPLAY_NAMES } from '../../types';
 import { useBookmarks } from '../../hooks/useBookmarks';
@@ -71,8 +72,10 @@ export function ItemDetail({ item }: ItemDetailProps) {
           </Link>
           <button
             onClick={() => toggle(item.id)}
-            className="flex items-center gap-1.5 text-xs font-mono transition-colors hover:text-cyan-400"
-            style={{ color: bookmarked ? '#22d3ee' : '#64748b' }}
+            className={cn(
+              'flex items-center gap-1.5 text-xs font-mono transition-colors',
+              bookmarked ? 'text-cyan-400' : 'text-slate-500 hover:text-cyan-400'
+            )}
           >
             <svg className="w-4 h-4" fill={bookmarked ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round"
@@ -127,6 +130,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
           summary={item.summary}
           keyConcepts={item.keyConcepts}
           whyItMatters={item.whyItMatters}
+          topicAccent={accentClass}
         />
 
         <hr className="border-white/[0.08] my-5" />
