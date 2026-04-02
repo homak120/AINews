@@ -1,6 +1,6 @@
 # Implementation Plan: Feed Enhancements (Sort, Multi-File, Date Format)
 
-**Status**: 🔲 Pending
+**Status**: ✅ Completed (2026-04-02)
 **Date**: 2026-04-01
 **Branch**: `001-ainews-knowledge-hub`
 **Scope**: Three independent enhancements to the news feed — video sorting,
@@ -65,17 +65,10 @@ export function formatDate(isoDate: string): string {
 ```ts
 import type { NewsItem } from '../types';
 
-const TYPE_ORDER: Record<string, number> = {
-  video: 0,
-  article: 1,
-  paper: 2,
-  social: 3,
-};
-
 export function sortItemsVideosFirst(items: NewsItem[]): NewsItem[] {
-  return [...items].sort(
-    (a, b) => (TYPE_ORDER[a.type] ?? 99) - (TYPE_ORDER[b.type] ?? 99)
-  );
+  const videos = items.filter((item) => item.type === 'video');
+  const rest = items.filter((item) => item.type !== 'video');
+  return [...videos, ...rest];
 }
 ```
 
@@ -125,33 +118,6 @@ Rewrite `useEffect` to two-phase fetch:
 3. Merge items: sort files by `generatedAt` descending, deduplicate by `id`
    (newest file wins)
 4. Construct merged `NewsData` with latest metadata
-
-Merge function:
-
-```ts
-function mergeNewsFiles(files: NewsData[]): NewsData {
-  const sorted = [...files].sort(
-    (a, b) => new Date(b.generatedAt).getTime() - new Date(a.generatedAt).getTime()
-  );
-  const seen = new Set<string>();
-  const mergedItems: NewsItem[] = [];
-  for (const file of sorted) {
-    for (const item of file.items) {
-      if (!seen.has(item.id)) {
-        seen.add(item.id);
-        mergedItems.push(item);
-      }
-    }
-  }
-  return {
-    generatedAt: sorted[0].generatedAt,
-    weekOf: sorted[0].weekOf,
-    items: mergedItems,
-  };
-}
-```
-
-If manifest or any file fetch fails → error state.
 
 ### Downstream impact
 

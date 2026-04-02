@@ -186,13 +186,13 @@ See full detail: [`plans/003-video-thumbnail.md`](plans/003-video-thumbnail.md)
 
 - [x] T054 Add static YouTube thumbnail preview with play button overlay to video cards (NewsCard)
 
-### Batch 3 — Feed Enhancements: Sort, Multi-File, Date Format (pending)
+### Batch 3 — Feed Enhancements (completed 2026-04-02)
 
 See full detail: [`plans/004-feed-enhancements.md`](plans/004-feed-enhancements.md)
 
-- [ ] T055 Add day to date display format ("Mar 2026" → "Mar 31, 2026") — create `src/utils/formatDate.ts`, update NewsCard + ItemDetail
-- [ ] T056 Sort video items to top within each topic column — create `src/utils/sortItems.ts`, update NewsFeed
-- [ ] T057 Support multi-file news data with manifest — rename `news.json` to dated format, create `manifest.json`, rewrite NewsContext to fetch manifest then load all files with dedup
+- [x] T055 Extract shared `formatDate` utility and update NewsCard + ItemDetail
+- [x] T056 Create `sortItemsVideosFirst` utility and sort videos first in topic columns (NewsFeed)
+- [x] T057 Manifest-based multi-file news loading with deduplication (NewsContext)
 
 ---
 
