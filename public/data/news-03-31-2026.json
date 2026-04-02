@@ -1,0 +1,1819 @@
+{
+  "generatedAt": "2026-03-31T12:00:00Z",
+  "weekOf": "2026-03-24",
+  "coverageStart": "2026-03-03",
+  "coverageEnd": "2026-03-30",
+  "items": [
+    {
+      "id": "article-pragmaticengineer-ai-tooling-2026",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "AI Tooling for Software Engineers: 95% of Devs Use AI Weekly, Claude Code Tops the List",
+      "sourceUrl": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "publishedAt": "2026-03-07",
+      "summary": "The Pragmatic Engineer surveyed 906 software engineers and found that 95% now use AI tools at least weekly, with 75% using AI for at least half their work. Claude Code has gone from zero to the #1 developer AI tool in just eight months, with 46% preference — surpassing GitHub Copilot and Cursor. The survey also reveals that 55% regularly use AI agents, a massive jump from previous years.",
+      "keyConcepts": [
+        "Claude Code as #1 AI coding tool at 46%",
+        "95% weekly AI tool adoption among devs",
+        "AI agents becoming standard workflow",
+        "Multi-tool usage patterns (70% use 2-4 tools)"
+      ],
+      "whyItMatters": "This survey provides the most authoritative snapshot of how professional developers actually use AI tools in 2026 — the data shows AI coding assistance has crossed from optional to essential, and Claude Code's rapid dominance signals where the industry is heading.",
+      "tags": ["developer-survey", "claude-code", "ai-adoption", "developer-tools", "pragmatic-engineer"],
+      "relatedIds": ["article-medium-state-of-ai-coding-agents", "article-builder-claude-code-march-updates"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Pragmatic Engineer survey, what percentage of software engineers use AI tools at least weekly?",
+          "options": [
+            "About 50%",
+            "About 75%",
+            "95% of respondents",
+            "100% — it's now mandatory at most companies"
+          ],
+          "correctIndex": 2,
+          "explanation": "The survey of 906 engineers found that 95% use AI tools at least weekly, with 75% using AI for at least half their software engineering work — showing AI coding assistance has become nearly universal among professional developers."
+        },
+        {
+          "question": "How quickly did Claude Code rise to become the #1 AI coding tool?",
+          "options": [
+            "It took about 3 years",
+            "It went from zero to #1 in just 8 months since its May 2025 launch",
+            "It has always been the top tool",
+            "It took 18 months"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Code was released in May 2025 and within just 8 months became the most-used AI coding tool at 46% developer preference, overtaking established tools like GitHub Copilot (9%) and Cursor (19%)."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5mac-gpt53-instant",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "OpenAI Releases GPT-5.3 Instant: Less Cringe, Fewer Hallucinations, More Direct Answers",
+      "sourceUrl": "https://9to5mac.com/2026/03/03/openai-releases-gpt-5-3-instant-update-to-make-chatgpt-less-cringe/",
+      "publishedAt": "2026-03-03",
+      "summary": "OpenAI launched GPT-5.3 Instant on March 3, delivering more direct answers with 26.8% fewer hallucinations when using web search and 19.7% fewer when relying on internal knowledge. The update eliminates unnecessary caveats, moralizing preambles, and overly defensive phrasing that disrupted conversational flow in previous models.",
+      "keyConcepts": [
+        "26.8% hallucination reduction with web search",
+        "Elimination of unnecessary refusals and caveats",
+        "Improved conversational directness",
+        "GPT-5.2 Instant retirement on June 3, 2026"
+      ],
+      "whyItMatters": "GPT-5.3 Instant addresses one of the most common developer complaints about AI assistants — unnecessary hedging and refusals — making it a more practical tool for real engineering workflows where direct, accurate answers matter.",
+      "tags": ["openai", "gpt-5-3", "hallucination-reduction", "chatgpt", "model-update"],
+      "relatedIds": ["article-techcrunch-gpt54-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "By how much does GPT-5.3 Instant reduce hallucination rates when using web search?",
+          "options": [
+            "5% reduction",
+            "26.8% reduction compared to prior models",
+            "50% reduction",
+            "It eliminates hallucinations entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.3 Instant reduces hallucination rates by 26.8% when using web search and 19.7% when relying only on internal knowledge — a meaningful improvement for developers who need reliable information."
+        },
+        {
+          "question": "What behavioral change is GPT-5.3 Instant most known for?",
+          "options": [
+            "It can now generate images",
+            "It significantly reduces unnecessary refusals, caveats, and moralizing preambles before answering",
+            "It runs 10x faster than previous versions",
+            "It only responds in code"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.3 Instant was specifically designed to reduce 'cringe' behavior — unnecessary dead ends, excessive caveats, and overly defensive phrasing — providing more direct, helpful answers without unnecessary hedging."
+        }
+      ]
+    },
+    {
+      "id": "article-dev-gemini-code-assist-free",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Google Made Gemini Code Assist Free: 180K Completions vs Copilot's 2K — What's the Catch?",
+      "sourceUrl": "https://dev.to/alanwest/google-made-gemini-code-assist-free-whats-the-catch-4cae",
+      "publishedAt": "2026-03-05",
+      "summary": "Google launched a free tier for Gemini Code Assist offering 180,000 code completions per month — 90x more than GitHub Copilot's free tier of 2,000. The free plan includes code completion, chat assistance, and multi-file editing in VS Code and JetBrains. The catch: Google collects your prompts, code, and output to train their models with no opt-out for free users.",
+      "keyConcepts": [
+        "180K free monthly completions (90x Copilot)",
+        "Privacy trade-off: Google trains on free-tier code",
+        "Enterprise tier offers real privacy protections",
+        "Multi-IDE support (VS Code, JetBrains)"
+      ],
+      "whyItMatters": "Google's aggressive free tier pricing signals that AI code completion is becoming commoditized — but the privacy trade-off is a critical consideration for any engineer working on proprietary code.",
+      "tags": ["google", "gemini", "code-assist", "free-tier", "developer-tools", "privacy"],
+      "relatedIds": ["article-pragmaticengineer-ai-tooling-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Gemini Code Assist's free tier compare to GitHub Copilot's?",
+          "options": [
+            "They offer the same number of completions",
+            "Gemini offers 90x more completions (180,000 vs 2,000 per month)",
+            "Copilot offers more completions",
+            "Neither has a free tier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini Code Assist offers 180,000 free code completions per month compared to GitHub Copilot's 2,000 — a 90x difference that makes Google's offering significantly more generous in raw volume."
+        },
+        {
+          "question": "What is the main trade-off of using Gemini Code Assist's free tier?",
+          "options": [
+            "It only works in VS Code",
+            "Google collects your prompts, code, and output to train models — with no opt-out for free users",
+            "It requires a Google Cloud account with billing",
+            "It only supports Python"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key privacy trade-off is that Google trains its models on all data from free-tier users — including prompts, code, generated output, edits, and feedback — with no opt-out available. Enterprise users get stricter privacy protections."
+        }
+      ]
+    },
+    {
+      "id": "article-marktechpost-qwen35-small",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "Alibaba Releases Qwen 3.5 Small Models: 0.8B to 9B Parameters for On-Device AI",
+      "sourceUrl": "https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/",
+      "publishedAt": "2026-03-02",
+      "summary": "Alibaba's Qwen team launched the Qwen 3.5 Small Model Series — four lightweight models (0.8B, 2B, 4B, 9B parameters) designed for on-device applications. Using a hybrid architecture combining Gated Delta Networks with sparse Mixture-of-Experts and early-fusion multimodal training, these models deliver strong reasoning and multimodal capability without heavy compute requirements. All models are Apache 2.0 licensed.",
+      "keyConcepts": [
+        "Hybrid Gated Delta + MoE architecture",
+        "Early-fusion multimodal training",
+        "On-device AI deployment (0.8B-9B params)",
+        "Apache 2.0 open-source licensing"
+      ],
+      "whyItMatters": "Small, efficient models that run on-device represent the next frontier of AI deployment — Qwen 3.5 Small shows that multimodal reasoning no longer requires cloud-scale compute, opening up new possibilities for privacy-preserving AI applications.",
+      "tags": ["qwen", "alibaba", "small-models", "on-device-ai", "open-source", "multimodal"],
+      "relatedIds": ["article-cnbc-openclaw-commoditization"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Qwen 3.5 Small's training approach different from typical LLMs?",
+          "options": [
+            "It uses more training data than any other model",
+            "It uses early-fusion multimodal training, jointly training on text, image, and video tokens from the start",
+            "It only trains on code",
+            "It uses human feedback exclusively"
+          ],
+          "correctIndex": 1,
+          "explanation": "Instead of training a text model and attaching a vision encoder later, Qwen 3.5 Small uses early-fusion multimodal training — jointly training on text, image, and video tokens — which improves alignment between modalities."
+        },
+        {
+          "question": "What is the smallest model in the Qwen 3.5 Small series?",
+          "options": [
+            "2B parameters",
+            "0.8B parameters — small enough to run on mobile devices",
+            "9B parameters",
+            "70B parameters"
+          ],
+          "correctIndex": 1,
+          "explanation": "The smallest model is just 0.8 billion parameters, designed specifically for on-device deployment on phones and edge devices, while still maintaining multimodal understanding through the efficient hybrid architecture."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-cot-controllability",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "OpenAI Research: Reasoning Models Struggle to Hide Their Chain of Thought — And That's Good",
+      "sourceUrl": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
+      "publishedAt": "2026-03-05",
+      "summary": "OpenAI published research showing that current reasoning models struggle to control their chains of thought, even when told they are being monitored. This means chain-of-thought monitoring remains an effective safety tool — deception is less likely in models with transparent reasoning traces. The research introduces 13 evaluations to measure monitorability and suggests that monitoring chains-of-thought is substantially more effective than monitoring only actions and final outputs.",
+      "keyConcepts": [
+        "Chain-of-thought monitorability",
+        "13-evaluation framework for monitoring",
+        "Reasoning model safety through transparency",
+        "Deception detection via CoT analysis"
+      ],
+      "whyItMatters": "As AI models become more autonomous, being able to monitor their reasoning process is critical for safety. This research provides evidence that chain-of-thought transparency is a viable safety mechanism — important for anyone deploying reasoning models in production.",
+      "tags": ["openai", "ai-safety", "chain-of-thought", "reasoning", "transparency", "monitoring"],
+      "relatedIds": ["article-science-agentic-ai-intelligence-explosion"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is it good news that reasoning models struggle to control their chains of thought?",
+          "options": [
+            "It means the models are broken",
+            "It means their reasoning is transparent and harder to fake, making chain-of-thought monitoring an effective safety tool",
+            "It makes them faster",
+            "It reduces their intelligence"
+          ],
+          "correctIndex": 1,
+          "explanation": "If models can't hide their reasoning process, then monitoring their chains of thought becomes a reliable way to detect potential deception or misalignment — making transparent reasoning a key safety feature rather than a limitation."
+        },
+        {
+          "question": "What did OpenAI find about monitoring chains of thought vs. monitoring only final outputs?",
+          "options": [
+            "Monitoring final outputs is more effective",
+            "Both approaches are equally effective",
+            "Monitoring chains of thought is substantially more effective at detecting problems",
+            "Neither approach works"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's research demonstrates that monitoring the full chain of thought provides substantially better oversight than monitoring only actions and final outputs, because deceptive intent often reveals itself in the reasoning process."
+        }
+      ]
+    },
+    {
+      "id": "article-cnn-block-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Block Lays Off 4,000 Staff Citing AI — Sparking 'AI-Washing' Debate Across Tech",
+      "sourceUrl": "https://edition.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey",
+      "publishedAt": "2026-03-02",
+      "summary": "Jack Dorsey's Block laid off 4,000 employees — roughly 40% of its workforce — citing AI's growing capability. The move ignited a fierce debate about 'AI-washing,' since Dorsey's own March 2025 memo explicitly stated the cuts were 'not replacing folks with AI.' Even Sam Altman acknowledged the phenomenon, saying 'there's some AI washing where people are blaming AI for layoffs they would otherwise do.'",
+      "keyConcepts": [
+        "AI-washing: using AI as cover for cost-cutting",
+        "40% workforce reduction at Block",
+        "Contradictory CEO messaging one year apart",
+        "Industry-wide AI-washing trend"
+      ],
+      "whyItMatters": "The Block layoffs crystallize a critical question for every knowledge worker: when companies cite AI as the reason for cuts, how much is genuine capability replacement vs. convenient narrative? Understanding AI-washing helps you separate real skill threats from corporate spin.",
+      "tags": ["block", "layoffs", "ai-washing", "jack-dorsey", "workforce"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'AI-washing' in the context of layoffs?",
+          "options": [
+            "Using AI to clean data",
+            "Using AI capabilities as a justification for layoffs that may actually be driven by traditional cost-cutting",
+            "Training AI models on employee data",
+            "Hiring AI engineers to replace managers"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI-washing refers to companies citing AI as the primary driver for workforce reductions when the real motivations may be traditional cost-cutting, restructuring, or financial targets — using the AI narrative as convenient cover."
+        },
+        {
+          "question": "What made Block's AI-washing particularly transparent?",
+          "options": [
+            "They admitted it publicly",
+            "CEO Jack Dorsey's own March 2025 memo explicitly said cuts were 'not replacing folks with AI' — then cited AI eleven months later",
+            "Employees proved AI wasn't used",
+            "Block doesn't use any AI tools"
+          ],
+          "correctIndex": 1,
+          "explanation": "The contradiction between Dorsey's explicit March 2025 statement ('None of the above points are trying to replace folks with AI') and his March 2026 framing citing AI capabilities made Block's case a particularly clear example of shifting narratives."
+        }
+      ]
+    },
+    {
+      "id": "article-aboutamazon-aws-openai-partnership",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "AWS and OpenAI Announce $100B Multi-Year Strategic Partnership",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+      "publishedAt": "2026-03-02",
+      "summary": "OpenAI and AWS expanded their partnership by $100 billion over 8 years, with OpenAI committing to consume approximately 2 gigawatts of Trainium capacity spanning Trainium3 and next-gen Trainium4 chips. This is part of OpenAI's historic $110 billion funding round — the largest private fundraise ever — anchored by Amazon ($50B), Nvidia ($30B), and SoftBank ($30B), valuing the company at $840 billion.",
+      "keyConcepts": [
+        "$100B AWS expansion over 8 years",
+        "$110B OpenAI funding round at $840B valuation",
+        "2 gigawatts of Trainium compute commitment",
+        "Multi-cloud AI infrastructure strategy"
+      ],
+      "whyItMatters": "This deal reshapes the cloud AI landscape — OpenAI's massive AWS commitment alongside its Microsoft relationship signals that frontier AI companies need multi-cloud strategies, and the sheer scale of investment defines where AI infrastructure is heading.",
+      "tags": ["aws", "openai", "cloud-infrastructure", "trainium", "partnership", "funding"],
+      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-gpt54-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "How much is OpenAI's latest funding round worth?",
+          "options": [
+            "$10 billion",
+            "$50 billion",
+            "$110 billion — the largest private fundraise in history, valuing OpenAI at $840 billion",
+            "$1 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's $110 billion funding round is the largest private fundraise in history, anchored by Amazon ($50B), Nvidia ($30B), and SoftBank ($30B), giving OpenAI a post-money valuation of $840 billion."
+        },
+        {
+          "question": "What compute commitment did OpenAI make to AWS?",
+          "options": [
+            "100 GPUs",
+            "Approximately 2 gigawatts of Trainium capacity over 8 years",
+            "A one-year trial period",
+            "Only testing and development workloads"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI committed to consuming approximately 2 gigawatts of Trainium capacity spanning both Trainium3 and next-generation Trainium4 chips — a massive compute commitment that translates to 40-60 million square feet of new data center space."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-datacenter-boom",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "The Billion-Dollar Infrastructure Deals Powering the AI Boom",
+      "sourceUrl": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
+      "publishedAt": "2026-03-02",
+      "summary": "A comprehensive analysis of the unprecedented wave of data center deals powering the AI boom, with over $650 billion committed across major cloud providers and AI companies. The article maps out how OpenAI, Microsoft, Google, Meta, and Amazon are racing to secure compute capacity through massive infrastructure partnerships with Oracle, Nvidia, and regional data center operators worldwide.",
+      "keyConcepts": [
+        "$650B+ committed to AI data centers",
+        "Multi-cloud infrastructure race",
+        "Power and cooling as bottlenecks",
+        "Regional data center expansion"
+      ],
+      "whyItMatters": "The scale of infrastructure investment reveals where the industry believes AI is heading — companies are betting hundreds of billions that AI compute demand will continue growing exponentially, creating opportunities and risks across the tech stack.",
+      "tags": ["data-centers", "infrastructure", "cloud", "investment", "compute"],
+      "relatedIds": ["article-aboutamazon-aws-openai-partnership"],
+      "knowledgeChecks": [
+        {
+          "question": "How much total investment has been committed to AI data center infrastructure?",
+          "options": [
+            "About $10 billion",
+            "About $100 billion",
+            "Over $650 billion across major cloud providers and AI companies",
+            "About $1 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Over $650 billion has been committed to AI data center infrastructure by major players including OpenAI, Microsoft, Google, Meta, and Amazon — an unprecedented investment wave driven by expectations of exponential AI compute demand."
+        },
+        {
+          "question": "What are the primary bottlenecks for AI data center expansion?",
+          "options": [
+            "Software licensing costs",
+            "Power supply and cooling capacity",
+            "Lack of interest from investors",
+            "Shortage of office space"
+          ],
+          "correctIndex": 1,
+          "explanation": "Power supply and cooling are the critical bottlenecks — AI training and inference require enormous amounts of electricity and generate significant heat, making power availability the primary constraint on how quickly new data centers can come online."
+        }
+      ]
+    },
+    {
+      "id": "article-thenewstack-mcp-roadmap-2026",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "MCP's Biggest Production Growing Pains Will Soon Be Solved — The 2026 Roadmap",
+      "sourceUrl": "https://thenewstack.io/model-context-protocol-roadmap-2026/",
+      "publishedAt": "2026-03-10",
+      "summary": "The Model Context Protocol hit 97 million installs in March 2026, with OpenAI, Google DeepMind, Cohere, and Mistral all integrating MCP support. The 2026 roadmap focuses on solving production-scale challenges: evolving Streamable HTTP to run statelessly across multiple server instances, enabling session migration across server restarts, and adding enterprise-grade features like SSO-integrated auth, audit trails, and gateway behavior.",
+      "keyConcepts": [
+        "97 million MCP installs by March 2026",
+        "Stateless transport evolution for production scale",
+        "Enterprise governance features (SSO, audit trails)",
+        "Universal adoption across all major AI providers"
+      ],
+      "whyItMatters": "MCP has become the de facto standard for connecting AI agents to external tools and data — understanding its production limitations and roadmap is essential for any engineer building agentic AI systems at scale.",
+      "tags": ["mcp", "model-context-protocol", "anthropic", "agentic-ai", "infrastructure"],
+      "relatedIds": ["article-builder-claude-code-march-updates", "article-medium-state-of-ai-coding-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary production challenge MCP's 2026 roadmap aims to solve?",
+          "options": [
+            "Making MCP work with more programming languages",
+            "Evolving from stateful long-lived sessions to stateless transport that scales across multiple server instances",
+            "Adding support for image generation",
+            "Reducing the size of MCP packages"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP currently relies on long-lived stateful sessions, making it hard to deploy across multiple instances or behind load balancers. The 2026 roadmap prioritizes evolving Streamable HTTP to run statelessly with session creation, resumption, and migration support."
+        },
+        {
+          "question": "How many major AI providers have integrated MCP support by March 2026?",
+          "options": [
+            "Only Anthropic",
+            "Anthropic and OpenAI",
+            "All major providers including OpenAI, Google DeepMind, Cohere, and Mistral",
+            "None — MCP is still experimental"
+          ],
+          "correctIndex": 2,
+          "explanation": "By mid-March 2026, MCP crossed 97 million installs with universal adoption — OpenAI, Google DeepMind, Cohere, and Mistral all integrated MCP support into their agent frameworks, establishing it as the industry standard."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-meta-mtia-chips",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Meta Rolls Out Four Custom MTIA AI Chips to Reduce Nvidia Dependence",
+      "sourceUrl": "https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html",
+      "publishedAt": "2026-03-11",
+      "summary": "Meta announced four new generations of custom MTIA AI chips — MTIA 300, 400, 450, and 500 — to be deployed over the next two years. Built on open-source RISC-V architecture and manufactured by TSMC with Broadcom co-development, the chips prioritize GenAI inference workloads. MTIA 300 is already in production, with new chips releasing every six months to reduce reliance on Nvidia.",
+      "keyConcepts": [
+        "Four MTIA chip generations (300-500)",
+        "RISC-V open-source architecture",
+        "Inference-first design strategy",
+        "Six-month chip release cadence"
+      ],
+      "whyItMatters": "Meta's aggressive custom silicon roadmap signals that the biggest AI companies are building their own chips to control costs and reduce dependency on Nvidia — a strategic shift that will reshape the AI hardware landscape.",
+      "tags": ["meta", "mtia", "custom-chips", "risc-v", "ai-hardware", "inference"],
+      "relatedIds": ["article-nvidia-gtc-2026-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What architecture do Meta's MTIA chips use?",
+          "options": [
+            "Proprietary ARM-based design",
+            "Open-source RISC-V instruction set architecture",
+            "x86 architecture like Intel",
+            "NVIDIA's CUDA architecture"
+          ],
+          "correctIndex": 1,
+          "explanation": "All four MTIA chips are built on the open-source RISC-V instruction set architecture, manufactured by TSMC and co-developed with Broadcom — a strategic choice that gives Meta more control over its chip design."
+        },
+        {
+          "question": "What is Meta's primary goal with the MTIA chip program?",
+          "options": [
+            "To sell chips to other companies",
+            "To diversify hardware sources and reduce reliance on outside chipmakers like Nvidia",
+            "To replace all GPUs with CPUs",
+            "To build gaming hardware"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta is developing custom MTIA chips to diversify its hardware sources, reduce reliance on Nvidia, and bring down costs amid the expensive AI race — deploying a new chip generation every six months."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-openclaw-commoditization",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "article",
+      "title": "OpenClaw's ChatGPT Moment: How the Viral AI Agent Framework Is Commoditizing Foundation Models",
+      "sourceUrl": "https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html",
+      "publishedAt": "2026-03-12",
+      "summary": "OpenClaw, an open-source agentic AI platform, surged to over 250,000 GitHub stars in just two months — drawing comparisons to Linux from Nvidia CEO Jensen Huang at GTC 2026. The platform enables developers to run always-on AI agents locally on personal hardware like Mac Minis, dramatically reducing cloud costs and sparking concerns that foundation models are becoming commoditized as value shifts to agent frameworks.",
+      "keyConcepts": [
+        "250,000+ GitHub stars in two months",
+        "Local-first AI agent deployment",
+        "Foundation model commoditization",
+        "Agent framework as the new value layer"
+      ],
+      "whyItMatters": "OpenClaw's explosive growth signals a fundamental shift in where AI value is created — from the models themselves to the agent frameworks that orchestrate them. Engineers should understand this shift when choosing where to invest their time and skills.",
+      "tags": ["openclaw", "open-source", "ai-agents", "commoditization", "local-ai"],
+      "relatedIds": ["article-nvidianews-nemoclaw", "article-marktechpost-qwen35-small"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is OpenClaw's rise compared to a 'ChatGPT moment'?",
+          "options": [
+            "It's made by OpenAI",
+            "It went viral with 250,000+ GitHub stars in two months and is shifting where AI value is created — from models to agent frameworks",
+            "It's a chatbot",
+            "It costs as much as ChatGPT"
+          ],
+          "correctIndex": 1,
+          "explanation": "Like ChatGPT's launch sparked the AI application wave, OpenClaw's rapid adoption (250K+ stars, 318K in 60 days) represents a paradigm shift toward agent frameworks as the primary value layer, potentially commoditizing the underlying foundation models."
+        },
+        {
+          "question": "How does OpenClaw reduce AI deployment costs?",
+          "options": [
+            "By offering cheaper cloud pricing",
+            "By enabling developers to run AI agents locally on personal hardware like Mac Minis instead of cloud services",
+            "By using smaller models only",
+            "By eliminating the need for AI models entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenClaw allows developers to run always-on AI agents locally on personal hardware, avoiding cloud computing costs — making AI agent deployment dramatically more economical and accessible."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-atlassian-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Atlassian Cuts 1,600 Jobs While Hiring 800 AI Engineers — The 'Cut and Redirect' Playbook",
+      "sourceUrl": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
+      "publishedAt": "2026-03-12",
+      "summary": "Atlassian laid off 1,600 employees (10% of its workforce) concentrated in content creation, customer support, QA, and project management — areas where AI has proven most capable. Simultaneously, the company announced 800 new hires in AI engineering, ML operations, and AI safety. CEO Mike Cannon-Brookes stated it would be 'disingenuous to pretend AI doesn't change the mix of skills we need.'",
+      "keyConcepts": [
+        "Cut-and-redirect workforce strategy",
+        "AI-vulnerable role categories",
+        "AI engineering hiring surge",
+        "Workforce composition reshaping"
+      ],
+      "whyItMatters": "Atlassian's approach is becoming the template for Big Tech restructuring — cutting traditional roles while hiring AI specialists. Understanding which roles are being cut vs. created tells you exactly where to invest your skill development.",
+      "tags": ["atlassian", "layoffs", "hiring", "ai-engineering", "workforce-reshaping"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-cnn-block-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'cut and redirect' pattern in AI-driven layoffs?",
+          "options": [
+            "Cutting all employees and rehiring them at lower salaries",
+            "Laying off roles where AI is most capable while simultaneously hiring AI engineering specialists",
+            "Redirecting laid-off employees to different departments",
+            "Cutting AI research budgets to redirect to traditional engineering"
+          ],
+          "correctIndex": 1,
+          "explanation": "Atlassian exemplifies the 'cut and redirect' pattern: laying off 1,600 in areas where AI tools perform well (content, QA, support, project management) while hiring 800 in AI engineering, ML ops, and AI safety — a net reduction but a fundamental skill composition shift."
+        },
+        {
+          "question": "Which role categories were most affected by Atlassian's AI-driven cuts?",
+          "options": [
+            "Executive leadership and sales",
+            "Content creation, customer support, QA, and project management",
+            "AI research and machine learning",
+            "Finance and legal"
+          ],
+          "correctIndex": 1,
+          "explanation": "The cuts targeted roles where AI tools have demonstrated the most capability: content creation, customer support, quality assurance, and project management — while AI engineering, ML ops, and AI safety roles were expanded."
+        }
+      ]
+    },
+    {
+      "id": "article-techtimes-ai-jobs-soar-layoffs-surge",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Tech Layoffs Surge While AI Jobs Soar: 45,000 Cuts vs 340% Growth in AI Postings",
+      "sourceUrl": "https://www.techtimes.com/articles/315282/20260321/tech-layoffs-surge-while-ai-jobs-soar-key-trends-shaping-2026-tech-industry.htm",
+      "publishedAt": "2026-03-10",
+      "summary": "Through early March 2026, 45,363 tech layoffs have been confirmed worldwide, with 20.4% explicitly linked to AI and automation — up from fewer than 8% in 2025. Meanwhile, LinkedIn data shows AI-related job postings have increased 340% since 2024, while traditional software engineering roles declined 15%. AI engineers, MLOps specialists, and AI safety researchers are the fastest-growing roles.",
+      "keyConcepts": [
+        "AI-attributed layoffs doubled to 20.4%",
+        "340% growth in AI job postings since 2024",
+        "15% decline in traditional SE roles",
+        "MLOps and AI safety as fastest-growing categories"
+      ],
+      "whyItMatters": "The data paints a clear picture: the tech job market is bifurcating. AI-fluent engineers are in unprecedented demand while traditional roles contract — making AI skill development the single most important career investment right now.",
+      "tags": ["job-market", "ai-jobs", "layoffs", "mlops", "career-trends"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "How has the percentage of AI-attributed layoffs changed from 2025 to 2026?",
+          "options": [
+            "It decreased from 20% to 8%",
+            "It stayed roughly the same at 8%",
+            "It more than doubled from under 8% in 2025 to 20.4% in early 2026",
+            "AI has not been cited in any layoff announcements"
+          ],
+          "correctIndex": 2,
+          "explanation": "In 2025, AI was cited as a factor in fewer than 8% of layoff announcements. By early 2026, that figure has more than doubled to 20.4% of all confirmed tech layoffs — a dramatic acceleration in AI-driven workforce restructuring."
+        },
+        {
+          "question": "What does LinkedIn data reveal about the current software engineering job market?",
+          "options": [
+            "All software engineering roles are growing equally",
+            "AI-related postings are up 340% since 2024, while traditional SE roles declined 15%",
+            "Job postings have stopped entirely",
+            "Only senior roles are in demand"
+          ],
+          "correctIndex": 1,
+          "explanation": "The market is bifurcating: AI-related job postings grew 340% since 2024, indicating massive demand for AI-fluent engineers, while traditional software engineering roles declined 15% — making AI skills the critical differentiator."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-cursor-50b-valuation",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "AI Coding Startup Cursor in Talks for $50 Billion Valuation — Nearly Double Its Fall Round",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation",
+      "publishedAt": "2026-03-12",
+      "summary": "Cursor, the AI coding assistant startup, is in talks for a funding round at approximately $50 billion valuation — nearly double its $29.3 billion November valuation. The company's annualized revenue exceeds $2 billion, making it one of the fastest-growing startups ever. Investors include Coatue, Thrive Capital, Andreessen Horowitz, Google, and Nvidia.",
+      "keyConcepts": [
+        "$50B valuation (up from $29.3B in November)",
+        "Annualized revenue exceeding $2B",
+        "Fastest-growing startup trajectory",
+        "AI coding tool market competition"
+      ],
+      "whyItMatters": "Cursor's $50B valuation at just 3 years old demonstrates that AI coding tools are among the most valuable software categories ever created — the market has validated that developers will pay significant premiums for AI-assisted development.",
+      "tags": ["cursor", "valuation", "startup", "ai-coding", "venture-capital"],
+      "relatedIds": ["article-pragmaticengineer-ai-tooling-2026", "article-techcrunch-ai-startups-eating-vc"],
+      "knowledgeChecks": [
+        {
+          "question": "How fast has Cursor's valuation grown?",
+          "options": [
+            "It decreased from last year",
+            "It nearly doubled from $29.3B in November to approximately $50B in March",
+            "It stayed flat",
+            "It grew by 10%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cursor's valuation nearly doubled in just 4 months — from $29.3 billion in November 2025 to approximately $50 billion in March 2026, reflecting explosive revenue growth exceeding $2 billion annualized."
+        },
+        {
+          "question": "What does Cursor's growth indicate about the AI coding tools market?",
+          "options": [
+            "The market is shrinking",
+            "Developers are abandoning AI tools",
+            "AI coding tools are one of the most valuable software categories ever, with developers willing to pay premium prices",
+            "Only free tools succeed"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cursor's trajectory from launch to $50B valuation in roughly 3 years — with $2B+ annualized revenue — validates AI coding tools as one of the fastest-growing and most valuable software categories in history."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidianews-nemoclaw",
+      "topics": ["ai-engineering", "ai-research"],
+      "type": "article",
+      "title": "NVIDIA Announces NemoClaw: Enterprise-Grade Open-Source AI Agent Platform at GTC 2026",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
+      "publishedAt": "2026-03-16",
+      "summary": "Jensen Huang announced NemoClaw at GTC 2026 — an enterprise-grade AI agent platform built on top of OpenClaw that adds security, privacy, and governance features. NemoClaw runs always-on, self-evolving agents 'with one command,' is hardware-agnostic, and uses open-source models like Nemotron. Major companies including Salesforce, Cisco, Google, Adobe, and CrowdStrike are already being pitched on the platform.",
+      "keyConcepts": [
+        "Enterprise-grade security on top of OpenClaw",
+        "Hardware-agnostic deployment",
+        "Always-on self-evolving agents",
+        "Open-source Nemotron models"
+      ],
+      "whyItMatters": "NemoClaw represents Nvidia's strategic pivot from selling chips to owning the AI agent software stack — by making enterprise-grade agent deployment free and open-source, they're building the ecosystem that drives demand for their hardware.",
+      "tags": ["nvidia", "nemoclaw", "openclaw", "open-source", "enterprise-ai", "agents"],
+      "relatedIds": ["article-cnbc-openclaw-commoditization", "article-nvidia-gtc-2026-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the relationship between NemoClaw and OpenClaw?",
+          "options": [
+            "They are competing products",
+            "NemoClaw is OpenClaw with enterprise-grade security, privacy, and governance features added on top",
+            "NemoClaw replaces OpenClaw entirely",
+            "They are the same product with different names"
+          ],
+          "correctIndex": 1,
+          "explanation": "NemoClaw is essentially OpenClaw (the popular open-source AI agent framework) with enterprise-grade features baked in — security via NVIDIA OpenShell runtime, open-source Nemotron models, and governance tools that make it safe for large organizations."
+        },
+        {
+          "question": "Why is NemoClaw strategically important for NVIDIA beyond chip sales?",
+          "options": [
+            "It generates direct software revenue",
+            "By making enterprise agent deployment free and open-source, NVIDIA builds the ecosystem that drives demand for their hardware",
+            "It replaces their GPU business",
+            "It's a cloud computing service"
+          ],
+          "correctIndex": 1,
+          "explanation": "NemoClaw is hardware-agnostic and free, but by building the standard agent platform, NVIDIA creates ecosystem lock-in that drives compute demand — a strategic pivot from just selling chips to owning the AI agent software stack."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-gtc-2026-agents",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "NVIDIA GTC 2026: Vera Rubin Platform, Open-Source Enterprise AI Agents, and 100K Uber Robotaxis",
+      "sourceUrl": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "publishedAt": "2026-03-17",
+      "summary": "At GTC 2026, NVIDIA unveiled seven new chips, the Vera Rubin platform (successor to Blackwell), the NemoClaw agent platform, and a partnership with Uber to deploy 100,000 robotaxis across 28 cities by 2028. The AI-Q Blueprint for agentic search topped DeepResearch Bench accuracy while cutting query costs in half. BYD, Hyundai, Nissan, and Geely joined NVIDIA's DRIVE Hyperion autonomous vehicle platform.",
+      "keyConcepts": [
+        "Vera Rubin next-gen AI compute platform",
+        "100,000 Uber robotaxis by 2028",
+        "AI-Q Blueprint: accuracy + 50% cost reduction",
+        "Seven new chip announcements"
+      ],
+      "whyItMatters": "GTC 2026 revealed NVIDIA's full-stack AI strategy — from chips to agents to robotaxis. The company is positioning itself as the infrastructure layer for the entire AI economy, making this event essential viewing for understanding where enterprise AI is headed.",
+      "tags": ["nvidia", "gtc-2026", "vera-rubin", "uber", "robotaxi", "enterprise-agents"],
+      "relatedIds": ["article-nvidianews-nemoclaw", "article-nvidianews-uber-robotaxi"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Vera Rubin platform?",
+          "options": [
+            "A telescope for space observation",
+            "NVIDIA's successor to the Blackwell architecture for next-generation AI compute",
+            "An open-source language model",
+            "A cloud storage solution"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vera Rubin is NVIDIA's next-generation AI compute platform, succeeding Blackwell, with cloud providers planning to offer rack-scale systems in the second half of 2026 — it will power the next wave of frontier model training."
+        },
+        {
+          "question": "How many robotaxis do NVIDIA and Uber plan to deploy?",
+          "options": [
+            "1,000 vehicles in one city",
+            "100,000 vehicles across 28 cities by 2028",
+            "10 test vehicles",
+            "500 vehicles in San Francisco only"
+          ],
+          "correctIndex": 1,
+          "explanation": "NVIDIA and Uber announced plans to deploy 100,000 autonomous vehicles across 28 cities by 2028, starting in Los Angeles and San Francisco in 2027, powered by NVIDIA's DRIVE Hyperion platform and Alpamayo open models."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidianews-uber-robotaxi",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "NVIDIA and Uber Partner on End-to-End Self-Driving System for Global Robotaxi Fleet",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-uber-robotaxi",
+      "publishedAt": "2026-03-17",
+      "summary": "At GTC 2026, NVIDIA and Uber announced a joint venture to deploy 100,000 software-driven autonomous vehicles starting in LA and SF in early 2027, scaling to 28 cities globally by 2028. The vehicles will run on NVIDIA's DRIVE Hyperion platform with Alpamayo open models and the Halos safety operating system. BYD, Hyundai, Nissan, and Geely have joined as manufacturing partners, with Wayve and Nissan exhibiting a prototype.",
+      "keyConcepts": [
+        "DRIVE Hyperion platform for Level 4 autonomy",
+        "Alpamayo open models + Halos safety OS",
+        "28-city global deployment by 2028",
+        "Multi-automaker partnerships (BYD, Hyundai, Nissan, Geely)"
+      ],
+      "whyItMatters": "This partnership moves robotaxis from experimental pilots to industrial-scale deployment — the combination of NVIDIA's full-stack autonomy platform with Uber's ride-hailing network and multiple automakers signals that autonomous transportation is entering its commercial era.",
+      "tags": ["nvidia", "uber", "robotaxi", "autonomous-driving", "drive-hyperion"],
+      "relatedIds": ["article-nvidia-gtc-2026-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes NVIDIA's robotaxi approach different from previous autonomous driving efforts?",
+          "options": [
+            "It uses only cameras with no compute",
+            "It provides a full-stack platform (DRIVE Hyperion + Alpamayo models + Halos safety OS) that multiple automakers can adopt",
+            "It requires human drivers at all times",
+            "It only works in good weather"
+          ],
+          "correctIndex": 1,
+          "explanation": "NVIDIA's approach provides a complete platform — DRIVE Hyperion hardware, Alpamayo open AI models, and the Halos safety operating system — enabling multiple automakers (BYD, Hyundai, Nissan, Geely) and ride-hailing platforms to build Level 4 autonomous vehicles on a unified foundation."
+        },
+        {
+          "question": "When will the first NVIDIA-Uber robotaxis be available to the public?",
+          "options": [
+            "They're already available",
+            "Starting in LA and San Francisco in the first half of 2027",
+            "Not until 2030",
+            "Only for private testing in 2028"
+          ],
+          "correctIndex": 1,
+          "explanation": "The first public deployments will begin in Los Angeles and San Francisco in the first half of 2027, scaling to 28 cities globally by 2028 with a target of 100,000 vehicles."
+        }
+      ]
+    },
+    {
+      "id": "article-science-agentic-ai-intelligence-explosion",
+      "topics": ["ai-research"],
+      "type": "paper",
+      "title": "Agentic AI and the Next Intelligence Explosion: How Reasoning Models Spontaneously Develop 'Societies of Thought'",
+      "sourceUrl": "https://www.science.org/doi/10.1126/science.aeg1895",
+      "publishedAt": "2026-03-20",
+      "summary": "Published in Science, this paper by James Evans et al. demonstrates that when reinforcement learning rewards base models solely for reasoning accuracy, they spontaneously develop multi-agent-like internal behaviors — termed 'societies of thought' — where distinct cognitive perspectives argue, question, and reconcile within a single chain of thought. None of the models were explicitly trained to produce this behavior.",
+      "keyConcepts": [
+        "Societies of thought — emergent multi-agent reasoning",
+        "Spontaneous cognitive specialization from RL",
+        "Agentic behavior as emergent property",
+        "Implications for AI agent architecture design"
+      ],
+      "whyItMatters": "This finding suggests that agentic behavior may be an emergent property of reasoning optimization, not something that needs to be explicitly engineered — a fundamental insight for anyone building or using AI agent systems.",
+      "tags": ["agentic-ai", "reinforcement-learning", "reasoning", "emergent-behavior", "science"],
+      "relatedIds": ["article-openai-cot-controllability"],
+      "knowledgeChecks": [
+        {
+          "question": "What are 'societies of thought' as described in this paper?",
+          "options": [
+            "Groups of researchers collaborating on AI safety",
+            "Multi-agent-like internal debates that emerge spontaneously within a single model's chain of thought",
+            "A new social media platform for AI researchers",
+            "Pre-programmed debate templates for language models"
+          ],
+          "correctIndex": 1,
+          "explanation": "Societies of thought are emergent behaviors where a single model spontaneously generates internal debates among distinct cognitive perspectives — arguing, questioning, verifying, and reconciling — despite never being trained to do so."
+        },
+        {
+          "question": "What makes this finding surprising from a training perspective?",
+          "options": [
+            "The models were trained specifically for debate",
+            "The models required massive amounts of data",
+            "The multi-perspective reasoning emerged without any explicit training for it — only from rewarding reasoning accuracy",
+            "The behavior only works with very small models"
+          ],
+          "correctIndex": 2,
+          "explanation": "The key surprise is that reinforcement learning optimizing solely for reasoning accuracy spontaneously produces complex multi-agent-like behaviors — suggesting agentic reasoning is an emergent property, not something that needs to be explicitly designed."
+        }
+      ]
+    },
+    {
+      "id": "article-pew-americans-ai-views-2026",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Pew Research: 71% of Americans Want Federal AI Regulation, Worker Anxiety Hits Record Levels",
+      "sourceUrl": "https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/",
+      "publishedAt": "2026-03-12",
+      "summary": "Pew Research Center's March 2026 survey found that 71% of Americans believe the federal government should play a 'major' or 'moderate' role in regulating AI, up from 56% in 2023. Separately, Gallup found 62% of adults are concerned AI will eliminate jobs in their industry within five years — up from 43% in 2024 — with anxiety highest among college-educated workers in their 30s and 40s.",
+      "keyConcepts": [
+        "71% support federal AI regulation (up from 56%)",
+        "62% fear AI job elimination (up from 43%)",
+        "Mid-career college-educated workers most anxious",
+        "Growing bipartisan support for oversight"
+      ],
+      "whyItMatters": "The dramatic increase in both regulation support and job anxiety shows AI is no longer an abstract concern — it's a pocketbook issue. Engineers should understand the regulatory landscape that's forming around AI technology.",
+      "tags": ["pew-research", "gallup", "ai-regulation", "worker-anxiety", "public-opinion"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "knowledgeChecks": [
+        {
+          "question": "How has American support for federal AI regulation changed from 2023 to 2026?",
+          "options": [
+            "It decreased from 71% to 56%",
+            "It increased from 56% to 71%",
+            "It stayed flat at about 60%",
+            "Americans oppose AI regulation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Support for federal AI regulation rose from 56% in 2023 to 71% in 2026 — a 15-point increase reflecting growing public awareness and concern about AI's impact on jobs, privacy, and society."
+        },
+        {
+          "question": "Which demographic group shows the highest AI job anxiety?",
+          "options": [
+            "Teenagers entering the workforce",
+            "Retirees",
+            "College-educated workers in their 30s and 40s",
+            "AI researchers"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI job anxiety is highest among college-educated workers in their 30s and 40s — precisely the mid-career professionals who hold the white-collar roles most vulnerable to AI automation."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ami-labs-jepa",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Yann LeCun's AMI Labs Raises $1.03B — Largest European Seed Round Ever — to Build World Models Based on JEPA",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "publishedAt": "2026-03-09",
+      "summary": "Turing Award winner Yann LeCun's new venture AMI Labs raised $1.03 billion — the largest seed round in European startup history — at a $3.5B pre-money valuation. AMI Labs is developing world models based on Joint Embedding Predictive Architecture (JEPA), which learns abstract representations of real-world data rather than generating text, positioning it as a potential successor to the LLM paradigm. Backed by Nvidia, Toyota, Samsung, and Bezos Expeditions.",
+      "keyConcepts": [
+        "JEPA: Joint Embedding Predictive Architecture",
+        "World models vs language models paradigm",
+        "$1.03B largest European seed round",
+        "Post-LLM AI architecture"
+      ],
+      "whyItMatters": "If world models succeed, they represent the biggest architectural shift since transformers — engineers building on LLMs should understand the alternative paradigm that just attracted over a billion dollars in funding from top-tier investors.",
+      "tags": ["ami-labs", "yann-lecun", "jepa", "world-models", "seed-round"],
+      "relatedIds": ["article-science-agentic-ai-intelligence-explosion", "article-marktechpost-qwen35-small"],
+      "knowledgeChecks": [
+        {
+          "question": "How does JEPA differ from traditional large language models?",
+          "options": [
+            "JEPA only works with images",
+            "JEPA learns abstract representations in embedding space rather than generating text token by token",
+            "JEPA requires less compute than any other approach",
+            "JEPA is a type of reinforcement learning algorithm"
+          ],
+          "correctIndex": 1,
+          "explanation": "JEPA (Joint Embedding Predictive Architecture) learns by predicting abstract representations in embedding space, ignoring unpredictable details — a fundamentally different approach from LLMs that generate text tokens sequentially."
+        },
+        {
+          "question": "Why is AMI Labs' seed round historically significant?",
+          "options": [
+            "It's the first AI company to go public",
+            "At $1.03B and $3.5B pre-money valuation, it's the largest seed round in European startup history",
+            "It was funded entirely by government grants",
+            "It raised money without a product"
+          ],
+          "correctIndex": 1,
+          "explanation": "The $1.03B seed round at a $3.5B pre-money valuation is the largest seed ever for a European startup, backed by Nvidia, Toyota, Samsung, and Bezos Expeditions — reflecting massive conviction in the world model approach as a potential LLM successor."
+        }
+      ]
+    },
+    {
+      "id": "article-fcc-claude-code-essentials",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "freeCodeCamp Publishes 12-Hour Claude Code Essentials Course — Free on YouTube",
+      "sourceUrl": "https://www.freecodecamp.org/news/claude-code-essentials-exampro/",
+      "publishedAt": "2026-03-24",
+      "summary": "freeCodeCamp published a comprehensive 12-hour Claude Code Essentials certification course developed by Andrew Brown of ExamPro. The course covers the agent loop, CLI sessions and workflows, tool usage, context handling, and real-world agentic development patterns. It's designed to prepare developers for a follow-up 'Claude Code Camp' bootcamp covering multi-phase plans and agent execution.",
+      "keyConcepts": [
+        "12-hour free certification course",
+        "Agentic coding workflows and agent loop",
+        "CLI sessions, tools, and context handling",
+        "Real-world development patterns"
+      ],
+      "whyItMatters": "Free, comprehensive training on the most popular AI coding tool democratizes access to agentic development skills — this course provides a structured path from beginner to competent Claude Code user.",
+      "tags": ["freecodecamp", "claude-code", "course", "education", "agentic-coding"],
+      "relatedIds": ["article-builder-claude-code-march-updates", "article-pragmaticengineer-ai-tooling-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the Claude Code Essentials course primarily teach?",
+          "options": [
+            "Basic Python programming",
+            "The agentic coding workflow: agent loop, CLI sessions, tool usage, context handling, and real-world development patterns",
+            "Web design with HTML and CSS",
+            "Database administration"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 12-hour course covers core agentic coding concepts including how the agent loop works, managing CLI sessions and workflows, tool usage and context handling, and applying real-world development patterns with Claude Code."
+        },
+        {
+          "question": "Who developed the Claude Code Essentials course for freeCodeCamp?",
+          "options": [
+            "Anthropic's internal team",
+            "Andrew Brown of ExamPro",
+            "GitHub's education team",
+            "Google's developer relations"
+          ],
+          "correctIndex": 1,
+          "explanation": "Andrew Brown of ExamPro developed the course and plans a follow-up 'Claude Code Camp' bootcamp focusing on multi-phase plans and agent execution — the certification course serves as prerequisite preparation."
+        }
+      ]
+    },
+    {
+      "id": "article-builder-claude-code-march-updates",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Every Claude Code Update From March 2026, Explained",
+      "sourceUrl": "https://www.builder.io/blog/claude-code-updates",
+      "publishedAt": "2026-03-25",
+      "summary": "A comprehensive breakdown of all Claude Code updates shipped in March 2026, including computer use for Pro and Max users, voice mode with push-to-talk, the /loop command for background task scheduling, and 64k-128k output token limits. The article explains how each feature changes day-to-day developer workflows.",
+      "keyConcepts": [
+        "Computer use in Claude Code",
+        "Voice mode with push-to-talk",
+        "/loop scheduled background tasks",
+        "Extended output token limits (64k-128k)"
+      ],
+      "whyItMatters": "Claude Code is now the most-used AI coding tool at 46% developer preference — these updates push it from code assistant to autonomous development environment, and every engineer using it should understand the new capabilities.",
+      "tags": ["claude-code", "anthropic", "developer-tools", "agentic-coding"],
+      "relatedIds": ["article-medium-state-of-ai-coding-agents", "article-fcc-claude-code-essentials"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the /loop feature in Claude Code enable?",
+          "options": [
+            "Running code in an infinite loop for stress testing",
+            "Scheduling background tasks like PR reviews and deployment monitoring on a recurring basis",
+            "Looping through all files in a repository automatically",
+            "Repeating the last command until it succeeds"
+          ],
+          "correctIndex": 1,
+          "explanation": "The /loop feature turns Claude Code into a background worker with cron-like scheduled tasks, making it valuable for recurring tasks like PR reviews, deployment monitoring, and automated checks."
+        },
+        {
+          "question": "Why is computer use significant for Claude Code users?",
+          "options": [
+            "It allows Claude to mine cryptocurrency",
+            "It lets Claude open files, run dev tools, and navigate the screen autonomously with no setup",
+            "It replaces the need for a physical keyboard",
+            "It enables Claude to install operating system updates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Computer use lets Claude Code interact with the full desktop environment — opening files, clicking through GUIs, running dev tools — expanding its capabilities beyond just the terminal and code editor."
+        }
+      ]
+    },
+    {
+      "id": "article-medium-state-of-ai-coding-agents",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "The State of AI Coding Agents (2026): From Pair Programming to Autonomous AI Teams",
+      "sourceUrl": "https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a",
+      "publishedAt": "2026-03-24",
+      "summary": "A detailed analysis of how AI coding tools have evolved from autocomplete into autonomous agents that reason across multiple files, execute terminal commands, and verify their own work. The article benchmarks Claude Code, Cursor, Copilot, and Codex across real-world coding tasks and compares their agentic capabilities.",
+      "keyConcepts": [
+        "Autonomous coding agents",
+        "Multi-file reasoning",
+        "Self-verifying code generation",
+        "Agent team collaboration"
+      ],
+      "whyItMatters": "The shift from AI-as-autocomplete to AI-as-autonomous-agent fundamentally changes how engineers work — understanding which tools lead in agentic capabilities helps you choose the right workflow for your projects.",
+      "tags": ["agentic-coding", "claude-code", "cursor", "copilot", "autonomous-agents"],
+      "relatedIds": ["article-builder-claude-code-march-updates", "article-pragmaticengineer-ai-tooling-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between 2024-era AI coding tools and 2026 agentic coding tools?",
+          "options": [
+            "2026 tools are cheaper",
+            "2026 agents can reason across multiple files, run commands, and verify their own work autonomously",
+            "2026 tools only work with Python",
+            "2026 tools require no internet connection"
+          ],
+          "correctIndex": 1,
+          "explanation": "The defining shift is from short prompt-response interactions to autonomous execution loops where agents plan multi-step tasks, execute them across files and terminals, and self-verify results — a fundamentally different paradigm from single-line autocomplete."
+        },
+        {
+          "question": "According to the article, which AI coding tool has the highest developer preference in 2026?",
+          "options": [
+            "GitHub Copilot",
+            "Cursor",
+            "Claude Code at 46%",
+            "OpenAI Codex"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code leads with 46% developer preference, largely due to its Agent Teams feature that allows multiple AI agents to communicate and share discoveries during complex tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-sonatype-litellm-supply-chain",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "LiteLLM Supply Chain Attack: Compromised PyPI Package Delivers Multi-Stage Credential Stealer",
+      "sourceUrl": "https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer",
+      "publishedAt": "2026-03-25",
+      "summary": "On March 24, threat actor TeamPCP published backdoored versions of the litellm Python package (v1.82.7 and v1.82.8) after compromising the project's CI/CD pipeline via a poisoned Trivy GitHub Action. The malware harvested SSH keys, cloud tokens, Kubernetes secrets, and crypto wallets, attempted lateral movement across K8s clusters, and installed a persistent systemd backdoor. The package, with 95M monthly downloads, was compromised for approximately 3 hours before PyPI quarantined it.",
+      "keyConcepts": [
+        "CI/CD supply chain compromise via Trivy",
+        "Three-stage attack: credential theft → lateral movement → persistence",
+        "95 million monthly downloads affected",
+        "3-hour exposure window before quarantine"
+      ],
+      "whyItMatters": "This attack demonstrates that even popular, well-maintained AI infrastructure packages are vulnerable to supply chain attacks through their CI/CD dependencies — a wake-up call for every team building on open-source AI libraries.",
+      "tags": ["security", "supply-chain", "litellm", "pypi", "ci-cd", "vulnerability"],
+      "relatedIds": ["article-thenewstack-mcp-roadmap-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How did the attackers compromise the LiteLLM package?",
+          "options": [
+            "They guessed the maintainer's password",
+            "They exploited a vulnerability in the Trivy security scanner used in LiteLLM's CI/CD pipeline",
+            "They submitted a malicious pull request",
+            "They hacked PyPI directly"
+          ],
+          "correctIndex": 1,
+          "explanation": "The attackers compromised LiteLLM's CI/CD pipeline through a poisoned Trivy GitHub Action (a security scanning tool), which gave them access to publish backdoored versions directly to PyPI — an ironic attack vector through a security tool."
+        },
+        {
+          "question": "What did the malicious LiteLLM package do once installed?",
+          "options": [
+            "It only displayed warning messages",
+            "It ran a three-stage attack: harvesting credentials (SSH keys, cloud tokens, K8s secrets), attempting lateral movement, and installing a persistent backdoor",
+            "It deleted all Python files",
+            "It mined cryptocurrency"
+          ],
+          "correctIndex": 1,
+          "explanation": "The malware executed a sophisticated three-stage attack: first harvesting credentials and secrets, then attempting lateral movement across Kubernetes clusters by deploying privileged pods, and finally installing a persistent systemd backdoor for ongoing access."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-yc-w26-demo-day",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "16 of the Most Interesting Startups from YC W26 Demo Day",
+      "sourceUrl": "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
+      "publishedAt": "2026-03-26",
+      "summary": "Y Combinator's Winter 2026 batch featured nearly 190 startups, with 14 hitting $1M ARR by Demo Day — the highest ever. The cohort marks a shift from ChatGPT wrappers to deeply vertical, workflow-specific AI tools solving enterprise pain points across law, healthcare, transportation, and developer tooling.",
+      "keyConcepts": [
+        "14 companies at $1M ARR (record for any YC cohort)",
+        "Shift from generic wrappers to vertical AI tools",
+        "190 startups in W26 batch",
+        "Enterprise pain point focus"
+      ],
+      "whyItMatters": "The shift from generic AI wrappers to domain-specific tools signals where real enterprise value is being created — and where engineering talent will be in highest demand over the next 12 months.",
+      "tags": ["y-combinator", "startups", "demo-day", "enterprise-ai", "vertical-ai"],
+      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-kleiner-perkins"],
+      "knowledgeChecks": [
+        {
+          "question": "What trend distinguishes YC W26 startups from earlier AI cohorts?",
+          "options": [
+            "They all focus on consumer social apps",
+            "They moved from generic ChatGPT wrappers to deeply vertical, workflow-specific enterprise tools",
+            "They exclusively build open-source projects",
+            "They avoid using AI entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "The W26 cohort represents AI maturing past the hype phase — startups now build deeply vertical tools solving specific enterprise pain points rather than thin wrappers around foundation models."
+        },
+        {
+          "question": "How many YC W26 companies reached $1M ARR by Demo Day?",
+          "options": [
+            "3 companies",
+            "7 companies",
+            "14 companies — the highest ever for any YC cohort",
+            "All 190 companies"
+          ],
+          "correctIndex": 2,
+          "explanation": "14 out of nearly 190 companies hit $1M ARR by Demo Day, confirmed as the highest ever for any YC cohort — a sign of how quickly AI-native startups can reach revenue milestones."
+        }
+      ]
+    },
+    {
+      "id": "article-arcprize-arc-agi-3",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "ARC-AGI-3 Launches: Humans Score 100%, Best AI Scores 0.37% on Interactive Reasoning Benchmark",
+      "sourceUrl": "https://arcprize.org/blog/arc-agi-3-launch",
+      "publishedAt": "2026-03-25",
+      "summary": "The ARC Prize Foundation released ARC-AGI-3, the first fully interactive benchmark in the series, featuring hundreds of turn-based environments with no instructions, rules, or stated goals. AI agents must explore each environment, figure out how it works, and discover what winning looks like. The results are stark: humans score 100% while the best AI (Gemini 3.1 Pro) scores just 0.37%. The competition offers over $2 million in prizes.",
+      "keyConcepts": [
+        "Interactive benchmark (no instructions or goals given)",
+        "100% human vs 0.37% AI performance gap",
+        "Turn-based environment exploration",
+        "$2M+ in competition prizes"
+      ],
+      "whyItMatters": "ARC-AGI-3 exposes the massive gap between current AI capabilities and human-level general intelligence — while AI excels at pattern matching and language, it fundamentally struggles with novel exploration and autonomous goal discovery.",
+      "tags": ["arc-agi", "benchmark", "agi", "reasoning", "evaluation"],
+      "relatedIds": ["article-science-agentic-ai-intelligence-explosion", "article-openai-cot-controllability"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes ARC-AGI-3 fundamentally different from previous AI benchmarks?",
+          "options": [
+            "It uses easier questions",
+            "It's a fully interactive benchmark with no instructions, rules, or stated goals — agents must explore and discover what winning means",
+            "It only tests language ability",
+            "It's shorter than other benchmarks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike traditional benchmarks with clear tasks, ARC-AGI-3 presents turn-based environments where AI must autonomously explore, figure out the rules, discover goals, and carry learnings across increasingly difficult levels — testing genuine adaptive intelligence."
+        },
+        {
+          "question": "How do frontier AI models perform on ARC-AGI-3 compared to humans?",
+          "options": [
+            "AI scores about 90%, close to human performance",
+            "AI and humans score equally",
+            "Humans score 100% while the best AI scores just 0.37%",
+            "AI outperforms humans"
+          ],
+          "correctIndex": 2,
+          "explanation": "The performance gap is enormous: humans consistently achieve 100% while no frontier AI model has scored above 0.37% — exposing a fundamental limitation in current AI's ability to handle novel, unstructured exploration tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-claude-mythos-leak",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "article",
+      "title": "Anthropic's 'Mythos' AI Model Revealed in Data Leak — Described as 'Step Change' with Unprecedented Cyber Capabilities",
+      "sourceUrl": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+      "publishedAt": "2026-03-26",
+      "summary": "A configuration error in Anthropic's content management system exposed internal documents describing Claude Mythos (codename 'Capybara'), a model described as 'a step change in AI performance' and 'the most capable we've built to date.' Internal docs warn it could significantly heighten cybersecurity risks by rapidly finding and exploiting software vulnerabilities. The leak triggered a 3% selloff in tech stocks and forced Anthropic to confirm the model exists and is in early customer trials.",
+      "keyConcepts": [
+        "Claude Mythos — 'step change' in capabilities",
+        "Unprecedented cybersecurity implications",
+        "CMS configuration error exposed 3,000 files",
+        "Market impact: 3% tech stock selloff"
+      ],
+      "whyItMatters": "The Mythos leak reveals that frontier AI capabilities are advancing faster than companies can control the narrative — and the cybersecurity implications of models that can rapidly discover vulnerabilities demand attention from every engineer.",
+      "tags": ["anthropic", "claude-mythos", "data-leak", "cybersecurity", "frontier-models"],
+      "relatedIds": ["article-techcrunch-gpt54-launch", "article-sonatype-litellm-supply-chain"],
+      "knowledgeChecks": [
+        {
+          "question": "How was Claude Mythos revealed to the public?",
+          "options": [
+            "Anthropic announced it at a press conference",
+            "A CMS configuration error left nearly 3,000 internal files publicly accessible, exposing documents about the model",
+            "It was discovered by researchers",
+            "Anthropic published a blog post"
+          ],
+          "correctIndex": 1,
+          "explanation": "A configuration error in Anthropic's content management system left nearly 3,000 files publicly accessible without authentication, including internal documents describing Claude Mythos and its capabilities — forcing Anthropic to confirm its existence."
+        },
+        {
+          "question": "What capability of Claude Mythos caused the most concern?",
+          "options": [
+            "Its ability to generate images",
+            "Its unprecedented cybersecurity capabilities — rapidly finding and exploiting software vulnerabilities far faster than human defenders",
+            "Its high API costs",
+            "Its inability to follow instructions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Internal documents describe Mythos as 'currently far ahead of any other AI model in cyber capabilities' — able to discover and exploit software vulnerabilities at speeds far outpacing human defenders, raising serious cybersecurity arms race concerns."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-cfo-survey-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "CFOs Admit Privately That AI Layoffs Will Be 9x Higher This Year — 502,000 Roles at Risk",
+      "sourceUrl": "https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/",
+      "publishedAt": "2026-03-24",
+      "summary": "A National Bureau of Economic Research survey of 750 CFOs reveals that 44% plan AI-related job cuts this year, translating to roughly 502,000 roles — a 9x increase from last year's 55,000 AI-attributed layoffs. The study's co-author notes this is 'not the doomsday scenario' seen in headlines, but about half the losses will hit white-collar roles in content creation, customer support, QA, and project management.",
+      "keyConcepts": [
+        "9x increase: 502,000 planned vs 55,000 last year",
+        "44% of CFOs planning AI-related cuts",
+        "White-collar roles most vulnerable",
+        "NBER survey of 750 CFOs"
+      ],
+      "whyItMatters": "This is the first large-scale executive survey quantifying planned AI layoffs — the 9x increase signals that AI-driven workforce restructuring is accelerating from experiment to corporate strategy, making upskilling urgent for every knowledge worker.",
+      "tags": ["layoffs", "cfo-survey", "workforce", "white-collar", "job-displacement"],
+      "relatedIds": ["article-techcrunch-atlassian-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "knowledgeChecks": [
+        {
+          "question": "How do the projected 2026 AI layoffs compare to 2025?",
+          "options": [
+            "They are roughly the same",
+            "They are projected to be 9x higher — approximately 502,000 roles vs 55,000 last year",
+            "They are expected to decrease",
+            "The survey found no AI-related layoffs planned"
+          ],
+          "correctIndex": 1,
+          "explanation": "The NBER survey found that 44% of 750 CFOs plan AI-related cuts totaling roughly 502,000 roles in 2026 — a 9x increase from the 55,000 AI-attributed layoffs in 2025."
+        },
+        {
+          "question": "Which types of roles are most affected by planned AI-driven layoffs?",
+          "options": [
+            "Only manufacturing and warehouse roles",
+            "Primarily executive and C-suite positions",
+            "About half will be white-collar knowledge work roles — content creation, support, QA, project management",
+            "Only entry-level positions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Roughly half of the projected losses target white-collar roles — content creation, customer support, QA, and project management — the areas where AI tools have demonstrated the most capability to augment or replace human work."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-adp-worker-anxiety",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Workers Around the World Are Scared: Only 22% Believe Their Job Is Safe From AI",
+      "sourceUrl": "https://fortune.com/2026/03/25/workers-anxious-scared-insecure-ai-adp-global-survey/",
+      "publishedAt": "2026-03-25",
+      "summary": "A massive ADP Research survey of 39,000 workers across 36 countries found that only 22% strongly agree their job is safe from elimination. The survey reveals a global wave of workplace insecurity driven by AI adoption, with workers reporting that employers aren't providing adequate training or preparation for the AI transition. The anxiety is compounded by visible layoff trends where companies explicitly cite AI as the driver.",
+      "keyConcepts": [
+        "Only 22% feel job is safe globally",
+        "39,000 workers surveyed across 36 countries",
+        "Employers failing to prepare workforce",
+        "AI anxiety compounded by visible layoffs"
+      ],
+      "whyItMatters": "This is the largest global survey of AI workplace anxiety to date — the finding that only 1 in 5 workers feels secure should alarm both employers and employees, and underscores the urgency of AI upskilling programs.",
+      "tags": ["workforce-anxiety", "adp-survey", "global", "job-security", "upskilling"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-pew-americans-ai-views-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the ADP survey, what percentage of workers worldwide believe their job is safe from AI?",
+          "options": [
+            "About 75%",
+            "About 50%",
+            "Only 22% strongly agree their job is safe",
+            "0% — everyone is worried"
+          ],
+          "correctIndex": 2,
+          "explanation": "Only 22% of 39,000 workers surveyed across 36 countries strongly agreed that their job was safe from elimination — meaning nearly 4 in 5 workers globally feel some degree of AI-related job insecurity."
+        },
+        {
+          "question": "What gap does the survey reveal about employer AI preparation?",
+          "options": [
+            "Employers are over-investing in AI training",
+            "Workers report that employers aren't providing adequate training or preparation for the AI transition",
+            "Training budgets have doubled",
+            "Workers prefer no training"
+          ],
+          "correctIndex": 1,
+          "explanation": "The survey reveals a critical gap: while AI anxiety is surging globally, employers are not providing adequate training or preparation to help workers navigate the transition — compounding insecurity with a lack of actionable support."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-gpt54-launch",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "OpenAI Launches GPT-5.4 With Pro and Thinking Versions — 1M Context, 83% on GDPval",
+      "sourceUrl": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "publishedAt": "2026-03-05",
+      "summary": "OpenAI released GPT-5.4, combining the coding strengths of GPT-5.3-Codex with improved reasoning and autonomous computer use. The model scored 83% on GDPval (expert-level knowledge work), offers a 1M token context window, and is 33% less likely to make factual errors than GPT-5.2. It ships in three variants: standard, Thinking (deep reasoning), and Pro (enterprise-optimized).",
+      "keyConcepts": [
+        "GPT-5.4: coding + reasoning + computer use",
+        "83% GDPval score (expert-level tasks)",
+        "1M token context window",
+        "33% reduction in factual errors"
+      ],
+      "whyItMatters": "GPT-5.4 merges coding, reasoning, and computer use into a single model — the convergence of these capabilities changes what's possible for developers building AI-powered applications.",
+      "tags": ["openai", "gpt-5-4", "frontier-models", "computer-use", "reasoning"],
+      "relatedIds": ["article-9to5mac-gpt53-instant", "article-fortune-claude-mythos-leak"],
+      "knowledgeChecks": [
+        {
+          "question": "What does GPT-5.4 combine that its predecessors handled separately?",
+          "options": [
+            "Text and image generation only",
+            "Coding (from GPT-5.3-Codex), improved reasoning, and autonomous computer use in a single model",
+            "Only improvements to chat conversation",
+            "Video and audio generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.4 converges three previously separate capabilities — the coding prowess of GPT-5.3-Codex, enhanced reasoning, and the ability to autonomously navigate desktops and browsers — into one unified model."
+        },
+        {
+          "question": "How does GPT-5.4 improve on factual accuracy?",
+          "options": [
+            "It eliminates all errors completely",
+            "Individual claims are 33% less likely to contain errors compared to GPT-5.2",
+            "It only answers questions it's 100% sure about",
+            "It uses a fact-checking database"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI reported GPT-5.4 is 33% less likely to make errors in individual claims and 18% less likely to contain errors in overall responses compared to GPT-5.2 — a significant reliability improvement for production use cases."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ai-startups-eating-vc",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "AI Startups Are Eating the Venture Industry — 90% of VC Funding, $171B in One Month",
+      "sourceUrl": "https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry-and-the-returns-so-far-are-good/",
+      "publishedAt": "2026-03-20",
+      "summary": "AI startups captured 41% of the $128B in venture dollars raised on Carta last year. In February 2026 alone, a record $189B in global VC flowed to startups, with AI accounting for 90% ($171B). Three companies — OpenAI, Anthropic, and Waymo — captured 83% of that month's funding. Despite extreme concentration, Carta data shows post-ChatGPT vintage funds are posting the highest IRR of any recent cohort.",
+      "keyConcepts": [
+        "AI captures 90% of February VC ($171B of $189B)",
+        "3 companies captured 83% of AI funding",
+        "K-shaped venture market bifurcation",
+        "Post-ChatGPT vintage fund outperformance"
+      ],
+      "whyItMatters": "The extreme funding concentration means the AI infrastructure layer is being built by a handful of companies — engineers should understand which platforms are winning the capital war, as that determines which tools and APIs will dominate.",
+      "tags": ["venture-capital", "ai-funding", "openai", "anthropic", "startup-ecosystem"],
+      "relatedIds": ["article-techcrunch-yc-w26-demo-day", "article-techcrunch-kleiner-perkins"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of global VC funding went to AI startups in February 2026?",
+          "options": [
+            "About 25%",
+            "About 50%",
+            "90% — with $171B out of $189B going to AI",
+            "100% — no non-AI startups received funding"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI startups raised $171B of the $189B in global VC in February 2026 — a staggering 90% concentration, with three companies alone (OpenAI, Anthropic, Waymo) capturing 83% of that total."
+        },
+        {
+          "question": "What does the 'K-shaped' venture market mean?",
+          "options": [
+            "All startups are growing at the same rate",
+            "Capital is concentrated in a few top firms while the rest struggle — a bifurcated market",
+            "Only startups whose names start with K get funded",
+            "The market is shrinking for everyone"
+          ],
+          "correctIndex": 1,
+          "explanation": "The K-shaped market means capital is concentrated in a select few VC firms backing mega-companies, while the majority of startups face much tighter funding — creating stark bifurcation in the venture ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-sora-shutdown",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Why OpenAI Really Shut Down Sora: $1M/Day Burn Rate, Disney's $1B Deal Killed",
+      "sourceUrl": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "publishedAt": "2026-03-29",
+      "summary": "OpenAI discontinued Sora, its generative AI video creation app, after user count collapsed from ~1 million to under 500,000 while burning roughly $1 million per day. Disney's committed $1 billion investment died after learning about the shutdown less than an hour before the public announcement. CEO Sam Altman redirected compute resources to focus on ChatGPT and core API offerings amid rising competition from Anthropic.",
+      "keyConcepts": [
+        "$1M/day burn rate with declining users",
+        "Disney $1B partnership killed",
+        "Strategic pivot to ChatGPT and API core",
+        "Compute economics forcing prioritization"
+      ],
+      "whyItMatters": "Sora's shutdown is a reality check for the entire AI industry — even well-funded products can fail when compute economics don't work. The lesson for engineers: understand the economics of AI deployment, not just the technology.",
+      "tags": ["openai", "sora", "shutdown", "compute-economics", "strategy"],
+      "relatedIds": ["article-techcrunch-gpt54-launch", "article-aboutamazon-aws-openai-partnership"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did OpenAI shut down Sora?",
+          "options": [
+            "The technology didn't work",
+            "User count collapsed to under 500K while burning $1M/day, and Anthropic was winning in core markets like coding",
+            "Regulators forced the shutdown",
+            "Users preferred other video tools"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sora's user count peaked at ~1 million then collapsed below 500,000 while still costing roughly $1M daily to operate. Meanwhile, Anthropic's Claude Code was dominating the developer market, so Altman chose to redirect compute resources to core products."
+        },
+        {
+          "question": "What happened to Disney's partnership with Sora?",
+          "options": [
+            "It was completed successfully",
+            "Disney's $1B investment commitment died — they learned about the shutdown less than an hour before the public announcement",
+            "Disney acquired Sora",
+            "The partnership was never real"
+          ],
+          "correctIndex": 1,
+          "explanation": "Disney had committed $1 billion to the Sora partnership but found out about the shutdown less than an hour before the public announcement — the deal died with Sora, highlighting the risks of building on rapidly-pivoting AI platforms."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-kleiner-perkins",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Kleiner Perkins Goes All-In on AI With $3.5B Raise — 75% Jump From 2024",
+      "sourceUrl": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "publishedAt": "2026-03-24",
+      "summary": "Kleiner Perkins raised $3.5 billion across two funds — $1B for early-stage AI startups and $2.5B for growth-stage companies — a 75% increase from their 2024 raise. The firm targets AI applications across healthcare, transportation, security, and financial services. Portfolio includes stakes in Together AI, Harvey, Anthropic, and SpaceX, with both Anthropic and SpaceX expected to IPO this year.",
+      "keyConcepts": [
+        "$3.5B across early-stage ($1B) and growth ($2.5B) funds",
+        "75% increase from 2024 fundraise",
+        "Vertical AI focus: healthcare, transport, security",
+        "Anthropic and SpaceX IPOs expected"
+      ],
+      "whyItMatters": "Kleiner Perkins' massive raise signals sustained institutional conviction in AI — the firm's focus on vertical applications (not just foundation models) validates the shift from horizontal AI platforms to industry-specific solutions.",
+      "tags": ["kleiner-perkins", "venture-capital", "ai-fund", "investment", "anthropic"],
+      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-yc-w26-demo-day"],
+      "knowledgeChecks": [
+        {
+          "question": "How is Kleiner Perkins structuring its $3.5B AI investment?",
+          "options": [
+            "All $3.5B goes to one company",
+            "$1B for early-stage AI startups and $2.5B for growth-stage companies",
+            "Only debt financing",
+            "All funding goes to open-source projects"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kleiner Perkins split the raise into a $1B early-stage fund (finding promising AI startups) and a $2.5B growth-stage fund — covering the full lifecycle of AI company development."
+        },
+        {
+          "question": "What does Kleiner Perkins' vertical AI focus tell us about the market?",
+          "options": [
+            "Only horizontal platforms matter",
+            "The firm is targeting industry-specific AI applications in healthcare, transport, security, and financial services — validating the shift from platform to vertical",
+            "AI investment is declining",
+            "Only consumer apps receive funding"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kleiner Perkins' focus on vertical AI applications across specific industries (healthcare, transportation, security, financial services) validates the market shift from horizontal AI platforms to industry-specific solutions where real enterprise value is being created."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-ai-jobs-vulnerable",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "article",
+      "title": "Fortune 500 Firm: 93% of Jobs Vulnerable to AI Disruption — $4.5 Trillion Displacement Estimate",
+      "sourceUrl": "https://fortune.com/2026/03/19/ai-jobs-vulnerable-disruption-layoffs-warning-price-tag/",
+      "publishedAt": "2026-03-19",
+      "summary": "A major Fortune 500 consulting firm updated its AI workforce impact analysis, estimating that 93% of jobs have some exposure to AI disruption, with a total economic displacement value of $4.5 trillion. The report breaks down vulnerability by role category and identifies the skills that provide the most insulation — complex system design, cross-functional leadership, and novel problem-solving.",
+      "keyConcepts": [
+        "93% of jobs have some AI exposure",
+        "$4.5 trillion displacement estimate",
+        "Vulnerability breakdown by role category",
+        "AI-insulated skills: design, leadership, novel problem-solving"
+      ],
+      "whyItMatters": "This report provides the most granular analysis yet of which skills protect against AI displacement — essential reading for anyone planning career development or team composition strategy.",
+      "tags": ["workforce-disruption", "fortune-500", "career-planning", "skills-gap", "ai-impact"],
+      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of jobs have some exposure to AI disruption according to the report?",
+          "options": [
+            "About 25%",
+            "About 50%",
+            "93% of all jobs",
+            "Only tech industry jobs"
+          ],
+          "correctIndex": 2,
+          "explanation": "93% of jobs have some degree of AI exposure — though this ranges from minor task automation to full role replacement. The key differentiator is which skills provide insulation."
+        },
+        {
+          "question": "Which skills does the report identify as most insulating against AI disruption?",
+          "options": [
+            "Data entry and repetitive task management",
+            "Complex system design, cross-functional leadership, and novel problem-solving",
+            "Basic content creation and copywriting",
+            "Manual testing and quality assurance"
+          ],
+          "correctIndex": 1,
+          "explanation": "The report identifies complex system design, cross-functional leadership, and novel problem-solving as the most AI-insulated skills — tasks requiring contextual judgment, stakeholder navigation, and creative synthesis that AI cannot currently replicate."
+        }
+      ]
+    },
+    {
+      "id": "video-ntDIxaeo3Wg",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Claude Code — Full Tutorial for Beginners (2026)",
+      "sourceUrl": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
+      "youtubeId": "ntDIxaeo3Wg",
+      "publishedAt": "2026-03-08",
+      "summary": "Tech With Tim delivers a comprehensive beginner-friendly tutorial covering Claude Code installation, configuration, and real-world usage. The video walks through the agentic loop, file editing, terminal commands, context management, and building a complete project from scratch using Claude Code's autonomous capabilities.",
+      "keyConcepts": [
+        "Claude Code installation and setup",
+        "Agentic loop and autonomous execution",
+        "Context management and file handling",
+        "Building projects from scratch with AI"
+      ],
+      "whyItMatters": "With Claude Code now the most popular AI coding tool, this tutorial provides the fastest path from zero to productive — essential viewing for any developer who hasn't yet integrated agentic coding into their workflow.",
+      "tags": ["claude-code", "tutorial", "beginner", "agentic-coding", "tech-with-tim"],
+      "relatedIds": ["article-builder-claude-code-march-updates", "article-fcc-claude-code-essentials"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'agentic loop' in Claude Code?",
+          "options": [
+            "A bug in the software that causes infinite loops",
+            "The autonomous cycle where Claude reads context, plans actions, executes them, and verifies results — repeating until the task is complete",
+            "A loop that runs code tests repeatedly",
+            "A feature that loops through all files in a project"
+          ],
+          "correctIndex": 1,
+          "explanation": "The agentic loop is Claude Code's core workflow: it reads the context (files, errors, terminal output), plans the next action, executes it (editing files, running commands), and verifies the result — continuing autonomously until the task is complete."
+        },
+        {
+          "question": "Why is context management important when using Claude Code?",
+          "options": [
+            "It controls the color scheme",
+            "Claude Code has a finite context window — managing what information is loaded determines how effectively it understands and modifies your codebase",
+            "It only affects loading speed",
+            "Context management is optional"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Code operates within a finite context window, so which files and information are loaded directly impacts its ability to understand your codebase, make accurate changes, and avoid errors — making context management a critical skill."
+        }
+      ]
+    },
+    {
+      "id": "video-kZ-zzHVUrO4",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "How I Use Claude Code for Real Engineering — Matt Pocock's Professional Workflow",
+      "sourceUrl": "https://www.youtube.com/watch?v=kZ-zzHVUrO4",
+      "youtubeId": "kZ-zzHVUrO4",
+      "publishedAt": "2026-03-15",
+      "summary": "TypeScript educator Matt Pocock shares his professional Claude Code workflow for real engineering work — not toy demos. The video covers how he structures CLAUDE.md files, uses plan mode for complex refactors, manages multi-file changes, handles test-driven development with AI, and knows when to override Claude's suggestions. Focused on patterns that work in production codebases.",
+      "keyConcepts": [
+        "CLAUDE.md files for project context",
+        "Plan mode for complex refactoring",
+        "Test-driven development with AI",
+        "When to override AI suggestions"
+      ],
+      "whyItMatters": "Most Claude Code tutorials show simple demos — this video shows how an experienced engineer actually uses it for serious work, providing patterns that transfer directly to professional software development.",
+      "tags": ["claude-code", "professional-workflow", "typescript", "engineering", "matt-pocock"],
+      "relatedIds": ["video-ntDIxaeo3Wg", "article-medium-state-of-ai-coding-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the purpose of CLAUDE.md files in a Claude Code workflow?",
+          "options": [
+            "They are documentation files for users",
+            "They provide persistent project context and instructions that Claude Code reads automatically, guiding its behavior for the specific codebase",
+            "They store API keys",
+            "They are log files"
+          ],
+          "correctIndex": 1,
+          "explanation": "CLAUDE.md files give Claude Code persistent context about the project — coding standards, architecture decisions, non-negotiable rules — so it behaves appropriately for your specific codebase without needing to be reminded every session."
+        },
+        {
+          "question": "When should you use 'plan mode' in Claude Code?",
+          "options": [
+            "For every single change",
+            "For complex refactors where you want to review and approve the approach before Claude starts executing changes",
+            "Only for creating new files",
+            "Plan mode doesn't exist"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plan mode is most valuable for complex, multi-file changes where the cost of a wrong approach is high — it lets you review Claude's proposed strategy and course-correct before any code is actually modified."
+        }
+      ]
+    },
+    {
+      "id": "video-rfDvkSkelhg",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "6 Months of Claude Code Lessons in 27 Minutes — What Actually Works",
+      "sourceUrl": "https://www.youtube.com/watch?v=rfDvkSkelhg",
+      "youtubeId": "rfDvkSkelhg",
+      "publishedAt": "2026-03-18",
+      "summary": "AI with Avthar distills six months of daily Claude Code usage into the key lessons that matter most. The video covers the biggest mistakes beginners make, the prompting patterns that consistently work, how to structure projects for AI collaboration, when agentic coding saves time vs. when it wastes time, and the specific workflows that delivered the biggest productivity gains.",
+      "keyConcepts": [
+        "Common beginner mistakes to avoid",
+        "High-ROI prompting patterns",
+        "Project structure for AI collaboration",
+        "When agentic coding helps vs. hurts"
+      ],
+      "whyItMatters": "Learning from someone else's 6 months of trial and error in 27 minutes is the highest-leverage way to accelerate your own Claude Code adoption — the mistakes-to-avoid alone can save weeks of frustration.",
+      "tags": ["claude-code", "lessons-learned", "productivity", "prompting", "workflow"],
+      "relatedIds": ["video-kZ-zzHVUrO4", "article-pragmaticengineer-ai-tooling-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is one of the biggest mistakes beginners make with Claude Code?",
+          "options": [
+            "Using it too little",
+            "Giving vague, context-free prompts instead of providing specific requirements with relevant file paths and constraints",
+            "Reading too much documentation",
+            "Writing tests first"
+          ],
+          "correctIndex": 1,
+          "explanation": "Beginners often give vague prompts like 'fix the bug' without specifying which files, what the expected behavior is, or relevant constraints — resulting in Claude making changes that miss the mark or modify the wrong files."
+        },
+        {
+          "question": "When does agentic coding tend to waste time rather than save it?",
+          "options": [
+            "On any task",
+            "When the task requires deep domain knowledge the developer already has and could implement faster manually than explaining to the AI",
+            "On all large projects",
+            "When writing Python code"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agentic coding saves the most time on well-defined, repetitive, or boilerplate-heavy tasks. It can waste time when the developer has strong domain expertise and the task would be faster to implement directly than to explain the context and constraints to the AI."
+        }
+      ]
+    },
+    {
+      "id": "video-UAmKyyZ-b9E",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "video",
+      "title": "Introducing Cowork: Claude Code for the Rest of Your Work — Official Anthropic Announcement",
+      "sourceUrl": "https://www.youtube.com/watch?v=UAmKyyZ-b9E",
+      "youtubeId": "UAmKyyZ-b9E",
+      "publishedAt": "2026-03-20",
+      "summary": "Anthropic's official announcement video for Claude Cowork — extending Claude Code's agentic capabilities beyond coding into general knowledge work. The video demonstrates how Cowork handles research, document drafting, data analysis, and project management tasks using the same autonomous agent loop that made Claude Code successful for developers.",
+      "keyConcepts": [
+        "Claude Cowork: agentic AI beyond coding",
+        "Autonomous research and document drafting",
+        "Same agent loop applied to knowledge work",
+        "Anthropic's product expansion strategy"
+      ],
+      "whyItMatters": "Cowork signals Anthropic's strategic expansion from developer tools to general knowledge work — the same agentic patterns that transformed coding are now being applied to research, writing, and analysis, potentially disrupting how all knowledge workers operate.",
+      "tags": ["anthropic", "cowork", "claude-code", "knowledge-work", "product-launch"],
+      "relatedIds": ["article-builder-claude-code-march-updates", "article-fortune-ai-jobs-vulnerable"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Cowork?",
+          "options": [
+            "A competitor to Claude Code",
+            "An extension of Claude Code's agentic capabilities beyond coding into general knowledge work — research, document drafting, data analysis",
+            "A collaboration tool for teams",
+            "A video conferencing product"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Cowork extends the autonomous agent loop that made Claude Code successful for developers into general knowledge work — handling research, document drafting, data analysis, and project management with the same agentic approach."
+        },
+        {
+          "question": "Why is Cowork's launch strategically significant?",
+          "options": [
+            "It's just a minor update",
+            "It signals Anthropic expanding from developer tools to the broader knowledge work market, potentially disrupting how all professionals work",
+            "It only works for Anthropic employees",
+            "It replaces Claude Code entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cowork represents Anthropic's pivot from a developer-only tool to a general knowledge work platform — applying the agentic patterns proven in coding to research, writing, and analysis tasks that affect every knowledge worker."
+        }
+      ]
+    },
+    {
+      "id": "article-mit-pragmatic-ai-engineering",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "Pragmatic by Design: Engineering AI for the Real World — MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+      "publishedAt": "2026-03-12",
+      "summary": "MIT Technology Review examines how the AI industry is shifting from pursuing benchmark scores to building systems that work reliably in production. The article profiles companies that have achieved commercial success by prioritizing robustness, interpretability, and failure-mode handling over raw capability — a growing counter-narrative to the bigger-is-better approach of frontier model labs.",
+      "keyConcepts": [
+        "Production reliability over benchmark performance",
+        "Interpretability as competitive advantage",
+        "Failure-mode engineering in AI systems",
+        "Pragmatic AI vs frontier AI race"
+      ],
+      "whyItMatters": "As AI moves from demos to production, the engineering challenges shift from raw capability to reliability, interpretability, and graceful failure — skills that pragmatic engineers can develop regardless of whether they work at a frontier lab.",
+      "tags": ["production-ai", "reliability", "interpretability", "engineering", "mit"],
+      "relatedIds": ["article-openai-cot-controllability", "article-nvidianews-nemoclaw"],
+      "knowledgeChecks": [
+        {
+          "question": "What shift in AI engineering does the article describe?",
+          "options": [
+            "A move toward larger models only",
+            "A shift from pursuing benchmark scores to building systems that work reliably in production, prioritizing robustness and interpretability",
+            "A move away from AI entirely",
+            "A shift to consumer-only applications"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article profiles a growing movement that prioritizes production reliability, interpretability, and failure-mode handling over raw benchmark performance — recognizing that commercial success depends on AI systems that work consistently in the real world."
+        },
+        {
+          "question": "Why is failure-mode engineering important for production AI?",
+          "options": [
+            "It makes AI systems faster",
+            "Production AI must handle unexpected inputs, edge cases, and graceful degradation — skills more important than peak performance on clean benchmarks",
+            "It's only relevant for safety-critical systems",
+            "It's not important"
+          ],
+          "correctIndex": 1,
+          "explanation": "In production, AI systems encounter messy, unexpected inputs that benchmarks don't test for. Engineering for graceful failure — knowing what to do when confidence is low, inputs are ambiguous, or systems degrade — is what separates demo-quality from production-quality AI."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-youtube-deepfake-detection",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "YouTube Expands AI Deepfake Detection to Politicians, Government Officials, and Journalists",
+      "sourceUrl": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
+      "publishedAt": "2026-03-10",
+      "summary": "YouTube expanded its AI likeness detection technology to cover politicians, candidates, government officials, and journalists ahead of the 2026 midterm elections. The system can now flag and remove AI-generated videos that convincingly impersonate public figures without disclosure, building on the deepfake detection capabilities originally developed for entertainment industry figures.",
+      "keyConcepts": [
+        "AI deepfake detection for public figures",
+        "Election integrity protection",
+        "Likeness detection technology expansion",
+        "Content moderation at scale"
+      ],
+      "whyItMatters": "As AI-generated video becomes indistinguishable from reality, platforms must build detection systems that work at YouTube's scale — this expansion sets the standard for how content platforms will handle AI-generated political content.",
+      "tags": ["youtube", "deepfake", "detection", "election-integrity", "content-moderation"],
+      "relatedIds": ["article-techcrunch-sora-shutdown"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did YouTube expand its deepfake detection to politicians and journalists?",
+          "options": [
+            "For entertainment purposes",
+            "To protect election integrity ahead of the 2026 midterms by detecting AI-generated impersonations of public figures",
+            "To promote AI-generated content",
+            "To replace human content moderators"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube expanded its AI likeness detection specifically to protect election integrity ahead of the 2026 midterms — flagging and removing AI-generated videos that impersonate politicians, candidates, government officials, and journalists without disclosure."
+        },
+        {
+          "question": "What technology does YouTube use to detect AI-generated impersonations?",
+          "options": [
+            "Manual review only",
+            "AI likeness detection technology that can identify deepfake videos impersonating specific public figures at scale",
+            "Keyword filtering",
+            "User reports only"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube uses automated AI likeness detection technology — originally developed for entertainment industry figures — that can identify deepfake videos impersonating specific people at YouTube's massive scale, flagging them for review or automatic removal."
+        }
+      ]
+    },
+    {
+      "id": "video-ZlDnsf_DOzg",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Every Claude Code Concept Explained for Normal People — From Agent Loop to CLAUDE.md",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZlDnsf_DOzg",
+      "youtubeId": "ZlDnsf_DOzg",
+      "publishedAt": "2026-03-22",
+      "summary": "Simon Scrapes breaks down every core Claude Code concept in plain language — the agent loop, tool use, context windows, CLAUDE.md files, plan mode, slash commands, hooks, and MCP servers. The video is designed for developers who feel overwhelmed by the rapidly evolving feature set and want a clear mental model of how all the pieces fit together.",
+      "keyConcepts": [
+        "Agent loop and tool use explained",
+        "Context windows and their limits",
+        "CLAUDE.md, plan mode, and slash commands",
+        "MCP servers and hooks"
+      ],
+      "whyItMatters": "Claude Code's feature set has grown rapidly — this video provides the conceptual framework to understand how all the pieces connect, preventing the common mistake of using advanced features without understanding the fundamentals.",
+      "tags": ["claude-code", "concepts", "explainer", "beginner-friendly", "mental-model"],
+      "relatedIds": ["video-ntDIxaeo3Wg", "article-fcc-claude-code-essentials"],
+      "knowledgeChecks": [
+        {
+          "question": "What are MCP servers in the context of Claude Code?",
+          "options": [
+            "Minecraft Protocol servers",
+            "Model Context Protocol servers that extend Claude Code's capabilities by connecting it to external tools, databases, and APIs",
+            "Media Content Processing servers",
+            "Memory Cache Protocol servers"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP (Model Context Protocol) servers extend Claude Code's capabilities by providing standardized connections to external tools, databases, and APIs — allowing Claude to interact with systems beyond the local filesystem and terminal."
+        },
+        {
+          "question": "Why is understanding the context window important for effective Claude Code usage?",
+          "options": [
+            "It determines the text color",
+            "The context window limits how much information Claude can hold at once — overloading it degrades performance while under-utilizing it means Claude lacks necessary information",
+            "It only affects loading speed",
+            "Context windows are unlimited"
+          ],
+          "correctIndex": 1,
+          "explanation": "The context window is finite and determines how much project context, conversation history, and tool output Claude can process simultaneously. Managing it well — loading the right files, compacting when needed — is key to getting accurate results."
+        }
+      ]
+    },
+    {
+      "id": "article-leaddev-ai-washing-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "The Latest Tech Layoffs Have All the Hallmarks of AI Washing — LeadDev Analysis",
+      "sourceUrl": "https://leaddev.com/ai/the-latest-rounds-of-tech-layoffs-have-all-the-hallmarks-of-ai-washing",
+      "publishedAt": "2026-03-08",
+      "summary": "LeadDev provides a detailed engineering leadership perspective on the AI-washing trend in tech layoffs, analyzing how companies like Block, Atlassian, and others are using AI narratives to justify workforce reductions. The article distinguishes between genuine AI-driven role changes and cost-cutting disguised as technological transformation, offering frameworks for engineering leaders to evaluate layoff justifications critically.",
+      "keyConcepts": [
+        "AI-washing taxonomy: genuine vs. narrative-driven",
+        "Engineering leader frameworks for evaluation",
+        "Pattern recognition across layoff announcements",
+        "Impact on remaining team morale and trust"
+      ],
+      "whyItMatters": "For engineering leaders, understanding AI-washing helps you make better decisions about your own team's AI adoption strategy and evaluate employer claims critically — separating genuine AI transformation from cost-cutting theater.",
+      "tags": ["ai-washing", "engineering-leadership", "layoffs", "analysis", "leaddev"],
+      "relatedIds": ["article-cnn-block-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "How does the article distinguish genuine AI-driven layoffs from AI-washing?",
+          "options": [
+            "All AI-related layoffs are genuine",
+            "Genuine AI transformation shows specific tool adoption, retraining programs, and new AI roles — AI-washing shows vague AI references, no retraining, and contradictory past messaging",
+            "There's no way to tell the difference",
+            "AI-washing doesn't exist"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genuine AI transformation comes with evidence: specific tool adoption, retraining programs, new AI-focused roles being created alongside cuts, and consistent messaging. AI-washing shows vague AI references, contradictory past statements, no retraining investment, and cuts that align suspiciously well with financial targets."
+        },
+        {
+          "question": "Why should engineering leaders care about identifying AI-washing?",
+          "options": [
+            "It's not relevant to engineering",
+            "Understanding AI-washing helps leaders make better team AI adoption decisions and evaluate employer claims critically — preventing both over-reaction and under-investment",
+            "It only matters for HR",
+            "AI-washing has no impact on teams"
+          ],
+          "correctIndex": 1,
+          "explanation": "Engineering leaders who can distinguish real AI transformation from narrative-driven cuts make better decisions about their own AI adoption strategy, team structure, and how to communicate changes to their teams — building trust rather than eroding it."
+        }
+      ]
+    },
+    {
+      "id": "article-byteiota-ai-inference-costs",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "AI Inference Costs Now 55% of Cloud Spending in 2026 — The Hidden GPU Crisis",
+      "sourceUrl": "https://byteiota.com/ai-inference-costs-55-of-cloud-spending-in-2026/",
+      "publishedAt": "2026-03-15",
+      "summary": "Analysis reveals that AI inference now accounts for 55% of total cloud spending in 2026, up from under 20% in 2024. The article breaks down why inference costs are growing 15-20x faster than training costs, examines how this is driving the custom silicon race (Meta MTIA, Google TPU, Amazon Trainium), and explains why companies like OpenAI are shutting down compute-heavy products like Sora to focus on core offerings.",
+      "keyConcepts": [
+        "Inference costs: 55% of cloud spending (up from 20%)",
+        "15-20x faster growth than training costs",
+        "Custom silicon as cost mitigation strategy",
+        "Product shutdowns driven by inference economics"
+      ],
+      "whyItMatters": "Understanding AI inference economics is essential for any engineer building AI-powered products — it explains why companies are racing to build custom chips, why some AI products get killed, and how to architect systems that are cost-effective at scale.",
+      "tags": ["inference-costs", "cloud-spending", "gpu-economics", "custom-silicon", "cost-optimization"],
+      "relatedIds": ["article-cnbc-meta-mtia-chips", "article-techcrunch-sora-shutdown"],
+      "knowledgeChecks": [
+        {
+          "question": "How has AI inference's share of cloud spending changed from 2024 to 2026?",
+          "options": [
+            "It decreased slightly",
+            "It grew from under 20% to 55% of total cloud spending",
+            "It stayed flat at about 30%",
+            "It's still negligible"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI inference costs grew from under 20% of cloud spending in 2024 to 55% in 2026 — a dramatic shift driven by the explosion of AI-powered products and services that require continuous model inference at scale."
+        },
+        {
+          "question": "How does this cost trend connect to OpenAI shutting down Sora?",
+          "options": [
+            "Sora's technology didn't work",
+            "Video generation inference is extremely compute-intensive — Sora was burning $1M/day because video inference costs vastly exceed text-based AI products",
+            "Sora was too popular",
+            "Inference costs don't affect product decisions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sora's shutdown is directly tied to inference economics — generating video requires orders of magnitude more compute than text-based AI, making it economically unsustainable at $1M/day when user counts are declining and core products need that compute capacity."
+        }
+      ]
+    }
+  ]
+}

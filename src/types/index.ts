@@ -35,6 +35,10 @@ export interface NewsData {
   items: NewsItem[];
 }
 
+export interface Manifest {
+  files: string[];
+}
+
 export interface KnowledgeCheckResult {
   completedAt: string;
   answers: number[];
