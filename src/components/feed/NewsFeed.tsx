@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { cn } from '../../utils/cn';
-import { sortItemsVideosFirst } from '../../utils/sortItems';
-import { TOPIC_DISPLAY_NAMES, type NewsItem, type Topic } from '../../types';
+import { sortItemsByDate } from '../../utils/sortItems';
+import { TOPIC_DISPLAY_NAMES, type NewsItem, type SortOrder, type Topic } from '../../types';
 import { TopicFilter } from '../layout/TopicFilter';
 import { TopicSection } from './TopicSection';
 
@@ -29,17 +29,34 @@ interface NewsFeedProps {
 
 export function NewsFeed({ items, activeTopic, onTopicChange }: NewsFeedProps) {
   const [mobileTab, setMobileTab] = useState<Topic>(ALL_TOPICS[0] ?? 'ai-engineering');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('newest');
 
   const getItemsForTopic = (topic: Topic) =>
-    sortItemsVideosFirst(items.filter((item) => item.topics.includes(topic)));
+    sortItemsByDate(items.filter((item) => item.topics.includes(topic)), sortOrder);
 
   const visibleTopics = activeTopic ? [activeTopic] : ALL_TOPICS;
 
   return (
     <div>
       {/* Filter bar */}
-      <div className="mb-6">
+      <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <TopicFilter active={activeTopic} onSelect={onTopicChange} />
+        <div className="flex gap-1 flex-shrink-0">
+          {(['newest', 'oldest'] as const).map((order) => (
+            <button
+              key={order}
+              onClick={() => setSortOrder(order)}
+              className={cn(
+                'px-3 py-1.5 rounded-full text-xs font-medium border transition-all duration-150',
+                sortOrder === order
+                  ? 'bg-white/[0.12] text-white border-white/[0.20]'
+                  : 'bg-white/[0.04] text-slate-400 border-white/[0.10] hover:text-slate-200 hover:bg-white/[0.06]'
+              )}
+            >
+              {order === 'newest' ? 'Newest' : 'Oldest'}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Topic columns — 4-col on desktop, 2-col on tablet, hidden on mobile (tab row handles mobile) */}

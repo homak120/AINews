@@ -1,5 +1,7 @@
 export type ContentType = 'video' | 'article' | 'paper' | 'social';
 
+export type SortOrder = 'newest' | 'oldest';
+
 export type Topic =
   | 'ai-engineering'
   | 'ai-research'
