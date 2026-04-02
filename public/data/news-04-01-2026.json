@@ -1,0 +1,613 @@
+{
+  "generatedAt": "2026-04-02T14:00:00Z",
+  "weekOf": "2026-03-30",
+  "coverageStart": "2026-04-01",
+  "coverageEnd": "2026-04-01",
+  "items": [
+    {
+      "id": "article-gizmodo-claude-code-leak-coverup",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "Anthropic Scrambles to Contain Claude Code Source Leak as Community Builds Open-Source Recreations",
+      "sourceUrl": "https://gizmodo.com/anthropic-cant-cover-up-its-claude-code-leak-fast-enough-2000740972",
+      "publishedAt": "2026-04-01",
+      "summary": "Following the accidental exposure of Claude Code's 512,000-line TypeScript source via an npm source map on March 31, Anthropic spent April 1 issuing DMCA takedowns across GitHub while the community rapidly built open-source recreations. The clean-room rewrite 'claw-code' became the fastest-growing repository in GitHub history, reaching 100K stars in a single day. Anthropic cited 'process errors' in its release pipeline and confirmed no customer data was compromised.",
+      "keyConcepts": [
+        "npm source map exposure",
+        "DMCA takedown at scale",
+        "Clean-room reimplementation",
+        "Release pipeline security",
+        "Open-source community response"
+      ],
+      "whyItMatters": "This incident is a case study in npm packaging hygiene and supply-chain security. Any engineer shipping packages via npm should audit their .npmignore and package.json files fields to ensure build artifacts like source maps are excluded from published bundles.",
+      "tags": ["claude-code", "npm", "supply-chain-security", "anthropic", "open-source"],
+      "relatedIds": ["article-bloomberg-anthropic-cowork"],
+      "knowledgeChecks": [
+        {
+          "question": "What caused the Claude Code source code to be exposed?",
+          "options": [
+            "A disgruntled employee published it to GitHub",
+            "A JavaScript source map file was accidentally bundled in the npm package",
+            "A security vulnerability in Anthropic's cloud infrastructure was exploited",
+            "The code was leaked through a compromised third-party dependency"
+          ],
+          "correctIndex": 1,
+          "explanation": "The leak occurred because a 59.8 MB .map file containing the full TypeScript source was accidentally included in Claude Code v2.1.88's npm package, likely due to a misconfigured .npmignore or files field in package.json."
+        },
+        {
+          "question": "Why did the community's clean-room rewrite 'claw-code' gain stars so rapidly?",
+          "options": [
+            "It was officially endorsed by Anthropic as a replacement",
+            "It demonstrated that the leaked architecture could be reproduced independently, free of copyright claims",
+            "It was the only AI coding tool available for free",
+            "It included features that Claude Code did not have"
+          ],
+          "correctIndex": 1,
+          "explanation": "The clean-room rewrite attracted massive interest because it showed the community could independently rebuild Claude Code's architecture from the leaked design insights while avoiding direct copyright infringement from copying the original source."
+        },
+        {
+          "question": "What preventive measure could have avoided this type of npm packaging leak?",
+          "options": [
+            "Using a different programming language instead of TypeScript",
+            "Properly configuring .npmignore or the files field in package.json to exclude source maps",
+            "Encrypting all source code before publishing",
+            "Using a private npm registry instead of the public one"
+          ],
+          "correctIndex": 1,
+          "explanation": "The root cause was a release packaging misconfiguration. Ensuring .npmignore excludes .map files or using the package.json files field to whitelist only intended files would have prevented the source maps from being included in the published bundle."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-anthropic-cowork",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Anthropic Executive Says Cowork Agent Will Reach a Wider Market Than Claude Code",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-executive-sees-cowork-agent-as-bigger-than-claude-code",
+      "publishedAt": "2026-04-01",
+      "summary": "Anthropic's Chief Commercial Officer Paul Smith told Bloomberg that the company's general-purpose AI agent Cowork has seen stronger adoption in its first few weeks than Claude Code did in the same period a year ago. Cowork, launched in January 2026, extends Claude Code's agentic capabilities to non-technical users through the Claude Desktop app, letting users designate folders for Claude to read and modify files via the chat interface.",
+      "keyConcepts": [
+        "General-purpose AI agents",
+        "Non-technical user adoption",
+        "Claude Desktop integration",
+        "Enterprise AI agent market"
+      ],
+      "whyItMatters": "Cowork signals that agentic AI is moving beyond developer-only tools into general knowledge work. Engineers should understand this shift because it redefines who their AI-assisted collaborators will be and how non-technical colleagues will interact with AI-powered workflows.",
+      "tags": ["anthropic", "cowork", "ai-agents", "enterprise-ai", "claude"],
+      "relatedIds": ["article-gizmodo-claude-code-leak-coverup"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between Claude Code and Cowork?",
+          "options": [
+            "Cowork uses a different AI model than Claude Code",
+            "Cowork is designed for non-technical users while Claude Code targets developers",
+            "Cowork is open source while Claude Code is proprietary",
+            "Cowork only works on Windows while Claude Code is Mac-only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cowork extends Claude Code's agentic file-manipulation capabilities to non-technical users through the Claude Desktop app's chat interface, making it accessible to people who don't use a terminal or IDE."
+        },
+        {
+          "question": "What adoption milestone did Anthropic highlight for Cowork?",
+          "options": [
+            "It reached 1 million paid subscribers in its first month",
+            "It outperformed Claude Code in coding benchmarks",
+            "It saw stronger adoption in its first few weeks than Claude Code did in the same period",
+            "It was adopted by every Fortune 500 company"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's CCO stated that Cowork achieved stronger adoption velocity in its initial weeks compared to Claude Code's launch period, suggesting strong demand for AI agents beyond the developer audience."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5google-veo-31-lite",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Google Launches Veo 3.1 Lite: Cost-Effective Video Generation at Half the Price as OpenAI Shuts Down Sora",
+      "sourceUrl": "https://9to5google.com/2026/03/31/veo-3-1-lite/",
+      "publishedAt": "2026-04-01",
+      "summary": "Google released Veo 3.1 Lite via the Gemini API, a developer-focused video generation model priced at $0.05 per second for 720p — less than half the cost of its Veo 3.1 Fast tier while maintaining the same generation speed. The model supports text-to-video and image-to-video at 720p and 1080p resolutions with customizable durations of 4, 6, or 8 seconds. The launch coincides with OpenAI shutting down its competing Sora video model.",
+      "keyConcepts": [
+        "AI video generation APIs",
+        "Cost-effective model inference",
+        "Text-to-video generation",
+        "Gemini API ecosystem"
+      ],
+      "whyItMatters": "At $0.05/second for 720p, AI video generation is approaching price points viable for production applications. Developers building content tools, marketing platforms, or creative applications should evaluate Veo 3.1 Lite as video generation shifts from novelty to practical API service.",
+      "tags": ["google", "veo", "video-generation", "gemini-api", "sora"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Veo 3.1 Lite significant for developers?",
+          "options": [
+            "It is the first AI model that can generate video content",
+            "It offers video generation at less than half the cost of the Fast tier without sacrificing speed",
+            "It can generate hour-long videos in real time",
+            "It is available exclusively through a free API"
+          ],
+          "correctIndex": 1,
+          "explanation": "Veo 3.1 Lite's key value proposition is maintaining the same generation speed as the more expensive Fast tier while cutting costs by more than 50%, making high-volume video generation applications economically viable."
+        },
+        {
+          "question": "What competitive context surrounded the Veo 3.1 Lite launch?",
+          "options": [
+            "Meta released a competing video generation model the same day",
+            "OpenAI shut down its Sora video generation model around the same time",
+            "Google discontinued all other Gemini models to focus on video",
+            "Microsoft acquired the leading video AI startup"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Veo 3.1 Lite launch coincided with OpenAI shutting down Sora, its competing video generation model, giving Google's offering a significant competitive advantage in the AI video generation API market."
+        }
+      ]
+    },
+    {
+      "id": "article-science-agentic-ai-intelligence-explosion",
+      "topics": ["ai-research"],
+      "type": "paper",
+      "title": "Agentic AI and the Next Intelligence Explosion: How Reasoning Models Simulate Multi-Agent Societies",
+      "sourceUrl": "https://www.science.org/doi/10.1126/science.aeg1895",
+      "publishedAt": "2026-04-01",
+      "summary": "Published in Science, this paper by James Evans, Blaise Aguera y Arcas, and Benjamin Bratton demonstrates that frontier reasoning models like DeepSeek-R1 and QwQ-32B don't improve by simply 'thinking longer' but instead simulate complex multi-agent-like interactions within their own chain of thought — a phenomenon the authors term a 'society of thought.' The research argues that intelligence fundamentally involves the interaction of distinctive, distributed perspectives, whether in human-AI centaur configurations or within reasoning models themselves.",
+      "keyConcepts": [
+        "Society of thought",
+        "Multi-agent reasoning simulation",
+        "Chain-of-thought internal debate",
+        "Centaur human-AI configurations",
+        "Distributed intelligence"
+      ],
+      "whyItMatters": "This paper reframes how we should think about AI reasoning — not as monolithic computation but as emergent from simulated debate among perspectives. For engineers building agentic systems, this suggests that multi-agent architectures may be fundamental to intelligence, not just an engineering convenience.",
+      "tags": ["reasoning-models", "multi-agent-ai", "science-journal", "deepseek", "intelligence"],
+      "relatedIds": ["youtube-tr5Fapv80Cw"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'society of thought' concept introduced in this paper?",
+          "options": [
+            "A new social media platform for AI researchers",
+            "The phenomenon where reasoning models simulate multi-agent debates within their chain of thought",
+            "A governance framework for AI development organizations",
+            "A training dataset compiled from social media discussions"
+          ],
+          "correctIndex": 1,
+          "explanation": "The authors discovered that frontier reasoning models don't simply extend their thinking time — they internally simulate debates between multiple perspectives within their chain of thought, which causally accounts for their accuracy advantage on hard reasoning tasks."
+        },
+        {
+          "question": "What does this research imply about the nature of intelligence?",
+          "options": [
+            "Intelligence requires physical embodiment in robots",
+            "Single large models are always superior to multi-agent systems",
+            "Intelligence fundamentally involves the interaction of distinctive, distributed perspectives",
+            "AI intelligence is fundamentally different from human intelligence"
+          ],
+          "correctIndex": 2,
+          "explanation": "The paper argues that robust reasoning is a social process, whether it occurs between human-AI 'centaur' teams, between multiple AI agents, or even within the internal chain of thought of a single reasoning model simulating multiple perspectives."
+        }
+      ]
+    },
+    {
+      "id": "youtube-tr5Fapv80Cw",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "How to Build Agentic AI Workflows: Full Course on Agent Architecture, MCP, and Python Patterns",
+      "sourceUrl": "https://www.youtube.com/watch?v=tr5Fapv80Cw",
+      "youtubeId": "tr5Fapv80Cw",
+      "publishedAt": "2026-04-01",
+      "summary": "This comprehensive freeCodeCamp course by Rola Dali, PhD provides a hands-on introduction to building agentic AI workflows. The course covers defining agents as software entities that use LLMs to perceive environments, make decisions, and execute actions, with practical Python demonstrations of system prompts, tools, and memory. It also compares architectural patterns like Supervisor and Swarm, and discusses the Model Context Protocol (MCP) for agent interoperability.",
+      "keyConcepts": [
+        "Agentic AI architecture patterns",
+        "Model Context Protocol (MCP)",
+        "Supervisor vs Swarm patterns",
+        "Agent memory and tool use",
+        "Python agent development"
+      ],
+      "whyItMatters": "As agentic coding becomes the default development paradigm, understanding agent architecture patterns is essential. This free course provides practical foundations for building and orchestrating AI agents in production workflows.",
+      "tags": ["agentic-ai", "freecodecamp", "python", "mcp", "tutorial"],
+      "relatedIds": ["article-science-agentic-ai-intelligence-explosion"],
+      "knowledgeChecks": [
+        {
+          "question": "What are the two main architectural patterns for multi-agent systems covered in this course?",
+          "options": [
+            "Client-Server and Peer-to-Peer",
+            "Supervisor and Swarm",
+            "Monolithic and Microservices",
+            "Pub-Sub and Request-Response"
+          ],
+          "correctIndex": 1,
+          "explanation": "The course compares Supervisor (a central orchestrator agent delegates to sub-agents) and Swarm (agents collaborate as peers without a central controller) as the two primary patterns for organizing multi-agent systems."
+        },
+        {
+          "question": "What is the Model Context Protocol (MCP) in the context of agentic AI?",
+          "options": [
+            "A protocol for compressing large language models",
+            "A standardized way for AI agents to interact with external tools and data sources",
+            "A training technique for improving model accuracy",
+            "A security protocol for encrypting agent communications"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP is an interoperability standard that defines how AI agents connect to and interact with external tools, APIs, and data sources, enabling agents to extend their capabilities beyond pure text generation."
+        }
+      ]
+    },
+    {
+      "id": "youtube-brLhhkUqcn4",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Claude Code Essentials: 12-Hour Course on Agentic Coding from Installation to Production Workflows",
+      "sourceUrl": "https://www.youtube.com/watch?v=brLhhkUqcn4",
+      "youtubeId": "brLhhkUqcn4",
+      "publishedAt": "2026-04-01",
+      "summary": "Andrew Brown's comprehensive course on the freeCodeCamp YouTube channel covers Claude Code from installation to advanced agentic workflows. The 12-hour course teaches how to use the Claude Code CLI on Windows, Linux, and Mac, explains the agentic loop and tool-call architecture, compares agentic coding tools, and demonstrates real-world development patterns including sessions, context handling, and multi-file refactoring.",
+      "keyConcepts": [
+        "Claude Code CLI workflows",
+        "Agentic loop architecture",
+        "Tool-call patterns",
+        "Context management in AI coding",
+        "Multi-file agentic refactoring"
+      ],
+      "whyItMatters": "Claude Code has become one of the most widely adopted AI coding agents. This course provides structured learning for engineers who want to move beyond basic prompting to mastering agentic coding workflows that can autonomously plan, write, test, and iterate on code.",
+      "tags": ["claude-code", "freecodecamp", "agentic-coding", "tutorial", "developer-tools"],
+      "relatedIds": ["article-gizmodo-claude-code-leak-coverup"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'agentic loop' in the context of AI coding tools like Claude Code?",
+          "options": [
+            "A feedback loop where users rate AI-generated code",
+            "A cycle where the AI plans, executes tool calls, observes results, and iterates until the task is complete",
+            "A training process where the model learns from its own code output",
+            "A debugging technique that automatically reverts bad changes"
+          ],
+          "correctIndex": 1,
+          "explanation": "The agentic loop is the core mechanism where Claude Code plans an approach, executes actions (file reads, writes, terminal commands), observes the results, and iterates — continuing autonomously until the task is completed or it needs human input."
+        },
+        {
+          "question": "Why is context management important in agentic coding?",
+          "options": [
+            "It determines the color theme of the IDE",
+            "It controls how much relevant code and project state the AI can access to make informed decisions",
+            "It manages user authentication for the coding tool",
+            "It regulates the billing for API usage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Effective context management ensures the AI agent has access to the right files, project structure, and prior conversation history to make well-informed coding decisions, directly impacting the quality and accuracy of generated code."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-ai-not-taking-jobs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "9 Reasons AI Isn't Going to Take Your Job (Yet): Why Automation Fears Are Overblown in 2026",
+      "sourceUrl": "https://fortune.com/2026/04/01/ai-layoffs-automation-productivity-finance-employment-investors-ceos/",
+      "publishedAt": "2026-04-01",
+      "summary": "Fortune examines nine reasons why AI-driven job displacement fears are overblown in the current moment. The article highlights the gap between perceived and actual productivity gains from AI, noting that companies see the potential but lack the financial results to justify mass replacement. It challenges the narrative that AI is the primary driver of layoffs, pointing to post-COVID overhiring and cost-cutting as the real root causes.",
+      "keyConcepts": [
+        "AI productivity gap",
+        "Job displacement vs. augmentation",
+        "Overhiring correction cycle",
+        "Enterprise AI ROI reality"
+      ],
+      "whyItMatters": "Understanding the nuance between AI hype and actual workforce impact helps engineers make informed career decisions. The productivity gap between AI's promise and delivered results suggests that human expertise remains critical — the threat is more gradual and complex than headlines suggest.",
+      "tags": ["ai-jobs", "workforce", "automation", "career-planning", "fortune"],
+      "relatedIds": ["article-fortune-andreessen-ai-layoffs", "article-cnbc-oracle-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Fortune's analysis, what is the primary driver of recent tech layoffs?",
+          "options": [
+            "AI systems directly replacing human workers at scale",
+            "Post-COVID overhiring corrections and cost-cutting, not AI replacement",
+            "Government regulations forcing companies to downsize",
+            "A global recession causing widespread budget cuts"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article argues that most layoffs attributed to AI are actually driven by structural corrections from pandemic-era overhiring and rising interest rates, with AI serving as a convenient narrative rather than the actual cause."
+        },
+        {
+          "question": "What is the 'AI productivity gap' described in the article?",
+          "options": [
+            "The difference in productivity between AI engineers and traditional engineers",
+            "The disconnect between AI's perceived potential and actual delivered business results",
+            "The time delay between deploying AI and seeing cost savings",
+            "The gap in AI skills between senior and junior developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The productivity gap refers to the observation that while companies recognize AI's transformative potential, the actual financial returns and productivity improvements from AI deployments haven't yet matched expectations, undermining the narrative of imminent mass job displacement."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-andreessen-ai-layoffs",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Marc Andreessen: AI Layoffs Are a Farce — Companies Are 75% Overstaffed and Using AI as an Excuse",
+      "sourceUrl": "https://fortune.com/2026/03/31/marc-andreessen-ai-layoffs-silver-bullet-excuse-overhiring/",
+      "publishedAt": "2026-04-01",
+      "summary": "In a 20VC podcast interview, venture capitalist Marc Andreessen argues that AI is being used as a scapegoat for layoffs driven by post-COVID overhiring and rising interest rates. He claims most large companies are overstaffed by 50-75% and that AI is not yet sophisticated enough to replace the workers being cut. Andreessen calls AI the 'silver bullet excuse' that gives executives cover to make overdue workforce reductions.",
+      "keyConcepts": [
+        "AI as layoff justification",
+        "Post-COVID workforce correction",
+        "Corporate overstaffing estimates",
+        "Venture capital perspective on AI readiness"
+      ],
+      "whyItMatters": "A major VC's contrarian take reframes layoffs as a structural correction rather than AI replacement. This perspective is important context for any engineer navigating career decisions — understanding whether your role is at risk from AI or from organizational restructuring requires different strategies.",
+      "tags": ["marc-andreessen", "layoffs", "ai-hype", "workforce", "venture-capital"],
+      "relatedIds": ["article-fortune-ai-not-taking-jobs", "article-cnbc-oracle-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Andreessen mean by calling AI a 'silver bullet excuse'?",
+          "options": [
+            "AI is the ultimate solution to all business problems",
+            "Companies are using AI as a convenient narrative to justify layoffs that are actually driven by overstaffing",
+            "AI will eventually solve the unemployment problem",
+            "Investors are using AI hype to inflate stock prices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Andreessen argues that executives are leveraging the AI narrative to justify workforce reductions that are actually needed because of pandemic-era overhiring, making AI the socially acceptable explanation for overdue organizational restructuring."
+        },
+        {
+          "question": "What is Andreessen's estimate of corporate overstaffing?",
+          "options": [
+            "10-20% overstaffed",
+            "25-30% overstaffed",
+            "50-75% overstaffed",
+            "Over 90% overstaffed"
+          ],
+          "correctIndex": 2,
+          "explanation": "Andreessen claimed that most large companies are overstaffed by 50-75%, arguing that this structural bloat — not AI capability — is the real driver behind mass layoffs in 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-oracle-layoffs",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "article",
+      "title": "Oracle Cuts 30,000 Jobs to Redirect $8-10 Billion Toward AI Data Center Expansion",
+      "sourceUrl": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "publishedAt": "2026-04-01",
+      "summary": "Oracle began notifying up to 30,000 employees of their termination via 6 AM emails, with about 12,000 of the cuts in India. The layoffs are expected to free up $8-10 billion in cash flow that will fund the company's $156 billion AI data center expansion. Despite the cuts, Oracle posted a 95% jump in net income to $6.13 billion and its remaining performance obligations stood at $523 billion, up 433% year-over-year — signaling the layoffs are strategic reallocation, not financial distress.",
+      "keyConcepts": [
+        "AI infrastructure capital reallocation",
+        "Enterprise workforce restructuring",
+        "Data center GPU investment",
+        "Cloud infrastructure scaling"
+      ],
+      "whyItMatters": "Oracle's layoffs illustrate the broader enterprise pattern of cutting traditional roles to fund AI infrastructure. Engineers should note that companies are not just adopting AI tools — they're restructuring entire organizations around AI-first strategies, shifting hiring toward AI/ML and infrastructure roles.",
+      "tags": ["oracle", "layoffs", "ai-infrastructure", "data-centers", "enterprise"],
+      "relatedIds": ["article-fortune-andreessen-ai-layoffs", "article-crunchbase-q1-funding"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Oracle cutting 30,000 jobs despite posting record financial results?",
+          "options": [
+            "The company is going bankrupt and needs to reduce costs",
+            "AI has automated all of those employees' jobs",
+            "The company is reallocating $8-10 billion from workforce costs to AI data center expansion",
+            "Regulatory requirements are forcing the company to downsize"
+          ],
+          "correctIndex": 2,
+          "explanation": "Oracle's layoffs are a strategic capital reallocation, not a response to financial distress. With a 95% jump in net income and $523 billion in performance obligations, the company is redirecting workforce spending toward its $156 billion AI infrastructure buildout."
+        },
+        {
+          "question": "What does Oracle's $523 billion in remaining performance obligations indicate?",
+          "options": [
+            "The company owes $523 billion in debt",
+            "Massive contracted future revenue, up 433% YoY, driven by AI cloud demand",
+            "The company plans to spend $523 billion on acquisitions",
+            "Oracle's stock market valuation has reached $523 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Remaining performance obligations represent contracted but not yet recognized revenue. The 433% year-over-year growth signals enormous enterprise demand for Oracle's AI cloud infrastructure, validating the company's aggressive investment strategy."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-openai-anthropic-secondary",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "OpenAI Share Demand Drops on Secondary Market as Investors Flock to Anthropic at $600B Valuation",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
+      "publishedAt": "2026-04-01",
+      "summary": "Bloomberg reports a dramatic shift in institutional investor sentiment: roughly $600 million in OpenAI secondary shares cannot find buyers, while $2 billion in demand has lined up for Anthropic shares at a $600 billion valuation. Banks like Goldman Sachs are waiving carry fees on OpenAI but charging standard fees for Anthropic, reflecting a reversal in perceived risk-reward between the two leading AI companies.",
+      "keyConcepts": [
+        "Secondary market dynamics",
+        "Institutional investor sentiment",
+        "AI company valuations",
+        "Risk-reward perception shift"
+      ],
+      "whyItMatters": "The secondary market is a leading indicator of institutional confidence in AI companies. This shift from OpenAI to Anthropic could reshape competitive dynamics, funding availability, and strategic partnerships across the AI ecosystem — affecting which platforms and tools gain the most investment and development.",
+      "tags": ["openai", "anthropic", "investment", "valuation", "secondary-market"],
+      "relatedIds": ["article-crunchbase-q1-funding"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the secondary market shift between OpenAI and Anthropic indicate?",
+          "options": [
+            "OpenAI is going bankrupt and investors are selling",
+            "Institutional investors view Anthropic as better risk-reward despite its smaller scale",
+            "Anthropic acquired OpenAI's best researchers",
+            "The AI market is collapsing and all valuations are dropping"
+          ],
+          "correctIndex": 1,
+          "explanation": "The demand shift — with $600M in unsold OpenAI shares versus $2B in Anthropic demand — suggests smart money views Anthropic's trajectory as offering better risk-adjusted returns, even though OpenAI remains larger in revenue and user base."
+        },
+        {
+          "question": "Why is Goldman Sachs waiving carry fees on OpenAI shares?",
+          "options": [
+            "As a promotional offer for new institutional clients",
+            "Because OpenAI is a preferred partner of Goldman Sachs",
+            "To incentivize buyers for shares that are difficult to sell on the secondary market",
+            "Because regulatory changes require fee waivers on AI company shares"
+          ],
+          "correctIndex": 2,
+          "explanation": "Waiving carry fees is a tactic to attract buyers for shares with weak demand. The contrast with standard fees being charged for Anthropic shares underscores the relative ease of selling Anthropic shares versus the difficulty of moving OpenAI positions."
+        }
+      ]
+    },
+    {
+      "id": "article-crunchbase-q1-funding",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Q1 2026 Shatters Venture Records: $300B in Global Funding with AI Capturing 80% of All Investment",
+      "sourceUrl": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+      "publishedAt": "2026-04-01",
+      "summary": "Global venture funding hit $300 billion in Q1 2026, up over 150% year-over-year, with AI accounting for $242 billion — 80% of total investment. The four largest rounds ever (OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B) collectively absorbed 65% of all global venture capital in the quarter. This extreme concentration of capital in a handful of AI companies is unprecedented in venture history.",
+      "keyConcepts": [
+        "Venture capital concentration",
+        "AI investment supercycle",
+        "Mega-round funding dynamics",
+        "Market bubble indicators"
+      ],
+      "whyItMatters": "With 80% of all venture funding flowing to AI, engineers working in AI-adjacent roles are in the most capital-rich sector in tech history. However, the extreme concentration in a few mega-rounds raises questions about whether smaller AI startups and non-AI sectors face a capital drought.",
+      "tags": ["venture-capital", "ai-funding", "crunchbase", "openai", "anthropic"],
+      "relatedIds": ["article-bloomberg-openai-anthropic-secondary"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Q1 2026 venture funding went to AI?",
+          "options": [
+            "About 40%",
+            "About 60%",
+            "About 80%",
+            "About 95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI captured approximately 80% of all global venture funding in Q1 2026 ($242 billion out of $300 billion total), representing an unprecedented concentration of capital in a single technology sector."
+        },
+        {
+          "question": "What risk does this extreme capital concentration pose?",
+          "options": [
+            "AI companies will have too much money to spend efficiently",
+            "Smaller AI startups and non-AI sectors may face a capital drought as mega-rounds absorb most available funding",
+            "Venture capital firms will go bankrupt from overinvesting",
+            "Government regulations will force redistribution of capital"
+          ],
+          "correctIndex": 1,
+          "explanation": "When the four largest rounds absorb 65% of all global venture capital, it creates a potential capital drought for the broader startup ecosystem, where smaller AI companies and non-AI sectors may struggle to raise funding despite viable business models."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-cursor-automations",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Cursor Launches Automations: Always-On Agentic Coding Agents Triggered by Code, Slack, or Timers",
+      "sourceUrl": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "publishedAt": "2026-04-01",
+      "summary": "Cursor introduced Automations, the first always-on agentic coding system that runs without human prompting. Agents can be triggered by code changes, Slack messages, PagerDuty incidents, or timers, enabling automated code review, security audits, and incident response. Cursor reports running hundreds of automations per hour internally, including a Bugbot that reviews every new code addition. The company's annual revenue recently doubled to over $2 billion.",
+      "keyConcepts": [
+        "Event-driven AI coding agents",
+        "Automated code review",
+        "AI incident response",
+        "Always-on agentic workflows"
+      ],
+      "whyItMatters": "Cursor Automations represents the next evolution of agentic coding — from human-prompted to event-driven. Engineers should understand this shift because it changes the development workflow from 'ask AI for help' to 'AI continuously monitors and acts on your codebase' without being prompted.",
+      "tags": ["cursor", "automations", "agentic-coding", "code-review", "developer-tools"],
+      "relatedIds": ["youtube-brLhhkUqcn4"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Cursor Automations from traditional AI coding assistants?",
+          "options": [
+            "It uses a larger language model than competitors",
+            "It runs agents continuously without requiring human prompts, triggered by events like code changes or Slack messages",
+            "It generates code in more programming languages",
+            "It offers a free tier while competitors charge for usage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike traditional AI coding assistants that require a human prompt to start, Cursor Automations agents run autonomously, triggered by events such as code commits, Slack messages, PagerDuty incidents, or timers — enabling continuous automated code review and incident response."
+        },
+        {
+          "question": "How does Cursor use Automations internally?",
+          "options": [
+            "Only for generating marketing content",
+            "Running a Bugbot that reviews every new code addition, plus security audits and incident response",
+            "Exclusively for training new employees",
+            "Only for automated testing in CI/CD pipelines"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cursor's internal Bugbot automation triggers on every code addition to review for bugs, and has been expanded to include security audits and incident response via PagerDuty integration, running hundreds of automations per hour."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-scaling-ai-enterprise",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "article",
+      "title": "Microsoft: How Enterprise Leaders Are Moving from AI Pilots to Production-Scale Deployment in 2026",
+      "sourceUrl": "https://www.microsoft.com/en-us/industry/microsoft-in-business/business-insights/2026/04/01/scaling-ai-with-confidence-how-leaders-are-using-ai-to-drive-enterprise-transformation/",
+      "publishedAt": "2026-04-01",
+      "summary": "Microsoft's enterprise blog details how organizations are transitioning beyond AI pilots into production-scale deployments in 2026. The piece covers Copilot Cowork (built with Anthropic), autonomous agents for DevOps and security, and the broader shift toward agentic AI in enterprise workflows. Microsoft frames 2026 as the year AI adoption transitions from experimentation to systematic transformation across business functions.",
+      "keyConcepts": [
+        "Enterprise AI scaling",
+        "Copilot Cowork platform",
+        "Autonomous DevOps agents",
+        "AI pilot-to-production transition"
+      ],
+      "whyItMatters": "Microsoft's enterprise perspective reveals that AI agents are moving from demos to deployed products in 2026. For engineers, this means agentic AI systems will increasingly be part of their daily toolchain — from DevOps automation to security monitoring — not just optional coding assistants.",
+      "tags": ["microsoft", "enterprise-ai", "copilot-cowork", "devops", "anthropic"],
+      "relatedIds": ["article-bloomberg-anthropic-cowork"],
+      "knowledgeChecks": [
+        {
+          "question": "What transition does Microsoft identify as defining enterprise AI in 2026?",
+          "options": [
+            "The shift from cloud computing to on-premise AI",
+            "The move from AI pilots and experimentation to production-scale systematic deployment",
+            "The transition from text-based AI to purely visual AI interfaces",
+            "The replacement of all human workers with AI agents"
+          ],
+          "correctIndex": 1,
+          "explanation": "Microsoft frames 2026 as the inflection point where enterprises move beyond AI experimentation and pilot programs into full production-scale deployment of agentic AI across business functions including DevOps, security, and knowledge work."
+        },
+        {
+          "question": "What is notable about Copilot Cowork's technology stack?",
+          "options": [
+            "It runs entirely on open-source models",
+            "It is built with Anthropic's Claude, showing cross-company AI collaboration",
+            "It uses only Microsoft's proprietary AI models",
+            "It requires no cloud connectivity to function"
+          ],
+          "correctIndex": 1,
+          "explanation": "Copilot Cowork is built in partnership with Anthropic using Claude models, demonstrating that even major competitors like Microsoft recognize the value of Anthropic's technology for enterprise agentic AI applications."
+        }
+      ]
+    },
+    {
+      "id": "article-zapier-ai-fluency",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Zapier's AI Fluency Framework: How One Company Measures and Mandates AI Skills for Every Hire",
+      "sourceUrl": "https://zapier.com/blog/raising-ai-fluency-bar-in-hiring/",
+      "publishedAt": "2026-04-01",
+      "summary": "Zapier detailed its four-tier AI fluency framework that now applies to every new hire: Unacceptable (resistant to AI), Capable (using popular tools with basic experience), Adoptive (embedding AI in personal workflows), and Transformative (rethinking strategy using AI). The company reports 97% daily AI usage across all employees and has rebuilt its onboarding to emphasize AI workflow building from day one. The framework has become a model for HR leaders across the tech industry.",
+      "keyConcepts": [
+        "AI fluency rubric",
+        "Hiring criteria evolution",
+        "Organizational AI adoption",
+        "Workforce transformation metrics"
+      ],
+      "whyItMatters": "Zapier's framework signals that AI fluency is becoming a baseline hiring expectation, not a differentiator. Engineers should assess their own AI fluency level — if you're not actively embedding AI into your daily workflows, you may be falling behind the 'Adoptive' bar that companies are now setting as a minimum.",
+      "tags": ["zapier", "ai-fluency", "hiring", "workforce", "career-development"],
+      "relatedIds": ["article-fortune-ai-not-taking-jobs"],
+      "knowledgeChecks": [
+        {
+          "question": "What are the four tiers in Zapier's AI fluency framework?",
+          "options": [
+            "Beginner, Intermediate, Advanced, Expert",
+            "Unacceptable, Capable, Adoptive, Transformative",
+            "Aware, Interested, Engaged, Mastered",
+            "Observer, User, Builder, Architect"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zapier's framework defines four levels: Unacceptable (resistant to AI), Capable (basic tool use), Adoptive (AI embedded in daily workflows), and Transformative (using AI to rethink strategy and deliver new value)."
+        },
+        {
+          "question": "What does Zapier's 97% daily AI usage rate suggest about the future of work?",
+          "options": [
+            "AI tools are only useful for automation companies like Zapier",
+            "AI fluency is becoming a universal workplace expectation, not just a tech industry requirement",
+            "Employees are being forced to use AI against their will",
+            "AI has replaced 97% of human decision-making at Zapier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zapier's near-universal AI adoption across all functions — not just engineering — suggests that AI fluency will become a baseline expectation across industries, similar to how computer literacy became non-negotiable in the 2000s."
+        }
+      ]
+    }
+  ]
+}
