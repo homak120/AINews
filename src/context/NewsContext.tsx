@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import axios from 'axios';
-import type { NewsData } from '../types';
+import type { Manifest, NewsData, NewsItem } from '../types';
 
 interface NewsContextValue {
   data: NewsData | null;
@@ -10,6 +10,37 @@ interface NewsContextValue {
 
 const NewsContext = createContext<NewsContextValue | null>(null);
 
+/**
+ * Merge items from multiple NewsData files, deduplicating by id.
+ * When the same id appears in multiple files, the item from the file
+ * with the newest generatedAt wins.
+ */
+function mergeNewsFiles(files: NewsData[]): NewsData {
+  // Sort files newest-first so the first occurrence of each id wins
+  const sorted = [...files].sort(
+    (a, b) => new Date(b.generatedAt).getTime() - new Date(a.generatedAt).getTime()
+  );
+
+  const seen = new Set<string>();
+  const mergedItems: NewsItem[] = [];
+
+  for (const file of sorted) {
+    for (const item of file.items) {
+      if (!seen.has(item.id)) {
+        seen.add(item.id);
+        mergedItems.push(item);
+      }
+    }
+  }
+
+  const newest = sorted[0];
+  return {
+    generatedAt: newest?.generatedAt ?? '',
+    weekOf: newest?.weekOf ?? '',
+    items: mergedItems,
+  };
+}
+
 export function NewsProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<NewsData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -17,12 +48,17 @@ export function NewsProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     axios
-      .get<NewsData>('/data/news.json')
+      .get<Manifest>('/data/manifest.json')
       .then((res) => {
-        setData(res.data);
+        const filePaths = res.data.files.map((f) => `/data/${f}`);
+        return Promise.all(filePaths.map((p) => axios.get<NewsData>(p)));
+      })
+      .then((responses) => {
+        const allFiles = responses.map((r) => r.data);
+        setData(mergeNewsFiles(allFiles));
       })
       .catch(() => {
-        setError('Failed to load news data. Please check that data/news.json exists.');
+        setError('Failed to load news data. Please check that data/manifest.json and referenced files exist.');
       })
       .finally(() => {
         setIsLoading(false);

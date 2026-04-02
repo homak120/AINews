@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { cn } from '../../utils/cn';
+import { sortItemsVideosFirst } from '../../utils/sortItems';
 import { TOPIC_DISPLAY_NAMES, type NewsItem, type Topic } from '../../types';
 import { TopicFilter } from '../layout/TopicFilter';
 import { TopicSection } from './TopicSection';
@@ -30,7 +31,7 @@ export function NewsFeed({ items, activeTopic, onTopicChange }: NewsFeedProps) {
   const [mobileTab, setMobileTab] = useState<Topic>(ALL_TOPICS[0] ?? 'ai-engineering');
 
   const getItemsForTopic = (topic: Topic) =>
-    items.filter((item) => item.topics.includes(topic));
+    sortItemsVideosFirst(items.filter((item) => item.topics.includes(topic)));
 
   const visibleTopics = activeTopic ? [activeTopic] : ALL_TOPICS;
 

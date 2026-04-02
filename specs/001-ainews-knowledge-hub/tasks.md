@@ -180,11 +180,19 @@ See full detail: [`plans/002-ux-improvements.md`](plans/002-ux-improvements.md)
 - [x] T052 Improve knowledge check completion view with per-question breakdown (KnowledgeCheck)
 - [x] T053 Implement mobile horizontal tab row per design guide §4.8 (NewsFeed)
 
-### Batch 2 — Video Thumbnail Preview (pending)
+### Batch 2 — Video Thumbnail Preview (done)
 
 See full detail: [`plans/003-video-thumbnail.md`](plans/003-video-thumbnail.md)
 
-- [ ] T054 Add static YouTube thumbnail preview with play button overlay to video cards (NewsCard)
+- [x] T054 Add static YouTube thumbnail preview with play button overlay to video cards (NewsCard)
+
+### Batch 3 — Feed Enhancements (completed 2026-04-02)
+
+See full detail: [`plans/004-feed-enhancements.md`](plans/004-feed-enhancements.md)
+
+- [x] T055 Extract shared `formatDate` utility and update NewsCard + ItemDetail
+- [x] T056 Create `sortItemsVideosFirst` utility and sort videos first in topic columns (NewsFeed)
+- [x] T057 Manifest-based multi-file news loading with deduplication (NewsContext)
 
 ---
 

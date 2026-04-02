@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn';
+import { formatDate } from '../../utils/formatDate';
 import { useBookmarks } from '../../hooks/useBookmarks';
 import { useKnowledgeChecks } from '../../hooks/useKnowledgeChecks';
 import type { NewsItem, Topic } from '../../types';
@@ -45,10 +46,7 @@ export function NewsCard({ item, primaryTopic }: NewsCardProps) {
   const { isCompleted } = useKnowledgeChecks();
   const checked = isCompleted(item.id) && item.knowledgeChecks.length > 0;
 
-  const date = new Date(item.publishedAt).toLocaleDateString('en-US', {
-    month: 'short',
-    year: 'numeric',
-  });
+  const date = formatDate(item.publishedAt);
 
   const sourceDomain = (() => {
     try {

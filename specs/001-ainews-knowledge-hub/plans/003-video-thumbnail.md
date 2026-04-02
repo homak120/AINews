@@ -1,6 +1,6 @@
 # Implementation Plan: Video Thumbnail Preview on Feed Cards
 
-**Status**: 🔲 Pending
+**Status**: ✅ Completed (commit bda09b0, 2026-04-01)
 **Date**: 2026-03-31
 **Scope**: Single-file change to `NewsCard`. No schema changes. No new
 dependencies. Non-video cards are completely unaffected.
