@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { cn } from '../../utils/cn';
+import { formatDate } from '../../utils/formatDate';
 import type { NewsItem, Topic } from '../../types';
 import { TOPIC_DISPLAY_NAMES } from '../../types';
 import { useBookmarks } from '../../hooks/useBookmarks';
@@ -39,10 +40,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
   const bookmarked = isBookmarked(item.id);
   const note = getNote(item.id);
 
-  const date = new Date(item.publishedAt).toLocaleDateString('en-US', {
-    month: 'short',
-    year: 'numeric',
-  });
+  const date = formatDate(item.publishedAt);
 
   const sourceDomain = (() => {
     try {
