@@ -51,13 +51,13 @@ export function ItemDetail({ item }: ItemDetailProps) {
   })();
 
   return (
-    <div className={hasQuiz ? 'grid grid-cols-[1fr_380px] gap-6 items-start' : 'grid grid-cols-1 gap-6'}>
+    <div className={hasQuiz ? 'grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-6 items-start' : 'grid grid-cols-1 gap-6'}>
       {/* Article panel */}
       <div className="
         relative overflow-hidden
         bg-white/[0.06] backdrop-blur-xl
         border border-white/[0.12]
-        rounded-2xl p-8
+        rounded-2xl p-4 sm:p-8
         before:absolute before:top-0 before:inset-x-0 before:h-px
         before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent
       ">
@@ -100,7 +100,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
         </h1>
 
         {/* Metadata row */}
-        <div className="flex gap-10 mb-6">
+        <div className="flex flex-wrap gap-x-8 gap-y-3 mb-6">
           {[
             { key: 'Source', val: sourceDomain },
             { key: 'Published', val: date },

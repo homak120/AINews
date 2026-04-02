@@ -31,7 +31,7 @@ export function ItemDetailPage() {
           bookmarkCount={preferences.bookmarks.length}
         />
 
-        <main className="max-w-[1280px] mx-auto px-8 md:px-5 py-8">
+        <main className="max-w-[1280px] mx-auto px-4 sm:px-8 md:px-5 py-8">
           {isLoading && <LoadingState />}
           {error && <ErrorState message={error} />}
           {!isLoading && !error && !item && (
