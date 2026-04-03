@@ -25,6 +25,9 @@ Replace these values for each run:
 | `ITEMS_PER_TOPIC` | Target count per topic per week | `3-5` |
 | `TOTAL_ITEMS` | Target total per week | `12-20` |
 | `OUTPUT_PATH` | File path for the output | `public/data/news.json` |
+| `CONTENT_TYPES` | *(optional)* Comma-separated list of types to include. Omit for all types. | `video` or `video,article` |
+| `HOT_TOPICS` | *(optional)* Priority search terms to emphasize across all topic categories. Omit for default coverage. | `"MCP protocol, agentic coding"` |
+| `PREFERRED_CHANNELS` | *(optional)* YouTube channel names to prioritize. Omit for default discovery. | `"Fireship, AI Explained, freeCodeCamp"` |
 
 ---
 
@@ -74,6 +77,45 @@ Generate content for **only the target week** (12-20 new items). Then:
 - **Week end**: {{TARGET_WEEK_END}}
 - **Items per topic**: {{ITEMS_PER_TOPIC}} (per week)
 - **Total items**: {{TOTAL_ITEMS}} (per week)
+
+## Optional Filters
+
+These parameters are optional. When omitted, use default behavior (all content
+types, standard topic coverage, broad source discovery).
+
+### Content Type Filter (`CONTENT_TYPES`)
+
+- **Value**: {{CONTENT_TYPES}} *(omit or set to `all` for default behavior)*
+- When set to a specific type (e.g., `video`), **only include items of that
+  type**. Skip all other content types during search and curation.
+- When set to `video`, all items MUST have a valid `youtubeId`. Search
+  exclusively on YouTube.
+- When set to a comma-separated list (e.g., `video,article`), include only
+  those types.
+
+### Hot Topics (`HOT_TOPICS`)
+
+- **Value**: {{HOT_TOPICS}} *(omit for default coverage)*
+- When set, these terms become **priority search keywords** added to every
+  topic's search queries. They do not replace the 4 topic categories — they
+  focus the search within each category.
+- Example: If `HOT_TOPICS` = `"MCP protocol, agentic coding"`, then the
+  `ai-engineering` search becomes `"MCP protocol AI coding assistant"`,
+  `ai-research` becomes `"MCP protocol AI research paper"`, etc.
+- Items that match hot topics should be preferred over general items when
+  curating the final list.
+
+### Preferred YouTube Channels (`PREFERRED_CHANNELS`)
+
+- **Value**: {{PREFERRED_CHANNELS}} *(omit for default discovery)*
+- When set, **search these channels first** for recent uploads matching the
+  topic categories. Use queries like `site:youtube.com "@ChannelName" [topic]`.
+- Include matching videos from these channels before searching broadly.
+- If a preferred channel has no relevant recent content, skip it — do not
+  include irrelevant videos just because the channel is listed.
+- This filter works alongside `CONTENT_TYPES`. If `CONTENT_TYPES` = `video`
+  and `PREFERRED_CHANNELS` is set, search preferred channels first, then
+  broaden to general YouTube discovery to fill remaining slots.
 
 ## Topic Definitions
 
@@ -156,6 +198,14 @@ For each topic:
 5. **YouTube pass**: For at least 2 topics, run a YouTube-specific search
    (e.g., `site:youtube.com [topic keywords] this week`). YouTube tutorials
    and explainers are a primary content type for this hub.
+
+**Applying optional filters to search**:
+- If `CONTENT_TYPES` is set to `video`, skip all non-YouTube searches. Run
+  only YouTube-specific queries for each topic.
+- If `HOT_TOPICS` is set, prepend or integrate the hot topic terms into each
+  search query (e.g., `"MCP protocol" AI coding assistant this week`).
+- If `PREFERRED_CHANNELS` is set, search those channels first
+  (e.g., `site:youtube.com "@Fireship" [topic] this week`), then broaden.
 
 **Example search queries** (adapt to the current week):
 - `ai-engineering`: "AI coding assistant news this week", "Claude Code update",
@@ -365,6 +415,23 @@ Run these checks against the generated `news.json` before committing:
 3. Review the output — verify existing items are preserved and new items added.
 4. Copy to `data/news.json` if it also exists.
 5. Commit: `git add public/data/news.json && git commit -m "chore: weekly content refresh"`
+
+**Filtered generation** (optional parameters):
+
+Video-only from specific channels:
+> "Generate AINews digest for April 2, 2026. **Video only**.
+> Preferred channels: **Fireship, freeCodeCamp, AI Explained, Matt Wolfe**.
+> Follow the prompt template in
+> `specs/001-ainews-knowledge-hub/contracts/content-generation-prompt.md`."
+
+Hot topic focus:
+> "Generate AINews digest for April 2, 2026 with hot topics:
+> **MCP protocol, agentic coding workflows**. Follow the prompt template."
+
+Combined:
+> "Generate AINews video-only digest for April 2, 2026.
+> Hot topics: **AI agents in production**. Preferred channels:
+> **Fireship, ThePrimeagen, WebDevCody**. Follow the prompt template."
 
 ### Scheduled Trigger Use
 
