@@ -267,6 +267,28 @@ and note the gap.
 **Fallback**: If fewer than 3 high-quality items exist for a topic in the
 target week, include the best 2 rather than adding low-quality filler.
 
+### URL Verification Rule
+
+Every item MUST have a verified, real URL before being added to the output file.
+
+- **Never use placeholder IDs or URLs** (e.g., `VERIFY_CHK1`, `PLACEHOLDER`,
+  `TBD`). If you cannot verify a URL is real, **do not include the item**.
+- For YouTube videos: the `youtubeId` MUST be a real 11-character video ID
+  confirmed via web search or web fetch. Do not guess or fabricate video IDs.
+- If a search finds a promising title but you cannot confirm the URL,
+  **skip the item** and log it in a failure report.
+- If network issues prevent URL verification for all items, **write no items
+  to the file**. Instead, report the failure with details of what was found
+  but could not be verified.
+
+**Failure reporting**: When items are skipped due to unverified URLs, output
+a summary at the end of the session listing:
+- Item title
+- Channel/source name
+- Reason skipped (e.g., "YouTube blocked by proxy", "URL returned 404")
+
+A file with zero verified items is better than a file with fake URLs.
+
 ## Output Schema
 
 Output a single JSON object conforming to this shape (see `news-schema.md` for
@@ -397,6 +419,8 @@ Run these checks against the generated `news.json` before committing:
 - [ ] `youtubeId` is omitted (not present) on non-video items
 - [ ] All `knowledgeChecks[].correctIndex` values are valid indices into `options`
 - [ ] All `sourceUrl` values are real, accessible URLs (not fabricated)
+- [ ] No placeholder or fabricated IDs (no `VERIFY_*`, `PLACEHOLDER`, `TBD` patterns)
+- [ ] All `youtubeId` values are exactly 11 characters matching `[A-Za-z0-9_-]`
 - [ ] All `publishedAt` dates fall within the `coverageStart`–`coverageEnd` window
 - [ ] At least 2 items have `type: "video"` with valid `youtubeId`
 - [ ] Content types include at least 2 different types
