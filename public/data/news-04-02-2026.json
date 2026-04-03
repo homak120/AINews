@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-04-03T01:45:00Z",
+  "weekOf": "2026-03-30",
+  "coverageStart": "2026-03-21",
+  "coverageEnd": "2026-04-02",
+  "items": [
+    {
+      "id": "youtube-kwSVtQ7dziU",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "video",
+      "title": "Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+      "youtubeId": "kwSVtQ7dziU",
+      "publishedAt": "2026-03-21",
+      "summary": "Andrej Karpathy joined the No Priors podcast to describe what he calls the 'loopy era' of AI — where agents continuously self-improve by running experiments, collecting results, and updating their own code without human intervention in each cycle. He revealed he has not written a single line of code by hand since December 2025, instead directing AI agents that autonomously orchestrate development work. His AutoResearch project, using a single GPU and roughly 630 lines of training scaffolding, ran 700 ML experiments in two days and discovered 20 optimizations that measurably improved training — including novel architecture tweaks the system invented itself.",
+      "keyConcepts": [
+        "Agentic code generation",
+        "AutoResearch autonomous experimentation",
+        "Self-improving AI feedback loops",
+        "Software 3.0 paradigm",
+        "Human-as-orchestrator engineering"
+      ],
+      "whyItMatters": "Software engineers are transitioning from writing code to directing and reviewing AI agents — Karpathy's firsthand account of this shift, combined with quantified results from AutoResearch, makes this essential context for any developer planning their skills roadmap for 2026.",
+      "tags": ["karpathy", "code-agents", "autoresearch", "agentic-coding", "no-priors", "ai-research"],
+      "relatedIds": ["youtube-n1sfrc-RjyM"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Karpathy's AutoResearch project demonstrate about autonomous AI agents?",
+          "options": [
+            "AI agents need human approval before each experiment to ensure safety",
+            "AI agents can autonomously run hundreds of ML experiments, discover optimizations, and iterate with minimal human involvement",
+            "AutoResearch requires a large GPU cluster to operate effectively",
+            "The project showed that AI agents struggle to improve on human-designed baselines"
+          ],
+          "correctIndex": 1,
+          "explanation": "AutoResearch ran 700 experiments in 2 days on a single GPU, autonomously modifying training code, running experiments, checking results, and keeping improvements — proving that AI agents can conduct iterative scientific research without human involvement in each cycle."
+        },
+        {
+          "question": "According to Karpathy, what is the primary engineering skill in the 'loopy era'?",
+          "options": [
+            "Writing lower-level systems code to keep up with AI-generated abstractions",
+            "Building AI-free fallback systems to compensate for agent failures",
+            "Orchestrating, reviewing, and directing AI agents rather than writing code directly",
+            "Specializing exclusively in model training and ignoring product engineering"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy describes the engineer's job as shifting from writing code to directing, supervising, and verifying AI-generated code — a fundamental change where human judgment guides agents rather than produces outputs directly."
+        },
+        {
+          "question": "What distinguishes a 'loopy' AI system from a traditional AI assistant?",
+          "options": [
+            "A loopy system runs in a continuous self-improvement cycle, designing experiments and updating its own behavior without a human in each loop",
+            "A loopy system requires the user to manually restart it after each task completes",
+            "Loopy systems are faster at generating text but less accurate than standard models",
+            "A loopy system processes inputs in random order to simulate creativity"
+          ],
+          "correctIndex": 0,
+          "explanation": "The 'loopy era' refers to AI systems that autonomously close the loop between hypothesis, experiment, result, and improvement — running cycles of self-directed learning without needing a human to initiate each step."
+        }
+      ]
+    },
+    {
+      "id": "youtube-n1sfrc-RjyM",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "OpenClaw Full Tutorial for Beginners: Set Up a Local Autonomous AI Agent with Docker and Custom Skills",
+      "sourceUrl": "https://www.youtube.com/watch?v=n1sfrc-RjyM",
+      "youtubeId": "n1sfrc-RjyM",
+      "publishedAt": "2026-03-25",
+      "summary": "freeCodeCamp published a comprehensive 55-minute tutorial on OpenClaw, the open-source autonomous AI agent framework that became the most-starred GitHub project of early 2026. The video covers full installation in both minimal and full-featured modes, Docker sandbox configuration for safe agent execution, connecting the agent to messaging platforms including WhatsApp, Telegram, and Discord, setting up persistent memory so the agent retains context across sessions, and writing custom skills to extend its behavior. OpenClaw runs entirely locally, making it a self-hostable alternative to cloud AI assistants for developers who want control over their AI infrastructure.",
+      "keyConcepts": [
+        "OpenClaw local autonomous agent",
+        "Docker sandboxing for AI safety",
+        "Persistent agent memory",
+        "Custom skill development",
+        "Messaging platform integration (WhatsApp, Telegram, Discord)"
+      ],
+      "whyItMatters": "OpenClaw represents the practical, self-hosted end of the agentic AI spectrum — understanding how to deploy and configure local AI agents is becoming a core infrastructure skill as teams move from single-prompt assistants to persistent, task-executing agents.",
+      "tags": ["openclaw", "autonomous-agents", "local-ai", "docker", "freecodecamp", "agentic"],
+      "relatedIds": ["youtube-kwSVtQ7dziU"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary advantage of OpenClaw's local-first architecture?",
+          "options": [
+            "It processes tasks faster than cloud-based AI assistants because it skips network latency",
+            "Developers self-host the agent and control their data, without sending conversations to a third-party cloud provider",
+            "Local deployment means the agent can use larger language models than cloud APIs allow",
+            "OpenClaw requires no configuration compared to cloud AI services"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenClaw's local-first design means developers control their AI infrastructure entirely — no data leaves the machine, there is no subscription cost, and the agent can be customized at the code level. This contrasts with cloud assistants where the provider stores conversation data and controls the runtime."
+        },
+        {
+          "question": "Why does OpenClaw use Docker sandboxing for agent task execution?",
+          "options": [
+            "Docker is needed to connect to messaging platforms like Telegram",
+            "To run OpenClaw on Windows since it is Linux-only natively",
+            "To isolate agent-executed code and commands from the host system, preventing unintended side effects",
+            "Docker enables GPU acceleration for faster model inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sandboxing through Docker ensures that actions taken by the autonomous agent — such as running code, accessing files, or executing shell commands — are contained in an isolated environment and cannot accidentally modify the host system or leak sensitive data."
+        }
+      ]
+    }
+  ]
+}
