@@ -1,6 +1,6 @@
 import { createContext, useContext, type ReactNode } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
-import { DEFAULT_PREFERENCES, type KnowledgeCheckResult, type UserPreferences } from '../types';
+import { DEFAULT_PREFERENCES, type KnowledgeCheckResult, type SavedSearch, type UserPreferences } from '../types';
 
 interface UserPreferencesContextValue {
   preferences: UserPreferences;
@@ -9,6 +9,7 @@ interface UserPreferencesContextValue {
   updateKnowledgeCheckResults: (
     results: Record<string, KnowledgeCheckResult>
   ) => void;
+  updateSavedSearches: (savedSearches: SavedSearch[]) => void;
 }
 
 const UserPreferencesContext = createContext<UserPreferencesContextValue | null>(null);
@@ -33,9 +34,13 @@ export function UserPreferencesProvider({ children }: { children: ReactNode }) {
     setPreferences({ ...preferences, knowledgeCheckResults });
   };
 
+  const updateSavedSearches = (savedSearches: SavedSearch[]) => {
+    setPreferences({ ...preferences, savedSearches });
+  };
+
   return (
     <UserPreferencesContext.Provider
-      value={{ preferences, updateBookmarks, updateNotes, updateKnowledgeCheckResults }}
+      value={{ preferences, updateBookmarks, updateNotes, updateKnowledgeCheckResults, updateSavedSearches }}
     >
       {children}
     </UserPreferencesContext.Provider>

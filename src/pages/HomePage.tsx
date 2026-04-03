@@ -1,19 +1,72 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { useNews } from '../hooks/useNews';
+import { useFilterState } from '../hooks/useFilterState';
+import { useSavedSearches } from '../hooks/useSavedSearches';
 import { useUserPreferences } from '../context/UserPreferencesContext';
+import { DEFAULT_FILTER_STATE } from '../types';
 import { Header } from '../components/layout/Header';
 import { NewsFeed } from '../components/feed/NewsFeed';
+import { AdvancedSearch } from '../components/search/AdvancedSearch';
+import { SavedSearches } from '../components/search/SavedSearches';
 import { LoadingState } from '../components/common/LoadingState';
 import { ErrorState } from '../components/common/ErrorState';
-import type { Topic } from '../types';
+import type { NewsItem } from '../types';
 
 export function HomePage() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [activeTopic, setActiveTopic] = useState<Topic | null>(null);
-  const { search, isLoading, error } = useNews();
+  const { items, isLoading, error } = useNews();
   const { preferences } = useUserPreferences();
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  const filteredItems = search(searchQuery, activeTopic);
+  const {
+    filterState,
+    setContentType,
+    setActiveTopic,
+    setActiveTag,
+    setDateRange,
+    setTextQuery,
+    resetAll,
+    loadSnapshot,
+  } = useFilterState();
+
+  const { savedSearches, save, remove } = useSavedSearches();
+
+  const hasActiveFilters =
+    filterState.contentType !== DEFAULT_FILTER_STATE.contentType ||
+    filterState.activeTopic !== DEFAULT_FILTER_STATE.activeTopic ||
+    filterState.activeTag !== DEFAULT_FILTER_STATE.activeTag ||
+    filterState.dateRange !== DEFAULT_FILTER_STATE.dateRange ||
+    filterState.textQuery !== DEFAULT_FILTER_STATE.textQuery;
+
+  // Sync ?tag= query param to filter state on mount
+  useEffect(() => {
+    const tagParam = searchParams.get('tag');
+    if (tagParam) {
+      setActiveTag(tagParam);
+      setSearchParams({}, { replace: true });
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Apply all filters (AND logic)
+  const filteredItems = items.filter((item: NewsItem) => {
+    if (filterState.contentType !== 'all' && item.type !== filterState.contentType) return false;
+    if (filterState.activeTopic && !item.topics.includes(filterState.activeTopic)) return false;
+    if (filterState.activeTag && !item.tags.includes(filterState.activeTag)) return false;
+    if (filterState.dateRange) {
+      if (item.publishedAt < filterState.dateRange.start || item.publishedAt > filterState.dateRange.end) return false;
+    }
+    if (filterState.textQuery) {
+      const q = filterState.textQuery.trim().toLowerCase();
+      if (q) {
+        const matches =
+          item.title.toLowerCase().includes(q) ||
+          item.summary.toLowerCase().includes(q) ||
+          item.tags.some((tag) => tag.toLowerCase().includes(q));
+        if (!matches) return false;
+      }
+    }
+    return true;
+  });
 
   return (
     <div className="min-h-screen bg-[#060a14]">
@@ -29,7 +82,7 @@ export function HomePage() {
 
       <div className="relative z-10">
         <Header
-          onSearch={setSearchQuery}
+          onSearch={setTextQuery}
           bookmarkCount={preferences.bookmarks.length}
         />
 
@@ -37,11 +90,36 @@ export function HomePage() {
           {isLoading && <LoadingState />}
           {error && <ErrorState message={error} />}
           {!isLoading && !error && (
+            <>
+            <AdvancedSearch
+              filterState={filterState}
+              onContentTypeChange={setContentType}
+              onTopicChange={setActiveTopic}
+              onDateRangeChange={setDateRange}
+              onResetAll={resetAll}
+            />
+            <SavedSearches
+              savedSearches={savedSearches}
+              onSave={(name) => save(name, filterState)}
+              onLoad={loadSnapshot}
+              onDelete={remove}
+              hasActiveFilters={hasActiveFilters}
+              isAtLimit={savedSearches.length >= 5}
+            />
             <NewsFeed
               items={filteredItems}
-              activeTopic={activeTopic}
+              activeTopic={filterState.activeTopic}
               onTopicChange={setActiveTopic}
+              contentType={filterState.contentType}
+              onContentTypeChange={setContentType}
+              activeTag={filterState.activeTag}
+              onTagClick={setActiveTag}
+              filterState={filterState}
+              onResetAll={resetAll}
+              onLoadSnapshot={loadSnapshot}
+              onDateRangeChange={setDateRange}
             />
+            </>
           )}
         </main>
       </div>

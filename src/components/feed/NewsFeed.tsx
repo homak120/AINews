@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { cn } from '../../utils/cn';
 import { sortItemsByDate } from '../../utils/sortItems';
-import { TOPIC_DISPLAY_NAMES, type NewsItem, type SortOrder, type Topic } from '../../types';
+import { TOPIC_DISPLAY_NAMES, type ContentTypeFilterValue, type DateRange, type FilterState, type NewsItem, type SortOrder, type Topic } from '../../types';
 import { TopicFilter } from '../layout/TopicFilter';
+import { ContentTypeFilter } from './ContentTypeFilter';
 import { TopicSection } from './TopicSection';
 
 const ALL_TOPICS = Object.keys(TOPIC_DISPLAY_NAMES) as Topic[];
@@ -25,9 +26,27 @@ interface NewsFeedProps {
   items: NewsItem[];
   activeTopic: Topic | null;
   onTopicChange: (topic: Topic | null) => void;
+  contentType: ContentTypeFilterValue;
+  onContentTypeChange: (value: ContentTypeFilterValue) => void;
+  activeTag: string | null;
+  onTagClick: (tag: string | null) => void;
+  filterState: FilterState;
+  onResetAll: () => void;
+  onLoadSnapshot: (filters: FilterState) => void;
+  onDateRangeChange: (range: DateRange | null) => void;
 }
 
-export function NewsFeed({ items, activeTopic, onTopicChange }: NewsFeedProps) {
+export function NewsFeed({
+  items,
+  activeTopic,
+  onTopicChange,
+  contentType,
+  onContentTypeChange,
+  activeTag,
+  onTagClick,
+  filterState,
+  onResetAll,
+}: NewsFeedProps) {
   const [mobileTab, setMobileTab] = useState<Topic>(ALL_TOPICS[0] ?? 'ai-engineering');
   const [sortOrder, setSortOrder] = useState<SortOrder>('newest');
 
@@ -36,36 +55,68 @@ export function NewsFeed({ items, activeTopic, onTopicChange }: NewsFeedProps) {
 
   const visibleTopics = activeTopic ? [activeTopic] : ALL_TOPICS;
 
+  const hasActiveFilters =
+    filterState.contentType !== 'all' ||
+    filterState.activeTag !== null ||
+    filterState.dateRange !== null;
+
   return (
     <div>
       {/* Filter bar */}
-      <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-        <TopicFilter active={activeTopic} onSelect={onTopicChange} />
-        <div className="flex gap-1 flex-shrink-0">
-          {(['newest', 'oldest'] as const).map((order) => (
+      <div className="mb-4 flex flex-col gap-3">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <TopicFilter active={activeTopic} onSelect={onTopicChange} />
+          <div className="flex gap-1 flex-shrink-0">
+            {(['newest', 'oldest'] as const).map((order) => (
+              <button
+                key={order}
+                onClick={() => setSortOrder(order)}
+                className={cn(
+                  'px-3 py-1.5 rounded-full text-xs font-medium border transition-all duration-150',
+                  sortOrder === order
+                    ? 'bg-white/[0.12] text-white border-white/[0.20]'
+                    : 'bg-white/[0.04] text-slate-400 border-white/[0.10] hover:text-slate-200 hover:bg-white/[0.06]'
+                )}
+              >
+                {order === 'newest' ? 'Newest' : 'Oldest'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Content type filter + active tag indicator */}
+        <div className="flex flex-wrap items-center gap-2">
+          <ContentTypeFilter value={contentType} onChange={onContentTypeChange} />
+          {activeTag && (
             <button
-              key={order}
-              onClick={() => setSortOrder(order)}
-              className={cn(
-                'px-3 py-1.5 rounded-full text-xs font-medium border transition-all duration-150',
-                sortOrder === order
-                  ? 'bg-white/[0.12] text-white border-white/[0.20]'
-                  : 'bg-white/[0.04] text-slate-400 border-white/[0.10] hover:text-slate-200 hover:bg-white/[0.06]'
-              )}
+              onClick={() => onTagClick(null)}
+              className="flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-mono bg-cyan-500/10 border border-cyan-500/25 text-cyan-400 transition-all duration-150 hover:bg-cyan-500/20"
             >
-              {order === 'newest' ? 'Newest' : 'Oldest'}
+              Tag: {activeTag}
+              <span className="ml-1">×</span>
             </button>
-          ))}
+          )}
+          {hasActiveFilters && (
+            <button
+              onClick={onResetAll}
+              className="rounded-full px-3 py-1.5 text-xs font-mono text-slate-500 hover:text-slate-300 transition-colors"
+            >
+              Clear all
+            </button>
+          )}
         </div>
       </div>
 
-      {/* Topic columns — 4-col on desktop, 2-col on tablet, hidden on mobile (tab row handles mobile) */}
+      {/* Topic columns — 4-col on desktop, 2-col on tablet, hidden on mobile */}
       <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {visibleTopics.map((topic) => (
           <TopicSection
             key={topic}
             topic={topic}
             items={getItemsForTopic(topic)}
+            activeTag={activeTag}
+            onTagClick={onTagClick}
+            contentTypeLabel={contentType !== 'all' ? contentType : undefined}
           />
         ))}
       </div>
@@ -91,6 +142,9 @@ export function NewsFeed({ items, activeTopic, onTopicChange }: NewsFeedProps) {
         <TopicSection
           topic={mobileTab}
           items={getItemsForTopic(mobileTab)}
+          activeTag={activeTag}
+          onTagClick={onTagClick}
+          contentTypeLabel={contentType !== 'all' ? contentType : undefined}
         />
       </div>
     </div>

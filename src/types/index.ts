@@ -46,16 +46,47 @@ export interface KnowledgeCheckResult {
   answers: number[];
 }
 
+export type ContentTypeFilterValue = 'all' | ContentType;
+
+export interface DateRange {
+  start: string;
+  end: string;
+}
+
+export interface FilterState {
+  contentType: ContentTypeFilterValue;
+  activeTopic: Topic | null;
+  activeTag: string | null;
+  dateRange: DateRange | null;
+  textQuery: string;
+}
+
+export interface SavedSearch {
+  id: string;
+  name: string;
+  filters: FilterState;
+}
+
 export interface UserPreferences {
   bookmarks: string[];
   notes: Record<string, string>;
   knowledgeCheckResults: Record<string, KnowledgeCheckResult>;
+  savedSearches: SavedSearch[];
 }
 
 export const DEFAULT_PREFERENCES: UserPreferences = {
   bookmarks: [],
   notes: {},
   knowledgeCheckResults: {},
+  savedSearches: [],
+};
+
+export const DEFAULT_FILTER_STATE: FilterState = {
+  contentType: 'all',
+  activeTopic: null,
+  activeTag: null,
+  dateRange: null,
+  textQuery: '',
 };
 
 export const TOPIC_DISPLAY_NAMES: Record<Topic, string> = {

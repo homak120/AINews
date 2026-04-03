@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../utils/cn';
 import { formatDate } from '../../utils/formatDate';
 import type { NewsItem, Topic } from '../../types';
@@ -29,6 +29,7 @@ interface ItemDetailProps {
 }
 
 export function ItemDetail({ item }: ItemDetailProps) {
+  const navigate = useNavigate();
   const primaryTopic = item.topics[0] as Topic | undefined;
   const accentClass = primaryTopic ? TOPIC_ACCENT[primaryTopic] : TOPIC_ACCENT['ai-engineering'];
   const topicLabel = primaryTopic ? TOPIC_DISPLAY_NAMES[primaryTopic] : '';
@@ -94,6 +95,21 @@ export function ItemDetail({ item }: ItemDetailProps) {
             {sourceDomain} · {date}
           </span>
         </div>
+
+        {/* Tags */}
+        {item.tags.length > 0 && (
+          <div className="flex items-center gap-1.5 flex-wrap mb-4">
+            {item.tags.map((tag) => (
+              <button
+                key={tag}
+                onClick={() => navigate(`/?tag=${encodeURIComponent(tag)}`)}
+                className="rounded-full px-2.5 py-0.5 text-[10px] font-mono cursor-pointer transition-all duration-150 border bg-white/[0.04] border-white/[0.08] text-slate-500 hover:bg-white/[0.08] hover:text-slate-300"
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        )}
 
         <h1 className="text-2xl font-bold leading-snug text-slate-100 mb-4">
           {item.title}

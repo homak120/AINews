@@ -1,7 +1,7 @@
 import { cn } from '../../utils/cn';
 import { TOPIC_DISPLAY_NAMES, type NewsItem, type Topic } from '../../types';
 import { NewsCard } from './NewsCard';
-import { EmptyState } from '../common/EmptyState';
+import { FilterEmptyState } from '../common/FilterEmptyState';
 
 const COLUMN_ACCENT: Record<Topic, string> = {
   'ai-engineering': 'bg-violet-500/[0.08] border-violet-500/25 text-violet-400',
@@ -13,9 +13,12 @@ const COLUMN_ACCENT: Record<Topic, string> = {
 interface TopicSectionProps {
   topic: Topic;
   items: NewsItem[];
+  activeTag?: string | null;
+  onTagClick?: (tag: string | null) => void;
+  contentTypeLabel?: string;
 }
 
-export function TopicSection({ topic, items }: TopicSectionProps) {
+export function TopicSection({ topic, items, activeTag, onTagClick, contentTypeLabel }: TopicSectionProps) {
   const accentClasses = COLUMN_ACCENT[topic];
 
   return (
@@ -38,7 +41,16 @@ export function TopicSection({ topic, items }: TopicSectionProps) {
 
       {/* Cards or empty state */}
       {items.length === 0 ? (
-        <EmptyState message="No items in this topic yet." />
+        contentTypeLabel ? (
+          <FilterEmptyState
+            message={`No ${contentTypeLabel} items in this topic`}
+            onClear={() => {/* handled by parent reset */}}
+          />
+        ) : (
+          <div className="py-8 text-center text-sm text-slate-600">
+            No items in this topic yet.
+          </div>
+        )
       ) : (
         <div className="flex flex-col gap-4">
           {items.map((item) => (
@@ -46,6 +58,8 @@ export function TopicSection({ topic, items }: TopicSectionProps) {
               key={item.id}
               item={item}
               primaryTopic={topic}
+              activeTag={activeTag ?? null}
+              onTagClick={onTagClick}
             />
           ))}
         </div>
