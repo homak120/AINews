@@ -71,6 +71,23 @@ Generate content for **only the target week** (12-20 new items). Then:
 8. Ensure no duplicate `id` values between old and new items
 9. New items may reference existing items in `relatedIds` (and vice versa)
 
+### Same-day append (multiple runs per day)
+
+If the output file for the target date already exists (e.g.,
+`public/data/news-04-01-2026.json`):
+
+1. Read the existing file
+2. Collect all existing `id` and `sourceUrl` values from that file
+3. Generate new items, **skipping any** with a matching `sourceUrl` or `id`
+4. Append the new items to the existing `items` array
+5. Update `generatedAt` to the current timestamp
+6. Preserve all existing items unchanged
+7. The `TOTAL_ITEMS` target applies to **new items only** — do not count
+   existing items toward the target
+
+This allows running the generation process multiple times per day (e.g., once
+for articles, once for videos) without producing duplicates.
+
 ## Target Window
 
 - **Week start**: {{TARGET_WEEK_START}}
@@ -374,6 +391,7 @@ Run these checks against the generated `news.json` before committing:
 - [ ] (Weekly mode) No duplicate `id` values between old and new items
 - [ ] Each of the 4 topics has at least 3 items (2 acceptable if quality fallback applies)
 - [ ] All `id` values are unique within the file
+- [ ] All `sourceUrl` values are unique within the file (no duplicate stories)
 - [ ] All `relatedIds` reference IDs that exist in the same `items` array
 - [ ] `youtubeId` is present only on items where `type === "video"`
 - [ ] `youtubeId` is omitted (not present) on non-video items
