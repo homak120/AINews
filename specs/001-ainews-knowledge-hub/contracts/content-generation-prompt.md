@@ -77,8 +77,8 @@ If the output file for the target date already exists (e.g.,
 `public/data/news-04-01-2026.json`):
 
 1. Read the existing file
-2. Collect all existing `id` and `sourceUrl` values from that file
-3. Generate new items, **skipping any** with a matching `sourceUrl` or `id`
+2. Collect all existing `sourceUrl` values from that file
+3. Generate new items, **skipping any** with a matching `sourceUrl`
 4. Append the new items to the existing `items` array
 5. Update `generatedAt` to the current timestamp
 6. Preserve all existing items unchanged
