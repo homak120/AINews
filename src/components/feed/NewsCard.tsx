@@ -4,6 +4,7 @@ import { formatDate } from '../../utils/formatDate';
 import { useBookmarks } from '../../hooks/useBookmarks';
 import { useKnowledgeChecks } from '../../hooks/useKnowledgeChecks';
 import type { NewsItem, Topic } from '../../types';
+import { TagChips } from './TagChips';
 
 const TOPIC_ACCENT: Record<Topic, { tag: string; border: string }> = {
   'ai-engineering': {
@@ -34,9 +35,11 @@ const TYPE_LABELS: Record<string, string> = {
 interface NewsCardProps {
   item: NewsItem;
   primaryTopic: Topic;
+  activeTag: string | null;
+  onTagClick?: (tag: string | null) => void;
 }
 
-export function NewsCard({ item, primaryTopic }: NewsCardProps) {
+export function NewsCard({ item, primaryTopic, activeTag, onTagClick }: NewsCardProps) {
   const accent = TOPIC_ACCENT[primaryTopic];
   const typeLabel = TYPE_LABELS[item.type] ?? item.type.toUpperCase();
 
@@ -136,6 +139,12 @@ export function NewsCard({ item, primaryTopic }: NewsCardProps) {
         <p className="text-sm leading-relaxed text-slate-400 line-clamp-3 mt-2">
           {item.summary}
         </p>
+
+        {item.tags.length > 0 && onTagClick && (
+          <div className="mt-3">
+            <TagChips tags={item.tags} activeTag={activeTag} onTagClick={(tag) => onTagClick(tag)} />
+          </div>
+        )}
 
         <footer className="flex items-center gap-2 mt-4 pt-3 border-t border-white/[0.06]">
           <span className="text-xs text-slate-500 font-mono">{sourceDomain}</span>

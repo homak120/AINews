@@ -85,6 +85,8 @@ public/
 ## Active Technologies
 - TypeScript 5+ (strict mode), Node.js 20+ + React 18, React Router v6, Tailwind CSS, Axios, (001-ainews-knowledge-hub)
 - `data/news.json` (static content), `localStorage` (user state) (001-ainews-knowledge-hub)
+- TypeScript 5+ (strict mode) + React 18, React Router v6, Tailwind CSS, Axios (local JSON only) (002-advanced-enhancements)
+- localStorage via existing `useLocalStorage` hook + `UserPreferencesContext` (002-advanced-enhancements)
 
 ## Recent Changes
 - 001-ainews-knowledge-hub: Added TypeScript 5+ (strict mode), Node.js 20+ + React 18, React Router v6, Tailwind CSS, Axios

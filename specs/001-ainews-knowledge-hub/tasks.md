@@ -145,7 +145,7 @@ required fields are populated, `relatedIds` reference valid IDs, and
 
 - [x] ~~T039~~ *(removed — replaced by Claude Code trigger)*
 - [x] ~~T040~~ *(removed — no npm seed script needed)*
-- [ ] T041 [US5] Set up Claude Code scheduled trigger for weekly content generation using the prompt template in `contracts/content-generation-prompt.md`; run it to produce the first real `public/data/news.json`; review output; commit the file
+- [x] T041 [US5] Set up Claude Code scheduled trigger for weekly content generation using the prompt template in `contracts/content-generation-prompt.md`; run it to produce the first real `public/data/news.json`; review output; commit the file
 
 **Checkpoint**: Claude Code trigger produces valid `public/data/news.json` that the app loads correctly.
 

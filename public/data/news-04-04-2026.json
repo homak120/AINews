@@ -1,0 +1,604 @@
+{
+  "generatedAt": "2026-04-04T14:30:00Z",
+  "weekOf": "2026-03-30",
+  "coverageStart": "2026-04-04",
+  "coverageEnd": "2026-04-04",
+  "items": [
+    {
+      "id": "article-siliconangle-cursor-3-agents",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Cursor 3 Rebuilds Its IDE Around AI Agent Orchestration, Challenging Claude Code and Codex",
+      "sourceUrl": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/",
+      "publishedAt": "2026-04-04",
+      "summary": "Anysphere launched Cursor 3 on April 2, replacing the traditional editor interface with an agent-first workspace where developers run multiple AI agents in parallel across local, cloud, and remote environments. The new Agents Window replaces the Composer pane, and a Design Mode lets developers click UI elements to give agents precise visual feedback. Cloud agents produce screenshots and demo videos of their work for human review, and the system supports seamless handoff between local and cloud execution.",
+      "keyConcepts": [
+        "Agent-first IDE architecture",
+        "Parallel AI agent orchestration",
+        "Cloud-local agent handoff",
+        "Design Mode for visual feedback",
+        "Composer 2 coding model"
+      ],
+      "whyItMatters": "Cursor 3 signals a fundamental shift in developer tooling from code editors to agent management interfaces. Understanding how to orchestrate multiple AI agents across environments is becoming a core skill for productive software engineering.",
+      "tags": ["cursor", "ai-agents", "ide", "agentic-coding", "developer-tools"],
+      "relatedIds": ["article-fortune-vibe-coding-trust"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary architectural change in Cursor 3 compared to previous versions?",
+          "options": [
+            "It added a new programming language support system",
+            "It rebuilt the interface around managing multiple AI agents rather than editing files directly",
+            "It removed cloud connectivity to focus on local-only development",
+            "It integrated a built-in database management system"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cursor 3's biggest change is replacing the traditional code editor paradigm with an agent-first workspace where the developer's primary role is orchestrating multiple AI agents running in parallel, not writing code line by line."
+        },
+        {
+          "question": "What does Cursor 3's Design Mode allow developers to do?",
+          "options": [
+            "Create graphic design assets for marketing materials",
+            "Write CSS stylesheets using a visual editor",
+            "Select UI elements and describe changes in natural language, which agents then implement",
+            "Generate wireframes from hand-drawn sketches"
+          ],
+          "correctIndex": 2,
+          "explanation": "Design Mode lets developers click on interface elements in the browser and add natural-language descriptions of how they should change. Cursor's AI agents then automatically implement the requested modifications, making UI iteration faster and more precise."
+        },
+        {
+          "question": "How does Cursor 3 handle the relationship between cloud and local agents?",
+          "options": [
+            "Cloud agents and local agents operate in completely separate environments with no interaction",
+            "Only cloud agents are supported; local execution was deprecated",
+            "It provides seamless handoff between local and cloud agents, with cloud agents producing screenshots for verification",
+            "Local agents must be manually synced with cloud agents after each task"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cursor 3 supports seamless handoff between local and cloud agents running in the same workspace. Cloud agents automatically produce screenshots and demo videos of their work, allowing developers to verify results without running the code themselves."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-vibe-coding-trust",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Fortune: In the Age of Vibe Coding, Trust Is the Real Bottleneck for AI-Generated Code",
+      "sourceUrl": "https://fortune.com/2026/04/02/in-the-age-of-vibe-coding-trust-is-the-real-bottleneck/",
+      "publishedAt": "2026-04-04",
+      "summary": "Fortune's Eye on AI column examines the growing gap between the speed of AI code generation and the ability to trust its output. With 84% of developers using or planning to use AI coding tools according to the latest Stack Overflow survey, the bottleneck has shifted from writing software to verifying it. The article cites data showing AI co-authored code contains roughly 1.7 times more major issues than human-written code, with 75% more misconfigurations and 2.74 times more security vulnerabilities.",
+      "keyConcepts": [
+        "AI code trust gap",
+        "Vibe coding verification bottleneck",
+        "AI-generated code quality metrics",
+        "Security vulnerabilities in AI code",
+        "Code review tooling for AI output"
+      ],
+      "whyItMatters": "As AI coding tools become standard, the ability to effectively review, test, and verify AI-generated code is emerging as the critical differentiator between productive and risky engineering workflows. This skill gap represents both a risk and an opportunity.",
+      "tags": ["vibe-coding", "code-quality", "security", "trust", "ai-coding"],
+      "relatedIds": ["article-siliconangle-cursor-3-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the article, what is the primary bottleneck in vibe coding workflows?",
+          "options": [
+            "The speed of AI model inference is too slow for production use",
+            "The cost of AI coding tool subscriptions is prohibitive",
+            "Verifying and trusting the correctness and security of AI-generated code",
+            "Finding developers who know how to write effective prompts"
+          ],
+          "correctIndex": 2,
+          "explanation": "The article argues that as AI tools generate code faster than ever, the real bottleneck has shifted from writing code to verifying it. Trust in AI output, not generation speed, is the limiting factor."
+        },
+        {
+          "question": "What does the data cited in the article reveal about AI co-authored code quality?",
+          "options": [
+            "AI code has fewer bugs but more style inconsistencies",
+            "AI co-authored code contains roughly 1.7x more major issues, including 2.74x more security vulnerabilities",
+            "AI code is statistically identical to human code in bug density",
+            "AI code has more minor issues but fewer critical security problems"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article presents 2026 industry data showing AI co-authored code has 1.7 times more major issues, 75% more misconfigurations, and 2.74 times more security vulnerabilities compared to human-written code."
+        }
+      ]
+    },
+    {
+      "id": "article-google-gemma-4",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "article",
+      "title": "Google DeepMind Releases Gemma 4: Open-Weight Models Under Apache 2.0 for Reasoning and Agentic Workflows",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "publishedAt": "2026-04-04",
+      "summary": "Google DeepMind released Gemma 4, a family of four open-weight models ranging from 2B to 31B parameters, all under the Apache 2.0 license. Built from the same research as Gemini 3, the models are purpose-built for advanced reasoning and agentic workflows with context windows up to 256K tokens, native vision and audio processing, and fluency in over 140 languages. The 31B Dense model ranks number 3 on the Arena AI text leaderboard among open models, and the 26B Mixture-of-Experts variant secures number 6 while enabling edge deployment.",
+      "keyConcepts": [
+        "Open-weight model licensing (Apache 2.0)",
+        "Mixture-of-Experts architecture",
+        "On-device AI inference",
+        "Agentic workflow support",
+        "Multimodal reasoning (vision and audio)"
+      ],
+      "whyItMatters": "Gemma 4 under Apache 2.0 gives developers unrestricted access to frontier-class reasoning models that run on devices from phones to workstations. For engineering teams evaluating self-hosted AI options, this is the most capable open model family available for agentic and multimodal use cases.",
+      "tags": ["gemma-4", "google-deepmind", "open-source", "apache-2", "on-device-ai", "multimodal"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the significance of Gemma 4 being released under Apache 2.0?",
+          "options": [
+            "It means the models can only be used for research purposes",
+            "It provides complete developer flexibility with no commercial restrictions, a first for the Gemma family",
+            "It restricts usage to Google Cloud Platform only",
+            "It requires attribution in all derivative works but prohibits modification"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemma 4 is the first in the Gemma family to use the OSI-approved Apache 2.0 license, which grants unrestricted commercial use, modification, and distribution. Previous Gemma models had more restrictive custom licenses."
+        },
+        {
+          "question": "How does the Gemma 4 26B MoE variant compare to the 31B Dense model in terms of deployment?",
+          "options": [
+            "The 26B MoE requires more compute than the 31B Dense model",
+            "Both models require identical hardware for inference",
+            "The 26B MoE enables edge deployment with competitive performance while activating fewer parameters per token",
+            "The 26B MoE only works in cloud environments"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Mixture-of-Experts architecture activates only a subset of parameters per token, making the 26B MoE variant more efficient for edge deployment while still ranking number 6 among open models on the Arena AI leaderboard."
+        },
+        {
+          "question": "What types of applications are Gemma 4 models specifically designed for?",
+          "options": [
+            "Only text-based chatbot applications",
+            "Advanced reasoning, agentic workflows, and multimodal tasks including vision and audio",
+            "Image generation and video creation exclusively",
+            "Database management and data warehousing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemma 4 is purpose-built for advanced reasoning and agentic workflows with native vision and audio processing, supporting use cases from multi-step planning and autonomous action to offline code generation."
+        }
+      ]
+    },
+    {
+      "id": "arxiv-2603-14133",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "paper",
+      "title": "Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency",
+      "sourceUrl": "https://arxiv.org/abs/2603.14133",
+      "publishedAt": "2026-04-04",
+      "summary": "A preregistered study with 100 tertiary-level students found that both computer science achievement and written communication skills are significant predictors of vibe coding performance. Tasks were curated via an eight-expert consensus process and executed in a purpose-built vibe coding environment mirroring commercial tools. CS achievement remained a significant predictor even after controlling for domain-general cognitive skills, challenging the notion that AI tools eliminate the need for traditional programming knowledge.",
+      "keyConcepts": [
+        "Vibe coding proficiency assessment",
+        "CS fundamentals as predictors of AI-assisted development",
+        "Written communication in prompt engineering",
+        "Preregistered cross-sectional study design",
+        "CHI 2026 conference paper"
+      ],
+      "whyItMatters": "This research directly addresses the skills debate in AI-assisted development: traditional CS knowledge and clear writing both matter for effective vibe coding. Engineers should invest in both fundamentals and communication skills rather than treating AI tools as a shortcut past either.",
+      "tags": ["vibe-coding", "research", "cs-education", "prompt-engineering", "chi-2026"],
+      "relatedIds": ["article-fortune-vibe-coding-trust"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the study, what skills predict vibe coding proficiency?",
+          "options": [
+            "Only typing speed and familiarity with AI interfaces",
+            "Both computer science achievement and written communication skills",
+            "Exclusively creative thinking and design sensibility",
+            "Only years of professional programming experience"
+          ],
+          "correctIndex": 1,
+          "explanation": "The study found that both CS achievement and writing skills are significant predictors of vibe coding performance, with CS achievement remaining significant even after controlling for general cognitive ability."
+        },
+        {
+          "question": "Why is the finding about CS fundamentals particularly noteworthy?",
+          "options": [
+            "It proves that AI tools are completely useless for beginners",
+            "It challenges the narrative that AI tools eliminate the need for traditional programming knowledge",
+            "It shows that only PhD-level researchers can effectively use vibe coding",
+            "It demonstrates that CS courses should be removed from university curricula"
+          ],
+          "correctIndex": 1,
+          "explanation": "The finding that CS achievement predicts vibe coding success even after controlling for general cognitive skills directly challenges the popular claim that AI coding tools render traditional programming knowledge unnecessary."
+        },
+        {
+          "question": "What methodology did the researchers use to assess vibe coding proficiency?",
+          "options": [
+            "A single standardized multiple-choice test",
+            "Self-reported confidence surveys from participants",
+            "Tasks curated by eight experts and executed in a purpose-built environment mirroring commercial tools",
+            "Analysis of participants' GitHub contribution history"
+          ],
+          "correctIndex": 2,
+          "explanation": "The researchers used an eight-expert consensus process to curate tasks and built a dedicated vibe coding environment that mirrors commercial tools, enabling controlled and reproducible evaluation of proficiency."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-tech-layoffs-ai",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Bloomberg: US Tech Job Cuts Surpass 52,000 in Q1 2026 as AI Adoption Accelerates Workforce Reduction",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-02/us-job-cut-announcements-in-tech-keep-rising-with-ai-adoption",
+      "publishedAt": "2026-04-04",
+      "summary": "Bloomberg reports that technology sector employers announced 18,720 job cuts in March alone, bringing the Q1 2026 total to over 52,000 — the highest first-quarter figure since 2023. AI was explicitly cited as the primary reason for over 15,000 of those cuts, representing 25% of all announced layoffs. The trend is driven by a combination of AI-enabled efficiency gains and the enormous capital requirements of AI infrastructure, with Amazon, Meta, Google, and Microsoft expected to invest a combined $650 billion in AI this year.",
+      "keyConcepts": [
+        "AI-driven workforce displacement",
+        "Q1 2026 tech layoff statistics",
+        "AI infrastructure capital expenditure",
+        "Job market polarization",
+        "Workforce restructuring trends"
+      ],
+      "whyItMatters": "The 52,000 Q1 layoffs represent a structural shift, not a cyclical downturn. Engineers should pay attention to which roles are being eliminated versus created, and invest in skills that complement AI rather than compete with it.",
+      "tags": ["layoffs", "workforce", "ai-adoption", "tech-industry", "bloomberg"],
+      "relatedIds": ["article-cnbc-oracle-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Q1 2026 tech layoffs cited AI as the primary reason?",
+          "options": [
+            "5% — a small but growing share",
+            "25% — AI accounted for a quarter of announced layoffs",
+            "75% — the vast majority of cuts were AI-driven",
+            "50% — exactly half of all cuts were attributed to AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI was explicitly cited as the primary reason for over 15,000 job cuts in March 2026, representing 25% of all announced layoffs during the month, according to Bloomberg's analysis."
+        },
+        {
+          "question": "What factor beyond AI efficiency is driving tech layoffs in 2026?",
+          "options": [
+            "A global recession causing across-the-board budget cuts",
+            "Government regulations mandating smaller tech workforces",
+            "The massive capital requirements of AI infrastructure investment, with major companies spending $650 billion on AI",
+            "A coordinated decision by tech CEOs to reduce headcount simultaneously"
+          ],
+          "correctIndex": 2,
+          "explanation": "Beyond AI-enabled efficiency, companies need to fund enormous AI infrastructure investments. Amazon, Meta, Google, and Microsoft are expected to invest a combined $650 billion in AI, creating pressure to cut costs elsewhere — and payroll is one of the largest controllable expenses."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-oracle-layoffs",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "article",
+      "title": "Oracle Lays Off Up to 30,000 Employees via 6 AM Email to Fund AI Infrastructure Expansion",
+      "sourceUrl": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "publishedAt": "2026-04-04",
+      "summary": "Oracle eliminated between 20,000 and 30,000 positions — roughly 18% of its global workforce — in a sweeping restructuring announced via a brief 6 AM email with no prior warning. The cuts, described as a strategic restructuring to realign resources toward AI development and cloud infrastructure, are expected to free up $8 to $10 billion in cash flow. The company had announced plans to fundraise up to $50 billion to expand AI capacity for contracted cloud demand from customers including Nvidia, Meta, OpenAI, and xAI.",
+      "keyConcepts": [
+        "Enterprise AI pivot costs",
+        "Workforce displacement at scale",
+        "AI infrastructure capital reallocation",
+        "Cloud computing restructuring",
+        "Corporate communication in mass layoffs"
+      ],
+      "whyItMatters": "Oracle's layoffs illustrate the human cost of the enterprise AI pivot: companies are cutting legacy roles to fund AI infrastructure at scale. Understanding which enterprise functions are being restructured helps engineers and managers anticipate similar shifts across the industry.",
+      "tags": ["oracle", "layoffs", "ai-infrastructure", "enterprise", "restructuring"],
+      "relatedIds": ["article-bloomberg-tech-layoffs-ai"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Oracle's stated strategic rationale for the mass layoffs?",
+          "options": [
+            "Declining revenue from its core database business",
+            "Realigning resources toward AI development and cloud infrastructure",
+            "A merger with another technology company requiring headcount reduction",
+            "Regulatory compliance with new government workforce requirements"
+          ],
+          "correctIndex": 1,
+          "explanation": "Oracle described the cuts as a strategic restructuring to realign resources toward AI development and cloud infrastructure, freeing up $8 to $10 billion in cash flow to fund the company's AI ambitions."
+        },
+        {
+          "question": "What scale of investment is Oracle pursuing in AI infrastructure?",
+          "options": [
+            "$1 billion over five years",
+            "$50 billion in fundraising to expand AI capacity for customers including Nvidia, Meta, and OpenAI",
+            "$500 million in a single AI research lab",
+            "$10 billion exclusively for quantum computing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Oracle announced plans to fundraise up to $50 billion through debt and equity to expand capacity for contracted AI cloud demand from major customers including Nvidia, Meta, OpenAI, AMD, and xAI."
+        },
+        {
+          "question": "What does Oracle's approach to announcing the layoffs reveal about corporate communication norms?",
+          "options": [
+            "Companies now commonly give 90 days notice before layoffs",
+            "The 6 AM email with no prior warning reflects a trend of impersonal mass notification in tech restructurings",
+            "Oracle held individual meetings with each affected employee",
+            "The company offered all employees a choice between severance and retraining"
+          ],
+          "correctIndex": 1,
+          "explanation": "Oracle notified up to 30,000 employees via a brief 6 AM email from 'Oracle Leadership' with no prior warning, reflecting a concerning pattern of impersonal mass notification that has drawn significant criticism from affected workers and labor advocates."
+        }
+      ]
+    },
+    {
+      "id": "article-crunchbase-q1-2026-funding",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Q1 2026 Shatters Venture Records: $300 Billion Invested as AI Claims 80% of Global Funding",
+      "sourceUrl": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+      "publishedAt": "2026-04-04",
+      "summary": "Crunchbase data shows investors poured $300 billion into 6,000 startups globally in Q1 2026, up over 150% year-over-year and setting an all-time record. AI companies captured $242 billion — 80% of total venture funding — up from 55% in Q1 2025. Four of the five largest venture rounds ever recorded closed in Q1: OpenAI ($122 billion), Anthropic ($30 billion), xAI ($20 billion), and Waymo ($16 billion), collectively representing 65% of all global venture investment in the quarter.",
+      "keyConcepts": [
+        "Record-breaking AI venture funding",
+        "Capital concentration in frontier AI labs",
+        "Mega-deal dominance in VC",
+        "AI's share of global venture capital",
+        "US market dominance at 83% of global VC"
+      ],
+      "whyItMatters": "The extreme concentration of capital in AI — 80% of all global venture funding — signals that the industry is entering a phase where access to compute and data may determine market winners. Engineers should track which companies are well-funded, as these will define the platforms and tools of the next decade.",
+      "tags": ["venture-capital", "funding", "openai", "anthropic", "xai", "ai-industry"],
+      "relatedIds": ["article-techfront-genspark-385m"],
+      "knowledgeChecks": [
+        {
+          "question": "What share of global venture funding went to AI companies in Q1 2026?",
+          "options": [
+            "25% — a significant but not dominant share",
+            "55% — matching the Q1 2025 record",
+            "80% — four out of every five venture dollars went to AI",
+            "95% — virtually all venture funding was AI-related"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI captured $242 billion of the $300 billion total, or 80% of global venture funding in Q1 2026. This was a dramatic increase from Q1 2025, when AI accounted for 55% of the total."
+        },
+        {
+          "question": "What pattern do the four largest Q1 2026 funding rounds reveal about the AI industry?",
+          "options": [
+            "Funding is evenly distributed across thousands of small AI startups",
+            "Capital is heavily concentrated in a few frontier AI labs, with four companies raising 65% of all global venture investment",
+            "Most AI funding is going to enterprise SaaS companies rather than model builders",
+            "Asian AI companies are outpacing US companies in fundraising"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI, Anthropic, xAI, and Waymo collectively raised $188 billion — 65% of all global venture investment in Q1. This extreme concentration suggests the frontier AI market is becoming an oligopoly where scale of compute and data is the primary competitive advantage."
+        },
+        {
+          "question": "How does Q1 2026 venture funding compare to historical levels?",
+          "options": [
+            "It was slightly above the 2021 peak",
+            "It was the first quarter to exceed $100 billion",
+            "Q1 2026 alone totaled close to 70% of all venture capital spending in 2025",
+            "It matched the total from all of 2024 combined"
+          ],
+          "correctIndex": 2,
+          "explanation": "Startup investment in Q1 2026 alone totaled close to 70% of all venture capital spending in the entire year of 2025, representing an unprecedented acceleration in the pace of AI investment."
+        }
+      ]
+    },
+    {
+      "id": "article-techfront-genspark-385m",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Genspark Raises $385M at $1.6B Valuation for AI Agent Platform, Launches Autonomous 'AI Employee'",
+      "sourceUrl": "https://techfront360.com/genspark-385m-series-b-ai-employees/",
+      "publishedAt": "2026-04-04",
+      "summary": "AI agent startup Genspark expanded its Series B to $385 million at a $1.6 billion valuation, led by Emergence Capital. Founded by former Baidu executives, the company surpassed $200 million in annual run rate within 11 months. Genspark launched Claw, an autonomous AI employee that operates inside a dedicated cloud computer environment on behalf of each user, and AI Workspace 3.0 built on Microsoft Azure, Anthropic, OpenAI, and NVIDIA infrastructure.",
+      "keyConcepts": [
+        "AI agent as autonomous employee",
+        "Dedicated cloud computing per user",
+        "Enterprise AI agent platform",
+        "Multi-model architecture (Anthropic + OpenAI + NVIDIA)",
+        "Rapid ARR growth in AI startups"
+      ],
+      "whyItMatters": "Genspark's rapid growth to $200M ARR in 11 months and its AI employee concept signal growing enterprise demand for autonomous AI agents that can execute entire workflows. This category is emerging as the next wave of enterprise software beyond simple chatbot assistants.",
+      "tags": ["genspark", "ai-agents", "startup-funding", "enterprise-ai", "autonomous-agents"],
+      "relatedIds": ["article-crunchbase-q1-2026-funding"],
+      "knowledgeChecks": [
+        {
+          "question": "What differentiates Genspark Claw from typical AI chatbot assistants?",
+          "options": [
+            "It uses a faster language model for text generation",
+            "It operates as an autonomous AI employee inside a dedicated cloud computer, executing tasks hands-free",
+            "It focuses exclusively on customer support interactions",
+            "It generates code but cannot run or test it"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genspark Claw is designed as an autonomous AI employee that operates inside a dedicated cloud computing environment per user, capable of executing entire workflows hands-free rather than just responding to queries."
+        },
+        {
+          "question": "What does Genspark's revenue trajectory suggest about the AI agent market?",
+          "options": [
+            "The AI agent market is growing slowly and steadily",
+            "Reaching $200M ARR in 11 months indicates explosive enterprise demand for autonomous AI agent platforms",
+            "Most revenue comes from individual consumers rather than enterprises",
+            "Growth has plateaued after an initial spike"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genspark reached $200 million in annual run rate in just 11 months, doubling in the most recent two months, indicating that enterprise demand for autonomous AI agents is growing at an unprecedented pace."
+        }
+      ]
+    },
+    {
+      "id": "article-harvard-vibe-coding",
+      "topics": ["ai-career", "ai-engineering"],
+      "type": "article",
+      "title": "Harvard Gazette: Vibe Coding May Offer Insight Into How AI Reshapes Software Creation and Education",
+      "sourceUrl": "https://news.harvard.edu/gazette/story/2026/04/vibe-coding-may-offer-insight-into-our-ai-future/",
+      "publishedAt": "2026-04-04",
+      "summary": "Harvard Gazette profiles Karen Brennan, a professor at the Harvard Graduate School of Education, who taught a six-week course on vibe coding. The course explored different AI coding tools each week and examined how natural-language-driven software development democratizes creation by making it accessible to people without CS degrees. Brennan emphasizes that vibe coding tools also create opportunities for users to inspect and understand the implementation, making them educational rather than purely abstracting away complexity.",
+      "keyConcepts": [
+        "Vibe coding as educational paradigm",
+        "Democratization of software creation",
+        "AI coding tool literacy",
+        "Prompt-driven development pedagogy",
+        "Human-AI collaboration in learning"
+      ],
+      "whyItMatters": "As vibe coding brings non-programmers into software creation, the skills landscape is shifting. Harvard's engagement with this topic signals that institutions are taking seriously the question of what coding education looks like when AI handles implementation — a question every engineer and engineering manager should be tracking.",
+      "tags": ["vibe-coding", "education", "harvard", "ai-literacy", "career-development"],
+      "relatedIds": ["arxiv-2603-14133"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core promise of vibe coding according to the Harvard Gazette article?",
+          "options": [
+            "Replacing all professional software developers with AI",
+            "Democratizing software creation by making it accessible to people without CS degrees",
+            "Automating the entire software development lifecycle end-to-end",
+            "Teaching AI systems to write bug-free code without human oversight"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article frames vibe coding's core promise as democratization — making the production of software accessible to more people without requiring a computer science degree or hiring a development team."
+        },
+        {
+          "question": "What nuanced perspective does the Harvard course offer about vibe coding tools?",
+          "options": [
+            "They should completely replace traditional CS education",
+            "They are only useful for generating throwaway prototype code",
+            "They create opportunities for users to inspect code and learn, making them educational rather than purely abstracting away complexity",
+            "They are too unreliable for any serious educational use"
+          ],
+          "correctIndex": 2,
+          "explanation": "Professor Brennan emphasizes that vibe coding tools create opportunities for users to inspect, examine, and understand the implementation — meaning they can serve as learning tools that encourage curiosity about how software works, not just black boxes that hide complexity."
+        }
+      ]
+    },
+    {
+      "id": "youtube-BrJdGP21B5g",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "video",
+      "title": "Matthew Berman Reviews Gemma 4: Google's Open-Weight Models Under Apache 2.0",
+      "sourceUrl": "https://www.youtube.com/watch?v=BrJdGP21B5g",
+      "youtubeId": "BrJdGP21B5g",
+      "publishedAt": "2026-04-04",
+      "summary": "Matthew Berman walks through Google DeepMind's Gemma 4 release, covering the four model variants from 2B to 31B parameters, the switch to an Apache 2.0 license, and dramatic benchmark improvements over Gemma 3 — including AIME math jumping from 20.8% to 89.2% and LiveCodeBench coding from 29.1% to 80.0%. The video demonstrates running the models locally and discusses practical implications for developers building agentic workflows and on-device applications.",
+      "keyConcepts": [
+        "Gemma 4 model family (2B to 31B)",
+        "Apache 2.0 open-weight licensing",
+        "Mixture-of-Experts architecture for edge deployment",
+        "Benchmark improvements over Gemma 3",
+        "Local model deployment with Ollama"
+      ],
+      "whyItMatters": "This video provides a hands-on developer perspective on Gemma 4's capabilities and how to actually use the models locally. For engineers evaluating open-weight alternatives to proprietary APIs, understanding the practical performance of these models is essential for making informed infrastructure decisions.",
+      "tags": ["gemma-4", "google-deepmind", "open-source", "local-inference", "model-review"],
+      "relatedIds": ["article-google-gemma-4"],
+      "knowledgeChecks": [
+        {
+          "question": "What benchmark improvement does Gemma 4 show over Gemma 3 in coding tasks?",
+          "options": [
+            "A modest 5% improvement on LiveCodeBench",
+            "LiveCodeBench coding jumped from 29.1% to 80.0%, nearly tripling performance",
+            "Coding benchmarks stayed the same while math improved dramatically",
+            "Gemma 4 only improved on text generation, not coding"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemma 4 shows a dramatic improvement on LiveCodeBench, jumping from 29.1% to 80.0% compared to Gemma 3. This near-tripling of coding performance makes the open-weight models competitive with much larger proprietary models for code generation tasks."
+        },
+        {
+          "question": "Why is the Apache 2.0 license significant for the Gemma 4 release?",
+          "options": [
+            "It requires all derivative works to also be open source",
+            "It restricts usage to non-commercial research only",
+            "It provides unrestricted commercial use and modification, removing previous licensing barriers for enterprise adoption",
+            "It only applies to the smallest model variant"
+          ],
+          "correctIndex": 2,
+          "explanation": "Previous Gemma models had custom restrictive licenses that limited enterprise adoption. Apache 2.0 grants unrestricted commercial use, modification, and distribution, making Gemma 4 the first in the family that enterprises can deploy without licensing concerns."
+        },
+        {
+          "question": "What makes the 26B Mixture-of-Experts variant particularly useful for edge deployment?",
+          "options": [
+            "It requires a constant internet connection to function",
+            "It activates only a subset of parameters per token, reducing compute requirements while maintaining competitive performance",
+            "It compresses all 26B parameters into a 2B model",
+            "It only works on Google's custom TPU hardware"
+          ],
+          "correctIndex": 1,
+          "explanation": "The MoE architecture activates only a fraction of the total parameters for each token processed, meaning the 26B model uses significantly less compute per inference than a dense model of the same size — enabling deployment on devices from phones to laptops."
+        }
+      ]
+    },
+    {
+      "id": "youtube-mBHRPeg8zPU",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "video",
+      "title": "Fireship: Anthropic Accidentally Leaks Claude Code's Entire Source Code via npm",
+      "sourceUrl": "https://www.youtube.com/watch?v=mBHRPeg8zPU",
+      "youtubeId": "mBHRPeg8zPU",
+      "publishedAt": "2026-04-04",
+      "summary": "Fireship breaks down how Anthropic accidentally shipped 512,000 lines of unobfuscated TypeScript source code for Claude Code through a misconfigured source map file in npm package version 2.1.88. The video explains the technical mechanics of the leak — a .map file pointing to a zip archive on Cloudflare R2 — and highlights key architectural revelations including a three-layer self-healing memory system, the KAIROS autonomous daemon feature flag, and frustration-detection regex patterns that scan user prompts.",
+      "keyConcepts": [
+        "npm source map misconfiguration",
+        "Claude Code internal architecture",
+        "KAIROS autonomous daemon mode",
+        "Self-healing memory architecture",
+        "Supply chain security in AI tooling"
+      ],
+      "whyItMatters": "The Claude Code leak exposed how a leading AI coding agent is actually built, giving engineers rare insight into production AI agent architecture. It also serves as a cautionary tale about npm packaging security — a single misconfigured file can expose an entire proprietary codebase.",
+      "tags": ["anthropic", "claude-code", "security", "source-code-leak", "npm", "fireship"],
+      "relatedIds": ["article-siliconangle-cursor-3-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "How did the Claude Code source code leak occur?",
+          "options": [
+            "A disgruntled employee intentionally published the code to GitHub",
+            "A 59.8 MB source map file in the npm package pointed to a zip archive containing the full unobfuscated TypeScript source",
+            "Hackers breached Anthropic's internal servers and exfiltrated the code",
+            "The code was accidentally committed to a public GitHub repository"
+          ],
+          "correctIndex": 1,
+          "explanation": "The leak was caused by a misconfigured .map file included in Claude Code's npm package (version 2.1.88), which referenced a downloadable zip archive on Anthropic's Cloudflare R2 storage containing the complete unobfuscated TypeScript source code."
+        },
+        {
+          "question": "What does the KAIROS feature flag revealed in the leak suggest about Claude Code's future direction?",
+          "options": [
+            "It indicates plans to discontinue Claude Code entirely",
+            "It represents a shift toward an always-on autonomous daemon that operates independently from the CLI",
+            "It is a code name for a new programming language",
+            "It relates to a billing system for tracking API usage"
+          ],
+          "correctIndex": 1,
+          "explanation": "KAIROS, mentioned over 150 times in the leaked code, represents an autonomous daemon mode that would allow Claude Code to run as an always-on background agent with features like background pinging, autodream memory consolidation, and GitHub subscriptions — a fundamental shift from the current CLI-based interaction."
+        }
+      ]
+    },
+    {
+      "id": "youtube-wlpBCazAY9Q",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "freeCodeCamp: AI-Assisted Coding Tutorial Covering OpenClaw, GitHub Copilot, Claude Code, and Gemini CLI",
+      "sourceUrl": "https://www.youtube.com/watch?v=wlpBCazAY9Q",
+      "youtubeId": "wlpBCazAY9Q",
+      "publishedAt": "2026-04-04",
+      "summary": "This 1.5-hour freeCodeCamp course provides a hands-on walkthrough of five major AI coding tools: OpenClaw for open-source agentic automation, GitHub Copilot for inline code completion, Anthropic's Claude Code for terminal-based AI pair programming, CodeRabbit for automated AI-driven pull request analysis, and Google's Gemini CLI. The tutorial covers practical setup, workflow integration, and real coding scenarios for each tool, helping developers evaluate which tools fit their specific development needs.",
+      "keyConcepts": [
+        "AI pair programming workflows",
+        "OpenClaw open-source coding agent",
+        "Terminal-based AI development (Claude Code, Gemini CLI)",
+        "Automated PR review with CodeRabbit",
+        "Comparing AI coding tool approaches"
+      ],
+      "whyItMatters": "With dozens of AI coding tools competing for developer attention, this comprehensive comparison helps engineers make informed choices about which tools to integrate into their workflows. The hands-on format lets you see real usage patterns rather than just marketing claims.",
+      "tags": ["freecodecamp", "ai-coding-tools", "claude-code", "copilot", "openclaw", "tutorial"],
+      "relatedIds": ["article-fortune-vibe-coding-trust", "article-siliconangle-cursor-3-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes OpenClaw from the other AI coding tools covered in the tutorial?",
+          "options": [
+            "It is the most expensive enterprise-only tool",
+            "It is an open-source, locally hosted AI assistant for development automation",
+            "It only works with Python projects",
+            "It focuses exclusively on code review rather than generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenClaw stands out as the open-source option in the tutorial — a locally hosted, highly customizable AI assistant that gives developers full control over their AI coding automation without relying on proprietary cloud services."
+        },
+        {
+          "question": "What role does CodeRabbit serve in the AI-assisted development workflow?",
+          "options": [
+            "It generates entire applications from natural language prompts",
+            "It provides automated, AI-driven pull request analysis to catch issues before merge",
+            "It replaces the need for unit testing entirely",
+            "It is a code formatting tool similar to Prettier"
+          ],
+          "correctIndex": 1,
+          "explanation": "CodeRabbit specializes in automated AI-driven pull request analysis, reviewing code changes for potential issues, security concerns, and improvement suggestions — complementing code generation tools by adding a quality verification layer."
+        },
+        {
+          "question": "Why does the tutorial cover both terminal-based tools (Claude Code, Gemini CLI) and IDE-integrated tools (Copilot)?",
+          "options": [
+            "Terminal tools are always superior to IDE tools",
+            "Different tools suit different workflow styles — some developers prefer terminal agentic workflows while others prefer inline IDE assistance",
+            "IDE tools are being deprecated in favor of terminal tools",
+            "The tutorial was sponsored by both types of tool makers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The tutorial covers both paradigms because AI coding assistance comes in fundamentally different interaction models. Terminal-based tools like Claude Code excel at autonomous multi-step tasks, while IDE-integrated tools like Copilot are better for real-time inline suggestions during active coding."
+        }
+      ]
+    }
+  ]
+}

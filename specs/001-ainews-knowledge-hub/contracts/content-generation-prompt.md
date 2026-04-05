@@ -8,7 +8,7 @@
 
 This document is the authoritative prompt template for generating
 `public/data/news.json`. It is used by both the Claude Code scheduled trigger
-(weekly cron job) and manual Claude Code sessions. The output MUST conform to
+(weekly or daily cron job) and manual Claude Code sessions. The output MUST conform to
 the schema defined in `news-schema.md`.
 
 ---
@@ -19,11 +19,12 @@ Replace these values for each run:
 
 | Parameter | Description | Example |
 |---|---|---|
-| `MODE` | `initial` (full month, fresh file) or `weekly` (append to existing) | `weekly` |
-| `TARGET_WEEK_START` | Monday of the target week (ISO date) | `2026-03-23` |
-| `TARGET_WEEK_END` | Sunday of the target week (ISO date) | `2026-03-29` |
-| `ITEMS_PER_TOPIC` | Target count per topic per week | `3-5` |
-| `TOTAL_ITEMS` | Target total per week | `12-20` |
+| `MODE` | `initial` (full month, fresh file), `weekly` (append to existing), or `daily` (single day) | `weekly` |
+| `TARGET_WEEK_START` | Monday of the target week (ISO date) — *weekly/initial modes* | `2026-03-23` |
+| `TARGET_WEEK_END` | Sunday of the target week (ISO date) — *weekly/initial modes* | `2026-03-29` |
+| `TARGET_DATE` | The single target date (ISO date) — *daily mode only* | `2026-04-02` |
+| `ITEMS_PER_TOPIC` | Target count per topic (per week: `3-5`; daily: `3-4`) | `3-5` |
+| `TOTAL_ITEMS` | Target total (per week: `12-20`; daily: `6-12`) | `12-20` |
 | `OUTPUT_PATH` | File path for the output | `public/data/news.json` |
 | `CONTENT_TYPES` | *(optional)* Comma-separated list of types to include. Omit for all types. | `video` or `video,article` |
 | `HOT_TOPICS` | *(optional)* Priority search terms to emphasize across all topic categories. Omit for default coverage. | `"MCP protocol, agentic coding"` |
@@ -71,6 +72,24 @@ Generate content for **only the target week** (12-20 new items). Then:
 8. Ensure no duplicate `id` values between old and new items
 9. New items may reference existing items in `relatedIds` (and vice versa)
 
+### If `MODE` = `daily` (single day, append or create)
+
+Generate content for **only the target date** (6-12 new items). Then:
+
+1. If `{{OUTPUT_PATH}}` already exists, read the existing file
+2. If creating a new file, default `OUTPUT_PATH` to
+   `public/data/news-{{TARGET_DATE_MMDDYYYY}}.json` (where `TARGET_DATE_MMDDYYYY`
+   is `{{TARGET_DATE}}` formatted as `MM-DD-YYYY`)
+3. Append the new items to the existing `items` array (or create a new array)
+4. Update `generatedAt` to the current timestamp
+5. Set `weekOf` to the Monday of `{{TARGET_DATE}}`'s week
+6. Set `coverageStart` and `coverageEnd` both to `{{TARGET_DATE}}`
+   (if appending, preserve the existing `coverageStart` if it is earlier)
+7. **Do not modify or remove any existing items**
+8. Ensure no duplicate `id` values between old and new items
+9. New items may reference existing items in `relatedIds` (and vice versa)
+10. All items MUST have `publishedAt` equal to `{{TARGET_DATE}}`
+
 ### Same-day append (multiple runs per day)
 
 If the output file for the target date already exists (e.g.,
@@ -90,10 +109,16 @@ for articles, once for videos) without producing duplicates.
 
 ## Target Window
 
+### Weekly / Initial modes
 - **Week start**: {{TARGET_WEEK_START}}
 - **Week end**: {{TARGET_WEEK_END}}
 - **Items per topic**: {{ITEMS_PER_TOPIC}} (per week)
 - **Total items**: {{TOTAL_ITEMS}} (per week)
+
+### Daily mode
+- **Target date**: {{TARGET_DATE}}
+- **Items per topic**: 3-4
+- **Total items**: 6-12
 
 ## Optional Filters
 
@@ -411,6 +436,11 @@ Run these checks against the generated `news.json` before committing:
 - [ ] (Weekly mode) Total item count increased by 12-20 from previous file
 - [ ] (Weekly mode) All previously existing items are preserved unchanged
 - [ ] (Weekly mode) No duplicate `id` values between old and new items
+- [ ] (Daily mode) Total new item count is 6-12
+- [ ] (Daily mode) All new items have `publishedAt` equal to `TARGET_DATE`
+- [ ] (Daily mode) `coverageEnd` equals `TARGET_DATE`
+- [ ] (Daily mode) All previously existing items are preserved unchanged (if appending)
+- [ ] (Daily mode) No duplicate `id` values between old and new items (if appending)
 - [ ] Each of the 4 topics has at least 3 items (2 acceptable if quality fallback applies)
 - [ ] All `id` values are unique within the file
 - [ ] All `sourceUrl` values are unique within the file (no duplicate stories)
@@ -457,6 +487,16 @@ Run these checks against the generated `news.json` before committing:
 3. Review the output — verify existing items are preserved and new items added.
 4. Copy to `data/news.json` if it also exists.
 5. Commit: `git add public/data/news.json && git commit -m "chore: weekly content refresh"`
+
+**Daily update** (single day, new or append):
+1. Open a Claude Code session in the AINews project directory.
+2. Ask Claude Code to generate the daily digest:
+   > "Generate the AINews digest in `daily` mode for 2026-04-03. All content
+   > types. Follow the prompt template in
+   > `specs/001-ainews-knowledge-hub/contracts/content-generation-prompt.md`.
+   > Write to `public/data/news-04-03-2026.json`."
+3. Review the output — verify 6-12 items, all with the target date.
+4. Commit: `git add public/data/news-04-03-2026.json && git commit -m "Add daily news digest for 2026-04-03"`
 
 **Filtered generation** (optional parameters):
 
