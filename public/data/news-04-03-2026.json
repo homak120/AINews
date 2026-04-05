@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T12:00:00Z",
+  "generatedAt": "2026-04-03T18:30:00Z",
   "weekOf": "2026-03-30",
   "coverageStart": "2026-04-03",
   "coverageEnd": "2026-04-03",
@@ -389,6 +389,204 @@
           ],
           "correctIndex": 2,
           "explanation": "According to Menlo Ventures data cited by Gizmodo, Claude Code holds 54% of the AI coding market, making Cursor's agent-orchestration pivot a direct competitive response to maintain relevance against the market leader."
+        }
+      ]
+    },
+    {
+      "id": "youtube-BrJdGP21B5g",
+      "topics": ["ai-research", "ai-engineering"],
+      "type": "video",
+      "title": "Google Just Dropped Gemma 4 — Hands-On Look at the Most Capable Open Models Under Apache 2.0",
+      "sourceUrl": "https://www.youtube.com/watch?v=BrJdGP21B5g",
+      "youtubeId": "BrJdGP21B5g",
+      "publishedAt": "2026-04-03",
+      "summary": "Matthew Berman walks through Google's Gemma 4 release, a family of four open-weight models ranging from 2B to 31B parameters now available under the Apache 2.0 license for the first time. He demonstrates the models' capabilities including multimodal vision and audio processing, 256K context windows, and on-device inference, while emphasizing that the licensing shift from Google's previous restrictive terms to Apache 2.0 may be more significant for developers than the benchmark improvements alone.",
+      "keyConcepts": [
+        "Gemma 4 model family (2B to 31B)",
+        "Apache 2.0 open-weight licensing",
+        "On-device inference and edge AI",
+        "Multimodal vision and audio processing",
+        "Local model deployment with Ollama"
+      ],
+      "whyItMatters": "Gemma 4 under Apache 2.0 removes the commercial restrictions that previously pushed enterprises toward competitors like Qwen and Mistral — engineers can now run high-performance models locally on everything from phones to workstations without licensing concerns.",
+      "tags": ["gemma-4", "google", "open-source", "apache-2", "on-device-ai", "matthew-berman"],
+      "relatedIds": ["article-venturebeat-gemma-4-apache"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Gemma 4's Apache 2.0 license significant compared to previous Gemma releases?",
+          "options": [
+            "Apache 2.0 requires all derivative works to also be open-source",
+            "Previous Gemma models used a custom Google license with commercial restrictions, while Apache 2.0 removes those barriers entirely",
+            "Apache 2.0 means Google no longer maintains the models",
+            "The license only matters for academic researchers, not commercial developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Earlier Gemma releases shipped under a custom Google license with usage restrictions that Google could update unilaterally, driving enterprises to competitors. Apache 2.0 is the same permissive license used by most of the open-weight ecosystem, with no custom clauses or commercial restrictions."
+        },
+        {
+          "question": "What is the smallest Gemma 4 model designed for?",
+          "options": [
+            "Data center GPUs with at least 40GB VRAM",
+            "Smartphones, IoT devices, and edge computing environments",
+            "Only Google Cloud TPU infrastructure",
+            "Desktop workstations running Linux"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Gemma 4 Effective 2B (E2B) model is specifically designed for smartphones and edge devices, enabling truly local AI inference on low-power hardware without requiring cloud connectivity."
+        },
+        {
+          "question": "How does Gemma 4's 31B Dense model perform relative to much larger models?",
+          "options": [
+            "It performs poorly compared to larger models but is useful for cost savings",
+            "It ranks #3 on the Arena AI text leaderboard, beating models 20 times its size",
+            "It matches GPT-4 exactly but cannot exceed it",
+            "It only outperforms other models on coding benchmarks"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 31B Dense model achieved the #3 ranking on the Arena AI text leaderboard, outperforming models that are 20 times larger — demonstrating exceptional intelligence-per-parameter efficiency."
+        }
+      ]
+    },
+    {
+      "id": "youtube-mBHRPeg8zPU",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "video",
+      "title": "Fireship: Anthropic Accidentally Leaks Claude Code's Entire Source Code via npm Sourcemap",
+      "sourceUrl": "https://www.youtube.com/watch?v=mBHRPeg8zPU",
+      "youtubeId": "mBHRPeg8zPU",
+      "publishedAt": "2026-04-01",
+      "summary": "Fireship covers Anthropic's accidental leak of Claude Code's full source code — nearly 512,000 lines across 2,000 files — through a .map sourcemap file bundled into a routine npm update. The video breaks down what the leaked code revealed, including unreleased feature flags for persistent background agents, cross-session learning, and remote control capabilities, while questioning the operational security practices of a company that markets itself as the safety-first AI lab.",
+      "keyConcepts": [
+        "npm sourcemap security vulnerability",
+        "Claude Code internal architecture",
+        "Unreleased AI agent feature flags",
+        "Supply chain security in AI tools",
+        "Operational security at AI labs"
+      ],
+      "whyItMatters": "The leak exposed both Anthropic's technical roadmap and a serious supply chain security gap — engineers relying on Claude Code should understand what features are coming and how a routine npm publish can inadvertently expose an entire codebase.",
+      "tags": ["claude-code", "anthropic", "security", "source-leak", "npm", "fireship"],
+      "relatedIds": ["article-gizmodo-cursor-delegate-coding-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "How was Claude Code's source code accidentally leaked?",
+          "options": [
+            "A disgruntled employee published it on GitHub",
+            "A .map sourcemap file was accidentally bundled into a routine npm update, pointing to the full source archive",
+            "Anthropic's cloud storage was breached by hackers",
+            "The code was reverse-engineered from the compiled binary"
+          ],
+          "correctIndex": 1,
+          "explanation": "A debugging sourcemap file (.map) was accidentally included in a Claude Code npm package update. This file pointed to a zip archive on Anthropic's cloud storage containing the full source code — a supply chain security oversight rather than an external attack."
+        },
+        {
+          "question": "What unreleased capability was discovered in Claude Code's leaked source?",
+          "options": [
+            "A built-in cryptocurrency miner for idle CPU cycles",
+            "Feature flags for persistent background agents that can keep working when users are idle and transfer learnings across sessions",
+            "A secret backdoor allowing Anthropic to access user files",
+            "An automated code review system that replaces human reviewers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The leaked code contained feature flags for capabilities including a persistent assistant running in background mode, cross-session learning where Claude studies its own work for improvements, and remote control from phones or other browsers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-j_kJNYLI6Tw",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Theo: The Claude Code Rate Limit Problem Is Worse Than You Think",
+      "sourceUrl": "https://www.youtube.com/watch?v=j_kJNYLI6Tw",
+      "youtubeId": "j_kJNYLI6Tw",
+      "publishedAt": "2026-04-03",
+      "summary": "Theo (t3.gg) digs into the growing frustration among Claude Code users whose usage limits are being exhausted far faster than expected — sessions designed to last hours burning out in minutes. He examines GitHub issue reports, community complaints, and Anthropic's acknowledgment that quotas are running out too fast, while analyzing what this means for developers who have built their workflows around Claude Code as their primary coding tool.",
+      "keyConcepts": [
+        "Claude Code rate limit mechanics",
+        "Token consumption transparency",
+        "Developer workflow dependency on AI tools",
+        "AI tool reliability for production use",
+        "Usage-based pricing sustainability"
+      ],
+      "whyItMatters": "As engineers increasingly depend on AI coding assistants for daily work, understanding rate limit mechanics and having fallback strategies is essential — a tool that runs out mid-session can derail an entire day's productivity.",
+      "tags": ["claude-code", "rate-limits", "developer-experience", "anthropic", "ai-tools", "theo"],
+      "relatedIds": ["youtube-mBHRPeg8zPU", "article-gizmodo-cursor-delegate-coding-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core issue Claude Code users reported with rate limits?",
+          "options": [
+            "The tool stopped working entirely after a single use",
+            "Five-hour usage sessions were burning out in minutes, with limits exhausted far faster than expected",
+            "Rate limits only applied to free-tier users",
+            "The limits were too generous, causing server overload"
+          ],
+          "correctIndex": 1,
+          "explanation": "Users on paid plans reported that their session limits — designed to last several hours — were being exhausted in as little as 70 minutes after reset, suggesting either a bug in token counting or unexpectedly high token consumption per interaction."
+        },
+        {
+          "question": "Why is rate limit reliability particularly important for AI coding tools?",
+          "options": [
+            "It only matters for enterprise customers with large teams",
+            "Rate limits are cosmetic and don't affect actual functionality",
+            "Developers who have built their daily workflow around an AI coding tool face significant productivity loss when it becomes unavailable mid-session",
+            "Rate limits only affect code generation, not code review"
+          ],
+          "correctIndex": 2,
+          "explanation": "As more engineers adopt AI coding assistants as their primary development tool, unexpected rate limit exhaustion mid-session can derail entire workdays — making reliability and transparent usage tracking critical factors in tool selection."
+        },
+        {
+          "question": "What did Anthropic acknowledge about the Claude Code quota issue?",
+          "options": [
+            "They denied any problems existed",
+            "They admitted quotas were running out too fast and acknowledged the issue publicly",
+            "They blamed users for inefficient prompting",
+            "They announced Claude Code would become completely free"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic publicly acknowledged that Claude Code quotas were running out faster than intended, validating user complaints rather than dismissing them — though the root cause and timeline for fixes remained subjects of community debate."
+        }
+      ]
+    },
+    {
+      "id": "youtube-7YVrb3-ABYE",
+      "topics": ["ai-research"],
+      "type": "video",
+      "title": "Two Minute Papers: Google's TurboQuant Technique Promises Dramatically Faster, Leaner AI Inference",
+      "sourceUrl": "https://www.youtube.com/watch?v=7YVrb3-ABYE",
+      "youtubeId": "7YVrb3-ABYE",
+      "publishedAt": "2026-04-01",
+      "summary": "Dr. Karoly Zsolnai-Feher breaks down Google's TurboQuant research, which claims to reduce AI memory usage by 4-6x and accelerate the attention mechanism by up to 8x without significant quality loss. The video explains the technique's approach to quantizing the KV cache — a key bottleneck in running large language models — while noting that independent reproductions showed more modest improvements of 30-40% memory reduction, still meaningful for long-context model deployment.",
+      "keyConcepts": [
+        "TurboQuant quantization technique",
+        "KV cache memory optimization",
+        "Attention mechanism acceleration",
+        "Model inference efficiency",
+        "Independent benchmark reproduction"
+      ],
+      "whyItMatters": "Memory and compute costs remain the biggest barriers to running large AI models locally or at scale — techniques like TurboQuant that reduce the KV cache footprint could make long-context inference practical on consumer hardware.",
+      "tags": ["turboquant", "google", "model-optimization", "inference", "quantization", "two-minute-papers"],
+      "relatedIds": ["youtube-BrJdGP21B5g"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific bottleneck does TurboQuant target in large language models?",
+          "options": [
+            "The training data pipeline and preprocessing",
+            "The KV cache used in the attention mechanism, which consumes significant memory during inference",
+            "The model's embedding layer size",
+            "Network latency between GPU clusters"
+          ],
+          "correctIndex": 1,
+          "explanation": "TurboQuant specifically targets the key-value (KV) cache in the attention mechanism — a major memory bottleneck during inference that grows with context length, making it the critical constraint for running long-context models on limited hardware."
+        },
+        {
+          "question": "How did independent reproductions compare to Google's claimed improvements?",
+          "options": [
+            "They exceeded Google's claims, showing even better results",
+            "They matched Google's claims exactly across all benchmarks",
+            "They showed 30-40% KV cache memory reduction — meaningful but more modest than the claimed 4-6x improvement",
+            "They found the technique had no measurable effect"
+          ],
+          "correctIndex": 2,
+          "explanation": "While Google claimed 4-6x memory reduction, independent testing showed KV cache memory fell by 30-40% — still significant for long-context deployment but falling short of the initial headline figures, highlighting the importance of independent benchmark verification."
         }
       ]
     }
