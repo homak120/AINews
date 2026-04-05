@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-04-05T18:00:00.000Z",
+  "weekOf": "2026-03-30",
+  "coverageStart": "2026-04-05",
+  "coverageEnd": "2026-04-05",
+  "items": [
+    {
+      "id": "article-bloomberg-vibe-coding-fomo",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "What Is Vibe Coding? The AI Trend Fueling a New Kind of FOMO",
+      "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-04-05/what-is-vibe-coding-the-ai-trend-fueling-a-new-kind-of-fomo",
+      "publishedAt": "2026-04-05",
+      "summary": "Bloomberg's The Forecast newsletter examines vibe coding — AI-assisted, intent-first software development — and its spread from niche developer workflow to mainstream cultural conversation. The piece explores whether the productivity gains are real and sustainable, or whether the trend is amplifying new anxieties about keeping pace with rapidly evolving AI tools.",
+      "keyConcepts": [
+        "Vibe coding",
+        "Intent-first development",
+        "AI-assisted software engineering",
+        "Developer productivity anxiety"
+      ],
+      "whyItMatters": "Vibe coding has moved from developer Twitter meme to mainstream productivity concept — understanding what it actually is (and isn't) helps engineers assess which AI-assisted workflows deliver genuine value versus hype.",
+      "tags": ["vibe-coding", "ai-coding", "developer-productivity", "bloomberg"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Bloomberg's piece characterize vibe coding?",
+          "options": [
+            "A method of programming exclusively using voice commands",
+            "An AI-assisted development approach where engineers describe intent and AI generates the code",
+            "A style of programming that prioritizes developer happiness over code quality",
+            "A method for generating UI animations automatically"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vibe coding centers on describing intent at a high level and letting AI tools handle the code generation — a workflow shift from writing to directing and reviewing that is now spreading well beyond early adopters."
+        },
+        {
+          "question": "Why does Bloomberg frame vibe coding as generating 'FOMO' among developers?",
+          "options": [
+            "Because it is mandated by most enterprise engineering organizations",
+            "Because it is only available to paid enterprise subscribers of AI tools",
+            "Because peers reporting dramatic productivity gains creates pressure to adopt similar workflows quickly",
+            "Because it completely replaces traditional programming languages"
+          ],
+          "correctIndex": 2,
+          "explanation": "FOMO in this context is driven by visible productivity gaps — when colleagues or social feeds show dramatic speed gains from AI-assisted coding, the psychological pressure to adopt the same tools intensifies even before the underlying value is fully understood."
+        }
+      ]
+    },
+    {
+      "id": "article-startupnews-goldman-semiconductor-surge",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Goldman Sachs Projects 49% Surge in Global Semiconductor Revenues Driven by AI Hardware Demand",
+      "sourceUrl": "https://startupnews.fyi/2026/04/05/ai-led-demand-to-drive-sharp-surge-in-semiconductor-revenues-goldman-sachs-2/",
+      "publishedAt": "2026-04-05",
+      "summary": "Goldman Sachs analysts forecast global semiconductor revenues to grow 49% by end of 2026, with AI-related hardware revenues potentially exceeding $700B in Q4 alone. AI investment in the US now stands $325B above its 2022 baseline — equivalent to 1.1% of GDP — a scale that underlines how much physical compute infrastructure the current AI era requires.",
+      "keyConcepts": [
+        "AI hardware demand cycle",
+        "Semiconductor revenue forecasting",
+        "AI infrastructure investment",
+        "GPU and custom silicon supply"
+      ],
+      "whyItMatters": "Understanding the semiconductor investment cycle helps engineers and product leaders anticipate compute availability and pricing — and signals how long the current AI infrastructure buildout is expected to continue.",
+      "tags": ["semiconductors", "ai-hardware", "goldman-sachs", "infrastructure", "market-forecast"],
+      "relatedIds": ["article-cnbc-ai-retail-virtual-tryon"],
+      "knowledgeChecks": [
+        {
+          "question": "What semiconductor revenue growth does Goldman Sachs project for global markets by end of 2026?",
+          "options": [
+            "12%",
+            "25%",
+            "49%",
+            "120%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Goldman Sachs projects 49% growth in global semiconductor revenues by end of 2026, driven primarily by AI compute demand — a forecast that reflects the enormous scale of GPU, TPU, and custom silicon procurement across hyperscalers and AI labs."
+        },
+        {
+          "question": "Why does AI have such an outsized effect on semiconductor demand compared to previous technology waves?",
+          "options": [
+            "AI requires smaller chips that are more expensive per unit to manufacture",
+            "Training and running large AI models requires massive amounts of specialized compute that must be continuously upgraded as models scale",
+            "AI companies are subsidizing chip purchases to accelerate ecosystem adoption",
+            "Semiconductor companies are the primary developers of AI model architectures"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike previous software booms, AI is fundamentally compute-hungry — training frontier models and serving inference at scale consumes enormous amounts of specialized silicon (GPUs, TPUs, custom ASICs), creating sustained hardware demand that compounds as model sizes and deployment volumes grow."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-ai-retail-virtual-tryon",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "How AI Startups Are Tackling Retail's Return Problem With Virtual Try-On Technology",
+      "sourceUrl": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+      "publishedAt": "2026-04-05",
+      "summary": "CNBC profiles a wave of AI startups building virtual try-on tools to combat retail's costly return problem, which drains billions in profit margins industry-wide. Companies like Catches claim 10% conversion rate lifts and 20–30x ROI for luxury brand partners, while Shopify, Amazon, Adobe, and Google have all deployed their own AI try-on capabilities — signaling the space is moving from startup experiment to platform feature.",
+      "keyConcepts": [
+        "Virtual try-on AI",
+        "Retail return optimization",
+        "Computer vision for e-commerce",
+        "AI-driven conversion rate optimization"
+      ],
+      "whyItMatters": "This sector illustrates how computer vision and generative AI are moving from demos into measurable business outcomes — a useful signal for engineers evaluating where real-world AI deployment is generating ROI versus where it remains aspirational.",
+      "tags": ["ai-retail", "virtual-try-on", "computer-vision", "e-commerce", "startups"],
+      "relatedIds": ["article-startupnews-goldman-semiconductor-surge"],
+      "knowledgeChecks": [
+        {
+          "question": "What core retail problem are AI virtual try-on startups primarily trying to solve?",
+          "options": [
+            "Slow shipping times for online orders",
+            "High return rates that drain retail profit margins",
+            "Poor inventory management at distribution centers",
+            "Lack of product photography on e-commerce sites"
+          ],
+          "correctIndex": 1,
+          "explanation": "High return rates are a structural margin problem for retailers — customers buy clothes and accessories without trying them on, then return items that don't fit or look as expected. Virtual try-on targets this specific friction point by letting shoppers preview fit and appearance before purchasing."
+        },
+        {
+          "question": "What does the claimed 20–30x ROI from companies like Catches suggest about evaluating AI tools?",
+          "options": [
+            "Any AI tool claiming high ROI is worth adopting immediately",
+            "ROI claims are irrelevant since retail and software engineering are unrelated domains",
+            "Measuring AI tool impact requires domain-specific metrics rather than generic productivity claims",
+            "AI tools only deliver value in customer-facing consumer applications"
+          ],
+          "correctIndex": 2,
+          "explanation": "The ROI figure (20–30x) is meaningful because it is anchored to a specific, measurable outcome — return rate reduction and conversion lift — not vague productivity improvement. This illustrates a broader principle: AI tool evaluation works best when tied to concrete business metrics rather than general efficiency claims."
+        }
+      ]
+    },
+    {
+      "id": "article-coindesk-ai-crypto-security-ledger",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "AI Is Making Crypto's Security Problem Even Worse, Ledger CTO Warns",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+      "publishedAt": "2026-04-05",
+      "summary": "Ledger's CTO warns that AI is dramatically lowering the barrier for sophisticated crypto attacks — enabling highly convincing phishing, social engineering, and private key extraction attempts at scale. The concern reflects a broader dual-use dynamic: the same AI capabilities that improve developer productivity also democratize attack sophistication, creating an asymmetric threat environment where defenders must protect every surface while attackers need only one success.",
+      "keyConcepts": [
+        "AI-assisted phishing attacks",
+        "Cryptographic key security",
+        "Dual-use AI security implications",
+        "Social engineering at scale"
+      ],
+      "whyItMatters": "The dual-use nature of AI security tools affects every software domain, not just crypto — engineers building any security-sensitive system need to account for how AI is reshaping both the attack surface and the economics of exploitation.",
+      "tags": ["ai-security", "cryptography", "phishing", "ledger", "dual-use-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific threat does Ledger's CTO highlight regarding AI and crypto security?",
+          "options": [
+            "That AI will make hardware wallets obsolete within two years",
+            "That AI is enabling easier creation of fraudulent cryptocurrencies",
+            "That AI is lowering the barrier for sophisticated phishing and social engineering attacks at scale",
+            "That AI cannot be used to strengthen crypto security defenses"
+          ],
+          "correctIndex": 2,
+          "explanation": "The CTO's concern is about the democratization of attack sophistication — AI makes it easier for less-skilled attackers to generate convincing impersonation attempts, targeted phishing campaigns, and social engineering scripts that would previously have required significant expertise."
+        },
+        {
+          "question": "Why does the 'dual-use' nature of AI security tools matter to software engineers outside of crypto?",
+          "options": [
+            "It doesn't — crypto has a unique threat model that doesn't generalize",
+            "Because the same AI capabilities that help engineers write better code also help attackers craft more targeted exploits, raising the stakes for security across all domains",
+            "Because all software engineers will eventually work on blockchain projects",
+            "Because AI authentication systems require engineers to expose cryptographic keys"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dual-use AI means the offensive and defensive capabilities scale together — better AI writing assistants also produce better exploit scripts. This asymmetry (defenders must secure everything; attackers need one gap) is a systemic challenge relevant to any security-sensitive software, not just crypto applications."
+        }
+      ]
+    }
+  ]
+}
