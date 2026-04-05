@@ -88,7 +88,14 @@ Generate content for **only the target date** (6-12 new items). Then:
 7. **Do not modify or remove any existing items**
 8. Ensure no duplicate `id` values between old and new items
 9. New items may reference existing items in `relatedIds` (and vice versa)
-10. All items MUST have `publishedAt` equal to `{{TARGET_DATE}}`
+10. `publishedAt` MUST reflect the **actual source publish date** — do not
+    override it to match `{{TARGET_DATE}}`. Only include items that were
+    **actually published on** `{{TARGET_DATE}}`. Do not backfill older articles
+    or re-date content to fit the target date.
+11. Before adding any item, check all existing daily files in `public/data/`
+    (e.g., `news-*.json`) to ensure the `sourceUrl` is not already present in
+    a previous day's file. Skip duplicates across files, not just within the
+    current file.
 
 ### Same-day append (multiple runs per day)
 
@@ -437,8 +444,10 @@ Run these checks against the generated `news.json` before committing:
 - [ ] (Weekly mode) All previously existing items are preserved unchanged
 - [ ] (Weekly mode) No duplicate `id` values between old and new items
 - [ ] (Daily mode) Total new item count is 6-12
-- [ ] (Daily mode) All new items have `publishedAt` equal to `TARGET_DATE`
+- [ ] (Daily mode) All new items have `publishedAt` matching their actual source publish date
+- [ ] (Daily mode) All new items were actually published on `TARGET_DATE`
 - [ ] (Daily mode) `coverageEnd` equals `TARGET_DATE`
+- [ ] (Daily mode) No `sourceUrl` duplicates across other existing daily files in `public/data/`
 - [ ] (Daily mode) All previously existing items are preserved unchanged (if appending)
 - [ ] (Daily mode) No duplicate `id` values between old and new items (if appending)
 - [ ] Each of the 4 topics has at least 3 items (2 acceptable if quality fallback applies)
