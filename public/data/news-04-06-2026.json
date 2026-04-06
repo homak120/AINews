@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-04-06T18:30:00.000Z",
+  "weekOf": "2026-04-06",
+  "coverageStart": "2026-04-06",
+  "coverageEnd": "2026-04-06",
+  "items": [
+    {
+      "id": "article-techcrunch-openai-economic-blueprint",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "article",
+      "title": "OpenAI Calls for Robot Taxes, Public Wealth Fund, and Four-Day Workweek to Prepare for Superintelligence",
+      "sourceUrl": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
+      "publishedAt": "2026-04-06",
+      "summary": "OpenAI released a 13-page policy document titled 'Industrial Policy for the Intelligence Age' proposing taxes on automated labor, a nationally managed public wealth fund seeded partly by AI companies, and pilots of a 32-hour four-day workweek at full pay. The blueprint centers on three goals: distributing AI-driven prosperity more broadly, building safeguards against systemic risk, and ensuring access to AI capabilities does not become concentrated in a small number of companies. CEO Sam Altman, in a half-hour Axios interview, warned that AI agents may 'totally' wipe out some job categories, framing the proposals as a social compact analogous to the Progressive Era and New Deal.",
+      "keyConcepts": [
+        "Robot tax on automated labor",
+        "AI public wealth fund",
+        "Four-day workweek pilot",
+        "Automatic safety net triggers",
+        "Capital tax shift from payroll"
+      ],
+      "whyItMatters": "OpenAI's policy proposals signal that frontier AI labs are actively shaping the regulatory landscape for workforce disruption — software engineers should understand how these frameworks may affect their employers, clients, and professional roles as automation deepens.",
+      "tags": ["openai", "ai-policy", "robot-tax", "workforce-automation", "sam-altman"],
+      "relatedIds": ["article-cnbc-ai-financial-advice-mit"],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's central mechanism for redistributing AI-driven economic gains to ordinary Americans?",
+          "options": [
+            "A mandatory minimum income funded by AI company revenues",
+            "A nationally managed public wealth fund that every American holds an ownership interest in",
+            "Tax credits for companies that retain human workers instead of automating",
+            "Direct profit-sharing agreements between AI labs and displaced workers"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI proposes a national public wealth fund seeded in part by AI companies, investing in diversified long-term assets that capture growth across AI companies and firms adopting AI — giving every American a stake in the economic gains rather than concentrating them at the top."
+        },
+        {
+          "question": "Why does OpenAI propose automatic 'trigger-based' safety net expansions rather than new legislation each time AI displaces workers?",
+          "options": [
+            "Because Congress has already delegated this authority to the executive branch",
+            "Because legislation is too slow — pre-agreed thresholds allow safety nets to expand without political delay when displacement metrics cross defined limits",
+            "Because automatic systems prevent fraud better than manually administered programs",
+            "Because AI companies want to avoid public accountability for job losses"
+          ],
+          "correctIndex": 1,
+          "explanation": "The blueprint proposes that once measurements of AI-related job displacement cross defined limits, programs covering income support, wage insurance, and direct cash payments automatically activate — avoiding the legislative gridlock that could leave displaced workers without support during rapid economic transitions."
+        },
+        {
+          "question": "What would a 32-hour workweek pilot, as proposed in OpenAI's blueprint, require companies to hold constant?",
+          "options": [
+            "Total headcount and staffing levels",
+            "Total compensation per employee with no reduction",
+            "Output and service levels at full pay",
+            "The ratio of human to AI work within each team"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's proposal specifies 'no loss in pay that hold output and service levels constant' — the pilot tests whether AI-driven productivity gains allow the same work to get done in 32 hours rather than 40, converting efficiency into time for workers rather than just cost savings for employers."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-xoople-earth-ai-series-b",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Spain's Xoople Raises $130M Series B to Build Satellite Constellation for AI Earth Intelligence",
+      "sourceUrl": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
+      "publishedAt": "2026-04-06",
+      "summary": "Spanish startup Xoople closed a $130 million Series B led by Nazca Capital, bringing total funding to $225 million to build a satellite constellation producing Earth observation data described as 'two orders of magnitude better than existing monitoring systems.' The company partnered with defense contractor L3Harris Technologies to build sensors specifically designed to produce data streams optimized for deep learning model training. Use cases include government tracking of transportation networks and natural disaster damage, agricultural crop health monitoring, and large-scale supply chain oversight.",
+      "keyConcepts": [
+        "Earth observation satellite constellations",
+        "Geospatial AI data infrastructure",
+        "Remote sensing for deep learning",
+        "AI-native sensor design",
+        "Earth intelligence platforms"
+      ],
+      "whyItMatters": "Specialized data collection infrastructure for AI is emerging as its own investment category — just as GPUs and data centers powered the first AI wave, high-quality real-world sensing data is becoming a key moat for training advanced geospatial and environmental models.",
+      "tags": ["geospatial-ai", "satellite-data", "deep-learning-infrastructure", "series-b", "xoople"],
+      "relatedIds": ["article-itif-ai-datacenter-five-concerns"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Xoople's satellite data collection approach from existing Earth observation systems?",
+          "options": [
+            "Using quantum sensors instead of traditional optical cameras",
+            "Deploying satellites at lower orbits to reduce data latency",
+            "Designing sensors specifically to produce data optimized for deep learning model training",
+            "Partnering exclusively with government agencies for data collection"
+          ],
+          "correctIndex": 2,
+          "explanation": "Xoople's differentiation is that its sensors are engineered from the ground up to generate data streams suited for deep learning ingestion — not just raw imagery, but data formatted and calibrated to be two orders of magnitude more useful for AI model training than conventional Earth observation data."
+        },
+        {
+          "question": "Why is high-quality Earth observation data specifically valuable for the current AI research landscape?",
+          "options": [
+            "Because most AI models require satellite data to function at production scale",
+            "Because AI training for geospatial applications requires consistently formatted, high-volume data with minimal coverage gaps",
+            "Because satellite data is substantially cheaper to collect than internet-sourced text data",
+            "Because satellites eliminate the need for any ground-based sensing infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Training AI models for climate, agriculture, logistics, and disaster response requires continuous, consistent, high-resolution observations across large areas — data that no existing system provides at the volume and quality needed. Xoople is building the infrastructure to make this class of AI training possible."
+        }
+      ]
+    },
+    {
+      "id": "article-axios-anthropic-openclaw-policy",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "Anthropic Ends Claude Subscription Coverage for OpenClaw and Third-Party Agentic Tools",
+      "sourceUrl": "https://www.axios.com/2026/04/06/anthropic-openclaw-subscription-openai",
+      "publishedAt": "2026-04-06",
+      "summary": "Anthropic announced that Claude Pro and Max subscriptions no longer cover third-party agentic tools including OpenClaw, effective April 4, requiring heavy users to switch to API billing or a new pay-as-you-go extra usage system. The cost impact is substantial: a power user running Claude Opus 4.6 through OpenClaw at 500K input and 200K output tokens per day faces roughly $675/month at API rates compared to the previous $200/month Max subscription cap. Anthropic's stated rationale is that third-party harnesses bypass prompt cache optimizations, consuming significantly more compute per session than first-party tools like Claude Code.",
+      "keyConcepts": [
+        "Claude subscription model restructuring",
+        "Third-party AI agent tool economics",
+        "Prompt cache optimization",
+        "Pay-as-you-go AI API pricing",
+        "First-party vs. third-party tool economics"
+      ],
+      "whyItMatters": "This policy shift signals that AI companies are moving away from flat-rate bundling toward compute-reflective pricing for agentic workflows — a change that materially affects developer tool budgets and will likely influence how other AI providers structure their own subscription tiers.",
+      "tags": ["anthropic", "claude-code", "openclaw", "ai-pricing", "developer-tools"],
+      "relatedIds": ["article-techcrunch-openai-economic-blueprint"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Anthropic's stated technical reason for removing Claude subscription coverage from third-party tools like OpenClaw?",
+          "options": [
+            "Third-party tools were using Claude for unapproved commercial applications outside Anthropic's terms",
+            "Third-party harnesses bypass prompt cache optimizations, consuming significantly more compute per session than first-party tools",
+            "OpenClaw violated Anthropic's data privacy policies by storing conversation logs",
+            "Third-party tools were reselling Claude API access at below-market rates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic said third-party tools place 'outsized strain' on infrastructure because they invoke the model fresh every time, bypassing the prompt cache hit rates that Claude Code and other first-party tools are engineered to maximize — a meaningful difference in per-session compute consumption at scale."
+        },
+        {
+          "question": "What does Anthropic's OpenClaw policy change suggest about the future of flat-rate AI subscriptions for developers?",
+          "options": [
+            "That flat-rate subscriptions will expand as more AI providers compete on price",
+            "That flat-rate pricing works well for all AI use cases including heavy agentic workloads",
+            "That AI companies are restructuring pricing to reflect actual compute consumption as agentic use cases become more demanding",
+            "That subscription pricing will be replaced entirely by open-source models"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agentic workflows that run multi-step, long-horizon tasks consume compute patterns that flat-rate subscriptions weren't designed to cover — Anthropic's move to compute-reflective pricing for third-party use mirrors a broader trend as AI usage shifts from casual chat to sustained autonomous operation."
+        }
+      ]
+    },
+    {
+      "id": "article-itif-ai-datacenter-five-concerns",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "ITIF Publishes Policy Framework Addressing Five Core Public Concerns About AI Data Centers",
+      "sourceUrl": "https://itif.org/publications/2026/04/06/five-concerns-about-ai-data-centers-and-what-to-do-about-them/",
+      "publishedAt": "2026-04-06",
+      "summary": "The Information Technology and Innovation Foundation released a policy analysis identifying five major community concerns about AI data center development — energy consumption, water use, noise pollution, local economic impact, and grid reliability — and proposing targeted regulatory responses to each. The report arrives as opposition to data centers intensifies nationally, with over 140 activist groups across 24 states campaigning against development and 11 states proposing restrictive legislation. ITIF's key argument is that targeted, evidence-based regulation serves both community and AI infrastructure needs better than blanket development bans.",
+      "keyConcepts": [
+        "AI data center energy consumption",
+        "Community opposition to tech infrastructure",
+        "Grid reliability and power demand spikes",
+        "Targeted vs. blanket data center regulation",
+        "Water use in AI cooling systems"
+      ],
+      "whyItMatters": "The regulatory environment around AI data centers directly shapes where and how companies can build compute capacity — which in turn affects cloud availability, pricing, and latency for the software services engineers build on top of that infrastructure.",
+      "tags": ["ai-infrastructure", "data-centers", "energy-policy", "regulation", "itif"],
+      "relatedIds": ["article-wbur-ma-datacenter-opposition"],
+      "knowledgeChecks": [
+        {
+          "question": "Which of the following is NOT among ITIF's five identified public concerns about AI data centers?",
+          "options": [
+            "Energy consumption and grid reliability pressure",
+            "Water use for cooling systems",
+            "AI model bias affecting local hiring and lending decisions",
+            "Noise pollution from backup generators"
+          ],
+          "correctIndex": 2,
+          "explanation": "ITIF's five concerns focus on physical and infrastructure impacts — energy, water, noise, grid reliability, and local economic effects — not on AI algorithmic bias, which is a separate policy domain addressed through different regulatory channels."
+        },
+        {
+          "question": "Why does ITIF recommend targeted regulation rather than blanket bans on data center development?",
+          "options": [
+            "Because data centers pay the highest property taxes of any commercial facility type",
+            "Because state-level bans would likely be struck down as unconstitutional under the Commerce Clause",
+            "Because data centers are essential AI infrastructure and blanket bans shift development to less regulated locations without resolving underlying concerns",
+            "Because existing environmental law already provides sufficient protection against data center harms"
+          ],
+          "correctIndex": 2,
+          "explanation": "ITIF's position is that blanket bans don't eliminate data centers — they relocate them to jurisdictions with weaker oversight while depriving local communities of the ability to negotiate mitigation measures. Targeted regulation that addresses energy, water, and noise concerns specifically is more effective than prohibition."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-ai-financial-advice-mit",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "AI Financial Tools Have a Fundamental Problem: No Fiduciary Duty, MIT Professor Warns",
+      "sourceUrl": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
+      "publishedAt": "2026-04-06",
+      "summary": "An MIT professor warns that while AI systems have become sophisticated enough to offer personalized financial advice, they lack the fiduciary duty that legally obligates human financial advisors to act in clients' best interests. As AI-powered financial advisory products proliferate for retail and institutional investors alike, this accountability gap means AI systems can optimize for proxy metrics — engagement, platform revenue, or model confidence — rather than actual client wellbeing, with limited regulatory recourse available to harmed investors.",
+      "keyConcepts": [
+        "Fiduciary duty in financial advice",
+        "AI accountability gap in professional services",
+        "Regulation of AI advisory products",
+        "AI optimization vs. client interest alignment"
+      ],
+      "whyItMatters": "Engineers building financial AI products face a real regulatory gap — understanding what fiduciary duties do and don't apply to AI advisory systems is increasingly critical as these products reach mainstream adoption and regulatory scrutiny intensifies.",
+      "tags": ["ai-finance", "fiduciary-duty", "regulation", "financial-ai", "professional-responsibility"],
+      "relatedIds": ["article-techcrunch-openai-economic-blueprint"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key legal protection that human financial advisors have that AI financial tools currently lack?",
+          "options": [
+            "Insurance coverage for investment losses on behalf of clients",
+            "A fiduciary duty legally requiring them to act in the client's best interest",
+            "Real-time access to regulated market data feeds",
+            "Mandatory error-and-omissions liability coverage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fiduciary duty is a legal standard requiring advisors to prioritize client interests above their own — it's distinct from the lower 'suitability' standard, which only requires advice to be reasonably appropriate. AI advisory tools currently operate outside fiduciary frameworks, which matters when AI systems pursue proxy objectives that diverge from client outcomes."
+        },
+        {
+          "question": "Why is the absence of fiduciary accountability particularly consequential for AI financial advice systems?",
+          "options": [
+            "Because fiduciary duty is required by all financial software licensing agreements in the US",
+            "Because without it, AI systems can optimize for engagement or platform revenue rather than client wellbeing, with no legal mechanism for harmed investors to seek recourse",
+            "Because AI financial advice is currently more expensive than equivalent human advisor fees",
+            "Because AI systems cannot learn from investment outcomes without fiduciary accountability structures"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI optimization targets are set by engineers and product teams, not clients — without fiduciary duty, there is no legal obligation ensuring those targets align with client interests. The MIT professor's concern is that as AI financial products scale, this accountability gap could systematically disadvantage retail investors who don't understand how the underlying systems are incentivized."
+        }
+      ]
+    },
+    {
+      "id": "article-wbur-ma-datacenter-opposition",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Massachusetts Cities Vote to Block AI Data Centers as Community Pushback Intensifies",
+      "sourceUrl": "https://www.wbur.org/news/2026/04/06/data-centers-ai-massachusetts-pollution-pushback",
+      "publishedAt": "2026-04-06",
+      "summary": "City councilors in Lowell, Massachusetts voted unanimously to enact a one-year moratorium on new data center development, part of a wave of community opposition to AI infrastructure projects across the state. Local residents and officials cite concerns including noise pollution from backup diesel generators, fossil fuel use, rising electricity prices driven by increased grid demand, and a lack of permanent local jobs — data centers typically employ very few workers relative to their land and energy footprint. The Lowell moratorium reflects a broader dynamic in which AI compute infrastructure expansion is increasingly constrained by social and political factors in addition to capital and land availability.",
+      "keyConcepts": [
+        "Local moratorium on data center development",
+        "AI infrastructure community impact",
+        "Power grid externalities from compute demand",
+        "Data center employment economics",
+        "Community opposition to tech infrastructure siting"
+      ],
+      "whyItMatters": "Community opposition represents a real constraint on AI compute capacity growth that is distinct from capital or technical bottlenecks — engineers and architects planning cloud-dependent systems should factor in that infrastructure expansion is now as much a social and political challenge as a technical one.",
+      "tags": ["data-centers", "community-opposition", "massachusetts", "ai-infrastructure", "energy-grid"],
+      "relatedIds": ["article-itif-ai-datacenter-five-concerns"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific action did Lowell, Massachusetts city councilors take regarding AI data centers?",
+          "options": [
+            "Imposed a 500% property tax surcharge on new data center construction",
+            "Filed a state lawsuit against a major cloud provider over noise ordinance violations",
+            "Enacted a one-year moratorium on new data center development",
+            "Required all data centers to publish annual environmental impact reports"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Lowell city council enacted a one-year development moratorium — a temporary pause to allow the city time to study the impacts and craft targeted regulations before any new facilities are approved. This approach is increasingly common as communities seek more control over AI infrastructure siting decisions."
+        },
+        {
+          "question": "Why do community groups cite rising electricity prices as a primary concern about AI data centers?",
+          "options": [
+            "Because data centers receive below-market electricity rates through government subsidies that shift costs to residential users",
+            "Because data centers dramatically increase local grid demand, which can drive up electricity rates for all residential and business users in the area",
+            "Because most data centers require their own dedicated power plants that compete with residential service",
+            "Because AI data centers typically refuse to connect to municipal grids and import power from out of state"
+          ],
+          "correctIndex": 1,
+          "explanation": "Large data centers consume enormous amounts of electricity — a single hyperscale facility can draw as much power as a small city. When this demand is added to an existing grid without sufficient new generation capacity, it can create supply pressure that drives up electricity rates for all users in the service area."
+        }
+      ]
+    }
+  ]
+}
