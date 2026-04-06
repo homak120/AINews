@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-06T18:30:00.000Z",
+  "generatedAt": "2026-04-06T22:00:00.000Z",
   "weekOf": "2026-04-06",
-  "coverageStart": "2026-04-06",
+  "coverageStart": "2026-04-05",
   "coverageEnd": "2026-04-06",
   "items": [
     {
@@ -269,6 +269,193 @@
           ],
           "correctIndex": 1,
           "explanation": "Large data centers consume enormous amounts of electricity — a single hyperscale facility can draw as much power as a small city. When this demand is added to an existing grid without sufficient new generation capacity, it can create supply pressure that drives up electricity rates for all users in the service area."
+        }
+      ]
+    },
+    {
+      "id": "youtube-JSuS-zXMVwE",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "video",
+      "title": "Cursor Ditches VS Code for Its Own Native Editor — Fireship Breaks Down What Changed and Why Developers Are Split",
+      "sourceUrl": "https://www.youtube.com/watch?v=JSuS-zXMVwE",
+      "youtubeId": "JSuS-zXMVwE",
+      "publishedAt": "2026-04-06",
+      "summary": "Fireship covers Cursor 3's major architectural shift: instead of remaining a VS Code fork, Anysphere rebuilt Cursor as a standalone agent-first IDE with its own frontier model and parallel AI agent fleets. The video examines the tradeoffs of dropping VS Code compatibility, including the loss of the VS Code extension ecosystem, and the developer community's mixed reaction — some praise the cleaner agent-native experience while others worry about vendor lock-in and losing familiar workflows.",
+      "keyConcepts": [
+        "Cursor 3 agent-first IDE architecture",
+        "VS Code fork independence",
+        "AI-native code editor design",
+        "Developer tool vendor lock-in",
+        "Parallel AI agent fleets"
+      ],
+      "whyItMatters": "Cursor's break from VS Code signals that AI-first development environments are diverging from traditional editor paradigms — engineers choosing their primary IDE now face a genuine fork in the road between extension ecosystem breadth and AI-native capabilities.",
+      "tags": ["cursor", "vs-code", "fireship", "ai-ide", "developer-tools"],
+      "relatedIds": ["article-axios-anthropic-openclaw-policy"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the most significant architectural change in Cursor 3 compared to earlier versions?",
+          "options": [
+            "It added support for GPT-5 models alongside Claude",
+            "It rebuilt as a standalone agent-first IDE rather than remaining a VS Code fork",
+            "It switched from a subscription model to a one-time purchase",
+            "It introduced a built-in terminal emulator for the first time"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cursor 3 represents a fundamental architectural departure — Anysphere rebuilt the editor from the ground up as a native AI-first IDE rather than continuing to fork and extend VS Code, giving them full control over the editing experience but sacrificing VS Code extension compatibility."
+        },
+        {
+          "question": "Why are some developers concerned about Cursor's departure from VS Code?",
+          "options": [
+            "Because VS Code is faster and more memory-efficient than Cursor 3",
+            "Because Cursor 3 requires a more expensive subscription tier",
+            "Because leaving VS Code means losing access to its large extension ecosystem and familiar workflows",
+            "Because VS Code has better AI agent support than Cursor's native implementation"
+          ],
+          "correctIndex": 2,
+          "explanation": "The VS Code ecosystem includes thousands of extensions for languages, frameworks, debugging, and developer workflows that many engineers depend on daily. By breaking away from VS Code, Cursor gains architectural freedom for AI-native features but forces users to give up that ecosystem — a real cost for developers with heavily customized setups."
+        }
+      ]
+    },
+    {
+      "id": "youtube-stZr6U_7S90",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Theo Explains Why Claude Code Has Become Frustrating: Source Restrictions, DMCA Issues, and Closed-Source Friction",
+      "sourceUrl": "https://www.youtube.com/watch?v=stZr6U_7S90",
+      "youtubeId": "stZr6U_7S90",
+      "publishedAt": "2026-04-06",
+      "summary": "Theo (t3.gg) details a growing list of usability issues with Claude Code, including the tool erroring out when asked to analyze its own source code, blocking security researchers from vulnerability-related tasks, and Anthropic issuing DMCA takedowns against community forks. He argues that Claude Code's closed-source nature makes these problems far harder to diagnose and fix than they would be in an open-source tool, and connects the frustrations to Anthropic's broader shift toward compute-reflective pricing for third-party tools.",
+      "keyConcepts": [
+        "Claude Code source code restrictions",
+        "DMCA enforcement on developer tool forks",
+        "Closed-source AI tool debugging friction",
+        "Security research tool limitations",
+        "Developer trust in AI tooling vendors"
+      ],
+      "whyItMatters": "As AI coding tools become central to developer workflows, friction between vendor control and developer autonomy is intensifying — engineers need to evaluate not just capability but also the transparency and extensibility of the tools they build their workflows around.",
+      "tags": ["claude-code", "anthropic", "developer-tools", "open-source", "theo-t3gg"],
+      "relatedIds": ["article-axios-anthropic-openclaw-policy"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific behavior does Theo highlight as a sign of Claude Code's usability regression?",
+          "options": [
+            "Claude Code now requires a paid subscription to use any features",
+            "Claude Code errors out when asked to analyze its own source code and blocks security-related tasks",
+            "Claude Code no longer supports TypeScript projects",
+            "Claude Code's response latency has increased by over 10 seconds per query"
+          ],
+          "correctIndex": 1,
+          "explanation": "Theo demonstrates that Claude Code now throws errors when developers attempt to have it analyze its own codebase and rejects security vulnerability research tasks — restrictions that limit legitimate developer use cases and make debugging the tool itself nearly impossible."
+        },
+        {
+          "question": "Why does Theo argue that Claude Code being closed-source compounds its usability problems?",
+          "options": [
+            "Because closed-source software is inherently slower than open-source alternatives",
+            "Because developers cannot inspect, diagnose, or patch issues themselves — they must wait for Anthropic to acknowledge and fix problems",
+            "Because closed-source tools cannot be used in enterprise environments",
+            "Because open-source tools always have better AI model performance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Theo's core argument is that if Claude Code were open-source, the community could identify the exact cause of restrictions (like the source code analysis block) and either fix them directly or submit patches. Instead, developers are stuck reverse-engineering behavior through trial and error with no visibility into why specific actions are blocked."
+        },
+        {
+          "question": "How does Anthropic's DMCA action against community forks relate to the broader Claude Code criticism?",
+          "options": [
+            "It shows Anthropic is transitioning Claude Code to an open-source model",
+            "It demonstrates that Anthropic is actively preventing the community from building alternatives or extensions that could address Claude Code's limitations",
+            "It was a standard legal procedure that had no impact on developers",
+            "It only affected commercial resellers, not individual developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The DMCA takedowns reinforce Theo's argument about closed-source friction — not only can developers not fix Claude Code's issues, but Anthropic is actively using legal tools to prevent the community from creating forks or modifications that might work around the restrictions, further limiting developer agency."
+        }
+      ]
+    },
+    {
+      "id": "youtube-AV4XYBzlSyg",
+      "topics": ["ai-engineering", "ai-research"],
+      "type": "video",
+      "title": "How to Run Gemma 4 and Other LLMs Locally on Your Phone with Google AI Edge Gallery",
+      "sourceUrl": "https://www.youtube.com/watch?v=AV4XYBzlSyg",
+      "youtubeId": "AV4XYBzlSyg",
+      "publishedAt": "2026-04-05",
+      "summary": "TheAIGRID walks through Google's AI Edge Gallery app, a free tool that lets users download and run Gemma 4 and other open-source LLMs directly on Android and iOS devices with no internet connection, API keys, or cloud costs. The tutorial covers installing the app, selecting model variants (from the 2B parameter Effective model to the 31B Dense version), and using the new Agent Skills feature that augments on-device models with tools like Wikipedia lookups and interactive maps.",
+      "keyConcepts": [
+        "On-device LLM inference",
+        "Google AI Edge Gallery app",
+        "Gemma 4 model variants (E2B, E4B, 26B MoE, 31B Dense)",
+        "Offline AI capabilities",
+        "Agent Skills for on-device models"
+      ],
+      "whyItMatters": "Running capable LLMs locally on a phone without cloud dependencies is a practical milestone for privacy-sensitive applications and offline use cases — engineers building mobile products should understand what on-device inference can realistically handle today.",
+      "tags": ["gemma-4", "on-device-ai", "google-ai-edge", "mobile-ai", "local-inference"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is a key advantage of running LLMs through Google AI Edge Gallery compared to cloud-based AI services?",
+          "options": [
+            "On-device models always outperform cloud models in accuracy and reasoning",
+            "The app runs models fully offline with no internet connection, API keys, or cloud costs required",
+            "Google AI Edge Gallery supports more model architectures than any cloud provider",
+            "On-device inference is faster than cloud inference for all model sizes"
+          ],
+          "correctIndex": 1,
+          "explanation": "The primary advantage is complete independence from cloud infrastructure — models run locally on the device hardware, meaning no data leaves the phone, no API costs accrue, and the models work without any internet connection. This matters for privacy, cost, and availability in offline scenarios."
+        },
+        {
+          "question": "What does the Agent Skills feature add to on-device LLMs in Google AI Edge Gallery?",
+          "options": [
+            "It enables the model to train on new data directly on the device",
+            "It augments the model with external tools like Wikipedia lookups and interactive maps, expanding capabilities beyond pure text generation",
+            "It allows multiple LLMs to run simultaneously and collaborate on tasks",
+            "It provides automatic model fine-tuning based on user conversation history"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agent Skills transform on-device LLMs from simple conversational models into tool-using assistants — by connecting to capabilities like Wikipedia for fact-grounding and map rendering for spatial queries, the models can handle tasks that would otherwise require cloud-based services or much larger models."
+        }
+      ]
+    },
+    {
+      "id": "youtube-FI0OKLr3iz0",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "New Benchmarks Reveal Where China's AI Models Actually Stand Against Western Frontier Models",
+      "sourceUrl": "https://www.youtube.com/watch?v=FI0OKLr3iz0",
+      "youtubeId": "FI0OKLr3iz0",
+      "publishedAt": "2026-04-06",
+      "summary": "TheAIGRID examines recent independent benchmark results comparing Chinese AI models against Western frontier models from OpenAI, Anthropic, and Google. The video analyzes test results across reasoning, coding, and multimodal tasks to separate marketing claims from empirical performance data, highlighting areas where Chinese labs have closed the gap and domains where significant capability differences remain.",
+      "keyConcepts": [
+        "Independent AI model benchmarking",
+        "China vs. Western AI capability gap",
+        "Reasoning and coding benchmark performance",
+        "Multimodal AI evaluation",
+        "AI geopolitical competition"
+      ],
+      "whyItMatters": "Understanding the actual capability gap between Chinese and Western AI models is essential for engineers making technology decisions — as Chinese models become viable alternatives, the competitive landscape for AI tools and pricing shifts significantly.",
+      "tags": ["china-ai", "benchmarks", "model-evaluation", "ai-competition", "theaigrid"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why are independent benchmarks important for evaluating China's AI progress rather than relying on company-reported results?",
+          "options": [
+            "Because independent tests are always conducted on larger datasets",
+            "Because companies often select benchmarks that favor their models, making independent evaluation essential for unbiased comparison",
+            "Because Chinese companies are legally prohibited from publishing their own benchmark results",
+            "Because independent benchmarks use proprietary test data that companies cannot access"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI companies worldwide tend to highlight benchmark results where their models perform well and downplay areas of weakness. Independent testing across standardized benchmarks provides a more balanced view of actual capabilities, which is particularly important when evaluating claims about closing competitive gaps."
+        },
+        {
+          "question": "What is the practical significance for engineers if Chinese AI models reach parity with Western frontier models?",
+          "options": [
+            "It would have no practical impact since most engineers only use models from US companies",
+            "It would increase competition and potentially drive down API pricing while expanding the range of viable model options for production systems",
+            "It would require all engineers to learn Mandarin to use the documentation",
+            "It would eliminate the need for fine-tuning since more models would be available"
+          ],
+          "correctIndex": 1,
+          "explanation": "Greater competition from capable Chinese AI models creates pricing pressure across the industry and gives engineers more options when selecting models for specific tasks — this is already visible with models like DeepSeek offering competitive performance at significantly lower API costs than Western alternatives."
         }
       ]
     }
