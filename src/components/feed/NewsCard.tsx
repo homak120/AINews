@@ -4,6 +4,7 @@ import { formatDate } from '../../utils/formatDate';
 import { useBookmarks } from '../../hooks/useBookmarks';
 import { useKnowledgeChecks } from '../../hooks/useKnowledgeChecks';
 import type { NewsItem, Topic } from '../../types';
+import { TOPIC_DISPLAY_NAMES } from '../../types';
 import { TagChips } from './TagChips';
 
 const TOPIC_ACCENT: Record<Topic, { tag: string; border: string }> = {
@@ -25,6 +26,13 @@ const TOPIC_ACCENT: Record<Topic, { tag: string; border: string }> = {
   },
 };
 
+const TOPIC_SHORT_LABELS: Record<Topic, string> = {
+  'ai-engineering': 'Engineering',
+  'ai-research':    'Research',
+  'ai-career':      'Career',
+  'ai-industry':    'Industry',
+};
+
 const TYPE_LABELS: Record<string, string> = {
   video:   'VIDEO',
   article: 'ARTICLE',
@@ -42,6 +50,7 @@ interface NewsCardProps {
 export function NewsCard({ item, primaryTopic, activeTag, onTagClick }: NewsCardProps) {
   const accent = TOPIC_ACCENT[primaryTopic];
   const typeLabel = TYPE_LABELS[item.type] ?? item.type.toUpperCase();
+  const otherTopics = item.topics.filter((t) => t !== primaryTopic);
 
   const { toggle, isBookmarked } = useBookmarks();
   const bookmarked = isBookmarked(item.id);
@@ -74,15 +83,30 @@ export function NewsCard({ item, primaryTopic, activeTag, onTagClick }: NewsCard
         )}
       >
         <header className="flex items-start justify-between gap-2 mb-3">
-          <span
-            className={cn(
-              'inline-block font-mono text-[11px] font-semibold tracking-widest uppercase',
-              'px-2.5 py-1 rounded-full border',
-              accent.tag
-            )}
-          >
-            {typeLabel}
-          </span>
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span
+              className={cn(
+                'inline-block font-mono text-[11px] font-semibold tracking-widest uppercase',
+                'px-2.5 py-1 rounded-full border',
+                accent.tag
+              )}
+            >
+              {typeLabel}
+            </span>
+            {otherTopics.map((t) => (
+              <span
+                key={t}
+                title={TOPIC_DISPLAY_NAMES[t]}
+                className={cn(
+                  'inline-block font-mono text-[10px] font-medium tracking-wider',
+                  'px-2 py-0.5 rounded-full border',
+                  TOPIC_ACCENT[t].tag
+                )}
+              >
+                {TOPIC_SHORT_LABELS[t]}
+              </span>
+            ))}
+          </div>
           <button
             onClick={(e) => {
               e.preventDefault();
