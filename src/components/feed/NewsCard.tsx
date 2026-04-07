@@ -33,13 +33,6 @@ const TOPIC_SHORT_LABELS: Record<Topic, string> = {
   'ai-industry':    'Industry',
 };
 
-const TYPE_LABELS: Record<string, string> = {
-  video:   'VIDEO',
-  article: 'ARTICLE',
-  paper:   'PAPER',
-  social:  'POST',
-};
-
 interface NewsCardProps {
   item: NewsItem;
   primaryTopic: Topic;
@@ -49,7 +42,6 @@ interface NewsCardProps {
 
 export function NewsCard({ item, primaryTopic, activeTag, onTagClick }: NewsCardProps) {
   const accent = TOPIC_ACCENT[primaryTopic];
-  const typeLabel = TYPE_LABELS[item.type] ?? item.type.toUpperCase();
   const otherTopics = item.topics.filter((t) => t !== primaryTopic);
 
   const { toggle, isBookmarked } = useBookmarks();
@@ -91,7 +83,7 @@ export function NewsCard({ item, primaryTopic, activeTag, onTagClick }: NewsCard
                 accent.tag
               )}
             >
-              {typeLabel}
+              {TOPIC_SHORT_LABELS[primaryTopic]}
             </span>
             {otherTopics.map((t) => (
               <span

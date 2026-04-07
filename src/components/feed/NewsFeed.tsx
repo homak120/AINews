@@ -51,7 +51,7 @@ export function NewsFeed({
   const [sortOrder, setSortOrder] = useState<SortOrder>('newest');
 
   const getItemsForTopic = (topic: Topic) =>
-    sortItemsByDate(items.filter((item) => item.topics.includes(topic)), sortOrder);
+    sortItemsByDate(items.filter((item) => item.topics[0] === topic), sortOrder);
 
   const visibleTopics = activeTopic ? [activeTopic] : ALL_TOPICS;
 
