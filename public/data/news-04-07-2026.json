@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-04-07T18:45:00.000Z",
+  "weekOf": "2026-04-06",
+  "coverageStart": "2026-04-07",
+  "coverageEnd": "2026-04-07",
+  "items": [
+    {
+      "id": "article-jetbrains-which-ai-coding-tools",
+      "topics": ["ai-engineering", "ai-career"],
+      "type": "article",
+      "title": "Which AI Coding Tools Do Developers Actually Use at Work? JetBrains AI Pulse Wave 2 Results",
+      "sourceUrl": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+      "publishedAt": "2026-04-07",
+      "summary": "JetBrains published the second wave of its AI Pulse survey, drawing on responses from over 10,000 professional developers worldwide surveyed in January 2026. Claude Code leads in satisfaction with a 91% CSAT score and NPS of 54, while its workplace adoption has grown 6x since mid-2025 to reach 18% of developers. The survey also tracks Cursor, GitHub Copilot, JetBrains AI Assistant, and Google Antigravity, revealing which tools are winning real developer workflows — not just mindshare.",
+      "keyConcepts": [
+        "AI coding tool adoption rates",
+        "Developer satisfaction (CSAT and NPS)",
+        "AI-assisted IDE workflows",
+        "Tool loyalty and switching behavior"
+      ],
+      "whyItMatters": "This is the most comprehensive real-world snapshot of which AI coding tools professional developers are actually paying for and using daily — essential market intelligence for any engineer deciding where to invest their learning time in 2026.",
+      "tags": ["developer-tools", "claude-code", "github-copilot", "cursor", "survey"],
+      "relatedIds": ["article-theregister-ai-returns-gartner"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Claude Code's CSAT score in the JetBrains January 2026 AI Pulse survey?",
+          "options": [
+            "76%",
+            "84%",
+            "91%",
+            "97%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code achieved a 91% customer satisfaction (CSAT) score — the highest on the market in the survey — alongside an NPS of 54, reflecting unusually strong product loyalty among the developers who use it regularly."
+        },
+        {
+          "question": "How much did Claude Code's workplace adoption grow between mid-2025 and January 2026?",
+          "options": [
+            "It doubled (2x)",
+            "It tripled (3x)",
+            "It grew 6x",
+            "It stayed roughly flat"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code went from roughly 3% adoption in April–June 2025 to 18% in January 2026 — a 6x increase in under eight months — suggesting rapid organic spread through engineering teams rather than top-down mandates."
+        },
+        {
+          "question": "Why does tracking AI coding tool adoption matter for software engineers' career strategy?",
+          "options": [
+            "It tells engineers which tools are cheapest to subscribe to",
+            "It reveals which tools are becoming industry defaults, helping engineers prioritize where to build expertise",
+            "It indicates which tools have the fewest bugs",
+            "It shows which tools are approved for enterprise use"
+          ],
+          "correctIndex": 1,
+          "explanation": "When a tool reaches high adoption across thousands of professional developers — as Claude Code and Cursor have — it signals an emerging industry standard. Knowing this helps engineers prioritize skill investment before the skill becomes table stakes."
+        }
+      ]
+    },
+    {
+      "id": "article-theregister-anthropic-30bn-broadcom",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Anthropic Reveals $30bn Run Rate as Broadcom Builds Google's Next AI Chips for the Company",
+      "sourceUrl": "https://www.theregister.com/2026/04/07/broadcom_google_chip_deal_anthropic_customer/",
+      "publishedAt": "2026-04-07",
+      "summary": "Anthropic disclosed a $30 billion annual revenue run rate, signaling it has pulled well ahead of other AI labs in enterprise and API adoption. Separately, Broadcom confirmed that Google has commissioned it to build the next generation of AI and datacenter networking chips, and that Anthropic is set to become a major consumer of that compute infrastructure — absorbing an estimated 3.5 gigawatts of capacity starting in 2027. The deal illustrates the deep interdependence between frontier AI labs and hyperscaler chip supply chains.",
+      "keyConcepts": [
+        "AI infrastructure supply chains",
+        "Custom ASIC procurement (TPU/ASIC vs. GPU)",
+        "Hyperscaler compute investment at scale",
+        "AI lab revenue run rates"
+      ],
+      "whyItMatters": "Anthropic's disclosed run rate and this chip deal reveal how quickly frontier AI has become a capital-intensive infrastructure business — shaping which labs can sustain frontier model development and which will fall behind on compute access.",
+      "tags": ["anthropic", "broadcom", "google", "ai-infrastructure", "chips"],
+      "relatedIds": ["article-theregister-ai-returns-gartner"],
+      "knowledgeChecks": [
+        {
+          "question": "What annual revenue run rate did Anthropic disclose on April 7, 2026?",
+          "options": [
+            "$5 billion",
+            "$12 billion",
+            "$30 billion",
+            "$85 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic disclosed a $30 billion annual run rate, a figure that tracks monthly revenue multiplied by 12 and reflects strong enterprise API and consumer Claude subscription growth. This places it as one of the fastest-growing AI businesses globally."
+        },
+        {
+          "question": "What is the significance of Anthropic consuming 3.5 gigawatts of Broadcom-built Google compute capacity?",
+          "options": [
+            "It means Anthropic is building its own hardware division",
+            "It locks Anthropic into Google's infrastructure, deepening the strategic dependency between the two companies",
+            "It demonstrates that AI inference is becoming less power-intensive over time",
+            "It replaces Anthropic's need for on-premises data centers"
+          ],
+          "correctIndex": 1,
+          "explanation": "By committing to absorb 3.5 GW of compute from Google-commissioned Broadcom chips, Anthropic deepens a strategic infrastructure partnership with Google — the same company that has made substantial equity investments in Anthropic — meaning Google's chip roadmap directly shapes what Anthropic can build."
+        }
+      ]
+    },
+    {
+      "id": "article-theregister-ai-returns-gartner",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "article",
+      "title": "Only 28% of AI Infrastructure Projects Fully Pay Off, Gartner Finds",
+      "sourceUrl": "https://www.theregister.com/2026/04/07/ai_returns_gartner/",
+      "publishedAt": "2026-04-07",
+      "summary": "A Gartner survey of 782 IT infrastructure and operations (I&O) managers found that only 28% of AI use cases in their domain have fully succeeded and delivered return on investment. One in five AI projects fails outright, and 57% of respondents reported suffering at least one outright failure. The most common causes: unrealistic expectations set at project start, persistent skill gaps (cited by 38%), and poor data quality or limited data availability (also 38%).",
+      "keyConcepts": [
+        "AI project ROI measurement",
+        "IT infrastructure and operations (I&O)",
+        "AI skills gaps in organizations",
+        "Data quality requirements for AI"
+      ],
+      "whyItMatters": "For engineers leading or scoping AI infrastructure projects, this is a calibration signal: the failure rate is high, and the leading causes — inflated expectations and skill gaps — are addressable with better scoping and upfront capability assessment before a project begins.",
+      "tags": ["gartner", "ai-roi", "enterprise-ai", "infrastructure", "skills-gap"],
+      "relatedIds": ["article-jetbrains-which-ai-coding-tools", "article-theregister-anthropic-30bn-broadcom"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Gartner, what percentage of AI infrastructure projects fully succeed and deliver ROI?",
+          "options": [
+            "61%",
+            "45%",
+            "28%",
+            "12%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gartner found that only 28% of AI infrastructure and operations use cases fully succeed and deliver ROI. This means nearly three-quarters of AI infrastructure projects either fail outright or fail to deliver their expected value — a stark contrast to the optimistic projections common when projects are pitched internally."
+        },
+        {
+          "question": "What were the two most commonly cited causes of AI infrastructure project failure in the Gartner survey?",
+          "options": [
+            "Cost overruns and vendor lock-in",
+            "Skill gaps and poor data quality",
+            "Executive resistance and regulatory hurdles",
+            "Cloud provider outages and API rate limits"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both persistent skill gaps and poor data quality (or limited data availability) were each cited by 38% of respondents who experienced failures — pointing to foundational organizational readiness problems, not just technical ones."
+        },
+        {
+          "question": "How should an engineering team use the Gartner finding about unrealistic expectations?",
+          "options": [
+            "Avoid starting any AI infrastructure project until ROI is guaranteed",
+            "Use it to justify delaying AI adoption indefinitely",
+            "Use it as evidence that AI never works in enterprise settings",
+            "Build explicit ROI checkpoints and scope agreements before kickoff to align stakeholders on what success looks like"
+          ],
+          "correctIndex": 3,
+          "explanation": "Gartner's research director specifically cited unrealistic expectations as a root cause — teams assumed AI would immediately automate complex tasks and cut costs. The fix isn't to avoid AI, but to agree on measurable success criteria and realistic timelines before projects begin."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-safety-fellowship",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "OpenAI Launches the Safety Fellowship: Paid External Research Program on AI Alignment",
+      "sourceUrl": "https://openai.com/index/introducing-openai-safety-fellowship/",
+      "publishedAt": "2026-04-07",
+      "summary": "OpenAI introduced the Safety Fellowship, a new program inviting external researchers, engineers, and practitioners to pursue six months of funded, independent AI safety research. Fellows receive a monthly stipend, compute access, and mentorship from OpenAI researchers while working at the Constellation hub in Berkeley. The program runs September 14, 2026 through February 5, 2027, with applications closing May 3, 2026. Priority research areas include safety evaluation, agentic oversight, robustness under adversarial conditions, and high-severity misuse domains.",
+      "keyConcepts": [
+        "AI safety and alignment research",
+        "Scalable oversight techniques",
+        "Adversarial robustness in LLMs",
+        "Agentic AI risk and oversight"
+      ],
+      "whyItMatters": "As AI labs race toward more capable models, funding external researchers to work on safety is a direct signal of where the hardest unsolved problems lie — agentic oversight and robustness are now recognized as industry-critical challenges, not just academic questions.",
+      "tags": ["openai", "ai-safety", "alignment", "fellowship", "agentic-oversight"],
+      "relatedIds": ["article-theregister-anthropic-30bn-broadcom"],
+      "knowledgeChecks": [
+        {
+          "question": "What type of researchers is the OpenAI Safety Fellowship open to?",
+          "options": [
+            "Only current OpenAI employees on sabbatical",
+            "Only PhD students at accredited universities",
+            "External researchers, engineers, and practitioners from outside OpenAI",
+            "Only researchers already employed by AI safety nonprofits"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI explicitly designed the fellowship for people outside the company — researchers, engineers, and practitioners — with no academic degree requirement. This broadens the talent pipeline for safety research beyond traditional academia."
+        },
+        {
+          "question": "Why does the fellowship's focus on 'agentic oversight' matter for software engineers?",
+          "options": [
+            "It means AI agents will soon replace software engineering roles entirely",
+            "It signals that ensuring AI agents behave reliably and safely when acting autonomously is now a recognized open research problem affecting how AI is deployed in production",
+            "It is only relevant to AI safety researchers and not practicing engineers",
+            "It means all agentic systems will be paused pending safety review"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agentic oversight — how to keep AI systems that take multi-step actions aligned with human intent — is a direct concern for engineers building or deploying AI agents. The fact that OpenAI is funding external research here signals it's an unsolved problem in real deployments, not just a theoretical future risk."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-google-maps-ai-captions",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Google Maps Now Uses Gemini AI to Write Photo Captions for Local Contributors",
+      "sourceUrl": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
+      "publishedAt": "2026-04-07",
+      "summary": "Google rolled out a Gemini-powered feature in Google Maps that automatically generates caption suggestions when users upload photos of places. The feature is available in English on iOS in the US, with global and Android expansion planned for the coming months. It is one of several integrations Alphabet has made to weave Gemini into consumer-facing apps that run on Maps' Local Guides contributor network, making AI assistance ambient in everyday product interactions.",
+      "keyConcepts": [
+        "Multimodal AI in consumer products",
+        "On-device vs. cloud inference in mobile apps",
+        "AI-assisted content generation at scale",
+        "Product integration of foundation models"
+      ],
+      "whyItMatters": "This rollout illustrates the pattern that matters most for product engineers in 2026: foundation models are being embedded as ambient features inside existing apps, not launched as standalone tools — understanding when and how to integrate AI at this layer is a core product and engineering skill.",
+      "tags": ["google", "gemini", "google-maps", "multimodal", "product-ai"],
+      "relatedIds": ["article-openai-safety-fellowship"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary pattern illustrated by Google's Gemini integration into Maps?",
+          "options": [
+            "AI tools are replacing Maps entirely with a new product",
+            "Foundation models are being embedded as ambient features inside existing apps rather than launched standalone",
+            "Google is migrating all users from Maps to a new Gemini-only product",
+            "AI caption generation requires local on-device models exclusively"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Maps caption feature exemplifies how major tech companies are deploying AI in 2026: not as replacement products but as embedded capabilities inside apps that hundreds of millions already use. This 'AI as infrastructure' approach affects how product and engineering teams should think about integration points."
+        },
+        {
+          "question": "Why does launching first on iOS in the US (before Android globally) represent a common AI feature rollout strategy?",
+          "options": [
+            "Google does not support Android for AI features",
+            "iOS users are the only ones who want AI-generated captions",
+            "Staged rollouts allow teams to detect quality or safety issues in a controlled user segment before wider deployment",
+            "The feature requires hardware that only exists in Apple devices"
+          ],
+          "correctIndex": 2,
+          "explanation": "Staged geographic and platform rollouts — iOS US first, then Android, then global — let teams monitor real-world model outputs, surface edge cases, and tune moderation before exposing the feature to the full user base. This is standard practice for AI features where outputs can be unpredictable at scale."
+        }
+      ]
+    }
+  ]
+}
