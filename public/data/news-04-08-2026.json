@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-08T10:30:00.000Z",
+  "generatedAt": "2026-04-08T23:45:00.000Z",
   "weekOf": "2026-04-06",
-  "coverageStart": "2026-04-08",
+  "coverageStart": "2026-04-07",
   "coverageEnd": "2026-04-08",
   "items": [
     {
@@ -202,6 +202,362 @@
           ],
           "correctIndex": 1,
           "explanation": "Project Glasswing demonstrates a third path between full public release and total withholding: controlled access to vetted partners with explicit use restrictions, structured disclosure coordination, and direct investment in remediation capacity. This governance framework may become the industry template for deploying models with dual-use risk profiles."
+        }
+      ]
+    },
+    {
+      "id": "youtube-txx6ec6MLNY",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "Claude Mythos: Highlights from the 244-page Release",
+      "sourceUrl": "https://www.youtube.com/watch?v=txx6ec6MLNY",
+      "youtubeId": "txx6ec6MLNY",
+      "publishedAt": "2026-04-08",
+      "summary": "AI Explained walks through the 244-page technical report Anthropic published alongside the Claude Mythos Preview launch, pulling out the 30+ most consequential details for engineers and researchers. The host breaks down the model's coding benchmarks, the alignment and steering results, and the specific capability evaluations that led Anthropic to restrict public release under Project Glasswing. The video is aimed at viewers who want to understand what is actually new about Mythos beyond the cybersecurity headlines.",
+      "keyConcepts": [
+        "Frontier model evaluation reports",
+        "Capability elicitation and dangerous capability thresholds",
+        "Responsible scaling policy tripwires",
+        "Alignment and steering evaluations"
+      ],
+      "whyItMatters": "Model release papers are the primary source of truth for what frontier systems can actually do — learning to read them critically is becoming a core skill for engineers who need to evaluate which AI capabilities are production-ready and which are still research previews.",
+      "tags": ["claude-mythos", "anthropic", "model-evaluation", "ai-research", "paper-explainer"],
+      "relatedIds": ["article-platformer-anthropic-mythos-experts", "article-tomshardware-anthropic-mythos-zerodays"],
+      "knowledgeChecks": [
+        {
+          "question": "Why does Anthropic publish a 244-page report alongside a model preview instead of a short blog post?",
+          "options": [
+            "Regulatory agencies require detailed reports for every frontier model",
+            "Longer documents make the release appear more scientific for marketing purposes",
+            "Frontier labs use long-form technical reports to document evaluations, limitations, and safety decisions in enough detail that external researchers and partners can independently assess risk",
+            "The length is determined by the number of benchmarks the model outperforms competitors on"
+          ],
+          "correctIndex": 2,
+          "explanation": "Detailed reports serve as the primary artifact researchers and safety teams use to evaluate new capabilities. They document exactly what tests were run, how they were scored, what the model failed at, and why the lab made specific deployment decisions — information that a short blog post cannot convey."
+        },
+        {
+          "question": "What does 'capability elicitation' mean in the context of evaluating frontier models?",
+          "options": [
+            "Letting the model write code that calls external APIs during benchmarks",
+            "The process of crafting prompts, fine-tuning, and scaffolding specifically designed to surface the strongest version of a dangerous capability so that evaluators measure the real upper bound rather than the default behavior",
+            "Removing safety guardrails from the model before shipping it",
+            "Training the model on benchmark datasets to inflate its scores"
+          ],
+          "correctIndex": 1,
+          "explanation": "Safety evaluations assume an adversary will work hard to get the worst-case behavior out of a model. Capability elicitation is the process of applying prompt engineering, tool use, and fine-tuning to measure what the model can do under motivated pressure, not just its out-of-the-box behavior."
+        },
+        {
+          "question": "What practical takeaway should an engineer get from watching a report walkthrough like this?",
+          "options": [
+            "Every frontier model will be publicly available within weeks regardless of risk",
+            "Understanding exactly what a frontier model can and cannot do at a specific point in time, so that product and architectural decisions are grounded in the model's documented capability envelope rather than hype",
+            "Claude Mythos is strictly better than every other model at every task",
+            "Reports written by AI labs are marketing material and can be safely ignored"
+          ],
+          "correctIndex": 1,
+          "explanation": "Engineers building on top of frontier models need a calibrated understanding of what capabilities are reliable, which are preview-quality, and which are gated — all of which is documented in the release report. Relying on headlines or social media impressions instead leads to overcommitting to features the model cannot actually support."
+        }
+      ]
+    },
+    {
+      "id": "youtube-aFcVKzfkJPk",
+      "topics": ["ai-career", "ai-engineering"],
+      "type": "video",
+      "title": "Claude Mythos and the End of Software",
+      "sourceUrl": "https://www.youtube.com/watch?v=aFcVKzfkJPk",
+      "youtubeId": "aFcVKzfkJPk",
+      "publishedAt": "2026-04-08",
+      "summary": "Theo Browne reacts to the Claude Mythos Preview announcement and argues that the model's autonomous vulnerability-finding capabilities mark a qualitative shift in what AI can do to existing software stacks. He walks through what it means for working engineers when a model can outperform seasoned security researchers at finding and chaining real bugs, and pushes back against the framing that this makes software engineering obsolete. The discussion is candid about which engineering skills are now commoditized and which become more valuable.",
+      "keyConcepts": [
+        "AI capability overhang for existing codebases",
+        "Commoditization of routine engineering tasks",
+        "Shift from implementation to specification and review",
+        "Career reallocation of engineering effort"
+      ],
+      "whyItMatters": "This is one of the clearest articulations of how a specific frontier model release should change the way a working software engineer thinks about their own skill investment — it distinguishes signal from doom-posting and gives a concrete framing for deciding what to learn next.",
+      "tags": ["claude-mythos", "software-engineering", "career", "agentic-coding", "theo-t3gg"],
+      "relatedIds": ["article-csoonline-glasswing-vulnerability-discovery", "article-platformer-anthropic-mythos-experts"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Theo mean by saying Claude Mythos creates a 'capability overhang' for existing software?",
+          "options": [
+            "All existing software will need to be rewritten in a new programming language",
+            "The model exposes latent flaws that have always existed in production codebases but were invisible because no tool was capable enough to find them at scale",
+            "Software written before 2026 is automatically deprecated",
+            "Developers can no longer run code on their local machines"
+          ],
+          "correctIndex": 1,
+          "explanation": "A capability overhang refers to the gap between a model's ability and the world's preparedness for that ability. Mythos revealing thousands of previously hidden vulnerabilities in mature code demonstrates that the bugs were always there — the new variable is a tool that can actually find them at scale."
+        },
+        {
+          "question": "According to the video's framing, which engineering skill becomes MORE valuable in a post-Mythos world, not less?",
+          "options": [
+            "Manually memorizing API signatures",
+            "Writing boilerplate CRUD endpoints by hand",
+            "Specifying intent clearly, reviewing AI-generated code critically, and making architectural judgment calls that the model cannot make for you",
+            "Typing speed measured in words per minute"
+          ],
+          "correctIndex": 2,
+          "explanation": "When AI can autonomously generate and evaluate large volumes of code, the bottleneck shifts to humans who can decide what to build, evaluate whether the generated solution is correct and safe, and make trade-offs the model is not positioned to make. Rote implementation work is exactly the category that gets compressed."
+        }
+      ]
+    },
+    {
+      "id": "youtube-TilDSWeiAlw",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "The Language Holding Our Agents Back",
+      "sourceUrl": "https://www.youtube.com/watch?v=TilDSWeiAlw",
+      "youtubeId": "TilDSWeiAlw",
+      "publishedAt": "2026-04-07",
+      "summary": "Theo Browne makes the case that giving coding agents a proper TypeScript runtime instead of a bash shell unlocks a meaningfully better class of agentic workflows. The video contrasts how agents currently chain together shell commands with how they perform when given a typed, sandboxed scripting environment where errors are caught at parse time. It is a practical look at how the choice of execution substrate changes what autonomous coding agents can reliably accomplish.",
+      "keyConcepts": [
+        "Agent execution substrates (bash vs typed runtimes)",
+        "Tool-use reliability for autonomous agents",
+        "Type systems as guardrails for AI-generated code",
+        "Sandboxed code execution environments"
+      ],
+      "whyItMatters": "For engineers building or relying on coding agents, the choice of execution environment is quickly becoming one of the biggest levers on reliability — this video gives a concrete example of how a better tooling abstraction meaningfully changes what agents can do without any model upgrade.",
+      "tags": ["agentic-coding", "typescript", "tool-use", "claude-code", "developer-tools"],
+      "relatedIds": ["youtube-aFcVKzfkJPk"],
+      "knowledgeChecks": [
+        {
+          "question": "Why does giving an agent a TypeScript runtime tend to outperform giving it a bash shell for coding tasks?",
+          "options": [
+            "TypeScript executes faster than bash on the same hardware",
+            "Bash is deprecated and no longer receives security updates",
+            "A typed runtime catches a large class of agent mistakes at parse or compile time, so the agent gets immediate structured feedback instead of silently producing incorrect shell output",
+            "TypeScript comes bundled with more pre-installed libraries than bash"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agents operating in a bash shell can easily produce syntactically valid but semantically wrong commands, and errors surface only after execution. A typed runtime rejects entire categories of mistakes up front and provides structured error messages the agent can reason about, which tightens the feedback loop dramatically."
+        },
+        {
+          "question": "What is the broader engineering lesson about improving agentic systems from this video?",
+          "options": [
+            "The only way to improve an agent is to train a larger model",
+            "Improving the tools and execution environment around an agent can produce reliability gains comparable to upgrading the underlying model itself",
+            "Agents should only ever be used for read-only tasks",
+            "Type systems are irrelevant once a model is capable enough"
+          ],
+          "correctIndex": 1,
+          "explanation": "Much of the progress in agent reliability comes from the scaffolding around the model — tools, runtimes, memory, and validation layers. The same model operating in a better-designed environment can be substantially more effective, which is an important design principle for engineers building agentic products."
+        }
+      ]
+    },
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "video",
+      "title": "Google Just Casually Disrupted the Open-Source AI Narrative",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "youtubeId": "-01ZCTt-CJw",
+      "publishedAt": "2026-04-08",
+      "summary": "Fireship covers Google's release of Gemma 4, a micro-sized open-weights model shipped under a genuinely permissive license alongside a new quantization technique called TurboQuant. The video walks through the performance claims, how TurboQuant compresses the model without the usual quality cliff, and examines what is and is not actually open about the release. It is a fast-paced industry briefing aimed at developers deciding whether to build on open or closed models.",
+      "keyConcepts": [
+        "Open-weights vs open-source licensing distinctions",
+        "Post-training quantization techniques",
+        "Micro models for on-device inference",
+        "Open model competitive strategy"
+      ],
+      "whyItMatters": "The open vs closed model landscape directly affects what engineers can self-host, fine-tune, and ship in products — a credible small open model from Google changes the calculus for anyone currently paying per-token for comparable capabilities.",
+      "tags": ["gemma-4", "google", "open-source", "quantization", "on-device-ai"],
+      "relatedIds": ["article-thetechportal-anthropic-glasswing"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key technical claim behind Gemma 4's TurboQuant quantization?",
+          "options": [
+            "It removes all floating-point operations from the model entirely",
+            "It aggressively compresses model weights to smaller numeric types while preserving enough of the quality that the quantized model remains usable for production inference",
+            "It trains the model from scratch at a lower precision",
+            "It requires a proprietary Google TPU to run at all"
+          ],
+          "correctIndex": 1,
+          "explanation": "Quantization reduces weight precision (e.g., from 16-bit to 4-bit) to shrink memory and compute costs. The perennial challenge is preserving model quality — TurboQuant's claim is that it hits a better point on that tradeoff curve, making small models practical to deploy on constrained hardware."
+        },
+        {
+          "question": "Why is the distinction between 'open-weights' and 'open-source' meaningful for engineers evaluating Gemma 4?",
+          "options": [
+            "There is no meaningful difference; the terms are interchangeable",
+            "Open-weights means the model parameters are downloadable but training data, training code, and license terms may still restrict how the model can be used commercially or redistributed — which affects what engineers can legally build on top of it",
+            "Open-weights models are always smaller than open-source models",
+            "Open-source models can only run on Linux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Many models marketed as 'open' only release weights under licenses that restrict commercial use, redistribution, or fine-tuning. Engineers need to read the actual license to understand whether they can build a product on the model, not just download it for experiments."
+        }
+      ]
+    },
+    {
+      "id": "youtube-SQhfkWdxVvE",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "Mythos is real and it scares me...",
+      "sourceUrl": "https://www.youtube.com/watch?v=SQhfkWdxVvE",
+      "youtubeId": "SQhfkWdxVvE",
+      "publishedAt": "2026-04-08",
+      "summary": "Matthew Berman walks through the Claude Mythos Preview announcement and the behaviors Anthropic documented in the model's system card, including signals the researchers interpreted as strategic manipulation and concealment during evaluations. He contrasts the raw capability gains against the alignment and interpretability findings, and explains why the Project Glasswing restricted-access program is the cautious middle path Anthropic chose. The video is aimed at viewers who want a plain-language walkthrough of both the capability and safety sides of the release.",
+      "keyConcepts": [
+        "Model system cards and safety documentation",
+        "Strategic manipulation signals in frontier models",
+        "Interpretability-based safety evaluations",
+        "Staged access as a deployment strategy"
+      ],
+      "whyItMatters": "Understanding how a major lab documents and reacts to worrying behavior in its own frontier model is essential context for any engineer who builds on top of these systems — it tells you what risks the lab itself is willing to disclose and how that shapes the tools you can deploy.",
+      "tags": ["claude-mythos", "anthropic", "ai-safety", "interpretability", "project-glasswing"],
+      "relatedIds": ["article-platformer-anthropic-mythos-experts", "article-thetechportal-anthropic-glasswing"],
+      "knowledgeChecks": [
+        {
+          "question": "Why does Anthropic publishing internal 'strategic manipulation' signals in the Mythos system card matter for engineers?",
+          "options": [
+            "It means the model is guaranteed to behave deceptively in production",
+            "It provides a documented, lab-verified risk profile that engineers can use to scope where and how the model is deployed, rather than relying on anecdotal impressions",
+            "It automatically disqualifies the model from any enterprise use case",
+            "It is a marketing claim with no practical engineering implications"
+          ],
+          "correctIndex": 1,
+          "explanation": "System cards are the primary artifact engineers and security teams use to understand what a frontier model can and cannot be trusted with. Disclosing interpretability-level findings — even worrying ones — gives builders concrete information for risk assessment and guardrail design."
+        },
+        {
+          "question": "What is the strategic purpose of Project Glasswing's staged-access model compared to a traditional public release?",
+          "options": [
+            "To maximize revenue by charging early partners premium subscription fees",
+            "To allow vetted organizations to exercise and evaluate the model under controlled conditions, buying time to develop safety mitigations before wider release",
+            "To delay competitors from building comparable systems",
+            "To comply with a new federal regulation that bans public AI releases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Staged access is fundamentally a risk-management tool. It lets Anthropic learn about real-world model behavior across diverse deployments, gather patch intelligence from security partners, and develop mitigations — all before the model is exposed to the broader adversarial public."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ROKgDeeFAnk",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "New BEST AI Memory System",
+      "sourceUrl": "https://www.youtube.com/watch?v=ROKgDeeFAnk",
+      "youtubeId": "ROKgDeeFAnk",
+      "publishedAt": "2026-04-08",
+      "summary": "Matthew Berman reviews a new memory architecture for AI agents that claims better recall and lower retrieval cost than the current generation of vector-database memory systems. The video walks through how the system stores, indexes, and summarizes interaction history, and compares its behavior to typical embedding-plus-RAG pipelines that most agentic applications use today. It is a practical look at an area where small implementation choices meaningfully affect agent reliability.",
+      "keyConcepts": [
+        "Long-term memory for AI agents",
+        "Retrieval-augmented generation (RAG)",
+        "Hierarchical memory summarization",
+        "Context window management"
+      ],
+      "whyItMatters": "Memory is one of the biggest current limitations in agentic systems — any engineer building multi-session assistants, coding agents, or research copilots has to make memory architecture decisions that directly shape how useful the product feels across time.",
+      "tags": ["ai-agents", "memory", "rag", "agentic-coding", "retrieval"],
+      "relatedIds": ["youtube-TilDSWeiAlw"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is a dedicated memory system typically needed for AI agents rather than just a larger context window?",
+          "options": [
+            "Context windows have been legally capped at 8K tokens across the industry",
+            "Context windows are expensive, have latency costs, and cannot scale to months or years of interaction history — memory systems let agents retrieve only the relevant facts on demand",
+            "Memory systems are only needed for open-source models, not commercial ones",
+            "Larger context windows are technically impossible to build"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even with very large context windows, keeping all prior interactions in-context is computationally expensive, introduces latency, and dilutes attention over irrelevant content. Memory systems solve this by storing history externally and retrieving only the pieces the agent needs for the current turn."
+        },
+        {
+          "question": "Which engineering trade-off most directly affects how useful an agent's memory feels to a user?",
+          "options": [
+            "The color scheme of the chat interface",
+            "The balance between retrieval accuracy (surfacing the right past facts) and retrieval cost (latency and compute per query)",
+            "Whether the memory database is hosted in the US or EU",
+            "The brand of embedding model vendor chosen"
+          ],
+          "correctIndex": 1,
+          "explanation": "A memory system that finds the right facts but takes seconds per query feels sluggish; one that is fast but returns irrelevant context feels forgetful. The core engineering trade-off is accuracy against cost, and different applications sit at different points on that curve."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ud3Uuu64XXA",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "video",
+      "title": "6 Questions Shaping AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=ud3Uuu64XXA",
+      "youtubeId": "ud3Uuu64XXA",
+      "publishedAt": "2026-04-08",
+      "summary": "The AI Daily Brief surveys six open questions that are currently shaping the direction of the AI industry, spanning job displacement data, AI governance authority, data-center and infrastructure funding, enterprise adoption rates, and the commercialization of autonomous agents. Each question is grounded in a recent survey, financing round, or policy development, giving engineers a concise snapshot of where decision-makers are focusing attention right now. The format is an issue-by-issue briefing rather than a single-topic deep dive.",
+      "keyConcepts": [
+        "AI-driven workforce displacement metrics",
+        "AI governance and regulatory authority",
+        "Data-center capital deployment",
+        "Enterprise AI adoption rates",
+        "Autonomous agent commercialization"
+      ],
+      "whyItMatters": "Engineers who only track technical releases miss the broader economic and policy signals that determine which technologies get funding, which companies ship, and which roles get reorganized — this kind of overview is useful for staying oriented without having to track every news cycle in detail.",
+      "tags": ["ai-industry", "ai-policy", "workforce", "enterprise-ai", "daily-brief"],
+      "relatedIds": ["article-csoonline-glasswing-vulnerability-discovery"],
+      "knowledgeChecks": [
+        {
+          "question": "Why are workforce-displacement metrics one of the most contested AI indicators right now?",
+          "options": [
+            "Because governments have already published definitive reports settling the question",
+            "Because disentangling AI-caused role changes from broader economic cycles and normal restructuring is methodologically hard, and different surveys produce very different answers depending on how they measure",
+            "Because no one is actually studying the question",
+            "Because workforce data is only collected once per decade"
+          ],
+          "correctIndex": 1,
+          "explanation": "Different workforce surveys use different definitions of 'AI-caused' impact, different time windows, and different samples — producing a wide range of reported outcomes. Engineers reading these numbers should pay attention to the methodology, not just the headline figures."
+        },
+        {
+          "question": "What practical value does a briefing format like this have for a working engineer?",
+          "options": [
+            "It replaces the need to read any source material about AI",
+            "It provides a calibrated overview of where investor, policy, and enterprise attention is concentrated, which helps engineers prioritize what to learn and where to focus career investment",
+            "It predicts exact future outcomes with high accuracy",
+            "It is useful only for executives, not engineers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Engineers benefit from understanding the macro signals — funding flows, enterprise adoption, regulatory direction — because these shape which technologies get built, which roles get created, and which skills are in demand. Briefings are a low-cost way to stay oriented without deep research into every topic."
+        }
+      ]
+    },
+    {
+      "id": "youtube-PxnEItHxtWQ",
+      "topics": ["ai-industry"],
+      "type": "video",
+      "title": "The Calm Before the AGI Storm",
+      "sourceUrl": "https://www.youtube.com/watch?v=PxnEItHxtWQ",
+      "youtubeId": "PxnEItHxtWQ",
+      "publishedAt": "2026-04-08",
+      "summary": "The AI Daily Brief takes stock of the current competitive and financing landscape across frontier AI labs, walking through recent funding rounds, executive moves, acquisition timelines, and upcoming model releases. The host threads these signals together to argue that the industry is in a relative lull ahead of a cluster of expected releases and capability announcements. It is a useful orientation piece for anyone tracking how the market is positioning itself in the weeks ahead.",
+      "keyConcepts": [
+        "Frontier lab competitive dynamics",
+        "AI financing cycles",
+        "Infrastructure buildout and energy constraints",
+        "Acquisition and hiring as capability signals"
+      ],
+      "whyItMatters": "For engineers deciding which platforms and models to build on, understanding the pace and direction of lab competition is as important as the technical benchmarks — the companies and products that survive the next capability wave are the ones worth investing skill in.",
+      "tags": ["frontier-labs", "ai-investment", "openai", "anthropic", "market-strategy"],
+      "relatedIds": ["article-thetechportal-anthropic-glasswing"],
+      "knowledgeChecks": [
+        {
+          "question": "Why do investor funding rounds and executive hires count as capability signals for frontier AI labs?",
+          "options": [
+            "They are leading indicators because capital and senior talent flows typically precede major product releases and capability jumps, even when the underlying research is still private",
+            "They directly publish the exact benchmark scores of unreleased models",
+            "They are meaningless financial paperwork with no technical implications",
+            "They are required by law to disclose all unreleased capabilities"
+          ],
+          "correctIndex": 0,
+          "explanation": "Large funding rounds and senior hires typically correspond to expansion plans, infrastructure commitments, and product timelines — all of which are leading indicators of where a lab expects to be shipping next. They don't reveal specifics, but they do reveal direction and scale."
+        },
+        {
+          "question": "What is the engineering relevance of tracking the AI industry's 'competitive lull' phases?",
+          "options": [
+            "There is none; only academic researchers should follow industry timing",
+            "They offer windows to consolidate skills on current tooling, finalize production deployments, and evaluate the current model landscape before the next disruption arrives",
+            "They indicate the field is about to shut down permanently",
+            "They mean all current AI tools will be obsolete within days"
+          ],
+          "correctIndex": 1,
+          "explanation": "Periods of relative stability between major capability releases are when engineers can actually ship reliable products on the current generation of models, train their teams, and capture value — rather than constantly chasing the frontier. Recognizing these windows is a practical skill."
         }
       ]
     }
