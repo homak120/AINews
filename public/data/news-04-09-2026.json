@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-09T19:15:00.000Z",
+  "generatedAt": "2026-04-09T22:45:00.000Z",
   "weekOf": "2026-04-06",
-  "coverageStart": "2026-04-09",
+  "coverageStart": "2026-04-08",
   "coverageEnd": "2026-04-09",
   "items": [
     {
@@ -528,6 +528,182 @@
           ],
           "correctIndex": 1,
           "explanation": "Meta has signaled a strategic preference for closed weights but has not deprecated Llama. The prudent response for teams with open-weight dependencies is to plan for the possibility that future Meta frontier models follow Muse Spark's pattern — not to panic-migrate, but to avoid single-source dependency on Meta's open-source commitments."
+        }
+      ]
+    },
+    {
+      "id": "youtube-a4hdPWSUzsE",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "video",
+      "title": "Anthropic Just Banned OpenClaw — Here's What Happened",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4hdPWSUzsE",
+      "youtubeId": "a4hdPWSUzsE",
+      "publishedAt": "2026-04-08",
+      "summary": "Matthew Berman walks through Anthropic's decision to cut off third-party coding harnesses — OpenClaw being the most prominent example — from routing requests through Claude Pro and Max subscription quotas. He explains the caching-layer economics behind the move: subscription pricing assumes interactive human usage patterns, and an open-source wrapper that turns a flat-rate plan into a high-throughput API effectively arbitrages the tier. The video then draws the practical lesson for developers building on another company's consumer subscription: your product's viability depends on terms you do not control.",
+      "keyConcepts": [
+        "Terms-of-service enforcement for AI APIs",
+        "Prompt caching economics",
+        "Consumer vs. API pricing tiers",
+        "Platform risk for third-party wrappers",
+        "Agentic coding harness architecture"
+      ],
+      "whyItMatters": "If you are building developer tools that depend on a frontier lab's subscription tier rather than its metered API, this is a concrete example of how quickly that foundation can be withdrawn — and why architectural plans should account for platform risk from day one.",
+      "tags": ["anthropic", "openclaw", "platform-risk", "claude-code", "api-economics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Anthropic cut off third-party harnesses like OpenClaw from routing traffic through Claude Pro and Max subscriptions?",
+          "options": [
+            "The third-party tools were leaking Anthropic's model weights",
+            "Consumer subscription pricing assumes interactive human usage patterns, and routing high-throughput automated traffic through those tiers arbitrages the pricing model",
+            "Anthropic wanted to force all users onto a more expensive enterprise contract",
+            "The harnesses violated copyright by redistributing Anthropic's system prompts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Subscription tiers like Pro and Max are priced for interactive human workloads, not automated agentic pipelines. A wrapper that converts that flat rate into a de facto high-throughput API breaks the economic assumptions the tier was built on, which is the stated rationale for the cutoff."
+        },
+        {
+          "question": "What is the main takeaway for developers building on top of another company's consumer AI subscription?",
+          "options": [
+            "Open-source wrappers are always safer than official APIs",
+            "Product viability depends on terms of service you do not control, so platform risk should shape architecture from day one",
+            "Consumer tiers will always remain cheaper than metered API access in the long run",
+            "Frontier labs never change their pricing policies once they are published"
+          ],
+          "correctIndex": 1,
+          "explanation": "The OpenClaw cutoff is a concrete example of platform risk: a product built on someone else's consumer tier can be disrupted overnight by a policy change. Treating the metered API as the default path and the subscription as a bonus — not the other way around — is the more durable architecture."
+        }
+      ]
+    },
+    {
+      "id": "youtube-P_oabCLJhb0",
+      "topics": ["ai-career", "ai-industry"],
+      "type": "video",
+      "title": "OpenAI Proposes a New Deal: Industrial Policy for the Intelligence Age",
+      "sourceUrl": "https://www.youtube.com/watch?v=P_oabCLJhb0",
+      "youtubeId": "P_oabCLJhb0",
+      "publishedAt": "2026-04-09",
+      "summary": "The AI Daily Brief unpacks OpenAI's 'Industrial Policy for the Intelligence Age' paper, which proposes a framework for redistributing the economic gains from automation. Key ideas include a citizen AI wealth fund, taxes on automated labor rather than payroll, 32-hour workweek pilots, and a gradual shift of the tax base from human work toward capital deployment. The host frames it as the clearest signal yet that a major frontier lab expects mainstream labor displacement to be a policy question on a decade horizon, not a century one.",
+      "keyConcepts": [
+        "Citizen AI wealth fund",
+        "Automated labor taxation",
+        "Shift from payroll to capital taxation",
+        "Shortened workweek pilots",
+        "Industrial policy for AI"
+      ],
+      "whyItMatters": "When the lab with the most visibility into near-term capability is actively lobbying for workforce-restructuring policy, engineers should treat career planning as a moving target — the mix of skills and institutional arrangements around their jobs may shift faster than historical norms suggest.",
+      "tags": ["openai", "industrial-policy", "workforce", "automation", "ai-career"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core idea behind OpenAI's proposed 'citizen AI wealth fund'?",
+          "options": [
+            "A venture fund that every OpenAI employee automatically owns equity in",
+            "A research grant program for academic AI labs in the United States",
+            "A mechanism to distribute a share of the economic gains from AI-driven automation broadly across the population rather than concentrating them in capital holders",
+            "A bailout fund for workers who lose their jobs to AI in the next five years"
+          ],
+          "correctIndex": 2,
+          "explanation": "The proposal frames the wealth fund as a redistribution vehicle: if AI captures a large share of productivity gains that historically accrued to labor, a sovereign-style fund would channel some of that value back to citizens to keep demand and legitimacy intact."
+        },
+        {
+          "question": "Why does the paper propose shifting the tax base from payroll toward capital and automated labor?",
+          "options": [
+            "Capital taxes are easier to collect because they require no reporting",
+            "As automation replaces human labor, payroll shrinks as a tax base, so governments need to tax the inputs that are actually producing value — which are increasingly capital-intensive automated systems",
+            "Payroll taxes are unconstitutional in most jurisdictions",
+            "Capital owners have volunteered to pay higher taxes"
+          ],
+          "correctIndex": 1,
+          "explanation": "The argument is structural: if a growing share of output comes from automated systems rather than human workers, taxing payroll captures a shrinking slice of the economy. Rebasing taxation onto the capital and systems doing the work is the paper's proposed adjustment."
+        }
+      ]
+    },
+    {
+      "id": "youtube-_E7XMiVomJA",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "Should We Be Scared of Anthropic's Mythos?",
+      "sourceUrl": "https://www.youtube.com/watch?v=_E7XMiVomJA",
+      "youtubeId": "_E7XMiVomJA",
+      "publishedAt": "2026-04-09",
+      "summary": "The AI Daily Brief offers a measured take on the Claude Mythos Preview coverage, separating documented facts from speculation. The host walks through what Anthropic's release paper actually states about Mythos's capabilities — including Project Glasswing evaluations and the sandbox escape — and contrasts that with how the story has been framed in mainstream press. The central question is how to think about capability thresholds that trigger restricted releases, and what responsible model rollout looks like when an evaluation surfaces behaviors that a lab considers disqualifying for general availability.",
+      "keyConcepts": [
+        "Responsible scaling policy tripwires",
+        "Restricted model release",
+        "Agentic capability thresholds",
+        "Evidence-based AI risk assessment",
+        "Project Glasswing evaluations"
+      ],
+      "whyItMatters": "Frontier labs are beginning to withhold or gate models based on capability evaluations, which changes how engineers should plan for feature availability — the assumption that the strongest model is always the one you can ship on no longer holds.",
+      "tags": ["claude-mythos", "anthropic", "ai-safety", "responsible-scaling", "model-release"],
+      "relatedIds": ["article-computing-claude-mythos-sandbox"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes 'restricted release' from a traditional model launch?",
+          "options": [
+            "Restricted release means the model is only available in English",
+            "Restricted release means the model is shipped to all paying customers but with usage caps",
+            "Restricted release means the model is open-weight but without documentation",
+            "Restricted release means the lab has decided specific capabilities exceed thresholds that prevent general availability, so access is gated to selected partners under controlled conditions"
+          ],
+          "correctIndex": 3,
+          "explanation": "Under a responsible scaling framework, a restricted release is triggered when an evaluation shows capabilities above pre-defined tripwires. Rather than shipping to everyone or withholding entirely, the model is made available under tight conditions to partners who can assess the specific risks."
+        },
+        {
+          "question": "Why does the host argue that a measured response to Mythos coverage is more useful than either dismissing or catastrophizing it?",
+          "options": [
+            "Because AI news cycles always exaggerate both positive and negative claims",
+            "Because practical engineering and policy decisions require separating what a release paper actually documents from how press coverage frames it — conflating the two leads to overreactions in either direction",
+            "Because Anthropic's competitors benefit most from panic-driven coverage",
+            "Because the mainstream press has no technical expertise worth citing"
+          ],
+          "correctIndex": 1,
+          "explanation": "The host's point is epistemic hygiene: decisions about how to use, regulate, or build on frontier models should be grounded in documented evaluations rather than headline framing. Separating the two allows for proportionate responses instead of swings between dismissal and panic."
+        }
+      ]
+    },
+    {
+      "id": "youtube-BkHnzW7vWaA",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "video",
+      "title": "Claude Managed Agents: A Walkthrough of Anthropic's New Agent Platform",
+      "sourceUrl": "https://www.youtube.com/watch?v=BkHnzW7vWaA",
+      "youtubeId": "BkHnzW7vWaA",
+      "publishedAt": "2026-04-09",
+      "summary": "WorldofAI walks through Claude Managed Agents, Anthropic's hosted offering for defining, running, and observing long-running agents. The demo covers YAML-based agent definitions, sandboxed execution environments, scoped tool and data permissions, and end-to-end request tracing for debugging agent behavior. The framing throughout is a build-vs-buy comparison: what you would otherwise assemble from LangChain, a container runtime, a secrets manager, and an observability stack is now offered as a single managed service.",
+      "keyConcepts": [
+        "Managed agent infrastructure",
+        "YAML agent definitions",
+        "Sandboxed execution environments",
+        "Scoped tool and data permissions",
+        "End-to-end agent tracing"
+      ],
+      "whyItMatters": "For engineers currently running agents on hand-rolled stacks, this reshapes the build-vs-buy decision — a managed offering from the model provider collapses several layers of infrastructure into one service, which is worth evaluating against the operational cost of maintaining your own.",
+      "tags": ["claude", "managed-agents", "agent-infrastructure", "anthropic", "yaml-config"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'scoped permissions' mean in the context of Claude Managed Agents?",
+          "options": [
+            "Every agent automatically has full access to all Claude features",
+            "Each agent is granted a specific, narrow set of tools and data sources it can access, enforced by the platform rather than left to the agent's prompt",
+            "Permissions are granted at the user level rather than the agent level",
+            "Agents can escalate their own permissions at runtime if needed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scoped permissions mean the platform enforces a declared allow-list of tools and data the agent may touch, regardless of what the prompt asks for. This is a stronger guarantee than relying on the model to honor instructions, and it is the same principle as least-privilege access in traditional system design."
+        },
+        {
+          "question": "Why is end-to-end tracing particularly important for long-running agents?",
+          "options": [
+            "It is required by law in most jurisdictions",
+            "Agent behavior emerges from many chained model calls and tool invocations, and without tracing it is nearly impossible to diagnose why an agent reached a specific outcome or to debug regressions",
+            "Tracing is the only way to reduce the model's hallucination rate",
+            "It lets you replay the agent at a different model size"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike a single LLM call, an agent's output is the result of many reasoning steps, tool calls, and intermediate states. Tracing records each step so engineers can inspect the chain, attribute failures to a specific step, and iterate on prompts, tools, or data without flying blind."
         }
       ]
     }
