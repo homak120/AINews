@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-04-10T18:00:00Z",
+  "weekOf": "2026-04-06",
+  "coverageStart": "2026-04-10",
+  "coverageEnd": "2026-04-10",
+  "items": [
+    {
+      "id": "article-cnbc-powell-bessent-mythos-banks",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "Fed Chair and Treasury Secretary Call Emergency Meeting with Bank CEOs Over Anthropic AI Model Risks",
+      "sourceUrl": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
+      "publishedAt": "2026-04-10",
+      "summary": "Federal Reserve Chair Jerome Powell and Treasury Secretary Scott Bessent convened an urgent meeting with major U.S. bank CEOs on April 10 to discuss cybersecurity risks posed by Anthropic's Claude Mythos model. The meeting signals that financial regulators now view frontier AI as a systemic risk — Mythos has demonstrated the ability to identify and exploit critical vulnerabilities across every major operating system and web browser, including zero-days that survived decades of human review. Banks were briefed on threat scenarios where the model, if misused, could compromise financial infrastructure.",
+      "keyConcepts": [
+        "Systemic cybersecurity risk",
+        "Frontier AI dual-use hazard",
+        "Financial sector AI threat modeling",
+        "Regulatory response to AI capabilities"
+      ],
+      "whyItMatters": "When financial regulators convene emergency sessions over an AI model's capabilities, it signals a fundamental shift in how government views frontier AI as systemic infrastructure risk — a harbinger of new compliance requirements for anyone building on or deploying these models.",
+      "tags": ["anthropic", "mythos", "cybersecurity", "financial-regulation", "ai-governance"],
+      "relatedIds": ["article-technologyreview-ai-dangerous-models", "article-dataconomy-openai-cyber-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "What prompted Powell and Bessent to call an emergency meeting with bank CEOs on April 10, 2026?",
+          "options": [
+            "Declining bank profits from AI investments",
+            "Potential for Claude Mythos to be used to compromise financial infrastructure",
+            "New cryptocurrency regulations related to AI systems",
+            "Proposed merger between OpenAI and a major bank"
+          ],
+          "correctIndex": 1,
+          "explanation": "Powell and Bessent briefed bank CEOs on threat scenarios where Mythos — capable of identifying and exploiting critical vulnerabilities across major operating systems — could be weaponized against financial infrastructure if it fell into the wrong hands."
+        },
+        {
+          "question": "Why does a government emergency meeting about an AI model's capabilities matter to software engineers?",
+          "options": [
+            "It doesn't — only financial analysts need to understand regulatory risk",
+            "It signals engineers will need special government licenses to use AI APIs",
+            "It foreshadows compliance requirements for companies that build on or deploy frontier AI models",
+            "It means all AI APIs will be shut down within six months"
+          ],
+          "correctIndex": 2,
+          "explanation": "When regulators convene emergency sessions over an AI capability, it typically precedes new compliance frameworks — engineers building AI-integrated products need to understand how regulatory risk will shape deployment restrictions and due-diligence requirements."
+        }
+      ]
+    },
+    {
+      "id": "article-dataconomy-openai-cyber-mythos",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "article",
+      "title": "OpenAI Plans Specialized Cybersecurity AI Model to Rival Anthropic's Claude Mythos",
+      "sourceUrl": "https://dataconomy.com/2026/04/10/openai-plans-cybersecurity-model-to-rival-anthropics-claude-mythos/",
+      "publishedAt": "2026-04-10",
+      "summary": "OpenAI confirmed plans to launch a specialized cybersecurity AI model through its Trusted Access for Cyber pilot program, directly challenging Anthropic's Claude Mythos — the first frontier model deemed too dangerous for general public release. OpenAI is committing $10 million in API credits to the initial cohort of participating businesses and framing the effort as a 'defensive acceleration' initiative, mirroring Anthropic's Project Glasswing. Both companies are restricting access to curated partners due to the significant dual-use risks posed by models capable of autonomously finding and exploiting software vulnerabilities.",
+      "keyConcepts": [
+        "Dual-use AI models",
+        "Trusted access programs",
+        "Defensive acceleration in cybersecurity",
+        "Frontier model access controls"
+      ],
+      "whyItMatters": "The emergence of competing cybersecurity-specialized frontier models from both OpenAI and Anthropic creates a new category of AI capability that security teams must factor into their threat models — even if they never have direct access to these systems, adversaries may.",
+      "tags": ["openai", "anthropic", "mythos", "cybersecurity", "ai-safety"],
+      "relatedIds": ["article-cnbc-powell-bessent-mythos-banks"],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's 'Trusted Access for Cyber' pilot program?",
+          "options": [
+            "A cybersecurity certification program for ChatGPT users",
+            "A restricted program giving select businesses access to OpenAI's cybersecurity AI model with $10M in API credits",
+            "An initiative to train employees in cybersecurity using AI tutors",
+            "An open-source threat intelligence sharing platform"
+          ],
+          "correctIndex": 1,
+          "explanation": "Trusted Access for Cyber provides restricted access to OpenAI's specialized cybersecurity model, with $10 million in API credits for participating organizations to use the model for defensive security work — mirroring the controlled-access approach Anthropic took with Project Glasswing."
+        },
+        {
+          "question": "What does the emergence of both OpenAI's and Anthropic's cybersecurity AI models indicate about the broader industry?",
+          "options": [
+            "AI labs are replacing traditional cybersecurity vendors entirely",
+            "Frontier AI capabilities for offense and defense have converged, creating new market and risk categories",
+            "Cybersecurity problems are now fully solved by AI",
+            "Both companies are pivoting away from general AI due to regulatory pressure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both companies restricting access to defense-focused models signals that frontier AI capabilities have crossed a threshold where autonomous exploitation is plausible — security teams need to incorporate AI-powered adversaries into their threat models regardless of whether they use these specific models."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-anthropic-custom-chips",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Anthropic Weighs Building Its Own AI Chips as Revenue Run Rate Surpasses $30 Billion",
+      "sourceUrl": "https://www.cnbc.com/2026/04/10/anthropic-weighs-building-its-own-ai-chips-reuters.html",
+      "publishedAt": "2026-04-10",
+      "summary": "Anthropic is in the early stages of evaluating custom AI chip design, joining OpenAI, Meta, and major cloud providers in reducing dependence on third-party silicon. The move follows the company's annualized revenue run rate surpassing $30 billion — up sharply from $9 billion at the end of 2025 — as demand for Claude continues to stress available chip supplies. Anthropic currently relies on a mix of Google TPUs (co-designed with Broadcom), Amazon Trainium, and NVIDIA GPUs; developing custom silicon could provide supply chain control and cost advantages, though chip design runs as high as $500 million and the effort remains exploratory with no formal team or commitment.",
+      "keyConcepts": [
+        "Custom AI chip design",
+        "AI compute supply chain",
+        "Vertical integration in AI infrastructure",
+        "TPU and ASIC development economics"
+      ],
+      "whyItMatters": "Anthropic's chip exploration illustrates how AI labs at scale are compelled to vertically integrate their compute stack — a trend that could concentrate AI infrastructure further among a handful of players and create new supply and pricing dynamics for API consumers.",
+      "tags": ["anthropic", "custom-chips", "ai-infrastructure", "compute", "silicon"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What revenue milestone prompted Anthropic to explore custom chip design?",
+          "options": [
+            "Anthropic's revenue reached $1 billion for the first time",
+            "Anthropic's annualized revenue run rate surpassed $30 billion, up from $9 billion at end of 2025",
+            "Anthropic reported its first quarterly profit",
+            "Anthropic exceeded OpenAI's revenue for the first time"
+          ],
+          "correctIndex": 1,
+          "explanation": "With annualized revenue surpassing $30 billion, Anthropic's compute demand has outpaced reliable supply from its current mix of Google TPUs, Amazon chips, and NVIDIA GPUs — making custom silicon economically viable to explore despite the high upfront investment."
+        },
+        {
+          "question": "What does Anthropic's early-stage chip exploration signal to developers who rely on the Claude API?",
+          "options": [
+            "Claude API pricing will immediately increase tenfold",
+            "Anthropic will shut down the API to focus on hardware",
+            "Long-term compute constraints could lead to capacity limits or pricing changes for API users",
+            "Engineers should switch entirely to open-source models as a precaution"
+          ],
+          "correctIndex": 2,
+          "explanation": "When a provider explores custom silicon due to demand-driven shortages, it signals current compute capacity is constrained — which can translate to API rate limits, increased latency, or pricing adjustments as demand continues to grow faster than chip supply."
+        }
+      ]
+    },
+    {
+      "id": "article-techbriefly-openai-pro-codex",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "OpenAI Launches $100/Month ChatGPT Pro Tier Targeting Heavy Codex and Agentic Coding Users",
+      "sourceUrl": "https://techbriefly.com/2026/04/10/openai-launches-100-chatgpt-pro-plan-for-heavy-codex-users/",
+      "publishedAt": "2026-04-10",
+      "summary": "OpenAI launched a new $100/month Pro subscription tier for ChatGPT, designed to fill the gap between the $20 Plus and $200 Pro plans by offering five times more Codex usage — directly competing with Anthropic's $100/month Claude plan. The tier targets developers running extended Codex agentic coding sessions that exceed Plus capacity but don't require the full $200 plan's breadth. The move signals that developer coding workflows — not casual chat — are now the core battleground for AI subscriptions, with both major frontier labs aligned at the same price point.",
+      "keyConcepts": [
+        "Agentic coding subscriptions",
+        "Codex API usage tiers",
+        "Developer tooling market competition",
+        "AI pricing strategy"
+      ],
+      "whyItMatters": "With both Anthropic's Claude and OpenAI's ChatGPT now positioned at $100/month for developer-focused tiers, engineers can directly compare agentic coding capabilities at the same price — increasing market pressure on both companies to differentiate through actual workflow outcomes.",
+      "tags": ["openai", "codex", "agentic-coding", "chatgpt", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who is the primary target user for OpenAI's new $100/month ChatGPT Pro tier?",
+          "options": [
+            "Casual ChatGPT users who want an ad-free experience",
+            "Enterprise security teams needing GPT-5.4 access",
+            "Developers running extended Codex agentic coding sessions who exceed Plus plan capacity",
+            "OpenAI research partners conducting model evaluations"
+          ],
+          "correctIndex": 2,
+          "explanation": "The $100/month tier was designed specifically for heavy Codex users — developers running long agentic coding sessions that need five times more compute than the $20 Plus plan offers, without paying for the full $200 Pro plan."
+        },
+        {
+          "question": "Why is OpenAI pricing this new tier at exactly $100/month significant?",
+          "options": [
+            "It proves AI coding tools are too expensive for individual developers",
+            "It directly matches Anthropic's Claude plan price, making head-to-head agentic coding comparisons more concrete",
+            "It signals OpenAI is abandoning the consumer market for enterprise exclusively",
+            "It means agentic coding will soon be free due to competitive pressure"
+          ],
+          "correctIndex": 1,
+          "explanation": "With both Anthropic and OpenAI now at $100/month for developer-focused tiers, the competitive line is clearly drawn — developers can compare Codex-powered workflows against Claude Code at identical cost, sharpening the evaluation criteria beyond just pricing."
+        }
+      ]
+    },
+    {
+      "id": "article-technologyreview-ai-dangerous-models",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "A New AI Safety Category Emerges: Frontier Models Labs Build but Refuse to Release",
+      "sourceUrl": "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
+      "publishedAt": "2026-04-10",
+      "summary": "MIT Technology Review examines a new and historically unprecedented category in AI safety: frontier models that labs train but deliberately withhold from general public access due to dual-use risk. Anthropic's Claude Mythos is the first prominent example — a model capable of autonomously identifying, exploiting, and chaining software vulnerabilities into complex system compromises. The piece contextualizes this as a fundamental break from the prevailing 'release and monitor' model deployment philosophy, where capabilities and safeguards were tested together in the wild.",
+      "keyConcepts": [
+        "Withheld frontier models",
+        "Dual-use AI deployment policy",
+        "Vulnerability exploitation via AI",
+        "Responsible AI capability disclosure"
+      ],
+      "whyItMatters": "The emergence of 'trained but withheld' AI models creates new governance categories and security risk surfaces — engineers and architects need to understand how controlled access to such capabilities is managed, and what it means when adversaries seek similar tools through other means.",
+      "tags": ["ai-safety", "mythos", "anthropic", "dual-use-ai", "frontier-models"],
+      "relatedIds": ["article-cnbc-powell-bessent-mythos-banks"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Anthropic's Claude Mythos from typical AI model deployments?",
+          "options": [
+            "It is a research experiment never intended for practical use",
+            "It is a model Anthropic trained but deliberately withholds from public access due to its dual-use capabilities",
+            "It is a model that failed safety evaluations and was shelved",
+            "It is owned by the U.S. government rather than Anthropic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mythos is the first high-profile 'trained but withheld' frontier model — achieving sufficient capability to deliver value for defensive security, while also being powerful enough that unrestricted public access would pose unacceptable offensive risk."
+        },
+        {
+          "question": "Why does the emergence of withheld frontier models matter for AI safety research?",
+          "options": [
+            "It suggests safety researchers should focus on model compression rather than capability evaluation",
+            "It signals that labs now make capability-risk deployment tradeoffs that once only happened at a governmental level",
+            "It shows current safety techniques are completely ineffective and should be abandoned",
+            "It means open-source AI will inevitably outpace all proprietary models"
+          ],
+          "correctIndex": 1,
+          "explanation": "When a lab trains a model powerful enough to be useful but restricts deployment, it signals that internal capability evaluations now carry direct operational weight — safety is no longer just theoretical red-teaming, but an active input to shipping decisions."
+        },
+        {
+          "question": "What is the key shift from previous AI deployment philosophy that withheld frontier models represent?",
+          "options": [
+            "Moving from open-source to closed-source model development",
+            "Abandoning the 'release and monitor' approach in favor of controlled deployment based on capability risk assessment",
+            "Shifting from text-based to multimodal AI architectures",
+            "Transferring model governance from private labs to government agencies"
+          ],
+          "correctIndex": 1,
+          "explanation": "The prevailing 'release and monitor' philosophy assumed that observing model behavior at scale would surface risks that could then be mitigated; withheld frontier models mark a break from this, where predicted capability at deployment time alone triggers restriction."
+        }
+      ]
+    },
+    {
+      "id": "article-benzinga-goldman-sachs-displaced-workers",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Goldman Sachs: AI-Displaced Tech Workers Face One Month Longer Job Searches and Lasting Pay Cuts",
+      "sourceUrl": "https://www.benzinga.com/markets/tech/26/04/51674325/ai-driven-job-losses-could-have-lasting-costs-goldman-sachs-warns-as-workers-face-pay-cuts-slower-career-growth",
+      "publishedAt": "2026-04-10",
+      "summary": "Goldman Sachs research finds that tech workers displaced by AI take approximately one month longer to find new employment and suffer real earnings losses exceeding 3% upon reemployment — a gap that compounds to nearly 10 percentage points behind never-displaced peers over a full decade. The primary driver is 'occupational downgrading': workers forced out of specialized AI-disrupted roles tend to accept more routine jobs that require fewer analytical skills and pay accordingly. This analysis lands against the backdrop of Q1 2026's 80,000+ tech layoffs, with nearly half attributed to AI automation.",
+      "keyConcepts": [
+        "Occupational downgrading",
+        "AI workforce displacement",
+        "Earnings loss from technological disruption",
+        "Career trajectory recovery after AI layoff"
+      ],
+      "whyItMatters": "Goldman's findings quantify what many engineers fear — that being displaced by AI is not a temporary setback but a career trajectory shift, making proactive skill development in AI-adjacent areas more urgent than reactive job searching after displacement occurs.",
+      "tags": ["ai-layoffs", "workforce-displacement", "goldman-sachs", "tech-careers", "occupational-downgrading"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Goldman Sachs research, what happens to tech workers displaced by AI?",
+          "options": [
+            "They typically find comparable jobs within two weeks at similar pay",
+            "They take about one month longer to find employment and suffer 3%+ real earnings losses upon reemployment",
+            "Most become AI trainers with significantly higher salaries",
+            "The majority permanently leave the tech industry"
+          ],
+          "correctIndex": 1,
+          "explanation": "Goldman's data shows AI-displaced tech workers face both a longer job search (approximately one month more) and meaningful pay cuts when they do find work — a gap that compounds over a decade to nearly 10 percentage points behind workers who were never displaced."
+        },
+        {
+          "question": "What is 'occupational downgrading' as described in the Goldman Sachs AI displacement research?",
+          "options": [
+            "The process of retraining workers for lower-skilled AI tasks within the same company",
+            "A Goldman Sachs policy for reducing analyst headcount via performance reviews",
+            "Workers accepting more routine, lower-paying jobs when their specialized skills have been devalued by AI",
+            "Companies replacing senior staff with junior employees trained primarily on AI tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "Occupational downgrading occurs when the same technological shifts that eliminate a worker's position also erode the market value of their specific skill set — forcing them into more routine occupations that pay less regardless of their years of experience."
+        },
+        {
+          "question": "What career strategy does the Goldman Sachs 'occupational downgrading' finding most directly support for engineers?",
+          "options": [
+            "Becoming a hiring manager to reduce displacement risk",
+            "Pursuing only AI research positions exclusively",
+            "Proactively developing AI-adjacent skills before displacement, rather than scrambling for alternatives after",
+            "Reducing technology role dependency by moving into management as soon as possible"
+          ],
+          "correctIndex": 2,
+          "explanation": "Occupational downgrading happens when displaced workers must accept whatever is available; proactively building skills in AI systems, MLOps, or AI-human collaboration gives engineers credible alternatives that preserve earning potential before displacement forces their hand."
+        }
+      ]
+    }
+  ]
+}
