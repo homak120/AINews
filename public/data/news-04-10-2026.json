@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T18:00:00Z",
+  "generatedAt": "2026-04-10T22:30:00Z",
   "weekOf": "2026-04-06",
   "coverageStart": "2026-04-10",
   "coverageEnd": "2026-04-10",
@@ -275,6 +275,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Occupational downgrading happens when displaced workers must accept whatever is available; proactively building skills in AI systems, MLOps, or AI-human collaboration gives engineers credible alternatives that preserve earning potential before displacement forces their hand."
+        }
+      ]
+    },
+    {
+      "id": "youtube-d3Qq-rkp_to",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "Fireship explains why Anthropic won't release Claude Mythos to the public",
+      "sourceUrl": "https://www.youtube.com/watch?v=d3Qq-rkp_to",
+      "youtubeId": "d3Qq-rkp_to",
+      "publishedAt": "2026-04-10",
+      "summary": "Fireship breaks down Anthropic's decision to restrict Claude Mythos from public release, covering the model's unprecedented ability to autonomously discover and exploit zero-day vulnerabilities across every major operating system and browser. The video explains Project Glasswing — Anthropic's controlled-access initiative partnering with AWS, Apple, CrowdStrike, Microsoft, and others — and contextualizes why this is the first frontier model a lab has deliberately trained but withheld due to dual-use risk.",
+      "keyConcepts": [
+        "Claude Mythos restricted release",
+        "Zero-day vulnerability discovery via AI",
+        "Project Glasswing",
+        "Dual-use frontier model governance"
+      ],
+      "whyItMatters": "When a frontier lab builds a model powerful enough to compromise critical infrastructure and then refuses to ship it publicly, it signals a new era of capability-driven deployment decisions that every engineer building on AI APIs needs to understand.",
+      "tags": ["anthropic", "claude-mythos", "ai-safety", "cybersecurity", "project-glasswing", "fireship"],
+      "relatedIds": ["article-technologyreview-ai-dangerous-models", "article-cnbc-powell-bessent-mythos-banks"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Claude Mythos different from previous frontier models in terms of deployment?",
+          "options": [
+            "It is the first model to exceed GPT-5 on standard benchmarks",
+            "It is the first frontier model a lab trained but deliberately withheld from public access due to dual-use risk",
+            "It is the first model to run entirely on custom Anthropic silicon",
+            "It is the first model to achieve general artificial intelligence"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Mythos represents a new deployment category: a model whose autonomous vulnerability-exploitation capabilities are strong enough to deliver defensive value but too dangerous for unrestricted public release, leading Anthropic to restrict access through Project Glasswing."
+        },
+        {
+          "question": "Why did Anthropic create the Project Glasswing initiative for Mythos?",
+          "options": [
+            "To sell exclusive enterprise licenses at premium pricing",
+            "To provide controlled defensive access to partners like AWS, Apple, and CrowdStrike while limiting offensive misuse",
+            "To comply with a federal government mandate requiring restricted AI distribution",
+            "To beta-test the model before a planned public release later in 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Glasswing channels Mythos's capabilities toward defensive security work through a curated set of partner organizations, balancing the model's value for finding and patching vulnerabilities against the risk of unrestricted access enabling offensive exploitation."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ND9CSuzvrIY",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Theo examines why AI-powered vulnerability discovery changes the security landscape for software engineers",
+      "sourceUrl": "https://www.youtube.com/watch?v=ND9CSuzvrIY",
+      "youtubeId": "ND9CSuzvrIY",
+      "publishedAt": "2026-04-10",
+      "summary": "Theo discusses the practical implications of AI models like Claude Mythos that can autonomously discover and exploit software vulnerabilities at scale, arguing that every piece of software engineers rely on can now be compromised with relatively modest compute budgets. The video frames this not as a distant theoretical concern but as an immediate shift in the security posture of production systems, where defenders must now assume AI-powered adversaries are part of the threat model.",
+      "keyConcepts": [
+        "AI-automated vulnerability exploitation",
+        "Threat model evolution for production software",
+        "Compute-cost economics of AI-powered attacks",
+        "Defensive engineering in the post-Mythos era"
+      ],
+      "whyItMatters": "Software engineers can no longer treat security as someone else's domain — when AI can find and chain exploits for a few hundred dollars of compute, understanding defensive security practices becomes a core engineering skill, not a specialist function.",
+      "tags": ["cybersecurity", "ai-security", "software-engineering", "threat-modeling", "theo", "claude-mythos"],
+      "relatedIds": ["youtube-d3Qq-rkp_to", "article-technologyreview-ai-dangerous-models"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Theo, what fundamental shift does AI-powered vulnerability discovery create for software engineers?",
+          "options": [
+            "Engineers no longer need to write tests because AI will find all bugs automatically",
+            "Security becomes a core engineering responsibility rather than a specialist function, since AI can find exploits cheaply at scale",
+            "All open-source software must be abandoned in favor of proprietary alternatives",
+            "Only companies using Anthropic's API are at risk from AI-powered attacks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Theo argues that when AI can chain exploits across production systems for modest compute costs, the traditional model of delegating security to specialists breaks down — every engineer needs to understand defensive practices because the attack surface has fundamentally expanded."
+        },
+        {
+          "question": "What makes AI-powered vulnerability discovery particularly concerning compared to traditional security research?",
+          "options": [
+            "AI models can only find vulnerabilities in Python code",
+            "The compute cost is low enough that automated exploitation becomes economically viable at scale",
+            "AI-discovered vulnerabilities are always more severe than human-found ones",
+            "Traditional security tools have been completely replaced by AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key concern is economic: when a few hundred dollars of compute can systematically scan and exploit production software, the barrier to entry for sophisticated attacks drops dramatically — making automated exploitation viable for a much wider range of adversaries."
+        }
+      ]
+    },
+    {
+      "id": "youtube-FFzZwConSII",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "video",
+      "title": "TheAIGrid covers the emerging regulatory and political backlash against frontier AI development",
+      "sourceUrl": "https://www.youtube.com/watch?v=FFzZwConSII",
+      "youtubeId": "FFzZwConSII",
+      "publishedAt": "2026-04-10",
+      "summary": "TheAIGrid surveys the growing political and regulatory pushback against frontier AI capabilities in the wake of Claude Mythos and similar models, covering emergency government meetings, state-level AI safety legislation, and the tension between the Trump administration's light-touch federal approach and states pushing stricter controls. The video examines how this regulatory landscape is fragmenting across jurisdictions and what it means for AI companies, developers, and the broader workforce.",
+      "keyConcepts": [
+        "AI regulatory fragmentation",
+        "Federal vs. state AI governance",
+        "Frontier model deployment restrictions",
+        "Political response to AI capability leaps"
+      ],
+      "whyItMatters": "The regulatory environment directly affects which AI capabilities engineers can deploy and where — understanding the emerging patchwork of federal and state AI laws is now as important to product planning as understanding the technology itself.",
+      "tags": ["ai-regulation", "ai-governance", "ai-policy", "frontier-models", "theaigrid", "workforce-impact"],
+      "relatedIds": ["article-cnbc-powell-bessent-mythos-banks"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core tension in U.S. AI regulation as of April 2026?",
+          "options": [
+            "Whether to ban all AI development entirely",
+            "The conflict between the federal government's light-touch approach and states pushing stricter AI safety controls",
+            "Whether open-source AI should be taxed differently from proprietary models",
+            "A dispute between the EU and U.S. over AI patent rights"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Trump administration pushed for minimal federal AI regulation while states like California and New York enacted their own frontier AI safety laws, creating a fragmented regulatory landscape that AI companies and developers must navigate across jurisdictions."
+        },
+        {
+          "question": "Why should software engineers pay attention to AI regulatory developments?",
+          "options": [
+            "Engineers are legally required to pass AI certification exams in all 50 states",
+            "Regulatory fragmentation affects which AI capabilities can be deployed in different jurisdictions, directly impacting product planning",
+            "AI regulation only affects enterprise companies, not individual developers",
+            "All AI APIs will be shut down once regulations take effect"
+          ],
+          "correctIndex": 1,
+          "explanation": "When different states impose different rules on frontier AI deployment, engineers building AI-integrated products must understand compliance requirements that vary by jurisdiction — making regulatory awareness a practical product planning concern, not just a legal one."
         }
       ]
     }
