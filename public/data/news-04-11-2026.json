@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-04-11T14:00:00Z",
+  "weekOf": "2026-04-06",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-11",
+  "items": [
+    {
+      "id": "youtube-mFSFvKquXwI",
+      "topics": [
+        "ai-research"
+      ],
+      "type": "video",
+      "title": "Two Minute Papers covers NVIDIA's new approach to physics-aware neural rendering",
+      "sourceUrl": "https://www.youtube.com/watch?v=mFSFvKquXwI",
+      "youtubeId": "mFSFvKquXwI",
+      "publishedAt": "2026-04-11",
+      "summary": "Two Minute Papers highlights a recent NVIDIA research paper that combines neural rendering with physics simulation in a way that produces unexpectedly strong results. The video walks through how the approach handles complex material properties like transparency, specularity, and realistic lighting interactions, and how it integrates with NVIDIA's Cosmos foundation models for generating physically plausible future world states.",
+      "keyConcepts": [
+        "Neural rendering",
+        "Physics-aware simulation",
+        "DiffusionRenderer",
+        "Cosmos foundation models",
+        "Material property estimation"
+      ],
+      "whyItMatters": "Neural rendering that understands physics is a foundational capability for robotics, autonomous vehicles, and digital twins. This line of research is narrowing the gap between simulated and real-world environments.",
+      "tags": [
+        "nvidia",
+        "neural-rendering",
+        "physics-simulation",
+        "computer-vision",
+        "research"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What problem does NVIDIA's DiffusionRenderer approach solve?",
+          "options": [
+            "Generating text from images",
+            "Separating and reconstructing lighting, geometry, and material properties from 2D video",
+            "Compressing large language models for mobile devices",
+            "Training reinforcement learning agents in virtual environments"
+          ],
+          "correctIndex": 1,
+          "explanation": "DiffusionRenderer tackles de-lighting and relighting by learning to separate an image into its geometry, material properties, and lighting components, then reconstructing them realistically — a key challenge in computer vision and graphics."
+        },
+        {
+          "question": "Why is integrating physics awareness into neural rendering significant?",
+          "options": [
+            "It eliminates the need for training data",
+            "It allows rendering without a graphics card",
+            "It enables more realistic simulations where virtual objects behave like real-world materials",
+            "It makes rendering faster on consumer GPUs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Physics-aware rendering means simulated objects respect real-world material properties like transparency, reflection, and weight. This is essential for applications like robotics and autonomous driving where simulation must closely match reality."
+        }
+      ]
+    },
+    {
+      "id": "article-buildfastwithai-claude-word",
+      "topics": [
+        "ai-engineering"
+      ],
+      "type": "article",
+      "title": "Anthropic launches Claude for Word beta, completing its Microsoft Office integration",
+      "sourceUrl": "https://www.buildfastwithai.com/blogs/claude-ai-sidebar-microsoft-word",
+      "publishedAt": "2026-04-10",
+      "summary": "Anthropic released Claude for Word as a public beta sidebar add-in for Microsoft Word on Mac and Windows, available to Team and Enterprise subscribers. The add-in reads, drafts, and edits documents while preserving formatting, and surfaces every AI-generated change as a tracked change that users can accept or reject. This completes Claude's integration across Word, Excel, and PowerPoint with shared context between all three applications.",
+      "keyConcepts": [
+        "Claude for Word (sidebar add-in)",
+        "Tracked changes integration",
+        "Cross-application AI context",
+        "Enterprise AI document workflows",
+        "AI-assisted document editing"
+      ],
+      "whyItMatters": "AI assistants embedded directly in productivity tools change the workflow from copy-paste between apps to in-context collaboration. For engineers who write technical documents, reports, or proposals, this represents a meaningful productivity shift.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "microsoft-word",
+        "enterprise-ai",
+        "productivity"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Claude for Word handle AI-generated edits to documents?",
+          "options": [
+            "It overwrites the original text without showing changes",
+            "It creates a separate copy of the document with modifications",
+            "It surfaces changes as native Word tracked changes that users can accept or reject",
+            "It highlights changes in a separate sidebar panel only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude for Word integrates with Word's native tracked changes system, so every AI edit appears in the revision pane just like human edits. This gives users full control to accept or reject each change."
+        },
+        {
+          "question": "What makes Claude for Word's cross-application feature notable?",
+          "options": [
+            "It can translate documents between 50 languages simultaneously",
+            "It shares context between Word, Excel, and PowerPoint add-ins in a single AI session",
+            "It automatically syncs documents to cloud storage",
+            "It replaces Microsoft's built-in AI features entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude's Office add-ins share context across Word, Excel, and PowerPoint, enabling users to ask Claude to check for inconsistencies between a Word report and its supporting Excel data, or align narrative with slide content — addressing a common pain point in multi-document workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-cntechpost-glm51",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "type": "article",
+      "title": "Zhipu AI open-sources GLM-5.1, the first open model to top SWE-Bench Pro",
+      "sourceUrl": "https://cntechpost.com/2026/04/08/zhipu-open-sources-flagship-glm-5-1-model-raises-prices-ai-race-heats-up/",
+      "publishedAt": "2026-04-08",
+      "summary": "Zhipu AI (Z.ai) released GLM-5.1 under the MIT license, a 744-billion parameter Mixture-of-Experts model with 40 billion active parameters that scored 58.4 on SWE-Bench Pro, surpassing GPT-5.4 and Claude Opus 4.6. The model can autonomously execute 'plan, execute, test, fix, optimize' loops for up to eight hours without human intervention. In demos, it built a complete Linux desktop system over 655 iterations and achieved 6.9x throughput improvement on a vector database through autonomous optimization.",
+      "keyConcepts": [
+        "GLM-5.1 (Mixture-of-Experts)",
+        "SWE-Bench Pro benchmark",
+        "Autonomous agentic coding",
+        "Open-weight model licensing (MIT)",
+        "Long-horizon task execution"
+      ],
+      "whyItMatters": "An open-source model outperforming all closed-source alternatives on real-world code repair benchmarks is a significant milestone. It gives developers and enterprises access to frontier-level agentic coding capabilities without vendor lock-in.",
+      "tags": [
+        "zhipu-ai",
+        "glm-5-1",
+        "open-source",
+        "agentic-coding",
+        "swe-bench",
+        "mixture-of-experts"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes GLM-5.1's SWE-Bench Pro result historically significant?",
+          "options": [
+            "It is the fastest model ever tested on the benchmark",
+            "It is the first open-source model to surpass all closed-source models on this real-world code repair benchmark",
+            "It achieved a perfect score on every test case",
+            "It was the first Chinese model to be tested on SWE-Bench"
+          ],
+          "correctIndex": 1,
+          "explanation": "GLM-5.1 scored 58.4 on SWE-Bench Pro, ahead of GPT-5.4 (57.7) and Claude Opus 4.6 (57.3), making it the first open-source model to top all closed-source models on this widely cited real-world code repair benchmark."
+        },
+        {
+          "question": "What distinguishes GLM-5.1's autonomous execution capability?",
+          "options": [
+            "It operates exclusively in cloud environments",
+            "It requires constant human feedback between each step",
+            "It can generate images alongside code",
+            "It can run plan-execute-test-fix-optimize loops for up to 8 hours without human intervention"
+          ],
+          "correctIndex": 3,
+          "explanation": "GLM-5.1 demonstrated the ability to autonomously manage full development cycles lasting up to eight hours, including 655 iterations of planning, coding, testing, and fixing in one demo where it built a complete Linux desktop system."
+        }
+      ]
+    },
+    {
+      "id": "article-foreignpolicy-war-ai-gulf",
+      "topics": [
+        "ai-industry"
+      ],
+      "type": "article",
+      "title": "Foreign Policy analyzes the first military strikes targeting AI infrastructure",
+      "sourceUrl": "https://foreignpolicy.com/2026/04/10/war-ai-gulf-uae-saudi-qatar-iran/",
+      "publishedAt": "2026-04-10",
+      "summary": "Foreign Policy reports that the recent Iranian retaliatory strikes against Gulf state data centers represent the first recorded instance of a state deliberately targeting commercial AI infrastructure as part of an active military campaign. The article examines how AI compute has joined energy and communications as critical infrastructure worth attacking, and argues that the geographic concentration of data centers creates systemic vulnerabilities for the global AI ecosystem.",
+      "keyConcepts": [
+        "AI compute as critical infrastructure",
+        "Military targeting of data centers",
+        "Geographic concentration risk",
+        "Infrastructure resilience planning",
+        "Geopolitical AI strategy"
+      ],
+      "whyItMatters": "This event reframes AI infrastructure from a business continuity concern to a national security issue. Engineers designing cloud-dependent systems now have a concrete example of how geopolitical risk can disrupt AI compute availability.",
+      "tags": [
+        "ai-infrastructure",
+        "geopolitics",
+        "data-centers",
+        "national-security",
+        "risk-management"
+      ],
+      "relatedIds": [
+        "youtube-FFzZwConSII"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What precedent did the Gulf data center strikes set according to Foreign Policy?",
+          "options": [
+            "The first use of AI in military targeting decisions",
+            "The first state-level military strikes deliberately targeting commercial data centers",
+            "The first cyberattack to take down a major cloud provider",
+            "The first international agreement to protect AI infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Iranian strikes on Gulf state data centers represent the first recorded case of a nation-state deliberately targeting commercial data centers with military action, establishing AI compute infrastructure as a legitimate target in armed conflict."
+        },
+        {
+          "question": "What systemic risk does the article identify in the current AI infrastructure landscape?",
+          "options": [
+            "AI models are becoming too large to run efficiently",
+            "Geographic concentration of data centers creates single points of failure for the global AI ecosystem",
+            "Electricity costs are making AI compute unsustainable",
+            "Undersea cables cannot handle the bandwidth needed for AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article argues that the clustering of major AI data centers in a few geographic regions means that localized military or geopolitical disruptions can have cascading effects on global AI services and capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-pymnts-perplexity-agents",
+      "topics": [
+        "ai-industry"
+      ],
+      "type": "article",
+      "title": "Perplexity's pivot to AI agents drives 50% revenue jump, pushing ARR past $450 million",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2026/perplexitys-shift-to-ai-agents-boosts-revenue-50/",
+      "publishedAt": "2026-04-08",
+      "summary": "Perplexity's annual recurring revenue surged past $450 million in March 2026 after the company pivoted from pure AI search to an agent-based product called Computer, which can handle tasks like shopping, email sorting, and multi-step research. The 50% monthly revenue increase was driven by both the new agent capabilities and a shift to usage-based pricing. The company now serves over 100 million monthly active users and targets $656 million ARR by year-end.",
+      "keyConcepts": [
+        "AI agent pivot (Perplexity Computer)",
+        "Usage-based pricing models",
+        "Annual recurring revenue (ARR) growth",
+        "AI search to agent transition",
+        "Multi-step autonomous task execution"
+      ],
+      "whyItMatters": "Perplexity's rapid revenue growth after shifting to agents signals that the market values AI systems that act autonomously over those that only answer questions. This pattern may influence how other AI products evolve.",
+      "tags": [
+        "perplexity",
+        "ai-agents",
+        "revenue-growth",
+        "product-strategy",
+        "usage-based-pricing"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What drove Perplexity's 50% monthly revenue increase?",
+          "options": [
+            "A major acquisition of a competing search engine",
+            "Government contracts for AI search services",
+            "The launch of Computer, an agent-style tool, combined with usage-based pricing",
+            "A viral marketing campaign"
+          ],
+          "correctIndex": 2,
+          "explanation": "Perplexity's revenue surge was driven by two factors: the launch of 'Computer,' an AI agent that handles multi-step tasks like shopping and research, and a simultaneous shift to usage-based pricing that better captured the value of these more complex interactions."
+        },
+        {
+          "question": "What broader trend does Perplexity's pivot illustrate?",
+          "options": [
+            "Search engines are becoming obsolete due to social media",
+            "AI companies are moving away from consumer products to enterprise-only sales",
+            "Subscription models are no longer viable for AI companies",
+            "The market is shifting from AI tools that answer questions to agents that complete tasks autonomously"
+          ],
+          "correctIndex": 3,
+          "explanation": "Perplexity's success after pivoting from AI search to AI agents reflects a broader industry trend where users (and revenue) are moving toward AI systems that can autonomously execute multi-step tasks, not just provide information."
+        }
+      ]
+    },
+    {
+      "id": "article-tomshardware-tech-layoffs-q1",
+      "topics": [
+        "ai-career"
+      ],
+      "type": "article",
+      "title": "Tech industry sheds nearly 80,000 jobs in Q1 2026 with almost half attributed to AI",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai",
+      "publishedAt": "2026-04-08",
+      "summary": "Tom's Hardware reports that 78,557 tech workers were laid off in Q1 2026, with 47.9% of cuts (37,638 positions) directly attributed to AI and workflow automation. More than 76% of the affected roles were US-based. Major contributors include Atlassian (1,600), ASML (1,700), and Ericsson (1,900), all of which cited AI-driven restructuring. The data highlights a shift from speculative AI-related layoffs to companies explicitly restructuring around AI capabilities.",
+      "keyConcepts": [
+        "AI-attributed layoffs (47.9%)",
+        "Q1 2026 tech workforce reduction",
+        "Organizational restructuring around AI",
+        "US-concentrated job losses",
+        "Automation-driven role elimination"
+      ],
+      "whyItMatters": "Nearly half of tech layoffs now explicitly cite AI as a factor, up from much lower figures in previous years. Engineers should treat AI-complementary skills not as optional but as career insurance in this rapidly shifting landscape.",
+      "tags": [
+        "layoffs",
+        "workforce",
+        "ai-automation",
+        "tech-industry",
+        "career-planning"
+      ],
+      "relatedIds": [
+        "article-accenture-replit-partnership"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Q1 2026 tech layoffs were attributed to AI and automation?",
+          "options": [
+            "About 15%",
+            "About 25%",
+            "About 48%",
+            "About 75%"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to the data, 47.9% of the 78,557 Q1 2026 tech layoffs — roughly 37,638 positions — were directly attributed to AI and workflow automation, marking a significant increase in explicitly AI-driven workforce restructuring."
+        },
+        {
+          "question": "What shift in corporate behavior does this data reflect?",
+          "options": [
+            "Companies are hiring more AI researchers while cutting other roles",
+            "Companies are moving from speculative AI narratives to explicitly restructuring roles around AI capabilities",
+            "The layoffs are primarily driven by economic recession rather than AI",
+            "Only startups are affected by AI-related layoffs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike earlier rounds where AI was sometimes used as a vague justification, companies like Atlassian, ASML, and Ericsson are now specifically citing AI-driven operational restructuring as the reason for cuts — indicating AI is genuinely reshaping organizational structures."
+        }
+      ]
+    },
+    {
+      "id": "article-accenture-replit-partnership",
+      "topics": [
+        "ai-engineering",
+        "ai-career"
+      ],
+      "type": "article",
+      "title": "Accenture invests in Replit to bring AI-driven 'vibe coding' to enterprise clients",
+      "sourceUrl": "https://newsroom.accenture.com/news/2026/accenture-invests-in-replit-to-advance-ai-driven-software-development-for-enterprises",
+      "publishedAt": "2026-04-09",
+      "summary": "Accenture Ventures invested in Replit and formed a strategic partnership to bring AI-driven software development to enterprise clients globally. The collaboration focuses on 'vibe coding' — using natural language prompts and agentic AI to move from idea to working application faster. Replit, which has over 50 million users including teams at 85% of Fortune 500 companies, will work with Accenture to identify scalable use cases and development workflows for enterprise adoption.",
+      "keyConcepts": [
+        "Vibe coding (natural language development)",
+        "Enterprise AI-assisted development",
+        "Accenture Ventures strategic investment",
+        "Replit cloud development platform",
+        "Consulting-driven AI adoption"
+      ],
+      "whyItMatters": "When a major consulting firm like Accenture bets on AI-driven coding platforms, it signals that natural language software development is moving from developer experimentation to enterprise-scale adoption. This changes the skill mix expected of engineers across industries.",
+      "tags": [
+        "accenture",
+        "replit",
+        "vibe-coding",
+        "enterprise",
+        "ai-development",
+        "partnership"
+      ],
+      "relatedIds": [
+        "article-tomshardware-tech-layoffs-q1"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'vibe coding' as described in the Accenture-Replit partnership?",
+          "options": [
+            "A music-driven coding interface that responds to audio input",
+            "Using natural language prompts and agentic AI to build applications without traditional coding",
+            "A new programming language designed for enterprise use",
+            "Pair programming between two human developers using video chat"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Vibe coding' refers to the approach of building software by describing what you want in natural language, with AI agents handling the translation to working code. The Accenture-Replit partnership aims to bring this workflow to enterprise-scale deployments."
+        },
+        {
+          "question": "Why is this partnership significant for the broader tech workforce?",
+          "options": [
+            "It only affects the consulting industry",
+            "It proves that AI cannot replace professional developers",
+            "It signals that natural language development is moving from experimentation to enterprise-scale adoption, changing expected skill sets",
+            "It means Accenture will stop hiring traditional software engineers"
+          ],
+          "correctIndex": 2,
+          "explanation": "When the world's largest consulting firm invests in an AI coding platform to deploy at enterprise scale, it signals a structural shift in how software is built. Engineers across industries will increasingly be expected to work with AI-driven development tools as standard practice."
+        }
+      ]
+    }
+  ]
+}
