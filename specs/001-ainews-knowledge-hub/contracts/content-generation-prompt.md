@@ -74,28 +74,52 @@ Generate content for **only the target week** (12-20 new items). Then:
 
 ### If `MODE` = `daily` (single day, append or create)
 
-Generate content for **only the target date** (6-12 new items). Then:
+Generate content for **only the target date** (6-12 new items total). Daily
+mode uses a **two-phase, videos-first workflow** to guarantee the video
+minimum is met before any article budget is spent:
 
-1. If `{{OUTPUT_PATH}}` already exists, read the existing file
-2. If creating a new file, default `OUTPUT_PATH` to
+**Phase 1 — Video Discovery (FIRST, MANDATORY)**
+
+Run the **Video Discovery Playbook** (see the section of that name below) to
+collect at least 3 verified video items. Hold them in memory — do not write
+the file yet. Stop when 3 verified videos are collected or the playbook
+channel list is exhausted.
+
+**Phase 2 — Fill remaining slots with articles / papers / social**
+
+Compute the remaining budget: `TOTAL_ITEMS (6-12)` minus the videos collected
+in Phase 1. Use web search to find articles, papers, and social posts to fill
+the remaining slots, deliberately favoring topics that are NOT yet covered by
+the Phase 1 videos (topic-balance check). Apply the same dedup and URL
+verification rules.
+
+**Phase 3 — Combine, write, validate**
+
+1. Combine Phase 1 videos + Phase 2 other items into a single `items` array.
+2. If `{{OUTPUT_PATH}}` already exists, read the existing file and follow the
+   Same-day append rules (skip any item with a `sourceUrl` already in the file).
+3. If creating a new file, default `OUTPUT_PATH` to
    `public/data/news-{{TARGET_DATE_MMDDYYYY}}.json` (where `TARGET_DATE_MMDDYYYY`
-   is `{{TARGET_DATE}}` formatted as `MM-DD-YYYY`)
-3. Append the new items to the existing `items` array (or create a new array)
-4. Update `generatedAt` to the current timestamp
-5. Set `weekOf` to the Monday of `{{TARGET_DATE}}`'s week
-6. Set `coverageStart` and `coverageEnd` both to `{{TARGET_DATE}}`
-   (if appending, preserve the existing `coverageStart` if it is earlier)
-7. **Do not modify or remove any existing items**
-8. Ensure no duplicate `id` values between old and new items
-9. New items may reference existing items in `relatedIds` (and vice versa)
-10. `publishedAt` MUST reflect the **actual source publish date** — do not
+   is `{{TARGET_DATE}}` formatted as `MM-DD-YYYY`).
+4. Append new items to the existing `items` array (or create a new array).
+5. Update `generatedAt` to the current timestamp.
+6. Set `weekOf` to the Monday of `{{TARGET_DATE}}`'s week.
+7. Set `coverageStart` and `coverageEnd` both to `{{TARGET_DATE}}`
+   (if appending, preserve the existing `coverageStart` if it is earlier; also
+   move `coverageStart` back if a Phase 1 video was published the day before
+   `{{TARGET_DATE}}`).
+8. **Do not modify or remove any existing items.**
+9. Ensure no duplicate `id` values between old and new items.
+10. New items may reference existing items in `relatedIds` (and vice versa).
+11. `publishedAt` MUST reflect the **actual source publish date** — do not
     override it to match `{{TARGET_DATE}}`. Only include items that were
-    **actually published on** `{{TARGET_DATE}}`. Do not backfill older articles
-    or re-date content to fit the target date.
-11. Before adding any item, check all existing daily files in `public/data/`
-    (e.g., `news-*.json`) to ensure the `sourceUrl` is not already present in
-    a previous day's file. Skip duplicates across files, not just within the
-    current file.
+    actually published within the coverage window (target date, or the day
+    before for video items where the source was uploaded late in the prior
+    day's UTC time).
+12. Before adding any item, check all existing daily files in `public/data/`
+    (e.g., `news-*.json`) to ensure neither the `sourceUrl` NOR the `youtubeId`
+    is already present in a previous day's file. Skip duplicates across files,
+    not just within the current file.
 
 ### Same-day append (multiple runs per day)
 
@@ -278,6 +302,109 @@ These are examples — adapt queries to what is actually happening that week.
 - `ai-industry`: "site:youtube.com AI product review this week",
   "site:youtube.com AI startup news"
 
+## Video Discovery Playbook
+
+**Use this playbook in `daily` mode BEFORE searching for any other content type.**
+Videos are the hardest content to find via plain web search and consistently
+get crowded out when articles are generated first. This playbook locks in the
+video minimum before any other budget is spent.
+
+### Step 1 — Walk the verified channel list
+
+These channels reliably publish AI content within the topic categories. Walk
+the list in order. For each channel, search for recent uploads from the target
+date (or the day before, if needed for coverage):
+
+| Channel handle       | Primary topic   | Notes |
+|----------------------|-----------------|-------|
+| @Fireship            | ai-engineering  | Short, high-signal explainers; broad AI/dev coverage |
+| @aiexplained-official| ai-research     | Long-form research & frontier model breakdowns |
+| @matthew_berman      | ai-engineering  | Tool reviews, model walkthroughs, agent demos |
+| @TheAiGrid           | ai-industry     | Industry news, lab releases, model comparisons |
+| @AIDailyBrief        | ai-industry     | Daily macro/strategy briefings; covers all 4 topics |
+| @t3dotgg             | ai-engineering  | Theo — engineering perspective on AI tooling |
+| @WorldofAI           | ai-engineering  | Agent platforms, open-source AI tools |
+| @TwoMinutePapers     | ai-research     | Paper visualizations and research highlights |
+| @YannicKilcher       | ai-research     | In-depth paper breakdowns |
+| @bycloudAI           | ai-research     | Research synthesis, frontier model analysis |
+| @AICoffeeBreak       | ai-research     | Academic AI explainers |
+| @sentdex             | ai-engineering  | Hands-on Python/ML tutorials |
+| @1littlecoder        | ai-engineering  | Open-source model and tooling walkthroughs |
+| @WesRoth             | ai-industry     | Frontier lab and model release coverage |
+| @DavidShapiroAutomator| ai-career      | AI workforce, automation, future-of-work |
+
+**Search query template for each channel** (one of):
+- `"<channel handle>" AI [today's date] YouTube`
+- `site:youtube.com "<channel name>" [topic keyword]`
+
+### Step 2 — Verify each candidate video via YouTube oEmbed
+
+For every candidate video URL, fetch:
+
+```
+https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=VIDEO_ID&format=json
+```
+
+- Status `200` with valid JSON → video exists; record `title` and `author_name`
+  from the response.
+- Status `404` or any error → video does NOT exist. **Discard it. Never write
+  an unverified video ID to the file.**
+- This is the canonical existence check. A web search snippet alone is NOT
+  sufficient verification.
+
+### Step 3 — Confirm publish date via channel RSS feed (when channel ID is known)
+
+```
+https://www.youtube.com/feeds/videos.xml?channel_id=UC...
+```
+
+- The RSS feed lists the channel's most recent uploads with `<published>`
+  timestamps. Use this to confirm the video's actual upload date.
+- If the channel ID is not known, fall back to the date returned by web search
+  or the video page itself.
+- `publishedAt` MUST reflect the actual upload date — never the target date.
+
+### Step 4 — Cross-file dedup (BOTH `sourceUrl` AND `youtubeId`)
+
+Before adding any video, scan EVERY existing `public/data/news-*.json` file and
+collect:
+- All `sourceUrl` values
+- All `youtubeId` values
+
+If the candidate's `sourceUrl` OR `youtubeId` appears in any prior file, discard
+it and pick a different video. The same video must never appear in two daily
+files.
+
+### Step 5 — Tone down sensationalized titles
+
+YouTube titles are often clickbait. When appending to the file, rewrite the
+`title` field to a factual, descriptive version while preserving the subject:
+
+| Original (sensationalized)                     | Rewritten (factual) |
+|-----------------------------------------------|---------------------|
+| "Just AUTOMATED EVERY JOB! AI Agent OS!"      | "Walkthrough of Claude Managed Agents and the new agent platform" |
+| "Earth SHATTERING New AI Model"               | "[Channel] reviews the new [model name] release" |
+| "EVERYONE Is WRONG About AI"                  | "[Channel] argues against the consensus take on [topic]" |
+| "This Changes EVERYTHING"                     | "[Channel] explains why [specific development] matters" |
+
+The original title is still findable via the `sourceUrl` — the rewrite is for
+the catalog, not censorship.
+
+### Step 6 — Stop conditions
+
+Continue walking the channel list until ONE of:
+- **3 verified videos collected** (daily mode minimum) — stop and proceed to
+  the article phase.
+- **All channels in the playbook have been checked** — stop even if minimum
+  not met. Log the gap (`video gap: N of 3 found`) in the commit message body
+  and proceed.
+
+### Step 7 — Topic balance check
+
+After Step 6, note which topics the collected videos cover (primary topic of
+each). The article phase will then deliberately favor topics that are NOT yet
+covered by videos, so the final file maintains balance across all 4 topics.
+
 ## Content Selection Criteria
 
 Include an item only if it meets ALL of these:
@@ -291,10 +418,16 @@ Include an item only if it meets ALL of these:
 5. **Substantive** — skip pure opinion with no analysis, hot takes, and
    clickbait
 
-**Variety rule**: At least 2 items MUST be `type: "video"` (YouTube) across
-the full set. Aim for additional variety with papers and social posts. If you
-cannot find 2 quality YouTube videos across all topics, include at least 1
-and note the gap.
+**Variety rule**:
+- **Daily mode**: At least **3 items MUST be `type: "video"`**, collected via
+  the Video Discovery Playbook BEFORE any other content type is searched.
+  If after walking the entire playbook channel list fewer than 3 verified
+  videos can be found, log `video gap: N of 3 found` in the commit message
+  and proceed with what was collected (never fabricate to hit the number).
+- **Weekly / initial modes**: At least 2 items MUST be `type: "video"`
+  across the full set. If you cannot find 2 quality YouTube videos across
+  all topics, include at least 1 and note the gap.
+- Aim for additional variety with papers and social posts in both modes.
 
 **Fallback**: If fewer than 3 high-quality items exist for a topic in the
 target week, include the best 2 rather than adding low-quality filler.
@@ -448,6 +581,10 @@ Run these checks against the generated `news.json` before committing:
 - [ ] (Daily mode) All new items were actually published on `TARGET_DATE`
 - [ ] (Daily mode) `coverageEnd` equals `TARGET_DATE`
 - [ ] (Daily mode) No `sourceUrl` duplicates across other existing daily files in `public/data/`
+- [ ] (Daily mode) No `youtubeId` duplicates across other existing daily files in `public/data/`
+- [ ] (Daily mode) Phase 1 (Video Discovery) ran BEFORE Phase 2 (article search)
+- [ ] (Daily mode) At least 3 items have `type: "video"` (or commit message includes `video gap: N of 3 found`)
+- [ ] (Daily mode) Every video was verified via the YouTube oEmbed endpoint
 - [ ] (Daily mode) All previously existing items are preserved unchanged (if appending)
 - [ ] (Daily mode) No duplicate `id` values between old and new items (if appending)
 - [ ] Each of the 4 topics has at least 3 items (2 acceptable if quality fallback applies)
@@ -461,7 +598,7 @@ Run these checks against the generated `news.json` before committing:
 - [ ] No placeholder or fabricated IDs (no `VERIFY_*`, `PLACEHOLDER`, `TBD` patterns)
 - [ ] All `youtubeId` values are exactly 11 characters matching `[A-Za-z0-9_-]`
 - [ ] All `publishedAt` dates fall within the `coverageStart`–`coverageEnd` window
-- [ ] At least 2 items have `type: "video"` with valid `youtubeId`
+- [ ] (Weekly/initial modes) At least 2 items have `type: "video"` with valid `youtubeId`
 - [ ] Content types include at least 2 different types
 - [ ] `correctIndex` values are varied across questions (not always the same index)
 - [ ] Each item has 2-3 knowledge checks (social posts may have 0-1)
