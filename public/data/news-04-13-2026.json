@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-04-13T15:30:00Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-12",
+  "coverageEnd": "2026-04-13",
+  "items": [
+    {
+      "id": "article-aws-weekly-roundup-0413",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "AWS Brings Claude Mythos Preview to Bedrock and Launches Agent Registry for AI Agent Governance",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-mythos-preview-in-amazon-bedrock-aws-agent-registry-and-more-april-13-2026/",
+      "publishedAt": "2026-04-13",
+      "summary": "Amazon Bedrock now hosts Claude Mythos Preview as a gated research preview through Project Glasswing, giving allowlisted security-focused organizations access to Anthropic's most capable cybersecurity model. In the same weekly roundup, AWS launched Agent Registry—a private catalog within Bedrock AgentCore enabling teams to discover, share, and govern AI agents, MCP servers, and tools across their organization. The registry supports semantic and keyword search, approval workflows, and CloudTrail audit trails to address agent sprawl as enterprises scale agentic deployments.",
+      "keyConcepts": [
+        "Amazon Bedrock model hosting",
+        "Claude Mythos Preview (Project Glasswing)",
+        "AWS Agent Registry",
+        "AI agent governance",
+        "Bedrock AgentCore"
+      ],
+      "whyItMatters": "Engineers building on AWS now have a structured path to deploying frontier cybersecurity AI and managing a growing catalog of internal agents—addressing the real operational problem of 'who owns which agent' at enterprise scale before it becomes unmanageable.",
+      "tags": ["aws-bedrock", "claude-mythos", "agent-registry", "ai-infrastructure", "enterprise-ai"],
+      "relatedIds": ["article-techcrunch-humanx-2026-0412"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the access model for Claude Mythos Preview on Amazon Bedrock?",
+          "options": [
+            "Available to all AWS customers with a standard Bedrock subscription",
+            "Available through a gated research preview to allowlisted organizations only",
+            "Available exclusively to AWS Partner Network members above Premier tier",
+            "Requires a separate direct enterprise agreement with Anthropic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Mythos Preview is a gated research preview through Project Glasswing—access is restricted to allowlisted organizations, prioritizing companies with critical internet infrastructure and open-source maintainers, not all Bedrock customers."
+        },
+        {
+          "question": "What core problem does AWS Agent Registry solve for engineering teams?",
+          "options": [
+            "Reducing the compute cost of running AI agents in production",
+            "Automatically testing AI agents for safety and hallucinations before deployment",
+            "Helping organizations discover and reuse existing agents to prevent duplication",
+            "Providing a marketplace for purchasing third-party AI agents from AWS partners"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agent Registry targets agent sprawl—as enterprises build more AI agents, teams lose track of what exists and rebuild duplicates. The registry provides a private catalog with semantic search, approval workflows, and audit trails to govern the full agent lifecycle."
+        }
+      ]
+    },
+    {
+      "id": "article-pwc-ai-performance-study-2026-0413",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "article",
+      "title": "PwC Study: Top 20% of Companies Capture 74% of AI's Economic Gains—Governance Is the Key Differentiator",
+      "sourceUrl": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+      "publishedAt": "2026-04-13",
+      "summary": "PwC's 2026 AI Performance study of 1,217 senior executives found that 74% of AI's economic gains flow to just 20% of companies. AI leaders are 1.8–1.9x more likely to deploy AI for autonomous multi-step tasks and increase unsupervised decision-making at nearly three times the rate of peers. The differentiator is governance: leaders are 1.7x more likely to operate a Responsible AI framework and 1.5x more likely to have a cross-functional AI governance board, which makes their employees twice as likely to trust AI-generated outputs.",
+      "keyConcepts": [
+        "AI performance gap",
+        "Responsible AI governance frameworks",
+        "Autonomous AI decision-making",
+        "Enterprise AI fitness index",
+        "AI trust at scale"
+      ],
+      "whyItMatters": "The divergence between AI leaders and the rest is accelerating—the same dollar invested in AI returns dramatically more at top-performing companies. Understanding which governance practices produce employee trust and unlock autonomous AI is now a strategic differentiator for any engineering team or organization.",
+      "tags": ["enterprise-ai", "ai-governance", "pwc", "ai-performance", "workforce"],
+      "relatedIds": ["article-troutman-state-ai-laws-0413"],
+      "knowledgeChecks": [
+        {
+          "question": "What share of AI's economic gains does PwC find are captured by the top 20% of companies?",
+          "options": [
+            "About 40%",
+            "About 55%",
+            "About 74%",
+            "About 90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "PwC found that 74% of AI's economic value is captured by just 20% of organizations, revealing a stark and widening performance gap. The remaining 80% of companies share only 26% of the total AI-driven economic gains."
+        },
+        {
+          "question": "What governance factor most strongly distinguishes AI-leading companies in the PwC study?",
+          "options": [
+            "Spending more on compute than competitors",
+            "Hiring more data scientists per employee than the industry average",
+            "Having a Responsible AI framework and cross-functional governance board",
+            "Deploying newer model versions faster than competitors"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI leaders are 1.7x more likely to have a Responsible AI framework and 1.5x more likely to have a cross-functional governance board. This structural investment in oversight enables them to safely deploy autonomous AI at scale and builds the employee trust that unlocks further automation."
+        }
+      ]
+    },
+    {
+      "id": "article-troutman-state-ai-laws-0413",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "article",
+      "title": "Nebraska, Maryland, and Maine Advance AI Laws Targeting Chatbot Disclosure, Pricing Algorithms, and Therapy Bots",
+      "sourceUrl": "https://www.troutmanprivacy.com/2026/04/proposed-state-ai-law-update-april-13-2026/",
+      "publishedAt": "2026-04-13",
+      "summary": "Three US states advanced AI consumer protection legislation this week. Nebraska passed a Conversational AI Safety Act requiring chatbot services to disclose they are AI and prohibiting any claim of human identity, particularly protecting minors. Maryland's legislature approved a ban on AI-driven surveillance pricing and AI-based wage-setting. Maine passed two bills: one blocking unlicensed AI from delivering therapy or mental health services, and another restricting AI chatbot companion interfaces accessible to children. The patchwork of state AI laws is growing faster than any federal framework.",
+      "keyConcepts": [
+        "Conversational AI disclosure requirements",
+        "Surveillance pricing regulation",
+        "AI therapy services restrictions",
+        "State AI consumer protection laws",
+        "AI governance compliance"
+      ],
+      "whyItMatters": "A rapidly expanding set of state AI laws is creating real compliance burdens for product teams—engineers building chatbots, AI companions, dynamic pricing systems, or mental health tools need to track which disclosures, restrictions, and prohibitions apply in each state where their product operates.",
+      "tags": ["ai-regulation", "state-ai-laws", "compliance", "chatbot-disclosure", "ai-policy"],
+      "relatedIds": ["article-pwc-ai-performance-study-2026-0413"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Nebraska's Conversational AI Safety Act require from AI chatbot services?",
+          "options": [
+            "Chatbots must pass a standardized Turing test before public deployment",
+            "Chatbots must disclose they are AI and cannot claim to be human when a user could be misled",
+            "Chatbots must be reviewed by a licensed mental health professional before launch",
+            "Chatbots must archive all conversations for potential regulatory review"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nebraska's law requires AI services to identify themselves as non-human and prohibits claiming human identity—a foundational disclosure requirement aimed at protecting users, especially minors, from being deceived into believing they are talking with a real person."
+        },
+        {
+          "question": "What practice does Maryland's new AI bill specifically prohibit?",
+          "options": [
+            "AI-generated deepfake images of elected officials",
+            "Using AI to grade job applications without human review",
+            "AI-driven surveillance pricing and AI-based wage-setting",
+            "Automated AI content moderation without a human appeals process"
+          ],
+          "correctIndex": 2,
+          "explanation": "Maryland's HB 148 targets surveillance pricing—where AI dynamically adjusts prices based on observed user behavior—and AI-based wage-setting, addressing concerns about AI being used to extract maximum value from consumers and suppress fair compensation for workers."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-china-token-economy-0412",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "article",
+      "title": "Inside China's Emerging Token Economy: 140 Trillion Daily Tokens, IPO Wave, and Models Beating US Competitors",
+      "sourceUrl": "https://fortune.com/2026/04/12/china-token-economy-ai-boom-big-tech-startups/",
+      "publishedAt": "2026-04-12",
+      "summary": "Fortune reports that China now processes 140 trillion AI tokens per day—a 1,400x increase from 100 billion at the start of 2024—as the country's National Data Administration coins 'ciyuan' (tokens) as the official unit linking AI supply to commercial demand. AI startups MiniMax and Zhipu AI debuted on Hong Kong's stock exchange, humanoid robot maker Unitree filed for a $610M IPO in Shanghai, and Chinese open-source models are now outranking US commercial counterparts on OpenRouter. Fortune describes this as the formation of a national-scale token economy.",
+      "keyConcepts": [
+        "Token economy (ciyuan concept)",
+        "Chinese AI open-source model advances",
+        "MiniMax and Zhipu AI IPOs",
+        "OpenRouter model benchmarks",
+        "Unitree Robotics humanoid robots"
+      ],
+      "whyItMatters": "China's 1,400x growth in daily AI token processing in 18 months illustrates how quickly AI can become embedded infrastructure—and the competitive pressure it creates for US AI companies as Chinese open-source models increasingly match or exceed commercial US counterparts on independent benchmarks.",
+      "tags": ["china-ai", "ai-ipo", "token-economy", "open-source-models", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did China's daily AI token processing grow between early 2024 and April 2026?",
+          "options": [
+            "From 10 trillion to 140 trillion tokens (14x growth)",
+            "From 1 trillion to 140 trillion tokens (140x growth)",
+            "From 100 billion to 140 trillion tokens (approximately 1,400x growth)",
+            "From 100 trillion to 140 trillion tokens (40% growth)"
+          ],
+          "correctIndex": 2,
+          "explanation": "China's National Data Administration reported 140 trillion daily tokens in April 2026, up from just 100 billion at the start of 2024—roughly 1,400x growth in 18 months, driven by the rapid scaling of AI applications across China's consumer, enterprise, and government sectors."
+        },
+        {
+          "question": "What does 'ciyuan' represent in China's AI policy context?",
+          "options": [
+            "China's national AI safety certification standard",
+            "The official Chinese government term for AI tokens as a unit of economic commerce",
+            "A new frontier AI model developed by China's National Data Administration",
+            "China's equivalent of the US AI Safety Institute"
+          ],
+          "correctIndex": 1,
+          "explanation": "China's National Data Administration coined 'ciyuan' as the official term for AI tokens as a settlement unit linking technological supply with commercial demand—signaling China's intent to treat AI computation as a formalized economic commodity, similar to how earlier industrial economies defined units of energy."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-humanx-2026-0412",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "article",
+      "title": "At HumanX 2026, Enterprise AI Conversations All Led Back to Claude",
+      "sourceUrl": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "publishedAt": "2026-04-12",
+      "summary": "At the HumanX enterprise AI conference in Las Vegas, Anthropic's Claude emerged as the dominant platform across expo floor conversations, keynotes, and breakout sessions. Anthropic CEO Dario Amodei announced the company has passed 1,000 enterprise customers each paying over $1 million annually—double the 500 from February—and that Anthropic's annualized revenue has crossed $30 billion, surpassing OpenAI's estimated $25 billion for the first time. Enterprise enthusiasm centered on Claude Code for developer productivity, Claude Cowork for team workflows, and Claude Managed Agents for autonomous task execution.",
+      "keyConcepts": [
+        "Claude Code enterprise adoption",
+        "Claude Managed Agents",
+        "Claude Cowork",
+        "Enterprise AI platform consolidation",
+        "Anthropic $30B ARR milestone"
+      ],
+      "whyItMatters": "When the largest enterprise AI conference centers its energy on a single platform, it signals a consolidation phase in the enterprise AI market. Engineers and teams who invest in Claude's ecosystem now gain compound advantages as enterprise tooling, integrations, and organizational best practices concentrate around it.",
+      "tags": ["anthropic", "claude", "enterprise-ai", "humanx", "claude-code", "managed-agents"],
+      "relatedIds": ["article-aws-weekly-roundup-0413"],
+      "knowledgeChecks": [
+        {
+          "question": "How many enterprise customers paying over $1M annually did Anthropic announce at HumanX 2026?",
+          "options": [
+            "Around 250",
+            "Around 500",
+            "Over 1,000",
+            "Over 5,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic announced over 1,000 enterprise customers each spending more than $1 million annually—double the 500 from its February Series G announcement. This doubling in under two months reflects the rapid enterprise adoption of Claude's expanded product suite."
+        },
+        {
+          "question": "What revenue milestone did Anthropic cross that was highlighted at HumanX 2026?",
+          "options": [
+            "Anthropic raised more VC capital than OpenAI in Q1 2026",
+            "Anthropic's annualized revenue surpassed OpenAI's for the first time",
+            "Anthropic's total lifetime revenue crossed $100 billion",
+            "Anthropic's consumer products reached more monthly users than OpenAI's"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic crossed a $30 billion annualized revenue run rate, outpacing OpenAI's approximately $25 billion ARR—marking the first time Anthropic has led in revenue. Anthropic's roughly 80% enterprise revenue mix, driven by Claude Code and Managed Agents adoption, powered the crossover."
+        }
+      ]
+    }
+  ]
+}
