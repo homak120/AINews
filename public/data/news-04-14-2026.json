@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2026-04-14T12:00:00Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-13",
+  "coverageEnd": "2026-04-14",
+  "items": [
+    {
+      "id": "article-hai-stanford-2026-ai-index",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "Stanford HAI 2026 AI Index: Capabilities Surge While Transparency Declines",
+      "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "publishedAt": "2026-04-13",
+      "summary": "Stanford HAI's 2026 AI Index documents a year of rapid capability growth: leading models now score above 50% on Humanity's Last Exam—a benchmark previously considered beyond AI reach—while generative AI adoption has outpaced the personal computer and the internet at comparable lifecycle stages. The report raises a counterintuitive concern: the most capable models are now the least transparent, with average Foundation Model Transparency Index scores dropping from 58 to 40 points year-over-year. The US-China competitive gap has narrowed to just 2.7 percentage points in top model performance rankings.",
+      "keyConcepts": [
+        "Humanity's Last Exam (HLE) benchmark",
+        "Foundation Model Transparency Index",
+        "Generative AI adoption curves",
+        "US-China AI competitiveness gap"
+      ],
+      "whyItMatters": "The Stanford AI Index is the benchmark annual report that technical leaders and policymakers use to calibrate AI strategy—its 2026 findings clarify why AI investment is accelerating even as capability margins narrow, and why governance conversations about transparency are now reaching boardrooms.",
+      "tags": ["stanford-ai-index", "llm-benchmarks", "ai-transparency", "ai-governance", "generative-ai"],
+      "relatedIds": ["article-techcrunch-stanford-ai-insider-divide", "article-nature-human-scientists-ai-agents"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the 2026 AI Index, what happened to the US-China AI performance gap by March 2026?",
+          "options": [
+            "The US widened its lead to more than 10 percentage points over Chinese models",
+            "China surpassed all US models on every publicly tracked benchmark",
+            "The gap narrowed to about 2.7 percentage points with models trading places at the top",
+            "The gap remained roughly unchanged from the 2025 report"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 2026 report found that by March 2026, Anthropic's top model leads the nearest Chinese competitors by just 2.7 percentage points, and US and Chinese models have traded positions at the top of performance rankings multiple times since early 2025."
+        },
+        {
+          "question": "What does the drop in Foundation Model Transparency Index scores from 58 to 40 indicate?",
+          "options": [
+            "AI models have become less accurate and useful over the past year",
+            "The most capable models are now less open about their training data, methodology, and architecture",
+            "Smaller companies are producing more models with less documentation",
+            "The index itself changed its scoring methodology to be stricter"
+          ],
+          "correctIndex": 1,
+          "explanation": "The transparency decline reflects that the largest, most capable frontier models—concentrated at the biggest AI companies—are sharing progressively less information about training data, architecture choices, and evaluation practices, raising concerns as capabilities scale."
+        }
+      ]
+    },
+    {
+      "id": "article-nature-human-scientists-ai-agents",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "Nature: Human Scientists Still Outperform AI Agents on Complex Research Tasks",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-01199-z",
+      "publishedAt": "2026-04-13",
+      "summary": "A Nature analysis published April 13 examines data from the 2026 Stanford AI Index showing that despite widespread AI adoption in research, human scientists significantly outperform today's best AI agents on complex scientific tasks. While AI mentions now appear in 6-9% of natural-sciences publications, autonomous agents still struggle with open-ended hypothesis formation, multi-step experimental reasoning, and contextual interpretation that experienced researchers handle fluently. The report frames AI as a powerful productivity multiplier for well-defined subtasks—not an autonomous research replacement.",
+      "keyConcepts": [
+        "Autonomous AI research agents",
+        "Scientific hypothesis generation",
+        "Human-AI collaboration in research",
+        "AI limitations in open-ended reasoning"
+      ],
+      "whyItMatters": "For engineers building AI-assisted research or knowledge-work tools, this finding clarifies where the capability boundary lies: AI agents excel at structured, well-scoped subtasks but still require human expertise for synthesis, novel reasoning, and contextual judgment.",
+      "tags": ["ai-research-agents", "scientific-computing", "human-ai-collaboration", "benchmarks", "ai-limitations"],
+      "relatedIds": ["article-hai-stanford-2026-ai-index"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the main finding about AI agents and complex scientific tasks in the 2026 Nature analysis?",
+          "options": [
+            "AI agents have fully replaced human researchers in most laboratory settings",
+            "AI agents are useful for structured subtasks but human scientists still outperform them on complex, multi-step reasoning",
+            "AI agents outperform humans in every scientific domain measured",
+            "The study found no meaningful performance difference between AI agents and human scientists"
+          ],
+          "correctIndex": 1,
+          "explanation": "The analysis found that while AI tools are increasingly present in research (mentioned in 6-9% of publications), human scientists still significantly outperform AI agents on tasks requiring open-ended hypothesis generation, contextual judgment, and multi-step experimental reasoning."
+        },
+        {
+          "question": "What is the practical implication for teams building AI-assisted research or knowledge-work tools?",
+          "options": [
+            "Replace human researchers with fully autonomous AI agents as soon as possible",
+            "Focus only on basic data retrieval tasks because AI cannot contribute meaningfully to research",
+            "Design AI tools to augment specific subtasks while keeping humans in the loop for synthesis and judgment",
+            "Only deploy AI tools that have been peer-reviewed in Nature or similar journals"
+          ],
+          "correctIndex": 2,
+          "explanation": "The findings suggest AI is most effective when enhancing human capabilities—automating literature search, structured analysis, and routine operations—while humans drive hypothesis formation and interpretation, the areas where current agents fall short."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-stanford-ai-insider-divide",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Stanford AI Index: Young Developers See 20% Employment Drop and AI Expert-Public Divide Grows",
+      "sourceUrl": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "publishedAt": "2026-04-13",
+      "summary": "TechCrunch's analysis of the 2026 Stanford AI Index highlights two workforce findings with immediate career implications: US software developers aged 22-25 saw nearly 20% employment decline since 2024, even as demand for developers over 30 continued to grow, and AI researcher inflow to the US dropped 80% in just one year. The report also documents a widening perception gap—AI experts remain broadly optimistic, while the general public shows rising anxiety about job security and the pace of change—a disconnect the report calls a governance risk.",
+      "keyConcepts": [
+        "Age-based employment bifurcation in software development",
+        "AI talent pipeline decline",
+        "Expert-public perception divergence on AI",
+        "Entry-level role displacement by AI"
+      ],
+      "whyItMatters": "The 20% employment decline among young developers signals that AI is compressing entry-level roles fastest—making early-career engineers who lean into AI tools, systems thinking, and directorial skills more resilient than those whose value rests on raw code output volume.",
+      "tags": ["ai-career", "developer-employment", "ai-workforce", "stanford-ai-index", "entry-level-jobs"],
+      "relatedIds": ["article-hai-stanford-2026-ai-index", "article-stackademic-ai-coding-tools-trust"],
+      "knowledgeChecks": [
+        {
+          "question": "Which group of software developers saw the most significant employment impact from AI in 2024-2026?",
+          "options": [
+            "Developers over 40 who struggled to adapt to AI-assisted workflows",
+            "Developers aged 22-25 whose entry-level roles saw nearly 20% employment decline",
+            "Senior architects whose design roles were automated by AI planning tools",
+            "Full-stack developers who were replaced by AI that can write both frontend and backend code"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Stanford AI Index found that software developers aged 22-25 saw nearly 20% employment decline since 2024—the entry-level roles most susceptible to automation—while demand for older, more experienced developers who direct and review AI output continued to grow."
+        },
+        {
+          "question": "What does the 80% drop in AI researcher inflow to the US indicate about America's long-term AI position?",
+          "options": [
+            "The US AI industry is shrinking and no longer needs international researchers",
+            "US universities are producing enough domestic AI researchers to meet demand",
+            "Policy and geopolitical changes are restricting the international talent pipeline that historically fueled US AI leadership",
+            "AI agents are replacing the need for human AI researchers at US companies"
+          ],
+          "correctIndex": 2,
+          "explanation": "Despite the US outspending all other countries on AI, the inflow of international AI researchers dropped 80% in a year—reflecting visa policy tightening, geopolitical tensions, and growing opportunities in other countries—creating a long-term talent pipeline risk the report flags as a governance concern."
+        }
+      ]
+    },
+    {
+      "id": "article-stackademic-ai-coding-tools-trust",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "Survey: 84% of Developers Use AI Coding Tools, but Only 29% Trust the Code They Ship",
+      "sourceUrl": "https://blog.stackademic.com/84-of-developers-use-ai-coding-tools-in-april-2026-only-29-trust-what-they-ship-d0cb7ec9320a",
+      "publishedAt": "2026-04-14",
+      "summary": "A Stackademic survey published April 2026 finds that 84% of developers now incorporate AI coding tools—Claude Code, GitHub Copilot, Cursor—into their daily workflows, but only 29% report high confidence in the AI-generated code they ship to production. Developers cite hallucinated logic, subtle security vulnerabilities, and incorrect assumptions about system context as the primary trust barriers. The survey finds that teams with structured AI code review processes ship 2.1x fewer production incidents than teams relying on ad-hoc review.",
+      "keyConcepts": [
+        "AI code review and validation workflows",
+        "Developer trust in AI-generated code",
+        "AI hallucination in production code",
+        "Security risks in AI-generated code"
+      ],
+      "whyItMatters": "With AI coding adoption at 84%, the challenge has shifted from adoption to validation—teams that build structured review workflows for AI output will ship faster with fewer incidents than those relying on intuition-based spot-checks of plausible-looking code.",
+      "tags": ["ai-coding", "code-review", "developer-productivity", "code-quality", "claude-code", "github-copilot"],
+      "relatedIds": ["article-techcrunch-stanford-ai-insider-divide"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the gap between 84% AI coding tool adoption and 29% trust in shipped code primarily signal?",
+          "options": [
+            "Most developers are using AI tools only for non-coding tasks like documentation",
+            "The 84% adoption figure is inflated because developers exaggerate tool usage",
+            "Adoption has outpaced robust review processes, creating production quality risk that teams have not yet systematically addressed",
+            "AI coding tools are generating mostly correct code and the 29% trust figure is anomalously low"
+          ],
+          "correctIndex": 2,
+          "explanation": "The gap shows that engineers are integrating AI coding tools faster than they are establishing review processes to validate AI output—meaning a large share of AI-generated code reaches production without sufficient verification, increasing the risk of subtle logic errors and security issues."
+        },
+        {
+          "question": "According to the survey, which three issues most erode developer trust in AI-generated code?",
+          "options": [
+            "AI tools running too slowly, poor IDE integration, and expensive subscription costs",
+            "Hallucinated logic, subtle security vulnerabilities, and incorrect assumptions about system context",
+            "Verbose code output, inconsistent naming conventions, and missing comments",
+            "Dependency on internet access, vendor lock-in, and limited language support"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hallucinated logic, subtle security vulnerabilities, and misunderstood system context are all cases where AI generates plausible-looking but wrong code—harder to catch than obvious errors and more dangerous in production, because they often pass superficial review."
+        }
+      ]
+    },
+    {
+      "id": "article-axios-openai-anthropic-amazon",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "OpenAI Criticizes Anthropic in Shareholder Memo and Deepens Amazon Cloud Partnership",
+      "sourceUrl": "https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon",
+      "publishedAt": "2026-04-13",
+      "summary": "Axios reported April 13 that OpenAI circulated a shareholder memo criticizing Anthropic as operating on 'a meaningfully smaller compute curve,' arguing that its rival lacks the infrastructure scale for long-term competition. Simultaneously, OpenAI's cloud partnership with Amazon Web Services is generating 'frankly staggering' enterprise demand, and OpenAI is distancing from its historical closeness to Microsoft as it diversifies infrastructure relationships. Both companies are now formally advancing IPO plans for the second half of 2026.",
+      "keyConcepts": [
+        "AI compute scale as competitive moat",
+        "Cloud distribution partnerships for AI companies",
+        "OpenAI-Anthropic competitive dynamics",
+        "Frontier lab IPO positioning"
+      ],
+      "whyItMatters": "How frontier labs compete on compute, cloud partnerships, and enterprise distribution—not just model benchmarks—shapes which platforms receive long-term investment and where AI capabilities will be most accessible, making these signals relevant for engineers evaluating AI infrastructure bets.",
+      "tags": ["openai", "anthropic", "amazon-aws", "ai-industry", "cloud-computing", "ipo"],
+      "relatedIds": ["article-roborhythms-anthropic-30b-arr"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core argument in OpenAI's shareholder memo about Anthropic?",
+          "options": [
+            "Anthropic's models perform better on every benchmark OpenAI cares about",
+            "Anthropic operates with less compute capacity and therefore cannot match OpenAI's ability to scale model capabilities",
+            "Anthropic's safety approach is superior and OpenAI is admitting it needs to change",
+            "Anthropic's enterprise revenue is growing faster and poses an immediate threat"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's memo frames Anthropic's relative compute scale disadvantage as the decisive long-term factor—arguing that future AI capabilities will require the massive infrastructure investments that OpenAI, backed by its Microsoft relationship and new Amazon partnership, is better positioned to sustain."
+        },
+        {
+          "question": "Why is OpenAI reducing its closeness to Microsoft while deepening the Amazon partnership?",
+          "options": [
+            "Microsoft and OpenAI had a public disagreement that ended their partnership entirely",
+            "Amazon is paying OpenAI significantly more than Microsoft for exclusive rights",
+            "OpenAI is diversifying cloud relationships to reduce single-vendor dependency and expand enterprise reach as it approaches IPO",
+            "AWS and Azure are actually the same infrastructure so the change has no practical significance"
+          ],
+          "correctIndex": 2,
+          "explanation": "As OpenAI approaches IPO at a $852B valuation, diversifying beyond Microsoft reduces single-vendor risk, satisfies investors with broader distribution proof points, and captures enterprise demand across multiple cloud customer bases—a structural requirement for a company preparing for public markets."
+        }
+      ]
+    },
+    {
+      "id": "article-roborhythms-anthropic-30b-arr",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "Anthropic Crosses $30B ARR, Surpassing OpenAI in Revenue for the First Time",
+      "sourceUrl": "https://www.roborhythms.com/anthropic-revenue-30-billion-2026/",
+      "publishedAt": "2026-04-14",
+      "summary": "Anthropic's annualized revenue crossed $30 billion in April 2026, surpassing OpenAI's $25 billion ARR to become the top revenue-generating frontier AI lab for the first time. The milestone reflects approximately 230% year-over-year growth, driven by enterprise API contracts, Claude Code's estimated $2.5 billion ARR contribution, and the Claude Cowork general availability launch. Notably, Anthropic achieved this revenue level while training its models at roughly one-quarter the compute cost of OpenAI—raising questions about capital efficiency in the AI arms race.",
+      "keyConcepts": [
+        "Annual Recurring Revenue (ARR) as an AI market metric",
+        "Enterprise vs consumer revenue composition",
+        "Model training cost efficiency",
+        "Frontier lab revenue competition and IPO timing"
+      ],
+      "whyItMatters": "Anthropic surpassing OpenAI in revenue on a leaner compute budget demonstrates that a safety-first enterprise strategy can win commercially, giving Anthropic financial runway to accelerate its IPO and compete on training investment—making its API platform a more durable long-term choice.",
+      "tags": ["anthropic", "openai", "ai-revenue", "enterprise-ai", "claude", "ai-industry"],
+      "relatedIds": ["article-axios-openai-anthropic-amazon"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic reaching $30B ARR at roughly one-quarter of OpenAI's compute training cost suggest?",
+          "options": [
+            "Anthropic's models are lower quality and require less compute because they are simpler",
+            "The $30B figure is misleading and includes non-product revenue sources",
+            "Anthropic has developed more efficient training approaches that enable strong revenue with a leaner capital structure",
+            "OpenAI has been wasteful and will close the efficiency gap in the next quarter"
+          ],
+          "correctIndex": 2,
+          "explanation": "Training efficiency gains—through constitutional AI refinement, hardware optimization partnerships with Google and Broadcom, and a focus on medium-sized, highly capable models—allowed Anthropic to reach and surpass OpenAI's revenue while maintaining approximately 4x lower compute spend per unit of model capability."
+        },
+        {
+          "question": "What distinguishes Anthropic's revenue composition from OpenAI's, and why does it matter for investors?",
+          "options": [
+            "Anthropic earns primarily from consumer subscriptions like Claude Pro, similar to OpenAI",
+            "About 80% of Anthropic's revenue comes from enterprise API contracts, compared to OpenAI's more consumer-heavy mix, making it stickier",
+            "Anthropic's revenue is primarily from hardware sales and cloud infrastructure",
+            "Both companies have identical revenue compositions with equal enterprise and consumer splits"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's approximately 80% enterprise revenue composition produces stickier ARR with lower churn than OpenAI's more consumer-dependent model—a structural advantage as both companies approach IPO, where investors reward predictable recurring revenue over subscription volume."
+        }
+      ]
+    }
+  ]
+}
