@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-04-15T12:00:00Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-15",
+  "items": [
+    {
+      "id": "article-startupnews-openai-cyber-strategy",
+      "topics": ["ai-industry"],
+      "type": "article",
+      "title": "OpenAI Unveils GPT-5.4-Cyber and Shifts to Verified-User Access Model for Sensitive AI Capabilities",
+      "sourceUrl": "https://startupnews.fyi/2026/04/15/in-the-wake-of-anthropics-mythos-openai-has-a-new-cybersecurity-model-and-strategy/",
+      "publishedAt": "2026-04-15",
+      "summary": "One week after Anthropic's limited release of Claude Mythos Preview, OpenAI launched GPT-5.4-Cyber — a variant of GPT-5.4 fine-tuned for defensive cybersecurity tasks and available only to vetted professionals through an expanded Trusted Access for Cyber program. The model introduces tiered verification levels where higher tiers unlock more sensitive capabilities like binary reverse engineering, marking a strategic shift from blanket content restrictions toward identity-verified access as the primary safety mechanism for dual-use AI capabilities.",
+      "keyConcepts": [
+        "GPT-5.4-Cyber",
+        "Trusted Access for Cyber program",
+        "Binary reverse engineering",
+        "Tiered identity-verified AI access"
+      ],
+      "whyItMatters": "OpenAI's move away from blanket restrictions toward verified-user access is likely to become the industry template for deploying powerful AI in sensitive domains — understanding this access architecture matters for any engineer working on AI products in regulated or security-sensitive verticals.",
+      "tags": ["openai", "cybersecurity", "gpt-5-4", "ai-safety", "enterprise-ai"],
+      "relatedIds": ["article-googlecloud-claude-mythos-vertex"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the main purpose of GPT-5.4-Cyber?",
+          "options": [
+            "Generating marketing copy for cybersecurity companies",
+            "Automating offensive cyberattacks for penetration testers",
+            "Assisting vetted security professionals with defensive cybersecurity workflows",
+            "Replacing antivirus software for consumer devices"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-5.4-Cyber is a fine-tuned variant of GPT-5.4 designed specifically for defensive cybersecurity tasks — such as vulnerability analysis and binary reverse engineering — with access limited to verified security professionals to reduce misuse risk."
+        },
+        {
+          "question": "How does OpenAI's Trusted Access for Cyber program change the safety model compared to standard content restrictions?",
+          "options": [
+            "It removes all safety filters from the model entirely",
+            "It relies on identity verification and tiered access instead of blocking categories of content for everyone",
+            "It requires government approval for every individual query",
+            "It uses a separate model with no connection to GPT-5.4"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rather than restricting what the model can discuss for all users, tiered verified access grants more capable use to users who authenticate as legitimate cybersecurity professionals — shifting safety from content blocking to knowing who the user is."
+        }
+      ]
+    },
+    {
+      "id": "article-googlecloud-claude-mythos-vertex",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "article",
+      "title": "Anthropic's Claude Mythos Preview Launches on Vertex AI in Private Preview Under Project Glasswing",
+      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
+      "publishedAt": "2026-04-08",
+      "summary": "Google Cloud launched Claude Mythos Preview on Vertex AI in private preview for select enterprise customers, offering access to Anthropic's most capable model to date as part of Project Glasswing — a controlled-access cybersecurity consortium. Claude Mythos Preview sets new benchmarks in coding, reasoning, and especially cybersecurity tasks, but has not been made publicly available due to its documented ability to autonomously discover and exploit software vulnerabilities across major operating systems and browsers.",
+      "keyConcepts": [
+        "Project Glasswing",
+        "Claude Mythos Preview",
+        "Vertex AI private preview",
+        "Responsible dual-use AI deployment"
+      ],
+      "whyItMatters": "Claude Mythos represents a new category of AI capability: models so powerful in specific domains that they require consortium-level access controls rather than public APIs — a pattern that sets a precedent for how the most advanced future models may be deployed commercially.",
+      "tags": ["anthropic", "claude-mythos", "vertex-ai", "google-cloud", "cybersecurity"],
+      "relatedIds": ["article-startupnews-openai-cyber-strategy"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Claude Mythos Preview limited to private preview rather than released publicly?",
+          "options": [
+            "The model has not yet passed standard safety benchmarks",
+            "Anthropic lacks the infrastructure to serve it at public scale",
+            "Its autonomous ability to discover and exploit software vulnerabilities makes unrestricted access a significant security risk",
+            "Google Cloud has exclusive global rights to the model"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic documented that Claude Mythos can autonomously identify thousands of zero-day vulnerabilities in major operating systems and browsers — capabilities that make public release dangerous without stringent controls on who can access the model."
+        },
+        {
+          "question": "What is the role of Project Glasswing in Claude Mythos's deployment?",
+          "options": [
+            "It is Anthropic's internal benchmark suite for evaluating model safety",
+            "It is a controlled consortium of vetted organizations managing who can access Claude Mythos under stringent conditions",
+            "It is a joint marketing campaign between Anthropic and Google Cloud",
+            "It is an open-source framework for testing AI models against security scenarios"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Glasswing is Anthropic's mechanism for controlled deployment of Claude Mythos — organizing a verified consortium of tech companies who agree to stringent access and usage conditions before gaining access to the model's most sensitive capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-github-copilot-model-selection",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "GitHub Copilot Adds Model Selection for Claude and Codex Agents, Enabling Task-Specific AI Routing",
+      "sourceUrl": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
+      "publishedAt": "2026-04-14",
+      "summary": "GitHub expanded its Copilot cloud agent platform to allow developers to select between Claude (Anthropic) and Codex (OpenAI) as the underlying model for their AI coding agent tasks on GitHub.com. The update reflects an emerging architecture where AI-powered developer tools function as multi-model platforms, routing different task types — complex reasoning, security analysis, or fast code generation — to whichever model performs best for that specific use case.",
+      "keyConcepts": [
+        "Copilot cloud agent",
+        "Multi-model AI routing",
+        "Agentic software development",
+        "AI model specialization"
+      ],
+      "whyItMatters": "The shift from a single fixed AI to a configurable multi-model platform means developers who understand each model's strengths will extract measurably more value from AI-assisted workflows — model selection is becoming a professional skill, not just a product feature.",
+      "tags": ["github-copilot", "agentic-coding", "claude", "openai", "developer-tools"],
+      "relatedIds": ["article-github-copilot-merge-conflicts"],
+      "knowledgeChecks": [
+        {
+          "question": "What does model selection in GitHub Copilot's cloud agent allow developers to choose?",
+          "options": [
+            "The programming language the AI will generate code in",
+            "The underlying AI model (Claude or Codex) powering their agentic tasks on GitHub.com",
+            "The maximum token budget for each AI request",
+            "The deployment region for their AI model inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Model selection lets developers pick which AI model powers their Copilot agent tasks — Claude for complex reasoning or security-related work, Codex for fast code generation — matching the model's strengths to the specific task."
+        },
+        {
+          "question": "Why is multi-model routing in AI coding tools significant for software engineers?",
+          "options": [
+            "It reduces the cost of GitHub Copilot subscriptions for teams",
+            "It allows AI to run without an internet connection",
+            "It enables developers to match specialized model capabilities to different task types, improving overall agentic workflow quality",
+            "It guarantees that generated code will pass all linting checks automatically"
+          ],
+          "correctIndex": 2,
+          "explanation": "Different AI models excel at different task types — Claude at reasoning and security analysis, Codex at syntax-accurate code generation. Multi-model routing lets developers exploit these differences rather than accepting a one-size-fits-all approach."
+        }
+      ]
+    },
+    {
+      "id": "article-github-copilot-merge-conflicts",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "GitHub Copilot Cloud Agent Can Now Resolve Merge Conflicts in Three Clicks on GitHub.com",
+      "sourceUrl": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent/",
+      "publishedAt": "2026-04-13",
+      "summary": "GitHub added a 'Fix with Copilot' button to merge conflict views on GitHub.com, allowing the Copilot cloud agent to autonomously analyze conflicting changes and propose resolutions without the developer needing to open a local editor. This update is part of a broader April 2026 expansion of Copilot cloud agent capabilities — alongside model selection, research mode, and 20% faster validation — that collectively move the agent from a PR-only workflow tool to an integrated GitHub-native development partner.",
+      "keyConcepts": [
+        "Copilot cloud agent",
+        "Automated merge conflict resolution",
+        "AI-native development workflows",
+        "Agentic GitHub integration"
+      ],
+      "whyItMatters": "Merge conflict resolution is one of the most time-consuming and context-requiring tasks in collaborative development — automating it directly in the browser lowers the cost of keeping long-running branches synchronized and is a tangible productivity gain for anyone working on team codebases.",
+      "tags": ["github-copilot", "developer-productivity", "agentic-coding", "git", "workflow-automation"],
+      "relatedIds": ["article-github-copilot-model-selection"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key capability introduced by the 'Fix with Copilot' button for merge conflicts?",
+          "options": [
+            "It automatically rebases branches onto the latest main branch",
+            "It allows the Copilot cloud agent to analyze and propose merge conflict resolutions directly from the GitHub web interface",
+            "It creates a new branch to isolate conflicting changes for manual review",
+            "It rolls back all changes to the last successful commit"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 'Fix with Copilot' button triggers the Copilot cloud agent to analyze both sides of a merge conflict and propose a resolution — directly in the browser, without requiring the developer to clone and resolve locally."
+        },
+        {
+          "question": "How does this feature fit into the broader direction of GitHub Copilot in April 2026?",
+          "options": [
+            "It is an isolated feature with no connection to other Copilot capabilities",
+            "It is part of a pattern of expanding Copilot cloud agent capabilities beyond PR creation into routine development tasks across the full GitHub workflow",
+            "It replaces the need for pull requests in team workflows",
+            "It is designed only for open-source repositories with contributor guidelines"
+          ],
+          "correctIndex": 1,
+          "explanation": "The merge conflict feature is one of several April 2026 Copilot cloud agent expansions — alongside model selection, research mode, and performance improvements — collectively moving the agent from a narrow PR-creation tool to a GitHub-native development partner for everyday tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-nextbigfuture-xai-10t-training",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "xAI Confirms It Is Training a 10-Trillion-Parameter AI Model on Colossus 2, Targeting a Mid-2026 Release",
+      "sourceUrl": "https://www.nextbigfuture.com/2026/04/xai-training-10-trillion-parameter-model-likely-out-in-mid-2026.html",
+      "publishedAt": "2026-04-09",
+      "summary": "Elon Musk disclosed on April 8, 2026 that xAI is simultaneously training seven AI models on its Colossus 2 supercomputer, including a 10-trillion-parameter flagship that would match the scale independently estimated for Anthropic's Claude Mythos Preview. The disclosure came one day after Anthropic's Mythos announcement and confirms that multiple frontier labs are converging on the 10-trillion-parameter range as the next competitive benchmark, with xAI targeting mid-2026 for its release.",
+      "keyConcepts": [
+        "10-trillion-parameter models",
+        "Colossus 2 supercomputer",
+        "Frontier lab scale competition",
+        "Inference-time scaling"
+      ],
+      "whyItMatters": "The convergence of multiple labs at 10-trillion-parameter scale marks the opening of a new compute era — developers and architects building AI-integrated products should begin planning for what capabilities this scale unlocks and what infrastructure constraints it imposes, as these models will define the frontier within 12 months.",
+      "tags": ["xai", "grok", "large-language-models", "model-scale", "frontier-labs"],
+      "relatedIds": ["article-googlecloud-claude-mythos-vertex"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the strategic significance of xAI training a 10-trillion-parameter model?",
+          "options": [
+            "It proves that parameter count is no longer relevant to model quality",
+            "It positions xAI as a competitor at the same scale as Anthropic's Claude Mythos, opening a direct race at unprecedented model size",
+            "It enables xAI to replace all existing Grok models immediately",
+            "It allows xAI to reduce its compute costs through model compression"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Mythos has been independently estimated at approximately 10 trillion parameters — xAI's disclosure of a model at the same scale means two labs are now competing at an unprecedented tier, making parameter scale a live competitive differentiator rather than a theoretical benchmark."
+        },
+        {
+          "question": "Why does training on Colossus 2 matter for xAI's competitive position?",
+          "options": [
+            "Colossus 2 automatically generates training data, eliminating the need for large datasets",
+            "Colossus 2 guarantees the trained model will have superior reasoning abilities",
+            "Colossus 2 is one of the largest private AI supercomputers in operation, enabling training at a scale very few organizations can match",
+            "Colossus 2 provides open access to pre-trained model weights for fine-tuning"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Colossus 2 supercomputer represents a massive private AI compute cluster that directly limits which organizations can compete at 10-trillion-parameter scale — infrastructure access is now a strategic moat as much as algorithmic innovation."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-gigatime-cancer-ai",
+      "topics": ["ai-research"],
+      "type": "article",
+      "title": "Microsoft GigaTIME: AI Generates High-Resolution Cancer Immune Maps from Standard $10 Pathology Slides",
+      "sourceUrl": "https://news.microsoft.com/signal/articles/gigatime-ai-tool-advances-cancer-research/",
+      "publishedAt": "2026-04-14",
+      "summary": "Microsoft Research released GigaTIME as an open-source multimodal AI model that converts standard hematoxylin and eosin (H&E) pathology slides into virtual multiplex immunofluorescence (mIF) images across 21 protein channels — producing expensive specialized analysis from a $10 routine tissue test. Trained on 40 million cancer cells from 14,256 patients across 24 cancer types at 51 hospitals, GigaTIME identified 1,234 statistically significant associations between tumor immune cell states and clinical outcomes, independently validated on 10,200 additional patients from The Cancer Genome Atlas.",
+      "keyConcepts": [
+        "Tumor microenvironment (TME) modeling",
+        "Virtual multiplex immunofluorescence (mIF)",
+        "Population-scale cancer genomics",
+        "Open-source medical AI"
+      ],
+      "whyItMatters": "GigaTIME is a concrete demonstration of an AI pattern that will recur across scientific fields: taking an expensive specialized analysis and replicating it from cheap, universally available inputs — a template for how AI will democratize high-cost research techniques at population scale.",
+      "tags": ["microsoft", "cancer-research", "medical-ai", "multimodal-ai", "open-source"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What problem does GigaTIME solve in cancer research?",
+          "options": [
+            "It replaces the need for human pathologists in all diagnostic settings",
+            "It generates high-resolution virtual immune cell maps from standard, low-cost H&E slides already available at most hospitals",
+            "It predicts cancer mutations from blood samples without tissue biopsies",
+            "It automates surgical planning by modeling tumor locations from MRI data"
+          ],
+          "correctIndex": 1,
+          "explanation": "Multiplex immunofluorescence imaging is expensive and requires specialized equipment not available at most hospitals. GigaTIME generates virtual mIF images from routine H&E stained slides — making advanced immune profiling practically free at population scale."
+        },
+        {
+          "question": "Why does GigaTIME's validation on 10,200 additional patients matter?",
+          "options": [
+            "It proves the model is production-ready for immediate clinical deployment",
+            "It demonstrates that the discovered associations are statistically robust and generalize beyond the training population",
+            "It eliminates the need for any further clinical trials before use",
+            "It confirms the model can replace standard lab testing protocols"
+          ],
+          "correctIndex": 1,
+          "explanation": "Independent validation on a separate patient cohort (The Cancer Genome Atlas) is the key step separating a research novelty from a result with real scientific credibility — it demonstrates that GigaTIME's associations generalize across diverse patient populations rather than being artifacts of the training data."
+        }
+      ]
+    },
+    {
+      "id": "article-vucense-tech-layoffs-q1-2026",
+      "topics": ["ai-career"],
+      "type": "article",
+      "title": "Q1 2026 Tech Layoffs: 78,000 Jobs Cut with AI Cited as the Cause in Nearly Half of Announcements",
+      "sourceUrl": "https://vucense.com/ai-intelligence/industry-business/tech-layoffs-q1-2026-ai-displacement-80000/",
+      "publishedAt": "2026-04-14",
+      "summary": "Q1 2026 closed with 78,557 tech industry layoffs, and as of April 14, 2026, cumulative cuts have reached 99,283 workers across 146 layoff events — with 47.9% of announced cuts explicitly attributed to AI-driven productivity gains and workflow automation. The data presents a split picture: AI-related job postings on LinkedIn increased 340% since 2024 while traditional software engineering roles declined 15%, illustrating a structural workforce recomposition where the industry is simultaneously contracting and selectively rehiring into AI-focused roles.",
+      "keyConcepts": [
+        "AI-driven workforce displacement",
+        "Structural tech workforce recomposition",
+        "AI skills premium",
+        "Traditional software engineering role decline"
+      ],
+      "whyItMatters": "The Q1 2026 data confirms a structural shift — not a cyclical downturn — in how tech employers value different skill profiles, with AI fluency becoming a hard requirement for staying competitive as traditional software engineering roles decline and AI-specialized roles surge.",
+      "tags": ["tech-layoffs", "ai-displacement", "workforce", "software-engineering", "reskilling"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Q1 2026 tech layoffs were explicitly attributed to AI automation?",
+          "options": [
+            "Less than 10%",
+            "Around 25%",
+            "Nearly 48%",
+            "Over 75%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tracking data shows 47.9% of Q1 2026 tech layoffs were attributed to AI and workflow automation — making AI-driven displacement the single largest stated reason for cuts in the quarter and confirming this is a structural, not cyclical, trend."
+        },
+        {
+          "question": "What does the simultaneous increase in AI job postings (+340%) alongside declining traditional software engineering roles (-15%) indicate?",
+          "options": [
+            "The tech industry is experiencing a uniform hiring freeze across all roles",
+            "AI is creating more total jobs than it is eliminating",
+            "The industry is undergoing structural workforce recomposition rather than a cyclical downturn affecting all roles equally",
+            "Traditional software engineers are being directly retrained as AI engineers with no net displacement"
+          ],
+          "correctIndex": 2,
+          "explanation": "When hiring grows sharply in AI-specific roles while contracting in traditional software engineering simultaneously, that is the signature of structural transformation — not a recession, where all hiring would decline together. The reskilling gap between displaced roles and required roles is the core challenge."
+        }
+      ]
+    }
+  ]
+}
