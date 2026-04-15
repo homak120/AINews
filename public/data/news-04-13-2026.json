@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T15:30:00Z",
+  "generatedAt": "2026-04-13T22:00:00Z",
   "weekOf": "2026-04-13",
   "coverageStart": "2026-04-12",
   "coverageEnd": "2026-04-13",
@@ -216,6 +216,137 @@
           ],
           "correctIndex": 1,
           "explanation": "Anthropic crossed a $30 billion annualized revenue run rate, outpacing OpenAI's approximately $25 billion ARR—marking the first time Anthropic has led in revenue. Anthropic's roughly 80% enterprise revenue mix, driven by Claude Code and Managed Agents adoption, powered the crossover."
+        }
+      ]
+    },
+    {
+      "id": "youtube-f8KE5B6rcSo",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "TheAIGRID walks through running OpenClaw locally for free with open-source models",
+      "sourceUrl": "https://www.youtube.com/watch?v=f8KE5B6rcSo",
+      "youtubeId": "f8KE5B6rcSo",
+      "publishedAt": "2026-04-13",
+      "summary": "TheAIGRID demonstrates how to set up and run OpenClaw, the open-source AI agent platform with 120k+ GitHub stars, entirely for free using local open-source models instead of paid API calls. The tutorial covers connecting OpenClaw to locally-hosted LLMs via Ollama, configuring the agent for common automation tasks, and optimizing token usage to avoid the $50-300/month API costs that many users encounter. The walkthrough is practical and step-by-step, targeting developers who want autonomous AI agents without recurring cloud expenses.",
+      "keyConcepts": [
+        "OpenClaw open-source AI agent",
+        "Local LLM inference via Ollama",
+        "AI agent cost optimization",
+        "Self-hosted AI automation"
+      ],
+      "whyItMatters": "Running AI agents locally with open-source models eliminates the biggest barrier to experimenting with autonomous workflows — cost — and gives developers full control over their agent infrastructure without vendor lock-in.",
+      "tags": ["openclaw", "open-source", "local-llm", "ollama", "ai-agents", "tutorial"],
+      "relatedIds": ["youtube-nt7dWOEFUB4"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary advantage of running OpenClaw with local models instead of cloud APIs?",
+          "options": [
+            "Local models always produce higher quality outputs than cloud models",
+            "It eliminates recurring API costs, which can range from $50-300+/month for active agents",
+            "Local models have longer context windows than any cloud-hosted model",
+            "OpenClaw only supports local models and cannot connect to cloud APIs"
+          ],
+          "correctIndex": 1,
+          "explanation": "The main advantage is cost elimination. OpenClaw agents using cloud APIs like Claude or GPT-4 can cost $50-300+/month for moderate usage, while running locally with open-source models through Ollama reduces the ongoing expense to just electricity and hardware costs."
+        },
+        {
+          "question": "What tool does the tutorial use to host open-source LLMs locally for OpenClaw?",
+          "options": [
+            "Docker Compose with a custom LLM container",
+            "Ollama for local model inference",
+            "A Kubernetes cluster running vLLM",
+            "Hugging Face Transformers library directly"
+          ],
+          "correctIndex": 1,
+          "explanation": "The tutorial uses Ollama, a popular local inference tool that makes it straightforward to download and run open-source LLMs. Ollama provides a simple API that OpenClaw can connect to as an LLM backend, replacing paid cloud API endpoints."
+        }
+      ]
+    },
+    {
+      "id": "youtube-KfxHhPC0N-c",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "video",
+      "title": "TheAIGRID analyzes how public and political AI backlash has reached a critical inflection point",
+      "sourceUrl": "https://www.youtube.com/watch?v=KfxHhPC0N-c",
+      "youtubeId": "KfxHhPC0N-c",
+      "publishedAt": "2026-04-12",
+      "summary": "TheAIGRID examines the growing wave of public and political resistance to AI deployment, arguing that it has crossed from scattered complaints into a coordinated backlash with real policy consequences. The video covers Maine's proposed ban on new data center construction, rising community opposition to AI infrastructure projects driven by electricity and water cost concerns, and the widening gap between expert AI optimism (73% positive) and public sentiment (23% positive). The analysis connects these signals to broader workforce anxiety and the cultural shift from AI skepticism to active hostility.",
+      "keyConcepts": [
+        "AI public backlash escalation",
+        "Data center construction opposition",
+        "Expert-public AI sentiment gap",
+        "AI infrastructure policy resistance",
+        "Workforce displacement anxiety"
+      ],
+      "whyItMatters": "Engineers building AI products need to understand that the environment around deployment is shifting — growing political opposition to AI infrastructure and public distrust can directly affect product adoption, data center availability, and the regulatory landscape teams operate within.",
+      "tags": ["ai-backlash", "ai-policy", "public-sentiment", "data-centers", "workforce-impact"],
+      "relatedIds": ["article-troutman-state-ai-laws-0413"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate gap between AI expert optimism and public optimism about AI's impact on jobs?",
+          "options": [
+            "Experts are 10 percentage points more optimistic than the public",
+            "Experts and the public are roughly equally split",
+            "Experts are about 50 percentage points more positive than the public (73% vs 23%)",
+            "The public is actually more optimistic than experts by 20 percentage points"
+          ],
+          "correctIndex": 2,
+          "explanation": "There is a stark 50-percentage-point gap: 73% of US experts view AI's job impact positively, compared to only 23% of the public. This disconnect fuels the backlash, as people feel the technology is being promoted by elites who do not share their economic risks."
+        },
+        {
+          "question": "Which US state is considering an outright ban on new data center construction?",
+          "options": [
+            "California",
+            "Texas",
+            "Maine",
+            "Virginia"
+          ],
+          "correctIndex": 2,
+          "explanation": "Maine is positioning itself to become the first US state to ban new data center development entirely, driven by community concerns about data centers consuming excessive electricity and water and driving up utility costs for residents."
+        }
+      ]
+    },
+    {
+      "id": "youtube-nt7dWOEFUB4",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Matthew Berman breaks down OpenClaw's real-world costs and whether the expense is justified",
+      "sourceUrl": "https://www.youtube.com/watch?v=nt7dWOEFUB4",
+      "youtubeId": "nt7dWOEFUB4",
+      "publishedAt": "2026-04-13",
+      "summary": "Matthew Berman addresses the common complaint that OpenClaw is expensive to operate, breaking down the actual cost structure across self-hosted and managed cloud deployments. He explains that while the core software is free and open-source under the MIT license, the real cost comes from LLM API usage — ranging from $6-13/month for light personal use with budget models to $200-500+/month for heavy multi-agent workflows on premium models like Claude Opus. The video compares OpenClaw's managed cloud offering at $59/month against self-hosted alternatives and discusses practical cost optimization strategies including heartbeat interval tuning and prompt compression.",
+      "keyConcepts": [
+        "OpenClaw deployment cost tiers",
+        "LLM API token economics",
+        "Agent heartbeat optimization",
+        "Self-hosted vs managed cloud trade-offs",
+        "Prompt compression for cost reduction"
+      ],
+      "whyItMatters": "Understanding the true cost structure of AI agent platforms is essential for engineers evaluating whether to adopt tools like OpenClaw — the difference between an unoptimized and optimized setup can be 10x in monthly spend, making cost awareness a practical engineering skill.",
+      "tags": ["openclaw", "ai-agent-costs", "llm-pricing", "cost-optimization", "self-hosted"],
+      "relatedIds": ["youtube-f8KE5B6rcSo"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the typical monthly cost range for a self-hosted OpenClaw setup with light personal usage?",
+          "options": [
+            "$0/month — it is completely free including API costs",
+            "$6-13/month using a budget VPS and efficient AI models",
+            "$59/month minimum for the managed cloud plan",
+            "$200-500/month regardless of usage level"
+          ],
+          "correctIndex": 1,
+          "explanation": "A basic self-hosted OpenClaw setup costs roughly $6-13/month, covering a cheap VPS and budget AI model API usage. The core software itself is free, but hosting and LLM API calls create a small baseline cost even for light usage."
+        },
+        {
+          "question": "What optimization technique can reduce OpenClaw's idle API costs by 90% or more?",
+          "options": [
+            "Switching from Claude to a free open-source model for all tasks",
+            "Extending heartbeat intervals or using ultra-cheap models for idle checks",
+            "Running OpenClaw only during business hours and shutting it down at night",
+            "Caching all previous responses and never making new API calls"
+          ],
+          "correctIndex": 1,
+          "explanation": "Heartbeat optimization — extending the interval between agent check-ins or routing idle heartbeats through ultra-cheap models — can cut idle token burn by 90% or more. This is one of the most impactful cost optimizations since agents spend most of their time idle."
         }
       ]
     }
