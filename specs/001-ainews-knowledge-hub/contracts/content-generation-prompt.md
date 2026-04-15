@@ -190,6 +190,20 @@ types, standard topic coverage, broad source discovery).
   and `PREFERRED_CHANNELS` is set, search preferred channels first, then
   broaden to general YouTube discovery to fill remaining slots.
 
+### YouTube Validation Mode (`YOUTUBE_VALIDATION`)
+
+- **Value**: {{YOUTUBE_VALIDATION}} *(default: `strict`)*
+- **`strict`** (default, for local/manual use): Verify every video via the
+  YouTube oEmbed endpoint. Discard any video that fails verification. Use RSS
+  feeds to confirm publish dates. This is the safest mode but requires direct
+  access to YouTube endpoints.
+- **`trust-search`** (for scheduled triggers / environments where YouTube is
+  blocked): Trust web search results as sufficient evidence that a video exists.
+  Extract the video ID, title, channel name, and publish date from the search
+  result snippet. Skip oEmbed, page fetch, and RSS verification entirely.
+  Mark each video item with `"verified": false` in the JSON so the video
+  repair process can find and validate them later.
+
 ## Topic Definitions
 
 Search for content across all 4 topics. Use the research question for each
@@ -337,7 +351,9 @@ date (or the day before, if needed for coverage):
 - `"<channel handle>" AI [today's date] YouTube`
 - `site:youtube.com "<channel name>" [topic keyword]`
 
-### Step 2 — Verify each candidate video via YouTube oEmbed
+### Step 2 — Verify candidate videos
+
+**If `YOUTUBE_VALIDATION` = `strict` (default):**
 
 For every candidate video URL, fetch:
 
@@ -349,10 +365,21 @@ https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=VIDEO_ID&form
   from the response.
 - Status `404` or any error → video does NOT exist. **Discard it. Never write
   an unverified video ID to the file.**
-- This is the canonical existence check. A web search snippet alone is NOT
-  sufficient verification.
+- This is the canonical existence check.
 
-### Step 3 — Confirm publish date via channel RSS feed (when channel ID is known)
+**If `YOUTUBE_VALIDATION` = `trust-search`:**
+
+- Use the video ID, title, and channel name directly from the web search result.
+- Do NOT attempt to fetch oEmbed, video pages, or RSS feeds from YouTube.
+- Add `"verified": false` to the item JSON (next to `youtubeId`) so the
+  video repair process can identify unverified entries later.
+- Log: `"Video [ID] added via trust-search (not oEmbed-verified)"`
+
+### Step 3 — Confirm publish date
+
+**If `YOUTUBE_VALIDATION` = `strict`:**
+
+Fetch the channel RSS feed to confirm the actual upload date:
 
 ```
 https://www.youtube.com/feeds/videos.xml?channel_id=UC...
@@ -363,6 +390,13 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC...
 - If the channel ID is not known, fall back to the date returned by web search
   or the video page itself.
 - `publishedAt` MUST reflect the actual upload date — never the target date.
+
+**If `YOUTUBE_VALIDATION` = `trust-search`:**
+
+- Use the date from the web search snippet or result metadata.
+- If no date is available from search, use the target date but add
+  `"dateEstimated": true` to the item for the repair process to fix later.
+- `publishedAt` should reflect the best available date from the search result.
 
 ### Step 4 — Cross-file dedup (BOTH `sourceUrl` AND `youtubeId`)
 
@@ -404,6 +438,36 @@ Continue walking the channel list until ONE of:
 After Step 6, note which topics the collected videos cover (primary topic of
 each). The article phase will then deliberately favor topics that are NOT yet
 covered by videos, so the final file maintains balance across all 4 topics.
+
+## Video Repair Process (On-Demand, Local Only)
+
+Run this process locally in a Claude Code session to validate and fix YouTube
+entries that were added via `trust-search` mode. This is meant to be run
+periodically (e.g., after each batch of scheduled trigger runs) to catch bad
+video IDs before they reach users.
+
+**Steps**:
+
+1. Scan all `public/data/news-*.json` files for items where `verified === false`
+   OR (`type === "video"` and `verified` is missing and the file was generated
+   in the last 7 days).
+2. For each unverified video item:
+   a. Fetch `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YOUTUBE_ID&format=json`
+   b. If `200`: set `verified: true`, update `title` if the oEmbed title
+      differs from the stored title, confirm `publishedAt` via channel RSS
+      feed if accessible.
+   c. If `404`: the video does not exist. **Remove the item** from the file
+      and log it. Optionally search for a replacement video from the same
+      channel and topic to maintain the video count.
+   d. If `dateEstimated: true`, confirm the actual date via RSS and update
+      `publishedAt`. Remove the `dateEstimated` flag.
+3. Write updated files back.
+4. Print a repair report:
+   - Items verified (count and IDs)
+   - Items removed (count, IDs, and reason)
+   - Items with date fixes
+   - Replacement items added (if any)
+5. Do NOT commit — the operator reviews and commits manually.
 
 ## Content Selection Criteria
 
@@ -660,6 +724,11 @@ Combined:
 > "Generate AINews video-only digest for April 2, 2026.
 > Hot topics: **AI agents in production**. Preferred channels:
 > **Fireship, ThePrimeagen, WebDevCody**. Follow the prompt template."
+
+**Video repair** (validate trust-search entries locally):
+> "Run the video repair process on all news-*.json files.
+> Follow the prompt template in
+> `specs/001-ainews-knowledge-hub/contracts/content-generation-prompt.md`."
 
 ### Scheduled Trigger Use
 

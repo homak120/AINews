@@ -22,6 +22,8 @@ export interface NewsItem {
   title: string;
   sourceUrl: string;
   youtubeId?: string;
+  verified?: boolean;
+  dateEstimated?: boolean;
   publishedAt: string;
   summary: string;
   keyConcepts: string[];
