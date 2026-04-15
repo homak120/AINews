@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-04-14T12:00:00Z",
+  "generatedAt": "2026-04-14T22:30:00Z",
   "weekOf": "2026-04-13",
   "coverageStart": "2026-04-13",
   "coverageEnd": "2026-04-14",
   "items": [
     {
       "id": "article-hai-stanford-2026-ai-index",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "Stanford HAI 2026 AI Index: Capabilities Surge While Transparency Declines",
       "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
@@ -19,8 +21,17 @@
         "US-China AI competitiveness gap"
       ],
       "whyItMatters": "The Stanford AI Index is the benchmark annual report that technical leaders and policymakers use to calibrate AI strategy—its 2026 findings clarify why AI investment is accelerating even as capability margins narrow, and why governance conversations about transparency are now reaching boardrooms.",
-      "tags": ["stanford-ai-index", "llm-benchmarks", "ai-transparency", "ai-governance", "generative-ai"],
-      "relatedIds": ["article-techcrunch-stanford-ai-insider-divide", "article-nature-human-scientists-ai-agents"],
+      "tags": [
+        "stanford-ai-index",
+        "llm-benchmarks",
+        "ai-transparency",
+        "ai-governance",
+        "generative-ai"
+      ],
+      "relatedIds": [
+        "article-techcrunch-stanford-ai-insider-divide",
+        "article-nature-human-scientists-ai-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "According to the 2026 AI Index, what happened to the US-China AI performance gap by March 2026?",
@@ -48,7 +59,9 @@
     },
     {
       "id": "article-nature-human-scientists-ai-agents",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "Nature: Human Scientists Still Outperform AI Agents on Complex Research Tasks",
       "sourceUrl": "https://www.nature.com/articles/d41586-026-01199-z",
@@ -61,8 +74,16 @@
         "AI limitations in open-ended reasoning"
       ],
       "whyItMatters": "For engineers building AI-assisted research or knowledge-work tools, this finding clarifies where the capability boundary lies: AI agents excel at structured, well-scoped subtasks but still require human expertise for synthesis, novel reasoning, and contextual judgment.",
-      "tags": ["ai-research-agents", "scientific-computing", "human-ai-collaboration", "benchmarks", "ai-limitations"],
-      "relatedIds": ["article-hai-stanford-2026-ai-index"],
+      "tags": [
+        "ai-research-agents",
+        "scientific-computing",
+        "human-ai-collaboration",
+        "benchmarks",
+        "ai-limitations"
+      ],
+      "relatedIds": [
+        "article-hai-stanford-2026-ai-index"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the main finding about AI agents and complex scientific tasks in the 2026 Nature analysis?",
@@ -90,7 +111,9 @@
     },
     {
       "id": "article-techcrunch-stanford-ai-insider-divide",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Stanford AI Index: Young Developers See 20% Employment Drop and AI Expert-Public Divide Grows",
       "sourceUrl": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
@@ -103,8 +126,17 @@
         "Entry-level role displacement by AI"
       ],
       "whyItMatters": "The 20% employment decline among young developers signals that AI is compressing entry-level roles fastest—making early-career engineers who lean into AI tools, systems thinking, and directorial skills more resilient than those whose value rests on raw code output volume.",
-      "tags": ["ai-career", "developer-employment", "ai-workforce", "stanford-ai-index", "entry-level-jobs"],
-      "relatedIds": ["article-hai-stanford-2026-ai-index", "article-stackademic-ai-coding-tools-trust"],
+      "tags": [
+        "ai-career",
+        "developer-employment",
+        "ai-workforce",
+        "stanford-ai-index",
+        "entry-level-jobs"
+      ],
+      "relatedIds": [
+        "article-hai-stanford-2026-ai-index",
+        "article-stackademic-ai-coding-tools-trust"
+      ],
       "knowledgeChecks": [
         {
           "question": "Which group of software developers saw the most significant employment impact from AI in 2024-2026?",
@@ -132,7 +164,9 @@
     },
     {
       "id": "article-stackademic-ai-coding-tools-trust",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "Survey: 84% of Developers Use AI Coding Tools, but Only 29% Trust the Code They Ship",
       "sourceUrl": "https://blog.stackademic.com/84-of-developers-use-ai-coding-tools-in-april-2026-only-29-trust-what-they-ship-d0cb7ec9320a",
@@ -145,8 +179,17 @@
         "Security risks in AI-generated code"
       ],
       "whyItMatters": "With AI coding adoption at 84%, the challenge has shifted from adoption to validation—teams that build structured review workflows for AI output will ship faster with fewer incidents than those relying on intuition-based spot-checks of plausible-looking code.",
-      "tags": ["ai-coding", "code-review", "developer-productivity", "code-quality", "claude-code", "github-copilot"],
-      "relatedIds": ["article-techcrunch-stanford-ai-insider-divide"],
+      "tags": [
+        "ai-coding",
+        "code-review",
+        "developer-productivity",
+        "code-quality",
+        "claude-code",
+        "github-copilot"
+      ],
+      "relatedIds": [
+        "article-techcrunch-stanford-ai-insider-divide"
+      ],
       "knowledgeChecks": [
         {
           "question": "What does the gap between 84% AI coding tool adoption and 29% trust in shipped code primarily signal?",
@@ -174,7 +217,9 @@
     },
     {
       "id": "article-axios-openai-anthropic-amazon",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "OpenAI Criticizes Anthropic in Shareholder Memo and Deepens Amazon Cloud Partnership",
       "sourceUrl": "https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon",
@@ -187,8 +232,17 @@
         "Frontier lab IPO positioning"
       ],
       "whyItMatters": "How frontier labs compete on compute, cloud partnerships, and enterprise distribution—not just model benchmarks—shapes which platforms receive long-term investment and where AI capabilities will be most accessible, making these signals relevant for engineers evaluating AI infrastructure bets.",
-      "tags": ["openai", "anthropic", "amazon-aws", "ai-industry", "cloud-computing", "ipo"],
-      "relatedIds": ["article-roborhythms-anthropic-30b-arr"],
+      "tags": [
+        "openai",
+        "anthropic",
+        "amazon-aws",
+        "ai-industry",
+        "cloud-computing",
+        "ipo"
+      ],
+      "relatedIds": [
+        "article-roborhythms-anthropic-30b-arr"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the core argument in OpenAI's shareholder memo about Anthropic?",
@@ -216,7 +270,9 @@
     },
     {
       "id": "article-roborhythms-anthropic-30b-arr",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Anthropic Crosses $30B ARR, Surpassing OpenAI in Revenue for the First Time",
       "sourceUrl": "https://www.roborhythms.com/anthropic-revenue-30-billion-2026/",
@@ -229,8 +285,17 @@
         "Frontier lab revenue competition and IPO timing"
       ],
       "whyItMatters": "Anthropic surpassing OpenAI in revenue on a leaner compute budget demonstrates that a safety-first enterprise strategy can win commercially, giving Anthropic financial runway to accelerate its IPO and compete on training investment—making its API platform a more durable long-term choice.",
-      "tags": ["anthropic", "openai", "ai-revenue", "enterprise-ai", "claude", "ai-industry"],
-      "relatedIds": ["article-axios-openai-anthropic-amazon"],
+      "tags": [
+        "anthropic",
+        "openai",
+        "ai-revenue",
+        "enterprise-ai",
+        "claude",
+        "ai-industry"
+      ],
+      "relatedIds": [
+        "article-axios-openai-anthropic-amazon"
+      ],
       "knowledgeChecks": [
         {
           "question": "What does Anthropic reaching $30B ARR at roughly one-quarter of OpenAI's compute training cost suggest?",
@@ -253,6 +318,115 @@
           ],
           "correctIndex": 1,
           "explanation": "Anthropic's approximately 80% enterprise revenue composition produces stickier ARR with lower churn than OpenAI's more consumer-dependent model—a structural advantage as both companies approach IPO, where investors reward predictable recurring revenue over subscription volume."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Br7a0jBgMS4",
+      "topics": [
+        "ai-research"
+      ],
+      "type": "video",
+      "title": "Matthew Berman breaks down Claude Mythos capabilities and safety implications",
+      "sourceUrl": "https://www.youtube.com/watch?v=Br7a0jBgMS4",
+      "youtubeId": "Br7a0jBgMS4",
+      "publishedAt": "2026-04-14",
+      "summary": "Matthew Berman examines Anthropic's Claude Mythos Preview, the model that discovered thousands of zero-day vulnerabilities across major operating systems and browsers under Project Glasswing. The video walks through the model's cybersecurity benchmarks, explains why Anthropic restricted public access, and discusses the implications of AI systems that can autonomously find and exploit software flaws at scale.",
+      "keyConcepts": [
+        "Claude Mythos Preview",
+        "Project Glasswing vulnerability consortium",
+        "Zero-day vulnerability discovery at scale",
+        "Responsible disclosure for frontier AI models"
+      ],
+      "whyItMatters": "When an AI model can autonomously discover thousands of zero-day vulnerabilities, the security posture of every software team changes overnight—understanding Mythos's capabilities helps engineers assess both the defensive benefits and the new threat surface.",
+      "tags": [
+        "claude-mythos",
+        "cybersecurity",
+        "zero-day",
+        "anthropic",
+        "ai-safety",
+        "vulnerability-discovery"
+      ],
+      "relatedIds": [
+        "article-hai-stanford-2026-ai-index",
+        "article-nature-human-scientists-ai-agents"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Anthropic restrict public access to Claude Mythos Preview?",
+          "options": [
+            "The model performed poorly on standard language benchmarks and needed more training",
+            "Anthropic lacked the compute to serve it at scale to consumer users",
+            "The model's ability to autonomously discover and exploit software vulnerabilities poses significant safety risks if widely released",
+            "Regulatory agencies in the US and EU ordered Anthropic to withdraw the model from public access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic restricted Mythos because its cybersecurity capabilities—finding thousands of zero-day vulnerabilities across major systems—could be misused offensively if the model were broadly available, so access was limited to a vetted consortium of tech companies through Project Glasswing."
+        },
+        {
+          "question": "What distinguishes Claude Mythos's vulnerability discovery from traditional security scanning tools?",
+          "options": [
+            "Mythos only works on open-source codebases where source code is available",
+            "Mythos uses autonomous reasoning to find novel zero-day vulnerabilities at scale, rather than matching known vulnerability signatures",
+            "Traditional tools are faster but Mythos produces fewer false positives",
+            "Mythos requires human operators to guide each step of the vulnerability analysis"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike traditional scanners that match against databases of known vulnerabilities, Mythos can reason about code behavior to discover previously unknown (zero-day) flaws autonomously—a qualitative shift in what AI can do for both offensive and defensive security."
+        }
+      ]
+    },
+    {
+      "id": "youtube-I7U2Y9t-aYc",
+      "topics": [
+        "ai-industry"
+      ],
+      "type": "video",
+      "title": "TheAIGRID explains OpenAI's latest AGI timeline claims and what they mean for the industry",
+      "sourceUrl": "https://www.youtube.com/watch?v=I7U2Y9t-aYc",
+      "youtubeId": "I7U2Y9t-aYc",
+      "publishedAt": "2026-04-14",
+      "summary": "TheAIGRID breaks down OpenAI's recent statements about AGI progress, including co-founder Greg Brockman's claim of 70-80% progress toward AGI and Sam Altman's warnings about power concentration in the AI race. The video contextualizes these claims against skepticism from cognitive scientists like Gary Marcus and examines what OpenAI's AGI framing means for competitive positioning, investor confidence, and the broader AI industry trajectory.",
+      "keyConcepts": [
+        "AGI progress claims and measurement challenges",
+        "Power concentration risks in AI development",
+        "OpenAI competitive positioning strategy",
+        "Expert skepticism of AGI timelines"
+      ],
+      "whyItMatters": "OpenAI's AGI framing shapes investment flows, talent decisions, and regulatory urgency across the industry—understanding the gap between public claims and expert consensus helps engineers and leaders make more grounded strategic bets.",
+      "tags": [
+        "openai",
+        "agi",
+        "ai-industry",
+        "sam-altman",
+        "ai-safety",
+        "competitive-strategy"
+      ],
+      "relatedIds": [
+        "article-axios-openai-anthropic-amazon"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What was the main criticism cognitive scientists raised about OpenAI's AGI progress claims?",
+          "options": [
+            "OpenAI's models are not competitive with Anthropic or Google on standard benchmarks",
+            "The 70-80% progress claim overstates incremental improvements in reasoning models as fundamental breakthroughs toward general intelligence",
+            "OpenAI has not published enough peer-reviewed research to back up any AGI claims",
+            "Cognitive scientists believe AGI was already achieved in 2025 and OpenAI is behind"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cognitive scientists like Gary Marcus argue that improvements in reasoning models like o1 represent incremental engineering gains, not the qualitative leap toward general intelligence that '70-80% progress' implies—a distinction that matters for realistic technology planning."
+        },
+        {
+          "question": "According to the video, why is Sam Altman warning about power concentration in AGI development?",
+          "options": [
+            "He wants governments to nationalize all AI research immediately",
+            "He believes AGI technology should be shared more broadly with public institutions having greater oversight, to prevent a few companies from controlling it",
+            "He is advocating for OpenAI to be the sole developer of AGI under government supervision",
+            "He wants to slow down AGI research until safety benchmarks are established by the UN"
+          ],
+          "correctIndex": 1,
+          "explanation": "Altman's warning reflects a concern that the competitive race for AGI could concentrate transformative technology in too few hands—he advocates for broader distribution of AGI capabilities and democratic governance processes to manage its development responsibly."
         }
       ]
     }
