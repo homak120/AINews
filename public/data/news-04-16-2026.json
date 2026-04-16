@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-04-16T14:00:00Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-07",
+  "coverageEnd": "2026-04-16",
+  "items": [
+    {
+      "id": "article-openai-scaling-trusted-access-cyber",
+      "topics": ["ai-industry", "ai-engineering"],
+      "type": "article",
+      "title": "OpenAI Scales Trusted Access for Cyber Defense Program with GPT-5.4-Cyber",
+      "sourceUrl": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "publishedAt": "2026-04-16",
+      "summary": "OpenAI published a detailed expansion of its Trusted Access for Cyber (TAC) program, now available to thousands of authenticated individual defenders and hundreds of teams securing critical infrastructure. The highest-tier users gain access to GPT-5.4-Cyber, which has relaxed restrictions on sensitive tasks like vulnerability research, malware analysis, and binary reverse engineering. Codex Security, part of the same initiative, has already helped identify and patch over 3,000 critical and high-severity vulnerabilities.",
+      "keyConcepts": [
+        "GPT-5.4-Cyber",
+        "Trusted Access for Cyber (TAC) program",
+        "Tiered identity-verified AI access",
+        "Codex Security vulnerability patching"
+      ],
+      "whyItMatters": "OpenAI's tiered verified-access model is becoming the industry template for deploying powerful AI in sensitive domains — the architecture of who gets access to what capabilities will define how AI is used in cybersecurity, healthcare, and other regulated fields.",
+      "tags": ["openai", "cybersecurity", "gpt-5-4-cyber", "trusted-access", "defensive-ai", "vulnerability-research"],
+      "relatedIds": ["article-anthropic-china-model-theft-frontier-forum"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes the highest tier of OpenAI's Trusted Access for Cyber program?",
+          "options": [
+            "Unlimited API calls with no rate limits",
+            "Access to GPT-5.4-Cyber with relaxed restrictions on vulnerability research and malware analysis",
+            "Access to GPT-6 six months before public release",
+            "Free enterprise Codex Security licenses for a team of 50"
+          ],
+          "correctIndex": 1,
+          "explanation": "The highest TAC tier grants vetted security professionals access to GPT-5.4-Cyber, a model variant fine-tuned for defensive security work that has fewer restrictions on sensitive tasks like vulnerability research, binary reverse engineering, and malware analysis — capabilities that are blocked for standard users."
+        },
+        {
+          "question": "How many critical and high-severity vulnerabilities has Codex Security helped identify and patch as of April 2026?",
+          "options": [
+            "Over 300",
+            "Over 1,000",
+            "Over 3,000",
+            "Over 10,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI reports that Codex Security — its AI-powered vulnerability research tool in research preview since early 2026 — has helped identify and patch over 3,000 critical and high-severity vulnerabilities as part of the Trusted Access for Cyber program."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-hai-ai-index-2026",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "article",
+      "title": "The 2026 AI Index Report | Stanford HAI",
+      "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "publishedAt": "2026-04-13",
+      "summary": "Stanford HAI's ninth annual AI Index reports that frontier models now match humans on PhD-level science questions, and SWE-bench coding performance jumped from 60% to near 100% in a single year. The U.S.-China model capability gap has effectively closed, while Foundation Model Transparency Index scores dropped from 58 to 40. Documented AI incidents rose to 362 in 2025 (up from 233 in 2024), and AI experts are 50 percentage points more optimistic about AI's labor market impact than the general public.",
+      "keyConcepts": [
+        "AI capability acceleration benchmarks",
+        "US-China model performance convergence",
+        "Foundation Model Transparency Index decline",
+        "Expert vs. public trust divergence"
+      ],
+      "whyItMatters": "The Stanford AI Index is the field's most authoritative annual snapshot — the simultaneous acceleration of capabilities, closure of the US-China gap, and drop in transparency scores together describe a race that is outpacing safety infrastructure, which will drive regulatory action in 2026.",
+      "tags": ["stanford-hai", "ai-index", "ai-benchmarks", "us-china-ai", "transparency", "public-trust"],
+      "relatedIds": ["article-cnbc-public-opinion-ai-ipo"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Stanford AI Index 2026, what happened to SWE-bench coding performance in a single year?",
+          "options": [
+            "It improved modestly from 55% to 65%",
+            "It jumped from 60% to near 100%",
+            "It dropped from 80% to 60% due to harder test cases",
+            "It held steady at around 70% across all frontier models"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 2026 AI Index reports one of the largest single-year benchmark jumps in AI history: SWE-bench Verified performance (the ability of AI to resolve real GitHub issues) rose from approximately 60% to near 100% in a single year, reflecting a step-change in AI software engineering capability."
+        },
+        {
+          "question": "What trend did the Foundation Model Transparency Index reveal in 2026?",
+          "options": [
+            "Scores rose from 40 to 58, showing improved disclosure across the industry",
+            "Scores held flat at 58, suggesting stagnation in openness",
+            "Scores dropped from 58 to 40, indicating less disclosure about training data, compute, and risks",
+            "The index was discontinued due to legal pressure from AI labs"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Foundation Model Transparency Index, which measures how openly companies disclose training data, compute, capabilities, risks, and usage policies, saw its average score drop from 58 to 40 — a significant regression suggesting that as models become more commercially valuable, labs are choosing to disclose less."
+        }
+      ]
+    },
+    {
+      "id": "article-mcp-97-million-installs-mainstream",
+      "topics": ["ai-engineering"],
+      "type": "article",
+      "title": "MCP Hits 97M Monthly Downloads: Model Context Protocol Crosses Into Mainstream Infrastructure",
+      "sourceUrl": "https://www.digitalapplied.com/blog/mcp-97-million-downloads-model-context-protocol-mainstream",
+      "publishedAt": "2026-04-10",
+      "summary": "Anthropic's Model Context Protocol (MCP) reached 97 million monthly SDK downloads across Python and TypeScript in March 2026, growing from approximately 2 million at launch in November 2024 — a 48x increase in 16 months. The ecosystem now has over 10,000 active public MCP servers, and every major AI provider ships MCP-compatible tooling. For context, React's npm package took approximately three years to reach comparable monthly download scale.",
+      "keyConcepts": [
+        "Model Context Protocol (MCP) adoption velocity",
+        "Agentic AI standardization",
+        "MCP server ecosystem",
+        "AI protocol infrastructure"
+      ],
+      "whyItMatters": "MCP has crossed from 'interesting experiment' to 'foundational infrastructure' in record time — developers building AI agents that connect to tools, databases, and APIs now have a broadly-adopted common protocol, making MCP fluency as important as REST API knowledge was a decade ago.",
+      "tags": ["mcp", "model-context-protocol", "anthropic", "agentic-ai", "ai-engineering", "open-standard"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How quickly did MCP grow from ~2 million to 97 million monthly SDK downloads?",
+          "options": [
+            "6 months",
+            "16 months",
+            "3 years",
+            "5 years"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP launched in November 2024 with approximately 2 million monthly downloads and reached 97 million in March 2026 — a 16-month growth trajectory. React's npm package achieved comparable scale in approximately three years, making MCP's adoption among the fastest for any developer infrastructure protocol."
+        },
+        {
+          "question": "What governance change happened to MCP in December 2025?",
+          "options": [
+            "OpenAI acquired the protocol and rebranded it",
+            "Anthropic shut down the open-source project and made it proprietary",
+            "Anthropic donated MCP to the Agentic AI Foundation under the Linux Foundation, with OpenAI and Block as co-founders",
+            "MCP was merged into the W3C as an official web standard"
+          ],
+          "correctIndex": 2,
+          "explanation": "In December 2025, Anthropic donated MCP to the newly formed Agentic AI Foundation (AAIF) under the Linux Foundation, with OpenAI and Block joining as co-founders. This ensures MCP is governed as an open industry standard rather than a proprietary Anthropic protocol."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-public-opinion-ai-ipo",
+      "topics": ["ai-industry", "ai-career"],
+      "type": "article",
+      "title": "The public sours on AI and data centers as Anthropic, OpenAI look to IPO",
+      "sourceUrl": "https://www.cnbc.com/2026/04/15/public-opinion-ai-data-centers-anthropic-openai-ipo.html",
+      "publishedAt": "2026-04-15",
+      "summary": "CNBC reports that public sentiment toward AI and data centers is declining even as OpenAI surpasses $25 billion in annualized revenue and explores a potential late-2026 IPO, with Anthropic approaching $19 billion. A new survey finds 59% of people feel optimistic about AI's benefits — up from 52% — but only 23% of the general public views AI's labor market impact positively versus 73% of AI experts. Concerns about data center energy use, job displacement, and data privacy dominate public discourse.",
+      "keyConcepts": [
+        "AI company IPO timelines",
+        "Expert vs. public perception gap on AI",
+        "AI revenue growth trajectory",
+        "Data center opposition"
+      ],
+      "whyItMatters": "The 50-percentage-point gap between expert and public optimism on AI's labor market impact is a governance signal — as OpenAI and Anthropic move toward IPO, they will face increasing pressure to address workforce displacement narratives before public markets and regulators weigh in.",
+      "tags": ["openai", "anthropic", "ipo", "public-opinion", "ai-jobs", "ai-revenue", "data-centers"],
+      "relatedIds": ["article-stanford-hai-ai-index-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's approximate annualized revenue as of April 2026?",
+          "options": [
+            "$8 billion",
+            "$19 billion",
+            "$25 billion",
+            "$40 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI surpassed $25 billion in annualized revenue as of April 2026 and is exploring a potential IPO as early as late 2026. Anthropic, the second-largest AI lab by this measure, is approaching $19 billion in annualized revenue."
+        },
+        {
+          "question": "What percentage of AI experts vs. the general public view AI's labor market impact positively?",
+          "options": [
+            "Experts: 45%, Public: 40%",
+            "Experts: 59%, Public: 30%",
+            "Experts: 88%, Public: 60%",
+            "Experts: 73%, Public: 23%"
+          ],
+          "correctIndex": 3,
+          "explanation": "The Stanford AI Index 2026 and related survey data show that 73% of AI experts view AI's impact on the job market positively, versus only 23% of the general public — a 50-point gap that represents one of the largest recorded divergences between expert and public sentiment on a technology's labor implications."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-china-model-theft-frontier-forum",
+      "topics": ["ai-industry", "ai-research"],
+      "type": "article",
+      "title": "OpenAI, Anthropic and Google Unite Against Chinese AI Model Cloning Via Adversarial Distillation",
+      "sourceUrl": "https://www.japantimes.co.jp/business/2026/04/07/tech/openai-anthropic-google-china-copy/",
+      "publishedAt": "2026-04-07",
+      "summary": "OpenAI, Anthropic, and Google announced joint intelligence-sharing through the Frontier Model Forum to stop Chinese AI companies from cloning frontier models via adversarial distillation — the practice of using a model's outputs as unauthorized training data. Anthropic alone documented 16 million unauthorized exchanges from three named Chinese firms attempting to clone proprietary models. The collaboration marks a rare instance of direct competitive cooperation between the three leading U.S. AI labs on a geopolitical security issue.",
+      "keyConcepts": [
+        "Adversarial distillation (model cloning)",
+        "Frontier Model Forum intelligence sharing",
+        "US-China AI competition and IP protection",
+        "Model security as geopolitical issue"
+      ],
+      "whyItMatters": "If adversarial distillation lets Chinese labs replicate U.S. frontier models without the underlying research investment, it undermines both commercial moats and national security calculations — the industry's response will likely include technical countermeasures, access restrictions, and new regulatory frameworks.",
+      "tags": ["openai", "anthropic", "google", "china-ai", "model-theft", "frontier-model-forum", "geopolitics"],
+      "relatedIds": ["article-stanford-hai-ai-index-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is adversarial distillation in the context of AI model cloning?",
+          "options": [
+            "A training technique OpenAI uses to compress large models into smaller ones",
+            "Using a proprietary model's outputs as unauthorized training data to build a competing model",
+            "Anthropic's method for red-teaming models against adversarial prompts",
+            "A benchmark evaluating how well models handle adversarial questions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adversarial distillation means repeatedly querying a proprietary frontier model and using its outputs to train a competing model — essentially cloning the intelligence without authorization or the underlying R&D investment. Anthropic documented 16 million such unauthorized queries from three named Chinese firms."
+        },
+        {
+          "question": "Through what organization are OpenAI, Anthropic, and Google coordinating their anti-cloning efforts?",
+          "options": [
+            "The Partnership on AI",
+            "The Agentic AI Foundation",
+            "The Frontier Model Forum",
+            "The National AI Safety Institute"
+          ],
+          "correctIndex": 2,
+          "explanation": "The three labs are sharing intelligence through the Frontier Model Forum — an industry body originally established for safety collaboration — to detect and deter Chinese firms using adversarial distillation to clone their proprietary frontier models."
+        }
+      ]
+    }
+  ]
+}
