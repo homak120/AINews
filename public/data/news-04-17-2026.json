@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T08:00:00.000Z",
+  "generatedAt": "2026-04-17T14:00:00.000Z",
   "weekOf": "2026-04-13",
   "coverageStart": "2026-04-14",
   "coverageEnd": "2026-04-17",
@@ -191,6 +191,90 @@
           "options": ["MMLU", "HumanEval", "SWE-bench", "GPQA"],
           "correctIndex": 2,
           "explanation": "Claude Opus 4.7 led SWE-bench, the software engineering benchmark focused on real-world coding and bug-fixing tasks, ranking first among publicly available models and beating both GPT-5.4 and Gemini 3.1 Pro."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-stanford-ai-index-2026",
+      "type": "article",
+      "sourceUrl": "https://fortune.com/2026/04/16/stanford-study-how-has-china-gained-on-us-ai-war/",
+      "verified": false,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Stanford HAI released its 2026 AI Index on April 16, painting a picture of AI racing ahead of its own guardrails. Top model benchmark scores have surged—Terminal-Bench agents improved from 20% to 77.3% success in a year, and OS-level task accuracy (OSWorld) climbed from 12% to 66.3%, within 6 points of human performance. Meanwhile the US-China capability gap shrank to just 39 Arena points (a 2.7% lead for Anthropic's Claude Opus 4.6), and the Foundation Model Transparency Index dropped from 58 to 40 as frontier labs disclose less.",
+      "keyConcepts": [
+        "US-China AI capability gap",
+        "Terminal-Bench & OSWorld benchmarks",
+        "Model transparency decline",
+        "AI economic value ($172B to US consumers)"
+      ],
+      "whyItMatters": "The Stanford AI Index is the field's most comprehensive annual scorecard—its findings that capability is outpacing governance, transparency is falling, and China has nearly closed the gap with the US carry major implications for AI policy and investment strategy.",
+      "tags": ["stanford", "ai-index", "us-china", "benchmarks", "transparency", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the 2026 Stanford AI Index, what happened to the Foundation Model Transparency Index score?",
+          "options": [
+            "It rose from 40 to 58",
+            "It stayed flat at 58",
+            "It dropped from 58 to 40",
+            "It dropped from 72 to 58"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Foundation Model Transparency Index fell from an average of 58 points to 40, signaling that frontier AI labs are voluntarily disclosing less about their models even as capabilities rapidly advance."
+        },
+        {
+          "question": "On the OSWorld benchmark (AI agents completing computer tasks), how close did AI come to human performance by March 2026?",
+          "options": [
+            "Within 25 percentage points",
+            "Within 15 percentage points",
+            "Within 6 percentage points",
+            "AI surpassed humans"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI agents reached 66.3% accuracy on OSWorld in early 2026, placing them within 6 percentage points of human-level performance on real-world operating system tasks—up from roughly 12% just a year earlier."
+        }
+      ]
+    },
+    {
+      "id": "article-piunikaweb-grok-43-beta",
+      "type": "article",
+      "sourceUrl": "https://piunikaweb.com/2026/04/17/xai-grok-4-3-beta-supergrok-heavy/",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "xAI rolled out Grok 4.3 beta on April 17, 2026, exclusively for SuperGrok Heavy subscribers—standard SuperGrok users can see the model in the menu but cannot access it. New capabilities include native slide creation, significantly improved long-context processing, and multimodal video understanding. The release follows Grok 4.20 Beta 2 (March 2026) and continues xAI's rapid iteration cadence, with no timeline given for wider rollout.",
+      "keyConcepts": [
+        "SuperGrok Heavy tier access",
+        "Multimodal video understanding",
+        "Tiered model access strategy",
+        "Rapid model iteration"
+      ],
+      "whyItMatters": "Grok 4.3's exclusive SuperGrok Heavy rollout reflects xAI's strategy of using tiered access to reward top subscribers while testing new capabilities—a pattern increasingly common across labs as premium tiers become the primary channel for frontier model access.",
+      "tags": ["xai", "grok", "grok-4-3", "supergrok", "multimodal", "model-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which subscriber tier received early access to Grok 4.3 beta on April 17, 2026?",
+          "options": [
+            "All Grok users",
+            "X Premium+ subscribers",
+            "Standard SuperGrok subscribers",
+            "SuperGrok Heavy subscribers"
+          ],
+          "correctIndex": 3,
+          "explanation": "Grok 4.3 beta launched exclusively for SuperGrok Heavy tier subscribers. Standard SuperGrok users could see the model listed in the menu but the option was locked, with no timeline given for broader access."
+        },
+        {
+          "question": "Which new content creation capability did Grok 4.3 beta add that Grok 4.20 lacked?",
+          "options": [
+            "Image generation",
+            "Code execution",
+            "Slide creation",
+            "Audio transcription"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.3 beta introduced native slide creation as a new capability, alongside improvements to long-context processing and multimodal video understanding."
         }
       ]
     }
