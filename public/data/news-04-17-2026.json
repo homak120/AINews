@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-04-17T08:00:00.000Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-14",
+  "coverageEnd": "2026-04-17",
+  "items": [
+    {
+      "id": "article-cnbc-claude-opus-47-mythos",
+      "type": "article",
+      "sourceUrl": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html",
+      "verified": false,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic released Claude Opus 4.7 on April 16, 2026, a direct upgrade from Opus 4.6 with significant gains in software engineering, vision, and long-horizon agentic reasoning. The model introduces a new 'xhigh' effort level for finer reasoning control and an updated tokenizer that may increase input token counts by 1.0–1.35x. While it narrows the gap at the top of publicly available benchmarks—beating GPT-5.4 and Gemini 3.1 Pro on SWE-bench—Anthropic conceded it still trails its own unreleased Mythos model.",
+      "keyConcepts": [
+        "Agentic reasoning",
+        "SWE-bench benchmark",
+        "xhigh effort level",
+        "Tokenizer upgrade"
+      ],
+      "whyItMatters": "Opus 4.7 sets a new public bar for coding and agentic AI, but Anthropic's acknowledgment that Mythos remains superior underscores a growing split between frontier research models and what enterprises can actually deploy.",
+      "tags": ["claude", "anthropic", "opus-4-7", "llm", "agentic-ai", "benchmarks"],
+      "relatedIds": ["article-nextweb-claude-opus47-benchmarks"],
+      "knowledgeChecks": [
+        {
+          "question": "What new effort level did Claude Opus 4.7 introduce between 'high' and 'max'?",
+          "options": ["ultra", "xhigh", "enhanced", "turbo"],
+          "correctIndex": 1,
+          "explanation": "Opus 4.7 introduced an 'xhigh' (extra high) effort level that sits between the existing 'high' and 'max' settings, giving users finer control over the reasoning-vs-latency tradeoff."
+        },
+        {
+          "question": "At what pricing did Anthropic release Claude Opus 4.7?",
+          "options": [
+            "$3/M input, $15/M output",
+            "$5/M input, $25/M output",
+            "$8/M input, $30/M output",
+            "$10/M input, $50/M output"
+          ],
+          "correctIndex": 1,
+          "explanation": "Opus 4.7 maintained the same pricing as Opus 4.6: $5 per million input tokens and $25 per million output tokens, making it a drop-in upgrade for existing customers."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-gemini-mac-app",
+      "type": "article",
+      "sourceUrl": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "topics": ["ai-industry"],
+      "summary": "Google launched a native Gemini app for macOS on April 15, 2026, available for macOS 15 and above. Built entirely in Swift, the app integrates directly into the Mac menu bar and can be summoned anywhere with Option+Space. It supports screen sharing so Gemini can see and reason about your current window—spreadsheets, code, charts—without leaving your workflow. Pricing tiers range from free to $249.99/month for Google AI Ultra.",
+      "keyConcepts": [
+        "Native macOS integration",
+        "Screen-aware AI assistance",
+        "Menu bar AI access",
+        "Desktop AI competition"
+      ],
+      "whyItMatters": "Google's native Mac client puts Gemini directly into desktop workflows, intensifying the race against ChatGPT's Mac app and Anthropic's Claude desktop—making the AI assistant layer of the operating system a key new battleground.",
+      "tags": ["google", "gemini", "macos", "desktop-ai", "ai-assistant", "product-launch"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What keyboard shortcut opens the full Gemini Mac app chat window?",
+          "options": [
+            "Command + Space",
+            "Option + Space",
+            "Option + Shift + Space",
+            "Control + G"
+          ],
+          "correctIndex": 2,
+          "explanation": "Option+Space summons a quick Gemini bar, while Option+Shift+Space opens the full chat window. The app also lives in the Mac menu bar for persistent access."
+        },
+        {
+          "question": "Which programming language did Google use to build the native Gemini Mac app?",
+          "options": ["Kotlin", "C++", "Swift", "Objective-C"],
+          "correctIndex": 2,
+          "explanation": "Google built the native Gemini Mac app entirely in Swift, Apple's native programming language, enabling tight macOS system integration and performance."
+        }
+      ]
+    },
+    {
+      "id": "article-hackernews-gpt54-cyber-launch",
+      "type": "article",
+      "sourceUrl": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI launched GPT-5.4-Cyber, a fine-tuned variant of GPT-5.4 optimized for defensive cybersecurity workflows. Distributed through an expanded Trusted Access for Cyber (TAC) tiered program, the model enables capabilities such as binary reverse engineering and vulnerability analysis without requiring access to source code. Vetted researchers and enterprise security teams can apply at chatgpt.com/cyber, while the broader TAC program now scales to thousands of verified individual defenders.",
+      "keyConcepts": [
+        "Cybersecurity-specialized LLM",
+        "Binary reverse engineering",
+        "Tiered access control",
+        "Defensive AI workflows"
+      ],
+      "whyItMatters": "Specialized models like GPT-5.4-Cyber signal that AI labs are moving beyond general-purpose assistants into mission-critical security infrastructure, raising both the defensive potential and the governance stakes around AI access controls.",
+      "tags": ["openai", "gpt-5.4", "cybersecurity", "trusted-access", "ai-security", "enterprise"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of OpenAI's tiered access program for cybersecurity professionals?",
+          "options": [
+            "CyberShield Access",
+            "SecureAI Program",
+            "Trusted Access for Cyber (TAC)",
+            "OpenAI Defender Network"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's Trusted Access for Cyber (TAC) program provides tiered, identity-verified access to GPT-5.4-Cyber for security researchers, enterprises, and critical infrastructure defenders."
+        },
+        {
+          "question": "Which advanced capability does GPT-5.4-Cyber enable that was previously difficult for AI models?",
+          "options": [
+            "Real-time network monitoring",
+            "Binary reverse engineering without source code access",
+            "Automated firewall rule generation",
+            "Zero-day exploit prediction"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.4-Cyber can analyze compiled binaries for malware potential and security vulnerabilities without needing the original source code, a significant advancement for defensive security analysis."
+        }
+      ]
+    },
+    {
+      "id": "article-tomshardware-tech-layoffs-q1-2026",
+      "type": "article",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-career"],
+      "summary": "Nearly 80,000 tech employees were laid off in Q1 2026, with roughly 47.9% of cuts directly attributed to AI-driven automation and workflow changes—a striking share even amid skepticism about AI-washing narratives. Block CEO Jack Dorsey reduced the company's workforce from 10,000 to 6,000, explicitly citing AI tools in a shareholder letter. Oracle's 20,000–30,000 job cuts aim to redirect $8–10 billion toward AI infrastructure, while legacy enterprise companies broadly shed traditional roles to fund AI buildouts.",
+      "keyConcepts": [
+        "AI-driven workforce reduction",
+        "AI-washing in layoff narratives",
+        "Infrastructure investment trade-off",
+        "Enterprise AI transformation"
+      ],
+      "whyItMatters": "The scale and pace of Q1 2026 tech layoffs—nearly half attributed to AI—marks a structural inflection point in the labor market, regardless of whether companies are using AI as a convenient explanation for broader cost-cutting.",
+      "tags": ["layoffs", "ai-workforce", "block", "oracle", "automation", "ai-career"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately what percentage of Q1 2026 tech layoffs were attributed to AI-related causes?",
+          "options": ["18%", "31%", "48%", "62%"],
+          "correctIndex": 2,
+          "explanation": "Of approximately 78,557 tech workers laid off in Q1 2026, about 47.9%—nearly half—were attributed by employers to reduced need for human workers due to AI and workflow automation."
+        },
+        {
+          "question": "Block CEO Jack Dorsey cited what reason for cutting the company's workforce from 10,000 to 6,000?",
+          "options": [
+            "Global economic downturn",
+            "Declining cryptocurrency markets",
+            "AI tools changing what it means to build and run a company",
+            "Merger and acquisition restructuring"
+          ],
+          "correctIndex": 2,
+          "explanation": "In a shareholder letter, Jack Dorsey explicitly stated that 'intelligence tools have changed what it means to build and run a company,' making Block one of the clearest examples of an executive directly attributing major layoffs to AI adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-nextweb-claude-opus47-benchmarks",
+      "type": "article",
+      "sourceUrl": "https://thenextweb.com/news/anthropic-claude-opus-4-7-coding-agentic-benchmarks-release",
+      "verified": false,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-research"],
+      "summary": "Claude Opus 4.7 leads the SWE-bench software engineering benchmark and ranks first among publicly available models on agentic reasoning tasks, outperforming both GPT-5.4 and Gemini 3.1 Pro. The model accepts images up to 3.75 megapixels (up from 1.15MP in Opus 4.6) and handles extended context across multi-step agentic runs with improved consistency. However, Anthropic's own Mythos model—available only to select partners—remains the frontier, underscoring that the most capable AI is increasingly not publicly accessible.",
+      "keyConcepts": [
+        "SWE-bench ranking",
+        "Multi-modal vision improvement",
+        "Long-horizon agentic tasks",
+        "Frontier vs. deployed model gap"
+      ],
+      "whyItMatters": "Opus 4.7's benchmark leadership matters for developers choosing an agentic coding platform, but the growing gap between public models and restricted frontier systems like Mythos raises important questions about who controls access to the most capable AI.",
+      "tags": ["claude", "anthropic", "benchmarks", "swe-bench", "agentic-ai", "ai-research"],
+      "relatedIds": ["article-cnbc-claude-opus-47-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum image size Claude Opus 4.7 accepts, compared to Opus 4.6?",
+          "options": [
+            "1.15MP (same as 4.6)",
+            "2.5MP (up from 1.15MP)",
+            "3.75MP (up from 1.15MP)",
+            "5MP (up from 2MP)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Opus 4.7 accepts images up to approximately 3.75 megapixels (2,576 pixels on the long edge), a major improvement from Opus 4.6's 1.15 megapixel limit, significantly expanding its vision analysis capability."
+        },
+        {
+          "question": "Which benchmark did Claude Opus 4.7 top among publicly available models at launch?",
+          "options": ["MMLU", "HumanEval", "SWE-bench", "GPQA"],
+          "correctIndex": 2,
+          "explanation": "Claude Opus 4.7 led SWE-bench, the software engineering benchmark focused on real-world coding and bug-fixing tasks, ranking first among publicly available models and beating both GPT-5.4 and Gemini 3.1 Pro."
+        }
+      ]
+    }
+  ]
+}
