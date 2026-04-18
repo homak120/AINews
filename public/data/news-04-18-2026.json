@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-04-18T12:00:00.000Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-13",
+  "coverageEnd": "2026-04-18",
+  "items": [
+    {
+      "id": "youtube-MXZ9cfkYuRI",
+      "type": "video",
+      "title": "Claude Opus 4.7 Pre-Release Leak, Anthropic Full Stack App, New GPT Model, and AI News Roundup",
+      "youtubeId": "MXZ9cfkYuRI",
+      "sourceUrl": "https://www.youtube.com/watch?v=MXZ9cfkYuRI",
+      "verified": false,
+      "publishedAt": "2026-04-14",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "This AI news roundup covers the pre-release leak of Claude Opus 4.7 on Vertex AI, Anthropic's plans for a full-stack AI studio product, a new GPT model from OpenAI, and Claude Code updates. The video synthesizes information from The Information's exclusive report on Anthropic's roadmap and the accidental Vertex AI listing that revealed Opus 4.7's capabilities ahead of its official launch.",
+      "keyConcepts": [
+        "Claude Opus 4.7 pre-release leak via Vertex AI listing",
+        "Anthropic full-stack AI studio for building websites and slides",
+        "Agentic coding and instruction-following improvements",
+        "OpenAI GPT model updates and competitive positioning"
+      ],
+      "whyItMatters": "The pre-release leak confirmed that Anthropic was ready to compete at the frontier again with an upgraded model and a new product surface, signaling a broader shift from pure LLM provider to an end-to-end AI platform.",
+      "tags": ["claude", "anthropic", "opus-4-7", "ai-news", "openai", "agentic-coding"],
+      "relatedIds": ["youtube-GywikePVXzg", "youtube-Qct36RA3y9k", "article-anthropic-claude-opus-4-7"],
+      "knowledgeChecks": [
+        {
+          "question": "What accidentally revealed Claude Opus 4.7 ahead of its official launch?",
+          "options": [
+            "An Anthropic employee tweet",
+            "A Vertex AI model listing",
+            "A GitHub repository commit",
+            "A leaked internal memo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Opus 4.7 appeared in a Vertex AI model listing before Anthropic's official announcement, confirming its existence and capabilities ahead of schedule."
+        },
+        {
+          "question": "What new product category was Anthropic reportedly preparing alongside Claude Opus 4.7?",
+          "options": [
+            "A social media platform",
+            "A hardware AI chip",
+            "A full-stack AI studio for building websites and presentations",
+            "A cloud computing service"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to The Information's exclusive report, Anthropic was preparing a full-stack AI design studio (later launched as Claude Design) that turns plain-English prompts into websites, slides, and one-pagers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-GywikePVXzg",
+      "type": "video",
+      "title": "Claude Opus 4.7 Has Landed — The AI Acceleration Is Real",
+      "youtubeId": "GywikePVXzg",
+      "sourceUrl": "https://www.youtube.com/watch?v=GywikePVXzg",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "This video breaks down Claude Opus 4.7's official release, covering its improved vision capabilities (handling images up to 3.75 megapixels), stronger agentic coding performance on SWE-bench, and enhanced self-verification that reduces errors in long-running tasks. The video also contextualizes the release alongside OpenAI's Codex expansion, framing both releases as evidence of accelerating AI development.",
+      "keyConcepts": [
+        "Claude Opus 4.7 vision improvements up to 3.75MP images",
+        "SWE-bench agentic coding performance",
+        "Self-verification in extended AI workflows",
+        "Competitive frontier between Anthropic and OpenAI"
+      ],
+      "whyItMatters": "Claude Opus 4.7 retakes the top spot among publicly available models while matching Claude Opus 4.6 pricing, making frontier AI more accessible and intensifying competition across the industry.",
+      "tags": ["claude-opus-4-7", "anthropic", "agentic-ai", "llm-benchmark", "openai-codex", "ai-acceleration"],
+      "relatedIds": ["youtube-MXZ9cfkYuRI", "article-anthropic-claude-opus-4-7"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum image resolution Claude Opus 4.7 can process?",
+          "options": [
+            "1.5 megapixels",
+            "2.0 megapixels",
+            "3.75 megapixels",
+            "5.0 megapixels"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Opus 4.7 supports high-resolution images up to 3.75 megapixels, a notable improvement over its predecessor that expands use cases for document analysis and visual reasoning."
+        },
+        {
+          "question": "Which benchmark is commonly used to measure AI performance on real-world software engineering tasks?",
+          "options": [
+            "MMLU",
+            "HumanEval",
+            "SWE-bench",
+            "BIG-Bench"
+          ],
+          "correctIndex": 2,
+          "explanation": "SWE-bench (Software Engineering Benchmark) tests models on resolving real GitHub issues, making it a practical measure of agentic coding ability rather than academic code generation."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Qct36RA3y9k",
+      "type": "video",
+      "title": "Claude Design First Look and Opus 4.7 Live Demo",
+      "youtubeId": "Qct36RA3y9k",
+      "sourceUrl": "https://www.youtube.com/watch?v=Qct36RA3y9k",
+      "verified": false,
+      "publishedAt": "2026-04-18",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "A live walkthrough of Claude Design, Anthropic's new research preview product that uses Claude Opus 4.7 to generate prototypes, slides, and marketing one-pagers from natural language prompts. The video demonstrates real-time creation of visual assets, highlighting Claude Design's positioning as an AI-native alternative to tools like Canva and Google Slides for quick creative work.",
+      "keyConcepts": [
+        "Claude Design as an Anthropic Labs research preview",
+        "Natural language to visual content generation",
+        "Claude Opus 4.7 powering creative workflows",
+        "Availability for Claude Pro, Max, Team, and Enterprise subscribers"
+      ],
+      "whyItMatters": "Claude Design signals Anthropic's expansion beyond pure language AI into creative productivity tools, competing in a market segment previously dominated by specialized design software and broadening what 'AI assistant' means.",
+      "tags": ["claude-design", "anthropic", "generative-design", "ai-productivity", "opus-4-7", "research-preview"],
+      "relatedIds": ["youtube-GywikePVXzg", "article-anthropic-claude-opus-4-7"],
+      "knowledgeChecks": [
+        {
+          "question": "What type of outputs can Claude Design generate?",
+          "options": [
+            "Only text documents",
+            "Prototypes, slides, and one-pagers from natural language prompts",
+            "3D models and animations",
+            "Audio and video content"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Design is designed to produce visual assets like prototypes, presentations, and marketing one-pagers based on plain English descriptions, bridging the gap between language AI and visual design tools."
+        },
+        {
+          "question": "Which Claude subscription tiers have access to Claude Design in research preview?",
+          "options": [
+            "Free tier only",
+            "Pro only",
+            "Pro, Max, Team, and Enterprise",
+            "Enterprise only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic launched Claude Design as a research preview available to paid subscribers: Claude Pro, Max, Team, and Enterprise plans — not the free tier."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-opus-4-7",
+      "type": "article",
+      "title": "Introducing Claude Opus 4.7: Anthropic's Most Capable Generally Available Model",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+      "verified": false,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic officially released Claude Opus 4.7, its most powerful generally available model, on April 16, 2026. The model outperforms Claude Opus 4.6 on agentic coding, multidisciplinary reasoning, scaled tool use, and computer use benchmarks. Anthropic also disclosed cybersecurity safeguards built into Opus 4.7 and noted that the model trails only the restricted Claude Mythos Preview in overall capability.",
+      "keyConcepts": [
+        "Claude Opus 4.7 outperforms Opus 4.6 on agentic coding and reasoning",
+        "Cybersecurity capability reduction via differential training",
+        "Same API pricing as Claude Opus 4.6",
+        "Available on Claude products, API, Amazon Bedrock, Google Vertex AI, and Microsoft Foundry"
+      ],
+      "whyItMatters": "By matching Opus 4.6 pricing while delivering significantly better performance, Anthropic makes frontier AI capabilities more economically accessible for developers and enterprises building production AI systems.",
+      "tags": ["claude-opus-4-7", "anthropic", "llm-release", "agentic-ai", "ai-safety", "enterprise-ai"],
+      "relatedIds": ["youtube-GywikePVXzg", "youtube-MXZ9cfkYuRI", "article-claude-design-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Claude Opus 4.7's pricing compare to Claude Opus 4.6?",
+          "options": [
+            "It is significantly more expensive",
+            "It is the same price",
+            "It is 50% cheaper",
+            "It uses a new usage-based pricing model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic priced Claude Opus 4.7 identically to Opus 4.6, meaning users get substantially better capabilities at no additional cost — a competitive move designed to accelerate enterprise adoption."
+        },
+        {
+          "question": "What special safety measure did Anthropic apply to Claude Opus 4.7's training?",
+          "options": [
+            "A full red-teaming lockdown period",
+            "Differential training to reduce cyber capabilities",
+            "Third-party safety audits before release",
+            "A 90-day staged rollout"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic used 'differential reduction' during training to specifically limit Opus 4.7's cybersecurity-relevant capabilities, with automatic detection and blocking of prohibited cyber use requests at inference time."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-design-launch",
+      "type": "article",
+      "title": "Anthropic Launches Claude Design: A New Tool for Creating Visuals with AI",
+      "sourceUrl": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic released Claude Design, an Anthropic Labs research preview that lets users generate prototypes, slides, one-pagers, and other visual assets through conversational prompts powered by Claude Opus 4.7. The product represents Anthropic's first move into creative productivity tools, positioning Claude as a platform rather than a pure API service.",
+      "keyConcepts": [
+        "Claude Design as Anthropic's first creative productivity product",
+        "Research preview status under Anthropic Labs",
+        "Conversational interface for generating visual assets",
+        "Strategic shift from API provider to AI platform"
+      ],
+      "whyItMatters": "Claude Design marks Anthropic's expansion into direct consumer and business productivity applications, entering markets held by Canva, Figma, and Google Workspace — and potentially reshaping how knowledge workers create visual content.",
+      "tags": ["claude-design", "anthropic", "ai-productivity", "visual-generation", "anthropic-labs", "no-code"],
+      "relatedIds": ["youtube-Qct36RA3y9k", "article-anthropic-claude-opus-4-7"],
+      "knowledgeChecks": [
+        {
+          "question": "What does it mean for Claude Design to be a 'research preview'?",
+          "options": [
+            "It is only available to Anthropic researchers",
+            "It is an experimental product that may change significantly before full release",
+            "It requires academic credentials to access",
+            "It is a deprecated product being phased out"
+          ],
+          "correctIndex": 1,
+          "explanation": "A research preview indicates the product is in an early, experimental phase — Anthropic uses this designation to gather user feedback and iterate before committing to a stable, production-ready feature set."
+        },
+        {
+          "question": "Claude Design's launch signals a strategic shift for Anthropic toward what?",
+          "options": [
+            "Focusing exclusively on enterprise B2B API contracts",
+            "Open-sourcing its models to compete with Meta",
+            "Expanding into end-to-end AI productivity applications",
+            "Merging with a major cloud provider"
+          ],
+          "correctIndex": 2,
+          "explanation": "By building Claude Design, Anthropic moves beyond selling API access to competing directly in productivity software markets — a strategic evolution from LLM provider to full-stack AI platform."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini-3-1-flash-tts",
+      "type": "article",
+      "title": "Google Launches Gemini 3.1 Flash TTS with 70+ Languages and Fine-Grained Voice Control",
+      "sourceUrl": "https://www.marktechpost.com/2026/04/15/google-ai-launches-gemini-3-1-flash-tts-a-new-benchmark-in-expressive-and-controllable-ai-voice/",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Google DeepMind released Gemini 3.1 Flash TTS on April 15, a text-to-speech model supporting over 70 languages and native multi-speaker dialogue. The model introduces more than 200 audio tags that developers can embed in input text to control vocal style, tone, tempo, and accent at a granular level. It ranks second on the Artificial Analysis TTS leaderboard with an Elo score of 1,211.",
+      "keyConcepts": [
+        "200+ audio tags for fine-grained vocal style control",
+        "Support for 70+ languages and native multi-speaker dialogue",
+        "Available via Gemini API, Google AI Studio, Vertex AI, and Google Vids",
+        "Pricing: $1.00/M input tokens, $20.00/M audio output tokens"
+      ],
+      "whyItMatters": "Gemini 3.1 Flash TTS raises the bar for developer-accessible voice AI, combining competitive quality with granular control that enables production-grade voice applications without requiring custom voice cloning or complex post-processing.",
+      "tags": ["gemini", "google", "text-to-speech", "voice-ai", "multilingual", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many languages does Gemini 3.1 Flash TTS support?",
+          "options": [
+            "12 languages",
+            "35 languages",
+            "Over 70 languages",
+            "Over 100 languages"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini 3.1 Flash TTS supports more than 70 languages with native multi-speaker dialogue capability, making it one of the most linguistically comprehensive TTS models available through a public API."
+        },
+        {
+          "question": "What is the key developer feature that differentiates Gemini 3.1 Flash TTS from most TTS APIs?",
+          "options": [
+            "A graphical voice editor interface",
+            "Over 200 embeddable audio tags for granular style control",
+            "Automatic emotion detection from input text",
+            "Integration with physical voice hardware"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 200+ audio tags that can be embedded directly in input text allow developers to control specific vocal attributes (pace, tone, accent, style) at a per-phrase level without external tooling or post-processing."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-ai-index-2026",
+      "type": "article",
+      "title": "Stanford AI Index 2026: Rapid Progress, Declining Transparency, and Shifting Public Trust",
+      "sourceUrl": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+      "verified": false,
+      "publishedAt": "2026-04-13",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Stanford HAI's 2026 AI Index Report documents accelerating AI adoption alongside growing transparency concerns and mixed public sentiment. Key findings include generative AI reaching 53% population adoption in three years (faster than PCs or the internet), U.S. private AI investment hitting $285.9 billion in 2025, and frontier models now exceeding human baselines on PhD-level science benchmarks. The Foundation Model Transparency Index dropped from 58 to 40 points as the most capable models disclose less about their training.",
+      "keyConcepts": [
+        "53% generative AI adoption in 3 years — faster than PC or internet adoption",
+        "U.S. private AI investment: $285.9B in 2025, 23x China's $12.4B",
+        "Foundation Model Transparency Index down from 58 to 40",
+        "AI consumer value estimated at $172B annually in the U.S."
+      ],
+      "whyItMatters": "The report reveals a troubling paradox: as AI becomes more powerful and widely adopted, the most capable models are becoming less transparent about how they work — raising accountability questions just as AI's economic and social footprint reaches historic scale.",
+      "tags": ["stanford-ai-index", "ai-adoption", "ai-policy", "ai-transparency", "ai-investment", "benchmark"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the 2026 Stanford AI Index, how does generative AI's adoption rate compare to past technologies?",
+          "options": [
+            "It is slower than the internet and PC adoption rates",
+            "It matches the smartphone adoption rate exactly",
+            "It reached 53% population adoption faster than PCs or the internet",
+            "It has stalled below 30% global adoption"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 2026 Stanford AI Index found generative AI reached 53% population adoption within three years of widespread availability — a faster trajectory than the personal computer or the internet achieved in their first three years."
+        },
+        {
+          "question": "What happened to the Foundation Model Transparency Index scores in 2026?",
+          "options": [
+            "Scores improved significantly across all major labs",
+            "Scores dropped from 58 to 40, with the most capable models disclosing the least",
+            "The index was discontinued due to unreliable methodology",
+            "Scores remained flat at around 58 points"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Foundation Model Transparency Index average fell from 58 to 40 in 2026, with the most capable frontier models — paradoxically — being the least transparent about their training data, evaluation methods, and safety protocols."
+        }
+      ]
+    }
+  ]
+}
