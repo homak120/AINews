@@ -7,6 +7,7 @@
     {
       "id": "article-cnbc-claude-opus-47-mythos",
       "type": "article",
+      "title": "Anthropic Releases Claude Opus 4.7 With Gains in Coding and Agentic Reasoning",
       "sourceUrl": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html",
       "verified": false,
       "publishedAt": "2026-04-16",
@@ -44,6 +45,7 @@
     {
       "id": "article-techcrunch-gemini-mac-app",
       "type": "article",
+      "title": "Google Launches Native Gemini App for macOS With Screen-Aware AI",
       "sourceUrl": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
       "verified": false,
       "publishedAt": "2026-04-15",
@@ -81,6 +83,7 @@
     {
       "id": "article-hackernews-gpt54-cyber-launch",
       "type": "article",
+      "title": "OpenAI Launches GPT-5.4-Cyber for Defensive Security Workflows",
       "sourceUrl": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
       "verified": false,
       "publishedAt": "2026-04-15",
@@ -123,6 +126,7 @@
     {
       "id": "article-tomshardware-tech-layoffs-q1-2026",
       "type": "article",
+      "title": "Nearly 80,000 Tech Workers Laid Off in Q1 2026, Half Attributed to AI",
       "sourceUrl": "https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai",
       "verified": false,
       "publishedAt": "2026-04-17",
@@ -160,6 +164,7 @@
     {
       "id": "article-nextweb-claude-opus47-benchmarks",
       "type": "article",
+      "title": "Claude Opus 4.7 Tops SWE-bench but Still Trails Unreleased Mythos Model",
       "sourceUrl": "https://thenextweb.com/news/anthropic-claude-opus-4-7-coding-agentic-benchmarks-release",
       "verified": false,
       "publishedAt": "2026-04-16",
