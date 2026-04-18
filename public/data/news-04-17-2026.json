@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T14:00:00.000Z",
+  "generatedAt": "2026-04-17T21:30:00.000Z",
   "weekOf": "2026-04-13",
   "coverageStart": "2026-04-14",
   "coverageEnd": "2026-04-17",
@@ -202,6 +202,7 @@
     {
       "id": "article-fortune-stanford-ai-index-2026",
       "type": "article",
+      "title": "Stanford AI Index 2026: US-China Gap Narrows as Model Transparency Declines",
       "sourceUrl": "https://fortune.com/2026/04/16/stanford-study-how-has-china-gained-on-us-ai-war/",
       "verified": false,
       "publishedAt": "2026-04-16",
@@ -244,6 +245,7 @@
     {
       "id": "article-piunikaweb-grok-43-beta",
       "type": "article",
+      "title": "xAI Launches Grok 4.3 Beta Exclusively for SuperGrok Heavy Subscribers",
       "sourceUrl": "https://piunikaweb.com/2026/04/17/xai-grok-4-3-beta-supergrok-heavy/",
       "verified": false,
       "publishedAt": "2026-04-17",
@@ -280,6 +282,133 @@
           ],
           "correctIndex": 2,
           "explanation": "Grok 4.3 beta introduced native slide creation as a new capability, alongside improvements to long-context processing and multimodal video understanding."
+        }
+      ]
+    },
+    {
+      "id": "youtube-N4ZWCc_Fr3U",
+      "type": "video",
+      "title": "First Impressions of Claude Opus 4.7: Benchmarks, Pricing, and What Changed",
+      "youtubeId": "N4ZWCc_Fr3U",
+      "sourceUrl": "https://www.youtube.com/watch?v=N4ZWCc_Fr3U",
+      "verified": true,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Matthew Berman shares his initial reactions to the Claude Opus 4.7 release, walking through benchmark comparisons against GPT-5.4 and Gemini 3.1 Pro, the new xhigh effort level, and tokenizer changes. He highlights areas where the model excels in coding tasks while questioning whether the upgrade justifies the same pricing tier as Opus 4.6.",
+      "keyConcepts": [
+        "Claude Opus 4.7 benchmarks",
+        "xhigh effort level",
+        "Tokenizer changes and pricing",
+        "Comparison with GPT-5.4 and Gemini 3.1 Pro"
+      ],
+      "whyItMatters": "Hands-on first impressions from independent reviewers help developers decide whether to migrate to Opus 4.7, offering practical context that benchmark numbers alone cannot provide.",
+      "tags": ["claude", "opus-4-7", "anthropic", "model-review", "benchmarks", "ai-coding"],
+      "relatedIds": ["article-cnbc-claude-opus-47-mythos", "article-nextweb-claude-opus47-benchmarks"],
+      "knowledgeChecks": [
+        {
+          "question": "What benchmark did Claude Opus 4.7 lead among publicly available models at launch?",
+          "options": ["MMLU", "HumanEval", "SWE-bench", "GPQA Diamond"],
+          "correctIndex": 2,
+          "explanation": "Claude Opus 4.7 topped SWE-bench, a software engineering benchmark that tests real-world coding and bug-fixing capabilities, outperforming GPT-5.4 and Gemini 3.1 Pro."
+        },
+        {
+          "question": "How does Opus 4.7's pricing compare to its predecessor Opus 4.6?",
+          "options": [
+            "50% more expensive",
+            "Same price ($5/M input, $25/M output)",
+            "25% cheaper as a promotional rate",
+            "Free tier only during beta"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic released Opus 4.7 at the same pricing as Opus 4.6 ($5 per million input tokens, $25 per million output tokens), positioning it as a drop-in upgrade for existing customers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-r5BLAFPk9Jo",
+      "type": "video",
+      "title": "Claude Opus 4.7 Deep Dive: Overlooked Features and Practical Implications",
+      "youtubeId": "r5BLAFPk9Jo",
+      "sourceUrl": "https://www.youtube.com/watch?v=r5BLAFPk9Jo",
+      "verified": true,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "TheAIGRID examines underreported aspects of the Claude Opus 4.7 release, including the expanded 3.75-megapixel vision capability, improved long-horizon agentic consistency, and the growing gap between publicly available models and Anthropic's restricted Mythos system. The video contextualizes these changes within the broader competitive landscape of frontier AI models.",
+      "keyConcepts": [
+        "3.75MP vision upgrade",
+        "Long-horizon agentic consistency",
+        "Mythos vs. public model gap",
+        "Frontier model competitive landscape"
+      ],
+      "whyItMatters": "Understanding the less-publicized improvements in Opus 4.7, such as vision and agentic reliability, helps engineers evaluate where the model delivers the most practical value beyond headline benchmarks.",
+      "tags": ["claude", "opus-4-7", "anthropic", "vision-ai", "agentic-ai", "model-analysis"],
+      "relatedIds": ["article-cnbc-claude-opus-47-mythos", "article-nextweb-claude-opus47-benchmarks"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum image resolution Claude Opus 4.7 supports?",
+          "options": [
+            "1.15 megapixels",
+            "2.0 megapixels",
+            "3.75 megapixels",
+            "5.0 megapixels"
+          ],
+          "correctIndex": 2,
+          "explanation": "Opus 4.7 expanded vision support to approximately 3.75 megapixels (2,576 pixels on the long edge), up from the 1.15 megapixel limit in Opus 4.6."
+        },
+        {
+          "question": "Which unreleased Anthropic model still outperforms Opus 4.7 on key benchmarks?",
+          "options": [
+            "Claude Sonnet 5.0",
+            "Claude Haiku 4.0",
+            "Mythos",
+            "Claude Ultra"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic acknowledged that its unreleased Mythos model, available only to select partners, still outperforms Opus 4.7 on key benchmarks, highlighting the growing gap between frontier research models and publicly deployed ones."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ZVAGTidLVyc",
+      "type": "video",
+      "title": "How Claude Opus 4.7 Exposed the Frontier Model Transparency Problem",
+      "youtubeId": "ZVAGTidLVyc",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZVAGTidLVyc",
+      "verified": true,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Wes Roth discusses how the Claude Opus 4.7 release reignited debate about transparency in AI model development, particularly around Anthropic's admission that Mythos surpasses its public offerings. The video explores what this means for the broader AI industry's openness and the Stanford AI Index's finding that model transparency scores have dropped significantly.",
+      "keyConcepts": [
+        "AI model transparency",
+        "Public vs. restricted model access",
+        "Stanford AI Index transparency findings",
+        "Competitive dynamics among AI labs"
+      ],
+      "whyItMatters": "The tension between building more capable AI and disclosing less about it is becoming a defining industry challenge, with real implications for developer trust, regulation, and which organizations can access frontier capabilities.",
+      "tags": ["anthropic", "transparency", "ai-policy", "frontier-models", "mythos", "ai-governance"],
+      "relatedIds": ["article-fortune-stanford-ai-index-2026", "article-cnbc-claude-opus-47-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the 2026 Stanford AI Index, what happened to the Foundation Model Transparency Index?",
+          "options": [
+            "It rose from 40 to 58",
+            "It remained stable at 58",
+            "It dropped from 58 to 40",
+            "It was discontinued"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Foundation Model Transparency Index fell from an average of 58 to 40, indicating that frontier AI labs are disclosing less about their models even as capabilities advance rapidly."
+        },
+        {
+          "question": "What makes the Opus 4.7 release notable from a transparency perspective?",
+          "options": [
+            "Anthropic open-sourced the model weights",
+            "Anthropic admitted its restricted Mythos model outperforms Opus 4.7",
+            "Anthropic published full training data details",
+            "Anthropic shared the model's safety evaluation results publicly"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic publicly acknowledged that its unreleased Mythos model surpasses Opus 4.7, making it one of the clearest admissions that the most capable AI systems are being withheld from public access."
         }
       ]
     }
