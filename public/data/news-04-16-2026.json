@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T14:00:00Z",
+  "generatedAt": "2026-04-16T18:30:00Z",
   "weekOf": "2026-04-13",
   "coverageStart": "2026-04-07",
   "coverageEnd": "2026-04-16",
@@ -211,6 +211,141 @@
           ],
           "correctIndex": 2,
           "explanation": "The three labs are sharing intelligence through the Frontier Model Forum — an industry body originally established for safety collaboration — to detect and deter Chinese firms using adversarial distillation to clone their proprietary frontier models."
+        }
+      ]
+    },
+    {
+      "id": "youtube-piah4fV_o2Q",
+      "topics": ["ai-engineering", "ai-industry"],
+      "type": "video",
+      "title": "WordPress Plugin Supply-Chain Attack and Cloudflare's EmDash CMS Response",
+      "youtubeId": "piah4fV_o2Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=piah4fV_o2Q",
+      "verified": true,
+      "publishedAt": "2026-04-16",
+      "summary": "Fireship covers a major WordPress supply-chain attack where a buyer acquired over 30 legitimate plugins and injected backdoors into all of them, compromising tens of thousands of sites. The malware used Ethereum smart contracts to resolve its command-and-control domains, making takedowns difficult. Cloudflare responded by launching EmDash, a serverless JavaScript CMS built on Astro 6.0 that sandboxes plugins in Worker isolates to prevent this class of attack.",
+      "keyConcepts": [
+        "WordPress plugin supply-chain attack",
+        "Backdoor injection via plugin acquisition",
+        "Ethereum-based command-and-control resolution",
+        "Cloudflare EmDash CMS",
+        "Sandboxed plugin execution"
+      ],
+      "whyItMatters": "Supply-chain attacks through plugin ecosystems represent one of the most scalable web security threats, and Cloudflare's architectural response of sandboxing plugins in isolated Workers signals a shift toward zero-trust CMS design that other platforms will need to adopt.",
+      "tags": ["wordpress", "supply-chain-attack", "cloudflare", "emdash", "web-security", "plugin-security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How did the attacker gain access to inject backdoors into dozens of WordPress plugins?",
+          "options": [
+            "They exploited a zero-day vulnerability in the WordPress plugin API",
+            "They purchased the plugin company and pushed malicious updates through the official channel",
+            "They compromised the WordPress plugin review team's credentials",
+            "They used AI to generate fake plugins that mimicked popular ones"
+          ],
+          "correctIndex": 1,
+          "explanation": "The attacker acquired a company that developed over 30 WordPress plugins and then injected backdoor code into all of them, pushing the malicious updates through the official WordPress plugin distribution channel to tens of thousands of active sites."
+        },
+        {
+          "question": "What technology did the malware use to make its command-and-control infrastructure harder to take down?",
+          "options": [
+            "Tor hidden services for anonymous hosting",
+            "Ethereum smart contracts to resolve C2 domain addresses",
+            "Decentralized IPFS nodes for payload distribution",
+            "DNS-over-HTTPS to hide C2 traffic from firewalls"
+          ],
+          "correctIndex": 1,
+          "explanation": "The malware resolved its command-and-control server domain through Ethereum smart contracts, querying public blockchain RPC endpoints. This makes traditional domain takedowns ineffective since the address resolution lives on an immutable blockchain rather than in centralized DNS."
+        }
+      ]
+    },
+    {
+      "id": "youtube-jKKrQSFIkFc",
+      "topics": ["ai-research", "ai-industry"],
+      "type": "video",
+      "title": "Google DeepMind Introduces a 10-Dimension AGI Evaluation Framework",
+      "youtubeId": "jKKrQSFIkFc",
+      "sourceUrl": "https://www.youtube.com/watch?v=jKKrQSFIkFc",
+      "verified": true,
+      "publishedAt": "2026-04-15",
+      "summary": "TheAIGRID examines Google DeepMind's new multidimensional framework for evaluating artificial general intelligence, which replaces single-metric benchmarks with assessments across ten cognitive dimensions including perception, reasoning, and social cognition. The framework uses a three-stage evaluation process with cognitive profiles visualized as radar charts. Google also launched a $200,000 Kaggle hackathon to crowdsource evaluation methods for five of these dimensions.",
+      "keyConcepts": [
+        "Multidimensional AGI evaluation framework",
+        "Ten cognitive dimensions for AI assessment",
+        "Radar chart cognitive profiles",
+        "Kaggle AGI evaluation hackathon",
+        "Moving beyond single-benchmark AGI measurement"
+      ],
+      "whyItMatters": "How we define and measure AGI directly shapes where research investment flows and when regulatory triggers activate. Google's shift from pass-fail benchmarks to a multidimensional taxonomy could become the industry standard for tracking progress toward general intelligence.",
+      "tags": ["google-deepmind", "agi", "ai-benchmarks", "cognitive-evaluation", "kaggle", "ai-measurement"],
+      "relatedIds": ["article-stanford-hai-ai-index-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How many cognitive dimensions does Google DeepMind's new AGI evaluation framework assess?",
+          "options": [
+            "3",
+            "5",
+            "10",
+            "15"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google DeepMind's framework evaluates AI systems across 10 cognitive dimensions that mirror human abilities, including perception, reasoning, and social cognition. This replaces the previous approach of using a single benchmark or metric to assess progress toward AGI."
+        },
+        {
+          "question": "What initiative did Google launch alongside the new AGI framework to involve the broader AI community?",
+          "options": [
+            "An open-source AGI testing library on GitHub",
+            "A new AGI safety research lab at Stanford",
+            "A $200,000 Kaggle hackathon to crowdsource evaluation methods",
+            "A partnership with OpenAI to co-develop AGI benchmarks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google launched a $200,000 Kaggle hackathon to crowdsource innovative solutions for evaluating five of the ten cognitive dimensions in the framework, fostering community collaboration to standardize how AGI progress is measured."
+        }
+      ]
+    },
+    {
+      "id": "youtube-WkHdkwDQJ5o",
+      "topics": ["ai-engineering"],
+      "type": "video",
+      "title": "Anthropic Launches New Claude Code IDE Features Competing with Cursor",
+      "youtubeId": "WkHdkwDQJ5o",
+      "sourceUrl": "https://www.youtube.com/watch?v=WkHdkwDQJ5o",
+      "verified": true,
+      "publishedAt": "2026-04-16",
+      "summary": "Theo covers Anthropic's latest Claude Code update that introduces IDE-level features positioning it as a direct competitor to Cursor. The update narrows the gap between Claude Code's terminal-native autonomous workflow and Cursor's visual IDE experience. Claude Code currently achieves a 72.5% resolution rate on SWE-bench Verified compared to Cursor's 55-62% range, and has reached a $2.5 billion run rate with over 300,000 business customers.",
+      "keyConcepts": [
+        "Claude Code IDE capabilities",
+        "Terminal-native vs visual IDE coding agents",
+        "SWE-bench performance comparison",
+        "AI coding tool market competition",
+        "Autonomous code generation workflow"
+      ],
+      "whyItMatters": "The convergence of terminal-based AI agents and visual IDEs signals that AI-assisted development is consolidating around fully autonomous coding workflows, and developers need to evaluate which paradigm best fits their workflow before the market settles on a dominant approach.",
+      "tags": ["claude-code", "cursor", "ai-coding", "anthropic", "ide", "developer-tools"],
+      "relatedIds": ["article-mcp-97-million-installs-mainstream"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Code's resolution rate on SWE-bench Verified as of March 2026?",
+          "options": [
+            "55%",
+            "62%",
+            "72.5%",
+            "85%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code achieved a 72.5% resolution rate on SWE-bench Verified as of March 2026, compared to Cursor's 55-62% range when using Claude Sonnet as its backend model. SWE-bench measures an AI tool's ability to resolve real GitHub issues."
+        },
+        {
+          "question": "What fundamental architectural difference distinguishes Claude Code from Cursor?",
+          "options": [
+            "Claude Code uses GPT models while Cursor uses Claude models",
+            "Claude Code is a terminal-native autonomous agent while Cursor is a visual IDE built on VS Code",
+            "Claude Code is open source while Cursor is proprietary",
+            "Claude Code requires local GPU processing while Cursor runs entirely in the cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Code operates as a terminal-native agentic coding tool that autonomously reads codebases, writes across files, runs tests, and commits to git. Cursor, by contrast, is a visual IDE forked from VS Code that provides real-time inline assistance as developers actively write code."
         }
       ]
     }
