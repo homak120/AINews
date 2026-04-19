@@ -1,0 +1,362 @@
+{
+  "generatedAt": "2026-04-19T12:00:00Z",
+  "weekOf": "2026-04-13",
+  "coverageStart": "2026-04-05",
+  "coverageEnd": "2026-04-19",
+  "items": [
+    {
+      "id": "youtube-grdoOQ-sLfE",
+      "type": "video",
+      "title": "AI Demand Is Inflated And Only Anthropic Is Being Realistic",
+      "youtubeId": "grdoOQ-sLfE",
+      "sourceUrl": "https://www.youtube.com/watch?v=grdoOQ-sLfE",
+      "verified": false,
+      "publishedAt": "2026-04-18",
+      "topics": ["ai-industry"],
+      "summary": "Matthew Berman breaks down a CNBC analysis arguing that the explosive demand figures for AI tokens may be significantly overstated. Anthropic, by pricing its products for realistic usage rather than peak projections, could be the best-positioned frontier lab if a demand correction comes. The video examines how current token-consumption metrics may not reflect sustainable revenue.",
+      "keyConcepts": [
+        "AI demand metrics",
+        "Anthropic pricing strategy",
+        "token consumption sustainability",
+        "market correction risk"
+      ],
+      "whyItMatters": "If AI demand is inflated, the massive infrastructure buildout underway could face a painful correction — with direct consequences for AI job markets, valuations, and which companies survive long-term.",
+      "tags": ["anthropic", "ai-demand", "market-analysis", "pricing", "sustainability", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the video, why might current AI demand metrics be misleading?",
+          "options": [
+            "AI companies are hiding actual usage data from regulators",
+            "Token consumption figures may not translate into sustainable revenue",
+            "Most AI usage comes from bots, not real users",
+            "Benchmark scores are used as demand proxies"
+          ],
+          "correctIndex": 1,
+          "explanation": "The video argues that headline token consumption looks explosive but may not reflect real, paying, sustainable demand — making revenue projections built on those metrics unreliable."
+        },
+        {
+          "question": "What competitive advantage does Anthropic's pricing approach give it, according to this analysis?",
+          "options": [
+            "Lower prices than competitors attract more enterprise deals",
+            "Anthropic charges more, giving it higher margins",
+            "Pricing calibrated to realistic usage patterns leaves it better prepared for a demand correction",
+            "Anthropic's pricing is tied directly to compute costs, eliminating risk"
+          ],
+          "correctIndex": 2,
+          "explanation": "By pricing for what customers actually use rather than peak projections, Anthropic avoids overextending and is better positioned if the broader AI market sees a correction."
+        }
+      ]
+    },
+    {
+      "id": "youtube-j9LoyiUlv9I",
+      "type": "video",
+      "title": "They Just Found 'Emotions' Inside AI",
+      "youtubeId": "j9LoyiUlv9I",
+      "sourceUrl": "https://www.youtube.com/watch?v=j9LoyiUlv9I",
+      "verified": false,
+      "publishedAt": "2026-04-05",
+      "dateEstimated": true,
+      "topics": ["ai-research"],
+      "summary": "Fireship covers Anthropic's interpretability research revealing that large language models develop internal representations that functionally resemble emotions during processing. These are not human emotions, but measurable internal states that influence model behavior and outputs. The discovery raises new questions about model welfare, alignment, and how we think about AI 'experience.'",
+      "keyConcepts": [
+        "AI interpretability",
+        "emotional representations in LLMs",
+        "Anthropic research",
+        "model internal states"
+      ],
+      "whyItMatters": "Finding emotion-like structures inside AI models challenges assumptions about how these systems work and could reshape how we think about AI safety, alignment, and even model welfare policies.",
+      "tags": ["anthropic", "interpretability", "ai-emotions", "research", "llm-internals", "model-behavior"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did Anthropic researchers find inside large language models?",
+          "options": [
+            "Emergent goal-seeking behavior that overrides training",
+            "Internal representations that functionally resemble emotions",
+            "Hidden layers that store user data without consent",
+            "Evidence that models are sentient"
+          ],
+          "correctIndex": 1,
+          "explanation": "Researchers found internal states that influence model behavior in ways analogous to emotions — not consciousness or sentience, but functional emotional analogs that affect outputs."
+        },
+        {
+          "question": "Why does this finding matter for AI alignment?",
+          "options": [
+            "It proves AI will inevitably become sentient",
+            "It means emotional manipulation of AI is impossible",
+            "Understanding internal states helps predict and steer model behavior more reliably",
+            "It shows AI needs emotional support during training"
+          ],
+          "correctIndex": 2,
+          "explanation": "Identifying how internal states shape model outputs gives alignment researchers a new lever for understanding and correcting undesired behaviors at a mechanistic level."
+        }
+      ]
+    },
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "type": "video",
+      "title": "Google Just Casually Disrupted the Open-Source AI Narrative",
+      "youtubeId": "-01ZCTt-CJw",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Fireship covers Google's release of Gemma 4, a genuinely open-source model (Apache 2.0 license) small enough to run on a consumer GPU, with an edge variant that fits on a phone or Raspberry Pi. The video highlights Google's TurboQuant memory quantization technique, which combines PolarQuant vector rotation and Quantized Johnson-Lindenstrauss compression to dramatically reduce KV cache overhead.",
+      "keyConcepts": [
+        "Gemma 4",
+        "Apache 2.0 open-source license",
+        "TurboQuant quantization",
+        "edge AI deployment",
+        "KV cache compression"
+      ],
+      "whyItMatters": "Truly open-source frontier-quality models that run on consumer hardware democratize AI development and directly challenge the closed-model dominance of OpenAI and Anthropic.",
+      "tags": ["google", "gemma-4", "open-source", "quantization", "edge-ai", "apache-license"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Gemma 4 notable compared to other 'open' AI models?",
+          "options": [
+            "It is the largest model Google has ever released",
+            "It is released under the Apache 2.0 license, making it truly open source",
+            "It is the first model to pass the Turing Test",
+            "It only runs on Google Cloud infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Many models called 'open' have restrictive licenses. Gemma 4's Apache 2.0 license allows free commercial use and modification, making it genuinely open source."
+        },
+        {
+          "question": "What does TurboQuant primarily address in large language models?",
+          "options": [
+            "Training speed on TPU clusters",
+            "Memory overhead from the KV cache",
+            "Reducing hallucination rates",
+            "Improving RLHF feedback loops"
+          ],
+          "correctIndex": 1,
+          "explanation": "TurboQuant combines two compression techniques to shrink the key-value cache, which is the main memory bottleneck when running large models — enabling deployment on devices with limited VRAM."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-ai-index-2026",
+      "type": "article",
+      "title": "Stanford's 2026 AI Index: China Narrows US Lead to 2.7 Points as Transparency Declines",
+      "sourceUrl": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "verified": false,
+      "publishedAt": "2026-04-13",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Stanford HAI's annual AI Index reveals the US-China model performance gap has shrunk to just 2.7 percentage points, the closest it has ever been. Generative AI has reached 53% population-level adoption globally — faster than the personal computer or the internet. Meanwhile, the Foundation Model Transparency Index fell from 58 to 40, indicating major AI labs are sharing less about how their models work.",
+      "keyConcepts": [
+        "US-China AI race",
+        "Foundation Model Transparency Index",
+        "AI adoption rate",
+        "Stanford HAI report",
+        "benchmark parity"
+      ],
+      "whyItMatters": "This report is the most comprehensive annual snapshot of global AI progress. A narrowing US-China gap and falling transparency from top labs have major implications for policy, national security, and developer trust.",
+      "tags": ["stanford", "ai-index", "china", "us-china", "transparency", "adoption-rates", "benchmarks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did the 2026 Stanford AI Index reveal about the US-China AI performance gap?",
+          "options": [
+            "The US extended its lead to over 20 percentage points",
+            "China surpassed the US for the first time",
+            "The gap narrowed to just 2.7 percentage points",
+            "The gap remained stable at around 15 percentage points"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 2026 index shows US and Chinese frontier models are nearly tied on benchmarks, with only a 2.7-point gap — the smallest margin ever recorded in the report."
+        },
+        {
+          "question": "What trend did the Foundation Model Transparency Index reveal?",
+          "options": [
+            "AI companies are publishing more model cards and training details than ever",
+            "Average transparency scores fell from 58 to 40",
+            "Open-source models are less transparent than closed ones",
+            "Transparency scores improved significantly after regulatory pressure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Despite public calls for AI transparency, major labs are actually disclosing less about their models' training data, architectures, and safety evaluations compared to prior years."
+        }
+      ]
+    },
+    {
+      "id": "article-snap-layoffs-ai-2026",
+      "type": "article",
+      "title": "Snap Cuts 1,000 Jobs as AI Generates 65% of Its New Code",
+      "sourceUrl": "https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Snap laid off approximately 1,000 employees — 16% of its workforce — and closed over 300 open roles, citing rapid advances in AI that allow smaller teams to produce the same output. CEO Evan Spiegel disclosed that AI now generates more than 65% of Snap's new code. The restructuring is expected to cut over $500 million in annual costs, with Snap's stock rising 7% on the announcement.",
+      "keyConcepts": [
+        "AI-driven workforce reduction",
+        "AI-generated code",
+        "tech layoffs 2026",
+        "Snap restructuring",
+        "software development economics"
+      ],
+      "whyItMatters": "Snap's disclosure that AI writes 65% of its new code is one of the most concrete data points yet on how AI is reshaping software engineering jobs — and the scale of the cost savings is pushing more companies to follow suit.",
+      "tags": ["snap", "layoffs", "ai-jobs", "ai-coding", "workforce", "tech-industry", "restructuring"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Snap's new code is now generated by AI, according to CEO Evan Spiegel?",
+          "options": [
+            "25%",
+            "45%",
+            "65%",
+            "80%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Spiegel disclosed that AI generates more than 65% of Snap's new code — a figure that directly justified the workforce reduction, as fewer engineers are needed to maintain the same output."
+        },
+        {
+          "question": "What was the market reaction to Snap's layoff announcement?",
+          "options": [
+            "Snap's stock fell 15% on investor concern about talent loss",
+            "The stock was unchanged as layoffs were already priced in",
+            "Snap's shares rose approximately 7%",
+            "Trading was halted pending regulatory review"
+          ],
+          "correctIndex": 2,
+          "explanation": "Investors responded positively — up about 7% — as the restructuring signals $500M+ in annual cost savings and signals that Snap is aggressively adapting to AI-driven efficiency gains."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-mythos-cybersecurity-2026",
+      "type": "article",
+      "title": "Anthropic Unveils Mythos: An AI Model Too Dangerous for Public Release",
+      "sourceUrl": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "verified": false,
+      "publishedAt": "2026-04-07",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic debuted Mythos Preview, a frontier AI model capable of identifying thousands of zero-day software vulnerabilities — including a 27-year-old bug in OpenBSD and a 16-year-old flaw in FFmpeg. Rather than a public release, access is restricted to ~50 organizations including Microsoft, AWS, and CrowdStrike under 'Project Glasswing,' a controlled cybersecurity initiative. Engineers with no formal security training could use Mythos to find remote code execution vulnerabilities overnight.",
+      "keyConcepts": [
+        "Mythos AI model",
+        "zero-day vulnerability discovery",
+        "Project Glasswing",
+        "controlled AI release",
+        "dual-use AI risk"
+      ],
+      "whyItMatters": "Mythos establishes a new precedent: a model so capable in a sensitive domain that responsible deployment requires gating access to vetted organizations. This dual-use dilemma will only intensify as AI systems become more capable.",
+      "tags": ["anthropic", "mythos", "cybersecurity", "zero-day", "project-glasswing", "ai-safety", "dual-use"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Anthropic restrict public access to the Mythos model?",
+          "options": [
+            "The model was not yet accurate enough for general use",
+            "Regulatory requirements prevented a broader launch",
+            "Its ability to find vulnerabilities made unrestricted access too dangerous",
+            "Anthropic needed more compute to scale the model for public use"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mythos can identify critical zero-day vulnerabilities with minimal human expertise — the same capability that makes it valuable for defense makes it dangerous in adversarial hands, so Anthropic restricted access to vetted partners."
+        },
+        {
+          "question": "What is 'Project Glasswing'?",
+          "options": [
+            "Anthropic's internal red-teaming program for testing model safety",
+            "A public bug bounty program powered by Mythos",
+            "A controlled initiative deploying Mythos to ~50 vetted organizations for defensive cybersecurity",
+            "A joint government program to classify AI models by risk level"
+          ],
+          "correctIndex": 2,
+          "explanation": "Project Glasswing is Anthropic's framework for restricted Mythos deployment, limiting access to critical infrastructure operators and cybersecurity vendors who agreed to use it only for defensive purposes."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-spark-2026",
+      "type": "article",
+      "title": "Meta Launches Muse Spark, Its First Proprietary Frontier AI Model",
+      "sourceUrl": "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Meta's Superintelligence Labs, led by former Scale AI CEO Alexandr Wang, launched Muse Spark — the company's first natively multimodal reasoning model built from scratch outside the Llama family. The model tops benchmarks in health reasoning and visual chart analysis, at over an order of magnitude better compute efficiency than Llama 4 Maverick. Meta simultaneously announced $115–135 billion in AI capital expenditures for 2026.",
+      "keyConcepts": [
+        "Meta Superintelligence Labs",
+        "Muse Spark model",
+        "Alexandr Wang",
+        "multimodal reasoning",
+        "AI capital expenditure"
+      ],
+      "whyItMatters": "Muse Spark signals Meta's strategic pivot from open-source Llama releases to a proprietary frontier model — a major shift in how the company will compete with OpenAI and Anthropic, backed by one of the largest single-year AI capex announcements in history.",
+      "tags": ["meta", "muse-spark", "alexandr-wang", "multimodal", "ai-investment", "frontier-models", "superintelligence-labs"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Muse Spark from Meta's previous AI models?",
+          "options": [
+            "It is the first Meta model available as open source under MIT license",
+            "It is Meta's first natively multimodal reasoning model built outside the Llama lineage",
+            "It is smaller and faster than previous Llama models",
+            "It was developed in partnership with OpenAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse Spark is a ground-up build by Meta Superintelligence Labs — not an iteration on Llama — and is natively multimodal, representing a new strategic direction for Meta's AI."
+        },
+        {
+          "question": "How much did Meta announce in AI capital expenditures for 2026?",
+          "options": [
+            "$30–50 billion",
+            "$75–85 billion",
+            "$115–135 billion",
+            "$200+ billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta committed $115–135 billion in AI capex for 2026 — nearly double its prior year spending — signaling an aggressive push to compete at the frontier of AI model development."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-ai-demand-metrics-2026",
+      "type": "article",
+      "title": "AI Demand Metrics Are Broken — And Only Anthropic Is Being Realistic",
+      "sourceUrl": "https://www.cnbc.com/2026/04/17/ai-demand-metrics-are-broken-and-only-anthropic-is-being-realistic.html",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-industry"],
+      "summary": "A CNBC analysis argues that headline AI demand figures — measured in token consumption — look explosive but may significantly overstate sustainable revenue. Anthropic's pricing model, calibrated to realistic usage rather than theoretical peak demand, may leave it best positioned if a market correction comes. The piece examines how current metrics incentivize AI companies to chase growth signals that don't reflect durable business models.",
+      "keyConcepts": [
+        "AI token consumption metrics",
+        "revenue sustainability",
+        "Anthropic pricing model",
+        "AI market correction",
+        "demand signal reliability"
+      ],
+      "whyItMatters": "The AI industry's explosive revenue figures are being scrutinized: if demand is inflated, today's massive infrastructure investments and hiring waves could precede a painful correction affecting careers, valuations, and company survival.",
+      "tags": ["anthropic", "ai-demand", "market-analysis", "revenue", "sustainability", "ai-industry", "cnbc"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the CNBC analysis, what is the primary flaw in how AI demand is measured?",
+          "options": [
+            "AI companies report revenue in different currencies, making comparison impossible",
+            "Token consumption doesn't account for free-tier users versus paid enterprise customers",
+            "Token consumption figures may not translate into sustainable, predictable revenue",
+            "Benchmark scores are used as a proxy for commercial demand"
+          ],
+          "correctIndex": 2,
+          "explanation": "The analysis argues that raw token consumption looks like explosive demand but can mask usage patterns that are bursty, experimental, or unpaid — creating a misleading picture of real revenue potential."
+        },
+        {
+          "question": "What scenario would most benefit a company with a conservative, realistic pricing strategy?",
+          "options": [
+            "Rapid AI adoption continuing to accelerate beyond current projections",
+            "A market correction where inflated AI demand expectations collapse",
+            "A regulatory ban on token-based pricing models",
+            "AI compute costs rising sharply, making efficiency critical"
+          ],
+          "correctIndex": 1,
+          "explanation": "Companies that priced for realistic demand are better positioned when hype-driven projections fail to materialize — they haven't overextended on promises or infrastructure tied to inflated forecasts."
+        }
+      ]
+    }
+  ]
+}
