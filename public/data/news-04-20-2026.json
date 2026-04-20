@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-04-20T09:00:00.000Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-03-20",
+  "coverageEnd": "2026-04-20",
+  "items": [
+    {
+      "id": "youtube-D2svWAwV8oY",
+      "type": "video",
+      "title": "Anthropic CEO's Warning About AI Control and Trajectory Explained",
+      "youtubeId": "D2svWAwV8oY",
+      "sourceUrl": "https://www.youtube.com/watch?v=D2svWAwV8oY",
+      "verified": false,
+      "publishedAt": "2026-04-01",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID breaks down Anthropic CEO Dario Amodei's public warnings that AI development may be on a path where humans lose meaningful control over outcomes. The video contextualizes Amodei's remarks within Anthropic's Frontier Safety Framework, which introduces Critical Capability Levels — defined thresholds where model capabilities could pose severe risks if left unmitigated. It examines the tension between Anthropic's commercial ambitions and its safety-first mission.",
+      "keyConcepts": [
+        "Anthropic Frontier Safety Framework",
+        "Critical Capability Levels (CCLs)",
+        "AI alignment and oversight",
+        "AI governance under rapid scaling"
+      ],
+      "whyItMatters": "Warnings from the CEO of a leading frontier lab carry weight for practitioners and policymakers shaping deployment timelines and safety requirements — understanding Anthropic's framework helps engineers anticipate the regulatory environment ahead.",
+      "tags": ["anthropic", "ai-safety", "dario-amodei", "alignment", "governance", "frontier-models"],
+      "relatedIds": ["youtube-mhoFqhLXc3g"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's Frontier Safety Framework use to define dangerous capability thresholds?",
+          "options": [
+            "Revenue milestones tied to quarterly earnings",
+            "Critical Capability Levels (CCLs)",
+            "Parameter count limits set by regulators",
+            "FLOP budgets approved by the board"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's Frontier Safety Framework introduces Critical Capability Levels (CCLs) — defined benchmarks where model capabilities could pose severe risks if left unmitigated before deployment."
+        },
+        {
+          "question": "Which term best describes a scenario where AI self-improvement outpaces human oversight capacity?",
+          "options": [
+            "Capability overhang",
+            "Alignment tax",
+            "Hard takeoff",
+            "Slow burn AGI"
+          ],
+          "correctIndex": 2,
+          "explanation": "A 'hard takeoff' describes rapid, compounding AI capability gains that occur faster than human governance or safety measures can keep pace — a central concern in Amodei's public statements."
+        }
+      ]
+    },
+    {
+      "id": "youtube-VnwbsGvUmZA",
+      "type": "video",
+      "title": "Swarms of AI Agents Are Being Deployed Across Industries",
+      "youtubeId": "VnwbsGvUmZA",
+      "sourceUrl": "https://www.youtube.com/watch?v=VnwbsGvUmZA",
+      "verified": false,
+      "publishedAt": "2026-03-21",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Wes Roth covers the rapid proliferation of agent swarm architectures — clusters of specialized AI agents that autonomously handle tasks from supply chain disruption response to financial auditing. The week of March 21, 2026 was identified as a turning point when enterprise deployments of multi-agent systems became widespread rather than experimental. The video surveys real-world deployments, the tooling enabling them, and what it means for AI engineers building and orchestrating these systems.",
+      "keyConcepts": [
+        "multi-agent swarm architectures",
+        "autonomous task orchestration",
+        "enterprise agent deployment",
+        "agent coordination and memory"
+      ],
+      "whyItMatters": "Agent swarms represent the shift from AI as a single tool to AI as an organizational layer — engineers who understand swarm coordination and orchestration will be central to the next wave of enterprise AI products.",
+      "tags": ["ai-agents", "swarms", "multi-agent", "orchestration", "enterprise-ai", "agentic-workflows"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary advantage of an AI agent swarm over a single AI agent?",
+          "options": [
+            "Swarms use less compute per task",
+            "Swarms allow specialization — different agents handle different subtasks in parallel",
+            "Swarms are easier to monitor and audit",
+            "Swarms require no coordination logic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agent swarms break complex tasks into parallel subtasks handled by specialized agents, dramatically increasing throughput and enabling work that a single agent would struggle to complete efficiently."
+        },
+        {
+          "question": "What is identified as a key bottleneck holding back widespread agent swarm deployments?",
+          "options": [
+            "Insufficient GPU hardware",
+            "Lack of agent frameworks and SDKs",
+            "The memory gap — agents lack persistent, shared context across tasks",
+            "Regulatory bans on autonomous agents"
+          ],
+          "correctIndex": 2,
+          "explanation": "Research and practitioner reports consistently identify the memory gap — agents' inability to retain and share context reliably across long-running multi-step workflows — as the leading bottleneck in enterprise agent deployments."
+        }
+      ]
+    },
+    {
+      "id": "youtube-mhoFqhLXc3g",
+      "type": "video",
+      "title": "Has AI's Hard Takeoff Already Begun?",
+      "youtubeId": "mhoFqhLXc3g",
+      "sourceUrl": "https://www.youtube.com/watch?v=mhoFqhLXc3g",
+      "verified": false,
+      "publishedAt": "2026-03-20",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Matthew Berman examines evidence that the AI field has entered a hard takeoff phase — a period of compounding, rapid capability gains outpacing governance, safety research, and workforce adaptation. He reviews benchmark trajectories (SWE-bench climbing from 60% to nearly 100% in one year), the accelerating pace of frontier model releases, and what a hard takeoff means for practitioners. The video draws on AI safety researcher perspectives and contrasts optimistic and pessimistic interpretations of the current trajectory.",
+      "keyConcepts": [
+        "hard takeoff hypothesis",
+        "benchmark velocity as capability signal",
+        "compounding model improvement cycles",
+        "implications for AI practitioners and career planning"
+      ],
+      "whyItMatters": "If we are in a hard takeoff, the skills and knowledge relevant for AI engineers today may shift dramatically within 12-24 months — understanding the trajectory helps practitioners make better decisions about what to learn and build.",
+      "tags": ["hard-takeoff", "agi", "benchmarks", "swe-bench", "ai-career", "matthew-berman"],
+      "relatedIds": ["youtube-D2svWAwV8oY"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the 'hard takeoff' hypothesis predict about AI development pace?",
+          "options": [
+            "AI will plateau as hardware bottlenecks become insurmountable",
+            "AI capabilities will grow slowly and predictably over decades",
+            "AI capability gains will accelerate rapidly, potentially outpacing human oversight",
+            "AI will achieve AGI only after quantum computing matures"
+          ],
+          "correctIndex": 2,
+          "explanation": "The hard takeoff hypothesis predicts that once AI crosses certain capability thresholds, self-improvement cycles or compounding gains cause capabilities to grow so fast that governance and safety measures cannot keep pace."
+        },
+        {
+          "question": "Which benchmark measures AI ability to resolve real GitHub software engineering issues?",
+          "options": [
+            "MMLU",
+            "SWE-bench Verified",
+            "HumanEval",
+            "MATH-500"
+          ],
+          "correctIndex": 1,
+          "explanation": "SWE-bench Verified tests whether AI models can resolve real GitHub issues end-to-end. Scores on this benchmark climbed from 60% to nearly 100% in a single year, one of the clearest empirical signals of rapid capability growth."
+        }
+      ]
+    },
+    {
+      "id": "mit-tr-state-of-ai-charts-2026-04-13",
+      "type": "article",
+      "title": "Twelve Charts That Explain the Current State of AI",
+      "sourceUrl": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/",
+      "verified": false,
+      "publishedAt": "2026-04-13",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "MIT Technology Review distills the Stanford 2026 AI Index into twelve charts covering AI capability trajectories, global adoption rates, US-China competition, and the widening governance gap. Key data points include: AI models now meet or exceed human baselines on PhD-level science and competition-level mathematics; generative AI reached 53% of global population in three years (faster than PC or internet); and as of March 2026, the leading US model leads its closest Chinese competitor by just 2.7 percentage points.",
+      "keyConcepts": [
+        "AI benchmark progression vs human baselines",
+        "generative AI global adoption velocity",
+        "US-China frontier model parity",
+        "AI governance and evaluation lag"
+      ],
+      "whyItMatters": "Visualizing the pace and distribution of AI progress provides practitioners with calibrated expectations — avoiding both hype-driven overconfidence and complacency about how quickly the landscape is changing.",
+      "tags": ["mit-technology-review", "stanford-ai-index", "benchmarks", "adoption", "china", "governance"],
+      "relatedIds": ["fortune-china-ai-april-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How does the adoption rate of generative AI compare to earlier transformative technologies?",
+          "options": [
+            "Slower than both the PC and the internet",
+            "About the same pace as the internet rollout",
+            "Faster than either the PC or the internet",
+            "Only faster in developed economies"
+          ],
+          "correctIndex": 2,
+          "explanation": "Generative AI reached 53% of the global population within three years of mass-market launch — faster than either the PC or the internet achieved similar reach — indicating unprecedented adoption velocity."
+        },
+        {
+          "question": "What critical weakness does the 2026 AI Index identify alongside AI's rapid technical progress?",
+          "options": [
+            "Insufficient training data for future models",
+            "A widening gap between capabilities and governance/evaluation infrastructure",
+            "Declining research output from US universities",
+            "Hardware supply chain shortages"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Stanford AI Index's central finding is that while capabilities are advancing at historic speed, the governance systems, evaluation frameworks, and regulatory infrastructure meant to oversee AI are falling further behind."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-meta-ai-model-april-2026",
+      "type": "article",
+      "title": "Meta Debuts Major New AI Model Following $14B Alexandr Wang Partnership",
+      "sourceUrl": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta released its first major AI model since its $14 billion deal to bring Scale AI founder Alexandr Wang into the organization, signaling a significant push to close the gap with Google and OpenAI in frontier model capabilities. The release comes as Meta has spent billions restructuring its AI research and engineering organization. CNBC reports that Meta's new model aims to compete directly with GPT-5 and Gemini 3.1 on reasoning and multimodal benchmarks.",
+      "keyConcepts": [
+        "Meta's frontier AI strategy",
+        "Scale AI and Alexandr Wang partnership",
+        "large language model competitive landscape",
+        "multimodal reasoning benchmarks"
+      ],
+      "whyItMatters": "Meta entering the frontier model race more aggressively increases competitive pressure on all major labs, potentially accelerating model release cycles and lowering API costs — both of which directly affect AI engineers building production systems.",
+      "tags": ["meta", "alexandr-wang", "frontier-models", "llm", "ai-competition", "multimodal"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the strategic significance of Meta's partnership with Alexandr Wang?",
+          "options": [
+            "Wang brought hardware manufacturing expertise from Scale AI",
+            "Wang's data labeling infrastructure at Scale AI strengthens Meta's model training pipeline",
+            "Wang introduced regulatory lobbying experience to Meta",
+            "Wang provided access to European AI research networks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alexandr Wang founded Scale AI, the leading AI data labeling company. Bringing Wang into Meta gives it access to high-quality data infrastructure critical for training and evaluating frontier models competitively."
+        },
+        {
+          "question": "Which benchmarks is Meta's new model primarily competing on?",
+          "options": [
+            "Image generation speed benchmarks",
+            "Reasoning and multimodal capability benchmarks",
+            "Code compilation speed tests",
+            "Hardware efficiency metrics"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta's new frontier model targets reasoning and multimodal benchmarks, the same evaluation domains where GPT-5 and Gemini 3.1 lead — positioning Meta's release as a direct competitive response."
+        }
+      ]
+    },
+    {
+      "id": "alston-bird-ai-quarterly-april-2026",
+      "type": "article",
+      "title": "AI Quarterly: Legal and Regulatory Landscape for AI, April 2026",
+      "sourceUrl": "https://www.alston.com/en/insights/publications/2026/04/ai-quarterly-april-2026",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Alston & Bird's April 2026 AI Quarterly surveys the most significant AI legal and policy developments of the quarter, covering AI liability frameworks taking shape in the EU, ongoing US federal agency AI guidance, and emerging case law around AI-generated content and intellectual property. The report also addresses enterprise compliance considerations as agentic AI systems begin to take autonomous actions with real-world consequences, raising novel questions about accountability.",
+      "keyConcepts": [
+        "EU AI Act implementation milestones",
+        "AI liability and accountability frameworks",
+        "AI-generated content intellectual property",
+        "enterprise compliance for agentic AI systems"
+      ],
+      "whyItMatters": "As agentic AI systems take autonomous actions, the legal accountability questions they raise are no longer theoretical — practitioners building and deploying agents need to understand the emerging regulatory environment before problems occur.",
+      "tags": ["ai-law", "regulation", "eu-ai-act", "liability", "compliance", "enterprise-ai"],
+      "relatedIds": ["youtube-VnwbsGvUmZA"],
+      "knowledgeChecks": [
+        {
+          "question": "What novel legal challenge do agentic AI systems introduce compared to traditional software?",
+          "options": [
+            "They require more expensive software licenses",
+            "They take autonomous real-world actions, creating ambiguity about accountability and liability",
+            "They are harder to patent than traditional algorithms",
+            "They generate more data subject to GDPR than previous systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "When AI agents autonomously take actions — booking travel, executing code, interacting with external services — determining who is legally accountable for errors or harm becomes genuinely ambiguous, creating new compliance challenges for deploying organizations."
+        },
+        {
+          "question": "Which regulatory framework is driving enterprise AI compliance efforts in Europe in 2026?",
+          "options": [
+            "GDPR Article 22 amendments",
+            "The EU AI Act",
+            "The Digital Markets Act",
+            "ISO 42001 certification requirements"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EU AI Act is the primary regulatory framework shaping enterprise AI compliance in Europe, with high-risk AI system requirements phasing in through 2026 and requiring organizations to implement conformity assessments and documentation obligations."
+        }
+      ]
+    }
+  ]
+}
