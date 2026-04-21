@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-04-21T12:00:00.000Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-07",
+  "coverageEnd": "2026-04-21",
+  "items": [
+    {
+      "id": "youtube-d3Qq-rkp_to",
+      "type": "video",
+      "title": "Why Anthropic Restricted Claude Mythos Preview to Vetted Researchers Only",
+      "youtubeId": "d3Qq-rkp_to",
+      "sourceUrl": "https://www.youtube.com/watch?v=d3Qq-rkp_to",
+      "verified": false,
+      "publishedAt": "2026-04-10",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Fireship covers Anthropic's decision to withhold Claude Mythos Preview from general availability, explaining the model's performance on cybersecurity benchmarks and its demonstrated ability to autonomously discover and exploit zero-day vulnerabilities in controlled evaluations. The video details Project Glasswing, a consortium of over 40 organizations granted monitored access to use Mythos Preview for defensive security research. Fireship frames this as a significant inflection point where safety restrictions on a commercial AI model are driven by genuine capability risk rather than cautious marketing.",
+      "keyConcepts": [
+        "Claude Mythos Preview",
+        "Project Glasswing defensive security consortium",
+        "autonomous zero-day vulnerability discovery",
+        "gated AI model access policies"
+      ],
+      "whyItMatters": "A frontier model capable of autonomous multi-stage cyberattacks represents a new category of AI risk — understanding how Anthropic's gated-access model works helps practitioners anticipate how future highly-capable models will be deployed and regulated.",
+      "tags": ["anthropic", "claude-mythos", "cybersecurity", "ai-safety", "project-glasswing", "frontier-models"],
+      "relatedIds": ["anthropic-claude-mythos-risk-report-2026-04-07"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Project Glasswing?",
+          "options": [
+            "OpenAI's initiative to restrict GPT-5 from public deployment",
+            "Anthropic's consortium of 40+ organizations with monitored access to Claude Mythos Preview for defensive cybersecurity work",
+            "Anthropic's internal red-team that evaluated Mythos before release",
+            "A government partnership to regulate AI-generated cyberattacks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Glasswing is Anthropic's industry consortium giving over 40 organizations monitored access to Claude Mythos Preview specifically for finding and fixing vulnerabilities in foundational software systems — channeling the model's offensive capabilities toward defensive use."
+        },
+        {
+          "question": "Why did Anthropic choose not to make Claude Mythos Preview generally available?",
+          "options": [
+            "The model was too expensive to serve at scale for consumer use",
+            "It failed standard benchmark safety evaluations",
+            "Its autonomous cyberattack capabilities posed risks that outweigh the benefits of open access",
+            "Anthropic was required to restrict it under new EU AI regulations"
+          ],
+          "correctIndex": 2,
+          "explanation": "In controlled evaluations, Claude Mythos Preview demonstrated the ability to execute multi-stage attacks and discover vulnerabilities autonomously — tasks that typically take professional security researchers days. Anthropic restricted access because these offensive capabilities require careful oversight before general release."
+        }
+      ]
+    },
+    {
+      "id": "youtube-JSuS-zXMVwE",
+      "type": "video",
+      "title": "Cursor 3 Abandons VS Code Fork, Rebuilds as Agent Orchestration IDE",
+      "youtubeId": "JSuS-zXMVwE",
+      "sourceUrl": "https://www.youtube.com/watch?v=JSuS-zXMVwE",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "dateEstimated": true,
+      "topics": ["ai-engineering"],
+      "summary": "Fireship analyzes Cursor 3's major architectural shift from a VS Code fork to a Rust- and TypeScript-based agent orchestration platform that manages AI coding agents across local and cloud machines. The video covers the new in-house Composer 2 model and the controversy that emerged when users discovered through model metadata it was built on Moonshot's Kimmy K2 rather than proprietary technology, prompting Cursor to apologize and publish a technical report. Fireship contextualizes the pivot against Claude Code claiming 54% of the AI coding market, framing Cursor 3 as a bet on agent-native tooling over editor-integrated AI.",
+      "keyConcepts": [
+        "agent orchestration IDE architecture",
+        "Cursor 3 Rust and TypeScript rebuild",
+        "Composer 2 and model provenance transparency",
+        "AI coding market share dynamics"
+      ],
+      "whyItMatters": "The shift from AI-enhanced editors to agent orchestration platforms redefines what developer tooling looks like — engineers evaluating AI coding tools now need to consider multi-agent workflows, cost per task, and model provenance, not just autocomplete quality.",
+      "tags": ["cursor", "vs-code", "ai-coding", "agent-orchestration", "developer-tools", "claude-code"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What technology stack did Cursor 3 use to replace its VS Code-based architecture?",
+          "options": [
+            "Go and WebAssembly for cross-platform support",
+            "Python and Electron for rapid iteration",
+            "Rust and TypeScript for performance and memory efficiency",
+            "C++ and React Native for mobile compatibility"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cursor 3 was rebuilt from scratch in Rust (for performance and memory efficiency) and TypeScript, replacing the VS Code fork with a native agent orchestration platform capable of managing coding agents across local and cloud environments."
+        },
+        {
+          "question": "What controversy arose around Cursor 3's Composer 2 model?",
+          "options": [
+            "It was found to contain training data scraped without copyright consent",
+            "Users discovered it was based on Moonshot's Kimmy K2 model rather than proprietary Cursor technology",
+            "It was revealed to be a rebranded version of an OpenAI model",
+            "Early users reported the model generated insecure code patterns by default"
+          ],
+          "correctIndex": 1,
+          "explanation": "Users discovered through model ID metadata that Cursor's Composer 2 was built on Moonshot's Kimmy K2 model. Cursor apologized and published a technical report describing their reinforcement learning modifications applied to the base model."
+        }
+      ]
+    },
+    {
+      "id": "youtube-VSLEGpCemtE",
+      "type": "video",
+      "title": "Anthropic CPO Mike Krieger on the Shift from AI Time-Savings to AI Work Execution",
+      "youtubeId": "VSLEGpCemtE",
+      "sourceUrl": "https://www.youtube.com/watch?v=VSLEGpCemtE",
+      "verified": false,
+      "publishedAt": "2026-04-14",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "The AI Daily Brief interviews Anthropic Chief Product Officer Mike Krieger on the inflection point where AI stops saving workers time and begins executing entire categories of work autonomously. Krieger outlines Anthropic's product vision for agentic Claude in enterprise settings, describing how multi-step autonomous workflows are replacing human-driven processes across knowledge work. The conversation addresses what this transition means for organizational design and how teams should restructure around AI execution capabilities.",
+      "keyConcepts": [
+        "agentic AI in enterprise workflows",
+        "AI execution vs AI assistance distinction",
+        "knowledge worker role transformation",
+        "Anthropic product strategy for agents"
+      ],
+      "whyItMatters": "Hearing directly from Anthropic's CPO about Claude's product trajectory clarifies how agentic capabilities will be packaged and deployed — a useful signal for engineers and product teams designing workflows on top of Claude APIs.",
+      "tags": ["anthropic", "mike-krieger", "agentic-ai", "enterprise-ai", "future-of-work", "product-strategy"],
+      "relatedIds": ["anthropic-amazon-5gw-compute-2026-04-21"],
+      "knowledgeChecks": [
+        {
+          "question": "Who is Mike Krieger and what is his role at Anthropic?",
+          "options": [
+            "Former Google DeepMind researcher and Anthropic's head of safety",
+            "Anthropic's Chief Product Officer and co-founder of Instagram",
+            "OpenAI's former CTO who joined Anthropic to lead Claude 4 development",
+            "Anthropic's head of enterprise sales responsible for Claude API growth"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mike Krieger is Anthropic's Chief Product Officer and the co-founder of Instagram. His combination of consumer product experience and senior role at a leading AI lab makes his views on agentic AI product direction particularly significant."
+        },
+        {
+          "question": "What does Krieger describe as the defining characteristic of 'AI work execution' as distinct from 'AI time savings'?",
+          "options": [
+            "AI models that can generate images and audio in addition to text",
+            "A reduction in inference costs making AI cheaper than human labor per hour",
+            "AI systems that complete entire multi-step task categories autonomously without human involvement at each step",
+            "Voice interfaces that replace keyboard input for common workflows"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI work execution means AI systems completing entire workflows end-to-end — not helping humans work faster on tasks they still own, but autonomously handling complete categories of work with humans reviewing outcomes rather than driving each step."
+        }
+      ]
+    },
+    {
+      "id": "anthropic-amazon-5gw-compute-2026-04-21",
+      "type": "article",
+      "title": "Anthropic and Amazon Expand Partnership to Secure Up to 5 Gigawatts of New Compute",
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic and Amazon Web Services announced an expanded partnership securing up to 5 gigawatts of compute capacity for training and deploying Claude models, with Anthropic committing more than $100 billion to AWS over the next ten years. The agreement includes new Trainium2 capacity coming online in H1 2026 and nearly 1 GW of combined Trainium2 and Trainium3 capacity by end of year. The scale of the commitment — 5 GW is roughly equivalent to the peak power demand of New York State — signals a major escalation in the infrastructure race underlying frontier AI development.",
+      "keyConcepts": [
+        "AWS Trainium2 and Trainium3 chips",
+        "compute scaling constraints for frontier AI",
+        "AI infrastructure investment scale",
+        "Anthropic long-term AWS commitment"
+      ],
+      "whyItMatters": "Compute access is the binding constraint on frontier AI progress — a $100B, 5 GW commitment signals Anthropic is planning a significant scaling push, which will directly affect the capability trajectory of models available to developers through the Claude API.",
+      "tags": ["anthropic", "amazon", "aws", "compute", "trainium", "infrastructure"],
+      "relatedIds": ["youtube-VSLEGpCemtE"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total compute capacity Anthropic is securing through its expanded Amazon partnership?",
+          "options": [
+            "500 megawatts",
+            "1 gigawatt",
+            "5 gigawatts",
+            "20 gigawatts"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Anthropic-Amazon deal secures up to 5 gigawatts of compute capacity, backed by a commitment of more than $100 billion to AWS over ten years — comparable to the peak power demand of New York State and one of the largest AI infrastructure commitments announced to date."
+        },
+        {
+          "question": "Which Amazon-designed hardware is central to the new compute capacity coming online in 2026?",
+          "options": [
+            "Amazon Graviton4 server processors",
+            "NVIDIA H100 clusters hosted on AWS",
+            "Trainium2 and Trainium3 AI training chips",
+            "Intel Gaudi 3 accelerators via AWS Marketplace"
+          ],
+          "correctIndex": 2,
+          "explanation": "The deal centers on Amazon's Trainium2 capacity coming online in H1 2026, with nearly 1 GW of combined Trainium2 and Trainium3 capacity by end of 2026 — Amazon's custom AI training chips built to provide an alternative to NVIDIA's GPU stack."
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt-image-2-ab-testing-2026-04-17",
+      "type": "article",
+      "title": "OpenAI Begins A/B Testing GPT-Image-2 Inside ChatGPT Ahead of Full Launch",
+      "sourceUrl": "https://help.apiyi.com/en/gpt-image-2-status-update-2026-04-17-en.html",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI has begun gray-scale A/B testing of GPT-Image-2 within ChatGPT's web interface, silently routing a portion of image generation requests to the new model. GPT-Image-2 features near-perfect text rendering, native 4K resolution output, and generation speeds reported at roughly twice that of its DALL-E predecessor. Analysts expect a full public launch between late April and mid-May 2026, with API access to follow in early May — positioning GPT-Image-2 as OpenAI's answer to Midjourney v7 and Adobe Firefly 4.",
+      "keyConcepts": [
+        "GPT-Image-2 text rendering capability",
+        "gray-scale A/B testing deployment",
+        "DALL-E replacement timeline",
+        "AI image generation competitive landscape"
+      ],
+      "whyItMatters": "GPT-Image-2's near-perfect text rendering closes the most persistent quality gap in AI image generation — developers building applications requiring images with embedded labels, UI mockups, or signage will have a significantly more capable API option on arrival.",
+      "tags": ["openai", "gpt-image-2", "image-generation", "dall-e", "chatgpt", "multimodal"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What capability most distinguishes GPT-Image-2 from the DALL-E models it is replacing?",
+          "options": [
+            "Real-time 3D scene generation from text prompts",
+            "Video generation at 30 frames per second",
+            "Near-perfect rendering of legible text within generated images",
+            "Generative audio synchronized to image output"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-Image-2's standout improvement is near-perfect text rendering — accurately placing legible text inside generated images — which has historically been a significant weakness of DALL-E and most competing AI image models."
+        },
+        {
+          "question": "How is OpenAI rolling out GPT-Image-2 before its official public launch?",
+          "options": [
+            "Only for ChatGPT Plus subscribers via an opt-in early access program",
+            "Through gray-scale A/B testing that silently routes a share of ChatGPT image requests to the new model",
+            "As a separate standalone application distinct from ChatGPT",
+            "Via a limited API beta requiring special enrollment and a waitlist"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI is using gray-scale (A/B) testing inside ChatGPT, invisibly routing a percentage of image generation requests to GPT-Image-2 to gather real-world performance data before committing to a full public rollout."
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-mythos-risk-report-2026-04-07",
+      "type": "article",
+      "title": "Anthropic Publishes Claude Mythos Preview Risk Report and AISI Cyber Capability Evaluation",
+      "sourceUrl": "https://anthropic.com/claude-mythos-preview-risk-report",
+      "verified": false,
+      "publishedAt": "2026-04-07",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic published a detailed risk and capability report for Claude Mythos Preview, documenting scores of 93.9% on SWE-bench Verified and 94.6% on GPQA Diamond — the highest published results on both benchmarks at time of release. The report describes controlled evaluations in which Mythos Preview, given network access, autonomously executed multi-stage attacks on vulnerable networks and discovered novel zero-day vulnerabilities across major operating systems and browsers. The UK AI Safety Institute independently evaluated these findings, supporting Anthropic's decision to restrict general access and launch Project Glasswing.",
+      "keyConcepts": [
+        "SWE-bench Verified 93.9% score",
+        "GPQA Diamond 94.6% score",
+        "autonomous multi-stage cyberattack demonstration",
+        "AISI independent model evaluation"
+      ],
+      "whyItMatters": "Mythos Preview's capability report establishes a new precedent for frontier model evaluation — demonstrating that independent government evaluation bodies like AISI are now a meaningful check on the most capable AI systems before they reach the public.",
+      "tags": ["anthropic", "claude-mythos", "alignment", "cybersecurity", "aisi", "benchmarks"],
+      "relatedIds": ["youtube-d3Qq-rkp_to"],
+      "knowledgeChecks": [
+        {
+          "question": "What score did Claude Mythos Preview achieve on SWE-bench Verified?",
+          "options": [
+            "78.2%",
+            "86.5%",
+            "93.9%",
+            "100%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Mythos Preview scored 93.9% on SWE-bench Verified and 94.6% on GPQA Diamond at time of release, setting new state-of-the-art results on both software engineering and PhD-level science benchmarks."
+        },
+        {
+          "question": "Which independent organization evaluated Claude Mythos Preview's cybersecurity capabilities alongside Anthropic's internal assessment?",
+          "options": [
+            "NIST's AI Risk Management Framework evaluation team",
+            "CISA's National AI Security Center",
+            "UK AI Safety Institute (AISI)",
+            "MIT Lincoln Laboratory red team"
+          ],
+          "correctIndex": 2,
+          "explanation": "The UK AI Safety Institute (AISI) conducted independent evaluations of Claude Mythos Preview's cyber capabilities, corroborating Anthropic's internal findings and providing external validation for the decision to restrict general access."
+        }
+      ]
+    },
+    {
+      "id": "nature-human-scientists-vs-ai-agents-2026-04-21",
+      "type": "article",
+      "title": "Nature Study: Human Scientists Outperform AI Agents on Genuinely Novel Research Tasks",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-01199-z",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "A new Nature study benchmarked leading AI agent systems against professional human scientists on complex multi-step research tasks requiring experimental design, literature synthesis, and hypothesis generation. While AI agents matched or exceeded humans on structured benchmark tasks, human scientists significantly outperformed AI on open-ended, genuinely novel problems where evaluation criteria were ambiguous and deep domain expertise was needed to identify what a good outcome looked like. The findings add nuance to the narrative that AI agents are on the verge of displacing scientific research roles.",
+      "keyConcepts": [
+        "AI agent benchmarking methodology",
+        "structured vs open-ended task performance gap",
+        "human expertise on novel problems",
+        "AI role in scientific workflows"
+      ],
+      "whyItMatters": "The gap between AI performance on structured benchmarks and genuinely open-ended research highlights where humans remain essential and where AI adds most value today — a critical calibration for AI career strategy, team design, and research workflow decisions.",
+      "tags": ["ai-research", "benchmarks", "human-ai-comparison", "scientific-reasoning", "agents", "nature"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "On which type of task did AI agents match or exceed human scientists in the Nature study?",
+          "options": [
+            "Open-ended, genuinely novel problems with ambiguous evaluation criteria",
+            "Structured benchmark tasks with clear, well-defined evaluation criteria",
+            "Tasks requiring physical lab experiments and instrument operation",
+            "Long-term collaborative research projects spanning multiple months"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI agents performed near or above human level on structured benchmark tasks — problems with clear right answers and defined evaluation criteria. The performance advantage for humans emerged on open-ended, genuinely novel problems."
+        },
+        {
+          "question": "What is the study's primary implication for AI deployment in scientific research?",
+          "options": [
+            "AI will replace all scientific researchers within two to three years",
+            "AI is only useful for literature review and cannot contribute to analysis",
+            "Human expertise remains essential for open-ended research while AI excels at well-defined sub-tasks",
+            "The study found no meaningful performance difference between AI and human researchers"
+          ],
+          "correctIndex": 2,
+          "explanation": "The study's key finding is that human scientists retain a significant advantage on genuinely novel, open-ended problems — suggesting AI is best deployed to handle structured sub-tasks within research pipelines rather than as fully autonomous scientific discovery engines."
+        }
+      ]
+    }
+  ]
+}
