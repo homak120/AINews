@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T09:00:00Z",
+  "generatedAt": "2026-04-22T14:30:00Z",
   "weekOf": "2026-04-20",
   "coverageStart": "2026-04-08",
   "coverageEnd": "2026-04-22",
@@ -272,6 +272,49 @@
           ],
           "correctIndex": 1,
           "explanation": "Tokens are the fundamental unit of text that LLMs process — roughly equivalent to 4 characters or about 3/4 of a word in English. Token consumption is the standard metric for measuring how much a model is actually used, making it the key indicator of real AI demand versus projected demand."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-ai-index-2026",
+      "type": "article",
+      "title": "Stanford AI Index 2026: Annual Report Shows US-China Near-Parity and Explosive AI Adoption",
+      "sourceUrl": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Stanford's Human-Centered AI institute released its 2026 AI Index report today — the field's most authoritative annual snapshot across capability, adoption, economics, and environmental impact. The report finds that despite predictions of a capability wall, top models keep improving: AI performance on SWE-bench Verified rose from 60% to near 100% in a single year, and the best frontier models now exceed 50% accuracy on Humanity's Last Exam. Organizational adoption has reached 88%, generative AI reached 53% population adoption in just three years (faster than the PC or the internet), and estimated U.S. consumer surplus from AI hit $172 billion annually. On the shadow side, AI data center power capacity has risen to 29.6 GW — comparable to the entire state of New York at peak demand — and annual inference water use may exceed the drinking water needs of 12 million people.",
+      "keyConcepts": [
+        "AI capability benchmarking trends",
+        "Generative AI population adoption rate",
+        "AI environmental footprint (energy and water)",
+        "US-China AI competition parity"
+      ],
+      "whyItMatters": "The Stanford AI Index is the authoritative annual snapshot practitioners and policy makers rely on to calibrate strategy, hiring, and investment against real measured trends rather than vendor claims — and this year's edition documents a field moving faster than nearly any prior technology adoption curve.",
+      "tags": ["stanford-ai-index", "ai-adoption", "ai-benchmarks", "ai-environmental-impact", "us-china-ai", "annual-report"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Stanford AI Index 2026, how did generative AI's population adoption rate compare to the PC and the internet?",
+          "options": [
+            "Slower than both the internet and the personal computer",
+            "About the same rate as the internet",
+            "Faster than both the internet and the personal computer",
+            "Only faster than the personal computer"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 2026 AI Index documents that generative AI reached 53% population adoption within just three years — faster than the personal computer or the internet, each of which took over a decade to achieve similar penetration. This is among the fastest technology adoption curves in recorded history."
+        },
+        {
+          "question": "What does the Stanford AI Index 2026 report about AI performance on the SWE-bench Verified coding benchmark?",
+          "options": [
+            "Performance stalled near 50% as models hit architectural limits",
+            "Performance rose from 60% to near 100% in a single year",
+            "Performance declined as evaluation methods tightened",
+            "No significant change from the 2025 report"
+          ],
+          "correctIndex": 1,
+          "explanation": "One of the 2026 AI Index's striking findings is that AI performance on SWE-bench Verified — a real-world software engineering benchmark — rose from roughly 60% to near 100% in a single year, illustrating continued rapid capability improvement despite broader predictions of a slowdown."
         }
       ]
     }
