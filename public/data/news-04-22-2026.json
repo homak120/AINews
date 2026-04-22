@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-04-22T09:00:00Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-22",
+  "items": [
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "type": "video",
+      "title": "Google's Gemma 4 Disrupts the Open-Source AI Narrative",
+      "youtubeId": "-01ZCTt-CJw",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Fireship breaks down Google's Gemma 4 release, a family of open-weight multimodal models under Apache 2.0 that includes a 31B dense model capable of running on consumer GPUs and an edge variant small enough for a Raspberry Pi. The video examines how Gemma 4's TurboQuant memory-focused quantization technique allows dramatic model compression while preserving performance, and how this challenges the assumption that open-source AI inevitably lags closed proprietary systems. Tools like Unsloth for fine-tuning and Code Rabbit's agentic code review are highlighted as ecosystem companions to this open-source push.",
+      "keyConcepts": [
+        "Open-weight AI models",
+        "TurboQuant quantization",
+        "Gemma 4 multimodal architecture",
+        "Apache 2.0 AI licensing"
+      ],
+      "whyItMatters": "Gemma 4's efficiency at this capability level democratizes AI access and puts direct pricing pressure on proprietary model providers, potentially shifting where developers build their applications.",
+      "tags": ["gemma-4", "open-source-ai", "google", "quantization", "on-device-ai", "fireship"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under which license was Gemma 4 released, making it truly free and open source?",
+          "options": ["MIT License", "Apache 2.0", "GPL-3.0", "CC BY-NC 4.0"],
+          "correctIndex": 1,
+          "explanation": "Google released Gemma 4 under the Apache 2.0 license, which permits commercial use without restrictions, making it a genuinely open release unlike some previous 'open' models with usage restrictions."
+        },
+        {
+          "question": "What is TurboQuant, as discussed in the Fireship Gemma 4 video?",
+          "options": [
+            "A new Nvidia GPU architecture for AI inference",
+            "Google's memory-focused quantization technique for compressing model weights",
+            "A benchmark for measuring quantized model performance",
+            "An open-source fine-tuning framework"
+          ],
+          "correctIndex": 1,
+          "explanation": "TurboQuant is Google's quantization technique that compresses model weights to reduce memory requirements while preserving model performance, enabling Gemma 4's 31B model to run on consumer-grade hardware."
+        }
+      ]
+    },
+    {
+      "id": "youtube-3ZGIw8tmlGs",
+      "type": "video",
+      "title": "OpenAI Spud (GPT-6), Claude Conway Agent, GPT Image 2 and More: April AI News Roundup",
+      "youtubeId": "3ZGIw8tmlGs",
+      "sourceUrl": "https://www.youtube.com/watch?v=3ZGIw8tmlGs",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Matthew Berman covers a packed week of AI announcements, centering on OpenAI's upcoming 'Spud' model (internally codenamed and confirmed to have completed pretraining on March 24) which Sam Altman described as launching 'in a few weeks.' The video also covers Anthropic's Conway agent for seamless browser and cloud integration, GPT Image 2 improvements, Cursor 3's new IDE features, and the Claude Code Ultra collaborative cloud planning plan. Berman contextualizes how each announcement fits into the accelerating competitive race between frontier labs.",
+      "keyConcepts": [
+        "OpenAI Spud / GPT-6 pretraining completion",
+        "Anthropic Conway browser agent",
+        "Claude Code Ultra",
+        "GPT Image 2 multimodal generation"
+      ],
+      "whyItMatters": "The concentration of major product announcements from multiple labs in a single week illustrates the accelerating pace of AI development in 2026 and the industry-wide pivot toward agentic, multi-step AI workflows.",
+      "tags": ["openai-spud", "gpt-6", "claude-conway", "ai-agents", "cursor-ide", "anthropic", "matthew-berman"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the internal codename for OpenAI's next frontier model expected in spring 2026?",
+          "options": ["Nova", "Orion", "Spud", "Sora"],
+          "correctIndex": 2,
+          "explanation": "OpenAI's next frontier model is internally codenamed 'Spud.' Pretraining was completed on March 24, 2026, and Sam Altman signaled it would launch within a few weeks. Whether it will be branded as GPT-5.5 or GPT-6 had not yet been decided at the time of this video."
+        },
+        {
+          "question": "What is Anthropic's Conway agent primarily designed to do?",
+          "options": [
+            "Generate images from text prompts",
+            "Provide seamless browser and cloud integration for AI workflows",
+            "Run local inference on consumer hardware",
+            "Translate code between programming languages"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's Conway agent is built for browser automation and cloud integration, enabling AI to perform multi-step tasks across web interfaces and cloud services — extending Claude's capabilities into agentic real-world workflows."
+        }
+      ]
+    },
+    {
+      "id": "youtube-_1zmF_dqnzo",
+      "type": "video",
+      "title": "AI News April 18, 2026: OpenAI Talent Exodus and Major Industry Moves",
+      "youtubeId": "_1zmF_dqnzo",
+      "sourceUrl": "https://www.youtube.com/watch?v=_1zmF_dqnzo",
+      "verified": false,
+      "publishedAt": "2026-04-18",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "TheAIGRID's daily briefing from April 18 covers the ongoing wave of senior talent departing OpenAI for competitors including Anthropic, xAI, and well-funded startups, a trend that has accelerated as Anthropic's valuation and revenue trajectory attracted attention from investors and employees alike. The episode also reviews other major business and product moves across the AI industry from the week. TheAIGRID synthesizes how these personnel shifts signal broader competitive realignments in the frontier AI landscape.",
+      "keyConcepts": [
+        "OpenAI talent retention challenges",
+        "Frontier lab competitive dynamics",
+        "AI industry personnel movements",
+        "Anthropic growth and valuation"
+      ],
+      "whyItMatters": "Sustained talent flow away from OpenAI toward competitors indicates that the competitive balance in frontier AI is genuinely shifting, with implications for which companies will lead the next capability generation.",
+      "tags": ["openai", "anthropic", "ai-industry-news", "talent-retention", "frontier-labs", "theaigrid"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Anthropic's annualized revenue in early 2026 was reported to be approaching what figure?",
+          "options": ["$1 billion", "$5 billion", "$19 billion", "$50 billion"],
+          "correctIndex": 2,
+          "explanation": "In early 2026, Anthropic was reported to be approaching $19 billion in annualized revenue, compared to OpenAI's $25 billion — a gap that had narrowed significantly and was attracting both investor and employee interest."
+        },
+        {
+          "question": "What is 'adversarial distillation' in the context of the frontier AI competitive landscape?",
+          "options": [
+            "A training technique for making models smaller without losing capability",
+            "Chinese AI companies extracting knowledge from US frontier models through adversarial queries",
+            "A method for fine-tuning models on synthetic data",
+            "A red-teaming approach used to stress-test model safety"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adversarial distillation refers to the practice of systematically querying frontier models (like GPT-4 or Claude) to extract their capabilities and use those outputs to train competing models, effectively copying capability without access to weights or training data. OpenAI, Anthropic, and Google began sharing intelligence to combat this in April 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-iclr-2026-peer-review-ai-scandal",
+      "type": "article",
+      "title": "ICLR 2026 Scandal: 21% of Peer Reviews Found to Be AI-Generated",
+      "sourceUrl": "https://www.webpronews.com/iclr-2026-scandal-21-of-peer-reviews-ai-generated-raising-integrity-issues/",
+      "verified": false,
+      "publishedAt": "2026-04-15",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "An analysis by Pangram Labs of 75,800 peer reviews submitted to ICLR 2026 found that 21% (roughly 15,900 reviews) were fully AI-generated, with over half of all reviews showing signs of AI involvement. Researchers raised initial alarms on social media after noticing red flags — hallucinated citations, unusually verbose feedback, vague assessments, and non-standard requests — in the reviews of their own submissions. The scandal erupted after Graham Neubig offered a public reward for anyone who could systematically scan conference submissions for AI-generated text, leading Pangram Labs CEO Max Spero to build the detection tool that surfaced the findings. The controversy raises urgent questions about how academic conferences can maintain the integrity of the peer review process as LLMs become increasingly fluent at generating plausible-sounding scientific feedback.",
+      "keyConcepts": [
+        "AI-generated text detection in academia",
+        "Peer review integrity",
+        "LLM abuse in scientific publishing",
+        "Pangram Labs detection analysis"
+      ],
+      "whyItMatters": "If AI-contaminated peer review goes unchallenged, AI research publications could lose credibility at the exact moment the field needs rigorous independent evaluation most — and create a problematic feedback loop where models are trained on AI-reviewed research.",
+      "tags": ["peer-review", "academic-integrity", "ai-detection", "iclr-2026", "research-ethics", "llm-abuse"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of ICLR 2026 peer reviews were found to be fully AI-generated by Pangram Labs?",
+          "options": ["5%", "10%", "21%", "45%"],
+          "correctIndex": 2,
+          "explanation": "Pangram Labs' analysis of all 75,800 ICLR 2026 peer reviews found that approximately 21% (around 15,900 reviews) were fully AI-generated, with over half of all reviews showing some degree of AI involvement."
+        },
+        {
+          "question": "Which of the following was NOT listed as a red flag that led researchers to suspect AI-generated peer reviews?",
+          "options": [
+            "Hallucinated citations that didn't exist",
+            "Unusually verbose and vague feedback",
+            "Reviews submitted faster than humanly possible",
+            "Non-standard requests in the review text"
+          ],
+          "correctIndex": 2,
+          "explanation": "The red flags documented by researchers included hallucinated citations, verbose vague feedback, and non-standard requests — but submission speed was not specifically flagged as a key indicator. The concern was primarily about content quality and authenticity markers."
+        }
+      ]
+    },
+    {
+      "id": "article-mit-tr-10-ai-trends-april-2026",
+      "type": "article",
+      "title": "10 Things That Matter Most in AI Right Now",
+      "sourceUrl": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "MIT Technology Review's April 21 analysis identifies the ten most consequential AI developments of 2026, highlighting the emergence of cooperating agent teams capable of far more complex goals than single-agent systems. The piece notes that as of March 2026 Anthropic leads AI model rankings on the LMSYS Chatbot Arena, while the best frontier models now exceed 50% accuracy on Humanity's Last Exam — a benchmark once considered AI-proof. Open-source models have reached near-parity with proprietary systems in April 2026, with GLM-5.1 claiming to beat the best proprietary models on SWE-Bench Pro and Gemma 4's 31B model outperforming models 20x its size.",
+      "keyConcepts": [
+        "Multi-agent cooperation systems",
+        "Humanity's Last Exam benchmark",
+        "Open-source vs. proprietary capability parity",
+        "LMSYS Chatbot Arena rankings"
+      ],
+      "whyItMatters": "MIT Technology Review's state-of-AI assessment is a reliable anchor for practitioners deciding which capabilities to invest in learning and which trends are substantive versus overhyped.",
+      "tags": ["ai-trends-2026", "frontier-models", "multi-agent-ai", "open-source-ai", "mit-tech-review", "benchmarks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to MIT Technology Review's April 2026 analysis, which company leads AI model rankings on the LMSYS Chatbot Arena?",
+          "options": ["OpenAI", "Google", "Anthropic", "Meta"],
+          "correctIndex": 2,
+          "explanation": "As of March 2026, Anthropic's models led the LMSYS Chatbot Arena rankings, with Claude Opus 4.6 posting record scores on benchmarks like SWE-bench Verified. The arena uses blind human preference comparisons to rank models."
+        },
+        {
+          "question": "What is 'Humanity's Last Exam' in the context of AI benchmarking?",
+          "options": [
+            "A benchmark of expert-level questions across many disciplines, designed to challenge frontier AI models",
+            "A standardized high school curriculum test used to evaluate AI tutoring systems",
+            "A government-administered AI safety evaluation",
+            "An annual coding competition between AI systems"
+          ],
+          "correctIndex": 0,
+          "explanation": "Humanity's Last Exam is a benchmark composed of expert-level questions spanning many academic disciplines, designed to be difficult even for frontier AI models. Best models now exceed 50% accuracy on it — a threshold that would have seemed implausible just two years ago."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-cyber-model-limited-release",
+      "type": "article",
+      "title": "OpenAI Releases Specialized Cybersecurity AI Model to Select Organizations",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-14/openai-releases-cyber-model-to-limited-group-in-race-with-mythos",
+      "verified": false,
+      "publishedAt": "2026-04-14",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI released a specialized cybersecurity AI model to a limited group of vetted organizations on April 14, mirroring Anthropic's controlled rollout of Claude Mythos to select security research partners. Anthropic's Mythos has demonstrated striking vulnerability-discovery capabilities: it independently found a 27-year-old bug in OpenBSD and a 16-year-old flaw in the FFmpeg video encoder that had survived five million automated security tests without detection. Both companies are pursuing staged release strategies, recognizing that AI with advanced offensive security capabilities requires careful deployment given the potential for misuse. The parallel rollouts signal that frontier AI cybersecurity capabilities are maturing faster than regulatory frameworks designed to govern them.",
+      "keyConcepts": [
+        "AI-assisted vulnerability discovery",
+        "Controlled AI model releases",
+        "Claude Mythos cybersecurity capabilities",
+        "Dual-use AI tools"
+      ],
+      "whyItMatters": "AI systems that can autonomously discover software vulnerabilities are a double-edged development — they can dramatically accelerate defensive security research, but the same capabilities could lower the barrier to sophisticated cyberattacks.",
+      "tags": ["ai-cybersecurity", "claude-mythos", "openai", "vulnerability-discovery", "responsible-ai", "dual-use"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How old was the OpenBSD vulnerability that Claude Mythos independently discovered?",
+          "options": ["5 years old", "12 years old", "27 years old", "40 years old"],
+          "correctIndex": 2,
+          "explanation": "Claude Mythos found a 27-year-old latent bug in OpenBSD, one of the most security-hardened operating systems. It also found a 16-year-old flaw in FFmpeg that had survived five million prior automated security tests — demonstrating AI's potential to surface vulnerabilities invisible to traditional tools."
+        },
+        {
+          "question": "Why did both OpenAI and Anthropic choose limited controlled releases for their new cybersecurity AI capabilities?",
+          "options": [
+            "To generate marketing buzz before a wider launch",
+            "To comply with existing FTC regulations on AI tools",
+            "Because the same capabilities that help defenders can also enable attackers, requiring careful vetting",
+            "To test model performance in real-world settings before public benchmarking"
+          ],
+          "correctIndex": 2,
+          "explanation": "Both companies recognized the dual-use nature of AI cybersecurity tools — capabilities powerful enough to find previously undetected vulnerabilities could also be weaponized. Staged rollouts to vetted organizations allow capability assessment while managing misuse risk."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-ai-token-demand-inflated-2026",
+      "type": "article",
+      "title": "AI Token Demand Is Inflated — and Only Anthropic Seems to Be Saying So",
+      "sourceUrl": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html",
+      "verified": false,
+      "publishedAt": "2026-04-17",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "CNBC reports that actual AI token consumption and enterprise adoption metrics may be significantly lower than the projections cited by OpenAI and Nvidia to justify record compute investment, while Anthropic has taken a notably more cautious public position on near-term demand growth. The article examines the gap between announcements of AI adoption and the harder-to-measure reality of sustained enterprise usage, noting that many pilot programs have not converted to full production deployments. Anthropic's stance reflects a longer-term view of sustainable development pacing rather than racing to claim the largest addressable market figures.",
+      "keyConcepts": [
+        "AI token consumption metrics",
+        "Enterprise AI adoption rates",
+        "Compute investment vs. actual demand",
+        "AI market demand forecasting"
+      ],
+      "whyItMatters": "For practitioners and business leaders, understanding the gap between headline AI adoption claims and actual usage data is critical when making hiring, tooling, or investment decisions based on projected AI demand.",
+      "tags": ["ai-market-demand", "anthropic", "openai", "nvidia", "enterprise-ai", "ai-adoption", "ai-economics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to CNBC's April 2026 analysis, which company was taking the most conservative public stance on near-term AI token demand growth?",
+          "options": ["OpenAI", "Nvidia", "Google", "Anthropic"],
+          "correctIndex": 3,
+          "explanation": "Anthropic was singled out for taking a more realistic and cautious position on AI demand growth projections compared to OpenAI and Nvidia, both of which cited expansive demand forecasts to justify continued record capital expenditure on compute."
+        },
+        {
+          "question": "What is an AI 'token' in the context of measuring LLM usage and demand?",
+          "options": [
+            "A unit of cryptocurrency used to pay for AI compute",
+            "A chunk of text (roughly 4 characters) that language models process as their basic unit of input and output",
+            "An authentication credential for accessing AI APIs",
+            "A model weight update in a training run"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tokens are the fundamental unit of text that LLMs process — roughly equivalent to 4 characters or about 3/4 of a word in English. Token consumption is the standard metric for measuring how much a model is actually used, making it the key indicator of real AI demand versus projected demand."
+        }
+      ]
+    }
+  ]
+}
