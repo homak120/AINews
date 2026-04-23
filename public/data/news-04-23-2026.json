@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-04-23T03:28:35Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-21",
+  "coverageEnd": "2026-04-23",
+  "items": [
+    {
+      "id": "youtube-dITPmrhNTzY",
+      "type": "video",
+      "title": "Everything Announced at Google Cloud Next 2026 in Under 13 Minutes",
+      "youtubeId": "dITPmrhNTzY",
+      "sourceUrl": "https://www.youtube.com/watch?v=dITPmrhNTzY",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Google Cloud Next 2026 opened with a sweeping set of announcements, headlined by the rebranding of Vertex AI as the Gemini Enterprise Agent Platform—a unified system for building, scaling, and governing AI agents across the enterprise. The keynote unveiled 8th-generation TPUs split into TPU 8t (training) and TPU 8i (inference), promising 3× faster model training and a 1-million-TPU cluster. CEO Thomas Kurian revealed that 75% of all new code at Google is now AI-generated and reviewed by engineers, up from 50% just six months ago.",
+      "keyConcepts": ["Gemini Enterprise Agent Platform", "8th-Generation TPUs", "A2A Protocol v1.0", "Agentic AI Infrastructure"],
+      "whyItMatters": "Cloud Next 2026 marks Google's definitive pivot from AI model competition to AI infrastructure—the company is now selling the entire control plane for enterprise agents, not just models, putting it in direct competition with Microsoft Copilot and OpenAI's platform.",
+      "tags": ["google-cloud", "ai-agents", "tpu", "enterprise-ai", "gemini", "cloud-next-2026"],
+      "relatedIds": ["article-google-thinking-machines-lab-apr22", "article-anthropic-30b-compute-deal"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the new name for Google's unified enterprise AI agent platform announced at Cloud Next 2026?",
+          "options": [
+            "Vertex AI Pro",
+            "Gemini Enterprise Agent Platform",
+            "Google DeepMind Studio",
+            "Agentspace Enterprise"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google rebranded Vertex AI as the Gemini Enterprise Agent Platform, absorbing Agentspace into a single unified product designed to build, scale, govern, and optimize AI agents."
+        },
+        {
+          "question": "What percentage of new code at Google is now AI-generated and reviewed by engineers, as revealed at Cloud Next 2026?",
+          "options": [
+            "90%",
+            "60%",
+            "50%",
+            "75%"
+          ],
+          "correctIndex": 3,
+          "explanation": "CEO Thomas Kurian revealed at Cloud Next 2026 that 75% of all new Google code is AI-generated, up from 50% the previous fall—a signal of how deeply AI-assisted coding has penetrated even the most sophisticated engineering organizations."
+        }
+      ]
+    },
+    {
+      "id": "article-spacex-cursor-60b-deal",
+      "type": "article",
+      "title": "SpaceX Secures Option to Acquire AI Coding Startup Cursor for $60 Billion",
+      "sourceUrl": "https://www.cnbc.com/2026/04/21/spacex-says-it-can-buy-cursor-later-this-year-for-60-billion-or-pay-10-billion-for-our-work-together.html",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "SpaceX announced it has secured the right—but not the obligation—to acquire AI coding startup Cursor for $60 billion later in 2026, or alternatively pay $10 billion tied to their ongoing joint work. The partnership, operating as 'SpaceXAI,' combines Cursor's leading developer-facing AI product with SpaceX's Colossus supercomputer (equivalent to 1 million H100 GPUs) to build advanced coding and knowledge-work AI systems. The deal underscores SpaceX's ambition to become an AI powerhouse before a potential IPO.",
+      "keyConcepts": ["AI Coding Assistants", "Cursor IDE", "SpaceX Colossus Supercomputer", "AI-Assisted Software Development", "Vertical AI Integration"],
+      "whyItMatters": "A $60B acquisition option for an AI coding tool is the clearest signal yet that developer-facing AI is now considered critical infrastructure—not a productivity add-on—as major tech players race to control how software gets written.",
+      "tags": ["spacex", "cursor", "ai-coding", "acquisition", "ai-industry", "developer-tools"],
+      "relatedIds": ["article-openai-workspace-agents-apr23"],
+      "knowledgeChecks": [
+        {
+          "question": "At what valuation does SpaceX have the option to acquire Cursor?",
+          "options": [
+            "$10 billion",
+            "$30 billion",
+            "$60 billion",
+            "$100 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "SpaceX secured the right to acquire Cursor for $60 billion later in 2026, alternatively paying $10 billion for the ongoing joint-work partnership instead of completing the acquisition."
+        },
+        {
+          "question": "What computing resource does SpaceX bring to its partnership with Cursor?",
+          "options": [
+            "The Colossus supercomputer, equivalent to 1 million H100 GPUs",
+            "A network of Falcon edge compute nodes",
+            "A Google Cloud multi-region contract",
+            "Access to xAI's Memphis GPU cluster"
+          ],
+          "correctIndex": 0,
+          "explanation": "SpaceX's Colossus supercomputer—equivalent to approximately 1 million H100 GPUs—is the compute backbone the deal is designed to exploit, enabling Cursor's models to be trained at a scale few AI startups can match."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-workspace-agents-apr23",
+      "type": "article",
+      "title": "OpenAI Launches Autonomous Workspace Agents in ChatGPT for Enterprise Teams",
+      "sourceUrl": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-unleashes-workspace-agents",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI has introduced workspace agents in ChatGPT—available to Business, Enterprise, Edu, and Teachers plan users—custom bots powered by Codex that autonomously execute multi-step workflows without requiring active human supervision. These agents can gather product feedback from the web to generate Slack reports, act as specialized sales assistants, or handle complex data-processing pipelines, running in research preview until May 6, 2026 before transitioning to credit-based pricing.",
+      "keyConcepts": ["Autonomous AI Agents", "Codex", "Workflow Automation", "ChatGPT Enterprise", "Agentic AI"],
+      "whyItMatters": "Workspace agents signal OpenAI's evolution from a chat assistant platform into an operational AI layer for enterprise teams—directly competing with Google's Agent Studio, Microsoft's Copilot Agents, and the broader agentic AI platforms debuted at Cloud Next 2026.",
+      "tags": ["openai", "chatgpt", "workspace-agents", "codex", "enterprise-ai", "ai-automation"],
+      "relatedIds": ["youtube-dITPmrhNTzY", "article-spacex-cursor-60b-deal"],
+      "knowledgeChecks": [
+        {
+          "question": "Which OpenAI model powers the new ChatGPT workspace agents?",
+          "options": [
+            "GPT-5 Turbo",
+            "o3-mini",
+            "DALL-E 4",
+            "Codex"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI's workspace agents are powered by Codex, the company's code-generation model, which enables the agents to execute complex multi-step tasks and workflows autonomously."
+        },
+        {
+          "question": "Until what date are OpenAI workspace agents available in free research preview?",
+          "options": [
+            "April 30, 2026",
+            "May 6, 2026",
+            "June 1, 2026",
+            "July 15, 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's workspace agents are available in research preview until May 6, 2026, after which credit-based pricing will be implemented for Business, Enterprise, Edu, and Teachers plan users."
+        }
+      ]
+    },
+    {
+      "id": "article-google-thinking-machines-lab-apr22",
+      "type": "article",
+      "title": "Google Deepens Ties with Mira Murati's Thinking Machines Lab in Multi-Billion Dollar Cloud Deal",
+      "sourceUrl": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Former OpenAI CTO Mira Murati's startup, Thinking Machines Lab, has signed a new agreement valued in the single-digit billions to expand its use of Google Cloud AI infrastructure, including access to systems built on Nvidia's latest GB300 chips alongside services to support model training and deployment. The deal represents a deepening of an existing relationship and positions Thinking Machines Lab's yet-unreleased foundation models to be trained on cutting-edge Google compute in preparation for a future product launch.",
+      "keyConcepts": ["Thinking Machines Lab", "Mira Murati", "Foundation Models", "Google Cloud Infrastructure", "Nvidia GB300 GPUs"],
+      "whyItMatters": "The deal—backing a stealth lab with no released products—illustrates how the AI infrastructure race has moved upstream: cloud providers are now competing to lock in the most promising research labs before a single model ships, betting billions on future distribution.",
+      "tags": ["mira-murati", "thinking-machines-lab", "google-cloud", "foundation-models", "ai-funding", "ai-infrastructure"],
+      "relatedIds": ["youtube-dITPmrhNTzY", "article-anthropic-30b-compute-deal"],
+      "knowledgeChecks": [
+        {
+          "question": "Who founded Thinking Machines Lab?",
+          "options": [
+            "Mira Murati",
+            "Sam Altman",
+            "Demis Hassabis",
+            "Ilya Sutskever"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mira Murati, the former Chief Technology Officer of OpenAI, founded Thinking Machines Lab after departing OpenAI in 2024 to build her own foundation model company."
+        },
+        {
+          "question": "Which Nvidia GPU generation does the Google deal provide Thinking Machines Lab access to?",
+          "options": [
+            "A100",
+            "H100",
+            "H200",
+            "GB300"
+          ],
+          "correctIndex": 3,
+          "explanation": "The agreement gives Thinking Machines Lab access to Google Cloud systems built on Nvidia's latest GB300 chips—Nvidia's next-generation GPU designed for high-performance AI model training and inference."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-30b-compute-deal",
+      "type": "article",
+      "title": "Anthropic Tops $30 Billion Run Rate, Secures 3.5-Gigawatt Compute Commitment from Google and Broadcom",
+      "sourceUrl": "https://www.fool.com/investing/2026/04/22/anthropic-just-announced-huge-news-for-alphabet-an/",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic's annualized run-rate revenue has surpassed $30 billion—more than tripling from approximately $9 billion at year-end 2025—as the company sealed an expanded deal with Google and Broadcom securing 3.5 gigawatts of compute capacity, coming online in 2027. The arrangement draws on Google's homegrown TPU chipsets, with Broadcom CEO Hock Tan stating demand is expected to surge from 1GW to over 3GW by 2027 and is part of Anthropic's broader $50 billion U.S. compute infrastructure commitment.",
+      "keyConcepts": ["AI Revenue Growth", "Google TPUs", "Compute Capacity at Scale", "AI Infrastructure Investment", "Run-Rate Revenue"],
+      "whyItMatters": "Anthropic's tripling revenue—now exceeding 1,000 enterprise customers spending over $1M annually—combined with multi-gigawatt compute commitments shows that enterprise AI adoption has moved decisively past the pilot phase into core business operations.",
+      "tags": ["anthropic", "google", "broadcom", "tpu", "ai-infrastructure", "revenue-growth"],
+      "relatedIds": ["youtube-dITPmrhNTzY", "article-google-thinking-machines-lab-apr22"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Anthropic's approximate annualized run-rate revenue as of April 2026?",
+          "options": [
+            "$9 billion",
+            "$19 billion",
+            "$30 billion",
+            "$50 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's run-rate revenue has surpassed $30 billion as of April 2026, up from approximately $9 billion at end-2025—a more than 3× increase driven by rapid enterprise adoption of Claude models."
+        },
+        {
+          "question": "How much compute capacity is Anthropic securing through its expanded Google and Broadcom deal, coming online in 2027?",
+          "options": [
+            "500 megawatts",
+            "3.5 gigawatts",
+            "10 gigawatts",
+            "1 gigawatt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's expanded deal provides 3.5 gigawatts of compute capacity coming online in 2027, drawn from Broadcom's Google TPU chipsets—part of a larger $50 billion U.S. compute infrastructure commitment."
+        }
+      ]
+    },
+    {
+      "id": "article-youtube-ai-deepfake-detection",
+      "type": "article",
+      "title": "YouTube Expands AI Deepfake Detection Technology to Protect Celebrity Identities",
+      "sourceUrl": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "YouTube is expanding its AI-powered likeness detection tool to celebrities and public figures, giving talent and their representatives a mechanism to find and remove AI-generated deepfakes from the platform. The technology uses computer vision to identify synthesized faces in video content, and is designed to protect creators and public figures from unauthorized use of their identities in AI-generated media—a growing problem as text-to-video tools become widely accessible.",
+      "keyConcepts": ["AI Deepfake Detection", "Synthetic Media", "Computer Vision", "Content Moderation at Scale", "Identity Protection"],
+      "whyItMatters": "YouTube's proactive expansion of deepfake detection sets a platform-level precedent for how identity protection must evolve alongside generative AI—signaling that synthetic media governance is now a core platform responsibility, not an afterthought.",
+      "tags": ["youtube", "deepfake", "ai-detection", "content-moderation", "synthetic-media", "identity-protection"],
+      "relatedIds": ["article-spacex-cursor-60b-deal"],
+      "knowledgeChecks": [
+        {
+          "question": "Who does YouTube's expanded AI deepfake detection tool specifically target for protection?",
+          "options": [
+            "Celebrities and public figures, along with their representatives",
+            "Only verified YouTube Partner Program members",
+            "Any creator with more than 100,000 subscribers",
+            "Only channels enrolled in YouTube Premium"
+          ],
+          "correctIndex": 0,
+          "explanation": "YouTube's expanded AI likeness detection is aimed at celebrities and public figures, giving talent and their reps a way to find and request removal of AI-generated deepfakes—protecting identities from unauthorized synthetic media use."
+        },
+        {
+          "question": "What type of content does YouTube's AI likeness detection technology identify?",
+          "options": [
+            "Videos containing background music with potential copyright issues",
+            "Spam bot comment patterns in video comment sections",
+            "AI-generated content featuring simulated or synthesized faces",
+            "Videos re-uploaded without permission from original creators"
+          ],
+          "correctIndex": 2,
+          "explanation": "YouTube's AI detection technology identifies AI-generated content by detecting simulated faces—specifically targeting deepfakes where a person's likeness is used without consent in synthetically generated video."
+        }
+      ]
+    }
+  ]
+}
