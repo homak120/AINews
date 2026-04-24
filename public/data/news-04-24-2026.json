@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T07:00:00Z",
+  "generatedAt": "2026-04-24T14:00:00Z",
   "weekOf": "2026-04-20",
   "coverageStart": "2026-04-20",
   "coverageEnd": "2026-04-24",
@@ -231,6 +231,75 @@
           ],
           "correctIndex": 2,
           "explanation": "Project Ace combines real-time computer vision for ball tracking, high-speed robotic motor control, and reinforcement learning trained in simulation and transferred to the physical world—enabling the system to adapt its strategy dynamically against live human opponents."
+        }
+      ]
+    },
+    {
+      "id": "youtube-tNV9_I-zLO0",
+      "type": "video",
+      "title": "OpenAI Releases GPT-5.5: What Changed for Developers",
+      "youtubeId": "tNV9_I-zLO0",
+      "sourceUrl": "https://www.youtube.com/watch?v=tNV9_I-zLO0",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Fireship's rapid breakdown of OpenAI's GPT-5.5 release (internally codenamed 'Spud'), covering its 88.7% SWE-bench score, 60% fewer hallucinations versus GPT-5.4, and rollout into ChatGPT and Codex for Plus and Pro users. The video focuses on what the performance jump means for developers building agentic applications, and examines the dual-tier pricing strategy ($5/1M input tokens standard, $30/1M for GPT-5.5 Pro) that signals OpenAI's premium positioning for sustained autonomous workloads.",
+      "keyConcepts": ["GPT-5.5 Release", "SWE-bench Performance", "Codex Integration", "Model Pricing Tiers"],
+      "whyItMatters": "GPT-5.5 is OpenAI's clearest step toward making frontier AI feel like infrastructure—autonomous enough to carry multi-step work across applications without constant human intervention, a shift that changes how developers should think about building on top of these models.",
+      "tags": ["openai", "gpt-5.5", "fireship", "llm-release", "coding-ai", "benchmarks"],
+      "relatedIds": ["youtube-hrIY-clbdg8"],
+      "knowledgeChecks": [
+        {
+          "question": "What internal codename did OpenAI reportedly use for GPT-5.5?",
+          "options": ["Titan", "Nova", "Spud", "Apex"],
+          "correctIndex": 2,
+          "explanation": "OpenAI developed GPT-5.5 under the internal codename 'Spud'—a deliberately understated name for a model that represents a significant capability jump over GPT-5.4, continuing the company's tradition of informal project names for major releases."
+        },
+        {
+          "question": "What score did GPT-5.5 achieve on SWE-bench?",
+          "options": ["71.2%", "80.5%", "88.7%", "95.1%"],
+          "correctIndex": 2,
+          "explanation": "GPT-5.5 scored 88.7% on SWE-bench, the industry benchmark for AI performance on real-world software engineering tasks—a significant improvement that confirms the model's practical coding capabilities exceed previous OpenAI releases."
+        }
+      ]
+    },
+    {
+      "id": "youtube-hrIY-clbdg8",
+      "type": "video",
+      "title": "GPT-5.5 Is Wild: What the New OpenAI Model Actually Means",
+      "youtubeId": "hrIY-clbdg8",
+      "sourceUrl": "https://www.youtube.com/watch?v=hrIY-clbdg8",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Wes Roth provides an editorial take on GPT-5.5 that goes beyond benchmarks to examine what the model's real-world behavior means for AI practitioners. He argues that the meaningful shift is GPT-5.5's ability to carry sustained multi-step work across tools without human steering—and that this changes the evaluation frame from 'best single response' to 'best workflow completion.' Roth also contextualizes GPT-5.5 against Claude Opus 4.7 and Gemini 3.1 Pro, where OpenAI claims consistent leads.",
+      "keyConcepts": ["Agentic AI Autonomy", "Sustained Task Completion", "Model Benchmarking", "GPT-5.5 vs. Competitors"],
+      "whyItMatters": "Roth's analysis reframes GPT-5.5 as an architectural shift rather than an incremental improvement: when a model can reliably complete complex multi-step workflows end-to-end, the key question for developers stops being 'which model scores highest?' and becomes 'which model fails least across a full task chain?'",
+      "tags": ["openai", "gpt-5.5", "wes-roth", "agentic-ai", "ai-analysis", "llm-evaluation"],
+      "relatedIds": ["youtube-tNV9_I-zLO0"],
+      "knowledgeChecks": [
+        {
+          "question": "How does GPT-5.5 Pro differ from standard GPT-5.5 in pricing?",
+          "options": [
+            "GPT-5.5 Pro is only available via API, not in ChatGPT",
+            "GPT-5.5 Pro costs $30/1M input tokens versus $5 for standard, and is limited to Pro, Business, and Enterprise tiers",
+            "GPT-5.5 Pro is a fine-tuned version focused exclusively on coding tasks",
+            "GPT-5.5 Pro and standard GPT-5.5 are identical in capability but differ only in rate limits"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.5 Pro is priced at $30/1M input tokens and $180/1M output tokens—six times the cost of standard GPT-5.5—and is restricted to ChatGPT Pro, Business, and Enterprise tiers. The significant price premium reflects OpenAI's positioning of the Pro variant for sustained autonomous workloads."
+        },
+        {
+          "question": "According to Wes Roth, what is the most meaningful evaluation shift that GPT-5.5 introduces?",
+          "options": [
+            "Prioritizing hallucination rate over raw benchmark scores",
+            "Evaluating models on single-turn response quality rather than multi-turn performance",
+            "Moving from 'best single response' to 'best workflow completion' as the key success metric",
+            "Treating pricing per token as the primary differentiator between frontier models"
+          ],
+          "correctIndex": 2,
+          "explanation": "Roth argues that GPT-5.5's sustained autonomy across multi-step tasks shifts the relevant question from which model gives the best single answer to which model most reliably completes a full workflow—a framing that has significant practical implications for developers building agentic applications."
         }
       ]
     }
