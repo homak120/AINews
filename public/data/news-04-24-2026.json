@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-04-24T07:00:00Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-20",
+  "coverageEnd": "2026-04-24",
+  "items": [
+    {
+      "id": "youtube-a4hdPWSUzsE",
+      "type": "video",
+      "title": "Anthropic Just BANNED OpenClaw — Claude Usage Restrictions Explained",
+      "youtubeId": "a4hdPWSUzsE",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4hdPWSUzsE",
+      "verified": false,
+      "publishedAt": "2026-04-20",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Matthew Berman breaks down Anthropic's wave of restrictive policies—including banning Claude subscriptions from powering third-party automation agents like OpenClaw, tighter usage caps at peak hours, and reports of degraded model performance for power users. Berman, who rarely criticizes AI companies, calls out Anthropic for opaque quota management and shifting policies that are alienating its most engaged developers. The controversy draws comparisons to how OpenAI handled similar scaling constraints during its own infrastructure crises.",
+      "keyConcepts": ["API Usage Quotas", "Third-Party Agent Restrictions", "OpenClaw Ban", "Claude Subscription Tiers", "AI Infrastructure Bottlenecks"],
+      "whyItMatters": "Anthropic's capacity crunch is a real-world stress test for AI companies that scale fast: developers are discovering that access policies matter as much as raw model capability, and opaque restrictions can quickly erode platform loyalty built over years.",
+      "tags": ["anthropic", "claude", "openclaw", "api-restrictions", "ai-industry", "platform-policy"],
+      "relatedIds": ["article-anthropic-mythos-breach-apr21", "article-anthropic-mythos-alarm-apr22"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific capability did Anthropic restrict that Matthew Berman specifically criticized?",
+          "options": [
+            "Using the Claude API without a paid subscription",
+            "Building apps that integrate GPT-4 alongside Claude",
+            "Using Claude subscriptions to power third-party automation agents like OpenClaw",
+            "Sharing Claude conversation transcripts publicly"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic restricted its Claude subscription plans from being used to power third-party AI agents like OpenClaw, forcing those automation tools off the platform—a move Berman criticized as opaque and damaging to developer trust."
+        },
+        {
+          "question": "What makes Matthew Berman's criticism of Anthropic particularly notable in the AI commentary community?",
+          "options": [
+            "He co-founded OpenClaw and has a financial interest in the outcome",
+            "He is a former Anthropic employee with inside knowledge of policy decisions",
+            "He rarely criticizes AI companies, making this sustained negative assessment unusual",
+            "He was personally banned from using Claude and is publicly retaliating"
+          ],
+          "correctIndex": 2,
+          "explanation": "Berman is known for being generally supportive of AI companies—his sustained criticism of Anthropic's restriction policies was notable precisely because it broke from his usual pattern, lending the critique extra weight in the AI creator community."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-mythos-breach-apr21",
+      "type": "article",
+      "title": "Unauthorized Group Gains Access to Anthropic's Exclusive Mythos AI Cybersecurity Model",
+      "sourceUrl": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A small group of unauthorized users gained access to Anthropic's Mythos Preview model—a frontier AI deemed too dangerous for public release—on the very day Anthropic announced its limited rollout to approved cybersecurity partners under Project Glasswing. Mythos can autonomously identify and exploit zero-day vulnerabilities in every major operating system and browser, with 99% of those vulnerabilities still unpatched. Anthropic confirmed it is investigating the breach, which appears to have originated through a third-party vendor environment.",
+      "keyConcepts": ["Zero-Day Vulnerabilities", "Project Glasswing", "Model Access Control", "AI Safety", "Responsible Disclosure"],
+      "whyItMatters": "The immediate breach of a model withheld specifically for safety reasons exposes a fundamental vulnerability in controlled release strategies: even carefully tiered distribution can fail on day one, and with a cyber-capable model the failure mode is not embarrassment—it is exploitable code.",
+      "tags": ["anthropic", "mythos", "cybersecurity", "ai-safety", "model-breach", "zero-day"],
+      "relatedIds": ["article-anthropic-mythos-alarm-apr22", "youtube-a4hdPWSUzsE"],
+      "knowledgeChecks": [
+        {
+          "question": "What made Anthropic's decision about Mythos's release unprecedented in the AI industry?",
+          "options": [
+            "It was the first model sold exclusively to government agencies",
+            "Anthropic deemed it too dangerous to release publicly—a first since OpenAI withheld GPT-2 in 2019",
+            "Anthropic open-sourced the weights before launching the product",
+            "The model was released only as an API with no direct user interface"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic decided not to publicly release Mythos Preview due to its extreme cybersecurity capabilities. This was the first time a major AI developer made such a decision since OpenAI temporarily withheld GPT-2 in 2019, marking a significant moment in responsible AI deployment."
+        },
+        {
+          "question": "What is Project Glasswing?",
+          "options": [
+            "Anthropic's legal initiative to pursue unauthorized Mythos users",
+            "A government-sponsored AI security certification program",
+            "Anthropic's initiative to use Mythos defensively to patch critical software vulnerabilities",
+            "An open-source framework for detecting AI-generated code exploits"
+          ],
+          "correctIndex": 2,
+          "explanation": "Project Glasswing is Anthropic's initiative to deploy Mythos Preview for defensive purposes—using its vulnerability-finding capabilities to help critical software organizations patch systems before attackers with similar models can exploit the same flaws."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-mythos-alarm-apr22",
+      "type": "article",
+      "title": "Why Anthropic's Mythos AI Model Is Sparking Global Alarm",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-22/mythos-why-anthropic-s-ai-model-is-sparking-global-alarm",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Bloomberg traces how Anthropic's Mythos Preview has triggered alarm across Wall Street, governments, and intelligence agencies—the UK AI Security Institute confirmed Mythos succeeded at expert-level hacking tasks 73% of the time, and the model can identify critical faults in every major OS and browser with 99% remaining unpatched. What makes Mythos uniquely troubling is that its offensive capability emerged as a side effect of general improvements in code generation and reasoning, not from intentional design. Former national cyber director Kemba Walden told Fortune the U.S. is not prepared for the widespread availability of similar models.",
+      "keyConcepts": ["Frontier AI Capabilities", "Dual-Use AI", "UK AI Security Institute Evaluation", "Cyber Offense vs. Defense", "Emergent Capabilities"],
+      "whyItMatters": "Mythos is the clearest example yet of dangerous dual-use capabilities emerging as an unintended side effect of general model improvement—forcing the entire industry to grapple with what responsible deployment looks like when the dangerous capability cannot be cleanly separated from the beneficial one.",
+      "tags": ["anthropic", "mythos", "ai-safety", "cybersecurity", "dual-use-ai", "ai-regulation"],
+      "relatedIds": ["article-anthropic-mythos-breach-apr21", "youtube-a4hdPWSUzsE"],
+      "knowledgeChecks": [
+        {
+          "question": "What success rate did the UK AI Security Institute find for Mythos at expert-level hacking tasks?",
+          "options": [
+            "28%",
+            "50%",
+            "73%",
+            "99%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The UK's AI Security Institute assessed Mythos Preview and found it succeeded at expert-level hacking tasks 73% of the time—high enough to represent a genuine and operationally significant offensive cybersecurity capability."
+        },
+        {
+          "question": "According to reporting, how did Mythos's hacking capabilities arise?",
+          "options": [
+            "Anthropic intentionally trained Mythos on cybersecurity exploits as its primary objective",
+            "They emerged as an unintended side effect of general improvements in code generation and reasoning",
+            "A rogue team within Anthropic secretly fine-tuned the base model on offensive security tasks",
+            "They were added at the request of U.S. defense agencies under a classified contract"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mythos's dangerous offensive capabilities were not the product of intentional design—they emerged as a downstream consequence of general improvements in the model's code understanding and reasoning, highlighting how frontier capabilities can surprise even their creators."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-power-grid-crisis-apr23",
+      "type": "article",
+      "title": "AI Compute Is Straining the Power Grid. Here's Why Fixes Aren't Happening Fast Enough",
+      "sourceUrl": "https://www.cnn.com/2026/04/23/business/ai-compute-power-electricity-grid",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "CNN examines the mounting tension between AI's accelerating compute appetite and power grid infrastructure that was not built to scale at this pace. AI agents—which require far more sustained compute than conversational chatbots—are intensifying the crunch, and OpenAI recently shut down its Sora video generation app partly because it consumed too much of the company's compute budget. Proposed solutions including nuclear partnerships, dedicated AI grid zones, and demand-response programs exist but face regulatory, financial, and political barriers likely to take years to clear.",
+      "keyConcepts": ["AI Energy Consumption", "Power Grid Capacity", "AI Agents vs. Chatbots Compute Load", "Nuclear Energy for Data Centers", "Demand-Response Programs"],
+      "whyItMatters": "Energy infrastructure is emerging as the binding constraint on AI deployment—not just model capability or training cost. The shift from chatbots to autonomous agents could triple sustained compute demand, meaning power grid limitations may determine which AI applications can actually reach scale.",
+      "tags": ["ai-infrastructure", "power-grid", "energy", "data-centers", "ai-agents", "compute"],
+      "relatedIds": ["article-ai-galaxy-gpu-crunch-apr23"],
+      "knowledgeChecks": [
+        {
+          "question": "What product did OpenAI shut down partly due to excessive compute consumption, as cited in the CNN report?",
+          "options": [
+            "ChatGPT Voice Mode",
+            "DALL-E 4",
+            "Sora (video generation app)",
+            "OpenAI Codex"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI shuttered its Sora video generation app in part because it consumed too much of the company's computational resources—an early, concrete example of how AI product decisions are now being shaped directly by infrastructure and energy constraints."
+        },
+        {
+          "question": "Why do AI agents create a larger power grid strain than traditional chatbots?",
+          "options": [
+            "They require faster internet connections that demand more network infrastructure power",
+            "They use older, less energy-efficient GPU architectures",
+            "Autonomous agents run sustained continuous workloads rather than responding to individual queries",
+            "They operate on separate power circuits that cannot share load with other systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "Autonomous AI agents run continuous multi-step workflows without human supervision—requiring sustained GPU utilization rather than the bursty query-response pattern of chatbots. This creates a step-change in base energy demand as agentic AI becomes the dominant deployment model."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-galaxy-gpu-crunch-apr23",
+      "type": "article",
+      "title": "AI Astronomy Researchers Are Adding to the Global GPU Shortage",
+      "sourceUrl": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Researchers preparing for NASA's Nancy Grace Roman Space Telescope launch (accelerated to September 2026) are switching from convolutional neural networks to transformer-based models to handle the 20,000 terabytes of data the telescope will generate over its lifetime. The architectural shift requires significantly more GPU compute, adding astronomy to the growing list of scientific fields—alongside physics and life sciences—now competing directly with commercial AI labs for scarce GPU resources. The result is a previously invisible demand driver compounding an already-strained compute market.",
+      "keyConcepts": ["Transformer Models in Scientific Research", "NASA Roman Space Telescope", "GPU Compute Scarcity", "Convolutional Neural Networks", "Scientific AI Applications"],
+      "whyItMatters": "The GPU crunch is no longer just a commercial AI story—scientific institutions are now competing with tech giants for the same hardware, raising urgent questions about how limited compute will be prioritized and whether critical scientific research will be crowded out by commercial workloads.",
+      "tags": ["gpu-shortage", "ai-research", "astronomy", "nasa", "transformers", "scientific-ai"],
+      "relatedIds": ["article-ai-power-grid-crisis-apr23"],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural shift are AI astronomy researchers making in preparation for the Roman Space Telescope's data?",
+          "options": [
+            "From transformers to convolutional neural networks for faster inference",
+            "From convolutional neural networks to transformer-based models",
+            "From supervised learning to unsupervised clustering algorithms",
+            "From cloud compute to edge computing on the telescope itself"
+          ],
+          "correctIndex": 1,
+          "explanation": "Researchers are switching from traditional convolutional neural networks to transformer-based models for space telescope data analysis—following the broader AI trend toward transformers, but at the cost of much higher GPU compute requirements that are adding to global supply pressure."
+        },
+        {
+          "question": "How much data is the Nancy Grace Roman Space Telescope expected to generate over its operational lifetime?",
+          "options": [
+            "200 terabytes",
+            "2,000 terabytes",
+            "20,000 terabytes",
+            "200,000 terabytes"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Nancy Grace Roman Space Telescope is expected to deliver approximately 20,000 terabytes (20 petabytes) of data over its lifetime—a dataset of extraordinary scale that requires substantial AI infrastructure and is driving astronomy's growing GPU demand."
+        }
+      ]
+    },
+    {
+      "id": "article-sony-ai-table-tennis-apr24",
+      "type": "article",
+      "title": "Sony AI Robot Beats Elite Human Table Tennis Players in World First",
+      "sourceUrl": "https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-research"],
+      "summary": "Sony AI's Project Ace has achieved the first known autonomous system to play table tennis at a level competitive with professional and elite human players, with the research published as a cover story in Nature. The system combines real-time computer vision, high-speed robotic control, and reinforcement learning trained in simulation and fine-tuned in the physical world—adapting its strategy dynamically based on opponent behavior. Researchers note this is the first time an AI has achieved elite-level performance in a commonly played competitive physical sport under real-world conditions.",
+      "keyConcepts": ["Autonomous Robotics", "Reinforcement Learning", "Sim-to-Real Transfer", "Real-World AI Benchmarks", "Physical World Perception"],
+      "whyItMatters": "Table tennis is a uniquely demanding benchmark for physical AI—requiring sub-millisecond perception, precise motor control, and real-time strategic adaptation against an unpredictable human opponent. Achieving elite human performance marks a meaningful threshold in what autonomous systems can do outside controlled lab conditions.",
+      "tags": ["sony-ai", "robotics", "table-tennis", "reinforcement-learning", "physical-ai", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where was Sony AI's Project Ace table tennis research published?",
+          "options": [
+            "Science",
+            "Nature",
+            "IEEE Transactions on Robotics",
+            "Cell"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sony AI's Project Ace research was published as a cover story in Nature—one of the world's most prestigious scientific journals—underscoring the significance of achieving elite-level autonomous performance in a real-world physical sport."
+        },
+        {
+          "question": "What combination of technical approaches enabled Project Ace to reach elite-level table tennis performance?",
+          "options": [
+            "Large language model planning combined with pre-programmed shot libraries",
+            "GPS tracking of the ball combined with a rules-based decision tree",
+            "Real-time computer vision, high-speed robotic control, and reinforcement learning with sim-to-real transfer",
+            "Supervised imitation learning trained exclusively on professional player video footage"
+          ],
+          "correctIndex": 2,
+          "explanation": "Project Ace combines real-time computer vision for ball tracking, high-speed robotic motor control, and reinforcement learning trained in simulation and transferred to the physical world—enabling the system to adapt its strategy dynamically against live human opponents."
+        }
+      ]
+    }
+  ]
+}
