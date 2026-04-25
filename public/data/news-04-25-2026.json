@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-04-25T10:00:00.000Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-24",
+  "items": [
+    {
+      "id": "youtube-eV3lAY77IpU",
+      "type": "video",
+      "title": "DeepSeek V4 Pro and Flash: Full Benchmarking and Testing",
+      "youtubeId": "eV3lAY77IpU",
+      "sourceUrl": "https://www.youtube.com/watch?v=eV3lAY77IpU",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A hands-on evaluation of DeepSeek's newly launched V4-Pro and V4-Flash models, examining performance on coding, reasoning, and agentic benchmarks. V4-Pro packs 1.6 trillion total parameters with 49 billion active per inference, while V4-Flash offers 284 billion total with 13 billion active. Early results position these models as the strongest open-source options available, with pricing as low as $0.14 per million input tokens.",
+      "keyConcepts": [
+        "DeepSeek V4-Pro benchmark performance",
+        "Mixture-of-Experts with Hybrid Attention Architecture",
+        "1 million-token context window",
+        "open-source frontier model pricing"
+      ],
+      "whyItMatters": "DeepSeek V4 potentially closes the gap with leading closed-source models at a fraction of the cost, challenging the assumption that frontier-level AI requires expensive proprietary infrastructure.",
+      "tags": ["deepseek", "v4-pro", "benchmark", "open-source", "llm", "mixture-of-experts"],
+      "relatedIds": ["youtube-v5qD24cDBHw", "article-mit-tech-review-10-things-ai-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How many total parameters does DeepSeek V4-Pro contain?",
+          "options": ["37 billion", "284 billion", "49 billion", "1.6 trillion"],
+          "correctIndex": 3,
+          "explanation": "DeepSeek V4-Pro has 1.6 trillion total parameters with only 49 billion active at inference time, using a Mixture-of-Experts architecture for efficiency."
+        },
+        {
+          "question": "What is the maximum context window supported by DeepSeek V4 models?",
+          "options": ["128K tokens", "512K tokens", "1 million tokens", "200K tokens"],
+          "correctIndex": 2,
+          "explanation": "Both V4-Pro and V4-Flash feature a native 1 million-token context window, enabling entire codebases or long documents to be processed in a single prompt."
+        }
+      ]
+    },
+    {
+      "id": "youtube-v5qD24cDBHw",
+      "type": "video",
+      "title": "DeepSeek V4 Is Here: Hands-On Testing of the Largest Open-Source AI Model",
+      "youtubeId": "v5qD24cDBHw",
+      "sourceUrl": "https://www.youtube.com/watch?v=v5qD24cDBHw",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Covers the live release of DeepSeek V4 with hands-on testing across code generation, complex reasoning, and agentic tasks. The model's 1 million-token context window allows entire codebases to be submitted as single prompts. V4-Pro output pricing at $3.48 per million tokens undercuts OpenAI by roughly 8-9x, raising significant questions about the long-term competitiveness of proprietary models.",
+      "keyConcepts": [
+        "DeepSeek V4 agentic capabilities",
+        "1M-token context for full codebase processing",
+        "open-source vs closed-source pricing gap",
+        "DeepSeek Hybrid Attention Architecture"
+      ],
+      "whyItMatters": "The V4 launch represents a potential second 'Sputnik moment' for Chinese AI, offering near-frontier reasoning at commodity prices and deepening uncertainty about Western AI economic moats.",
+      "tags": ["deepseek", "v4-flash", "context-window", "open-source", "china-ai", "agentic"],
+      "relatedIds": ["youtube-eV3lAY77IpU"],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural feature does DeepSeek V4 use to improve memory across long conversations?",
+          "options": ["Rotary Position Embeddings", "Sliding Window Attention", "Flash Attention 3", "Hybrid Attention Architecture"],
+          "correctIndex": 3,
+          "explanation": "DeepSeek introduced Hybrid Attention Architecture in V4 specifically to improve the model's ability to retain information across very long conversations and documents."
+        },
+        {
+          "question": "Approximately how does DeepSeek V4-Pro's output pricing compare to OpenAI's top-tier models?",
+          "options": ["About 2x cheaper", "About 4x cheaper", "About 8-9x cheaper", "Roughly the same"],
+          "correctIndex": 2,
+          "explanation": "DeepSeek V4-Pro charges $3.48 per million output tokens versus OpenAI's $30, making it approximately 8-9x cheaper for equivalent output volume."
+        }
+      ]
+    },
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "type": "video",
+      "title": "Fireship: Google's Gemma 4 Quietly Disrupts the Open-Source AI Narrative",
+      "youtubeId": "-01ZCTt-CJw",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Fireship covers Google's release of Gemma 4, a 31 billion parameter open-source model that runs on consumer GPUs, along with an edge variant compact enough for a Raspberry Pi. The video examines why a model this small performs surprisingly well on benchmarks and what it means for the open-source AI ecosystem. Google's move challenges the perception that competitive AI performance requires massive hardware.",
+      "keyConcepts": [
+        "Gemma 4 model release and specs",
+        "on-device AI inference at consumer hardware",
+        "open-source model competitiveness",
+        "edge AI deployment"
+      ],
+      "whyItMatters": "Gemma 4 challenges the assumption that frontier AI performance requires large cloud infrastructure, opening doors for private, offline AI deployment at consumer hardware specs and lowering barriers for developers worldwide.",
+      "tags": ["google", "gemma-4", "open-source", "on-device-ai", "edge-ai", "fireship"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the parameter count of the main Gemma 4 model discussed in this Fireship video?",
+          "options": ["7 billion", "13 billion", "31 billion", "70 billion"],
+          "correctIndex": 2,
+          "explanation": "Gemma 4 is a 31 billion parameter model that Fireship described as 'suspiciously small' for its benchmark results, capable of running on consumer GPUs."
+        },
+        {
+          "question": "Which device is Google's Gemma 4 edge variant reportedly capable of running on?",
+          "options": ["Apple iPhone 16", "NVIDIA Jetson Nano", "Raspberry Pi", "Google Coral Dev Board"],
+          "correctIndex": 2,
+          "explanation": "Google released a Gemma 4 edge variant compact enough to run on a Raspberry Pi, enabling offline, private AI on standard consumer hardware."
+        }
+      ]
+    },
+    {
+      "id": "article-un-hinton-ai-brakes-2026",
+      "type": "article",
+      "title": "AI Pioneer Geoffrey Hinton Calls for Immediate Regulatory Brakes on Runaway AI Development",
+      "sourceUrl": "https://news.un.org/en/story/2026/04/1167361",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Nobel laureate and AI pioneer Geoffrey Hinton addressed the 2026 Digital World Conference in Geneva, warning that unregulated AI is like 'a very fast car with no steering wheel.' Hinton estimated that only about 1% of AI development resources focus on safety, calling the imbalance deeply troubling. He argued that regulation must provide both brakes and steering — not merely slowing AI development, but guiding it toward outcomes compatible with human flourishing.",
+      "keyConcepts": [
+        "AI safety resource allocation (1% of total AI work)",
+        "global AI governance urgency",
+        "steering-wheel vs brakes regulatory metaphor",
+        "existential risk from superintelligent AI"
+      ],
+      "whyItMatters": "Hinton's continued warnings carry weight given his foundational role in deep learning; his estimate that less than 1% of AI work targets safety signals a dangerous mismatch between development speed and alignment progress.",
+      "tags": ["ai-safety", "regulation", "geoffrey-hinton", "governance", "alignment", "existential-risk"],
+      "relatedIds": ["article-transparency-coalition-ai-legislation-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Geoffrey Hinton's April 2026 remarks, approximately what percentage of AI work focuses on safety?",
+          "options": ["25 percent", "10 percent", "5 percent", "1 percent"],
+          "correctIndex": 3,
+          "explanation": "Hinton estimated that only about 1% of AI development resources are devoted to safety research, calling this deeply insufficient given the pace of capability advancement."
+        },
+        {
+          "question": "At which event did Hinton deliver his April 2026 call for AI regulation?",
+          "options": ["UN General Assembly in New York", "Davos World Economic Forum", "2026 Digital World Conference in Geneva", "MIT AI Safety Summit"],
+          "correctIndex": 2,
+          "explanation": "Hinton spoke at the 2026 Digital World Conference in Geneva, using the 'car with no steering wheel' metaphor to argue for governance frameworks that guide AI, not just slow it."
+        }
+      ]
+    },
+    {
+      "id": "article-transparency-coalition-ai-legislation-2026",
+      "type": "article",
+      "title": "AI Legislative Update: Arizona Faces Adjournment Deadline as California Advances Dozens of AI Bills",
+      "sourceUrl": "https://www.transparencycoalition.ai/news/ai-legislative-update-april24-2026",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Arizona's legislature faced an April 25 adjournment deadline with three AI bills still in play, including HB 2592 requiring state agencies to identify AI adoption opportunities and SB 1786 mandating training data disclosures. California was simultaneously advancing dozens of AI bills through committee hearings, covering surveillance pricing, employment protections, and amendments to the state's AI Transparency Act. Tennessee also had limited time remaining to pass three AI bills before session end.",
+      "keyConcepts": [
+        "Arizona HB 2592 — agency AI adoption mandate",
+        "Arizona SB 1786 — training data disclosure",
+        "California AI Transparency Act amendments",
+        "state-level AI regulation wave 2026"
+      ],
+      "whyItMatters": "With dozens of state-level AI bills advancing simultaneously across Arizona, California, and Tennessee, 2026 is shaping up as a pivotal year for US AI regulation that will set compliance expectations for companies deploying AI in consumer and government contexts.",
+      "tags": ["ai-regulation", "state-legislation", "california", "arizona", "transparency", "policy"],
+      "relatedIds": ["article-un-hinton-ai-brakes-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Arizona HB 2592 require state agencies to do?",
+          "options": [
+            "Ban AI in public school classrooms",
+            "Audit all AI vendors annually",
+            "Identify opportunities to implement AI to reduce administrative burdens",
+            "Require human review of all AI-generated government decisions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Arizona HB 2592 requires every state agency to identify opportunities to implement AI systems that reduce administrative burdens and eliminate regulations restricting AI adoption."
+        },
+        {
+          "question": "What does Arizona SB 1786 require from entities using AI systems?",
+          "options": [
+            "Disclosures about the data used to train their AI",
+            "Annual third-party AI safety audits",
+            "Consumer opt-out from AI profiling",
+            "Registration of all AI systems with the state"
+          ],
+          "correctIndex": 0,
+          "explanation": "Arizona SB 1786 requires entities to disclose information about the data used to train their AI systems, establishing data transparency as a regulatory principle."
+        }
+      ]
+    },
+    {
+      "id": "article-pwc-ai-performance-study-2026",
+      "type": "article",
+      "title": "PwC Study: Top 20% of Companies Capture Three-Quarters of AI's Economic Value",
+      "sourceUrl": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+      "verified": false,
+      "publishedAt": "2026-04-20",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "PwC's 2026 AI Performance Study finds that 75% of AI's economic gains are flowing to just 20% of companies, with leading firms treating AI as a growth driver rather than a productivity tool. These top performers are deploying AI to expand markets and capabilities, not just cut costs. The study warns that companies slow to build AI-first strategies risk permanently falling behind as the capability and performance gap between leaders and laggards accelerates.",
+      "keyConcepts": [
+        "AI economic value concentration in top companies",
+        "growth-focused vs productivity-focused AI adoption",
+        "competitive AI strategy differentiation",
+        "widening gap between AI leaders and laggards"
+      ],
+      "whyItMatters": "The concentration of AI's economic benefits in a small percentage of companies suggests that AI adoption strategy — not just adoption itself — is becoming a primary source of competitive advantage, with direct implications for workforce planning and investment decisions.",
+      "tags": ["ai-adoption", "business-strategy", "economic-impact", "pwc", "enterprise-ai", "workforce"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to PwC's 2026 AI Performance Study, what share of AI's economic gains go to the top 20% of companies?",
+          "options": ["About half", "Two-thirds", "Three-quarters", "Nearly all of it"],
+          "correctIndex": 2,
+          "explanation": "PwC found that 75% (three-quarters) of AI's economic gains are captured by just 20% of companies, revealing significant concentration of AI-driven business value."
+        },
+        {
+          "question": "What distinguishes leading AI companies in PwC's study from the majority?",
+          "options": [
+            "Larger AI budgets and more GPU access",
+            "Focus on growth rather than just productivity",
+            "Exclusive use of proprietary over open-source models",
+            "Larger and more experienced AI engineering teams"
+          ],
+          "correctIndex": 1,
+          "explanation": "PwC found that leading AI adopters focus on growth as their primary objective — using AI to expand capabilities and markets — rather than just reducing costs or improving existing workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-mit-tech-review-10-things-ai-2026",
+      "type": "article",
+      "title": "MIT Technology Review: 10 Things That Matter Most in AI Right Now",
+      "sourceUrl": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/",
+      "verified": false,
+      "publishedAt": "2026-04-21",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "MIT Technology Review's April 2026 analysis maps the ten most significant developments shaping the AI landscape, including the current state of model quality rankings, the evolving open-source ecosystem, and the growing capability of Chinese AI companies. Anthropic leads model quality benchmarks as of early 2026, followed closely by xAI, Google, and OpenAI, while Chinese models from DeepSeek and Alibaba trail only modestly. The piece also covers compute trends, regulatory fragmentation, and the accelerating pace of capability improvements.",
+      "keyConcepts": [
+        "AI model benchmark rankings as of early 2026",
+        "Anthropic's frontier model leadership",
+        "Chinese AI competitive position vs Western labs",
+        "open-source vs closed-source capability convergence"
+      ],
+      "whyItMatters": "MIT Tech Review's state-of-AI analysis provides a credible, independent snapshot of where capability, competition, and policy stand — an essential reference for anyone tracking AI's trajectory heading into the second half of 2026.",
+      "tags": ["ai-trends", "benchmark-rankings", "anthropic", "deepseek", "open-source", "mit-tech-review"],
+      "relatedIds": ["youtube-eV3lAY77IpU", "youtube-v5qD24cDBHw"],
+      "knowledgeChecks": [
+        {
+          "question": "According to MIT Technology Review's April 2026 model rankings, which organization leads AI benchmark scores?",
+          "options": ["OpenAI", "Google DeepMind", "xAI", "Anthropic"],
+          "correctIndex": 3,
+          "explanation": "As of early 2026, Anthropic leads AI model quality rankings, with xAI, Google, and OpenAI close behind, and Chinese models trailing modestly."
+        },
+        {
+          "question": "How do Chinese AI models from DeepSeek and Alibaba compare to top Western models in MIT Tech Review's 2026 analysis?",
+          "options": [
+            "Far behind with significant capability gaps",
+            "Trailing only modestly behind leading models",
+            "Essentially equivalent across all benchmarks",
+            "Ahead in specialized scientific domains"
+          ],
+          "correctIndex": 1,
+          "explanation": "MIT Technology Review found that Chinese models lag only modestly behind top Western models, reflecting the rapid capability growth from DeepSeek, Alibaba, and other Chinese AI labs."
+        }
+      ]
+    }
+  ]
+}
