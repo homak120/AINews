@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-25T10:00:00.000Z",
+  "generatedAt": "2026-04-25T16:00:00.000Z",
   "weekOf": "2026-04-20",
   "coverageStart": "2026-04-08",
-  "coverageEnd": "2026-04-24",
+  "coverageEnd": "2026-04-25",
   "items": [
     {
       "id": "youtube-eV3lAY77IpU",
@@ -258,6 +258,44 @@
           ],
           "correctIndex": 1,
           "explanation": "MIT Technology Review found that Chinese models lag only modestly behind top Western models, reflecting the rapid capability growth from DeepSeek, Alibaba, and other Chinese AI labs."
+        }
+      ]
+    },
+    {
+      "id": "article-google-anthropic-40b-investment-2026",
+      "type": "article",
+      "title": "Google Commits Up to $40 Billion in Anthropic in Largest-Ever AI Investment",
+      "sourceUrl": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry"],
+      "summary": "Google parent Alphabet committed up to $40 billion in Anthropic at a $350 billion valuation — the largest single AI investment on record. The structure includes $10 billion in immediate cash plus up to $30 billion contingent on performance milestones, along with 5 gigawatts of Google Cloud compute over five years. The deal arrives days after Amazon announced its own pledge of up to $25 billion, giving Anthropic a combined hyperscaler backing of potentially $65 billion and effectively guaranteeing its compute access for years.",
+      "keyConcepts": [
+        "$40B performance-contingent investment structure",
+        "$350 billion Anthropic valuation",
+        "dual hyperscaler backing (Google + Amazon)",
+        "5GW Google Cloud compute commitment"
+      ],
+      "whyItMatters": "The combined Google and Amazon commitments — up to $65 billion total — remove the capital constraint that limits most AI labs, concentrating frontier AI development further in a handful of massively backed organizations and raising the barrier to entry for any new competitor.",
+      "tags": ["anthropic", "google", "alphabet", "investment", "ai-funding", "cloud-compute"],
+      "relatedIds": ["article-mit-tech-review-10-things-ai-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total potential investment Alphabet committed to Anthropic in April 2026?",
+          "options": ["$10 billion", "$25 billion", "$40 billion", "$65 billion"],
+          "correctIndex": 2,
+          "explanation": "Google/Alphabet committed up to $40 billion — $10 billion immediately plus up to $30 billion tied to performance milestones — at a $350 billion valuation for Anthropic."
+        },
+        {
+          "question": "In addition to cash, what did Google include in its Anthropic investment deal?",
+          "options": [
+            "Exclusive access to Google's TPU v5 cluster",
+            "5 gigawatts of Google Cloud compute capacity over five years",
+            "A seat on Anthropic's board of directors",
+            "Free Workspace enterprise licenses for all Anthropic employees"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alongside cash, Google committed 5 gigawatts of cloud compute capacity to Anthropic over five years, significantly reducing the AI lab's infrastructure costs during its scale-up phase."
         }
       ]
     }
