@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-04-26T09:00:00.000Z",
+  "weekOf": "2026-04-20",
+  "coverageStart": "2026-04-23",
+  "coverageEnd": "2026-04-26",
+  "items": [
+    {
+      "id": "youtube-XDASSrE4348",
+      "type": "video",
+      "title": "Exciting AI Updates Weekly - April 24, 2026 (Part 1)",
+      "youtubeId": "XDASSrE4348",
+      "sourceUrl": "https://www.youtube.com/watch?v=XDASSrE4348",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "TheAIGRID's weekly roundup covers the most significant AI developments of the past week, including OpenAI's GPT-5.5 announcement, DeepSeek's V4 model launch, and Google's massive $40 billion investment in Anthropic. The video breaks down what each development means for the competitive landscape and the future trajectory of AI capabilities. Part 1 of the weekly series focuses on model releases and major corporate moves.",
+      "keyConcepts": [
+        "GPT-5.5 capabilities",
+        "DeepSeek V4 benchmark results",
+        "AI investment mega-rounds",
+        "Frontier model competition"
+      ],
+      "whyItMatters": "The week of April 21–25 saw simultaneous major releases from OpenAI, DeepSeek, and a historic investment in Anthropic — a convergence of news that signals the AI race is intensifying on every front.",
+      "tags": ["weekly-roundup", "gpt-5-5", "deepseek", "anthropic", "frontier-models", "ai-industry"],
+      "relatedIds": ["article-google-anthropic-40b", "article-openai-gpt55", "article-deepseek-v4"],
+      "knowledgeChecks": [
+        {
+          "question": "Which company announced a $40 billion investment in Anthropic during the week covered in this video?",
+          "options": ["Microsoft", "Google", "Amazon", "Apple"],
+          "correctIndex": 1,
+          "explanation": "Google announced it would invest up to $40 billion in Anthropic, with $10 billion as immediate cash at a $350 billion valuation and up to $30 billion more tied to performance milestones."
+        },
+        {
+          "question": "What is the name of DeepSeek's newest flagship model series released in April 2026?",
+          "options": ["DeepSeek-R2", "DeepSeek-Coder-V3", "DeepSeek-Lite", "DeepSeek V4"],
+          "correctIndex": 3,
+          "explanation": "DeepSeek unveiled its V4 series (V4 Flash and V4 Pro) in April 2026, touting top-tier coding benchmark performance and significant advances in reasoning and agentic tasks."
+        }
+      ]
+    },
+    {
+      "id": "youtube-VSLEGpCemtE",
+      "type": "video",
+      "title": "How AI Starts Doing the Work in 2026 — Interview with Anthropic CPO Mike Krieger",
+      "youtubeId": "VSLEGpCemtE",
+      "sourceUrl": "https://www.youtube.com/watch?v=VSLEGpCemtE",
+      "verified": false,
+      "publishedAt": "2026-04-25",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "The AI Daily Brief sits down with Anthropic's Chief Product Officer Mike Krieger to discuss the shift from AI as a tool to AI as an active participant in knowledge work. Krieger explains Anthropic's product philosophy around 'agentic' Claude deployments, where the model takes multi-step actions rather than merely answering questions. The conversation covers how enterprises are actually deploying AI agents today and where the friction points remain.",
+      "keyConcepts": [
+        "Agentic AI systems",
+        "AI in knowledge work",
+        "Enterprise AI deployment",
+        "Anthropic product strategy"
+      ],
+      "whyItMatters": "With Google's $40 billion investment validating Anthropic's market position, this CPO interview offers a rare inside view of how the company thinks about the transition from conversational AI to autonomous, action-taking agents.",
+      "tags": ["anthropic", "agentic-ai", "ai-agents", "enterprise-ai", "mike-krieger", "product-strategy"],
+      "relatedIds": ["article-google-anthropic-40b"],
+      "knowledgeChecks": [
+        {
+          "question": "What term does Mike Krieger use to describe Claude deployments that take multi-step actions rather than just answering questions?",
+          "options": ["Agentic", "Autonomous", "Proactive", "Sequential"],
+          "correctIndex": 0,
+          "explanation": "Krieger describes 'agentic' deployments where Claude operates across multi-step workflows, taking actions in systems rather than only producing text responses."
+        },
+        {
+          "question": "What is Mike Krieger's role at Anthropic?",
+          "options": ["Chief Executive Officer", "Chief Technology Officer", "Chief Product Officer", "VP of Engineering"],
+          "correctIndex": 2,
+          "explanation": "Mike Krieger is Anthropic's Chief Product Officer (CPO), responsible for shaping how Claude is packaged and delivered to users and enterprise customers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-MRLt90GMvOg",
+      "type": "video",
+      "title": "OpenAI's FRONTIER Models and the Future of Employment",
+      "youtubeId": "MRLt90GMvOg",
+      "sourceUrl": "https://www.youtube.com/watch?v=MRLt90GMvOg",
+      "verified": false,
+      "publishedAt": "2026-04-25",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Wes Roth examines OpenAI's latest frontier-class model capabilities — particularly GPT-5.5's advanced computer use and deep research features — and their potential implications for white-collar employment. The video explores economic analyses suggesting that models capable of autonomous computer operation could automate a meaningful portion of office-based tasks within two to three years. Wes balances hype with nuance, noting that human oversight and new job categories will co-exist with automation.",
+      "keyConcepts": [
+        "GPT-5.5 computer-use capabilities",
+        "Automation of knowledge work",
+        "Economic impact of frontier AI",
+        "Task vs. job displacement"
+      ],
+      "whyItMatters": "GPT-5.5's native computer-use feature marks a qualitative step up from text generation alone — the ability to operate software could compress timelines for AI-driven productivity changes that economists and workers need to plan for now.",
+      "tags": ["openai", "gpt-5-5", "computer-use", "ai-jobs", "automation", "future-of-work"],
+      "relatedIds": ["article-openai-gpt55"],
+      "knowledgeChecks": [
+        {
+          "question": "Which capability in GPT-5.5 most directly enables autonomous task execution across software applications?",
+          "options": ["Enhanced reasoning chains", "Longer context window", "Native computer-use", "Multimodal image generation"],
+          "correctIndex": 2,
+          "explanation": "GPT-5.5's native computer-use capability allows the model to operate software interfaces directly, enabling it to perform multi-step tasks across applications without human clicks."
+        },
+        {
+          "question": "According to Wes Roth's analysis, what will most likely happen alongside AI-driven automation in the near term?",
+          "options": ["Complete job elimination across all sectors", "New job categories will emerge alongside automation", "Government will halt AI deployment", "Wages will immediately collapse"],
+          "correctIndex": 1,
+          "explanation": "Wes Roth argues that while automation will displace some tasks, new job categories and human oversight roles will co-exist with AI systems in the near-term transition period."
+        }
+      ]
+    },
+    {
+      "id": "article-google-anthropic-40b",
+      "type": "article",
+      "title": "Google Invests Up to $40 Billion in Anthropic at $350 Billion Valuation",
+      "sourceUrl": "https://www.afterdawn.com/news/article.cfm/2026/04/25/google-invests-40-billion-to-anthropic",
+      "verified": false,
+      "publishedAt": "2026-04-25",
+      "topics": ["ai-industry"],
+      "summary": "Google has committed $10 billion in immediate cash to Anthropic at a $350 billion valuation, with an additional $30 billion contingent on performance milestones. The deal also includes 5 gigawatts of Google Cloud computing capacity over five years, and Anthropic has agreed to purchase AI server capacity from Google as part of the arrangement. The investment comes as Anthropic's annual revenue reportedly surged from roughly $9 billion at end-2025 to over $30 billion by March 2026.",
+      "keyConcepts": [
+        "Strategic AI investment rounds",
+        "AI compute as strategic asset",
+        "Anthropic valuation and growth",
+        "Cloud provider-AI lab partnerships"
+      ],
+      "whyItMatters": "A $40 billion investment at a $350 billion valuation cements Anthropic as one of the most valuable private AI companies and deepens the symbiotic relationship between major cloud providers and frontier AI labs — a structural dynamic that is reshaping how AI infrastructure is funded and built.",
+      "tags": ["google", "anthropic", "investment", "valuation", "ai-industry", "cloud-compute"],
+      "relatedIds": ["youtube-VSLEGpCemtE", "youtube-XDASSrE4348"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's approximate annual revenue by March 2026, according to reports around this investment?",
+          "options": ["$3 billion", "$9 billion", "$20 billion", "Over $30 billion"],
+          "correctIndex": 3,
+          "explanation": "Reports indicate Anthropic's annual revenue had grown from roughly $9 billion at the end of 2025 to over $30 billion by March 2026 — a rapid growth rate that helped justify the $350 billion valuation."
+        },
+        {
+          "question": "Beyond cash, what other resource did Google commit to Anthropic as part of the investment deal?",
+          "options": ["Equity stake in Google DeepMind", "Access to 5 gigawatts of Google Cloud compute", "Exclusive distribution rights", "Google Search integration"],
+          "correctIndex": 1,
+          "explanation": "In addition to up to $40 billion in cash, Google committed 5 gigawatts of Google Cloud computing capacity over five years, making compute access a central component of the deal."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt55",
+      "type": "article",
+      "title": "OpenAI Announces GPT-5.5 with Enhanced Coding, Computer Use, and Deep Research",
+      "sourceUrl": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "OpenAI has announced GPT-5.5, its latest model offering improvements in coding, autonomous computer operation, and deep research tasks. The model builds on GPT-5.4, which was the first OpenAI release with native computer-use capabilities, allowing agents to operate software and complete complex multi-application workflows. OpenAI released detailed prompting guidance alongside the API availability of GPT-5.5.",
+      "keyConcepts": [
+        "GPT-5.5 model capabilities",
+        "Native computer-use in LLMs",
+        "Agentic task execution",
+        "OpenAI API model versioning"
+      ],
+      "whyItMatters": "GPT-5.5 continues OpenAI's rapid release cadence in 2026, with each version expanding the model's ability to take real-world actions — pushing AI from a reasoning tool to an operational one that can autonomously navigate software environments.",
+      "tags": ["openai", "gpt-5-5", "llm-release", "computer-use", "coding", "ai-research"],
+      "relatedIds": ["youtube-MRLt90GMvOg", "youtube-XDASSrE4348"],
+      "knowledgeChecks": [
+        {
+          "question": "Which OpenAI model was the first to include native, state-of-the-art computer-use capabilities?",
+          "options": ["GPT-5.5", "GPT-5.4", "GPT-5", "GPT-4o"],
+          "correctIndex": 1,
+          "explanation": "GPT-5.4 was described as the first OpenAI general-purpose model with native computer-use capabilities, enabling agents to operate computers and carry out complex workflows. GPT-5.5 built further on these foundations."
+        },
+        {
+          "question": "What three key capability areas does GPT-5.5 improve upon according to the announcement?",
+          "options": ["Image generation, voice, and translation", "Speed, cost, and latency", "Coding, computer use, and deep research", "Math, science, and creative writing"],
+          "correctIndex": 2,
+          "explanation": "OpenAI specifically highlighted that GPT-5.5 is better at coding, using computers, and pursuing deeper research capabilities compared to its predecessors."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4",
+      "type": "article",
+      "title": "DeepSeek Unveils V4 Flagship Models One Year After Its AI Breakthrough",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Chinese AI startup DeepSeek has released its V4 model series — the V4 Flash and V4 Pro — approximately one year after the original DeepSeek release rattled Silicon Valley. The new models claim top-tier performance on coding benchmarks and significant advances in reasoning and agentic tasks. The release demonstrates that DeepSeek remains a serious competitor to US frontier labs despite ongoing semiconductor export restrictions.",
+      "keyConcepts": [
+        "DeepSeek V4 Flash and V4 Pro",
+        "Coding benchmark performance",
+        "AI development under export controls",
+        "Open-weight model competition"
+      ],
+      "whyItMatters": "DeepSeek's return with a flagship model a year after its disruptive debut signals that Chinese AI development has not stalled despite chip export controls, keeping pressure on US labs and reinforcing that the global AI race is far from settled.",
+      "tags": ["deepseek", "v4-model", "china-ai", "benchmark", "open-source", "ai-research"],
+      "relatedIds": ["youtube-XDASSrE4348"],
+      "knowledgeChecks": [
+        {
+          "question": "What are the two variants of DeepSeek's V4 model series?",
+          "options": ["V4 Mini and V4 Ultra", "V4 Flash and V4 Pro", "V4 Lite and V4 Max", "V4 Base and V4 Instruct"],
+          "correctIndex": 1,
+          "explanation": "DeepSeek released the V4 Flash and V4 Pro variants, targeting different performance and cost tiers within the same generation of their flagship architecture."
+        },
+        {
+          "question": "What challenge has DeepSeek navigated to continue developing frontier AI models?",
+          "options": ["Lack of training data", "US semiconductor export restrictions", "Regulatory bans on AI research", "Shortage of AI researchers"],
+          "correctIndex": 3,
+          "explanation": "DeepSeek has continued advancing its models despite US semiconductor export controls limiting access to the latest high-end chips, demonstrating that capable AI can be built under constrained hardware conditions — though the exact methods remain a subject of industry analysis."
+        }
+      ]
+    }
+  ]
+}
