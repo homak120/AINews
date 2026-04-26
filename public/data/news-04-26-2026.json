@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T09:00:00.000Z",
+  "generatedAt": "2026-04-26T18:00:00.000Z",
   "weekOf": "2026-04-20",
   "coverageStart": "2026-04-23",
   "coverageEnd": "2026-04-26",
@@ -57,7 +57,7 @@
       ],
       "whyItMatters": "With Google's $40 billion investment validating Anthropic's market position, this CPO interview offers a rare inside view of how the company thinks about the transition from conversational AI to autonomous, action-taking agents.",
       "tags": ["anthropic", "agentic-ai", "ai-agents", "enterprise-ai", "mike-krieger", "product-strategy"],
-      "relatedIds": ["article-google-anthropic-40b"],
+      "relatedIds": ["article-google-anthropic-40b", "article-anthropic-claude-code-decline"],
       "knowledgeChecks": [
         {
           "question": "What term does Mike Krieger use to describe Claude deployments that take multi-step actions rather than just answering questions?",
@@ -202,8 +202,74 @@
         {
           "question": "What challenge has DeepSeek navigated to continue developing frontier AI models?",
           "options": ["Lack of training data", "US semiconductor export restrictions", "Regulatory bans on AI research", "Shortage of AI researchers"],
-          "correctIndex": 3,
-          "explanation": "DeepSeek has continued advancing its models despite US semiconductor export controls limiting access to the latest high-end chips, demonstrating that capable AI can be built under constrained hardware conditions — though the exact methods remain a subject of industry analysis."
+          "correctIndex": 1,
+          "explanation": "DeepSeek has continued advancing its models despite US semiconductor export controls limiting access to the latest high-end chips, demonstrating that capable AI can be built under constrained hardware conditions."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-code-decline",
+      "type": "article",
+      "title": "Anthropic Reveals Three Engineering Missteps Behind Claude Code's Month-Long Performance Decline",
+      "sourceUrl": "https://fortune.com/2026/04/24/anthropic-engineering-missteps-claude-code-performance-decline-user-backlash/",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic published a detailed engineering post-mortem acknowledging three separate technical missteps that triggered a month-long performance regression in Claude Code, its AI coding assistant, following weeks of public user backlash. The company confirmed it is struggling to keep up with surging demand and has introduced new usage caps to manage load. The post details the specific failures and remediation steps taken to restore performance standards.",
+      "keyConcepts": [
+        "Engineering post-mortems in AI products",
+        "Claude Code performance regression",
+        "Demand-driven usage caps",
+        "AI product reliability at scale"
+      ],
+      "whyItMatters": "Anthropic's public accounting of technical failures shows how rapidly growing AI products can buckle under demand spikes — and how transparent post-mortems are becoming a standard of accountability that AI companies are expected to provide.",
+      "tags": ["anthropic", "claude-code", "engineering", "post-mortem", "ai-tools", "reliability"],
+      "relatedIds": ["youtube-VSLEGpCemtE", "article-google-anthropic-40b"],
+      "knowledgeChecks": [
+        {
+          "question": "How many distinct engineering missteps did Anthropic identify as causing Claude Code's performance decline?",
+          "options": ["One", "Two", "Three", "Five"],
+          "correctIndex": 2,
+          "explanation": "Anthropic's post-mortem identified three separate engineering missteps that together produced the month-long regression users experienced in Claude Code."
+        },
+        {
+          "question": "What measure did Anthropic introduce to manage surging Claude Code demand?",
+          "options": ["Raised subscription prices", "Launched a waitlist", "Introduced new usage caps", "Paused new user sign-ups"],
+          "correctIndex": 2,
+          "explanation": "Anthropic confirmed it introduced new usage caps on Claude Code to manage the spike in demand while working to restore performance — a temporary throttle on power users while infrastructure caught up."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-mythos-cybersecurity",
+      "type": "article",
+      "title": "Inside Claude Mythos: Anthropic's Offensive Security AI Triggers Cybersecurity Rethink",
+      "sourceUrl": "https://www.businesstoday.in/technology/story/bt-explainer-inside-claude-mythos-the-ai-is-forcing-a-rethink-of-global-cybersecurity-527461-2026-04-26",
+      "verified": false,
+      "publishedAt": "2026-04-26",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic's Claude Mythos — a specialized AI model designed to autonomously discover and exploit security vulnerabilities — is triggering alarm among governments and cybersecurity professionals worldwide. The model has been released to approximately 40 vetted companies and institutions under Project Glasswing, a controlled research initiative whose partners include AWS, Apple, Cisco, CrowdStrike, Google, Microsoft, and NVIDIA. Unlike Claude Opus 4.7, Anthropic has no plans to make Mythos generally available, instead using Project Glasswing to study how such capabilities might eventually be deployed responsibly at scale.",
+      "keyConcepts": [
+        "Claude Mythos offensive security AI",
+        "Project Glasswing partner program",
+        "AI-driven vulnerability discovery and exploitation",
+        "Responsible disclosure of dangerous AI capabilities"
+      ],
+      "whyItMatters": "Claude Mythos represents a qualitative leap in AI capability — a model that can autonomously conduct offensive security operations — raising urgent questions about dual-use AI governance that governments and security agencies are only beginning to grapple with.",
+      "tags": ["anthropic", "claude-mythos", "cybersecurity", "project-glasswing", "ai-safety", "offensive-security"],
+      "relatedIds": ["youtube-VSLEGpCemtE", "article-google-anthropic-40b"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of Anthropic's controlled research program for deploying Claude Mythos?",
+          "options": ["Project Nightshade", "Project Glasswing", "Project Sentinel", "Project Frontier"],
+          "correctIndex": 1,
+          "explanation": "Anthropic launched Project Glasswing as a restricted partner program to study how Claude Mythos — its offensive-security-capable model — could be used responsibly by vetted institutions."
+        },
+        {
+          "question": "Approximately how many companies and institutions received access to Claude Mythos under Project Glasswing?",
+          "options": ["5", "15", "40", "200"],
+          "correctIndex": 2,
+          "explanation": "Anthropic granted access to approximately 40 vetted organizations including major cloud providers and cybersecurity firms, keeping the program tightly controlled given Mythos's offensive security capabilities."
         }
       ]
     }
