@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-04-27T18:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-25",
+  "items": [
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "type": "video",
+      "title": "Google Releases Gemma 4 Open Source — Runs on Consumer GPUs and Raspberry Pi",
+      "youtubeId": "-01ZCTt-CJw",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Fireship covers Google's release of Gemma 4, a large language model licensed under Apache 2.0 — making it genuinely free and open source. The flagship 31B parameter model is small enough to run on a consumer GPU, while an Edge variant can operate on a smartphone or Raspberry Pi, yet both achieve intelligence benchmarks on par with much larger models that normally require data center hardware. The video argues this move quietly disrupts the prevailing narrative that capable open-source AI requires expensive infrastructure.",
+      "keyConcepts": [
+        "Gemma 4 architecture and parameter counts",
+        "Apache 2.0 open-source licensing",
+        "On-device and consumer GPU inference",
+        "Open vs. closed source AI competition"
+      ],
+      "whyItMatters": "Google releasing a performant model under a truly permissive license lowers the barrier for developers to run capable AI locally — shifting power away from API gatekeepers and toward anyone with a decent GPU.",
+      "tags": ["google", "gemma-4", "open-source", "on-device-ai", "consumer-gpu", "apache-2"],
+      "relatedIds": ["article-spacex-cursor-60b"],
+      "knowledgeChecks": [
+        {
+          "question": "Under which open-source license was Google's Gemma 4 released?",
+          "options": ["MIT License", "GPL v3", "Apache 2.0", "Creative Commons BY"],
+          "correctIndex": 2,
+          "explanation": "Gemma 4 was released under the Apache 2.0 license, which allows free commercial use, modification, and distribution — making it one of Google's most permissively licensed AI releases."
+        },
+        {
+          "question": "Which Gemma 4 variant is small enough to run on a smartphone or Raspberry Pi?",
+          "options": ["Gemma 4 Pro", "Gemma 4 Ultra", "Gemma 4 Edge", "Gemma 4 Nano"],
+          "correctIndex": 2,
+          "explanation": "Google released a Gemma 4 Edge variant specifically designed for on-device deployment, capable of running on hardware as constrained as a smartphone or Raspberry Pi while maintaining competitive performance."
+        }
+      ]
+    },
+    {
+      "id": "youtube-aO5k3haUz9Q",
+      "type": "video",
+      "title": "Matthew Berman Criticizes Anthropic Over Opaque Quotas and Broken User Trust",
+      "youtubeId": "aO5k3haUz9Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=aO5k3haUz9Q",
+      "verified": false,
+      "publishedAt": "2026-04-14",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "In an unusual departure from his typically supportive coverage, AI educator Matthew Berman (596K subscribers) delivers an extended critique of Anthropic, arguing that CEO Dario Amodei miscalculated how aggressively the company needed to invest in compute infrastructure. The resulting capacity crunch forced Anthropic to silently tighten quotas, session limits, and usage policies for tools like Claude Code, and to ban popular third-party client OpenClaw — moves Berman says have eroded trust among power users and handed OpenAI a free PR win.",
+      "keyConcepts": [
+        "AI infrastructure capacity planning",
+        "Claude Code usage quotas",
+        "Third-party tool policy (OpenClaw)",
+        "User trust in AI companies"
+      ],
+      "whyItMatters": "When a consistently enthusiastic AI commentator turns sharply critical, it signals that Anthropic's communication and capacity failures have crossed a threshold that could push enterprise developers toward competitors — a vulnerability that matters even more now that Google and Amazon have bet tens of billions on the company's success.",
+      "tags": ["anthropic", "claude-code", "user-trust", "compute-shortage", "openai", "ai-industry"],
+      "relatedIds": ["article-meta-8000-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Matthew Berman identify as the root cause of Anthropic's quota restrictions and user backlash?",
+          "options": ["A deliberate product pivot away from developers", "Regulatory pressure to limit AI access", "Underinvestment in compute infrastructure relative to demand", "A security breach requiring service throttling"],
+          "correctIndex": 2,
+          "explanation": "Berman argues that Anthropic CEO Dario Amodei underestimated how quickly demand for Claude and agentic workflows would explode, leaving the company without enough infrastructure — forcing reactive, opaque restrictions that damaged user trust."
+        },
+        {
+          "question": "Which third-party Claude client did Anthropic ban, triggering significant community backlash?",
+          "options": ["Cursor", "OpenClaw", "Claude Desktop", "Raycast"],
+          "correctIndex": 1,
+          "explanation": "Anthropic banned OpenClaw, a popular third-party client used by power users, as part of its policy tightening. The ban was seen as poorly communicated and further eroded trust among the Claude developer community."
+        }
+      ]
+    },
+    {
+      "id": "youtube-m3zpI1xC4oI",
+      "type": "video",
+      "title": "DeepSeek V4 vs GPT-5.5: Benchmarks and Cost Analysis",
+      "youtubeId": "m3zpI1xC4oI",
+      "sourceUrl": "https://www.youtube.com/watch?v=m3zpI1xC4oI",
+      "verified": false,
+      "publishedAt": "2026-04-25",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "A hands-on benchmark and cost comparison between DeepSeek V4 and OpenAI's GPT-5.5, released within days of each other in late April 2026. The video shows live demos inside DeepSeek Chat, runs standard coding and reasoning benchmarks, and breaks down the pricing differential — with DeepSeek V4's API running at roughly 100x cheaper per token than GPT-5.5. The V4 Pro model's 1-million token context window and Mixture-of-Experts architecture are highlighted as key technical differentiators.",
+      "keyConcepts": [
+        "DeepSeek V4 Pro and Flash variants",
+        "Mixture-of-Experts (MoE) architecture",
+        "1-million token context window",
+        "API pricing comparison (DeepSeek vs. OpenAI)"
+      ],
+      "whyItMatters": "Competitive benchmark performance at a fraction of the API cost challenges the premium pricing of US frontier models and gives developers strong economic incentives to evaluate open-weight Chinese models — putting direct pressure on OpenAI and Anthropic's business models.",
+      "tags": ["deepseek", "deepseek-v4", "gpt-5-5", "benchmarks", "api-pricing", "open-source-llm"],
+      "relatedIds": ["article-meta-8000-layoffs"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the context window length of DeepSeek V4 Pro, released in April 2026?",
+          "options": ["128,000 tokens", "256,000 tokens", "500,000 tokens", "1 million tokens"],
+          "correctIndex": 3,
+          "explanation": "DeepSeek V4 Pro supports a 1-million token context window — a significant jump from V3's 128,000 token limit — enabled in part by its Hybrid Attention Architecture."
+        },
+        {
+          "question": "How does DeepSeek V4's API pricing compare to GPT-5.5 per token, according to this analysis?",
+          "options": ["About the same price", "Roughly 5x cheaper", "Approximately 20x cheaper", "Around 100x cheaper"],
+          "correctIndex": 3,
+          "explanation": "The video's cost breakdown shows DeepSeek V4's API token costs are approximately 100x cheaper than GPT-5.5, with V4 Flash at $0.14 per million input tokens versus GPT-5.5's $5 per million input tokens."
+        }
+      ]
+    },
+    {
+      "id": "article-spacex-cursor-60b",
+      "type": "article",
+      "title": "SpaceX Secures $60 Billion Option to Acquire AI Coding Startup Cursor",
+      "sourceUrl": "https://fortune.com/2026/04/22/spacex-strikes-60-billion-deal-cursor/",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "SpaceX has struck a deal giving it the option to acquire AI coding tool maker Cursor for $60 billion later in 2026, or alternatively pay $10 billion for the ongoing collaborative work between the two companies. Cursor, developed by Anysphere and backed by over $3 billion in venture funding, has become one of the most widely adopted AI coding assistants. SpaceX plans to combine Cursor's developer reach with its million-H100-equivalent Colossus supercomputer to build what it describes as the world's most useful coding models.",
+      "keyConcepts": [
+        "AI coding tool market consolidation",
+        "Cursor/Anysphere product and valuation",
+        "SpaceX Colossus supercomputer strategy",
+        "AI-first company positioning ahead of IPO"
+      ],
+      "whyItMatters": "A $60 billion acquisition option for an AI coding assistant signals that the software development toolchain is now one of the highest-stakes battlegrounds in AI — putting SpaceX in direct competition with Microsoft GitHub Copilot and Google for the developer ecosystem.",
+      "tags": ["spacex", "cursor", "anysphere", "ai-coding", "acquisition", "colossus"],
+      "relatedIds": ["youtube--01ZCTt-CJw", "youtube-aO5k3haUz9Q"],
+      "knowledgeChecks": [
+        {
+          "question": "What are the two options SpaceX's deal with Cursor gives it?",
+          "options": [
+            "Acquire for $10B now, or license for $1B/year",
+            "Acquire for $60B later or pay $10B for collaborative work",
+            "Merge for $30B or take a minority stake for $5B",
+            "Buy for $60B now or walk away entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "The deal grants SpaceX the right to acquire Cursor for $60 billion later in 2026, or pay $10 billion for the value of the joint work they are doing together — a structure that lets SpaceX delay a full acquisition while still integrating Cursor's capabilities."
+        },
+        {
+          "question": "Which SpaceX infrastructure asset does the company plan to combine with Cursor's technology?",
+          "options": ["Starlink satellite network", "Starship launch systems", "Colossus supercomputer", "Dragon spacecraft data systems"],
+          "correctIndex": 2,
+          "explanation": "SpaceX plans to pair Cursor's AI coding tools and developer distribution with its Colossus supercomputer — described as having a million H100-equivalent GPUs — to build next-generation coding models."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-8000-layoffs",
+      "type": "article",
+      "title": "Meta Cuts 8,000 Jobs to Fund $135 Billion AI Spending Push",
+      "sourceUrl": "https://www.cnbc.com/2026/04/23/meta-will-cut-10percent-of-workforce-as-it-pushes-more-into-ai.html",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Meta announced it will eliminate approximately 8,000 positions — 10% of its global workforce — starting May 20, while also scrapping plans to fill 6,000 open roles. The move is paired with a plan to double Meta's AI spending to $135 billion in 2026, up from $72 billion the prior year. Chief people officer Janelle Gale cited efficiency and AI investment prioritization as the rationale, continuing a multi-year pattern of Meta reducing headcount while accelerating capital expenditure on AI infrastructure.",
+      "keyConcepts": [
+        "Tech workforce restructuring in 2026",
+        "AI capex vs. human headcount trade-offs",
+        "Meta's $135 billion AI spending plan",
+        "Organizational efficiency in AI-era tech companies"
+      ],
+      "whyItMatters": "Meta's decision to simultaneously cut 10% of staff and nearly double AI spending illustrates how major platforms are treating AI infrastructure as a strategic asset that substitutes for human labor — a restructuring pattern now visible across Microsoft, Google, and Meta that will define career trajectories in tech.",
+      "tags": ["meta", "layoffs", "ai-investment", "workforce", "capex", "ai-career"],
+      "relatedIds": ["youtube-aO5k3haUz9Q", "article-ai-backlash-public-sentiment"],
+      "knowledgeChecks": [
+        {
+          "question": "How much does Meta plan to spend on AI in 2026, according to the announcement?",
+          "options": ["$72 billion", "$100 billion", "$135 billion", "$200 billion"],
+          "correctIndex": 2,
+          "explanation": "Meta announced plans to double its AI spending to approximately $135 billion in 2026 — up from $72 billion the previous year — funded in part by the workforce reduction."
+        },
+        {
+          "question": "When are Meta's layoffs scheduled to begin taking effect?",
+          "options": ["April 23, 2026", "May 1, 2026", "May 20, 2026", "June 1, 2026"],
+          "correctIndex": 2,
+          "explanation": "Meta's memo stated the layoffs — affecting approximately 8,000 employees, or 10% of its workforce — would begin on May 20, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-backlash-public-sentiment",
+      "type": "article",
+      "title": "Survey: 55% of Americans Now Say AI Does More Harm Than Good, Up 11 Points in a Year",
+      "sourceUrl": "https://www.mindstudio.ai/blog/ai-backlash-tipping-point-public-sentiment",
+      "verified": false,
+      "publishedAt": "2026-04-13",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "New polling data published in mid-April 2026 shows that 55% of Americans now believe AI does more harm than good, an 11-percentage-point increase in just one year. The shift is driven by growing concerns about job displacement, AI-generated misinformation, high-profile product failures such as fabricated legal citations, and discriminatory hiring tools. The analysis argues that 2025 — the year of AI's rapid mainstream diffusion — may also mark the inflection point at which public trust began a sustained decline.",
+      "keyConcepts": [
+        "AI public sentiment and trust",
+        "Job displacement concerns",
+        "AI hallucination and product liability",
+        "AI policy and regulatory response"
+      ],
+      "whyItMatters": "Public sentiment shapes regulatory pressure, enterprise adoption risk, and talent pipelines — a double-digit jump in negative AI perception in a single year is the kind of signal that boards, policymakers, and AI companies themselves can no longer dismiss as fringe backlash.",
+      "tags": ["public-sentiment", "ai-backlash", "trust", "regulation", "ai-policy", "workforce"],
+      "relatedIds": ["article-meta-8000-layoffs", "youtube-aO5k3haUz9Q"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the April 2026 polling data, what percentage of Americans believe AI does more harm than good?",
+          "options": ["35%", "44%", "55%", "67%"],
+          "correctIndex": 2,
+          "explanation": "The survey found that 55% of Americans now view AI as doing more harm than good — up 11 percentage points in a single year, marking a significant and rapid shift in public sentiment."
+        },
+        {
+          "question": "Which specific AI product failure is cited as a key driver of growing public distrust?",
+          "options": ["A self-driving car fatality", "An AI-generated deepfake of a political figure", "A law firm submitting AI-generated briefs with fabricated case citations", "A chatbot leaking user data"],
+          "correctIndex": 2,
+          "explanation": "One of the cited failures driving public concern was a law firm submitting AI-generated legal briefs containing fabricated case citations — a high-profile example of AI hallucination causing real-world harm in a professional setting."
+        }
+      ]
+    }
+  ]
+}
