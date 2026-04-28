@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-28T12:00:00.000Z",
+  "generatedAt": "2026-04-28T18:00:00.000Z",
   "weekOf": "2026-04-27",
   "coverageStart": "2026-04-21",
-  "coverageEnd": "2026-04-27",
+  "coverageEnd": "2026-04-28",
   "items": [
     {
       "id": "youtube-jeA-KBv0b68",
@@ -264,6 +264,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Google's Veo is the current leading frontier text-to-video model, and Instagram's integrated video generation feature puts Meta directly in competition with Google's offering in the creator video space."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-youtube-ai-search-0428",
+      "type": "article",
+      "title": "YouTube Tests AI-Powered 'Ask YouTube' Search Feature with Guided Step-by-Step Answers",
+      "sourceUrl": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "YouTube is piloting an AI-powered search feature called 'Ask YouTube' that returns guided, step-by-step answers blending text and video results rather than a traditional ranked list. Users can ask open-ended questions — such as planning a multi-day road trip — and receive structured, conversational responses that surface relevant video content inline. The feature is currently opt-in for YouTube Premium subscribers in the US, representing Google's push to integrate generative AI deeply into its largest video platform.",
+      "keyConcepts": [
+        "conversational AI search",
+        "YouTube Premium features",
+        "generative AI in video discovery",
+        "AI-guided search UX"
+      ],
+      "whyItMatters": "YouTube embedding generative AI into its search experience signals a fundamental shift away from keyword-based video discovery, and could reshape how billions of users interact with the world's largest video platform.",
+      "tags": ["youtube", "google", "ai-search", "conversational-ai", "generative-ai", "search-ux"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does YouTube's 'Ask YouTube' feature differ from traditional YouTube search?",
+          "options": [
+            "It only searches YouTube Shorts instead of all videos",
+            "It returns guided, step-by-step answers mixing text and video rather than a ranked list",
+            "It replaces the search bar with voice-only input",
+            "It limits results to videos from verified creator accounts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ask YouTube uses generative AI to construct structured, step-by-step responses that blend explanatory text with inline video suggestions — a fundamentally different UX from the traditional keyword-ranked video list."
+        },
+        {
+          "question": "What is the initial rollout scope for YouTube's AI search feature?",
+          "options": [
+            "All global YouTube users by default",
+            "Opt-in for YouTube Premium subscribers in the US",
+            "Mandatory for all users in the EU only",
+            "Available to YouTube Studio creators exclusively"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube launched the feature as an opt-in experiment limited to Premium subscribers in the United States, a typical approach for testing AI features before broader rollout."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-snapchat-ai-ads-0428",
+      "type": "article",
+      "title": "Snapchat Introduces 'AI Sponsored Snaps' Letting Users Chat Directly with Brand AI Agents",
+      "sourceUrl": "https://techcrunch.com/2026/04/28/snapchat-brings-ai-powered-conversational-advertising-to-its-app/",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Snapchat announced 'AI Sponsored Snaps,' a new ad format that places brand AI agents directly inside the app's Chat tab, allowing users to have interactive conversations with advertisers. Rather than static ads, users can ask questions, request product recommendations, and receive personalized responses from brand-controlled AI agents. The format is one of the first conversational AI advertising products deployed at scale on a major social platform.",
+      "keyConcepts": [
+        "conversational AI advertising",
+        "brand AI agents",
+        "Snapchat Chat tab monetization",
+        "AI-native ad formats"
+      ],
+      "whyItMatters": "Conversational AI ads represent a new paradigm for digital advertising where engagement replaces impression metrics — success is measured by dialogue quality rather than clicks, potentially reshaping how brands measure ROI on social media spend.",
+      "tags": ["snapchat", "ai-advertising", "conversational-ai", "brand-agents", "ad-tech", "social-media"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where in Snapchat does the new 'AI Sponsored Snaps' ad format appear?",
+          "options": [
+            "In the Stories feed between user stories",
+            "In the Snap Map discovery layer",
+            "Directly inside the app's Chat tab",
+            "As overlays on user-generated Snaps"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI Sponsored Snaps are placed inside Snapchat's Chat tab, integrating brand AI agents into the same conversational space where users message their friends."
+        },
+        {
+          "question": "How does the AI Sponsored Snaps format differ from traditional social media advertising?",
+          "options": [
+            "It targets users based on location data rather than interests",
+            "It replaces display ads with interactive conversations with brand AI agents",
+            "It only shows ads to users who have opted in to brand communications",
+            "It uses augmented reality overlays instead of text-based content"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike traditional static or video ads, AI Sponsored Snaps enable two-way conversations between users and brand AI agents, shifting the model from passive impression delivery to active dialogue engagement."
         }
       ]
     }
