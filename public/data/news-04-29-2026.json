@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-04-29T12:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-04-22",
+  "coverageEnd": "2026-04-28",
+  "items": [
+    {
+      "id": "youtube-jeA-KBv0b68",
+      "type": "video",
+      "title": "Claude Gets New Capabilities for Coding and Agentic Tasks",
+      "youtubeId": "jeA-KBv0b68",
+      "sourceUrl": "https://www.youtube.com/watch?v=jeA-KBv0b68",
+      "verified": false,
+      "publishedAt": "2026-04-22",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Fireship covers Anthropic's latest Claude update, breaking down new superpowers added for coding and agentic workflows. The video explains what changed at a technical level and why it matters for developers building AI-powered tools. Fireship's fast-paced format makes the updates accessible without sacrificing depth.",
+      "keyConcepts": ["Claude Code", "agentic AI", "Anthropic model updates", "developer tooling"],
+      "whyItMatters": "Claude's expanding agentic capabilities signal a broader shift toward AI that can autonomously complete multi-step engineering tasks, directly reshaping how software developers work day to day.",
+      "tags": ["claude", "anthropic", "agentic-ai", "claude-code", "developer-tools", "fireship"],
+      "relatedIds": ["youtube-2E6O9zEw-kM", "article-google-anthropic-40b-investment"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary focus of Claude Code as described in this video?",
+          "options": [
+            "A chatbot interface for general Q&A",
+            "A terminal-native AI agent for autonomous software engineering tasks",
+            "A browser extension for code review",
+            "A cloud IDE replacement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Code is a terminal-native AI agent designed to autonomously handle software engineering tasks such as cloning repos, writing tests, fixing CI pipelines, and opening pull requests."
+        },
+        {
+          "question": "Which company develops Claude Code?",
+          "options": [
+            "OpenAI",
+            "Google",
+            "Anthropic",
+            "Meta"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code is developed by Anthropic, the AI safety company founded by former OpenAI researchers that also makes the Claude family of models."
+        }
+      ]
+    },
+    {
+      "id": "youtube-2E6O9zEw-kM",
+      "type": "video",
+      "title": "Weekly AI News Summary: The Rapid Rise of Agentic AI (April 26, 2026)",
+      "youtubeId": "2E6O9zEw-kM",
+      "sourceUrl": "https://www.youtube.com/watch?v=2E6O9zEw-kM",
+      "verified": false,
+      "publishedAt": "2026-04-26",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Episode 203 of the AI Daily Brief rounds up the week's most important AI developments, with a focus on the accelerating shift toward agentic AI systems across the industry. The episode covers major announcements from OpenAI, Google, Anthropic, and Meta, synthesizing what they mean for practitioners. The host highlights how the week's news reflects a broad move from AI-as-tool to AI-as-agent.",
+      "keyConcepts": ["agentic AI systems", "weekly AI roundup", "model releases", "AI industry trends"],
+      "whyItMatters": "Tracking the direction and pace of AI development each week is essential for professionals who need to anticipate which capabilities will matter in their workflows within months rather than years.",
+      "tags": ["ai-news", "agentic-ai", "weekly-brief", "openai", "anthropic", "google"],
+      "relatedIds": ["youtube-jeA-KBv0b68", "article-llm-releases-april-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What broad trend does the April 26 AI Daily Brief identify as the week's key theme?",
+          "options": [
+            "Decline of large language models",
+            "Rapid shift from AI-as-tool to AI-as-agent",
+            "Consolidation of cloud computing providers",
+            "Emergence of quantum machine learning"
+          ],
+          "correctIndex": 1,
+          "explanation": "The episode highlights how the week's announcements collectively point to a rapid industry shift toward agentic AI — systems that act autonomously on multi-step tasks rather than simply responding to prompts."
+        },
+        {
+          "question": "Which of the following best describes an 'agentic AI system'?",
+          "options": [
+            "An AI that only generates images",
+            "A chatbot limited to single-turn Q&A",
+            "An AI that autonomously plans and executes multi-step tasks",
+            "A rule-based expert system"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agentic AI systems go beyond responding to a single prompt — they plan, use tools, take actions, and iterate across multiple steps to accomplish longer-horizon goals."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Gr52Otxvx6A",
+      "type": "video",
+      "title": "AI Systems Now Outperform Humans at Running Simulated Businesses",
+      "youtubeId": "Gr52Otxvx6A",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gr52Otxvx6A",
+      "verified": false,
+      "publishedAt": "2026-04-29",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Wes Roth examines new research showing AI agents outperforming human teams in simulated business management benchmarks, covering strategy, resource allocation, and decision-making. The video breaks down the methodology behind the research and what the results do and don't imply for real-world business automation. Wes contextualizes the findings within the broader trajectory of AI replacing higher-order cognitive work.",
+      "keyConcepts": ["AI agents", "business automation benchmarks", "human-AI performance comparison", "economic disruption"],
+      "whyItMatters": "AI surpassing humans on complex business tasks is a significant capability milestone that career professionals need to understand — not as a threat to dismiss, but as a signal that demands strategic adaptation.",
+      "tags": ["ai-agents", "automation", "future-of-work", "business-ai", "wes-roth", "ai-research"],
+      "relatedIds": ["youtube-2E6O9zEw-kM", "article-stanford-ai-index-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What kind of tasks did AI agents outperform humans at according to the research discussed?",
+          "options": [
+            "Manual dexterity and physical labor tasks",
+            "Creative fiction writing and poetry",
+            "Business management tasks including strategy and resource allocation",
+            "Medical diagnosis in clinical settings"
+          ],
+          "correctIndex": 2,
+          "explanation": "The research cited in the video showed AI agents exceeding human performance on simulated business management tasks, including higher-order cognitive work like strategic planning and resource allocation."
+        },
+        {
+          "question": "What is the most appropriate professional response to AI outperforming humans on business tasks?",
+          "options": [
+            "Ignore the research as it only applies to simulations",
+            "Strategically adapt skills and workflows to leverage and complement AI capabilities",
+            "Lobby for legislation banning AI in business contexts",
+            "Wait for the technology to stabilize before learning about it"
+          ],
+          "correctIndex": 1,
+          "explanation": "While simulation results don't directly map to all real-world settings, the trajectory is clear — professionals who adapt their skills to work alongside AI effectively will be better positioned than those who wait."
+        }
+      ]
+    },
+    {
+      "id": "article-google-anthropic-40b-investment",
+      "type": "article",
+      "title": "Google to Invest Up to $40 Billion in Anthropic in Cash and Compute",
+      "sourceUrl": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry"],
+      "summary": "Google has committed to invest up to $40 billion in Anthropic, beginning with a $10 billion initial tranche at a $350 billion valuation, with follow-on investments tied to milestone achievements. As part of the deal, Alphabet will also dedicate 5 gigawatts of computing capacity to Anthropic's operations. The investment makes Google the largest financial backer of the Claude maker and represents one of the largest AI investments in history.",
+      "keyConcepts": ["AI venture investment", "compute infrastructure", "AI company valuation", "strategic partnership"],
+      "whyItMatters": "A $40B commitment signals that AI infrastructure and frontier model development are now core strategic priorities for the largest technology companies, and raises the stakes for the entire AI industry.",
+      "tags": ["google", "anthropic", "investment", "ai-funding", "compute", "industry-strategy"],
+      "relatedIds": ["article-google-pentagon-ai-access", "youtube-jeA-KBv0b68"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Anthropic's valuation at the time of Google's initial $10 billion investment tranche?",
+          "options": [
+            "$100 billion",
+            "$200 billion",
+            "$350 billion",
+            "$800 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's initial $10 billion investment was made at a $350 billion valuation for Anthropic, though investors were reportedly willing to back the company at $800 billion or more."
+        },
+        {
+          "question": "Beyond cash, what additional resource did Alphabet commit to Anthropic as part of the deal?",
+          "options": [
+            "Access to YouTube's data for training",
+            "5 gigawatts of dedicated computing capacity",
+            "Integration into Google Search",
+            "A seat on Anthropic's board of directors"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alphabet committed to dedicating 5 gigawatts of computing capacity to Anthropic — a critical resource for training and running frontier AI models at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-google-pentagon-ai-access",
+      "type": "article",
+      "title": "Google Expands Pentagon's Access to Its AI After Anthropic's Refusal",
+      "sourceUrl": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Google has granted the U.S. Department of Defense access to its AI systems for classified networks, filling a gap left by Anthropic's public refusal to offer the same terms. Anthropic declined the Pentagon's request without guardrails, citing concerns about unrestricted AI use for domestic mass surveillance and autonomous weapons development. The diverging stances of the two companies highlight deepening policy disagreements among leading AI labs on national security partnerships.",
+      "keyConcepts": ["AI governance", "military AI", "AI ethics", "national security policy", "responsible AI deployment"],
+      "whyItMatters": "How AI companies navigate government and military contracts will shape both the regulatory landscape and the public trust in AI systems — with implications that extend well beyond any single deal.",
+      "tags": ["google", "anthropic", "pentagon", "ai-ethics", "policy", "national-security"],
+      "relatedIds": ["article-google-anthropic-40b-investment", "article-stanford-ai-index-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Anthropic refuse to give the Pentagon the same AI access terms that Google accepted?",
+          "options": [
+            "Anthropic did not have a suitable model for defense applications",
+            "Anthropic wanted higher payment from the DoD",
+            "Anthropic required guardrails to prevent use for domestic surveillance and autonomous weapons",
+            "Anthropic's contract with Google prohibited military deals"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic publicly stated it would not grant the DoD unrestricted AI access, specifically citing concerns about its AI being used for domestic mass surveillance or autonomous weapons — reflecting its AI safety mission."
+        },
+        {
+          "question": "What does this situation illustrate about the current AI industry?",
+          "options": [
+            "All major AI companies have identical policies on government contracts",
+            "AI companies are diverging significantly on how they approach national security partnerships",
+            "The U.S. government has banned all use of commercial AI",
+            "AI companies are leaving the U.S. market due to regulation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google and Anthropic took sharply different stances on the same Pentagon request, illustrating that AI companies are making distinct — and consequential — choices about the boundaries of their partnerships with government and military clients."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-ai-index-2026",
+      "type": "article",
+      "title": "Stanford's AI Index 2026 Shows the State of Artificial Intelligence",
+      "sourceUrl": "https://spectrum.ieee.org/state-of-ai-index-2026",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Stanford University's 2026 AI Index report offers a comprehensive data-driven snapshot of where artificial intelligence stands across capabilities, investment, and societal impact. Key findings include continued rapid improvement on major AI benchmarks, surging investment in AI infrastructure, and early measurable effects of AI on employment and productivity. IEEE Spectrum covers the report's headline numbers and what they imply for researchers, policymakers, and practitioners.",
+      "keyConcepts": ["AI benchmarks", "AI investment trends", "AI workforce impact", "AI research metrics", "annual AI progress report"],
+      "whyItMatters": "The Stanford AI Index is the field's most cited annual gauge of AI progress — reading it provides a calibrated, evidence-based understanding of AI's actual trajectory, cutting through both hype and dismissal.",
+      "tags": ["stanford", "ai-index", "research", "benchmarks", "ai-workforce", "annual-report"],
+      "relatedIds": ["youtube-Gr52Otxvx6A", "article-llm-releases-april-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary purpose of Stanford's annual AI Index report?",
+          "options": [
+            "To rank AI startups for investment",
+            "To provide a comprehensive data-driven overview of AI capabilities, investment, and societal impact",
+            "To publish new AI model architectures",
+            "To certify AI practitioners for professional roles"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Stanford AI Index is an annual research report that tracks measurable progress in AI across multiple dimensions — capabilities, investment, adoption, ethics, and societal impact — based on data rather than opinion."
+        },
+        {
+          "question": "Which of the following is one of the headline areas tracked by the Stanford AI Index?",
+          "options": [
+            "Cryptocurrency market performance",
+            "AI benchmark performance trends",
+            "Social media engagement with AI content",
+            "Number of AI-themed movies produced"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI benchmark performance is a core tracking area in the Stanford AI Index, showing how quickly models are improving on standardized tests of reasoning, language, coding, and other capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-llm-releases-april-2026",
+      "type": "article",
+      "title": "Every Major LLM Release in April 2026: GPT-6, Llama 4, Gemini 3.1, and More",
+      "sourceUrl": "https://fazm.ai/blog/new-llm-releases-april-2026",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "April 2026 has been one of the most prolific months for AI model releases: OpenAI shipped GPT-6, Anthropic released Claude Opus and Sonnet 4.6, Google launched multiple Gemini 3.1 variants including a lightweight Flash-Lite, and Meta open-sourced Llama 4 with a 10 million token context window. Chinese labs also released large open-weight models competitive with leading proprietary offerings. This recap documents every major launch and explains the key technical differentiators of each.",
+      "keyConcepts": ["GPT-6", "Llama 4 Scout", "Gemini 3.1", "Claude Opus 4.6", "open-weight models", "context window scaling"],
+      "whyItMatters": "With this many major models shipping in a single month, practitioners need a clear map of the current model landscape to make informed decisions about which models to use for which tasks.",
+      "tags": ["llm-releases", "gpt-6", "llama-4", "gemini", "claude", "open-source-ai"],
+      "relatedIds": ["youtube-2E6O9zEw-kM", "youtube-jeA-KBv0b68"],
+      "knowledgeChecks": [
+        {
+          "question": "What notable context window size did Meta's Llama 4 Scout achieve at launch?",
+          "options": [
+            "128,000 tokens",
+            "1 million tokens",
+            "10 million tokens",
+            "100 million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's Llama 4 Scout launched with a 10 million token context window — the largest of any model released in April 2026 and a significant leap beyond what was available in previous open-weight models."
+        },
+        {
+          "question": "Which organization released GPT-6 in April 2026?",
+          "options": [
+            "Anthropic",
+            "Google",
+            "Meta",
+            "OpenAI"
+          ],
+          "correctIndex": 3,
+          "explanation": "GPT-6 was released by OpenAI as part of the broader wave of major model launches in April 2026, continuing the GPT series that began with GPT-1 in 2018."
+        }
+      ]
+    }
+  ]
+}
