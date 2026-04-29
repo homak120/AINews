@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-29T12:00:00.000Z",
+  "generatedAt": "2026-04-29T18:00:00.000Z",
   "weekOf": "2026-04-27",
   "coverageStart": "2026-04-22",
-  "coverageEnd": "2026-04-28",
+  "coverageEnd": "2026-04-29",
   "items": [
     {
       "id": "youtube-jeA-KBv0b68",
@@ -120,6 +120,44 @@
           ],
           "correctIndex": 1,
           "explanation": "While simulation results don't directly map to all real-world settings, the trajectory is clear — professionals who adapt their skills to work alongside AI effectively will be better positioned than those who wait."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-pro",
+      "type": "article",
+      "title": "DeepSeek Unveils V4 Pro Flagship With 1M-Token Context and Hybrid Attention Architecture",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "DeepSeek released V4 Pro, a 1.6-trillion-parameter Mixture-of-Experts model with 49 billion activated parameters and a 1 million token context window — large enough to process entire codebases in a single prompt. The model introduces a proprietary Hybrid Attention Architecture that improves recall across long conversations, and ships alongside the smaller V4 Flash variant. Benchmarks show top-tier performance in coding and reasoning tasks, positioning DeepSeek as a direct open-source challenger to OpenAI and Anthropic's frontier models.",
+      "keyConcepts": ["Mixture-of-Experts architecture", "1M-token context window", "Hybrid Attention Architecture", "open-source frontier models"],
+      "whyItMatters": "DeepSeek V4 Pro demonstrates that Chinese AI labs can ship frontier-class open-weight models at a fraction of the cost, intensifying global competition and putting downward pressure on proprietary API pricing across the industry.",
+      "tags": ["deepseek", "open-source-ai", "mixture-of-experts", "context-window", "ai-research", "chinese-ai"],
+      "relatedIds": ["article-llm-releases-april-2026", "youtube-2E6O9zEw-kM"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the context window size of DeepSeek V4 Pro at launch?",
+          "options": [
+            "128,000 tokens",
+            "500,000 tokens",
+            "1 million tokens",
+            "10 million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek V4 Pro launched with a 1 million token context window, allowing users to process entire codebases or very long documents in a single prompt."
+        },
+        {
+          "question": "What architectural technique does DeepSeek V4 Pro use to improve long-context recall?",
+          "options": [
+            "Ring Attention",
+            "Hybrid Attention Architecture",
+            "Flash Attention 3",
+            "Sparse Context Fusion"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek V4 Pro uses what the company calls Hybrid Attention Architecture, which they claim improves the model's ability to remember and attend to queries across long conversations."
         }
       ]
     },
