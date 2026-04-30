@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-30T12:00:00.000Z",
+  "generatedAt": "2026-04-30T18:00:00.000Z",
   "weekOf": "2026-04-27",
   "coverageStart": "2026-04-24",
-  "coverageEnd": "2026-04-29",
+  "coverageEnd": "2026-04-30",
   "items": [
     {
       "id": "youtube-UV1WDNe4J5w",
@@ -265,6 +265,93 @@
           ],
           "correctIndex": 3,
           "explanation": "YouTube is owned by Google/Alphabet, so its AI features are built on Google's own AI infrastructure and models — primarily Gemini — which underpins Google's generative AI products across Search, Maps, and YouTube."
+        }
+      ]
+    },
+    {
+      "id": "thenextweb-big-tech-q1-2026-ai-capex",
+      "type": "article",
+      "title": "Big Tech Commits $630–$650 Billion in AI Capex After Q1 2026 Earnings Beats",
+      "sourceUrl": "https://thenextweb.com/news/alphabet-amazon-meta-q1-2026-earnings-ai-cloud",
+      "verified": false,
+      "publishedAt": "2026-04-29",
+      "topics": ["ai-industry"],
+      "summary": "Microsoft, Alphabet, Meta, and Amazon each beat Q1 2026 estimates and raised 2026 AI infrastructure forecasts to a combined $630–$650 billion. Azure grew 40% and Google Cloud surged 63% year-over-year, with all four hyperscalers explicitly citing compute supply constraints — not weak demand — as the binding factor. The coordinated capex increase signals AI infrastructure investment has shifted from speculative buildout to demand-driven necessity.",
+      "keyConcepts": [
+        "hyperscaler AI capex",
+        "cloud revenue growth rates",
+        "compute supply constraints",
+        "Q1 2026 earnings beats"
+      ],
+      "whyItMatters": "When all four major cloud providers simultaneously raise AI infrastructure forecasts while reporting supply-constrained demand, it confirms AI compute is now a critical bottleneck — with direct consequences for GPU supply chains, data center timelines, and competitive positioning in enterprise AI.",
+      "tags": ["microsoft", "google", "meta", "amazon", "cloud-computing", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the combined 2026 AI capital expenditure commitment across Microsoft, Alphabet, Meta, and Amazon after Q1 2026 earnings?",
+          "options": [
+            "$100–$150 billion",
+            "$300–$400 billion",
+            "$630–$650 billion",
+            "Over $1 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "The four hyperscalers collectively committed $630–$650 billion in capital expenditure for 2026: Microsoft at $190B, Alphabet at $180–190B, Meta at $125–145B, and Amazon at approximately $200B — all raised from prior guidance."
+        },
+        {
+          "question": "What primary constraint did hyperscalers cite when discussing Q1 2026 AI cloud demand?",
+          "options": [
+            "Lack of enterprise customer interest in AI services",
+            "Software development bottlenecks in model deployment",
+            "Compute supply being insufficient to meet demand",
+            "Regulatory delays for new data center construction"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft, Alphabet, and Amazon all explicitly stated that AI cloud demand was supply-constrained — they could sell more capacity than they have built. This framing was consistent across all four earnings calls and drove the simultaneous capex increases."
+        }
+      ]
+    },
+    {
+      "id": "nature-human-scientists-vs-ai-agents-2026-04",
+      "type": "article",
+      "title": "Study: Human Scientists Still Outperform Top AI Agents on Complex Research Tasks",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-01199-z",
+      "verified": false,
+      "publishedAt": "2026-04-30",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-career"],
+      "summary": "A Nature-published study found that even the best frontier AI agents significantly underperformed human scientists on complex, open-ended research tasks requiring multi-step reasoning, experimental design, and domain intuition. The findings challenge narratives about AI imminently replacing scientific researchers and highlight specific gaps in agents' ability to handle ambiguity and form novel hypotheses. The authors emphasize AI remains a powerful research accelerator, but autonomous AI scientist timelines appear premature based on current evidence.",
+      "keyConcepts": [
+        "AI agent benchmarking",
+        "scientific research automation",
+        "human-AI capability comparison",
+        "frontier model limitations"
+      ],
+      "whyItMatters": "Understanding where frontier AI agents genuinely fall short of human scientists matters for calibrating which research tasks can be delegated to AI today — informing lab workflows, hiring decisions, and realistic expectations about timelines for AI-driven autonomous discovery.",
+      "tags": ["ai-research", "benchmarks", "ai-agents", "scientific-discovery", "human-ai", "frontier-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the main finding of the Nature study comparing AI agents to human scientists?",
+          "options": [
+            "AI agents matched human performance across all task types tested",
+            "AI agents outperformed humans on routine tasks but failed on creative ones only",
+            "Human scientists significantly outperformed the best AI agents on complex research tasks",
+            "Performance was equal once chain-of-thought prompting was applied"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Nature study found that human scientists significantly outperformed even the best frontier AI agents on complex, open-ended research tasks — particularly those requiring experimental design, novel hypothesis formation, and application of domain intuition."
+        },
+        {
+          "question": "What does this study imply about the appropriate role of AI agents in scientific research today?",
+          "options": [
+            "AI should be avoided in research settings due to unreliable outputs",
+            "AI can replace most researchers but not senior principal investigators",
+            "AI is a valuable research accelerator but not yet an autonomous replacement for human scientists",
+            "Only open-source AI models should be used in research contexts"
+          ],
+          "correctIndex": 2,
+          "explanation": "The study distinguishes AI as a powerful tool that accelerates human scientists versus fully autonomous AI scientists — the evidence supports the former while finding the latter remains premature, given agents' current gaps in handling open-ended scientific reasoning."
         }
       ]
     }
