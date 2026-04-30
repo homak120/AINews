@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-04-30T12:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-04-24",
+  "coverageEnd": "2026-04-29",
+  "items": [
+    {
+      "id": "youtube-UV1WDNe4J5w",
+      "type": "video",
+      "title": "DeepSeek V4 Just Dropped: Near-Frontier AI at a Fraction of the Cost",
+      "youtubeId": "UV1WDNe4J5w",
+      "sourceUrl": "https://www.youtube.com/watch?v=UV1WDNe4J5w",
+      "verified": false,
+      "publishedAt": "2026-04-27",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Matthew Berman reviews DeepSeek V4, the latest open-source model from the Chinese AI lab, which claims to close the gap with frontier models from OpenAI and Anthropic. The video walks through benchmark results showing strong math and coding performance enabled by a Mixture of Experts architecture. Berman notes these are early reports pending community validation, but the cost and capability story is already generating industry attention.",
+      "keyConcepts": [
+        "DeepSeek V4",
+        "Mixture of Experts architecture",
+        "open-source frontier AI",
+        "benchmark evaluation"
+      ],
+      "whyItMatters": "DeepSeek V4 suggests Chinese open-source AI labs can approach frontier proprietary model performance at far lower cost, intensifying global competition and expanding access to powerful AI capabilities.",
+      "tags": ["deepseek", "open-source", "llm", "china-ai", "mixture-of-experts", "benchmarks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural technique does DeepSeek V4 use to achieve efficiency at scale?",
+          "options": [
+            "Attention pooling across all tokens",
+            "Mixture of Experts (MoE) with selective parameter activation",
+            "Retrieval-augmented generation from a private corpus",
+            "Full quantization to 4-bit weights"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek V4 uses a Mixture of Experts (MoE) architecture that activates only a subset of parameters per query, enabling near-frontier performance at a fraction of the compute cost of dense models."
+        },
+        {
+          "question": "What does 'open weights' mean for an AI model like DeepSeek V4?",
+          "options": [
+            "The model is free to use via a public API only",
+            "Training data and safety evaluations are publicly auditable",
+            "The model's parameters are publicly downloadable and deployable",
+            "The model's architecture is described in an open research paper"
+          ],
+          "correctIndex": 2,
+          "explanation": "Open weights models release their trained parameters publicly, allowing developers and researchers to download, fine-tune, and deploy them independently, without depending on an external API provider."
+        }
+      ]
+    },
+    {
+      "id": "youtube-I3Wo-23WlQw",
+      "type": "video",
+      "title": "GPT-5.5 Release: What It Means for the AI Race",
+      "youtubeId": "I3Wo-23WlQw",
+      "sourceUrl": "https://www.youtube.com/watch?v=I3Wo-23WlQw",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID covers the release of OpenAI's GPT-5.5, which brings improved contextual understanding and enhanced coding and reasoning capabilities compared to GPT-5. The video examines how GPT-5.5 powers OpenAI's Codex coding agent on NVIDIA infrastructure and its strategic implications in the ongoing AI race against Anthropic and Google. GPT-5.5 is available to ChatGPT Plus subscribers and above.",
+      "keyConcepts": [
+        "GPT-5.5",
+        "OpenAI Codex agent",
+        "contextual understanding improvements",
+        "AI frontier competition"
+      ],
+      "whyItMatters": "GPT-5.5 pushes OpenAI's frontier position forward just as rivals like Anthropic's Claude Mythos and Google's latest agents compete for dominance, and its Codex integration makes it a direct tool for autonomous software development.",
+      "tags": ["gpt-5-5", "openai", "chatgpt", "codex", "ai-agents", "frontier-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's Codex agent as discussed in the context of GPT-5.5?",
+          "options": [
+            "A new image generation tool from OpenAI",
+            "An AI coding agent powered by GPT-5.5 for autonomous software work",
+            "A Python library for structuring prompts",
+            "An open-source GitHub Copilot alternative"
+          ],
+          "correctIndex": 1,
+          "explanation": "Codex is OpenAI's AI coding agent powered by GPT-5.5 that autonomously writes, reviews, and runs code, representing a significant step toward AI-driven software engineering deployed on NVIDIA infrastructure."
+        },
+        {
+          "question": "Which subscription tier grants access to GPT-5.5 in ChatGPT?",
+          "options": [
+            "Free tier users",
+            "Plus tier and above",
+            "Enterprise tier exclusively",
+            "API access only, unavailable in ChatGPT"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.5 was released to ChatGPT Plus subscribers and above, following OpenAI's standard tiered access model where frontier model capabilities reach paying subscribers before broader rollout."
+        }
+      ]
+    },
+    {
+      "id": "youtube-3ZGIw8tmlGs",
+      "type": "video",
+      "title": "This Week in AI: OpenAI GPT-6 Spud, Claude Conway Agent, GPT Image 2, Cursor 3, and More",
+      "youtubeId": "3ZGIw8tmlGs",
+      "sourceUrl": "https://www.youtube.com/watch?v=3ZGIw8tmlGs",
+      "verified": false,
+      "publishedAt": "2026-04-26",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "WorldofAI's weekly AI news roundup covers the most significant releases and announcements from a packed week, including OpenAI's upcoming Spud (GPT-6) model, Anthropic's new Claude Conway agent, GPT Image 2, Cursor 3, and Claude Code Ultra. The video also covers DeepSeek V4 running on Huawei chips and Qwen 3.6-Plus from Alibaba. It's a fast-paced overview of a remarkable week across the frontier AI landscape.",
+      "keyConcepts": [
+        "OpenAI GPT-6 Spud",
+        "Claude Conway agentic model",
+        "GPT Image 2",
+        "weekly AI landscape overview"
+      ],
+      "whyItMatters": "The density of AI releases in a single week in April 2026 — spanning models, agents, tools, and hardware — illustrates why practitioners need structured weekly overviews just to stay oriented with the pace of development.",
+      "tags": ["openai", "anthropic", "weekly-recap", "ai-news", "gpt-6", "claude-code"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'OpenAI Spud' as referenced in this weekly recap?",
+          "options": [
+            "OpenAI's new image generation product",
+            "OpenAI's internal codename for its next-generation GPT-6 model",
+            "A plugin for GPT-5.5 specialized in data pipelines",
+            "An open-source alternative to OpenAI built by the community"
+          ],
+          "correctIndex": 1,
+          "explanation": "Spud is the internal codename for OpenAI's forthcoming GPT-6 model, previewed in developer circles and generating significant anticipation given GPT-5.5's recent strong reception."
+        },
+        {
+          "question": "Which company released the Conway agentic model mentioned in this video?",
+          "options": [
+            "OpenAI",
+            "Google DeepMind",
+            "Anthropic",
+            "Mistral AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Conway is Anthropic's new agentic model, expanding Claude's ability to autonomously plan and execute complex multi-step tasks across tools and long-horizon workflows."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-openai-aws-microsoft-exclusivity-2026-04-29",
+      "type": "article",
+      "title": "OpenAI Expands to AWS as Microsoft's Seven-Year Exclusivity Era Ends",
+      "sourceUrl": "https://www.cnbc.com/2026/04/29/openai-drift-from-microsoft-to-amazon-turns-aggressive-after-subtlety.html",
+      "verified": false,
+      "publishedAt": "2026-04-29",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI ended its seven-year cloud exclusivity arrangement with Microsoft, immediately making GPT-5.5 and GPT-5.4 available on Amazon Bedrock. Microsoft loses its exclusive IP license and revenue share from OpenAI, while Azure retains 'primary' cloud partner status through 2032. The move represents OpenAI's most aggressive pivot yet toward multi-cloud distribution and away from its founding dependency on Microsoft infrastructure.",
+      "keyConcepts": [
+        "cloud exclusivity agreements",
+        "multi-cloud AI distribution",
+        "Amazon Bedrock integration",
+        "OpenAI partnership restructuring"
+      ],
+      "whyItMatters": "OpenAI's move to multi-cloud means frontier AI models are no longer gated by single-cloud partnerships, intensifying hyperscaler competition and expanding access to GPT-5.5-class capabilities for all AWS customers.",
+      "tags": ["openai", "amazon-aws", "microsoft", "cloud-computing", "bedrock", "gpt-5-5"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "After the Microsoft exclusivity restructuring, where did OpenAI's models first become available?",
+          "options": [
+            "Google Cloud Vertex AI",
+            "Oracle Cloud Infrastructure",
+            "Amazon Bedrock",
+            "IBM watsonx"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's models (GPT-5.5 and GPT-5.4) became available on Amazon Bedrock the day after the Microsoft exclusivity deal was restructured, marking OpenAI's first major expansion beyond Azure."
+        },
+        {
+          "question": "What does Microsoft retain under the new restructured OpenAI deal?",
+          "options": [
+            "Exclusive rights to all future OpenAI model releases",
+            "Azure's status as OpenAI's 'primary' cloud partner through 2032",
+            "Revenue share payments from OpenAI's API sales",
+            "Veto rights over OpenAI's new cloud partnerships"
+          ],
+          "correctIndex": 1,
+          "explanation": "Under the restructured deal, Azure remains OpenAI's 'primary' cloud partner through 2032, but the unilateral exclusivity that defined the original partnership since 2019 is gone."
+        }
+      ]
+    },
+    {
+      "id": "nvidia-nemotron-3-nano-omni-2026-04-29",
+      "type": "article",
+      "title": "NVIDIA Launches Nemotron 3 Nano Omni: Open Multimodal AI for Vision, Audio, and Language",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+      "verified": false,
+      "publishedAt": "2026-04-29",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "NVIDIA launched Nemotron 3 Nano Omni, a 30B Mixture of Experts open model that unifies vision, speech, and language processing into a single system capable of handling video, audio, images, and text simultaneously. The model activates only 3 billion parameters per token and runs on 25GB of RAM, delivering up to 9x higher throughput than comparable open omni models. It tops six leaderboards for complex document intelligence and video/audio understanding tasks.",
+      "keyConcepts": [
+        "multimodal AI agents",
+        "Mixture of Experts efficiency",
+        "open model benchmarks",
+        "NVIDIA Nemotron architecture"
+      ],
+      "whyItMatters": "Nemotron 3 Nano Omni makes enterprise-grade multimodal AI — capable of processing documents, video, and audio simultaneously — accessible without data center-scale compute, significantly lowering the barrier to agentic deployment.",
+      "tags": ["nvidia", "nemotron", "multimodal", "open-source", "ai-agents", "mixture-of-experts"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does Nemotron 3 Nano Omni activate per token during inference?",
+          "options": [
+            "30 billion (all parameters, fully dense)",
+            "10 billion",
+            "3 billion (MoE sparse activation)",
+            "500 million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Despite having 30 billion total parameters, Nemotron 3 Nano Omni uses Mixture of Experts to activate only 3 billion parameters per token, achieving high efficiency that lets it run on just 25GB of RAM."
+        },
+        {
+          "question": "What distinguishes a 'multimodal' AI model from a standard language model?",
+          "options": [
+            "It supports text in multiple spoken languages",
+            "It runs multiple specialized models in parallel for each modality",
+            "It processes and reasons across diverse data types — text, images, audio, and video — in one system",
+            "It has multiple fine-tuned variants for different industry tasks"
+          ],
+          "correctIndex": 2,
+          "explanation": "A multimodal model understands and reasons across different types of input — text, images, audio, and video — within a single unified system, rather than requiring separate specialized models for each modality."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-youtube-ai-search-2026-04-28",
+      "type": "article",
+      "title": "YouTube Tests AI-Powered Search That Generates Guided Answers for Queries",
+      "sourceUrl": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "YouTube is testing an AI-powered search feature that generates synthesized, guided answers alongside traditional video search results, allowing users to get direct responses to queries without watching multiple videos. The feature is being rolled out to select users as part of Google's broader push to embed generative AI into its core products. This move comes amid industry-wide disruption of traditional search behavior by AI-native tools.",
+      "keyConcepts": [
+        "AI-powered search UI",
+        "generative answers in search",
+        "content discovery disruption",
+        "Google AI product integration"
+      ],
+      "whyItMatters": "YouTube's AI search could shift how users discover video content at massive scale — reducing per-video views while changing creator monetization dynamics and concentrating even more search behavior within the Google ecosystem.",
+      "tags": ["youtube", "ai-search", "google", "generative-ai", "search-ux", "content-discovery"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does YouTube's new AI search differ from its standard search results?",
+          "options": [
+            "It only returns YouTube Shorts under 60 seconds",
+            "It ranks videos by creator subscriber count instead of relevance",
+            "It generates synthesized guided answers alongside traditional video results",
+            "It requires voice input to activate the AI layer"
+          ],
+          "correctIndex": 2,
+          "explanation": "YouTube's AI search generates synthesized, guided answers directly on the search results page, similar to how AI-powered web search works, allowing users to get direct responses without clicking into individual videos."
+        },
+        {
+          "question": "Which company's AI infrastructure powers YouTube's new AI search feature?",
+          "options": [
+            "Microsoft (Azure AI / Copilot)",
+            "Amazon (AWS Bedrock)",
+            "Anthropic (Claude)",
+            "Google (Gemini / Google AI)"
+          ],
+          "correctIndex": 3,
+          "explanation": "YouTube is owned by Google/Alphabet, so its AI features are built on Google's own AI infrastructure and models — primarily Gemini — which underpins Google's generative AI products across Search, Maps, and YouTube."
+        }
+      ]
+    }
+  ]
+}
