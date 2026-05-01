@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-05-01T14:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-04-08",
+  "coverageEnd": "2026-04-30",
+  "items": [
+    {
+      "id": "youtube--01ZCTt-CJw",
+      "type": "video",
+      "title": "Google's Gemma 4: Open-Source AI Models That Run Fully Offline",
+      "youtubeId": "-01ZCTt-CJw",
+      "sourceUrl": "https://www.youtube.com/watch?v=-01ZCTt-CJw",
+      "verified": false,
+      "publishedAt": "2026-04-08",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Fireship covers Google's Gemma 4 release, a family of open-source models built from the same research as Gemini 3 and shipped under the permissive Apache 2.0 license. Models are compact enough to run on a consumer GPU, phone, or Raspberry Pi without internet access, bringing near-frontier intelligence fully offline. The video breaks down TurboQuant, Google's KV-cache compression technique that makes running large models on consumer hardware practical.",
+      "keyConcepts": [
+        "Gemma 4 open weights",
+        "Apache 2.0 licensing",
+        "TurboQuant KV-cache compression",
+        "offline AI inference"
+      ],
+      "whyItMatters": "Gemma 4 shifts open-source AI from a 'download and hope' experience to a commercially-free, consumer-hardware-viable tool, making it possible for any developer to run near-frontier AI locally without API costs or data-privacy trade-offs.",
+      "tags": ["gemma-4", "open-source-ai", "google-deepmind", "offline-inference", "quantization", "llm"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What license is Gemma 4 released under?",
+          "options": [
+            "MIT License",
+            "Apache 2.0 License",
+            "Creative Commons CC-BY-NC",
+            "Proprietary research-only license"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google released Gemma 4 under the Apache 2.0 license, granting developers full commercial freedom to build, fine-tune, and deploy applications without royalties or restrictions."
+        },
+        {
+          "question": "What problem does TurboQuant solve in large language models?",
+          "options": [
+            "It speeds up tokenization of long prompts",
+            "It reduces the memory overhead of the KV cache during inference",
+            "It compresses training data for faster fine-tuning",
+            "It optimizes attention heads for multimodal inputs"
+          ],
+          "correctIndex": 1,
+          "explanation": "TurboQuant is Google's quantization algorithm targeting the KV cache — one of the biggest memory bottlenecks during inference — allowing larger models to run within the RAM constraints of consumer GPUs."
+        }
+      ]
+    },
+    {
+      "id": "youtube-a4hdPWSUzsE",
+      "type": "video",
+      "title": "Anthropic Bans OpenClaw: What It Means for Developers Building on Claude",
+      "youtubeId": "a4hdPWSUzsE",
+      "sourceUrl": "https://www.youtube.com/watch?v=a4hdPWSUzsE",
+      "verified": false,
+      "publishedAt": "2026-02-20",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Matthew Berman covers Anthropic's decision to ban OpenClaw from using OAuth tokens obtained through Claude consumer subscriptions, citing violations of its consumer terms of service. Berman explains how this move immediately backfired as OpenAI embraced OpenClaw, drawing developers away from Anthropic's ecosystem. The video dissects what the ban signals about Anthropic's developer platform strategy versus its compute-constrained reality.",
+      "keyConcepts": [
+        "Anthropic usage policy enforcement",
+        "OpenClaw third-party integration",
+        "OAuth consumer token restrictions",
+        "developer platform strategy"
+      ],
+      "whyItMatters": "Anthropic's decision to block OpenClaw highlights the tension between its safety-driven business model and developer relations — a problem that worsened as compute shortages pushed the company to tighten access just as OpenAI moved to welcome the same tools.",
+      "tags": ["anthropic", "openclaw", "claude-api", "developer-tools", "platform-policy", "openai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Anthropic ban OpenClaw from using Claude subscriptions?",
+          "options": [
+            "OpenClaw was building a competing AI model",
+            "OpenClaw exceeded API rate limits for free users",
+            "OpenClaw used OAuth tokens from consumer subscriptions in violation of Anthropic's terms",
+            "OpenClaw was sharing user prompts with third parties"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic banned OpenClaw for leveraging OAuth tokens acquired through consumer Claude subscriptions to enable agentic workflows, which violated the consumer product terms of service that restrict non-personal use."
+        },
+        {
+          "question": "What was the strategic consequence of Anthropic banning OpenClaw?",
+          "options": [
+            "OpenClaw was forced to shut down entirely",
+            "OpenAI embraced OpenClaw, driving developer migration away from Claude",
+            "Anthropic gained significant new enterprise customers",
+            "OpenClaw migrated to an open-source model and avoided API dependency"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI took the opposite stance by openly embracing OpenClaw's integration with its platform, turning Anthropic's enforcement action into a PR and developer-acquisition win for OpenAI."
+        }
+      ]
+    },
+    {
+      "id": "youtube-BuYGFhkiPLI",
+      "type": "video",
+      "title": "Microsoft CEO: AGI Milestone Claims Are 'Nonsensical Benchmark Hacking'",
+      "youtubeId": "BuYGFhkiPLI",
+      "sourceUrl": "https://www.youtube.com/watch?v=BuYGFhkiPLI",
+      "verified": false,
+      "publishedAt": "2026-02-01",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID examines Satya Nadella's provocative dismissal of AI lab AGI milestone announcements as 'nonsensical benchmark hacking,' arguing that meaningful AGI must be measured by real-world economic outcomes rather than lab scores. Nadella proposed that consistent 10% year-on-year economic growth is the only credible AGI benchmark, while simultaneously criticizing the industry's 'overbuild' of AI infrastructure disconnected from actual productivity gains. The video contextualizes Nadella's view alongside the broader expert debate on AGI definitions.",
+      "keyConcepts": [
+        "AGI definition debate",
+        "economic growth as AI benchmark",
+        "benchmark hacking critique",
+        "AI infrastructure overbuild"
+      ],
+      "whyItMatters": "Nadella's redefinition of AGI from academic benchmarks to economic outcomes reframes the entire AI race narrative — prioritizing real-world value delivery over headline benchmark wins and signaling that enterprise customers are increasingly skeptical of capability claims unsupported by productivity data.",
+      "tags": ["agi", "satya-nadella", "microsoft", "ai-benchmarks", "ai-governance", "economic-impact"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Satya Nadella, what is the most meaningful measure of true AGI?",
+          "options": [
+            "Achieving over 90% accuracy on MMLU",
+            "Passing a blind Turing Test with human evaluators",
+            "Producing consistent 10% year-on-year economic growth",
+            "Solving at least three unsolved millennium math problems"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nadella argues that the real test of AGI is not benchmark performance but economic impact — specifically, whether AI's deployment translates into sustained 10% annual economic growth across the broader economy."
+        },
+        {
+          "question": "What does Nadella's 'overbuild' critique refer to in the context of AI?",
+          "options": [
+            "AI models having too many parameters relative to task needs",
+            "Excessive AI infrastructure investment disconnected from real-world value creation",
+            "Too many competing AI companies building redundant models",
+            "Data centers consuming more energy than technically necessary"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nadella's 'overbuild' critique targets the mismatch between massive AI infrastructure spending and the limited tangible productivity improvements seen by enterprise customers — arguing the industry is building capacity ahead of demonstrated demand."
+        }
+      ]
+    },
+    {
+      "id": "openai-introducing-gpt-5-5-2026-04-23",
+      "type": "article",
+      "title": "OpenAI Launches GPT-5.5: An Agentic-First Model That Narrowly Tops Claude Mythos on Benchmarks",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-5/",
+      "verified": false,
+      "publishedAt": "2026-04-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI released GPT-5.5, its first fully retrained base model since GPT-4.5, rebuilt around agentic capabilities that let the model independently interpret problems and autonomously execute multi-step tasks with minimal prompting. The model narrowly beats Anthropic's gated Claude Mythos Preview on Terminal-Bench 2.0 despite Mythos being available to only 11 organizations. GPT-5.5 is rolling out to ChatGPT Plus, Pro, Business, and Enterprise subscribers at $30 per million output tokens.",
+      "keyConcepts": [
+        "agentic AI architecture",
+        "Terminal-Bench 2.0",
+        "multi-step autonomous task execution",
+        "frontier model pricing"
+      ],
+      "whyItMatters": "GPT-5.5's agentic redesign marks a concrete shift from AI as a question-answering tool to AI as an autonomous task executor — directly competing with Claude Mythos on the cybersecurity and software engineering capabilities that enterprise customers most care about.",
+      "tags": ["gpt-5-5", "openai", "agentic-ai", "llm-release", "terminal-bench", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What benchmark does OpenAI use to show GPT-5.5's agentic capability advantage?",
+          "options": [
+            "SWE-bench Verified",
+            "HumanEval Plus",
+            "Terminal-Bench 2.0",
+            "GPQA Diamond"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI cites Terminal-Bench 2.0 — a benchmark testing agentic performance on terminal and long-horizon coding tasks — where GPT-5.5 narrowly beats Anthropic's Claude Mythos Preview, despite Mythos being significantly more restricted in access."
+        },
+        {
+          "question": "How does GPT-5.5's output token pricing compare to Claude Opus 4.7?",
+          "options": [
+            "GPT-5.5 is cheaper at $20 per million output tokens",
+            "GPT-5.5 costs $30 per million, while Opus 4.7 costs $25 per million",
+            "Both are identically priced at $25 per million output tokens",
+            "GPT-5.5 is enterprise-only with custom pricing"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.5 is priced at $30 per million output tokens compared to Claude Opus 4.7's $25 per million. OpenAI argues that GPT-5.5's speed advantages and agentic efficiency reduce total compute cost even at the higher per-token rate."
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-opus-4-7-launch-2026-04-16",
+      "type": "article",
+      "title": "Anthropic Releases Claude Opus 4.7: Frontier Capability Without the Mythos Restrictions",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+      "verified": false,
+      "publishedAt": "2026-04-16",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Anthropic released Claude Opus 4.7 as its most powerful generally available model, achieving 64.3% on SWE-bench Pro and 94.2% on GPQA Diamond. Positioned as the production-accessible sibling to the gated Mythos preview, Opus 4.7 is designed for software engineering, complex reasoning, and instruction-following at scale. It is priced at $25 per million output tokens and $5 per million input tokens, available via the Anthropic API and Claude.ai.",
+      "keyConcepts": [
+        "SWE-bench Pro software engineering benchmark",
+        "GPQA Diamond reasoning evaluation",
+        "production frontier model deployment",
+        "Anthropic model access tiers"
+      ],
+      "whyItMatters": "Claude Opus 4.7 gives developers access to Anthropic's strongest commercially available capabilities without requiring the special partnership access that Mythos demands, making it the practical choice for teams building high-stakes AI applications today.",
+      "tags": ["claude-opus-4-7", "anthropic", "llm-release", "swe-bench", "ai-safety", "frontier-model"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What score did Claude Opus 4.7 achieve on SWE-bench Pro?",
+          "options": [
+            "44.3%",
+            "54.3%",
+            "64.3%",
+            "74.3%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Opus 4.7 achieved 64.3% on SWE-bench Pro, a rigorous benchmark testing automated software engineering on real open-source repositories — including bug fixes, feature additions, and refactors from actual developer issue queues."
+        },
+        {
+          "question": "Why does Anthropic keep Mythos gated while releasing Opus 4.7 publicly?",
+          "options": [
+            "Mythos is still in training and not production-ready",
+            "Mythos can autonomously discover security vulnerabilities at scale, requiring controlled access",
+            "Mythos is reserved for Anthropic's internal products only",
+            "Mythos is too expensive to offer commercially at this time"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic gated Mythos because it demonstrated the ability to autonomously discover thousands of zero-day vulnerabilities across major operating systems and browsers — capabilities that carry serious dual-use risks if made broadly accessible."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-google-40b-anthropic-2026-04-24",
+      "type": "article",
+      "title": "Google Commits Up to $40 Billion to Anthropic at a $380 Billion Valuation",
+      "sourceUrl": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry"],
+      "summary": "Google announced plans to invest up to $40 billion in Anthropic, beginning with a $10 billion initial tranche at a $380 billion valuation, with the remaining $30 billion contingent on performance milestones. The deal includes Google Cloud committing 5 gigawatts of compute capacity over five years, making compute access as central to the partnership as capital. The announcement landed the same day OpenAI released GPT-5.5, intensifying the rivalry across all three frontier AI labs.",
+      "keyConcepts": [
+        "AI company valuations",
+        "cloud compute access agreements",
+        "hyperscaler AI investment strategy",
+        "Google-Anthropic partnership structure"
+      ],
+      "whyItMatters": "At a $380 billion valuation, Anthropic's deal with Google signals that frontier AI development requires hyperscaler-scale compute commitments — not just equity — and that Google is willing to pay to ensure Anthropic remains firmly in its cloud orbit rather than defaulting to AWS.",
+      "tags": ["google", "anthropic", "ai-investment", "venture-capital", "google-cloud", "compute"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's implied valuation in the Google $40 billion investment deal?",
+          "options": [
+            "$40 billion",
+            "$180 billion",
+            "$380 billion",
+            "$500 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's $10 billion initial investment in Anthropic was made at a $380 billion valuation, reflecting the market's expectation of Anthropic's central role in the frontier AI race despite its smaller scale compared to OpenAI or Google's internal AI divisions."
+        },
+        {
+          "question": "Beyond cash, what did Google commit to Anthropic as part of the investment deal?",
+          "options": [
+            "Exclusive use of Google's proprietary training datasets",
+            "5 gigawatts of Google Cloud compute capacity over five years",
+            "Distribution through Android and Chrome for Claude products",
+            "Priority access to Google's TPU hardware roadmap"
+          ],
+          "correctIndex": 1,
+          "explanation": "The deal includes Google Cloud committing 5 gigawatts of compute capacity over five years to Anthropic, underscoring that in frontier AI, infrastructure access is as strategically significant as the capital investment itself."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-gpt-5-5-cyber-restricted-2026-04-30",
+      "type": "article",
+      "title": "OpenAI Restricts GPT-5.5-Cyber Rollout After Criticizing Anthropic for Gating Mythos",
+      "sourceUrl": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "verified": false,
+      "publishedAt": "2026-04-30",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI began a restricted rollout of GPT-5.5-Cyber — a cybersecurity-focused model capable of identifying vulnerabilities at scale — to select 'critical cyber defenders' under its Trusted Access Program, just days after publicly criticizing Anthropic for limiting access to its similarly powerful Mythos model. Both companies now operate essentially equivalent gatekeeping frameworks for their most powerful cybersecurity AI, despite OpenAI's earlier positioning that Anthropic's restrictions were excessive. Sam Altman confirmed the rollout would reach vetted defenders 'within days.'",
+      "keyConcepts": [
+        "dual-use AI risks in cybersecurity",
+        "trusted access programs",
+        "GPT-5.5-Cyber capabilities",
+        "AI vulnerability discovery at scale"
+      ],
+      "whyItMatters": "Both OpenAI and Anthropic independently arriving at equivalent access restrictions for their cybersecurity-capable AI suggests an emerging industry norm: the most powerful offensive-security AI will be gated behind vetting processes, creating a class of 'licensed AI' that shapes who can access frontier capabilities.",
+      "tags": ["gpt-5-5-cyber", "openai", "ai-safety", "cybersecurity", "anthropic-mythos", "restricted-access"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What program does OpenAI use to distribute GPT-5.5-Cyber to authorized users?",
+          "options": [
+            "OpenAI Verified Defenders Initiative",
+            "Trusted Access Program",
+            "Cyber Shield Alliance",
+            "Critical Infrastructure Partnership"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's Trusted Access Program is its vetting framework for distributing highly capable cybersecurity models like GPT-5.5-Cyber to authorized 'critical cyber defenders' while preventing broader access that could enable offensive misuse."
+        },
+        {
+          "question": "What is ironic about OpenAI's restricted rollout of GPT-5.5-Cyber?",
+          "options": [
+            "OpenAI released it for free while all other models require payment",
+            "OpenAI had publicly criticized Anthropic for gating Mythos, then implemented equivalent access controls",
+            "OpenAI promised open-source access but required a paid enterprise subscription",
+            "OpenAI gave early access to competitors but not its own Plus subscribers"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI publicly positioned Anthropic's access restrictions on Mythos as excessive, then launched GPT-5.5-Cyber with nearly identical controls — highlighting that both labs independently concluded that responsible deployment of powerful cybersecurity AI requires the same gatekeeping they had criticized each other for."
+        }
+      ]
+    }
+  ]
+}
