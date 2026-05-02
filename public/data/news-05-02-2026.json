@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-02T12:00:00.000Z",
+  "generatedAt": "2026-05-02T18:00:00.000Z",
   "weekOf": "2026-04-27",
   "coverageStart": "2026-04-24",
-  "coverageEnd": "2026-05-01",
+  "coverageEnd": "2026-05-02",
   "items": [
     {
       "id": "youtube-jeA-KBv0b68",
@@ -274,6 +274,44 @@
           ],
           "correctIndex": 2,
           "explanation": "Atlassian announced a 10% workforce reduction (around 1,600 people) in March 2026, explicitly stating the move was to free up resources for AI investments and enterprise sales."
+        }
+      ]
+    },
+    {
+      "id": "article-stanford-ai-index-2026",
+      "type": "article",
+      "title": "Stanford AI Index 2026: SWE-Bench Hits ~100%, Adoption at 88%, Transparency Falls",
+      "sourceUrl": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+      "verified": false,
+      "publishedAt": "2026-05-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Stanford HAI's 2026 AI Index report documents AI's rapid transition from research to pervasive infrastructure: SWE-bench Verified scores climbed from 60% to nearly 100% in a single year, organizational AI adoption reached 88%, and generative AI hit 53% population adoption faster than the internet did. Despite these gains, the Foundation Model Transparency Index dropped from 58 to 40 points, documented AI incidents rose to 362, and only 33% of Americans expect AI to improve their jobs. The U.S. leads China 23-to-1 in private AI investment, yet the two nations are trading benchmark leads.",
+      "keyConcepts": ["AI adoption benchmarks", "SWE-bench performance", "foundation model transparency", "AI economic value", "U.S.-China AI competition"],
+      "whyItMatters": "The Stanford AI Index is the definitive annual measurement of AI's real-world progress — the combination of near-perfect coding benchmarks, falling transparency scores, and accelerating workforce disruption creates an urgent backdrop for every AI engineering and career decision in 2026.",
+      "tags": ["stanford-hai", "ai-index", "ai-research", "benchmarks", "transparency", "ai-adoption"],
+      "relatedIds": ["article-ai-job-displacement", "article-anthropic-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "What happened to SWE-bench Verified scores between 2025 and 2026 according to the Stanford AI Index?",
+          "options": [
+            "They remained flat at around 60%",
+            "They declined as benchmarks became harder",
+            "They climbed from 60% to nearly 100%",
+            "They reached 50% for the first time"
+          ],
+          "correctIndex": 2,
+          "explanation": "SWE-bench Verified — which tests AI's ability to resolve real GitHub issues — jumped from roughly 60% to nearly 100% accuracy in a single year, reflecting dramatic gains in AI coding ability."
+        },
+        {
+          "question": "What trend did the 2026 Stanford AI Index observe in foundation model transparency?",
+          "options": [
+            "Transparency scores improved significantly due to new regulations",
+            "The Foundation Model Transparency Index average dropped from 58 to 40 points",
+            "All major labs achieved full transparency scores",
+            "Transparency became irrelevant as open-source models dominated"
+          ],
+          "correctIndex": 1,
+          "explanation": "Despite growing AI adoption, average Foundation Model Transparency Index scores fell from 58 to 40 points — meaning leading AI labs are sharing less information about their models even as those models become more consequential."
         }
       ]
     }
