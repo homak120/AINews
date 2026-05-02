@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-05-02T12:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-04-24",
+  "coverageEnd": "2026-05-01",
+  "items": [
+    {
+      "id": "youtube-jeA-KBv0b68",
+      "type": "video",
+      "title": "Claude Gets a New Superpower: Anthropic's Latest Feature Explained",
+      "youtubeId": "jeA-KBv0b68",
+      "sourceUrl": "https://www.youtube.com/watch?v=jeA-KBv0b68",
+      "verified": false,
+      "publishedAt": "2026-04-25",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Fireship covers Anthropic's latest capability addition to Claude, breaking down what the new 'superpower' means for developers and power users. The video delivers Fireship's trademark rapid-fire technical overview of the update's practical implications. Coverage focuses on a significant new Claude feature that Anthropic announced in late April 2026.",
+      "keyConcepts": ["Claude capabilities", "Anthropic product updates", "LLM feature releases", "developer tools"],
+      "whyItMatters": "Anthropic is shipping major capability upgrades to Claude at an accelerating pace, and staying current with these changes directly affects what AI engineers and builders can accomplish.",
+      "tags": ["claude", "anthropic", "llm-features", "ai-tools", "model-capabilities", "fireship"],
+      "relatedIds": ["article-anthropic-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "Fireship is known primarily for covering AI from which perspective?",
+          "options": [
+            "Academic research papers",
+            "Developer and engineering tooling",
+            "Business strategy and M&A",
+            "Government policy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fireship focuses on developer-centric AI coverage — tooling, APIs, and practical engineering applications — making it especially popular with software engineers."
+        },
+        {
+          "question": "When Anthropic releases a new Claude capability, where can developers typically access it first?",
+          "options": [
+            "Only through Claude.ai consumer app",
+            "Via the Anthropic API and developer console",
+            "Exclusively through enterprise contracts",
+            "Only after a six-month review period"
+          ],
+          "correctIndex": 1,
+          "explanation": "New Claude capabilities are typically exposed through the Anthropic API first, allowing developers to integrate and test them before broader consumer rollout."
+        }
+      ]
+    },
+    {
+      "id": "youtube-M2-hytpxccg",
+      "type": "video",
+      "title": "Where the Economy Thrives After AI",
+      "youtubeId": "M2-hytpxccg",
+      "sourceUrl": "https://www.youtube.com/watch?v=M2-hytpxccg",
+      "verified": false,
+      "publishedAt": "2026-04-27",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "The AI Daily Brief analyzes which economic sectors and job categories are positioned to grow rather than shrink in the AI era, drawing on emerging labor market data from 2026. The video examines Vanguard's finding that occupations most exposed to AI automation are actually showing stronger job growth and wage increases. It offers a nuanced, evidence-based look at where human work remains economically valuable.",
+      "keyConcepts": ["AI economic impact", "labor market transformation", "automation resilience", "sector-level AI effects"],
+      "whyItMatters": "Contrary to simple displacement narratives, new data suggests AI is creating complex and uneven labor market effects — understanding these patterns helps professionals make better career and skills investments.",
+      "tags": ["ai-economy", "workforce", "automation", "labor-market", "economic-impact", "ai-daily-brief"],
+      "relatedIds": ["article-ai-job-displacement"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Vanguard's 2026 economic forecast, what is happening to occupations most exposed to AI automation?",
+          "options": [
+            "They are disappearing fastest",
+            "They show no change in employment",
+            "They are outperforming other jobs in growth and wages",
+            "They are shifting entirely to part-time roles"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vanguard found that the ~100 occupations most exposed to AI automation are actually outperforming the rest of the labor market in job growth and real wage increases — suggesting AI exposure creates demand for workers who can collaborate effectively with AI."
+        },
+        {
+          "question": "Which organization found that 40% of employers anticipate reducing their workforce due to AI automation by 2030?",
+          "options": [
+            "McKinsey Global Institute",
+            "World Economic Forum",
+            "OECD",
+            "International Monetary Fund"
+          ],
+          "correctIndex": 1,
+          "explanation": "The World Economic Forum survey found that 40% of employers anticipate reducing headcount in areas where AI can automate tasks between 2025 and 2030."
+        }
+      ]
+    },
+    {
+      "id": "youtube-VnwbsGvUmZA",
+      "type": "video",
+      "title": "Swarms of AI Agents Have Been Unleashed",
+      "youtubeId": "VnwbsGvUmZA",
+      "sourceUrl": "https://www.youtube.com/watch?v=VnwbsGvUmZA",
+      "verified": false,
+      "publishedAt": "2026-05-01",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Wes Roth covers the latest wave of multi-agent AI deployments, where large numbers of coordinated AI agents work in parallel to complete complex tasks that were previously intractable for single models. The video examines key frameworks and real-world deployments enabling agent swarms in production environments. This shift from single-agent pipelines to distributed architectures is reshaping how AI systems are built.",
+      "keyConcepts": ["multi-agent systems", "AI orchestration", "agent swarms", "agentic frameworks", "production AI"],
+      "whyItMatters": "Agent swarm architectures represent the current frontier in AI engineering and require new design patterns, monitoring strategies, and safety considerations that developers need to understand now.",
+      "tags": ["ai-agents", "multi-agent", "swarms", "agentic-ai", "orchestration", "wes-roth"],
+      "relatedIds": ["article-openai-gpt55"],
+      "knowledgeChecks": [
+        {
+          "question": "What is a primary advantage of multi-agent AI swarms over a single large model?",
+          "options": [
+            "Lower computational costs in all cases",
+            "Ability to parallelize tasks across specialized agents",
+            "Simpler debugging and observability",
+            "Elimination of hallucination errors"
+          ],
+          "correctIndex": 1,
+          "explanation": "Multi-agent swarms excel at parallelizing complex tasks by distributing work across specialized agents, enabling faster completion of work that a single model would handle sequentially."
+        },
+        {
+          "question": "Which of the following is a key engineering challenge introduced by multi-agent AI systems?",
+          "options": [
+            "Reduced need for compute resources",
+            "Simpler prompting requirements",
+            "Coordinating state and context between agents",
+            "Elimination of model fine-tuning"
+          ],
+          "correctIndex": 2,
+          "explanation": "Coordinating shared state, context, and task handoffs between multiple agents is one of the primary engineering challenges in building reliable multi-agent systems."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt55",
+      "type": "article",
+      "title": "OpenAI Releases GPT-5.5 with Advanced Coding and Agentic Capabilities",
+      "sourceUrl": "https://www.knightli.com/en/2026/04/24/openai-gpt-5-5-release/",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI launched GPT-5.5 on April 23-24, 2026, with major gains in agentic coding, computer use, knowledge work, and early scientific research. The model accepts complex multi-part tasks and autonomously plans, uses tools, checks its own work, and navigates ambiguity to completion. GPT-5.5 is rolling out to Plus, Pro, Business, and Enterprise users across ChatGPT and Codex, with a Pro variant for power users.",
+      "keyConcepts": ["GPT-5.5", "agentic coding", "autonomous AI task completion", "OpenAI Codex", "multi-step reasoning"],
+      "whyItMatters": "GPT-5.5's agentic capabilities mark a significant shift from AI assistance to autonomous task execution, changing the baseline for what AI engineers should expect from frontier models.",
+      "tags": ["openai", "gpt-5-5", "agentic-ai", "coding", "llm-release", "ai-models"],
+      "relatedIds": ["youtube-VnwbsGvUmZA", "article-anthropic-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes GPT-5.5's approach to complex tasks compared to earlier models?",
+          "options": [
+            "It requires detailed step-by-step instructions for every task",
+            "It only handles single-turn conversations",
+            "It can autonomously plan, use tools, and navigate ambiguity across multi-step tasks",
+            "It focuses exclusively on text generation without tool use"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-5.5 is designed to take messy, multi-part tasks and autonomously plan, use tools, check its own work, and navigate through ambiguity — a significant agentic capability leap over previous models."
+        },
+        {
+          "question": "GPT-5.5 was integrated with which OpenAI coding product at launch?",
+          "options": [
+            "GitHub Copilot",
+            "Codex",
+            "ChatGPT Plugins",
+            "OpenAI Canvas"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.5 powers OpenAI's Codex product, enhancing its ability to handle complex, multi-step coding and software engineering tasks autonomously."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-mythos",
+      "type": "article",
+      "title": "Anthropic Releases Claude Mythos Preview with Restricted Access Due to Cybersecurity Risks",
+      "sourceUrl": "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/",
+      "verified": false,
+      "publishedAt": "2026-04-30",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic released Claude Mythos Preview — its most capable model to date — but restricted access to a vetted consortium of technology companies via Project Glasswing rather than making it publicly available. The model demonstrates significant cybersecurity capabilities, having autonomously found thousands of high-severity vulnerabilities and exploited a 17-year-old remote code execution flaw in FreeBSD. On expert-level CTF tasks — which no model could complete before April 2025 — Mythos succeeds 73% of the time.",
+      "keyConcepts": ["Claude Mythos", "AI safety guardrails", "cybersecurity AI capabilities", "Project Glasswing", "restricted model access"],
+      "whyItMatters": "Mythos Preview is the first frontier model Anthropic deemed too dangerous for open release, establishing a precedent for capability-gated AI distribution and signaling that the most powerful models require institutional safety frameworks.",
+      "tags": ["anthropic", "claude-mythos", "cybersecurity", "ai-safety", "frontier-models", "restricted-access"],
+      "relatedIds": ["article-google-anthropic-40b", "youtube-jeA-KBv0b68", "article-openai-gpt55"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Project Glasswing in the context of Claude Mythos?",
+          "options": [
+            "Anthropic's public beta testing program",
+            "A restricted access consortium for vetted technology partners",
+            "Google's cloud deployment infrastructure for Claude",
+            "An open-source safety evaluation framework"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Glasswing is Anthropic's initiative to provide access to Claude Mythos only to a vetted consortium of technology companies, reflecting the model's exceptional and potentially dangerous cybersecurity capabilities."
+        },
+        {
+          "question": "What percentage of expert-level CTF tasks does Claude Mythos Preview successfully complete?",
+          "options": [
+            "23%",
+            "50%",
+            "73%",
+            "91%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Mythos Preview succeeds on 73% of expert-level CTF (capture-the-flag) cybersecurity tasks — a benchmark that no model could complete at all before April 2025."
+        }
+      ]
+    },
+    {
+      "id": "article-google-anthropic-40b",
+      "type": "article",
+      "title": "Google Commits Up to $40 Billion Investment in Anthropic at $350 Billion Valuation",
+      "sourceUrl": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "verified": false,
+      "publishedAt": "2026-04-24",
+      "topics": ["ai-industry"],
+      "summary": "Google announced a commitment to invest up to $40 billion in Anthropic, beginning with $10 billion immediately at a $350 billion valuation, with up to $30 billion more contingent on Anthropic hitting performance targets. The deal deepens Anthropic's access to Google's computing infrastructure and expands deployment of Claude models on Google Cloud and Vertex AI. This makes Google by far Anthropic's largest investor and establishes a major strategic counterweight to the OpenAI-Microsoft alliance.",
+      "keyConcepts": ["AI investment strategy", "frontier model valuation", "compute infrastructure deals", "competitive AI landscape", "strategic partnerships"],
+      "whyItMatters": "A $40 billion commitment at a $350 billion valuation fundamentally reshapes the competitive AI industry, giving Anthropic the compute and capital to challenge OpenAI at scale while tying two of the most powerful AI players together.",
+      "tags": ["google", "anthropic", "investment", "ai-industry", "ai-strategy", "valuation"],
+      "relatedIds": ["article-anthropic-mythos"],
+      "knowledgeChecks": [
+        {
+          "question": "At what valuation is Google's initial $10 billion investment in Anthropic structured?",
+          "options": [
+            "$100 billion",
+            "$200 billion",
+            "$350 billion",
+            "$500 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's initial $10 billion investment in Anthropic is structured at a $350 billion valuation, with up to $30 billion more to follow if Anthropic meets certain performance targets."
+        },
+        {
+          "question": "Which of the following best describes the strategic logic behind Google's massive Anthropic investment?",
+          "options": [
+            "Google plans to acquire Anthropic outright within 12 months",
+            "Google wants to counterbalance the OpenAI-Microsoft alliance with its own frontier AI partner",
+            "Google is primarily interested in Anthropic's consumer products",
+            "The deal is a regulatory requirement following an antitrust settlement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's investment strategically positions it alongside Anthropic to counter Microsoft's deep partnership with OpenAI, ensuring Google has access to frontier model capabilities as AI becomes central to cloud competition."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-job-displacement",
+      "type": "article",
+      "title": "Is AI Job Displacement Following the 'Gradually, Then Suddenly' Pattern?",
+      "sourceUrl": "https://venturebeat.com/ai/gradually-then-suddenly-is-ai-job-displacement-following-this-pattern",
+      "verified": false,
+      "publishedAt": "2026-04-28",
+      "dateEstimated": true,
+      "topics": ["ai-career"],
+      "summary": "VentureBeat examines whether AI-driven job displacement is following a Hemingway-style pattern — happening gradually, then suddenly — drawing on enterprise data showing AI is rapidly changing how work gets done even as mass layoffs haven't fully materialized. Anthropic's research suggests AI hasn't yet caused meaningful net job losses, while 40% of WEF-surveyed employers plan workforce reductions by 2030. Companies like Atlassian have already begun cutting 10% of staff explicitly to redirect funds toward AI investments.",
+      "keyConcepts": ["AI job displacement", "workforce automation", "enterprise AI adoption", "labor market signals", "inflection point analysis"],
+      "whyItMatters": "Recognizing the early signals of a sudden inflection in AI-driven job displacement is critical for workers, companies, and policymakers to respond proactively rather than reactively.",
+      "tags": ["ai-displacement", "job-automation", "workforce", "enterprise-ai", "labor-economics", "ai-career"],
+      "relatedIds": ["youtube-M2-hytpxccg"],
+      "knowledgeChecks": [
+        {
+          "question": "The 'gradually, then suddenly' pattern of AI job displacement is borrowed from which author?",
+          "options": [
+            "Kurt Vonnegut",
+            "Ernest Hemingway",
+            "Malcolm Gladwell",
+            "Clay Christensen"
+          ],
+          "correctIndex": 1,
+          "explanation": "The phrase 'gradually then suddenly' comes from Ernest Hemingway's The Sun Also Rises, where a character describes going bankrupt — now used as an analogy for AI's initially slow but potentially rapid impact on the labor market."
+        },
+        {
+          "question": "Which company was cited as cutting ~10% of its workforce in March 2026 explicitly to redirect funds toward AI?",
+          "options": [
+            "Salesforce",
+            "Adobe",
+            "Atlassian",
+            "Dropbox"
+          ],
+          "correctIndex": 2,
+          "explanation": "Atlassian announced a 10% workforce reduction (around 1,600 people) in March 2026, explicitly stating the move was to free up resources for AI investments and enterprise sales."
+        }
+      ]
+    }
+  ]
+}
