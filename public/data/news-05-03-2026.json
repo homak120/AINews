@@ -1,9 +1,87 @@
 {
-  "generatedAt": "2026-05-03T18:00:00.000Z",
+  "generatedAt": "2026-05-03T22:00:00.000Z",
   "weekOf": "2026-04-27",
   "coverageStart": "2026-05-01",
   "coverageEnd": "2026-05-02",
   "items": [
+    {
+      "id": "youtube-Ae4EECFlM3I",
+      "type": "video",
+      "title": "Google DeepMind's AI Co-Clinician: Beating GPT-5.4 in Blind Doctor Tests",
+      "youtubeId": "Ae4EECFlM3I",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ae4EECFlM3I",
+      "verified": false,
+      "publishedAt": "2026-05-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID breaks down Google DeepMind's AI co-clinician initiative — a triadic care system built to operate under physician supervision, combining real-time video analysis with clinical evidence retrieval and diagnostic reasoning. In a 98-query blind evaluation, the system outperformed GPT-5.4 while still trailing experienced physicians on complex edge cases. The video walks through concrete examples: detecting acute pancreatitis via video, managing double-vision neurology questions, and guiding telehealth physical exams.",
+      "keyConcepts": ["AI co-clinician", "medical diagnostic AI", "triadic care system", "Google DeepMind", "telehealth AI"],
+      "whyItMatters": "DeepMind moving from research paper to structured clinical evaluation signals that AI-augmented medicine is approaching deployment readiness — potentially helping address the global shortage of 10 million health workers while keeping physicians in the decision loop.",
+      "tags": ["google-deepmind", "healthcare-ai", "medical-diagnosis", "ai-doctor", "clinical-ai", "telehealth"],
+      "relatedIds": ["article-meta-ari-robotics"],
+      "knowledgeChecks": [
+        {
+          "question": "In the 98-query blind evaluation, how did Google DeepMind's AI co-clinician perform relative to GPT-5.4 and experienced physicians?",
+          "options": [
+            "It trailed both GPT-5.4 and experienced physicians",
+            "It outperformed both GPT-5.4 and experienced physicians",
+            "It outperformed GPT-5.4 but still trailed experienced physicians",
+            "It matched experienced physicians but underperformed GPT-5.4"
+          ],
+          "correctIndex": 2,
+          "explanation": "In the 98-query blind evaluation, Google DeepMind's AI co-clinician outperformed GPT-5.4 but still fell short of experienced physicians on complex cases — suggesting it is a powerful tool for augmenting clinical care, not replacing doctors."
+        },
+        {
+          "question": "What is the design principle behind Google DeepMind's 'triadic care system' for the AI co-clinician?",
+          "options": [
+            "AI replaces doctors for routine diagnoses to reduce costs",
+            "Three AI models vote on a diagnosis and the majority wins",
+            "The AI system operates under physician supervision, supporting — not supplanting — clinical judgment",
+            "A team of three physicians collaborates with one AI assistant"
+          ],
+          "correctIndex": 2,
+          "explanation": "The triadic care system is built around physician authority: the AI co-clinician retrieves evidence, performs reasoning, and surfaces recommendations, but a physician remains in the loop to make final clinical decisions. This design is intentional to maintain accountability and patient safety."
+        }
+      ]
+    },
+    {
+      "id": "youtube-qkKEV9rkFqI",
+      "type": "video",
+      "title": "How DeepSeek V4 Connects to the US Power Grid — The Real Frontline of the AI Race",
+      "youtubeId": "qkKEV9rkFqI",
+      "sourceUrl": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
+      "verified": false,
+      "publishedAt": "2026-05-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "AI Daily Brief's Nathaniel Whittemore connects two seemingly unrelated stories — the White House invoking the Defense Production Act around US energy grid infrastructure and DeepSeek's V4 release, which was optimized for Huawei Ascend chips at Beijing's direction rather than Nvidia GPUs. The episode argues that energy and compute access have become the real frontlines of the US-China AI race, with hyperscalers driving markets higher and Nvidia crossing $5 trillion in market cap.",
+      "keyConcepts": ["DeepSeek V4", "US-China AI rivalry", "Huawei Ascend chips", "AI compute infrastructure", "energy grid policy"],
+      "whyItMatters": "The US-China AI competition has shifted from a benchmark race to a battle over compute access and energy capacity — with chip sanctions driving China to innovate on domestic hardware while the US invokes defense law to secure its energy grid for AI data centers.",
+      "tags": ["deepseek-v4", "us-china-ai", "ai-infrastructure", "compute-geopolitics", "energy-grid", "huawei"],
+      "relatedIds": ["article-mistral-medium-3-5"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the AI Daily Brief, what was the notable design decision in DeepSeek V4 that reflects geopolitical pressure?",
+          "options": [
+            "DeepSeek V4 was optimized for Huawei Ascend chips rather than Nvidia GPUs, reportedly at Beijing's direction",
+            "DeepSeek V4 was built exclusively for open-source deployment to avoid US sanctions",
+            "DeepSeek V4 was co-developed with US companies to bypass export restrictions",
+            "DeepSeek V4 avoided multimodal capabilities to reduce compute requirements"
+          ],
+          "correctIndex": 0,
+          "explanation": "DeepSeek V4 was optimized for Huawei's Ascend chips rather than Nvidia's, reportedly at Beijing's direction — a strategic move reflecting US chip export restrictions that limit China's access to Nvidia's high-end GPUs and forcing China to build its own AI hardware ecosystem."
+        },
+        {
+          "question": "What does the episode's framing of the US Defense Production Act invocation and DeepSeek V4 suggest about the AI race?",
+          "options": [
+            "The AI race has slowed down and geopolitical concerns are overstated",
+            "Model quality benchmarks are now the primary measure of AI leadership",
+            "AI safety regulations are replacing competitiveness as the key concern",
+            "Energy infrastructure and compute access have become the real strategic frontlines of the US-China AI competition"
+          ],
+          "correctIndex": 3,
+          "explanation": "By connecting US energy grid policy (Defense Production Act) to China's chip strategy (Huawei Ascend optimization), the episode argues that the AI race is no longer primarily about which country releases the best model — it's about who controls the physical infrastructure of compute and power that makes frontier AI possible."
+        }
+      ]
+    },
     {
       "id": "article-meta-ari-robotics",
       "type": "article",
@@ -16,7 +94,7 @@
       "keyConcepts": ["humanoid robotics", "physical AI", "Meta Superintelligence Labs", "robot learning", "embodied intelligence"],
       "whyItMatters": "Meta entering humanoid robotics signals that the social media giant is positioning for a future where AI extends beyond screens into physical spaces — intensifying competition with Boston Dynamics, Figure AI, and Tesla Optimus.",
       "tags": ["meta", "robotics", "humanoid-ai", "physical-ai", "acquisition", "superintelligence-labs"],
-      "relatedIds": ["article-microsoft-agent-365-ga"],
+      "relatedIds": ["article-microsoft-agent-365-ga", "youtube-Ae4EECFlM3I"],
       "knowledgeChecks": [
         {
           "question": "Which Meta division will the Assured Robot Intelligence team join after the acquisition?",
@@ -92,7 +170,7 @@
       "keyConcepts": ["Mistral Medium 3.5", "128B open-weight model", "SWE-Bench", "self-hosted AI", "unified model architecture"],
       "whyItMatters": "Medium 3.5 demonstrates that a single open-weight model can match specialized frontier models for coding and reasoning, making powerful AI more accessible to developers who want to self-host without cloud dependencies.",
       "tags": ["mistral", "medium-3-5", "open-weights", "llm", "128b-model", "vibe-cli"],
-      "relatedIds": ["article-replit-10-anniversary"],
+      "relatedIds": ["article-replit-10-anniversary", "youtube-qkKEV9rkFqI"],
       "knowledgeChecks": [
         {
           "question": "What is the minimum GPU count needed to self-host Mistral Medium 3.5?",
