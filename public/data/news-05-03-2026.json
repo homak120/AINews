@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-05-03T18:00:00.000Z",
+  "weekOf": "2026-04-27",
+  "coverageStart": "2026-05-01",
+  "coverageEnd": "2026-05-02",
+  "items": [
+    {
+      "id": "article-meta-ari-robotics",
+      "type": "article",
+      "title": "Meta Acquires Assured Robot Intelligence to Accelerate Humanoid AI Push",
+      "sourceUrl": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "verified": false,
+      "publishedAt": "2026-05-01",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Meta Platforms acquired Assured Robot Intelligence (ARI), a startup building AI models that enable robots to understand, predict, and adapt to human behaviors in dynamic environments. The ARI team, including its co-founders, will join Meta's Superintelligence Labs research division. The deal closed May 1 for an undisclosed sum, marking Meta's most direct investment yet in physical AI.",
+      "keyConcepts": ["humanoid robotics", "physical AI", "Meta Superintelligence Labs", "robot learning", "embodied intelligence"],
+      "whyItMatters": "Meta entering humanoid robotics signals that the social media giant is positioning for a future where AI extends beyond screens into physical spaces — intensifying competition with Boston Dynamics, Figure AI, and Tesla Optimus.",
+      "tags": ["meta", "robotics", "humanoid-ai", "physical-ai", "acquisition", "superintelligence-labs"],
+      "relatedIds": ["article-microsoft-agent-365-ga"],
+      "knowledgeChecks": [
+        {
+          "question": "Which Meta division will the Assured Robot Intelligence team join after the acquisition?",
+          "options": [
+            "Meta Reality Labs",
+            "Meta AI Research (FAIR)",
+            "Meta Superintelligence Labs",
+            "Meta Infrastructure"
+          ],
+          "correctIndex": 2,
+          "explanation": "The ARI team and co-founders joined Meta's Superintelligence Labs research division, which focuses on frontier AI research including physical and embodied intelligence."
+        },
+        {
+          "question": "What is the primary technical goal of Assured Robot Intelligence's AI models?",
+          "options": [
+            "Generating synthetic training data for vision models",
+            "Enabling robots to understand, predict, and adapt to human behaviors",
+            "Optimizing robot battery efficiency",
+            "Building conversational interfaces for industrial robots"
+          ],
+          "correctIndex": 1,
+          "explanation": "ARI's core research is on enabling robots to understand, predict, and adapt to human behaviors in complex and dynamic environments — the foundational capability needed for robots to operate safely alongside people."
+        }
+      ]
+    },
+    {
+      "id": "article-mckinsey-ai-agents-staffing",
+      "type": "article",
+      "title": "McKinsey Plans to Use AI Agents to Assign Consultants to Client Teams",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-01/mckinsey-plans-to-use-ai-agents-to-help-choose-client-teams",
+      "verified": false,
+      "publishedAt": "2026-05-01",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "McKinsey & Co announced plans to deploy AI agents for consultant-to-client team assignment, a role historically managed by dedicated 'professional development' employees. Rolling out first in Latin America and North America with global expansion planned by end of summer, the system aims to match the firm's nearly 40,000 consultants more efficiently to client needs. Chief People Officer Wendy Miller stated the goal is to 'get the best people in the right situations' at scale.",
+      "keyConcepts": ["AI in HR", "agentic staffing", "enterprise AI adoption", "knowledge worker automation", "talent management AI"],
+      "whyItMatters": "McKinsey — the firm most associated with advising others on AI transformation — automating its own core human-judgment process signals how seriously the consulting sector is applying AI to internal operations.",
+      "tags": ["mckinsey", "ai-agents", "hr-tech", "enterprise-ai", "workforce-automation", "consulting"],
+      "relatedIds": ["article-microsoft-agent-365-ga", "article-meta-ari-robotics"],
+      "knowledgeChecks": [
+        {
+          "question": "What process at McKinsey will AI agents be replacing or supplementing?",
+          "options": [
+            "Client billing and invoice generation",
+            "Writing final client deliverable reports",
+            "Matching consultants to client team assignments",
+            "Conducting performance reviews for senior partners"
+          ],
+          "correctIndex": 2,
+          "explanation": "McKinsey's AI agents will supplement the work of 'professional development' employees who have historically matched consultants to clients — a complex talent allocation task that involves understanding individual strengths, client needs, and availability."
+        },
+        {
+          "question": "In which regions is McKinsey beginning its AI staffing rollout first?",
+          "options": [
+            "Europe and Asia-Pacific",
+            "Middle East and Africa",
+            "Latin America and North America",
+            "North America and Europe"
+          ],
+          "correctIndex": 2,
+          "explanation": "McKinsey is starting the rollout in Latin America and North America, with plans to expand the system globally across the rest of the firm by the end of summer 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-mistral-medium-3-5",
+      "type": "article",
+      "title": "Mistral Releases Medium 3.5: A 128B Open-Weight Model Unifying Chat, Reasoning, and Code",
+      "sourceUrl": "https://winbuzzer.com/2026/05/02/mistral-medium-3-5-unified-flagship-chat-reasoning-code-xcxwbn/",
+      "verified": false,
+      "publishedAt": "2026-05-02",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Mistral AI released Medium 3.5, a 128B parameter dense model that replaces separate specialist models with a single unified architecture handling chat, reasoning, and code generation. Released as open weights under a modified MIT license, it can be self-hosted on as few as four GPUs and scores 77.6% on SWE-Bench Verified. Medium 3.5 becomes the default model in Le Chat and powers Vibe CLI's remote coding agents, priced at $1.50 per million input tokens via API.",
+      "keyConcepts": ["Mistral Medium 3.5", "128B open-weight model", "SWE-Bench", "self-hosted AI", "unified model architecture"],
+      "whyItMatters": "Medium 3.5 demonstrates that a single open-weight model can match specialized frontier models for coding and reasoning, making powerful AI more accessible to developers who want to self-host without cloud dependencies.",
+      "tags": ["mistral", "medium-3-5", "open-weights", "llm", "128b-model", "vibe-cli"],
+      "relatedIds": ["article-replit-10-anniversary"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the minimum GPU count needed to self-host Mistral Medium 3.5?",
+          "options": [
+            "One high-end GPU",
+            "Two GPUs",
+            "Four GPUs",
+            "Eight GPUs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral Medium 3.5's 128B parameter architecture can run on as few as four GPUs, making it accessible for well-equipped organizations and individual researchers who want to self-host a frontier-class model."
+        },
+        {
+          "question": "What score did Mistral Medium 3.5 achieve on SWE-Bench Verified, which measures real-world software engineering capability?",
+          "options": [
+            "54.2%",
+            "65.8%",
+            "77.6%",
+            "89.1%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral Medium 3.5 scored 77.6% on SWE-Bench Verified, a challenging benchmark that tests models on real GitHub issues requiring code changes — demonstrating strong practical software engineering capability."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-agent-365-ga",
+      "type": "article",
+      "title": "Microsoft Agent 365 Reaches General Availability with Enterprise AI Governance Controls",
+      "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "verified": false,
+      "publishedAt": "2026-05-01",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Microsoft launched Agent 365 to general availability on May 1, 2026, at $15 per user per month, extending Microsoft 365's identity, security, governance, and management framework to AI agents. The platform manages both cloud agents and locally running agents on Windows endpoints, adding local agent discovery alongside existing cloud controls. New integrations include a Datadog observability plugin and bring-your-own encryption key support for enterprise deployments.",
+      "keyConcepts": ["AI agent governance", "Agent 365", "enterprise AI management", "local AI agents", "observability"],
+      "whyItMatters": "As autonomous AI agents proliferate across enterprise environments, governance tooling like Agent 365 addresses the critical security and compliance gap — organizations need visibility into what their AI agents are doing, with whom, and under what permissions.",
+      "tags": ["microsoft", "agent-365", "enterprise-ai", "ai-governance", "ai-agents", "windows"],
+      "relatedIds": ["article-mckinsey-ai-agents-staffing", "article-replit-10-anniversary"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the monthly per-user pricing for Microsoft Agent 365 at general availability?",
+          "options": [
+            "$5 per user per month",
+            "$10 per user per month",
+            "$15 per user per month",
+            "$25 per user per month"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft Agent 365 launched at $15 per user per month for commercial customers, positioning it as an enterprise governance layer for organizations managing fleets of AI agents across cloud and local environments."
+        },
+        {
+          "question": "What new capability did Agent 365 add at general availability that extends beyond cloud agent management?",
+          "options": [
+            "Integration with GitHub Copilot",
+            "Discovery and management of locally running AI agents on Windows",
+            "Support for open-source LLMs only",
+            "Automated code review for AI-generated code"
+          ],
+          "correctIndex": 1,
+          "explanation": "The GA release of Agent 365 added local agent discovery and management for AI agents running directly on Windows endpoints — a critical addition as models increasingly run on-device rather than purely in the cloud."
+        }
+      ]
+    },
+    {
+      "id": "article-replit-10-anniversary",
+      "type": "article",
+      "title": "Replit Turns 10: All Users Get Free Agent Access for 24 Hours",
+      "sourceUrl": "https://www.tipranks.com/news/private-companies/replit-marks-10th-anniversary-with-ai-features-buildathon-and-enterprise-push",
+      "verified": false,
+      "publishedAt": "2026-05-02",
+      "topics": ["ai-engineering"],
+      "summary": "Replit marked its 10th anniversary on May 2 by offering all users free, unlimited access to Replit Agent for 24 hours — its AI coding assistant that can build full applications from natural language prompts. Alongside the birthday event, Replit launched Slides on Replit, announced a $100k+ Buildathon with developer prizes, and unveiled a new Enterprise livestream series. The platform has evolved from a browser-based code editor to a full AI-first development environment.",
+      "keyConcepts": ["Replit Agent", "vibe coding", "AI-first development", "browser-based IDE", "enterprise developer tools"],
+      "whyItMatters": "Replit's 10-year milestone illustrates the complete transformation of software development tooling — what began as a browser code editor is now a platform where AI agents do the primary building, signaling how far the vibe coding paradigm has matured.",
+      "tags": ["replit", "ai-coding", "vibe-coding", "replit-agent", "developer-tools", "10th-anniversary"],
+      "relatedIds": ["article-mistral-medium-3-5", "article-microsoft-agent-365-ga"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Replit offer all users on May 2, 2026 to celebrate its 10th anniversary?",
+          "options": [
+            "A permanent free tier with limited AI credits",
+            "Free Pro plan for one month",
+            "24 hours of unlimited Replit Agent access with no usage caps",
+            "Discounted annual subscriptions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Replit gave every user free, unlimited access to Replit Agent — its AI coding assistant — for 24 hours on May 2, with no usage caps or hidden charges, to celebrate the platform's 10th birthday."
+        },
+        {
+          "question": "Which of the following best describes how Replit has evolved over its 10-year history?",
+          "options": [
+            "From AI research lab to developer conference organizer",
+            "From browser-based code editor to AI-first development platform with autonomous coding agents",
+            "From a gaming engine to a general-purpose IDE",
+            "From open-source project to closed proprietary tool"
+          ],
+          "correctIndex": 1,
+          "explanation": "Replit started as a browser-based code editor that let developers write and run code without local setup. Over 10 years it evolved into an AI-first platform where Replit Agent can build full applications autonomously from natural language descriptions."
+        }
+      ]
+    }
+  ]
+}
