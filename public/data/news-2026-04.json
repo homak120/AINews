@@ -1,9 +1,131 @@
 {
-  "generatedAt": "2026-04-02T14:00:00Z",
-  "weekOf": "2026-03-30",
-  "coverageStart": "2026-04-01",
+  "generatedAt": "2026-05-03T17:41:16.026Z",
+  "weekOf": "2026-03-21",
+  "coverageStart": "2026-03-21",
   "coverageEnd": "2026-04-01",
   "items": [
+    {
+      "id": "youtube-kwSVtQ7dziU",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "type": "video",
+      "title": "Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+      "youtubeId": "kwSVtQ7dziU",
+      "publishedAt": "2026-03-21",
+      "summary": "Andrej Karpathy joined the No Priors podcast to describe what he calls the 'loopy era' of AI — where agents continuously self-improve by running experiments, collecting results, and updating their own code without human intervention in each cycle. He revealed he has not written a single line of code by hand since December 2025, instead directing AI agents that autonomously orchestrate development work. His AutoResearch project, using a single GPU and roughly 630 lines of training scaffolding, ran 700 ML experiments in two days and discovered 20 optimizations that measurably improved training — including novel architecture tweaks the system invented itself.",
+      "keyConcepts": [
+        "Agentic code generation",
+        "AutoResearch autonomous experimentation",
+        "Self-improving AI feedback loops",
+        "Software 3.0 paradigm",
+        "Human-as-orchestrator engineering"
+      ],
+      "whyItMatters": "Software engineers are transitioning from writing code to directing and reviewing AI agents — Karpathy's firsthand account of this shift, combined with quantified results from AutoResearch, makes this essential context for any developer planning their skills roadmap for 2026.",
+      "tags": [
+        "karpathy",
+        "code-agents",
+        "autoresearch",
+        "agentic-coding",
+        "no-priors",
+        "ai-research"
+      ],
+      "relatedIds": [
+        "youtube-n1sfrc-RjyM"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What did Karpathy's AutoResearch project demonstrate about autonomous AI agents?",
+          "options": [
+            "AI agents need human approval before each experiment to ensure safety",
+            "AI agents can autonomously run hundreds of ML experiments, discover optimizations, and iterate with minimal human involvement",
+            "AutoResearch requires a large GPU cluster to operate effectively",
+            "The project showed that AI agents struggle to improve on human-designed baselines"
+          ],
+          "correctIndex": 1,
+          "explanation": "AutoResearch ran 700 experiments in 2 days on a single GPU, autonomously modifying training code, running experiments, checking results, and keeping improvements — proving that AI agents can conduct iterative scientific research without human involvement in each cycle."
+        },
+        {
+          "question": "According to Karpathy, what is the primary engineering skill in the 'loopy era'?",
+          "options": [
+            "Writing lower-level systems code to keep up with AI-generated abstractions",
+            "Building AI-free fallback systems to compensate for agent failures",
+            "Orchestrating, reviewing, and directing AI agents rather than writing code directly",
+            "Specializing exclusively in model training and ignoring product engineering"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy describes the engineer's job as shifting from writing code to directing, supervising, and verifying AI-generated code — a fundamental change where human judgment guides agents rather than produces outputs directly."
+        },
+        {
+          "question": "What distinguishes a 'loopy' AI system from a traditional AI assistant?",
+          "options": [
+            "A loopy system runs in a continuous self-improvement cycle, designing experiments and updating its own behavior without a human in each loop",
+            "A loopy system requires the user to manually restart it after each task completes",
+            "Loopy systems are faster at generating text but less accurate than standard models",
+            "A loopy system processes inputs in random order to simulate creativity"
+          ],
+          "correctIndex": 0,
+          "explanation": "The 'loopy era' refers to AI systems that autonomously close the loop between hypothesis, experiment, result, and improvement — running cycles of self-directed learning without needing a human to initiate each step."
+        }
+      ]
+    },
+    {
+      "id": "youtube-n1sfrc-RjyM",
+      "topics": [
+        "ai-engineering"
+      ],
+      "type": "video",
+      "title": "OpenClaw Full Tutorial for Beginners: Set Up a Local Autonomous AI Agent with Docker and Custom Skills",
+      "sourceUrl": "https://www.youtube.com/watch?v=n1sfrc-RjyM",
+      "youtubeId": "n1sfrc-RjyM",
+      "publishedAt": "2026-03-25",
+      "summary": "freeCodeCamp published a comprehensive 55-minute tutorial on OpenClaw, the open-source autonomous AI agent framework that became the most-starred GitHub project of early 2026. The video covers full installation in both minimal and full-featured modes, Docker sandbox configuration for safe agent execution, connecting the agent to messaging platforms including WhatsApp, Telegram, and Discord, setting up persistent memory so the agent retains context across sessions, and writing custom skills to extend its behavior. OpenClaw runs entirely locally, making it a self-hostable alternative to cloud AI assistants for developers who want control over their AI infrastructure.",
+      "keyConcepts": [
+        "OpenClaw local autonomous agent",
+        "Docker sandboxing for AI safety",
+        "Persistent agent memory",
+        "Custom skill development",
+        "Messaging platform integration (WhatsApp, Telegram, Discord)"
+      ],
+      "whyItMatters": "OpenClaw represents the practical, self-hosted end of the agentic AI spectrum — understanding how to deploy and configure local AI agents is becoming a core infrastructure skill as teams move from single-prompt assistants to persistent, task-executing agents.",
+      "tags": [
+        "openclaw",
+        "autonomous-agents",
+        "local-ai",
+        "docker",
+        "freecodecamp",
+        "agentic"
+      ],
+      "relatedIds": [
+        "youtube-kwSVtQ7dziU"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary advantage of OpenClaw's local-first architecture?",
+          "options": [
+            "It processes tasks faster than cloud-based AI assistants because it skips network latency",
+            "Developers self-host the agent and control their data, without sending conversations to a third-party cloud provider",
+            "Local deployment means the agent can use larger language models than cloud APIs allow",
+            "OpenClaw requires no configuration compared to cloud AI services"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenClaw's local-first design means developers control their AI infrastructure entirely — no data leaves the machine, there is no subscription cost, and the agent can be customized at the code level. This contrasts with cloud assistants where the provider stores conversation data and controls the runtime."
+        },
+        {
+          "question": "Why does OpenClaw use Docker sandboxing for agent task execution?",
+          "options": [
+            "Docker is needed to connect to messaging platforms like Telegram",
+            "To run OpenClaw on Windows since it is Linux-only natively",
+            "To isolate agent-executed code and commands from the host system, preventing unintended side effects",
+            "Docker enables GPU acceleration for faster model inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sandboxing through Docker ensures that actions taken by the autonomous agent — such as running code, accessing files, or executing shell commands — are contained in an isolated environment and cannot accidentally modify the host system or leak sensitive data."
+        }
+      ]
+    },
     {
       "id": "article-gizmodo-claude-code-leak-coverup",
       "topics": [
@@ -131,7 +253,7 @@
       "title": "Google Launches Veo 3.1 Lite: Cost-Effective Video Generation at Half the Price as OpenAI Shuts Down Sora",
       "sourceUrl": "https://9to5google.com/2026/03/31/veo-3-1-lite/",
       "publishedAt": "2026-04-01",
-      "summary": "Google released Veo 3.1 Lite via the Gemini API, a developer-focused video generation model priced at $0.05 per second for 720p \u2014 less than half the cost of its Veo 3.1 Fast tier while maintaining the same generation speed. The model supports text-to-video and image-to-video at 720p and 1080p resolutions with customizable durations of 4, 6, or 8 seconds. The launch coincides with OpenAI shutting down its competing Sora video model.",
+      "summary": "Google released Veo 3.1 Lite via the Gemini API, a developer-focused video generation model priced at $0.05 per second for 720p — less than half the cost of its Veo 3.1 Fast tier while maintaining the same generation speed. The model supports text-to-video and image-to-video at 720p and 1080p resolutions with customizable durations of 4, 6, or 8 seconds. The launch coincides with OpenAI shutting down its competing Sora video model.",
       "keyConcepts": [
         "AI video generation APIs",
         "Cost-effective model inference",
@@ -263,7 +385,7 @@
             "A debugging technique that automatically reverts bad changes"
           ],
           "correctIndex": 1,
-          "explanation": "The agentic loop is the core mechanism where Claude Code plans an approach, executes actions (file reads, writes, terminal commands), observes the results, and iterates \u2014 continuing autonomously until the task is completed or it needs human input."
+          "explanation": "The agentic loop is the core mechanism where Claude Code plans an approach, executes actions (file reads, writes, terminal commands), observes the results, and iterates — continuing autonomously until the task is completed or it needs human input."
         },
         {
           "question": "Why is context management important in agentic coding?",
@@ -294,7 +416,7 @@
         "Overhiring correction cycle",
         "Enterprise AI ROI reality"
       ],
-      "whyItMatters": "Understanding the nuance between AI hype and actual workforce impact helps engineers make informed career decisions. The productivity gap between AI's promise and delivered results suggests that human expertise remains critical \u2014 the threat is more gradual and complex than headlines suggest.",
+      "whyItMatters": "Understanding the nuance between AI hype and actual workforce impact helps engineers make informed career decisions. The productivity gap between AI's promise and delivered results suggests that human expertise remains critical — the threat is more gradual and complex than headlines suggest.",
       "tags": [
         "ai-jobs",
         "workforce",
@@ -337,7 +459,7 @@
         "ai-career"
       ],
       "type": "article",
-      "title": "Marc Andreessen: AI Layoffs Are a Farce \u2014 Companies Are 75% Overstaffed and Using AI as an Excuse",
+      "title": "Marc Andreessen: AI Layoffs Are a Farce — Companies Are 75% Overstaffed and Using AI as an Excuse",
       "sourceUrl": "https://fortune.com/2026/03/31/marc-andreessen-ai-layoffs-silver-bullet-excuse-overhiring/",
       "publishedAt": "2026-04-01",
       "summary": "In a 20VC podcast interview, venture capitalist Marc Andreessen argues that AI is being used as a scapegoat for layoffs driven by post-COVID overhiring and rising interest rates. He claims most large companies are overstaffed by 50-75% and that AI is not yet sophisticated enough to replace the workers being cut. Andreessen calls AI the 'silver bullet excuse' that gives executives cover to make overdue workforce reductions.",
@@ -347,7 +469,7 @@
         "Corporate overstaffing estimates",
         "Venture capital perspective on AI readiness"
       ],
-      "whyItMatters": "A major VC's contrarian take reframes layoffs as a structural correction rather than AI replacement. This perspective is important context for any engineer navigating career decisions \u2014 understanding whether your role is at risk from AI or from organizational restructuring requires different strategies.",
+      "whyItMatters": "A major VC's contrarian take reframes layoffs as a structural correction rather than AI replacement. This perspective is important context for any engineer navigating career decisions — understanding whether your role is at risk from AI or from organizational restructuring requires different strategies.",
       "tags": [
         "marc-andreessen",
         "layoffs",
@@ -380,7 +502,7 @@
             "Over 90% overstaffed"
           ],
           "correctIndex": 2,
-          "explanation": "Andreessen claimed that most large companies are overstaffed by 50-75%, arguing that this structural bloat \u2014 not AI capability \u2014 is the real driver behind mass layoffs in 2026."
+          "explanation": "Andreessen claimed that most large companies are overstaffed by 50-75%, arguing that this structural bloat — not AI capability — is the real driver behind mass layoffs in 2026."
         }
       ]
     },
@@ -394,14 +516,14 @@
       "title": "Oracle Cuts 30,000 Jobs to Redirect $8-10 Billion Toward AI Data Center Expansion",
       "sourceUrl": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
       "publishedAt": "2026-04-01",
-      "summary": "Oracle began notifying up to 30,000 employees of their termination via 6 AM emails, with about 12,000 of the cuts in India. The layoffs are expected to free up $8-10 billion in cash flow that will fund the company's $156 billion AI data center expansion. Despite the cuts, Oracle posted a 95% jump in net income to $6.13 billion and its remaining performance obligations stood at $523 billion, up 433% year-over-year \u2014 signaling the layoffs are strategic reallocation, not financial distress.",
+      "summary": "Oracle began notifying up to 30,000 employees of their termination via 6 AM emails, with about 12,000 of the cuts in India. The layoffs are expected to free up $8-10 billion in cash flow that will fund the company's $156 billion AI data center expansion. Despite the cuts, Oracle posted a 95% jump in net income to $6.13 billion and its remaining performance obligations stood at $523 billion, up 433% year-over-year — signaling the layoffs are strategic reallocation, not financial distress.",
       "keyConcepts": [
         "AI infrastructure capital reallocation",
         "Enterprise workforce restructuring",
         "Data center GPU investment",
         "Cloud infrastructure scaling"
       ],
-      "whyItMatters": "Oracle's layoffs illustrate the broader enterprise pattern of cutting traditional roles to fund AI infrastructure. Engineers should note that companies are not just adopting AI tools \u2014 they're restructuring entire organizations around AI-first strategies, shifting hiring toward AI/ML and infrastructure roles.",
+      "whyItMatters": "Oracle's layoffs illustrate the broader enterprise pattern of cutting traditional roles to fund AI infrastructure. Engineers should note that companies are not just adopting AI tools — they're restructuring entire organizations around AI-first strategies, shifting hiring toward AI/ML and infrastructure roles.",
       "tags": [
         "oracle",
         "layoffs",
@@ -454,7 +576,7 @@
         "AI company valuations",
         "Risk-reward perception shift"
       ],
-      "whyItMatters": "The secondary market is a leading indicator of institutional confidence in AI companies. This shift from OpenAI to Anthropic could reshape competitive dynamics, funding availability, and strategic partnerships across the AI ecosystem \u2014 affecting which platforms and tools gain the most investment and development.",
+      "whyItMatters": "The secondary market is a leading indicator of institutional confidence in AI companies. This shift from OpenAI to Anthropic could reshape competitive dynamics, funding availability, and strategic partnerships across the AI ecosystem — affecting which platforms and tools gain the most investment and development.",
       "tags": [
         "openai",
         "anthropic",
@@ -475,7 +597,7 @@
             "The AI market is collapsing and all valuations are dropping"
           ],
           "correctIndex": 1,
-          "explanation": "The demand shift \u2014 with $600M in unsold OpenAI shares versus $2B in Anthropic demand \u2014 suggests smart money views Anthropic's trajectory as offering better risk-adjusted returns, even though OpenAI remains larger in revenue and user base."
+          "explanation": "The demand shift — with $600M in unsold OpenAI shares versus $2B in Anthropic demand — suggests smart money views Anthropic's trajectory as offering better risk-adjusted returns, even though OpenAI remains larger in revenue and user base."
         },
         {
           "question": "Why is Goldman Sachs waiving carry fees on OpenAI shares?",
@@ -499,7 +621,7 @@
       "title": "Q1 2026 Shatters Venture Records: $300B in Global Funding with AI Capturing 80% of All Investment",
       "sourceUrl": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
       "publishedAt": "2026-04-01",
-      "summary": "Global venture funding hit $300 billion in Q1 2026, up over 150% year-over-year, with AI accounting for $242 billion \u2014 80% of total investment. The four largest rounds ever (OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B) collectively absorbed 65% of all global venture capital in the quarter. This extreme concentration of capital in a handful of AI companies is unprecedented in venture history.",
+      "summary": "Global venture funding hit $300 billion in Q1 2026, up over 150% year-over-year, with AI accounting for $242 billion — 80% of total investment. The four largest rounds ever (OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B) collectively absorbed 65% of all global venture capital in the quarter. This extreme concentration of capital in a handful of AI companies is unprecedented in venture history.",
       "keyConcepts": [
         "Venture capital concentration",
         "AI investment supercycle",
@@ -558,7 +680,7 @@
         "AI incident response",
         "Always-on agentic workflows"
       ],
-      "whyItMatters": "Cursor Automations represents the next evolution of agentic coding \u2014 from human-prompted to event-driven. Engineers should understand this shift because it changes the development workflow from 'ask AI for help' to 'AI continuously monitors and acts on your codebase' without being prompted.",
+      "whyItMatters": "Cursor Automations represents the next evolution of agentic coding — from human-prompted to event-driven. Engineers should understand this shift because it changes the development workflow from 'ask AI for help' to 'AI continuously monitors and acts on your codebase' without being prompted.",
       "tags": [
         "cursor",
         "automations",
@@ -579,7 +701,7 @@
             "It offers a free tier while competitors charge for usage"
           ],
           "correctIndex": 1,
-          "explanation": "Unlike traditional AI coding assistants that require a human prompt to start, Cursor Automations agents run autonomously, triggered by events such as code commits, Slack messages, PagerDuty incidents, or timers \u2014 enabling continuous automated code review and incident response."
+          "explanation": "Unlike traditional AI coding assistants that require a human prompt to start, Cursor Automations agents run autonomously, triggered by events such as code commits, Slack messages, PagerDuty incidents, or timers — enabling continuous automated code review and incident response."
         },
         {
           "question": "How does Cursor use Automations internally?",
@@ -611,7 +733,7 @@
         "Autonomous DevOps agents",
         "AI pilot-to-production transition"
       ],
-      "whyItMatters": "Microsoft's enterprise perspective reveals that AI agents are moving from demos to deployed products in 2026. For engineers, this means agentic AI systems will increasingly be part of their daily toolchain \u2014 from DevOps automation to security monitoring \u2014 not just optional coding assistants.",
+      "whyItMatters": "Microsoft's enterprise perspective reveals that AI agents are moving from demos to deployed products in 2026. For engineers, this means agentic AI systems will increasingly be part of their daily toolchain — from DevOps automation to security monitoring — not just optional coding assistants.",
       "tags": [
         "microsoft",
         "enterprise-ai",
@@ -663,7 +785,7 @@
         "Organizational AI adoption",
         "Workforce transformation metrics"
       ],
-      "whyItMatters": "Zapier's framework signals that AI fluency is becoming a baseline hiring expectation, not a differentiator. Engineers should assess their own AI fluency level \u2014 if you're not actively embedding AI into your daily workflows, you may be falling behind the 'Adoptive' bar that companies are now setting as a minimum.",
+      "whyItMatters": "Zapier's framework signals that AI fluency is becoming a baseline hiring expectation, not a differentiator. Engineers should assess their own AI fluency level — if you're not actively embedding AI into your daily workflows, you may be falling behind the 'Adoptive' bar that companies are now setting as a minimum.",
       "tags": [
         "zapier",
         "ai-fluency",
@@ -695,7 +817,7 @@
             "AI has replaced 97% of human decision-making at Zapier"
           ],
           "correctIndex": 1,
-          "explanation": "Zapier's near-universal AI adoption across all functions \u2014 not just engineering \u2014 suggests that AI fluency will become a baseline expectation across industries, similar to how computer literacy became non-negotiable in the 2000s."
+          "explanation": "Zapier's near-universal AI adoption across all functions — not just engineering — suggests that AI fluency will become a baseline expectation across industries, similar to how computer literacy became non-negotiable in the 2000s."
         }
       ]
     }

@@ -706,7 +706,8 @@ Run these checks against the generated `news.json` before committing:
    > `specs/001-ainews-knowledge-hub/contracts/content-generation-prompt.md`.
    > Write to `public/data/news-04-03-2026.json`."
 3. Review the output — verify 6-12 items, all with the target date.
-4. Commit: `git add public/data/news-04-03-2026.json && git commit -m "Add daily news digest for 2026-04-03"`
+4. Run consolidation: `npm run consolidate` — archives daily files older than 30 days into monthly bundles.
+5. Commit: `git add public/data/ && git commit -m "Add daily news digest for 2026-04-03"`
 
 **Filtered generation** (optional parameters):
 

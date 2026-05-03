@@ -1,12 +1,337 @@
 {
-  "generatedAt": "2026-03-30T12:00:00Z",
-  "weekOf": "2026-03-23",
+  "generatedAt": "2026-05-03T17:41:16.024Z",
+  "weekOf": "2026-03-02",
   "coverageStart": "2026-03-02",
-  "coverageEnd": "2026-03-29",
+  "coverageEnd": "2026-03-31",
   "items": [
     {
+      "id": "article-theregister-claude-code-source",
+      "topics": [
+        "ai-engineering"
+      ],
+      "type": "article",
+      "title": "Anthropic Accidentally Leaks Claude Code's Entire 512,000-Line TypeScript Source via npm Package",
+      "sourceUrl": "https://www.theregister.com/2026/03/31/anthropic_claude_code_source_code/",
+      "publishedAt": "2026-03-31",
+      "summary": "On March 31, 2026, Anthropic inadvertently exposed the full source code of Claude Code — 512,000 lines across ~1,900 TypeScript files — through a 59.8 MB JavaScript source map file bundled into version 2.1.88 of the @anthropic-ai/claude-code npm package. The exposure window ran from 00:21 to 03:29 UTC before the file was removed, but by then the codebase had been mirrored widely on GitHub, accumulating 25,000+ stars within hours. Anthropic confirmed it was 'a release packaging issue caused by human error, not a security breach,' stating no customer data or credentials were involved. Developers poring over the code found details including 187 hardcoded spinner verbs, an internal analytics system that logs prompts as negative when users swear at it, and random 4-character IDs filtered to exclude 25 curse words.",
+      "keyConcepts": [
+        "npm source map exposure",
+        "TypeScript build artifact leakage",
+        ".npmignore and package.json files field",
+        "Supply-chain security for developer tools",
+        "Open-source transparency vs. proprietary tooling"
+      ],
+      "whyItMatters": "This incident is a masterclass in npm packaging hygiene: a single misconfigured .npmignore or files field can expose an entire codebase to the public internet. For engineers shipping CLI tools or internal packages via npm, auditing what gets included in a published bundle is now a critical step in the release checklist.",
+      "tags": [
+        "claude-code",
+        "npm",
+        "supply-chain-security",
+        "anthropic",
+        "developer-tools"
+      ],
+      "relatedIds": [
+        "social-x-friedrice-20260331"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How was Claude Code's source code accidentally exposed on March 31, 2026?",
+          "options": [
+            "A disgruntled Anthropic employee published it to GitHub",
+            "A 59.8 MB JavaScript source map file was mistakenly bundled in the npm package",
+            "Anthropic deliberately open-sourced it as a PR strategy",
+            "A security researcher exploited a vulnerability in the npm registry"
+          ],
+          "correctIndex": 1,
+          "explanation": "A JavaScript .map file intended only for internal debugging was inadvertently included in npm package version 2.1.88 via a misconfigured .npmignore. Source map files map minified code back to original source — publishing one publicly is equivalent to publishing the source code itself."
+        },
+        {
+          "question": "What is the best practice for preventing this type of npm packaging incident?",
+          "options": [
+            "Never publish packages to npm",
+            "Always minify all JavaScript before publishing",
+            "Explicitly control what gets included using the 'files' field in package.json or a .npmignore file",
+            "Encrypt the source map files before including them"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 'files' field in package.json acts as an allowlist — only files matching those patterns get published. Alternatively, .npmignore acts as a denylist. Using either mechanism explicitly prevents accidental inclusion of debug artifacts like source maps."
+        },
+        {
+          "question": "According to Anthropic's response, what data was NOT exposed in the Claude Code leak?",
+          "options": [
+            "Internal spinner verbs and UI strings",
+            "TypeScript source files across ~1,900 modules",
+            "Sensitive customer data or credentials",
+            "The analytics system's logging behavior"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic explicitly confirmed that 'no sensitive customer data or credentials were involved or exposed.' The leak was of the application's own source code — not user data — which is why it was classified as a packaging error rather than a security breach."
+        }
+      ]
+    },
+    {
+      "id": "article-winbuzzer-qwen35-omni-closed",
+      "topics": [
+        "ai-research"
+      ],
+      "type": "article",
+      "title": "Alibaba's Qwen3.5-Omni Is a Multimodal Powerhouse That Beats Gemini — but It's Closed Source",
+      "sourceUrl": "https://winbuzzer.com/2026/03/31/alibaba-qwen35-omni-closed-source-multimodal-ai-xcxwbn/",
+      "publishedAt": "2026-03-31",
+      "summary": "Alibaba's Qwen team released Qwen3.5-Omni, a natively multimodal large language model that processes text, images, audio, and video simultaneously within a single computational pipeline — generating both text and streaming speech output in real time. The architecture introduces a Thinker-Talker framework enhanced with Hybrid-Attention Mixture of Experts (MoE) and a native Audio Transformer (AuT) encoder pre-trained on over 100 million hours of audio-visual data. The flagship Qwen3.5-Omni-Plus achieves state-of-the-art results across 215 audio and audio-visual benchmarks and outperforms Gemini 3.1 Pro in audio understanding, reasoning, and translation. All three model variants share a 256K token context window, and the model supports native full-duplex conversation through built-in turn-taking intent recognition.",
+      "keyConcepts": [
+        "Native multimodal architecture (text, image, audio, video)",
+        "Thinker-Talker framework with Hybrid-Attention MoE",
+        "Audio Transformer (AuT) encoder",
+        "Full-duplex real-time conversation",
+        "Mixture of Experts (MoE) scaling"
+      ],
+      "whyItMatters": "Qwen3.5-Omni demonstrates that natively multimodal models — trained from the ground up to understand all modalities together — are beginning to outperform text-first models patched with audio/video adapters, setting a new baseline for what production AI assistants should be capable of.",
+      "tags": [
+        "multimodal-ai",
+        "qwen",
+        "alibaba",
+        "audio-vision",
+        "mixture-of-experts"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Qwen3.5-Omni architecturally different from models like GPT-4 with audio/vision add-ons?",
+          "options": [
+            "It only processes audio, not text",
+            "It uses a larger context window than any other model",
+            "It was trained natively to process all modalities together in a single pipeline, rather than adding modality adapters on top of a text model",
+            "It was trained exclusively on Chinese-language content"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qwen3.5-Omni uses a native Audio Transformer (AuT) encoder pre-trained on 100M+ hours of audio-visual data, making multimodal understanding fundamental to the architecture — not a post-hoc addition. This unified approach is why it can generate both text and streaming speech simultaneously."
+        },
+        {
+          "question": "What does 'full-duplex conversation' mean in the context of Qwen3.5-Omni?",
+          "options": [
+            "The model can handle conversations in two languages at once",
+            "The model can both listen and speak simultaneously, with built-in ability to detect when a user intends to interrupt",
+            "The model can process two video streams at the same time",
+            "Full-duplex means the model uses twice the GPU memory"
+          ],
+          "correctIndex": 1,
+          "explanation": "Full-duplex means simultaneous two-way communication — like a phone call rather than a walkie-talkie. Qwen3.5-Omni's native turn-taking intent recognition lets it distinguish genuine semantic interruptions from background backchanneling (like 'uh-huh'), enabling more natural real-time dialogue."
+        }
+      ]
+    },
+    {
+      "id": "article-cnn-ai-jobs-big-tech",
+      "topics": [
+        "ai-career"
+      ],
+      "type": "article",
+      "title": "Big Tech Promised AI Would Disrupt Labor — But the Evidence Doesn't Support the Narrative Yet",
+      "sourceUrl": "https://us.cnn.com/2026/03/31/business/ai-jobs-big-tech",
+      "publishedAt": "2026-03-31",
+      "summary": "A CNN Business analysis published March 31 examines the gap between Big Tech's rhetoric about AI-driven workforce disruption and the actual labor market data. Microsoft laid off 15,000 employees last year, Amazon cut 16,000 in January, Atlassian shed 10% of its workforce citing an AI pivot, Block cut 40% claiming AI could handle much of its coding work, and Oracle is reportedly preparing to cut up to 30,000 jobs. Yet the article's core finding is counterintuitive: despite years of predictions about a white-collar 'bloodbath,' there is no evidence that AI is meaningfully replacing workers at scale — the major disruption has come from company leaders who tied their businesses to a technology that has not yet lived up to its own hype.",
+      "keyConcepts": [
+        "Tech sector workforce restructuring",
+        "AI productivity justification for layoffs",
+        "White-collar automation gap",
+        "Labor market resilience vs. AI hype cycle"
+      ],
+      "whyItMatters": "For engineers navigating the job market, this analysis is a useful corrective: the narrative that AI is immediately replacing software roles is being used to justify cuts driven more by business strategy than technological capability. Understanding the gap between AI rhetoric and reality helps calibrate career decisions.",
+      "tags": [
+        "ai-layoffs",
+        "workforce",
+        "big-tech",
+        "automation",
+        "labor-market"
+      ],
+      "relatedIds": [
+        "article-aon-radford-mclagan-ai-comp"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the central tension in the CNN analysis of Big Tech AI layoffs?",
+          "options": [
+            "AI is replacing workers faster than economists predicted",
+            "Companies are citing AI as justification for layoffs, but there's no evidence AI is actually replacing those workers at scale",
+            "AI tools have reduced engineering productivity",
+            "Only large companies are affected by AI-driven layoffs"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article highlights a disconnect: companies invoke AI capability to justify workforce cuts while simultaneously their AI products have not yet demonstrated the productivity gains that would justify mass replacement of human workers. The disruption so far has been strategic and financial, not technological."
+        },
+        {
+          "question": "Which company cut the largest percentage of its workforce while claiming AI could handle its work?",
+          "options": [
+            "Microsoft, which cut 15,000 employees",
+            "Amazon, which cut 16,000 jobs in January",
+            "Block, which shed 40% of its staff claiming AI could do much of its basic coding",
+            "Atlassian, which cut 10% in an AI pivot"
+          ],
+          "correctIndex": 2,
+          "explanation": "Block made the most aggressive proportional cut at 40% of staff, directly attributing it to AI's ability to handle basic coding work — making it the clearest example of AI being cited as a driver of workforce reduction, regardless of whether that capability has actually materialized at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-aon-radford-mclagan-ai-comp",
+      "topics": [
+        "ai-career"
+      ],
+      "type": "article",
+      "title": "Aon Updates Radford McLagan Compensation Database to Track Emerging AI Roles and Pay Premiums",
+      "sourceUrl": "https://aon.mediaroom.com/2026-03-31-Aon-Launches-Radford-McLagan-Compensation-Database-Enhancements-as-AI-Redefines-Workforce-Skills-and-Compensation",
+      "publishedAt": "2026-03-31",
+      "summary": "Aon announced enhancements to its Radford McLagan Compensation Database on March 31, adding AI-specific job families including head of AI, applied research scientist, machine learning engineer, and AI ethics roles. The database, which covers over 30 million employees across 115 countries and 150 job functions, now provides structured benchmarking data for roles that barely existed two years ago. Core AI roles such as ML engineers, applied data scientists, and AI platform engineers are among the fastest-growing in the market, and workers with AI skills command wage premiums up to 56% higher than peers without them. Aon also launched an AI Compensation Assistant to give HR teams on-demand access to compensation benchmarks through simplified workflows.",
+      "keyConcepts": [
+        "AI-specific job family benchmarking",
+        "Compensation premiums for AI skills (up to 56%)",
+        "Machine learning engineer, AI ethics, applied research scientist roles",
+        "HR compensation data infrastructure",
+        "Pay equity in AI-intensive organizations"
+      ],
+      "whyItMatters": "Knowing that ML engineers and applied AI scientists command 56% wage premiums over comparable roles without AI skills gives engineers concrete data for salary negotiations and career planning — and signals which skill investments have the clearest near-term financial return.",
+      "tags": [
+        "ai-salaries",
+        "compensation",
+        "ai-roles",
+        "workforce",
+        "ml-engineer"
+      ],
+      "relatedIds": [
+        "article-cnn-ai-jobs-big-tech"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Aon Radford McLagan data, approximately how much more do workers with AI skills earn compared to peers without them?",
+          "options": [
+            "About 10-15% more",
+            "About 25% more",
+            "Up to 56% more",
+            "About the same — AI skills are not yet priced into salaries"
+          ],
+          "correctIndex": 2,
+          "explanation": "PwC's 2025 Global AI Jobs Barometer and Aon's data both point to wage premiums of up to 56% for workers with AI skills relative to comparable roles. This reflects acute scarcity: companies are competing for a small pool of talent with applied ML and AI engineering experience."
+        },
+        {
+          "question": "Why does Aon adding AI job families to a compensation database matter for engineers?",
+          "options": [
+            "It means AI engineers will be paid less as roles become standardized",
+            "It provides structured benchmarking that helps engineers and companies assess whether AI-specific roles are fairly compensated relative to market rates",
+            "It only matters for HR professionals, not individual engineers",
+            "It will replace salary negotiations entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "Compensation databases create market transparency: when job families like 'machine learning engineer' or 'AI ethics' have standardized definitions and salary ranges, engineers can compare their compensation to verified market data rather than relying on anecdotes, which improves negotiating leverage."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-openai-852b-funding",
+      "topics": [
+        "ai-industry"
+      ],
+      "type": "article",
+      "title": "OpenAI Closes Record $122 Billion Funding Round at $852 Billion Valuation to Build Global AI Infrastructure",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
+      "publishedAt": "2026-03-31",
+      "summary": "OpenAI completed a $122 billion funding round on March 31, 2026, pushing its valuation to $852 billion and setting a new record for a private technology company raise. The round was co-led by SoftBank alongside Amazon ($50 billion, partially contingent on an IPO or AGI milestone), Nvidia ($30 billion), Andreessen Horowitz, and D.E. Shaw Ventures. For the first time, OpenAI extended participation to individual retail investors, raising $3 billion through bank channels. The total surpassed the $110 billion figure announced in February, and proceeds are earmarked for accelerating AI infrastructure buildout, expanding compute capacity, and developing a so-called 'superapp' to become the default AI layer for consumers and enterprises.",
+      "keyConcepts": [
+        "Private technology company record valuation ($852B)",
+        "Contingent investment structures tied to AGI milestones",
+        "Retail investor participation in pre-IPO rounds",
+        "AI infrastructure capital intensity",
+        "OpenAI superapp strategy"
+      ],
+      "whyItMatters": "A single company attracting $122 billion — with Amazon's $35 billion contingent on either an IPO or reaching AGI — is a signal of how capital markets are now pricing AI's trajectory; for engineers, it also telegraphs where the next wave of compute infrastructure, product development, and hiring will concentrate.",
+      "tags": [
+        "openai",
+        "funding",
+        "ai-industry",
+        "valuation",
+        "infrastructure"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes the structure of Amazon's $50 billion investment in OpenAI unusual?",
+          "options": [
+            "It is fully paid upfront with no conditions",
+            "$35 billion of it is contingent on OpenAI either going public or reaching the AGI milestone",
+            "Amazon only invested to prevent OpenAI from competing with AWS",
+            "The investment is structured as a loan, not equity"
+          ],
+          "correctIndex": 1,
+          "explanation": "Contingent investment structures tied to 'AGI' milestones are unprecedented in tech funding rounds — they acknowledge that AGI may materialize as a definable event with contractual significance, not just as theoretical progress. It also aligns Amazon's larger payout with the moment OpenAI's valuation would likely peak."
+        },
+        {
+          "question": "What is the strategic significance of OpenAI raising $3 billion from retail investors for the first time?",
+          "options": [
+            "It has no strategic significance — retail capital is too small to matter",
+            "It allows OpenAI to avoid SEC regulation permanently",
+            "It broadens the investor base, generates consumer goodwill, and builds political capital by letting ordinary people invest in AI's upside",
+            "It is primarily a way to pay employee salaries"
+          ],
+          "correctIndex": 2,
+          "explanation": "Retail participation in a $122B round has minimal financial impact but significant strategic value: it creates a constituency of everyday investors who benefit from OpenAI's success, which in turn generates political goodwill and consumer brand loyalty ahead of a potential IPO."
+        }
+      ]
+    },
+    {
+      "id": "social-x-friedrice-20260331",
+      "topics": [
+        "ai-engineering"
+      ],
+      "type": "social",
+      "title": "Security Researcher Chaofan Shou Publicly Discloses the Claude Code npm Source Map Leak",
+      "sourceUrl": "https://x.com/Fried_rice/status/2038894956459290963",
+      "publishedAt": "2026-03-31",
+      "summary": "Chaofan Shou (@Fried_rice), a security researcher and intern at Solayer Labs, posted the original discovery of the Claude Code source leak on X at 4:23 AM ET on March 31, 2026, sharing a direct link to a hosted archive of the exposed TypeScript source. The post triggered an immediate viral cascade — within hours the codebase was mirrored across dozens of GitHub repositories, collectively attracting tens of thousands of stars. This single tweet effectively transformed a packaging accident into one of the biggest involuntary open-sourcing events in recent AI tooling history.",
+      "keyConcepts": [
+        "Responsible disclosure vs. immediate public posting",
+        "Viral amplification of security discoveries on social media",
+        "npm package supply-chain transparency",
+        "Coordinated vs. uncoordinated vulnerability disclosure"
+      ],
+      "whyItMatters": "How security researchers choose to disclose findings — private notification vs. immediate public broadcast — determines the blast radius of an incident. Shou's immediate public post gave Anthropic no remediation window before the code spread irreversibly, raising questions about responsible disclosure norms in the developer tooling ecosystem.",
+      "tags": [
+        "security-disclosure",
+        "npm",
+        "claude-code",
+        "supply-chain",
+        "vulnerability-disclosure"
+      ],
+      "relatedIds": [
+        "article-theregister-claude-code-source"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core tension in 'responsible disclosure' that this incident illustrates?",
+          "options": [
+            "Whether to charge for security research",
+            "The tradeoff between immediately publicizing a vulnerability (maximum public awareness) versus notifying the vendor privately first (maximum remediation time)",
+            "Whether security researchers should use Twitter or email",
+            "The debate over whether npm is a secure platform"
+          ],
+          "correctIndex": 1,
+          "explanation": "Responsible disclosure norms recommend notifying the affected vendor before going public, giving them time to patch or remove the exposure. Immediate public disclosure — while spreading awareness faster — removes any chance for Anthropic to pull the file before the code was mirrored worldwide."
+        },
+        {
+          "question": "Why does public posting of a security discovery on social media matter more than it did a decade ago?",
+          "options": [
+            "Social media didn't exist a decade ago",
+            "Modern platforms enable content to be mirrored and archived instantly at global scale, making any removal attempt practically irreversible within minutes",
+            "Security discoveries are less common now",
+            "Developers no longer read technical blogs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Once a link is shared publicly on X with millions of followers, automated archiving tools, bots, and manual mirrors preserve the content faster than any vendor can respond. This makes the first moment of public disclosure the effective point of no return — not the original packaging error."
+        }
+      ]
+    },
+    {
       "id": "article-pragmaticengineer-ai-tooling-2026",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "AI Tooling for Software Engineers: 95% of Devs Use AI Weekly, Claude Code Tops the List",
       "sourceUrl": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
@@ -19,8 +344,17 @@
         "Multi-tool usage patterns (70% use 2-4 tools)"
       ],
       "whyItMatters": "This survey provides the most authoritative snapshot of how professional developers actually use AI tools in 2026 — the data shows AI coding assistance has crossed from optional to essential, and Claude Code's rapid dominance signals where the industry is heading.",
-      "tags": ["developer-survey", "claude-code", "ai-adoption", "developer-tools", "pragmatic-engineer"],
-      "relatedIds": ["article-medium-state-of-ai-coding-agents", "article-builder-claude-code-march-updates"],
+      "tags": [
+        "developer-survey",
+        "claude-code",
+        "ai-adoption",
+        "developer-tools",
+        "pragmatic-engineer"
+      ],
+      "relatedIds": [
+        "article-medium-state-of-ai-coding-agents",
+        "article-builder-claude-code-march-updates"
+      ],
       "knowledgeChecks": [
         {
           "question": "According to the Pragmatic Engineer survey, what percentage of software engineers use AI tools at least weekly?",
@@ -48,7 +382,10 @@
     },
     {
       "id": "article-9to5mac-gpt53-instant",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "OpenAI Releases GPT-5.3 Instant: Less Cringe, Fewer Hallucinations, More Direct Answers",
       "sourceUrl": "https://9to5mac.com/2026/03/03/openai-releases-gpt-5-3-instant-update-to-make-chatgpt-less-cringe/",
@@ -61,8 +398,16 @@
         "GPT-5.2 Instant retirement on June 3, 2026"
       ],
       "whyItMatters": "GPT-5.3 Instant addresses one of the most common developer complaints about AI assistants — unnecessary hedging and refusals — making it a more practical tool for real engineering workflows where direct, accurate answers matter.",
-      "tags": ["openai", "gpt-5-3", "hallucination-reduction", "chatgpt", "model-update"],
-      "relatedIds": ["article-techcrunch-gpt54-launch"],
+      "tags": [
+        "openai",
+        "gpt-5-3",
+        "hallucination-reduction",
+        "chatgpt",
+        "model-update"
+      ],
+      "relatedIds": [
+        "article-techcrunch-gpt54-launch"
+      ],
       "knowledgeChecks": [
         {
           "question": "By how much does GPT-5.3 Instant reduce hallucination rates when using web search?",
@@ -90,7 +435,9 @@
     },
     {
       "id": "article-dev-gemini-code-assist-free",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "Google Made Gemini Code Assist Free: 180K Completions vs Copilot's 2K — What's the Catch?",
       "sourceUrl": "https://dev.to/alanwest/google-made-gemini-code-assist-free-whats-the-catch-4cae",
@@ -103,8 +450,17 @@
         "Multi-IDE support (VS Code, JetBrains)"
       ],
       "whyItMatters": "Google's aggressive free tier pricing signals that AI code completion is becoming commoditized — but the privacy trade-off is a critical consideration for any engineer working on proprietary code.",
-      "tags": ["google", "gemini", "code-assist", "free-tier", "developer-tools", "privacy"],
-      "relatedIds": ["article-pragmaticengineer-ai-tooling-2026"],
+      "tags": [
+        "google",
+        "gemini",
+        "code-assist",
+        "free-tier",
+        "developer-tools",
+        "privacy"
+      ],
+      "relatedIds": [
+        "article-pragmaticengineer-ai-tooling-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "How does Gemini Code Assist's free tier compare to GitHub Copilot's?",
@@ -132,7 +488,9 @@
     },
     {
       "id": "article-marktechpost-qwen35-small",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "Alibaba Releases Qwen 3.5 Small Models: 0.8B to 9B Parameters for On-Device AI",
       "sourceUrl": "https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/",
@@ -145,8 +503,17 @@
         "Apache 2.0 open-source licensing"
       ],
       "whyItMatters": "Small, efficient models that run on-device represent the next frontier of AI deployment — Qwen 3.5 Small shows that multimodal reasoning no longer requires cloud-scale compute, opening up new possibilities for privacy-preserving AI applications.",
-      "tags": ["qwen", "alibaba", "small-models", "on-device-ai", "open-source", "multimodal"],
-      "relatedIds": ["article-cnbc-openclaw-commoditization"],
+      "tags": [
+        "qwen",
+        "alibaba",
+        "small-models",
+        "on-device-ai",
+        "open-source",
+        "multimodal"
+      ],
+      "relatedIds": [
+        "article-cnbc-openclaw-commoditization"
+      ],
       "knowledgeChecks": [
         {
           "question": "What makes Qwen 3.5 Small's training approach different from typical LLMs?",
@@ -174,7 +541,9 @@
     },
     {
       "id": "article-openai-cot-controllability",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "OpenAI Research: Reasoning Models Struggle to Hide Their Chain of Thought — And That's Good",
       "sourceUrl": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
@@ -187,8 +556,17 @@
         "Deception detection via CoT analysis"
       ],
       "whyItMatters": "As AI models become more autonomous, being able to monitor their reasoning process is critical for safety. This research provides evidence that chain-of-thought transparency is a viable safety mechanism — important for anyone deploying reasoning models in production.",
-      "tags": ["openai", "ai-safety", "chain-of-thought", "reasoning", "transparency", "monitoring"],
-      "relatedIds": ["article-science-agentic-ai-intelligence-explosion"],
+      "tags": [
+        "openai",
+        "ai-safety",
+        "chain-of-thought",
+        "reasoning",
+        "transparency",
+        "monitoring"
+      ],
+      "relatedIds": [
+        "article-science-agentic-ai-intelligence-explosion"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why is it good news that reasoning models struggle to control their chains of thought?",
@@ -216,7 +594,9 @@
     },
     {
       "id": "article-cnn-block-ai-layoffs",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Block Lays Off 4,000 Staff Citing AI — Sparking 'AI-Washing' Debate Across Tech",
       "sourceUrl": "https://edition.cnn.com/2026/02/26/business/block-layoffs-ai-jack-dorsey",
@@ -229,8 +609,17 @@
         "Industry-wide AI-washing trend"
       ],
       "whyItMatters": "The Block layoffs crystallize a critical question for every knowledge worker: when companies cite AI as the reason for cuts, how much is genuine capability replacement vs. convenient narrative? Understanding AI-washing helps you separate real skill threats from corporate spin.",
-      "tags": ["block", "layoffs", "ai-washing", "jack-dorsey", "workforce"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "tags": [
+        "block",
+        "layoffs",
+        "ai-washing",
+        "jack-dorsey",
+        "workforce"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-techcrunch-atlassian-ai-layoffs"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is 'AI-washing' in the context of layoffs?",
@@ -258,7 +647,9 @@
     },
     {
       "id": "article-aboutamazon-aws-openai-partnership",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "AWS and OpenAI Announce $100B Multi-Year Strategic Partnership",
       "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
@@ -271,8 +662,18 @@
         "Multi-cloud AI infrastructure strategy"
       ],
       "whyItMatters": "This deal reshapes the cloud AI landscape — OpenAI's massive AWS commitment alongside its Microsoft relationship signals that frontier AI companies need multi-cloud strategies, and the sheer scale of investment defines where AI infrastructure is heading.",
-      "tags": ["aws", "openai", "cloud-infrastructure", "trainium", "partnership", "funding"],
-      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-gpt54-launch"],
+      "tags": [
+        "aws",
+        "openai",
+        "cloud-infrastructure",
+        "trainium",
+        "partnership",
+        "funding"
+      ],
+      "relatedIds": [
+        "article-techcrunch-ai-startups-eating-vc",
+        "article-techcrunch-gpt54-launch"
+      ],
       "knowledgeChecks": [
         {
           "question": "How much is OpenAI's latest funding round worth?",
@@ -300,7 +701,9 @@
     },
     {
       "id": "article-techcrunch-datacenter-boom",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "The Billion-Dollar Infrastructure Deals Powering the AI Boom",
       "sourceUrl": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
@@ -313,8 +716,16 @@
         "Regional data center expansion"
       ],
       "whyItMatters": "The scale of infrastructure investment reveals where the industry believes AI is heading — companies are betting hundreds of billions that AI compute demand will continue growing exponentially, creating opportunities and risks across the tech stack.",
-      "tags": ["data-centers", "infrastructure", "cloud", "investment", "compute"],
-      "relatedIds": ["article-aboutamazon-aws-openai-partnership"],
+      "tags": [
+        "data-centers",
+        "infrastructure",
+        "cloud",
+        "investment",
+        "compute"
+      ],
+      "relatedIds": [
+        "article-aboutamazon-aws-openai-partnership"
+      ],
       "knowledgeChecks": [
         {
           "question": "How much total investment has been committed to AI data center infrastructure?",
@@ -342,7 +753,9 @@
     },
     {
       "id": "article-thenewstack-mcp-roadmap-2026",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "MCP's Biggest Production Growing Pains Will Soon Be Solved — The 2026 Roadmap",
       "sourceUrl": "https://thenewstack.io/model-context-protocol-roadmap-2026/",
@@ -355,8 +768,17 @@
         "Universal adoption across all major AI providers"
       ],
       "whyItMatters": "MCP has become the de facto standard for connecting AI agents to external tools and data — understanding its production limitations and roadmap is essential for any engineer building agentic AI systems at scale.",
-      "tags": ["mcp", "model-context-protocol", "anthropic", "agentic-ai", "infrastructure"],
-      "relatedIds": ["article-builder-claude-code-march-updates", "article-medium-state-of-ai-coding-agents"],
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "anthropic",
+        "agentic-ai",
+        "infrastructure"
+      ],
+      "relatedIds": [
+        "article-builder-claude-code-march-updates",
+        "article-medium-state-of-ai-coding-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the primary production challenge MCP's 2026 roadmap aims to solve?",
@@ -384,7 +806,10 @@
     },
     {
       "id": "article-cnbc-meta-mtia-chips",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Meta Rolls Out Four Custom MTIA AI Chips to Reduce Nvidia Dependence",
       "sourceUrl": "https://www.cnbc.com/2026/03/11/meta-ai-mtia-chip-data-center.html",
@@ -397,8 +822,17 @@
         "Six-month chip release cadence"
       ],
       "whyItMatters": "Meta's aggressive custom silicon roadmap signals that the biggest AI companies are building their own chips to control costs and reduce dependency on Nvidia — a strategic shift that will reshape the AI hardware landscape.",
-      "tags": ["meta", "mtia", "custom-chips", "risc-v", "ai-hardware", "inference"],
-      "relatedIds": ["article-nvidia-gtc-2026-agents"],
+      "tags": [
+        "meta",
+        "mtia",
+        "custom-chips",
+        "risc-v",
+        "ai-hardware",
+        "inference"
+      ],
+      "relatedIds": [
+        "article-nvidia-gtc-2026-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "What architecture do Meta's MTIA chips use?",
@@ -426,7 +860,10 @@
     },
     {
       "id": "article-cnbc-openclaw-commoditization",
-      "topics": ["ai-research", "ai-engineering"],
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "OpenClaw's ChatGPT Moment: How the Viral AI Agent Framework Is Commoditizing Foundation Models",
       "sourceUrl": "https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html",
@@ -439,8 +876,17 @@
         "Agent framework as the new value layer"
       ],
       "whyItMatters": "OpenClaw's explosive growth signals a fundamental shift in where AI value is created — from the models themselves to the agent frameworks that orchestrate them. Engineers should understand this shift when choosing where to invest their time and skills.",
-      "tags": ["openclaw", "open-source", "ai-agents", "commoditization", "local-ai"],
-      "relatedIds": ["article-nvidianews-nemoclaw", "article-marktechpost-qwen35-small"],
+      "tags": [
+        "openclaw",
+        "open-source",
+        "ai-agents",
+        "commoditization",
+        "local-ai"
+      ],
+      "relatedIds": [
+        "article-nvidianews-nemoclaw",
+        "article-marktechpost-qwen35-small"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why is OpenClaw's rise compared to a 'ChatGPT moment'?",
@@ -468,7 +914,9 @@
     },
     {
       "id": "article-techcrunch-atlassian-ai-layoffs",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Atlassian Cuts 1,600 Jobs While Hiring 800 AI Engineers — The 'Cut and Redirect' Playbook",
       "sourceUrl": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
@@ -481,8 +929,17 @@
         "Workforce composition reshaping"
       ],
       "whyItMatters": "Atlassian's approach is becoming the template for Big Tech restructuring — cutting traditional roles while hiring AI specialists. Understanding which roles are being cut vs. created tells you exactly where to invest your skill development.",
-      "tags": ["atlassian", "layoffs", "hiring", "ai-engineering", "workforce-reshaping"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-cnn-block-ai-layoffs"],
+      "tags": [
+        "atlassian",
+        "layoffs",
+        "hiring",
+        "ai-engineering",
+        "workforce-reshaping"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-cnn-block-ai-layoffs"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the 'cut and redirect' pattern in AI-driven layoffs?",
@@ -510,7 +967,9 @@
     },
     {
       "id": "article-techtimes-ai-jobs-soar-layoffs-surge",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Tech Layoffs Surge While AI Jobs Soar: 45,000 Cuts vs 340% Growth in AI Postings",
       "sourceUrl": "https://www.techtimes.com/articles/315282/20260321/tech-layoffs-surge-while-ai-jobs-soar-key-trends-shaping-2026-tech-industry.htm",
@@ -523,8 +982,17 @@
         "MLOps and AI safety as fastest-growing categories"
       ],
       "whyItMatters": "The data paints a clear picture: the tech job market is bifurcating. AI-fluent engineers are in unprecedented demand while traditional roles contract — making AI skill development the single most important career investment right now.",
-      "tags": ["job-market", "ai-jobs", "layoffs", "mlops", "career-trends"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "tags": [
+        "job-market",
+        "ai-jobs",
+        "layoffs",
+        "mlops",
+        "career-trends"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-techcrunch-atlassian-ai-layoffs"
+      ],
       "knowledgeChecks": [
         {
           "question": "How has the percentage of AI-attributed layoffs changed from 2025 to 2026?",
@@ -552,7 +1020,9 @@
     },
     {
       "id": "article-bloomberg-cursor-50b-valuation",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "AI Coding Startup Cursor in Talks for $50 Billion Valuation — Nearly Double Its Fall Round",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation",
@@ -565,8 +1035,17 @@
         "AI coding tool market competition"
       ],
       "whyItMatters": "Cursor's $50B valuation at just 3 years old demonstrates that AI coding tools are among the most valuable software categories ever created — the market has validated that developers will pay significant premiums for AI-assisted development.",
-      "tags": ["cursor", "valuation", "startup", "ai-coding", "venture-capital"],
-      "relatedIds": ["article-pragmaticengineer-ai-tooling-2026", "article-techcrunch-ai-startups-eating-vc"],
+      "tags": [
+        "cursor",
+        "valuation",
+        "startup",
+        "ai-coding",
+        "venture-capital"
+      ],
+      "relatedIds": [
+        "article-pragmaticengineer-ai-tooling-2026",
+        "article-techcrunch-ai-startups-eating-vc"
+      ],
       "knowledgeChecks": [
         {
           "question": "How fast has Cursor's valuation grown?",
@@ -594,7 +1073,10 @@
     },
     {
       "id": "article-nvidianews-nemoclaw",
-      "topics": ["ai-engineering", "ai-research"],
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
       "type": "article",
       "title": "NVIDIA Announces NemoClaw: Enterprise-Grade Open-Source AI Agent Platform at GTC 2026",
       "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw",
@@ -607,8 +1089,18 @@
         "Open-source Nemotron models"
       ],
       "whyItMatters": "NemoClaw represents Nvidia's strategic pivot from selling chips to owning the AI agent software stack — by making enterprise-grade agent deployment free and open-source, they're building the ecosystem that drives demand for their hardware.",
-      "tags": ["nvidia", "nemoclaw", "openclaw", "open-source", "enterprise-ai", "agents"],
-      "relatedIds": ["article-cnbc-openclaw-commoditization", "article-nvidia-gtc-2026-agents"],
+      "tags": [
+        "nvidia",
+        "nemoclaw",
+        "openclaw",
+        "open-source",
+        "enterprise-ai",
+        "agents"
+      ],
+      "relatedIds": [
+        "article-cnbc-openclaw-commoditization",
+        "article-nvidia-gtc-2026-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the relationship between NemoClaw and OpenClaw?",
@@ -636,7 +1128,10 @@
     },
     {
       "id": "article-nvidia-gtc-2026-agents",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "NVIDIA GTC 2026: Vera Rubin Platform, Open-Source Enterprise AI Agents, and 100K Uber Robotaxis",
       "sourceUrl": "https://blogs.nvidia.com/blog/gtc-2026-news/",
@@ -649,8 +1144,18 @@
         "Seven new chip announcements"
       ],
       "whyItMatters": "GTC 2026 revealed NVIDIA's full-stack AI strategy — from chips to agents to robotaxis. The company is positioning itself as the infrastructure layer for the entire AI economy, making this event essential viewing for understanding where enterprise AI is headed.",
-      "tags": ["nvidia", "gtc-2026", "vera-rubin", "uber", "robotaxi", "enterprise-agents"],
-      "relatedIds": ["article-nvidianews-nemoclaw", "article-nvidianews-uber-robotaxi"],
+      "tags": [
+        "nvidia",
+        "gtc-2026",
+        "vera-rubin",
+        "uber",
+        "robotaxi",
+        "enterprise-agents"
+      ],
+      "relatedIds": [
+        "article-nvidianews-nemoclaw",
+        "article-nvidianews-uber-robotaxi"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the Vera Rubin platform?",
@@ -678,7 +1183,9 @@
     },
     {
       "id": "article-nvidianews-uber-robotaxi",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "NVIDIA and Uber Partner on End-to-End Self-Driving System for Global Robotaxi Fleet",
       "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-uber-robotaxi",
@@ -691,8 +1198,16 @@
         "Multi-automaker partnerships (BYD, Hyundai, Nissan, Geely)"
       ],
       "whyItMatters": "This partnership moves robotaxis from experimental pilots to industrial-scale deployment — the combination of NVIDIA's full-stack autonomy platform with Uber's ride-hailing network and multiple automakers signals that autonomous transportation is entering its commercial era.",
-      "tags": ["nvidia", "uber", "robotaxi", "autonomous-driving", "drive-hyperion"],
-      "relatedIds": ["article-nvidia-gtc-2026-agents"],
+      "tags": [
+        "nvidia",
+        "uber",
+        "robotaxi",
+        "autonomous-driving",
+        "drive-hyperion"
+      ],
+      "relatedIds": [
+        "article-nvidia-gtc-2026-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "What makes NVIDIA's robotaxi approach different from previous autonomous driving efforts?",
@@ -720,7 +1235,9 @@
     },
     {
       "id": "article-science-agentic-ai-intelligence-explosion",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "paper",
       "title": "Agentic AI and the Next Intelligence Explosion: How Reasoning Models Spontaneously Develop 'Societies of Thought'",
       "sourceUrl": "https://www.science.org/doi/10.1126/science.aeg1895",
@@ -733,8 +1250,16 @@
         "Implications for AI agent architecture design"
       ],
       "whyItMatters": "This finding suggests that agentic behavior may be an emergent property of reasoning optimization, not something that needs to be explicitly engineered — a fundamental insight for anyone building or using AI agent systems.",
-      "tags": ["agentic-ai", "reinforcement-learning", "reasoning", "emergent-behavior", "science"],
-      "relatedIds": ["article-openai-cot-controllability"],
+      "tags": [
+        "agentic-ai",
+        "reinforcement-learning",
+        "reasoning",
+        "emergent-behavior",
+        "science"
+      ],
+      "relatedIds": [
+        "article-openai-cot-controllability"
+      ],
       "knowledgeChecks": [
         {
           "question": "What are 'societies of thought' as described in this paper?",
@@ -762,7 +1287,9 @@
     },
     {
       "id": "article-pew-americans-ai-views-2026",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Pew Research: 71% of Americans Want Federal AI Regulation, Worker Anxiety Hits Record Levels",
       "sourceUrl": "https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/",
@@ -775,8 +1302,17 @@
         "Growing bipartisan support for oversight"
       ],
       "whyItMatters": "The dramatic increase in both regulation support and job anxiety shows AI is no longer an abstract concern — it's a pocketbook issue. Engineers should understand the regulatory landscape that's forming around AI technology.",
-      "tags": ["pew-research", "gallup", "ai-regulation", "worker-anxiety", "public-opinion"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "tags": [
+        "pew-research",
+        "gallup",
+        "ai-regulation",
+        "worker-anxiety",
+        "public-opinion"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-fortune-adp-worker-anxiety"
+      ],
       "knowledgeChecks": [
         {
           "question": "How has American support for federal AI regulation changed from 2023 to 2026?",
@@ -804,7 +1340,10 @@
     },
     {
       "id": "article-techcrunch-ami-labs-jepa",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Yann LeCun's AMI Labs Raises $1.03B — Largest European Seed Round Ever — to Build World Models Based on JEPA",
       "sourceUrl": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
@@ -817,8 +1356,17 @@
         "Post-LLM AI architecture"
       ],
       "whyItMatters": "If world models succeed, they represent the biggest architectural shift since transformers — engineers building on LLMs should understand the alternative paradigm that just attracted over a billion dollars in funding from top-tier investors.",
-      "tags": ["ami-labs", "yann-lecun", "jepa", "world-models", "seed-round"],
-      "relatedIds": ["article-science-agentic-ai-intelligence-explosion", "article-marktechpost-qwen35-small"],
+      "tags": [
+        "ami-labs",
+        "yann-lecun",
+        "jepa",
+        "world-models",
+        "seed-round"
+      ],
+      "relatedIds": [
+        "article-science-agentic-ai-intelligence-explosion",
+        "article-marktechpost-qwen35-small"
+      ],
       "knowledgeChecks": [
         {
           "question": "How does JEPA differ from traditional large language models?",
@@ -846,7 +1394,9 @@
     },
     {
       "id": "article-fcc-claude-code-essentials",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "freeCodeCamp Publishes 12-Hour Claude Code Essentials Course — Free on YouTube",
       "sourceUrl": "https://www.freecodecamp.org/news/claude-code-essentials-exampro/",
@@ -859,8 +1409,17 @@
         "Real-world development patterns"
       ],
       "whyItMatters": "Free, comprehensive training on the most popular AI coding tool democratizes access to agentic development skills — this course provides a structured path from beginner to competent Claude Code user.",
-      "tags": ["freecodecamp", "claude-code", "course", "education", "agentic-coding"],
-      "relatedIds": ["article-builder-claude-code-march-updates", "article-pragmaticengineer-ai-tooling-2026"],
+      "tags": [
+        "freecodecamp",
+        "claude-code",
+        "course",
+        "education",
+        "agentic-coding"
+      ],
+      "relatedIds": [
+        "article-builder-claude-code-march-updates",
+        "article-pragmaticengineer-ai-tooling-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What does the Claude Code Essentials course primarily teach?",
@@ -888,7 +1447,9 @@
     },
     {
       "id": "article-builder-claude-code-march-updates",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "Every Claude Code Update From March 2026, Explained",
       "sourceUrl": "https://www.builder.io/blog/claude-code-updates",
@@ -901,8 +1462,16 @@
         "Extended output token limits (64k-128k)"
       ],
       "whyItMatters": "Claude Code is now the most-used AI coding tool at 46% developer preference — these updates push it from code assistant to autonomous development environment, and every engineer using it should understand the new capabilities.",
-      "tags": ["claude-code", "anthropic", "developer-tools", "agentic-coding"],
-      "relatedIds": ["article-medium-state-of-ai-coding-agents", "article-fcc-claude-code-essentials"],
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "developer-tools",
+        "agentic-coding"
+      ],
+      "relatedIds": [
+        "article-medium-state-of-ai-coding-agents",
+        "article-fcc-claude-code-essentials"
+      ],
       "knowledgeChecks": [
         {
           "question": "What does the /loop feature in Claude Code enable?",
@@ -930,7 +1499,9 @@
     },
     {
       "id": "article-medium-state-of-ai-coding-agents",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "The State of AI Coding Agents (2026): From Pair Programming to Autonomous AI Teams",
       "sourceUrl": "https://medium.com/@dave-patten/the-state-of-ai-coding-agents-2026-from-pair-programming-to-autonomous-ai-teams-b11f2b39232a",
@@ -943,8 +1514,17 @@
         "Agent team collaboration"
       ],
       "whyItMatters": "The shift from AI-as-autocomplete to AI-as-autonomous-agent fundamentally changes how engineers work — understanding which tools lead in agentic capabilities helps you choose the right workflow for your projects.",
-      "tags": ["agentic-coding", "claude-code", "cursor", "copilot", "autonomous-agents"],
-      "relatedIds": ["article-builder-claude-code-march-updates", "article-pragmaticengineer-ai-tooling-2026"],
+      "tags": [
+        "agentic-coding",
+        "claude-code",
+        "cursor",
+        "copilot",
+        "autonomous-agents"
+      ],
+      "relatedIds": [
+        "article-builder-claude-code-march-updates",
+        "article-pragmaticengineer-ai-tooling-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the key difference between 2024-era AI coding tools and 2026 agentic coding tools?",
@@ -972,7 +1552,9 @@
     },
     {
       "id": "article-sonatype-litellm-supply-chain",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "article",
       "title": "LiteLLM Supply Chain Attack: Compromised PyPI Package Delivers Multi-Stage Credential Stealer",
       "sourceUrl": "https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer",
@@ -985,8 +1567,17 @@
         "3-hour exposure window before quarantine"
       ],
       "whyItMatters": "This attack demonstrates that even popular, well-maintained AI infrastructure packages are vulnerable to supply chain attacks through their CI/CD dependencies — a wake-up call for every team building on open-source AI libraries.",
-      "tags": ["security", "supply-chain", "litellm", "pypi", "ci-cd", "vulnerability"],
-      "relatedIds": ["article-thenewstack-mcp-roadmap-2026"],
+      "tags": [
+        "security",
+        "supply-chain",
+        "litellm",
+        "pypi",
+        "ci-cd",
+        "vulnerability"
+      ],
+      "relatedIds": [
+        "article-thenewstack-mcp-roadmap-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "How did the attackers compromise the LiteLLM package?",
@@ -1014,7 +1605,10 @@
     },
     {
       "id": "article-techcrunch-yc-w26-demo-day",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "16 of the Most Interesting Startups from YC W26 Demo Day",
       "sourceUrl": "https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/",
@@ -1027,8 +1621,17 @@
         "Enterprise pain point focus"
       ],
       "whyItMatters": "The shift from generic AI wrappers to domain-specific tools signals where real enterprise value is being created — and where engineering talent will be in highest demand over the next 12 months.",
-      "tags": ["y-combinator", "startups", "demo-day", "enterprise-ai", "vertical-ai"],
-      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-kleiner-perkins"],
+      "tags": [
+        "y-combinator",
+        "startups",
+        "demo-day",
+        "enterprise-ai",
+        "vertical-ai"
+      ],
+      "relatedIds": [
+        "article-techcrunch-ai-startups-eating-vc",
+        "article-techcrunch-kleiner-perkins"
+      ],
       "knowledgeChecks": [
         {
           "question": "What trend distinguishes YC W26 startups from earlier AI cohorts?",
@@ -1056,7 +1659,9 @@
     },
     {
       "id": "article-arcprize-arc-agi-3",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "ARC-AGI-3 Launches: Humans Score 100%, Best AI Scores 0.37% on Interactive Reasoning Benchmark",
       "sourceUrl": "https://arcprize.org/blog/arc-agi-3-launch",
@@ -1069,8 +1674,17 @@
         "$2M+ in competition prizes"
       ],
       "whyItMatters": "ARC-AGI-3 exposes the massive gap between current AI capabilities and human-level general intelligence — while AI excels at pattern matching and language, it fundamentally struggles with novel exploration and autonomous goal discovery.",
-      "tags": ["arc-agi", "benchmark", "agi", "reasoning", "evaluation"],
-      "relatedIds": ["article-science-agentic-ai-intelligence-explosion", "article-openai-cot-controllability"],
+      "tags": [
+        "arc-agi",
+        "benchmark",
+        "agi",
+        "reasoning",
+        "evaluation"
+      ],
+      "relatedIds": [
+        "article-science-agentic-ai-intelligence-explosion",
+        "article-openai-cot-controllability"
+      ],
       "knowledgeChecks": [
         {
           "question": "What makes ARC-AGI-3 fundamentally different from previous AI benchmarks?",
@@ -1098,7 +1712,10 @@
     },
     {
       "id": "article-fortune-claude-mythos-leak",
-      "topics": ["ai-industry", "ai-research"],
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
       "type": "article",
       "title": "Anthropic's 'Mythos' AI Model Revealed in Data Leak — Described as 'Step Change' with Unprecedented Cyber Capabilities",
       "sourceUrl": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
@@ -1111,8 +1728,17 @@
         "Market impact: 3% tech stock selloff"
       ],
       "whyItMatters": "The Mythos leak reveals that frontier AI capabilities are advancing faster than companies can control the narrative — and the cybersecurity implications of models that can rapidly discover vulnerabilities demand attention from every engineer.",
-      "tags": ["anthropic", "claude-mythos", "data-leak", "cybersecurity", "frontier-models"],
-      "relatedIds": ["article-techcrunch-gpt54-launch", "article-sonatype-litellm-supply-chain"],
+      "tags": [
+        "anthropic",
+        "claude-mythos",
+        "data-leak",
+        "cybersecurity",
+        "frontier-models"
+      ],
+      "relatedIds": [
+        "article-techcrunch-gpt54-launch",
+        "article-sonatype-litellm-supply-chain"
+      ],
       "knowledgeChecks": [
         {
           "question": "How was Claude Mythos revealed to the public?",
@@ -1140,7 +1766,9 @@
     },
     {
       "id": "article-fortune-cfo-survey-ai-layoffs",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "CFOs Admit Privately That AI Layoffs Will Be 9x Higher This Year — 502,000 Roles at Risk",
       "sourceUrl": "https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/",
@@ -1153,8 +1781,17 @@
         "NBER survey of 750 CFOs"
       ],
       "whyItMatters": "This is the first large-scale executive survey quantifying planned AI layoffs — the 9x increase signals that AI-driven workforce restructuring is accelerating from experiment to corporate strategy, making upskilling urgent for every knowledge worker.",
-      "tags": ["layoffs", "cfo-survey", "workforce", "white-collar", "job-displacement"],
-      "relatedIds": ["article-techcrunch-atlassian-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "tags": [
+        "layoffs",
+        "cfo-survey",
+        "workforce",
+        "white-collar",
+        "job-displacement"
+      ],
+      "relatedIds": [
+        "article-techcrunch-atlassian-ai-layoffs",
+        "article-fortune-adp-worker-anxiety"
+      ],
       "knowledgeChecks": [
         {
           "question": "How do the projected 2026 AI layoffs compare to 2025?",
@@ -1182,7 +1819,9 @@
     },
     {
       "id": "article-fortune-adp-worker-anxiety",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "Workers Around the World Are Scared: Only 22% Believe Their Job Is Safe From AI",
       "sourceUrl": "https://fortune.com/2026/03/25/workers-anxious-scared-insecure-ai-adp-global-survey/",
@@ -1195,8 +1834,17 @@
         "AI anxiety compounded by visible layoffs"
       ],
       "whyItMatters": "This is the largest global survey of AI workplace anxiety to date — the finding that only 1 in 5 workers feels secure should alarm both employers and employees, and underscores the urgency of AI upskilling programs.",
-      "tags": ["workforce-anxiety", "adp-survey", "global", "job-security", "upskilling"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-pew-americans-ai-views-2026"],
+      "tags": [
+        "workforce-anxiety",
+        "adp-survey",
+        "global",
+        "job-security",
+        "upskilling"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-pew-americans-ai-views-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "According to the ADP survey, what percentage of workers worldwide believe their job is safe from AI?",
@@ -1224,7 +1872,9 @@
     },
     {
       "id": "article-techcrunch-gpt54-launch",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "OpenAI Launches GPT-5.4 With Pro and Thinking Versions — 1M Context, 83% on GDPval",
       "sourceUrl": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
@@ -1237,8 +1887,17 @@
         "33% reduction in factual errors"
       ],
       "whyItMatters": "GPT-5.4 merges coding, reasoning, and computer use into a single model — the convergence of these capabilities changes what's possible for developers building AI-powered applications.",
-      "tags": ["openai", "gpt-5-4", "frontier-models", "computer-use", "reasoning"],
-      "relatedIds": ["article-9to5mac-gpt53-instant", "article-fortune-claude-mythos-leak"],
+      "tags": [
+        "openai",
+        "gpt-5-4",
+        "frontier-models",
+        "computer-use",
+        "reasoning"
+      ],
+      "relatedIds": [
+        "article-9to5mac-gpt53-instant",
+        "article-fortune-claude-mythos-leak"
+      ],
       "knowledgeChecks": [
         {
           "question": "What does GPT-5.4 combine that its predecessors handled separately?",
@@ -1266,7 +1925,9 @@
     },
     {
       "id": "article-techcrunch-ai-startups-eating-vc",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "AI Startups Are Eating the Venture Industry — 90% of VC Funding, $171B in One Month",
       "sourceUrl": "https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry-and-the-returns-so-far-are-good/",
@@ -1279,8 +1940,17 @@
         "Post-ChatGPT vintage fund outperformance"
       ],
       "whyItMatters": "The extreme funding concentration means the AI infrastructure layer is being built by a handful of companies — engineers should understand which platforms are winning the capital war, as that determines which tools and APIs will dominate.",
-      "tags": ["venture-capital", "ai-funding", "openai", "anthropic", "startup-ecosystem"],
-      "relatedIds": ["article-techcrunch-yc-w26-demo-day", "article-techcrunch-kleiner-perkins"],
+      "tags": [
+        "venture-capital",
+        "ai-funding",
+        "openai",
+        "anthropic",
+        "startup-ecosystem"
+      ],
+      "relatedIds": [
+        "article-techcrunch-yc-w26-demo-day",
+        "article-techcrunch-kleiner-perkins"
+      ],
       "knowledgeChecks": [
         {
           "question": "What percentage of global VC funding went to AI startups in February 2026?",
@@ -1308,7 +1978,9 @@
     },
     {
       "id": "article-techcrunch-sora-shutdown",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Why OpenAI Really Shut Down Sora: $1M/Day Burn Rate, Disney's $1B Deal Killed",
       "sourceUrl": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
@@ -1321,8 +1993,17 @@
         "Compute economics forcing prioritization"
       ],
       "whyItMatters": "Sora's shutdown is a reality check for the entire AI industry — even well-funded products can fail when compute economics don't work. The lesson for engineers: understand the economics of AI deployment, not just the technology.",
-      "tags": ["openai", "sora", "shutdown", "compute-economics", "strategy"],
-      "relatedIds": ["article-techcrunch-gpt54-launch", "article-aboutamazon-aws-openai-partnership"],
+      "tags": [
+        "openai",
+        "sora",
+        "shutdown",
+        "compute-economics",
+        "strategy"
+      ],
+      "relatedIds": [
+        "article-techcrunch-gpt54-launch",
+        "article-aboutamazon-aws-openai-partnership"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why did OpenAI shut down Sora?",
@@ -1350,7 +2031,9 @@
     },
     {
       "id": "article-techcrunch-kleiner-perkins",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Kleiner Perkins Goes All-In on AI With $3.5B Raise — 75% Jump From 2024",
       "sourceUrl": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
@@ -1363,8 +2046,17 @@
         "Anthropic and SpaceX IPOs expected"
       ],
       "whyItMatters": "Kleiner Perkins' massive raise signals sustained institutional conviction in AI — the firm's focus on vertical applications (not just foundation models) validates the shift from horizontal AI platforms to industry-specific solutions.",
-      "tags": ["kleiner-perkins", "venture-capital", "ai-fund", "investment", "anthropic"],
-      "relatedIds": ["article-techcrunch-ai-startups-eating-vc", "article-techcrunch-yc-w26-demo-day"],
+      "tags": [
+        "kleiner-perkins",
+        "venture-capital",
+        "ai-fund",
+        "investment",
+        "anthropic"
+      ],
+      "relatedIds": [
+        "article-techcrunch-ai-startups-eating-vc",
+        "article-techcrunch-yc-w26-demo-day"
+      ],
       "knowledgeChecks": [
         {
           "question": "How is Kleiner Perkins structuring its $3.5B AI investment?",
@@ -1392,7 +2084,10 @@
     },
     {
       "id": "article-fortune-ai-jobs-vulnerable",
-      "topics": ["ai-career", "ai-industry"],
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "Fortune 500 Firm: 93% of Jobs Vulnerable to AI Disruption — $4.5 Trillion Displacement Estimate",
       "sourceUrl": "https://fortune.com/2026/03/19/ai-jobs-vulnerable-disruption-layoffs-warning-price-tag/",
@@ -1405,8 +2100,17 @@
         "AI-insulated skills: design, leadership, novel problem-solving"
       ],
       "whyItMatters": "This report provides the most granular analysis yet of which skills protect against AI displacement — essential reading for anyone planning career development or team composition strategy.",
-      "tags": ["workforce-disruption", "fortune-500", "career-planning", "skills-gap", "ai-impact"],
-      "relatedIds": ["article-fortune-cfo-survey-ai-layoffs", "article-fortune-adp-worker-anxiety"],
+      "tags": [
+        "workforce-disruption",
+        "fortune-500",
+        "career-planning",
+        "skills-gap",
+        "ai-impact"
+      ],
+      "relatedIds": [
+        "article-fortune-cfo-survey-ai-layoffs",
+        "article-fortune-adp-worker-anxiety"
+      ],
       "knowledgeChecks": [
         {
           "question": "What percentage of jobs have some exposure to AI disruption according to the report?",
@@ -1434,7 +2138,9 @@
     },
     {
       "id": "video-ntDIxaeo3Wg",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "video",
       "title": "Claude Code — Full Tutorial for Beginners (2026)",
       "sourceUrl": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
@@ -1448,8 +2154,17 @@
         "Building projects from scratch with AI"
       ],
       "whyItMatters": "With Claude Code now the most popular AI coding tool, this tutorial provides the fastest path from zero to productive — essential viewing for any developer who hasn't yet integrated agentic coding into their workflow.",
-      "tags": ["claude-code", "tutorial", "beginner", "agentic-coding", "tech-with-tim"],
-      "relatedIds": ["article-builder-claude-code-march-updates", "article-fcc-claude-code-essentials"],
+      "tags": [
+        "claude-code",
+        "tutorial",
+        "beginner",
+        "agentic-coding",
+        "tech-with-tim"
+      ],
+      "relatedIds": [
+        "article-builder-claude-code-march-updates",
+        "article-fcc-claude-code-essentials"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the 'agentic loop' in Claude Code?",
@@ -1477,7 +2192,9 @@
     },
     {
       "id": "video-kZ-zzHVUrO4",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "video",
       "title": "How I Use Claude Code for Real Engineering — Matt Pocock's Professional Workflow",
       "sourceUrl": "https://www.youtube.com/watch?v=kZ-zzHVUrO4",
@@ -1491,8 +2208,17 @@
         "When to override AI suggestions"
       ],
       "whyItMatters": "Most Claude Code tutorials show simple demos — this video shows how an experienced engineer actually uses it for serious work, providing patterns that transfer directly to professional software development.",
-      "tags": ["claude-code", "professional-workflow", "typescript", "engineering", "matt-pocock"],
-      "relatedIds": ["video-ntDIxaeo3Wg", "article-medium-state-of-ai-coding-agents"],
+      "tags": [
+        "claude-code",
+        "professional-workflow",
+        "typescript",
+        "engineering",
+        "matt-pocock"
+      ],
+      "relatedIds": [
+        "video-ntDIxaeo3Wg",
+        "article-medium-state-of-ai-coding-agents"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the purpose of CLAUDE.md files in a Claude Code workflow?",
@@ -1520,7 +2246,9 @@
     },
     {
       "id": "video-rfDvkSkelhg",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "video",
       "title": "6 Months of Claude Code Lessons in 27 Minutes — What Actually Works",
       "sourceUrl": "https://www.youtube.com/watch?v=rfDvkSkelhg",
@@ -1534,8 +2262,17 @@
         "When agentic coding helps vs. hurts"
       ],
       "whyItMatters": "Learning from someone else's 6 months of trial and error in 27 minutes is the highest-leverage way to accelerate your own Claude Code adoption — the mistakes-to-avoid alone can save weeks of frustration.",
-      "tags": ["claude-code", "lessons-learned", "productivity", "prompting", "workflow"],
-      "relatedIds": ["video-kZ-zzHVUrO4", "article-pragmaticengineer-ai-tooling-2026"],
+      "tags": [
+        "claude-code",
+        "lessons-learned",
+        "productivity",
+        "prompting",
+        "workflow"
+      ],
+      "relatedIds": [
+        "video-kZ-zzHVUrO4",
+        "article-pragmaticengineer-ai-tooling-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is one of the biggest mistakes beginners make with Claude Code?",
@@ -1563,7 +2300,10 @@
     },
     {
       "id": "video-UAmKyyZ-b9E",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "type": "video",
       "title": "Introducing Cowork: Claude Code for the Rest of Your Work — Official Anthropic Announcement",
       "sourceUrl": "https://www.youtube.com/watch?v=UAmKyyZ-b9E",
@@ -1577,8 +2317,17 @@
         "Anthropic's product expansion strategy"
       ],
       "whyItMatters": "Cowork signals Anthropic's strategic expansion from developer tools to general knowledge work — the same agentic patterns that transformed coding are now being applied to research, writing, and analysis, potentially disrupting how all knowledge workers operate.",
-      "tags": ["anthropic", "cowork", "claude-code", "knowledge-work", "product-launch"],
-      "relatedIds": ["article-builder-claude-code-march-updates", "article-fortune-ai-jobs-vulnerable"],
+      "tags": [
+        "anthropic",
+        "cowork",
+        "claude-code",
+        "knowledge-work",
+        "product-launch"
+      ],
+      "relatedIds": [
+        "article-builder-claude-code-march-updates",
+        "article-fortune-ai-jobs-vulnerable"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is Claude Cowork?",
@@ -1606,7 +2355,9 @@
     },
     {
       "id": "article-mit-pragmatic-ai-engineering",
-      "topics": ["ai-research"],
+      "topics": [
+        "ai-research"
+      ],
       "type": "article",
       "title": "Pragmatic by Design: Engineering AI for the Real World — MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
@@ -1619,8 +2370,17 @@
         "Pragmatic AI vs frontier AI race"
       ],
       "whyItMatters": "As AI moves from demos to production, the engineering challenges shift from raw capability to reliability, interpretability, and graceful failure — skills that pragmatic engineers can develop regardless of whether they work at a frontier lab.",
-      "tags": ["production-ai", "reliability", "interpretability", "engineering", "mit"],
-      "relatedIds": ["article-openai-cot-controllability", "article-nvidianews-nemoclaw"],
+      "tags": [
+        "production-ai",
+        "reliability",
+        "interpretability",
+        "engineering",
+        "mit"
+      ],
+      "relatedIds": [
+        "article-openai-cot-controllability",
+        "article-nvidianews-nemoclaw"
+      ],
       "knowledgeChecks": [
         {
           "question": "What shift in AI engineering does the article describe?",
@@ -1648,7 +2408,9 @@
     },
     {
       "id": "article-techcrunch-youtube-deepfake-detection",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "type": "article",
       "title": "YouTube Expands AI Deepfake Detection to Politicians, Government Officials, and Journalists",
       "sourceUrl": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
@@ -1661,8 +2423,16 @@
         "Content moderation at scale"
       ],
       "whyItMatters": "As AI-generated video becomes indistinguishable from reality, platforms must build detection systems that work at YouTube's scale — this expansion sets the standard for how content platforms will handle AI-generated political content.",
-      "tags": ["youtube", "deepfake", "detection", "election-integrity", "content-moderation"],
-      "relatedIds": ["article-techcrunch-sora-shutdown"],
+      "tags": [
+        "youtube",
+        "deepfake",
+        "detection",
+        "election-integrity",
+        "content-moderation"
+      ],
+      "relatedIds": [
+        "article-techcrunch-sora-shutdown"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why did YouTube expand its deepfake detection to politicians and journalists?",
@@ -1690,7 +2460,9 @@
     },
     {
       "id": "video-ZlDnsf_DOzg",
-      "topics": ["ai-engineering"],
+      "topics": [
+        "ai-engineering"
+      ],
       "type": "video",
       "title": "Every Claude Code Concept Explained for Normal People — From Agent Loop to CLAUDE.md",
       "sourceUrl": "https://www.youtube.com/watch?v=ZlDnsf_DOzg",
@@ -1704,8 +2476,17 @@
         "MCP servers and hooks"
       ],
       "whyItMatters": "Claude Code's feature set has grown rapidly — this video provides the conceptual framework to understand how all the pieces connect, preventing the common mistake of using advanced features without understanding the fundamentals.",
-      "tags": ["claude-code", "concepts", "explainer", "beginner-friendly", "mental-model"],
-      "relatedIds": ["video-ntDIxaeo3Wg", "article-fcc-claude-code-essentials"],
+      "tags": [
+        "claude-code",
+        "concepts",
+        "explainer",
+        "beginner-friendly",
+        "mental-model"
+      ],
+      "relatedIds": [
+        "video-ntDIxaeo3Wg",
+        "article-fcc-claude-code-essentials"
+      ],
       "knowledgeChecks": [
         {
           "question": "What are MCP servers in the context of Claude Code?",
@@ -1733,7 +2514,9 @@
     },
     {
       "id": "article-leaddev-ai-washing-layoffs",
-      "topics": ["ai-career"],
+      "topics": [
+        "ai-career"
+      ],
       "type": "article",
       "title": "The Latest Tech Layoffs Have All the Hallmarks of AI Washing — LeadDev Analysis",
       "sourceUrl": "https://leaddev.com/ai/the-latest-rounds-of-tech-layoffs-have-all-the-hallmarks-of-ai-washing",
@@ -1746,8 +2529,17 @@
         "Impact on remaining team morale and trust"
       ],
       "whyItMatters": "For engineering leaders, understanding AI-washing helps you make better decisions about your own team's AI adoption strategy and evaluate employer claims critically — separating genuine AI transformation from cost-cutting theater.",
-      "tags": ["ai-washing", "engineering-leadership", "layoffs", "analysis", "leaddev"],
-      "relatedIds": ["article-cnn-block-ai-layoffs", "article-techcrunch-atlassian-ai-layoffs"],
+      "tags": [
+        "ai-washing",
+        "engineering-leadership",
+        "layoffs",
+        "analysis",
+        "leaddev"
+      ],
+      "relatedIds": [
+        "article-cnn-block-ai-layoffs",
+        "article-techcrunch-atlassian-ai-layoffs"
+      ],
       "knowledgeChecks": [
         {
           "question": "How does the article distinguish genuine AI-driven layoffs from AI-washing?",
@@ -1775,7 +2567,10 @@
     },
     {
       "id": "article-byteiota-ai-inference-costs",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "type": "article",
       "title": "AI Inference Costs Now 55% of Cloud Spending in 2026 — The Hidden GPU Crisis",
       "sourceUrl": "https://byteiota.com/ai-inference-costs-55-of-cloud-spending-in-2026/",
@@ -1788,8 +2583,17 @@
         "Product shutdowns driven by inference economics"
       ],
       "whyItMatters": "Understanding AI inference economics is essential for any engineer building AI-powered products — it explains why companies are racing to build custom chips, why some AI products get killed, and how to architect systems that are cost-effective at scale.",
-      "tags": ["inference-costs", "cloud-spending", "gpu-economics", "custom-silicon", "cost-optimization"],
-      "relatedIds": ["article-cnbc-meta-mtia-chips", "article-techcrunch-sora-shutdown"],
+      "tags": [
+        "inference-costs",
+        "cloud-spending",
+        "gpu-economics",
+        "custom-silicon",
+        "cost-optimization"
+      ],
+      "relatedIds": [
+        "article-cnbc-meta-mtia-chips",
+        "article-techcrunch-sora-shutdown"
+      ],
       "knowledgeChecks": [
         {
           "question": "How has AI inference's share of cloud spending changed from 2024 to 2026?",
