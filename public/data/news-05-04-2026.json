@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-05-04T12:00:00Z",
+  "weekOf": "2026-05-04",
+  "coverageStart": "2026-05-03",
+  "coverageEnd": "2026-05-04",
+  "items": [
+    {
+      "id": "article-sarvam-ai-350m-series-b",
+      "type": "article",
+      "title": "Sarvam AI Closes $350M Series B at $1.55B Valuation, India's Largest-Ever Private AI Funding Round",
+      "sourceUrl": "https://www.outlookbusiness.com/corporate/sarvam-ai-350m-funding-round-2026-bessemer-nvidia-amazon",
+      "verified": false,
+      "publishedAt": "2026-05-03",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Sarvam AI, a Bengaluru-based generative AI startup, closed a $350 million Series B round led by Bessemer Venture Partners with participation from NVIDIA, Amazon, and Prosperity7 Ventures at a $1.55 billion valuation. The company builds large language models — Sarvam-30B and Sarvam-105B — trained from scratch on Indian soil to natively support all 22 scheduled Indian languages. The deal is the largest private AI funding in Indian startup history, backed in part by GPU subsidies from India's government-run IndiaAI Mission.",
+      "keyConcepts": [
+        "Sovereign AI infrastructure",
+        "Multilingual LLM training from scratch",
+        "AI funding milestones",
+        "India AI ecosystem and IndiaAI Mission"
+      ],
+      "whyItMatters": "Sarvam AI's record round demonstrates that non-US regions are making serious bets on domestically trained foundation models — combining private venture capital with state-backed compute access — establishing a template for sovereign AI development outside the US-China duopoly.",
+      "tags": ["sarvam-ai", "india", "ai-funding", "sovereign-ai", "foundation-models", "series-b"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Sarvam AI's models distinctive compared to most frontier AI systems?",
+          "options": [
+            "They use reinforcement learning exclusively",
+            "They are trained from scratch to natively support 22 Indian languages",
+            "They run on quantum computing hardware",
+            "They require no fine-tuning for enterprise use"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sarvam AI trains Sarvam-30B and Sarvam-105B from scratch on Indian soil to natively support all 22 scheduled Indian languages — a key distinction from simply fine-tuning English-dominant pre-trained models, which often struggle with low-resource Indian languages."
+        },
+        {
+          "question": "Beyond private venture capital, what additional resource did India's government provide to Sarvam AI?",
+          "options": [
+            "A $200M direct grant",
+            "Preferential export licensing",
+            "4,096 NVIDIA H100 GPUs through the IndiaAI Mission",
+            "Exclusive access to government datasets"
+          ],
+          "correctIndex": 2,
+          "explanation": "India's IndiaAI Mission provided approximately $11M in GPU subsidies in the form of 4,096 NVIDIA H100 SXM GPUs provisioned through Yotta Data Services — giving Sarvam AI dedicated sovereign compute alongside the private funding round."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-companion-regulations-july-2026",
+      "type": "article",
+      "title": "China Finalizes Human-Like AI Companion Rules Requiring Addiction Monitoring, Effective July 15",
+      "sourceUrl": "https://www.geopolitechs.org/p/china-rolls-out-interim-regulations",
+      "verified": false,
+      "publishedAt": "2026-05-03",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "China finalized its Interim Measures for the Management of Anthropomorphic AI Interaction Services, requiring all AI companion and emotional chat service providers to monitor users for addiction and emotional dependency, with the rules taking effect July 15, 2026. Providers must display clear AI disclosures at login and every two hours, prompt users to take a break after prolonged use, and implement special safeguards for minors including guardian consent and chat summaries. For elderly users, AI systems are explicitly prohibited from impersonating the user's family members.",
+      "keyConcepts": [
+        "AI companion regulation",
+        "Emotional dependency and addiction monitoring",
+        "Digital wellness policy",
+        "AI disclosure and transparency requirements"
+      ],
+      "whyItMatters": "China's framework is one of the world's first dedicated regulatory structures for AI companion services, establishing a precedent for mandatory psychological safety guardrails — including emotion-state checks and addiction monitoring — that regulators in the EU, US, and elsewhere may adapt as companion AI usage grows globally.",
+      "tags": ["china", "ai-regulation", "ai-companions", "emotional-ai", "digital-wellness", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under China's new human-like AI service rules, what must providers do after a user has been interacting continuously for two hours?",
+          "options": [
+            "Delete the conversation history automatically",
+            "Prompt the user to take a break",
+            "Transfer the conversation to a human agent",
+            "Require identity re-verification"
+          ],
+          "correctIndex": 1,
+          "explanation": "The finalized rules require AI companion providers to issue break prompts after two continuous hours of use as part of a broader addiction-prevention framework that also includes ongoing emotional state monitoring and user dependency assessments."
+        },
+        {
+          "question": "What specific prohibition protects elderly users under China's new AI companion regulations?",
+          "options": [
+            "AI companions cannot be used by anyone over 65",
+            "Providers cannot charge elderly users subscription fees",
+            "AI systems may not imitate the user's family members",
+            "Elderly users must use a verified human intermediary"
+          ],
+          "correctIndex": 2,
+          "explanation": "The regulations explicitly prohibit AI companion services from imitating elderly users' relatives — addressing the risk of emotional manipulation and scams that exploit trust in familiar family voices and personas, a concern that regulators flagged throughout the public comment period."
+        }
+      ]
+    },
+    {
+      "id": "article-shrm-hr-ai-adoption-43-percent-2026",
+      "type": "article",
+      "title": "SHRM Survey: HR AI Adoption Jumps to 43%, Agentic Back-Office Tools Enter Production",
+      "sourceUrl": "https://asanify.com/blog/news/ai-back-office-automation-may-3-2026/",
+      "verified": false,
+      "publishedAt": "2026-05-03",
+      "topics": ["ai-career", "ai-engineering"],
+      "summary": "A new SHRM survey finds 43% of HR professionals now use AI in their day-to-day work, up sharply from 26% in 2024, with adoption heaviest among director-level staff at 73%. Recruiting leads all functions with 27% AI automation, followed by HR technology at 21%, learning and development at 17%, and employee experience at 14%. Separately, enterprise organizations are reporting that agentic AI tools have moved beyond pilot programs into production for back-office operations including payroll, compliance, and benefits administration.",
+      "keyConcepts": [
+        "HR AI adoption rates (SHRM 2026 data)",
+        "Agentic workflow automation in operations",
+        "AI skills gap in the workforce",
+        "Recruiting automation and AI screening tools"
+      ],
+      "whyItMatters": "With HR AI adoption nearly doubling in two years and agentic tools entering production operations, professionals who haven't built hands-on AI skills are facing a growing competency gap — while organizations that have deployed AI agents in HR report reduced headcount needs for repetitive administrative work.",
+      "tags": ["hr-ai", "enterprise-ai", "ai-adoption", "workforce-automation", "shrm", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the 2026 SHRM survey, what percentage of HR professionals at the director level and above use AI regularly?",
+          "options": [
+            "43%",
+            "26%",
+            "73%",
+            "51%"
+          ],
+          "correctIndex": 2,
+          "explanation": "SHRM found 73% adoption at director level and above versus 43% overall — indicating that HR AI adoption is currently top-down, with senior leaders driving usage while adoption among individual contributors lags, creating a divide in AI fluency across HR org levels."
+        },
+        {
+          "question": "Which HR function had the highest AI automation rate according to the SHRM 2026 survey?",
+          "options": [
+            "Employee experience (14%)",
+            "Learning and development (17%)",
+            "HR technology (21%)",
+            "Recruiting (27%)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Recruiting led all HR functions at 27% automation — reflecting the early and widespread availability of AI tools for resume screening, candidate outreach, interview scheduling, and sourcing that have made recruitment a natural entry point for AI adoption in HR departments."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-advanced-account-security-chatgpt",
+      "type": "article",
+      "title": "OpenAI Launches Advanced Account Security for ChatGPT: Passkeys and Hardware Keys Replace Passwords",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/05/04/openai-chatgpt-advanced-account-security/",
+      "verified": false,
+      "publishedAt": "2026-05-04",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI launched Advanced Account Security, an opt-in setting for ChatGPT accounts that replaces password-based login with passkeys or hardware security keys such as YubiKeys, offering phishing-resistant authentication designed for users at elevated risk of targeted attacks. The feature also disables email and SMS recovery in favor of backup passkeys and recovery keys, enables automatic training exclusion, and shortens session timeouts. OpenAI partnered with Yubico on the rollout, and all users on its classified-access tier — including cybersecurity researchers with access to Mythos capabilities — will be required to enable the setting by June 1, 2026.",
+      "keyConcepts": [
+        "Passkeys and FIDO2 authentication",
+        "Phishing-resistant sign-in",
+        "Hardware security keys (YubiKey)",
+        "Account takeover prevention for AI platforms"
+      ],
+      "whyItMatters": "As ChatGPT accounts store increasingly sensitive business data, system prompts, and agentic workflows, passkey-first authentication raises the security floor for AI platform accounts — a model that other major AI providers will likely be pressured to adopt as enterprise use deepens.",
+      "tags": ["openai", "chatgpt", "account-security", "passkeys", "authentication", "cybersecurity"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What happens to email and SMS-based account recovery when a ChatGPT user enables Advanced Account Security?",
+          "options": [
+            "They are encrypted with an additional layer",
+            "They are disabled in favor of passkeys and recovery keys",
+            "They are routed through OpenAI's secure proxy",
+            "They remain available as a fallback option"
+          ],
+          "correctIndex": 1,
+          "explanation": "Advanced Account Security disables email and SMS recovery entirely — eliminating the most common social engineering vectors (SIM swapping, email phishing) used in account takeover attacks — and replaces them with backup passkeys, hardware security keys, and recovery keys."
+        },
+        {
+          "question": "By which date must users on OpenAI's classified-access tier enable Advanced Account Security?",
+          "options": [
+            "May 15, 2026",
+            "June 1, 2026",
+            "July 4, 2026",
+            "January 1, 2027"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI announced that members of the Trusted Access for Cyber program — those with access to its most capable and permissive models including Mythos — will be required to enable Advanced Account Security beginning June 1, 2026."
+        }
+      ]
+    }
+  ]
+}

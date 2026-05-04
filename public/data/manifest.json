@@ -2,7 +2,6 @@
   "files": [
     "news-2026-03.json",
     "news-2026-04.json",
-    "news-04-03-2026.json",
     "news-04-04-2026.json",
     "news-04-05-2026.json",
     "news-04-06-2026.json",
@@ -32,6 +31,7 @@
     "news-04-30-2026.json",
     "news-05-01-2026.json",
     "news-05-02-2026.json",
-    "news-05-03-2026.json"
+    "news-05-03-2026.json",
+    "news-05-04-2026.json"
   ]
 }
