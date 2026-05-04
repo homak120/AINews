@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T12:00:00Z",
+  "generatedAt": "2026-05-04T18:00:00Z",
   "weekOf": "2026-05-04",
   "coverageStart": "2026-05-03",
   "coverageEnd": "2026-05-04",
@@ -175,6 +175,135 @@
           ],
           "correctIndex": 1,
           "explanation": "OpenAI announced that members of the Trusted Access for Cyber program — those with access to its most capable and permissive models including Mythos — will be required to enable Advanced Account Security beginning June 1, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-grok-43-launch",
+      "type": "article",
+      "title": "xAI Launches Grok 4.3 with 40% Price Cut, 1M-Token Context, and Voice Cloning Suite",
+      "sourceUrl": "https://softtechhub.us/2026/05/03/xai-unveils-grok-4-3/",
+      "verified": false,
+      "publishedAt": "2026-05-03",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "xAI completed the full rollout of Grok 4.3 on April 30, bringing a 40% price cut to $1.25 per million input tokens and $2.50 per million output tokens alongside a 1M-token context window — a combination that substantially lowers the cost floor for agentic applications built on Grok. The model adds native video input (up to 5 minutes at 1080p), the ability to generate PDF, PPTX, and XLSX files directly in chat, and a new 'Imagine agent mode' for creative projects. A full Speech-to-Text API supporting 25 languages with speaker diarization and a TTS API priced at $4.20 per million characters round out what xAI is positioning as a specialized, cost-efficient model for production deployments.",
+      "keyConcepts": [
+        "Token pricing and cost efficiency in frontier LLMs",
+        "Extended context windows (1M tokens)",
+        "Native multimodal input (video, PDF) in API models",
+        "Voice cloning and speech API productization"
+      ],
+      "whyItMatters": "Grok 4.3's aggressive price cut combined with a 1M-token context and native document generation makes it a credible low-cost alternative to GPT-5.x and Gemini for enterprises building agentic pipelines — intensifying the pricing war among the top frontier model providers.",
+      "tags": ["xai", "grok", "frontier-models", "model-pricing", "multimodal", "voice-cloning"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Grok 4.3's Speech-to-Text API supports transcription in 25 languages. What additional capability does it offer beyond basic transcription?",
+          "options": [
+            "Real-time emotion detection across 100 languages",
+            "Automatic removal of filler words from audio",
+            "Multi-speaker diarization with word-level speaker IDs",
+            "Zero-latency streaming for live TV broadcast captioning"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.3's Speech-to-Text API includes multi-speaker diarization — the ability to identify and label individual speakers — with word-level timestamps, making it suitable for meeting transcription, customer call analysis, and podcast workflows."
+        },
+        {
+          "question": "What is Grok 4.3's pricing for input tokens per million, reflecting the approximately 40% reduction over Grok 4.2?",
+          "options": [
+            "$0.50 per million input tokens",
+            "$1.25 per million input tokens",
+            "$3.00 per million input tokens",
+            "$7.50 per million input tokens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.3 is priced at $1.25 per million input tokens and $2.50 per million output tokens — a roughly 40% reduction from Grok 4.2 — positioning it as one of the more cost-competitive frontier models for agentic workloads that process large amounts of input text per task."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-deployment-company-10b-jv",
+      "type": "article",
+      "title": "OpenAI Finalizes $10B 'Deployment Company' Joint Venture with TPG, Bain Capital, and SoftBank",
+      "sourceUrl": "https://finance.yahoo.com/sectors/technology/articles/openai-finalizes-10-billion-joint-123100557.html",
+      "verified": false,
+      "publishedAt": "2026-05-04",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI finalized The Deployment Company, a Delaware-domiciled joint venture valued at $10 billion that raised more than $4 billion from 19 investors including TPG, Brookfield Asset Management, Bain Capital, SoftBank, and Dragoneer. The venture is designed to embed OpenAI engineers directly inside the portfolio companies of the participating private equity firms — echoing Palantir's forward-deployed-engineer delivery model — with OpenAI contributing up to $1.5 billion of its own capital and guaranteeing its PE backers a 17.5% annual return over five years. OpenAI maintains majority ownership and operational control, with the entity functioning as an enterprise AI transformation consultancy anchored to OpenAI's proprietary models.",
+      "keyConcepts": [
+        "Enterprise AI deployment through joint ventures",
+        "Forward-deployed engineers (Palantir model)",
+        "Private equity-backed AI adoption vehicles",
+        "OpenAI commercial strategy beyond API licensing"
+      ],
+      "whyItMatters": "The Deployment Company signals that frontier AI labs are now competing directly with McKinsey and Accenture for enterprise transformation budgets — not just selling API access, but owning the implementation and outcome in a model that locks large corporates into OpenAI's stack for years.",
+      "tags": ["openai", "joint-venture", "enterprise-ai", "private-equity", "deployment", "ai-strategy"],
+      "relatedIds": ["article-anthropic-blackstone-goldman-jv"],
+      "knowledgeChecks": [
+        {
+          "question": "What annual return is OpenAI guaranteeing to the private equity backers of The Deployment Company over the five-year term?",
+          "options": [
+            "12% per year",
+            "17.5% per year",
+            "22% per year",
+            "OpenAI is not guaranteeing any return"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI structured The Deployment Company with a 17.5% guaranteed annual return to its private equity backers over five years — a threshold calibrated to attract buyout firms accustomed to targeting 20%+ IRRs, making this a commercially motivated deal rather than a purely strategic partnership."
+        },
+        {
+          "question": "Which enterprise software company's 'forward-deployed engineer' delivery model does The Deployment Company mirror?",
+          "options": [
+            "Salesforce",
+            "ServiceNow",
+            "Palantir",
+            "Snowflake"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Deployment Company embeds OpenAI engineers directly inside client organizations — rather than selling software licenses — mirroring Palantir's long-established forward-deployed engineer model, where engineers live and work inside client businesses to customize AI and analytics tooling to specific operational needs."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-blackstone-goldman-jv",
+      "type": "article",
+      "title": "Anthropic Takes On Big Consulting with $1.5B Joint Venture Backed by Blackstone and Goldman Sachs",
+      "sourceUrl": "https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/",
+      "verified": false,
+      "publishedAt": "2026-05-04",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic announced a $1.5 billion joint venture with Blackstone, Hellman & Friedman, Goldman Sachs, and General Atlantic to create an AI-native enterprise services firm directly targeting the consulting industry's corporate transformation market. The venture will embed Anthropic engineers and Claude models inside the operating businesses of the participating PE firms' portfolio companies, handling both AI strategy advisory work and technical implementation — with Anthropic, Blackstone, and Hellman & Friedman each contributing approximately $300 million, and Goldman Sachs contributing $150 million. The announcement came the same day as OpenAI's rival $10B Deployment Company JV, confirming that both leading AI labs are now pursuing consulting-style enterprise deployment as their next major revenue vector.",
+      "keyConcepts": [
+        "AI labs competing with management consulting",
+        "Enterprise AI transformation services",
+        "Private equity as AI distribution channel",
+        "Claude deployment in PE portfolio companies"
+      ],
+      "whyItMatters": "On the same day OpenAI announced its own PE-backed deployment venture, Anthropic's parallel move confirms that frontier AI labs see consulting-style enterprise services — not just model APIs — as the next major revenue frontier, with Wall Street private equity acting as both capital source and enterprise client distribution network simultaneously.",
+      "tags": ["anthropic", "claude", "joint-venture", "blackstone", "goldman-sachs", "enterprise-ai", "consulting"],
+      "relatedIds": ["article-openai-deployment-company-10b-jv"],
+      "knowledgeChecks": [
+        {
+          "question": "Which two private equity firms are the largest capital contributors alongside Anthropic in its $1.5B joint venture?",
+          "options": [
+            "Sequoia Capital and Andreessen Horowitz",
+            "KKR and Apollo Global Management",
+            "Blackstone and Hellman & Friedman",
+            "TPG and Bain Capital"
+          ],
+          "correctIndex": 2,
+          "explanation": "Blackstone and Hellman & Friedman are each contributing approximately $300 million — the same amount as Anthropic itself — making them co-equal anchor investors alongside Goldman Sachs ($150M) and General Atlantic in the $1.5B venture."
+        },
+        {
+          "question": "What industry are Anthropic's and OpenAI's new joint ventures primarily competing against for enterprise transformation budgets?",
+          "options": [
+            "Cloud infrastructure providers",
+            "Management consulting firms",
+            "Enterprise software vendors",
+            "Investment banks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both ventures are explicitly designed to capture market share from management consulting firms like McKinsey, BCG, and Accenture — by offering AI-native advisory and implementation services with the added advantage that the underlying models are proprietary to the venture itself, creating a tight coupling between strategy advice and the technology delivering it."
         }
       ]
     }
