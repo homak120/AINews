@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T12:00:00Z",
+  "generatedAt": "2026-05-05T18:00:00Z",
   "weekOf": "2026-05-04",
   "coverageStart": "2026-05-03",
   "coverageEnd": "2026-05-05",
@@ -259,6 +259,93 @@
           ],
           "correctIndex": 2,
           "explanation": "Colorado's framework gives consumers two key rights: (1) notification when AI makes consequential decisions about them, and (2) the ability to review and correct any inaccurate personal data used in the AI decision — modeled on GDPR-style data rights."
+        }
+      ]
+    },
+    {
+      "id": "youtube-qkKEV9rkFqI",
+      "type": "video",
+      "title": "How DeepSeek V4 Connects to the US Power Grid",
+      "youtubeId": "qkKEV9rkFqI",
+      "sourceUrl": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
+      "verified": false,
+      "publishedAt": "2026-05-04",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The AI Daily Brief connects DeepSeek's V4 model release with the White House invoking the Defense Production Act around US power grid infrastructure, arguing that compute and energy have become the real frontline of the US-China AI competition. The episode traces how hyperscaler deals with Broadcom, Amazon, and Microsoft are locking down gigawatts of capacity for AI training, creating energy scarcity as a geopolitical lever. DeepSeek V4's capabilities intensify this dynamic by raising the compute ceiling for competitive frontier models.",
+      "keyConcepts": [
+        "DeepSeek V4",
+        "AI compute infrastructure",
+        "US power grid",
+        "US-China AI competition"
+      ],
+      "whyItMatters": "The intersection of frontier model releases and national energy policy shows that AI has outgrown being a software industry — it is now a geopolitical and physical infrastructure race where energy access is a strategic constraint as important as model architecture.",
+      "tags": ["deepseek", "energy-infrastructure", "us-china-ai", "compute", "power-grid", "geopolitics"],
+      "relatedIds": ["ghacks-pentagon-ai-deals-0504"],
+      "knowledgeChecks": [
+        {
+          "question": "According to this AI Daily Brief episode, what US policy mechanism was invoked to prioritize grid infrastructure for AI compute?",
+          "options": [
+            "The CHIPS and Science Act",
+            "Executive Order on Safe AI",
+            "The Defense Production Act",
+            "The National Security Memorandum on AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "The episode highlights the White House invoking the Defense Production Act — a Cold War-era tool normally used for military manufacturing — around US power grid infrastructure, framing energy access as a national security concern driven by AI compute demand."
+        },
+        {
+          "question": "What is the key argument in this episode about DeepSeek V4's release in the context of the energy race?",
+          "options": [
+            "DeepSeek V4 reduces energy consumption, easing grid pressure",
+            "DeepSeek V4 raises the compute ceiling for competitive models, intensifying energy demand competition",
+            "DeepSeek V4 runs exclusively on Chinese grid infrastructure, limiting its global reach",
+            "DeepSeek V4 makes the US-China competition irrelevant by being open-source"
+          ],
+          "correctIndex": 1,
+          "explanation": "The episode argues that DeepSeek V4's capabilities raise the benchmark for what a competitive frontier model requires, intensifying the race to lock down energy and compute capacity. Rather than reducing pressure, a capable open-source model from China raises the stakes for US AI infrastructure investment."
+        }
+      ]
+    },
+    {
+      "id": "tc-anthropic-openai-enterprise-jv-0504",
+      "type": "article",
+      "title": "Anthropic and OpenAI Both Launch Enterprise AI Joint Ventures with Major Wall Street Firms",
+      "sourceUrl": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "verified": false,
+      "publishedAt": "2026-05-04",
+      "topics": ["ai-industry"],
+      "summary": "On the same day, Anthropic and OpenAI each announced enterprise AI joint ventures using a forward-deployment model that embeds AI company engineers directly inside client operations. Anthropic's $1.5 billion JV with Blackstone, Hellman & Friedman, and Goldman Sachs targets PE-owned firms in healthcare, manufacturing, and financial services, while OpenAI is pursuing a parallel structure. Both deals mirror Palantir's model — proprietary model access combined with dedicated engineering teams that build bespoke AI workflows inside enterprise clients.",
+      "keyConcepts": [
+        "enterprise AI services",
+        "forward-deployment model",
+        "AI joint ventures",
+        "AI consulting industry disruption"
+      ],
+      "whyItMatters": "The simultaneous launch of forward-deployed AI JVs by the two leading US AI labs is a direct assault on the consulting and systems integration industry — replacing multi-year transformation projects with AI-native deployment teams backed by frontier model access and changing what it means to hire an AI firm.",
+      "tags": ["anthropic", "openai", "enterprise-ai", "joint-venture", "blackstone", "goldman-sachs", "consulting"],
+      "relatedIds": ["tc-sierra-950m-funding-0504", "axios-ai-lean-business-0505"],
+      "knowledgeChecks": [
+        {
+          "question": "What existing company's business model do both Anthropic's and OpenAI's new enterprise AI JVs most closely mirror?",
+          "options": [
+            "McKinsey & Company",
+            "Accenture",
+            "Palantir Technologies",
+            "IBM Global Services"
+          ],
+          "correctIndex": 2,
+          "explanation": "Both JVs use Palantir's forward-deployment model — proprietary technology combined with dedicated engineers embedded inside client organizations to build custom solutions. This is distinct from consulting's advisory model or systems integrators' implementation model."
+        },
+        {
+          "question": "Which financial institutions anchored Anthropic's $1.5 billion enterprise AI joint venture?",
+          "options": [
+            "JPMorgan and Morgan Stanley",
+            "Blackstone, Hellman & Friedman, and Goldman Sachs",
+            "Tiger Global and Sequoia Capital",
+            "Bridgewater and Citadel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's JV was anchored by Blackstone, Hellman & Friedman, and Goldman Sachs — with each anchor contributing $300M, $300M, and $150M respectively — alongside General Atlantic, Leonard Green, Apollo, GIC, and Sequoia filling out the consortium."
         }
       ]
     }
