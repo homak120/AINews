@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T12:00:00Z",
+  "generatedAt": "2026-05-06T18:00:00Z",
   "weekOf": "2026-05-04",
   "coverageStart": "2026-05-05",
   "coverageEnd": "2026-05-05",
@@ -130,6 +130,136 @@
           ],
           "correctIndex": 1,
           "explanation": "When two well-capitalized, frontier AI companies independently attack the same market on the same day, it signals to investors that disruption is a structural trend rather than a single competitive threat. The coincident launches removed any lingering doubt that established financial data providers could stay insulated from AI competition, driving simultaneous selloffs in FactSet, Morningstar, S&P Global, and Moody's."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-coinbase-layoffs-0505",
+      "type": "article",
+      "title": "Coinbase Cuts 700 Jobs Citing AI Acceleration, Restructures Around AI-Native Teams",
+      "sourceUrl": "https://www.cnbc.com/2026/05/05/coinbase-cuts-headcount-by-14percent-citing-ai-acceleration-the-shares-are-gaining.html",
+      "verified": false,
+      "publishedAt": "2026-05-05",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Coinbase CEO Brian Armstrong announced a 14% workforce reduction — approximately 700 employees — on May 5, explicitly citing AI as fundamentally changing how the company operates. The restructuring goes beyond headcount cuts: Coinbase is capping management at five layers below the CEO and COO, requiring all managers to remain individual contributors, and reorganizing work around 'AI-native pods.' Laid-off U.S. employees receive a minimum of 16 weeks of base pay plus equity and COBRA health coverage. The announcement came on the same day Freshworks cut 11% of its workforce (~500 employees), pushing total 2026 tech layoffs past 92,000, with AI cited as a contributing factor in roughly 27,600 of those cuts.",
+      "keyConcepts": [
+        "AI-native organizational design",
+        "workforce restructuring",
+        "management layer reduction",
+        "AI-driven headcount decisions"
+      ],
+      "whyItMatters": "Coinbase's restructuring is a template for the next phase of enterprise AI adoption — not just deploying AI tools, but redesigning org charts around AI capabilities, which eliminates management layers rather than individual contributor roles and accelerates the timeline for structural tech workforce contraction.",
+      "tags": ["coinbase", "ai-layoffs", "workforce-restructuring", "ai-native", "tech-layoffs-2026", "enterprise-ai"],
+      "relatedIds": ["techradar-freshworks-layoffs-0505"],
+      "knowledgeChecks": [
+        {
+          "question": "What is a key structural change Coinbase is making alongside its 14% workforce reduction?",
+          "options": [
+            "Eliminating all remote work and requiring employees to return to the office",
+            "Capping management at five layers and requiring all managers to remain individual contributors",
+            "Outsourcing all engineering work to contractors and AI systems",
+            "Merging with a competing crypto exchange to reduce duplicate headcount"
+          ],
+          "correctIndex": 1,
+          "explanation": "Coinbase is pairing layoffs with a structural overhaul that caps management layers at five below the CEO/COO and requires all leaders to remain individual contributors — a flatter, more execution-focused structure designed to operate efficiently with AI-native workflows replacing coordination tasks that previously required additional management."
+        },
+        {
+          "question": "Of the roughly 92,000 tech workers laid off in 2026 so far, approximately what share of layoff announcements cited AI as a contributing factor?",
+          "options": [
+            "About 2%",
+            "About 13%",
+            "About 35%",
+            "More than 50%"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI has been cited as a factor in roughly 27,600 job cuts — about 13% of all 2026 layoff plans. While AI is a real driver, it ranks fifth among stated reasons for cuts, behind market conditions, restructuring, and other factors. This suggests AI's role is significant but still secondary to broader economic and strategic motivations — for now."
+        }
+      ]
+    },
+    {
+      "id": "cnn-govt-ai-model-testing-0505",
+      "type": "article",
+      "title": "Microsoft, Google, and xAI Agree to Let U.S. Government Test AI Models Before Public Release",
+      "sourceUrl": "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models",
+      "verified": false,
+      "publishedAt": "2026-05-05",
+      "topics": ["ai-industry"],
+      "summary": "The Center for AI Standards and Innovation (CAISI) announced voluntary agreements with Google DeepMind, Microsoft, and Elon Musk's xAI that grant U.S. government evaluators access to AI models before public release. The agreements — which build on earlier CAISI partnerships with OpenAI and Anthropic — focus on safety evaluations rather than approval authority, meaning the government can assess but not block releases. All five major frontier AI developers are now under this voluntary pre-deployment review framework, an expansion of AI oversight under the Trump administration following the wind-down of the Biden-era AI executive order.",
+      "keyConcepts": [
+        "pre-deployment AI evaluation",
+        "CAISI government partnerships",
+        "voluntary AI safety review",
+        "frontier model governance"
+      ],
+      "whyItMatters": "With all five frontier AI labs now under voluntary pre-release government evaluation, a de facto oversight layer exists for the most powerful AI systems — one that could harden into mandatory review if a safety incident occurs or if Congress legislates it, making these voluntary agreements the most likely starting point for formal AI regulation in the U.S.",
+      "tags": ["ai-governance", "caisi", "government-ai", "microsoft", "google", "xai", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What authority does CAISI have under its pre-release AI evaluation agreements with frontier labs?",
+          "options": [
+            "The authority to block a model's public release if safety issues are found",
+            "The authority to fine companies that release models deemed unsafe",
+            "The ability to assess models before release, but without authority to block or approve launches",
+            "Full regulatory control equivalent to FDA approval for drugs"
+          ],
+          "correctIndex": 2,
+          "explanation": "CAISI's agreements are voluntary and evaluative — the government can test and assess models before launch but cannot block or require approval for release. This makes the framework meaningfully different from regulatory models like FDA drug approval, though it does provide government insight into frontier AI capabilities prior to public deployment."
+        },
+        {
+          "question": "Which major frontier AI developer was notably NOT part of the original CAISI agreements that preceded the May 5 announcement?",
+          "options": [
+            "OpenAI",
+            "Anthropic",
+            "xAI",
+            "Meta"
+          ],
+          "correctIndex": 2,
+          "explanation": "xAI (along with Google DeepMind and Microsoft) was added in the May 5 announcement. OpenAI and Anthropic had earlier agreements with CAISI, making the new announcement an expansion that brings all major frontier labs under the voluntary review framework — notably still excluding Meta, which has not signed a similar agreement."
+        }
+      ]
+    },
+    {
+      "id": "techradar-freshworks-layoffs-0505",
+      "type": "article",
+      "title": "Freshworks Cuts 11% of Staff as AI-Driven Tech Layoffs Near 100,000 in 2026",
+      "sourceUrl": "https://www.techradar.com/pro/freshworks-and-coinbase-announce-more-than-1-in-10-jobs-to-go-as-companies-replace-workforce-with-ai-technologies-tech-company-layoffs-near-100k-in-2026-alone",
+      "verified": false,
+      "publishedAt": "2026-05-05",
+      "dateEstimated": true,
+      "topics": ["ai-career"],
+      "summary": "Freshworks announced it will cut approximately 500 employees — 11% of its global workforce — citing AI capabilities making certain roles redundant, particularly in customer service automation and software quality assurance. The announcement came on the same day as Coinbase's 14% layoff, with both companies explicitly framing workforce reductions as AI-driven optimizations rather than purely financial responses. The dual announcement pushed 2026 tech layoffs past 92,000, with layoff tracker data showing AI cited as a factor in cuts affecting roughly one in eight affected workers. Big Tech companies are simultaneously planning $725 billion in combined AI infrastructure spending in 2026, up 77% from 2025.",
+      "keyConcepts": [
+        "AI workforce displacement in enterprise software",
+        "customer service automation",
+        "QA role reduction via AI",
+        "AI capex vs. headcount tradeoff"
+      ],
+      "whyItMatters": "Freshworks is a mid-market enterprise software company, not a hyperscaler — its AI-driven layoffs signal that the workforce restructuring pattern is spreading beyond large tech into companies with more modest AI budgets, suggesting the contraction is a broad structural shift rather than a phenomenon limited to firms at the AI frontier.",
+      "tags": ["freshworks", "ai-layoffs", "workforce-ai", "customer-service-ai", "tech-layoffs-2026", "enterprise-software"],
+      "relatedIds": ["cnbc-coinbase-layoffs-0505"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Freshworks's AI-driven layoff announcement considered significant beyond its size?",
+          "options": [
+            "Because Freshworks is the largest enterprise software company by revenue",
+            "Because it signals AI-driven restructuring has spread to mid-market companies, not just hyperscalers",
+            "Because Freshworks is being acquired by an AI company",
+            "Because the layoffs affect only engineers, showing AI's first impact on technical roles"
+          ],
+          "correctIndex": 1,
+          "explanation": "Freshworks is a mid-market CRM and helpdesk software company — it is not at the AI frontier, nor does it have the massive AI budgets of Google, Microsoft, or Meta. Its ability to replace 11% of staff with AI tools signals that off-the-shelf AI capabilities are now sufficient to drive workforce restructuring at companies throughout the enterprise software ecosystem, not just at those building frontier models."
+        },
+        {
+          "question": "What is the apparent paradox in 2026 Big Tech's simultaneous announcements of AI spending increases and workforce cuts?",
+          "options": [
+            "Companies are spending more on AI while revenues are declining",
+            "Companies are increasing AI capex by 77% while simultaneously cutting headcount, redirecting labor savings into infrastructure investment",
+            "Companies are hiring more AI researchers while cutting non-technical staff for the first time",
+            "The cuts are entirely unrelated to AI — they are driven purely by macroeconomic conditions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Big Tech companies collectively plan $725 billion in AI capital expenditure in 2026 — a 77% increase from 2025 — while simultaneously cutting tens of thousands of workers. This pattern suggests AI is generating enough productivity that companies can reduce headcount and redirect those savings into infrastructure that they believe will generate more long-term value than the employees it replaces."
         }
       ]
     }
