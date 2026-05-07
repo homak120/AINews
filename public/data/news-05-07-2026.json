@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-05-07T12:00:00.000Z",
+  "weekOf": "2026-05-04",
+  "coverageStart": "2026-05-06",
+  "coverageEnd": "2026-05-06",
+  "items": [
+    {
+      "id": "article-amd-q1-2026-agentic-ai-earnings",
+      "type": "article",
+      "title": "AMD Q1 2026 Earnings Beat Forecasts as Agentic AI Drives Surge in Server CPU Demand",
+      "sourceUrl": "https://www.bnnbloomberg.ca/business/2026/05/06/amd-forecast-sparks-aidriven-rally-in-us-chipmaker-stocks/",
+      "verified": false,
+      "publishedAt": "2026-05-06",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "AMD reported Q1 2026 revenue of $10.3 billion, up 38% year-over-year, with data center revenue surging 57% as agentic AI workloads drive unprecedented demand for both GPUs and server CPUs. CEO Lisa Su nearly doubled the company's server CPU total addressable market forecast to over $120 billion, arguing that agentic pipelines require far more CPU orchestration than previous AI inference workloads. AMD shares surged roughly 15%, sparking a broad rally across semiconductor stocks.",
+      "keyConcepts": [
+        "Agentic AI Infrastructure",
+        "Server CPU Total Addressable Market",
+        "EPYC Verano Data Center Processor",
+        "AI Inference Orchestration"
+      ],
+      "whyItMatters": "AMD's revised forecast signals that agentic AI is fundamentally reshaping hardware demand: CPUs are now as strategically important as GPUs for running complex multi-step AI pipelines at hyperscale, rewriting capital expenditure plans across the industry.",
+      "tags": ["amd-earnings", "agentic-ai", "server-cpu", "semiconductor", "data-center", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did AMD's Data Center segment revenue grow year-over-year in Q1 2026?",
+          "options": ["28%", "38%", "57%", "75%"],
+          "correctIndex": 2,
+          "explanation": "AMD's Data Center segment grew 57% year-over-year in Q1 2026, outpacing the overall company revenue growth of 38%, driven by strong demand for EPYC server processors and Instinct GPUs."
+        },
+        {
+          "question": "What new demand driver did AMD CEO Lisa Su cite when nearly doubling the server CPU total addressable market forecast?",
+          "options": ["Cryptocurrency mining resurgence", "Agentic AI workload orchestration", "Consumer gaming GPU upgrades", "Quantum computing simulation"],
+          "correctIndex": 1,
+          "explanation": "Lisa Su attributed the forecast revision to agentic AI, which requires CPUs for multi-step orchestration, data movement, and parallel task execution alongside the GPUs used for inference—creating a new category of CPU demand at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-mythos-project-glasswing-cybersecurity",
+      "type": "article",
+      "title": "Claude Mythos and Project Glasswing: Inside Anthropic's Controlled Deployment of Its Most Dangerous AI",
+      "sourceUrl": "https://www.theringer.com/2026/05/06/tech/claude-mythos-anthropic-project-glasswing-cybersecurity-threat-ai",
+      "verified": false,
+      "publishedAt": "2026-05-06",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The Ringer examines Claude Mythos, Anthropic's frontier model withheld from public release due to its autonomous ability to discover and exploit software vulnerabilities, which has now been made available to select critical infrastructure partners through Project Glasswing. Mythos has identified tens of thousands of software vulnerabilities, including a 27-year-old zero-day flaw in widely-used security software, with individual test runs costing as little as $50. The White House has restricted broader Mythos deployment on national security grounds—the first time the U.S. government has formally constrained an AI model's release.",
+      "keyConcepts": [
+        "Restricted Frontier AI Models",
+        "Autonomous Vulnerability Discovery",
+        "Project Glasswing Controlled Access",
+        "Government AI Oversight"
+      ],
+      "whyItMatters": "Mythos marks a turning point where AI capabilities have crossed from productivity tools into active national-security considerations, forcing formal government intervention in commercial AI deployment and raising urgent questions about how frontier models will be governed going forward.",
+      "tags": ["claude-mythos", "anthropic", "cybersecurity", "ai-safety", "project-glasswing", "zero-day"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Project Glasswing?",
+          "options": [
+            "An Anthropic open-source model release program",
+            "A controlled-access program giving select partners access to Claude Mythos for defensive security",
+            "A U.S. government AI regulation framework",
+            "A Google Cloud security partnership initiative"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Glasswing is Anthropic's controlled-access program that provides select critical infrastructure organizations access to Claude Mythos Preview so defenders can patch critical vulnerabilities before similar capabilities become broadly available."
+        },
+        {
+          "question": "What was the approximate cost of the single Mythos test run that uncovered a 27-year-old software vulnerability?",
+          "options": ["$5", "$50", "$500", "$5,000"],
+          "correctIndex": 1,
+          "explanation": "Reports indicate a single Mythos test run that identified the decades-old zero-day vulnerability cost approximately $50, illustrating how cost-effective AI-powered vulnerability discovery has become compared to traditional security research."
+        }
+      ]
+    },
+    {
+      "id": "article-ios-27-third-party-ai-models-siri",
+      "type": "article",
+      "title": "iOS 27 Will Let Users Choose Claude, Gemini, or Other AI Services to Power Siri and Apple Intelligence",
+      "sourceUrl": "https://www.technology.org/2026/05/06/ios-27-to-let-users-pick-their-ai-gemini-claude-and-more-coming-to-siri/",
+      "verified": false,
+      "publishedAt": "2026-05-06",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Apple's iOS 27 will introduce an Extensions framework that lets users route Apple Intelligence features—including Siri, Writing Tools, and Image Playground—to third-party AI services such as Anthropic's Claude or Google's Gemini instead of the default model. Apple has separately signed a deal with Google to use a Gemini-based model as the native Apple Intelligence backbone, but users will be able to override this with any installed AI app that supports the Extensions API. The feature is expected to be formally announced at WWDC on June 8, 2026.",
+      "keyConcepts": [
+        "Apple Intelligence Extensions Framework",
+        "User AI Model Choice",
+        "Siri Third-Party Integration",
+        "AI Platform Competition"
+      ],
+      "whyItMatters": "Apple opening iOS to competing AI backends normalizes user-level AI model selection, shifting competitive dynamics from bundled defaults toward open ecosystems—with significant implications for how enterprises and individuals choose and switch AI providers.",
+      "tags": ["ios-27", "apple-intelligence", "siri", "gemini", "claude", "third-party-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What Apple framework allows third-party AI services like Claude and Gemini to power Apple Intelligence features in iOS 27?",
+          "options": ["App Store Connect API", "Siri Shortcuts Kit", "Extensions framework", "Neural Engine SDK"],
+          "correctIndex": 2,
+          "explanation": "The Extensions framework in iOS 27 lets developers integrate their AI apps so users can select them as the engine behind Siri, Writing Tools, and Image Playground, enabling true AI model choice at the OS level."
+        },
+        {
+          "question": "Which AI company has Apple separately partnered with to provide the native AI backbone for iOS 27's Apple Intelligence features?",
+          "options": ["Anthropic", "OpenAI", "Google", "Meta"],
+          "correctIndex": 2,
+          "explanation": "Apple signed a deal with Google to use a Gemini-based model as the native Apple Intelligence engine in iOS 27, while still enabling users to switch to other providers like Claude via the Extensions framework."
+        }
+      ]
+    }
+  ]
+}
