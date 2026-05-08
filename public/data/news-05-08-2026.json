@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T12:00:00.000Z",
+  "generatedAt": "2026-05-08T18:00:00.000Z",
   "weekOf": "2026-05-04",
   "coverageStart": "2026-05-07",
   "coverageEnd": "2026-05-08",
@@ -276,6 +276,118 @@
           ],
           "correctIndex": 2,
           "explanation": "Iowa Governor Kim Reynolds signed SF 2417, establishing requirements and guidelines for conversational AI services, during the same week Connecticut's SB 5 advanced to the governor's desk."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt55-cyber-defenders",
+      "type": "article",
+      "title": "OpenAI Launches GPT-5.5-Cyber Preview for Vetted Cybersecurity Defenders",
+      "sourceUrl": "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+      "verified": false,
+      "publishedAt": "2026-05-07",
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
+      "summary": "OpenAI launched a limited preview of GPT-5.5-Cyber, a variant of GPT-5.5 with relaxed guardrails for vetted security professionals performing authorized defensive work such as bug hunting, malware analysis, and red teaming. The model is part of OpenAI's Trusted Access for Cyber program, an identity-and-trust framework that gives approved defenders fewer automated refusals while continuing to block malicious activities like credential theft, stealth techniques, and unauthorized exploitation. The release came approximately one month after Anthropic's Project Glasswing unveiled Claude Mythos Preview, which demonstrated autonomous zero-day vulnerability exploitation in FreeBSD.",
+      "keyConcepts": [
+        "GPT-5.5-Cyber model",
+        "Trusted Access for Cyber program",
+        "AI-assisted vulnerability research",
+        "Dual-use AI access controls"
+      ],
+      "whyItMatters": "Both OpenAI and Anthropic are now deploying restricted-access frontier models specifically for cybersecurity defense, establishing a new paradigm where AI's ability to find and exploit vulnerabilities is selectively unlocked for defenders — raising important questions about vetting, accountability, and dual-use risk at scale.",
+      "tags": [
+        "openai",
+        "gpt-5.5",
+        "cybersecurity",
+        "trusted-access",
+        "red-teaming",
+        "ai-security"
+      ],
+      "relatedIds": [
+        "article-us-government-ai-testing-caisi"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's Trusted Access for Cyber program?",
+          "options": [
+            "An OpenAI certification course for cybersecurity professionals",
+            "An identity- and trust-based framework giving vetted defenders fewer automated refusals for authorized security work",
+            "A government-mandated AI safety evaluation for cybersecurity tools",
+            "An open-source toolkit for AI-assisted penetration testing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Trusted Access for Cyber is OpenAI's framework that grants vetted cybersecurity defenders access to GPT-5.5-Cyber with fewer automated refusals for approved workflows like red teaming, bug hunting, and malware analysis."
+        },
+        {
+          "question": "Which activity is GPT-5.5-Cyber explicitly designed to block even for vetted users?",
+          "options": [
+            "Authorized penetration testing of owned systems",
+            "Malware reverse engineering for defense",
+            "Credential theft and unauthorized malware deployment",
+            "Proof-of-concept exploit development for bug bounties"
+          ],
+          "correctIndex": 2,
+          "explanation": "While GPT-5.5-Cyber permits legitimate defensive work, it continues to block malicious activities such as credential theft, stealth techniques, persistence mechanisms, and unauthorized malware deployment even for vetted users."
+        }
+      ]
+    },
+    {
+      "id": "article-us-government-ai-testing-caisi",
+      "type": "article",
+      "title": "Google, Microsoft, and xAI Join US Government Pre-Launch AI Model Testing Program",
+      "sourceUrl": "https://www.euronews.com/next/2026/05/08/tech-giants-agree-to-us-government-ai-testing",
+      "verified": false,
+      "publishedAt": "2026-05-08",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "The Center for AI Standards and Innovation (CAISI) announced new agreements with Google DeepMind, Microsoft, and xAI giving the US government the ability to evaluate AI models before their public release. The program builds on existing agreements with OpenAI and Anthropic renegotiated under the Trump administration's AI Action Plan. Under the framework, the government gains pre-deployment access to frontier models to assess capabilities, safety, and alignment with national security interests before public launch.",
+      "keyConcepts": [
+        "Center for AI Standards and Innovation (CAISI)",
+        "Pre-deployment AI model evaluation",
+        "US AI Action Plan",
+        "Voluntary AI testing agreements"
+      ],
+      "whyItMatters": "With Congressional AI legislation stalled, CAISI's voluntary pre-launch testing agreements are becoming a de facto soft regulatory framework for frontier AI — and the expansion to Google, Microsoft, and xAI means every major US AI lab is now subject to some form of government evaluation before release.",
+      "tags": [
+        "ai-policy",
+        "us-government",
+        "google",
+        "microsoft",
+        "xai",
+        "caisi",
+        "ai-regulation"
+      ],
+      "relatedIds": [
+        "article-openai-gpt55-cyber-defenders",
+        "article-ai-legislative-update-may-8-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What does CAISI stand for?",
+          "options": [
+            "Center for Advanced Information Systems Integration",
+            "Center for AI Safety and Innovation",
+            "Center for AI Standards and Innovation",
+            "Committee for Artificial Intelligence Standards Inspection"
+          ],
+          "correctIndex": 2,
+          "explanation": "CAISI stands for the Center for AI Standards and Innovation, the US government body that coordinates pre-deployment AI model evaluation agreements with major AI labs."
+        },
+        {
+          "question": "Which companies had pre-existing government AI testing agreements before Google, Microsoft, and xAI joined the CAISI program?",
+          "options": [
+            "Meta and Apple",
+            "IBM and Oracle",
+            "OpenAI and Anthropic",
+            "Amazon and NVIDIA"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI and Anthropic had earlier testing agreements with CAISI from 2024 that were renegotiated under the Trump administration's AI Action Plan before the new announcements expanded the program to Google, Microsoft, and xAI."
         }
       ]
     }
