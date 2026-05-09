@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-05-09T12:00:00Z",
+  "weekOf": "2026-05-04",
+  "coverageStart": "2026-05-08",
+  "coverageEnd": "2026-05-09",
+  "items": [
+    {
+      "id": "youtube-Nn2eXwch-K0",
+      "type": "video",
+      "title": "Mechanistic Interpretability Breakthrough: Researchers Are Finally Mapping What AI Thinks",
+      "youtubeId": "Nn2eXwch-K0",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nn2eXwch-K0",
+      "verified": false,
+      "publishedAt": "2026-05-09",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Wes Roth covers the latest mechanistic interpretability research, explaining how scientists are gaining new insight into the internal mechanisms of large language models. The video explores techniques that allow researchers to trace how AI systems process information—moving beyond treating models as black boxes. Key findings from labs like Anthropic and new startup tooling are discussed.",
+      "keyConcepts": [
+        "mechanistic interpretability",
+        "neural circuit analysis",
+        "feature visualization",
+        "AI transparency"
+      ],
+      "whyItMatters": "Understanding what's happening inside AI models is critical for safety and alignment—if researchers can map which neurons and circuits drive behavior, they can correct errors, reduce hallucinations, and build more trustworthy systems.",
+      "tags": ["interpretability", "ai-safety", "neural-networks", "research", "transparency", "anthropic"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does mechanistic interpretability research primarily aim to do?",
+          "options": [
+            "Speed up training of large language models",
+            "Understand the internal computations and representations inside AI models",
+            "Reduce the cost of running AI inference",
+            "Improve AI-generated image quality"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mechanistic interpretability focuses on reverse-engineering the internal computations of AI models—mapping which neurons, circuits, and features are responsible for specific model behaviors, rather than treating AI as a black box."
+        },
+        {
+          "question": "Which company has been a leading contributor to mechanistic interpretability research, recognized as a 2026 breakthrough technology by MIT?",
+          "options": [
+            "NVIDIA",
+            "Meta",
+            "Anthropic",
+            "xAI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic has been a frontrunner in mechanistic interpretability, using it to map features and pathways inside its Claude models. MIT Technology Review named this field one of its 10 Breakthrough Technologies for 2026."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-cloudflare-ai-layoffs-20260508",
+      "type": "article",
+      "title": "Cloudflare Says AI Made 1,100 Jobs Obsolete, Even as Revenue Hit a Record High",
+      "sourceUrl": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "verified": false,
+      "publishedAt": "2026-05-08",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Cloudflare announced it is cutting more than 1,100 employees—roughly 20% of its workforce—attributing the move to a shift toward an 'agentic AI-first operating model.' The company reported internal AI usage had risen more than 600% in three months, with employees across every department running thousands of AI agent sessions daily. The cuts came alongside record quarterly revenue with 34% year-over-year growth, underscoring that AI-driven workforce restructuring is not limited to struggling companies.",
+      "keyConcepts": [
+        "AI-driven layoffs",
+        "agentic AI adoption",
+        "workforce restructuring",
+        "enterprise AI transformation"
+      ],
+      "whyItMatters": "Cloudflare's announcement is a landmark in the AI-and-jobs debate: a profitable, growing tech company explicitly citing AI agent adoption as the reason for cutting a fifth of its workforce—a pattern that may accelerate across industries.",
+      "tags": ["cloudflare", "ai-layoffs", "agentic-ai", "workforce", "enterprise", "future-of-work"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Cloudflare's workforce was affected by the May 2026 layoffs?",
+          "options": [
+            "5%",
+            "10%",
+            "20%",
+            "35%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cloudflare cut approximately 1,100 jobs, representing about 20% of its 5,156-person workforce, citing its transition to an 'agentic AI-first operating model' as the primary reason."
+        },
+        {
+          "question": "What was Cloudflare's financial situation at the time of its AI-driven layoffs?",
+          "options": [
+            "Revenue fell 15% year-over-year amid client losses",
+            "Revenue was flat compared to the prior quarter",
+            "Revenue hit a record high with 34% year-over-year growth",
+            "The company had reported three consecutive quarters of losses"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cloudflare reported record revenue with 34% year-over-year growth at the same time it announced the layoffs, illustrating that AI-driven workforce restructuring is happening even at highly profitable, growing companies."
+        }
+      ]
+    },
+    {
+      "id": "wapo-mythos-white-house-20260508",
+      "type": "article",
+      "title": "The Secretive AI Hacking Tool Fracturing Trump's White House",
+      "sourceUrl": "https://www.washingtonpost.com/technology/2026/05/08/trump-white-house-ai-regulation-mythos/",
+      "verified": false,
+      "publishedAt": "2026-05-08",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The Washington Post reports on how Anthropic's Claude Mythos—an AI system capable of rapidly identifying and exploiting software vulnerabilities at an elite level—has created unexpected tension within the Trump administration. Officials who initially took a deregulatory stance on AI are now reconsidering oversight frameworks. The White House is weighing an executive order to vet frontier AI models before public release, comparable to an FDA drug approval process.",
+      "keyConcepts": [
+        "AI cybersecurity capabilities",
+        "frontier model regulation",
+        "Claude Mythos",
+        "government AI policy"
+      ],
+      "whyItMatters": "Anthropic's Mythos has acted as a forcing function for AI regulation: a single model's demonstrated cybersecurity power was enough to prompt the US government to revisit its hands-off approach to AI oversight, with implications for how frontier models are governed globally.",
+      "tags": ["anthropic", "mythos", "ai-regulation", "cybersecurity", "white-house", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What policy response did Anthropic's Mythos model trigger in the White House?",
+          "options": [
+            "An immediate ban on all AI-powered cybersecurity tools",
+            "Drafting of an executive order to vet frontier AI models before release",
+            "A congressional hearing on open-source AI risks",
+            "A new NIST AI safety certification standard"
+          ],
+          "correctIndex": 1,
+          "explanation": "The capabilities demonstrated by Claude Mythos prompted the White House to draft an executive order requiring that frontier AI models be evaluated before public release—compared by officials to the FDA's drug approval process."
+        },
+        {
+          "question": "How did one security expert characterize Claude Mythos's capabilities?",
+          "options": [
+            "As a useful but overhyped tool comparable to existing scanners",
+            "As elevating AI to 'world-class, elite security engineer' status",
+            "As capable of autonomous physical infrastructure attacks",
+            "As primarily useful for detecting, not exploiting, vulnerabilities"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mozilla CTO Bobby Holley described Mythos as elevating AI from a 'competent software engineer' to 'a world-class, elite security engineer,' capable of finding and exploiting digital vulnerabilities at unprecedented speed."
+        }
+      ]
+    },
+    {
+      "id": "venturebeat-anthropic-dreaming-20260508",
+      "type": "article",
+      "title": "Anthropic Introduces 'Dreaming': AI Agents That Learn From Their Own Mistakes Between Sessions",
+      "sourceUrl": "https://venturebeat.com/technology/anthropic-introduces-dreaming-a-system-that-lets-ai-agents-learn-from-their-own-mistakes",
+      "verified": false,
+      "publishedAt": "2026-05-08",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Anthropic unveiled 'dreaming'—a scheduled memory consolidation process for Claude Managed Agents that reviews past sessions, identifies recurring mistakes and successful workflows, and refines an agent's long-term memory between tasks. Announced at Anthropic's Code with Claude developer conference, dreaming helps agents improve over time rather than starting fresh each session. Early results are significant: legal AI company Harvey saw task completion rates rise approximately 6x after implementation.",
+      "keyConcepts": [
+        "agent memory consolidation",
+        "dreaming (AI technique)",
+        "Claude Managed Agents",
+        "multi-agent orchestration"
+      ],
+      "whyItMatters": "Dreaming moves AI agents from stateless, single-session tools toward continuously improving systems—agents that learn from their own history could dramatically increase reliability in complex, long-running enterprise workflows and mark a step toward more autonomous AI.",
+      "tags": ["anthropic", "claude", "ai-agents", "memory", "managed-agents", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's 'dreaming' feature do for Claude Managed Agents?",
+          "options": [
+            "Generates synthetic training data for model fine-tuning",
+            "Reviews past sessions to extract patterns and improve long-term agent memory",
+            "Automatically schedules agent tasks based on user calendars",
+            "Enables real-time communication between multiple agent instances"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dreaming is a scheduled process that reviews an agent's past session logs, extracts patterns, curates recurring mistakes and successful workflows, and updates the agent's memory so it improves between sessions rather than starting fresh each time."
+        },
+        {
+          "question": "By approximately what factor did Harvey's legal AI agent task completion rate improve after implementing 'dreaming'?",
+          "options": [
+            "2x",
+            "3x",
+            "6x",
+            "10x"
+          ],
+          "correctIndex": 2,
+          "explanation": "Legal AI company Harvey reported task completion rates increasing approximately 6x after implementing dreaming, as agents began retaining filetype workarounds and tool-specific patterns that previously had to be re-learned each session."
+        }
+      ]
+    },
+    {
+      "id": "knightli-claude-code-spacex-20260509",
+      "type": "article",
+      "title": "Claude Code Rate Limits Doubled After Anthropic Secures SpaceX Colossus Compute Deal",
+      "sourceUrl": "https://www.knightli.com/en/2026/05/09/anthropic-claude-code-higher-limits-spacex-compute/",
+      "verified": false,
+      "publishedAt": "2026-05-09",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic has doubled rate limits for Claude Code users on Pro, Max, Team, and Enterprise plans after securing full access to SpaceX's Colossus 1 data center—adding over 300 megawatts of new capacity equivalent to more than 220,000 NVIDIA GPUs. Peak-hour limit reductions have also been eliminated. Claude Opus API rate limits were simultaneously raised by more than an order of magnitude, with tier-1 users jumping from 30,000 to 500,000 maximum input tokens per minute.",
+      "keyConcepts": [
+        "Claude Code rate limits",
+        "compute infrastructure scaling",
+        "SpaceX Colossus 1",
+        "API capacity"
+      ],
+      "whyItMatters": "Compute capacity has been the primary bottleneck limiting Claude Code adoption at scale. Doubling rate limits while eliminating peak-hour throttling removes a major friction point for AI engineering teams and signals Anthropic's aggressive push to compete for developer mindshare.",
+      "tags": ["anthropic", "claude-code", "spacex", "compute", "rate-limits", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much did Anthropic increase Claude Opus API input token limits for tier-1 users?",
+          "options": [
+            "From 30,000 to 60,000 (2x)",
+            "From 30,000 to 500,000 (more than 16x)",
+            "From 100,000 to 300,000 (3x)",
+            "From 50,000 to 100,000 (2x)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tier-1 API users previously had a 30,000 max input tokens-per-minute limit; the new limit is 500,000—an increase Anthropic described as 'more than an order of magnitude,' enabled by its SpaceX compute agreement."
+        },
+        {
+          "question": "What infrastructure deal enabled Anthropic to significantly increase Claude Code limits?",
+          "options": [
+            "A partnership with Microsoft Azure for dedicated GPU clusters",
+            "A lease of Google Cloud TPU v6 capacity",
+            "Full access to SpaceX's Colossus 1 data center",
+            "An NVIDIA DGX Cloud enterprise agreement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic signed an agreement to use all compute capacity at SpaceX's Colossus 1 data center, gaining access to over 300 megawatts—equivalent to more than 220,000 NVIDIA GPUs—which directly enabled the rate limit increases."
+        }
+      ]
+    }
+  ]
+}
