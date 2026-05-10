@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T08:00:00Z",
+  "generatedAt": "2026-05-10T16:00:00Z",
   "weekOf": "2026-05-04",
   "coverageStart": "2026-05-08",
   "coverageEnd": "2026-05-09",
@@ -55,6 +55,61 @@
           ],
           "correctIndex": 1,
           "explanation": "Jobs requiring human judgment, empathy, relationship-building, and helping others use AI effectively are expected to grow as routine cognitive tasks become automated."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Nn2eXwch-K0",
+      "type": "video",
+      "title": "New AI Interpretability Research and the ICLR 2026 Peer Review Scandal",
+      "youtubeId": "Nn2eXwch-K0",
+      "sourceUrl": "https://www.youtube.com/watch?v=Nn2eXwch-K0",
+      "verified": false,
+      "publishedAt": "2026-05-09",
+      "topics": [
+        "ai-research"
+      ],
+      "summary": "Wes Roth covers new research into how large language models reason and represent information internally, examining interpretability advances that open a window into previously opaque AI decision-making. The episode also examines the ICLR 2026 controversy revealed by Pangram Labs, which found that 21% of peer reviews were fully AI-generated and more than 50% showed some degree of AI involvement. Roth connects both stories to the broader question of trust and transparency in an AI-saturated research landscape.",
+      "keyConcepts": [
+        "AI interpretability",
+        "neural network transparency",
+        "ICLR 2026 peer review crisis",
+        "AI in academic research"
+      ],
+      "whyItMatters": "As AI systems take on autonomous roles in research and publishing, understanding how they reason internally — and detecting when they produce outputs — becomes foundational for maintaining trust in scientific institutions.",
+      "tags": [
+        "ai-interpretability",
+        "iclr-2026",
+        "peer-review",
+        "wes-roth",
+        "ai-research",
+        "academic-integrity"
+      ],
+      "relatedIds": [
+        "conversation-ai-scientist-automated-research-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What did Pangram Labs' study reveal about peer reviews at ICLR 2026?",
+          "options": [
+            "5% of reviews were fully AI-generated",
+            "21% of reviews were fully AI-generated, with over 50% showing AI involvement",
+            "All peer reviews passed a new AI-detection screening with high confidence",
+            "AI-generated reviews were found only in one narrow subfield"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pangram Labs found that 21% of ICLR 2026 peer reviews were fully AI-generated and more than 50% showed some AI involvement — a finding that raises urgent questions about scientific integrity in the age of capable language models."
+        },
+        {
+          "question": "Why does AI interpretability research matter for auditing and safety?",
+          "options": [
+            "It makes AI models generate outputs faster",
+            "It lets researchers read and audit the internal reasoning of AI models, increasing transparency",
+            "It allows AI systems to automatically review each other's outputs",
+            "It reduces the computational cost of training large models"
+          ],
+          "correctIndex": 1,
+          "explanation": "Interpretability research turns AI models from opaque black boxes into systems whose internal representations and decision pathways can be examined — enabling better safety testing, accountability, and detection of misaligned behavior before deployment."
         }
       ]
     },
@@ -159,6 +214,60 @@
           ],
           "correctIndex": 1,
           "explanation": "At a $1 trillion valuation, Anthropic would surpass OpenAI's implied private-market value for the first time — a notable competitive milestone given OpenAI's head start in the market."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-nvidia-40b-equity-2026",
+      "type": "article",
+      "title": "Nvidia Tops $40 Billion in AI Equity Commitments in 2026, Backing Infrastructure Partners IREN and Corning",
+      "sourceUrl": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "verified": false,
+      "publishedAt": "2026-05-09",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Nvidia has surpassed $40 billion in equity commitments to AI companies in 2026, cementing its position across the AI infrastructure stack through strategic investment deals. In a single week, Nvidia secured the right to invest up to $2.1 billion in data center operator IREN and up to $3.2 billion in optical fiber supplier Corning, the latter tied to three new U.S. manufacturing facilities focused on AI networking. The deals are part of Nvidia's broader strategy of pairing commercial supply relationships with equity stakes in the companies it sells to, creating deep alignment across the GPU and infrastructure ecosystem.",
+      "keyConcepts": [
+        "Nvidia equity investment strategy",
+        "AI infrastructure stack",
+        "data center and optical fiber partnerships",
+        "vertical integration in AI hardware"
+      ],
+      "whyItMatters": "Nvidia's $40B-plus equity commitment strategy is reshaping how AI infrastructure gets built and funded — but critics warn that investing in its own customers creates circular capital flows and may reduce competitive pressure across the AI hardware supply chain.",
+      "tags": [
+        "nvidia",
+        "ai-infrastructure",
+        "equity-investment",
+        "data-center",
+        "iren",
+        "corning"
+      ],
+      "relatedIds": [
+        "decoder-anthropic-1t-valuation-may-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How much has Nvidia committed in total equity investments in AI companies as of May 2026?",
+          "options": [
+            "$10 billion",
+            "$25 billion",
+            "Over $40 billion",
+            "Over $100 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia has surpassed $40 billion in equity commitments in 2026, including a reported $30 billion stake in OpenAI plus individual deals with infrastructure partners like IREN ($2.1B) and Corning ($3.2B)."
+        },
+        {
+          "question": "What concern have critics raised about Nvidia investing equity in companies it sells hardware to?",
+          "options": [
+            "It violates antitrust laws in most countries",
+            "Capital circulates between the same companies, raising questions about economic substance",
+            "It prevents smaller AI companies from accessing Nvidia chips",
+            "It forces Nvidia to disclose its GPU roadmap to competitors"
+          ],
+          "correctIndex": 1,
+          "explanation": "When Nvidia takes equity in customers who then spend that capital on Nvidia products, critics argue the money effectively circulates among the same entities — reducing the true net new investment and creating conflicts of interest."
         }
       ]
     },
