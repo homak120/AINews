@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-05-11T16:00:00Z",
+  "weekOf": "2026-05-11",
+  "coverageStart": "2026-05-10",
+  "coverageEnd": "2026-05-11",
+  "items": [
+    {
+      "id": "article-cnn-ai-jobs-may10",
+      "type": "article",
+      "title": "AI Isn't Actually 'Taking' Your Job — Here's What's Happening Instead",
+      "sourceUrl": "https://www.cnn.com/2026/05/10/tech/ai-taking-jobs",
+      "verified": false,
+      "publishedAt": "2026-05-10",
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
+      "summary": "AI was cited as the top reason for job cuts in April 2026 for the second month in a row, but the reality is more nuanced than outright replacement. Companies like Cloudflare are automating specific task categories within roles rather than eliminating entire positions, while Anthropic has launched new AI agents built for financial workflows like pitchbooks and credit memos. The pattern emerging is one of task-level automation that reshapes jobs, not necessarily eliminates them.",
+      "keyConcepts": [
+        "task automation vs. job elimination",
+        "AI-driven restructuring",
+        "workforce transformation",
+        "financial AI agents"
+      ],
+      "whyItMatters": "How companies frame AI-driven layoffs shapes both public perception and policy response — understanding the distinction between task automation and full job replacement is critical for workers planning their careers in 2026.",
+      "tags": [
+        "ai-jobs",
+        "automation",
+        "workforce",
+        "labor-market",
+        "restructuring",
+        "enterprise-ai"
+      ],
+      "relatedIds": [
+        "article-techportal-cloudflare-may10"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to May 2026 data, what has AI become in terms of reasons for corporate job cuts?",
+          "options": [
+            "A minor contributing factor cited in fewer than 10% of layoffs",
+            "The top cited reason for job cuts for two consecutive months",
+            "Irrelevant — most layoffs are attributed to economic downturns",
+            "Only a factor in manufacturing, not tech"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI was the top reason companies cited for job cuts in April 2026 for the second month in a row, signaling an accelerating structural shift in how companies are restructuring their workforces."
+        },
+        {
+          "question": "What is the key distinction between AI-driven job changes observed in May 2026 and outright job elimination?",
+          "options": [
+            "AI is only affecting entry-level positions",
+            "Companies are automating specific task categories within roles rather than whole positions",
+            "All affected roles are being fully eliminated with no transition",
+            "Only creative jobs are impacted"
+          ],
+          "correctIndex": 1,
+          "explanation": "The evidence suggests AI is automating specific tasks within jobs — such as drafting documents or running data analysis — rather than replacing entire roles, making the impact more about reshaping job content than mass elimination."
+        }
+      ]
+    },
+    {
+      "id": "article-techportal-cloudflare-may10",
+      "type": "article",
+      "title": "Cloudflare Cuts 20% of Workforce Despite Record $639M Revenue Amid Rapid AI Adoption",
+      "sourceUrl": "https://thetechportal.com/2026/05/10/cloudflare-cuts-20-workforce-despite-record-639-8mn-revenue-amid-rapid-ai-adoption/",
+      "verified": false,
+      "publishedAt": "2026-05-10",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Cloudflare cut 1,100 employees — roughly 20% of its global workforce — even as Q1 2026 revenue hit a record $640M, beating Wall Street estimates. The company attributed the cuts directly to AI, citing a 600% increase in internal AI usage over just three months that made many roles redundant. The stock fell 24% on the news, illustrating investor anxiety about what record revenue paired with record layoffs signals for the tech sector's future.",
+      "keyConcepts": [
+        "AI-driven workforce reduction",
+        "agentic AI in enterprise operations",
+        "record revenue with simultaneous layoffs",
+        "AI adoption speed metrics"
+      ],
+      "whyItMatters": "Cloudflare's case is the most explicit example yet of a profitable, growing tech company directly attributing layoffs to AI replacing human roles — a template that analysts warn could spread rapidly across the sector in 2026.",
+      "tags": [
+        "cloudflare",
+        "layoffs",
+        "ai-workforce",
+        "agentic-ai",
+        "enterprise-ai",
+        "tech-restructuring"
+      ],
+      "relatedIds": [
+        "article-cnn-ai-jobs-may10"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What was Cloudflare's reported increase in internal AI usage in the three months before its May 2026 layoffs?",
+          "options": [
+            "50%",
+            "200%",
+            "600%",
+            "1,000%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cloudflare reported a 600% increase in internal AI usage over just three months, which the company used to justify eliminating 1,100 roles even as revenue hit record highs."
+        },
+        {
+          "question": "What makes Cloudflare's May 2026 layoffs historically significant?",
+          "options": [
+            "It was the largest single-day tech layoff in history",
+            "It is one of the most explicit cases of a profitable company directly attributing job cuts to AI replacing human roles",
+            "Cloudflare was the first company to use AI agents in enterprise settings",
+            "The layoffs were later reversed after public backlash"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cloudflare's case stands out because a profitable, growing company explicitly cited AI — not a business downturn — as the direct cause of eliminating 20% of its workforce, setting a precedent that analysts warn others may follow."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-alphabet-yen-bond-may11",
+      "type": "article",
+      "title": "Alphabet Plans Debut Yen Bond Sale as AI Investment Race Accelerates",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "Alphabet is planning to issue yen-denominated bonds for the first time, widening its global funding sources to fuel accelerating AI infrastructure investment. The company raised its 2026 capital expenditure outlook to as much as $190 billion — up from a previous $185 billion estimate and roughly double what it spent in 2025. The yen bond offering follows Alphabet's earlier century bond and Euro bond tranches, underscoring how hyperscalers are tapping increasingly diverse debt markets to bankroll the AI arms race.",
+      "keyConcepts": [
+        "AI infrastructure financing",
+        "hyperscaler capital expenditure",
+        "international debt markets for AI",
+        "Alphabet AI strategy"
+      ],
+      "whyItMatters": "Alphabet's aggressive debt-market strategy illustrates that the AI infrastructure race is now commanding corporate financing decisions at a scale that rivals major national infrastructure programs — with real implications for interest rates, capital allocation, and competitive dynamics in AI.",
+      "tags": [
+        "alphabet",
+        "google",
+        "ai-investment",
+        "capital-expenditure",
+        "hyperscalers",
+        "ai-infrastructure"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Alphabet's revised 2026 capital expenditure outlook as of May 11, 2026?",
+          "options": [
+            "Up to $120 billion",
+            "Up to $155 billion",
+            "Up to $190 billion",
+            "Up to $250 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alphabet raised its 2026 capex outlook to as much as $190 billion, up from $185 billion, which itself was roughly double its 2025 spending — reflecting the enormous capital demands of the AI infrastructure race."
+        },
+        {
+          "question": "Why is Alphabet issuing yen-denominated bonds in May 2026?",
+          "options": [
+            "To comply with new Japanese AI regulations",
+            "To diversify funding sources and raise capital for AI infrastructure investment",
+            "To hedge against dollar depreciation",
+            "To fund an acquisition of a Japanese AI startup"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alphabet is widening its funding sources by tapping the yen bond market for the first time, allowing it to raise capital at potentially favorable rates to fund its massive AI infrastructure build-out as competition with other hyperscalers intensifies."
+        }
+      ]
+    }
+  ]
+}
