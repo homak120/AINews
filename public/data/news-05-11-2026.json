@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T16:00:00Z",
+  "generatedAt": "2026-05-11T20:30:00Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-10",
   "coverageEnd": "2026-05-11",
@@ -32,7 +32,8 @@
         "enterprise-ai"
       ],
       "relatedIds": [
-        "article-techportal-cloudflare-may10"
+        "article-techportal-cloudflare-may10",
+        "article-cnbc-chief-ai-officer-may11"
       ],
       "knowledgeChecks": [
         {
@@ -164,6 +165,225 @@
           ],
           "correctIndex": 1,
           "explanation": "Alphabet is widening its funding sources by tapping the yen bond market for the first time, allowing it to raise capital at potentially favorable rates to fund its massive AI infrastructure build-out as competition with other hyperscalers intensifies."
+        }
+      ]
+    },
+    {
+      "id": "youtube-IspuT2bUt94",
+      "type": "video",
+      "title": "Google Leaks Gemini Omni Video Model Ahead of I/O 2026",
+      "youtubeId": "IspuT2bUt94",
+      "sourceUrl": "https://www.youtube.com/watch?v=IspuT2bUt94",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Wes Roth covers the accidental leak of Google's new Gemini Omni video model, which surfaced through a UI string in the Gemini app reading 'Start with an idea or try a template. Powered by Omni.' Early demos reveal impressive capabilities including watermark removal, object swapping within clips, and scene rewriting via chat instructions, with a current 10-second video generation limit. The leak comes just 8 days before Google I/O 2026 (May 19–20), strongly suggesting Omni will be a centerpiece announcement at Google's biggest AI showcase of the year.",
+      "keyConcepts": [
+        "Gemini Omni video model",
+        "in-context video editing via chat",
+        "UI leak ahead of product launch",
+        "Google I/O 2026 preview"
+      ],
+      "whyItMatters": "Gemini Omni's editing-first design — bundling video and image generation into one consumer-facing model — is structurally different from OpenAI's standalone Sora, and if I/O delivers on the leak's promise, it could reshape how developers and creators think about AI video.",
+      "tags": [
+        "gemini",
+        "google",
+        "video-generation",
+        "google-io-2026",
+        "product-leak",
+        "wes-roth"
+      ],
+      "relatedIds": [
+        "article-testingcatalog-gemini-omni-may11"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What UI string appeared in the Gemini app that confirmed the existence of Gemini Omni?",
+          "options": [
+            "\"Create with Veo 3: the next generation of AI video\"",
+            "\"Start with an idea or try a template. Powered by Omni.\"",
+            "\"Gemini Ultra video generation is now in preview.\"",
+            "\"Generate videos with Gemini Pro — now in beta.\""
+          ],
+          "correctIndex": 1,
+          "explanation": "The leaked UI string that first confirmed Gemini Omni's existence read 'Start with an idea or try a template. Powered by Omni,' which surfaced inside the Gemini mobile app's video generation interface before any official announcement from Google."
+        },
+        {
+          "question": "What makes Gemini Omni structurally different from OpenAI's Sora?",
+          "options": [
+            "Gemini Omni generates longer videos than Sora",
+            "Gemini Omni bundles video and image generation into one consumer-facing model rather than offering a standalone video product",
+            "Gemini Omni uses a diffusion architecture while Sora uses transformers",
+            "Gemini Omni is open-source, unlike Sora"
+          ],
+          "correctIndex": 1,
+          "explanation": "Analysis of the Gemini Omni leak suggests Google is taking a fundamentally different approach by bundling video and image generation into one unified consumer-facing model, rather than releasing a standalone video tool like OpenAI's Sora — a structural bet that could make AI video more accessible."
+        }
+      ]
+    },
+    {
+      "id": "article-testingcatalog-gemini-omni-may11",
+      "type": "article",
+      "title": "Google's Gemini Omni Video Model Surfaces Ahead of I/O Debut",
+      "sourceUrl": "https://www.testingcatalog.com/googles-gemini-omni-video-model-surfaces-ahead-of-i-o-debut/",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Fresh evidence of Google's upcoming Gemini Omni video model surfaced when Reddit users posted screenshots of a revised Gemini interface exposing a new model card reading 'Create with Gemini Omni: meet our new video model, remix your videos, edit directly in chat, try templates, and more.' The model has a current 10-second generation limit, and early demo outputs were notably strong — particularly for in-context editing tasks like watermark removal, object swapping, and scene rewriting via chat instructions. The full model ID was also spotted (bard_eac_video_generation_omni), and Google I/O 2026 on May 19–20 is expected to bring an official announcement.",
+      "keyConcepts": [
+        "Gemini Omni capabilities and model ID",
+        "in-context video editing",
+        "model pre-release leak via app UI",
+        "AI video generation competition"
+      ],
+      "whyItMatters": "Gemini Omni's editing-first design positions Google to compete directly with OpenAI's Sora and Meta's video tools — but the in-chat, instruction-based editing capability is a genuinely new interaction model that could make AI video generation far more accessible to non-technical users.",
+      "tags": [
+        "gemini-omni",
+        "google",
+        "video-generation",
+        "google-io-2026",
+        "product-leak",
+        "ai-research"
+      ],
+      "relatedIds": [
+        "youtube-IspuT2bUt94"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the current video generation time limit for Gemini Omni based on the leaked model card?",
+          "options": [
+            "5 seconds",
+            "10 seconds",
+            "30 seconds",
+            "60 seconds"
+          ],
+          "correctIndex": 1,
+          "explanation": "The leaked Gemini Omni model currently generates videos up to 10 seconds long, consistent with the initial constraints seen in other AI video generation tools that typically expand capability after launch."
+        },
+        {
+          "question": "How did Gemini Omni first become publicly known?",
+          "options": [
+            "Google announced it at a press event",
+            "It was found in a leaked code repository",
+            "Reddit users posted screenshots of UI strings in the Gemini mobile app exposing the new model",
+            "A Google employee shared documents with journalists"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini Omni was first revealed through Reddit users sharing screenshots of a revised Gemini mobile interface that exposed the model's description and feature list, confirming its existence before any official Google announcement."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-chief-ai-officer-may11",
+      "type": "article",
+      "title": "Do You Need a Chief AI Officer? IBM Study Finds 76% of Firms Now Have One",
+      "sourceUrl": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
+      "summary": "A new IBM CEO study of more than 2,000 organizations found that 76% now have a designated Chief AI Officer, up sharply from just 26% in 2025 — nearly tripling in a single year. Companies with a CAIO report 20% higher ROI from AI initiatives, 29% fewer losses from AI irregularities, and have successfully scaled 10% more AI initiatives than firms without the role. IBM's research also found that 93% of respondents cited cultural challenges — not technology limitations — as the primary barrier to adoption, and that between 2026 and 2028, 29% of employees will need reskilling for different roles while 53% will need upskilling for their current ones.",
+      "keyConcepts": [
+        "Chief AI Officer (CAIO) role",
+        "AI governance in the C-suite",
+        "AI adoption barriers vs. cultural change",
+        "workforce reskilling at scale"
+      ],
+      "whyItMatters": "The near-tripling of CAIO adoption in one year signals that AI governance has moved from optional to structurally required — with measurable financial benefits attached, making this a critical career path for senior AI professionals and a strategic priority for any company serious about AI ROI.",
+      "tags": [
+        "chief-ai-officer",
+        "enterprise-ai",
+        "corporate-governance",
+        "ai-career",
+        "ibm",
+        "workforce-transformation"
+      ],
+      "relatedIds": [
+        "article-cnn-ai-jobs-may10"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to IBM's 2026 CEO study, what percentage of organizations now have a Chief AI Officer?",
+          "options": [
+            "26%",
+            "52%",
+            "76%",
+            "93%"
+          ],
+          "correctIndex": 2,
+          "explanation": "IBM's 2026 CEO study of over 2,000 organizations found that 76% have established a Chief AI Officer role — up from just 26% in 2025, representing nearly a tripling in adoption in one year as AI governance becomes a board-level priority."
+        },
+        {
+          "question": "What did IBM's 2026 study identify as the primary barrier to AI adoption in enterprises?",
+          "options": [
+            "Lack of quality training data",
+            "Insufficient compute resources",
+            "Cultural challenges rather than technology limitations",
+            "Regulatory uncertainty"
+          ],
+          "correctIndex": 2,
+          "explanation": "IBM's research found that 93% of respondents cited cultural challenges — not technology gaps — as the main obstacle to AI adoption, suggesting that organizational change management, not engineering capability, is the defining challenge for most enterprises in 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-openai-eu-cyber-may11",
+      "type": "article",
+      "title": "OpenAI Extends Cyber Model Access to EU While Anthropic Holds Back Mythos",
+      "sourceUrl": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "OpenAI has agreed to provide EU governments, institutions, and vetted cybersecurity teams access to GPT-5.5-Cyber — its AI-powered defensive security model — while Anthropic continues to withhold its more powerful Mythos model from European regulators. The EU Commission confirmed it has held four to five meetings with Anthropic, but discussions are 'not yet at the same stage' as the deal reached with OpenAI. OpenAI's Head of Countries framed the move as democratizing advanced cyber-defense tools so 'AI labs like ours shouldn't be the sole arbiters of cyber safety.'",
+      "keyConcepts": [
+        "GPT-5.5-Cyber model",
+        "Anthropic Mythos EU access",
+        "EU AI regulatory negotiations",
+        "frontier model governance"
+      ],
+      "whyItMatters": "How leading AI labs navigate EU access negotiations is setting the precedent for global frontier model governance — OpenAI's cooperative stance versus Anthropic's caution reflects fundamentally different theories about when and how to extend access to the most capable AI systems.",
+      "tags": [
+        "openai",
+        "anthropic",
+        "eu-regulation",
+        "cybersecurity",
+        "mythos",
+        "gpt-5-5-cyber"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What model is OpenAI extending to EU institutions as of May 11, 2026?",
+          "options": [
+            "GPT-5 with no restrictions",
+            "GPT-5.5-Cyber, its AI-powered defensive security model",
+            "A limited research preview of GPT-6",
+            "OpenAI's full product suite including DALL-E 4"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI agreed to extend access to GPT-5.5-Cyber — its specialized cybersecurity model — to EU governments, institutions, and vetted cybersecurity teams, framing it as a way to democratize AI-powered cyber defense across Europe."
+        },
+        {
+          "question": "What is the EU Commission's characterization of its negotiations with Anthropic over Mythos access?",
+          "options": [
+            "Anthropic has agreed to full EU access with no restrictions",
+            "Discussions are 'not yet at the same stage' as the solution reached with OpenAI",
+            "Anthropic has permanently blocked Mythos from EU markets",
+            "The EU Commission has halted talks with Anthropic pending new legislation"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EU Commission confirmed that while it has had multiple meetings with Anthropic, discussions about Mythos access are 'not yet at the same stage' as the agreement reached with OpenAI, with Anthropic taking a more cautious approach to releasing its most capable cybersecurity model."
         }
       ]
     }
