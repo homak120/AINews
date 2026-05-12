@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T12:00:00.000Z",
+  "generatedAt": "2026-05-12T18:30:00.000Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-11",
   "coverageEnd": "2026-05-12",
@@ -193,6 +193,44 @@
           ],
           "correctIndex": 1,
           "explanation": "The CAIO surge signals that AI strategy is now owned at the executive and board level, not delegated to IT departments—reflecting AI's role in core business decisions, not just operational efficiency."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-google-ai-zero-day-may-2026",
+      "type": "article",
+      "title": "Google Detects First AI-Built Zero-Day Exploit Used in Planned Mass Cyberattack",
+      "sourceUrl": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+      "verified": false,
+      "publishedAt": "2026-05-11",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google's Threat Intelligence Group (GTIG) has identified what it believes is the first AI-generated zero-day exploit used by a criminal threat actor who planned a mass vulnerability exploitation event. The exploit targeted a two-factor authentication bypass, and Google's proactive detection may have prevented its large-scale deployment. The report also found that nation-state groups linked to China and North Korea are actively exploring AI to accelerate vulnerability discovery.",
+      "keyConcepts": ["AI-generated zero-day exploits", "mass vulnerability exploitation", "Google Threat Intelligence Group (GTIG)", "nation-state AI cyberoperations"],
+      "whyItMatters": "This marks a qualitative escalation in AI-enabled threats — adversaries are now using AI not just to scale existing attacks, but to discover and craft novel exploits autonomously, compressing the time between vulnerability discovery and mass exploitation.",
+      "tags": ["cybersecurity", "zero-day", "google", "ai-threats", "nation-state-hacking", "vulnerability-exploitation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of vulnerability did the AI-built exploit target, according to Google's report?",
+          "options": [
+            "A SQL injection flaw in cloud databases",
+            "A two-factor authentication bypass",
+            "A buffer overflow in network routers",
+            "A cryptographic weakness in TLS certificates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's GTIG reported the AI-developed exploit was designed to bypass two-factor authentication, with the criminal actor planning to weaponize it in a mass exploitation campaign."
+        },
+        {
+          "question": "Which nation-state groups does Google's report identify as actively exploring AI for vulnerability discovery?",
+          "options": [
+            "Russia and Iran",
+            "North Korea and Iran",
+            "China and North Korea",
+            "China and Russia"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's threat intelligence report specifically called out groups linked to China and North Korea as demonstrating significant interest in leveraging AI to identify and exploit software vulnerabilities."
         }
       ]
     },
