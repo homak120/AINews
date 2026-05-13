@@ -1,9 +1,48 @@
 {
-  "generatedAt": "2026-05-13T12:00:00.000Z",
+  "generatedAt": "2026-05-13T18:00:00.000Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-12",
   "coverageEnd": "2026-05-13",
   "items": [
+    {
+      "id": "youtube-McHSCGPEDps",
+      "type": "video",
+      "title": "AI News Briefing: Google Zero-Day, OpenAI Deployment Company & Sutskever Testimony",
+      "youtubeId": "McHSCGPEDps",
+      "sourceUrl": "https://www.youtube.com/watch?v=McHSCGPEDps",
+      "verified": false,
+      "publishedAt": "2026-05-12",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "The AI Daily Brief's May 12 episode covers three major developments: Google's Threat Intelligence Group disclosing the first known AI-generated zero-day exploit used in a real cyberattack, OpenAI's announcement of a new Deployment Company backed by $4 billion in partnership funding, and Ilya Sutskever's testimony in the high-profile Musk v. Altman lawsuit. The episode synthesizes a rare single-day convergence of AI security, industry, and legal news.",
+      "keyConcepts": ["AI-generated zero-day exploit", "OpenAI Deployment Company", "Ilya Sutskever testimony", "Musk v. Altman lawsuit"],
+      "whyItMatters": "This briefing captures a rare convergence of major AI security, industry strategy, and legal developments on a single day—each independently reshaping how AI is built, deployed, and governed.",
+      "tags": ["ai-daily-brief", "zero-day", "openai", "deployment-company", "ilya-sutskever", "musk-altman"],
+      "relatedIds": ["axios-google-ai-zero-day-may-2026", "resultsense-openai-deployment-company-may-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "In what legal proceeding was Ilya Sutskever testifying, as covered in the AI Daily Brief's May 12 episode?",
+          "options": [
+            "A federal antitrust investigation into AI market concentration",
+            "The Musk v. Altman lawsuit over OpenAI's non-profit mission",
+            "OpenAI v. Microsoft over model licensing terms",
+            "A Senate AI oversight committee hearing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ilya Sutskever testified in the Musk v. Altman lawsuit, which centers on whether OpenAI's conversion from a non-profit to a for-profit entity violated its founding mission. As a co-founder of OpenAI, his testimony carries particular weight in establishing the organization's original intent."
+        },
+        {
+          "question": "Which of the following was NOT among the stories covered in the AI Daily Brief's May 12, 2026 episode?",
+          "options": [
+            "Google's AI-assisted zero-day exploit disclosure",
+            "OpenAI launching a new enterprise Deployment Company",
+            "Google DeepMind releasing Gemini Ultra 2",
+            "Ilya Sutskever's testimony in Musk v. Altman"
+          ],
+          "correctIndex": 2,
+          "explanation": "The May 12 episode covered Google's AI zero-day disclosure, OpenAI's Deployment Company launch, and Ilya Sutskever's court testimony. A Gemini Ultra 2 release was not among the day's reported stories."
+        }
+      ]
+    },
     {
       "id": "axios-google-ai-zero-day-may-2026",
       "type": "article",
