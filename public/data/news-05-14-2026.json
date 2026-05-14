@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-14T10:00:00.000Z",
+  "generatedAt": "2026-05-14T18:00:00.000Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-12",
-  "coverageEnd": "2026-05-13",
+  "coverageEnd": "2026-05-14",
   "items": [
     {
       "id": "youtube-q4rDAu9ggKU",
@@ -192,6 +192,120 @@
           ],
           "correctIndex": 2,
           "explanation": "Dolby Atmos spatial audio support was announced as part of the Android Auto 2026 upgrade, bringing cinema-quality immersive audio to compatible vehicles alongside YouTube video playback and the new 3D Maps experience."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-palo-alto-ai-cyberattacks-may-2026",
+      "type": "article",
+      "title": "Palo Alto Networks Warns AI-Driven Cyberattacks Are Months Away From Becoming the Norm",
+      "sourceUrl": "https://www.cnbc.com/2026/05/13/palo-alto-ai-cyberattacks-mythos-gpt.html",
+      "verified": false,
+      "publishedAt": "2026-05-13",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Palo Alto Networks tech chief Lee Klarich warned organizations have a narrow three-to-five-month window to bolster defenses before AI-driven exploits become the new norm. The warning follows the company's May security advisory—which covered 26 CVEs representing 75 issues, a surge from its typical volume of fewer than 5 CVEs per month—after Anthropic's Mythos model scanned its code as part of Project Glasswing. Google also reported stopping an AI-assisted mass exploitation attempt in the same week.",
+      "keyConcepts": ["AI-assisted vulnerability discovery", "Project Glasswing security testing", "CVE volume surge", "AI cyber defense window", "frontier model offensive capability"],
+      "whyItMatters": "The pace at which frontier AI models are uncovering vulnerabilities—75 issues in a single advisory cycle versus the usual 5 or fewer—signals that defenders now have a narrow window to leverage these same tools before adversaries do at scale.",
+      "tags": ["palo-alto", "cybersecurity", "mythos", "vulnerability", "ai-threat", "cnbc"],
+      "relatedIds": ["youtube-q4rDAu9ggKU", "semafor-openai-gpt55-cyber-may-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What timeframe did Palo Alto Networks' tech chief estimate before AI-driven cyberattacks become the new norm?",
+          "options": [
+            "1–2 weeks",
+            "1–2 months",
+            "3–5 months",
+            "1–2 years"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lee Klarich estimated organizations have a narrow 3–5 month window to improve their defenses before AI-driven exploits become the standard attack vector, urging immediate investment in AI-assisted defensive tooling."
+        },
+        {
+          "question": "How many CVEs did AI scanning discover in Palo Alto's May 2026 security advisory, compared to their usual monthly volume?",
+          "options": [
+            "5 CVEs — the same as usual",
+            "12 CVEs — a modest increase",
+            "26 CVEs representing 75 issues — a dramatic surge",
+            "50+ CVEs — an unprecedented volume"
+          ],
+          "correctIndex": 2,
+          "explanation": "The May 2026 advisory covered 26 CVEs (representing 75 separate issues), compared to Palo Alto's typical volume of fewer than 5 CVEs per month—a dramatic increase driven by Anthropic's Mythos model scanning the company's code as part of Project Glasswing."
+        }
+      ]
+    },
+    {
+      "id": "technode-baidu-create-2026-agents",
+      "type": "article",
+      "title": "Baidu CEO Declares AI Agent Era at Create 2026, Proposes Daily Active Agents as New Industry Metric",
+      "sourceUrl": "https://technode.com/2026/05/14/baidu-create-2026-ceo-says-ai-is-moving-from-model-competition-to-ai-agent-era-foresees-rise-of-super-individuals/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Robin Li delivered a keynote at the Baidu Create 2026 conference declaring that AI competition is shifting from large model benchmarks to AI agent deployments, proposing Daily Active Agents (DAA) as the new defining metric for the industry. He predicted global DAA could eventually surpass 10 billion and outlined his vision of the 'super individual' era, where one person commanding a fleet of AI agents becomes the smallest productive unit in business. Baidu also launched Miaoda, a code-generation agent reportedly producing around 90% of its own code, and Baidu YiJing, a multi-agent digital human platform for livestreaming.",
+      "keyConcepts": ["Daily Active Agents (DAA)", "AI agent era", "super individual concept", "Miaoda code agent", "Baidu YiJing digital human platform"],
+      "whyItMatters": "Reframing AI success around agent activity rather than model benchmarks signals a maturation of the industry—the competition is no longer about who builds the best model, but whose agents are doing the most real work for the most users.",
+      "tags": ["baidu", "ai-agents", "robin-li", "create-2026", "daa-metric", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new metric did Baidu CEO Robin Li propose as the key measure of AI success in the agent era?",
+          "options": [
+            "Monthly Active Users",
+            "Daily Active Agents",
+            "Model Parameter Count",
+            "Inference Speed Index"
+          ],
+          "correctIndex": 1,
+          "explanation": "Robin Li proposed Daily Active Agents (DAA) as the AI industry's equivalent of Daily Active Users (DAU) from the mobile internet era, arguing that agent utilization—not model benchmarks—should define AI success going forward."
+        },
+        {
+          "question": "What is the 'super individual' concept introduced by Robin Li at Baidu Create 2026?",
+          "options": [
+            "A new superintelligent AI model built by Baidu",
+            "A user who accesses AI tools for more than 10 hours per day",
+            "A single person commanding a fleet of AI agents as the smallest productive business unit",
+            "An AI system that surpasses human performance on every task"
+          ],
+          "correctIndex": 2,
+          "explanation": "Li's 'super individual' concept envisions a future where one person plus a fleet of intelligent agents becomes the smallest productive unit in a company, radically changing how organizations are structured and how work is accomplished."
+        }
+      ]
+    },
+    {
+      "id": "republicworld-linkedin-layoffs-ai-may-2026",
+      "type": "article",
+      "title": "LinkedIn Cuts 900 Jobs as Microsoft-Owned Platform Restructures Teams Around AI",
+      "sourceUrl": "https://www.republicworld.com/tech/linkedin-layoffs-2026-900-jobs-cut-as-microsoft-owned-platform-restructures-teams-around-ai-2026-05-14-124183",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "LinkedIn announced it is cutting approximately 900 employees—about 5% of its global workforce—as the Microsoft-owned platform restructures its engineering, product, and marketing teams to operate with AI-driven efficiency. The layoffs come despite the company reporting 12% revenue growth in the latest quarter, driven by record performance of its AI-powered recruiting products. CEO Daniel Shapero cited a strategic shift toward smaller, faster teams that heavily leverage AI tools, with the company's agentic hiring products crossing a $450 million annual revenue run rate.",
+      "keyConcepts": ["workforce AI restructuring", "LinkedIn 5% layoff", "AI-driven efficiency", "agentic hiring products", "Microsoft AI strategy"],
+      "whyItMatters": "LinkedIn cutting jobs during a period of strong revenue growth illustrates a defining pattern of 2026: profitable tech companies are restructuring around AI not out of financial necessity, but to compete with leaner AI-native rivals and accelerate product velocity.",
+      "tags": ["linkedin", "layoffs", "microsoft", "ai-restructuring", "workforce", "ai-career"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately how many employees did LinkedIn cut in its May 2026 layoff announcement?",
+          "options": [
+            "200",
+            "900",
+            "3,500",
+            "8,000"
+          ],
+          "correctIndex": 1,
+          "explanation": "LinkedIn cut approximately 900 employees, or about 5% of its global workforce of more than 17,500 people. The cuts targeted the Global Business Organisation, marketing, engineering, and product divisions."
+        },
+        {
+          "question": "What makes LinkedIn's May 2026 layoffs notable compared to typical cost-cutting workforce reductions?",
+          "options": [
+            "They were announced during a quarter with 12% revenue growth",
+            "They were the largest single layoff event in company history",
+            "They affected only the senior leadership team",
+            "They came after three consecutive quarters of losses"
+          ],
+          "correctIndex": 0,
+          "explanation": "LinkedIn's layoffs were announced while the company reported 12% revenue growth in the latest quarter—signaling that the restructuring is driven by AI-led strategic transformation rather than financial hardship, a pattern seen across dozens of tech companies in 2026."
         }
       ]
     }
