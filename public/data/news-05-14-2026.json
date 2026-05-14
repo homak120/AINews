@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-05-14T10:00:00.000Z",
+  "weekOf": "2026-05-11",
+  "coverageStart": "2026-05-12",
+  "coverageEnd": "2026-05-13",
+  "items": [
+    {
+      "id": "youtube-q4rDAu9ggKU",
+      "type": "video",
+      "title": "WTF Is Going On at Anthropic?",
+      "youtubeId": "q4rDAu9ggKU",
+      "sourceUrl": "https://www.youtube.com/watch?v=q4rDAu9ggKU",
+      "verified": false,
+      "publishedAt": "2026-05-13",
+      "topics": ["ai-industry"],
+      "summary": "Matthew Berman breaks down the mounting controversies surrounding Anthropic, including the restricted rollout of the Mythos model, communications-strategy criticism from within the AI commentator community, and the company's explosive valuation growth toward $900 billion. The video examines the tension between Anthropic's safety-first branding and its aggressive commercial push, asking whether the company's culture can hold up under hypergrowth pressure.",
+      "keyConcepts": ["Anthropic Mythos rollout", "AI safety vs commercialization", "Project Glasswing", "AI lab valuation pressure"],
+      "whyItMatters": "Anthropic's rapid growth and internal tensions are a microcosm of the broader challenge facing frontier AI labs: maintaining safety commitments and organizational culture while racing to generate revenue at hundred-billion-dollar scale.",
+      "tags": ["anthropic", "mythos", "ai-safety", "claude", "valuation", "matthew-berman"],
+      "relatedIds": ["semafor-openai-gpt55-cyber-may-2026", "bloomberg-cerebras-ipo-may-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of the Anthropic model at the center of recent public controversy?",
+          "options": [
+            "Claude Pro",
+            "Opus 5",
+            "Mythos",
+            "Claude Code Ultra"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's Mythos model triggered controversy due to its powerful cybersecurity capabilities and the decision to restrict access to a limited set of companies through Project Glasswing. Critics argued the rollout lacked transparency, while defenders said the caution was warranted given the model's offensive potential."
+        },
+        {
+          "question": "Approximately what valuation is Anthropic reportedly pursuing in its current funding round?",
+          "options": [
+            "$900 billion",
+            "$500 billion",
+            "$200 billion",
+            "$1.5 trillion"
+          ],
+          "correctIndex": 0,
+          "explanation": "Reports indicate Anthropic is in discussions to raise $30–50 billion at a valuation approaching $900 billion, which would surpass OpenAI's $852 billion valuation and position Anthropic for a potential IPO as early as October 2026."
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-cerebras-ipo-may-2026",
+      "type": "article",
+      "title": "AI Chipmaker Cerebras Raises $5.55 Billion in Year's Biggest IPO",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-13/ai-chipmaker-cerebras-said-poised-to-price-ipo-at-185-per-share",
+      "verified": false,
+      "publishedAt": "2026-05-13",
+      "topics": ["ai-industry"],
+      "summary": "Cerebras Systems raised $5.55 billion in its US IPO by pricing 30 million shares at $185 each—$25 above the top of its marketed range—giving the AI chipmaker a fully diluted valuation of $56.4 billion. The company, which makes wafer-scale AI chips and holds a $20 billion multi-year compute deal with OpenAI, began trading on Nasdaq under the ticker CBRS on May 14. Wall Street views the Cerebras debut as the vanguard of a potential IPO wave, with OpenAI and Anthropic both eyeing public offerings later in 2026.",
+      "keyConcepts": ["Wafer Scale Engine", "AI chip IPO", "CBRS Nasdaq listing", "OpenAI compute deal", "AI infrastructure investment"],
+      "whyItMatters": "The Cerebras IPO is the largest US tech offering in years and signals extraordinary investor appetite for specialized AI hardware—with OpenAI and Anthropic potentially following suit, 2026 could define a new era of AI capital markets.",
+      "tags": ["cerebras", "ipo", "ai-chips", "nasdaq", "cbrs", "ai-infrastructure"],
+      "relatedIds": ["youtube-q4rDAu9ggKU"],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Cerebras raise in its May 2026 IPO?",
+          "options": [
+            "$3.5 billion",
+            "$5.55 billion",
+            "$8 billion",
+            "$10 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cerebras raised $5.55 billion by pricing 30 million shares at $185 each, well above its marketed range of $150–$160. This made it the largest US tech IPO since Snowflake's $3.8 billion raise in 2020."
+        },
+        {
+          "question": "Under what ticker symbol did Cerebras begin trading on the Nasdaq?",
+          "options": [
+            "CBRA",
+            "CBRS",
+            "CRBR",
+            "CSYS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cerebras Systems began trading on the Nasdaq Global Select Market on May 14, 2026, under the ticker symbol CBRS. Key investors include Sam Altman and Greg Brockman, and the company holds a $20 billion compute supply agreement with OpenAI."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-android-show-io-may-2026",
+      "type": "article",
+      "title": "Google's Android Show Reveals Gemini Intelligence, Googlebook Laptops, and Android 17",
+      "sourceUrl": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "verified": false,
+      "publishedAt": "2026-05-12",
+      "topics": ["ai-industry"],
+      "summary": "Google's Android Show: I/O Edition unveiled Gemini Intelligence, a proactive AI layer running beneath Android 17 itself rather than as a standalone app, designed to help users stay ahead throughout their day across all contexts. The event also introduced Googlebook, a new premium AI-first laptop category from Acer, ASUS, Dell, HP, and Lenovo built around Gemini Intelligence. These announcements preview Google I/O 2026 on May 19–20, where deeper AI and software disclosures are expected.",
+      "keyConcepts": ["Gemini Intelligence", "Android 17", "Googlebook", "proactive AI OS layer", "Google I/O 2026"],
+      "whyItMatters": "Google embedding Gemini as Android's core intelligence layer—rather than an optional add-on—is a fundamental bet that AI-native operating systems will be the next platform frontier, placing direct competitive pressure on Apple's upcoming AI strategy.",
+      "tags": ["google", "android-17", "gemini-intelligence", "googlebook", "google-io-2026", "ai-devices"],
+      "relatedIds": ["indiatv-android-auto-gemini-may-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of Google's new AI-first laptop product line announced at the Android Show?",
+          "options": [
+            "Googlebook",
+            "Pixelbook Pro",
+            "ChromeBook AI",
+            "Android PC"
+          ],
+          "correctIndex": 0,
+          "explanation": "Google unveiled Googlebook, a new category of premium laptops built from the ground up around Gemini Intelligence, with manufacturing partners including Acer, ASUS, Dell, HP, and Lenovo. Devices are expected to hit shelves in fall 2026."
+        },
+        {
+          "question": "How is Gemini Intelligence different from Google's previous Gemini app on Android?",
+          "options": [
+            "It only works on Pixel devices",
+            "It requires a paid subscription",
+            "It runs as a proactive layer beneath the OS itself, not just as an app",
+            "It is limited to search queries only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini Intelligence is not a rebrand of the standalone Gemini app—it is an AI layer that runs proactively beneath Android 17, working across all apps and contexts to anticipate user needs rather than waiting to be invoked."
+        }
+      ]
+    },
+    {
+      "id": "semafor-openai-gpt55-cyber-may-2026",
+      "type": "article",
+      "title": "OpenAI Launches Cybersecurity Model to Rival Anthropic's Mythos",
+      "sourceUrl": "https://www.semafor.com/article/05/12/2026/openai-launches-cybersecuity-model-to-rival-anthropics-mythos",
+      "verified": false,
+      "publishedAt": "2026-05-12",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI released GPT-5.5-Cyber, a specialized AI model for cybersecurity teams, entering direct competition with Anthropic's Mythos which launched in April. The model rolls out in limited preview to vetted security professionals, with OpenAI announcing EU governments will receive early access as part of an international expansion strategy. Like Mythos, GPT-5.5-Cyber can detect and analyze software vulnerabilities with speed and scale that surpasses traditional static analysis tools.",
+      "keyConcepts": ["GPT-5.5-Cyber", "AI cybersecurity arms race", "tiered model access", "vulnerability detection at scale", "Anthropic Mythos competition"],
+      "whyItMatters": "Simultaneous deployment of frontier AI models for offensive-aware cyber defense by both OpenAI and Anthropic signals that AI-powered security tooling is rapidly becoming the new standard—and a major revenue battleground—for leading AI labs.",
+      "tags": ["openai", "gpt-5-5-cyber", "cybersecurity", "anthropic", "mythos", "vulnerability-detection"],
+      "relatedIds": ["youtube-q4rDAu9ggKU"],
+      "knowledgeChecks": [
+        {
+          "question": "GPT-5.5-Cyber is being positioned as a direct competitor to which Anthropic model?",
+          "options": [
+            "Claude Opus 4.7",
+            "Claude Pro Security",
+            "Claude Sonnet for Enterprise",
+            "Mythos"
+          ],
+          "correctIndex": 3,
+          "explanation": "GPT-5.5-Cyber directly competes with Anthropic's Mythos, which launched in April 2026 with cybersecurity-focused capabilities. Both models can detect software vulnerabilities and are rolled out selectively to vetted security teams rather than the general public."
+        },
+        {
+          "question": "To which geographic region did OpenAI specifically announce early access to GPT-5.5-Cyber?",
+          "options": [
+            "Asia-Pacific",
+            "European Union",
+            "Middle East",
+            "South America"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI announced that EU governments and security organizations would receive early access to GPT-5.5-Cyber, positioning the model as a tool for democratic governments' cyber defense programs and aligning with broader EU AI regulatory compliance efforts."
+        }
+      ]
+    },
+    {
+      "id": "indiatv-android-auto-gemini-may-2026",
+      "type": "article",
+      "title": "Google Brings Gemini AI, YouTube Video, and 3D Maps to Android Auto",
+      "sourceUrl": "https://www.indiatvnews.com/technology/news/google-android-auto-gets-gemini-ai-youtube-video-support-and-3d-maps-experience-2026-05-13-1040972",
+      "verified": false,
+      "publishedAt": "2026-05-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google announced a major overhaul of Android Auto at its May 12 Android Show, bringing hands-free Gemini AI assistance, YouTube video playback at 60fps Full HD in supported vehicles, and an immersive 3D Maps navigation experience. The update also adds Dolby Atmos spatial audio support for a cinema-quality in-car audio experience. These changes extend Google's AI platform push into the automotive space, targeting the estimated one billion-plus Android devices already paired to vehicles globally.",
+      "keyConcepts": ["Android Auto AI overhaul", "Gemini in-car assistant", "YouTube in-car video", "Dolby Atmos automotive", "3D Maps navigation"],
+      "whyItMatters": "Embedding Gemini as a hands-free AI assistant in Android Auto extends Google's AI platform into one of the last major daily-use surfaces not yet dominated by conversational AI, while YouTube video support in vehicles opens a significant new content distribution channel.",
+      "tags": ["google", "android-auto", "gemini", "youtube", "dolby-atmos", "ai-features"],
+      "relatedIds": ["techcrunch-android-show-io-may-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Which video streaming app is now supported for high-quality playback in Android Auto?",
+          "options": [
+            "YouTube",
+            "Netflix",
+            "Disney+",
+            "HBO Max"
+          ],
+          "correctIndex": 0,
+          "explanation": "YouTube video support at 60fps Full HD is coming to Android Auto in supported vehicles. The feature targets passengers rather than drivers and is part of a broader push to make Android Auto a full entertainment platform, not just a navigation tool."
+        },
+        {
+          "question": "Which spatial audio technology is being added to Android Auto in the 2026 update?",
+          "options": [
+            "Surround Sound 7.1",
+            "DTS:X",
+            "Dolby Atmos",
+            "Sony 360 Reality Audio"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dolby Atmos spatial audio support was announced as part of the Android Auto 2026 upgrade, bringing cinema-quality immersive audio to compatible vehicles alongside YouTube video playback and the new 3D Maps experience."
+        }
+      ]
+    }
+  ]
+}
