@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-05-15T12:00:00.000Z",
+  "weekOf": "2026-05-11",
+  "coverageStart": "2026-05-14",
+  "coverageEnd": "2026-05-14",
+  "items": [
+    {
+      "id": "article-cisco-ai-layoffs-may14",
+      "type": "article",
+      "title": "Cisco Cuts 4,000 Jobs to Fund AI and Cybersecurity Expansion",
+      "sourceUrl": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Cisco announced it will cut nearly 4,000 jobs — roughly 5% of its global workforce — to restructure costs and redirect investment toward AI and cybersecurity. Despite the layoffs, the company reported record quarterly revenue, underscoring how enterprise AI investment is reshaping workforce strategies across the tech sector.",
+      "keyConcepts": ["workforce restructuring", "enterprise AI investment", "AI-driven cost transformation", "cybersecurity convergence"],
+      "whyItMatters": "Cisco's move is emblematic of a broader enterprise pattern: AI capabilities are now viewed as competitive necessities worth funding through headcount reductions, accelerating the structural workforce shift that AI is causing throughout tech.",
+      "tags": ["cisco", "layoffs", "enterprise-ai", "workforce", "cybersecurity", "ai-investment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Cisco's workforce does the announced layoff represent?",
+          "options": ["2%", "5%", "10%", "15%"],
+          "correctIndex": 1,
+          "explanation": "Cisco is cutting nearly 4,000 jobs, which represents approximately 5% of its global workforce, as it shifts spending toward AI and cybersecurity capabilities."
+        },
+        {
+          "question": "What did Cisco report alongside the layoff announcement?",
+          "options": ["A net quarterly loss", "Flat revenue growth", "Record quarterly revenue", "A merger with a cybersecurity firm"],
+          "correctIndex": 2,
+          "explanation": "Despite announcing the layoffs, Cisco simultaneously reported record quarterly revenue, illustrating that AI-driven cost restructuring can coexist with strong financial performance."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-codex-mobile-may14",
+      "type": "article",
+      "title": "OpenAI Brings Codex Agentic Coding to the ChatGPT Mobile App",
+      "sourceUrl": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI announced that Codex, its AI coding agent capable of running parallel coding tasks autonomously, will be integrated into the ChatGPT mobile app. This allows developers to monitor and manage autonomous coding workflows remotely from their phones, extending the agentic development experience beyond the desktop environment.",
+      "keyConcepts": ["agentic AI coding", "mobile developer tools", "OpenAI Codex", "asynchronous task execution"],
+      "whyItMatters": "Moving Codex to mobile marks a shift in how AI coding agents fit into developer workflows — from a dedicated desktop tool to an ambient assistant that can run tasks in the background while developers are away from their computers.",
+      "tags": ["openai", "codex", "mobile", "ai-coding", "agentic-ai", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI Codex designed to do?",
+          "options": ["Generate images from code", "Run autonomous parallel coding tasks", "Translate code between languages only", "Provide code documentation"],
+          "correctIndex": 1,
+          "explanation": "OpenAI Codex is an agentic AI coding tool that can run multiple parallel coding tasks autonomously, allowing developers to delegate software development work to the AI."
+        },
+        {
+          "question": "What new capability does bringing Codex to mobile unlock for developers?",
+          "options": ["Faster inference on device", "Offline coding without internet", "Monitoring and managing coding workflows remotely", "Writing code via voice input only"],
+          "correctIndex": 2,
+          "explanation": "By integrating Codex into the ChatGPT mobile app, developers can monitor and manage their autonomous coding workflows from anywhere, rather than being tethered to a desktop."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-beats-openai-business-may14",
+      "type": "article",
+      "title": "Anthropic Surpasses OpenAI in Business AI Adoption for the First Time",
+      "sourceUrl": "https://theaiinsider.tech/2026/05/14/anthropic-overtakes-openai-among-business-customers-as-it-courts-small-firms-and-eyes-950b-valuation/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "According to the May 2026 Ramp AI Index, Anthropic's Claude has overtaken OpenAI's ChatGPT in business adoption for the first time, reaching 34.4% of US businesses versus OpenAI's 32.3%. The primary driver is Claude Code, which has become Anthropic's fastest-growing product ever and now accounts for an estimated 4% of all public GitHub commits worldwide — double the share from just one month prior.",
+      "keyConcepts": ["enterprise AI adoption", "Claude Code", "Ramp AI Index", "competitive AI market"],
+      "whyItMatters": "This represents the first time since the modern AI era began that a competitor has dethroned OpenAI in business usage, with AI-native developer tooling — not consumer chatbots — as the deciding factor.",
+      "tags": ["anthropic", "openai", "claude-code", "enterprise-adoption", "market-share", "ai-competition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the May 2026 Ramp AI Index, what is Anthropic's business adoption rate?",
+          "options": ["21.3%", "28.1%", "34.4%", "41.7%"],
+          "correctIndex": 2,
+          "explanation": "The May 2026 Ramp AI Index shows Anthropic's adoption reached 34.4% of US businesses, surpassing OpenAI's 32.3% for the first time."
+        },
+        {
+          "question": "What Anthropic product is credited as the primary driver of its surge in business adoption?",
+          "options": ["Claude.ai consumer app", "Claude API", "Claude Code", "Anthropic Console"],
+          "correctIndex": 2,
+          "explanation": "Claude Code, Anthropic's agentic AI coding tool, is identified as the fastest-growing product in Anthropic's history and the primary driver of its business adoption surge."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-gates-foundation-may14",
+      "type": "article",
+      "title": "Anthropic and Gates Foundation Launch $200M AI Partnership for Global Health and Education",
+      "sourceUrl": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic and the Bill & Melinda Gates Foundation announced a four-year, $200 million partnership to deploy Claude in global health, education, and economic mobility programs. The initiative targets underserved communities in low- and middle-income countries, including AI-assisted vaccine and therapy development, literacy programs in sub-Saharan Africa and India, and agricultural productivity support for smallholder farmers.",
+      "keyConcepts": ["AI for global health", "frontier AI deployment", "low-resource languages", "smallholder agriculture AI"],
+      "whyItMatters": "This is one of the largest commitments to deploying frontier AI in humanitarian contexts, testing at scale whether LLMs can meaningfully address global health disparities and educational inequality in under-resourced settings.",
+      "tags": ["anthropic", "gates-foundation", "global-health", "ai-for-good", "education", "developing-countries"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total value of the Anthropic and Gates Foundation partnership announced in May 2026?",
+          "options": ["$50 million", "$100 million", "$200 million", "$500 million"],
+          "correctIndex": 2,
+          "explanation": "Anthropic and the Gates Foundation announced a $200 million, four-year partnership covering grant funding, Claude usage credits, and technical support across global health, education, and economic mobility."
+        },
+        {
+          "question": "Which specific global health diseases are highlighted as initial focus areas for the Anthropic-Gates Foundation partnership?",
+          "options": ["Malaria, tuberculosis, and HIV", "Polio, HPV, and eclampsia/preeclampsia", "Dengue, cholera, and typhoid", "Measles, smallpox, and hepatitis"],
+          "correctIndex": 1,
+          "explanation": "The partnership specifically names polio, HPV, and eclampsia/preeclampsia as the initial disease focus areas for accelerating vaccine and therapy development."
+        }
+      ]
+    }
+  ]
+}
