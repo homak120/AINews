@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-15T12:00:00.000Z",
+  "generatedAt": "2026-05-15T18:00:00.000Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-14",
-  "coverageEnd": "2026-05-14",
+  "coverageEnd": "2026-05-15",
   "items": [
     {
       "id": "article-cisco-ai-layoffs-may14",
@@ -113,6 +113,90 @@
           "options": ["Malaria, tuberculosis, and HIV", "Polio, HPV, and eclampsia/preeclampsia", "Dengue, cholera, and typhoid", "Measles, smallpox, and hepatitis"],
           "correctIndex": 1,
           "explanation": "The partnership specifically names polio, HPV, and eclampsia/preeclampsia as the initial disease focus areas for accelerating vaccine and therapy development."
+        }
+      ]
+    },
+    {
+      "id": "article-amazon-alexa-shopping-may14",
+      "type": "article",
+      "title": "Amazon Launches Alexa for Shopping, Replacing Rufus with a Cross-Web AI Buying Agent",
+      "sourceUrl": "https://dataconomy.com/2026/05/14/alexa-shopping-us/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Amazon launched Alexa for Shopping, an AI assistant built on Alexa+ that replaces the Rufus shopping chatbot across the Amazon app, website, and Echo Show devices. Beyond product search and comparison, the agent can track prices, recall full purchase history, schedule recurring orders, and purchase items on the user's behalf at retailers outside Amazon via its 'Buy for Me' feature — requiring no Prime membership or Echo hardware.",
+      "keyConcepts": ["agentic AI shopping", "cross-web purchasing agents", "Alexa+", "consumer AI agents"],
+      "whyItMatters": "Alexa for Shopping's 'Buy for Me' feature moves AI from product discovery into autonomous financial action, setting a precedent for AI agents that transact across the open web on users' behalf — a model that could reshape e-commerce broadly if it gains user trust.",
+      "tags": ["amazon", "alexa", "rufus", "shopping-agent", "agentic-ai", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What Amazon shopping tool did Alexa for Shopping replace?",
+          "options": ["Alexa Classic", "Amazon Lens", "Rufus", "Amazon Scout"],
+          "correctIndex": 2,
+          "explanation": "Amazon's Rufus shopping chatbot was replaced by Alexa for Shopping, which is powered by Alexa+ and adds expanded agentic capabilities including cross-web purchasing."
+        },
+        {
+          "question": "What does Alexa for Shopping's 'Buy for Me' feature do?",
+          "options": ["Schedules grocery deliveries on a subscription", "Purchases items at retailers outside Amazon on the user's behalf", "Compares prices across Amazon listings", "Recommends gift ideas based on purchase history"],
+          "correctIndex": 1,
+          "explanation": "'Buy for Me' allows Alexa for Shopping to autonomously complete purchases at non-Amazon retailers on the user's behalf, extending its agentic capabilities beyond Amazon's own marketplace."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-app-store-ai-agents-may14",
+      "type": "article",
+      "title": "Apple Explores Opening the App Store to AI Agent and Vibe Coding Apps",
+      "sourceUrl": "https://dataconomy.com/2026/05/14/apple-may-loosen-app-store-rules-for-ai-agents/",
+      "verified": false,
+      "publishedAt": "2026-05-14",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple is developing a framework to allow AI agent and vibe coding apps on the App Store, categories currently banned because they execute code that can alter app functionality — a core App Store policy violation. Engineers are designing a sandboxed distribution system that would preserve privacy and security standards while enabling the growing class of AI-driven development tools. Details are expected at WWDC26 on June 8, 2026.",
+      "keyConcepts": ["agentic app distribution", "App Store policy", "vibe coding", "AI agent sandboxing"],
+      "whyItMatters": "The App Store is the primary gateway to hundreds of millions of iOS users. Apple enabling agentic AI tools while maintaining security guardrails would significantly accelerate mainstream adoption of AI coding agents and could define the industry-standard model for distributing autonomous software safely.",
+      "tags": ["apple", "app-store", "vibe-coding", "agentic-ai", "wwdc", "ios-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why are vibe coding and AI agent apps currently blocked from the App Store?",
+          "options": ["They require too much device storage", "They violate rules against executing code that alters app functionality", "They compete directly with Apple's own productivity apps", "They require cellular hardware features unavailable on older iPhones"],
+          "correctIndex": 1,
+          "explanation": "Apple's App Store rules prohibit apps from executing code that alters their own or other apps' functionality — a behavior central to how vibe coding tools and AI coding agents work."
+        },
+        {
+          "question": "When is Apple expected to publicly clarify its policy on AI agent apps?",
+          "options": ["iOS 26 launch in September 2026", "Apple's Q2 2026 earnings call", "WWDC26 on June 8, 2026", "The AI App Store initiative in August 2026"],
+          "correctIndex": 2,
+          "explanation": "Apple's WWDC26 developer conference, beginning June 8, 2026, is the expected venue for Apple to announce new rules and distribution mechanisms for agentic AI and AI coding apps."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-grok-retirement-may15",
+      "type": "article",
+      "title": "xAI Retires Eight Legacy Grok Models, Consolidating Its API Around Grok 4.3",
+      "sourceUrl": "https://wisdom-gate.juheapi.com/blogs/xai-grok-model-retirement",
+      "verified": false,
+      "publishedAt": "2026-05-15",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "xAI retired eight older Grok API models today — including grok-3, grok-4-0709, and several fast-reasoning variants — consolidating its developer API around Grok 4.3. Requests to retired model slugs automatically redirect to Grok 4.3, which xAI describes as its fastest and most capable model yet, avoiding immediate breakage for existing integrations. Developers are advised to explicitly update model selections to optimize cost and performance for each workload.",
+      "keyConcepts": ["model lifecycle management", "API deprecation", "Grok 4.3", "developer migration"],
+      "whyItMatters": "xAI's rapid retirement of eight models within a single generation cycle reflects a broader industry trend: AI providers are shortening model lifespans and consolidating around fewer, more capable releases. Developers building on AI APIs must now plan for more frequent migration cycles as a routine part of production architecture.",
+      "tags": ["xai", "grok", "api-deprecation", "model-lifecycle", "developer-tools", "grok-4-3"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What happens to API calls made to retired Grok model slugs after May 15, 2026?",
+          "options": ["They return a 404 error response", "They are queued for 30 days before termination", "They automatically redirect to Grok 4.3", "They fall back to the next-oldest available model"],
+          "correctIndex": 2,
+          "explanation": "xAI configured retired model slugs to automatically redirect to Grok 4.3, allowing existing integrations to continue functioning without immediate code changes — though developers should update explicitly for cost and performance optimization."
+        },
+        {
+          "question": "How many Grok API models did xAI retire on May 15, 2026?",
+          "options": ["3", "5", "8", "12"],
+          "correctIndex": 2,
+          "explanation": "xAI retired eight legacy Grok models including grok-3, grok-4-0709, grok-4-1-fast-reasoning, and five other fast and non-reasoning variants, consolidating around Grok 4.3."
         }
       ]
     }
