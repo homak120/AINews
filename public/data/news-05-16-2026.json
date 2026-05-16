@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-05-16T10:00:00.000Z",
+  "weekOf": "2026-05-11",
+  "coverageStart": "2026-05-15",
+  "coverageEnd": "2026-05-15",
+  "items": [
+    {
+      "id": "youtube-a8EfFGeY9S8",
+      "type": "video",
+      "title": "80% of Ransomware Attacks Now Use AI, New Research Reveals",
+      "youtubeId": "a8EfFGeY9S8",
+      "sourceUrl": "https://www.youtube.com/watch?v=a8EfFGeY9S8",
+      "verified": false,
+      "publishedAt": "2026-05-15",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Wes Roth covers alarming new research from MIT Sloan and Safe Security showing that 80% of recent ransomware attacks now incorporate AI tools — including deepfakes, AI-generated phishing, automated malware creation, and AI-driven password cracking — based on an analysis of 2,800 ransomware incidents. The video also covers Google's threat intelligence report identifying what appears to be the first known instance of AI being used to autonomously develop a zero-day exploit targeting a two-factor authentication bypass.",
+      "keyConcepts": [
+        "AI-assisted cyberattacks",
+        "ransomware automation",
+        "zero-day exploit generation",
+        "AI-driven phishing"
+      ],
+      "whyItMatters": "AI is dramatically lowering the barrier to sophisticated cyberattacks — with 80% of ransomware now AI-assisted, defenders face a fundamentally new threat landscape that demands AI-powered security responses.",
+      "tags": ["cybersecurity", "ransomware", "ai-hacking", "zero-day", "threat-intelligence", "wes-roth"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to MIT Sloan and Safe Security research, what percentage of recent ransomware attacks now incorporate AI tools?",
+          "options": ["40%", "60%", "80%", "95%"],
+          "correctIndex": 2,
+          "explanation": "The study analyzed 2,800 ransomware incidents and found that 80% now use AI, including deepfakes, phishing, malware generation, and AI-driven password cracking."
+        },
+        {
+          "question": "What milestone did Google's threat intelligence report identify regarding AI and cyberattacks?",
+          "options": [
+            "AI was used to automatically patch a zero-day vulnerability",
+            "AI was used to autonomously develop the first known zero-day exploit",
+            "Google AI stopped the first AI-generated ransomware attack in real time",
+            "AI identified human hackers using behavioral biometrics"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's threat intelligence group found what appears to be the first known instance of AI being used to autonomously identify and develop a working zero-day exploit targeting two-factor authentication bypass."
+        }
+      ]
+    },
+    {
+      "id": "article-runway-world-models-may15",
+      "type": "article",
+      "title": "Runway Started by Helping Filmmakers — Now It Wants to Beat Google at AI",
+      "sourceUrl": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+      "verified": false,
+      "publishedAt": "2026-05-15",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Runway, the AI video generation startup valued at $5.3 billion, has expanded its ambitions well beyond helping filmmakers — the company now positions itself as a world model research lab competing directly with Google and other major AI labs. After raising $315M in February, Runway reported adding $40M in annual recurring revenue in Q2 2026 and launched its first world model in December 2025. World models are AI systems that build internal representations of environments to enable planning and prediction across fields like medicine, climate, and robotics.",
+      "keyConcepts": [
+        "world models",
+        "AI video generation",
+        "generative AI startup strategy",
+        "AI for science and robotics"
+      ],
+      "whyItMatters": "Runway's pivot from creative AI tool to world model research lab signals that the next generation of well-capitalized AI startups are positioning themselves as foundational infrastructure companies rather than application builders.",
+      "tags": ["runway", "world-models", "ai-video", "startup", "generative-ai", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What are 'world models' in the context of AI?",
+          "options": [
+            "AI systems that generate photorealistic 3D environments for gaming",
+            "AI systems that build internal representations of environments to plan for future events",
+            "Language models trained exclusively on global Wikipedia data",
+            "Neural networks that simulate Newtonian physics in real time"
+          ],
+          "correctIndex": 1,
+          "explanation": "World models are AI systems that construct internal representations of an environment so they can plan for future events — enabling applications far beyond video generation, including robotics, medicine, climate, and energy."
+        },
+        {
+          "question": "What did Runway report adding in Q2 2026?",
+          "options": [
+            "$10M in annual recurring revenue",
+            "$40M in annual recurring revenue",
+            "$100M in annual recurring revenue",
+            "$1B in annual recurring revenue"
+          ],
+          "correctIndex": 1,
+          "explanation": "According to one of Runway's founders, the company added $40 million in annual recurring revenue in Q2 2026, reflecting rapid growth since its $315M fundraise at a $5.3B valuation in February."
+        }
+      ]
+    },
+    {
+      "id": "article-osaurus-mac-llm-may15",
+      "type": "article",
+      "title": "Osaurus Brings Both Local and Cloud AI Models to Your Mac",
+      "sourceUrl": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+      "verified": false,
+      "publishedAt": "2026-05-15",
+      "topics": ["ai-engineering"],
+      "summary": "Osaurus is a new open-source LLM server built exclusively for Apple hardware that lets Mac users seamlessly switch between local AI models and cloud-based alternatives while keeping their files and tools on their own machine. The tool provides a unified interface for accessing different AI models without sending sensitive data to third-party servers, running on-device to offer privacy-first AI access for developers and professionals.",
+      "keyConcepts": [
+        "local LLM inference",
+        "data privacy in AI",
+        "Apple Silicon optimization",
+        "unified AI developer tooling"
+      ],
+      "whyItMatters": "Osaurus addresses a real tension in AI developer tooling — the need to access powerful models without surrendering data control — making it especially valuable for professionals handling sensitive information who still want state-of-the-art AI capabilities.",
+      "tags": ["local-llm", "open-source", "apple-silicon", "privacy", "developer-tools", "mac"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What platforms does Osaurus support?",
+          "options": [
+            "Windows and Linux only",
+            "Cross-platform (Windows, Mac, Linux)",
+            "Apple hardware only",
+            "Android and iOS mobile devices"
+          ],
+          "correctIndex": 2,
+          "explanation": "Osaurus is an Apple-only LLM server, specifically designed to leverage Apple Silicon hardware for on-device AI model inference."
+        },
+        {
+          "question": "What makes Osaurus different from fully cloud-based AI tools?",
+          "options": [
+            "It encrypts all data before sending it to cloud servers",
+            "It automatically deletes conversation history after each session",
+            "It keeps your files and tools on your own hardware while still offering cloud model access",
+            "It requires a paid subscription for cloud model access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Osaurus runs locally on Mac hardware and lets users switch between local and cloud models while keeping files and tools on their own machine — avoiding the data exposure risk of fully cloud-based AI tools."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-cfo-compute-may15",
+      "type": "article",
+      "title": "Anthropic's CFO Reveals the Compute Gamble That Could Sink Any AI Company",
+      "sourceUrl": "https://247wallst.com/investing/2026/05/15/anthropics-cfo-reveals-the-compute-gamble-that-could-sink-any-ai-company-heres-why-nvidia-amazon-and-google-are-all-in-play/",
+      "verified": false,
+      "publishedAt": "2026-05-15",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic CFO Krishna Rao detailed the company's high-stakes compute procurement strategy after Anthropic grew 80x in Q1 2026 versus its planned 2-3x. Rao explained that buying too much compute risks bankruptcy while buying too little means losing frontier position — and that he spends 30-40% of his time on these decisions. Anthropic diversifies compute across Nvidia GPUs, Amazon Trainium, and Google TPUs, and struck a deal to lease 220,000 H100 GPUs from Elon Musk's xAI Colossus data center to meet surging demand from Claude Code and enterprise customers.",
+      "keyConcepts": [
+        "AI compute strategy",
+        "frontier AI economics",
+        "infrastructure scaling under demand",
+        "hyperscaler compute diversification"
+      ],
+      "whyItMatters": "Anthropic's 80x growth in a single quarter illustrates how fast enterprise AI demand is accelerating, while the CFO's admission that compute decisions are existential reveals the do-or-die infrastructure race defining the frontier AI industry right now.",
+      "tags": ["anthropic", "compute", "ai-infrastructure", "frontier-ai", "ai-economics", "scaling"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Anthropic actually grow in Q1 2026 compared to its plan?",
+          "options": [
+            "Planned 2-3x, achieved 2-3x as expected",
+            "Planned 10x, achieved 20x",
+            "Planned 2-3x, but achieved 80x",
+            "Planned 80x, achieved exactly 80x"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic planned for 2-3x growth but actually grew 80x in Q1 2026 — a massive demand surge that overwhelmed its compute capacity and forced emergency infrastructure deals including leasing from xAI's Colossus data center."
+        },
+        {
+          "question": "What fraction of Anthropic CFO Krishna Rao's time is dedicated to compute decisions?",
+          "options": ["5-10%", "15-20%", "30-40%", "50-60%"],
+          "correctIndex": 2,
+          "explanation": "Rao stated he spends 30 to 40% of his time on compute decisions, reflecting how central infrastructure planning has become to frontier AI labs operating under extreme demand growth."
+        }
+      ]
+    }
+  ]
+}
