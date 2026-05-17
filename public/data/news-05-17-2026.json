@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-17T03:11:22.000Z",
+  "generatedAt": "2026-05-17T12:00:00.000Z",
   "weekOf": "2026-05-11",
   "coverageStart": "2026-05-16",
-  "coverageEnd": "2026-05-16",
+  "coverageEnd": "2026-05-17",
   "items": [
     {
       "id": "techcrunch-ai-gold-rush-haves-have-nots",
@@ -173,6 +173,92 @@
           ],
           "correctIndex": 1,
           "explanation": "Cerebras' blockbuster IPO reinvigorated investor interest specifically in SpaceX, OpenAI, and Anthropic — all of which are eyeing their own public listings in 2026 and benefited from the market's demonstrated appetite for high-valuation AI companies."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-openai-brockman-product-chief",
+      "type": "article",
+      "title": "OpenAI Co-Founder Greg Brockman Takes Permanent Charge of Product Strategy",
+      "sourceUrl": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI announced that co-founder and president Greg Brockman will permanently lead all product strategy, merging ChatGPT, Codex, and the developer API into a single organization aimed at building a unified agentic platform. The move formalizes an interim arrangement while CEO of AGI deployment Fidji Simo was on medical leave, and comes four days before Google I/O 2026 — framing it as a competitive signal. Codex architect Thibault Sottiaux now leads the combined core product team, while Nick Turley shifts to enterprise and critical industries.",
+      "keyConcepts": [
+        "OpenAI product consolidation",
+        "agentic AI platform strategy",
+        "ChatGPT and Codex unification",
+        "Greg Brockman leadership"
+      ],
+      "whyItMatters": "Merging ChatGPT and Codex into a single agentic experience signals OpenAI's bet that the future of AI products is autonomous task completion, not chat — and the timing ahead of Google I/O is a deliberate move to own the narrative before Google's biggest annual event.",
+      "tags": ["openai", "greg-brockman", "chatgpt", "codex", "agentic-ai", "product-strategy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Greg Brockman's role at OpenAI before being named permanent product chief?",
+          "options": [
+            "He had no previous product role — this was a new appointment",
+            "He was CEO of AGI deployment",
+            "He was serving as interim product leader while Fidji Simo was on medical leave",
+            "He was leading Codex as its chief architect"
+          ],
+          "correctIndex": 2,
+          "explanation": "Brockman had been overseeing OpenAI's products on an interim basis while Fidji Simo, the CEO of AGI deployment, was out on medical leave. The May 16 announcement formalized this arrangement, making Brockman the permanent product leader."
+        },
+        {
+          "question": "What is the stated goal of merging ChatGPT and Codex under Brockman's leadership?",
+          "options": [
+            "To reduce OpenAI's operational costs before its IPO",
+            "To build a single unified agentic experience for both consumer and enterprise users",
+            "To shut down the Codex product and focus entirely on ChatGPT",
+            "To separate the developer API from the consumer products"
+          ],
+          "correctIndex": 1,
+          "explanation": "In his staff memo, Brockman stated the goal is to 'invest in a single agentic platform and to merge ChatGPT and Codex into one unified agentic experience for all,' consolidating consumer, enterprise, and developer surfaces under one product strategy."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-ai-automotive-skills-arms-race",
+      "type": "article",
+      "title": "AI Is Reshaping Automotive Jobs — Creating a Skills Arms Race as Carmakers Cut Tens of Thousands",
+      "sourceUrl": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "verified": false,
+      "publishedAt": "2026-05-17",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Ford, GM, and Stellantis have cut a combined 20,000+ U.S. salaried jobs — roughly 19% of their combined workforces — amid ongoing technological shifts driven in part by AI. At the same time, a fierce talent war for AI-native automotive engineers has pushed base salaries to $300,000–$500,000, with a PwC analysis showing AI skills now command a 56% wage premium, up from 25% just a year ago. The most sought-after hybrid skills combine classical robotics and machine learning with the ability to integrate AI into physical hardware like humanoid robots and autonomous vehicles.",
+      "keyConcepts": [
+        "AI-driven automotive workforce displacement",
+        "AI skills wage premium",
+        "hybrid robotics and AI talent",
+        "autonomous vehicle talent market"
+      ],
+      "whyItMatters": "The automotive sector is a leading indicator for how AI reshapes entire industries: the same wave that eliminates legacy roles simultaneously creates extreme demand for a narrow set of hybrid AI-robotics skills — a dynamic that will increasingly define career strategy across manufacturing and engineering fields.",
+      "tags": ["automotive-ai", "ai-jobs", "skills-gap", "robotics", "workforce-displacement", "ai-career"],
+      "relatedIds": ["techcrunch-ai-gold-rush-haves-have-nots"],
+      "knowledgeChecks": [
+        {
+          "question": "According to PwC, how much of a wage premium do AI skills command in the automotive industry as of mid-2026?",
+          "options": [
+            "10%",
+            "25%",
+            "56%",
+            "90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "PwC analysis cited in the TechCrunch Mobility report found that AI skills now command a 56% wage premium — a significant jump from the 25% premium noted just a year earlier, reflecting rapidly increasing employer demand for workers who can integrate AI into physical systems."
+        },
+        {
+          "question": "What type of engineer is most in demand at autonomous vehicle companies, according to the TechCrunch Mobility report?",
+          "options": [
+            "Pure software engineers with expertise in large language models",
+            "Traditional mechanical engineers with CAD and manufacturing expertise",
+            "Hybrid engineers who combine classical robotics knowledge with AI integration skills",
+            "Data scientists specializing in consumer behavior analytics"
+          ],
+          "correctIndex": 2,
+          "explanation": "The report identifies 'hybrid' engineers — those who combine classical robotics know-how with AI development skills, specifically the ability to integrate AI into physical hardware like humanoid robots, industrial robots, and autonomous vehicles — as the most sought-after profile, commanding salaries between $300,000 and $500,000."
         }
       ]
     }
