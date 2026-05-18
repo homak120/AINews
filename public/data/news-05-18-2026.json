@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-05-18T12:00:00Z",
+  "weekOf": "2026-05-18",
+  "coverageStart": "2026-05-17",
+  "coverageEnd": "2026-05-17",
+  "items": [
+    {
+      "id": "techcrunch-ai-automotive-skills-0517",
+      "type": "article",
+      "title": "The AI Skills Arms Race Is Coming for Automotive",
+      "sourceUrl": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "verified": false,
+      "publishedAt": "2026-05-17",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "The automotive sector is facing a sharp AI-driven talent transformation, with companies racing to hire engineers skilled in perception software, autonomous systems, and agentic vehicle technology. Startups like Arkeus have secured Series A funding for AI perception software targeting autonomous drones and aircraft, while Indian ride-hailing giant Rapido raised $240M led by Prosus. The industry must simultaneously build AI-native vehicle systems and retrain existing engineering workforces.",
+      "keyConcepts": [
+        "AI perception software for autonomous vehicles",
+        "Automotive AI talent gap",
+        "Agentic vehicle system engineering",
+        "AI startup funding in mobility"
+      ],
+      "whyItMatters": "The automotive sector's pivot to AI-native development is creating a new class of engineering roles that traditional automotive training didn't prepare workers for, accelerating demand for AI-specialized talent and putting pressure on legacy engineering roles.",
+      "tags": ["automotive", "ai-engineering", "autonomous-vehicles", "workforce", "talent", "perception-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of AI software is Arkeus known for developing?",
+          "options": [
+            "Natural language processing for in-car assistants",
+            "Perception software for autonomous drones and aircraft",
+            "Generative image models for vehicle design",
+            "Predictive maintenance algorithms for EVs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Arkeus is an Australian startup that developed perception software for autonomous drones and aircraft, and recently raised $18 million in a Series A round as demand for autonomy AI grows in mobility."
+        },
+        {
+          "question": "Which of the following best describes the 'AI skills arms race' in automotive?",
+          "options": [
+            "Automotive companies competing to patent the most AI algorithms",
+            "Governments competing to regulate autonomous vehicles first",
+            "Companies racing to hire AI talent and upskill engineers for AI-native vehicle systems",
+            "OEMs racing to release the cheapest EV models powered by AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "The arms race refers to automotive companies competing to attract engineers with AI skills—particularly in perception, agentic systems, and safety—while retraining their existing workforce to build and maintain AI-driven vehicle platforms."
+        }
+      ]
+    },
+    {
+      "id": "techtimes-google-io-2026-gemini-preview",
+      "type": "article",
+      "title": "Google I/O 2026 Keynote Opens Tuesday as New Gemini Model Targets GPT-5.5",
+      "sourceUrl": "https://www.techtimes.com/articles/316755/20260517/google-i-o-2026-keynote-opens-tuesday-new-gemini-lands-behind-mythos-gpt-55.htm",
+      "verified": false,
+      "publishedAt": "2026-05-17",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google's I/O 2026 developer conference begins May 19, with a new Gemini model expected to headline the keynote. Reports indicate the release will be competitive with OpenAI's GPT-5.5 but fall short of Anthropic's Claude Mythos—suggesting a 3.x incremental update rather than the long-rumored Gemini 4.0. Additional expected announcements include Gemini Intelligence for Android, Android XR glasses, and a rumored 24/7 proactive agent called Gemini Spark.",
+      "keyConcepts": [
+        "Gemini model release cadence and benchmarking",
+        "Frontier model competitive landscape",
+        "Agentic AI on Android (Gemini Intelligence)",
+        "Google I/O developer conference 2026"
+      ],
+      "whyItMatters": "Google's Gemini update will recalibrate the competitive frontier model landscape ahead of mid-2026, with direct implications for developers choosing between Claude, GPT-5.5, and Gemini for production agentic and multimodal applications.",
+      "tags": ["google", "gemini", "google-io", "frontier-models", "android-ai", "model-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to pre-I/O reports, how does the expected new Gemini model compare to leading competitors?",
+          "options": [
+            "It surpasses both Claude Mythos and GPT-5.5 across all benchmarks",
+            "It is competitive with GPT-5.5 but falls short of Claude Mythos",
+            "It matches Claude Mythos exactly on reasoning tasks",
+            "It focuses exclusively on multimodal image generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pre-I/O reports indicate the expected Gemini release lands roughly at the level of OpenAI's GPT-5.5 but meaningfully below Anthropic's Claude Mythos, suggesting a 3.x incremental update rather than a full Gemini 4.0 generational leap."
+        },
+        {
+          "question": "What is 'Gemini Spark' as rumored ahead of Google I/O 2026?",
+          "options": [
+            "A new standalone AI hardware device from Google",
+            "A benchmark suite for testing Gemini model performance",
+            "A proactive 24/7 AI agent that works across connected apps without being prompted",
+            "A premium Gemini API subscription tier for enterprises"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini Spark is a rumored proactive agent system expected to be previewed at I/O, designed to operate autonomously and handle tasks across connected apps and services rather than waiting for user prompts—moving beyond the traditional assistant model."
+        }
+      ]
+    }
+  ]
+}
