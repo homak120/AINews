@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-05-19T18:00:00Z",
+  "weekOf": "2026-05-18",
+  "coverageStart": "2026-05-18",
+  "coverageEnd": "2026-05-19",
+  "items": [
+    {
+      "id": "gizmodo-google-io-2026-live-0519",
+      "type": "article",
+      "title": "Google I/O 2026: Gemini Intelligence, Googlebooks, and Android's AI Transformation",
+      "sourceUrl": "https://gizmodo.com/live-updates-from-google-io-2026-2000757469",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google's I/O 2026 keynote repositioned Android from an operating system into an 'intelligence system' powered by Gemini. Major announcements included Gemini Intelligence for Android 17 with proactive task automation, Auto Browse (Gemini driving web sessions autonomously), Googlebooks laptops running the merged Android/ChromeOS 'Aluminum OS' platform, and seamless iPhone-to-Android migration tools. Android XR glasses were also previewed, with a display-free pair for hands-free Gemini interaction launching later in 2026.",
+      "keyConcepts": [
+        "Gemini Intelligence for Android 17",
+        "Auto Browse — agentic Gemini-powered web automation",
+        "Googlebooks on Aluminum OS (merged Android/ChromeOS)",
+        "Android XR smart glasses"
+      ],
+      "whyItMatters": "Google's I/O 2026 marks a decisive shift from reactive AI assistants to proactive, action-taking agents embedded at the OS level—setting the competitive bar for how deeply AI can integrate into everyday computing and challenging Apple and Microsoft to respond.",
+      "tags": ["google-io", "gemini", "android-17", "agentic-ai", "googlebooks", "android-xr", "google"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of the merged Android/ChromeOS platform Google introduced at I/O 2026 for its new Googlebooks laptops?",
+          "options": [
+            "ChromeOS Ultimate",
+            "Aluminum OS",
+            "Android Desktop",
+            "Pixel OS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google announced 'Aluminum OS' — an operating system that merges Android and ChromeOS into one platform — as the foundation for Googlebooks, a new category of premium laptops from partners including Acer, ASUS, Dell, HP, and Lenovo."
+        },
+        {
+          "question": "What does 'Auto Browse' do in Android 17's Gemini Intelligence suite?",
+          "options": [
+            "Automatically updates installed Android apps in the background",
+            "Curates a personalized news feed based on browsing history",
+            "Allows Gemini to drive web sessions, filling forms, comparing prices, and handling reservations autonomously",
+            "Blocks ads and tracking scripts across all browsers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Auto Browse is an agentic feature that lets Gemini 'drive' web sessions on behalf of the user — autonomously filling out forms, comparing prices, and completing reservations — reflecting Google's push toward proactive AI agents rather than reactive assistants."
+        }
+      ]
+    },
+    {
+      "id": "winbuzzer-cursor-composer-2-5-0518",
+      "type": "article",
+      "title": "Cursor Releases Composer 2.5, Matching Frontier Model Benchmarks at a Fraction of the Cost",
+      "sourceUrl": "https://winbuzzer.com/2026/05/18/cursor-releases-composer-25-saying-its-better-at-s-xcxwbn/",
+      "verified": false,
+      "publishedAt": "2026-05-18",
+      "topics": ["ai-engineering"],
+      "summary": "Cursor released Composer 2.5 on May 18, a coding model that scores 79.8% on SWE-Bench Multilingual — just behind Anthropic's Opus 4.7 (80.5%) and ahead of OpenAI's GPT-5.5 (77.8%) — while priced at just $0.50/M input and $2.50/M output tokens, roughly 10x cheaper than comparable frontier models. Built on the open-source Kimi K2.5 checkpoint from Moonshot AI and trained with 25x more synthetic tasks using custom reinforcement learning, Composer 2.5 focuses on sustained long-running coding jobs and more reliable instruction following.",
+      "keyConcepts": [
+        "SWE-Bench Multilingual benchmark performance",
+        "Kimi K2.5 open-source base model fine-tuning",
+        "Cost-efficient frontier-class coding models",
+        "Reinforcement learning for agentic coding"
+      ],
+      "whyItMatters": "Composer 2.5 shows that heavy investment in reinforcement learning over an open-source checkpoint can match proprietary frontier models on real-world coding benchmarks at roughly 10x lower cost — reshaping the economics of AI coding tools and challenging labs that charge premium prices for coding agents.",
+      "tags": ["cursor", "coding-ai", "composer", "kimi-k2", "benchmarks", "llm", "reinforcement-learning", "open-source"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What open-source model serves as the base checkpoint for Cursor's Composer 2.5?",
+          "options": [
+            "Meta's Llama 4 Scout",
+            "Mistral Codestral 2.5",
+            "Moonshot AI's Kimi K2.5",
+            "DeepSeek-Coder V3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Composer 2.5 is built on Kimi K2.5, an open-weight model from Beijing-based Moonshot AI. Cursor confirmed this after earlier controversy over Composer 2's undisclosed use of Kimi K2.5, with the company emphasizing that 85% of compute went toward its own training and reinforcement learning on top of the base checkpoint."
+        },
+        {
+          "question": "What is Composer 2.5's score on the SWE-Bench Multilingual benchmark?",
+          "options": [
+            "63.2%",
+            "71.4%",
+            "79.8%",
+            "82.7%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Composer 2.5 scores 79.8% on SWE-Bench Multilingual, placing it just behind Anthropic's Opus 4.7 (80.5%) and ahead of OpenAI's GPT-5.5 (77.8%), while costing approximately 10x less per token than those competing models."
+        }
+      ]
+    },
+    {
+      "id": "invezz-europe-ai-energy-0518",
+      "type": "article",
+      "title": "Europe's AI Future at Risk as Soaring Energy Costs Push Data Centers Abroad",
+      "sourceUrl": "https://invezz.com/news/2026/05/18/europes-ai-future-at-risk-as-soaring-power-costs-push-data-centers-abroad/",
+      "verified": false,
+      "publishedAt": "2026-05-18",
+      "topics": ["ai-industry"],
+      "summary": "Europe's electricity prices for energy-intensive industries were approximately double those in the U.S. and 50% higher than in China in 2025, and data center capacity costs in Europe's five largest markets — Frankfurt, London, Amsterdam, Paris, and Dublin — are set to rise a further 12% in 2026. Major investors warn that new AI infrastructure will be built in the U.S. or China rather than Europe, while data centers now consume 2% of the world's electricity globally. France and the Nordics are emerging as relative European winners due to nuclear and renewable energy advantages.",
+      "keyConcepts": [
+        "European AI data center energy cost disadvantage",
+        "Investment migration to lower-cost regions",
+        "Nuclear and renewable energy as AI infrastructure enablers",
+        "Global electricity consumption by data centers"
+      ],
+      "whyItMatters": "The AI race is increasingly an energy race — and Europe's structural energy cost disadvantage threatens to exclude it from the next wave of large-scale AI infrastructure investment, potentially concentrating AI compute capacity in the U.S. and China and widening the geopolitical gap.",
+      "tags": ["europe", "data-centers", "energy", "ai-infrastructure", "geopolitics", "compute", "investment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much are data center capacity costs in Europe's five largest markets projected to rise in 2026?",
+          "options": [
+            "3%",
+            "6%",
+            "12%",
+            "25%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Research from real estate investment company CBRE found that the cost of securing data center capacity in Europe's five largest markets — Frankfurt, London, Amsterdam, Paris, and Dublin — is set to rise by 12% in 2026, driven largely by surging energy prices."
+        },
+        {
+          "question": "Which European regions are identified as relative winners in the AI data center race due to lower energy costs?",
+          "options": [
+            "Germany and Poland",
+            "Spain and Italy",
+            "France and the Nordics",
+            "The UK and the Netherlands"
+          ],
+          "correctIndex": 2,
+          "explanation": "France and the Nordic countries (Norway, Sweden, Denmark) are seen as relative winners because France benefits from its nuclear energy leadership, while the Nordics enjoy low electricity prices from diverse renewable energy mixes — both critical advantages for cost-effective AI data center operations."
+        }
+      ]
+    }
+  ]
+}
