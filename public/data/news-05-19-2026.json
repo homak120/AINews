@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T18:00:00Z",
+  "generatedAt": "2026-05-19T20:00:00Z",
   "weekOf": "2026-05-18",
   "coverageStart": "2026-05-18",
   "coverageEnd": "2026-05-19",
@@ -130,6 +130,92 @@
           ],
           "correctIndex": 2,
           "explanation": "France and the Nordic countries (Norway, Sweden, Denmark) are seen as relative winners because France benefits from its nuclear energy leadership, while the Nordics enjoy low electricity prices from diverse renewable energy mixes — both critical advantages for cost-effective AI data center operations."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-karpathy-anthropic-0519",
+      "type": "article",
+      "title": "OpenAI Co-Founder Andrej Karpathy Joins Anthropic's Pre-Training Team",
+      "sourceUrl": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Andrej Karpathy, one of AI's most respected researchers and a founding member of OpenAI, announced on May 19 that he has joined Anthropic's pre-training team under team lead Nick Joseph. Karpathy will help lead a new initiative to use Claude itself to accelerate pre-training research — applying AI to AI development. The move is widely seen as a major talent coup for Anthropic as it competes with OpenAI and Google at the frontier.",
+      "keyConcepts": [
+        "Pre-training research and large-scale training runs",
+        "Using AI models to accelerate AI research (AI for AI)",
+        "Elite talent competition between frontier labs",
+        "Anthropic's expanding research bench"
+      ],
+      "whyItMatters": "Karpathy's move from OpenAI to Anthropic signals a shift in where top-tier AI researchers see the most compelling frontier work being done — and his focus on using Claude to accelerate pre-training could meaningfully speed up Anthropic's model development cycles.",
+      "tags": ["anthropic", "karpathy", "pre-training", "ai-talent", "openai", "claude", "research"],
+      "relatedIds": ["techcrunch-claude-managed-agents-0519"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific team at Anthropic did Andrej Karpathy join?",
+          "options": [
+            "The Claude safety and alignment team",
+            "The Anthropic products and growth team",
+            "The pre-training team under Nick Joseph",
+            "The Claude Code and developer tools team"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy joined Anthropic's pre-training team, which is responsible for the large-scale training runs that give Claude its foundational knowledge and capabilities. He will also help launch a new team focused on using Claude to accelerate pre-training research itself."
+        },
+        {
+          "question": "What novel research approach is Karpathy expected to focus on at Anthropic?",
+          "options": [
+            "Developing new RLHF reward modeling techniques",
+            "Using Claude to accelerate pre-training research",
+            "Building multimodal video understanding pipelines",
+            "Designing new benchmark evaluation suites"
+          ],
+          "correctIndex": 1,
+          "explanation": "A key part of Karpathy's role will be launching a new team at Anthropic focused on using Claude itself to speed up pre-training research — a meta-level application of AI where the model helps improve the very process that trains it."
+        }
+      ]
+    },
+    {
+      "id": "decoder-claude-managed-agents-0519",
+      "type": "article",
+      "title": "Anthropic Adds Self-Hosted Sandboxes and MCP Tunnels to Claude Managed Agents",
+      "sourceUrl": "https://the-decoder.com/anthropic-adds-self-hosted-sandboxes-and-mcp-tunnels-to-claude-managed-agents/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic released two new enterprise security features for Claude Managed Agents: self-hosted sandboxes (public beta) and MCP tunnels. Self-hosted sandboxes let enterprises run Claude agent workloads entirely within their own infrastructure — files and repositories never leave the company's environment, and organizations choose their own CPU, memory, and runtime image. MCP tunnels allow Claude agents to reach MCP servers inside private networks via an end-to-end encrypted outbound connection, without exposing services to the public internet.",
+      "keyConcepts": [
+        "Self-hosted sandboxes for air-gapped Claude agent execution",
+        "MCP tunnels for private-network MCP server access",
+        "End-to-end encrypted agent-to-service connectivity",
+        "Enterprise data residency and security compliance"
+      ],
+      "whyItMatters": "These features address the core enterprise blocker for deploying AI agents at scale: data leaving the company perimeter. By keeping agent execution and tool calls inside the enterprise boundary, Anthropic makes Managed Agents viable for regulated industries like finance, healthcare, and government.",
+      "tags": ["anthropic", "claude", "managed-agents", "mcp", "enterprise-security", "sandboxes", "ai-engineering"],
+      "relatedIds": ["techcrunch-karpathy-anthropic-0519"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the new 'MCP tunnels' feature in Claude Managed Agents allow?",
+          "options": [
+            "Agents to browse the public web without a proxy",
+            "Agents to reach MCP servers inside private networks without exposing them to the internet",
+            "Agents to share tool call results with other Claude instances",
+            "Enterprises to define custom MCP tool schemas via a GUI"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP tunnels open a single outbound, end-to-end encrypted connection from Claude agents to MCP servers inside a private network. No inbound firewall rules or public endpoints are required, meaning enterprise services stay behind the firewall while remaining accessible to Claude agents."
+        },
+        {
+          "question": "In self-hosted sandbox mode for Claude Managed Agents, what happens to files and repositories the agent works with?",
+          "options": [
+            "They are encrypted and uploaded to Anthropic's secure cloud",
+            "They are mirrored to a read-only Anthropic audit store",
+            "They never leave the company's own infrastructure",
+            "They are hashed and verified against a tamper-proof log"
+          ],
+          "correctIndex": 2,
+          "explanation": "With self-hosted sandboxes, the agent executes entirely within the enterprise's own infrastructure. Files and repositories never leave the company's environment, and the organization retains full control over network policies, audit logging, and runtime configuration."
         }
       ]
     }
