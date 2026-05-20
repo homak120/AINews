@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-05-20T03:12:11.000Z",
+  "weekOf": "2026-05-18",
+  "coverageStart": "2026-05-19",
+  "coverageEnd": "2026-05-19",
+  "items": [
+    {
+      "id": "youtube-idl0LudHDDY",
+      "type": "video",
+      "title": "Google I/O 2026, SpaceX IPO, Karpathy Joins Anthropic — Weekly AI & Tech Roundup",
+      "youtubeId": "idl0LudHDDY",
+      "sourceUrl": "https://www.youtube.com/watch?v=idl0LudHDDY",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Matthew Berman covers the biggest tech stories of the week including Google I/O 2026 announcements featuring Gemini Spark and Gemini Omni, Andrej Karpathy's surprise move to join Anthropic, and other major AI industry developments. The video provides context on what these talent moves and product launches mean for the competitive AI landscape.",
+      "keyConcepts": [
+        "Google I/O 2026",
+        "Gemini Spark personal agent",
+        "Karpathy joins Anthropic",
+        "AI talent competition"
+      ],
+      "whyItMatters": "Google I/O and Karpathy joining Anthropic represent two of the biggest AI stories this week, signaling intensifying competition among top AI labs across both talent and product dimensions.",
+      "tags": ["google-io", "gemini", "anthropic", "karpathy", "ai-news", "weekly-roundup"],
+      "relatedIds": [
+        "article-techcrunch-karpathy-anthropic-2026-05-19",
+        "article-9to5google-io-2026-05-19"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What new personal AI agent did Google announce at I/O 2026?",
+          "options": [
+            "Gemini Omni",
+            "Gemini Spark",
+            "Gemini Ultra",
+            "Gemini Flow"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google announced Gemini Spark as its new personal AI agent that can take autonomous actions across Google services like Gmail, Docs, and Sheets on the user's behalf."
+        },
+        {
+          "question": "Which team at Anthropic did Andrej Karpathy join?",
+          "options": [
+            "Safety and alignment team",
+            "Consumer product team",
+            "Pre-training team",
+            "Policy and government affairs team"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy joined Anthropic's pre-training team, where he will help launch a new group dedicated to using Claude itself to accelerate the research behind future model training runs."
+        }
+      ]
+    },
+    {
+      "id": "youtube-IrA0mzZTwLo",
+      "type": "video",
+      "title": "Gemini Omni Is Totally Wild — Google's New AI Video Model Explained",
+      "youtubeId": "IrA0mzZTwLo",
+      "sourceUrl": "https://www.youtube.com/watch?v=IrA0mzZTwLo",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A deep dive into Google's newly unveiled Gemini Omni model, which accepts any combination of text, image, audio, and video inputs to generate coherent video output with conversational editing support. The video breaks down the technical capabilities — including 4K-quality generation in portrait, square, and widescreen formats — and the real-world implications of having this model available free on YouTube Shorts.",
+      "keyConcepts": [
+        "Gemini Omni",
+        "multimodal-to-video generation",
+        "conversational video editing",
+        "Google I/O 2026"
+      ],
+      "whyItMatters": "Gemini Omni is Google's most ambitious generative AI model to date, combining video creation with text reasoning — and shipping free to YouTube Shorts users, making state-of-the-art video generation broadly accessible overnight.",
+      "tags": ["gemini-omni", "google-io", "video-generation", "multimodal-ai", "veo", "generative-ai"],
+      "relatedIds": [
+        "article-9to5google-io-2026-05-19",
+        "article-9to5google-youtube-gemini-omni-2026-05-19"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Gemini Omni different from prior Google video generation tools like Veo?",
+          "options": [
+            "It only generates text-to-video from written prompts",
+            "It combines text, images, audio, and video as simultaneous inputs",
+            "It requires a paid Google One subscription",
+            "It only works within Google Workspace apps"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini Omni is a truly multimodal model — unlike earlier text-to-video tools, it can accept any combination of text, images, audio, and video inputs at once and generate a coherent video output."
+        },
+        {
+          "question": "Where is Gemini Omni's free tier being initially rolled out?",
+          "options": [
+            "Google Pixel phones exclusively",
+            "YouTube Shorts and the YouTube Create app",
+            "Google Workspace for Enterprise",
+            "Android 17 on all devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google is making free Gemini Omni access available through YouTube Shorts and the YouTube Create app this week, targeting the creator community on its own platform first."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-karpathy-anthropic-2026-05-19",
+      "type": "article",
+      "title": "OpenAI Co-Founder Andrej Karpathy Joins Anthropic's Pre-Training Team",
+      "sourceUrl": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Andrej Karpathy, co-founder of OpenAI and former Tesla Director of AI, announced he is joining Anthropic's pre-training team. He will immediately begin building a new sub-team whose mandate is to use Claude itself to speed up the research that produces future Claude models. Karpathy posted on X: 'I think the next few years at the frontier of LLMs will be especially formative.'",
+      "keyConcepts": [
+        "Andrej Karpathy",
+        "Anthropic pre-training",
+        "AI-assisted AI research",
+        "AI talent competition"
+      ],
+      "whyItMatters": "Karpathy is one of the most respected researchers in AI. Having him lead a team that uses Claude to build the next Claude represents a high-stakes bet that AI-assisted research — not just raw compute — is how frontier labs stay competitive.",
+      "tags": ["karpathy", "anthropic", "claude", "pre-training", "ai-talent", "openai"],
+      "relatedIds": [
+        "youtube-idl0LudHDDY",
+        "article-9to5mac-claude-agents-2026-05-19"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is Karpathy's primary mandate at Anthropic?",
+          "options": [
+            "Lead the safety and alignment research team",
+            "Build a team using Claude to accelerate pre-training research",
+            "Oversee consumer product development for Claude",
+            "Manage AI policy and government relations"
+          ],
+          "correctIndex": 1,
+          "explanation": "Karpathy's specific mandate is to build a new team focused on using Claude itself to speed up the research behind pre-training future Claude models — a form of recursive AI-assisted model development."
+        },
+        {
+          "question": "Before joining Anthropic, which two organizations was Karpathy most closely associated with?",
+          "options": [
+            "Google DeepMind and Meta AI",
+            "Microsoft Research and IBM Research",
+            "OpenAI (co-founder) and Tesla (Director of AI)",
+            "DeepMind and Stanford AI Lab"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy co-founded OpenAI and later served as Tesla's Director of AI before joining Anthropic in May 2026, making him one of the few researchers with founding-level experience at two landmark AI organizations."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5google-io-2026-05-19",
+      "type": "article",
+      "title": "Everything Google Announced at I/O 2026: Gemini Spark, Omni, Android XR Glasses, and More",
+      "sourceUrl": "https://9to5google.com/2026/05/19/google-io-2026-news/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google's I/O 2026 keynote delivered a wave of AI announcements centered on the Gemini 3.5 Flash model and the new Gemini Omni multimodal video generation system. Google also unveiled Gemini Spark — a personal AI agent integrated across Gmail, Docs, and Sheets — alongside the first public look at Samsung's Android XR smart glasses and major upgrades to Google Search, YouTube, and Android 17.",
+      "keyConcepts": [
+        "Gemini 3.5 Flash",
+        "Gemini Spark personal agent",
+        "Gemini Omni",
+        "Android XR smart glasses"
+      ],
+      "whyItMatters": "Google I/O 2026 marks Google's clearest public commitment to an agent-first product strategy, with Gemini evolving from a conversational assistant into an autonomous agent woven throughout its entire ecosystem.",
+      "tags": ["google-io", "gemini", "android-xr", "smart-glasses", "ai-agents", "google"],
+      "relatedIds": [
+        "youtube-IrA0mzZTwLo",
+        "article-9to5google-youtube-gemini-omni-2026-05-19",
+        "youtube-idl0LudHDDY"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How does Gemini Spark differ from the standard Gemini assistant?",
+          "options": [
+            "It is a coding-only assistant for developers",
+            "It is a personal AI agent that takes autonomous actions across Google services",
+            "It is a text-to-image model for Google Photos",
+            "It only works offline on Pixel devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini Spark is designed as an autonomous agent — not just a Q&A assistant — that can independently navigate and take actions across Gmail, Docs, Sheets, and other Google services on the user's behalf."
+        },
+        {
+          "question": "Which hardware partnership did Google spotlight at I/O 2026?",
+          "options": [
+            "Pixel smartwatch with AI health monitoring",
+            "Google Nest AR home display",
+            "Android XR smart glasses with Samsung",
+            "Pixel Fold with a dedicated on-device AI chip"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google gave the first public preview of Android XR smart glasses developed in partnership with Samsung, with the device slated to launch in fall 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5mac-claude-agents-2026-05-19",
+      "type": "article",
+      "title": "Anthropic Adds MCP Tunnels and Self-Hosted Sandboxes to Claude Managed Agents",
+      "sourceUrl": "https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic announced two new enterprise security features for Claude Managed Agents: MCP tunnels, which let agents reach private MCP servers inside corporate networks without exposing them to the public internet, and self-hosted sandboxes that give organizations control over where code execution takes place. Both features target regulated industries and security-conscious enterprise deployments.",
+      "keyConcepts": [
+        "Claude Managed Agents",
+        "MCP tunnels",
+        "self-hosted sandboxes",
+        "enterprise AI security"
+      ],
+      "whyItMatters": "These additions remove a key blocker for production agentic AI in regulated industries — making Claude Managed Agents viable for organizations with strict data residency, compliance, or network isolation requirements.",
+      "tags": ["anthropic", "claude", "mcp", "enterprise-ai", "ai-agents", "security"],
+      "relatedIds": [
+        "article-techcrunch-karpathy-anthropic-2026-05-19"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What security problem do MCP tunnels solve for enterprise Claude deployments?",
+          "options": [
+            "They reduce API response latency for high-volume callers",
+            "They let agents connect to private network MCP servers without internet exposure",
+            "They enable on-device Claude inference without cloud access",
+            "They provide automatic rate limiting for agent tasks"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP tunnels allow Claude Managed Agents to reach Model Context Protocol servers inside private corporate networks — eliminating the need to expose those internal services to the public internet."
+        },
+        {
+          "question": "What is the purpose of self-hosted sandboxes in the new Anthropic feature set?",
+          "options": [
+            "To allow Claude to run entirely locally without a GPU",
+            "To give organizations control over where agent code execution occurs",
+            "To enable Claude to bypass content safety filters for enterprise use",
+            "To speed up Claude's fine-tuning on proprietary data"
+          ],
+          "correctIndex": 1,
+          "explanation": "Self-hosted sandboxes let enterprise customers choose where code execution happens during Claude agent tasks — a critical requirement for organizations with data residency rules or compliance constraints."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5google-youtube-gemini-omni-2026-05-19",
+      "type": "article",
+      "title": "YouTube Launches 'Ask YouTube' AI Search and Gemini Omni Remix for Shorts Creators",
+      "sourceUrl": "https://9to5google.com/2026/05/19/youtube-search-adds-ask-youtube-gemini-omni-for-shorts-remix/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At Google I/O 2026, YouTube announced 'Ask YouTube' — a conversational Gemini-powered search mode that replaces keyword queries with natural language — and Gemini Omni-powered remix for Shorts, letting creators recreate the style and scenario of any existing Short. These updates represent YouTube's most significant AI integration since automated captions, embedding generative video creation directly into the platform.",
+      "keyConcepts": [
+        "Ask YouTube conversational search",
+        "Gemini Omni Shorts remix",
+        "AI-powered content creation",
+        "YouTube platform AI integration"
+      ],
+      "whyItMatters": "By embedding Gemini Omni directly into YouTube Shorts, Google is transforming its video platform into a generative AI creation studio — potentially reshaping the economics and workflow of short-form video content creation at massive scale.",
+      "tags": ["youtube", "gemini-omni", "shorts", "ask-youtube", "ai-content-creation", "google-io"],
+      "relatedIds": [
+        "youtube-IrA0mzZTwLo",
+        "article-9to5google-io-2026-05-19"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'Ask YouTube' enable users to do differently from standard YouTube search?",
+          "options": [
+            "Automatically generate entire YouTube channels from a topic",
+            "Search using conversational natural language instead of keyword queries",
+            "Replace human creators with AI-generated video content",
+            "Download any YouTube video in 4K resolution"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Ask YouTube' replaces the keyword search bar with a conversational Gemini-powered interface — letting users describe what they want to watch in natural language rather than guessing the right keywords."
+        },
+        {
+          "question": "What does the Gemini Omni Shorts remix feature allow creators to do?",
+          "options": [
+            "Automatically edit long-form videos into 60-second Shorts",
+            "Generate live captions in over 50 languages",
+            "Recreate the visual style and scenario of any existing Short",
+            "Automatically match Shorts with monetization-ready ads"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Gemini Omni remix feature lets Shorts creators take any existing Short and use Omni to recreate its visual style and scenario with new content — enabling AI-assisted creative remixing directly within YouTube."
+        }
+      ]
+    }
+  ]
+}
