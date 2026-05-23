@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-23T12:00:00.000Z",
+  "generatedAt": "2026-05-23T18:00:00.000Z",
   "weekOf": "2026-05-18",
   "coverageStart": "2026-05-22",
-  "coverageEnd": "2026-05-22",
+  "coverageEnd": "2026-05-23",
   "items": [
     {
       "id": "article-techcrunch-arr-inflation-ai-startups-2026-05-22",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "With AI companies commanding trillion-dollar valuations, understanding how revenue metrics are gamed is essential for engineers choosing where to work, investors deciding where to bet, and the broader public assessing which AI companies have durable businesses.",
       "tags": ["ai-startups", "arr-metrics", "venture-capital", "startup-valuation", "founder-accountability", "ai-industry"],
-      "relatedIds": [],
+      "relatedIds": ["article-fortune-openai-ipo-filing-2026-05-22"],
       "knowledgeChecks": [
         {
           "question": "What is the core 'ARR inflation' problem that Spellbook CEO Scott Stevenson exposed?",
@@ -64,7 +64,7 @@
       ],
       "whyItMatters": "Clark's Oxford lecture crystallizes the paradox at the frontier of AI: the companies commercializing it most aggressively are also its most vocal safety critics. As Anthropic approaches a $900B valuation and public markets, that tension is now a business story as much as a philosophical one.",
       "tags": ["anthropic", "jack-clark", "ai-safety", "oxford", "existential-risk", "claude-code", "ai-research"],
-      "relatedIds": [],
+      "relatedIds": ["article-techtimes-anthropic-30b-funding-2026-05-23"],
       "knowledgeChecks": [
         {
           "question": "What scientific milestone did Jack Clark predict AI would achieve within a year of his May 2026 Oxford lecture?",
@@ -87,6 +87,92 @@
           ],
           "correctIndex": 1,
           "explanation": "Clark was explicit: AI carries a 'non-zero chance of killing everyone on the planet' — and that risk 'hasn't gone away.' Yet Anthropic is simultaneously expanding Claude Code enterprise deployments, projecting its first operating profit, and approaching a $900B valuation. This isn't contradiction so much as a deliberate bet that the responsible path is to race ahead safely rather than cede the frontier to less careful actors."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-openai-ipo-filing-2026-05-22",
+      "type": "article",
+      "title": "OpenAI Files Confidential S-1 for a Potential $1 Trillion IPO",
+      "sourceUrl": "https://fortune.com/2026/05/22/openai-ipo-filing-1-trillion-may-finally-answer-these-big-questions/",
+      "verified": false,
+      "publishedAt": "2026-05-22",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI confidentially filed its S-1 IPO prospectus with the SEC on May 22, targeting a Q4 2026 public listing at a valuation between $852 billion and $1 trillion with Goldman Sachs and Morgan Stanley leading the deal. The filing arrives despite OpenAI losing $1.22 for every $1 of revenue in Q1 2026, though the company has hit an annualized $25 billion run rate and processes 15 billion tokens per minute through its API. Enterprise contracts now drive more than 40% of revenue, and a successful IPO would dwarf every previous tech debut including Meta, Alibaba, and Uber.",
+      "keyConcepts": [
+        "IPO S-1 filing process",
+        "AI company unit economics",
+        "enterprise revenue concentration",
+        "public-market valuation vs private rounds"
+      ],
+      "whyItMatters": "OpenAI's IPO will force unprecedented transparency into a frontier AI lab's economics for the first time — making its compute costs, safety spending, competitive moat, and true profitability path visible to public markets and regulators simultaneously.",
+      "tags": ["openai", "ipo", "s-1", "valuation", "public-markets", "ai-industry", "enterprise"],
+      "relatedIds": ["article-techtimes-anthropic-30b-funding-2026-05-23", "article-techcrunch-arr-inflation-ai-startups-2026-05-22"],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's Q1 2026 loss ratio of $1.22 for every $1 of revenue most likely indicate?",
+          "options": [
+            "OpenAI is spending aggressively on compute, safety research, and talent — betting future revenue growth will outpace cost growth",
+            "OpenAI's accounting team miscalculated operating expenses in their preliminary filings",
+            "OpenAI deliberately reports losses to minimize corporate taxes before the IPO",
+            "OpenAI's revenue is primarily from investments rather than product subscriptions and APIs"
+          ],
+          "correctIndex": 0,
+          "explanation": "A $1.22:$1 loss ratio means OpenAI spends $1.22 for every dollar it earns — common for frontier AI companies where GPU infrastructure, safety research, and top researcher salaries are enormous. The bet is that revenue grows faster than cost as the model becomes the industry default, making today's losses a calculated investment rather than a structural problem."
+        },
+        {
+          "question": "Why would OpenAI file its S-1 'confidentially' rather than making it publicly available immediately?",
+          "options": [
+            "Confidential filing exempts companies from SEC review entirely",
+            "The JOBS Act permits draft S-1 submissions reviewed privately by the SEC, allowing revision before public disclosure — typically 15 days before the roadshow",
+            "Confidential filing is legally required for all companies with a valuation over $500 billion",
+            "Confidential filing prevents rival companies like Anthropic from reading the financial disclosures"
+          ],
+          "correctIndex": 1,
+          "explanation": "The JOBS Act lets qualifying companies submit a confidential draft S-1 to the SEC for review. This gives the company time to refine disclosures based on SEC feedback before the document goes public — usually 15 days before the public roadshow. OpenAI can make adjustments without exposing sensitive competitive data prematurely."
+        }
+      ]
+    },
+    {
+      "id": "article-techtimes-anthropic-30b-funding-2026-05-23",
+      "type": "article",
+      "title": "Anthropic Set to Close $30 Billion Round at $900 Billion Valuation, Surpassing OpenAI",
+      "sourceUrl": "https://www.techtimes.com/articles/317066/20260523/anthropic-funding-round-top-30b-900b-valuation-would-surpass-openai-most-valuable-ai-startup.htm",
+      "verified": false,
+      "publishedAt": "2026-05-23",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic is set to close a funding round topping $30 billion at a valuation above $900 billion, vaulting it past OpenAI to become the world's most valuable AI startup. The round is co-led by Sequoia Capital, Dragoneer Investment Group, Altimeter Capital, and Greenoaks Capital Partners — each investing roughly $2 billion — with additional participation from Peter Thiel's Founders Fund and General Catalyst. The deal came together in weeks amid surging demand for the Claude maker, which projects $10.9 billion in revenue for Q2 2026, more than doubling from the prior quarter, and is on pace for its first profitable quarter.",
+      "keyConcepts": [
+        "Series venture funding at scale",
+        "AI startup valuation dynamics",
+        "revenue acceleration and path to profitability",
+        "competitive frontier AI investment landscape"
+      ],
+      "whyItMatters": "Anthropic's near-$1 trillion valuation and move toward profitability signal that frontier AI labs are no longer pre-revenue moonshots — they are cash-generating businesses with durable enterprise contracts. This raises the competitive stakes and accelerates the timeline for both companies' anticipated public market debuts.",
+      "tags": ["anthropic", "funding-round", "sequoia", "venture-capital", "valuation", "ai-industry", "profitability"],
+      "relatedIds": ["article-fortune-openai-ipo-filing-2026-05-22", "article-time-anthropic-jack-clark-ai-safety-2026-05-22"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's valuation 'surpassing OpenAI' at $900 billion actually measure?",
+          "options": [
+            "Anthropic's products have been proven superior in every publicly available benchmark",
+            "Private investors agreed to pay a per-share price implying a $900B total value in this funding round — higher than OpenAI's last round price",
+            "Anthropic has more active users than OpenAI across all products globally",
+            "Anthropic's annualized revenue has exceeded OpenAI's $25 billion run rate"
+          ],
+          "correctIndex": 1,
+          "explanation": "Private startup 'valuations' reflect the price per share investors accept in a specific funding round, not a definitive ranking of which company is 'better.' If Anthropic's round implies a $900B total value and OpenAI's last round was at $852B, Anthropic overtakes OpenAI in private-market pricing — even though both are pre-IPO and public-market price discovery hasn't happened yet."
+        },
+        {
+          "question": "Anthropic projects $10.9 billion in Q2 2026 revenue — more than double Q1. What does this growth rate most strongly suggest?",
+          "options": [
+            "Anthropic is primarily growing by cutting API prices to undercut competitors",
+            "Enterprise AI is moving from pilot programs into large-scale production deployments with locked-in contract revenue",
+            "Anthropic's Q1 revenue was artificially deflated by an accounting restatement",
+            "Revenue doubling quarter-over-quarter is standard for any software company in its growth phase"
+          ],
+          "correctIndex": 1,
+          "explanation": "Doubling revenue at $5B+ scale in a single quarter signals that enterprise AI is shifting from experimentation into committed production spend. This isn't early-stage growth — it is a large company growing from ~$5B to $10.9B in one quarter, suggesting that AI-powered workflows are being embedded into enterprise budgets at scale, not just tested."
         }
       ]
     }
