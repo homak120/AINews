@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-05-23T12:00:00.000Z",
+  "weekOf": "2026-05-18",
+  "coverageStart": "2026-05-22",
+  "coverageEnd": "2026-05-22",
+  "items": [
+    {
+      "id": "article-techcrunch-arr-inflation-ai-startups-2026-05-22",
+      "type": "article",
+      "title": "How VCs and Founders Use Inflated ARR to Crown AI Startups",
+      "sourceUrl": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
+      "verified": false,
+      "publishedAt": "2026-05-22",
+      "topics": ["ai-industry"],
+      "summary": "Scott Stevenson, CEO of legal AI startup Spellbook, publicly exposed how some AI startups and their VC backers manipulate ARR (Annual Recurring Revenue) metrics to generate favorable press and justify inflated valuations. Traditional ARR measures contracted recurring revenue, but a growing number of AI companies are including non-recurring revenue, usage-based income, or uncontracted letters of intent in their reported figures. Major funds have reportedly backed these inflated disclosures to amplify PR coverage for portfolio companies.",
+      "keyConcepts": [
+        "ARR metric manipulation",
+        "AI startup valuations",
+        "venture-backed PR amplification",
+        "founder accountability"
+      ],
+      "whyItMatters": "With AI companies commanding trillion-dollar valuations, understanding how revenue metrics are gamed is essential for engineers choosing where to work, investors deciding where to bet, and the broader public assessing which AI companies have durable businesses.",
+      "tags": ["ai-startups", "arr-metrics", "venture-capital", "startup-valuation", "founder-accountability", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core 'ARR inflation' problem that Spellbook CEO Scott Stevenson exposed?",
+          "options": [
+            "AI startups using compound interest formulas to project higher future revenue",
+            "Companies including non-recurring, usage-based, or uncontracted revenue in their reported ARR figures",
+            "Founders deliberately understating revenue to avoid regulatory scrutiny",
+            "VCs demanding startups show zero ARR to qualify for certain tax exemptions"
+          ],
+          "correctIndex": 1,
+          "explanation": "The problem is that AI startups are reporting ARR figures that include revenue that isn't 'annual' or 'recurring' in the traditional sense — such as one-time payments, usage-based fees that may not continue, or letters of intent that haven't converted to signed contracts — inflating the metric that investors and press use to gauge company health."
+        },
+        {
+          "question": "Why does inflated ARR reporting particularly matter for AI engineers and developers evaluating where to work?",
+          "options": [
+            "ARR figures directly determine legal stock option vesting schedules at private companies",
+            "Companies with higher reported ARR are legally required to offer better compensation",
+            "Inflated metrics can mislead candidates about a company's true financial health, runway, and long-term viability",
+            "ARR determines which companies qualify for government AI grants"
+          ],
+          "correctIndex": 2,
+          "explanation": "When ARR is inflated, it creates a false signal about a company's financial health and durability. Engineers who join based on impressive ARR numbers may find the business less stable than reported — making metric literacy a real career risk management skill in 2026's AI hiring market."
+        }
+      ]
+    },
+    {
+      "id": "article-time-anthropic-jack-clark-ai-safety-2026-05-22",
+      "type": "article",
+      "title": "Anthropic Sells Claude's Promise While Warning About AI's Dangers",
+      "sourceUrl": "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/",
+      "verified": false,
+      "publishedAt": "2026-05-22",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic co-founder Jack Clark delivered a wide-ranging lecture at Oxford University on May 21, predicting that AI would collaborate on a Nobel Prize-worthy scientific discovery within a year, that bipedal robots would assist tradespeople within two years, and that AI-run companies generating millions in revenue would exist within 18 months. In the same breath, Clark maintained that AI still carries a 'non-zero chance of killing everyone on the planet' — articulating the core tension in Anthropic's approach. The lecture landed the same week Anthropic expanded Claude Code enterprise deployments in London and OpenAI announced an internal model autonomously disproved an 80-year-old mathematical conjecture.",
+      "keyConcepts": [
+        "AI-assisted scientific discovery",
+        "existential AI risk",
+        "Nobel Prize timeline prediction",
+        "Anthropic's safety-commerce tension"
+      ],
+      "whyItMatters": "Clark's Oxford lecture crystallizes the paradox at the frontier of AI: the companies commercializing it most aggressively are also its most vocal safety critics. As Anthropic approaches a $900B valuation and public markets, that tension is now a business story as much as a philosophical one.",
+      "tags": ["anthropic", "jack-clark", "ai-safety", "oxford", "existential-risk", "claude-code", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What scientific milestone did Jack Clark predict AI would achieve within a year of his May 2026 Oxford lecture?",
+          "options": [
+            "AI would independently develop a new programming language surpassing Python in adoption",
+            "AI would achieve a breakthrough proving P equals NP",
+            "AI would collaborate on a discovery worthy of a Nobel Prize",
+            "AI would autonomously design and synthesize a new class of semiconductor materials"
+          ],
+          "correctIndex": 2,
+          "explanation": "Clark predicted that within a year, AI would collaborate on a discovery worthy of a Nobel Prize — a bold claim that landed the same week OpenAI announced its internal model autonomously disproved the Erdős unit-distance conjecture, a problem open for 80 years."
+        },
+        {
+          "question": "What fundamental tension does Jack Clark's Oxford lecture highlight about Anthropic's position?",
+          "options": [
+            "Anthropic wants to build AGI but lacks the compute infrastructure to train frontier models",
+            "Anthropic is actively commercializing frontier AI while simultaneously warning that it poses a non-zero chance of killing everyone on the planet",
+            "Anthropic's investors want an immediate IPO but regulators in the UK have blocked it",
+            "Anthropic wants to open-source Claude but believes the model weights are too dangerous to release"
+          ],
+          "correctIndex": 1,
+          "explanation": "Clark was explicit: AI carries a 'non-zero chance of killing everyone on the planet' — and that risk 'hasn't gone away.' Yet Anthropic is simultaneously expanding Claude Code enterprise deployments, projecting its first operating profit, and approaching a $900B valuation. This isn't contradiction so much as a deliberate bet that the responsible path is to race ahead safely rather than cede the frontier to less careful actors."
+        }
+      ]
+    }
+  ]
+}
