@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-05-26T06:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-25",
+  "coverageEnd": "2026-05-25",
+  "items": [
+    {
+      "id": "article-ncronline-magnifica-humanitas-ethics-2026-05-25",
+      "type": "article",
+      "title": "Pope Leo XIV, Anthropic Co-Founder Call for Church-Tech Ethics Partnership at Magnifica Humanitas Release",
+      "sourceUrl": "https://www.ncronline.org/vatican/vatican-news/pope-leo-anthropic-co-founder-call-church-tech-ethics-partnership-magnifica",
+      "verified": false,
+      "publishedAt": "2026-05-25",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Pope Leo XIV released his landmark first encyclical 'Magnifica Humanitas' on May 25, 2026, a sweeping theological document addressing the safeguarding of human dignity in the age of AI. Anthropic co-founder and interpretability researcher Christopher Olah was seated alongside cardinals and theologians at the Vatican's Synod Hall, making an unprecedented public call for the tech industry and religious institutions to partner in establishing AI safeguards. The document surveys how unchecked AI development amplifies contemporary crises and calls for robust international AI regulation.",
+      "keyConcepts": [
+        "AI governance",
+        "encyclical theology",
+        "human dignity in the AI age",
+        "church-tech ethics partnership"
+      ],
+      "whyItMatters": "The Catholic Church's formal doctrinal statement on AI — co-presented by a prominent Anthropic co-founder — signals that AI governance is now being elevated to a moral and civilizational concern far beyond Silicon Valley, potentially reshaping regulatory momentum globally.",
+      "tags": ["ai-governance", "anthropic", "pope-leo-xiv", "magnifica-humanitas", "ai-ethics", "church-tech"],
+      "relatedIds": ["article-usnews-olah-ai-big-tech-oversight-2026-05-25"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the title of Pope Leo XIV's first encyclical on artificial intelligence, released May 25, 2026?",
+          "options": [
+            "Laudato Si Digitalis",
+            "Magnifica Humanitas",
+            "Fides et Technica",
+            "Caritas in Machina"
+          ],
+          "correctIndex": 1,
+          "explanation": "Magnifica Humanitas, meaning 'Magnificent Humanity,' is Pope Leo XIV's first encyclical addressing AI's impact on human dignity and calling for robust international AI regulation."
+        },
+        {
+          "question": "Which Anthropic co-founder spoke at the Vatican's presentation of the Magnifica Humanitas encyclical?",
+          "options": [
+            "Dario Amodei",
+            "Sam Altman",
+            "Christopher Olah",
+            "Daniela Amodei"
+          ],
+          "correctIndex": 2,
+          "explanation": "Christopher Olah, Anthropic co-founder and head of interpretability research, was seated alongside cardinals at the Vatican and called for a church-tech collaboration on AI safety governance."
+        }
+      ]
+    },
+    {
+      "id": "article-usnews-olah-ai-big-tech-oversight-2026-05-25",
+      "type": "article",
+      "title": "Anthropic's Chris Olah: AI Development Cannot Be Left to Big Tech Alone",
+      "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-05-25/anthropics-olah-says-ai-must-be-guided-from-outside-big-tech",
+      "verified": false,
+      "publishedAt": "2026-05-25",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "At the Vatican presentation of Pope Leo XIV's AI encyclical, Anthropic co-founder Christopher Olah argued that AI development cannot be left solely to technology companies, urging stronger oversight from governments, religious leaders, and civil society. Olah acknowledged there is 'a real possibility' that AI will displace human labor at very large scale, making independent governance structures urgently necessary. The remarks from an insider at a leading AI lab are notable for their candor about risks the industry cannot manage alone.",
+      "keyConcepts": [
+        "AI labor displacement",
+        "external AI oversight",
+        "AI interpretability research",
+        "civil society governance"
+      ],
+      "whyItMatters": "A senior Anthropic leader publicly warning about large-scale job displacement and calling for external AI oversight adds rare insider credibility to concerns often dismissed as alarmism — signaling that leading labs themselves see systemic risks beyond their capacity to manage alone.",
+      "tags": ["ai-governance", "labor-displacement", "anthropic", "chris-olah", "ai-safety", "workforce-impact"],
+      "relatedIds": ["article-ncronline-magnifica-humanitas-ethics-2026-05-25"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Chris Olah at the Vatican, which institutions should help guide AI development?",
+          "options": [
+            "Technology companies acting on voluntary principles",
+            "Only national government regulatory agencies",
+            "Governments, religious leaders, and civil society together",
+            "International AI standards bodies exclusively"
+          ],
+          "correctIndex": 2,
+          "explanation": "Olah argued that AI governance must extend beyond Big Tech to include religious leaders, governments, and civil society to ensure effective, independent oversight."
+        },
+        {
+          "question": "What economic outcome did Olah describe as a 'real possibility' from AI advancement?",
+          "options": [
+            "AI creating net new jobs in every industry sector",
+            "Minor productivity gains limited to knowledge work",
+            "Accelerated wealth redistribution toward emerging economies",
+            "AI displacing human labor at very large scale"
+          ],
+          "correctIndex": 3,
+          "explanation": "Olah warned of 'a real possibility' that AI will displace human labor 'at very large scale,' underscoring the urgency of building governance structures before the displacement accelerates."
+        }
+      ]
+    },
+    {
+      "id": "article-9to5google-gemini-ai-subscriptions-io-2026-05-25",
+      "type": "article",
+      "title": "Google Clarifies Gemini AI Plus, Pro, and Ultra Subscription Features Following I/O 2026",
+      "sourceUrl": "https://9to5google.com/2026/05/25/google-ai-plus-pro-ultra-gemini-features/",
+      "verified": false,
+      "publishedAt": "2026-05-25",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google updated its AI subscription tier structure — AI Plus, AI Pro, and AI Ultra — at I/O 2026, clarifying feature access and usage limits across its Gemini-powered products. The update coincides with the general availability of Gemini 3.5 Flash, which rivals frontier flagship models at significantly faster speeds and now powers AI Mode in Google Search, a feature that has surpassed one billion monthly users. Gemini 3.5 Pro is expected to follow next month.",
+      "keyConcepts": [
+        "Gemini 3.5 Flash",
+        "Google AI subscription tiers",
+        "AI Mode in Search",
+        "Google I/O 2026 product announcements"
+      ],
+      "whyItMatters": "With AI Mode exceeding one billion monthly users and Gemini 3.5 Flash delivering frontier-level performance at lower cost, how Google gates its AI tiers directly determines which users and developers can access cutting-edge AI capabilities — shaping the competitive landscape for AI consumer products.",
+      "tags": ["google", "gemini", "gemini-3.5-flash", "ai-subscriptions", "google-io-2026", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key performance advantage of Gemini 3.5 Flash over previous Gemini models?",
+          "options": [
+            "Lower cost with reduced capabilities",
+            "Largest parameter count of any Google model",
+            "Frontier-level intelligence at faster speeds, outperforming Gemini 3.1 Pro on benchmarks",
+            "First Google model with multimodal input"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini 3.5 Flash is the first in Google's latest model series combining frontier intelligence with the speed users expect from the Flash line, outperforming Gemini 3.1 Pro on key coding and agentic benchmarks."
+        },
+        {
+          "question": "How many monthly users has Google's AI Mode in Search surpassed as of I/O 2026?",
+          "options": [
+            "100 million",
+            "500 million",
+            "750 million",
+            "1 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Google's AI Mode in Search surpassed 1 billion monthly users, with queries more than doubling every quarter since launch, underscoring Gemini's massive reach in consumer AI."
+        }
+      ]
+    }
+  ]
+}
