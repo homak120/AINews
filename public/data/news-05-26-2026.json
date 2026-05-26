@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-26T06:00:00.000Z",
+  "generatedAt": "2026-05-26T14:00:00.000Z",
   "weekOf": "2026-05-25",
   "coverageStart": "2026-05-25",
-  "coverageEnd": "2026-05-25",
+  "coverageEnd": "2026-05-26",
   "items": [
     {
       "id": "article-ncronline-magnifica-humanitas-ethics-2026-05-25",
@@ -130,6 +130,135 @@
           ],
           "correctIndex": 3,
           "explanation": "Google's AI Mode in Search surpassed 1 billion monthly users, with queries more than doubling every quarter since launch, underscoring Gemini's massive reach in consumer AI."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-qualcomm-bytedance-ai-chip-2026-05-26",
+      "type": "article",
+      "title": "Qualcomm Strikes AI Chip Deal with ByteDance to Supply ASICs for Data Centers",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-26/qualcomm-strikes-ai-chip-deal-with-tiktok-owner-bytedance",
+      "verified": false,
+      "publishedAt": "2026-05-26",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Qualcomm reached a multi-generation deal with TikTok owner ByteDance to supply application-specific integrated circuits (ASICs) for AI data centers, marking a major expansion for the chip company beyond its smartphone processor roots. ByteDance — which raised its 2026 AI infrastructure budget by 25% to 200 billion yuan ($29.4B) — is among the first large customers for Qualcomm's AI-focused ASICs, with initial shipments expected later this year. Qualcomm shares hit an all-time high on the news.",
+      "keyConcepts": [
+        "AI-specific integrated circuits (ASICs)",
+        "data center AI infrastructure",
+        "Qualcomm AI expansion",
+        "ByteDance AI investment"
+      ],
+      "whyItMatters": "The deal signals that the AI chip market is diversifying beyond Nvidia GPUs, with hyperscalers turning to custom ASICs from non-traditional chip vendors — a shift that could reshape semiconductor supply chains and reduce the industry's dependence on any single chipmaker.",
+      "tags": ["qualcomm", "bytedance", "ai-chips", "asic", "data-center", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of chips is Qualcomm supplying to ByteDance in this deal?",
+          "options": [
+            "GPU accelerators for large language model training",
+            "ARM-based smartphone processors for edge AI",
+            "Application-specific integrated circuits (ASICs) for AI data centers",
+            "DRAM memory chips for AI inference servers"
+          ],
+          "correctIndex": 2,
+          "explanation": "The deal involves ASICs — application-specific integrated circuits — optimized for AI inference in ByteDance's data centers, representing Qualcomm's push into AI infrastructure beyond its core smartphone business."
+        },
+        {
+          "question": "How much has ByteDance budgeted for AI infrastructure in 2026 after its 25% increase?",
+          "options": [
+            "$5.4 billion",
+            "$14 billion",
+            "$29.4 billion (200 billion yuan)",
+            "$50 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "ByteDance raised its AI infrastructure budget by 25% to 200 billion yuan ($29.4 billion) in 2026, fueling demand for chips like Qualcomm's AI-focused ASICs."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-wall-street-ai-trainers-2026-05-25",
+      "type": "article",
+      "title": "Ex-Bankers Charge Wall Street $25,000 a Day to Teach Agentic AI Workflows",
+      "sourceUrl": "https://www.bloomberg.com/news/features/2026-05-25/the-ai-trainers-charging-25-000-a-day-to-push-wall-street-s-agentic-shift",
+      "verified": false,
+      "publishedAt": "2026-05-25",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Former bankers Felipe Sinisterra and Dave Wang charge financial firms $25,000 per day to teach teams how to use agentic AI tools like Gemini for tasks ranging from analyzing pitch videos to spotting behavioral red flags in founder transcripts. The consultants are backlogged for two months, reflecting a widening skills gap between the pace of AI tool deployment and the average finance worker's fluency in applying them. The emerging 'AI trainer' profession illustrates how specialized expertise in AI workflow design is becoming a premium, in-demand skill set.",
+      "keyConcepts": [
+        "agentic AI in finance",
+        "AI skills premium",
+        "AI trainer profession",
+        "Wall Street AI adoption"
+      ],
+      "whyItMatters": "The $25,000-per-day AI trainer market reveals that fluency in agentic AI is already bifurcating the workforce — those who can design AI workflows command outsized consulting fees, while firms that delay upskilling risk falling behind competitors that are rapidly reengineering their operations around AI agents.",
+      "tags": ["ai-career", "wall-street", "agentic-ai", "ai-training", "finance", "ai-skills"],
+      "relatedIds": ["article-usnews-olah-ai-big-tech-oversight-2026-05-25"],
+      "knowledgeChecks": [
+        {
+          "question": "How much do top AI trainers currently charge Wall Street firms for a single day of agentic AI workflow training?",
+          "options": [
+            "$5,000",
+            "$12,500",
+            "$25,000",
+            "$100,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Felipe Sinisterra and Dave Wang's firm Wall Street Prompt charges $25,000 per day for training sessions and is reportedly backlogged for two months, reflecting surging demand."
+        },
+        {
+          "question": "Why are Wall Street firms paying premium rates for outside AI trainers?",
+          "options": [
+            "SEC regulations require certified AI trainers for all trading desks",
+            "AI models are too expensive for firms to license without consultant help",
+            "Agentic AI tools are advancing faster than most finance workers' ability to use them effectively",
+            "Only boutique consultants hold proprietary access to AI model APIs"
+          ],
+          "correctIndex": 2,
+          "explanation": "The workforce has struggled to keep pace with available agentic AI technology, creating a gap between tool availability and employee fluency that consultants are filling at premium rates."
+        }
+      ]
+    },
+    {
+      "id": "article-bloomberg-pony-ai-robotaxi-2026-05-26",
+      "type": "article",
+      "title": "Pony AI Raises 2026 Robotaxi Fleet Target to 3,500 After 145% Revenue Surge",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-26/pony-ai-lifts-2026-robotaxi-fleet-goal-to-3-500-on-fast-growth",
+      "verified": false,
+      "publishedAt": "2026-05-26",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Pony AI raised its 2026 year-end robotaxi fleet target from 3,000 to over 3,500 vehicles after reporting 145% year-on-year revenue growth to $34.3 million in Q1 2026, with its operating fleet already exceeding 1,700 units. The rapid commercial expansion reflects growing mainstream adoption of autonomous ride-hailing in China, where Pony AI competes with domestic rivals while also exploring international expansion. The results demonstrate that autonomous vehicle revenue is now scaling at pace, not just accumulating in pilot programs.",
+      "keyConcepts": [
+        "robotaxi commercialization",
+        "autonomous vehicle fleet scaling",
+        "Pony AI Q1 2026 results",
+        "China autonomous vehicle market"
+      ],
+      "whyItMatters": "Pony AI's 145% revenue growth and fleet expansion confirm that autonomous ride-hailing has crossed into genuine commercial scale in China — a milestone that will intensify competition globally and pressure Western AV companies still in longer development cycles to accelerate their own deployment timelines.",
+      "tags": ["pony-ai", "robotaxi", "autonomous-vehicles", "china-ai", "fleet-expansion", "av-commercialization"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What revenue growth did Pony AI report for Q1 2026?",
+          "options": [
+            "45% year-on-year to $12 million",
+            "87% year-on-year to $22 million",
+            "145% year-on-year to $34.3 million",
+            "212% year-on-year to $58 million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pony AI reported 145% year-on-year revenue growth to $34.3 million in Q1 2026, prompting the company to raise its year-end fleet target to over 3,500 robotaxis."
+        },
+        {
+          "question": "What is Pony AI's updated robotaxi fleet target for the end of 2026?",
+          "options": [
+            "1,700 vehicles (current operating fleet)",
+            "2,500 vehicles",
+            "3,000 vehicles (previous target)",
+            "Over 3,500 vehicles"
+          ],
+          "correctIndex": 3,
+          "explanation": "Pony AI raised its 2026 year-end fleet goal to over 3,500 robotaxis, up from its previous target of 3,000, following strong Q1 revenue growth and fleet expansion momentum."
         }
       ]
     }
