@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-05-27T12:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-26",
+  "coverageEnd": "2026-05-26",
+  "items": [
+    {
+      "id": "article-techcrunch-duckduckgo-ai-search-2026-05-26",
+      "type": "article",
+      "title": "DuckDuckGo Installs Spike 30% as Users Push Back Against Google's AI-Overhaul of Search",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "verified": false,
+      "publishedAt": "2026-05-26",
+      "topics": ["ai-industry"],
+      "summary": "After Google replaced traditional blue-link results with AI-generated answers at I/O 2026, DuckDuckGo recorded a sustained six-day surge in app installs, peaking at 30.5% week-over-week growth on May 25. U.S. installs rose an average of 18.1% each day during the May 20–25 period, with users explicitly citing frustration at having information 'force-fed' through a single AI layer. The trend signals meaningful consumer resistance to AI-mediated search that removes user agency over source selection.",
+      "keyConcepts": [
+        "AI-first search",
+        "user agency in information retrieval",
+        "Google I/O 2026 search overhaul",
+        "privacy-focused search alternatives"
+      ],
+      "whyItMatters": "The DuckDuckGo surge is an early market signal that AI-replacing-links search designs face a trust ceiling — users willing to switch search engines represent a meaningful constraint on how aggressively AI labs and platforms can restructure information access.",
+      "tags": ["google-search", "ai-search", "duckduckgo", "user-privacy", "google-io-2026", "search-ux"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What triggered the spike in DuckDuckGo app installs in late May 2026?",
+          "options": [
+            "A major DuckDuckGo product launch with new AI features",
+            "Google replacing traditional search links with AI-generated answers at I/O 2026",
+            "A viral social media campaign against search advertising",
+            "A data privacy breach at a major search competitor"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's decision at I/O 2026 to surface AI-generated answers instead of blue links drove users who disliked the change to install DuckDuckGo as an alternative, producing a sustained 30%+ weekly install spike."
+        },
+        {
+          "question": "By what percentage did DuckDuckGo U.S. app installs peak at their highest single-day growth during the May 20–25 period?",
+          "options": [
+            "12.4%",
+            "18.1%",
+            "25.0%",
+            "30.5%"
+          ],
+          "correctIndex": 3,
+          "explanation": "DuckDuckGo reported that while average week-over-week growth was 18.1% per day, the single-day peak reached 30.5% on May 25, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-human-archive-physical-ai-2026-05-26",
+      "type": "article",
+      "title": "Startup Human Archive Uses India's Gig Workers to Collect First-Person Video Data for Physical AI",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "verified": false,
+      "publishedAt": "2026-05-26",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Silicon Valley startup Human Archive is partnering with Indian gig economy companies to equip workers with camera-fitted caps that record egocentric (first-person) video of everyday physical tasks such as cooking, cleaning, and object manipulation. The footage is intended as training data for physical AI systems — robots and embodied agents that must understand how humans interact with the real world. The approach is notable for combining emerging-market labor with cutting-edge embodied-AI research needs.",
+      "keyConcepts": [
+        "egocentric video data",
+        "embodied AI and physical AI",
+        "robot training data collection",
+        "gig economy and AI data pipelines"
+      ],
+      "whyItMatters": "High-quality first-person human manipulation data is the primary bottleneck slowing progress on physical AI — this approach could dramatically accelerate robot dexterity research while distributing AI's economic value into emerging labor markets.",
+      "tags": ["embodied-ai", "physical-ai", "robot-training-data", "data-collection", "gig-economy", "computer-vision"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of data does Human Archive collect using camera-equipped workers?",
+          "options": [
+            "Text transcripts of spoken workplace conversations",
+            "Aerial drone footage of logistics operations",
+            "Egocentric (first-person) video of everyday physical tasks",
+            "Biometric performance data from factory workers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Human Archive collects egocentric video — footage from a first-person perspective via cap-mounted cameras — capturing how humans perform physical tasks like cooking or object manipulation, which is used to train physical AI systems."
+        },
+        {
+          "question": "Why is egocentric video data particularly valuable for AI development right now?",
+          "options": [
+            "It is cheap to store and transfer at scale",
+            "It eliminates the need for reinforcement learning entirely",
+            "It is the primary bottleneck limiting progress in embodied AI and robotics",
+            "Most AI models are already trained on this type of data"
+          ],
+          "correctIndex": 2,
+          "explanation": "Physical AI systems — robots and embodied agents — require understanding of how humans manipulate real-world objects, and high-quality first-person footage capturing this is scarce, making it a key bottleneck for the field."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-umg-tiktok-ai-music-2026-05-26",
+      "type": "article",
+      "title": "Universal Music Group and TikTok Renew Licensing Deal with Explicit Protections Against Unauthorized AI-Generated Music",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "verified": false,
+      "publishedAt": "2026-05-26",
+      "topics": ["ai-industry"],
+      "summary": "Universal Music Group and TikTok have renewed their multi-year licensing agreement, adding new provisions specifically designed to remove unauthorized AI-generated music that mimics real artists without permission and to improve attribution for human songwriters and performers. The deal represents a formalization of joint content governance between one of the world's largest music labels and the dominant short-form video platform. It comes as AI music generation tools proliferate and the music industry seeks contractual leverage to control how its catalog is used to train and deploy AI systems.",
+      "keyConcepts": [
+        "AI-generated music regulation",
+        "music licensing in the AI era",
+        "content governance on social platforms",
+        "artist attribution and rights"
+      ],
+      "whyItMatters": "This agreement sets a template for how major rights-holders and platforms will jointly police AI-generated content — the specific language around attribution and removal will likely be replicated across future label-platform deals as AI music generation becomes mainstream.",
+      "tags": ["ai-music", "music-licensing", "tiktok", "universal-music-group", "content-governance", "artist-rights"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new element was added to the UMG–TikTok licensing renewal in May 2026?",
+          "options": [
+            "A revenue-sharing model for AI-generated content",
+            "Provisions to remove unauthorized AI-generated music and improve artist attribution",
+            "An exclusive deal giving TikTok rights to train AI on UMG's full catalog",
+            "A joint AI music label to produce content for the platform"
+          ],
+          "correctIndex": 1,
+          "explanation": "The renewed agreement included explicit commitments to remove AI-generated tracks that mimic artists without permission and to improve how human songwriters and performers are credited on the platform."
+        },
+        {
+          "question": "What broader industry trend is the UMG–TikTok AI music deal responding to?",
+          "options": [
+            "A decline in short-form video content consumption",
+            "Streaming platform consolidation reducing label negotiating power",
+            "The proliferation of AI music generation tools that can replicate real artists",
+            "Increased government regulation of music streaming royalties"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI music generation tools have made it trivially easy to create content that sounds like real artists, prompting major labels to seek contractual protections against unauthorized use of their artists' likenesses in AI-generated tracks."
+        }
+      ]
+    }
+  ]
+}
