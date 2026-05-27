@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-27T12:00:00.000Z",
+  "generatedAt": "2026-05-27T18:00:00.000Z",
   "weekOf": "2026-05-25",
   "coverageStart": "2026-05-26",
-  "coverageEnd": "2026-05-26",
+  "coverageEnd": "2026-05-27",
   "items": [
     {
       "id": "article-techcrunch-duckduckgo-ai-search-2026-05-26",
@@ -130,6 +130,92 @@
           ],
           "correctIndex": 2,
           "explanation": "AI music generation tools have made it trivially easy to create content that sounds like real artists, prompting major labels to seek contractual protections against unauthorized use of their artists' likenesses in AI-generated tracks."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-robinhood-ai-agents-trading-2026-05-27",
+      "type": "article",
+      "title": "Robinhood Launches AI Agents That Can Trade Stocks and Make Credit Card Purchases Autonomously",
+      "sourceUrl": "https://www.cnbc.com/2026/05/27/your-ai-agent-can-now-trade-for-you-on-robinhood-and-buy-stuff-with-your-credit-card-too.html",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Robinhood announced an agentic trading feature allowing customers to create an isolated trading account that AI agents can access to buy and sell equities autonomously based on user-set goals, such as building a diversified portfolio or capturing specific market opportunities. The company also unveiled a virtual credit card — currently limited to Robinhood Gold Card holders — that AI agents can use to make purchases by connecting to Robinhood's banking MCP server. Users retain control through spending limits, manual approval requirements, and fraud-monitoring systems that audit both user instructions and agent actions.",
+      "keyConcepts": [
+        "agentic trading and financial autonomy",
+        "MCP (Model Context Protocol) for banking",
+        "sandboxed AI agent accounts",
+        "human oversight of AI financial agents"
+      ],
+      "whyItMatters": "Robinhood's launch marks one of the first mainstream consumer deployments of autonomous AI agents in retail finance — the sandboxed account model and MCP integration pattern it's using will likely become the reference architecture for agentic fintech products industry-wide.",
+      "tags": ["ai-agents", "fintech", "robinhood", "agentic-trading", "mcp", "autonomous-finance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Robinhood limit the risk of its AI agentic trading feature?",
+          "options": [
+            "By requiring a licensed financial advisor to review every trade",
+            "By isolating agent funds in a separate account with spending limits and fraud monitoring",
+            "By only allowing agents to trade government bonds",
+            "By capping trades at $10 per transaction"
+          ],
+          "correctIndex": 1,
+          "explanation": "Robinhood's agentic trading uses an isolated account separate from the user's main portfolio, so agents can only access funds explicitly deposited there. Spending limits, manual approvals, and fraud monitoring provide additional safeguards."
+        },
+        {
+          "question": "What protocol does Robinhood's AI agent credit card use to connect agents to its banking system?",
+          "options": [
+            "OAuth 2.0",
+            "REST API with API keys",
+            "Model Context Protocol (MCP)",
+            "WebSockets with JWT authentication"
+          ],
+          "correctIndex": 2,
+          "explanation": "Robinhood's virtual credit card for AI agents connects through Robinhood's banking MCP (Model Context Protocol) server, using the emerging standard for giving AI agents structured, auditable access to external tools and services."
+        }
+      ]
+    },
+    {
+      "id": "article-digitimes-openai-chatgpt-ads-expansion-2026-05-27",
+      "type": "article",
+      "title": "OpenAI Expands ChatGPT Advertising to Small Businesses as It Chases $2.5 Billion in Ad Revenue",
+      "sourceUrl": "https://www.digitimes.com/news/a20260527VL205/openai-chatgpt-advertising-business-performance.html",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI is pushing its self-serve ChatGPT advertising platform — launched in early May — toward small and mid-market advertisers after initial campaigns with major brands like Adobe, Ford, and Target. The company eliminated its original $50,000 minimum spend requirement, opening the Ads Manager portal to local businesses and startups. OpenAI is targeting $2.5 billion in ad revenue for 2026 and $100 billion annually by 2030, while also rolling out new ad measurement tools including a Conversions API and pixel-based tracking to help brands attribute results to ChatGPT-driven customer actions.",
+      "keyConcepts": [
+        "ChatGPT self-serve advertising platform",
+        "conversational advertising formats",
+        "ad revenue diversification for AI labs",
+        "attribution and conversion measurement in AI interfaces"
+      ],
+      "whyItMatters": "OpenAI's move to monetize ChatGPT through advertising marks a structural shift in how frontier AI labs plan to sustain operations beyond subscriptions — and sets up a new competitive vector between ChatGPT, Google's AI search, and traditional digital ad platforms for a share of the $600 billion+ global ad market.",
+      "tags": ["openai", "chatgpt", "advertising", "monetization", "ai-industry", "self-serve-ads"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What barrier did OpenAI remove to expand ChatGPT advertising to smaller businesses?",
+          "options": [
+            "The requirement to use a certified advertising agency",
+            "A $50,000 minimum spend requirement",
+            "A whitelist approval process for new advertisers",
+            "A six-month beta waitlist"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's original ChatGPT advertising program required a $50,000 minimum spend, limiting it to large brands. Eliminating this barrier opened the self-serve Ads Manager to small businesses, startups, and mid-market companies."
+        },
+        {
+          "question": "What is OpenAI's stated advertising revenue target for 2030?",
+          "options": [
+            "$10 billion annually",
+            "$25 billion annually",
+            "$100 billion annually",
+            "$2.5 billion annually"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI has stated it is targeting $2.5 billion in ad revenue for 2026 as an initial milestone, with a longer-term goal of reaching $100 billion in annual advertising revenue by 2030."
         }
       ]
     }
