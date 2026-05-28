@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-05-28T12:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-27",
+  "coverageEnd": "2026-05-28",
+  "items": [
+    {
+      "id": "article-techcrunch-youtube-ai-labels-2026-05-27",
+      "type": "article",
+      "title": "YouTube Will Now Automatically Label AI-Generated Videos Even When Creators Don't Disclose It",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": ["ai-industry"],
+      "summary": "YouTube announced it will use internal detection systems to identify videos containing 'significant photorealistic AI' content and automatically apply disclosure labels — even if creators fail to self-disclose. The change expands YouTube's existing creator-disclosure requirement to a platform-enforced policy starting in May 2026, covering both long-form videos and YouTube Shorts. Labels will not affect recommendations or monetization, and creators can appeal misidentifications, though content made with YouTube's own AI tools such as Veo or Dream Screen cannot have those labels removed.",
+      "keyConcepts": [
+        "AI content auto-detection",
+        "platform-enforced transparency",
+        "creator disclosure policy",
+        "synthetic media governance"
+      ],
+      "whyItMatters": "YouTube's shift from voluntary to automated AI labeling sets a precedent for how major platforms will govern synthetic media at scale — affecting millions of creators who use AI generation tools and signaling that platform-level enforcement, rather than creator self-disclosure, will become the norm for AI content transparency.",
+      "tags": ["youtube", "ai-content-labeling", "synthetic-media", "platform-policy", "creator-tools", "ai-transparency"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did YouTube change about its AI content labeling policy in May 2026?",
+          "options": [
+            "YouTube banned all photorealistic AI-generated videos from the platform",
+            "YouTube began automatically detecting and labeling significant AI-generated content even without creator disclosure",
+            "YouTube started requiring creators to use only YouTube-native AI tools",
+            "YouTube applied AI labels only to Shorts, not to long-form videos"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube expanded its policy so its internal systems automatically apply AI labels when they detect significant photorealistic AI content, removing reliance on creators to voluntarily disclose it."
+        },
+        {
+          "question": "According to YouTube's May 2026 update, what happens to AI labels on videos made with YouTube's own tools like Veo or Dream Screen?",
+          "options": [
+            "Those labels are never applied because YouTube trusts its own tools",
+            "Creators can remove them by submitting a verification request",
+            "Creators cannot remove those labels even if they dispute them",
+            "Those labels are applied only after the video reaches 1,000 views"
+          ],
+          "correctIndex": 2,
+          "explanation": "YouTube stated that while creators can update disclosure status for misidentified content, labels on videos created using YouTube's own AI tools — like Veo or Dream Screen — cannot be removed by the creator."
+        }
+      ]
+    },
+    {
+      "id": "article-venturebeat-datagrail-ai-privacy-2026-05-28",
+      "type": "article",
+      "title": "DataGrail Report: 64% of AI-Advertising Vendors Don't Disclose Third-Party AI Subprocessors",
+      "sourceUrl": "https://venturebeat.com/security/datagrail-report-finds-your-vendor-may-be-sending-data-to-ai-models-you-never-approved",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "DataGrail's Privacy and AI Trends Report 2026 found that 63.6% of software vendors prominently advertising AI capabilities do not disclose a third-party AI subprocessor in their legal documentation. This means most companies purchasing AI-enabled software may be unknowingly exposing customer data to AI models they never reviewed or approved. The finding carries significant legal and reputational risk as AI becomes embedded across procurement, CRM, HR, and security software categories.",
+      "keyConcepts": [
+        "third-party AI subprocessors",
+        "vendor transparency and data governance",
+        "enterprise AI compliance risk",
+        "GDPR and AI transparency regulations"
+      ],
+      "whyItMatters": "As AI capabilities are embedded in nearly every enterprise software tool, organizations face hidden data exposure: customer data may flow into undisclosed LLMs without oversight, creating regulatory exposure under GDPR, CCPA, and emerging AI transparency laws — and potentially enabling unauthorized model training on sensitive business data.",
+      "tags": ["data-privacy", "ai-compliance", "vendor-risk", "enterprise-ai", "gdpr", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did DataGrail's 2026 Privacy and AI Trends Report find about vendors advertising AI capabilities?",
+          "options": [
+            "Most vendors over-disclose AI subprocessors, creating compliance overhead",
+            "63.6% of AI-advertising vendors do not disclose third-party AI subprocessors in their legal documentation",
+            "The majority of enterprise AI software is processed entirely on-premises",
+            "Only 12% of vendors use any form of third-party AI provider"
+          ],
+          "correctIndex": 1,
+          "explanation": "DataGrail found that 63.6% of vendors prominently advertising AI capabilities omit disclosure of third-party AI subprocessors — the external LLMs or AI providers that actually power those features — from their legal documentation."
+        },
+        {
+          "question": "What is the primary risk to enterprises from undisclosed AI subprocessors in vendor software?",
+          "options": [
+            "Reduced software performance due to external API latency",
+            "Loss of vendor discounts for long-term contracts",
+            "Customer data may be processed by unapproved AI models, creating legal and compliance exposure",
+            "Increased software licensing costs due to AI feature bundling"
+          ],
+          "correctIndex": 2,
+          "explanation": "When vendors don't disclose third-party AI subprocessors, enterprise customers unknowingly send customer data to external AI models that haven't been reviewed or approved — creating exposure under privacy regulations like GDPR and CCPA, and potentially enabling unauthorized training on sensitive data."
+        }
+      ]
+    }
+  ]
+}
