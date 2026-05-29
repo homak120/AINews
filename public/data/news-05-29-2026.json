@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-29T12:00:00.000Z",
+  "generatedAt": "2026-05-29T18:00:00.000Z",
   "weekOf": "2026-05-25",
   "coverageStart": "2026-05-27",
-  "coverageEnd": "2026-05-28",
+  "coverageEnd": "2026-05-29",
   "items": [
     {
       "id": "article-techcrunch-sesame-ios-launch-2026-05-28",
@@ -216,6 +216,135 @@
           ],
           "correctIndex": 1,
           "explanation": "France's strategy combines national investment in AI infrastructure with EU regulatory frameworks designed to support European AI champions — giving Paris-based startups structural advantages in accessing compute, talent, and customers compared to non-EU competitors."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-cognition-devin-valuation-2026-05-29",
+      "type": "article",
+      "title": "Cognition's Scott Wu Says AI Coding Agents Shouldn't Replace Humans Despite $26B Valuation",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "Cognition, maker of Devin — one of the first and most prominent AI software engineering agents — closed a $1 billion funding round at a $26 billion valuation. CEO Scott Wu stated that the company has 'never thought about it as replacing humans,' positioning Devin as a collaborative productivity amplifier rather than a workforce replacement tool. The raise reflects continued investor confidence in autonomous AI coding agents, even as Wu publicly frames the technology around human augmentation rather than displacement.",
+      "keyConcepts": [
+        "AI coding agents",
+        "Human-AI collaboration in software engineering",
+        "Autonomous agent valuation",
+        "AI augmentation vs. replacement narrative"
+      ],
+      "whyItMatters": "Cognition's framing matters for every software engineer navigating the AI era: the company behind one of the most capable autonomous coding agents is actively positioning its product around human partnership — which shapes both how enterprises will deploy AI coding tools and how developers should think about their own role alongside them.",
+      "tags": ["cognition", "devin", "ai-coding", "ai-agents", "software-engineering", "ai-valuation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How did Cognition CEO Scott Wu characterize the relationship between Devin and human software engineers?",
+          "options": [
+            "Devin is designed to eventually replace all software engineering roles",
+            "Devin functions as a collaborative partner that augments human developers, not a replacement",
+            "Devin is a tool exclusively for junior engineers to learn programming fundamentals",
+            "Devin replaces repetitive tasks while humans handle architecture decisions only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scott Wu explicitly stated Cognition has 'never thought about it as replacing humans' — Devin is positioned as a tool that amplifies developer productivity through collaboration, not a replacement for human engineers."
+        },
+        {
+          "question": "What valuation did Cognition reach with its $1 billion funding round announced in May 2026?",
+          "options": [
+            "$5 billion",
+            "$10 billion",
+            "$26 billion",
+            "$50 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cognition's $1 billion raise valued the two-year-old company at $26 billion, reflecting significant investor conviction in the AI coding agent market despite — or because of — the company's focus on human-AI collaboration over full automation."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ai-compute-cerebras-2026-05-28",
+      "type": "article",
+      "title": "The Hunt for AI Compute May Have Uncovered the Next Cerebras",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "As AI labs race to secure compute at an unprecedented scale, the insatiable demand for AI processing power is driving investment in a new generation of custom silicon startups positioned as challengers to NVIDIA's GPU dominance. TechCrunch examines whether the current compute-scarcity environment is producing a successor to Cerebras — the specialized AI chip company that carved out a niche with its massive wafer-scale processor architecture. The emerging companies are targeting inference and training workloads with purpose-built silicon designed to outperform traditional GPU clusters on cost and throughput.",
+      "keyConcepts": [
+        "Custom AI silicon",
+        "Wafer-scale processor architecture",
+        "AI compute scarcity",
+        "NVIDIA GPU alternatives"
+      ],
+      "whyItMatters": "The emergence of purpose-built AI chip companies signals that compute is becoming the defining competitive moat in AI — and that the silicon layer, not just the model layer, is where foundational AI infrastructure battles will be fought over the next decade.",
+      "tags": ["ai-hardware", "custom-silicon", "cerebras", "gpu-alternatives", "ai-compute", "chip-startups"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural approach made Cerebras distinctive compared to NVIDIA's GPU-based AI chips?",
+          "options": [
+            "Using distributed clusters of low-power mobile chips for energy efficiency",
+            "A wafer-scale processor that integrates an entire silicon wafer into a single massive chip",
+            "Repurposing cryptocurrency mining ASICs for AI workloads",
+            "Building chips optimized exclusively for transformer attention mechanisms"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cerebras built its reputation on wafer-scale integration — putting an entire silicon wafer into a single processor rather than cutting it into smaller individual chips, yielding dramatically higher memory bandwidth and on-chip compute density for AI workloads."
+        },
+        {
+          "question": "What is driving investment in AI chip alternatives to NVIDIA in 2026?",
+          "options": [
+            "NVIDIA's decision to exit the AI hardware market",
+            "Government regulations restricting NVIDIA chip exports globally",
+            "Insatiable AI compute demand creating scarcity and cost pressures that custom silicon can address",
+            "AI models becoming too large to run on GPU architecture"
+          ],
+          "correctIndex": 2,
+          "explanation": "The core driver is compute scarcity — AI labs and enterprises cannot get enough NVIDIA GPUs at the scale and cost they need, which creates a commercial opening for purpose-built AI silicon companies that can offer better price-performance on specific workloads."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ai-token-futures-2026-05-28",
+      "type": "article",
+      "title": "AI Compute Tokens Are Becoming a Tradable Commodity — Token Futures Are Next",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-industry"],
+      "summary": "Financial markets are developing frameworks to treat AI compute tokens as a tradable commodity class, comparable to oil, gold, and other raw materials traded through futures contracts. As AI token pricing increasingly fluctuates based on model capacity, demand spikes, and geopolitical supply factors, early proposals for AI token futures instruments are emerging across financial exchanges. The development reflects AI compute's growing status as a fundamental economic infrastructure resource with real price volatility that enterprises need to hedge against.",
+      "keyConcepts": [
+        "AI token commoditization",
+        "Compute futures markets",
+        "AI resource economics",
+        "Hedging AI cost exposure"
+      ],
+      "whyItMatters": "If AI compute tokens become standardized futures instruments, it transforms how companies plan and budget for AI — enabling risk hedging for AI-heavy businesses and creating entirely new financial products tied to AI infrastructure demand, signaling that AI has crossed into commodity-infrastructure territory.",
+      "tags": ["ai-economics", "token-futures", "ai-commoditization", "compute-markets", "ai-finance", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What existing commodity markets are being used as the model for AI token futures?",
+          "options": [
+            "Cryptocurrency futures markets like Bitcoin CME contracts",
+            "Traditional commodity futures like oil and gold contracts",
+            "Foreign exchange futures for currency hedging",
+            "Carbon credit futures for emissions trading"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article explicitly draws the analogy to gold and oil — traditional physical commodities with established futures markets — as the template for how AI compute tokens could be traded, hedged, and priced in standardized financial contracts."
+        },
+        {
+          "question": "What business problem do AI token futures contracts solve for enterprises?",
+          "options": [
+            "Guaranteeing access to the latest AI models before public release",
+            "Reducing the cost of training foundation models",
+            "Hedging against AI compute cost volatility in operational budgets",
+            "Securing GPU hardware allocations directly from chip manufacturers"
+          ],
+          "correctIndex": 2,
+          "explanation": "The primary use case for AI token futures is hedging — allowing enterprises that are heavily dependent on AI inference and training compute to lock in prices and protect against sudden cost spikes, similar to how airlines use oil futures to manage jet fuel costs."
         }
       ]
     }
