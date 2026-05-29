@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-05-29T12:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-27",
+  "coverageEnd": "2026-05-28",
+  "items": [
+    {
+      "id": "article-techcrunch-sesame-ios-launch-2026-05-28",
+      "type": "article",
+      "title": "Sesame, the Conversational AI Startup from Oculus Founders, Launches Its iOS App",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Sesame, co-founded by Oculus co-founders Brendan Iribe and Nate Mitchell, launched a public preview of its iOS app in 39 countries, featuring four distinct AI agents — Maya, Miles, Simone, and Charlie — each with a unique voice, personality, and persistent memory. The app rethinks the traditional chatbot model by allowing conversation to flow naturally even when the AI is processing, moving toward a more human-like interaction style. Sesame has previously raised $250M and plans to extend this conversational AI experience to AI-powered smart eyewear in 2027.",
+      "keyConcepts": [
+        "Conversational AI agents",
+        "Persistent memory across sessions",
+        "Natural dialogue flow design",
+        "AI personality differentiation"
+      ],
+      "whyItMatters": "Sesame's approach — prioritizing natural conversational flow over the traditional turn-taking chatbot model — points toward the next generation of AI interfaces, particularly as the tech is designed to underpin smart glasses hardware arriving in 2027.",
+      "tags": ["conversational-ai", "ai-agents", "ios-app", "voice-ai", "oculus-founders", "ai-hardware"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary interaction design philosophy behind Sesame's iOS app?",
+          "options": [
+            "Maximizing the number of supported languages and accents",
+            "Allowing conversation to flow naturally even when the AI needs time to think",
+            "Providing step-by-step task automation without conversational feedback",
+            "Matching the ChatGPT turn-taking model for familiarity"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sesame explicitly positions its design as a departure from the traditional chatbot turn-taking model, creating a conversational experience that flows continuously even when the AI is still processing a response."
+        },
+        {
+          "question": "Which hardware category is Sesame planning to expand its conversational AI into after the iOS app launch?",
+          "options": [
+            "Autonomous vehicles",
+            "Smart home hubs",
+            "AI-powered smart eyewear",
+            "Desktop workstations"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sesame's founding team, with deep roots in VR hardware (Oculus), is building toward AI-enabled smart glasses expected to launch in 2027 — making the iOS app the first step in a broader hardware strategy."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-glean-300m-arr-2026-05-28",
+      "type": "article",
+      "title": "Glean Surpasses $300M ARR as AI Budget-Cutting Becomes Its Core Selling Point",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Enterprise AI search company Glean announced it has surpassed $300M in annual recurring revenue (ARR), tripling its revenue in just 15 months from the $100M milestone. The company's Fortune 500 customer count nearly doubled year-over-year, driven by a positioning shift toward AI budget consolidation — helping enterprises replace multiple redundant SaaS tools with a single permissions-aware knowledge graph. Glean was recognized on CNBC Disruptor 50 for the third consecutive year and Forbes AI50 for the fourth consecutive year.",
+      "keyConcepts": [
+        "Enterprise AI search",
+        "Permissions-aware knowledge graph",
+        "AI budget consolidation",
+        "SaaS rationalization"
+      ],
+      "whyItMatters": "Glean's trajectory from $100M to $300M ARR in 15 months signals that enterprises are now in full-scale AI production deployment — and that cost efficiency, not raw capability, is the dominant purchase criterion driving enterprise AI buying decisions.",
+      "tags": ["enterprise-ai", "ai-search", "knowledge-graph", "arr-milestone", "saas-consolidation", "glean"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary value proposition Glean used to accelerate its ARR growth to $300M?",
+          "options": [
+            "Offering the lowest-cost LLM inference for enterprise customers",
+            "Positioning as an AI budget consolidation tool to replace redundant SaaS subscriptions",
+            "Providing the most accurate AI coding assistant for engineering teams",
+            "Offering real-time web search integration for enterprise knowledge bases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Glean succeeded by reframing itself as an AI budget-cutting tool — a single permissions-aware knowledge layer that consolidates multiple redundant SaaS search and knowledge tools, reducing overall AI spend for enterprises."
+        },
+        {
+          "question": "How quickly did Glean grow its ARR from $100M to $300M?",
+          "options": [
+            "3 years",
+            "2 years",
+            "6 months",
+            "15 months"
+          ],
+          "correctIndex": 3,
+          "explanation": "Glean reached $100M ARR in early 2025 and crossed $300M ARR by late May 2026 — a tripling of revenue achieved in approximately 15 months."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-meta-subscriptions-ai-2026-05-27",
+      "type": "article",
+      "title": "Meta Officially Launches Instagram, Facebook, and WhatsApp Subscriptions Including AI Plans",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": ["ai-industry"],
+      "summary": "Meta globally launched paid subscription tiers for Instagram ($3.99/mo), Facebook ($3.99/mo), and WhatsApp ($2.99/mo), bundling enhanced AI features, profile customization, and exclusive creator tools with each plan. Business, creator, and dedicated Meta AI subscriptions are in active testing, signaling a strategic shift from purely ad-driven revenue to a hybrid ad-plus-subscription model. The rollout positions Meta AI as a premium product tier, with AI-enhanced features available across Meta's family of apps under the new payment infrastructure.",
+      "keyConcepts": [
+        "Consumer AI subscription monetization",
+        "Hybrid ad-plus-subscription model",
+        "Platform-native AI features",
+        "AI feature gating"
+      ],
+      "whyItMatters": "Meta's global subscription launch is the clearest signal yet that platform-level AI is moving to a premium model — with AI features becoming a paid differentiator across apps used by billions, fundamentally changing the economics of consumer AI access.",
+      "tags": ["meta", "ai-subscription", "instagram", "facebook", "whatsapp", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the monthly price of Instagram Plus in Meta's newly launched subscription tier?",
+          "options": [
+            "$9.99/mo",
+            "$2.99/mo",
+            "$3.99/mo",
+            "$6.99/mo"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta launched Instagram Plus at $3.99/mo, Facebook Plus at $3.99/mo, and WhatsApp Plus at $2.99/mo as part of its global subscription rollout in May 2026."
+        },
+        {
+          "question": "What broader business model shift does Meta's subscription launch represent?",
+          "options": [
+            "A move away from advertising revenue entirely in favor of subscriptions",
+            "A transition to a hybrid ad-plus-subscription model with AI features as a premium differentiator",
+            "A pivot to enterprise SaaS sales with business accounts as the primary revenue source",
+            "A strategy to generate revenue exclusively from creator monetization tools"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta is transitioning to a hybrid model — maintaining its advertising business while layering paid subscriptions on top, with AI-enhanced features serving as the primary premium differentiator to drive subscription adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-databricks-enterprise-ai-disrupt-2026-05-28",
+      "type": "article",
+      "title": "Databricks Co-Founder at Disrupt 2026: Operational Instability, Not Lack of Interest, Kills Enterprise AI Deals",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "At TechCrunch Disrupt 2026, a Databricks co-founder explained that enterprise AI deals are not dying from lack of organizational interest — they are dying from operational instability, where AI systems fail to behave consistently and predictably at the scale enterprises require. This reframes the enterprise AI sales problem from a capability or adoption issue to a reliability engineering challenge. The insight suggests that AI companies winning enterprise contracts are those investing heavily in operational predictability, monitoring, and system observability, not just model performance benchmarks.",
+      "keyConcepts": [
+        "Enterprise AI reliability engineering",
+        "Operational stability at scale",
+        "AI system observability",
+        "Enterprise AI sales dynamics"
+      ],
+      "whyItMatters": "For AI engineers and founders targeting enterprise customers, this is a critical reframe: improving your model's benchmark scores matters far less than ensuring your AI system behaves consistently under real-world production conditions, which is the actual gate to enterprise deal closures.",
+      "tags": ["enterprise-ai", "databricks", "ai-reliability", "operational-stability", "ai-engineering", "ai-sales"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Databricks co-founder at Disrupt 2026, what is the primary reason enterprise AI deals fail?",
+          "options": [
+            "Enterprises lack the budget to afford frontier AI models",
+            "AI models are not capable enough to handle enterprise use cases",
+            "Operational instability — AI systems that don't behave consistently at scale",
+            "Enterprise procurement cycles are too slow for AI adoption"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Databricks co-founder stated that enterprises are not rejecting AI due to lack of interest or insufficient model capability — the primary killer is operational instability, where systems fail to behave consistently and predictably in production at scale."
+        },
+        {
+          "question": "What type of engineering investment does the Databricks insight suggest is most important for winning enterprise AI contracts?",
+          "options": [
+            "Investing in larger pre-training runs to improve benchmark scores",
+            "Building more intuitive user interfaces for non-technical users",
+            "Reliability engineering, monitoring, and system observability in production",
+            "Expanding the number of supported programming languages in AI coding tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "The insight reframes the enterprise AI challenge from a capability problem to a reliability engineering problem — companies that win enterprise contracts are those that can guarantee consistent, predictable AI behavior in production, which requires investment in observability and operational engineering."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-paris-ai-hub-2026-05-28",
+      "type": "article",
+      "title": "Why Paris May Be the Most Important AI City Outside Silicon Valley",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/why-paris-may-be-the-most-important-ai-city-outside-silicon-valley/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Paris has emerged as the most consequential AI hub outside Silicon Valley, fueled by France's multi-billion-euro national AI investment strategy and the global rise of Mistral AI as Europe's flagship AI lab. The French government has backed sovereign AI infrastructure with regulatory frameworks that provide competitive advantages for European AI startups, and Paris now attracts significant AI research talent and venture funding. The city's position represents a genuine shift toward geographic diversification of AI leadership beyond the US-China axis.",
+      "keyConcepts": [
+        "European AI ecosystem",
+        "Sovereign AI infrastructure",
+        "Mistral AI as European flagship",
+        "AI geographic diversification"
+      ],
+      "whyItMatters": "Paris's emergence as a leading AI hub creates new opportunities for AI careers, funding, and research outside the US — and signals that the global AI industry is undergoing meaningful decentralization, with practical implications for where AI talent and capital will flow over the next decade.",
+      "tags": ["paris", "european-ai", "mistral-ai", "sovereign-ai", "ai-ecosystem", "ai-geography"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which French AI company is most responsible for establishing Paris's global AI credibility?",
+          "options": [
+            "Hugging Face",
+            "Dataiku",
+            "Mistral AI",
+            "Aleph Alpha"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral AI is identified as Europe's flagship AI lab and a key driver of Paris's global AI reputation. Hugging Face is also France-founded but is headquartered in New York; Aleph Alpha is German."
+        },
+        {
+          "question": "What structural advantage does France's AI strategy provide to Paris-based AI startups?",
+          "options": [
+            "Zero corporate tax rates for AI companies incorporated in France",
+            "Government-backed sovereign AI infrastructure and favorable EU regulatory frameworks",
+            "Mandatory university partnerships that provide free research talent to startups",
+            "Preferential GPU allocation from European cloud providers"
+          ],
+          "correctIndex": 1,
+          "explanation": "France's strategy combines national investment in AI infrastructure with EU regulatory frameworks designed to support European AI champions — giving Paris-based startups structural advantages in accessing compute, talent, and customers compared to non-EU competitors."
+        }
+      ]
+    }
+  ]
+}
