@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-05-30T12:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-29",
+  "coverageEnd": "2026-05-29",
+  "items": [
+    {
+      "id": "article-cnbc-dell-ai-server-earnings-2026-05-29",
+      "type": "article",
+      "title": "Dell Stock Skyrockets 32% as AI Server Revenue Surges 757% Year-Over-Year",
+      "sourceUrl": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-industry"],
+      "summary": "Dell Technologies reported Q1 results showing AI server revenue surging 757% year-over-year to $16.1 billion, pushing total quarterly revenue up nearly 88% and sending shares up 32% for their best single-day performance ever. The company raised its full-year revenue outlook to $167 billion, including $60 billion from AI server sales, up from prior guidance of $140 billion. Dell exited the quarter with an AI server backlog exceeding $51 billion, driven by hyperscaler and enterprise demand for GPU-equipped infrastructure.",
+      "keyConcepts": [
+        "AI server infrastructure demand",
+        "Enterprise GPU server backlog",
+        "Hyperscaler capital expenditure",
+        "AI infrastructure market growth"
+      ],
+      "whyItMatters": "Dell's 757% AI server revenue surge and $51 billion backlog confirms the physical infrastructure buildout for AI — GPUs, servers, and data centers — is in a multi-year growth cycle with no signs of deceleration.",
+      "tags": ["dell", "ai-servers", "gpu-infrastructure", "enterprise-ai", "nvidia", "ai-investment"],
+      "relatedIds": ["article-techcrunch-groq-650m-nvidia-2026-05-29"],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did Dell's AI server revenue grow year-over-year in Q1 2026?",
+          "options": [
+            "Approximately 150%",
+            "Approximately 300%",
+            "Approximately 757%",
+            "Approximately 1,200%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dell's AI server revenue rose 757% year-over-year to $16.1 billion in Q1 2026, reflecting massive ramp in enterprise and hyperscaler demand for GPU-equipped AI servers."
+        },
+        {
+          "question": "What does Dell's $51 billion AI server backlog most directly indicate?",
+          "options": [
+            "That AI server manufacturing is becoming commoditized",
+            "That demand for AI infrastructure continues to significantly outpace supply",
+            "That GPU prices are declining rapidly",
+            "That enterprises are pulling back on AI investments"
+          ],
+          "correctIndex": 1,
+          "explanation": "A $51 billion backlog — orders received but not yet shipped — means customers are willing to wait months for AI server hardware, a strong signal that demand substantially exceeds current production capacity."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-groq-650m-nvidia-2026-05-29",
+      "type": "article",
+      "title": "After Nvidia's $20B Not-Acqui-Hire, AI Chip Startup Groq Reportedly Raising $650M",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Groq is raising $650 million from existing investors to grow its inference neocloud business, months after a controversial $20 billion deal with Nvidia that saw Nvidia license Groq's LPU technology and hire away most of Groq's founding engineering team including CEO Jonathan Ross. The deal left Groq technically independent but under new interim leadership, with the company now pivoting to focus purely on running its GroqCloud inference service. Existing backers Disruptive and Infinitium are backstopping the round if other investors pass on their pro-rata shares.",
+      "keyConcepts": [
+        "AI inference hardware (LPU vs GPU architecture)",
+        "Inference-as-a-service neocloud model",
+        "Strategic technology licensing vs acquisition",
+        "AI chip industry consolidation"
+      ],
+      "whyItMatters": "Groq's pivot to a pure inference neocloud — after losing its founding team and core IP to Nvidia — illustrates how quickly AI chip startup strategies can shift and how Nvidia is aggressively using capital to neutralize potential competitors.",
+      "tags": ["groq", "nvidia", "ai-inference", "ai-chips", "lpu", "startup-funding"],
+      "relatedIds": ["article-cnbc-dell-ai-server-earnings-2026-05-29"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary outcome of Nvidia's $20 billion deal with Groq?",
+          "options": [
+            "Nvidia fully acquired Groq and shut down GroqCloud",
+            "Nvidia licensed Groq's LPU technology and hired most of its founding team, while Groq remained independent",
+            "Groq became a Nvidia subsidiary and continued under the same CEO",
+            "Groq was acquired by Google before Nvidia could close the deal"
+          ],
+          "correctIndex": 1,
+          "explanation": "The deal was structured as a non-exclusive technology licensing agreement. Nvidia paid $20B to license Groq's LPU chip architecture and hired CEO Jonathan Ross and most of the engineering leadership, leaving Groq independent but fundamentally changed under new interim management."
+        },
+        {
+          "question": "What business model is Groq's new leadership focusing on with the $650M raise?",
+          "options": [
+            "Building a new generation of AI training chips to compete with Nvidia H100s",
+            "Acquiring smaller AI startups to build a diversified AI portfolio",
+            "Operating GroqCloud as an inference neocloud powered by their existing LPU technology",
+            "Pivoting to AI software development tools and exiting hardware entirely"
+          ],
+          "correctIndex": 2,
+          "explanation": "Under interim leadership, Groq is doubling down on GroqCloud — its inference-as-a-service platform — rather than competing in chip design, using its remaining LPU hardware to offer fast, low-cost AI inference at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-frontier-governance-framework-2026-05-29",
+      "type": "article",
+      "title": "OpenAI Publishes Frontier Governance Framework Aligned with EU AI Act and California Law",
+      "sourceUrl": "https://openai.com/index/openai-frontier-governance-framework/",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI released its Frontier Governance Framework, a public document mapping its internal safety practices — grounded in the Preparedness Framework — to specific regulatory obligations including California's Transparency in Frontier AI Act and the EU AI Act's Code of Practice for General Purpose AI. The framework covers risk assessment across four critical domains: cyber offense, CBRN (chemical, biological, radiological, nuclear) risks, harmful manipulation, and loss of control scenarios. OpenAI employs distinct risk tiers to evaluate model capabilities across these categories and commits to updating the document as regulations evolve.",
+      "keyConcepts": [
+        "AI risk tiering (CBRN, cyber, manipulation, loss of control)",
+        "EU AI Act Code of Practice compliance",
+        "California Transparency in Frontier AI Act",
+        "Frontier AI safety governance documentation"
+      ],
+      "whyItMatters": "As AI regulation takes hold in California and Europe, OpenAI's governance framework marks a shift from voluntary safety commitments to structured, regulation-aligned documentation — a compliance template other frontier labs will face pressure to replicate.",
+      "tags": ["openai", "ai-safety", "ai-governance", "eu-ai-act", "california-ai-law", "frontier-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which four risk domains does OpenAI's Frontier Governance Framework evaluate AI models against?",
+          "options": [
+            "Misinformation, copyright infringement, bias, and energy consumption",
+            "Cyber offense, CBRN risks, harmful manipulation, and loss of control",
+            "Data privacy, competitive harm, financial fraud, and deep fakes",
+            "Voice cloning, text generation, image synthesis, and autonomous vehicles"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's framework specifically categorizes frontier AI threats into four domains: cyber offense capabilities, chemical/biological/radiological/nuclear risks, harmful manipulation of users, and scenarios involving loss of human control over AI systems."
+        },
+        {
+          "question": "What is the relationship between OpenAI's Preparedness Framework and the new Frontier Governance Framework?",
+          "options": [
+            "The Frontier Governance Framework replaces the Preparedness Framework entirely",
+            "The Preparedness Framework is internal; the Frontier Governance Framework maps it to specific external regulatory requirements",
+            "They are identical documents published for different audiences",
+            "The Preparedness Framework is for consumers; the Frontier Governance Framework is for enterprise customers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Preparedness Framework remains OpenAI's internal foundation for risk management, while the Frontier Governance Framework translates those internal practices into a public document explicitly aligned with regulatory requirements like the EU AI Act and California's AI transparency law."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-cognition-1b-valuation-2026-05-29",
+      "type": "article",
+      "title": "Cognition Raises $1B at $26B Valuation; CEO Says AI Coding Agents Aren't About Replacing Developers",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Cognition, maker of the Devin AI coding agent, raised $1 billion at a $26 billion valuation — one of the highest valuations for any AI coding startup. CEO Scott Wu pushed back against the narrative that AI coding agents are designed to replace software engineers, stating that Cognition has 'never thought about it as replacing humans.' The raise comes amid a wave of AI coding agent investment, with the sector drawing billions in capital despite ongoing debates about whether tools like Devin improve code quality or only accelerate output velocity.",
+      "keyConcepts": [
+        "AI coding agents (Devin architecture)",
+        "Human-AI collaboration in software engineering",
+        "AI startup valuation multiples in 2026",
+        "Autonomous code generation quality vs speed"
+      ],
+      "whyItMatters": "Cognition's $26 billion valuation — despite active debate about AI agent accuracy — signals that investors are pricing in future capability growth, setting up a high-stakes test of whether autonomous coding agents can deliver on their promise as model capabilities continue improving.",
+      "tags": ["cognition", "devin", "ai-coding-agents", "software-engineering", "startup-funding", "ai-career"],
+      "relatedIds": ["article-techcrunch-coders-refusing-ai-2026-05-29"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Cognition's flagship AI product?",
+          "options": [
+            "A code review tool that flags bugs in existing repositories",
+            "Devin, an AI agent designed to handle software engineering tasks autonomously",
+            "An AI pair programmer that assists developers in real time without autonomous action",
+            "A natural language-to-SQL tool for non-technical data analysts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cognition created Devin, one of the first AI agents marketed as capable of handling end-to-end software engineering tasks — from understanding requirements to writing, testing, and deploying code — with minimal human intervention."
+        },
+        {
+          "question": "What is CEO Scott Wu's official position on AI coding agents and human software developers?",
+          "options": [
+            "AI coding agents will make most junior developers redundant within two years",
+            "AI coding agents should augment developers, not replace them",
+            "AI coding agents will only be useful for maintaining legacy codebases",
+            "Human developers will transition entirely to AI oversight roles by 2028"
+          ],
+          "correctIndex": 1,
+          "explanation": "Wu explicitly stated that Cognition has 'never thought about it as replacing humans,' positioning Devin as a tool to augment developer capabilities rather than a direct replacement — a stance intended to counter fears about AI-driven job displacement in software engineering."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-coders-refusing-ai-2026-05-29",
+      "type": "article",
+      "title": "Coders Are Refusing to Work Without AI — and That Could Come Back to Bite Them",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-career", "ai-engineering"],
+      "summary": "METR research from February 2026 found that most developers are now unwilling to work without AI coding tools even on limited tasks, reflecting how deeply AI has embedded itself in software workflows in under two years. While AI demonstrably increases code output speed, evidence shows it doesn't automatically improve code quality — Amazon shut down its internal 'Kirorank' AI productivity leaderboard after finding employees were maximizing AI token usage in ways that inflated costs without improving actual output. The piece raises concerns about developer deskilling and systemic over-reliance on tools that still produce errors at significant rates.",
+      "keyConcepts": [
+        "Developer AI dependency and deskilling risk",
+        "Code velocity vs code quality distinction",
+        "Measuring AI productivity accurately in engineering teams",
+        "Gamification of AI metrics in enterprise settings"
+      ],
+      "whyItMatters": "As AI coding tools become indispensable to the average developer, the industry faces a compound risk: teams optimizing for speed may be accumulating technical debt, while developers lose the foundational skills they'll need when AI tools fail or produce subtly wrong code.",
+      "tags": ["ai-coding", "developer-productivity", "deskilling", "code-quality", "amazon", "ai-adoption"],
+      "relatedIds": ["article-techcrunch-cognition-1b-valuation-2026-05-29"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Amazon's internal Kirorank leaderboard reveal about AI tool adoption metrics?",
+          "options": [
+            "Developers using AI consistently produced higher-quality code than those who did not",
+            "Employees gamed AI token usage metrics in ways that increased costs without improving output",
+            "The leaderboard successfully identified best AI coding practices for enterprise teams",
+            "AI adoption cut Amazon's development costs by over 40% in the tracked period"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amazon shut down Kirorank after finding that employees were maximizing AI agent usage to climb the leaderboard, but the increased token consumption did not translate into better code or higher productivity — it simply increased infrastructure costs."
+        },
+        {
+          "question": "According to METR's February 2026 research, what is the primary behavioral risk emerging from deep AI coding tool adoption?",
+          "options": [
+            "AI tools are too expensive for most developer teams to sustain",
+            "Developers are refusing to document code because AI auto-generates documentation",
+            "Most developers are now unwilling to work without AI even temporarily, raising deskilling concerns",
+            "AI coding tools are only effective for front-end development and fail on systems-level code"
+          ],
+          "correctIndex": 2,
+          "explanation": "METR found that developer reliance on AI tools has grown so deep that most won't work without them even on limited tasks — raising concerns that core software engineering skills are atrophying faster than the industry has anticipated."
+        }
+      ]
+    }
+  ]
+}
