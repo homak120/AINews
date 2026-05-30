@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-30T12:00:00.000Z",
+  "generatedAt": "2026-05-30T14:00:00.000Z",
   "weekOf": "2026-05-25",
   "coverageStart": "2026-05-29",
-  "coverageEnd": "2026-05-29",
+  "coverageEnd": "2026-05-30",
   "items": [
     {
       "id": "article-cnbc-dell-ai-server-earnings-2026-05-29",
@@ -216,6 +216,94 @@
           ],
           "correctIndex": 2,
           "explanation": "METR found that developer reliance on AI tools has grown so deep that most won't work without them even on limited tasks — raising concerns that core software engineering skills are atrophying faster than the industry has anticipated."
+        }
+      ]
+    },
+    {
+      "id": "youtube-hGCrvDDpl5w",
+      "type": "video",
+      "title": "Ghost AI Lets AI Agents Spin Up and Destroy Disposable Postgres Databases",
+      "youtubeId": "hGCrvDDpl5w",
+      "sourceUrl": "https://www.youtube.com/watch?v=hGCrvDDpl5w",
+      "verified": false,
+      "publishedAt": "2026-05-30",
+      "dateEstimated": true,
+      "topics": ["ai-engineering"],
+      "summary": "Wes Roth covers Ghost AI, an agent-first Postgres database platform that lets AI coding tools like Claude Code and OpenAI Codex spin up isolated, ephemeral database instances — 'disposable worlds' — that agents can freely create, fork, query, and delete without ever touching production infrastructure. Ghost includes a built-in MCP server that gives AI agents direct database management capabilities, making it easy for agentic systems to test schema changes, seed data, or simulate migrations in fully sandboxed environments. The video explores how this architecture addresses one of agentic AI's core unsolved problems: giving agents the freedom to experiment at the database layer without catastrophic risk.",
+      "keyConcepts": [
+        "Ephemeral database environments for AI agents",
+        "Agent-first Postgres platform design",
+        "MCP server integration for database tooling",
+        "Sandboxed infrastructure for safe agentic coding"
+      ],
+      "whyItMatters": "As AI coding agents take on increasingly complex backend tasks, disposable database infrastructure that agents can safely destroy and recreate becomes a critical safety primitive — Ghost's approach shows what agent-native infrastructure tooling looks like in practice.",
+      "tags": ["ghost-ai", "ai-agents", "postgres", "ephemeral-environments", "mcp-server", "claude-code"],
+      "relatedIds": ["article-ghacks-claude-opus-4-8-2026-05-30"],
+      "knowledgeChecks": [
+        {
+          "question": "What core problem does Ghost AI's 'disposable worlds' concept solve for AI coding agents?",
+          "options": [
+            "It allows AI agents to access production databases without authentication credentials",
+            "It gives AI agents sandboxed database environments they can freely experiment in and destroy without risk to production systems",
+            "It automatically migrates legacy SQL schemas to NoSQL document stores",
+            "It provides real-time database monitoring dashboards for human oversight of AI agents"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ghost AI creates isolated, ephemeral Postgres instances that AI agents can spin up, use freely for testing or development tasks, and then destroy — decoupling agent experimentation from any risk to live production data or infrastructure."
+        },
+        {
+          "question": "How does Ghost AI integrate with AI coding tools like Claude Code?",
+          "options": [
+            "Via a proprietary REST API that requires a separate authentication token for each agent session",
+            "Through a built-in MCP (Model Context Protocol) server that gives agents direct database management capabilities",
+            "By injecting SQL schemas directly into the model's context window at runtime",
+            "Through a browser-based interface that agents interact with via computer use"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ghost includes a native MCP server, which means Claude Code and other MCP-compatible AI agents can directly create, query, fork, and delete database instances as tool calls within their workflow — no separate authentication layer or human-in-the-loop required."
+        }
+      ]
+    },
+    {
+      "id": "article-ghacks-claude-opus-4-8-2026-05-30",
+      "type": "article",
+      "title": "Anthropic Releases Claude Opus 4.8 With Dynamic Workflows and 3X Cheaper Fast Mode",
+      "sourceUrl": "https://www.ghacks.net/2026/05/30/anthropic-releases-claude-opus-4-8-with-effort-controls-and-dynamic-workflows-for-claude-code/",
+      "verified": false,
+      "publishedAt": "2026-05-30",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Anthropic shipped Claude Opus 4.8 just 41 days after Opus 4.7, introducing Dynamic Workflows — a research-preview capability that lets Claude Code orchestrate up to 1,000 parallel subagents to execute codebase-scale tasks end to end, from kickoff through merge. The model's fast mode is now 3x cheaper than Opus 4.7, substantially lowering the cost of high-throughput agentic pipelines for Enterprise, Team, and Max plan users. Opus 4.8 also improves coding honesty: the model is approximately four times less likely than its predecessor to silently let coding errors pass unflagged, addressing a key reliability concern for autonomous coding deployments.",
+      "keyConcepts": [
+        "Dynamic Workflows (up to 1,000 parallel subagents per session)",
+        "Effort controls for Claude Code",
+        "Fast mode at 3x lower cost vs Opus 4.7",
+        "Honest error reporting in AI-generated code"
+      ],
+      "whyItMatters": "Dynamic Workflows represent a meaningful step toward AI that can handle entire software projects autonomously — not just individual tasks — while the 3x fast mode cost reduction makes high-throughput agentic use economically viable at enterprise scale for the first time.",
+      "tags": ["claude", "anthropic", "opus-4-8", "dynamic-workflows", "ai-coding-agents", "claude-code"],
+      "relatedIds": ["youtube-hGCrvDDpl5w", "article-techcrunch-cognition-1b-valuation-2026-05-29", "article-techcrunch-coders-refusing-ai-2026-05-29"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum number of parallel subagents Claude Code's Dynamic Workflows can orchestrate in a single session?",
+          "options": [
+            "10 subagents",
+            "100 subagents",
+            "1,000 subagents",
+            "Unlimited subagents"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Opus 4.8's Dynamic Workflows feature, currently in research preview, caps parallel subagent orchestration at 1,000 subagents per Claude Code session — enabling large-scale parallel work across a codebase within a single coordinated workflow."
+        },
+        {
+          "question": "Compared to Opus 4.7, how has Opus 4.8 improved in terms of coding reliability?",
+          "options": [
+            "It produces 10x fewer runtime errors on standard benchmarks",
+            "It is approximately 4x less likely to silently pass coding errors without flagging them",
+            "It automatically writes unit tests for every function it generates",
+            "It can now detect and reject hallucinated library imports before writing code"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's key reliability improvement in Opus 4.8 is honesty: the model is roughly four times less likely than Opus 4.7 to let coding flaws slip through without flagging them — a critical improvement for autonomous coding agents that operate with limited human review."
         }
       ]
     }
