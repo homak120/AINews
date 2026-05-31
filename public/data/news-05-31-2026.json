@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-05-31T14:00:00.000Z",
+  "weekOf": "2026-05-25",
+  "coverageStart": "2026-05-29",
+  "coverageEnd": "2026-05-31",
+  "items": [
+    {
+      "id": "article-illinois-ai-sb315-frontier-audits-2026-05-31",
+      "type": "article",
+      "title": "Illinois Passes Historic AI Safety Law Requiring Third-Party Audits of Frontier Models",
+      "sourceUrl": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191",
+      "verified": false,
+      "publishedAt": "2026-05-31",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Illinois became the third US state to enact frontier AI safety legislation as its legislature adjourned on May 31. SB 315, the Artificial Intelligence Safety Measures Act, passed the House 110–0 and is headed to Governor Pritzker, who has committed to signing it. The law uniquely mandates annual independent third-party audits of frontier AI models — a first for any US state — and requires companies to publish plans for addressing catastrophic AI risks. The legislature also advanced chatbot transparency bills and a consumer data privacy update before adjournment.",
+      "keyConcepts": [
+        "Frontier AI model regulation",
+        "Mandatory third-party safety audits",
+        "State-level AI governance",
+        "Chatbot transparency requirements"
+      ],
+      "whyItMatters": "Illinois SB 315 establishes the first legal mandate for independent annual safety audits of frontier AI models in the US, setting a precedent that could influence federal legislation and pressure other states to enact similar accountability frameworks.",
+      "tags": ["illinois", "ai-regulation", "frontier-ai", "safety-audits", "state-law", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key requirement of Illinois SB 315 that is a first for any US state AI law?",
+          "options": [
+            "Banning the use of AI in hiring decisions",
+            "Requiring annual independent third-party safety audits of frontier AI models",
+            "Mandating open-source release of all frontier AI weights",
+            "Capping compute usage for commercial AI models"
+          ],
+          "correctIndex": 1,
+          "explanation": "SB 315 requires frontier AI companies operating in Illinois to undergo annual independent third-party audits of their AI safety systems — a requirement no other US state AI law has included. It also mandates publication of risk mitigation plans."
+        },
+        {
+          "question": "Illinois SB 315 makes it the third US state to enact frontier AI safety standards. Which two states preceded it?",
+          "options": [
+            "Texas and Florida",
+            "Colorado and Massachusetts",
+            "New York and California",
+            "Washington and Virginia"
+          ],
+          "correctIndex": 2,
+          "explanation": "New York's RAISE Act and California's SB 53 (Transparency in Frontier AI Act) preceded Illinois SB 315. Illinois adds the novel requirement of mandatory annual third-party audits, going beyond what California and New York require."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-build-2026-preview-agents-2026-05-31",
+      "type": "article",
+      "title": "Microsoft Build 2026 Preview: Windows Becomes an Agent Platform as Copilot Gets an Overhaul",
+      "sourceUrl": "https://www.tomsguide.com/computing/microsoft-build-2026-preview",
+      "verified": false,
+      "publishedAt": "2026-05-31",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "With Microsoft Build 2026 kicking off in San Francisco on June 2, preview coverage reveals the developer conference will center on autonomous AI agents operating across Windows, Microsoft 365, and Azure. Key expected announcements include a new Windows Agent Framework with native APIs for building OS-level agents, a Windows Agent Store for distributing them, and a rebuilt GitHub Copilot powered by Microsoft's own in-house model codenamed Project Polaris. Azure AI Foundry is also expected to reach general availability with expanded multi-modal support and visual pipeline designers for RAG workflows.",
+      "keyConcepts": [
+        "Windows Agent Framework APIs",
+        "GitHub Copilot with in-house model (Project Polaris)",
+        "Azure AI Foundry general availability",
+        "Agentic software development"
+      ],
+      "whyItMatters": "Microsoft Build 2026 signals a strategic shift from AI as a chat tool to AI as an autonomous operating system layer — with Windows itself becoming a platform for agents that can reason across apps, take actions, and run without constant human input.",
+      "tags": ["microsoft-build", "copilot", "windows-agents", "azure-ai-foundry", "github-copilot", "project-polaris"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'Project Polaris' in the context of Microsoft Build 2026?",
+          "options": [
+            "Microsoft's new cloud infrastructure initiative to replace Azure",
+            "Microsoft's in-house AI coding model designed to power GitHub Copilot",
+            "A new Windows version with native AI hardware acceleration",
+            "A partnership with OpenAI to embed GPT-5.5 into all Microsoft products"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Polaris is the codename for Microsoft's internally developed AI coding model intended to power GitHub Copilot at Build 2026, reducing reliance on third-party models and promising better compliance and integration across Azure and developer tooling."
+        },
+        {
+          "question": "What does the Windows Agent Framework represent architecturally?",
+          "options": [
+            "A new scripting language for automating Windows system tasks",
+            "Native OS-level APIs that allow autonomous AI agents to operate across Windows apps with minimal human oversight",
+            "A Windows 12 feature for running Linux containers on Windows",
+            "A framework for managing GPU resources for AI workloads on consumer PCs"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Windows Agent Framework introduces native APIs for building agents that reason across Microsoft 365, Azure, and Windows apps — moving AI from chatbot overlays to first-class OS-level autonomous actors that can execute multi-step tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-rosalind-biodefense-2026-05-29",
+      "type": "article",
+      "title": "OpenAI Launches Rosalind Biodefense: Free Frontier AI for Government Pandemic Preparedness",
+      "sourceUrl": "https://www.axios.com/2026/05/29/openai-biodefense-program",
+      "verified": false,
+      "publishedAt": "2026-05-29",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI launched Rosalind Biodefense, a program offering its specialized life-sciences model GPT-Rosalind at no cost to vetted government agencies, academic institutions, and nonprofits working on pandemic preparedness and biosecurity. GPT-Rosalind outperforms GPT-5 across chemistry, biochemistry, and experiment-design tasks, and OpenAI briefed the White House and multiple federal agencies before the launch. The program operates on a developer track for epidemiological modeling tools and a government track providing early access to allied nations for outbreak-response planning, vaccine development, and diagnostics.",
+      "keyConcepts": [
+        "Domain-specific frontier AI models (life sciences)",
+        "AI for pandemic preparedness and biodefense",
+        "Government AI trusted-access programs",
+        "GPT-Rosalind vs general-purpose models"
+      ],
+      "whyItMatters": "OpenAI's decision to offer a specialized frontier model free to governments for biodefense — and to brief the White House before launch — positions AI companies as active participants in national security infrastructure, blurring the line between commercial technology and public health defense.",
+      "tags": ["openai", "biodefense", "gpt-rosalind", "pandemic-preparedness", "government-ai", "life-sciences"],
+      "relatedIds": ["article-illinois-ai-sb315-frontier-audits-2026-05-31"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes GPT-Rosalind from general-purpose models like GPT-5?",
+          "options": [
+            "It is trained exclusively on open-source code repositories",
+            "It is optimized for life sciences tasks like biochemistry, protein engineering, and experiment design, outperforming GPT-5 in those domains",
+            "It runs entirely on-premises without any cloud connectivity",
+            "It uses reinforcement learning from human feedback rather than pre-training"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-Rosalind is a domain-specialized model fine-tuned for life sciences research — it outperforms GPT-5 at chemistry, biochemistry, and experiment design, enabling richer support for biodefense workflows that generalist models handle less effectively."
+        },
+        {
+          "question": "What does the Rosalind Biodefense 'government track' provide?",
+          "options": [
+            "Free consumer ChatGPT access for all federal employees",
+            "Early access to GPT-Rosalind for allied government agencies focused on outbreak response, diagnostics, and vaccine development",
+            "Regulatory review services where OpenAI audits government AI procurement",
+            "GPT-5 API credits for any public sector research institution"
+          ],
+          "correctIndex": 1,
+          "explanation": "The government track specifically extends early GPT-Rosalind access to select US government and allied partner agencies with explicit public-health or biodefense missions — covering outbreak-response planning, diagnostics, and medical countermeasure development."
+        }
+      ]
+    }
+  ]
+}
