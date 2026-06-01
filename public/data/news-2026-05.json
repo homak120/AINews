@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-01T17:16:41.000Z",
-  "weekOf": "2026-04-27",
+  "generatedAt": "2026-06-01T03:20:37.075Z",
+  "weekOf": "2026-04-10",
   "coverageStart": "2026-04-10",
   "coverageEnd": "2026-04-30",
   "items": [
@@ -12,7 +12,9 @@
       "sourceUrl": "https://www.youtube.com/watch?v=4qv6NIpY9Fo",
       "verified": false,
       "publishedAt": "2026-04-29",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "The AI Daily Brief launches its inaugural AI Lab Power Rankings, evaluating OpenAI, Anthropic, Google, Microsoft, Amazon, Meta, xAI, and Apple across six dimensions: compute access, enterprise penetration, platform reach, model performance, momentum, and an X-factor score. The episode also breaks down the amended Microsoft-OpenAI partnership, which removed cloud exclusivity to allow OpenAI models on AWS while preserving Microsoft's equity stake. The ranking format gives practitioners a structured way to track which labs are winning across the dimensions that matter most for enterprise AI adoption.",
       "keyConcepts": [
         "AI lab competitive positioning",
@@ -21,8 +23,18 @@
         "enterprise AI momentum metrics"
       ],
       "whyItMatters": "With the frontier AI race accelerating across multiple dimensions simultaneously, a structured power-ranking framework helps developers and enterprise buyers understand which labs are leading on execution vs. just generating headlines.",
-      "tags": ["ai-labs", "power-rankings", "openai", "anthropic", "google", "microsoft-openai"],
-      "relatedIds": ["techcrunch-google-40b-anthropic-2026-04-24", "openai-introducing-gpt-5-5-2026-04-23"],
+      "tags": [
+        "ai-labs",
+        "power-rankings",
+        "openai",
+        "anthropic",
+        "google",
+        "microsoft-openai"
+      ],
+      "relatedIds": [
+        "techcrunch-google-40b-anthropic-2026-04-24",
+        "openai-introducing-gpt-5-5-2026-04-23"
+      ],
       "knowledgeChecks": [
         {
           "question": "What change did Microsoft and OpenAI make to their partnership agreement?",
@@ -56,7 +68,10 @@
       "sourceUrl": "https://www.youtube.com/watch?v=jeA-KBv0b68",
       "verified": false,
       "publishedAt": "2026-04-24",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "Fireship breaks down a quietly shipped Claude capability that the channel describes as potentially Anthropic's most disruptive feature — a new design mode that integrates Claude directly into UI and visual workflow pipelines. The video covers how developers can use the feature for automated design generation, iterative UI mockups, and design-to-code pipelines without leaving their existing Claude API integrations. The episode highlights both the technical integration path and the competitive implications for design tooling incumbents.",
       "keyConcepts": [
         "Claude design mode integration",
@@ -65,8 +80,17 @@
         "Anthropic API surface expansion"
       ],
       "whyItMatters": "If Claude can reliably bridge natural-language intent to production-quality UI output, it collapses the designer-developer handoff into a single API call — a change that would disrupt both professional design tooling and the growing market for AI-first frontend development.",
-      "tags": ["claude", "anthropic", "design-ai", "ui-generation", "ai-tools", "fireship"],
-      "relatedIds": ["anthropic-claude-opus-4-7-launch-2026-04-16"],
+      "tags": [
+        "claude",
+        "anthropic",
+        "design-ai",
+        "ui-generation",
+        "ai-tools",
+        "fireship"
+      ],
+      "relatedIds": [
+        "anthropic-claude-opus-4-7-launch-2026-04-16"
+      ],
       "knowledgeChecks": [
         {
           "question": "According to Fireship, what workflow does Claude's new design capability directly address?",
@@ -101,7 +125,10 @@
       "verified": false,
       "publishedAt": "2026-04-10",
       "dateEstimated": true,
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Fireship examines Anthropic's decision to gate Claude Mythos behind an 11-organization restricted access program, covering the technical capabilities that triggered the restriction — including the model's ability to autonomously identify and chain zero-day vulnerabilities across major operating systems. The video explains the dual-use dilemma Anthropic faces: Mythos's autonomous security research capabilities that make it valuable for defenders are the same capabilities that make unrestricted access dangerous. Fireship also covers the public criticism Anthropic received from OpenAI before OpenAI itself restricted GPT-5.5-Cyber under an equivalent access framework.",
       "keyConcepts": [
         "Claude Mythos restricted access",
@@ -110,8 +137,18 @@
         "responsible capability deployment"
       ],
       "whyItMatters": "Mythos represents the first publicly acknowledged AI system capable of autonomous offensive security research at scale — Anthropic's gating decision signals that frontier AI safety is shifting from theoretical to operational, with real access controls shaping who can use what.",
-      "tags": ["claude-mythos", "anthropic", "ai-safety", "cybersecurity", "dual-use", "fireship"],
-      "relatedIds": ["techcrunch-gpt-5-5-cyber-restricted-2026-04-30", "anthropic-claude-opus-4-7-launch-2026-04-16"],
+      "tags": [
+        "claude-mythos",
+        "anthropic",
+        "ai-safety",
+        "cybersecurity",
+        "dual-use",
+        "fireship"
+      ],
+      "relatedIds": [
+        "techcrunch-gpt-5-5-cyber-restricted-2026-04-30",
+        "anthropic-claude-opus-4-7-launch-2026-04-16"
+      ],
       "knowledgeChecks": [
         {
           "question": "How many organizations does Anthropic's restricted Claude Mythos Preview program initially include?",
@@ -144,7 +181,10 @@
       "sourceUrl": "https://openai.com/index/introducing-gpt-5-5/",
       "verified": false,
       "publishedAt": "2026-04-23",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "OpenAI released GPT-5.5, its first fully retrained base model since GPT-4.5, rebuilt around agentic capabilities that let the model independently interpret problems and autonomously execute multi-step tasks with minimal prompting. The model narrowly beats Anthropic's gated Claude Mythos Preview on Terminal-Bench 2.0 despite Mythos being available to only 11 organizations. GPT-5.5 is rolling out to ChatGPT Plus, Pro, Business, and Enterprise subscribers at $30 per million output tokens.",
       "keyConcepts": [
         "agentic AI architecture",
@@ -153,7 +193,14 @@
         "frontier model pricing"
       ],
       "whyItMatters": "GPT-5.5's agentic redesign marks a concrete shift from AI as a question-answering tool to AI as an autonomous task executor — directly competing with Claude Mythos on the cybersecurity and software engineering capabilities that enterprise customers most care about.",
-      "tags": ["gpt-5-5", "openai", "agentic-ai", "llm-release", "terminal-bench", "enterprise-ai"],
+      "tags": [
+        "gpt-5-5",
+        "openai",
+        "agentic-ai",
+        "llm-release",
+        "terminal-bench",
+        "enterprise-ai"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -187,7 +234,10 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
       "verified": false,
       "publishedAt": "2026-04-16",
-      "topics": ["ai-engineering", "ai-research"],
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
       "summary": "Anthropic released Claude Opus 4.7 as its most powerful generally available model, achieving 64.3% on SWE-bench Pro and 94.2% on GPQA Diamond. Positioned as the production-accessible sibling to the gated Mythos preview, Opus 4.7 is designed for software engineering, complex reasoning, and instruction-following at scale. It is priced at $25 per million output tokens and $5 per million input tokens, available via the Anthropic API and Claude.ai.",
       "keyConcepts": [
         "SWE-bench Pro software engineering benchmark",
@@ -196,7 +246,14 @@
         "Anthropic model access tiers"
       ],
       "whyItMatters": "Claude Opus 4.7 gives developers access to Anthropic's strongest commercially available capabilities without requiring the special partnership access that Mythos demands, making it the practical choice for teams building high-stakes AI applications today.",
-      "tags": ["claude-opus-4-7", "anthropic", "llm-release", "swe-bench", "ai-safety", "frontier-model"],
+      "tags": [
+        "claude-opus-4-7",
+        "anthropic",
+        "llm-release",
+        "swe-bench",
+        "ai-safety",
+        "frontier-model"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -230,7 +287,9 @@
       "sourceUrl": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
       "verified": false,
       "publishedAt": "2026-04-24",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "Google announced plans to invest up to $40 billion in Anthropic, beginning with a $10 billion initial tranche at a $380 billion valuation, with the remaining $30 billion contingent on performance milestones. The deal includes Google Cloud committing 5 gigawatts of compute capacity over five years, making compute access as central to the partnership as capital. The announcement landed the same day OpenAI released GPT-5.5, intensifying the rivalry across all three frontier AI labs.",
       "keyConcepts": [
         "AI company valuations",
@@ -239,7 +298,14 @@
         "Google-Anthropic partnership structure"
       ],
       "whyItMatters": "At a $380 billion valuation, Anthropic's deal with Google signals that frontier AI development requires hyperscaler-scale compute commitments — not just equity — and that Google is willing to pay to ensure Anthropic remains firmly in its cloud orbit rather than defaulting to AWS.",
-      "tags": ["google", "anthropic", "ai-investment", "venture-capital", "google-cloud", "compute"],
+      "tags": [
+        "google",
+        "anthropic",
+        "ai-investment",
+        "venture-capital",
+        "google-cloud",
+        "compute"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -273,7 +339,10 @@
       "sourceUrl": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
       "verified": false,
       "publishedAt": "2026-04-30",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "OpenAI began a restricted rollout of GPT-5.5-Cyber — a cybersecurity-focused model capable of identifying vulnerabilities at scale — to select 'critical cyber defenders' under its Trusted Access Program, just days after publicly criticizing Anthropic for limiting access to its similarly powerful Mythos model. Both companies now operate essentially equivalent gatekeeping frameworks for their most powerful cybersecurity AI, despite OpenAI's earlier positioning that Anthropic's restrictions were excessive. Sam Altman confirmed the rollout would reach vetted defenders 'within days.'",
       "keyConcepts": [
         "dual-use AI risks in cybersecurity",
@@ -282,7 +351,14 @@
         "AI vulnerability discovery at scale"
       ],
       "whyItMatters": "Both OpenAI and Anthropic independently arriving at equivalent access restrictions for their cybersecurity-capable AI suggests an emerging industry norm: the most powerful offensive-security AI will be gated behind vetting processes, creating a class of 'licensed AI' that shapes who can access frontier capabilities.",
-      "tags": ["gpt-5-5-cyber", "openai", "ai-safety", "cybersecurity", "anthropic-mythos", "restricted-access"],
+      "tags": [
+        "gpt-5-5-cyber",
+        "openai",
+        "ai-safety",
+        "cybersecurity",
+        "anthropic-mythos",
+        "restricted-access"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
