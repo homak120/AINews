@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-06-02T10:00:00Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-01",
+  "coverageEnd": "2026-06-01",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-2026-06-01",
+      "type": "article",
+      "title": "Anthropic Confidentially Files for IPO, Races OpenAI to Public Markets",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic submitted a confidential draft S-1 registration statement to the SEC for a proposed IPO, positioning itself ahead of rival OpenAI in the race to reach public markets. The Claude maker last raised $65 billion in a Series H round at a $965 billion post-money valuation, with an annualized revenue run rate above $47 billion. A key growth driver is Claude Code, which surpassed $2.5 billion in annualized revenue within its first year of general availability.",
+      "keyConcepts": [
+        "Confidential S-1 filing allows IPO preparation without public disclosure of financials",
+        "Anthropic valued at $965 billion after May 2026 Series H round",
+        "Claude Code as a major revenue driver ($2.5B+ annualized)",
+        "Race between AI labs to reach public markets and set financial reporting precedents"
+      ],
+      "whyItMatters": "Anthropic's IPO filing is a watershed moment for the AI industry — a frontier model lab approaching trillion-dollar valuation signals AI infrastructure is entering a new era of capital market legitimacy. The race with OpenAI to define how frontier AI companies report financials will shape investor expectations across the sector for years.",
+      "tags": ["anthropic", "ipo", "claude", "ai-industry", "wall-street", "series-h"],
+      "relatedIds": ["article-alphabet-80b-ai-2026-06-01"],
+      "knowledgeChecks": [
+        {
+          "question": "What type of IPO filing did Anthropic submit in June 2026?",
+          "options": [
+            "A public S-1 registration",
+            "A confidential draft S-1",
+            "A direct listing application",
+            "A SPAC merger filing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic submitted a confidential draft S-1 to the SEC, which lets companies prepare for a public offering without immediately disclosing detailed financial information to the public."
+        },
+        {
+          "question": "What was Anthropic's post-money valuation after its May 2026 Series H round?",
+          "options": [
+            "$500 billion",
+            "$652 billion",
+            "$852 billion",
+            "$965 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic raised $65 billion in its Series H round with a post-money valuation of $965 billion, making it the world's most valuable private AI company at the time of the IPO filing."
+        }
+      ]
+    },
+    {
+      "id": "article-alphabet-80b-ai-2026-06-01",
+      "type": "article",
+      "title": "Alphabet Plans $80 Billion Equity Raise to Fund AI Infrastructure Buildout",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Alphabet announced a package of equity offerings to raise $80 billion — its first new stock sale since 2005 — to fund AI infrastructure and global compute expansion. The structure includes a $40 billion at-the-market program, $30 billion in underwritten offerings, and a $10 billion private placement with Berkshire Hathaway. Google CEO Sundar Pichai has stated the company expects to spend $180–190 billion on capital expenditures in 2026 alone.",
+      "keyConcepts": [
+        "At-the-market (ATM) equity offering as a flexible capital-raising mechanism",
+        "Private placement with Berkshire Hathaway signals institutional confidence in AI capex",
+        "Hyperscale AI infrastructure requires unprecedented capital commitments",
+        "Alphabet's 2027 capex expected to increase significantly beyond 2026 levels"
+      ],
+      "whyItMatters": "Alphabet's $80B raise signals that AI infrastructure has become a capital-intensive strategic arms race that now requires tapping public equity markets. The scale — nearly a full year of Google's operating income — underscores that winning in frontier AI demands continuous, massive compute investment that even the most profitable tech companies can't self-fund.",
+      "tags": ["alphabet", "google", "ai-infrastructure", "capex", "cloud", "berkshire-hathaway"],
+      "relatedIds": ["article-anthropic-ipo-2026-06-01"],
+      "knowledgeChecks": [
+        {
+          "question": "Which investor committed $10 billion in Alphabet's June 2026 private placement?",
+          "options": [
+            "SoftBank",
+            "BlackRock",
+            "Berkshire Hathaway",
+            "Sequoia Capital"
+          ],
+          "correctIndex": 2,
+          "explanation": "Berkshire Hathaway agreed to purchase $10 billion of Alphabet shares split between Class A and Class C stock, as part of the broader $80 billion equity raise for AI infrastructure."
+        },
+        {
+          "question": "How much does Alphabet expect to spend on capital expenditures in 2026?",
+          "options": [
+            "$50–60 billion",
+            "$80–90 billion",
+            "$130–140 billion",
+            "$180–190 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Google CEO Sundar Pichai stated that Alphabet expects $180–190 billion in capital expenditures in 2026, making the $80B equity raise a critical funding mechanism to sustain its AI buildout."
+        }
+      ]
+    }
+  ]
+}
