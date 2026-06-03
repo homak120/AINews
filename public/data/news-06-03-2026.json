@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-06-03T10:00:00.000Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-01",
+  "coverageEnd": "2026-06-02",
+  "items": [
+    {
+      "id": "article-trump-ai-eo-2026-06-02",
+      "type": "article",
+      "title": "Trump Signs Executive Order for Voluntary AI Model Review Before Release",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "President Trump signed an executive order on June 2, 2026 directing AI companies to voluntarily submit their most powerful models for government testing up to 30 days before public release. The order also establishes an AI cybersecurity clearinghouse for identifying and sharing vulnerability information across critical infrastructure sectors. Unlike earlier drafts that proposed a 90-day mandatory review, the final order is explicitly voluntary and prohibits mandatory licensing or pre-clearance requirements.",
+      "keyConcepts": ["frontier AI model review", "AI cybersecurity clearinghouse", "voluntary compliance framework", "critical infrastructure protection"],
+      "whyItMatters": "This marks a notable shift in the administration's approach to AI governance, introducing the first formal structure for pre-release government testing of advanced AI systems while maintaining the deregulatory stance through voluntary rather than mandatory participation.",
+      "tags": ["executive-order", "ai-policy", "cybersecurity", "frontier-models", "regulation", "white-house"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Trump's June 2026 AI executive order ask frontier AI companies to do before release?",
+          "options": [
+            "Obtain mandatory government licensing",
+            "Voluntarily submit models for testing up to 30 days before release",
+            "Complete a 90-day mandatory safety review",
+            "Submit all AI models to a public safety board"
+          ],
+          "correctIndex": 1,
+          "explanation": "The order asks AI companies to voluntarily submit their most powerful models for government testing up to 30 days before public release. Earlier drafts proposed mandatory 90-day reviews but were revised to avoid stifling innovation."
+        },
+        {
+          "question": "What does the executive order expressly prohibit?",
+          "options": [
+            "Testing AI models on government infrastructure",
+            "Voluntary industry partnerships with federal agencies",
+            "Mandatory government licensing or pre-clearance requirements for AI model releases",
+            "Sharing cybersecurity vulnerability information publicly"
+          ],
+          "correctIndex": 2,
+          "explanation": "The order expressly states that nothing shall be construed to authorize creation of any mandatory governmental licensing, pre-clearance, or permitting requirement for the development, publication, or release of AI models."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-aion-build-2026",
+      "type": "article",
+      "title": "Microsoft Ships Aion 1.0 AI Models Into Windows at Build 2026, Enabling On-Device Agentic Workflows",
+      "sourceUrl": "https://byteiota.com/windows-aion-1-0-microsoft-ships-on-device-ai-into-windows-itself/",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Microsoft announced two Aion 1.0 models at Build 2026 that ship directly inside Windows 11: Aion 1.0 Instruct, a small language model running on CPU for summarization and intent detection, and Aion 1.0 Plan, a 14-billion parameter reasoning model that orchestrates sub-agents and tool calls. Together they enable a complete local agentic loop, allowing developers to build agentic applications without cloud round-trips. Microsoft also expanded Windows AI APIs beyond NPUs to GPUs and CPUs, widening compatibility to many more PCs.",
+      "keyConcepts": ["on-device AI", "agentic workflows", "Windows AI APIs", "Aion 1.0 Instruct and Plan models"],
+      "whyItMatters": "Embedding a reasoning model directly into Windows changes how developers build AI applications — for the first time, a full agentic loop (orchestration, tool calling, sub-agents) can run entirely on-device without relying on cloud APIs, improving latency, privacy, and cost.",
+      "tags": ["microsoft-build", "aion-1-0", "on-device-ai", "windows-11", "agentic-ai", "edge-inference"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What hardware does Aion 1.0 Instruct require to run on Windows 11?",
+          "options": [
+            "Dedicated NPU only",
+            "High-end GPU with at least 8GB VRAM",
+            "CPU — no NPU or dedicated GPU required",
+            "Microsoft Azure cloud connection"
+          ],
+          "correctIndex": 2,
+          "explanation": "Aion 1.0 Instruct runs on CPU with no NPU or dedicated GPU required, making it compatible with far more PCs than any prior Windows AI model."
+        },
+        {
+          "question": "How many parameters does the Aion 1.0 Plan reasoning model have?",
+          "options": [
+            "3.8 billion",
+            "7 billion",
+            "14 billion",
+            "70 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Aion 1.0 Plan is a 14-billion parameter reasoning and tool-calling model with 32K context length, designed to orchestrate sub-agents and manage agentic workflows locally on device."
+        }
+      ]
+    },
+    {
+      "id": "article-github-copilot-token-billing-2026",
+      "type": "article",
+      "title": "GitHub Copilot Drops Flat-Rate Pricing for Token-Based Billing, Sparking Developer Backlash",
+      "sourceUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "GitHub Copilot transitioned all plans to usage-based billing on June 1, 2026, replacing the flat-rate model with a GitHub AI Credits system tied to token consumption. All plans retain the same base subscription price but now meter usage against a monthly credit allotment, with overages billed at per-token rates. Developer communities on Reddit and X reported cost spikes from $29 to $750/month and $50 to $3,000, fueling significant backlash over the loss of cost predictability.",
+      "keyConcepts": ["usage-based billing", "GitHub AI Credits", "token consumption pricing", "developer cost predictability"],
+      "whyItMatters": "The shift from flat-rate to consumption-based pricing for a widely adopted developer tool signals a broader industry move toward usage metering for AI features — developers and organizations must now treat AI code assistance as a variable infrastructure cost rather than a fixed subscription.",
+      "tags": ["github-copilot", "developer-tools", "ai-pricing", "token-billing", "ai-coding", "cost-management"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What replaced Premium Request Units (PRUs) in GitHub Copilot's new billing model?",
+          "options": [
+            "Monthly flat-rate credits unrelated to token use",
+            "Per-seat licensing fees",
+            "API call quotas",
+            "GitHub AI Credits metered by token usage"
+          ],
+          "correctIndex": 3,
+          "explanation": "PRUs were replaced by GitHub AI Credits, calculated based on token consumption (input, output, and cached tokens) at published API rates for each model. 1 AI Credit = $0.01 USD."
+        },
+        {
+          "question": "Which GitHub Copilot feature does NOT consume AI Credits under the new billing model?",
+          "options": [
+            "Code completions and Next Edit suggestions",
+            "Claude Sonnet chat completions",
+            "GPT-4o requests in Copilot Chat",
+            "Agent mode task execution"
+          ],
+          "correctIndex": 0,
+          "explanation": "Code completions and Next Edit suggestions remain included in all plans and do not consume AI Credits — these features are still effectively flat-rate regardless of usage volume."
+        }
+      ]
+    }
+  ]
+}
