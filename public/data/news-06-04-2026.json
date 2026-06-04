@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-06-04T12:00:00.000Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-02",
+  "coverageEnd": "2026-06-04",
+  "items": [
+    {
+      "id": "article-microsoft-mai-code-build-2026",
+      "type": "article",
+      "title": "Microsoft Launches MAI-Code-1-Flash and MAI-Thinking-1, Its First In-House AI Models for GitHub Copilot",
+      "sourceUrl": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At Build 2026 in San Francisco, Microsoft unveiled MAI-Code-1-Flash, its first in-house 5-billion-parameter coding model that generates application code from natural language descriptions, rolling out across all GitHub Copilot tiers. The announcement was accompanied by MAI-Thinking-1, a 35-billion active-parameter reasoning model trained on commercially licensed data, and five additional MAI models spanning image generation, transcription, and other modalities. CEO Satya Nadella framed the shift as moving from 'consuming a frontier model to fully participating at the frontier.'",
+      "keyConcepts": ["MAI-Code-1-Flash coding model", "MAI-Thinking-1 reasoning model", "GitHub Copilot integration", "Microsoft frontier AI strategy"],
+      "whyItMatters": "Microsoft's pivot to building proprietary AI models reduces its dependence on OpenAI while signaling that tech giants are increasingly competing at the model layer — directly challenging Anthropic, Google, and OpenAI with enterprise-targeted, commercially-licensed alternatives.",
+      "tags": ["microsoft-build", "mai-code", "github-copilot", "reasoning-models", "ai-coding", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does Microsoft's MAI-Code-1-Flash model have?",
+          "options": [
+            "1 billion",
+            "5 billion",
+            "35 billion",
+            "70 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "MAI-Code-1-Flash is a 5-billion-parameter coding model that outperforms Claude Haiku 4.5 on coding benchmarks and is rolling out to all GitHub Copilot tiers through the VS Code model picker and Auto router."
+        },
+        {
+          "question": "What was Microsoft CEO Satya Nadella's key framing for launching the MAI model family at Build 2026?",
+          "options": [
+            "A move to replace OpenAI entirely with proprietary models",
+            "A shift from 'consuming a frontier model to fully participating at the frontier'",
+            "An effort to reduce cloud computing costs for all customers",
+            "A response to competitive pressure from Meta's open-source models"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nadella described the MAI model launches as Microsoft shifting from being a consumer of frontier models (primarily OpenAI's) to becoming a full participant at the frontier — building its own state-of-the-art models trained on commercially licensed data."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-codex-sites-2026-06-02",
+      "type": "article",
+      "title": "OpenAI Codex Gets 'Sites' Feature That Builds and Hosts Interactive Web Apps From Natural Language Prompts",
+      "sourceUrl": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI launched Codex Sites on June 2, 2026, a feature that lets Codex build, deploy, and host live web applications from a natural language prompt — returning a shareable, authenticated URL directly within ChatGPT Business and Enterprise workspaces. Sites transforms analysis, financial models, or project plans into dashboards, planners, and review boards, with partnerships with Wix, Replit, Lovable, and Figma for extended deployment options. The feature is accompanied by role-specific plugins for non-developer white-collar workers such as analysts and marketers, who now make up 20% of Codex's 5 million weekly users and are adopting the technology three times faster than engineers.",
+      "keyConcepts": ["Codex Sites web app generation", "natural language to hosted application", "ChatGPT Business enterprise tools", "role-specific AI plugins"],
+      "whyItMatters": "Codex Sites blurs the line between AI assistant and full-stack developer — non-technical workers can now deploy live, interactive applications without writing code, a shift that expands AI's reach into core business workflows and raises the stakes for traditional no-code and SaaS products.",
+      "tags": ["openai-codex", "codex-sites", "no-code", "enterprise-ai", "web-apps", "chatgpt-business"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What infrastructure does OpenAI use to host apps created by Codex Sites?",
+          "options": [
+            "AWS Lambda",
+            "Microsoft Azure Functions",
+            "Cloudflare Workers",
+            "Google Cloud Run"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI hosts Codex Sites applications on Cloudflare Worker infrastructure, returning a shareable URL with workplace authentication via Sign in with ChatGPT — no external hosting setup is required from the user."
+        },
+        {
+          "question": "Which of the following best describes the primary new user group Codex Sites is designed to serve?",
+          "options": [
+            "Professional software engineers deploying microservices",
+            "Data scientists building ML pipelines",
+            "Non-developers such as financial analysts, marketers, and project managers",
+            "Students learning to code for the first time"
+          ],
+          "correctIndex": 2,
+          "explanation": "Non-developers — including financial analysts, marketers, operators, and researchers — make up approximately 20% of Codex's 5 million weekly users and are adopting the technology three times faster than traditional engineers. Codex Sites and the new role-specific plugins are directly targeting this growing segment."
+        }
+      ]
+    },
+    {
+      "id": "article-alibaba-qwen-third-party-2026-06-04",
+      "type": "article",
+      "title": "Alibaba Opens Qwen AI to Third-Party Commercial Services in Push for Agent Platform Dominance",
+      "sourceUrl": "https://www.caixinglobal.com/2026-06-04/alibaba-opens-qwen-ai-to-third-party-services-in-push-for-agent-dominance-102450730.html",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Alibaba opened its flagship AI application Qwen to third-party commercial service providers on June 4, 2026, allowing users to execute tasks — ordering food, booking flights, finding nearby stores — directly through natural conversation. Initial launch partners include Luckin Coffee, KFC, Mixue Group, and China Eastern Airlines. Future updates will allow brands to operate proactive AI agents that push reminders and recommendations to users before they make requests, transforming Qwen from a reactive chatbot into an agentic commerce platform. Qwen reached 166 million monthly active users in Q1 2026.",
+      "keyConcepts": ["agentic commerce platform", "third-party agent integration", "Qwen AI ecosystem", "proactive AI agents"],
+      "whyItMatters": "Alibaba's move to open Qwen to third-party agents positions it as a WeChat-style super-app for AI in China — a platform where businesses deploy conversational agents directly to consumers, creating a new distribution channel that could reshape how Chinese consumers interact with brands and redefine AI platform competition globally.",
+      "tags": ["alibaba", "qwen", "ai-agents", "agentic-commerce", "china-ai", "ai-platform"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many monthly active users did Alibaba's Qwen reach as of Q1 2026?",
+          "options": [
+            "45 million",
+            "100 million",
+            "166 million",
+            "345 million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qwen reached 166 million monthly active users in Q1 2026, adding 126 million new users in that quarter alone. It is the second-largest AI app in China, trailing ByteDance's Doubao which has 345 million MAU."
+        },
+        {
+          "question": "What makes Qwen's new third-party agent integration 'proactive' compared to a traditional AI assistant?",
+          "options": [
+            "It automatically answers questions the user hasn't asked yet",
+            "Partner brands can deploy agents that send users reminders and recommendations before they make requests",
+            "It uses computer vision to detect when users are near a store",
+            "It monitors competitors to surface better deals automatically"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planned updates will allow partner brands to operate proactive AI agents on Qwen that can reach users before they make requests — for example, sending a flight reminder or a restaurant recommendation at the right moment — turning Qwen into an agentic platform rather than a reactive chatbot."
+        }
+      ]
+    }
+  ]
+}
