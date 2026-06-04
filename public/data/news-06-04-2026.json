@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:00:00.000Z",
+  "generatedAt": "2026-06-04T18:30:00.000Z",
   "weekOf": "2026-06-01",
   "coverageStart": "2026-06-02",
   "coverageEnd": "2026-06-04",
@@ -115,6 +115,120 @@
           ],
           "correctIndex": 1,
           "explanation": "Planned updates will allow partner brands to operate proactive AI agents on Qwen that can reach users before they make requests — for example, sending a flight reminder or a restaurant recommendation at the right moment — turning Qwen into an agentic platform rather than a reactive chatbot."
+        }
+      ]
+    },
+    {
+      "id": "article-canada-ai-strategy-2026-06-04",
+      "type": "article",
+      "title": "Canada Launches 'AI for All' National Strategy Targeting 250,000 Jobs and $200 Billion in Economic Growth",
+      "sourceUrl": "https://www.ctvnews.ca/politics/article/pm-carney-governments-ai-strategy-pledges-thousands-of-jobs-lacks-safety-details/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Prime Minister Mark Carney launched Canada's national AI strategy 'AI for All' on June 4, 2026 in Toronto, pledging to generate $200 billion in economic growth and create 250,000 new AI-related jobs over five years. The strategy includes over $2.3 billion in federal investment organized around six pillars — including a $700 million Compute Access Fund to help small and medium businesses access AI infrastructure — and targets raising AI adoption across Canadian industry from 12% today to 60% by 2034. Critics noted that while the plan commits to modernizing privacy legislation and introducing online safety laws, it lacks specific AI safety provisions.",
+      "keyConcepts": ["national AI strategy", "Compute Access Fund", "AI adoption targets", "AI workforce development"],
+      "whyItMatters": "Canada's 'AI for All' strategy positions the country to compete globally in AI talent and infrastructure investment, while the gap between ambitious job-creation targets and vague safety commitments highlights the governance tension all democratic nations face as they race to capture AI economic value.",
+      "tags": ["canada-ai", "ai-strategy", "ai-workforce", "ai-policy", "mark-carney", "ai-investment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Canada's target for AI adoption across Canadian industries by 2034 under the 'AI for All' strategy?",
+          "options": [
+            "From 12% to 40%",
+            "From 12% to 60%",
+            "From 25% to 75%",
+            "From 30% to 80%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Canada's 'AI for All' strategy aims to increase AI adoption from just over 12% of Canadian industry today to 60% by 2034 — a five-fold increase supported by federal investment including the $700 million Compute Access Fund for small and medium businesses."
+        },
+        {
+          "question": "Which financial vehicle in Canada's AI strategy specifically targets small and medium business AI access?",
+          "options": [
+            "Business Development AI Fund",
+            "National AI Research Initiative",
+            "Compute Access Fund",
+            "Digital Canada Prosperity Fund"
+          ],
+          "correctIndex": 2,
+          "explanation": "The strategy established the $700 million Compute Access Fund specifically to help small and medium businesses access the computing infrastructure needed to develop and deploy AI solutions — recognizing that compute cost is a key barrier to enterprise AI adoption outside large corporations."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-eo-2026-06-04",
+      "type": "article",
+      "title": "Trump Signs AI Executive Order Creating Voluntary Frontier Model Review and Federal Cybersecurity Clearinghouse",
+      "sourceUrl": "https://datamatters.sidley.com/2026/06/04/cyber-strategy-at-the-ai-frontier-president-trump-releases-executive-order-to-promote-advanced-artificial-intelligence-innovation-and-security/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "President Trump signed an executive order titled 'Promoting Advanced Artificial Intelligence Innovation and Security' on June 2, 2026, directing federal agencies to establish a framework for secure frontier AI deployment. The order creates a voluntary program allowing AI developers to submit their most powerful models to the government for testing up to 30 days before public release, and establishes an AI cybersecurity clearinghouse — coordinated with industry and critical infrastructure operators — to identify and remediate software vulnerabilities at scale. The order explicitly prohibits mandatory governmental licensing or pre-clearance requirements for AI model development, drawing a sharp line between national security review and regulatory gatekeeping.",
+      "keyConcepts": ["frontier AI model voluntary review", "AI cybersecurity clearinghouse", "federal AI security framework", "no mandatory AI licensing"],
+      "whyItMatters": "The executive order reflects a distinctly American approach to frontier AI governance: enable voluntary national-security cooperation without creating bureaucratic barriers to innovation — a stance that contrasts sharply with the EU AI Act's mandatory compliance regime and may set the template for US AI regulation heading into the AGI era.",
+      "tags": ["trump", "ai-policy", "executive-order", "ai-security", "cybersecurity", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under Trump's AI executive order, how many days before public release can AI companies voluntarily submit frontier models for government testing?",
+          "options": [
+            "7 days",
+            "14 days",
+            "30 days",
+            "60 days"
+          ],
+          "correctIndex": 2,
+          "explanation": "The executive order establishes a voluntary program where AI developers can provide the government with early access to frontier models for up to 30 days before releasing them to other trusted partners — enabling national security review without making it mandatory."
+        },
+        {
+          "question": "Which provision of the Trump AI executive order draws the clearest line against European-style AI regulation?",
+          "options": [
+            "A ban on congressional AI oversight committees",
+            "A prohibition on mandatory licensing, pre-clearance, or permitting requirements for AI models",
+            "An exemption from existing export control laws for open-source AI models",
+            "A requirement that all federal AI systems be built on American-made models"
+          ],
+          "correctIndex": 1,
+          "explanation": "The executive order explicitly states that nothing shall be construed to authorize creation of any mandatory governmental licensing, pre-clearance, or permitting requirement for the development, publication, release, or distribution of AI models — a direct rejection of the type of pre-market approval regime that would mirror the EU AI Act's approach to high-risk AI systems."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt-rosalind-2026-06-03",
+      "type": "article",
+      "title": "OpenAI Updates GPT-Rosalind With 31% Genomics Compute Reduction, 50+ Database Plugins, and Global Access",
+      "sourceUrl": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+      "verified": false,
+      "publishedAt": "2026-06-03",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "OpenAI released a major capability update to GPT-Rosalind on June 3, 2026, a domain-specialized model built for life sciences research. The update cuts genomics compute costs by 31% compared to GPT-5.5 for long-horizon quantitative biology analyses, adds Codex plugins connecting researchers to over 50 scientific databases, and opens global access for the first time — with Novo Nordisk joining as a major pharmaceutical partner. OpenAI also expanded its Biodefense program, extending GPT-Rosalind access to vetted U.S. government and allied public-health partners for pandemic preparedness and early threat detection.",
+      "keyConcepts": ["domain-specialized AI models", "life sciences AI research", "biodefense AI", "Codex scientific plugins"],
+      "whyItMatters": "GPT-Rosalind's compute efficiency gains and global rollout signal that AI is moving beyond general-purpose models into domain-specialized tools that can genuinely compete with trained scientists in high-stakes research workflows — a shift that could compress pharmaceutical R&D timelines and transform government biodefense capabilities.",
+      "tags": ["openai", "gpt-rosalind", "life-sciences", "drug-discovery", "ai-research", "biodefense"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By what percentage does the updated GPT-Rosalind reduce compute usage for genomics analyses compared to GPT-5.5?",
+          "options": [
+            "12%",
+            "21%",
+            "31%",
+            "45%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The updated GPT-Rosalind completes long-horizon quantitative biology and genomics analyses using 31% fewer tokens than GPT-5.5 — a meaningful efficiency gain for research pipelines that routinely process enormous datasets from sequencing and omics experiments."
+        },
+        {
+          "question": "Which pharmaceutical company joined GPT-Rosalind's program as part of the June 2026 global access expansion?",
+          "options": [
+            "Pfizer",
+            "Novo Nordisk",
+            "Johnson & Johnson",
+            "Moderna"
+          ],
+          "correctIndex": 1,
+          "explanation": "Novo Nordisk joined GPT-Rosalind as a major partner as part of OpenAI's first expansion of the program to global access — opening the domain-specialized model to eligible research organizations worldwide for the first time beyond the original U.S.-focused cohort."
         }
       ]
     }
