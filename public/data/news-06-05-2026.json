@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-06-05T12:00:00Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-04",
+  "coverageEnd": "2026-06-04",
+  "items": [
+    {
+      "id": "article-apple-poke-messages-business",
+      "type": "article",
+      "title": "Apple Approves Poke as First AI Agent on Messages for Business Platform",
+      "sourceUrl": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Apple has approved Poke as the first AI agent on its Messages for Business platform, enabling businesses to deploy conversational AI directly within Apple's native iOS messaging infrastructure. The integration allows AI agents to handle customer inquiries, bookings, and purchases through familiar messaging interfaces without requiring separate apps. This marks a significant step toward agentic commerce on Apple's platform, potentially reaching hundreds of millions of iPhone users.",
+      "keyConcepts": ["AI agents", "Messages for Business", "agentic commerce", "conversational AI"],
+      "whyItMatters": "Apple opening Messages for Business to AI agents signals a new era of enterprise AI deployment through consumer-facing channels, putting AI-powered business interactions directly in users' native messaging experience.",
+      "tags": ["apple", "ai-agents", "messages-for-business", "agentic-commerce", "ios", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What platform did Apple approve Poke to operate as an AI agent on?",
+          "options": ["iMessage for consumers", "Messages for Business", "App Store Connect", "Apple Business Chat"],
+          "correctIndex": 1,
+          "explanation": "Poke was approved as the first AI agent on Apple's Messages for Business platform, which allows businesses to interact with customers through Apple's messaging infrastructure."
+        },
+        {
+          "question": "What types of tasks can AI agents like Poke handle within Apple Messages for Business?",
+          "options": ["Only text responses with no transactional actions", "Customer inquiries, bookings, and purchases", "Only product catalog browsing", "Apple Pay transactions exclusively"],
+          "correctIndex": 1,
+          "explanation": "AI agents on Messages for Business can handle a range of customer interactions including inquiries, reservations, and purchases — enabling full agentic commerce workflows within Apple's messaging platform."
+        }
+      ]
+    },
+    {
+      "id": "article-wwdc-2026-siri-apple-intelligence",
+      "type": "article",
+      "title": "WWDC 2026 Preview: Siri Gets a Major AI Overhaul with Apple Intelligence Updates",
+      "sourceUrl": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Apple is expected to unveil a significantly upgraded Siri at WWDC 2026, transforming the assistant into a more conversational AI capable of handling multi-step tasks and understanding context across apps and services. Apple Intelligence updates will expand across iOS, iPadOS, and macOS, with a new AI agent integration for the App Store allowing agents to delegate tasks such as booking reservations and controlling smart home devices. The revamp represents Apple's most ambitious AI product push to date.",
+      "keyConcepts": ["Apple Intelligence", "Siri revamp", "WWDC 2026", "multi-step AI agents"],
+      "whyItMatters": "Apple's AI push at WWDC 2026 could reshape how hundreds of millions of users interact with their devices daily, marking a broader industry shift toward ambient, context-aware AI assistance built into operating systems.",
+      "tags": ["apple", "siri", "wwdc-2026", "apple-intelligence", "ai-assistant", "ios"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the most anticipated AI announcement expected at WWDC 2026?",
+          "options": ["A new Apple AI chip", "A major Siri overhaul with multi-step task support", "Apple's own large language model release", "AR glasses powered by AI"],
+          "correctIndex": 1,
+          "explanation": "The most anticipated announcement at WWDC 2026 is a major AI upgrade to Siri, transforming it into a more conversational assistant capable of understanding context and handling multi-step tasks across apps and services."
+        },
+        {
+          "question": "What capability will the new AI agent integration with the App Store provide?",
+          "options": ["Automatic app installation based on usage patterns", "Agents that can delegate tasks like booking reservations and managing smart home devices", "AI-generated app icons and themes", "Automated app store reviews and ratings"],
+          "correctIndex": 1,
+          "explanation": "Apple plans to introduce an AI agent integration with the App Store that allows agents to delegate tasks such as booking reservations, managing everyday tasks, editing documents, or controlling smart home devices."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-facebook-ai-creator-assistant",
+      "type": "article",
+      "title": "Meta Launches AI Creator Assistant on Facebook with Personalized Content Recommendations",
+      "sourceUrl": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-industry"],
+      "summary": "Meta has rolled out a new AI creator assistant on Facebook that provides content creators with personalized recommendations based on their content style, audience performance, and community engagement patterns. The tool uses AI to surface insights on what content resonates best with specific audiences, helping creators optimize their strategy without manually analyzing their own metrics. The assistant is positioned as an AI co-pilot for creators looking to grow on Facebook's platform.",
+      "keyConcepts": ["AI creator tools", "content recommendations", "social media AI", "Meta AI assistant"],
+      "whyItMatters": "Meta embedding AI directly into the creator workflow demonstrates how AI is becoming a standard layer across content creation platforms, potentially changing how digital creators develop and distribute content at scale.",
+      "tags": ["meta", "facebook", "creator-tools", "content-ai", "social-media", "ai-recommendations"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What data does Meta's new AI creator assistant use to generate recommendations?",
+          "options": ["Only public engagement metrics from competitor pages", "Content style, performance, community insights, and goals", "Follower demographics and ad spend data only", "Trending topics across all social media platforms"],
+          "correctIndex": 1,
+          "explanation": "Meta's AI creator assistant generates personalized recommendations based on a creator's content style, performance history, community characteristics, and stated goals — tailoring advice to each creator's specific situation."
+        },
+        {
+          "question": "What is the primary purpose of Meta's new AI creator assistant on Facebook?",
+          "options": ["To automate posting schedules entirely", "To help creators optimize their content strategy and grow their audiences", "To moderate comments and filter spam", "To generate AI-written captions automatically"],
+          "correctIndex": 1,
+          "explanation": "The primary purpose is to give content creators personalized, AI-driven recommendations to help them grow their audiences and optimize their content strategy on Facebook."
+        }
+      ]
+    },
+    {
+      "id": "article-airbnb-brian-chesky-ai-lab",
+      "type": "article",
+      "title": "Airbnb's Brian Chesky Plans to Launch New AI Research Lab",
+      "sourceUrl": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Airbnb CEO Brian Chesky has announced plans to back and launch a new AI research lab, marking a significant bet by a major consumer platform on foundational AI development. The move signals that platform companies are now building their own AI research capabilities rather than relying solely on third-party model providers. Chesky's initiative is part of a broader wave of non-AI-native companies establishing dedicated research arms.",
+      "keyConcepts": ["AI research labs", "corporate AI investment", "tech CEO AI strategies", "vertical AI research"],
+      "whyItMatters": "Chesky's decision to build an AI lab underscores how competitive advantage in consumer tech is increasingly tied to proprietary AI capabilities, with platform companies no longer willing to be purely downstream consumers of AI research.",
+      "tags": ["airbnb", "ai-lab", "research", "brian-chesky", "corporate-ai", "ai-investment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Brian Chesky's plan to launch an AI lab signal about the broader industry?",
+          "options": ["AI is only relevant for tech-first companies", "Consumer platform companies are now investing in foundational AI research", "AI labs are replacing traditional R&D departments entirely", "Airbnb is pivoting away from its core business"],
+          "correctIndex": 1,
+          "explanation": "Chesky's move signals that even companies primarily known as consumer platforms — not AI-first companies — are now investing in dedicated AI research, reflecting how foundational AI capabilities are becoming essential to competitive advantage across all tech sectors."
+        },
+        {
+          "question": "Why might consumer platform companies like Airbnb invest in AI research labs rather than just using existing AI APIs?",
+          "options": ["API costs are too high for large companies", "To build proprietary AI capabilities that differentiate their products", "Government regulations require their own AI infrastructure", "To avoid licensing agreements with AI providers"],
+          "correctIndex": 1,
+          "explanation": "Companies build their own AI research capabilities to develop proprietary models and techniques tailored to their specific domain, creating competitive moats that can't be replicated simply by using third-party APIs."
+        }
+      ]
+    }
+  ]
+}
