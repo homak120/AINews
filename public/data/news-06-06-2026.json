@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T12:00:00Z",
+  "generatedAt": "2026-06-06T18:00:00Z",
   "weekOf": "2026-06-01",
   "coverageStart": "2026-06-04",
   "coverageEnd": "2026-06-06",
@@ -40,6 +40,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Anthropic explicitly states that a pause would require multiple well-resourced labs in multiple countries to simultaneously stop under the same verifiable conditions. If only one company paused, competitors would race ahead, gaining a decisive advantage — so the only viable mechanism is multilateral, coordinated action."
+        }
+      ]
+    },
+    {
+      "id": "youtube-PY6xQjT1n2Y",
+      "type": "video",
+      "title": "The Wire: Claude Opus 4.8 Launches, OpenAI Codex Gets Sites Plugin, Meta Prices Hatch at $200/Month",
+      "youtubeId": "PY6xQjT1n2Y",
+      "sourceUrl": "https://www.youtube.com/watch?v=PY6xQjT1n2Y",
+      "verified": false,
+      "publishedAt": "2026-06-05",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "TheAIGRID's daily Wire briefing for June 5 covers four major product releases: Anthropic's Claude Opus 4.8, which launched at the same price as 4.7 with a headline focus on honesty — early testers report the model flags its own doubts instead of bluffing and lets flawed code slip through four times less often than its predecessor. OpenAI expanded Codex with a new Sites plugin enabling web app creation from plain-English prompts and added integrations with 62 apps including Salesforce, Figma, and Snowflake. Perplexity unveiled a hybrid local-cloud inference orchestrator at Computex 2026 that automatically routes sensitive tasks on-device while sending compute-heavy work to frontier cloud models. Meta confirmed plans to price its Hatch consumer AI agent at up to $200 per month.",
+      "keyConcepts": [
+        "Claude Opus 4.8 honesty and self-correction",
+        "OpenAI Codex Sites plugin",
+        "hybrid on-device/cloud inference routing",
+        "consumer AI agent pricing strategy"
+      ],
+      "whyItMatters": "June 5 packed in four distinct product decisions that collectively trace the emerging shape of AI competition: labs differentiating on model character (honesty) rather than just capability, developer tools expanding into no-code territory, on-device privacy-preserving AI becoming a distinct product category, and consumer AI agents testing $200/month price points — all within one news cycle.",
+      "tags": ["theaigrid", "claude-opus-4-8", "openai-codex", "perplexity", "meta-hatch", "ai-products"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the headline trait of Claude Opus 4.8 that distinguishes it from its predecessor, according to early testers?",
+          "options": [
+            "Dramatically faster response times at lower cost",
+            "The model flags its own doubts rather than bluffing through uncertain answers",
+            "Native image generation built directly into the model",
+            "Support for 10x longer context windows"
+          ],
+          "correctIndex": 1,
+          "explanation": "Early testers highlighted that Claude Opus 4.8's defining characteristic is honesty — the model proactively flags its own uncertainty rather than confidently asserting incorrect information. Anthropic's internal tests also show it lets flawed code slip through four times less often than Opus 4.7, making it meaningfully more reliable for agentic coding tasks."
+        },
+        {
+          "question": "How does Perplexity's hybrid inference orchestrator decide where to process each AI task?",
+          "options": [
+            "The user manually assigns apps to either local or cloud mode at setup",
+            "All tasks run locally first and overflow to cloud when the device is busy",
+            "A compact local model classifies each subtask by data sensitivity and compute requirements",
+            "Tasks are routed based on internet connection speed at the moment of the request"
+          ],
+          "correctIndex": 2,
+          "explanation": "Perplexity's system uses a compact on-device router model that classifies each subtask along two dimensions — data sensitivity and compute requirements. Sensitive data such as health records and financial files stays on-device; tasks requiring frontier model intelligence travel to the cloud. No manual configuration is needed from the user."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ef4WR5vUJro",
+      "type": "video",
+      "title": "The Week the AI Story Shifted: IPO Filings, Memory Rewrites, and a 269-Page AI Bill",
+      "youtubeId": "ef4WR5vUJro",
+      "sourceUrl": "https://www.youtube.com/watch?v=ef4WR5vUJro",
+      "verified": false,
+      "publishedAt": "2026-06-05",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The AI Daily Brief's weekly wrap for the first week of June argues this will be remembered as the week the AI narrative fundamentally shifted on three fronts simultaneously. OpenAI quietly rewired ChatGPT's memory architecture with Dreaming V3 while users slept; Anthropic confidentially filed a draft S-1 with the SEC as its revenue run-rate hit approximately $47 billion — up from $10 billion a year prior; and Congress released a 269-page bipartisan discussion draft of the Great American AI Act that would override state AI regulations for three years. NVIDIA's RTX Spark superchip announcement at Computex also marked the chip giant's formal entry into the consumer laptop market.",
+      "keyConcepts": [
+        "Anthropic IPO S-1 confidential filing",
+        "AI governance federal preemption",
+        "ChatGPT Dreaming V3 memory architecture",
+        "NVIDIA RTX Spark consumer laptop chip"
+      ],
+      "whyItMatters": "The convergence of a frontier lab filing for IPO, Congress attempting to nationalize AI regulation, and OpenAI silently shipping a new memory paradigm in a single week signals that AI has moved from a technology story to a financial, political, and infrastructure story simultaneously — the competitive and governance stakes are now high enough that everything is happening at once.",
+      "tags": ["ai-daily-brief", "anthropic-ipo", "great-american-ai-act", "chatgpt-memory", "nvidia-rtx-spark", "weekly-recap"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What financial milestone accompanied Anthropic's confidential S-1 IPO filing in early June 2026?",
+          "options": [
+            "Anthropic reported its first annual profit after years of losses",
+            "Anthropic's revenue run-rate reached approximately $47 billion, up from $10 billion a year earlier",
+            "Anthropic was acquired by Amazon at a $965 billion valuation",
+            "Anthropic surpassed $100 billion in its latest fundraising round"
+          ],
+          "correctIndex": 1,
+          "explanation": "At the time of its confidential S-1 filing, Anthropic reported a revenue run-rate of approximately $47 billion — a roughly 5x increase from its $10 billion annual revenue the prior year. The explosive growth was driven primarily by Claude Code and enterprise API adoption, making it one of the fastest revenue ramps in software history."
+        },
+        {
+          "question": "What is the significance of NVIDIA's RTX Spark announcement at Computex 2026?",
+          "options": [
+            "It is NVIDIA's first chip designed exclusively for data centers, not consumer use",
+            "It represents NVIDIA's entry into the consumer laptop chip market, competing directly with Intel and Apple",
+            "It is a software-only AI acceleration layer that works with any existing chip",
+            "It is a gaming GPU that incidentally runs AI workloads faster than dedicated AI chips"
+          ],
+          "correctIndex": 1,
+          "explanation": "NVIDIA's RTX Spark superchip, unveiled at Computex 2026, marks the company's formal entry into the consumer laptop chip segment — a market historically dominated by Intel and AMD on Windows PCs and Apple Silicon on Macs. NVIDIA positioned it as a platform for running local AI agents, directly tying into the on-device AI theme emerging across multiple vendors that week."
         }
       ]
     },
@@ -121,6 +209,92 @@
           ],
           "correctIndex": 1,
           "explanation": "The strategy explicitly acknowledges that while Canada has world-class AI talent and one of the fastest-growing digital sectors in the G7, it is among the slowest countries to adopt AI at scale. This gap risks driving talent and startups abroad and leaving critical AI infrastructure under foreign control — the core problem the 'AI for All' plan is designed to solve."
+        }
+      ]
+    },
+    {
+      "id": "techtimes-great-american-ai-act",
+      "type": "article",
+      "title": "Great American AI Act Would Freeze State Consumer Protections for Three Years, Drawing Immediate Backlash",
+      "sourceUrl": "https://www.techtimes.com/articles/317903/20260606/federal-ai-regulation-bill-freezes-state-consumer-protections-three-years-sparks-revolt.htm",
+      "verified": false,
+      "publishedAt": "2026-06-06",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Representatives Jay Obernolte (R-CA) and Lori Trahan (D-MA) released a 269-page bipartisan discussion draft of the Great American AI Act on June 4, proposing a federal AI governance framework that would preempt state AI regulations for three years. The bill creates binding requirements specifically for 'large frontier developers' — AI companies with over $500 million in annual revenue — across four pillars: model governance, workforce monitoring, cybersecurity, and R&D support. The draft landed to near-universal backlash from labor unions, consumer advocates, and House Democrats, who argue the three-year preemption strips states of authority to protect consumers, workers, and children from AI harms while a federal framework is built.",
+      "keyConcepts": [
+        "federal AI preemption of state laws",
+        "large frontier developer requirements",
+        "bipartisan AI governance framework",
+        "state vs federal AI regulation battle"
+      ],
+      "whyItMatters": "The Great American AI Act is the most substantive federal AI legislation drafted to date — but its three-year state preemption clause reveals the core tension in US AI governance: industry wants a single national standard to avoid a patchwork of 50 state rules, while consumer advocates fear preemption leaves a regulatory vacuum that bad actors will exploit before any federal framework is enforced.",
+      "tags": ["ai-regulation", "great-american-ai-act", "congress", "ai-policy", "ai-governance", "federal-preemption"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the most controversial mechanism in the Great American AI Act's discussion draft?",
+          "options": [
+            "A requirement for all AI companies to publish their training datasets publicly",
+            "A three-year suspension of state AI regulations while a federal framework is established",
+            "A mandatory licensing system for all AI models above a certain capability threshold",
+            "A ban on using AI-generated content in political advertising"
+          ],
+          "correctIndex": 1,
+          "explanation": "The three-year preemption clause — which would block states from enforcing laws 'specifically regulating the development' of AI models — drew immediate and near-universal opposition from labor unions, consumer advocates, and House Democrats. Critics argue the clause removes existing state-level protections for consumers and workers while the promised federal replacement framework may take years to materialize."
+        },
+        {
+          "question": "What revenue threshold defines a 'large frontier developer' subject to binding requirements under the Great American AI Act?",
+          "options": [
+            "More than $100 million in annual revenue",
+            "More than $250 million in annual revenue",
+            "More than $500 million in annual revenue",
+            "More than $1 billion in annual revenue"
+          ],
+          "correctIndex": 2,
+          "explanation": "The bill defines 'large frontier developers' as AI companies with more than $500 million in annual revenue that have trained the most powerful AI models. This threshold is designed to focus binding governance requirements on the handful of companies capable of building frontier models, while avoiding regulatory burden on smaller AI startups and researchers."
+        }
+      ]
+    },
+    {
+      "id": "marktechpost-perplexity-hybrid-inference",
+      "type": "article",
+      "title": "Perplexity Unveils Hybrid Local-Cloud Inference Orchestrator for Personal Computer at Computex 2026",
+      "sourceUrl": "https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/",
+      "verified": false,
+      "publishedAt": "2026-06-05",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Perplexity AI announced the first hybrid local-server inference orchestrator for its Personal Computer agent at Computex 2026, demonstrated onstage alongside Intel CEO Lip-Bu Tan. The system uses a compact on-device router model to automatically classify each AI subtask by data sensitivity and compute requirements — routing sensitive data like health records and financial files to on-device processing while sending compute-intensive tasks to frontier cloud models, with no manual configuration required from users. The orchestration framework is model-agnostic and chip-agnostic, confirmed to run on Intel Core Ultra Series 3 and NVIDIA RTX Spark hardware, and is expected to reach Perplexity Computer users in July 2026.",
+      "keyConcepts": [
+        "hybrid on-device/cloud inference routing",
+        "data sensitivity-based task classification",
+        "privacy-preserving AI agent architecture",
+        "chip-agnostic orchestration framework"
+      ],
+      "whyItMatters": "Perplexity's orchestrator solves a real barrier to enterprise AI adoption: users don't trust cloud-only agents with sensitive data, but fully on-device models can't match frontier capability. By automatically routing based on sensitivity rather than asking users to make that judgment, Perplexity is betting that seamless privacy-aware routing — not just raw capability — is the next product differentiator in AI agents.",
+      "tags": ["perplexity", "on-device-ai", "hybrid-inference", "ai-agents", "computex-2026", "privacy-preserving-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What determines whether Perplexity's hybrid orchestrator processes a task locally on-device or sends it to a cloud model?",
+          "options": [
+            "The user's current internet connection speed",
+            "A compact local router model that classifies each subtask by data sensitivity and compute requirements",
+            "User-defined app-level rules configured once during setup",
+            "The time of day, with sensitive tasks defaulting to cloud during business hours"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key innovation is the compact on-device router model that acts as an automatic traffic controller. For each subtask, it evaluates two factors: how sensitive the data is (health records, financial files stay local) and how much compute the task needs (frontier-level reasoning goes to the cloud). Users get privacy and capability without making routing decisions themselves."
+        },
+        {
+          "question": "Which hardware platforms did Perplexity confirm as compatible with its hybrid AI orchestration framework at Computex 2026?",
+          "options": [
+            "Apple M-series and Qualcomm Snapdragon X Elite",
+            "Intel Core Ultra Series 3 and NVIDIA RTX Spark",
+            "AMD Ryzen AI Max and Samsung Exynos",
+            "Any ARM-based chip manufactured after 2024"
+          ],
+          "correctIndex": 1,
+          "explanation": "Perplexity confirmed the framework runs on Intel Core Ultra Series 3 and NVIDIA RTX Spark — the two primary AI PC chip platforms announced at Computex 2026. The company emphasized that the orchestration layer is chip-agnostic by design, with Intel and NVIDIA representing the initial launch partners rather than exclusive hardware requirements."
         }
       ]
     }
