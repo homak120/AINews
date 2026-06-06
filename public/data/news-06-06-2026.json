@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-06-06T12:00:00Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-04",
+  "coverageEnd": "2026-06-06",
+  "items": [
+    {
+      "id": "youtube-4rEgNiP5V2E",
+      "type": "video",
+      "title": "Anthropic Calls for Global AI Pause as Recursive Self-Improvement Risks Emerge",
+      "youtubeId": "4rEgNiP5V2E",
+      "sourceUrl": "https://www.youtube.com/watch?v=4rEgNiP5V2E",
+      "verified": false,
+      "publishedAt": "2026-06-06",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Wes Roth analyzes Anthropic's extraordinary call for a coordinated global slowdown in frontier AI development, triggered by the company's 'When AI Builds Itself' report co-authored by Jack Clark and Marina Favaro. The report reveals that over 80% of code now merged into Anthropic's own codebase is written by Claude, and warns that current AI systems are approaching the threshold of recursive self-improvement. Roth examines the paradox of a leading frontier lab simultaneously building the most powerful AI models in history while publicly arguing the industry should pump the brakes.",
+      "keyConcepts": [
+        "recursive self-improvement",
+        "coordinated AI pause",
+        "frontier lab safety policy",
+        "AI-authored code acceleration"
+      ],
+      "whyItMatters": "When a leading frontier AI lab publicly calls for a global development slowdown and backs it with internal data showing AI already writes the majority of its own codebase, the theoretical AI safety debate becomes concrete and urgent. Anthropic's conditional framing — any pause only works if all major labs coordinate — also highlights the collective action problem at the heart of AI governance.",
+      "tags": ["anthropic", "ai-safety", "ai-pause", "recursive-self-improvement", "ai-policy", "wes-roth"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of code merged into Anthropic's codebase is reportedly now written by Claude?",
+          "options": ["About 20%", "About 50%", "Over 80%", "Nearly 100%"],
+          "correctIndex": 2,
+          "explanation": "Anthropic's 'When AI Builds Itself' report revealed that over 80% of the code merged into Anthropic's own codebase is now authored by Claude — up from low single digits before Claude Code launched in early 2025. This data point is central to Anthropic's argument that recursive self-improvement is no longer a distant theoretical risk."
+        },
+        {
+          "question": "Why does Anthropic argue that a single lab pausing AI development would NOT be sufficient?",
+          "options": [
+            "Because pausing development would violate their investor agreements",
+            "Because rival labs would simply race ahead, making a unilateral pause counterproductive",
+            "Because the pause would only need to last a few days to be effective",
+            "Because governments already regulate AI development speed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic explicitly states that a pause would require multiple well-resourced labs in multiple countries to simultaneously stop under the same verifiable conditions. If only one company paused, competitors would race ahead, gaining a decisive advantage — so the only viable mechanism is multilateral, coordinated action."
+        }
+      ]
+    },
+    {
+      "id": "pcworld-chatgpt-dreaming-v3",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT Dreaming V3: A Self-Updating Memory Architecture for Persistent Context",
+      "sourceUrl": "https://www.pcworld.com/article/3158111/chatgpt-new-dreaming-feature-makes-it-way-better-at-remembering-you.html",
+      "verified": false,
+      "publishedAt": "2026-06-05",
+      "topics": ["ai-engineering"],
+      "summary": "OpenAI began rolling out Dreaming V3, a new background memory synthesis architecture for ChatGPT, to Plus and Pro subscribers on June 4, 2026. Unlike previous memory systems that stored facts as static entries, Dreaming V3 runs a synthesis pass after each conversation ends — automatically updating stored context for freshness (e.g., recognizing that a trip you planned is now in the past), continuity (tracking ongoing projects), and relevance (surfacing the right memories at the right moment). OpenAI reports a roughly 5x reduction in compute cost for memory synthesis, enabling planned expansion to free-tier users.",
+      "keyConcepts": [
+        "memory synthesis architecture",
+        "context freshness and continuity",
+        "personalized AI agents",
+        "compute-efficient personalization"
+      ],
+      "whyItMatters": "Dreaming V3 moves ChatGPT from storing facts to synthesizing relationships over time — a meaningful step toward AI that genuinely maintains long-term context with users rather than just accumulating disconnected entries. The 5x compute reduction also signals that persistent personalization is becoming economically viable at scale, which has broad implications for how agentic AI products will be built.",
+      "tags": ["openai", "chatgpt", "memory-systems", "ai-engineering", "personalization", "dreaming-v3"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary difference between Dreaming V3 and ChatGPT's previous memory system?",
+          "options": [
+            "Dreaming V3 stores more total memories than previous versions",
+            "Dreaming V3 runs a synthesis pass after conversations to update and expire memories dynamically",
+            "Dreaming V3 requires users to manually approve each new memory entry",
+            "Dreaming V3 uses a separate AI model trained exclusively on memory management"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key innovation in Dreaming V3 is its background synthesis pass that runs after conversations end. Rather than simply accumulating facts, it actively updates stored memories for freshness (expiring outdated information like past travel plans), continuity (connecting ongoing project threads), and relevance (ensuring the right context surfaces at the right time)."
+        },
+        {
+          "question": "Which ChatGPT subscription tiers received Dreaming V3 first when it launched on June 4, 2026?",
+          "options": [
+            "Free and Go tiers only",
+            "All tiers simultaneously",
+            "Plus and Pro subscribers in the United States",
+            "Enterprise and Team subscribers only"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI initially rolled out Dreaming V3 to ChatGPT Plus and Pro subscribers in the United States, with plans to expand to additional tiers and international markets. The approximately 5x compute cost reduction makes expansion to free-tier users economically viable in the near term."
+        }
+      ]
+    },
+    {
+      "id": "cbc-canada-ai-for-all-strategy",
+      "type": "article",
+      "title": "Canada Launches 'AI for All' National Strategy with $2.3B in Funding and 90,000 Job Targets",
+      "sourceUrl": "https://www.cbc.ca/news/politics/carney-ai-strategy-9.7223236",
+      "verified": false,
+      "publishedAt": "2026-06-04",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Prime Minister Mark Carney launched Canada's 'AI for All' national AI strategy on June 4, committing over $2.3 billion in funding with a goal of creating up to 90,000 AI-related jobs and work placements by 2031. The strategy is organized around six pillars — protecting Canadians, empowering workers, powering shared prosperity, building digital sovereignty, scaling Canadian AI champions, and building international partnerships. Notable commitments include free AI literacy training for all Canadians, access to trusted AI agents for every post-secondary student, and new legislation to update privacy protections against deepfakes and surveillance pricing.",
+      "keyConcepts": [
+        "national AI strategy",
+        "AI workforce development at scale",
+        "AI literacy as public infrastructure",
+        "digital sovereignty"
+      ],
+      "whyItMatters": "Canada's move to treat AI literacy as universal public infrastructure — backed by $2.3B in funding — signals a shift among major economies from reactive AI regulation toward proactive workforce transformation. The strategy's frank acknowledgment that Canada lags in AI adoption despite world-class talent makes it a useful case study in the gap between AI capability and organizational readiness.",
+      "tags": ["canada", "ai-strategy", "ai-workforce", "ai-literacy", "ai-policy", "national-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the target number of AI-related jobs and work placement opportunities Canada's 'AI for All' strategy aims to create by 2031?",
+          "options": ["25,000", "50,000", "90,000", "250,000"],
+          "correctIndex": 2,
+          "explanation": "Canada's 'AI for All' national strategy targets up to 90,000 AI-related jobs and work placement opportunities by 2031, backed by over $2.3 billion in government funding. The strategy was announced by Prime Minister Mark Carney in Toronto on June 4, 2026."
+        },
+        {
+          "question": "According to Canada's 'AI for All' strategy, what problem is the plan primarily trying to address?",
+          "options": [
+            "Canada spends too much on AI research with few commercial results",
+            "Canada has world-class AI talent but is among the slowest countries to adopt AI at scale",
+            "Canadian AI startups are being acquired by US companies at too high a rate",
+            "Canada lacks AI safety regulations compared to the EU"
+          ],
+          "correctIndex": 1,
+          "explanation": "The strategy explicitly acknowledges that while Canada has world-class AI talent and one of the fastest-growing digital sectors in the G7, it is among the slowest countries to adopt AI at scale. This gap risks driving talent and startups abroad and leaving critical AI infrastructure under foreign control — the core problem the 'AI for All' plan is designed to solve."
+        }
+      ]
+    }
+  ]
+}
