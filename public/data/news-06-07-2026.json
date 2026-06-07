@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-06-07T12:00:00Z",
+  "weekOf": "2026-06-01",
+  "coverageStart": "2026-06-06",
+  "coverageEnd": "2026-06-06",
+  "items": [
+    {
+      "id": "techtimes-gemini-35-pro-june",
+      "type": "article",
+      "title": "Google Gemini 3.5 Pro Nears June Launch With 2 Million Token Context and Deep Think Reasoning",
+      "sourceUrl": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm",
+      "verified": false,
+      "publishedAt": "2026-06-06",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google's Gemini 3.5 Pro, unveiled at I/O 2026 alongside Flash but held back from general availability, is edging toward a late June 2026 release with confirmed specs: a 2-million-token context window and a dedicated Deep Think reasoning mode. The model is currently in internal use and limited Vertex preview while the broader public waits. Sundar Pichai told the I/O audience to 'give us until next month,' drawing audible groans from those hoping for immediate access.",
+      "keyConcepts": [
+        "2-million-token context window",
+        "Deep Think reasoning mode",
+        "frontier multimodal understanding",
+        "Vertex AI limited preview"
+      ],
+      "whyItMatters": "Gemini 3.5 Pro targets the high-end enterprise and research use cases that previously required Gemini Ultra — and with a 2M-token context window and advanced reasoning, it directly challenges Claude Opus 4.8 and GPT-5.5 for the most demanding workloads when it finally ships.",
+      "tags": ["google", "gemini", "gemini-3-5-pro", "multimodal", "context-window", "deep-think"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What context window size has Google confirmed for Gemini 3.5 Pro?",
+          "options": ["500,000 tokens", "1 million tokens", "2 million tokens", "5 million tokens"],
+          "correctIndex": 2,
+          "explanation": "Google confirmed Gemini 3.5 Pro will feature a 2-million-token context window, significantly expanding the amount of information the model can process in a single session compared to most available models."
+        },
+        {
+          "question": "What did Sundar Pichai say at Google I/O 2026 about Gemini 3.5 Pro's availability?",
+          "options": [
+            "It will be available immediately after the event",
+            "'Give us until next month to get it to you'",
+            "It will only be available to enterprise customers",
+            "The Pro model will not be publicly released"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sundar Pichai told the I/O 2026 audience 'Give us until next month to get it to you,' confirming a June 2026 general availability target while acknowledging it was not ready for immediate release."
+        }
+      ]
+    },
+    {
+      "id": "macrumors-wwdc-2026-gemini-siri-preview",
+      "type": "article",
+      "title": "WWDC 2026 Eve Preview: Apple Expected to Unveil Gemini-Powered Siri 2.0, iOS 27, and Its Biggest AI Overhaul Yet",
+      "sourceUrl": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/",
+      "verified": false,
+      "publishedAt": "2026-06-06",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "With Apple's WWDC 2026 keynote set for June 8, comprehensive preview coverage has converged on one central story: a completely rebuilt Siri powered by large language models and Google Gemini integration. Bloomberg's Mark Gurman reports that the new Siri will debut as a standalone chatbot application with context awareness, multi-step task handling, Dynamic Island integration, and a redesigned dark-aesthetic interface. The event will also preview iOS 27 and macOS 27 with expanded Apple Intelligence features woven throughout both operating systems.",
+      "keyConcepts": [
+        "Siri 2.0 as standalone chatbot app",
+        "Google Gemini integration for frontier reasoning",
+        "iOS 27 and macOS 27",
+        "Apple Intelligence system-wide expansion"
+      ],
+      "whyItMatters": "Apple integrating Gemini into a rebuilt Siri would signal a fundamental strategy shift — partnering with Google for frontier AI reasoning while betting its competitive moat on privacy, device-level integration, and ecosystem control. With over 2 billion active Apple devices worldwide, this could accelerate mainstream consumer AI adoption faster than any single model release.",
+      "tags": ["apple", "wwdc", "siri", "ios-27", "google-gemini", "apple-intelligence"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Bloomberg's Mark Gurman, which company's AI model is being integrated into the rebuilt Siri at WWDC 2026?",
+          "options": ["Google Gemini", "OpenAI GPT", "Meta Llama", "Anthropic Claude"],
+          "correctIndex": 0,
+          "explanation": "Bloomberg's Mark Gurman reported that Apple is integrating Google's Gemini model into the rebuilt Siri, leveraging frontier LLM reasoning while Apple focuses on the user experience, privacy, and device-level integration layers."
+        },
+        {
+          "question": "What is the expected format of the new AI-powered Siri debuting at WWDC 2026?",
+          "options": [
+            "An embedded voice-only system service",
+            "A browser extension for Safari",
+            "An API sold only to enterprise developers",
+            "A standalone chatbot app with a dedicated chat interface"
+          ],
+          "correctIndex": 3,
+          "explanation": "The new Siri is expected to debut as a standalone chatbot application with a dedicated chat interface, completing Apple's transformation of Siri from a command-based assistant into a conversational AI chatbot competitive with ChatGPT and Claude."
+        }
+      ]
+    },
+    {
+      "id": "geeky-gadgets-gpt56-june-release",
+      "type": "article",
+      "title": "What to Expect from OpenAI's GPT-5.6: Codex Leak Points to 1.5M Context Window and June Launch",
+      "sourceUrl": "https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/",
+      "verified": false,
+      "publishedAt": "2026-06-06",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A routing-log entry referencing gpt-5.6 surfaced briefly in OpenAI's Codex backend before disappearing, and the community analysis has grown into a detailed picture of what to expect: a 1.5-million-token context window, an internal codename of 'iris-alpha,' and prediction markets pricing in an 89% probability of release by June 30. OpenAI has made no official announcement, but the Codex leak has been partially reproduced by developers who accessed the model via ChatGPT Pro's OAuth authentication.",
+      "keyConcepts": [
+        "Codex backend routing log leak",
+        "1.5-million-token context window rumor",
+        "iris-alpha internal codename",
+        "Polymarket 89% June release odds"
+      ],
+      "whyItMatters": "If GPT-5.6 ships in June as prediction markets suggest, it would mark the third major frontier model release in a single month — alongside the expected Gemini 3.5 Pro launch — creating an unprecedented period of competitive pressure on AI model pricing, capability benchmarks, and developer platform lock-in.",
+      "tags": ["openai", "gpt-5-6", "codex", "context-window", "model-release", "llm-benchmark"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where was the first indication of GPT-5.6 discovered by researchers?",
+          "options": [
+            "OpenAI's official developer blog",
+            "A GitHub repository commit",
+            "A routing log entry in OpenAI's Codex backend",
+            "An SEC filing from OpenAI"
+          ],
+          "correctIndex": 2,
+          "explanation": "A researcher discovered a single anomalous routing-log entry mapping to gpt-5.6 in OpenAI's Codex backend, which briefly appeared before disappearing from later sessions — triggering widespread analysis of what the model might offer."
+        },
+        {
+          "question": "What approximate probability do Polymarket prediction markets assign to a GPT-5.6 public release by June 30, 2026?",
+          "options": ["45%", "65%", "75%", "89%"],
+          "correctIndex": 3,
+          "explanation": "Polymarket prediction markets have priced GPT-5.6's probability of release by June 30, 2026 at approximately 89%, reflecting broad developer community confidence in a June launch despite no official OpenAI announcement."
+        }
+      ]
+    }
+  ]
+}
