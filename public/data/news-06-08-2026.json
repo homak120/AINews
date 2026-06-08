@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-06-08T12:00:00.000Z",
+  "weekOf": "2026-06-08",
+  "coverageStart": "2026-06-07",
+  "coverageEnd": "2026-06-08",
+  "items": [
+    {
+      "id": "article-apple-wwdc-2026-siri-gemini",
+      "type": "article",
+      "title": "Apple WWDC 2026: Siri Rebuilt on Google Gemini, iOS 27, and AI Agent Integration Unveiled",
+      "sourceUrl": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple opened WWDC 2026 on June 8 with Tim Cook's final keynote as CEO, announcing a complete overhaul of Siri powered by Google's Gemini AI at an estimated $1 billion/year licensing deal. iOS 27 and macOS 27 introduce a redesigned Liquid Glass UI, a new Extensions system letting users choose between Gemini, ChatGPT, or Claude as their AI backbone, and a Siri chatbot interface with cross-app context awareness. Apple is also integrating an AI agent tier into the App Store, enabling apps to autonomously handle delegated tasks such as booking reservations, editing documents, and managing smart home devices.",
+      "keyConcepts": [
+        "Siri 2.0 powered by Google Gemini",
+        "iOS 27 / macOS 27 with Liquid Glass UI",
+        "Extensions system for AI model selection",
+        "AI agent tier in the App Store"
+      ],
+      "whyItMatters": "Apple integrating Gemini into Siri turns the world's largest device platform into a distribution channel for Google's AI — reshaping how billions of consumers encounter AI daily and signaling that on-device AI assistants are now a mainstream battleground.",
+      "tags": ["apple", "wwdc-2026", "siri", "gemini", "ios-27", "ai-agents", "apple-intelligence"],
+      "relatedIds": ["article-openai-super-app-june7"],
+      "knowledgeChecks": [
+        {
+          "question": "What AI company's foundation models are powering the overhauled Siri announced at WWDC 2026?",
+          "options": [
+            "OpenAI's GPT-5",
+            "Google's Gemini",
+            "Anthropic's Claude",
+            "Meta's Llama"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple licensed Google's Gemini foundational models for approximately $1 billion per year to power the rebuilt Siri, giving Gemini a massive distribution boost through Apple's global device installed base."
+        },
+        {
+          "question": "What new iOS 27 feature lets users pick between different AI providers for Apple Intelligence?",
+          "options": [
+            "AI Core Settings panel",
+            "Apple Intelligence Hub",
+            "Extensions system",
+            "Model Selection API"
+          ],
+          "correctIndex": 2,
+          "explanation": "iOS 27 introduces an Extensions system allowing users to choose Google Gemini, ChatGPT, or Anthropic's Claude as the AI model powering Apple Intelligence features across their device."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-super-app-june7",
+      "type": "article",
+      "title": "OpenAI Declares the Chatbot Era Over, Plans Major ChatGPT Super App Overhaul",
+      "sourceUrl": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "verified": false,
+      "publishedAt": "2026-06-07",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI is planning its biggest ChatGPT redesign to date, transforming it into a 'super app' that integrates AI agents, coding tools via Codex, image generation, and third-party app integrations. A senior OpenAI employee told the Financial Times that 'Chat is dead,' signaling a deliberate pivot away from chatbot interactions toward a personal agent that helps users across all aspects of their work and personal lives. The changes are part of a broader effort to attract enterprise clients and build toward profitability ahead of an IPO, directly challenging Anthropic's enterprise position.",
+      "keyConcepts": [
+        "ChatGPT super app redesign",
+        "Personal AI agent architecture",
+        "OpenAI Codex integration",
+        "Enterprise competition with Anthropic"
+      ],
+      "whyItMatters": "OpenAI's pivot from chat to integrated agents reflects an industry-wide recognition that the competitive frontier has moved from 'best chatbot' to 'most useful autonomous assistant' — with enormous revenue implications for whoever wins the enterprise market.",
+      "tags": ["openai", "chatgpt", "super-app", "ai-agents", "enterprise", "ipo", "codex"],
+      "relatedIds": ["article-apple-wwdc-2026-siri-gemini"],
+      "knowledgeChecks": [
+        {
+          "question": "What did a senior OpenAI employee declare about the future of chat-based AI interactions?",
+          "options": [
+            "Chat is the future of AI interfaces",
+            "Chat is dead",
+            "Chat will merge with voice",
+            "Chat needs multimodal upgrades"
+          ],
+          "correctIndex": 1,
+          "explanation": "A senior OpenAI employee told the Financial Times 'Chat is dead,' signaling OpenAI's strategic pivot from conversational chatbots to integrated personal agents capable of handling real-world tasks across apps and services."
+        },
+        {
+          "question": "What is OpenAI's primary business motivation for the ChatGPT super app overhaul?",
+          "options": [
+            "Competing with Google Gemini for consumer market share",
+            "Winning enterprise clients to boost revenue ahead of an IPO",
+            "Reducing infrastructure costs by consolidating products",
+            "Expanding into hardware and on-device AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI is targeting lucrative enterprise clients — directly competing with Anthropic — while the super app redesign is meant to generate revenue streams needed before the company's anticipated IPO."
+        }
+      ]
+    }
+  ]
+}
