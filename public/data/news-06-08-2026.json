@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T12:00:00.000Z",
+  "generatedAt": "2026-06-08T20:00:00.000Z",
   "weekOf": "2026-06-08",
   "coverageStart": "2026-06-07",
   "coverageEnd": "2026-06-08",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 1,
           "explanation": "OpenAI is targeting lucrative enterprise clients — directly competing with Anthropic — while the super app redesign is meant to generate revenue streams needed before the company's anticipated IPO."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-microsoft-excel-foundry",
+      "type": "article",
+      "title": "Claude Lands in Microsoft Excel and Azure Foundry's 11,000-Model Catalog",
+      "sourceUrl": "https://www.techtimes.com/articles/317988/20260608/claude-now-works-inside-excel-microsoft-drops-anthropics-ai-spreadsheet-750-million-people-use.htm",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic's Claude is now available as an option in Microsoft Excel's Agent Mode, dropping a frontier AI model into the spreadsheet used by an estimated 750 million people worldwide. Simultaneously, Microsoft expanded its Azure Foundry model catalog to over 11,000 models — including Claude alongside GPT models — making Azure the only cloud where developers can access both Anthropic and OpenAI frontier models under a single billing relationship. The integration puts Claude in front of enterprise spreadsheet users for the first time, enabling autonomous document editing, financial modeling, and data analysis without leaving Excel.",
+      "keyConcepts": [
+        "Claude in Excel Agent Mode",
+        "Azure Foundry 11,000-model catalog",
+        "Single-endpoint multi-frontier-model access",
+        "Enterprise AI distribution through Office 365"
+      ],
+      "whyItMatters": "Embedding Claude into Excel gives Anthropic access to one of the largest enterprise software distribution channels on earth — shifting the competitive battleground from developer APIs to the productivity tools that dominate corporate workflows.",
+      "tags": ["anthropic", "claude", "microsoft", "excel", "azure-foundry", "enterprise", "office-365"],
+      "relatedIds": ["article-microsoft-mai-beats-claude", "article-apple-wwdc-2026-siri-gemini"],
+      "knowledgeChecks": [
+        {
+          "question": "How many models does Microsoft's Azure Foundry catalog now contain following its expansion?",
+          "options": [
+            "Over 1,000 models",
+            "Over 5,000 models",
+            "Over 11,000 models",
+            "Over 50,000 models"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft's Foundry model catalog expanded to over 11,000 models — including frontier closed-weight models from OpenAI, Anthropic, and Google, plus Microsoft's own MAI family and thousands of open-source models."
+        },
+        {
+          "question": "What makes Azure unique among cloud platforms following the Claude-in-Foundry announcement?",
+          "options": [
+            "It offers the lowest per-token pricing for any frontier model",
+            "It is the only cloud providing access to both Claude and GPT frontier models on one platform",
+            "It includes on-premises deployment options for all frontier models",
+            "It provides free access to Claude for all Azure subscribers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Azure is now the only cloud platform where enterprises can access both Anthropic's Claude and OpenAI's GPT frontier models through a single endpoint and billing relationship."
+        }
+      ]
+    },
+    {
+      "id": "article-pentagon-replacing-claude",
+      "type": "article",
+      "title": "Pentagon Races to Replace Anthropic's Claude After Safety Guardrail Standoff",
+      "sourceUrl": "https://www.techtimes.com/articles/317998/20260608/pentagon-racing-replace-anthropics-claude-because-it-was-too-safe-war.htm",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "The U.S. Department of Defense is actively testing OpenAI, Google, and xAI's Grok models to replace Anthropic's Claude after Defense Secretary Pete Hegseth declared Anthropic a 'supply-chain risk' when the company refused to remove guardrails prohibiting mass surveillance and autonomous weapons targeting. Claude had been the primary AI embedded in the Pentagon's classified Maven Smart System, used for mission-critical operations including recent strikes on Iran. Anthropic is challenging the designation in court, arguing the decision could cost the company billions in federal revenue, while the DoD aims to complete the transition within six months.",
+      "keyConcepts": [
+        "Maven Smart System classified AI integration",
+        "AI safety guardrails vs. military use cases",
+        "Supply-chain risk designation",
+        "DoD AI vendor transition timeline"
+      ],
+      "whyItMatters": "The standoff reveals a fundamental tension between AI safety principles and defense applications — and sets a precedent for how governments may pressure AI companies to weaken safety constraints in exchange for major government contracts.",
+      "tags": ["anthropic", "pentagon", "dod", "ai-safety", "maven", "military-ai", "government-contracts"],
+      "relatedIds": ["article-claude-microsoft-excel-foundry"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the core reason the Pentagon decided to seek alternatives to Anthropic's Claude?",
+          "options": [
+            "Claude's performance benchmarks fell below competing models",
+            "Anthropic's pricing was too high for government contracts",
+            "Anthropic refused to remove guardrails on mass surveillance and autonomous weapons",
+            "Claude lacked the context window needed for classified document analysis"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic refused to drop its safety guardrails barring use for mass surveillance and autonomous weapons targeting, prompting Defense Secretary Pete Hegseth to declare the company a supply-chain risk and begin testing alternatives."
+        },
+        {
+          "question": "Which Pentagon system was Claude primarily integrated into before the replacement effort began?",
+          "options": [
+            "Project SHIELD",
+            "DARPA Code Interpreter",
+            "Maven Smart System",
+            "DoD CloudOne AI Layer"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude was the primary AI provider in the Pentagon's Maven Smart System — a classified digital mission control platform used for operations including targeting decisions — making it deeply embedded in critical military workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-mai-beats-claude",
+      "type": "article",
+      "title": "Microsoft's In-House MAI Models Claim to Outperform Claude in Blind Evaluations",
+      "sourceUrl": "https://www.techtimes.com/articles/317989/20260608/microsoft-built-its-own-ai-depend-openai-anthropic-less-says-it-just-beat-claude-blind-tests.htm",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Microsoft announced that its internally developed MAI-Thinking-1 model — trained without distillation from OpenAI or any third-party model family — was preferred over Anthropic's Claude Sonnet 4.6 in blind evaluations run by independent rating firm Surge, and claims parity with Claude Opus 4.6 on coding benchmarks. The model features 35 billion active parameters, a 256,000-token context window, and scores 97.0% on AIME 2025 and 94.5% on AIME 2026. Microsoft's MAI family, launched at Build 2026 in early June, is part of a strategic effort to reduce the company's dependence on OpenAI and Anthropic for its core AI products.",
+      "keyConcepts": [
+        "MAI-Thinking-1 first-party reasoning model",
+        "OpenAI-data-free training approach",
+        "Blind evaluation methodology via Surge",
+        "Microsoft AI vendor independence strategy"
+      ],
+      "whyItMatters": "Microsoft building frontier-competitive models in-house gives it leverage in negotiations with OpenAI and Anthropic, signals that hyperscalers are becoming serious AI model competitors — not just infrastructure providers — and could reshape enterprise AI pricing dynamics.",
+      "tags": ["microsoft", "mai-thinking-1", "reasoning-model", "benchmarks", "azure", "enterprise-ai", "model-competition"],
+      "relatedIds": ["article-claude-microsoft-excel-foundry", "article-openai-super-app-june7"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes MAI-Thinking-1's training from most frontier reasoning models?",
+          "options": [
+            "It was trained entirely on synthetic data generated by GPT-5",
+            "It uses reinforcement learning from human feedback only",
+            "It was trained from scratch on licensed data with no distillation from OpenAI or third-party models",
+            "It was co-developed with Anthropic using a federated training approach"
+          ],
+          "correctIndex": 2,
+          "explanation": "MAI-Thinking-1 was trained from scratch on clean, commercially licensed data with no knowledge distillation from OpenAI or any other third-party model — a deliberate choice to establish full intellectual property independence."
+        },
+        {
+          "question": "What score did MAI-Thinking-1 achieve on AIME 2025, the advanced math competition benchmark?",
+          "options": [
+            "78.5%",
+            "88.2%",
+            "94.5%",
+            "97.0%"
+          ],
+          "correctIndex": 3,
+          "explanation": "MAI-Thinking-1 scored 97.0% on AIME 2025 and 94.5% on AIME 2026, both tests measuring mathematical and multi-step scientific reasoning performance."
         }
       ]
     }
