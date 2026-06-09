@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-06-09T08:00:00.000Z",
+  "weekOf": "2026-06-08",
+  "coverageStart": "2026-06-08",
+  "coverageEnd": "2026-06-08",
+  "items": [
+    {
+      "id": "article-wwdc-2026-siri-ai",
+      "type": "article",
+      "title": "Apple Unveils Siri AI at WWDC 2026, Rebuilt on Google Gemini",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple unveiled 'Siri AI' at WWDC 2026 on June 8, revealing a ground-up rebuild of its voice assistant powered by Google's Gemini models under a multi-year licensing deal worth approximately $1 billion annually. The updated Siri can handle multi-step tasks, maintain conversational context, and take agentic actions across apps and services including booking reservations and managing passwords. iOS 27 and macOS Golden Gate were also announced, with a public beta planned for July 2026 and stable launch in September.",
+      "keyConcepts": ["Siri AI", "Gemini integration", "Apple Intelligence", "agentic capabilities", "iOS 27"],
+      "whyItMatters": "Apple's decision to license Google's Gemini instead of building its own frontier model signals a new era of AI partnerships at the hardware/OS level, potentially reshaping how AI is delivered to over a billion consumer devices.",
+      "tags": ["apple", "siri-ai", "wwdc-2026", "gemini", "ios-27", "consumer-ai"],
+      "relatedIds": ["article-siri-ai-eu-china-exclusion", "article-npr-siri-ai-apple-wwdc", "article-wwdc-2026-tim-cook-farewell-homeos"],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI model powers the new Siri AI announced at WWDC 2026?",
+          "options": ["OpenAI GPT-5", "Google Gemini", "Anthropic Claude", "Apple's own on-device model"],
+          "correctIndex": 1,
+          "explanation": "Apple signed a multi-year deal worth approximately $1 billion annually to license Google's Gemini model to power the rebuilt Siri AI, rather than developing its own frontier model."
+        },
+        {
+          "question": "What is a key new agentic capability of Siri AI announced at WWDC 2026?",
+          "options": ["Real-time language translation only", "Multi-step task handling and cross-app context awareness", "Voice cloning for personal use", "Autonomous code generation"],
+          "correctIndex": 1,
+          "explanation": "Siri AI can handle multi-step tasks, maintain conversational context across turns, and take agentic actions across apps — like autonomously updating passwords via the Passwords app or booking reservations."
+        }
+      ]
+    },
+    {
+      "id": "article-siri-ai-eu-china-exclusion",
+      "type": "article",
+      "title": "Siri AI Won't Launch in EU or China Due to Regulatory Restrictions",
+      "sourceUrl": "https://www.macrumors.com/2026/06/08/siri-ai-not-available-eu-china/",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Apple confirmed that Siri AI, its major AI assistant overhaul announced at WWDC 2026, will not be available in the European Union or China at launch. The EU exclusion is driven by the Digital Markets Act (DMA), which places restrictions on how designated 'gatekeeper' platforms can bundle AI services with hardware. This marks a continuation of Apple's pattern of withholding AI features from regulated markets, following similar exclusions of earlier Apple Intelligence features.",
+      "keyConcepts": ["Digital Markets Act", "AI regulation", "gatekeeper platforms", "geographic AI fragmentation", "market access"],
+      "whyItMatters": "The repeated exclusion of AI features from the EU and China highlights a growing divergence between AI ecosystems globally, creating uneven experiences for developers and users across markets and raising questions about the future of AI governance.",
+      "tags": ["apple", "siri-ai", "eu-regulation", "dma", "ai-policy", "china"],
+      "relatedIds": ["article-wwdc-2026-siri-ai", "article-npr-siri-ai-apple-wwdc"],
+      "knowledgeChecks": [
+        {
+          "question": "Which regulation is primarily responsible for Siri AI not launching in the EU?",
+          "options": ["GDPR", "AI Act", "Digital Markets Act (DMA)", "NIS2 Directive"],
+          "correctIndex": 2,
+          "explanation": "The Digital Markets Act (DMA) restricts how designated 'gatekeepers' like Apple can bundle AI services with their hardware platform, preventing the Siri AI rollout in the EU at launch."
+        },
+        {
+          "question": "What broader trend does the Siri AI EU/China exclusion illustrate?",
+          "options": ["Apple's plan to exit international markets", "Global fragmentation of AI feature availability due to regional regulation", "Gemini's limited non-English language support", "Apple's deliberate US-first strategy"],
+          "correctIndex": 1,
+          "explanation": "This is part of a growing pattern where AI features are withheld from specific regions due to local regulations, creating increasingly divergent AI capabilities and experiences across global markets."
+        }
+      ]
+    },
+    {
+      "id": "article-wwdc-2026-tim-cook-farewell-homeos",
+      "type": "article",
+      "title": "Tim Cook's Farewell WWDC Keynote Previews homeOS and Developer AI Tools",
+      "sourceUrl": "https://www.techtimes.com/articles/317985/20260608/apple-wwdc-2026-siri-rebuilt-gemini-homeos-previewed-cook-farewell-keynote.htm",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple CEO Tim Cook delivered what is expected to be his farewell WWDC keynote at WWDC 2026, unveiling a sweeping AI developer push alongside the consumer-facing Siri AI reveal. The company previewed homeOS, a new operating system for smart home devices, and introduced AI agent integration with the App Store that allows users to delegate complex tasks to apps. Developers gained access to new Apple Intelligence APIs covering on-device reasoning, Gemini-powered cloud capabilities, and agentic task management primitives.",
+      "keyConcepts": ["homeOS", "App Store AI agents", "Apple Intelligence APIs", "on-device reasoning", "developer platform"],
+      "whyItMatters": "Apple's homeOS preview and expanded Apple Intelligence APIs position Apple as an AI platform for developers — not just a hardware company — creating new opportunities for app developers to build agent-aware, cross-device experiences.",
+      "tags": ["apple", "wwdc-2026", "homeos", "developer-tools", "apple-intelligence", "app-store"],
+      "relatedIds": ["article-wwdc-2026-siri-ai"],
+      "knowledgeChecks": [
+        {
+          "question": "What new operating system did Apple preview at WWDC 2026?",
+          "options": ["tvOS 27", "homeOS", "visionOS 2", "watchOS AI Edition"],
+          "correctIndex": 1,
+          "explanation": "Apple previewed homeOS, a new operating system for home devices, alongside iOS 27 and macOS Golden Gate at the WWDC 2026 keynote."
+        },
+        {
+          "question": "What new capability did Apple add to the App Store at WWDC 2026?",
+          "options": ["AI-generated app icons at install time", "AI agent integration enabling users to delegate tasks to apps", "Automatic app updates triggered by AI", "AI-powered search ranking only"],
+          "correctIndex": 1,
+          "explanation": "Apple introduced AI agent integration with the App Store, allowing users to delegate complex tasks — such as booking reservations, editing documents, or controlling smart home devices — to individual apps via Siri AI."
+        }
+      ]
+    },
+    {
+      "id": "article-npr-siri-ai-apple-wwdc",
+      "type": "article",
+      "title": "Apple's Siri Overhaul Could Bring Conversational AI to Mainstream Users — But Launch Timing Is Vague",
+      "sourceUrl": "https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Apple's WWDC 2026 Siri AI announcement represents the company's biggest step into conversational AI since Siri's 2011 debut, with the rebuilt assistant now capable of complex multi-turn tasks across devices. Apple emphasized a hybrid privacy model — on-device processing for sensitive tasks and Gemini-powered cloud for complex requests — positioning Siri AI as a privacy-first alternative to cloud-only AI assistants. Despite the breadth of features, AAPL stock slipped post-keynote as investors reacted to the absence of a firm Siri AI launch deadline.",
+      "keyConcepts": ["conversational AI", "privacy-first AI", "hybrid on-device/cloud processing", "mainstream AI adoption", "investor reaction"],
+      "whyItMatters": "With over a billion iPhone users, Apple's Siri AI rollout could bring sophisticated conversational AI to mainstream consumers who don't actively use dedicated AI apps — representing the largest potential AI interface expansion in consumer tech history.",
+      "tags": ["apple", "siri-ai", "wwdc-2026", "consumer-ai", "privacy", "ai-adoption"],
+      "relatedIds": ["article-wwdc-2026-siri-ai", "article-siri-ai-eu-china-exclusion"],
+      "knowledgeChecks": [
+        {
+          "question": "What investor concern caused AAPL stock to slip after the WWDC 2026 keynote?",
+          "options": ["No new iPhone hardware announced", "Siri AI lacks a firm public launch deadline", "The Google Gemini partnership was seen as a liability", "homeOS received a negative response"],
+          "correctIndex": 1,
+          "explanation": "Despite extensive feature announcements, investors were concerned by Apple's lack of a hard launch timeline for Siri AI, causing AAPL stock to decline after the keynote despite the scope of what was revealed."
+        },
+        {
+          "question": "How does Apple's Siri AI handle privacy for sensitive tasks?",
+          "options": ["All processing is routed through Google's Gemini cloud", "On-device processing for privacy-sensitive tasks, cloud for complex requests", "Third-party privacy-certified data centers only", "No differentiation — all tasks use the same pipeline"],
+          "correctIndex": 1,
+          "explanation": "Apple uses a hybrid approach: privacy-sensitive tasks are processed on-device using Apple's own models, while complex requests leverage Gemini-powered cloud capabilities — maintaining Apple's privacy-first brand positioning."
+        }
+      ]
+    }
+  ]
+}
