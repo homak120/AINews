@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-06-10T03:16:21Z",
+  "weekOf": "2026-06-08",
+  "coverageStart": "2026-06-08",
+  "coverageEnd": "2026-06-09",
+  "items": [
+    {
+      "id": "article-wwdc26-siri-ios27-techcrunch",
+      "type": "article",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "sourceUrl": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "verified": false,
+      "publishedAt": "2026-06-09",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple's WWDC 2026 keynote — Tim Cook's final as CEO — delivered a sweeping AI overhaul anchored by Siri AI, a redesigned conversational assistant powered by Google Gemini models capable of multi-turn dialogue, personal context awareness, and cross-app task execution. iOS 27 opens Siri to third-party AI models including Anthropic Claude and Google Gemini through a new Extensions system, while a revamped Foundation Models framework gives developers on-device inference without cloud API calls. Privacy remained a central theme, with SVP Craig Federighi stating Apple believes 'privacy in AI is non-negotiable.'",
+      "keyConcepts": ["Siri AI conversational overhaul", "Apple Intelligence Extensions", "Google Gemini partnership", "iOS 27 third-party AI models", "on-device Foundation Models"],
+      "whyItMatters": "With over a billion active iPhones, Apple opening Siri to rival models like Claude and Gemini sets a new battleground for AI assistant dominance at consumer scale — while on-device Foundation Models could redefine privacy-first AI development standards across the industry.",
+      "tags": ["apple", "siri", "wwdc", "ios-27", "gemini", "apple-intelligence", "on-device-ai"],
+      "relatedIds": ["article-wwdc26-foundation-models-techtimes", "article-wwdc26-timcook-farewell-npr"],
+      "knowledgeChecks": [
+        {
+          "question": "Which company's AI models power the new Siri AI announced at WWDC 2026?",
+          "options": [
+            "Anthropic (Claude)",
+            "OpenAI (GPT-5)",
+            "Google (Gemini)",
+            "Meta (Llama)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Apple partnered with Google, paying approximately $1 billion, to integrate Gemini models as the backbone of the new Siri AI. iOS 27 also allows Claude and other third-party models via the Extensions framework."
+        },
+        {
+          "question": "What does iOS 27's new AI Extensions system allow?",
+          "options": [
+            "Users to run local LLMs on their iPhone without any App Store approval",
+            "Third-party AI models like Claude and Gemini to integrate directly with Siri",
+            "Developers to sell AI-generated content through Apple's in-app purchase system",
+            "Apple to remotely update Siri's underlying model without an iOS update"
+          ],
+          "correctIndex": 1,
+          "explanation": "The iOS 27 Extensions system provides a standard interface that rival AI providers implement, so users can choose to route certain Siri requests to Anthropic Claude, Google Gemini, or other integrated models rather than Apple's default on-device model."
+        }
+      ]
+    },
+    {
+      "id": "article-wwdc26-foundation-models-techtimes",
+      "type": "article",
+      "title": "WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+      "sourceUrl": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm",
+      "verified": false,
+      "publishedAt": "2026-06-09",
+      "topics": ["ai-engineering"],
+      "summary": "Apple shipped nine major updates to the Foundation Models framework at WWDC 2026, headlined by a new LanguageModel protocol — a unified Swift interface that lets developers swap between Apple's on-device model, Anthropic Claude, and Google Gemini without touching application code. Additional additions include multimodal image input, a Python SDK, Linux support, server-side routing, and native agentic tool use. Xcode 27 debuts a dual-engine coding assistant pairing a local Neural Engine model for real-time Swift suggestions with cloud routing to Claude, Gemini, or OpenAI agents for heavier analysis.",
+      "keyConcepts": ["LanguageModel protocol", "provider-agnostic AI abstraction", "Foundation Models framework updates", "Xcode 27 dual-engine coding", "multimodal on-device inference"],
+      "whyItMatters": "A unified abstraction layer for swapping AI providers gives iOS and macOS developers a future-proof, vendor-neutral architecture — reducing lock-in risk and enabling teams to adopt the best model for each task without rewriting integration code.",
+      "tags": ["apple", "foundation-models", "swift", "xcode", "ai-sdk", "on-device-ai", "wwdc"],
+      "relatedIds": ["article-wwdc26-siri-ios27-techcrunch"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary benefit of Apple's new LanguageModel protocol in Foundation Models?",
+          "options": [
+            "It allows apps to generate images natively with zero latency",
+            "Developers can swap AI providers (Apple, Claude, Gemini) without changing application code",
+            "It grants developers unlimited free API credits from Anthropic",
+            "It automatically fine-tunes on-device models using anonymized user data"
+          ],
+          "correctIndex": 1,
+          "explanation": "The LanguageModel protocol provides a shared interface that multiple AI providers implement, so developers switch between Apple's on-device model, Claude, or Gemini by changing a single configuration rather than rewriting their downstream application logic."
+        },
+        {
+          "question": "How does the Xcode 27 dual-engine agentic coding system divide its work?",
+          "options": [
+            "One engine handles Swift; the other handles SwiftUI layouts exclusively",
+            "A local Neural Engine model handles real-time suggestions; cloud routing handles heavy analysis via Claude, Gemini, or OpenAI",
+            "It downloads the full GPT-5 model locally during each project build",
+            "It alternates between on-device and cloud inference based on battery level"
+          ],
+          "correctIndex": 1,
+          "explanation": "Xcode 27 pairs a fast local Neural Engine model for inline Swift completions with a cloud routing layer that delegates complex tasks — codebase-wide refactors, security analysis, architectural suggestions — to Anthropic Claude, Google Gemini, or OpenAI agents."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-ipo-june2026",
+      "type": "article",
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "OpenAI announced on June 8, 2026 that it confidentially submitted a draft S-1 registration statement to the SEC, following Anthropic's IPO filing a week earlier. Working with Goldman Sachs and Morgan Stanley, the company is targeting a public listing at a valuation above $1 trillion — potentially the largest tech IPO since Meta's 2012 debut. CEO Sam Altman indicated the actual listing may be deferred, noting some activities remain easier as a private company, but the filing gives OpenAI the option to go public as soon as September 2026. The dual filings add OpenAI and Anthropic to an AI IPO pipeline Bloomberg estimates at $3.6 trillion across upcoming listings.",
+      "keyConcepts": ["confidential S-1 filing", "AI company valuations", "dual AI lab IPO race", "public market capital formation", "OpenAI governance transition"],
+      "whyItMatters": "Both dominant AI labs filing for IPO within a week of each other signals the AI industry entering a new capital and accountability era — public markets will demand financial transparency, revenue justification, and governance standards that will shape how OpenAI and Anthropic develop AI going forward.",
+      "tags": ["openai", "ipo", "anthropic", "valuation", "wall-street", "sam-altman", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What valuation is OpenAI reportedly targeting for its IPO?",
+          "options": [
+            "Above $500 billion",
+            "Above $750 billion",
+            "Above $1 trillion",
+            "Above $2 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI is targeting a valuation above $1 trillion in its IPO, which would make it the largest tech IPO since Meta. Rival Anthropic's recent $65 billion Series H round valued it at $965 billion — setting the competitive benchmark."
+        },
+        {
+          "question": "Which banks is OpenAI working with to prepare its IPO?",
+          "options": [
+            "JP Morgan and Deutsche Bank",
+            "Goldman Sachs and Morgan Stanley",
+            "Citigroup and Bank of America",
+            "Barclays and UBS"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI selected Goldman Sachs and Morgan Stanley as lead underwriters — a standard pairing for high-profile tech offerings. Anthropic made its confidential filing roughly one week before OpenAI's, creating the first dual-lab public market race in AI history."
+        }
+      ]
+    },
+    {
+      "id": "article-wwdc26-timcook-farewell-npr",
+      "type": "article",
+      "title": "Hey, Siri: Apple just announced a long-awaited AI update at Tim Cook's final WWDC",
+      "sourceUrl": "https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook",
+      "verified": false,
+      "publishedAt": "2026-06-08",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "NPR covers Apple's WWDC 2026 through the dual lens of Tim Cook's farewell as CEO and the company's long-awaited AI upgrade to Siri. Cook, who announced in April that SVP of Hardware Engineering John Ternus would take over as CEO on September 1 — with Cook transitioning to executive chairman — delivered what he called his most personal keynote. The centerpiece was Siri AI, a conversational assistant built on Google's Gemini models that Apple framed as privacy-first, and iOS 27 marking the first time rival AI models like Claude can natively integrate with Apple's assistant through a new Extensions system.",
+      "keyConcepts": ["Tim Cook CEO succession", "John Ternus Apple leadership", "Apple-Google AI partnership", "Siri AI privacy stance", "14-year Cook tenure legacy"],
+      "whyItMatters": "Cook's exit alongside Apple's most consequential AI pivot in a decade closes the post-Jobs services era and opens a hardware-AI chapter under Ternus — whose Apple Silicon track record suggests deep model-chip co-design could become Apple's next competitive moat.",
+      "tags": ["apple", "tim-cook", "john-ternus", "leadership-transition", "siri", "wwdc", "ai-strategy"],
+      "relatedIds": ["article-wwdc26-siri-ios27-techcrunch"],
+      "knowledgeChecks": [
+        {
+          "question": "Who will succeed Tim Cook as Apple CEO starting September 1, 2026?",
+          "options": [
+            "Craig Federighi, SVP of Software Engineering",
+            "Eddy Cue, SVP of Internet Software and Services",
+            "John Ternus, SVP of Hardware Engineering",
+            "Jony Ive, returning from LoveFrom"
+          ],
+          "correctIndex": 2,
+          "explanation": "John Ternus, Apple's SVP of Hardware Engineering who led the Apple Silicon and M-chip transitions, was named Tim Cook's successor. Cook announced the transition in April 2026 and will move to executive chairman on September 1."
+        },
+        {
+          "question": "What role did Tim Cook take after stepping down as Apple CEO?",
+          "options": [
+            "He retired from Apple entirely",
+            "He became Chief AI Officer overseeing the Siri AI rollout",
+            "He became Executive Chairman of Apple's board",
+            "He moved to lead Apple's venture arm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tim Cook transitions to Executive Chairman of Apple's board of directors on September 1, 2026, allowing him to remain involved with the company while John Ternus leads day-to-day operations as CEO."
+        }
+      ]
+    }
+  ]
+}
