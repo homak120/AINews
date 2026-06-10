@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-10T03:16:21Z",
+  "generatedAt": "2026-06-10T09:30:00Z",
   "weekOf": "2026-06-08",
   "coverageStart": "2026-06-08",
-  "coverageEnd": "2026-06-09",
+  "coverageEnd": "2026-06-10",
   "items": [
     {
       "id": "article-wwdc26-siri-ios27-techcrunch",
@@ -153,6 +153,238 @@
           ],
           "correctIndex": 2,
           "explanation": "Tim Cook transitions to Executive Chairman of Apple's board of directors on September 1, 2026, allowing him to remain involved with the company while John Ternus leads day-to-day operations as CEO."
+        }
+      ]
+    },
+    {
+      "id": "youtube-54Fky0JpSbw",
+      "type": "video",
+      "title": "Claude Fable 5 IS INCREDIBLE! Greatest AI Model Ever! (Fully Tested)",
+      "youtubeId": "54Fky0JpSbw",
+      "sourceUrl": "https://www.youtube.com/watch?v=54Fky0JpSbw",
+      "verified": false,
+      "publishedAt": "2026-06-09",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "A comprehensive hands-on test of Anthropic's Claude Fable 5, the first publicly available Mythos-class model launched June 9, 2026. The video runs Fable 5 through coding, reasoning, vision, and creative tasks, demonstrating its 80.3% SWE-Bench Pro score versus GPT-5.5's 58.6% and Opus 4.8's 69.2%. Safety guardrails are also explored — in high-risk domains the model transparently falls back to Opus 4.8.",
+      "keyConcepts": ["Mythos-class AI model", "SWE-Bench Pro benchmark", "safety guardrails with fallback", "frontier model comparison"],
+      "whyItMatters": "Claude Fable 5 is the most capable model Anthropic has ever released publicly, and hands-on benchmark results confirm it surpasses GPT-5.5 on real software engineering tasks — a milestone for practitioners choosing models for production workflows.",
+      "tags": ["claude-fable-5", "anthropic", "ai-benchmark", "frontier-model", "llm-testing", "swe-bench"],
+      "relatedIds": ["youtube-9GLYsrMpprs", "youtube-soYwpiKv9RE", "article-claude-fable5-explained-20260610"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Fable 5's score on SWE-Bench Pro?",
+          "options": [
+            "69.2%",
+            "58.6%",
+            "80.3%",
+            "75.1%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Fable 5 achieves 80.3% on SWE-Bench Pro, compared to Claude Opus 4.8 at 69.2% and GPT-5.5 at 58.6%, making it the top-performing model on this real-world software engineering benchmark."
+        },
+        {
+          "question": "What happens when Claude Fable 5 receives a high-risk query in areas like cybersecurity or biology?",
+          "options": [
+            "It refuses entirely with no response",
+            "It routes the query to Claude Opus 4.8 instead",
+            "It asks the user to verify their identity",
+            "It routes to Claude Mythos 5 for government users"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fable 5's safety guardrails are designed to trigger in less than 5% of sessions; when they fire in high-risk domains, the query falls back to Claude Opus 4.8 rather than refusing outright."
+        }
+      ]
+    },
+    {
+      "id": "youtube-9GLYsrMpprs",
+      "type": "video",
+      "title": "Claude Fable 5 Is INSANE – Hands-On With the Best Model Yet",
+      "youtubeId": "9GLYsrMpprs",
+      "sourceUrl": "https://www.youtube.com/watch?v=9GLYsrMpprs",
+      "verified": false,
+      "publishedAt": "2026-06-09",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "A deep-dive hands-on evaluation of Claude Fable 5 covering multimodal tasks, agentic coding performance, and comparisons against GPT-5.5 and Gemini 3.1 Pro. The video also explains the dual-track Fable/Mythos strategy: Fable 5 for the public with guardrails, and Mythos 5 deployed through Project Glasswing for US government cyberdefenders. Free access on Pro and Max plans runs until June 22.",
+      "keyConcepts": ["multimodal evaluation", "agentic coding", "Project Glasswing", "Fable vs Mythos model tiers"],
+      "whyItMatters": "Understanding the distinction between Fable 5 (public, guarded) and Mythos 5 (government, unguarded) reveals Anthropic's strategy for simultaneously advancing capability and maintaining oversight at the frontier.",
+      "tags": ["claude-fable-5", "claude-mythos-5", "anthropic", "ai-evaluation", "frontier-ai", "project-glasswing"],
+      "relatedIds": ["youtube-54Fky0JpSbw", "youtube-soYwpiKv9RE", "article-claude-fable5-explained-20260610"],
+      "knowledgeChecks": [
+        {
+          "question": "Until what date is Claude Fable 5 included free for Pro and Max subscribers?",
+          "options": [
+            "June 15, 2026",
+            "June 22, 2026",
+            "June 30, 2026",
+            "July 1, 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic is offering Claude Fable 5 at no extra cost to Pro, Max, Team, and seat-based Enterprise subscribers until June 22, 2026, after which standard consumption-based pricing applies."
+        },
+        {
+          "question": "What is Project Glasswing?",
+          "options": [
+            "An open-source AI safety research initiative",
+            "Anthropic's consumer app rebranding effort",
+            "A collaboration deploying Claude Mythos 5 for US government cyberdefenders",
+            "Google's program to integrate Gemini into government systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "Project Glasswing is Anthropic's collaboration with the US government through which Claude Mythos 5 — the same underlying model as Fable 5 but with lifted safeguards in some areas — is being deployed for cyberdefenders and critical infrastructure providers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-soYwpiKv9RE",
+      "type": "video",
+      "title": "Claude Fable 5 Just Dropped – Free Until June 22, Don't Miss This Full Breakdown",
+      "youtubeId": "soYwpiKv9RE",
+      "sourceUrl": "https://www.youtube.com/watch?v=soYwpiKv9RE",
+      "verified": false,
+      "publishedAt": "2026-06-10",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "A practical breakdown of Claude Fable 5's release mechanics: pricing ($10/M input, $50/M output — double Opus 4.8), the free access window through June 22, and how to activate it in Claude Code and the Claude app. The video clarifies that Fable 5 consumes approximately 2x the tokens of Opus 4.8 per session, making cost planning critical for high-volume API users before the free window closes.",
+      "keyConcepts": ["Claude Fable 5 pricing", "token consumption rates", "Claude Code integration", "model access window"],
+      "whyItMatters": "With only a short free window before Fable 5 transitions to paid-only access, developers and teams need to understand the cost implications now to plan whether to upgrade workflows or stay on Opus 4.8.",
+      "tags": ["claude-fable-5", "ai-pricing", "claude-code", "anthropic", "llm-costs", "model-access"],
+      "relatedIds": ["youtube-54Fky0JpSbw", "youtube-9GLYsrMpprs", "article-claude-fable5-aws-bedrock-20260610"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Claude Fable 5's pricing compare to Claude Opus 4.8?",
+          "options": [
+            "Same price per token",
+            "50% more expensive",
+            "Double the cost",
+            "Triple the cost"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Fable 5 is priced at $10/M input and $50/M output tokens — exactly double the price of Claude Opus 4.8. It also consumes approximately 2x more tokens per session, compounding the cost difference for heavy users."
+        },
+        {
+          "question": "Approximately what percentage of Claude Fable 5 sessions trigger the safety fallback to Opus 4.8?",
+          "options": [
+            "Less than 5%",
+            "Around 10–15%",
+            "Roughly 20%",
+            "More than 25%"
+          ],
+          "correctIndex": 0,
+          "explanation": "Anthropic tuned Fable 5's safety guardrails to trigger in fewer than 5% of sessions, so the vast majority of use cases receive Fable 5's full Mythos-class capabilities without fallback."
+        }
+      ]
+    },
+    {
+      "id": "article-standard-bots-200m-robotics-20260609",
+      "type": "article",
+      "title": "Standard Bots Raises $200M Series C at $1B Valuation to Scale AI-Native Industrial Robots",
+      "sourceUrl": "https://siliconangle.com/2026/06/09/standard-bots-raises-200m-1b-valuation-revolutionize-ai-native-industrial-robotics/",
+      "verified": false,
+      "publishedAt": "2026-06-09",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Standard Bots has secured $200 million in a Series C funding round led by General Catalyst and RoboStrategy, valuing the AI-native robotics company at $1 billion. The New York-based company builds industrial robot arms and humanoids that learn new tasks through human demonstration rather than traditional programming — workers physically show the robot what to do, and the system learns from observation. Proceeds will expand the Glen Cove, NY manufacturing facility to 70,000 sq ft, and Standard Bots projects it will represent 10% of new US industrial robot deployments within a year.",
+      "keyConcepts": ["AI-native industrial robotics", "learning-by-demonstration", "US manufacturing reshoring", "Series C venture funding"],
+      "whyItMatters": "Standard Bots' model — robots that factory workers can train without writing code — lowers the barrier to automation for small and mid-sized US manufacturers, potentially accelerating domestic industrial robotics adoption at a time when the US is competing with China on robotics output.",
+      "tags": ["robotics", "industrial-ai", "series-c", "us-manufacturing", "ai-investment", "automation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How do Standard Bots' industrial robots learn new manufacturing tasks?",
+          "options": [
+            "Via written Python scripts uploaded by engineers",
+            "Through manual position-by-position programming",
+            "By human demonstration — workers show the robot, and it learns from observation",
+            "Using pre-loaded motion libraries from the cloud"
+          ],
+          "correctIndex": 2,
+          "explanation": "Standard Bots builds AI-native robots that learn through demonstration: a factory worker physically performs the task, and the robot's AI observes and replicates it, removing the need for specialized robotics programming expertise."
+        },
+        {
+          "question": "What share of new US industrial robot deployments does Standard Bots project to capture within a year?",
+          "options": [
+            "2%",
+            "5%",
+            "10%",
+            "20%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Standard Bots projects it will account for 10% of new US industrial robot deployments within a year, supported by the $200M Series C and the expanded 70,000 sq ft manufacturing facility in Glen Cove, New York."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-fable5-explained-20260610",
+      "type": "article",
+      "title": "Claude Fable 5 Explained: What Anthropic's Guarded Frontier AI Model Can Do",
+      "sourceUrl": "https://www.business-standard.com/technology/tech-news/claude-fable-5-explained-what-anthropic-s-guarded-frontier-ai-model-can-do-126061000776_1.html",
+      "verified": false,
+      "publishedAt": "2026-06-10",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Business Standard explains the technical architecture and policy decisions behind Claude Fable 5, Anthropic's first publicly available Mythos-class model. The article covers how Fable 5 differs from the restricted Claude Mythos 5 deployed via Project Glasswing: the public model retains the same underlying intelligence but wraps high-risk capabilities in a guardrail layer that auto-routes sensitive queries to Opus 4.8. State-of-the-art benchmark results across software engineering, vision, and scientific reasoning are detailed, and pricing ($10/$50 per million tokens) is positioned in the broader frontier model landscape.",
+      "keyConcepts": ["Mythos-class model architecture", "public vs government AI deployment", "safety-by-fallback design", "frontier model benchmarking"],
+      "whyItMatters": "Fable 5 represents a new approach to frontier model safety: rather than refusing sensitive queries, the model transparently downgrades to a safer alternative, maintaining user trust while containing risk — a pattern other labs may adopt.",
+      "tags": ["claude-fable-5", "anthropic", "ai-safety", "frontier-ai", "mythos-class", "model-architecture"],
+      "relatedIds": ["youtube-54Fky0JpSbw", "youtube-9GLYsrMpprs", "article-claude-fable5-aws-bedrock-20260610"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key architectural difference between Claude Fable 5 and Claude Mythos 5?",
+          "options": [
+            "Fable 5 is smaller and faster; Mythos 5 is the full-size model",
+            "Fable 5 adds a guardrail layer over the same underlying Mythos intelligence; Mythos 5 has those guardrails lifted in some areas",
+            "Fable 5 is open-source; Mythos 5 is proprietary",
+            "Fable 5 runs on-device; Mythos 5 runs in the cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both models share the same underlying intelligence. Fable 5 wraps it with safety guardrails for general public use, automatically routing sensitive queries to Opus 4.8. Mythos 5 has those guardrails lifted in specific domains, deployed only to vetted government cyberdefenders via Project Glasswing."
+        },
+        {
+          "question": "On SWE-Bench Pro (real-world software engineering tasks), how does Fable 5 compare to GPT-5.5?",
+          "options": [
+            "They score identically at around 70%",
+            "GPT-5.5 leads Fable 5 by roughly 10 percentage points",
+            "Fable 5 leads GPT-5.5 by roughly 22 percentage points (80.3% vs 58.6%)",
+            "Fable 5 trails GPT-5.5 by roughly 5 percentage points"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Fable 5 scores 80.3% on SWE-Bench Pro versus GPT-5.5's 58.6% — a gap of nearly 22 percentage points, establishing Fable 5 as the current leader on this widely-used real-world coding benchmark."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-fable5-aws-bedrock-20260610",
+      "type": "article",
+      "title": "Claude Fable 5 Now Available on Amazon Bedrock with Mythos-Class Capabilities",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
+      "verified": false,
+      "publishedAt": "2026-06-10",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Amazon Web Services announced that Claude Fable 5 is now available through Amazon Bedrock, giving AWS customers access to Anthropic's new Mythos-class public model within existing cloud infrastructure. The integration includes Bedrock's standard guardrails, fine-tuning pipelines, and knowledge base connectors, enabling enterprises to run Fable 5 on AWS-hosted data without routing it to Anthropic's API directly. Built-in safety fallback to Opus 4.8 for restricted queries is preserved in the Bedrock deployment.",
+      "keyConcepts": ["Amazon Bedrock integration", "enterprise AI deployment", "cloud AI infrastructure", "Anthropic-AWS partnership"],
+      "whyItMatters": "Availability on Bedrock means the millions of enterprises already running AI workloads on AWS can adopt Fable 5 without changing their cloud vendor or compliance setup — lowering the barrier to upgrading from Opus 4.8 in production systems.",
+      "tags": ["claude-fable-5", "amazon-bedrock", "aws", "anthropic", "enterprise-ai", "cloud-deployment"],
+      "relatedIds": ["youtube-soYwpiKv9RE", "article-claude-fable5-explained-20260610"],
+      "knowledgeChecks": [
+        {
+          "question": "What is a key benefit of Claude Fable 5 being available on Amazon Bedrock?",
+          "options": [
+            "Enterprises can use Fable 5 within existing AWS infrastructure without changing their cloud vendor",
+            "It makes Fable 5 completely free for all AWS customers indefinitely",
+            "It allows Fable 5 to run without any safety guardrails on AWS",
+            "AWS customers get access to Claude Mythos 5 rather than Fable 5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bedrock availability means enterprises with existing AWS infrastructure, compliance setups, and IAM policies can adopt Fable 5 within their current environment — avoiding vendor changes or re-architecting their data pipelines."
+        },
+        {
+          "question": "Which Anthropic feature is preserved in the Amazon Bedrock deployment of Claude Fable 5?",
+          "options": [
+            "Custom safety guardrails built only for AWS",
+            "Unlimited context window for Bedrock users",
+            "Free Mythos 5 access for enterprise accounts",
+            "Automatic fallback to Opus 4.8 for high-risk queries"
+          ],
+          "correctIndex": 3,
+          "explanation": "The safety fallback mechanism — routing sensitive queries to Claude Opus 4.8 rather than Fable 5 — is preserved in the Bedrock deployment, ensuring Anthropic's safety architecture applies consistently across cloud providers."
         }
       ]
     }
