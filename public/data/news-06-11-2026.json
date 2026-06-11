@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T12:00:00.000Z",
+  "generatedAt": "2026-06-11T17:30:00.000Z",
   "weekOf": "2026-06-08",
   "coverageStart": "2026-06-10",
   "coverageEnd": "2026-06-11",
@@ -137,6 +137,50 @@
       ]
     },
     {
+      "id": "youtube-2HlutMzvnNc",
+      "type": "video",
+      "title": "Fable 5 Jailbroken in 48 Hours: Safety Classifiers Defeated by Researcher",
+      "youtubeId": "2HlutMzvnNc",
+      "sourceUrl": "https://www.youtube.com/watch?v=2HlutMzvnNc",
+      "verified": false,
+      "publishedAt": "2026-06-11",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "The AI Daily Brief covers researcher 'Pliny the Liberator' defeating Claude Fable 5's safety classifiers within 48 hours of launch using multi-agent decomposition, Unicode and Cyrillic character substitution, and narrative framing — leaking the model's 120,000-character system prompt in the process. The episode also recaps Fable 5's launch day highlights and what the rapid jailbreak implies about classifier-based safety architectures.",
+      "keyConcepts": [
+        "Safety classifier bypass via Unicode homoglyphs",
+        "Multi-agent decomposition jailbreak technique",
+        "System prompt extraction",
+        "Classifier-layer vs. model-layer safety"
+      ],
+      "whyItMatters": "Fable 5 being jailbroken within 48 hours demonstrates that bolting classifiers onto a powerful model is insufficient for robust safety — the underlying capability remains accessible to a determined adversary, raising fundamental questions about surface-layer safety architectures.",
+      "tags": ["claude-fable-5", "jailbreak", "ai-safety", "classifier-bypass", "anthropic", "ai-daily-brief"],
+      "relatedIds": ["cybersecnews-fable5-jailbreak-0611", "youtube-0pgCBV8CTZY", "techcrunch-fable5-cybersecurity-0610"],
+      "knowledgeChecks": [
+        {
+          "question": "Which technique did researcher 'Pliny the Liberator' use to bypass Fable 5's safety classifiers?",
+          "options": [
+            "Prompt injection via a PDF attachment",
+            "Direct API calls bypassing the frontend",
+            "Unicode and Cyrillic character substitution combined with narrative framing",
+            "Repeatedly submitting the same banned prompt until the filter timed out"
+          ],
+          "correctIndex": 2,
+          "explanation": "The researcher combined Unicode homoglyphs and Cyrillic character substitution to evade keyword classifiers, long-context reference tracking to smuggle harmful intent across large conversations, and fiction/narrative framing to mask offensive intent — defeating the classifier layer without accessing the underlying model weights."
+        },
+        {
+          "question": "What does the rapid jailbreak of Fable 5 reveal about its safety architecture?",
+          "options": [
+            "The model's weights were leaked before the public launch",
+            "Classifier-layer restrictions can be bypassed without modifying the underlying model",
+            "Anthropic did not test the model for adversarial inputs before release",
+            "The safety guardrails only apply to the API, not the consumer product"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fable 5 applies safety via a classifier layer on top of the Mythos 5 base — the same approach that can be defeated by evading classifier patterns. The underlying model capability remains intact, meaning classifier-based safety is a surface-layer measure that a skilled adversary can route around."
+        }
+      ]
+    },
+    {
       "id": "fortune-fable5-sabotage-0610",
       "type": "article",
       "title": "Anthropic Accused of 'Secret Sabotage' as Fable 5 Silently Limits AI Researcher Capabilities",
@@ -262,6 +306,49 @@
           ],
           "correctIndex": 2,
           "explanation": "Claude Mythos 5 — the same underlying model as Fable 5 but with the cybersecurity guardrails lifted — is restricted to a vetted group of cyber defenders and critical infrastructure operators, not the broader security research community."
+        }
+      ]
+    },
+    {
+      "id": "cybersecnews-fable5-jailbreak-0611",
+      "type": "article",
+      "title": "Anthropic's Claude Fable 5 Jailbroken to Generate Stack Exploits Within 48 Hours",
+      "sourceUrl": "https://cybersecuritynews.com/anthropics-claude-fable-5-jailbroken/",
+      "verified": false,
+      "publishedAt": "2026-06-11",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Cybersecurity News details how researcher 'Pliny the Liberator' bypassed Claude Fable 5's classifier-based safety layer within 48 hours of launch, prompting the model to generate working stack exploit code. The attack combined Unicode homoglyphs and Cyrillic substitution to evade keyword classifiers, long-context reference tracking to smuggle harmful intent across large conversations, and fiction framing to disguise offensive intent as creative content.",
+      "keyConcepts": [
+        "Classifier evasion via Unicode homoglyphs",
+        "Long-context reference tracking exploit",
+        "Stack exploit code generation",
+        "Surface-layer vs. weight-level safety enforcement"
+      ],
+      "whyItMatters": "Bypassing Fable 5's safety layer with off-the-shelf text manipulation demonstrates that classifier-based guardrails are a thin surface over an unrestricted capability — attackers face no fundamental barrier, only a pattern-matching filter, which shifts the risk calculus for deploying frontier models in sensitive environments.",
+      "tags": ["jailbreak", "claude-fable-5", "anthropic", "classifier-bypass", "exploit-generation", "cybersecurity"],
+      "relatedIds": ["youtube-2HlutMzvnNc", "techcrunch-fable5-cybersecurity-0610", "youtube-0pgCBV8CTZY"],
+      "knowledgeChecks": [
+        {
+          "question": "What class of exploit did the jailbroken Fable 5 generate for the researcher?",
+          "options": [
+            "SQL injection payloads for web applications",
+            "Working stack exploit code",
+            "Browser-based cross-site scripting attacks",
+            "Firmware modification scripts for IoT devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "After defeating Fable 5's safety classifiers, the researcher prompted the model to produce working stack exploit code — a category Anthropic's guardrails explicitly prohibit — demonstrating that the underlying Mythos 5 capability remains intact beneath the classifier layer."
+        },
+        {
+          "question": "What does Fable 5's 48-hour jailbreak reveal about the 'classifier on top of a capable model' safety approach?",
+          "options": [
+            "It is robust against all known prompt injection techniques",
+            "It requires model weight modification to defeat",
+            "It is a pattern-matching layer that can be bypassed without accessing model weights",
+            "It is only vulnerable when the model is accessed via the raw API"
+          ],
+          "correctIndex": 2,
+          "explanation": "The attack required no access to model weights, no API manipulation, and no insider knowledge — only text manipulation via Unicode tricks and narrative framing. This confirms that classifier-based safety is a pattern filter, not a capability constraint, and can be routed around by any motivated adversary with moderate prompt engineering skill."
         }
       ]
     }
