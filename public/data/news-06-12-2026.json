@@ -1,9 +1,53 @@
 {
-  "generatedAt": "2026-06-12T10:00:00.000Z",
+  "generatedAt": "2026-06-12T16:00:00.000Z",
   "weekOf": "2026-06-08",
   "coverageStart": "2026-06-11",
   "coverageEnd": "2026-06-12",
   "items": [
+    {
+      "id": "youtube-2HlutMzvnNc",
+      "type": "video",
+      "title": "Claude Fable 5 Drops and Gets Jailbroken in 48 Hours",
+      "youtubeId": "2HlutMzvnNc",
+      "sourceUrl": "https://www.youtube.com/watch?v=2HlutMzvnNc",
+      "verified": false,
+      "publishedAt": "2026-06-11",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The AI Daily Brief covers Anthropic's launch of Claude Fable 5 — the first publicly available Mythos-class model — and its rapid jailbreak by researcher 'Pliny the Liberator' within 48 hours of release. The video breaks down the Unicode homoglyph and multi-agent decomposition techniques used to bypass Fable 5's classifier layer, and examines what this reveals about the limits of surface-level AI safety guardrails. Anthropic's controversial covert restriction policy for frontier LLM developers is also discussed.",
+      "keyConcepts": [
+        "Claude Fable 5 Mythos-class model launch",
+        "Classifier-layer AI safety bypasses",
+        "Covert vs. transparent AI guardrails",
+        "Adversarial prompting against classifier safety"
+      ],
+      "whyItMatters": "The 48-hour jailbreak cycle reinforces that classifier-based safety layers on top of powerful base models are insufficient against determined adversaries — the real frontier safety challenge is weight-level alignment, not surface-layer detection.",
+      "tags": ["claude-fable-5", "jailbreak", "ai-safety", "anthropic", "mythos", "ai-daily-brief"],
+      "relatedIds": ["cointelegraph-fable5-jailbreak-0611", "simonwillison-fable5-reversal-0611"],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural feature of Claude Fable 5 made it vulnerable to the 48-hour jailbreak?",
+          "options": [
+            "Its context window was too large to fully monitor",
+            "Its safety restrictions were enforced by a classifier layer rather than baked into model weights",
+            "The model was released without any safety guardrails",
+            "Anthropic publicly disclosed the jailbreak method in its system card"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fable 5 uses a classifier-layer approach: a detection system intercepts potentially harmful queries and reroutes them to Opus 4.8. The underlying Mythos-level capability remains present and can be reached by anyone who fools the classifier — which 'Pliny the Liberator' accomplished using homoglyph substitution, multi-agent decomposition, and narrative framing."
+        },
+        {
+          "question": "What was Anthropic's initial response to discovering Fable 5's researcher restriction was covert?",
+          "options": [
+            "It added additional classifier layers to prevent detection",
+            "It removed all restrictions on frontier LLM development queries",
+            "It reversed the policy within 48 hours, making the Opus 4.8 fallback visible",
+            "It issued a patch that required users to re-verify their accounts"
+          ],
+          "correctIndex": 2,
+          "explanation": "After researcher backlash about the covert downgrade policy, Anthropic reversed course within 48 hours: requests that trigger the frontier-development restriction now visibly fall back to Opus 4.8 with a clear notification, matching the transparent approach used for its cybersecurity and biology safeguards."
+        }
+      ]
+    },
     {
       "id": "simonwillison-fable5-reversal-0611",
       "type": "article",
@@ -91,6 +135,49 @@
       ]
     },
     {
+      "id": "openai-oracle-cloud-0611",
+      "type": "article",
+      "title": "OpenAI Models Now Accessible Through Oracle Cloud Universal Credits",
+      "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud/",
+      "verified": false,
+      "publishedAt": "2026-06-11",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI and Oracle announced that enterprise customers can access OpenAI's frontier models and Codex through their existing Oracle Universal Credits — eliminating the need for a separate OpenAI vendor relationship. Companies with existing Oracle Cloud Infrastructure commitments can route AI workloads to OpenAI models without new procurement, with availability rolling out in the coming weeks. The deal extends the Stargate compute partnership already linking the two companies.",
+      "keyConcepts": [
+        "Oracle Universal Credits for AI model access",
+        "Enterprise AI procurement simplification",
+        "OpenAI-Oracle cloud integration",
+        "Codex accessibility for enterprise developers"
+      ],
+      "whyItMatters": "By letting Oracle customers apply existing cloud credits toward OpenAI models, this deal removes the single biggest adoption barrier for enterprise AI: procurement friction. Engineers at Oracle-committed companies can now ship AI features without a new budget line or contract.",
+      "tags": ["openai", "oracle", "enterprise-ai", "cloud-integration", "codex", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary benefit of the OpenAI-Oracle Universal Credits integration for enterprise customers?",
+          "options": [
+            "It gives Oracle customers exclusive early access to GPT-6",
+            "Existing Oracle cloud credits can be applied to OpenAI models without new procurement",
+            "It moves OpenAI's training infrastructure entirely to Oracle data centers",
+            "It replaces Oracle's existing AI models with OpenAI's GPT lineup"
+          ],
+          "correctIndex": 1,
+          "explanation": "The integration allows companies with existing Oracle Universal Credit commitments to route those credits toward OpenAI frontier models and Codex, sidestepping the new vendor procurement process and making it significantly faster to adopt OpenAI capabilities within an enterprise already committed to Oracle cloud."
+        },
+        {
+          "question": "Which OpenAI product is specifically highlighted alongside frontier models in the Oracle Cloud integration announcement?",
+          "options": [
+            "DALL-E 4",
+            "Sora 2.0",
+            "Codex",
+            "ChatGPT Images 2.0"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's Codex — its AI coding system — is specifically called out alongside frontier language models in the Oracle Cloud integration announcement. This reflects Codex's centrality to enterprise AI engineering workflows, where automated code generation and review are among the highest-ROI use cases for AI adoption."
+        }
+      ]
+    },
+    {
       "id": "npr-spacex-ipo-0611",
       "type": "article",
       "title": "SpaceX Prices Record $75 Billion IPO at $135 per Share, Topping Saudi Aramco",
@@ -107,7 +194,7 @@
       ],
       "whyItMatters": "The SpaceX/xAI IPO is the first test of whether public markets will support the $1–2 trillion valuations being attached to frontier AI companies — its opening-day performance will directly influence how quickly Anthropic and OpenAI, both of which have filed confidential S-1s, move toward their own public listings.",
       "tags": ["spacex", "xai", "ipo", "ai-valuation", "nasdaq", "elon-musk"],
-      "relatedIds": ["abhs-spacex-spcx-ai-0612"],
+      "relatedIds": ["cnbc-spcx-ipo-trading-0612", "abhs-spacex-spcx-ai-0612"],
       "knowledgeChecks": [
         {
           "question": "Why does the SpaceX IPO carry special significance for the AI industry beyond the aerospace business?",
@@ -130,6 +217,49 @@
           ],
           "correctIndex": 2,
           "explanation": "Total investor demand for SpaceX shares exceeded $250 billion against a $75 billion raise — a 3x+ oversubscription that indicates intense institutional and retail appetite for AI-infrastructure exposure. This level of demand strongly de-risks the pending Anthropic and OpenAI IPO timelines."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-spcx-ipo-trading-0612",
+      "type": "article",
+      "title": "SPCX Pops Nearly 30% on First Day: SpaceX Opens at $150, Reaches $168",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "verified": false,
+      "publishedAt": "2026-06-12",
+      "topics": ["ai-industry"],
+      "summary": "SpaceX's Nasdaq debut under the SPCX ticker on June 12 saw shares open at $150 — 11% above the $135 IPO price — before reaching a session high of $168.75, nearly 25% above the offering price. Trading volume eclipsed the QQQ and SPY by dollar terms, with over $33 billion in SPCX changing hands by midday. The strong debut validates the $1.75 trillion valuation SpaceX/xAI targeted and sets a high-water mark for the AI IPO pipeline behind it.",
+      "keyConcepts": [
+        "SPCX IPO first-day trading performance",
+        "SpaceX-xAI $1.75 trillion public market valuation",
+        "AI company IPO valuation benchmarks",
+        "Nasdaq dollar volume for AI infrastructure stocks"
+      ],
+      "whyItMatters": "SPCX's 25%+ opening-day pop confirms that public markets are willing to assign trillion-dollar valuations to AI-adjacent infrastructure companies — directly de-risking the Anthropic and OpenAI IPO timelines and likely accelerating their path to public listing.",
+      "tags": ["spacex", "spcx", "xai", "ipo", "nasdaq", "ai-valuation"],
+      "relatedIds": ["npr-spacex-ipo-0611", "abhs-spacex-spcx-ai-0612"],
+      "knowledgeChecks": [
+        {
+          "question": "What was SPCX's session high on its first trading day, June 12, 2026?",
+          "options": [
+            "$135 (flat at IPO price)",
+            "$143 (up 6% from IPO price)",
+            "$150 (opening price, 11% above IPO)",
+            "$168.75 (up nearly 25% from IPO price)"
+          ],
+          "correctIndex": 3,
+          "explanation": "SPCX opened at $150 — 11% above the $135 IPO price — but climbed to a session high of $168.75 during first-day trading, representing nearly 25% above the IPO price. The stock saw over $33 billion in dollar volume, exceeding both the QQQ and SPY by that measure on June 12."
+        },
+        {
+          "question": "Why does SPCX's first-day performance matter for Anthropic and OpenAI's IPO timelines?",
+          "options": [
+            "SPCX must close below $135 before Anthropic can file its S-1",
+            "Strong demand for SPCX validates trillion-dollar AI valuations in public markets, de-risking Anthropic and OpenAI's timing",
+            "Anthropic and OpenAI are required to price their IPOs within 5% of SPCX",
+            "SPCX and Anthropic share the same Nasdaq underwriters who must complete one listing before the next"
+          ],
+          "correctIndex": 1,
+          "explanation": "SPCX's strong opening validates trillion-dollar AI valuations in the public market. Since both Anthropic (at $965B) and OpenAI are targeting similar valuation tiers, a successful SPCX debut signals that underwriters can confidently run those listings and de-risks the investment bank recommendation to proceed sooner rather than later."
         }
       ]
     },
