@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-13T08:00:00.000Z",
+  "weekOf": "2026-06-08",
+  "coverageStart": "2026-06-11",
+  "coverageEnd": "2026-06-12",
+  "items": [
+    {
+      "id": "article-spacex-ipo-debut-june-2026",
+      "type": "article",
+      "title": "SpaceX Debuts on Nasdaq with Record $75B IPO, Shares Close Up 19%",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "verified": false,
+      "publishedAt": "2026-06-12",
+      "topics": ["ai-industry"],
+      "summary": "SpaceX officially began trading on the Nasdaq exchange under ticker SPCX on June 12, 2026, completing the largest IPO in recorded history—raising $75 billion at $135 per share. Shares surged 19% on the first trading day, closing at $160.95. The company, which acquired xAI (along with Grok AI models and the X social network) in February 2026, now operates a major AI infrastructure business with $30 billion in supply agreements to provide GPU compute to both Google and Anthropic.",
+      "keyConcepts": [
+        "Initial Public Offering (IPO)",
+        "AI infrastructure financing",
+        "Vertical integration in AI hardware",
+        "GPU compute supply chains"
+      ],
+      "whyItMatters": "SpaceX's record-breaking market debut signals that public capital markets are ready to back large-scale AI infrastructure at unprecedented scale—Goldman Sachs called it proof of market willingness to finance the AI build-out, a signal that may accelerate IPO plans for OpenAI and Anthropic.",
+      "tags": ["spacex-ipo", "ai-infrastructure", "xai", "nasdaq", "gpu-compute", "ai-financing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was SpaceX's closing stock price on its first day of trading?",
+          "options": [
+            "$135 (the IPO price)",
+            "$160.95 (up ~19%)",
+            "$180 (up ~33%)",
+            "$110 (down ~19%)"
+          ],
+          "correctIndex": 1,
+          "explanation": "SpaceX priced its IPO at $135 per share and closed its first trading day at $160.95, representing approximately a 19% gain and validating strong investor demand."
+        },
+        {
+          "question": "Which AI company did SpaceX acquire in February 2026, adding AI models and data centers to its portfolio?",
+          "options": [
+            "OpenAI",
+            "Anthropic",
+            "xAI",
+            "Cohere"
+          ],
+          "correctIndex": 2,
+          "explanation": "SpaceX acquired xAI in February 2026, bringing Grok AI models, Colossus data centers, and the X social network under the SpaceX umbrella."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-ceos-g7-summit-2026",
+      "type": "article",
+      "title": "Altman, Hassabis, and Amodei All Invited to G7 Summit in France",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit",
+      "verified": false,
+      "publishedAt": "2026-06-12",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI's Sam Altman, Google DeepMind's Demis Hassabis, and Anthropic's Dario Amodei are all confirmed to attend the G7 summit in Évian-les-Bains, France, running June 15–17, 2026. This marks the first time leaders from all three major frontier AI labs will jointly participate in the annual heads-of-state summit, with AI placed prominently on the agenda by host nation France. Altman was personally invited by French President Emmanuel Macron—making this his first G7 participation.",
+      "keyConcepts": [
+        "AI governance",
+        "International AI policy",
+        "G7 and frontier AI regulation",
+        "Geopolitics of AI"
+      ],
+      "whyItMatters": "The first-ever joint G7 appearance by all three major AI lab heads signals that AI governance has moved to the center of global geopolitics, raising the likelihood that coordinated international regulatory frameworks will emerge from the world's leading democracies in the second half of 2026.",
+      "tags": ["g7-summit", "ai-governance", "openai", "anthropic", "google-deepmind", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where is the 2026 G7 summit being held?",
+          "options": [
+            "London, United Kingdom",
+            "Berlin, Germany",
+            "Évian-les-Bains, France",
+            "Rome, Italy"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 52nd G7 summit is being held in Évian-les-Bains, France, from June 15–17, 2026. France holds the rotating G7 presidency and has placed AI at the top of the agenda."
+        },
+        {
+          "question": "Which AI CEO was personally invited to the G7 by French President Macron, marking their first participation?",
+          "options": [
+            "Dario Amodei (Anthropic)",
+            "Demis Hassabis (Google DeepMind)",
+            "Jensen Huang (NVIDIA)",
+            "Sam Altman (OpenAI)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sam Altman was confirmed as attending at the personal invitation of French President Emmanuel Macron, making this his first participation in the annual G7 summit."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-acquires-ona-codex-2026",
+      "type": "article",
+      "title": "OpenAI Acquires Ona to Power Persistent, Long-Running Codex Agents",
+      "sourceUrl": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
+      "verified": false,
+      "publishedAt": "2026-06-11",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI announced plans to acquire Ona—a cloud startup formerly known as Gitpod—which provides secure, preconfigured cloud environments and orchestration infrastructure for AI agents. The deal will allow Codex, OpenAI's AI coding assistant used by over 5 million people weekly, to execute persistent, longer-running tasks inside a customer's own cloud environment rather than ephemeral short sessions. Codex usage has grown 400% from earlier in 2026.",
+      "keyConcepts": [
+        "AI agent orchestration",
+        "Persistent cloud execution environments",
+        "Agentic software development",
+        "Codex and autonomous coding"
+      ],
+      "whyItMatters": "The Ona acquisition marks AI coding tools completing their evolution from autocomplete to fully autonomous cloud agents—systems that can accept a task, spin up a secure sandboxed environment, execute multi-step work over hours, and deliver results without the developer staying present.",
+      "tags": ["openai", "codex", "ona", "gitpod", "ai-agents", "cloud-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Ona previously known as before rebranding?",
+          "options": [
+            "Replit",
+            "CodeSandbox",
+            "GitHub Codespaces",
+            "Gitpod"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ona is a cloud platform startup formerly known as Gitpod, which originally provided browser-based cloud development environments for software teams."
+        },
+        {
+          "question": "How many people use OpenAI's Codex weekly as of the Ona acquisition announcement?",
+          "options": [
+            "500,000",
+            "1 million",
+            "5 million",
+            "20 million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Over 5 million people use Codex each week—a 400% increase from earlier in 2026—highlighting the explosive growth of AI coding agents as developer productivity tools."
+        }
+      ]
+    }
+  ]
+}
