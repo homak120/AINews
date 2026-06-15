@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-15T12:00:00.000Z",
+  "weekOf": "2026-06-15",
+  "coverageStart": "2026-06-14",
+  "coverageEnd": "2026-06-15",
+  "items": [
+    {
+      "id": "fortune-amazon-jassy-white-house-fable5-june14",
+      "type": "article",
+      "title": "Amazon's Warning to the White House Was What Triggered the Anthropic Fable 5 Shutdown",
+      "sourceUrl": "https://fortune.com/2026/06/14/how-a-warning-from-amazon-led-the-white-house-to-shut-down-anthropics-mythos-model/",
+      "verified": false,
+      "publishedAt": "2026-06-14",
+      "topics": ["ai-industry"],
+      "summary": "Fortune reports that a direct warning from Amazon CEO Andy Jassy to White House officials—specifically about safety risks in Anthropic's Fable 5 and Mythos 5 models—was the proximate trigger for the US government's June 12 export control directive that forced a global shutdown of both models. Amazon is Anthropic's largest investor with tens of billions committed, making Jassy's intervention notable as an insider concern rather than external regulatory action. The story adds a new layer to the week's biggest AI governance story: corporate investors, not only national security officials, were escalating internal worries before the government acted.",
+      "keyConcepts": [
+        "Amazon as Anthropic's primary investor and cloud partner",
+        "Investor-triggered regulatory escalation in AI",
+        "Corporate governance pressure on frontier model deployment",
+        "Convergence of investor and national security concerns"
+      ],
+      "whyItMatters": "If a company's largest investor is quietly alerting the White House before a government-forced shutdown, it signals that the investor-AI lab relationship is not purely financial—and raises profound questions about whether major investors have an informal veto over risky frontier model deployments that bypasses Anthropic's own safety review process.",
+      "tags": ["anthropic", "fable-5", "mythos-5", "amazon", "andy-jassy", "ai-governance", "export-controls"],
+      "relatedIds": ["benzinga-sacks-lift-fable5-controls-june14"],
+      "knowledgeChecks": [
+        {
+          "question": "What made Andy Jassy's warning to the White House particularly significant in the Fable 5 shutdown story?",
+          "options": [
+            "Jassy is a member of Anthropic's board with direct oversight authority over model releases",
+            "Amazon is Anthropic's largest investor, meaning the concern came from inside Anthropic's own funding base rather than from an external regulator",
+            "Amazon had previously co-developed Fable 5 under a joint research agreement, giving Jassy access to safety evaluations",
+            "Jassy had published a public warning about Fable 5 risks before the shutdown that the government cited in its directive"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amazon has committed tens of billions of dollars to Anthropic as its primary investor and cloud infrastructure partner. Jassy's reported warning came from inside Anthropic's most powerful financial backer—not from an external critic—making it far harder for Anthropic to dismiss and giving it unusual weight with White House officials."
+        },
+        {
+          "question": "What new governance dynamic does this story reveal about the relationship between AI labs and their investors?",
+          "options": [
+            "That investors are legally required to report safety concerns to the government before a model launches",
+            "That investors can influence government regulatory action on AI, even without any formal authority over the lab's technical decisions",
+            "That Amazon acquired a formal veto right over Anthropic model releases as part of its investment terms",
+            "That the SEC requires major investors to disclose safety concerns about AI models before an IPO"
+          ],
+          "correctIndex": 1,
+          "explanation": "No law requires investors to alert regulators—and nothing in the investment terms gave Amazon formal veto rights over model releases. But Jassy's reported intervention shows that investors in frontier AI labs wield informal influence over government action that goes far beyond their financial stake, creating a new kind of accountability channel that isn't formalized in any policy framework."
+        }
+      ]
+    },
+    {
+      "id": "benzinga-sacks-lift-fable5-controls-june14",
+      "type": "article",
+      "title": "David Sacks: US Wants to Lift Anthropic Export Controls 'As Soon As Possible' Once Fable 5 Jailbreak Is Fixed",
+      "sourceUrl": "https://www.benzinga.com/markets/tech/26/06/53185788/sacks-us-wants-to-lift-anthropic-export-controls-as-soon-as-possible-after-fable-5-fix",
+      "verified": false,
+      "publishedAt": "2026-06-14",
+      "topics": ["ai-industry"],
+      "summary": "David Sacks, Co-Chair of the President's Council of Advisers on Science and Technology, published a detailed account on June 14 laying out the administration's position on the Fable 5 export control dispute. Sacks stated the government asked Anthropic to fix the jailbreak or de-deploy Fable 5 before issuing the directive, and that Anthropic CEO Dario Amodei refused. He stressed the administration's goal is to lift the controls as quickly as possible once the safety issue is remediated—framing the ban as reluctant and temporary rather than punitive. Sacks also pushed back on the idea that the government's rationale was pretextual, citing a specific cybersecurity jailbreak technique discovered by a 'trusted partner' of both Anthropic and the US government.",
+      "keyConcepts": [
+        "David Sacks' June 14 public statement on Fable 5 export controls",
+        "Government's position: ban is temporary pending a safety fix",
+        "Anthropic's alleged refusal to remediate before the ban",
+        "Trusted-partner jailbreak discovery and attribution"
+      ],
+      "whyItMatters": "Sacks' statement signals that the US government sees the Fable 5 shutdown as a negotiated safety dispute, not a permanent regulatory action—but also establishes a precedent: if Anthropic (or any AI lab) refuses a government request to fix a specific safety flaw, the government is now willing to use export controls as a lever. This marks a new phase of the US-AI lab relationship.",
+      "tags": ["anthropic", "fable-5", "david-sacks", "export-controls", "ai-policy", "us-government", "jailbreak"],
+      "relatedIds": ["fortune-amazon-jassy-white-house-fable5-june14"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Sacks, what did the US government ask Anthropic to do before issuing the export control directive?",
+          "options": [
+            "Submit Fable 5 for a third-party safety audit before re-deployment",
+            "Fix the identified jailbreak vulnerability or voluntarily de-deploy Fable 5",
+            "Share Fable 5 model weights with the NSA for independent safety review",
+            "Delay the Fable 5 public launch until a formal export license was obtained"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sacks said the administration offered Anthropic a choice: remediate the specific jailbreak the government had identified, or voluntarily de-deploy Fable 5. Only after Amodei reportedly refused did the government issue the export control directive that forced a global shutdown."
+        },
+        {
+          "question": "What does the government's stated willingness to 'lift controls as soon as possible' tell us about how it views the Fable 5 situation?",
+          "options": [
+            "The government believes Fable 5 is permanently too dangerous to re-deploy in any form",
+            "The government is treating the ban as a temporary, negotiated safety requirement rather than a punitive or permanent regulatory action",
+            "The government plans to transfer control of the Fable 5 weights to a federal safety lab",
+            "The government views the ban as leverage in a broader effort to nationalize frontier AI development"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sacks explicitly framed the export controls as reluctant and temporary—tied to a specific, fixable safety issue rather than a policy opposition to Fable 5 or Anthropic's model family. This positions the dispute as a compliance negotiation that could be resolved quickly if Anthropic addresses the jailbreak, rather than a long-term regulatory standoff."
+        }
+      ]
+    },
+    {
+      "id": "g7-ai-ceos-france-summit-june15",
+      "type": "article",
+      "title": "Sam Altman, Dario Amodei, and Demis Hassabis Head to G7 Summit — First Time All Three AI Lab CEOs Join World Leaders",
+      "sourceUrl": "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis",
+      "verified": false,
+      "publishedAt": "2026-06-15",
+      "topics": ["ai-industry"],
+      "summary": "The 52nd G7 Summit in Évian-les-Bains, France opens today (June 15–17) with an unprecedented development: the CEOs of the three leading AI labs—Sam Altman (OpenAI), Dario Amodei (Anthropic), and Demis Hassabis (Google DeepMind)—are all attending together for the first time. French President Emmanuel Macron personally invited Altman, and OpenAI's chief global affairs officer indicated tech companies expect to leave with agreed voluntary commitments, with youth AI safety and frontier biological and cyber risks at the top of the agenda. The summit comes amid the ongoing Fable 5 export control dispute and the recent SpaceX/xAI IPO, placing AI regulation at the center of the world's leading economies' discussion agenda.",
+      "keyConcepts": [
+        "First joint G7 appearance of OpenAI, Anthropic, and DeepMind CEOs",
+        "Voluntary AI commitments as G7 policy tool",
+        "Youth safety and frontier bio/cyber risk as summit AI agenda items",
+        "Geopolitical context: Fable 5 ban and AI lab IPO wave"
+      ],
+      "whyItMatters": "The simultaneous presence of Altman, Amodei, and Hassabis at the G7 marks a turning point: AI lab leaders are now participants in shaping international governance frameworks, not just subjects of them. The voluntary commitments expected from this summit will set norms that could precede binding regulations in G7 member states.",
+      "tags": ["g7-summit", "openai", "anthropic", "google-deepmind", "ai-governance", "sam-altman", "dario-amodei", "demis-hassabis"],
+      "relatedIds": ["fortune-amazon-jassy-white-house-fable5-june14", "benzinga-sacks-lift-fable5-controls-june14"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes the 2026 G7 Summit historically notable for the AI industry?",
+          "options": [
+            "It is the first G7 summit to adopt binding international regulations on AI model deployment",
+            "It is the first time the CEOs of all three major AI labs—OpenAI, Anthropic, and Google DeepMind—appear together before world leaders",
+            "It is the first G7 summit where AI companies are required to present safety evaluations for regulatory review",
+            "G7 member states agreed to a joint sovereign AI compute fund totaling $500 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 52nd G7 Summit marks the first time all three of the leading frontier AI lab CEOs—Altman, Amodei, and Hassabis—attend the same G7 meeting together. This signals that AI has moved from a technology story to a geopolitical priority discussed at the highest level of international governance."
+        },
+        {
+          "question": "What type of policy outcome are AI companies expected to agree to at the 2026 G7 Summit?",
+          "options": [
+            "Binding international law governing frontier model releases, enforceable across all G7 members",
+            "A joint compute-sharing treaty giving G7 governments priority access to frontier AI systems",
+            "A package of voluntary commitments on AI safety, with youth safety and frontier bio/cyber risks as priority areas",
+            "A mandatory pre-deployment review process requiring six-month notice before any frontier model launch"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's chief global affairs officer stated the company expects tech firms to leave the summit with an agreed package of voluntary commitments—not binding law. Youth AI safety and high-risk applications like biological and cyber capabilities are flagged as the top agenda items, reflecting regulatory priorities that have been shaped by incidents like the Fable 5 export control dispute."
+        }
+      ]
+    }
+  ]
+}
