@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T12:00:00.000Z",
+  "generatedAt": "2026-06-15T18:00:00.000Z",
   "weekOf": "2026-06-15",
   "coverageStart": "2026-06-14",
   "coverageEnd": "2026-06-15",
@@ -130,6 +130,136 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI's chief global affairs officer stated the company expects tech firms to leave the summit with an agreed package of voluntary commitments—not binding law. Youth AI safety and high-risk applications like biological and cyber capabilities are flagged as the top agenda items, reflecting regulatory priorities that have been shaped by incidents like the Fable 5 export control dispute."
+        }
+      ]
+    },
+    {
+      "id": "youtube-i9Bq076wZj8",
+      "type": "video",
+      "title": "AI Prices Are About to Shock Everyone",
+      "youtubeId": "i9Bq076wZj8",
+      "sourceUrl": "https://www.youtube.com/watch?v=i9Bq076wZj8",
+      "verified": false,
+      "publishedAt": "2026-06-14",
+      "topics": ["ai-industry"],
+      "summary": "TheAIGRID breaks down why the era of cheap AI subscriptions is coming to an end. The video traces the economics behind today's pricing—comparing AI subscription costs to human labor, examining how OpenAI set ChatGPT's pricing, and analyzing whether the company is currently profitable on a per-user basis. The second half covers how pending IPOs from OpenAI, xAI, and Anthropic, combined with surging data center costs and the rise of expensive coding agents, are likely to force significant price increases for consumers and enterprises alike.",
+      "keyConcepts": [
+        "AI subscription pricing economics and current below-cost rates",
+        "IPO pressure on AI lab pricing strategy",
+        "Usage-based vs. flat-rate pricing transition",
+        "Data center and compute constraints driving cost increases"
+      ],
+      "whyItMatters": "The current $20–$30/month AI subscriptions are widely believed to be below marginal cost—a deliberate land-grab strategy. As AI labs move toward IPOs and investors demand profitability, pricing is likely to shift dramatically toward usage-based models, which will change how individuals and enterprises budget for and use AI tools.",
+      "tags": ["ai-pricing", "openai", "xai", "anthropic", "ipo", "enterprise-ai", "subscriptions", "economics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why do analysts believe current AI subscription prices like ChatGPT's $20/month tier are unlikely to remain stable?",
+          "options": [
+            "Regulatory pressure from the FTC requires AI companies to charge cost-reflective prices",
+            "AI labs are currently pricing below cost as a market-capture strategy, but IPO pressure and rising compute costs will force prices upward",
+            "OpenAI has already announced it will triple subscription prices by end of 2026",
+            "The shift to open-source models will eliminate demand for paid subscriptions entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "Current AI subscription pricing is widely understood to be a below-cost land-grab strategy—AI labs are acquiring users at a loss to build market share. As companies like OpenAI, xAI, and Anthropic approach public markets, investor pressure for profitability combined with rising data center and inference costs is expected to trigger significant price increases, likely moving toward usage-based models."
+        },
+        {
+          "question": "Which factor is most likely to accelerate the shift from flat-rate to usage-based AI pricing?",
+          "options": [
+            "Government mandates requiring AI companies to charge per-query rather than by subscription",
+            "The emergence of expensive agentic AI coding tools that consume vastly more compute than simple chat queries",
+            "Competition from open-source models forcing a race to the bottom on subscription fees",
+            "Antitrust action preventing AI companies from bundling multiple capabilities in a single subscription"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agentic coding tools like GitHub Copilot and Claude Code operate at token scales that dwarf simple chat interactions—a single multi-file coding session can consume hundreds of times more compute than a typical chat message. As these agents become mainstream, flat-rate pricing becomes economically untenable for AI companies, accelerating the move to usage or credit-based billing."
+        }
+      ]
+    },
+    {
+      "id": "openai-academy-courses-next-era-work-june14",
+      "type": "article",
+      "title": "OpenAI Launches Three Academy Courses to Help Workers Navigate the AI Era",
+      "sourceUrl": "https://openai.com/index/academy-courses-applying-ai-at-work/",
+      "verified": false,
+      "publishedAt": "2026-06-14",
+      "topics": ["ai-career"],
+      "summary": "OpenAI announced three new courses on OpenAI Academy on June 14: AI Foundations (conceptual grounding for non-technical workers), Applied AI Foundations (hands-on prompting and workflow integration), and Agents and Workflows (directing multi-step agentic pipelines). The structured sequence is designed to move entire teams from AI literacy through practical implementation to advanced agent orchestration, with OpenAI framing it as a corporate upskilling track rather than individual hobbyist training. The launch directly competes with LinkedIn Learning and Coursera in the enterprise AI skills market.",
+      "keyConcepts": [
+        "OpenAI Academy three-course sequence: Foundations → Applied → Agents",
+        "Corporate team upskilling as AI adoption driver",
+        "Structured AI learning path for non-technical professionals",
+        "OpenAI entering the enterprise learning market"
+      ],
+      "whyItMatters": "As AI tools become standard workplace infrastructure, the gap between workers who can direct AI effectively and those who cannot is becoming a major source of productivity and compensation inequality. OpenAI's direct entry into the AI skills education market—targeting organizations rather than individuals—signals that AI literacy is being treated as a strategic enterprise asset, not a personal hobby.",
+      "tags": ["openai", "ai-education", "workforce", "upskilling", "ai-agents", "enterprise", "ai-literacy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI Academy's three-course sequence—Foundations, Applied AI Foundations, and Agents and Workflows—reveal about how OpenAI views AI adoption in organizations?",
+          "options": [
+            "OpenAI believes most enterprise AI adoption will happen through automated deployment without human training",
+            "OpenAI sees AI adoption as a structured progression where teams must build conceptual understanding before moving to hands-on use and then agent orchestration",
+            "OpenAI designed the courses primarily for software engineers who need to integrate AI into code",
+            "The courses are aimed at replacing traditional computer science education at universities"
+          ],
+          "correctIndex": 1,
+          "explanation": "The three-course sequence reflects a deliberate layered approach: workers first need conceptual grounding (AI Foundations), then hands-on practice applying AI to real work (Applied AI Foundations), before they can effectively direct multi-step agentic workflows (Agents and Workflows). This progression mirrors how OpenAI believes AI competency actually develops in non-technical professional settings."
+        },
+        {
+          "question": "Which enterprise market does OpenAI's Academy directly compete with by offering these structured AI courses?",
+          "options": [
+            "Traditional MBA programs and executive education at universities",
+            "Corporate learning platforms like LinkedIn Learning and Coursera for enterprise AI upskilling",
+            "IT certification providers like CompTIA and Microsoft Learn",
+            "Internal L&D (Learning & Development) consulting firms"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI Academy positions itself as an alternative to platforms like LinkedIn Learning and Coursera that have built significant enterprise AI course catalogs. By offering a direct, structured path from their own platform—with courses specifically designed around OpenAI's own tools—OpenAI is competing for the enterprise upskilling budget that large organizations dedicate to AI training."
+        }
+      ]
+    },
+    {
+      "id": "nextweb-carney-ai-model-risk-g7-june15",
+      "type": "article",
+      "title": "Canada's Carney Compares Anthropic Model Shutdown to 2008 Financial Crisis, Warns of AI 'Model Risk'",
+      "sourceUrl": "https://thenextweb.com/news/carney-anthropic-fable-ai-model-risk-g7",
+      "verified": false,
+      "publishedAt": "2026-06-15",
+      "topics": ["ai-industry"],
+      "summary": "Canadian Prime Minister Mark Carney opened the G7 summit in Évian-les-Bains by invoking the 2008 financial crisis to describe the AI governance challenge exposed by the Fable 5 shutdown. Carney argued that over-dependence on a small number of powerful AI models creates systemic risk analogous to the pre-2008 concentration in mortgage-backed securities—when one fails or is pulled, downstream consequences cascade across institutions that didn't realize how exposed they were. He called for 'AI model risk' frameworks similar to bank stress tests and capital buffer requirements, arguing that the Anthropic situation proved the need for international AI concentration standards before a more severe disruption forces the issue.",
+      "keyConcepts": [
+        "AI model concentration risk as systemic financial-style risk",
+        "2008 financial crisis analogy for AI dependency",
+        "Proposal for international AI model risk stress-test frameworks",
+        "G7 as venue for setting AI dependency standards"
+      ],
+      "whyItMatters": "Carney's framing is significant because it moves AI governance debate from capability safety (what can the model do?) to systemic risk (what happens to organizations that depend on it?). If this framing takes hold at the G7, it could lead to enterprise AI procurement regulations requiring companies to document and limit single-model dependencies—similar to how financial regulators require banks to document and limit counterparty exposure.",
+      "tags": ["g7-summit", "mark-carney", "anthropic", "fable-5", "ai-governance", "systemic-risk", "financial-regulation", "ai-policy"],
+      "relatedIds": ["g7-ai-ceos-france-summit-june15", "fortune-amazon-jassy-white-house-fable5-june14"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific risk category did Carney argue the Fable 5 shutdown exposed in AI-dependent organizations?",
+          "options": [
+            "Model safety risk — that AI models can generate harmful content that damages brand reputation",
+            "AI model concentration risk — the systemic danger of institutions depending heavily on a single AI model or provider",
+            "Regulatory compliance risk — that organizations using AI without proper licensing face legal liability",
+            "Data sovereignty risk — that AI models trained on foreign data expose national security information"
+          ],
+          "correctIndex": 1,
+          "explanation": "Carney's argument focused on concentration risk: just as 2008's crisis was amplified by how many institutions had unknowingly concentrated exposure to the same mortgage-backed securities, today's AI landscape has organizations unknowingly reliant on a small number of frontier models. When one is pulled—as Fable 5 and Mythos 5 were—the cascading impact on organizations that had built critical workflows around it reveals the depth of that hidden dependency."
+        },
+        {
+          "question": "What type of regulatory framework did Carney propose drawing on as a model for managing AI concentration risk?",
+          "options": [
+            "Environmental impact assessments, modeled on carbon footprint regulation",
+            "Bank stress tests and capital buffer requirements used to manage financial system concentration risk",
+            "Export control licensing modeled on the ITAR system for defense technologies",
+            "Consumer protection disclosure requirements similar to EU product liability law"
+          ],
+          "correctIndex": 1,
+          "explanation": "Carney explicitly referenced the post-2008 financial regulatory toolkit—specifically bank stress tests and capital buffer requirements—as a template for AI model risk frameworks. The logic is that just as regulators now require banks to demonstrate resilience to counterparty failure, they should require large organizations to demonstrate they can survive the sudden loss of any single AI model or provider."
         }
       ]
     }
