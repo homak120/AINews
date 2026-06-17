@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-16T03:19:18.441Z",
+  "generatedAt": "2026-06-17T03:22:55.229Z",
   "weekOf": "2026-04-10",
   "coverageStart": "2026-04-10",
-  "coverageEnd": "2026-05-16",
+  "coverageEnd": "2026-05-17",
   "items": [
     {
       "id": "youtube-4qv6NIpY9Fo",
@@ -5908,6 +5908,332 @@
           ],
           "correctIndex": 1,
           "explanation": "Google revealed 'Googlebooks' — a premium category of Android-powered laptops built around Gemini Intelligence, with partners including Acer, ASUS, and Lenovo. The first Googlebooks are expected to ship in fall 2026."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-ai-gold-rush-haves-have-nots",
+      "type": "article",
+      "title": "The Haves and Have-Nots of the AI Gold Rush",
+      "sourceUrl": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
+      "summary": "Over the past five years, approximately 10,000 employees at AI-first companies like Anthropic, OpenAI, xAI, Nvidia, and Meta have accumulated retirement-level wealth above $20 million, creating a stark economic divide between AI insiders and the broader workforce. The piece examines how equity compensation at frontier AI labs has generated extraordinary wealth for a tiny cohort while the productivity gains from AI remain unevenly distributed across the wider economy.",
+      "keyConcepts": [
+        "AI wealth concentration",
+        "tech industry equity compensation",
+        "AI labor market stratification",
+        "innovation economy inequality"
+      ],
+      "whyItMatters": "As AI reshapes entire industries, understanding who actually captures its economic benefits is critical for policymakers, workers, and society — the wealth gap between AI insiders and everyone else is widening at an unprecedented pace.",
+      "tags": [
+        "ai-industry",
+        "wealth-inequality",
+        "equity-compensation",
+        "ai-workers",
+        "tech-economy",
+        "openai"
+      ],
+      "relatedIds": [
+        "cnbc-cerebras-ipo-spacex-openai"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately how many tech workers have achieved retirement-level wealth (over $20M) from the AI boom, according to the TechCrunch report?",
+          "options": [
+            "1,000",
+            "10,000",
+            "100,000",
+            "1 million"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article estimates approximately 10,000 employees — primarily at Anthropic, OpenAI, xAI, Nvidia, and Meta — have accumulated over $20 million in wealth over the past five years through equity compensation tied to the AI boom."
+        },
+        {
+          "question": "Which companies are specifically highlighted as the primary sources of AI wealth concentration in the article?",
+          "options": [
+            "Google, Apple, Microsoft, and Amazon",
+            "IBM, Oracle, Salesforce, and SAP",
+            "Anthropic, OpenAI, xAI, Nvidia, and Meta",
+            "Tesla, SpaceX, Palantir, and Stripe"
+          ],
+          "correctIndex": 2,
+          "explanation": "The article specifically names Anthropic, OpenAI, xAI, Nvidia, and Meta as the companies whose early employees have achieved the greatest concentration of wealth from the AI gold rush."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-cerebras-burned-8m-month",
+      "type": "article",
+      "title": "$60B AI Chip Darling Cerebras Almost Died Early On, Burning $8M a Month",
+      "sourceUrl": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "Cerebras Systems, fresh off a blockbuster IPO that valued the company near $60 billion, nearly collapsed in its early years by burning $8 million per month trying to solve a single technical problem — building its Wafer Scale Engine chips. CEO Andrew Feldman revealed the company had incinerated nearly $200 million before achieving its breakthrough, later signing landmark deals with OpenAI and AWS worth tens of billions. The story offers a rare window into the extreme capital risk behind AI hardware innovation.",
+      "keyConcepts": [
+        "Cerebras Wafer Scale Engine (WSE)",
+        "AI chip infrastructure",
+        "AI hardware startup risk",
+        "AI IPO market 2026"
+      ],
+      "whyItMatters": "Cerebras' near-death experience illustrates the enormous capital requirements and existential risk embedded in AI hardware development — and raises questions about how many competing chip startups can survive long enough to reach profitability.",
+      "tags": [
+        "cerebras",
+        "ai-chips",
+        "ipo",
+        "semiconductor",
+        "ai-infrastructure",
+        "wafer-scale-engine"
+      ],
+      "relatedIds": [
+        "cnbc-cerebras-ipo-spacex-openai"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How much was Cerebras burning per month during its early crisis years, according to CEO Andrew Feldman?",
+          "options": [
+            "$1 million per month",
+            "$4 million per month",
+            "$8 million per month",
+            "$20 million per month"
+          ],
+          "correctIndex": 2,
+          "explanation": "CEO Andrew Feldman revealed that Cerebras was spending approximately $8 million a month and had burned through nearly $200 million in total while trying to solve the technical challenge of building its Wafer Scale Engine chip."
+        },
+        {
+          "question": "What is the core technical product that defines Cerebras' competitive advantage in AI computing?",
+          "options": [
+            "A cloud-based GPU rental service",
+            "The Wafer Scale Engine (WSE) chip",
+            "A transformer architecture for LLMs",
+            "A custom RISC-V processor cluster"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cerebras' entire value proposition rests on its Wafer Scale Engine (WSE) — a chip built from an entire silicon wafer rather than individual dies — which Cerebras claims delivers faster AI inference than traditional GPU-based systems from Nvidia."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-arxiv-ai-ban-authors",
+      "type": "article",
+      "title": "Research Repository ArXiv Will Ban Authors for a Year If They Let AI Do All the Work",
+      "sourceUrl": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "ArXiv, the widely used open preprint repository for scientific research, is cracking down on careless use of large language models in academic papers — announcing it will ban authors for a full year if AI is found to have performed the primary intellectual work of a submission. The policy distinguishes between acceptable AI assistance (editing, grammar, literature search) and unacceptable AI authorship (AI generating the core research ideas, analysis, and writing). This marks one of the first major institutional enforcement actions against AI-generated scientific content.",
+      "keyConcepts": [
+        "ArXiv preprint policy",
+        "AI-generated research",
+        "scientific integrity and LLMs",
+        "AI authorship boundaries"
+      ],
+      "whyItMatters": "As LLMs become embedded in research workflows, ArXiv's ban sets a precedent for how academic institutions will define the line between AI assistance and AI authorship — a debate with major implications for scientific trust, reproducibility, and career incentives.",
+      "tags": [
+        "arxiv",
+        "research-integrity",
+        "ai-generated-content",
+        "academic-policy",
+        "llms",
+        "scientific-publishing"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What penalty will ArXiv impose on authors who allow AI to perform the primary intellectual work in their submissions?",
+          "options": [
+            "A permanent ban from ArXiv",
+            "A written warning and mandatory revision",
+            "A one-year ban from the platform",
+            "Retraction of the paper with no further action"
+          ],
+          "correctIndex": 2,
+          "explanation": "ArXiv's new policy imposes a one-year ban on authors found to have let AI generate the substantial intellectual content of their submissions, distinguishing this from acceptable uses of AI as a writing aid or editing tool."
+        },
+        {
+          "question": "Which type of AI use does ArXiv's policy specifically prohibit?",
+          "options": [
+            "Using AI to search and summarize related literature",
+            "Using AI to run statistical analyses on datasets",
+            "Using AI as a grammar checker or writing editor",
+            "Using AI to generate the core research ideas, analysis, and text of a paper"
+          ],
+          "correctIndex": 3,
+          "explanation": "ArXiv's policy targets submissions where AI has performed the primary intellectual work — generating the research framing, analysis, and writing — rather than serving as an assistive tool for tasks like editing, grammar correction, or literature discovery."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-cerebras-ipo-spacex-openai",
+      "type": "article",
+      "title": "Cerebras' Blockbuster IPO Fuels Investor Optimism for SpaceX, OpenAI, and Anthropic",
+      "sourceUrl": "https://www.cnbc.com/2026/05/16/cerebras-blockbuster-ipo-boosts-hype-for-spacex-openai-anthropic.html",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Cerebras Systems' explosive market debut — where shares nearly doubled on the first day, briefly pushing the AI chip company past a $100 billion valuation — has reinvigorated investor appetite for AI company listings. Wall Street is now focused on the next wave of potential AI IPOs: SpaceX is expected to file its public prospectus soon, while OpenAI and Anthropic are both eyeing public debuts later in 2026. The success signals that public markets are ready to absorb large-scale AI valuations.",
+      "keyConcepts": [
+        "AI IPO pipeline 2026",
+        "Cerebras Nasdaq debut",
+        "frontier AI company valuations",
+        "public market appetite for AI"
+      ],
+      "whyItMatters": "Cerebras' IPO success is a bellwether for the broader AI investment cycle — if public markets can support a $60–100B AI chip company, it dramatically increases the likelihood that OpenAI and Anthropic will accelerate their own paths to IPO.",
+      "tags": [
+        "cerebras",
+        "ipo",
+        "openai",
+        "anthropic",
+        "spacex",
+        "ai-investing",
+        "stock-market"
+      ],
+      "relatedIds": [
+        "techcrunch-cerebras-burned-8m-month"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What happened to Cerebras' share price on its first day of trading?",
+          "options": [
+            "It fell 20% below its IPO price",
+            "It remained flat near its IPO price",
+            "It rose modestly by about 10%",
+            "It nearly doubled, briefly pushing the company past $100 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cerebras shares nearly doubled on their first trading day, with the stock opening at approximately $350 against its $185 IPO price and briefly pushing the company's market cap past $100 billion before settling lower in subsequent sessions."
+        },
+        {
+          "question": "Which companies' potential IPOs gained renewed investor attention following Cerebras' successful public debut?",
+          "options": [
+            "Apple, Google, and Microsoft",
+            "SpaceX, OpenAI, and Anthropic",
+            "Nvidia, AMD, and Intel",
+            "Databricks, Stripe, and Canva"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cerebras' blockbuster IPO reinvigorated investor interest specifically in SpaceX, OpenAI, and Anthropic — all of which are eyeing their own public listings in 2026 and benefited from the market's demonstrated appetite for high-valuation AI companies."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-openai-brockman-product-chief",
+      "type": "article",
+      "title": "OpenAI Co-Founder Greg Brockman Takes Permanent Charge of Product Strategy",
+      "sourceUrl": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "verified": false,
+      "publishedAt": "2026-05-16",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "OpenAI announced that co-founder and president Greg Brockman will permanently lead all product strategy, merging ChatGPT, Codex, and the developer API into a single organization aimed at building a unified agentic platform. The move formalizes an interim arrangement while CEO of AGI deployment Fidji Simo was on medical leave, and comes four days before Google I/O 2026 — framing it as a competitive signal. Codex architect Thibault Sottiaux now leads the combined core product team, while Nick Turley shifts to enterprise and critical industries.",
+      "keyConcepts": [
+        "OpenAI product consolidation",
+        "agentic AI platform strategy",
+        "ChatGPT and Codex unification",
+        "Greg Brockman leadership"
+      ],
+      "whyItMatters": "Merging ChatGPT and Codex into a single agentic experience signals OpenAI's bet that the future of AI products is autonomous task completion, not chat — and the timing ahead of Google I/O is a deliberate move to own the narrative before Google's biggest annual event.",
+      "tags": [
+        "openai",
+        "greg-brockman",
+        "chatgpt",
+        "codex",
+        "agentic-ai",
+        "product-strategy"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Greg Brockman's role at OpenAI before being named permanent product chief?",
+          "options": [
+            "He had no previous product role — this was a new appointment",
+            "He was CEO of AGI deployment",
+            "He was serving as interim product leader while Fidji Simo was on medical leave",
+            "He was leading Codex as its chief architect"
+          ],
+          "correctIndex": 2,
+          "explanation": "Brockman had been overseeing OpenAI's products on an interim basis while Fidji Simo, the CEO of AGI deployment, was out on medical leave. The May 16 announcement formalized this arrangement, making Brockman the permanent product leader."
+        },
+        {
+          "question": "What is the stated goal of merging ChatGPT and Codex under Brockman's leadership?",
+          "options": [
+            "To reduce OpenAI's operational costs before its IPO",
+            "To build a single unified agentic experience for both consumer and enterprise users",
+            "To shut down the Codex product and focus entirely on ChatGPT",
+            "To separate the developer API from the consumer products"
+          ],
+          "correctIndex": 1,
+          "explanation": "In his staff memo, Brockman stated the goal is to 'invest in a single agentic platform and to merge ChatGPT and Codex into one unified agentic experience for all,' consolidating consumer, enterprise, and developer surfaces under one product strategy."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-ai-automotive-skills-arms-race",
+      "type": "article",
+      "title": "AI Is Reshaping Automotive Jobs — Creating a Skills Arms Race as Carmakers Cut Tens of Thousands",
+      "sourceUrl": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "verified": false,
+      "publishedAt": "2026-05-17",
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
+      "summary": "Ford, GM, and Stellantis have cut a combined 20,000+ U.S. salaried jobs — roughly 19% of their combined workforces — amid ongoing technological shifts driven in part by AI. At the same time, a fierce talent war for AI-native automotive engineers has pushed base salaries to $300,000–$500,000, with a PwC analysis showing AI skills now command a 56% wage premium, up from 25% just a year ago. The most sought-after hybrid skills combine classical robotics and machine learning with the ability to integrate AI into physical hardware like humanoid robots and autonomous vehicles.",
+      "keyConcepts": [
+        "AI-driven automotive workforce displacement",
+        "AI skills wage premium",
+        "hybrid robotics and AI talent",
+        "autonomous vehicle talent market"
+      ],
+      "whyItMatters": "The automotive sector is a leading indicator for how AI reshapes entire industries: the same wave that eliminates legacy roles simultaneously creates extreme demand for a narrow set of hybrid AI-robotics skills — a dynamic that will increasingly define career strategy across manufacturing and engineering fields.",
+      "tags": [
+        "automotive-ai",
+        "ai-jobs",
+        "skills-gap",
+        "robotics",
+        "workforce-displacement",
+        "ai-career"
+      ],
+      "relatedIds": [
+        "techcrunch-ai-gold-rush-haves-have-nots"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to PwC, how much of a wage premium do AI skills command in the automotive industry as of mid-2026?",
+          "options": [
+            "10%",
+            "25%",
+            "56%",
+            "90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "PwC analysis cited in the TechCrunch Mobility report found that AI skills now command a 56% wage premium — a significant jump from the 25% premium noted just a year earlier, reflecting rapidly increasing employer demand for workers who can integrate AI into physical systems."
+        },
+        {
+          "question": "What type of engineer is most in demand at autonomous vehicle companies, according to the TechCrunch Mobility report?",
+          "options": [
+            "Pure software engineers with expertise in large language models",
+            "Traditional mechanical engineers with CAD and manufacturing expertise",
+            "Hybrid engineers who combine classical robotics knowledge with AI integration skills",
+            "Data scientists specializing in consumer behavior analytics"
+          ],
+          "correctIndex": 2,
+          "explanation": "The report identifies 'hybrid' engineers — those who combine classical robotics know-how with AI development skills, specifically the ability to integrate AI into physical hardware like humanoid robots, industrial robots, and autonomous vehicles — as the most sought-after profile, commanding salaries between $300,000 and $500,000."
         }
       ]
     }

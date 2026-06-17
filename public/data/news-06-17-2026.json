@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-17T12:00:00Z",
+  "weekOf": "2026-06-15",
+  "coverageStart": "2026-06-16",
+  "coverageEnd": "2026-06-16",
+  "items": [
+    {
+      "id": "fp-anthropic-trump-fable5-0616",
+      "type": "article",
+      "title": "The Anthropic-Trump Fight Over Claude Mythos 5 and Fable 5, Explained",
+      "sourceUrl": "https://foreignpolicy.com/2026/06/16/anthropic-trump-fight-mythos-fable-5-hegseth/",
+      "verified": false,
+      "publishedAt": "2026-06-16",
+      "topics": ["ai-industry"],
+      "summary": "Foreign Policy breaks down the full context behind the US government's June 12 export control directive that forced Anthropic to disable Fable 5 and Mythos 5 for all foreign nationals worldwide. The conflict traces back to a February 2026 standoff in which Defense Secretary Hegseth gave Anthropic an ultimatum: grant the Pentagon unfettered military access to its models or be designated a supply chain risk. Anthropic executives met with Trump administration officials on June 15 but reached no resolution.",
+      "keyConcepts": [
+        "AI export controls",
+        "national security AI regulation",
+        "Anthropic-DoD dispute",
+        "AI sovereignty and geopolitics"
+      ],
+      "whyItMatters": "The forced shutdown of publicly-deployed frontier AI models marks a historic precedent for government AI regulation, triggering diplomatic pushback from the EU and Canada and raising urgent questions about who controls access to powerful AI systems during geopolitical tensions.",
+      "tags": ["anthropic", "fable-5", "mythos-5", "export-controls", "ai-regulation", "trump-administration", "national-security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What triggered the US government's export control directive requiring Anthropic to disable Fable 5 and Mythos 5?",
+          "options": [
+            "A patent dispute over Anthropic's model architecture",
+            "National security concerns including reports of a jailbreak vulnerability",
+            "Anthropic's refusal to list on a US stock exchange",
+            "A failed merger negotiation with OpenAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "The US government cited national security authorities including concern about a demonstrated jailbreak method for Fable 5. This is the first time a government has forced a publicly-deployed frontier AI model offline globally."
+        },
+        {
+          "question": "What earlier conflict set the stage for the Anthropic-Trump administration fight over Fable 5?",
+          "options": [
+            "A disagreement over Anthropic's carbon footprint disclosures",
+            "Anthropic's lobbying against EU AI regulations",
+            "The Pentagon's demand for unfettered military access to Claude models without safety restrictions",
+            "A lawsuit over training data copyright violations"
+          ],
+          "correctIndex": 2,
+          "explanation": "In February 2026, Anthropic clashed with the DoD after refusing to give the military unrestricted model access. Defense Secretary Hegseth responded by threatening to designate Anthropic a 'supply chain risk' unless it complied."
+        }
+      ]
+    },
+    {
+      "id": "decoder-anthropic-billing-reversal-0616",
+      "type": "article",
+      "title": "Anthropic Backs Off Unpopular Billing Overhaul as Price War with OpenAI Looms",
+      "sourceUrl": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/",
+      "verified": false,
+      "publishedAt": "2026-06-16",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic reversed its planned move of Claude Agent SDK, claude-p, and third-party app usage to a separate usage-based billing pool on the exact day the change was scheduled to take effect. The reversal was driven by OpenAI reportedly considering steep API price cuts, developer backlash against higher agentic workflow costs, and the optics of aggressive pricing changes as both companies prepare for IPOs. Anthropic confirmed the change is paused indefinitely: nothing changes for current subscribers.",
+      "keyConcepts": [
+        "agentic AI billing models",
+        "subscription vs usage-based pricing",
+        "AI price war dynamics",
+        "IPO-driven competitive strategy"
+      ],
+      "whyItMatters": "The billing reversal signals that AI companies are entering a competitive pricing phase ahead of their public listings, with developers gaining leverage as OpenAI and Anthropic fight for enterprise market share — a dynamic that could reshape how agentic AI workloads are priced industry-wide.",
+      "tags": ["anthropic", "claude-code", "agent-sdk", "pricing", "openai", "price-war", "ipo", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's original June 15, 2026 billing plan for the Claude Agent SDK?",
+          "options": [
+            "To make Agent SDK free for all subscribers",
+            "To double the monthly subscription price across all tiers",
+            "To move Agent SDK usage to a separate monthly credit billed at standard API rates",
+            "To require direct API keys for all Claude Code headless usage"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic had announced it would move Agent SDK, claude-p, and third-party app usage out of subscription pools and into a separate monthly credit — billed at standard API rates with no rollover — starting June 15, 2026."
+        },
+        {
+          "question": "Which combination of factors most directly caused Anthropic to reverse its June 15 billing change?",
+          "options": [
+            "A technical bug prevented the new billing system from working",
+            "The US government ordered Anthropic to freeze pricing during the Fable 5 dispute",
+            "Competitive pressure from OpenAI's potential price cuts, developer backlash, and IPO optics",
+            "Google Vertex AI threatened to delist Anthropic models over the pricing change"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic backed off because OpenAI is reportedly considering drastic API price cuts to win users, making more-expensive billing counterproductive. Developer backlash and the risk of negative IPO optics sealed the reversal."
+        }
+      ]
+    },
+    {
+      "id": "techtimes-gpt56-launch-0616",
+      "type": "article",
+      "title": "GPT-5.6: OpenAI Chief Scientist Calls It a Meaningful Leap, June Launch Nears",
+      "sourceUrl": "https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm",
+      "verified": false,
+      "publishedAt": "2026-06-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI's chief scientist has confirmed GPT-5.6 represents a meaningful improvement over GPT-5.5, while developer analysis of Codex backend logs points to a 1.5 million token context window under the internal codename 'iris-alpha'. Prediction markets (Polymarket) place an 83% probability on a June 22–28 launch window. No official OpenAI announcement has been made yet, but multiple internal testing tags — iris-alpha, ember-alpha, and beacon-alpha — suggest a family of variants is in development.",
+      "keyConcepts": [
+        "long context windows in LLMs",
+        "model variant development",
+        "prediction markets for AI releases",
+        "OpenAI roadmap signals"
+      ],
+      "whyItMatters": "A 1.5 million token context window would represent a 43% increase over GPT-5.5, enabling new use cases for extended coding, long-document analysis, and complex multi-step agentic tasks — and would arrive at a pivotal moment as OpenAI prepares its IPO against Anthropic.",
+      "tags": ["openai", "gpt-5-6", "context-window", "llm-release", "ai-research", "prediction-markets"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What context window size has been leaked for GPT-5.6 based on developer analysis of backend logs?",
+          "options": [
+            "500,000 tokens",
+            "1 million tokens",
+            "1.5 million tokens",
+            "10 million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers reviewing OpenAI's Codex rollout logs spotted a 1.5 million token context window for GPT-5.6 (codename 'iris-alpha'), which would be a 43% increase over the current GPT-5.5 context window."
+        },
+        {
+          "question": "What internal codename for GPT-5.6 was spotted in OpenAI's Codex backend logs?",
+          "options": [
+            "aurora-alpha",
+            "falcon-alpha",
+            "iris-alpha",
+            "nova-alpha"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers found routing traces mapped to 'iris-alpha' in Codex logs, along with variant tags 'ember-alpha' and 'beacon-alpha', suggesting OpenAI is testing multiple GPT-5.6 variants — but no official announcement has been made."
+        }
+      ]
+    }
+  ]
+}
