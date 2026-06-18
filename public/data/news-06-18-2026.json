@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-18T08:30:00Z",
+  "weekOf": "2026-06-15",
+  "coverageStart": "2026-06-17",
+  "coverageEnd": "2026-06-17",
+  "items": [
+    {
+      "id": "cnbc-g7-ai-summit-ceos-coalition-0617",
+      "type": "article",
+      "title": "Altman, Amodei, and Hassabis Jointly Call for US-Led AI Coalition at G7 Summit",
+      "sourceUrl": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "verified": false,
+      "publishedAt": "2026-06-17",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "For the first time, the CEOs of OpenAI, Anthropic, and Google DeepMind appeared together before world leaders at the G7 summit in France, where Dario Amodei and Demis Hassabis jointly called for a US-led international coalition to govern frontier AI models. The executives met in a closed-door session with heads of state including President Trump, proposing a forum where democratic nations could establish shared standards covering structured access to advanced models, AI chip trade restrictions on China, and risk frameworks for cyber and biosecurity threats. OpenAI CEO Sam Altman floated the idea of a formal international standards body, and participants described a broad convergence of interest — though the likely outcome is a package of voluntary commitments rather than binding law.",
+      "keyConcepts": [
+        "US-led AI governance coalition",
+        "frontier model access frameworks",
+        "chip export controls and China exclusion",
+        "voluntary international AI standards"
+      ],
+      "whyItMatters": "Having all three major Western AI lab CEOs publicly align on a governance vision — and deliver that message directly to G7 heads of state — signals a shift from competitive secrecy to coordinated policy lobbying, setting the agenda for how democratic nations may collectively manage frontier AI risks over the next decade.",
+      "tags": ["g7", "ai-governance", "ai-policy", "openai", "anthropic", "google-deepmind", "international-standards"],
+      "relatedIds": ["semafor-g7-ai-standards-pitch-0617"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the specific governance structure proposed by the AI CEOs at the G7 summit?",
+          "options": [
+            "A binding UN treaty requiring all countries to cap compute usage",
+            "A US-led international forum where democratic nations establish shared standards for frontier models",
+            "A bilateral US-EU agency to audit AI lab safety practices annually",
+            "A voluntary moratorium on training models above 1 trillion parameters"
+          ],
+          "correctIndex": 1,
+          "explanation": "Altman proposed and Amodei/Hassabis endorsed an international forum, potentially US-led, where democratic nations could coordinate standards covering structured model access, chip trade restrictions, and AI risk in cyber and biosecurity — most likely resulting in voluntary commitments rather than legally binding rules."
+        },
+        {
+          "question": "What specific restriction did Anthropic CEO Dario Amodei say should be part of international AI cooperation?",
+          "options": [
+            "Banning open-source model weights above 70 billion parameters",
+            "Requiring all frontier models to be audited by a UN body before release",
+            "Restricting AI chip and critical component trade to exclude China",
+            "Mandating public disclosure of all training datasets used by frontier labs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amodei said international cooperation should include trade of chips and critical AI components that explicitly excludes China, alongside structured access to frontier models and joint efforts to address AI risks in cyber, bioterrorism, and intelligence domains."
+        }
+      ]
+    },
+    {
+      "id": "semafor-g7-ai-standards-pitch-0617",
+      "type": "article",
+      "title": "AI CEOs Pitch G7 Leaders on Global Frontier Model Standards Forum",
+      "sourceUrl": "https://www.semafor.com/article/06/17/2026/ai-ceos-talk-global-standards-at-g7",
+      "verified": false,
+      "publishedAt": "2026-06-17",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "About a dozen tech executives, including the CEOs of OpenAI, Anthropic, and Google DeepMind, joined G7 heads of state on Wednesday to discuss building an international framework for advanced AI governance, with a focus on ensuring ongoing democratic access to frontier models. The session surfaced a working consensus around creating a forum — potentially administered by the US — where member nations could coordinate on standards for advanced model deployment, compute access, and national security risk mitigation. OpenAI's chief global affairs officer signaled companies expect to leave with a package of voluntary commitments covering youth safety, frontier cyber risks, and biological threat domains.",
+      "keyConcepts": [
+        "G7 AI governance summit",
+        "democratic access to frontier models",
+        "voluntary AI safety commitments",
+        "international AI standards body"
+      ],
+      "whyItMatters": "Voluntary international commitments from the G7 rarely remain purely voluntary — they tend to anchor subsequent legislation, procurement rules, and trade policy across member states, making the framing agreed at this summit consequential for how frontier AI is regulated and accessed globally over the next several years.",
+      "tags": ["g7", "ai-governance", "ai-safety", "frontier-models", "international-policy", "voluntary-commitments"],
+      "relatedIds": ["cnbc-g7-ai-summit-ceos-coalition-0617"],
+      "knowledgeChecks": [
+        {
+          "question": "Which domain did OpenAI's Sam Altman cite as his personal top priority in AI safety discussions at the G7?",
+          "options": [
+            "Climate modeling and sustainability",
+            "Youth and child safety online",
+            "Financial system stability under AI automation",
+            "Military autonomous weapons systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "Altman cited youth safety as his personal top priority, while noting that frontier risks in the cyber and biological domains are the areas the AI labs most want governments to deeply understand — a framing designed to align commercial interests with national security concerns."
+        },
+        {
+          "question": "What type of outcome did participants most expect from the G7 AI governance session?",
+          "options": [
+            "A legally binding international treaty with enforcement mechanisms",
+            "An emergency moratorium on new frontier model releases",
+            "A package of voluntary commitments rather than binding law",
+            "A formal annexation of AI governance by the WTO"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's chief global affairs officer signaled that the companies expected to leave with voluntary commitments — not legally binding rules. In practice, such commitments from G7 members often become the template for future hard law, making their framing consequential even without enforcement."
+        }
+      ]
+    },
+    {
+      "id": "venturebeat-vibethinker-3b-0617",
+      "type": "article",
+      "title": "Sina Weibo's VibeThinker-3B Claims Frontier Reasoning at 3 Billion Parameters, Sparking Benchmark Debate",
+      "sourceUrl": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+      "verified": false,
+      "publishedAt": "2026-06-17",
+      "topics": ["ai-research"],
+      "summary": "A nine-person research team at Sina Weibo published a technical report on arXiv claiming their 3-billion-parameter model, VibeThinker-3B, matches or exceeds the mathematical reasoning performance of frontier systems from Google DeepMind, OpenAI, Anthropic, and DeepSeek that are hundreds of times larger — scoring 94.3 on AIME 2026, ahead of Gemini 3 Pro's 91.7 and alongside DeepSeek V3.2's 671-billion-parameter model. The model uses a post-training approach called Spectrum-to-Signal, combining curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation. Researchers and practitioners have greeted the claims with significant skepticism, arguing benchmark saturation and overfitting are well-established pitfalls that make headline AIME scores a poor proxy for real-world reasoning utility.",
+      "keyConcepts": [
+        "small language models (SLMs) vs. frontier LLMs",
+        "AIME 2026 benchmark performance",
+        "Spectrum-to-Signal post-training paradigm",
+        "benchmark overfitting and evaluation validity"
+      ],
+      "whyItMatters": "If the results generalize beyond math benchmarks, VibeThinker-3B would represent a step-change in inference efficiency — frontier reasoning at a fraction of the compute cost and a model small enough to run on edge hardware. The skepticism, however, highlights a broader industry problem: the AI field's heavy reliance on a handful of saturated benchmarks makes it increasingly difficult to distinguish genuine architectural advances from sophisticated benchmark engineering.",
+      "tags": ["small-language-models", "vibethinker-3b", "sina-weibo", "aime-2026", "benchmarks", "model-efficiency", "reasoning"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What score did VibeThinker-3B achieve on AIME 2026, and how does it compare to Gemini 3 Pro?",
+          "options": [
+            "VibeThinker-3B scored 88.1, falling below Gemini 3 Pro's 91.7",
+            "VibeThinker-3B scored 94.3, ahead of Gemini 3 Pro's 91.7",
+            "VibeThinker-3B scored 94.3, tied exactly with Gemini 3 Pro",
+            "VibeThinker-3B scored 99.1, setting a new absolute record above all frontier models"
+          ],
+          "correctIndex": 1,
+          "explanation": "VibeThinker-3B scored 94.3 on AIME 2026 — ahead of Google's Gemini 3 Pro (91.7) and comparable to DeepSeek V3.2, which has 671 billion parameters. This is the core of the benchmark controversy: a 3B model scoring ahead of a frontier system more than 200x its size."
+        },
+        {
+          "question": "What is the main technical approach VibeThinker-3B uses that differs from standard supervised fine-tuning?",
+          "options": [
+            "It uses a mixture-of-experts architecture with 500 specialized submodels",
+            "It relies entirely on synthetic data generated by GPT-5.6 as a teacher model",
+            "It applies a Spectrum-to-Signal post-training paradigm combining curriculum SFT, multi-domain RL, and offline self-distillation",
+            "It is trained only on formal mathematical proofs from the Lean theorem prover"
+          ],
+          "correctIndex": 2,
+          "explanation": "VibeThinker-3B uses the Spectrum-to-Signal paradigm, a three-stage post-training process: curriculum-based supervised fine-tuning (easy to hard), multi-domain reinforcement learning, and offline self-distillation. The team argues this post-training efficiency — rather than raw parameter count — is the source of the benchmark gains."
+        }
+      ]
+    }
+  ]
+}
