@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-19T12:00:00.000Z",
-  "weekOf": "2026-06-16",
+  "generatedAt": "2026-06-19T18:00:00.000Z",
+  "weekOf": "2026-06-15",
   "coverageStart": "2026-06-18",
-  "coverageEnd": "2026-06-18",
+  "coverageEnd": "2026-06-19",
   "items": [
     {
       "id": "article-noam-shazeer-openai-2026-06-18",
@@ -216,6 +216,136 @@
           ],
           "correctIndex": 2,
           "explanation": "Design system imports allow teams to pull their existing design systems from GitHub repositories, design files, or raw uploads directly into Claude Design, ensuring AI-generated components and layouts match established brand guidelines and component patterns."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Af6FrHCqhaY",
+      "type": "video",
+      "title": "Midjourney Pivots to Medicine: AI Body Scanner Targets MRI Disruption",
+      "youtubeId": "Af6FrHCqhaY",
+      "sourceUrl": "https://www.youtube.com/watch?v=Af6FrHCqhaY",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID covers Midjourney's surprise pivot from AI image generation to medical hardware — unveiling the Midjourney Scanner, a full-body ultrasonic CT device designed to image the human body in roughly 60 seconds without radiation. CEO David Holz presented the hardware on June 17, calling it the first new whole-body medical imaging method in 50 years. The current prototype takes about 20 minutes per scan and has been tested on only about a dozen people with no FDA clearance, but the company plans its first Midjourney Spa location in San Francisco by late 2027.",
+      "keyConcepts": [
+        "Ultrasonic CT imaging",
+        "AI company pivots to hardware",
+        "Healthcare disruption",
+        "Medical imaging accessibility"
+      ],
+      "whyItMatters": "Midjourney's medical pivot signals that AI companies are using computational expertise to attack entrenched industries like medical imaging — where a full-body MRI can cost thousands of dollars. If the scanner's claims hold up at scale, it could democratize preventive diagnostics at a fraction of current costs.",
+      "tags": ["midjourney", "medical-imaging", "healthcare-ai", "hardware", "ultrasound", "startups"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What imaging technology does the Midjourney Scanner use that avoids the radiation risks of traditional CT scans?",
+          "options": [
+            "Low-dose X-ray computed tomography at reduced radiation levels",
+            "Magnetic resonance imaging with an AI reconstruction pipeline",
+            "Ultrasonic transducers that emit and receive sound waves to build a 3D body image",
+            "Terahertz radiation scanning with deep-learning image enhancement"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Midjourney Scanner uses roughly 8,960 ultrasonic transducers arranged around the body — acting as both speakers and microphones — that emit and receive sound waves reconstructed by AI into a detailed 3D internal map, with no ionizing radiation required."
+        },
+        {
+          "question": "What critical regulatory milestone does Midjourney Medical need before its scanner can be legally used to diagnose patients in the US?",
+          "options": [
+            "CE marking from the European Medicines Agency",
+            "A partnership with at least one major US hospital network",
+            "Completion of a 10,000-patient clinical trial",
+            "FDA clearance for diagnostic use"
+          ],
+          "correctIndex": 3,
+          "explanation": "As of the June 2026 announcement, the Midjourney Scanner has been tested on roughly a dozen people and carries no FDA clearance, meaning it cannot legally be used to diagnose medical conditions in the US. Obtaining FDA clearance for a novel imaging modality typically requires years of clinical validation."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-jailbreak-whitehouse-2026-06-19",
+      "type": "article",
+      "title": "White House Demands Anthropic Eliminate All Fable 5 Jailbreaks Before Relaunch — Experts Call Goal Impossible",
+      "sourceUrl": "https://cybernews.com/ai-news/anthropic-fable-5-jailbreak-proof-impossible-white-house/",
+      "verified": false,
+      "publishedAt": "2026-06-19",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Trump administration officials have told Anthropic that Claude Fable 5 cannot be relaunched until the company demonstrates its guardrails are immune to all possible adversarial prompts — a requirement AI safety researchers say is technically impossible under any current AI architecture. Anthropic's own public statements acknowledge that 'perfect jailbreak resistance is not currently possible for any model provider,' since large language models generate open-ended natural language responses where every safety measure remains vulnerable to novel workarounds. The standoff leaves Fable 5 offline one week after its June 9 launch.",
+      "keyConcepts": [
+        "AI jailbreaks and adversarial prompting",
+        "Model safety vs. national security policy",
+        "Export controls on AI models",
+        "Limits of frontier AI safety techniques"
+      ],
+      "whyItMatters": "The White House's demand for a jailbreak-proof model could set a precedent giving governments veto power over AI model deployments based on theoretical attack surfaces the entire industry acknowledges cannot be fully eliminated. The outcome of the Fable 5 case is likely to shape how AI safety requirements are codified in export control law.",
+      "tags": ["anthropic", "fable-5", "jailbreaks", "ai-safety", "white-house", "export-controls", "ai-policy"],
+      "relatedIds": ["article-anthropic-seoul-office-korea-mou-2026-06-18", "article-claude-design-overhaul-2026-06-18"],
+      "knowledgeChecks": [
+        {
+          "question": "Why do AI security researchers say the White House's demand for a jailbreak-proof Fable 5 is technically unachievable?",
+          "options": [
+            "Because Anthropic lacks sufficient engineering resources to fix the vulnerabilities at scale",
+            "Because LLMs use open-ended natural language, making any single safeguard vulnerable to adversarial prompts that cannot all be anticipated in advance",
+            "Because jailbreaks only affect open-source models where weights are publicly accessible",
+            "Because the vulnerabilities were deliberately introduced by foreign-state actors during training"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI safety researchers — and Anthropic itself — have stated that perfect jailbreak prevention is fundamentally incompatible with how LLMs work: they produce open-ended language outputs, so any safety rule written in natural language can theoretically be circumvented by sufficiently creative prompting. Security researchers call this the 'non-universal jailbreak' problem."
+        },
+        {
+          "question": "What originally triggered the chain of events that led the US government to suspend access to Anthropic's Fable 5 and Mythos 5 models worldwide?",
+          "options": [
+            "SK Telecom — a South Korean carrier with historical ties to Chinese infrastructure — gained access to Mythos 5 through Anthropic's cybersecurity program, raising export control concerns",
+            "Anthropic's models were found to have been trained on classified US government documents without authorization",
+            "An OpenAI complaint to the Commerce Department alleged IP violations during Anthropic's model training",
+            "A whistleblower disclosed that Mythos 5 had been deliberately weakened to allow foreign intelligence access"
+          ],
+          "correctIndex": 0,
+          "explanation": "The White House became aware that SK Telecom, South Korea's largest carrier and a $100M Anthropic investor with historical ties to Chinese telecom infrastructure, had gained access to Mythos 5 through Anthropic's Project Glasswing cybersecurity consortium. This triggered an export control directive that suspended all foreign national access to both Fable 5 and Mythos 5 globally."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-seoul-office-korea-mou-2026-06-18",
+      "type": "article",
+      "title": "Anthropic Opens Seoul Office and Signs AI Safety MoU with South Korea Amid Fable 5 Export Ban",
+      "sourceUrl": "https://www.upi.com/Top_News/World-News/2026/06/18/korea-Anthropic-Seoul-office-Korea-partnerships-Washington-AI-export-controls/4641781769900/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic launched its first South Korean office in Seoul on June 18 and simultaneously signed a Memorandum of Understanding with South Korea's Ministry of Science and ICT covering AI safety evaluation in Korean, cybersecurity threat sharing, and red-team assessments of autonomous AI agents. The opening came just six days after the US government suspended access to Anthropic's Fable 5 and Mythos 5 models over export control concerns tied to SK Telecom. Anthropic's international managing director Chris Ciauri stated at the event that he was 'very confident' both models would return 'in the coming days.'",
+      "keyConcepts": [
+        "AI company international expansion",
+        "AI safety diplomacy",
+        "Government AI partnerships",
+        "Export control geopolitics"
+      ],
+      "whyItMatters": "Anthropic's Seoul opening — timed during the Fable 5 export ban crisis — signals a deliberate diplomatic strategy: building direct government relationships to navigate growing tensions between US AI export policy and international commercial AI access. The Korea MoU creates a formal channel for AI safety cooperation that could become a blueprint for other nations seeking sovereign AI partnerships.",
+      "tags": ["anthropic", "south-korea", "seoul", "international-expansion", "ai-safety", "export-controls"],
+      "relatedIds": ["article-fable5-jailbreak-whitehouse-2026-06-19", "article-claude-design-overhaul-2026-06-18"],
+      "knowledgeChecks": [
+        {
+          "question": "What three areas of collaboration does Anthropic's MoU with South Korea's Ministry of Science and ICT cover?",
+          "options": [
+            "Joint GPU procurement, Korean AI model co-development, and data sharing with KAIST",
+            "AI safety evaluation in Korean language, cybersecurity threat information sharing, and red-team assessments of autonomous AI agents",
+            "Exclusive public-sector AI supply agreement, a Korean-language Claude API, and AI regulation co-authorship",
+            "Claude deployment in Korean schools, AI curriculum design, and joint patent filings"
+          ],
+          "correctIndex": 1,
+          "explanation": "The MoU covers evaluating Claude model safety in Korean-language contexts with the Korea AI Safety Institute, exchanging information on AI-enabled cyber threats, and conducting red-team assessments of autonomous AI agents — a scope similar to the AI safety agreements Anthropic has pursued with US and UK government agencies."
+        },
+        {
+          "question": "Which company's access to Anthropic's Mythos 5 model initially prompted US export control action that cascaded into the Fable 5 ban?",
+          "options": [
+            "Samsung Electronics",
+            "LG Electronics",
+            "SK Telecom",
+            "Kakao"
+          ],
+          "correctIndex": 2,
+          "explanation": "SK Telecom, South Korea's largest wireless carrier and a $100 million Anthropic investor, was identified by the White House as a Chinese security risk after it gained access to Mythos 5 through Project Glasswing — Anthropic's invite-only cybersecurity consortium. This triggered an export control directive suspending all foreign national access to both Mythos 5 and Fable 5."
         }
       ]
     }
