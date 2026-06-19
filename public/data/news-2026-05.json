@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-18T03:17:09.078Z",
+  "generatedAt": "2026-06-19T03:16:53.127Z",
   "weekOf": "2026-04-10",
   "coverageStart": "2026-04-10",
-  "coverageEnd": "2026-05-18",
+  "coverageEnd": "2026-05-19",
   "items": [
     {
       "id": "youtube-4qv6NIpY9Fo",
@@ -6507,6 +6507,278 @@
           ],
           "correctIndex": 2,
           "explanation": "Unlike Google Assistant, which responds to individual commands and requires human direction at each step, Gemini Spark is designed as a proactive autonomous agent that can chain actions across apps — such as browsing, purchasing, or managing email — without prompting for each step."
+        }
+      ]
+    },
+    {
+      "id": "gizmodo-google-io-2026-live-0519",
+      "type": "article",
+      "title": "Google I/O 2026: Gemini Intelligence, Googlebooks, and Android's AI Transformation",
+      "sourceUrl": "https://gizmodo.com/live-updates-from-google-io-2026-2000757469",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "Google's I/O 2026 keynote repositioned Android from an operating system into an 'intelligence system' powered by Gemini. Major announcements included Gemini Intelligence for Android 17 with proactive task automation, Auto Browse (Gemini driving web sessions autonomously), Googlebooks laptops running the merged Android/ChromeOS 'Aluminum OS' platform, and seamless iPhone-to-Android migration tools. Android XR glasses were also previewed, with a display-free pair for hands-free Gemini interaction launching later in 2026.",
+      "keyConcepts": [
+        "Gemini Intelligence for Android 17",
+        "Auto Browse — agentic Gemini-powered web automation",
+        "Googlebooks on Aluminum OS (merged Android/ChromeOS)",
+        "Android XR smart glasses"
+      ],
+      "whyItMatters": "Google's I/O 2026 marks a decisive shift from reactive AI assistants to proactive, action-taking agents embedded at the OS level—setting the competitive bar for how deeply AI can integrate into everyday computing and challenging Apple and Microsoft to respond.",
+      "tags": [
+        "google-io",
+        "gemini",
+        "android-17",
+        "agentic-ai",
+        "googlebooks",
+        "android-xr",
+        "google"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of the merged Android/ChromeOS platform Google introduced at I/O 2026 for its new Googlebooks laptops?",
+          "options": [
+            "ChromeOS Ultimate",
+            "Aluminum OS",
+            "Android Desktop",
+            "Pixel OS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google announced 'Aluminum OS' — an operating system that merges Android and ChromeOS into one platform — as the foundation for Googlebooks, a new category of premium laptops from partners including Acer, ASUS, Dell, HP, and Lenovo."
+        },
+        {
+          "question": "What does 'Auto Browse' do in Android 17's Gemini Intelligence suite?",
+          "options": [
+            "Automatically updates installed Android apps in the background",
+            "Curates a personalized news feed based on browsing history",
+            "Allows Gemini to drive web sessions, filling forms, comparing prices, and handling reservations autonomously",
+            "Blocks ads and tracking scripts across all browsers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Auto Browse is an agentic feature that lets Gemini 'drive' web sessions on behalf of the user — autonomously filling out forms, comparing prices, and completing reservations — reflecting Google's push toward proactive AI agents rather than reactive assistants."
+        }
+      ]
+    },
+    {
+      "id": "winbuzzer-cursor-composer-2-5-0518",
+      "type": "article",
+      "title": "Cursor Releases Composer 2.5, Matching Frontier Model Benchmarks at a Fraction of the Cost",
+      "sourceUrl": "https://winbuzzer.com/2026/05/18/cursor-releases-composer-25-saying-its-better-at-s-xcxwbn/",
+      "verified": false,
+      "publishedAt": "2026-05-18",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Cursor released Composer 2.5 on May 18, a coding model that scores 79.8% on SWE-Bench Multilingual — just behind Anthropic's Opus 4.7 (80.5%) and ahead of OpenAI's GPT-5.5 (77.8%) — while priced at just $0.50/M input and $2.50/M output tokens, roughly 10x cheaper than comparable frontier models. Built on the open-source Kimi K2.5 checkpoint from Moonshot AI and trained with 25x more synthetic tasks using custom reinforcement learning, Composer 2.5 focuses on sustained long-running coding jobs and more reliable instruction following.",
+      "keyConcepts": [
+        "SWE-Bench Multilingual benchmark performance",
+        "Kimi K2.5 open-source base model fine-tuning",
+        "Cost-efficient frontier-class coding models",
+        "Reinforcement learning for agentic coding"
+      ],
+      "whyItMatters": "Composer 2.5 shows that heavy investment in reinforcement learning over an open-source checkpoint can match proprietary frontier models on real-world coding benchmarks at roughly 10x lower cost — reshaping the economics of AI coding tools and challenging labs that charge premium prices for coding agents.",
+      "tags": [
+        "cursor",
+        "coding-ai",
+        "composer",
+        "kimi-k2",
+        "benchmarks",
+        "llm",
+        "reinforcement-learning",
+        "open-source"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What open-source model serves as the base checkpoint for Cursor's Composer 2.5?",
+          "options": [
+            "Meta's Llama 4 Scout",
+            "Mistral Codestral 2.5",
+            "Moonshot AI's Kimi K2.5",
+            "DeepSeek-Coder V3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Composer 2.5 is built on Kimi K2.5, an open-weight model from Beijing-based Moonshot AI. Cursor confirmed this after earlier controversy over Composer 2's undisclosed use of Kimi K2.5, with the company emphasizing that 85% of compute went toward its own training and reinforcement learning on top of the base checkpoint."
+        },
+        {
+          "question": "What is Composer 2.5's score on the SWE-Bench Multilingual benchmark?",
+          "options": [
+            "63.2%",
+            "71.4%",
+            "79.8%",
+            "82.7%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Composer 2.5 scores 79.8% on SWE-Bench Multilingual, placing it just behind Anthropic's Opus 4.7 (80.5%) and ahead of OpenAI's GPT-5.5 (77.8%), while costing approximately 10x less per token than those competing models."
+        }
+      ]
+    },
+    {
+      "id": "invezz-europe-ai-energy-0518",
+      "type": "article",
+      "title": "Europe's AI Future at Risk as Soaring Energy Costs Push Data Centers Abroad",
+      "sourceUrl": "https://invezz.com/news/2026/05/18/europes-ai-future-at-risk-as-soaring-power-costs-push-data-centers-abroad/",
+      "verified": false,
+      "publishedAt": "2026-05-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Europe's electricity prices for energy-intensive industries were approximately double those in the U.S. and 50% higher than in China in 2025, and data center capacity costs in Europe's five largest markets — Frankfurt, London, Amsterdam, Paris, and Dublin — are set to rise a further 12% in 2026. Major investors warn that new AI infrastructure will be built in the U.S. or China rather than Europe, while data centers now consume 2% of the world's electricity globally. France and the Nordics are emerging as relative European winners due to nuclear and renewable energy advantages.",
+      "keyConcepts": [
+        "European AI data center energy cost disadvantage",
+        "Investment migration to lower-cost regions",
+        "Nuclear and renewable energy as AI infrastructure enablers",
+        "Global electricity consumption by data centers"
+      ],
+      "whyItMatters": "The AI race is increasingly an energy race — and Europe's structural energy cost disadvantage threatens to exclude it from the next wave of large-scale AI infrastructure investment, potentially concentrating AI compute capacity in the U.S. and China and widening the geopolitical gap.",
+      "tags": [
+        "europe",
+        "data-centers",
+        "energy",
+        "ai-infrastructure",
+        "geopolitics",
+        "compute",
+        "investment"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much are data center capacity costs in Europe's five largest markets projected to rise in 2026?",
+          "options": [
+            "3%",
+            "6%",
+            "12%",
+            "25%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Research from real estate investment company CBRE found that the cost of securing data center capacity in Europe's five largest markets — Frankfurt, London, Amsterdam, Paris, and Dublin — is set to rise by 12% in 2026, driven largely by surging energy prices."
+        },
+        {
+          "question": "Which European regions are identified as relative winners in the AI data center race due to lower energy costs?",
+          "options": [
+            "Germany and Poland",
+            "Spain and Italy",
+            "France and the Nordics",
+            "The UK and the Netherlands"
+          ],
+          "correctIndex": 2,
+          "explanation": "France and the Nordic countries (Norway, Sweden, Denmark) are seen as relative winners because France benefits from its nuclear energy leadership, while the Nordics enjoy low electricity prices from diverse renewable energy mixes — both critical advantages for cost-effective AI data center operations."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-karpathy-anthropic-0519",
+      "type": "article",
+      "title": "OpenAI Co-Founder Andrej Karpathy Joins Anthropic's Pre-Training Team",
+      "sourceUrl": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Andrej Karpathy, one of AI's most respected researchers and a founding member of OpenAI, announced on May 19 that he has joined Anthropic's pre-training team under team lead Nick Joseph. Karpathy will help lead a new initiative to use Claude itself to accelerate pre-training research — applying AI to AI development. The move is widely seen as a major talent coup for Anthropic as it competes with OpenAI and Google at the frontier.",
+      "keyConcepts": [
+        "Pre-training research and large-scale training runs",
+        "Using AI models to accelerate AI research (AI for AI)",
+        "Elite talent competition between frontier labs",
+        "Anthropic's expanding research bench"
+      ],
+      "whyItMatters": "Karpathy's move from OpenAI to Anthropic signals a shift in where top-tier AI researchers see the most compelling frontier work being done — and his focus on using Claude to accelerate pre-training could meaningfully speed up Anthropic's model development cycles.",
+      "tags": [
+        "anthropic",
+        "karpathy",
+        "pre-training",
+        "ai-talent",
+        "openai",
+        "claude",
+        "research"
+      ],
+      "relatedIds": [
+        "techcrunch-claude-managed-agents-0519"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What specific team at Anthropic did Andrej Karpathy join?",
+          "options": [
+            "The Claude safety and alignment team",
+            "The Anthropic products and growth team",
+            "The pre-training team under Nick Joseph",
+            "The Claude Code and developer tools team"
+          ],
+          "correctIndex": 2,
+          "explanation": "Karpathy joined Anthropic's pre-training team, which is responsible for the large-scale training runs that give Claude its foundational knowledge and capabilities. He will also help launch a new team focused on using Claude to accelerate pre-training research itself."
+        },
+        {
+          "question": "What novel research approach is Karpathy expected to focus on at Anthropic?",
+          "options": [
+            "Developing new RLHF reward modeling techniques",
+            "Using Claude to accelerate pre-training research",
+            "Building multimodal video understanding pipelines",
+            "Designing new benchmark evaluation suites"
+          ],
+          "correctIndex": 1,
+          "explanation": "A key part of Karpathy's role will be launching a new team at Anthropic focused on using Claude itself to speed up pre-training research — a meta-level application of AI where the model helps improve the very process that trains it."
+        }
+      ]
+    },
+    {
+      "id": "decoder-claude-managed-agents-0519",
+      "type": "article",
+      "title": "Anthropic Adds Self-Hosted Sandboxes and MCP Tunnels to Claude Managed Agents",
+      "sourceUrl": "https://the-decoder.com/anthropic-adds-self-hosted-sandboxes-and-mcp-tunnels-to-claude-managed-agents/",
+      "verified": false,
+      "publishedAt": "2026-05-19",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Anthropic released two new enterprise security features for Claude Managed Agents: self-hosted sandboxes (public beta) and MCP tunnels. Self-hosted sandboxes let enterprises run Claude agent workloads entirely within their own infrastructure — files and repositories never leave the company's environment, and organizations choose their own CPU, memory, and runtime image. MCP tunnels allow Claude agents to reach MCP servers inside private networks via an end-to-end encrypted outbound connection, without exposing services to the public internet.",
+      "keyConcepts": [
+        "Self-hosted sandboxes for air-gapped Claude agent execution",
+        "MCP tunnels for private-network MCP server access",
+        "End-to-end encrypted agent-to-service connectivity",
+        "Enterprise data residency and security compliance"
+      ],
+      "whyItMatters": "These features address the core enterprise blocker for deploying AI agents at scale: data leaving the company perimeter. By keeping agent execution and tool calls inside the enterprise boundary, Anthropic makes Managed Agents viable for regulated industries like finance, healthcare, and government.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "managed-agents",
+        "mcp",
+        "enterprise-security",
+        "sandboxes",
+        "ai-engineering"
+      ],
+      "relatedIds": [
+        "techcrunch-karpathy-anthropic-0519"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What does the new 'MCP tunnels' feature in Claude Managed Agents allow?",
+          "options": [
+            "Agents to browse the public web without a proxy",
+            "Agents to reach MCP servers inside private networks without exposing them to the internet",
+            "Agents to share tool call results with other Claude instances",
+            "Enterprises to define custom MCP tool schemas via a GUI"
+          ],
+          "correctIndex": 1,
+          "explanation": "MCP tunnels open a single outbound, end-to-end encrypted connection from Claude agents to MCP servers inside a private network. No inbound firewall rules or public endpoints are required, meaning enterprise services stay behind the firewall while remaining accessible to Claude agents."
+        },
+        {
+          "question": "In self-hosted sandbox mode for Claude Managed Agents, what happens to files and repositories the agent works with?",
+          "options": [
+            "They are encrypted and uploaded to Anthropic's secure cloud",
+            "They are mirrored to a read-only Anthropic audit store",
+            "They never leave the company's own infrastructure",
+            "They are hashed and verified against a tamper-proof log"
+          ],
+          "correctIndex": 2,
+          "explanation": "With self-hosted sandboxes, the agent executes entirely within the enterprise's own infrastructure. Files and repositories never leave the company's environment, and the organization retains full control over network policies, audit logging, and runtime configuration."
         }
       ]
     }

@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-06-19T12:00:00.000Z",
+  "weekOf": "2026-06-16",
+  "coverageStart": "2026-06-18",
+  "coverageEnd": "2026-06-18",
+  "items": [
+    {
+      "id": "article-noam-shazeer-openai-2026-06-18",
+      "type": "article",
+      "title": "Transformer Co-Inventor Noam Shazeer Leaves Google for OpenAI",
+      "sourceUrl": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-industry"],
+      "summary": "Noam Shazeer, a co-author of the 2017 transformer paper and Google's VP of Engineering leading the Gemini model family, announced on June 18 that he is joining OpenAI as Lead for Architecture Research. The move comes less than two years after Google reportedly paid $2.7 billion to bring Shazeer back from Character.AI. OpenAI CEO Sam Altman called the partnership 'only 10 years in the making,' framing the hire as a major strategic move ahead of OpenAI's anticipated IPO.",
+      "keyConcepts": [
+        "Transformer architecture",
+        "AI talent competition",
+        "OpenAI IPO",
+        "Model architecture research"
+      ],
+      "whyItMatters": "Shazeer is one of the most influential figures in modern AI — his co-authorship on the transformer paper underpins virtually every major LLM. His move to OpenAI signals intensifying competition for top AI researchers and could meaningfully shift OpenAI's model architecture trajectory.",
+      "tags": ["openai", "google", "talent-acquisition", "transformers", "model-architecture", "ipo"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What role did Noam Shazeer play in the 2017 'Attention Is All You Need' paper?",
+          "options": [
+            "He was the sole author of the paper",
+            "He led the benchmark evaluation team",
+            "He was one of the co-authors who introduced the transformer architecture",
+            "He peer-reviewed the paper but did not contribute to writing it"
+          ],
+          "correctIndex": 2,
+          "explanation": "Shazeer was one of eight co-authors on the seminal 2017 paper introducing the transformer architecture, which became the foundation for virtually all modern large language models including GPT and Gemini."
+        },
+        {
+          "question": "Approximately how much did Google reportedly pay to bring Noam Shazeer back from Character.AI before he departed for OpenAI?",
+          "options": [
+            "$500 million",
+            "$1.2 billion",
+            "$2.7 billion",
+            "$5 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google reportedly paid around $2.7 billion to bring Shazeer and part of his research team back from Character.AI — making his subsequent move to OpenAI a significant blow to Google's AI leadership."
+        }
+      ]
+    },
+    {
+      "id": "article-odyssey-world-models-2026-06-18",
+      "type": "article",
+      "title": "World-Model Startup Odyssey Raises $310M Series B at $1.45B Valuation",
+      "sourceUrl": "https://thetechportal.com/2026/06/18/world-model-ai-startup-odyssey-secures-310mn-in-funding-at-a-1-45bn-valuation/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Odyssey, an AI startup founded by autonomous-vehicle veterans Oliver Cameron and Jeff Hawke, closed a $310 million Series B led by Natural Capital with participation from Amazon, AMD Ventures, Google Ventures, EQT, and In-Q-Tel. The company builds world models — AI systems that learn the physical world's rules around movement, space, object interactions, and cause-and-effect — rather than language generation. The round values Odyssey at $1.45 billion, officially making it a unicorn.",
+      "keyConcepts": [
+        "World models",
+        "Physical AI simulation",
+        "Spatial reasoning in AI",
+        "Autonomous systems"
+      ],
+      "whyItMatters": "World models represent a fundamentally different AI paradigm from LLMs — they aim to simulate physical reality rather than predict text. Odyssey's $310M raise signals serious investor conviction that physical-world simulation is the next major AI frontier, with applications spanning robotics, autonomous vehicles, and interactive media.",
+      "tags": ["world-models", "funding", "startup", "physical-ai", "simulation", "series-b"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How do world models differ from large language models like GPT or Claude?",
+          "options": [
+            "World models use more parameters and require larger datasets",
+            "World models focus on generating text more accurately than LLMs",
+            "World models learn physical rules about space, movement, and causality rather than language patterns",
+            "World models are designed specifically for code generation tasks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike LLMs that predict text tokens, world models learn representations of how the physical world works — including spatial relationships, object interactions, and cause-and-effect dynamics — making them useful for robotics, simulation, and autonomous systems."
+        },
+        {
+          "question": "Who led Odyssey's $310M Series B funding round?",
+          "options": [
+            "Andreessen Horowitz",
+            "Natural Capital",
+            "Sequoia Capital",
+            "Amazon Web Services"
+          ],
+          "correctIndex": 1,
+          "explanation": "Natural Capital led Odyssey's Series B, with participation from Amazon, AMD Ventures, Google Ventures, EQT, In-Q-Tel, and Y Combinator CEO Garry Tan, among others, bringing total funding to $337 million."
+        }
+      ]
+    },
+    {
+      "id": "article-vivatech-nvidia-foxconn-europe-2026-06-18",
+      "type": "article",
+      "title": "VivaTech 2026: Foxconn and Nvidia Anchor Europe's Sovereign AI Infrastructure Push",
+      "sourceUrl": "https://www.euronews.com/next/2026/06/18/from-foxconn-to-nvidia-why-france-is-so-attractive-for-europes-ai-infrastructure",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-industry"],
+      "summary": "At VivaTech 2026 in Paris, NVIDIA CEO Jensen Huang delivered a GTC Paris keynote on AI factories, agentic AI, and physical AI, while announcing Mistral Compute — a sovereign European AI cloud built on 18,000 NVIDIA Grace Blackwell systems in partnership with Mistral AI. Separately, Foxconn and French computing firm Bull announced a partnership to manufacture AI computers in Europe for the continent's growing AI factory network. France is positioning itself as Europe's sovereign AI hub, drawing infrastructure investment from global tech leaders.",
+      "keyConcepts": [
+        "Sovereign AI infrastructure",
+        "AI factories",
+        "European AI strategy",
+        "Mistral Compute GPU cloud"
+      ],
+      "whyItMatters": "Europe's push for sovereign AI compute — infrastructure not dependent on US or Chinese hyperscalers — is gaining real industrial momentum. Mistral Compute backed by 18,000 Blackwell GPUs and Foxconn's European manufacturing partnership are concrete steps beyond political declarations toward making European AI sovereignty tangible.",
+      "tags": ["vivatech", "nvidia", "foxconn", "europe", "sovereign-ai", "mistral", "ai-infrastructure"],
+      "relatedIds": ["article-modi-vivatech-india-ai-2026-06-18"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Mistral Compute?",
+          "options": [
+            "A new open-source language model from Mistral AI",
+            "A sovereign European AI cloud built on NVIDIA Blackwell GPUs for European enterprise workloads",
+            "A French government AI research laboratory",
+            "A chipset designed by Mistral AI for edge computing devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral Compute is a sovereign AI infrastructure and GPU cloud platform built on 18,000 NVIDIA Grace Blackwell processors, designed to host Mistral's models and European enterprise workloads without relying on American or Chinese hyperscalers."
+        },
+        {
+          "question": "How many NVIDIA Grace Blackwell processors back the Mistral Compute sovereign AI cloud?",
+          "options": [
+            "2,000",
+            "8,000",
+            "18,000",
+            "50,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral Compute is backed by 18,000 NVIDIA Grace Blackwell processors housed in a planned 40 MW data center in Essonne, France, making it one of the largest sovereign AI infrastructure projects in Europe."
+        }
+      ]
+    },
+    {
+      "id": "article-modi-vivatech-india-ai-2026-06-18",
+      "type": "article",
+      "title": "PM Modi Presents India's MANAV AI Governance Framework at VivaTech 2026",
+      "sourceUrl": "https://aninews.in/news/business/pm-modi-outlines-indias-ai-vision-at-vivatech-2026-rolls-out-red-carpet-for-global-tech-players20260618190713/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-industry"],
+      "summary": "Indian Prime Minister Narendra Modi appeared at VivaTech 2026 in Paris alongside French President Emmanuel Macron, where India holds the designation of 'AI Country Partner' for the conference's 10th edition. Modi presented India's MANAV framework for AI governance — standing for Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, and Valid and Legitimate AI. He invited global tech companies to invest in India's AI ecosystem, framing democratization of AI as essential for the Global South.",
+      "keyConcepts": [
+        "AI governance frameworks",
+        "MANAV framework",
+        "Global South AI strategy",
+        "International AI cooperation"
+      ],
+      "whyItMatters": "India's MANAV framework signals an emerging-market-led alternative to US and EU AI governance approaches, centering inclusion and accessibility alongside sovereignty. As India's AI sector grows and its geopolitical weight increases, its governance proposals carry real weight in shaping global AI policy norms.",
+      "tags": ["india", "vivatech", "ai-governance", "manav", "global-south", "policy"],
+      "relatedIds": ["article-vivatech-nvidia-foxconn-europe-2026-06-18"],
+      "knowledgeChecks": [
+        {
+          "question": "What does MANAV stand for in India's AI governance framework?",
+          "options": [
+            "Machine Automation, Neural networks, Artificial Vision",
+            "Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, Valid and Legitimate AI",
+            "Multi-Agent Networks, Autonomous Vehicles",
+            "Ministry of AI, National Advancement, Value-driven systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "MANAV stands for Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, and Valid and Legitimate AI — India's framework for responsible AI development rooted in democratic values and Global South priorities."
+        },
+        {
+          "question": "What special designation did India receive at VivaTech 2026?",
+          "options": [
+            "Technology Partner of the Year",
+            "AI Innovation Leader",
+            "AI Country Partner",
+            "Digital Economy Champion"
+          ],
+          "correctIndex": 2,
+          "explanation": "India was designated as the 'AI Country Partner' for VivaTech 2026's 10th edition, reflecting the deepening Franco-Indian partnership in technology and India's growing role as a voice in global AI governance."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-design-overhaul-2026-06-18",
+      "type": "article",
+      "title": "Anthropic Ships Claude Design Overhaul: Design System Imports, Code Round-Trips, and Token Efficiency Fix",
+      "sourceUrl": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic shipped a major overhaul to Claude Design featuring four key upgrades: design system imports from GitHub repositories or raw uploads, tighter Claude Code integration enabling design-to-code round-trips, direct canvas editing, and stronger layout controls. The update also addresses the token-consumption problem that caused early beta users to burn through large portions of their weekly allowance generating a single prototype. The feature is available to Claude Pro, Max, Team, and Enterprise customers at claude.ai/design.",
+      "keyConcepts": [
+        "AI design-to-code workflows",
+        "Design system integration",
+        "Token efficiency in AI tools",
+        "Claude Code integration"
+      ],
+      "whyItMatters": "Claude Design attracted over one million users in its first week, but voracious token consumption was a real barrier to production use. This overhaul moves Claude Design from prototype-generator to governed enterprise design platform, directly competing with tools like Figma for AI-native design workflows.",
+      "tags": ["claude", "anthropic", "design-tools", "claude-code", "enterprise", "design-to-code"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What major usability problem did Anthropic's Claude Design overhaul specifically address?",
+          "options": [
+            "Lack of mobile support in Claude Design",
+            "Excessive token consumption that could exhaust weekly allowances in minutes",
+            "Missing dark mode in AI-generated design outputs",
+            "Inability to export designs to common file formats"
+          ],
+          "correctIndex": 1,
+          "explanation": "Early Claude Design beta users reported burning through 80% of their weekly Claude Pro token allowance in roughly 25 minutes generating just three variations of a single webpage prototype. The overhaul addressed this token efficiency problem alongside new enterprise features."
+        },
+        {
+          "question": "Which Claude Design feature enables teams to ensure AI-generated designs conform to their existing product's visual standards?",
+          "options": [
+            "Claude Code round-trips",
+            "Direct canvas editing",
+            "Design system imports",
+            "Brand accessibility mode"
+          ],
+          "correctIndex": 2,
+          "explanation": "Design system imports allow teams to pull their existing design systems from GitHub repositories, design files, or raw uploads directly into Claude Design, ensuring AI-generated components and layouts match established brand guidelines and component patterns."
+        }
+      ]
+    }
+  ]
+}
