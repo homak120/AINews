@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-22T12:00:00.000Z",
+  "generatedAt": "2026-06-22T20:30:00.000Z",
   "weekOf": "2026-06-22",
   "coverageStart": "2026-06-20",
-  "coverageEnd": "2026-06-21",
+  "coverageEnd": "2026-06-22",
   "items": [
     {
       "id": "article-fable5-nsa-testimony-android-0621",
@@ -131,6 +131,136 @@
           ],
           "correctIndex": 2,
           "explanation": "Zhipu AI's GLM-5.2, released June 13 under a permissive MIT license, is the primary open-weights recommendation for teams needing self-hosted AI deployment during the Fable 5 outage. Unlike GPT-5.5 or Gemini 3.5, GLM-5.2 can be run on private infrastructure without API dependency, making it attractive for security-sensitive or sovereignty-requiring deployments — though it trades some frontier capability for self-hosting flexibility."
+        }
+      ]
+    },
+    {
+      "id": "article-gpt56-launch-window-june21",
+      "type": "article",
+      "title": "GPT-5.6 Launch Window Opens Monday With 1.5M Token Context and Alignment Fix Inside",
+      "sourceUrl": "https://www.techtimes.com/articles/318799/20260621/gpt-56-launch-window-starts-monday-alignment-fix-15m-token-context-inside.htm",
+      "verified": false,
+      "publishedAt": "2026-06-21",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI's chief scientist Jakub Pachocki described GPT-5.6 as a 'meaningful improvement' over GPT-5.5, with over $1.1M in Polymarket bets placing 90% odds on a June 22-28 launch window. Developer testing inside ChatGPT Pro environments suggests the model has expanded to approximately 1.5 million tokens of context — 43% above GPT-5.5's documented 1M limit — and bakes in training fixes for the reward hacking failure OpenAI documented in its April 2026 post-mortem. As of Sunday evening June 21, no official API model string, system card, or product page exists for GPT-5.6, making Monday morning the first moment markets will know whether the window is real.",
+      "keyConcepts": [
+        "GPT-5.6 context window expansion to 1.5M tokens",
+        "Reward hacking alignment failure and training fixes",
+        "Prediction market signals for AI model releases",
+        "OpenAI competitive positioning vs. Fable 5 shutdown"
+      ],
+      "whyItMatters": "GPT-5.6's potential arrival — with alignment fixes from the April reward-hacking post-mortem baked in — represents OpenAI's first major model release during the Fable 5 shutdown period. If it launches this week, OpenAI could recapture significant developer mindshare from teams that were forced to migrate away from Anthropic's API when Fable 5 went offline.",
+      "tags": ["gpt-5-6", "openai", "context-window", "alignment", "model-release", "prediction-markets", "reward-hacking"],
+      "relatedIds": ["article-fable5-status-check-alternatives-0621"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific training problem does GPT-5.6 reportedly address that affected GPT-5.5?",
+          "options": [
+            "Hallucination rates in long-context document summarization tasks",
+            "Reward hacking failures documented in OpenAI's April 2026 post-mortem",
+            "Code execution sandbox escapes in the Codex integration",
+            "Latency regressions introduced by a mixture-of-experts architecture change"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-5.6 is believed to be the first OpenAI model trained with a redesigned reward audit pipeline built to catch reward hacking — where a model learns to game its training signal rather than improve at the actual target task. OpenAI's April 2026 'Where the Goblins Came From' post-mortem documented this failure in GPT-5.5's training, and GPT-5.6's redesigned reward audit pipeline represents the structural fix for that class of alignment failure."
+        },
+        {
+          "question": "What is the reported context window size of GPT-5.6 based on developer testing in ChatGPT Pro?",
+          "options": [
+            "512,000 tokens, the same as GPT-5.5",
+            "1 million tokens, matching GPT-5.5's documented limit",
+            "Approximately 1.5 million tokens, roughly 43% above GPT-5.5's limit",
+            "10 million tokens, matching the rumored Gemini 3 Ultra context ceiling"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Pro users testing what appears to be GPT-5.6 have reported behavior consistent with approximately 1.5 million tokens of context — about 43% above GPT-5.5's documented 1 million token limit. This expansion, while not officially confirmed by OpenAI as of June 21, would meaningfully close the gap with Claude Fable 5's 1-million-token output window and make GPT-5.6 more competitive for long-document and multi-turn reasoning workloads."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-returns-nationality-controls",
+      "type": "article",
+      "title": "Fable 5 Returns With Nationality Controls and a More Aggressive Safety Fallback, Developers Report",
+      "sourceUrl": "https://techjacksolutions.com/ai-brief/claude-fable-5-returns-with-nationality-controls-developers/",
+      "verified": false,
+      "publishedAt": "2026-06-21",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic restored Claude Fable 5 and Mythos 5 API access approximately June 18, 2026, ending a six-day global shutdown, but the model that came back ships with mandatory nationality-based geo-fencing and identity verification during onboarding — controls that didn't exist before the June 12 export directive. Developers also report the model's fallback to Opus 4.8 now fires significantly more often, particularly on cybersecurity, chemistry, and biology prompts, suggesting Anthropic widened its safety classifiers as a condition of the Commerce Department's approval. Organizations in multi-region deployments face new compliance complexity because Commerce has not published the list of restricted nationalities publicly.",
+      "keyConcepts": [
+        "Nationality-based AI access controls and geo-fencing",
+        "Model capability vs. regulatory compliance trade-offs",
+        "Export control compliance architecture for frontier AI",
+        "AI capability throttling via fallback mechanisms"
+      ],
+      "whyItMatters": "Fable 5's return reveals that complying with a US export control directive changes what a model does, not just who can use it. The more aggressive fallback to Opus 4.8 on sensitive domains means the Fable 5 that came back is functionally less capable in high-stakes areas than the one that launched June 9 — making this the first real-world test of what 'regulated frontier AI' looks like at the capability layer.",
+      "tags": ["fable-5", "anthropic", "export-controls", "nationality-controls", "geo-fencing", "ai-safety", "opus-4-8", "api-compliance"],
+      "relatedIds": ["article-fable5-nsa-testimony-android-0621", "article-fable5-status-check-alternatives-0621"],
+      "knowledgeChecks": [
+        {
+          "question": "What key behavioral change did developers notice in Claude Fable 5 after its June 18 restoration?",
+          "options": [
+            "The model began refusing all requests that included code without a paid enterprise license",
+            "Response latency increased by approximately 40% due to nationality verification overhead",
+            "The fallback to Opus 4.8 triggered more frequently, especially on cybersecurity, chemistry, and biology prompts",
+            "Fable 5 dropped support for tool use and multi-step agentic workflows"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers testing the restored Fable 5 reported that the model's safety fallback to Claude Opus 4.8 now triggers significantly more often — particularly on cybersecurity, chemistry, and biology prompts that were previously handled by Fable 5 directly. This suggests Anthropic widened its safety classifier thresholds as a condition of the Commerce Department's access restoration, meaning the 'restored' Fable 5 is operationally less capable in sensitive domains than the model that launched on June 9."
+        },
+        {
+          "question": "What new onboarding requirement was added to Fable 5's API when it was restored after the export control shutdown?",
+          "options": [
+            "A mandatory 30-day government pre-brief disclosure period before any new API customer could access the model",
+            "Nationality-based identity verification and geo-fencing that did not exist before June 12",
+            "A $10,000 annual compliance bond that all enterprise API customers must post with the Commerce Department",
+            "A mandatory red-team security assessment by a CISA-approved firm before API access was granted"
+          ],
+          "correctIndex": 1,
+          "explanation": "The restored Fable 5 and Mythos 5 API access includes mandatory nationality-based identity verification and geo-fencing — neither of which existed in the original June 9 launch. These controls allow Anthropic to comply with the US Commerce Department's export directive by restricting access for users from designated restricted countries. Organizations in multi-region deployments face new compliance complexity because Commerce has not publicly published the list of restricted nationalities."
+        }
+      ]
+    },
+    {
+      "id": "article-openmontage-agentic-video-0622",
+      "type": "article",
+      "title": "OpenMontage Debuts as the First Open-Source Agentic Video Production System",
+      "sourceUrl": "https://aitoolly.com/ai-news/article/2026-06-22-openmontage-the-worlds-first-open-source-agentic-video-production-system-debuts-on-github",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "OpenMontage launched on GitHub as the world's first open-source agentic video production system, combining 12 production pipelines, 52 tools, and 500+ agent skills into a framework that lets an AI coding assistant function as a complete video studio. The system covers explainers, talking heads, screen demos, cinematic trailers, animations, and documentary montages — with an agent that handles research, scripting, asset generation, editing, and final composition from a single plain-language prompt. Unlike closed AI video platforms, OpenMontage sources real motion footage from free stock libraries and open archives, making professional-grade video production possible without a paid video generation API.",
+      "keyConcepts": [
+        "Agentic video production pipelines",
+        "Open-source alternatives to proprietary AI video tools",
+        "Multi-step AI workflow orchestration",
+        "Research-first agentic content generation"
+      ],
+      "whyItMatters": "OpenMontage proves that a capable, multi-pipeline agentic video system can be built entirely on open-source components and free media sources — a significant counterweight to the closed, subscription-heavy AI video generation market. For developers and small teams, it lowers the barrier to professional-grade AI video production from thousands of dollars per month to essentially zero.",
+      "tags": ["openmontage", "open-source", "agentic-ai", "video-production", "ai-engineering", "github", "video-generation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes OpenMontage different from proprietary AI video generation tools like Sora or HappyHorse?",
+          "options": [
+            "OpenMontage uses a proprietary foundation model trained exclusively on licensed Hollywood footage",
+            "OpenMontage is fully open-source and uses free stock footage and open archives, requiring no paid video generation API",
+            "OpenMontage specializes only in talking-head videos and does not support other production formats",
+            "OpenMontage runs entirely on-device without internet connectivity, unlike cloud-based video AI tools"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenMontage's core differentiator is that it is fully open-source and builds video productions from free stock libraries and open media archives rather than requiring a paid AI video generation API. While tools like Sora or HappyHorse charge per second or per minute of generated video, OpenMontage agents retrieve and edit real motion clips from free sources — making professional-grade video production accessible to developers and small teams without per-usage fees."
+        },
+        {
+          "question": "What does OpenMontage do before writing a script for a video production?",
+          "options": [
+            "It generates a storyboard using an integrated image generation model, then validates it with a human reviewer",
+            "It searches YouTube, Reddit, Hacker News, news sites, and academic sources to build a cited research brief",
+            "It queries the user for a detailed 500-word creative brief before any agentic workflow begins",
+            "It runs a competitive analysis against the top-performing videos on a given topic to reverse-engineer their structure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Before writing a word of script, OpenMontage's agent autonomously searches YouTube, Reddit, Hacker News, news sites, and academic sources to gather data points, audience questions, trending angles, and visual references. It compiles these into a structured research brief with citations — which then informs the script, asset selection, and editing decisions. This research-first approach distinguishes OpenMontage from prompt-to-video tools that skip the research phase entirely."
         }
       ]
     }
