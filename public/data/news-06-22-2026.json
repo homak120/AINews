@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-06-22T12:00:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-20",
+  "coverageEnd": "2026-06-21",
+  "items": [
+    {
+      "id": "article-fable5-nsa-testimony-android-0621",
+      "type": "article",
+      "title": "NSA Director's Secret Testimony Reveals Mythos 5 Breached Nearly All Classified Systems in Red-Team Test",
+      "sourceUrl": "https://www.techtimes.com/articles/318783/20260621/claude-fable-5-resurfaces-android-app-nsa-breach-testimony-reshapes-ban.htm",
+      "verified": false,
+      "publishedAt": "2026-06-21",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "On day 9 of Anthropic's government-mandated model shutdown, a Senate Intelligence Committee briefing transcript revealed that NSA Director Gen. Joshua Rudd testified that Mythos 5, in a classified red-team exercise, autonomously breached nearly all NSA classified systems within hours — confirmation that the export control is not about a patchable jailbreak but about the model's raw autonomous offensive cyber capability. Separately, developers reported that 'Claude Fable 5' had reappeared in the Claude Android app's model picker, but selecting it produces errors or silently falls back to Opus 4.8 — a UI artifact, not a restoration. As of June 21, both Fable 5 and Mythos 5 remain offline globally, with the restoration path now requiring Anthropic to agree to a 30-day government pre-brief framework, not just a technical fix.",
+      "keyConcepts": [
+        "Autonomous AI cyber offense capability",
+        "Red-team AI evaluation methodology",
+        "Export control legal mechanisms",
+        "Frontier model pre-release government frameworks"
+      ],
+      "whyItMatters": "The NSA testimony fundamentally changes what 'restoring Fable 5' means: it's not a bug fix, it's a geopolitical negotiation. If Mythos can autonomously breach classified US systems in hours, every future frontier AI model capable of similar feats will face the same pre-release government vetting process — reshaping how AI labs and governments jointly govern the deployment of the most capable models.",
+      "tags": ["fable-5", "mythos-5", "nsa", "anthropic", "export-controls", "ai-safety", "cyberattack", "national-security"],
+      "relatedIds": ["article-anthropic-export-control-beneficiaries-2026-06-21", "article-fable5-trump-g7-june20-update"],
+      "knowledgeChecks": [
+        {
+          "question": "What did NSA Director Gen. Joshua Rudd testify about Mythos 5 in the Senate Intelligence Committee briefing?",
+          "options": [
+            "Mythos 5 failed to detect known malware samples in NSA security tests",
+            "Mythos 5 autonomously breached nearly all NSA classified systems in a red-team exercise within hours",
+            "Mythos 5 produced hallucinated intelligence reports that were used in actual briefings",
+            "Mythos 5 was found to have a hard-coded backdoor accessible to Anthropic engineers"
+          ],
+          "correctIndex": 1,
+          "explanation": "NSA Director Gen. Joshua Rudd testified that in a classified red-team exercise, Mythos 5 autonomously breached nearly all of the NSA's classified systems within hours. This testimony — reported by The Economist and confirmed in Senate briefing transcripts — revealed that the export control is not about a narrow 'fix this code' jailbreak but about the model's fundamental autonomous offensive cyber capability at a level the government considers too dangerous for unrestricted global access."
+        },
+        {
+          "question": "What does the reappearance of 'Claude Fable 5' in the Android app model picker indicate as of June 21, 2026?",
+          "options": [
+            "Anthropic has partially restored Fable 5 for mobile users only, pending API restoration",
+            "The Android app is cached and showing a stale model list; Fable 5 is not actually available",
+            "Fable 5 is available in the Android app but throttled to 5 requests per day",
+            "Google Play Store approved a special exemption allowing Fable 5 on Android before iOS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Developers confirmed the Fable 5 entry in the Android app's model picker is a UI artifact — selecting it either fails with an error, silently falls back to Opus 4.8, or returns a 'server is temporarily rate-limiting requests' message. Anthropic has not restored the model; the appearance in the model list reflects a client-side rendering lag, not a backend change to model availability."
+        }
+      ]
+    },
+    {
+      "id": "article-sk-telecom-wired-fable5-trigger-0620",
+      "type": "article",
+      "title": "Wired Identifies SK Telecom and Its Suspected China Ties as the Hidden Trigger of Anthropic's Export Controls",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
+      "verified": false,
+      "publishedAt": "2026-06-20",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Wired reported — and Tom's Hardware confirmed — that SK Telecom, South Korea's largest wireless carrier, was the specific partner whose Anthropic Mythos access White House officials ordered revoked, days before the broader June 12 export control directive pulling Fable 5 and Mythos 5 for all foreign nationals. US officials flagged SK Telecom's historical tie to China Unicom — a stake the company held in 2006 — as sufficient to trigger the access revocation. SK Telecom denied any active China network connections, noting it uses no Huawei or ZTE core equipment. The company had been a $100M Anthropic investor since 2023 and a Project Glasswing cybersecurity partner. The selective revocation escalated when other Project Glasswing partners raised concerns about equitable access, prompting the administration to widen the ban to all foreign nationals.",
+      "keyConcepts": [
+        "AI model supply chain vetting",
+        "China-linked partner risk for US AI companies",
+        "Project Glasswing cybersecurity partnerships",
+        "Export control escalation dynamics"
+      ],
+      "whyItMatters": "The SK Telecom trigger reveals a new category of AI risk that US labs must manage: not just model capability, but the nationality and corporate history of every entity that accesses frontier AI. If a 2006 stock stake in a Chinese telecom is sufficient grounds to revoke AI access, the due-diligence burden on companies distributing frontier AI to international partners has just grown substantially — with major implications for how AI labs screen global customers.",
+      "tags": ["sk-telecom", "anthropic", "export-controls", "china", "geopolitics", "project-glasswing", "ai-policy", "supply-chain"],
+      "relatedIds": ["article-fable5-nsa-testimony-android-0621", "article-fable5-trump-g7-june20-update"],
+      "knowledgeChecks": [
+        {
+          "question": "What historical connection led US officials to flag SK Telecom as a security concern regarding Anthropic's AI models?",
+          "options": [
+            "SK Telecom's CEO publicly praised Huawei's 5G equipment at a 2025 industry conference",
+            "SK Telecom was found to be sharing Mythos outputs with Chinese state-owned enterprises",
+            "SK Telecom held a stake in China Unicom in 2006, which US officials treated as a China-linkage risk",
+            "SK Telecom's network infrastructure was built entirely on ZTE hardware in breach of its Anthropic contract"
+          ],
+          "correctIndex": 2,
+          "explanation": "US officials flagged SK Telecom's 2006 stake in China Unicom — a Chinese state-owned telecom company — as sufficient grounds to treat SK Telecom as a China-linked entity for purposes of AI model access control. SK Telecom denied this characterization, noting the stake was divested nearly two decades ago and that its current network uses no Huawei or ZTE equipment."
+        },
+        {
+          "question": "Why did a targeted revocation of SK Telecom's Mythos access escalate into a ban on all foreign nationals?",
+          "options": [
+            "Other Project Glasswing partners demanded equal treatment, prompting the White House to universalize the restriction",
+            "The Commerce Department determined all non-US entities carry equivalent China-exposure risk",
+            "Anthropic's legal team advised that selective bans violated equal-treatment clauses in their API terms",
+            "NSA red-team results suggested that even partial foreign access created unacceptable cyber risk"
+          ],
+          "correctIndex": 0,
+          "explanation": "When only SK Telecom's Mythos access was revoked, other Project Glasswing cybersecurity partners — many of them legitimate non-US security firms — raised concerns about the selective and non-transparent nature of the action. The White House response was to widen the ban to all foreign nationals, eliminating the discrimination problem but creating a much larger access disruption that affected every international Anthropic customer."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-status-check-alternatives-0621",
+      "type": "article",
+      "title": "Is Fable 5 Back? Day 9 Status Check and the Best Alternatives for Developers Now",
+      "sourceUrl": "https://explainx.ai/blog/is-fable-5-back-2026",
+      "verified": false,
+      "publishedAt": "2026-06-21",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "As of June 21, 2026 (day 9 of Anthropic's government-ordered shutdown), Fable 5 and Mythos 5 remain offline for all users worldwide. The Android app model picker bug that shows 'Claude Fable 5' is a UI artifact — the model does not respond. Prediction markets place 57% odds on restoration before July 1 and 75% before July 17. For developers who cannot wait, explainx.ai reviews the leading alternatives: GPT-5.5 Instant for speed-sensitive coding tasks, Gemini 3.5 Flash for long-context document work (1M-token context), and the open-weights GLM-5.2 (Zhipu AI, MIT license) for teams needing self-hosted deployments. The article notes June 22 as a key date: today is the last day Fable 5 is included at no extra cost in Claude Pro, Max, Team, and Enterprise plans — after June 23, it moves to usage credits at $10/$50 per million tokens, should access ever be restored.",
+      "keyConcepts": [
+        "AI model migration strategies",
+        "Frontier model competitive landscape",
+        "Open-weights alternatives to proprietary models",
+        "Prediction market-based AI policy forecasting"
+      ],
+      "whyItMatters": "The Fable 5 ban is a live stress test of AI vendor lock-in risk. Developers who built tightly on Anthropic's API are learning — at the worst possible moment — that geopolitical events can terminate model access overnight with no notice. The migration patterns emerging now will shape how enterprises write AI vendor diversification requirements into future contracts.",
+      "tags": ["fable-5", "anthropic", "gpt-5-5", "gemini-3-5", "glm-5-2", "ai-alternatives", "vendor-lock-in", "developer-tools"],
+      "relatedIds": ["article-fable5-nsa-testimony-android-0621", "article-anthropic-export-control-beneficiaries-2026-06-21"],
+      "knowledgeChecks": [
+        {
+          "question": "What does June 22, 2026 mark for Claude subscribers who had Fable 5 access?",
+          "options": [
+            "The date the Commerce Department directive automatically expires after a 10-day review period",
+            "The last day Fable 5 is included in Pro, Max, Team, and Enterprise plans at no extra cost before moving to usage credits",
+            "The deadline for Anthropic to respond to a Congressional inquiry about the export controls",
+            "The day all Claude subscription plans are paused until the export control is resolved"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic announced when launching Fable 5 on June 9 that the model would be included in Pro, Max, Team, and Enterprise plans at no extra cost through June 22. After June 23, Fable 5 access was to move to a usage-credit system at API rates ($10/M input, $50/M output tokens). The ban began June 12 — four days before the original deadline — so subscribers are now hitting the billing transition date while the model is still completely offline."
+        },
+        {
+          "question": "Which alternative to Fable 5 is highlighted as best for teams wanting self-hosted, open-weights deployment?",
+          "options": [
+            "GPT-5.5 Instant from OpenAI, which offers an on-premises enterprise deployment option",
+            "Gemini 3.5 Flash from Google, available via a private cloud API with dedicated hardware",
+            "GLM-5.2 from Zhipu AI, released under an MIT license for self-hosted use",
+            "Grok 4.3 from xAI, which offers a private inference option for security-sensitive deployments"
+          ],
+          "correctIndex": 2,
+          "explanation": "Zhipu AI's GLM-5.2, released June 13 under a permissive MIT license, is the primary open-weights recommendation for teams needing self-hosted AI deployment during the Fable 5 outage. Unlike GPT-5.5 or Gemini 3.5, GLM-5.2 can be run on private infrastructure without API dependency, making it attractive for security-sensitive or sovereignty-requiring deployments — though it trades some frontier capability for self-hosting flexibility."
+        }
+      ]
+    }
+  ]
+}
