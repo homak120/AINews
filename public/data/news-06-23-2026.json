@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-06-23T03:16:59.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-22",
+  "coverageEnd": "2026-06-23",
+  "items": [
+    {
+      "id": "article-claude-fable5-paid-credits-2026",
+      "type": "article",
+      "title": "Claude Fable 5 Exits Free Subscription Window — Requires Paid Usage Credits Starting June 23",
+      "sourceUrl": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-industry"],
+      "summary": "Starting today (June 23, 2026), Anthropic's Claude Fable 5 is no longer included within Pro, Max, Team, or Enterprise subscription plan limits — access now requires usage credits billed at API rates. During the free window that ran from June 9 to June 22, Fable 5 still counted roughly double normal Opus usage toward plan limits. Anthropic says it intends to restore the model as a standard plan feature once capacity allows but has not announced a timeline.",
+      "keyConcepts": [
+        "Usage credits: pay-as-you-go tokens consumed at API rates ($10/$50 per million input/output tokens), separate from flat monthly subscription fees",
+        "Prompt caching: Fable 5 offers a 90% discount on cached input reads, reducing costs for repeated context windows",
+        "Plan capacity: Anthropic cited compute capacity limits — not just pricing strategy — as the reason for removing Fable 5 from plan entitlements",
+        "Claude Fable 5 pricing: most expensive publicly available Anthropic model, double the cost of Opus 4.8"
+      ],
+      "whyItMatters": "This is the first time Anthropic has pulled a model from subscription plan access after launch — a signal that top-tier frontier models may increasingly require separate billing even for paying subscribers. Developers and heavy Claude Code users will see a direct cost increase beginning today.",
+      "tags": ["claude-fable-5", "anthropic", "ai-pricing", "usage-credits", "subscription-change", "api-costs"],
+      "relatedIds": ["article-ai-tech-midterms-spending-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "On what date did Claude Fable 5 stop being included free within Anthropic subscription plans?",
+          "options": [
+            "June 9, 2026",
+            "June 12, 2026",
+            "June 22, 2026",
+            "June 23, 2026"
+          ],
+          "correctIndex": 3,
+          "explanation": "Claude Fable 5 was included free in Pro, Max, Team, and Enterprise plans from its launch on June 9 through June 22. Starting June 23, usage requires paid credits billed at API rates."
+        },
+        {
+          "question": "What is the API cost for Claude Fable 5 output tokens per million?",
+          "options": [
+            "$15 per million output tokens",
+            "$30 per million output tokens",
+            "$50 per million output tokens",
+            "$75 per million output tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Fable 5 is priced at $10 per million input tokens and $50 per million output tokens — double the price of Opus 4.8 and the most expensive generally available Anthropic model."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-tech-midterms-spending-2026",
+      "type": "article",
+      "title": "AI Companies Are Spending Millions to Influence the 2026 Midterm Elections",
+      "sourceUrl": "https://www.npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Groups tied to OpenAI and Anthropic have collectively spent more than $15 million on the 2026 midterm elections, with the two companies backing opposing sides that mirror their corporate rivalry over AI regulation. OpenAI president Greg Brockman helped fund the 'Leading the Future' super PAC, which has spent over $23.5 million opposing stricter AI oversight. Rival Anthropic has directed $20 million to Public First Action, which counters federal efforts to preempt state AI laws. NPR's reporting notes the political antagonism 'really mirrors the corporate competition' between the two companies.",
+      "keyConcepts": [
+        "Super PAC: Political action committees that can raise unlimited funds from corporations and individuals for independent political expenditures",
+        "AI regulation divide: OpenAI opposes federal AI restrictions; Anthropic supports regulation it helped design — both now actively funding political races",
+        "Bores: contested congressional candidates at the center of AI policy campaign spending",
+        "IPO context: Both OpenAI and Anthropic are preparing for major IPOs, making favorable regulation a direct financial interest"
+      ],
+      "whyItMatters": "The AI industry's entry into large-scale electoral politics signals that frontier AI companies now view regulation as an existential business issue. The outcome of November's midterms could directly shape the pace and form of US AI regulation, affecting everyone building on or competing with these platforms.",
+      "tags": ["ai-policy", "midterm-elections", "openai", "anthropic", "ai-regulation", "political-spending"],
+      "relatedIds": ["article-claude-fable5-paid-credits-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Which super PAC is OpenAI president Greg Brockman associated with in the 2026 midterms?",
+          "options": [
+            "Public First Action",
+            "American Mission",
+            "Leading the Future",
+            "Think Big"
+          ],
+          "correctIndex": 2,
+          "explanation": "Greg Brockman helped fund 'Leading the Future,' which has spent over $23.5 million opposing stricter AI regulation across dozens of congressional races."
+        },
+        {
+          "question": "What position does Anthropic's political spending support in the 2026 midterms?",
+          "options": [
+            "Eliminating all federal AI oversight",
+            "Opposing state-level AI laws",
+            "Preserving state AI safeguards against federal preemption",
+            "Delaying any AI regulation until 2028"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic directed $20 million to Public First Action, which 'opposes federal efforts to freeze state progress without adequate federal safeguards' — essentially protecting state-level AI laws from being preempted by weaker federal rules."
+        }
+      ]
+    },
+    {
+      "id": "article-google-adk-a2a-multiagent-2026",
+      "type": "article",
+      "title": "Building Cross-Language Multi-Agent Pipelines with Google's ADK and the A2A Protocol",
+      "sourceUrl": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": ["ai-engineering"],
+      "summary": "Google's Developers Blog published a hands-on guide for building production-grade multi-agent pipelines using the Agent Development Kit (ADK) and the Agent2Agent (A2A) protocol, demonstrating a contract compliance system where a Python ADK agent extracts terms using Gemini and a Go agent validates them against corporate policy. The two services communicate entirely through A2A, allowing agents built in different languages and frameworks to interoperate without custom integration code. ADK's RemoteA2aAgent abstraction turns any compliant remote service into a local sub-agent, and native A2A support now ships in LangGraph, CrewAI, LlamaIndex, Semantic Kernel, and AutoGen.",
+      "keyConcepts": [
+        "Agent Development Kit (ADK): Google's open-source framework for building and orchestrating agents; Python-first with multi-language support",
+        "Agent2Agent (A2A) protocol: open standard for cross-framework agent interoperability, donated to the Linux Foundation and supported by 150+ organizations",
+        "RemoteA2aAgent: ADK abstraction that wraps any A2A-compliant remote service as a local sub-agent within an ADK orchestrator",
+        "Modular agent architecture: separate agents with narrow responsibilities (extract vs. validate) replacing monolithic LLM prompts for complex workflows"
+      ],
+      "whyItMatters": "The A2A protocol is quietly becoming the TCP/IP of multi-agent systems — enabling teams to build in their language of choice while agents remain interoperable. This tutorial shows the pattern is production-ready now, not just theoretical, with real cross-language orchestration running on Google infrastructure.",
+      "tags": ["google-adk", "a2a-protocol", "multi-agent", "agent-engineering", "agentic-systems", "interoperability"],
+      "relatedIds": ["article-aws-weekly-roundup-june22-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the A2A (Agent2Agent) protocol enable that was difficult before?",
+          "options": [
+            "Training AI agents on proprietary data without API costs",
+            "Connecting agents built in different languages and frameworks to interoperate",
+            "Running AI agents locally without cloud infrastructure",
+            "Auto-generating agent code from natural language descriptions"
+          ],
+          "correctIndex": 1,
+          "explanation": "A2A is an open standard that allows AI agents built in any language or framework to communicate and collaborate, eliminating the need for custom integration code between different agent systems."
+        },
+        {
+          "question": "In the ADK + A2A contract compliance example, what role does the Go agent play?",
+          "options": [
+            "It extracts contract terms using Gemini",
+            "It translates contracts into multiple languages",
+            "It validates extracted contract terms against corporate policy",
+            "It generates new contract templates based on past agreements"
+          ],
+          "correctIndex": 2,
+          "explanation": "The pipeline splits responsibilities: a Python ADK agent extracts contract terms using Gemini, then passes the results to a Go agent that validates them against corporate policy — both connected via A2A."
+        }
+      ]
+    },
+    {
+      "id": "article-aws-weekly-roundup-june22-2026",
+      "type": "article",
+      "title": "AWS Weekly Roundup: Bedrock Price Cuts, Grok 4.3 on Bedrock, and AgentCore Web Search",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Amazon's June 22 weekly roundup covers the top launches from the AWS Summit New York (June 17) and the week's announcements: Amazon Bedrock AgentCore gained a fully managed Web Search tool that grounds agent responses in cited, real-time web knowledge without exposing customer data; a new Fully Managed Knowledge Base simplifies enterprise RAG pipelines with Smart Parsing and an Agentic Retriever; and xAI's Grok 4.3 became available on Bedrock via the new Mantle inference engine, designed for price-performance reasoning workloads at $1.25/$2.50 per million input/output tokens with a 1M-token context window.",
+      "keyConcepts": [
+        "Amazon Bedrock AgentCore Web Search: fully managed tool grounding agents in current web knowledge, with zero data egress from the customer's AWS environment",
+        "Bedrock Managed Knowledge Base: native RAG pipeline with Smart Parsing (multi-format auto-prep) and Agentic Retriever for complex multi-step queries",
+        "Mantle inference engine: AWS's new inference backend optimized for price-performance on reasoning models, first used with Grok 4.3",
+        "Grok 4.3 on Bedrock: xAI's reasoning model with always-on and configurable reasoning effort (none/low/medium/high), 1M token context, $1.25/$2.50 per million I/O"
+      ],
+      "whyItMatters": "AWS is assembling a complete agentic infrastructure stack inside Bedrock — models, retrieval, web grounding, and a new inference engine — signaling that enterprise AI adoption is moving from experiment to production-grade deployment. The Bedrock price reductions and the Mantle engine suggest AWS is competing on cost as well as capability against Azure and Google Cloud.",
+      "tags": ["aws", "amazon-bedrock", "grok-4-3", "agentcore", "rag", "cloud-ai-infrastructure"],
+      "relatedIds": ["article-google-adk-a2a-multiagent-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key advantage of Amazon Bedrock AgentCore's new Web Search tool?",
+          "options": [
+            "It lets agents write directly to public websites",
+            "It grounds agents in real-time web content with zero data egress from the customer's AWS environment",
+            "It enables agents to scrape competitor pricing automatically",
+            "It integrates Bing Search API at no additional cost"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Web Search tool on Bedrock AgentCore lets AI agents access current, cited web knowledge while keeping all data within the customer's secured AWS environment — no data leaves their cloud boundary."
+        },
+        {
+          "question": "What reasoning configuration options does Grok 4.3 on Amazon Bedrock support?",
+          "options": [
+            "Always-on reasoning with no ability to disable",
+            "Only high-effort reasoning for enterprise tiers",
+            "Always-on or configurable reasoning effort: none, low, medium, or high",
+            "Reasoning is only available in us-east-1 region"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.3 on Bedrock supports both always-on reasoning and configurable reasoning effort (none, low, medium, high), giving developers control over cost vs. accuracy trade-offs."
+        }
+      ]
+    }
+  ]
+}
