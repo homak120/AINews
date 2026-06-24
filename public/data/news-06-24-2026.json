@@ -1,9 +1,182 @@
 {
-  "generatedAt": "2026-06-24T12:00:00.000Z",
+  "generatedAt": "2026-06-24T18:30:00.000Z",
   "weekOf": "2026-06-22",
   "coverageStart": "2026-06-22",
   "coverageEnd": "2026-06-23",
   "items": [
+    {
+      "id": "youtube-VBi_4cWpup8",
+      "type": "video",
+      "title": "Cursor JUST beat EVERYONE in AI Coding Benchmarks",
+      "youtubeId": "VBi_4cWpup8",
+      "sourceUrl": "https://www.youtube.com/watch?v=VBi_4cWpup8",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Wes Roth covers Cursor's latest benchmark results showing the AI code editor outperforming all major competitors in June 2026. The video breaks down how Cursor's model routing, agentic editing, and multi-file context capabilities have widened its lead over alternatives like Windsurf and GitHub Copilot. Roth examines what the performance gap means for AI-assisted software development and whether a single tool is now pulling far enough ahead to end the editor wars.",
+      "keyConcepts": [
+        "AI coding benchmarks: standardized tests measuring how well AI tools complete programming tasks, fix bugs, and navigate large codebases autonomously",
+        "Model routing: Cursor's approach of dynamically selecting the best underlying model per task rather than committing to a single provider",
+        "Agentic code editing: AI that can plan multi-step changes across multiple files, not just autocomplete a single line",
+        "Editor wars: the competitive market for AI-enhanced development environments, with Cursor, Windsurf, Copilot, and others vying for developer mindshare"
+      ],
+      "whyItMatters": "When a single AI coding tool separates itself this clearly from the field, it shapes which workflows developers standardize on — and which underlying models get the most real-world usage data to improve from.",
+      "tags": ["cursor", "ai-coding", "code-editor", "benchmark", "wes-roth", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'model routing' in the context of AI code editors like Cursor?",
+          "options": [
+            "Sending code to different developers based on programming language",
+            "Dynamically selecting the best AI model per task instead of always using one fixed model",
+            "A system for routing network traffic through AI-optimized servers",
+            "Automatically choosing which Git branch to commit changes to"
+          ],
+          "correctIndex": 1,
+          "explanation": "Model routing means the editor intelligently selects among multiple AI backends (e.g. Claude, GPT-5.5, Gemini) depending on the nature of the task, rather than committing to a single provider for every interaction."
+        },
+        {
+          "question": "What distinguishes 'agentic code editing' from traditional AI autocomplete?",
+          "options": [
+            "Agentic editors only work on Python code",
+            "Agentic editors require no internet connection",
+            "Agentic editors plan and execute multi-step changes across multiple files autonomously",
+            "Agentic editors are limited to generating code comments"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agentic code editing goes beyond single-line autocomplete to plan a sequence of edits across an entire codebase, execute them step by step, and adapt if early steps produce unexpected results."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-tag-slack-june2026",
+      "type": "article",
+      "title": "Anthropic Launches Claude Tag, an Always-On AI Teammate That Lives in Your Slack Channels",
+      "sourceUrl": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic on June 23 launched Claude Tag, a new product that embeds Claude as a persistent participant inside Slack channels rather than a chatbot in private DMs. Teams tag @Claude to assign tasks or get answers, and an ambient mode lets Claude proactively monitor channels, flag relevant information, and follow up on forgotten threads. Claude Tag replaces the previous 'Claude in Slack' app and is available in beta for Claude Enterprise and Team customers, with the old app phased out August 3, 2026.",
+      "keyConcepts": [
+        "Claude Tag: Anthropic's new Slack integration that treats Claude as a shared team member with persistent memory visible to everyone in a channel",
+        "Ambient mode: a proactive setting where Claude monitors channel conversations and volunteers relevant context, follow-ups, or flags without being explicitly tagged",
+        "Shared AI identity: unlike a private chatbot, Claude Tag gives an entire team a single @Claude with shared task history anyone can pick up",
+        "Enterprise admin controls: administrators can tightly scope which tools, data sources, and channels Claude Tag can access — addressing the data-security concern of ambient AI in the workplace"
+      ],
+      "whyItMatters": "Claude Tag represents a shift from AI as a personal assistant to AI as a team member — a pattern that, if it becomes the norm, would dramatically change how organizations structure knowledge work and who is responsible for AI outputs.",
+      "tags": ["anthropic", "claude-tag", "slack", "enterprise-ai", "ai-agents", "workplace"],
+      "relatedIds": ["article-oracle-ai-layoffs-21k-june2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between Claude Tag and the previous 'Claude in Slack' app?",
+          "options": [
+            "Claude Tag only works in private DMs, while the old app worked in channels",
+            "Claude Tag requires a separate Anthropic account for each user",
+            "Claude Tag is a shared team identity visible to everyone in a channel, with persistent memory and ambient monitoring",
+            "Claude Tag is powered by a different model than Claude Opus 4.8"
+          ],
+          "correctIndex": 2,
+          "explanation": "The previous Claude app was a private chatbot interaction. Claude Tag makes Claude a shared workspace participant — visible to all channel members, with shared task history and an ambient mode that monitors conversations proactively."
+        },
+        {
+          "question": "When is the old 'Claude in Slack' app scheduled to be fully phased out?",
+          "options": [
+            "July 1, 2026",
+            "August 3, 2026",
+            "September 15, 2026",
+            "December 31, 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic gave admins a 30-day opt-in migration window, with the legacy Claude in Slack app fully retiring on August 3, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-daybreak-expansion-june2026",
+      "type": "article",
+      "title": "OpenAI Expands Daybreak Cybersecurity Program with GPT-5.5-Cyber, Patch-the-Planet Initiative, and Partner Program",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/06/23/openai-expanded-daybreak-cybersecurity-initiative/",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI on June 23 expanded its Daybreak cybersecurity initiative, framing the effort around a problem it says has become more pressing than vulnerability discovery: getting patches deployed. The expansion released GPT-5.5-Cyber to full availability (scoring 85.6% on CyberGym vs. 81.8% for standard GPT-5.5), announced Codex Security had scanned over 30 million commits with 500,000+ findings marked fixed, and launched 'Patch the Planet' — a program partnering with Trail of Bits to help open-source maintainers remediate vulnerabilities. A new Daybreak Cyber Partner Program lets security vendors integrate GPT-5.5 with Trusted Access for Cyber.",
+      "keyConcepts": [
+        "GPT-5.5-Cyber: OpenAI's specialized cybersecurity model, now generally available, scoring 85.6% on the CyberGym benchmark — which tests AI's ability to reproduce known vulnerabilities",
+        "Patch the Planet: a Daybreak sub-initiative focused on the open-source ecosystem, partnering with security firm Trail of Bits to identify and fix vulnerabilities in widely-used packages",
+        "Codex Security: OpenAI's AI-powered code scanning tool, which has analyzed 30M+ commits across 30,000 codebases since its March preview",
+        "Daybreak Cyber Partner Program: a partner ecosystem enabling security vendors to integrate GPT-5.5 with Trusted Access for Cyber into their own products"
+      ],
+      "whyItMatters": "OpenAI's pivot from 'find vulnerabilities' to 'ship patches' positions AI as an active defender in the security pipeline — a meaningful shift that addresses the well-known gap between disclosed vulnerabilities and remediated systems.",
+      "tags": ["openai", "cybersecurity", "daybreak", "gpt-5-5", "codex", "ai-security", "patch-management"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's Daybreak 'Patch the Planet' initiative focus on?",
+          "options": [
+            "Discovering zero-day vulnerabilities in government networks",
+            "Helping open-source maintainers identify and fix security vulnerabilities in their projects",
+            "Training AI models to write more secure code from scratch",
+            "Patching vulnerabilities in OpenAI's own infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Patch the Planet is a Daybreak sub-program partnering with Trail of Bits to help open-source maintainers find and remediate vulnerabilities — addressing the critical gap between vulnerability discovery and deployed fixes."
+        },
+        {
+          "question": "How did GPT-5.5-Cyber perform on the CyberGym benchmark compared to standard GPT-5.5?",
+          "options": [
+            "GPT-5.5-Cyber scored identically to standard GPT-5.5 at 81.8%",
+            "GPT-5.5-Cyber scored lower at 78.2% due to safety restrictions",
+            "GPT-5.5-Cyber scored higher at 85.6% vs. 81.8% for standard GPT-5.5",
+            "GPT-5.5-Cyber was not benchmarked publicly"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-5.5-Cyber scored 85.6% on CyberGym (which tests whether an AI agent can reproduce known vulnerabilities), outperforming the standard GPT-5.5's 81.8% — the specialized fine-tuning provides measurable uplift on security-specific tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-export-ban-status-june2026",
+      "type": "article",
+      "title": "Fable 5 and Mythos 5 Remain Offline 11 Days After US Export Control Order — No Return Date From Anthropic",
+      "sourceUrl": "https://explainx.ai/blog/is-fable-5-back-2026",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "As of June 23, 2026 — eleven days after the US Bureau of Industry and Security issued an export control directive — both Claude Fable 5 and Claude Mythos 5 remain offline for all users globally. Anthropic disabled the models on June 12-13 after the government ordered it to obtain individually validated export licenses before sharing them with any foreign national. The action was reportedly triggered by Amazon flagging a jailbreak technique to the Commerce Department that bypassed Fable 5's safety filters, potentially exposing Mythos 5's unrestricted cybersecurity capabilities.",
+      "keyConcepts": [
+        "Export control directive: a formal 'Is Informed' letter from the US Bureau of Industry and Security requiring Anthropic to obtain individually validated licenses before sharing Fable 5/Mythos 5 with any foreign national",
+        "Jailbreak as regulatory trigger: the rare case where a discovered model vulnerability was escalated to a government agency, resulting in the suspension of two frontier models globally",
+        "Mythos 5 cybersecurity capabilities: Mythos 5 was the same underlying model as Fable 5 but with safety restrictions lifted for vetted cybersecurity partners — the capability level that made the jailbreak particularly concerning",
+        "Claude Opus 4.8 fallback: all Claude Code and Claude.ai sessions defaulted to Opus 4.8 when Fable 5 went offline — the de facto frontier model while Fable 5 remains under export review"
+      ],
+      "whyItMatters": "The Fable 5 ban is the first time a US government export control action has taken two frontier AI models offline globally — establishing a precedent that could reshape how AI labs approach safety architecture and international access for their most capable models.",
+      "tags": ["anthropic", "fable-5", "mythos-5", "export-controls", "ai-regulation", "us-government", "ai-safety"],
+      "relatedIds": ["article-ny-primary-ai-pac-lasher-june2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What event triggered the US government's export control action against Fable 5 and Mythos 5?",
+          "options": [
+            "Anthropic voluntarily requested the export controls for safety reasons",
+            "A competitor flagged a jailbreak technique that bypassed Fable 5's safety filters to the Commerce Department",
+            "A congressional hearing revealed the models had been shared with foreign governments",
+            "A whistleblower inside Anthropic disclosed unreported capability advances"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amazon reportedly flagged a technique to the Commerce Department that bypassed Fable 5's safeguards and potentially exposed Mythos 5's powerful unrestricted cybersecurity capabilities — prompting the Bureau of Industry and Security to issue the export control directive."
+        },
+        {
+          "question": "What happened to Claude Code and Claude.ai sessions when Fable 5 went offline?",
+          "options": [
+            "All sessions were terminated with no fallback model",
+            "Sessions defaulted to Claude Opus 4.8",
+            "Sessions were transferred to OpenAI's GPT-5.5",
+            "Anthropic offered users a refund and paused the service"
+          ],
+          "correctIndex": 1,
+          "explanation": "When Fable 5 went dark on June 12-13, Anthropic's products defaulted to Claude Opus 4.8 for new sessions — making it the de facto frontier model while Fable 5 and Mythos 5 remain under export review."
+        }
+      ]
+    },
     {
       "id": "article-oracle-ai-layoffs-21k-june2026",
       "type": "article",
@@ -21,7 +194,7 @@
       ],
       "whyItMatters": "Oracle's explicit attribution of 21,000 job cuts to AI is among the most direct public admissions from a major tech company that automation is already displacing significant portions of its workforce, setting a precedent for how AI-era restructuring will be disclosed and discussed going forward.",
       "tags": ["oracle", "layoffs", "ai-workforce", "enterprise-ai", "restructuring", "ai-automation"],
-      "relatedIds": [],
+      "relatedIds": ["article-claude-tag-slack-june2026"],
       "knowledgeChecks": [
         {
           "question": "How many employees did Oracle cut over the 12 months ending in fiscal year 2026?",
@@ -64,7 +237,7 @@
       ],
       "whyItMatters": "The race marks a new phase of AI industry political intervention: competing factions within the AI sector are now directly bankrolling elections to shape their regulatory environment, with the OpenAI vs. Anthropic rivalry extending into electoral politics in a primary that drew more AI money than most Senate races.",
       "tags": ["ai-regulation", "politics", "pac-spending", "new-york", "anthropic", "openai", "raise-act"],
-      "relatedIds": ["article-oracle-ai-layoffs-21k-june2026"],
+      "relatedIds": ["article-fable5-export-ban-status-june2026"],
       "knowledgeChecks": [
         {
           "question": "What New York AI regulation law was the central issue in this primary's AI PAC proxy war?",
