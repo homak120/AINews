@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-24T12:00:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-22",
+  "coverageEnd": "2026-06-23",
+  "items": [
+    {
+      "id": "article-oracle-ai-layoffs-21k-june2026",
+      "type": "article",
+      "title": "Oracle Shed 21,000 Roles Over Past Year as AI-Driven Workforce Restructuring Accelerates",
+      "sourceUrl": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Oracle's annual financial filing disclosed that approximately 21,000 employees — nearly 13% of its workforce — were cut in the past fiscal year, with the company explicitly attributing the reductions to AI adoption across its operations. The company spent $1.8 billion on restructuring, up from $374 million the prior year, and warned that AI-driven workforce reductions will continue. Oracle's headcount fell from 162,000 to 141,000 full-time employees as of May 2026.",
+      "keyConcepts": [
+        "AI-driven workforce restructuring: companies replacing human roles with AI systems, flagged in regulatory filings as a primary cause of headcount reduction",
+        "Annual financial filing: Oracle's Form 10-K disclosed the layoffs on June 22, providing the first official confirmation of the 12-month total",
+        "Restructuring costs: $1.8B in severance and exit costs represents a nearly 5x increase year-over-year, signaling the scale of the workforce transition",
+        "AI infrastructure tradeoff: Oracle is simultaneously cutting human workers while dramatically expanding its AI data center footprint under its Stargate commitments"
+      ],
+      "whyItMatters": "Oracle's explicit attribution of 21,000 job cuts to AI is among the most direct public admissions from a major tech company that automation is already displacing significant portions of its workforce, setting a precedent for how AI-era restructuring will be disclosed and discussed going forward.",
+      "tags": ["oracle", "layoffs", "ai-workforce", "enterprise-ai", "restructuring", "ai-automation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many employees did Oracle cut over the 12 months ending in fiscal year 2026?",
+          "options": [
+            "About 5,000",
+            "About 10,000",
+            "About 21,000",
+            "About 50,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Oracle's annual regulatory filing revealed approximately 21,000 job eliminations — nearly 13% of its total workforce — over the prior 12 months, with AI adoption cited as a primary cause."
+        },
+        {
+          "question": "What did Oracle explicitly state in its annual filing about the cause of these workforce reductions?",
+          "options": [
+            "Declining enterprise software revenues",
+            "The adoption and deployment of AI technologies across its operations",
+            "Mergers and acquisitions integration efforts",
+            "A shift to a fully cloud-native delivery model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Oracle's 10-K filing stated directly: 'The adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce' — a rare explicit acknowledgment of AI-driven displacement."
+        }
+      ]
+    },
+    {
+      "id": "article-ny-primary-ai-pac-lasher-june2026",
+      "type": "article",
+      "title": "AI PACs Poured $20 Million into New York Democratic Primary, with Competing Factions Backing Opposing Regulatory Stances",
+      "sourceUrl": "https://www.cnbc.com/2026/06/23/ai-groups-spend-20-million-in-new-york-race-pitting-bores-lasher-schlossberg.html",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": ["ai-industry"],
+      "summary": "Competing AI-backed political action committees spent over $20 million in New York's 12th congressional district Democratic primary, turning the race into a proxy battle over AI regulation. Leading the Future PAC (backed by Andreessen Horowitz and OpenAI co-founders) spent against Assemblymember Alex Bores, who co-sponsored the RAISE Act signed into New York law in December 2025. Public First Action PAC (backed by Anthropic) spent on Bores's behalf. Micah Lasher ultimately won the primary race.",
+      "keyConcepts": [
+        "RAISE Act: New York's Responsible AI Safety and Education Act, signed December 2025, which imposes safety requirements on large AI models — the law that triggered the proxy war",
+        "Leading the Future PAC: funded by Andreessen Horowitz, OpenAI co-founders, and others; opposes stricter AI regulation at the state level",
+        "Public First Action PAC: backed partly by Anthropic; supports preserving state-level AI safety laws against federal preemption",
+        "Super PAC spending: over $20M in a single House primary represents an extraordinary concentration of AI industry political investment on one regulatory battleground"
+      ],
+      "whyItMatters": "The race marks a new phase of AI industry political intervention: competing factions within the AI sector are now directly bankrolling elections to shape their regulatory environment, with the OpenAI vs. Anthropic rivalry extending into electoral politics in a primary that drew more AI money than most Senate races.",
+      "tags": ["ai-regulation", "politics", "pac-spending", "new-york", "anthropic", "openai", "raise-act"],
+      "relatedIds": ["article-oracle-ai-layoffs-21k-june2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What New York AI regulation law was the central issue in this primary's AI PAC proxy war?",
+          "options": [
+            "The New York AI Accountability and Transparency Act",
+            "The Responsible AI Safety and Education (RAISE) Act",
+            "The Empire State Frontier Model Safety Act",
+            "The New York Consumer AI Protection Act"
+          ],
+          "correctIndex": 1,
+          "explanation": "The RAISE Act, co-sponsored by Assemblymember Alex Bores and signed into law in December 2025, imposed safety requirements on large AI models — triggering massive AI PAC spending for and against Bores's re-election campaign."
+        },
+        {
+          "question": "Which AI company backs the Public First Action PAC that supported Alex Bores?",
+          "options": [
+            "OpenAI",
+            "Google DeepMind",
+            "Anthropic",
+            "Meta AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic backed Public First Action, which supports preserving state-level AI regulation — the opposite position from OpenAI-affiliated Leading the Future, which spent against Bores."
+        }
+      ]
+    },
+    {
+      "id": "article-spacex-reflection-ai-compute-june2026",
+      "type": "article",
+      "title": "SpaceX Signs $6.3 Billion Compute Deal with Open-Source AI Startup Reflection for Nvidia GB300 Access at Colossus 2",
+      "sourceUrl": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "SpaceX signed a $6.3 billion computing deal with Reflection AI, an open-source frontier lab, granting it access to Nvidia GB300 chips at the Colossus 2 data center near Memphis at $150 million per month starting July 1, 2026. Reflection — which pitches itself as an open-weight alternative to closed frontier labs — secured the deal as its first major compute contract. SpaceX has now turned Colossus into a commercial compute platform, with prior deals reportedly including Anthropic ($1.25B/month) and Google ($920M/month).",
+      "keyConcepts": [
+        "Nvidia GB300 chips: the latest generation AI accelerator from Nvidia, first deployed broadly through SpaceX's Colossus 2 data center",
+        "Open-weight AI strategy: Reflection's positioning as an open-source alternative to closed labs like Anthropic and OpenAI — the compute deal enables it to compete at frontier scale",
+        "SpaceX Colossus 2: located near Memphis, Tennessee; SpaceX has been renting capacity to AI labs after concerns about Grok AI's internal compute demands",
+        "Compute concentration: the deals reveal how a small number of physical data centers have become chokepoints for frontier AI development"
+      ],
+      "whyItMatters": "At $150 million per month, this deal illustrates the extreme infrastructure costs required to compete at the frontier of AI, and demonstrates that open-source labs now have access to the same elite compute resources as closed labs — a significant shift in who can realistically build the most capable AI systems.",
+      "tags": ["spacex", "reflection-ai", "nvidia", "compute", "gpu-infrastructure", "open-source-ai", "data-center"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much is Reflection AI paying SpaceX per month under its Colossus 2 compute deal?",
+          "options": [
+            "$50 million per month",
+            "$150 million per month",
+            "$500 million per month",
+            "$1.25 billion per month"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reflection AI will pay $150 million per month starting July 1, 2026 — totaling approximately $6.3 billion if the deal runs through 2029. By comparison, Anthropic reportedly pays $1.25 billion per month at Colossus."
+        },
+        {
+          "question": "What chips does the SpaceX Colossus 2 data center feature in the Reflection AI deal?",
+          "options": [
+            "Nvidia H100 SXM5",
+            "Nvidia A100 PCIe",
+            "Nvidia GB300",
+            "AMD Instinct MI300X"
+          ],
+          "correctIndex": 2,
+          "explanation": "The deal gives Reflection AI access to Nvidia's latest GB300 AI chips at SpaceX's Colossus 2 data center near Memphis, Tennessee — the same generation of hardware that Anthropic and Google also access through Colossus."
+        }
+      ]
+    }
+  ]
+}
