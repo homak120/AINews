@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-06-25T13:00:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-24",
+  "coverageEnd": "2026-06-25",
+  "items": [
+    {
+      "id": "article-gpt56-launch-june-25-2026",
+      "type": "article",
+      "title": "GPT-5.6 Expected to Launch Today: 1.5M Context, Cheaper Pricing, and Better Coding",
+      "sourceUrl": "https://www.eweek.com/news/gpt-5-6-openai-coding-agent-rumors-neuron/",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI is expected to release GPT-5.6 and GPT-5.6 Pro on June 25, 2026, based on converging signals from developer leaks, prediction markets (90% probability for a June 22–28 launch on Polymarket), and reports of improved outputs already appearing in A/B tests for ChatGPT Pro subscribers. The model is rumored to feature a 1.5 million token context window—roughly 43% larger than GPT-5.5—significantly lower pricing compared to Anthropic Fable 5, improved reasoning allocation, and enhanced agentic coding capabilities including Playwright-style browser testing. Developers testing what appears to be the new model reported notably stronger web design, SVG generation, and frontend code outputs.",
+      "keyConcepts": [
+        "1.5 million token context window: the total amount of text (roughly 1.1 million words) a model can process in a single conversation—larger windows allow AI to reason over entire codebases or documents at once",
+        "Agentic coding: AI that can autonomously plan and execute multi-step software tasks, including writing, running, and debugging code with minimal human intervention",
+        "Reasoning allocation: how much internal 'thinking effort' a model invests before generating a response—GPT-5.6's budget reportedly increased from 768 to 960 tokens, enabling deeper planning on hard tasks",
+        "Prediction market signals: crowd-sourced probability estimates (e.g., Polymarket) used by AI watchers to forecast model release timing based on aggregated insider signals and developer reports"
+      ],
+      "whyItMatters": "If GPT-5.6 launches today at meaningfully lower cost than Fable 5 with a larger context window, it could reshape cost-performance decisions for teams currently paying premium prices for frontier reasoning—and accelerate the shift toward agentic AI workflows in production.",
+      "tags": ["openai", "gpt-5.6", "llm-release", "model-pricing", "agentic-ai", "context-window"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the reported context window size of GPT-5.6?",
+          "options": [
+            "512K tokens",
+            "1 million tokens",
+            "1.5 million tokens",
+            "2 million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers testing GPT-5.6 reported behavior consistent with a 1.5 million token context window—roughly 43% larger than GPT-5.5's documented 1 million token limit—enabling longer document and codebase analysis."
+        },
+        {
+          "question": "What prediction market signal pointed to GPT-5.6 launching in late June 2026?",
+          "options": [
+            "60% probability of launch before June 30 on Manifold",
+            "90% probability of launch between June 22 and June 28 on Polymarket",
+            "75% probability of launch in the first week of July on Metaculus",
+            "50% probability of launch before Q3 on PredictIt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Polymarket showed a 90% probability for GPT-5.6 launching between June 22 and June 28, 2026, based on developer leaks, A/B test observations, and insider signals."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-immunology-gpt5-june24-2026",
+      "type": "article",
+      "title": "How GPT-5 Helped Immunologist Derya Unutmaz Crack a 3-Year T Cell Mystery",
+      "sourceUrl": "https://openai.com/index/gpt-5-immunology-mystery/",
+      "verified": false,
+      "publishedAt": "2026-06-24",
+      "topics": ["ai-research"],
+      "summary": "OpenAI published a case study on June 24 about immunologist Derya Unutmaz at The Jackson Laboratory for Genomic Medicine, who used GPT-5 Pro to resolve a puzzle his lab had been stuck on since 2022: how glucose affects T cell development and specialization. GPT-5 Pro analyzed a long-stalled gene expression dataset and identified patterns across age groups that traditional methods had missed, generating novel mechanistic hypotheses and proposing follow-up experiments. The AI-accelerated analysis compressed what would have taken months into a dramatically shorter timeline.",
+      "keyConcepts": [
+        "T cells: immune cells that are central to cancer fighting, autoimmune response, and infection defense—understanding how they develop shapes treatments for a wide range of diseases",
+        "Divergent thinking in AI research: using a language model to generate multiple novel hypotheses from a dataset, rather than just searching for known answers in the literature",
+        "Gene expression analysis: measuring which genes are active (expressed) in a cell at a given time to understand what the cell is doing—a key tool in immunology and cancer research",
+        "AI as research partner: treating models like GPT-5 Pro as collaborative scientists that can find patterns, propose experiments, and compress research timelines—distinct from using AI as a search engine"
+      ],
+      "whyItMatters": "This case study demonstrates AI's emerging role as a genuine scientific accelerant—not just a literature search tool—capable of identifying non-obvious patterns in biological datasets and proposing experiments that could advance cancer research, autoimmune disease treatment, and our understanding of aging immune systems.",
+      "tags": ["openai", "gpt-5", "biomedical-ai", "immunology", "scientific-research", "ai-applications"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What biological question did GPT-5 help Dr. Unutmaz's lab investigate after 3 years of being stuck?",
+          "options": [
+            "How proteins fold under cellular stress conditions",
+            "Why cancer cells evade natural killer cell detection",
+            "How glucose affects T cell development and specialization",
+            "How RNA vaccines prime adaptive immune memory"
+          ],
+          "correctIndex": 2,
+          "explanation": "The mystery was how glucose affects the way T cells develop and specialize—a question that had stalled the lab since 2022. GPT-5 Pro identified gene expression patterns across age groups that eluded traditional analysis."
+        },
+        {
+          "question": "What was the most significant contribution of GPT-5 Pro in this immunology case study?",
+          "options": [
+            "It ran automated wet lab experiments without human oversight",
+            "It replaced the peer review process by validating the lab's existing findings",
+            "It identified patterns in T cell gene expression and generated novel mechanistic hypotheses",
+            "It connected the Jackson Laboratory with collaborators at other research institutions"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-5 Pro identified previously missed patterns in T cell gene expression data across age groups and generated novel mechanistic hypotheses, which aligned with decades of prior research and suggested concrete follow-up experiments."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini35pro-delay-july-2026",
+      "type": "article",
+      "title": "Google Delays Gemini 3.5 Pro to July After Missing Its Self-Imposed June Deadline",
+      "sourceUrl": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/",
+      "verified": false,
+      "publishedAt": "2026-06-24",
+      "topics": ["ai-industry"],
+      "summary": "Google has confirmed it will miss the June 2026 general availability window for Gemini 3.5 Pro that CEO Sundar Pichai publicly committed to at Google I/O on May 19—a promise that reportedly drew an audible groan from the developer audience at the time. The model remains in limited Vertex AI enterprise preview while Google refines performance and incorporates learnings from the already-released Gemini 3.5 Flash. The delay is particularly notable as it sets up a crowded July frontier model window, with GPT-5.6 and Claude Opus 4.7 also targeting mid-July releases and prediction markets currently putting Google's sub-June-30 odds at roughly 50–55 percent.",
+      "keyConcepts": [
+        "General availability (GA): the public release of a model or product to all users—distinct from limited previews or early access programs restricted to select enterprise customers",
+        "Gemini 3.5 Pro vs. Flash: Google's 3.5 family splits into Flash (already GA, optimized for speed and cost) and Pro (higher capability, still in limited preview as of late June 2026)",
+        "Frontier model release competition: OpenAI, Google, and Anthropic are targeting overlapping July 2026 windows for their next major releases, creating intense market timing pressure",
+        "Vertex AI limited preview: Google's enterprise cloud ML platform, where Gemini 3.5 Pro is currently accessible only to select enterprise customers pending full GA"
+      ],
+      "whyItMatters": "Google missing its own public deadline is a signal of the engineering challenges in refining frontier models—and it hands OpenAI and Anthropic a window to capture developer attention with competing July releases. For teams building on Google's stack, the delay means continued reliance on Gemini 3.5 Flash for production workloads.",
+      "tags": ["google", "gemini", "model-release", "ai-industry", "frontier-models", "release-delay"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "When did Google CEO Sundar Pichai publicly commit to a June 2026 launch for Gemini 3.5 Pro?",
+          "options": [
+            "At CES 2026 in January",
+            "During Google's Q1 2026 earnings call in April",
+            "At Google I/O on May 19, 2026",
+            "At a Google Cloud Next developer summit in early June"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sundar Pichai committed to a June 2026 GA for Gemini 3.5 Pro at Google I/O on May 19, 2026, reportedly telling developers to 'give us until next month'—a line that drew an audible groan from the audience."
+        },
+        {
+          "question": "Where is Gemini 3.5 Pro currently accessible as of late June 2026?",
+          "options": [
+            "Publicly available via Google AI Studio for all users",
+            "In limited preview for select enterprise customers through Google's Vertex AI platform",
+            "Only in Gemini Advanced for paid Google One subscribers",
+            "Exclusively available to Google internal employees and researchers"
+          ],
+          "correctIndex": 1,
+          "explanation": "As of late June 2026, Gemini 3.5 Pro is in limited preview for select enterprise customers through Google's Vertex AI platform, with general availability now pushed to July 2026."
+        }
+      ]
+    }
+  ]
+}
