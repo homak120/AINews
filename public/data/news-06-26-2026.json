@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-06-26T12:00:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-25",
+  "coverageEnd": "2026-06-26",
+  "items": [
+    {
+      "id": "youtube-0-dBSzcVLaw",
+      "type": "video",
+      "title": "The Wire — AI News Roundup: June 25, 2026",
+      "youtubeId": "0-dBSzcVLaw",
+      "sourceUrl": "https://www.youtube.com/watch?v=0-dBSzcVLaw",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Wes Roth's daily AI news roundup for June 25, 2026 covers the White House directing OpenAI to limit GPT-5.6 access to vetted partners only, Anthropic's Claude overtaking ChatGPT among paid consumers, and the ongoing U.S. export control situation surrounding Claude Fable 5. The Wire format synthesizes AI headlines into a focused briefing for practitioners tracking fast-moving regulatory and competitive developments.",
+      "keyConcepts": [
+        "Export control compliance: how AI companies must restrict access to powerful models when the U.S. government deems them a national security risk under the Export Administration Regulations (EAR)",
+        "Consumer AI market share: the competitive landscape among paid subscribers of AI assistants like Claude and ChatGPT, measured by monthly active users and revenue growth",
+        "Gated model release: a phased deployment strategy where access to a new AI model is restricted to vetted partners before broader availability — now increasingly influenced by government mandates",
+        "AI policy intervention: the growing role of the White House and regulatory agencies in influencing when and how frontier AI models are released to the public"
+      ],
+      "whyItMatters": "Government influence over model releases and export controls represent a new era of AI regulation that directly affects what tools developers can access — and which AI companies will succeed commercially in a constrained landscape.",
+      "tags": ["wes-roth", "ai-news", "openai", "anthropic", "export-controls", "ai-regulation"],
+      "relatedIds": ["article-whitehouse-openai-gpt56-june-25-2026", "article-claude-paid-consumers-june-25-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Under the Export Administration Regulations (EAR), what type of event can trigger a U.S. government order to suspend access to an AI model?",
+          "options": [
+            "The model exceeds a certain parameter count threshold set by Congress",
+            "A national security concern is identified, such as a jailbreak with adversarial potential",
+            "The model is released without a public safety card or red-team report",
+            "The model's training compute cost exceeds $1 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EAR allows the Commerce Department to restrict access to technology — including AI models — when it identifies a credible national security risk. A reported jailbreak of Claude Fable 5 in June 2026 triggered an emergency suspension order under this framework."
+        },
+        {
+          "question": "What does it mean competitively when a product is 'winning paid consumers' in the AI assistant market?",
+          "options": [
+            "The product offers the lowest price per API call among competitors",
+            "The product has the most free-tier users overall",
+            "The product is growing fastest among users who pay a subscription fee, signaling genuine value over free alternatives",
+            "The product won a consumer-choice award from a tech publication"
+          ],
+          "correctIndex": 2,
+          "explanation": "Paid subscriber growth is a stronger competitive signal than free user counts because paying users demonstrate sustained willingness to spend money. Claude's 75% paid-consumer growth since January 2026 suggests real product-market fit in a segment historically owned by ChatGPT."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-paid-consumers-june-25-2026",
+      "type": "article",
+      "title": "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT",
+      "sourceUrl": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Claude's paying consumer base has grown approximately 75% since January 2026, with 'Claude' now the most-searched term on DataCamp — surpassing even 'AI' as a category. This signals a meaningful shift in the paid AI assistant market, historically dominated by ChatGPT, as users and learners increasingly choose Anthropic's model for both work and skill development. The trend accelerates despite — or perhaps because of — the government-ordered suspension of Fable 5, which appears to have boosted brand recognition.",
+      "keyConcepts": [
+        "Paid subscriber growth: year-over-year or month-over-month increase in users paying for premium AI access, a key indicator of product-market fit and revenue trajectory",
+        "Search intent signals: platform search data (e.g., DataCamp queries) used as a proxy for learner and professional demand — 'Claude' topping searches on an educational platform suggests career-driven adoption",
+        "Consumer AI market: the segment of AI users accessing models through chat interfaces (Claude.ai, ChatGPT) rather than API integrations, representing tens of millions of paying subscribers globally",
+        "Brand lift through controversy: the counterintuitive dynamic where regulatory action or media coverage can increase brand awareness and draw new users to a company"
+      ],
+      "whyItMatters": "If Claude is converting paid users at this rate while its most powerful model is offline, Anthropic's consumer trajectory is stronger than most expected — and sets up a significant launch event whenever Fable 5 restrictions are lifted.",
+      "tags": ["anthropic", "claude", "chatgpt", "openai", "consumer-ai", "market-share"],
+      "relatedIds": ["youtube-0-dBSzcVLaw", "article-whitehouse-openai-gpt56-june-25-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is growth in paid subscribers considered a more meaningful metric than total users for AI companies?",
+          "options": [
+            "Paid users always have larger context windows available to them",
+            "Paid users generate recurring revenue and signal real product value over free alternatives",
+            "Paid subscribers receive access to open-source model weights",
+            "Total user counts are not tracked or published by AI companies"
+          ],
+          "correctIndex": 1,
+          "explanation": "Free user counts can be inflated by curiosity, trials, or spam. Paid subscribers who choose to spend money monthly demonstrate genuine, sustained value — making paid growth a cleaner signal of business health and product-market fit than raw user numbers."
+        },
+        {
+          "question": "What does 'Claude' becoming the top search term on DataCamp suggest about the AI skills market?",
+          "options": [
+            "Claude has replaced Python as the most-used programming language",
+            "Most DataCamp users are Anthropic employees seeking internal training",
+            "Professionals and learners are actively seeking skills specific to working with Claude",
+            "DataCamp has an exclusive partnership with Anthropic to promote Claude courses"
+          ],
+          "correctIndex": 2,
+          "explanation": "Search intent on learning platforms reflects where professionals believe their career value lies. 'Claude' topping DataCamp searches indicates practitioners see Claude API skills, prompt engineering, and Anthropic tooling as in-demand capabilities worth investing time to learn."
+        }
+      ]
+    },
+    {
+      "id": "article-whitehouse-openai-gpt56-june-25-2026",
+      "type": "article",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "sourceUrl": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-industry"],
+      "summary": "The Trump administration directed OpenAI to limit release of GPT-5.6 to a select group of close partners, with the government approving access 'customer by customer' during a preview period, according to CEO Sam Altman's reported staff communication. The move signals increasing government willingness to exert real-time control over frontier AI model deployments, even for U.S.-based companies. OpenAI's approach mirrors staged rollouts seen with prior models but is now explicitly shaped by executive branch pressure rather than purely commercial strategy.",
+      "keyConcepts": [
+        "Gated model release: a phased deployment strategy where access to a new AI model is restricted to vetted partners or customers before broader availability — now increasingly influenced by government mandates rather than commercial choice alone",
+        "Export Administration Regulations (EAR): the U.S. regulatory framework governing the export of sensitive technologies, now applied to frontier AI models as a national security instrument",
+        "White House AI oversight: the emerging role of the executive branch in approving, delaying, or restricting AI model deployments based on safety and national security criteria",
+        "Preview access programs: the practice of releasing AI models to select enterprise partners for testing before public launch, allowing feedback loops while managing deployment risk"
+      ],
+      "whyItMatters": "If government approval becomes a standard prerequisite for frontier AI releases, the pace of AI deployment in the U.S. could slow significantly — raising fundamental questions about innovation versus security tradeoffs and potentially shifting competitive advantage to countries without such controls.",
+      "tags": ["openai", "gpt-5.6", "white-house", "ai-regulation", "model-release", "national-security"],
+      "relatedIds": ["youtube-0-dBSzcVLaw", "article-claude-paid-consumers-june-25-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the Trump administration's stated reason for restricting GPT-5.6's release?",
+          "options": [
+            "OpenAI failed to pay required federal licensing fees",
+            "Safety concerns around the model's potential misuse",
+            "The model was found to infringe on government-owned patents",
+            "EU regulators had requested a delay in global deployment"
+          ],
+          "correctIndex": 1,
+          "explanation": "The White House asked OpenAI to slow-roll GPT-5.6 due to safety concerns, directing the company to share access only with approved partners during a preview period before any broader public launch."
+        },
+        {
+          "question": "What does 'customer by customer' government approval of AI model access mean for enterprise teams?",
+          "options": [
+            "All enterprise customers receive simultaneous access at launch",
+            "Only consumer-facing products are restricted; API access remains open to all",
+            "Each organization must receive explicit government clearance before accessing the model",
+            "The model is open-source but requires a per-user license key"
+          ],
+          "correctIndex": 2,
+          "explanation": "When access requires government approval per customer, organizations must apply and wait for individual clearance rather than signing up directly with OpenAI. This significantly increases time-to-deployment and adds compliance overhead for enterprise AI teams planning to integrate the model."
+        }
+      ]
+    },
+    {
+      "id": "article-unconventional-ai-power-june-25-2026",
+      "type": "article",
+      "title": "Former Databricks AI chief's startup claims oscillator-based computing could cut AI power use by 1,000x",
+      "sourceUrl": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Naveen Rao, former head of AI at Databricks, launched Unconventional AI with the goal of making inference 1,000 times more power-efficient using oscillator-based computing — a fundamentally different hardware architecture from the GPU and TPU silicon that dominates AI today. Oscillator-based systems perform computation through the phase relationships of coupled oscillators rather than traditional binary logic gates, potentially enabling massive energy reductions for the inference workloads that power every AI query. The startup positions itself at the intersection of AI efficiency and the global data center power crisis.",
+      "keyConcepts": [
+        "Oscillator-based computing: a non-traditional computing paradigm where calculation is performed through the phase relationships of physical or electronic oscillators rather than binary on/off logic — potentially far more energy-efficient for specific workloads",
+        "Inference efficiency: optimizing the energy and compute cost of running a trained AI model to answer queries — inference now accounts for the majority of AI compute spending at scale",
+        "Data center power constraints: the growing challenge of supplying enough electricity to meet AI compute demand, now one of the top bottlenecks to scaling AI infrastructure globally",
+        "Post-GPU AI hardware: purpose-built AI chips (ASICs, neuromorphic chips, oscillator systems) designed to outperform or complement GPU clusters on specific AI tasks"
+      ],
+      "whyItMatters": "AI inference consumes enormous amounts of energy — the sustainability and economic scalability of AI depends on hardware breakthroughs like this. A 1,000x efficiency gain, if realizable, would fundamentally change AI cost economics and remove a key bottleneck to deployment at civilizational scale.",
+      "tags": ["ai-hardware", "energy-efficiency", "inference", "oscillator-computing", "databricks", "unconventional-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between AI training and AI inference in terms of ongoing power consumption?",
+          "options": [
+            "Training runs once per model; inference runs continuously at scale for every user query",
+            "Inference requires more power because it involves backpropagation through large networks",
+            "Training uses CPUs while inference always requires specialized GPUs",
+            "They consume equal amounts of power but at different points in the product lifecycle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Training is a one-time (or periodic) cost to build a model. Inference is the ongoing cost of answering every user request across millions of daily queries. At scale, inference far exceeds training in total energy consumption — making inference efficiency the key lever for sustainable AI deployment."
+        },
+        {
+          "question": "Why might oscillator-based computing be more energy-efficient than GPU-based inference?",
+          "options": [
+            "Oscillators use smaller transistors than those found in modern GPUs",
+            "GPUs require constant internet connectivity, which consumes additional power",
+            "Oscillators encode information in wave phase rather than binary switching, avoiding energy lost as heat in traditional logic gates",
+            "Oscillator systems run at lower clock speeds, making them inherently less power-hungry"
+          ],
+          "correctIndex": 2,
+          "explanation": "Traditional binary computing wastes energy each time a transistor switches state. Oscillator-based systems encode information in the phase of a wave rather than switching, which can in theory perform equivalent computations with far less energy dissipation — though the 1,000x claim is yet to be demonstrated at production scale."
+        }
+      ]
+    },
+    {
+      "id": "article-notion-mail-shutdown-june-25-2026",
+      "type": "article",
+      "title": "Notion Mail shuts down as agentic AI makes traditional email clients obsolete",
+      "sourceUrl": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Notion is shutting down Notion Mail on September 22, 2026, citing overwhelming adoption of AI agent workflows that have made traditional inbox management redundant — over half of Notion Mail users already manage emails without ever opening their inbox, delegating the work to AI agents. The closure reflects a broader product strategy shift: Notion is doubling down on its AI agent platform rather than competing in an email client market that agents are rapidly making obsolete. The move is a leading indicator of how agentic AI will systematically eliminate entire categories of productivity software.",
+      "keyConcepts": [
+        "Agentic email management: AI systems that autonomously handle email workflows — triaging, drafting, responding, and filing messages — without requiring the user to open an inbox",
+        "Product sunset: the deliberate shutdown of a product feature or standalone app when it no longer fits a company's strategic direction or has been superseded by a more effective approach",
+        "Ambient AI agents: AI systems that operate continuously in the background of productivity tools, acting on behalf of users without explicit per-task instructions",
+        "Software category disruption: the process by which AI agents eliminate the need for entire product categories (email clients, calendar apps, task managers) by absorbing their functions into a unified agent interface"
+      ],
+      "whyItMatters": "When more than half of users never open their inbox, the traditional email client is effectively dead as a product category. This is a concrete data point for how agentic AI will systematically displace productivity software — with major implications for both AI career opportunities and the tools knowledge workers will use.",
+      "tags": ["notion", "email-clients", "ai-agents", "product-sunset", "agentic-ai", "productivity"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does it signal about AI maturity when more than 50% of Notion Mail users never open their inbox?",
+          "options": [
+            "Notion Mail has a poor user interface that discourages engagement",
+            "Users have successfully delegated email triage entirely to AI agents they trust",
+            "Users simply prefer mobile push notifications over desktop email clients",
+            "Notion Mail failed to import historical emails correctly at setup"
+          ],
+          "correctIndex": 1,
+          "explanation": "If users never need to open their inbox, AI agents are successfully handling email classification, prioritization, and likely response drafting on their behalf. This represents a mature, trusted delegation of a previously manual workflow — a significant milestone in practical AI adoption."
+        },
+        {
+          "question": "Why might shutting down a product in favor of an agent-based alternative be strategically sound for a company like Notion?",
+          "options": [
+            "Agent platforms have significantly lower server infrastructure costs than email clients",
+            "Maintaining two overlapping products (email client + AI agent) splits engineering focus without adding user value",
+            "Email compliance regulations create expensive overhead that AI agents are exempt from",
+            "Notion Mail had consistently poor reviews and low retention on the App Store"
+          ],
+          "correctIndex": 1,
+          "explanation": "When an AI agent already handles the core job of an email client, maintaining a separate email product creates duplication without additional user value. Consolidating into an agent platform lets Notion focus engineering on a higher-leverage surface rather than competing in a commoditizing category."
+        }
+      ]
+    }
+  ]
+}
