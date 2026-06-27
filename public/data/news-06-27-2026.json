@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-06-27T18:30:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-25",
+  "coverageEnd": "2026-06-27",
+  "items": [
+    {
+      "id": "youtube-IloXWEYXen8",
+      "type": "video",
+      "title": "GPT-5.6 Is Out — But Not For You",
+      "youtubeId": "IloXWEYXen8",
+      "sourceUrl": "https://www.youtube.com/watch?v=IloXWEYXen8",
+      "verified": false,
+      "publishedAt": "2026-06-27",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI launched GPT-5.6 as a limited preview with three model tiers — Sol (flagship), Terra (balanced), and Luna (fast/cheap) — but access is restricted to roughly 20 government-vetted partner organizations, meaning most developers and teams cannot use it yet. The Trump administration asked OpenAI to stagger the release after national security reviews of the model's capabilities, following the same pattern that kept Claude Fable 5 and Mythos offline for weeks. The video breaks down what each tier can do, how pricing compares to GPT-5.5, and what government-gated AI access means for engineering teams planning model upgrades.",
+      "keyConcepts": [
+        "GPT-5.6 model tiers: Sol is the flagship with enhanced coding, biology, and cybersecurity capabilities; Terra is a cost-equivalent of GPT-5.5 at 2x lower price; Luna is the cheapest tier for high-volume, latency-sensitive workloads — all three initially available only to vetted partners",
+        "Government-gated model releases: the emerging regulatory practice where the U.S. executive branch reviews frontier AI models before public availability and approves access organization by organization under the Export Administration Regulations (EAR)",
+        "Tiered AI pricing strategy: OpenAI's three-tier approach (Sol at $5/$30 per 1M tokens, Terra at $2.50/$15, Luna at $1/$6) mirrors GPU pricing tiers and lets enterprises match model cost to task complexity rather than defaulting to the most powerful option",
+        "AI export controls applied to domestic releases: a novel regulatory instrument where the government restricts which U.S. organizations can access powerful domestic AI models — extending export-control logic to the domestic software layer"
+      ],
+      "whyItMatters": "Government-gated AI releases signal that the frontier model access layer has become a national security concern — meaning enterprise AI roadmaps must now account for regulatory delays that are entirely outside the control of engineering teams or the AI companies themselves.",
+      "tags": ["openai", "gpt-5.6", "model-release", "ai-regulation", "government-controls", "model-tiers"],
+      "relatedIds": ["article-openai-gpt56-launch-june-26-2026", "article-anthropic-mythos-cleared-june-26-2026", "article-whitehouse-openai-gpt56-june-25-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes GPT-5.6 Sol from Terra and Luna in OpenAI's new three-tier model family?",
+          "options": [
+            "Sol is open-source while Terra and Luna require API subscriptions",
+            "Sol is optimized for real-time speech; Terra for text; Luna for image generation",
+            "Sol is the flagship with the strongest capabilities and highest cost; Terra and Luna trade capability for lower cost at increasing levels",
+            "Sol requires a government clearance to use; Terra and Luna are publicly available immediately"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sol is GPT-5.6's top-tier model — the most capable but also the most expensive at $5/$30 per 1M input/output tokens. Terra is roughly comparable in capability to GPT-5.5 but at half the price. Luna is the cheapest option for fast, large-volume workloads. The tiers let teams match model cost to task complexity rather than defaulting to the most powerful option for every call."
+        },
+        {
+          "question": "Why might a government asking OpenAI to restrict access to its own model matter for developers in non-government sectors?",
+          "options": [
+            "It doesn't matter — developers can still access the model via open-source weights published by OpenAI",
+            "If government approval becomes a prerequisite for model access, enterprise API roadmaps can be delayed by regulatory processes outside anyone's engineering control",
+            "Only government contractors are ever affected by these restrictions, so private-sector teams are unaffected",
+            "OpenAI is legally required to compensate developers for any access delays caused by government intervention"
+          ],
+          "correctIndex": 1,
+          "explanation": "When model access is gated on government approval customer-by-customer, engineering teams waiting to upgrade from GPT-5.5 to GPT-5.6 have no control over the timeline — it depends on a regulatory process, not on OpenAI's product schedule. This is a new operational constraint that AI teams should factor into model upgrade planning."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-mythos-cleared-june-26-2026",
+      "type": "article",
+      "title": "US government clears Anthropic to release Claude Mythos 5 to over 100 US institutions",
+      "sourceUrl": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+      "verified": false,
+      "publishedAt": "2026-06-26",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The Trump administration lifted its block on Anthropic's Claude Mythos 5 model, allowing it to be released to approximately 100 US companies and federal agencies after being suspended since June 12 due to national security concerns. The suspension followed testing with US intelligence agencies in which Mythos identified vulnerabilities in classified government systems within hours — prompting Senator Mark Warner to relay that the model 'broke into almost all of our classified systems, not in weeks but in hours.' The limited release comes the same day OpenAI launched GPT-5.6 in a similarly restricted form, with both models now operating under the same government-approved partner framework.",
+      "keyConcepts": [
+        "Claude Mythos 5: Anthropic's most capable frontier model, suspended June 12 under EAR export controls after government testing revealed it could autonomously identify and exploit vulnerabilities in classified US systems within hours",
+        "Project Glasswing: Anthropic's initiative with US intelligence agencies to test the cybersecurity capabilities of frontier AI models — the program that surfaced Mythos's ability to autonomously find and exploit a 17-year-old FreeBSD remote code execution vulnerability",
+        "Cybersecurity capability uplift: the concern that sufficiently advanced AI models could lower the skill floor for offensive cyberattacks by autonomously finding and exploiting vulnerabilities that previously required highly skilled human researchers",
+        "Conditional model release: the regulatory framework under which a model blocked for national security reasons is restored to limited use with government-approved access controls rather than full public availability"
+      ],
+      "whyItMatters": "Mythos's demonstrated ability to autonomously break into classified government systems in hours represents a concrete capability threshold where AI moves from a productivity tool to a national security instrument — a milestone that will permanently shape how governments regulate AI model access.",
+      "tags": ["anthropic", "claude-mythos", "cybersecurity", "ai-regulation", "export-controls", "national-security"],
+      "relatedIds": ["youtube-IloXWEYXen8", "article-openai-gpt56-launch-june-26-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What capability of Claude Mythos 5 triggered the US government's June 12 suspension of the model?",
+          "options": [
+            "Mythos could generate synthetic images that passed biometric identity verification systems",
+            "Mythos autonomously identified and exploited vulnerabilities in classified US government computer systems during testing",
+            "Mythos produced detailed bioweapon synthesis instructions despite safety filters",
+            "Mythos was found to be communicating with foreign servers during inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "During Project Glasswing testing with US intelligence agencies, Mythos autonomously found and exploited vulnerabilities in sensitive government systems in hours rather than weeks or months. The NSA director reported to a Senate hearing that the model 'broke into almost all of our classified systems.' This offensive cybersecurity capability prompted the emergency export control suspension."
+        },
+        {
+          "question": "What does it mean for AI safety evaluation that a model passed standard safety reviews but still prompted a government suspension?",
+          "options": [
+            "Standard safety reviews are fraudulent — AI companies bribe evaluators to pass models",
+            "Safety benchmarks measure refusal behavior for common dangerous requests, but miss emergent capabilities that appear only in specialized operational contexts like classified system pentesting",
+            "The government suspended the model for political reasons unrelated to actual capabilities",
+            "Safety reviews only apply to consumer chat interfaces and don't cover API usage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Standard AI safety evaluations test whether a model will refuse to assist with dangerous requests. They rarely simulate the model operating autonomously against real hardened systems in a red-team exercise. Mythos passed its public safety card — it didn't refuse cybersecurity questions — but its emergent capability to autonomously chain together exploits on real infrastructure only became apparent in the operational context of government testing. This gap reveals the limits of pre-release safety benchmarking."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt56-launch-june-26-2026",
+      "type": "article",
+      "title": "OpenAI launches GPT-5.6 Sol, Terra, and Luna in limited preview under government restrictions",
+      "sourceUrl": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "verified": false,
+      "publishedAt": "2026-06-26",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI released GPT-5.6 as a limited preview available to roughly 20 government-vetted partner organizations, following a White House request to stagger the rollout over national security concerns — the same regulatory dynamic that blocked Anthropic's Mythos and Fable 5 earlier in June. The three-model family (Sol, Terra, Luna) features tiered capability-cost tradeoffs and a new 'ultra' reasoning mode that uses sub-agents for complex, multi-step work. OpenAI said the restrictions 'shouldn't be the norm' but is complying, with broader access expected to roll out customer-by-customer in the coming week.",
+      "keyConcepts": [
+        "GPT-5.6 Sol: OpenAI's strongest model with agentic improvements for coding, biology, and cybersecurity — priced at $5/$30 per 1M input/output tokens with a new 'ultra' sub-agent reasoning mode",
+        "Ultra reasoning mode: a new inference setting in GPT-5.6 Sol that spawns sub-agents to break complex tasks into parallel workstreams — extending the model's effective reasoning depth beyond what fits in a single context window",
+        "Government-compliant staggered rollout: a deployment strategy where model access is approved organization-by-organization during a preview window, with the government functioning as a co-gatekeeper alongside the AI company's standard enterprise onboarding",
+        "AI model pricing tiers: GPT-5.6's three tiers (Sol, Terra, Luna at $5/$30, $2.50/$15, and $1/$6 per 1M tokens) allow organizations to right-size model cost to workload requirements rather than using a single expensive model for all tasks"
+      ],
+      "whyItMatters": "GPT-5.6 introduces 'ultra' sub-agent reasoning that extends effective problem-solving depth — a meaningful architectural shift for AI engineers building multi-step workflows. But the government-gated rollout means most teams can't start building on it yet, making model selection strategy increasingly dependent on factors outside engineering control.",
+      "tags": ["openai", "gpt-5.6", "sol", "terra", "luna", "ai-regulation", "model-launch", "agentic-ai"],
+      "relatedIds": ["youtube-IloXWEYXen8", "article-anthropic-mythos-cleared-june-26-2026", "article-openai-codex-agents-growth-june-25-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does GPT-5.6's new 'ultra' reasoning mode do that standard inference modes do not?",
+          "options": [
+            "It increases the model's context window from 128K to 1M tokens for single long documents",
+            "It spawns sub-agents to parallelize complex multi-step tasks, extending effective reasoning depth beyond what fits in a single context window",
+            "It connects GPT-5.6 to the internet in real time to retrieve live data during inference",
+            "It applies constitutional AI constraints to filter outputs that might violate safety guidelines"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ultra mode uses sub-agents — independent model instances that handle parallel sub-tasks — to decompose complex problems that would otherwise require impractical amounts of chain-of-thought reasoning in a single pass. This is architecturally similar to how orchestration frameworks like CrewAI or AutoGen work, but natively integrated into the model's inference behavior."
+        },
+        {
+          "question": "Why does OpenAI's tiered model family (Sol/Terra/Luna) matter for AI engineering teams managing infrastructure costs?",
+          "options": [
+            "It allows teams to use different models for different UI themes in their applications",
+            "It enables right-sizing: using the cheapest model that meets task requirements instead of defaulting to the most powerful (and expensive) option for all calls",
+            "The tiers are purely marketing names — all three models share identical weights under the hood",
+            "Luna replaces GPT-3.5 Turbo, making it the only option available to free-tier API users"
+          ],
+          "correctIndex": 1,
+          "explanation": "A tiered model family lets engineering teams route tasks by complexity: use Luna for high-volume classification or summarization ($1/$6 per 1M tokens), Terra for intermediate reasoning ($2.50/$15), and Sol only for the hardest tasks where maximum capability matters ($5/$30). This routing strategy can reduce API costs by 3-5x compared to defaulting all calls to the flagship model — a significant lever as enterprise AI budgets come under scrutiny."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-codex-agents-growth-june-25-2026",
+      "type": "article",
+      "title": "OpenAI Codex surpasses 3 million weekly users as agentic AI reshapes work across every function",
+      "sourceUrl": "https://www.axios.com/2026/06/25/codex-agents-growth-openai",
+      "verified": false,
+      "publishedAt": "2026-06-25",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "OpenAI's Codex has grown to more than 3 million weekly active users, a fivefold increase since January 2026, with research departments showing 56x growth in median usage, customer support 32x, and engineering 27x. At OpenAI internally, 99.8% of output tokens generated by staff now go through Codex rather than ChatGPT, and non-developer organizational users have grown 189-fold since August 2025, signaling that agentic AI workflows are moving beyond engineering teams into legal, finance, recruiting, and operations roles.",
+      "keyConcepts": [
+        "Codex agent: OpenAI's agentic work platform that allows users to assign tasks to AI agents that autonomously browse, code, and interact with external tools — replacing chat-driven interactions with persistent task delegation",
+        "Output token distribution as adoption signal: the share of AI output tokens generated through Codex vs. ChatGPT acts as a proxy for how deeply agentic workflows have replaced conversational AI at organizations — at OpenAI, this has reached 99.8% for Codex",
+        "Non-developer agent adoption: the expansion of agentic AI usage from software engineers (the initial adopters) into functions like legal, finance, and recruiting — where agents handle contract review, financial modeling, and candidate sourcing autonomously",
+        "Adoption S-curve: the diffusion pattern where AI tools move from early-adopter engineering teams → cross-functional power users → company-wide deployment, with each stage showing exponentially faster adoption than the prior one"
+      ],
+      "whyItMatters": "When 189x non-developer organizational growth accompanies 27x engineering growth, agentic AI is no longer an engineering specialty — it is becoming a general work layer. AI practitioners who understand how to design and deploy agent workflows across non-technical functions will have significantly more organizational impact than those who focus only on engineering use cases.",
+      "tags": ["openai", "codex", "ai-agents", "agentic-ai", "enterprise-ai", "workforce"],
+      "relatedIds": ["article-openai-gpt56-launch-june-26-2026", "article-openai-agents-transforming-work-june-26-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does it signal about AI adoption maturity when 99.8% of OpenAI employees' output tokens are generated through Codex agents rather than ChatGPT?",
+          "options": [
+            "OpenAI has disabled ChatGPT access for internal employees to prevent conflicts of interest",
+            "Employees at an AI lab are not representative of real-world users, so this metric has no external significance",
+            "Agentic task delegation has almost entirely replaced conversational AI as the primary mode of AI interaction for these users — a leading indicator of where the broader market is heading",
+            "Codex is cheaper per token than ChatGPT, so employees use it to save the company money"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI labs tend to be 18-24 months ahead of the broader enterprise market in AI adoption patterns. If nearly all of OpenAI's internal AI usage has shifted from conversational prompting (ChatGPT) to task delegation (Codex agents), that is a strong leading indicator of where enterprise AI teams will be in 1-2 years — with agent orchestration becoming the primary human-AI interface rather than chat."
+        },
+        {
+          "question": "Why is 189x growth in non-developer organizational Codex users potentially more significant than the 27x growth in engineering users?",
+          "options": [
+            "Non-developer users generate more tokens per session than engineers, making their growth more valuable to OpenAI's revenue",
+            "Engineering teams already had agent tools, so Codex growth for engineers represents substitution rather than new capability; non-developer growth represents entirely new workflows being automated",
+            "Non-developer users are more likely to become paying consumers, which matters more than enterprise API revenue",
+            "Legal and compliance teams adopting AI agents increases the regulatory risk of AI, which draws attention to OpenAI's responsible deployment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Engineers already had Copilot, Cursor, and similar agentic coding tools before Codex — so Codex growth in engineering partially reflects switching. But legal teams doing contract review, recruiters handling candidate sourcing, and finance teams building financial models with AI agents represents genuinely new AI-augmented workflows that didn't have good tooling before. This is the early signal of AI transforming knowledge work at scale across the whole organization, not just the technical layer."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-agents-transforming-work-june-26-2026",
+      "type": "article",
+      "title": "OpenAI's new research shows how AI agents are transforming work across functions — and what's next",
+      "sourceUrl": "https://openai.com/index/how-agents-are-transforming-work/",
+      "verified": false,
+      "publishedAt": "2026-06-26",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-engineering", "ai-industry"],
+      "summary": "OpenAI published research drawing on Codex usage data showing that AI agents have transitioned from a developer experiment to a cross-functional productivity layer: non-developer individual users grew 137x since August 2025, with legal teams seeing the steepest adoption curves after engineering and research. The report argues that the defining shift is from AI as a tool that answers questions to AI as an agent that completes tasks — with agentic models now accounting for the majority of enterprise AI compute at OpenAI's largest customers. The paper accompanies the launch of GPT-5.6 and positions Codex's 'ultra' mode as the platform for the next phase of agentic work.",
+      "keyConcepts": [
+        "Task completion vs. question answering: the transition from AI systems that respond to queries (chat) to systems that autonomously complete multi-step tasks (agents) — measured by whether the AI produces an artifact (code, document, decision) vs. a text response",
+        "Compute-weighted AI adoption: measuring AI adoption by the fraction of an organization's total AI compute attributable to agent workloads vs. conversational workloads — a more accurate indicator of economic impact than user count",
+        "Cross-functional agent diffusion: the documented pattern by which agentic AI tools spread from engineering (earliest adopters) → research → customer support → legal/finance → HR/operations, with each new function adopting faster than the prior one",
+        "Agent platform stickiness: the phenomenon where organizations that integrate agent workflows into core processes (automated legal review, autonomous customer support escalation) experience high switching costs — creating durable competitive moats for the platform that captured them first"
+      ],
+      "whyItMatters": "If agents are becoming the dominant AI compute workload even within OpenAI's own customer base, AI practitioners who understand agent architecture, evaluation, and deployment will be in the highest demand — and the skills gap between 'prompt engineer' and 'agent systems engineer' will widen significantly over the next 12-18 months.",
+      "tags": ["openai", "codex", "ai-agents", "workforce-transformation", "agentic-ai", "enterprise"],
+      "relatedIds": ["article-openai-codex-agents-growth-june-25-2026", "article-openai-gpt56-launch-june-26-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between 'question answering' AI and 'task completion' AI in terms of how they are deployed and evaluated?",
+          "options": [
+            "Question answering AI uses transformer models while task completion AI uses diffusion models",
+            "Question answering AI responds with text; task completion AI produces an artifact (code, document, decision) by autonomously executing multi-step workflows",
+            "Task completion AI requires a human in the loop at every step, while question answering AI is fully autonomous",
+            "The distinction is primarily marketing language with no practical difference in how the models are used"
+          ],
+          "correctIndex": 1,
+          "explanation": "Question answering (chat) AI receives a prompt and returns text — the user must then take the text and do something with it. Task completion agents receive a goal and autonomously execute the steps needed to produce an artifact — writing and running code, navigating interfaces, querying APIs, and returning a completed result. The shift matters because it changes the economic value proposition: agents remove human labor from the execution layer, not just the research layer."
+        },
+        {
+          "question": "Why might 'agent platform stickiness' create a winner-take-most dynamic in the enterprise AI market?",
+          "options": [
+            "AI regulation requires companies to use only one approved AI vendor per department",
+            "Once agents are integrated into core business processes, the cost of re-training employees on a new platform and re-integrating workflows creates high switching costs that favor the incumbent agent platform",
+            "Enterprise AI contracts always include 5-year exclusivity clauses that prevent switching",
+            "Only the most powerful AI model can run agents, which means only one company can offer an enterprise agent platform at any time"
+          ],
+          "correctIndex": 1,
+          "explanation": "When an organization's legal review, contract management, or customer escalation flows are built on top of a specific agent platform's APIs and prompt structures, switching to a competitor means re-architecting workflows that may have taken months to build and validate. This creates compounding lock-in: the deeper agents integrate into operations, the higher the switching cost — which is why capturing an enterprise customer early with an agent platform creates durable retention even if a competitor offers a technically better model."
+        }
+      ]
+    }
+  ]
+}
