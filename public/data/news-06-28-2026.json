@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T12:00:00.000Z",
+  "generatedAt": "2026-06-28T16:00:00.000Z",
   "weekOf": "2026-06-22",
   "coverageStart": "2026-06-26",
   "coverageEnd": "2026-06-27",
@@ -218,6 +218,92 @@
           ],
           "correctIndex": 2,
           "explanation": "SpaceX agreed in June 2026 to acquire Anysphere (parent of the Cursor AI coding platform) for $60 billion in an all-stock transaction — widely described as the largest acquisition of a venture-backed startup ever, valuing the company at roughly 15x revenue."
+        }
+      ]
+    },
+    {
+      "id": "venturebeat-claude-code-engineers-0627",
+      "type": "article",
+      "title": "Claude Code Turned Every Engineer Into Three — Now Companies Need More Product Thinkers",
+      "sourceUrl": "https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+      "publishedAt": "2026-06-27",
+      "verified": false,
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "VentureBeat examines how AI coding tools, led by Claude Code, have roughly tripled individual engineer output — upending the traditional 1:8 PM-to-engineer ratio and pushing it toward an effective 1:20 as engineers ship far more per day without a corresponding expansion of product management. Companies like LinkedIn have responded by replacing associate product manager tracks with cross-functional 'Product Builder' programs that train generalists across product, design, and engineering. The article argues that the engineering bottleneck has dissolved; what remains is a shortage of people who can decide what to build.",
+      "keyConcepts": [
+        "Engineering output tripling: Claude Code's autonomous task execution, scheduled agents, and overnight run capabilities have multiplied per-engineer throughput, with Anthropic reporting that 80% of its new production code is now Claude-authored",
+        "PM-to-engineer ratio collapse: the traditional 1:8 product-manager-to-engineer ratio now effectively plays out as 1:20 or higher because each engineer ships far more daily — creating an acute shortage of product decision-making capacity relative to execution capacity",
+        "Product Builder programs: LinkedIn and other companies have restructured roles to address the decision-making gap, replacing pure PM tracks with generalised programs that blend product thinking, design, and engineering into one role",
+        "Claude Code Routines: Anthropic's April 2026 addition of scheduled, persistent agents that run on a cadence or webhook — enabling engineers to delegate entire overnight task queues to AI agents, further expanding per-person output without additional headcount"
+      ],
+      "whyItMatters": "For AI engineers, this shift means raw coding speed is no longer a differentiator — the scarce skill is now the ability to identify what is worth building, talk to users, and make rapid product judgements without waiting for a dedicated PM.",
+      "tags": ["claude-code", "ai-engineering", "productivity", "product-management", "workforce", "ai-agents"],
+      "relatedIds": ["techcrunch-ai-landscape-0626", "techradar-gpt45-retirement-0627"],
+      "knowledgeChecks": [
+        {
+          "question": "How has Claude Code changed the effective ratio of product managers to engineers at many companies?",
+          "options": [
+            "From 1:8 to 1:4 — companies now need more PMs per engineer as AI tools create more work to review",
+            "From 1:8 to approximately 1:20 — each engineer ships far more, so fewer PMs are needed per unit of output",
+            "The ratio has remained stable at 1:8, but both roles now use AI tools differently",
+            "From 1:8 to 1:1 — AI coding tools have redefined both engineering and product roles equally"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI coding tools like Claude Code have tripled individual engineer output, meaning the traditional 1:8 PM-to-engineer ratio now effectively plays out closer to 1:20 — the same number of PMs are now theoretically overseeing roughly 2.5x as much engineering throughput, creating a product decision-making bottleneck."
+        },
+        {
+          "question": "What percentage of Anthropic's new production code is now reported to be authored by Claude?",
+          "options": [
+            "Around 30% — AI assists with drafts that humans heavily revise",
+            "Around 50% — roughly equal split between human and AI-authored code",
+            "Around 65% — AI writes the majority but humans own architecture decisions",
+            "Around 80% — the large majority of new production code is Claude-authored"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic reported that approximately 80% of its new production code is now authored by Claude, a figure that illustrates both the scale of AI coding adoption inside a frontier AI lab and the magnitude of the productivity shift that engineering teams at other companies are beginning to replicate."
+        }
+      ]
+    },
+    {
+      "id": "techradar-gpt45-retirement-0627",
+      "type": "article",
+      "title": "OpenAI Quietly Retired the Last GPT-4 Model From ChatGPT — The End of an AI Era",
+      "sourceUrl": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-just-quietly-retired-the-last-of-the-gpt-4-models-and-it-feels-like-the-end-of-an-ai-era",
+      "publishedAt": "2026-06-27",
+      "verified": false,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI removed GPT-4.5 from ChatGPT on June 27, 2026, completing the full retirement of the GPT-4 model family from the consumer product — closing a chapter that began in March 2023 when GPT-4 first convinced millions of people that AI had become genuinely useful. GPT-4.5 had already been retired from the API in mid-2025; the June 27 removal affects only the ChatGPT interface. Existing GPT-4.5 conversations automatically migrate to GPT-5.5. OpenAI's o3 model follows on August 26, 2026.",
+      "keyConcepts": [
+        "GPT-4 era end: the retirement of GPT-4.5 from ChatGPT on June 27 means there are now no GPT-4-family models remaining in the consumer product — a generational transition in the publicly accessible AI stack",
+        "API vs ChatGPT retirement timelines: GPT-4.5 was removed from the OpenAI API in mid-2025 — nearly a year before its ChatGPT removal — illustrating how enterprise API access and consumer product availability operate on independent deprecation schedules",
+        "GPT-5.5 as successor: existing GPT-4.5 ChatGPT conversations automatically resume with GPT-5.5, which OpenAI describes as a direct capability superset of GPT-4.5 with faster output and improved instruction-following",
+        "o3 retirement incoming: OpenAI's o3 reasoning model will follow GPT-4.5 out of ChatGPT on August 26, 2026, after a 90-day sunset period — continuing a pattern of rapidly cycling out older models as newer capability tiers arrive"
+      ],
+      "whyItMatters": "The GPT-4 generation defined the public's mental model of what AI could do — and its quiet removal is a reminder that the capability floor of production AI systems is rising fast, with implications for anyone building on or benchmarking against older model tiers.",
+      "tags": ["openai", "gpt-4.5", "chatgpt", "model-deprecation", "gpt-5.5", "ai-history"],
+      "relatedIds": ["openai-gpt56-sol-preview-0626", "techcrunch-ai-landscape-0626", "venturebeat-claude-code-engineers-0627"],
+      "knowledgeChecks": [
+        {
+          "question": "When was GPT-4.5 removed from the OpenAI API, and when was it removed from ChatGPT?",
+          "options": [
+            "Both the API and ChatGPT removed it simultaneously on June 27, 2026",
+            "The API removed it in mid-2025, while ChatGPT removed it on June 27, 2026 — nearly a year later",
+            "ChatGPT removed it first in early 2026, followed by the API on June 27, 2026",
+            "GPT-4.5 remains available in the API but was removed only from ChatGPT"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-4.5 (gpt-4.5-preview) was retired from the OpenAI API in mid-2025, nearly a year before its ChatGPT removal. The June 27, 2026 retirement affected only the ChatGPT consumer product — illustrating how enterprise API deprecation timelines and consumer product sunsetting operate independently at OpenAI."
+        },
+        {
+          "question": "What happens to existing ChatGPT conversations that used GPT-4.5 after its June 27 retirement?",
+          "options": [
+            "They are permanently archived and can no longer receive replies",
+            "Users must manually select a new model to continue each conversation",
+            "They automatically continue with GPT-5.5, which OpenAI describes as a capability superset of GPT-4.5",
+            "They are migrated to GPT-4o, the last remaining GPT-4 family model"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI automatically migrated existing GPT-4.5 conversations to GPT-5.5, which the company describes as a direct capability superset of GPT-4.5 with faster output and improved instruction-following — ensuring continuity for users without requiring manual intervention."
         }
       ]
     }
