@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-27T03:15:49.697Z",
+  "generatedAt": "2026-06-28T03:21:35.876Z",
   "weekOf": "2026-04-10",
   "coverageStart": "2026-04-10",
-  "coverageEnd": "2026-05-27",
+  "coverageEnd": "2026-05-28",
   "items": [
     {
       "id": "youtube-4qv6NIpY9Fo",
@@ -9354,6 +9354,279 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI has stated it is targeting $2.5 billion in ad revenue for 2026 as an initial milestone, with a longer-term goal of reaching $100 billion in annual advertising revenue by 2030."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-youtube-ai-labels-2026-05-27",
+      "type": "article",
+      "title": "YouTube Will Now Automatically Label AI-Generated Videos Even When Creators Don't Disclose It",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/youtube-will-now-automatically-label-ai-videos/",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "YouTube announced it will use internal detection systems to identify videos containing 'significant photorealistic AI' content and automatically apply disclosure labels — even if creators fail to self-disclose. The change expands YouTube's existing creator-disclosure requirement to a platform-enforced policy starting in May 2026, covering both long-form videos and YouTube Shorts. Labels will not affect recommendations or monetization, and creators can appeal misidentifications, though content made with YouTube's own AI tools such as Veo or Dream Screen cannot have those labels removed.",
+      "keyConcepts": [
+        "AI content auto-detection",
+        "platform-enforced transparency",
+        "creator disclosure policy",
+        "synthetic media governance"
+      ],
+      "whyItMatters": "YouTube's shift from voluntary to automated AI labeling sets a precedent for how major platforms will govern synthetic media at scale — affecting millions of creators who use AI generation tools and signaling that platform-level enforcement, rather than creator self-disclosure, will become the norm for AI content transparency.",
+      "tags": [
+        "youtube",
+        "ai-content-labeling",
+        "synthetic-media",
+        "platform-policy",
+        "creator-tools",
+        "ai-transparency"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did YouTube change about its AI content labeling policy in May 2026?",
+          "options": [
+            "YouTube banned all photorealistic AI-generated videos from the platform",
+            "YouTube began automatically detecting and labeling significant AI-generated content even without creator disclosure",
+            "YouTube started requiring creators to use only YouTube-native AI tools",
+            "YouTube applied AI labels only to Shorts, not to long-form videos"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube expanded its policy so its internal systems automatically apply AI labels when they detect significant photorealistic AI content, removing reliance on creators to voluntarily disclose it."
+        },
+        {
+          "question": "According to YouTube's May 2026 update, what happens to AI labels on videos made with YouTube's own tools like Veo or Dream Screen?",
+          "options": [
+            "Those labels are never applied because YouTube trusts its own tools",
+            "Creators can remove them by submitting a verification request",
+            "Creators cannot remove those labels even if they dispute them",
+            "Those labels are applied only after the video reaches 1,000 views"
+          ],
+          "correctIndex": 2,
+          "explanation": "YouTube stated that while creators can update disclosure status for misidentified content, labels on videos created using YouTube's own AI tools — like Veo or Dream Screen — cannot be removed by the creator."
+        }
+      ]
+    },
+    {
+      "id": "article-venturebeat-datagrail-ai-privacy-2026-05-28",
+      "type": "article",
+      "title": "DataGrail Report: 64% of AI-Advertising Vendors Don't Disclose Third-Party AI Subprocessors",
+      "sourceUrl": "https://venturebeat.com/security/datagrail-report-finds-your-vendor-may-be-sending-data-to-ai-models-you-never-approved",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "DataGrail's Privacy and AI Trends Report 2026 found that 63.6% of software vendors prominently advertising AI capabilities do not disclose a third-party AI subprocessor in their legal documentation. This means most companies purchasing AI-enabled software may be unknowingly exposing customer data to AI models they never reviewed or approved. The finding carries significant legal and reputational risk as AI becomes embedded across procurement, CRM, HR, and security software categories.",
+      "keyConcepts": [
+        "third-party AI subprocessors",
+        "vendor transparency and data governance",
+        "enterprise AI compliance risk",
+        "GDPR and AI transparency regulations"
+      ],
+      "whyItMatters": "As AI capabilities are embedded in nearly every enterprise software tool, organizations face hidden data exposure: customer data may flow into undisclosed LLMs without oversight, creating regulatory exposure under GDPR, CCPA, and emerging AI transparency laws — and potentially enabling unauthorized model training on sensitive business data.",
+      "tags": [
+        "data-privacy",
+        "ai-compliance",
+        "vendor-risk",
+        "enterprise-ai",
+        "gdpr",
+        "ai-governance"
+      ],
+      "relatedIds": [
+        "article-helpnetsecurity-cisco-multiturn-attacks-2026-05-28"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What did DataGrail's 2026 Privacy and AI Trends Report find about vendors advertising AI capabilities?",
+          "options": [
+            "Most vendors over-disclose AI subprocessors, creating compliance overhead",
+            "63.6% of AI-advertising vendors do not disclose third-party AI subprocessors in their legal documentation",
+            "The majority of enterprise AI software is processed entirely on-premises",
+            "Only 12% of vendors use any form of third-party AI provider"
+          ],
+          "correctIndex": 1,
+          "explanation": "DataGrail found that 63.6% of vendors prominently advertising AI capabilities omit disclosure of third-party AI subprocessors — the external LLMs or AI providers that actually power those features — from their legal documentation."
+        },
+        {
+          "question": "What is the primary risk to enterprises from undisclosed AI subprocessors in vendor software?",
+          "options": [
+            "Reduced software performance due to external API latency",
+            "Loss of vendor discounts for long-term contracts",
+            "Customer data may be processed by unapproved AI models, creating legal and compliance exposure",
+            "Increased software licensing costs due to AI feature bundling"
+          ],
+          "correctIndex": 2,
+          "explanation": "When vendors don't disclose third-party AI subprocessors, enterprise customers unknowingly send customer data to external AI models that haven't been reviewed or approved — creating exposure under privacy regulations like GDPR and CCPA, and potentially enabling unauthorized training on sensitive data."
+        }
+      ]
+    },
+    {
+      "id": "youtube-JUnEHixJA-w",
+      "type": "video",
+      "title": "Are Tech CEOs Really Suffering from AI Psychosis?",
+      "youtubeId": "JUnEHixJA-w",
+      "sourceUrl": "https://www.youtube.com/watch?v=JUnEHixJA-w",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
+      "summary": "TheAIGRID examines the viral TechCrunch story coining the term 'AI psychosis' for tech executives who hold an obsessive, near-religious belief in AI-driven productivity gains. Box CEO Aaron Levie argued that CEOs are uniquely vulnerable because they only see AI demos at their best — happy-path outputs — before extrapolating that agents can fully replace knowledge workers. The video explores whether this diagnosis is fair and what it means for teams navigating AI mandates from leadership detached from the real friction of deployment.",
+      "keyConcepts": [
+        "AI psychosis in executive leadership",
+        "CEO disconnect from AI deployment realities",
+        "enterprise AI strategy and workforce impact",
+        "AI hype cycle and organizational risk"
+      ],
+      "whyItMatters": "When executives over-index on AI based on polished demos, it drives premature workforce reductions and unrealistic productivity mandates — understanding the gap between AI's demo performance and real-world reliability is essential for both practitioners and leaders shaping AI strategy.",
+      "tags": [
+        "ai-leadership",
+        "enterprise-ai",
+        "ceo-strategy",
+        "ai-hype",
+        "workforce-impact",
+        "ai-culture"
+      ],
+      "relatedIds": [
+        "article-cio-ai-sanction-evasion-2026-05-27"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Who coined the term 'AI psychosis' to describe tech executives' distorted AI beliefs?",
+          "options": [
+            "Sam Altman, in a shareholder letter about enterprise AI readiness",
+            "Dario Amodei, in an Anthropic safety briefing on alignment gaps",
+            "A Gartner analyst in the 2026 Hype Cycle report",
+            "Aaron Levie, CEO of Box, describing why CEOs over-estimate AI capabilities"
+          ],
+          "correctIndex": 3,
+          "explanation": "Aaron Levie of Box coined the term, arguing that CEOs are uniquely prone to AI psychosis because their distance from day-to-day work means they only encounter AI on its happy path — leading them to dramatically overestimate what agents can do reliably."
+        },
+        {
+          "question": "Why are tech CEOs described as 'uniquely prone' to AI psychosis according to the source story?",
+          "options": [
+            "They are too close to engineering teams and miss the product-market reality",
+            "Their financial incentives reward overpromising AI capabilities to investors",
+            "They are sufficiently distant from the last mile of work that they only see AI's best-case results",
+            "They rely exclusively on vendor benchmarks rather than internal pilot data"
+          ],
+          "correctIndex": 2,
+          "explanation": "Box's Aaron Levie specifically described CEOs as 'sufficiently distant from the last mile of work' that they experience AI primarily through polished demos and happy-path results — which leads them to believe AI agents can replace human knowledge work far sooner than deployment reality supports."
+        }
+      ]
+    },
+    {
+      "id": "article-helpnetsecurity-cisco-multiturn-attacks-2026-05-28",
+      "type": "article",
+      "title": "Frontier AI Models Collapse Under Multi-Turn Attacks, Cisco Finds",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/05/28/cisco-multi-turn-ai-attacks/",
+      "verified": false,
+      "publishedAt": "2026-05-28",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Cisco's AI threat intelligence team published research showing that every major frontier LLM is dramatically more vulnerable to multi-turn 'iterative' attacks than the industry's standard single-prompt safety benchmarks indicate. Testing 15 closed flagship models from OpenAI, Anthropic, Google, Amazon, and xAI across roughly 30,000 single-turn prompts and nearly 7,000 multi-turn attacks, Cisco found attack success rates ranging from 7.89% to 88.30% under iterative conditions — far above the 2.19%–64.91% range seen in single-turn tests. Five attack strategy families drove most outcomes: role-play and persona adoption, contextual ambiguity, refusal reframing, information decomposition, and crescendo-style escalation.",
+      "keyConcepts": [
+        "multi-turn jailbreak attacks",
+        "LLM safety benchmark limitations",
+        "attack success rate (ASR)",
+        "frontier model structural vulnerability"
+      ],
+      "whyItMatters": "If the single-turn safety scores enterprises and regulators rely on systematically understate real-world attack success by an order of magnitude, current AI deployment assurances may be deeply misleading — making multi-turn attack resilience the benchmark that actually matters for high-stakes enterprise AI use cases.",
+      "tags": [
+        "ai-safety",
+        "llm-security",
+        "jailbreak",
+        "cisco",
+        "enterprise-ai",
+        "frontier-models"
+      ],
+      "relatedIds": [
+        "article-venturebeat-datagrail-ai-privacy-2026-05-28"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What was the maximum multi-turn attack success rate Cisco observed across the 15 frontier models it tested?",
+          "options": [
+            "Approximately 12%, close to the single-turn baseline",
+            "Around 45%, roughly double the single-turn rate",
+            "Up to 88.30%, an order of magnitude higher than the lowest single-turn result",
+            "Exactly 100% — all models were eventually compromised under enough turns"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cisco found multi-turn attack success rates ranging from 7.89% to 88.30% across 15 models, compared to a 2.19%–64.91% range for single-turn attacks — showing that sustained iterative pressure dramatically increases the likelihood of extracting harmful outputs."
+        },
+        {
+          "question": "Which of the following is NOT one of the five attack strategy families Cisco identified as driving most multi-turn jailbreak outcomes?",
+          "options": [
+            "Role-play and persona adoption",
+            "Direct prompt injection via system-message override",
+            "Refusal reframing",
+            "Crescendo-style escalation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cisco's five strategy families were: role-play and persona adoption, contextual ambiguity, refusal reframing, information decomposition, and crescendo-style escalation. Direct system-message injection is a known attack type but was not listed among these five as a primary driver in Cisco's taxonomy."
+        }
+      ]
+    },
+    {
+      "id": "article-cio-ai-sanction-evasion-2026-05-27",
+      "type": "article",
+      "title": "Another IT Governance Headache: How AI Models Are Enabling Sanctions Evasion",
+      "sourceUrl": "https://www.cio.com/article/4177854/another-it-governance-headache-ai-enabled-sanction-evasion.html",
+      "verified": false,
+      "publishedAt": "2026-05-27",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "A new RUSI report reveals that North Korea and Iran are actively deploying AI agents to execute sanctions evasion at industrial scale, including mass-producing fraudulent KYC documents, automating the management of shell company networks, and dynamically adjusting cryptocurrency mixing strategies to evade blockchain analytics in real time. The CIO analysis warns IT managers that traditional compliance controls are no longer sufficient and calls for deploying defensive AI, behavior-based analytics, API and MCP circuit breakers, and new 'compute-KYC' obligations that require cloud providers to scrutinize who is renting GPU capacity for large-scale AI operations.",
+      "keyConcepts": [
+        "AI-enabled proliferation financing",
+        "compute-KYC obligations",
+        "shell company automation",
+        "blockchain pattern analysis evasion"
+      ],
+      "whyItMatters": "Sanctioned regimes can now operate AI agents that move faster than any manual compliance team can track — forcing IT and compliance leaders to treat AI-enabled financial crime as an urgent governance priority and to deploy automated countermeasures before regulators begin holding organizations liable for insufficient AI-threat controls.",
+      "tags": [
+        "ai-security",
+        "sanctions-compliance",
+        "north-korea",
+        "iran",
+        "financial-crime",
+        "ai-governance"
+      ],
+      "relatedIds": [
+        "youtube-JUnEHixJA-w"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to the RUSI 'Algorithms of Evasion' report, which two countries are explicitly named as deploying AI to conduct sanctions evasion?",
+          "options": [
+            "Russia and China",
+            "North Korea and Iran",
+            "Venezuela and Belarus",
+            "Pakistan and Syria"
+          ],
+          "correctIndex": 1,
+          "explanation": "The RUSI report specifically named North Korea and Iran as state actors now developing and deploying AI models to aid with sanctions evasion activities, including automated document fraud and cryptocurrency mixing."
+        },
+        {
+          "question": "What is 'compute-KYC', as proposed in the RUSI report's recommendations for countering AI-enabled sanctions evasion?",
+          "options": [
+            "A blockchain ledger that records every AI model weight used in financial transactions",
+            "An obligation requiring cloud providers to verify the identity and intent of customers renting large-scale GPU capacity",
+            "A biometric AI system that cross-checks KYC documents against a global fraud registry",
+            "A government certification program for AI models used in compliance workflows"
+          ],
+          "correctIndex": 1,
+          "explanation": "Compute-KYC refers to new obligations that would require cloud infrastructure providers to apply due-diligence checks on customers purchasing large GPU allocations — recognizing that the compute powering large-scale AI operations is itself a chokepoint for detecting and disrupting state-sponsored sanctions evasion."
         }
       ]
     }

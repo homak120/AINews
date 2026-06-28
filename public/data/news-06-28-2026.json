@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-06-28T12:00:00.000Z",
+  "weekOf": "2026-06-22",
+  "coverageStart": "2026-06-26",
+  "coverageEnd": "2026-06-27",
+  "items": [
+    {
+      "id": "youtube-uBGmQ7HXa_4",
+      "type": "video",
+      "title": "White House Forces OpenAI to Restrict GPT-5.6 Rollout Over Cybersecurity Concerns",
+      "youtubeId": "uBGmQ7HXa_4",
+      "sourceUrl": "https://www.youtube.com/watch?v=uBGmQ7HXa_4",
+      "verified": false,
+      "publishedAt": "2026-06-26",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Matthew Berman covers the Trump administration's demand that OpenAI limit its new GPT-5.6 model family to a small set of government-vetted trusted partners rather than releasing it publicly. The government flagged GPT-5.6's advanced capabilities in coding, biology, and cybersecurity as requiring pre-release national security evaluation. OpenAI agreed, framing it as a 'short-term step' while a repeatable government review process is established — the first time a US AI lab has staged a flagship release at Washington's explicit request.",
+      "keyConcepts": [
+        "Government-gated model releases: the emerging practice where the US executive branch evaluates frontier AI models before public availability and approves access organisation by organisation",
+        "GPT-5.6 capability concerns: the government flagged three specific domains — coding, biology, and cybersecurity — as potential vectors for adversarial misuse that warranted review before broad public access",
+        "National security AI reviews: the Trump administration's extension of the Export Administration Regulations (EAR) logic to domestic model launches, effectively treating access to the most capable AI as a controlled resource",
+        "OpenAI's staged rollout strategy: OpenAI characterised the restriction as temporary and explicitly stated it 'should not be the norm,' preserving its long-term position while complying with the short-term government ask"
+      ],
+      "whyItMatters": "This is the first confirmed instance of the US government successfully pressuring a major AI lab to stage a flagship model release on national security grounds, establishing a regulatory template that could apply to every future frontier model launch.",
+      "tags": ["openai", "gpt-5.6", "us-government", "ai-regulation", "cybersecurity", "frontier-models"],
+      "relatedIds": ["openai-gpt56-sol-preview-0626", "youtube-EfYqyj5ThBc"],
+      "knowledgeChecks": [
+        {
+          "question": "Which capability domains did the US government specifically flag as justification for restricting GPT-5.6's public release?",
+          "options": [
+            "Image generation, video synthesis, and audio deepfakes",
+            "Financial modelling, legal drafting, and autonomous driving",
+            "Coding, biology, and cybersecurity",
+            "Translation, surveillance, and facial recognition"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Trump administration flagged GPT-5.6's advanced performance in coding, biology, and cybersecurity as requiring pre-release government evaluation before the model could be made broadly available to the public."
+        },
+        {
+          "question": "How did OpenAI characterise the decision to comply with the US government's request to limit GPT-5.6 access?",
+          "options": [
+            "As a permanent policy change for all future frontier model launches",
+            "As a 'short-term step' while a repeatable government review process is developed",
+            "As a legal requirement under existing export control law",
+            "As a voluntary marketing decision to build demand through scarcity"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI framed the restriction as a temporary measure, explicitly stating it 'should not be the norm,' while agreeing to work with the administration to create a scalable framework for reviewing future model releases."
+        }
+      ]
+    },
+    {
+      "id": "youtube-EfYqyj5ThBc",
+      "type": "video",
+      "title": "Fable 5 Shows Signs of Return as GPT-5.6 and Gemini 3.5 Pro Face New Government Delays",
+      "youtubeId": "EfYqyj5ThBc",
+      "sourceUrl": "https://www.youtube.com/watch?v=EfYqyj5ThBc",
+      "verified": false,
+      "publishedAt": "2026-06-26",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "This AI news roundup covers growing signals that Anthropic's consumer-facing Fable 5 model may soon return for some users, alongside updates that both GPT-5.6 and Gemini 3.5 Pro launches have been staggered under new US frontier model oversight policies. The video also breaks down OpenAI's newly unveiled Jalapeño custom inference chip — co-developed with Broadcom — and Anthropic's Senate Banking Committee letter accusing Alibaba-linked operators of running the largest known model distillation attack on Claude.",
+      "keyConcepts": [
+        "Fable 5 restoration timeline: Mythos 5 cleared for Annex A organisations on June 26; Fable 5 still offline but restoration signals suggest it could follow once diversion safeguards are confirmed",
+        "Coordinated frontier model delays: GPT-5.6 and Gemini 3.5 Pro both staggered under Trump administration oversight at roughly the same time, indicating a consistent cross-lab regulatory posture rather than model-specific concerns",
+        "OpenAI Jalapeño chip: a custom AI inference ASIC co-developed with Broadcom in a nine-month cycle, targeting 50% lower inference costs than current Nvidia GPUs, with production deployment planned for late 2026",
+        "Model distillation attacks: Anthropic alleges Alibaba's Qwen lab used approximately 25,000 fake accounts to run 28.8 million exchanges with Claude between April 22 and June 5, 2026, harvesting reasoning patterns to train competing models"
+      ],
+      "whyItMatters": "The simultaneous government-gating of models from Anthropic, OpenAI, and Google marks a structural shift in how frontier AI is deployed — AI engineering teams can no longer treat model availability as predictable, and regulatory timelines are becoming a first-class infrastructure concern.",
+      "tags": ["fable-5", "gpt-5.6", "gemini-3.5", "jalapeno-chip", "qwen", "model-distillation", "ai-regulation"],
+      "relatedIds": ["semafor-mythos5-us-0627", "youtube-uBGmQ7HXa_4", "openai-gpt56-sol-preview-0626"],
+      "knowledgeChecks": [
+        {
+          "question": "What is a model distillation attack as described in Anthropic's allegations against Alibaba?",
+          "options": [
+            "Injecting malicious data into a model's training pipeline to corrupt its safety alignment",
+            "Systematically querying a frontier model at scale to harvest its outputs and train a competing model without authorisation",
+            "Using adversarial prompts to destabilise a model's reasoning on safety-critical tasks",
+            "Intercepting model weights during transfer between data centres"
+          ],
+          "correctIndex": 1,
+          "explanation": "A model distillation attack involves using large numbers of queries — often through fake accounts — to collect a frontier model's outputs and reasoning patterns, which are then used to train a competing model. Anthropic alleged Alibaba's Qwen lab ran 28.8 million such exchanges via ~25,000 fraudulent accounts."
+        },
+        {
+          "question": "What is OpenAI's Jalapeño chip, and who is OpenAI co-developing it with?",
+          "options": [
+            "A custom training accelerator co-developed with Nvidia, targeting 10x faster pre-training",
+            "A consumer AI chip for PCs co-developed with Intel for the ChatGPT desktop app",
+            "A custom AI inference ASIC co-developed with Broadcom, targeting 50% lower inference costs than current GPUs",
+            "An open-source chip reference design released in partnership with RISC-V International"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jalapeño is OpenAI's first custom silicon project: a bespoke AI inference processor co-developed with Broadcom in a remarkably fast nine-month cycle. Engineering samples are already running ML workloads, and the chip targets substantially better performance per watt than current Nvidia GPUs with approximately 50% lower inference costs."
+        }
+      ]
+    },
+    {
+      "id": "semafor-mythos5-us-0627",
+      "type": "article",
+      "title": "US Releases Anthropic's Mythos 5 to Vetted US Companies After Two-Week Export Control",
+      "sourceUrl": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "publishedAt": "2026-06-27",
+      "verified": false,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The US Commerce Department issued a letter on June 26 permitting Anthropic to restore access to Claude Mythos 5 for over 100 vetted US organisations including government agencies, national labs, and approved Fortune 500 companies. The partial reversal of the June 12 export control directive comes after Anthropic demonstrated adequate diversion safeguards to Commerce Secretary Howard Lutnick. Fable 5, the public-facing consumer version of the model, remains suspended with no confirmed restoration timeline.",
+      "keyConcepts": [
+        "Annex A approved organisations: the specific list of more than 100 entities — including civilian US government agencies, national labs, and vetted private companies — cleared to access Mythos 5 without a separate export licence",
+        "Tiered frontier AI access: the June 27 restoration creates a two-tier system where select critical-infrastructure operators and government partners can use Mythos 5 while the general developer and consumer market remains locked out",
+        "Diversion risk assessment: the Commerce Department's determination that 'appropriate safeguards are in place' reflects a new evaluation framework that AI companies may need to demonstrate for any future model at this capability tier",
+        "Fable 5 status: the consumer-accessible version of Anthropic's most powerful model remains offline — industry sources say restoration is being discussed but no timeline has been confirmed"
+      ],
+      "whyItMatters": "The selective Mythos 5 reinstatement formalises a tiered-access model for frontier AI that parallels export control regimes for military hardware — with profound implications for which organisations can build on the most capable models and how AI capability translates into competitive advantage.",
+      "tags": ["anthropic", "mythos-5", "fable-5", "export-controls", "us-government", "ai-policy"],
+      "relatedIds": ["youtube-EfYqyj5ThBc", "youtube-uBGmQ7HXa_4", "techcrunch-ai-landscape-0626"],
+      "knowledgeChecks": [
+        {
+          "question": "What triggered the original June 12 US government directive to suspend Anthropic's Mythos 5 and Fable 5 models?",
+          "options": [
+            "Anthropic violated FTC pricing regulations by undercharging for API access",
+            "Evidence of a jailbreak method that could allow users to extract sensitive software vulnerability data from the model",
+            "The models failed mandatory government benchmarks required before commercial AI deployment",
+            "Anthropic failed to register with a newly created National AI Safety Board"
+          ],
+          "correctIndex": 1,
+          "explanation": "The US government cited intelligence about a jailbreak method involving asking the model to analyse and fix a specific codebase, raising concerns that adversaries could exploit this to accelerate cyberattacks against critical infrastructure."
+        },
+        {
+          "question": "Under the June 27 Commerce Department letter, which entities can access Mythos 5 without requiring a separate export licence?",
+          "options": [
+            "All US citizens and permanent residents with an active Anthropic API subscription",
+            "Any company publicly listed on a US stock exchange",
+            "Annex A approved US organisations, their foreign-national employees, Anthropic's own foreign staff, and US government civilian agencies and national labs",
+            "All universities and non-profit research institutions in the United States"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Commerce Department's letter specifically authorises licence-free access for Annex A approved organisations and their foreign-national employees, Anthropic's own foreign-national staff, and US government civilian agencies and national labs — not the general public or all API subscribers."
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt56-sol-preview-0626",
+      "type": "article",
+      "title": "OpenAI Previews GPT-5.6 Sol: Next-Generation Model with Stronger Coding and Agentic Reasoning",
+      "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "publishedAt": "2026-06-26",
+      "verified": false,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "OpenAI published a technical preview of GPT-5.6 Sol, the flagship tier of its three-model GPT-5.6 family (Sol, Terra, Luna), ahead of a staged rollout limited to government-vetted trusted partners. Sol scored 88.8% on TerminalBench-2.1 versus Claude Mythos 5's 88%, narrowly surpassing the current frontier leader on complex coding tasks. The model features a 1.5 million token context window, improved long-horizon planning, and enhanced agentic workflow support including native tool orchestration.",
+      "keyConcepts": [
+        "GPT-5.6 model family: Sol (flagship enterprise tier), Terra (balanced everyday use), and Luna (fast, low-cost high-volume workloads) — three tiers with distinct capability and price points replacing the monolithic GPT-5.5 line",
+        "TerminalBench-2.1 benchmark: a 89-task coding evaluation covering complex real-world programming challenges; Sol scored 88.8% vs Mythos 5's 88%, representing a narrow but meaningful shift in coding frontier leadership",
+        "1.5 million token context: Sol's extended context window enables analysis of large codebases, entire legal corpora, or multi-session agent task histories without chunking or summarisation workarounds",
+        "Agentic workflow improvements: Sol natively supports multi-step tool orchestration and long-horizon task planning — directly targeting the agentic AI use cases (autonomous coding agents, research agents, enterprise process automation) that OpenAI has identified as its primary growth vector"
+      ],
+      "whyItMatters": "GPT-5.6 Sol edges out Mythos 5 on leading coding benchmarks while offering a 1.5M token context window — but government-gated access means most teams cannot integrate it yet, making the preview more useful for benchmark tracking than immediate engineering decisions.",
+      "tags": ["openai", "gpt-5.6", "sol", "benchmarks", "agentic-ai", "context-window", "llm-engineering"],
+      "relatedIds": ["youtube-uBGmQ7HXa_4", "youtube-EfYqyj5ThBc", "techcrunch-ai-landscape-0626"],
+      "knowledgeChecks": [
+        {
+          "question": "How did GPT-5.6 Sol compare to Claude Mythos 5 on the TerminalBench-2.1 coding benchmark?",
+          "options": [
+            "Sol scored 72% while Mythos 5 scored 95% — a significant gap",
+            "Both models scored 88% — an exact tie",
+            "Sol scored 88.8% versus Mythos 5's 88% — a narrow lead for OpenAI",
+            "Sol has not yet been tested head-to-head against Mythos 5"
+          ],
+          "correctIndex": 2,
+          "explanation": "On TerminalBench-2.1, a rigorous 89-task complex programming benchmark, GPT-5.6 Sol scored 88.8% compared to Claude Mythos 5's 88% — giving OpenAI a narrow but measurable edge on the current leading coding evaluation."
+        },
+        {
+          "question": "What context window size does GPT-5.6 Sol offer, and why is this significant for engineering use cases?",
+          "options": [
+            "128K tokens — matching GPT-4o and suitable for most document analysis",
+            "512K tokens — enough for mid-size codebases",
+            "1.5 million tokens — enabling analysis of large codebases, legal corpora, or long multi-session agentic task histories without chunking",
+            "10 million tokens — the largest context window available in any commercial model"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sol's 1.5 million token context window allows it to ingest entire large codebases, lengthy legal or scientific corpora, or extended agentic task histories in a single context — eliminating the chunking and summarisation workarounds that add complexity and latency to long-context engineering workflows."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-ai-landscape-0626",
+      "type": "article",
+      "title": "The AI Race Is No Longer Just Anthropic vs OpenAI",
+      "sourceUrl": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "publishedAt": "2026-06-26",
+      "verified": false,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "TechCrunch analysis examines how the AI competitive landscape has fragmented far beyond the once-dominant OpenAI vs Anthropic duopoly. ChatGPT's market share fell below 50% for the first time in May 2026, with Gemini at 27.7% and Claude at 10.3%. Government export controls, massive acquisition deals (SpaceX-Cursor for $60B), Chinese model advances from DeepSeek and Qwen, and new hardware entrants like Sakana AI's Fugu model are simultaneously reshaping who controls the frontier — making binary 'which lab wins' analysis increasingly obsolete.",
+      "keyConcepts": [
+        "AI market fragmentation: ChatGPT's 46.4% market share as of May 2026 (down from 65.3% in December 2024) shows that the AI assistant market has genuinely diversified, with Gemini at 27.7% and Claude at 10.3% — and open-weight models not captured in these figures",
+        "Vertical AI consolidation: SpaceX's $60B Cursor acquisition, Anthropic's $40B funding round, and OpenAI's confidential IPO filing at ~$850B all signal that AI capability is being bundled into larger platform ecosystems rather than remaining standalone API businesses",
+        "Chinese model parity: DeepSeek and Qwen have reached benchmark parity with US frontier models on several tasks, and government distillation attack allegations underscore how quickly capability gaps are closing regardless of export controls",
+        "Regulatory fragmentation of the frontier: simultaneous export control actions against Mythos 5, Fable 5, and GPT-5.6 signal that government intervention has become a structural variable in AI competitive dynamics — which lab has the most capable freely accessible model now depends partly on regulatory status"
+      ],
+      "whyItMatters": "Career strategy and engineering decisions that assumed a stable OpenAI-Anthropic duopoly need to be updated: the actual frontier is now multipollar, government-contingent, and moving faster than any single lab's roadmap — meaning AI skill-building should prioritise model-agnostic capabilities over lab-specific tooling.",
+      "tags": ["ai-market", "openai", "anthropic", "gemini", "deepseek", "qwen", "competitive-landscape", "chatgpt"],
+      "relatedIds": ["semafor-mythos5-us-0627", "openai-gpt56-sol-preview-0626", "youtube-EfYqyj5ThBc"],
+      "knowledgeChecks": [
+        {
+          "question": "What was ChatGPT's AI assistant market share as of May 2026, and how had it changed from December 2024?",
+          "options": [
+            "82% in May 2026, down from 92% in December 2024",
+            "46.4% in May 2026, down from 65.3% in December 2024",
+            "62% in May 2026, down from 71% in December 2024",
+            "Market share data is not publicly available for this period"
+          ],
+          "correctIndex": 1,
+          "explanation": "According to Sensor Tower's State of AI 2026 report, ChatGPT's market share fell to 46.4% by May 2026 — the first time it had dropped below 50% — down from 65.3% in December 2024. Gemini reached 27.7% and Claude reached 10.3% during the same period."
+        },
+        {
+          "question": "Which acquisition deal in June 2026 is described as the largest VC-backed startup deal in history?",
+          "options": [
+            "Microsoft's acquisition of Inflection AI for $50B",
+            "Google's acquisition of DeepMind expansion rights for $45B",
+            "SpaceX's agreement to acquire Cursor parent Anysphere for $60B",
+            "Anthropic's $40B investment round led by Amazon and Google"
+          ],
+          "correctIndex": 2,
+          "explanation": "SpaceX agreed in June 2026 to acquire Anysphere (parent of the Cursor AI coding platform) for $60 billion in an all-stock transaction — widely described as the largest acquisition of a venture-backed startup ever, valuing the company at roughly 15x revenue."
+        }
+      ]
+    }
+  ]
+}
