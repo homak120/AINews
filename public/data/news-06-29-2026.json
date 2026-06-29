@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-29T08:00:00.000Z",
+  "generatedAt": "2026-06-29T12:00:00.000Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-06-28",
-  "coverageEnd": "2026-06-28",
+  "coverageEnd": "2026-06-29",
   "items": [
     {
       "id": "article-techcrunch-ford-rehires-engineers-0628",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Only three companies — Micron, Samsung, and SK Hynix — can manufacture HBM at the scale and specification that modern AI datacenters require, creating a highly concentrated supply chain that gives each supplier significant market leverage."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-omen-ai-data-centers-0629",
+      "type": "article",
+      "title": "Omen AI Raises $31M to Monitor Liquid Cooling Health in AI Data Centers",
+      "sourceUrl": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Omen AI raised a $31 million Series A to deploy tiny spectrometers that monitor liquid cooling fluid health in AI data centers in real time, detecting bacterial contamination and fluid degradation before it can damage expensive infrastructure. As AI training and inference workloads push server power densities far beyond what air cooling can handle, liquid cooling is becoming the default standard — but it introduces failure modes that require continuous monitoring to catch early. The company is targeting hyperscalers and colocation providers under pressure to maximize uptime while operating at unprecedented thermal densities.",
+      "keyConcepts": [
+        "Liquid cooling for AI infrastructure: water- and fluid-based cooling systems can remove heat 25x more efficiently than air, making them essential as AI chip TDP rises toward kilowatts per accelerator",
+        "Real-time fluid health monitoring: bacterial growth and chemical degradation of cooling fluids are leading causes of unplanned data center downtime, historically caught only during scheduled maintenance",
+        "Spectrometer-based sensing: miniaturized optical spectrometers can identify fluid composition and contamination in real time without removing the fluid for laboratory testing",
+        "Data center uptime economics: every unplanned outage at a hyperscale AI facility can cost millions of dollars per hour, making predictive infrastructure monitoring a high-ROI investment"
+      ],
+      "whyItMatters": "Liquid cooling is no longer optional for AI data centers — it's becoming a prerequisite for high-density GPU deployments — which means the failure modes unique to liquid systems (bacterial growth, fluid degradation) are becoming critical infrastructure risks that real-time monitoring can mitigate before they cascade into outages.",
+      "tags": ["data-centers", "liquid-cooling", "ai-infrastructure", "hardware", "startup-funding", "predictive-maintenance"],
+      "relatedIds": ["article-techcrunch-micron-next-nvidia-0628"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific problem does Omen AI's spectrometer technology solve in AI data centers?",
+          "options": [
+            "It reduces GPU power consumption by dynamically throttling clock speeds",
+            "It detects bacterial growth and fluid degradation in liquid cooling systems in real time",
+            "It allocates cooling resources across servers based on workload temperature projections",
+            "It replaces traditional air cooling with a proprietary liquid immersion system"
+          ],
+          "correctIndex": 1,
+          "explanation": "Omen AI's tiny spectrometers monitor the health of liquid cooling fluids — catching bacterial contamination and chemical degradation before they can damage infrastructure — addressing a critical failure mode that becomes more costly as liquid cooling becomes ubiquitous in AI data centers."
+        },
+        {
+          "question": "Why is liquid cooling becoming the standard for AI data centers rather than traditional air cooling?",
+          "options": [
+            "Air cooling is more expensive to install than liquid systems at scale",
+            "Regulations now require data centers to eliminate fan-based cooling for noise compliance",
+            "AI chip power densities have risen so high that air cooling can no longer remove heat fast enough",
+            "Liquid cooling produces less electromagnetic interference that could corrupt model weights"
+          ],
+          "correctIndex": 2,
+          "explanation": "Modern AI accelerators can draw kilowatts of power each, generating heat at densities that air cooling cannot dissipate efficiently. Liquid cooling removes heat roughly 25x more effectively than air, making it the only practical option for the highest-density AI compute deployments."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-tidal-ai-music-0629",
+      "type": "article",
+      "title": "TIDAL Will Label and Demonetize Fully AI-Generated Music Starting July 15",
+      "sourceUrl": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-industry"],
+      "summary": "Music streaming platform TIDAL announced that fully AI-generated tracks will be tagged with an 'AI' badge and stripped of monetization eligibility starting July 15, 2026, while remaining available for listeners to stream. The policy defines fully AI-generated music as content produced without meaningful human creative contribution, and places TIDAL ahead of most streaming platforms in creating explicit rules around AI content disclosure and compensation. The move reflects growing pressure from human artists who argue that AI-generated music competing for royalties on the same platforms depresses their income.",
+      "keyConcepts": [
+        "AI content labeling in creative industries: platform-level disclosure requirements that distinguish AI-generated from human-created content are emerging as a key governance tool",
+        "AI music demonetization: removing royalty eligibility from fully AI-generated content without banning it outright is a middle-ground policy approach that preserves listener access while protecting human artist revenue",
+        "Streaming platform governance: distribution platforms are increasingly being pushed to take active stances on AI-generated content rather than treating it as equivalent to human-created work",
+        "Human creative attribution: the question of what constitutes 'meaningful human contribution' in AI-assisted vs. AI-generated creative work is becoming a legal and policy battleground"
+      ],
+      "whyItMatters": "TIDAL's policy is an early template for how creative distribution platforms can address AI-generated content without banning it — using labeling and demonetization to protect human creator economics while maintaining listener choice. How this precedent evolves across Spotify, Apple Music, and YouTube will shape how AI-generated creative work is valued and compensated industry-wide.",
+      "tags": ["music-industry", "ai-generated-content", "content-policy", "streaming", "creative-ai", "monetization"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What policy did TIDAL announce for fully AI-generated music effective July 15, 2026?",
+          "options": [
+            "Fully AI-generated music will be banned from the platform entirely",
+            "AI-generated tracks will be limited to a separate playlist section only",
+            "Fully AI-generated tracks will be labeled with an 'AI' badge and removed from monetization",
+            "Artists must pay a licensing fee to distribute AI-generated music on TIDAL"
+          ],
+          "correctIndex": 2,
+          "explanation": "TIDAL's policy keeps fully AI-generated music accessible to listeners but marks it with an 'AI' badge and removes it from royalty eligibility, distinguishing it from human-created content without censoring listener access."
+        },
+        {
+          "question": "What broader trend does TIDAL's AI music policy most directly reflect?",
+          "options": [
+            "Streaming platforms are planning to invest in their own AI music generation tools",
+            "Growing pressure to create explicit governance rules that protect human creator economics from AI-generated content",
+            "Music labels are lobbying regulators to ban all AI-generated music from commercial distribution",
+            "AI-generated music has achieved sound quality indistinguishable from human recordings"
+          ],
+          "correctIndex": 1,
+          "explanation": "TIDAL's policy responds to pressure from human artists who argue that AI-generated music competing for royalties on the same platforms undercuts their income — making it an early example of platform-level governance balancing innovation with creator protection."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-pocket-note-taking-0629",
+      "type": "article",
+      "title": "Pocket Raises $11M for Its Subscription-Free AI Recording and Note-Taking Device",
+      "sourceUrl": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "Pocket raised $11 million for its $129 credit card-shaped AI recording puck that attaches to the back of a phone to transcribe meetings and generate to-do items — with no subscription required. Unlike earlier AI gadget ventures such as Rabbit and Humane that tried to replace smartphones, Pocket is designed to augment an existing phone, betting that users want a purpose-built hardware layer for voice capture without the friction of a new app. The company's traction suggests that pragmatic AI hardware focused on a single high-value task can succeed where ambitious all-in-one AI devices have struggled.",
+      "keyConcepts": [
+        "Augment vs. replace AI hardware strategy: devices designed to work alongside existing hardware (phones, laptops) face lower adoption friction than devices that ask users to change their primary workflows",
+        "Subscription-free AI product models: hardware-only pricing with no recurring fees is emerging as a competitive differentiator as users grow fatigued by AI subscription stacking",
+        "Voice transcription AI at the edge: running AI transcription on-device or via a dedicated companion reduces latency, improves privacy, and eliminates dependence on cloud availability",
+        "AI gadget market evolution: the failure of Rabbit and Humane is reshaping what investors and builders target — narrower, task-specific devices with clear ROI for professional users"
+      ],
+      "whyItMatters": "Pocket's funding and traction are a signal that the AI hardware market is recalibrating after the high-profile failures of all-in-one AI gadgets — toward focused, subscription-free devices that solve one job well. For AI engineers, the lesson is that utility and pricing clarity often matter more than technological ambition in consumer hardware.",
+      "tags": ["ai-hardware", "voice-transcription", "note-taking", "product-design", "startup-funding", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Pocket's AI device strategy differ from earlier AI gadgets like Rabbit and Humane?",
+          "options": [
+            "Pocket targets enterprise customers rather than consumers",
+            "Pocket's device is designed to augment a phone rather than replace it, and requires no subscription",
+            "Pocket uses a cloud-only architecture while Rabbit and Humane processed audio on-device",
+            "Pocket's device costs five times more than Humane's AI Pin but offers unlimited usage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike Rabbit and Humane, which tried to replace the smartphone entirely, Pocket's credit card-shaped puck attaches to the back of an existing phone to add AI transcription without disrupting the user's primary device — and charges a one-time hardware price with no subscription."
+        },
+        {
+          "question": "What does Pocket's funding and market traction suggest about where AI hardware is headed?",
+          "options": [
+            "All-in-one AI devices will eventually replace smartphones once models improve further",
+            "Consumer hardware investors are moving away from AI entirely after Rabbit and Humane failures",
+            "Narrow, task-specific AI hardware with clear ROI and no subscription fees can succeed where ambitious AI gadgets struggled",
+            "AI transcription is commoditized, so hardware pricing is the only differentiator available"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pocket's traction signals a recalibration in AI hardware toward devices that solve one job exceptionally well, integrate with existing workflows, and avoid subscription pricing — a pragmatic contrast to the 'replace everything' ambition that led Rabbit and Humane to struggle."
         }
       ]
     }
