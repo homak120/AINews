@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-06-29T08:00:00.000Z",
+  "weekOf": "2026-06-29",
+  "coverageStart": "2026-06-28",
+  "coverageEnd": "2026-06-28",
+  "items": [
+    {
+      "id": "article-techcrunch-ford-rehires-engineers-0628",
+      "type": "article",
+      "title": "Ford Rehires Veteran Engineers After AI Falls Short of Quality Expectations",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "verified": false,
+      "publishedAt": "2026-06-28",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Ford hired approximately 350 veteran engineers — dubbed 'gray beards' internally — after AI and automated systems failed to deliver expected manufacturing quality. The company had reduced its experienced engineering workforce in prior years as it automated production, but discovered that complex manufacturing decisions and quality control still required deep human expertise. The rehiring signals a broader industry reassessment of where AI actually delivers versus where it still cannot match seasoned human judgment.",
+      "keyConcepts": [
+        "AI limitations in manufacturing: current models lack the physical intuition and contextual judgment that experienced engineers develop over decades on factory floors",
+        "Human-AI complementarity: Ford's reversal illustrates that automation and experienced labor are often complements, not substitutes, in complex production environments",
+        "Enterprise AI ROI reassessment: companies across heavy industry are auditing AI deployments that promised to replace skilled labor but delivered quality shortfalls instead",
+        "Gray-beard knowledge: tacit, embodied expertise — accumulated through years of hands-on work — is proving difficult to encode in AI systems trained primarily on documented processes"
+      ],
+      "whyItMatters": "Ford's reversal is a bellwether for AI in heavy industry: the companies that rushed to replace experienced workers with AI are learning that current models lack the judgment developed over decades on factory floors, and the cost of that lesson is arriving as rehiring bills and quality writedowns.",
+      "tags": ["ford", "manufacturing", "ai-limitations", "workforce", "automation", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Ford rehire hundreds of veteran engineers after years of automation investment?",
+          "options": [
+            "To satisfy a new labor union contract requiring minimum headcount levels",
+            "Because AI and automated systems failed to deliver the expected manufacturing quality",
+            "To lead a new line of electric vehicle development requiring fresh talent",
+            "Due to a US government mandate to maintain domestic manufacturing employment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ford brought back approximately 350 experienced 'gray beard' engineers specifically because AI and automation systems could not match the quality benchmarks that human expertise had previously delivered, highlighting real limits of current AI in complex industrial settings."
+        },
+        {
+          "question": "What does Ford's rehiring decision most directly illustrate about current AI capabilities?",
+          "options": [
+            "AI is equally capable as humans in all manufacturing tasks",
+            "AI has made significant inroads but will eventually fully replace human engineers",
+            "Tacit, embodied expertise developed over decades is difficult to replicate with current AI systems",
+            "AI tools are too expensive for industrial use cases at this stage"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ford's reversal highlights that 'gray-beard' expertise — intuition built through years of hands-on manufacturing work — is a form of knowledge that current AI systems, trained mainly on documented processes, struggle to replicate in practice."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-micron-next-nvidia-0628",
+      "type": "article",
+      "title": "Wall Street Bets Micron Will Be the Next Nvidia as AI Memory Demand Surges",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "verified": false,
+      "publishedAt": "2026-06-28",
+      "topics": ["ai-industry"],
+      "summary": "Micron Technology briefly surpassed Meta and Tesla in market valuation for the first time, reflecting Wall Street's conviction that AI's insatiable demand for high-bandwidth memory (HBM) will make Micron one of the world's most valuable semiconductor companies. As AI models grow in scale and agentic systems require faster memory bandwidth, the memory chip market is becoming as strategically critical as GPUs. Micron is one of only three companies globally — alongside Samsung and SK Hynix — that can manufacture the HBM chips AI datacenters require at scale.",
+      "keyConcepts": [
+        "High-bandwidth memory (HBM): specialized DRAM stacked vertically to achieve the extreme read/write speeds that training and inference workloads for large AI models demand",
+        "AI infrastructure supply chain concentration: only three companies globally can manufacture HBM at scale, creating a chokepoint analogous to TSMC's role in advanced logic chips",
+        "Memory as the new AI bottleneck: as GPU supply constraints ease, memory bandwidth is emerging as the next limiting factor in scaling AI system performance",
+        "Semiconductor market rotation: capital is shifting from GPU-focused plays toward memory and networking infrastructure as AI infrastructure matures past early GPU scarcity"
+      ],
+      "whyItMatters": "Micron's valuation surge reflects a structural shift in AI infrastructure economics: memory bandwidth is emerging as the binding constraint for the next wave of AI scaling, and the oligopoly of three HBM suppliers now holds strategic leverage similar to what Nvidia held in GPUs two years ago.",
+      "tags": ["micron", "hbm", "semiconductors", "ai-infrastructure", "memory-chips", "ai-hardware"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What drove Micron's stock to briefly surpass Meta and Tesla in market valuation?",
+          "options": [
+            "Micron's acquisition of a major cloud computing company",
+            "A breakthrough in consumer storage that dramatically cut SSD prices",
+            "Wall Street's conviction that AI's demand for high-bandwidth memory will make Micron critically valuable",
+            "A US government contract to supply memory chips for military AI systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "Micron's valuation surge was driven by investor conviction that AI's rapidly growing demand for high-bandwidth memory (HBM) — required by both training and inference workloads — positions Micron as one of only three global suppliers of a newly critical component."
+        },
+        {
+          "question": "How many companies globally can manufacture high-bandwidth memory (HBM) at scale for AI datacenters?",
+          "options": [
+            "Only one — Nvidia, which has vertically integrated memory production",
+            "Two — Intel and Qualcomm in a joint venture",
+            "Three — Micron, Samsung, and SK Hynix",
+            "Five or more, making it a competitive commodity market"
+          ],
+          "correctIndex": 2,
+          "explanation": "Only three companies — Micron, Samsung, and SK Hynix — can manufacture HBM at the scale and specification that modern AI datacenters require, creating a highly concentrated supply chain that gives each supplier significant market leverage."
+        }
+      ]
+    }
+  ]
+}
