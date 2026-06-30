@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T06:00:00.000Z",
+  "generatedAt": "2026-06-30T12:00:00.000Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-06-28",
   "coverageEnd": "2026-06-30",
@@ -131,6 +131,136 @@
           ],
           "correctIndex": 1,
           "explanation": "OpenAI's standard deprecation practice routes API calls targeting a retired model ID to a designated successor model after the cutover date, giving developers time to test and update. This prevents immediate breakage but may change response characteristics, so proactive migration is still strongly recommended."
+        }
+      ]
+    },
+    {
+      "id": "youtube-AAfx2T4qVt0",
+      "type": "video",
+      "title": "AI Daily Brief: Grok 4.5 Private Beta at SpaceX & Tesla, xAI's Monthly Model Cadence — June 29, 2026",
+      "youtubeId": "AAfx2T4qVt0",
+      "sourceUrl": "https://www.youtube.com/watch?v=AAfx2T4qVt0",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The AI Daily Brief's June 29 episode covers Elon Musk's announcement that Grok 4.5 has entered private beta at SpaceX and Tesla, built on xAI's new 1.5 trillion-parameter V9 foundation model. The episode discusses Musk's claim that Grok 4.5 rivals or exceeds Anthropic's Claude Opus in internal tests, while noting the absence of any public benchmarks or system card. The brief also covers xAI's stated plan to ship brand-new models trained from scratch every month through the rest of 2026.",
+      "keyConcepts": [
+        "Grok 4.5 V9 foundation model (1.5T parameters)",
+        "Private beta enterprise deployment",
+        "xAI monthly model release cadence",
+        "Cursor data integration in training"
+      ],
+      "whyItMatters": "xAI's monthly model cadence is an aggressive bet that iteration speed beats benchmark polish — if Grok 4.5 performs at Opus level in real SpaceX/Tesla workflows, it signals that closed enterprise pilots are now the proving ground for frontier model claims rather than public leaderboards.",
+      "tags": ["xai", "grok-4-5", "frontier-model", "private-beta", "elon-musk", "enterprise-ai"],
+      "relatedIds": ["article-xai-grok-releases-20260629"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the most significant concern with Musk's claim that Grok 4.5 rivals Claude Opus?",
+          "options": [
+            "Anthropic has filed a trademark dispute over the comparison",
+            "No independent benchmarks or system card have been published to verify the claim",
+            "Grok 4.5 only works inside SpaceX's internal network",
+            "The model was not trained on English-language data"
+          ],
+          "correctIndex": 1,
+          "explanation": "xAI has not published a system card or allowed independent third-party benchmarking for Grok 4.5. Without reproducible public evaluations, Musk's performance claims cannot be verified — a pattern that has emerged repeatedly with pre-release model announcements across the industry."
+        },
+        {
+          "question": "What does xAI's stated goal of shipping a new model 'trained from scratch' every month imply for developers building on Grok?",
+          "options": [
+            "Developers will get automatic model upgrades at no cost",
+            "Model behavior and capability may shift significantly month-to-month, requiring ongoing integration testing",
+            "xAI will retire all prior Grok versions simultaneously with each new release",
+            "Monthly releases only affect consumer-facing products, not the API"
+          ],
+          "correctIndex": 1,
+          "explanation": "When a model is trained from scratch rather than fine-tuned, its behavior, strengths, and failure modes can change substantially. A monthly cadence means developers building on the Grok API need robust regression testing and monitoring to catch unexpected behavioral shifts with each new version."
+        }
+      ]
+    },
+    {
+      "id": "article-grok45-private-beta-20260629",
+      "type": "article",
+      "title": "Grok 4.5 Enters Private Beta at SpaceX and Tesla — No Public Access, No Independent Benchmarks",
+      "sourceUrl": "https://www.techtimes.com/articles/319314/20260629/grok-45-enters-private-beta-spacex-tesla-no-public-access-no-independent-benchmark.htm",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Elon Musk announced on June 28, 2026 that xAI's Grok 4.5 has entered private beta testing at SpaceX and Tesla, becoming the first deployment of the model's 1.5 trillion-parameter V9 foundation — a three-fold increase over the v8-small model currently in production. The V9 foundation completed pre-training on May 26, with Cursor coding data added in supplemental training. Musk claims Grok 4.5 performs 'close to, or perhaps exceeding' Claude Opus, but xAI has released no system card, independent benchmarks, or public access pathway, making the performance claims unverifiable outside the two Musk-owned companies.",
+      "keyConcepts": [
+        "V9 foundation model (1.5T parameters)",
+        "Enterprise private beta before public release",
+        "Cursor coding data integration",
+        "Unverified capability benchmarks"
+      ],
+      "whyItMatters": "Grok 4.5's private-only beta creates a two-tier information landscape: Musk's companies gain early access to what could be a frontier-tier model, while the broader developer community has no independent data to evaluate the claims. This deployment pattern — strong public claims, zero public evidence — is becoming a new norm in the model race that technical practitioners should treat with skepticism.",
+      "tags": ["xai", "grok-4-5", "elon-musk", "private-beta", "model-benchmarks", "frontier-ai"],
+      "relatedIds": ["youtube-AAfx2T4qVt0", "article-xai-grok-releases-20260629"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the parameter count of xAI's V9 foundation model that powers Grok 4.5?",
+          "options": [
+            "400 billion",
+            "700 billion",
+            "1.5 trillion",
+            "3.5 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "xAI's V9 foundation model has 1.5 trillion parameters, representing a three-fold increase over the v8-small model currently serving Grok's production traffic. The V9 completed pre-training on May 26, 2026, with Cursor coding data added during supplemental fine-tuning."
+        },
+        {
+          "question": "Why is xAI's choice to beta-test Grok 4.5 exclusively at SpaceX and Tesla notable from a governance perspective?",
+          "options": [
+            "Both companies are publicly traded and must disclose model performance to the SEC",
+            "SpaceX and Tesla are xAI's only enterprise customers",
+            "Both companies are majority-owned by Elon Musk, meaning the beta avoids true arm's-length third-party evaluation",
+            "Grok 4.5 is only optimized for aerospace and automotive workloads"
+          ],
+          "correctIndex": 2,
+          "explanation": "Because SpaceX and Tesla are both majority-owned by Elon Musk — who also controls xAI — the private beta is effectively an intra-Musk-empire deployment rather than an independent enterprise trial. This limits the credibility of any performance evidence that emerges from these tests as a measure of how the model performs for neutral third-party organizations."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-grok-releases-20260629",
+      "type": "article",
+      "title": "xAI Ships Grok Imagine Video 1.5 GA and Grok 4.3 on Amazon Bedrock with 1M-Token Context",
+      "sourceUrl": "https://x.ai/news",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "xAI released two production-ready updates this week: Grok Imagine Video 1.5 is now generally available in the Imagine API and on grok.com with improved image-to-video quality, faster generation, and new workflow tools (Projects, multi-agent support, and search integration). Separately, Grok 4.3 reached general availability on Amazon Bedrock, bringing enterprise users a 1 million-token context window, configurable reasoning effort levels, and what xAI claims is the lowest hallucination rate among frontier models — designed for agentic document workflows and long-context enterprise tasks. xAI also introduced the /goal command in Grok Build for autonomous long-running task execution.",
+      "keyConcepts": [
+        "Grok Imagine Video 1.5 GA",
+        "Grok 4.3 on Amazon Bedrock (1M context)",
+        "Configurable reasoning effort",
+        "/goal autonomous task mode in Grok Build"
+      ],
+      "whyItMatters": "The Bedrock release puts Grok 4.3 inside AWS's enterprise compliance and security perimeter, lowering the procurement barrier for Fortune 500 companies already on AWS. The /goal autonomous mode signals xAI's push toward agentic AI where users hand off multi-step implementation work rather than single prompts — a direct competitive move against Claude Code and GitHub Copilot's agentic features.",
+      "tags": ["xai", "grok-4-3", "amazon-bedrock", "video-generation", "agentic-ai", "enterprise-cloud"],
+      "relatedIds": ["youtube-AAfx2T4qVt0", "article-grok45-private-beta-20260629"],
+      "knowledgeChecks": [
+        {
+          "question": "What advantage does Grok 4.3's availability on Amazon Bedrock provide to enterprise customers?",
+          "options": [
+            "Free unlimited API access for AWS Premium subscribers",
+            "Access within AWS's existing compliance, security, and VPC infrastructure",
+            "Automatic integration with OpenAI's GPT-5.6 API endpoints",
+            "Dedicated GPU clusters that bypass Bedrock's shared compute pool"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amazon Bedrock hosts foundation models inside AWS's enterprise infrastructure, meaning customers can invoke Grok 4.3 through their existing AWS IAM roles, VPC configurations, and compliance frameworks (SOC 2, HIPAA, GDPR). This removes the need to establish a separate data-processing agreement with xAI directly."
+        },
+        {
+          "question": "What does xAI's /goal command in Grok Build enable that standard prompt-response interactions cannot?",
+          "options": [
+            "Real-time collaboration between multiple human users on the same task",
+            "Long-running autonomous task execution where the agent plans, executes, and runs to completion without step-by-step human prompting",
+            "Direct access to xAI's internal model weights for fine-tuning",
+            "Voice-to-code conversion using Grok's speech recognition layer"
+          ],
+          "correctIndex": 1,
+          "explanation": "The /goal command initiates a long-horizon autonomous mode in which Grok Build breaks a high-level task into a plan, executes each step without waiting for further prompts, and reports back when the full goal is complete — with pause, resume, and status controls. This is distinct from a single-turn prompt-response, where the user must manually guide each step."
         }
       ]
     }
