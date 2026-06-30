@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-06-30T06:00:00.000Z",
+  "weekOf": "2026-06-29",
+  "coverageStart": "2026-06-28",
+  "coverageEnd": "2026-06-30",
+  "items": [
+    {
+      "id": "article-colorado-ai-act-effective-20260630",
+      "type": "article",
+      "title": "Colorado's AI Consumer Protection Law Takes Effect — First AI Enforcement Deadline on US Soil",
+      "sourceUrl": "https://www.bhfs.com/insight/colorados-landmark-ai-law-coming-online-what-developers-and-deployers-should-know/",
+      "verified": false,
+      "publishedAt": "2026-06-30",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Colorado's Consumer Protections for Artificial Intelligence Act (SB24-205) officially takes effect today, June 30, 2026, marking the first real AI enforcement deadline on US soil. The law imposes obligations on developers and deployers of high-risk AI systems that make consequential decisions in employment, healthcare, financial services, housing, education, and legal services — requiring risk management programs, annual impact assessments, disclosure when AI influences a covered decision, and giving Colorado residents the right to appeal AI-driven outcomes. A separate May 2026 bill (SB 189) replaces the act with a lighter disclosure-based framework effective January 1, 2027, so today's enforcement window is narrow but historically significant.",
+      "keyConcepts": [
+        "High-risk AI systems",
+        "Algorithmic discrimination",
+        "AI impact assessments",
+        "Consumer appeal rights"
+      ],
+      "whyItMatters": "This is the first active US AI consumer protection enforcement — companies now face real legal penalties for discriminatory AI outcomes in Colorado. The law's temporary lifespan (replaced Jan 2027) means today is both a milestone and a preview of the compliance burden the broader US industry should expect as federal legislation catches up.",
+      "tags": ["ai-regulation", "colorado-ai-act", "consumer-protection", "algorithmic-fairness", "ai-compliance", "us-policy"],
+      "relatedIds": ["article-openai-gpt56-limited-preview-20260629"],
+      "knowledgeChecks": [
+        {
+          "question": "Which of the following domains is NOT covered by Colorado's AI Consumer Protections Act (SB24-205)?",
+          "options": [
+            "Employment and hiring decisions",
+            "Healthcare delivery",
+            "Social media content recommendations",
+            "Financial services lending"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Colorado AI Act covers high-stakes domains where AI decisions affect major life outcomes: employment, healthcare, financial services, housing, education, and legal services. General-purpose algorithms like social media recommendation feeds are not covered by the high-risk AI definition."
+        },
+        {
+          "question": "What does Colorado's SB24-205 require deployers of high-risk AI systems to provide to affected residents?",
+          "options": [
+            "Full access to the AI model's source code",
+            "A cash payout for any algorithmic error",
+            "The right to appeal AI-driven consequential decisions",
+            "A human override of every AI decision"
+          ],
+          "correctIndex": 2,
+          "explanation": "SB24-205 grants Colorado residents the right to appeal decisions made or significantly influenced by high-risk AI systems in covered domains. It does not require source code disclosure, financial compensation, or mandatory human overrides of every decision."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt56-limited-preview-20260629",
+      "type": "article",
+      "title": "OpenAI Releases GPT-5.6 Family (Sol, Terra, Luna) — Access Restricted to ~20 Orgs Under Trump AI Executive Order",
+      "sourceUrl": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
+      "verified": false,
+      "publishedAt": "2026-06-29",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI has unveiled three new frontier models under the GPT-5.6 banner: Sol (frontier reasoning and long-horizon agentic work, $5/$30 per million tokens input/output), Terra (balanced high-volume tasks at roughly 2× lower cost than GPT-5.5, $2.50/$15), and Luna (fastest and most affordable, $1/$6). The release is currently restricted to approximately 20 organizations approved by the US government, following President Trump's June 2 executive order requiring AI companies to share frontier models with federal agencies for cybersecurity benchmarking up to 30 days before public deployment. Broader access to ChatGPT, Codex, and the API is expected 'in the coming weeks.'",
+      "keyConcepts": [
+        "GPT-5.6 model family (Sol, Terra, Luna)",
+        "Government-gated frontier model release",
+        "Tiered pricing and capability tiers",
+        "Trump AI executive order"
+      ],
+      "whyItMatters": "The government-gated rollout of GPT-5.6 represents a structural shift in how frontier AI models reach the public — federal review before deployment is now part of the launch process, not an afterthought. This precedent affects every major AI lab's release timeline and raises urgent questions about who controls access to the world's most capable AI.",
+      "tags": ["openai", "gpt-5-6", "frontier-ai", "ai-governance", "executive-order", "model-release"],
+      "relatedIds": ["article-colorado-ai-act-effective-20260630", "article-openai-gpt45-retirement-20260628"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary purpose of Trump's June 2026 AI executive order as it relates to GPT-5.6's rollout?",
+          "options": [
+            "To give the US military exclusive access to frontier AI models indefinitely",
+            "To allow federal agencies to benchmark and assess new AI models before public release",
+            "To ban OpenAI from releasing models without a Congressional vote",
+            "To impose tariffs on AI compute imported from overseas"
+          ],
+          "correctIndex": 1,
+          "explanation": "The executive order requires AI companies to share frontier models with federal agencies up to 30 days before public release so they can assess capabilities and cybersecurity implications — not for exclusive military use or Congressional approval. It reflects a 'test before deploy' posture for the most capable systems."
+        },
+        {
+          "question": "Which GPT-5.6 model is best suited for high-volume, cost-sensitive business automation tasks?",
+          "options": [
+            "Sol",
+            "Terra",
+            "Luna",
+            "Nova"
+          ],
+          "correctIndex": 1,
+          "explanation": "Terra is OpenAI's mid-tier GPT-5.6 model designed for high-volume business tasks like customer support and document analysis, offering performance comparable to GPT-5.5 at roughly 2× lower cost ($2.50/$15 per million tokens). Sol targets frontier reasoning challenges; Luna is optimized for speed and lowest cost per query."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt45-retirement-20260628",
+      "type": "article",
+      "title": "OpenAI Begins Retiring GPT-4.5 as GPT-5.6 Generation Arrives",
+      "sourceUrl": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "verified": false,
+      "publishedAt": "2026-06-28",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI has started the deprecation process for GPT-4.5, the model it positioned as the most human-feeling and emotionally intelligent in its lineup, as the newly unveiled GPT-5.6 family (Sol, Terra, Luna) makes older generations redundant. GPT-4.5 was notable for its conversational nuance and empathy rather than raw benchmark performance, but with the arrival of more capable and cost-effective 5.6 models, OpenAI is consolidating its lineup. Developers and ChatGPT users relying on GPT-4.5 are being directed to migrate to newer alternatives ahead of the full deprecation cutover.",
+      "keyConcepts": [
+        "Model deprecation lifecycle",
+        "GPT-4.5 emotional intelligence design",
+        "Developer migration planning",
+        "Model lineup consolidation"
+      ],
+      "whyItMatters": "GPT-4.5's retirement signals the end of a product strategy that treated conversational quality as a separate axis from capability — future models are expected to excel at both. For AI engineers, this is a reminder that model deprecation cycles are accelerating: planning for migration at build time, not after sunset notices arrive, is now an engineering best practice.",
+      "tags": ["openai", "gpt-4-5", "model-deprecation", "chatgpt", "ai-engineering", "developer-tools"],
+      "relatedIds": ["article-openai-gpt56-limited-preview-20260629"],
+      "knowledgeChecks": [
+        {
+          "question": "What was GPT-4.5's primary design differentiator compared to OpenAI's reasoning-focused models like o1?",
+          "options": [
+            "Higher raw coding benchmark scores",
+            "Lower cost per token than any prior model",
+            "Conversational naturalness and emotional intelligence",
+            "Faster inference speed via new hardware"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-4.5 was designed to feel more natural and emotionally intelligent in conversation, prioritizing the texture of human interaction over raw benchmark performance. This contrasted with reasoning-focused models (o1, o3) which optimized for deep problem-solving at the expense of conversational feel."
+        },
+        {
+          "question": "When OpenAI deprecates a model, what typically happens to API calls targeting that model ID?",
+          "options": [
+            "The API call immediately returns an error with no fallback",
+            "The call is automatically routed to a designated successor model",
+            "Developers must pay a legacy access fee to keep using it",
+            "The model remains available indefinitely at reduced capacity"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's standard deprecation practice routes API calls targeting a retired model ID to a designated successor model after the cutover date, giving developers time to test and update. This prevents immediate breakage but may change response characteristics, so proactive migration is still strongly recommended."
+        }
+      ]
+    }
+  ]
+}
