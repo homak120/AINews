@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T12:00:00.000Z",
+  "generatedAt": "2026-07-01T18:00:00.000Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-06-29",
   "coverageEnd": "2026-07-01",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "Claude Science targets the fragmented workflow pain of computational researchers — jumping between databases, pipelines, and manuscript tools — and consolidates it into one auditable environment. If it delivers on reproducibility, it could meaningfully accelerate drug discovery and life sciences research timelines.",
       "tags": ["anthropic", "claude-science", "ai-research-tools", "scientific-computing", "life-sciences", "ai-workbench"],
-      "relatedIds": ["article-anthropic-fable-mythos-restrictions-lifted-20260701"],
+      "relatedIds": ["article-anthropic-fable-mythos-restrictions-lifted-20260701", "article-claude-sonnet-5-launch-20260630"],
       "knowledgeChecks": [
         {
           "question": "Which of the following is a key feature of Anthropic's Claude Science workbench?",
@@ -216,6 +216,180 @@
           ],
           "correctIndex": 1,
           "explanation": "By banning 'fully AI-generated' music from monetization, TIDAL's policy implies that a meaningful human creative contribution is required for royalty eligibility. It does not mandate PRO registration, AI tool disclosure, or streaming minimums as the determining factor."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-sonnet-5-launch-20260630",
+      "type": "article",
+      "title": "Anthropic Launches Claude Sonnet 5 as Default Model — Near-Opus Performance at Agent-Friendly Pricing",
+      "sourceUrl": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "verified": false,
+      "publishedAt": "2026-06-30",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic launched Claude Sonnet 5 on June 30, 2026, positioning it as the most agentic mid-tier model the company has built — capable of autonomous planning, browser and terminal use, and sustained coding at a level previously reserved for larger frontier models. At introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, Sonnet 5 undercuts OpenAI's GPT-5.5 and Google's Gemini 3.1 Pro while benchmarking within striking distance of Anthropic's own Opus 4.8. Starting July 1, Sonnet 5 became the default model for all Claude Free and Pro users and went live across Claude Code, the Claude API, Cursor, VS Code, and GitHub Copilot.",
+      "keyConcepts": [
+        "Agentic mid-tier model design",
+        "Cost-performance tradeoff at frontier scale",
+        "Token pricing windows and introductory rates",
+        "Default model rollout strategy"
+      ],
+      "whyItMatters": "Sonnet 5 is the most directly actionable release of the week for practitioners: it's cheaper than running Opus 4.8, available in all the major AI coding tools, and performs well enough on agentic tasks to replace Opus for most production agent workflows. The $2 introductory price through August creates a narrow window to build and test at unusually low cost.",
+      "tags": ["claude-sonnet-5", "anthropic", "ai-agents", "pricing", "frontier-models", "ai-engineering"],
+      "relatedIds": ["article-anthropic-claude-science-workbench-20260630", "youtube-hKHyx75WVk0"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Sonnet 5's introductory API pricing through August 31, 2026?",
+          "options": [
+            "$2 per million input tokens and $10 per million output tokens",
+            "$3 per million input tokens and $15 per million output tokens",
+            "$1 per million input tokens and $5 per million output tokens",
+            "$5 per million input tokens and $20 per million output tokens"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sonnet 5 launched at an introductory rate of $2 per million input tokens and $10 per million output tokens through August 31, 2026 — after which standard pricing moves to $3 input / $15 output per million, matching Sonnet 4.6's standard rate. The introductory window makes it the most cost-effective time to build agentic workflows on the model."
+        },
+        {
+          "question": "Which of the following best describes Sonnet 5's benchmark position relative to other Anthropic models?",
+          "options": [
+            "It matches Sonnet 4.6 exactly and was released primarily as a cost reduction",
+            "It surpasses Opus 4.8 on all benchmarks and is now Anthropic's flagship model",
+            "It performs within striking distance of Opus 4.8 on most tasks, including agentic benchmarks",
+            "It underperforms both Sonnet 4.6 and Opus 4.8 but is significantly cheaper"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic positioned Sonnet 5 as performing close to Opus 4.8 — including on the agentic benchmarks most relevant to developers — at a substantially lower price. It does not surpass Opus 4.8 across the board, and it is a meaningful upgrade over Sonnet 4.6 rather than a lateral price move."
+        }
+      ]
+    },
+    {
+      "id": "article-together-ai-800m-series-c-20260701",
+      "type": "article",
+      "title": "Together AI Raises $800M at $8.3B Valuation to Scale Open-Source AI Infrastructure 50x",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-$800-Million-at-$8.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Together AI announced a $800 million Series C round on July 1, 2026, at an $8.3 billion post-money valuation — led by Saudi Aramco's Prosperity7 venture arm, with participation from NVIDIA, Vista Equity Partners, General Catalyst, Emergence Capital, and others. The company, which provides inference infrastructure for open-weight models including DeepSeek, Nemotron, MiniMax, and Kimi, plans to use the capital to expand its product surface and scale its infrastructure footprint roughly 50-fold over the next five years. The raise represents a dramatic acceleration from Together AI's $3.3 billion valuation in a February 2025 round and reflects sustained investor conviction in open-source AI compute as an independent business layer beneath closed frontier models.",
+      "keyConcepts": [
+        "Open-source AI inference infrastructure",
+        "Series C venture capital dynamics in AI",
+        "Aramco Ventures strategic AI investment",
+        "Open-weight model commercialization"
+      ],
+      "whyItMatters": "Together AI's raise signals that the open-source AI inference layer is now large enough to attract sovereign wealth and strategic investors at frontier valuations — not just AI-native VCs. For developers, it means the infrastructure for running open-weight models at scale is becoming better-capitalized and more stable, which matters as DeepSeek and its successors move from research curiosities to production workloads.",
+      "tags": ["together-ai", "open-source-ai", "ai-infrastructure", "series-c", "aramco", "nvidia"],
+      "relatedIds": ["youtube-Q1nb1W0Yr7Q"],
+      "knowledgeChecks": [
+        {
+          "question": "Who led Together AI's $800 million Series C round announced July 1, 2026?",
+          "options": [
+            "Sequoia Capital, with NVIDIA as a strategic co-investor",
+            "Aramco's Prosperity7 venture arm, with participation from NVIDIA and General Catalyst",
+            "SoftBank Vision Fund, continuing its pattern of large AI infrastructure bets",
+            "Microsoft, as part of its open-source AI diversification strategy"
+          ],
+          "correctIndex": 1,
+          "explanation": "Together AI's Series C was led by Aramco Ventures (specifically the Prosperity7 arm), with NVIDIA, Vista Equity Partners, General Catalyst, Emergence Capital, and others participating. Sequoia, SoftBank, and Microsoft were not named among the investors in this round."
+        },
+        {
+          "question": "What is Together AI's stated infrastructure growth target over the next five years?",
+          "options": [
+            "Double its current capacity to serve growing demand",
+            "Grow its infrastructure footprint roughly 50-fold",
+            "Achieve 10x capacity growth while reducing per-token costs by 90%",
+            "Match the compute capacity of Microsoft's Azure AI division"
+          ],
+          "correctIndex": 1,
+          "explanation": "Together AI stated it expects its infrastructure footprint to grow roughly 50-fold over the next five years — an unusually aggressive target that reflects the scale of capital being deployed and the company's projection of open-weight model adoption across enterprise and developer markets."
+        }
+      ]
+    },
+    {
+      "id": "youtube-hKHyx75WVk0",
+      "type": "video",
+      "title": "Claude Sonnet 5: Opus Power at 1/3 the Price (and the $2 Window That Closes Aug 31)",
+      "youtubeId": "hKHyx75WVk0",
+      "sourceUrl": "https://www.youtube.com/watch?v=hKHyx75WVk0",
+      "verified": false,
+      "publishedAt": "2026-06-30",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Wes Roth breaks down Anthropic's Claude Sonnet 5 launch, analyzing whether the model's near-Opus 4.8 benchmark performance justifies its positioning as the go-to model for agentic workflows. The video focuses on the practical cost calculus: Sonnet 5 at $2 input/$10 output (introductory) versus Opus 4.8's significantly higher rates, and what that means for developers building production agent pipelines. Roth also flags the August 31 pricing cliff and what teams should do before the introductory window closes.",
+      "keyConcepts": [
+        "Sonnet 5 vs Opus 4.8 performance gap",
+        "Introductory pricing window strategy",
+        "Agentic pipeline cost modeling",
+        "Mid-tier frontier model positioning"
+      ],
+      "whyItMatters": "For developers choosing between models for production agentic systems, Sonnet 5's introductory pricing makes the cost-performance calculus unusually clear: near-Opus performance at roughly one-third the cost is a meaningful shift. Wes Roth's framing of the August 31 deadline adds useful urgency for teams still evaluating whether to migrate existing workflows.",
+      "tags": ["claude-sonnet-5", "anthropic", "wes-roth", "ai-agents", "pricing", "model-comparison"],
+      "relatedIds": ["article-claude-sonnet-5-launch-20260630", "article-anthropic-claude-science-workbench-20260630"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Wes Roth's analysis, what is the primary practical reason to use Claude Sonnet 5 over Opus 4.8 for agentic tasks right now?",
+          "options": [
+            "Sonnet 5 outperforms Opus 4.8 on every agentic benchmark",
+            "Opus 4.8 has been deprecated and is no longer available",
+            "Sonnet 5 natively supports multi-agent coordination that Opus 4.8 lacks",
+            "Sonnet 5 delivers near-Opus performance at roughly one-third the cost during the introductory pricing window"
+          ],
+          "correctIndex": 3,
+          "explanation": "Roth's core argument is economic: Sonnet 5 closes most of the performance gap with Opus 4.8 while costing significantly less, making it the rational default for production agentic workflows during the introductory window. Sonnet 5 does not universally beat Opus 4.8 on every benchmark, and Opus 4.8 has not been deprecated."
+        },
+        {
+          "question": "What specific deadline does Wes Roth highlight as significant for developers evaluating Claude Sonnet 5?",
+          "options": [
+            "July 15 — when Anthropic will restrict Sonnet 5 API access to enterprise customers",
+            "August 31 — when introductory pricing ends and standard rates take effect",
+            "September 30 — when Claude Sonnet 6 is expected to launch and replace Sonnet 5",
+            "October 1 — when EU AI Act compliance requirements take effect for agentic systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "The August 31 deadline is when Sonnet 5's introductory pricing of $2 input/$10 output per million tokens ends, reverting to the standard $3 input/$15 output rate. Roth frames this as a meaningful window for developers to evaluate, prototype, and potentially lock in workflows while the economic advantage is clearest."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Q1nb1W0Yr7Q",
+      "type": "video",
+      "title": "Weekly AI Roundup: Alibaba Distillation, UN Safety Warning, Together AI $800M — July 1, 2026",
+      "youtubeId": "Q1nb1W0Yr7Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=Q1nb1W0Yr7Q",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID's Weekly Roundup #520 covers the week's biggest AI stories: Anthropic's allegation that Alibaba used 25,000 fraudulent accounts to run 28.8 million Claude conversations in a large-scale model distillation attack targeting agentic and cybersecurity capabilities. The roundup also covers the UN's independent scientific panel delivering its first global AI assessment — warning that AI capabilities are outpacing the scientific community's understanding — and Together AI closing an $800 million Series C at an $8.3 billion valuation. Additional stories include chipmaker earnings, Washington's move to block a Chinese AI lab, and Netflix's use of ElevenLabs to recreate Gene Wilder's voice for a competition series.",
+      "keyConcepts": [
+        "Model distillation attacks at scale",
+        "UN global AI risk assessment",
+        "Open-source AI infrastructure investment",
+        "AI creative voice synthesis"
+      ],
+      "whyItMatters": "This week's news shows three concurrent AI battlegrounds: IP and security (Alibaba distillation), governance (UN assessment), and infrastructure (Together AI funding). The simultaneity of these developments — not any single story — signals that AI is entering a phase where commercial, regulatory, and security pressures are colliding in real time rather than sequentially.",
+      "tags": ["theaigrid", "weekly-roundup", "alibaba", "distillation", "un-ai-report", "together-ai"],
+      "relatedIds": ["article-together-ai-800m-series-c-20260701", "article-anthropic-fable-mythos-restrictions-lifted-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "What technique did Alibaba allegedly use to extract Claude's agentic and cybersecurity capabilities?",
+          "options": [
+            "Recruiting Anthropic employees to share proprietary training data",
+            "Reverse engineering Claude's API response patterns through statistical analysis",
+            "Using 25,000 fraudulent accounts to run 28.8 million conversations and distill the model's outputs",
+            "Intercepting encrypted Claude API traffic through a compromised cloud provider"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic alleged that operators affiliated with Alibaba's Qwen AI lab used approximately 25,000 fraudulent accounts to generate 28.8 million exchanges with Claude over a 44-day window — specifically targeting agentic reasoning, software engineering, and cybersecurity capabilities. This technique, known as model distillation, allows a lab to train its own model to imitate a stronger one without building the original capabilities from scratch."
+        },
+        {
+          "question": "What did the UN's independent scientific panel conclude in its first global AI assessment?",
+          "options": [
+            "AI capabilities are outpacing the scientific community's ability to understand the systems being built",
+            "Current AI systems pose no existential risk and concerns have been overstated by media",
+            "AI regulation should be handled exclusively at the national level rather than internationally",
+            "Frontier AI development should be paused until interpretability research catches up"
+          ],
+          "correctIndex": 0,
+          "explanation": "The UN independent scientific panel co-chaired by Yoshua Bengio delivered its first global AI assessment warning that AI capabilities are advancing faster than scientific understanding of those systems — a concern distinct from calls for a moratorium. The panel did not recommend a pause or endorse purely national regulation, and it did not conclude that risks have been overstated."
         }
       ]
     }
