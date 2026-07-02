@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-07-02T10:00:00.000Z",
+  "weekOf": "2026-06-29",
+  "coverageStart": "2026-07-01",
+  "coverageEnd": "2026-07-01",
+  "items": [
+    {
+      "id": "youtube-OCnssLZbt9E",
+      "type": "video",
+      "title": "Claude Sonnet 5 Launch and Fable 5 Return: Developer Breakdown",
+      "youtubeId": "OCnssLZbt9E",
+      "sourceUrl": "https://www.youtube.com/watch?v=OCnssLZbt9E",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Matthew Berman breaks down July 1's twin Anthropic announcements: Claude Sonnet 5 launching as the new default model for Free and Pro users at $2/M input tokens, and the simultaneous return of Claude Fable 5 and Mythos 5 after a 19-day suspension caused by US export controls. The video explains the safety measures Anthropic agreed to in exchange for lifting the restrictions, and examines Sonnet 5's positioning as the most agentic Sonnet model yet with performance approaching Opus 4.8 at a fraction of the cost.",
+      "keyConcepts": [
+        "Claude Sonnet 5 agentic capabilities",
+        "Fable 5 export control history",
+        "AI safety negotiation precedents",
+        "Introductory model pricing strategy"
+      ],
+      "whyItMatters": "On the same day Anthropic's frontier model returned to global users, it launched a cheaper agentic model for everyday deployment — a two-pronged move that addresses both frontier AI governance and cost-efficiency. The safety agreement Anthropic signed sets a template for how future government–lab disputes may be resolved.",
+      "tags": ["anthropic", "claude-sonnet-5", "fable-5", "ai-models", "export-controls", "model-pricing"],
+      "relatedIds": ["article-un-ai-panel-preliminary-report-20260701", "article-anthropic-fable5-jailbreak-standard-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the introductory price for Claude Sonnet 5 input tokens?",
+          "options": [
+            "$15 per million tokens",
+            "$8 per million tokens",
+            "$2 per million tokens",
+            "$0.50 per million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic launched Claude Sonnet 5 at an introductory price of $2 per million input tokens (and $10 per million output tokens) through August 31, 2026 — significantly cheaper than Opus 4.8 while offering comparable performance on many agentic benchmarks."
+        },
+        {
+          "question": "Why were Claude Fable 5 and Mythos 5 suspended from public access in June 2026?",
+          "options": [
+            "Anthropic voluntarily paused them to add new features",
+            "The EU AI Act required a safety review before European launch",
+            "US export controls were imposed after a jailbreak exposing cyberattack-relevant outputs was discovered",
+            "Google filed a patent dispute that temporarily blocked model deployment"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon researchers discovered a jailbreak method that could prompt Fable 5 to produce information useful for cyberattacks. The US Commerce Department imposed export controls requiring per-license approval for foreign nationals — effectively forcing Anthropic to suspend global access — until a safety agreement was reached 19 days later."
+        }
+      ]
+    },
+    {
+      "id": "article-un-ai-panel-preliminary-report-20260701",
+      "type": "article",
+      "title": "UN Scientific Panel Warns AI Capabilities Are Outpacing the Science Needed to Govern Them",
+      "sourceUrl": "https://news.un.org/en/story/2026/07/1167853",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The United Nations' Independent International Scientific Panel on AI, co-chaired by deep learning pioneer Yoshua Bengio, released the first-ever global assessment of AI risks, opportunities, and impacts on July 1, 2026. The panel of 40 scientists and experts from every world region found that AI capabilities are advancing faster than the scientific understanding needed to manage their risks safely, warning that unchecked progress could cause catastrophic harm. The report serves as the foundation document for the UN Global Dialogue on AI Governance convening in Geneva on July 6–7, 2026.",
+      "keyConcepts": [
+        "AI capability-safety gap",
+        "International AI risk assessment",
+        "UN Global Dialogue on AI Governance",
+        "Yoshua Bengio co-chair role"
+      ],
+      "whyItMatters": "This is the first coordinated global scientific consensus on AI risk — produced by 40 independent experts across every world region, not a single government or lab. Its findings are designed to directly shape binding governance discussions at the Geneva summit, making it arguably the most consequential AI policy document of 2026.",
+      "tags": ["un-ai-panel", "yoshua-bengio", "ai-governance", "ai-safety", "global-ai-policy", "geneva-summit"],
+      "relatedIds": ["youtube-OCnssLZbt9E", "article-anthropic-fable5-jailbreak-standard-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "Who co-chairs the UN Independent International Scientific Panel on AI?",
+          "options": [
+            "Sam Altman of OpenAI",
+            "Yoshua Bengio, a deep learning pioneer",
+            "Geoffrey Hinton, the 'Godfather of AI'",
+            "Demis Hassabis of Google DeepMind"
+          ],
+          "correctIndex": 1,
+          "explanation": "The UN panel is co-chaired by Yoshua Bengio, one of the pioneers of deep learning and a prominent advocate for AI safety research. The panel comprises 40 experts from every world region to provide a globally representative scientific assessment."
+        },
+        {
+          "question": "What is the main finding of the UN Independent Scientific Panel's July 2026 preliminary report?",
+          "options": [
+            "AI is developing too slowly to pose near-term risks to society",
+            "Most AI safety concerns are overstated by researchers with commercial interests",
+            "AI capabilities are advancing faster than the scientific understanding needed to govern them safely",
+            "Current international AI regulations are sufficient to prevent catastrophic outcomes"
+          ],
+          "correctIndex": 2,
+          "explanation": "The panel's central finding is that AI capabilities are outpacing the science and governance frameworks designed to manage their risks. Panel co-chair Yoshua Bengio specifically warned that current safeguards cannot keep pace with AI trends, making the capability-safety science gap the report's defining concern."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fable5-jailbreak-standard-20260701",
+      "type": "article",
+      "title": "Anthropic Unveils New Fable 5 Safety Classifier and Proposes Industry-Wide Jailbreak Severity Framework",
+      "sourceUrl": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "As part of the deal to restore Claude Fable 5's global access, Anthropic detailed new technical safeguards: a safety classifier that specifically targets and blocks the jailbreak technique Amazon researchers identified, effective in over 99% of cases. Separately, Anthropic is proposing an industry-wide framework for scoring jailbreak severity in partnership with Amazon, Microsoft, and Google — a first-of-its-kind collaborative standard aimed at creating consistent benchmarks for rating how dangerous different types of AI safety failures are across labs.",
+      "keyConcepts": [
+        "AI safety classifier training",
+        "Jailbreak severity scoring framework",
+        "Cross-lab AI safety standards",
+        "Responsible disclosure in AI security"
+      ],
+      "whyItMatters": "The proposed cross-lab jailbreak severity standard is as significant as the Fable 5 restoration itself. If adopted broadly, it would give governments, enterprises, and researchers a shared vocabulary for assessing AI safety failures — potentially streamlining future regulatory responses and making AI incident reporting more actionable across the industry.",
+      "tags": ["anthropic", "fable-5", "ai-safety-classifier", "jailbreak-severity", "industry-standard", "ai-security"],
+      "relatedIds": ["youtube-OCnssLZbt9E", "article-un-ai-panel-preliminary-report-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "How effective is Anthropic's new safety classifier at blocking the identified Fable 5 jailbreak technique?",
+          "options": [
+            "Approximately 60% of cases",
+            "Approximately 80% of cases",
+            "Over 99% of cases",
+            "100% of all tested scenarios"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic trained a new safety classifier specifically targeting the jailbreak method identified by Amazon researchers, and reported it blocks the specific technique in over 99% of tested cases. The residual cases likely represent novel prompt variations, which is why the broader industry standard framework is also being proposed."
+        },
+        {
+          "question": "Which companies are partnering with Anthropic to develop the proposed industry-wide jailbreak severity standard?",
+          "options": [
+            "OpenAI, Meta, and Mistral",
+            "Amazon, Microsoft, and Google",
+            "DeepMind, xAI, and Cohere",
+            "IBM, Salesforce, and Oracle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic is working with Amazon, Microsoft, and Google to develop a shared framework for scoring the severity of AI jailbreaks. This cross-company collaboration is notable because it brings together direct competitors around a shared AI safety standard — a model for industry self-governance ahead of formal regulation."
+        }
+      ]
+    }
+  ]
+}

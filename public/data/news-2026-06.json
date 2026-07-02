@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T08:00:00Z",
-  "weekOf": "2026-06-01",
+  "generatedAt": "2026-07-02T03:16:15.408Z",
+  "weekOf": "2026-05-31",
   "coverageStart": "2026-05-31",
   "coverageEnd": "2026-06-01",
   "items": [
@@ -11,7 +11,10 @@
       "sourceUrl": "https://findskill.ai/blog/github-copilot-ai-credits-billing-june-2026/",
       "verified": false,
       "publishedAt": "2026-06-01",
-      "topics": ["ai-engineering", "ai-career"],
+      "topics": [
+        "ai-engineering",
+        "ai-career"
+      ],
       "summary": "GitHub Copilot's billing model shifted from flat monthly pricing to usage-based AI Credits on June 1, 2026. Every plan now receives a monthly allotment of AI Credits (1 credit = $0.01 USD), metered by input, output, and cached tokens consumed per session. Code completions and next-edit suggestions remain unlimited for all paid plans, but heavy agentic usage — like multi-file refactors and agent mode — now burns through credits at variable rates depending on the model selected.",
       "keyConcepts": [
         "GitHub AI Credits (1 credit = $0.01 USD)",
@@ -20,8 +23,17 @@
         "Token metering across Copilot plan tiers"
       ],
       "whyItMatters": "Developers who rely on Copilot's agentic features face real cost uncertainty for the first time — the shift rewards light users but penalizes power users unless they actively monitor credit consumption. AI engineers building on Copilot APIs need to update their cost models immediately.",
-      "tags": ["github-copilot", "developer-tools", "ai-billing", "agentic-ai", "coding-ai"],
-      "relatedIds": ["windowsforum-copilot-billing-june-2026", "digit-microsoft-build-2026-polaris"],
+      "tags": [
+        "github-copilot",
+        "developer-tools",
+        "ai-billing",
+        "agentic-ai",
+        "coding-ai"
+      ],
+      "relatedIds": [
+        "windowsforum-copilot-billing-june-2026",
+        "digit-microsoft-build-2026-polaris"
+      ],
       "knowledgeChecks": [
         {
           "question": "Under GitHub Copilot's new June 1, 2026 billing model, how is 1 AI Credit valued in USD?",
@@ -54,7 +66,10 @@
       "sourceUrl": "https://tbreak.com/nvidia-n1-n1x-laptop-chips-computex/",
       "verified": false,
       "publishedAt": "2026-06-01",
-      "topics": ["ai-engineering", "ai-research"],
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
       "summary": "Jensen Huang unveiled the NVIDIA N1X at the Computex/GTC Taipei 2026 keynote on June 1 — the company's first ARM-based SoC for Windows laptops. The chip pairs a 20-core ARM CPU with a Blackwell GPU carrying 6,144 CUDA cores (equivalent to the desktop RTX 5070), enabling the full CUDA software stack — PyTorch, TensorRT, and llama.cpp — to run natively on a Windows ARM device without code changes. Dell, Lenovo, Asus, and MSI are confirmed OEM partners with devices targeting the 2026 holiday season.",
       "keyConcepts": [
         "ARM + Blackwell GPU in a single SoC",
@@ -63,7 +78,14 @@
         "TensorRT and llama.cpp native support"
       ],
       "whyItMatters": "AI engineers who depend on cloud GPUs for serious inference work can now run CUDA workloads — model fine-tuning, TensorRT optimization, local LLM inference — on a laptop. This is the first chip that brings Nvidia's full AI developer stack to a portable Windows device, potentially reshaping on-device AI development workflows.",
-      "tags": ["nvidia", "computex", "cuda", "arm-chip", "local-inference", "ai-hardware"],
+      "tags": [
+        "nvidia",
+        "computex",
+        "cuda",
+        "arm-chip",
+        "local-inference",
+        "ai-hardware"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -97,7 +119,10 @@
       "sourceUrl": "https://www.digit.in/news/general/microsoft-may-unveil-new-coding-focused-ai-model-next-week-here-is-what-we-know.html",
       "verified": false,
       "publishedAt": "2026-05-31",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "Microsoft Build 2026 opens June 2 in San Francisco with Satya Nadella's keynote expected to unveil Project Polaris, a homegrown coding AI model trained exclusively on permissible data and backed by a Code Content Guarantee against IP claims. Alongside Polaris, Microsoft is readying MAI-Image-2.5, MAI-Voice-2 (multilingual), and MAI-Transcribe-1.5 — the first cohort of fully in-house models following the April 2026 renegotiation with OpenAI that removed foundation model restrictions. GitHub Copilot will be powered by Polaris starting August 2026.",
       "keyConcepts": [
         "Project Polaris (homegrown coding model for GitHub Copilot)",
@@ -106,8 +131,17 @@
         "Microsoft's strategic shift away from OpenAI dependency"
       ],
       "whyItMatters": "Microsoft building its own frontier coding model signals a fundamental shift in the developer AI landscape — one where GitHub Copilot no longer depends on OpenAI's models. For AI practitioners, it means Copilot's performance, pricing, and data policies will increasingly be set by Microsoft's own model roadmap rather than third-party partnerships.",
-      "tags": ["microsoft", "github-copilot", "project-polaris", "mai-models", "build-2026", "coding-ai"],
-      "relatedIds": ["findskill-github-copilot-ai-credits-june-2026"],
+      "tags": [
+        "microsoft",
+        "github-copilot",
+        "project-polaris",
+        "mai-models",
+        "build-2026",
+        "coding-ai"
+      ],
+      "relatedIds": [
+        "findskill-github-copilot-ai-credits-june-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is the name of Microsoft's homegrown coding AI model planned for GitHub Copilot at Build 2026?",
@@ -141,7 +175,10 @@
       "verified": false,
       "publishedAt": "2026-05-31",
       "dateEstimated": true,
-      "topics": ["ai-career", "ai-industry"],
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
       "summary": "Colorado's sweeping Artificial Intelligence Act — one of the first comprehensive state AI laws in the US — was effectively repealed when Governor Polis signed SB 26-189 in May 2026, replacing it with a narrower automated decision-making framework. A federal magistrate judge also stayed enforcement in April. The new law drops broad risk management mandates, impact assessments, and annual reviews, replacing them with targeted notice requirements, adverse action rights, and a three-year records retention mandate — but only for AI used in high-stakes employment decisions. Full compliance is delayed until January 1, 2027.",
       "keyConcepts": [
         "Colorado AI Act (CAIA) repeal via SB 26-189",
@@ -150,7 +187,13 @@
         "Notice, adverse action rights, and records retention requirements"
       ],
       "whyItMatters": "Colorado's retreat from broad AI workplace regulation is a bellwether for other states: passing comprehensive AI laws faces serious legal and business headwinds. HR and legal teams at companies using AI in hiring, promotion, or compensation decisions still need to prepare for the narrower ADMT rules effective January 2027, but the compliance burden is significantly lighter than originally planned.",
-      "tags": ["ai-regulation", "colorado-ai-act", "employment-ai", "ai-policy", "automated-decision-making"],
+      "tags": [
+        "ai-regulation",
+        "colorado-ai-act",
+        "employment-ai",
+        "ai-policy",
+        "automated-decision-making"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -185,7 +228,10 @@
       "verified": false,
       "publishedAt": "2026-05-31",
       "dateEstimated": true,
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "Microsoft's May 2026 Copilot Studio update ships computer-using agents that can navigate, click, and interact with any desktop application — including legacy software without APIs. The release also introduces a redesigned workflow experience for building multi-step agentic pipelines and adds real-time voice for conversational agents. These updates enable developers to automate any UI-driven process without building custom connectors or waiting for API access.",
       "keyConcepts": [
         "Computer-using agents (CUA) for desktop automation",
@@ -194,8 +240,17 @@
         "Real-time voice for conversational agents"
       ],
       "whyItMatters": "Computer-using agents remove the last major bottleneck to agentic automation: the requirement that target software expose an API. Enterprises can now automate workflows across decades-old systems — ERP platforms, internal tools, thick-client apps — by pointing a Copilot Studio agent at the screen rather than the API docs.",
-      "tags": ["microsoft", "copilot-studio", "computer-using-agents", "agentic-ai", "workflow-automation", "enterprise-ai"],
-      "relatedIds": ["digit-microsoft-build-2026-polaris"],
+      "tags": [
+        "microsoft",
+        "copilot-studio",
+        "computer-using-agents",
+        "agentic-ai",
+        "workflow-automation",
+        "enterprise-ai"
+      ],
+      "relatedIds": [
+        "digit-microsoft-build-2026-polaris"
+      ],
       "knowledgeChecks": [
         {
           "question": "What key capability do computer-using agents in Copilot Studio provide that traditional RPA and API-based integrations do not?",
