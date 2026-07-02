@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-02T10:00:00.000Z",
+  "generatedAt": "2026-07-02T18:00:00.000Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-07-01",
-  "coverageEnd": "2026-07-01",
+  "coverageEnd": "2026-07-02",
   "items": [
     {
       "id": "youtube-OCnssLZbt9E",
@@ -131,6 +131,178 @@
           ],
           "correctIndex": 1,
           "explanation": "Anthropic is working with Amazon, Microsoft, and Google to develop a shared framework for scoring the severity of AI jailbreaks. This cross-company collaboration is notable because it brings together direct competitors around a shared AI safety standard — a model for industry self-governance ahead of formal regulation."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-science-20260701",
+      "type": "article",
+      "title": "Anthropic Launches Claude Science, an AI Workbench for Scientific Research",
+      "sourceUrl": "https://dataconomy.com/2026/07/01/anthropic-claude-science-ai-research-launch/",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic launched Claude Science in beta on July 1, 2026 — an AI workbench that integrates over 60 curated scientific databases and tools for genomics, proteomics, structural biology, and cheminformatics into a single collaborative environment. Unlike general-purpose AI assistants, Claude Science runs a coordinating agent that can spawn specialist sub-agents and connect to compute resources, producing auditable research artifacts alongside results. Anthropic is offering up to 50 'AI for Science' grants of $30,000 in credits each, with applications open through July 15.",
+      "keyConcepts": [
+        "Multi-agent scientific workflows",
+        "Scientific database integration (60+ connectors)",
+        "Auditable AI research artifacts",
+        "AI for Science grant program"
+      ],
+      "whyItMatters": "Claude Science signals Anthropic moving beyond general assistants into domain-specific, regulated environments — a strategic positioning against Microsoft Copilot for Science and Google's AI for Science efforts. The agent-of-agents architecture paired with 60+ curated connectors could materially accelerate hypothesis-to-experiment cycles in biopharma and genomics research.",
+      "tags": ["anthropic", "claude-science", "scientific-ai", "ai-research-tools", "biopharma", "agentic-ai"],
+      "relatedIds": ["youtube-OCnssLZbt9E", "article-anthropic-fable5-jailbreak-standard-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "How many curated scientific databases and connectors come pre-configured in Claude Science at launch?",
+          "options": [
+            "15 databases",
+            "30 databases",
+            "Over 60 databases and connectors",
+            "Over 200 databases and connectors"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Science launches with over 60 curated skills and connectors pre-configured for genomics, single-cell analysis, proteomics, structural biology, cheminformatics, and more — allowing researchers to connect to domain-specific data sources without custom integration work."
+        },
+        {
+          "question": "What is the maximum grant value Anthropic is offering through the Claude Science 'AI for Science' program?",
+          "options": [
+            "$5,000 in API credits",
+            "$10,000 in API credits",
+            "$30,000 in API credits",
+            "$100,000 in API credits"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic is funding up to 50 'AI for Science' projects with grants of up to $30,000 in Claude Science credits each. Applications close July 15, 2026, with award notifications going out by July 31."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-grok-voice-agent-builder-20260701",
+      "type": "article",
+      "title": "xAI Launches Grok Voice Agent Builder, a No-Code Platform for AI Phone Agents",
+      "sourceUrl": "https://x.ai/news/grok-voice-agent-builder",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "xAI launched the Grok Voice Agent Builder in beta on July 1, 2026 — a no-code platform that converts a plain-language call script into a live phone agent in approximately two minutes. The platform uses a single end-to-end speech-to-speech model rather than the typical three-API pipeline (STT → LLM → TTS), achieving sub-second response times at $0.05 per minute with voices included. The builder offers 80+ voices, voice cloning from two minutes of audio, 25+ languages with mid-conversation switching, and direct SIP trunking to port existing corporate contact-center infrastructure.",
+      "keyConcepts": [
+        "End-to-end speech-to-speech model",
+        "No-code voice agent deployment",
+        "SIP trunking for enterprise telephony",
+        "Voice cloning from minimal audio samples"
+      ],
+      "whyItMatters": "xAI's entry into the voice-agent market pits it directly against specialist providers like Vapi and Retell AI. The $0.05/min all-in pricing undercuts most competitors, while Grok's real-time data access gives voice agents a freshness advantage over rivals using static knowledge bases. The no-code builder also expands the addressable market well beyond developers.",
+      "tags": ["xai", "grok", "voice-agents", "call-center-ai", "no-code-ai", "ai-telephony"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the per-minute pricing for the Grok Voice Agent Builder, with voices included?",
+          "options": [
+            "$0.01 per minute",
+            "$0.05 per minute",
+            "$0.20 per minute",
+            "$1.00 per minute"
+          ],
+          "correctIndex": 1,
+          "explanation": "xAI priced the Grok Voice Agent Builder at $0.05 per minute with voices already included. This all-in pricing undercuts most standalone voice-agent and TTS providers who charge separately for speech synthesis on top of inference costs."
+        },
+        {
+          "question": "What architectural approach does Grok Voice Agent Builder use to achieve sub-second response times?",
+          "options": [
+            "Pre-generated audio cache populated before each call",
+            "GPT-4-turbo used for fast LLM inference in the pipeline",
+            "A single end-to-end speech-to-speech model eliminating the STT → LLM → TTS handoff chain",
+            "Edge hardware deployed at carrier PoPs near each caller"
+          ],
+          "correctIndex": 2,
+          "explanation": "Traditional voice stacks chain three separate models: speech-to-text (STT), a language model, and text-to-speech (TTS). xAI uses a single speech-to-speech model that collapses all three stages, eliminating the latency introduced by passing audio through multiple model inference steps."
+        }
+      ]
+    },
+    {
+      "id": "article-cais-rli-fable5-20260702",
+      "type": "article",
+      "title": "Fable 5 Leads Remote Labor Index at 16.1%, More Than Double the Next-Best AI Model",
+      "sourceUrl": "https://safe.ai/blog/significant-increase-in-digital-labor-automation",
+      "verified": false,
+      "publishedAt": "2026-07-02",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "The Center for AI Safety (CAIS) and Scale AI Labs released updated Remote Labor Index (RLI) results on July 2, 2026, showing Claude Fable 5 achieving a 16.1% automation rate on 240 real remote-work freelance projects across 23 professional domains — the highest ever recorded, and roughly double second-place Opus 4.8 at 8.3%. GPT-5.5 trailed at 6.3%. When the RLI launched, the best-performing model completed only 2.5% of projects to professional quality; the jump to 16.1% represents more than a 6× improvement in under a year.",
+      "keyConcepts": [
+        "Remote Labor Index methodology",
+        "Professional-quality task completion benchmark",
+        "Fable 5 agentic performance at 16.1%",
+        "AI automation rate trajectory"
+      ],
+      "whyItMatters": "The RLI is one of the few benchmarks that measures AI on real economic output — actual freelance projects judged by a paying-client quality standard — rather than curated academic tasks. Fable 5 more than doubling the field suggests a qualitative threshold in agentic reliability has been crossed: AI can now autonomously complete roughly 1 in 6 remote professional tasks to client standards, with direct implications for workforce automation timelines.",
+      "tags": ["remote-labor-index", "fable-5", "ai-benchmarks", "ai-automation", "cais", "ai-workforce"],
+      "relatedIds": ["youtube-OCnssLZbt9E", "article-anthropic-fable5-jailbreak-standard-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "What automation rate did Fable 5 achieve on the Remote Labor Index in the July 2026 update?",
+          "options": [
+            "4.2%",
+            "8.3%",
+            "16.1%",
+            "24.5%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fable 5 achieved a 16.1% automation rate on 240 real remote-work projects in the July 2026 RLI update — the highest ever recorded. Opus 4.8 placed second at 8.3%, and GPT-5.5 reached 6.3%. When the benchmark first launched, the best model scored only 2.5%."
+        },
+        {
+          "question": "What makes the Remote Labor Index different from most AI benchmarks?",
+          "options": [
+            "It uses only synthetic data generated by a separate AI to avoid human bias",
+            "It measures AI on curated academic tasks selected by researchers at top universities",
+            "It measures completion of real freelance projects judged by a paying-client quality standard",
+            "It runs AI against standardized government aptitude test questions"
+          ],
+          "correctIndex": 2,
+          "explanation": "The RLI is distinctive because it evaluates AI on real, economically valuable freelance projects — not curated academic tasks. Quality is judged by the standard a paying client would actually accept, making it one of the most direct proxies available for the real-world economic impact of AI automation."
+        }
+      ]
+    },
+    {
+      "id": "article-ubtech-uworld-u1-20260701",
+      "type": "article",
+      "title": "UBTECH Launches UWORLD U1 Series: Mass-Produced Full-Size Humanoid Robots for Consumers and Enterprise",
+      "sourceUrl": "https://technode.com/2026/07/01/ubtech-unveils-consumer-humanoid-robot-u1-says-orders-secure-11000-ahead-of-first-deliveries/",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "UBTECH unveiled the UWORLD U1 Series at its 2026 Global Launch Event in Shenzhen, billed as the world's first full-size mass-produced ultra-bionic humanoid robot line. The lineup includes three models — U1 Lite (semi-torso), U1 Pro (full-body), and U1 Ultra (high-dynamic full-body) — starting at 119,800 RMB (~$16,500 USD), with cumulative pre-launch orders exceeding 13,000 units. The robots feature 88 degrees of freedom, a proprietary dual-pivot biomimetic cervical spine replicating up to 90% of human head movements, and emotion-driven LLMs for companionship, elder care, hospitality, and education applications.",
+      "keyConcepts": [
+        "Humanoid robot mass production",
+        "Embodied AI with emotion-driven LLMs",
+        "88 degrees of freedom biomechanical design",
+        "Consumer-grade humanoid pricing"
+      ],
+      "whyItMatters": "UBTECH's U1 Series is positioned as the first humanoid robot line designed for genuine mass-market production — a leap from the limited-production industrial robots that dominated 2025 launches. If the ~$16,500 entry price holds at volume, it would place humanoid robots within reach of businesses and consumers in a way that previous $50,000–$200,000+ models did not, potentially triggering a demand cascade similar to the early smartphone market.",
+      "tags": ["ubtech", "humanoid-robot", "embodied-ai", "robotics", "consumer-robotics", "ai-hardware"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the starting price for the UWORLD U1 Series?",
+          "options": [
+            "29,800 RMB (~$4,100 USD)",
+            "119,800 RMB (~$16,500 USD)",
+            "499,800 RMB (~$68,500 USD)",
+            "1,500,000 RMB (~$206,000 USD)"
+          ],
+          "correctIndex": 1,
+          "explanation": "The UWORLD U1 Series starts at 119,800 RMB (approximately $16,500 USD) for the U1 Lite semi-torso edition. This price point is notably lower than most prior full-size humanoid robots — which have typically targeted industrial and research settings at much higher costs."
+        },
+        {
+          "question": "How many degrees of freedom does the UWORLD U1 robot have?",
+          "options": [
+            "24 degrees of freedom",
+            "48 degrees of freedom",
+            "88 degrees of freedom",
+            "120 degrees of freedom"
+          ],
+          "correctIndex": 2,
+          "explanation": "The UWORLD U1 features 88 degrees of freedom across its body, including a proprietary dual-pivot biomimetic cervical spine designed to replicate up to 90% of fundamental human head movements. The high DOF count is central to its positioning as an ultra-bionic robot capable of naturalistic movement."
         }
       ]
     }
