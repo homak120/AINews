@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-03T18:00:00.000Z",
+  "generatedAt": "2026-07-03T20:00:00.000Z",
   "weekOf": "2026-06-29",
-  "coverageStart": "2026-07-02",
-  "coverageEnd": "2026-07-02",
+  "coverageStart": "2026-07-01",
+  "coverageEnd": "2026-07-03",
   "items": [
     {
       "id": "article-microsoft-frontier-company-20260702",
@@ -216,6 +216,179 @@
           ],
           "correctIndex": 2,
           "explanation": "Anthropic launched an 'AI for Science' grant program offering up to $30,000 in Claude API credits to support up to 50 Claude Science projects. Applications are open through July 15, 2026, with award notifications sent by July 31 — making it a short-window opportunity for researchers to access subsidized AI compute for scientific work."
+        }
+      ]
+    },
+    {
+      "id": "youtube-yFEOnBT0Hgw",
+      "type": "video",
+      "title": "AI's 3 Big Narrative Violations This Week",
+      "youtubeId": "yFEOnBT0Hgw",
+      "sourceUrl": "https://www.youtube.com/watch?v=yFEOnBT0Hgw",
+      "verified": false,
+      "publishedAt": "2026-07-02",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The AI Daily Brief host Nathaniel Whittemore breaks down three things the market broadly believed about AI that were violated this week: that you have to own the model to win, that enterprise AI deployment is straightforward, and that AI agent progress is linear. The episode synthesizes the week's news — from Zuckerberg's admission of slower-than-expected agent progress to Microsoft's forward-deployed engineering bet — into a coherent narrative about where the AI industry's assumptions are cracking.",
+      "keyConcepts": [
+        "AI market narrative violations vs. reality",
+        "Model ownership vs. deployment expertise as the competitive moat",
+        "Enterprise AI progress vs. expectations gap",
+        "AI agent development timeline reality"
+      ],
+      "whyItMatters": "This episode captures a moment of collective recalibration in the AI industry. Understanding which narratives are breaking down — and why — is critical for practitioners deciding where to invest time, which capabilities to build, and how to assess competing claims about AI progress.",
+      "tags": ["ai-daily-brief", "ai-narrative", "ai-industry", "enterprise-ai", "ai-agents", "ai-analysis"],
+      "relatedIds": ["article-zuckerberg-agents-behind-schedule-20260702", "article-microsoft-frontier-company-20260702"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the AI Daily Brief's July 2 episode, which assumption about AI is described as a 'narrative violation'?",
+          "options": [
+            "That AI models will eventually reach human-level reasoning",
+            "That you need to own the underlying model to win in AI",
+            "That open-source AI cannot compete with closed proprietary models",
+            "That AI inference costs will continue to drop indefinitely"
+          ],
+          "correctIndex": 1,
+          "explanation": "The episode's central thesis is that 'you have to own the model' is being violated as a narrative — evidenced by Microsoft and Amazon winning enterprise AI market share by focusing on deployment expertise and forward-deployed engineering rather than model development. The winners may be those who can deploy and operate AI effectively, not those who train it."
+        },
+        {
+          "question": "Which host produces The AI Daily Brief?",
+          "options": [
+            "Matt Wolfe",
+            "Andrej Karpathy",
+            "Nathaniel Whittemore",
+            "Lex Fridman"
+          ],
+          "correctIndex": 2,
+          "explanation": "The AI Daily Brief is hosted by Nathaniel Whittemore, who produces daily episodes covering AI news and analysis. The show was formerly known as 'The AI Breakdown' before rebranding to focus on the daily digest format."
+        }
+      ]
+    },
+    {
+      "id": "article-meituan-longcat-20260701",
+      "type": "article",
+      "title": "Meituan Open Sources LongCat-2.0, a 1.6T Agentic Coding Model Trained Entirely on Chinese Chips",
+      "sourceUrl": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
+      "verified": false,
+      "publishedAt": "2026-07-01",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Chinese delivery company Meituan officially open-sourced LongCat-2.0, a 1.6-trillion-parameter Mixture-of-Experts coding model trained on a cluster of 50,000 domestic Chinese ASICs — no Nvidia GPUs. The model had been anonymously topping OpenRouter developer charts as 'Owl Alpha' for the prior two months. It scores 59.5 on SWE-Bench Pro, edging out GPT-5.5's 58.6, with API pricing of $0.75/$2.95 per million tokens — well below GPT-5.5 and Claude Sonnet 5. However, full model weights have not yet been released, with the GitHub and Hugging Face pages showing 'coming soon.'",
+      "keyConcepts": [
+        "Mixture-of-Experts (MoE) architecture at 1.6T scale",
+        "Chinese ASIC training independence from Nvidia export controls",
+        "Anonymous stealth model strategy (Owl Alpha reveal)",
+        "SWE-Bench Pro benchmark comparisons at frontier scale"
+      ],
+      "whyItMatters": "LongCat-2.0 demonstrates that frontier-scale coding models can now be trained entirely on domestic Chinese hardware — a geopolitically significant milestone showing US export controls on Nvidia chips have not prevented China from reaching near-frontier capability. The anonymous OpenRouter strategy, revealing the model's real identity only after establishing usage credibility, is a new go-to-market playbook worth watching.",
+      "tags": ["meituan", "longcat", "open-source", "chinese-ai", "coding-model", "ai-research"],
+      "relatedIds": ["article-zcode-zai-20260702"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the anonymous identity of LongCat-2.0 before Meituan publicly revealed it?",
+          "options": [
+            "Shadow Crane",
+            "Owl Alpha",
+            "Dragon MoE",
+            "Phoenix-1T"
+          ],
+          "correctIndex": 1,
+          "explanation": "LongCat-2.0 had been deployed anonymously as 'Owl Alpha' on OpenRouter for two months before Meituan revealed its identity — a go-to-market strategy designed to establish real-world credibility and developer adoption before facing scrutiny about its Chinese origin."
+        },
+        {
+          "question": "What is significant about LongCat-2.0's training infrastructure?",
+          "options": [
+            "It was trained on Google TPUs under a joint research agreement",
+            "It used a novel hybrid CPU-GPU cluster to reduce energy costs",
+            "It was trained on 50,000 domestic Chinese ASICs without any Nvidia GPUs",
+            "It was trained entirely on CPU clusters using distributed computing"
+          ],
+          "correctIndex": 2,
+          "explanation": "LongCat-2.0 was trained on a cluster of over 50,000 domestic Chinese AI accelerator chips (ASICs), with no Nvidia hardware involved. This demonstrates that US export controls on advanced semiconductors have not prevented China from training frontier-scale models — the domestic chip ecosystem has matured sufficiently."
+        }
+      ]
+    },
+    {
+      "id": "article-zcode-zai-20260702",
+      "type": "article",
+      "title": "Z.ai Launches ZCode to Challenge Cursor, Claude Code, and GitHub Copilot in AI Coding",
+      "sourceUrl": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+      "verified": false,
+      "publishedAt": "2026-07-02",
+      "topics": ["ai-engineering"],
+      "summary": "Zhipu AI's Z.ai launched ZCode, a free agentic AI coding IDE for Windows, macOS, and Linux, built as the official development environment for its GLM-5.2 model. ZCode positions as a direct no-cost alternative to subscription-based tools like Cursor and Windsurf, with bring-your-own-key support and a 1.5x usage-quota bonus for subscribers. The IDE supports agentic workflows through chat-app triggers and is designed for the full software development lifecycle, not just inline completion.",
+      "keyConcepts": [
+        "Agentic coding IDE as a distribution strategy",
+        "GLM-5.2 model capabilities for code generation and reasoning",
+        "Free vs. subscription model in AI coding tools",
+        "Bring-your-own-key configuration for multi-model support"
+      ],
+      "whyItMatters": "The AI coding tool market is evolving from assistant-mode code completion (Copilot) to full agentic IDEs (Cursor, Claude Code, ZCode). Z.ai entering with a free, open-access option backed by a near-frontier model intensifies competitive pressure on subscription-based incumbents and signals that the coding IDE is now a key distribution channel for AI labs to establish developer loyalty.",
+      "tags": ["zai", "zcode", "ai-coding", "ide", "cursor-alternative", "ai-engineering"],
+      "relatedIds": ["article-meituan-longcat-20260701"],
+      "knowledgeChecks": [
+        {
+          "question": "What model powers ZCode's agentic coding capabilities?",
+          "options": [
+            "GPT-5.5",
+            "Claude Sonnet 5",
+            "GLM-5.2",
+            "Gemini 3.5 Flash"
+          ],
+          "correctIndex": 2,
+          "explanation": "ZCode is the official agentic development environment for Z.ai's GLM-5.2 model — Zhipu AI's latest large language model fine-tuned for code generation, long-context understanding, and multilingual code synthesis. It comes with a 1.5x usage-quota bonus for Z.ai subscribers."
+        },
+        {
+          "question": "What pricing model does ZCode use to differentiate itself from Cursor and GitHub Copilot?",
+          "options": [
+            "Per-token billing with a free tier capped at 100k tokens/month",
+            "Enterprise-only pricing starting at $50/seat/month",
+            "Free to download and use, with optional paid tiers for higher quotas",
+            "A revenue-sharing model where users earn credits by contributing training data"
+          ],
+          "correctIndex": 2,
+          "explanation": "ZCode launched as a free download available for Windows, macOS, and Linux — positioning as a no-cost alternative to subscription-based tools like Cursor ($20/month) and GitHub Copilot ($10–19/month). Optional paid tiers and bring-your-own-key support give developers flexibility to use it with other model providers."
+        }
+      ]
+    },
+    {
+      "id": "article-enterprise-ai-trust-gap-20260703",
+      "type": "article",
+      "title": "85% of Enterprises Are Running AI Agents, But Only 5% Trust Them Enough to Ship",
+      "sourceUrl": "https://venturebeat.com/security/85-of-enterprises-are-running-ai-agents-only-5-trust-them-enough-to-ship",
+      "verified": false,
+      "publishedAt": "2026-07-03",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "A new VentureBeat Pulse survey of 145 enterprise organizations found that while 85% are actively running AI agents in some capacity, only 5% trust those agents enough to ship them into production at scale. Just 1 in 10 enterprises has automated monitoring in place to catch a failing or misbehaving AI system. The survey also found 79% of organizations have already taken a financial or operational hit from an agent going rogue — with shadow AI (unauthorized agentic work on corporate credit cards) being the single most common failure mode, cited by 49% of respondents.",
+      "keyConcepts": [
+        "Enterprise AI agent trust gap",
+        "Shadow AI: unauthorized agentic spend outside IT oversight",
+        "AI production monitoring maturity",
+        "The gap between running agents and trusting agents"
+      ],
+      "whyItMatters": "The data exposes a critical gap between deployment enthusiasm and production readiness in enterprise AI. Most organizations are in an 'experiment in prod' phase — agents are running, but governance, monitoring, and trust infrastructure lag badly. For AI engineers, this creates demand for AI observability tooling, agent audit trails, and enterprise agent governance frameworks that didn't meaningfully exist two years ago.",
+      "tags": ["enterprise-ai", "ai-agents", "ai-governance", "shadow-ai", "ai-monitoring", "ai-reliability"],
+      "relatedIds": ["article-zuckerberg-agents-behind-schedule-20260702", "article-microsoft-frontier-company-20260702"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the VentureBeat Pulse survey, what percentage of enterprises trust their AI agents enough to ship them into production at scale?",
+          "options": [
+            "5%",
+            "23%",
+            "41%",
+            "62%"
+          ],
+          "correctIndex": 0,
+          "explanation": "Despite 85% of surveyed enterprises running AI agents in some capacity, only 5% trust those agents enough to ship them at production scale — a stark illustration of the trust gap between experimental deployments and reliable, production-grade agentic systems."
+        },
+        {
+          "question": "What is 'shadow AI' as described in the VentureBeat Pulse survey, and why is it the most common AI control failure?",
+          "options": [
+            "AI models that operate at night during off-peak compute hours to avoid detection",
+            "Unauthorized agentic work run by employees on corporate credit cards, outside IT oversight",
+            "AI systems that deliberately hide their outputs from model providers to avoid usage fees",
+            "Competitor AI agents that infiltrate enterprise systems through supply chain vulnerabilities"
+          ],
+          "correctIndex": 1,
+          "explanation": "Shadow AI refers to unauthorized agentic work run by enterprise employees using corporate credit cards or personal accounts, completely outside any IT governance or monitoring. Cited by 49% of respondents as the most severe financial or operational control failure, it represents the unintended consequence of giving all employees access to powerful AI APIs without adequate spend controls or oversight."
         }
       ]
     }
