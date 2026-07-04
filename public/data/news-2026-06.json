@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-03T03:14:08.399Z",
+  "generatedAt": "2026-07-04T03:16:50.778Z",
   "weekOf": "2026-05-31",
   "coverageStart": "2026-05-31",
-  "coverageEnd": "2026-06-02",
+  "coverageEnd": "2026-06-03",
   "items": [
     {
       "id": "findskill-github-copilot-ai-credits-june-2026",
@@ -547,6 +547,333 @@
           ],
           "correctIndex": 1,
           "explanation": "GPT-5 and GPT-5.3-Codex outperform GPT-4.5 on every major benchmark while also being faster and cheaper per token. With newer models fully superseding it, maintaining GPT-4.5 in the ChatGPT product adds complexity without meaningful user benefit."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-eo-2026-06-02",
+      "type": "article",
+      "title": "Trump Signs Executive Order for Voluntary AI Model Review Before Release",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "President Trump signed an executive order on June 2, 2026 directing AI companies to voluntarily submit their most powerful models for government testing up to 30 days before public release. The order also establishes an AI cybersecurity clearinghouse for identifying and sharing vulnerability information across critical infrastructure sectors. Unlike earlier drafts that proposed a 90-day mandatory review, the final order is explicitly voluntary and prohibits mandatory licensing or pre-clearance requirements.",
+      "keyConcepts": [
+        "frontier AI model review",
+        "AI cybersecurity clearinghouse",
+        "voluntary compliance framework",
+        "critical infrastructure protection"
+      ],
+      "whyItMatters": "This marks a notable shift in the administration's approach to AI governance, introducing the first formal structure for pre-release government testing of advanced AI systems while maintaining the deregulatory stance through voluntary rather than mandatory participation.",
+      "tags": [
+        "executive-order",
+        "ai-policy",
+        "cybersecurity",
+        "frontier-models",
+        "regulation",
+        "white-house"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Trump's June 2026 AI executive order ask frontier AI companies to do before release?",
+          "options": [
+            "Obtain mandatory government licensing",
+            "Voluntarily submit models for testing up to 30 days before release",
+            "Complete a 90-day mandatory safety review",
+            "Submit all AI models to a public safety board"
+          ],
+          "correctIndex": 1,
+          "explanation": "The order asks AI companies to voluntarily submit their most powerful models for government testing up to 30 days before public release. Earlier drafts proposed mandatory 90-day reviews but were revised to avoid stifling innovation."
+        },
+        {
+          "question": "What does the executive order expressly prohibit?",
+          "options": [
+            "Testing AI models on government infrastructure",
+            "Voluntary industry partnerships with federal agencies",
+            "Mandatory government licensing or pre-clearance requirements for AI model releases",
+            "Sharing cybersecurity vulnerability information publicly"
+          ],
+          "correctIndex": 2,
+          "explanation": "The order expressly states that nothing shall be construed to authorize creation of any mandatory governmental licensing, pre-clearance, or permitting requirement for the development, publication, or release of AI models."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-aion-build-2026",
+      "type": "article",
+      "title": "Microsoft Ships Aion 1.0 AI Models Into Windows at Build 2026, Enabling On-Device Agentic Workflows",
+      "sourceUrl": "https://byteiota.com/windows-aion-1-0-microsoft-ships-on-device-ai-into-windows-itself/",
+      "verified": false,
+      "publishedAt": "2026-06-02",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "Microsoft announced two Aion 1.0 models at Build 2026 that ship directly inside Windows 11: Aion 1.0 Instruct, a small language model running on CPU for summarization and intent detection, and Aion 1.0 Plan, a 14-billion parameter reasoning model that orchestrates sub-agents and tool calls. Together they enable a complete local agentic loop, allowing developers to build agentic applications without cloud round-trips. Microsoft also expanded Windows AI APIs beyond NPUs to GPUs and CPUs, widening compatibility to many more PCs.",
+      "keyConcepts": [
+        "on-device AI",
+        "agentic workflows",
+        "Windows AI APIs",
+        "Aion 1.0 Instruct and Plan models"
+      ],
+      "whyItMatters": "Embedding a reasoning model directly into Windows changes how developers build AI applications — for the first time, a full agentic loop (orchestration, tool calling, sub-agents) can run entirely on-device without relying on cloud APIs, improving latency, privacy, and cost.",
+      "tags": [
+        "microsoft-build",
+        "aion-1-0",
+        "on-device-ai",
+        "windows-11",
+        "agentic-ai",
+        "edge-inference"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What hardware does Aion 1.0 Instruct require to run on Windows 11?",
+          "options": [
+            "Dedicated NPU only",
+            "High-end GPU with at least 8GB VRAM",
+            "CPU — no NPU or dedicated GPU required",
+            "Microsoft Azure cloud connection"
+          ],
+          "correctIndex": 2,
+          "explanation": "Aion 1.0 Instruct runs on CPU with no NPU or dedicated GPU required, making it compatible with far more PCs than any prior Windows AI model."
+        },
+        {
+          "question": "How many parameters does the Aion 1.0 Plan reasoning model have?",
+          "options": [
+            "3.8 billion",
+            "7 billion",
+            "14 billion",
+            "70 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Aion 1.0 Plan is a 14-billion parameter reasoning and tool-calling model with 32K context length, designed to orchestrate sub-agents and manage agentic workflows locally on device."
+        }
+      ]
+    },
+    {
+      "id": "article-github-copilot-token-billing-2026",
+      "type": "article",
+      "title": "GitHub Copilot Drops Flat-Rate Pricing for Token-Based Billing, Sparking Developer Backlash",
+      "sourceUrl": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": [
+        "ai-engineering",
+        "ai-career"
+      ],
+      "summary": "GitHub Copilot transitioned all plans to usage-based billing on June 1, 2026, replacing the flat-rate model with a GitHub AI Credits system tied to token consumption. All plans retain the same base subscription price but now meter usage against a monthly credit allotment, with overages billed at per-token rates. Developer communities on Reddit and X reported cost spikes from $29 to $750/month and $50 to $3,000, fueling significant backlash over the loss of cost predictability.",
+      "keyConcepts": [
+        "usage-based billing",
+        "GitHub AI Credits",
+        "token consumption pricing",
+        "developer cost predictability"
+      ],
+      "whyItMatters": "The shift from flat-rate to consumption-based pricing for a widely adopted developer tool signals a broader industry move toward usage metering for AI features — developers and organizations must now treat AI code assistance as a variable infrastructure cost rather than a fixed subscription.",
+      "tags": [
+        "github-copilot",
+        "developer-tools",
+        "ai-pricing",
+        "token-billing",
+        "ai-coding",
+        "cost-management"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What replaced Premium Request Units (PRUs) in GitHub Copilot's new billing model?",
+          "options": [
+            "Monthly flat-rate credits unrelated to token use",
+            "Per-seat licensing fees",
+            "API call quotas",
+            "GitHub AI Credits metered by token usage"
+          ],
+          "correctIndex": 3,
+          "explanation": "PRUs were replaced by GitHub AI Credits, calculated based on token consumption (input, output, and cached tokens) at published API rates for each model. 1 AI Credit = $0.01 USD."
+        },
+        {
+          "question": "Which GitHub Copilot feature does NOT consume AI Credits under the new billing model?",
+          "options": [
+            "Code completions and Next Edit suggestions",
+            "Claude Sonnet chat completions",
+            "GPT-4o requests in Copilot Chat",
+            "Agent mode task execution"
+          ],
+          "correctIndex": 0,
+          "explanation": "Code completions and Next Edit suggestions remain included in all plans and do not consume AI Credits — these features are still effectively flat-rate regardless of usage volume."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-s1-2026-06-01",
+      "type": "article",
+      "title": "Anthropic Confidentially Files S-1 With SEC, Joining SpaceX and OpenAI in $1 Trillion IPO Race",
+      "sourceUrl": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Anthropic confidentially submitted a draft Form S-1 registration statement to the SEC on June 1, 2026, for a proposed initial public offering of its common stock. The filing follows a $65 billion Series H funding round that lifted Anthropic's valuation to approximately $965 billion — surpassing OpenAI's $852 billion March valuation. Anthropic's monthly revenue run-rate reached $47 billion in May 2026, up from roughly $10 billion the prior year, driven largely by Claude Code adoption among enterprise developers.",
+      "keyConcepts": [
+        "confidential S-1 IPO filing",
+        "frontier AI company valuation",
+        "Claude Code revenue driver",
+        "AI public market debut"
+      ],
+      "whyItMatters": "Anthropic's IPO filing is the first public signal that frontier AI labs are ready for public market capital — at near-trillion-dollar scale. It sets a benchmark valuation for the entire AI industry and may accelerate competing IPO timelines for OpenAI and xAI.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "sec-filing",
+        "claude",
+        "ai-valuation",
+        "tech-ipo"
+      ],
+      "relatedIds": [
+        "article-trump-ai-eo-2026-06-02"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's approximate valuation at the time of its confidential S-1 filing in June 2026?",
+          "options": [
+            "$150 billion",
+            "$450 billion",
+            "$852 billion",
+            "$965 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic's valuation reached approximately $965 billion following its $65 billion Series H funding round, just ahead of its confidential S-1 submission — making it slightly more valuable than OpenAI's $852 billion March 2026 valuation."
+        },
+        {
+          "question": "What was the primary revenue driver behind Anthropic's rapid growth to a $47B monthly run-rate?",
+          "options": [
+            "Consumer Claude.ai subscriptions",
+            "Claude API licensing to enterprise customers",
+            "Claude Code adoption among enterprise and developer customers",
+            "Government defense contracts"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code's strong adoption among enterprise developers and software engineering teams was cited as the primary driver of Anthropic's revenue surge from ~$10B to ~$47B run-rate over the course of 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-cosmos3-rtxspark-2026-06-01",
+      "type": "article",
+      "title": "NVIDIA Unveils Cosmos 3 Open Physical AI Model and RTX Spark 1-Petaflop AI PC Chip",
+      "sourceUrl": "https://americanbazaaronline.com/2026/06/01/nvidia-unveils-cosmos-3-open-foundation-model-for-physical-ai-481906/",
+      "verified": false,
+      "publishedAt": "2026-06-01",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "NVIDIA announced Cosmos 3, an open-source multimodal world foundation model for physical AI and robotics, available in two variants — Cosmos 3 Nano for efficiency and Cosmos 3 Super for precision — both open-sourced on HuggingFace and GitHub. Simultaneously, NVIDIA and Microsoft unveiled RTX Spark, a new AI superchip delivering 1 petaflop of AI performance with up to 128GB unified memory, designed for slim Windows laptops and compact desktops shipping in fall 2026. RTX Spark enables secure, fully on-device personal AI agents without cloud dependencies.",
+      "keyConcepts": [
+        "Cosmos 3 world foundation model",
+        "physical AI and robotics simulation",
+        "RTX Spark superchip",
+        "1-petaflop on-device AI inference"
+      ],
+      "whyItMatters": "NVIDIA's dual announcements simultaneously advance AI at two ends of the hardware spectrum: open-sourced physical AI simulation for robots (Cosmos 3) and consumer-grade 1-petaflop inference on laptops (RTX Spark), lowering barriers for developers building both robotics applications and on-device AI agents.",
+      "tags": [
+        "nvidia",
+        "cosmos-3",
+        "rtx-spark",
+        "physical-ai",
+        "robotics",
+        "on-device-ai"
+      ],
+      "relatedIds": [
+        "article-microsoft-aion-build-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary purpose of NVIDIA's Cosmos 3 model?",
+          "options": [
+            "Generating photorealistic images for marketing",
+            "Training and simulation for physical AI systems like robots",
+            "Replacing large language models for text generation",
+            "Running on-device personal AI agents on laptops"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cosmos 3 is a world foundation model designed for physical AI — it helps robots and autonomous systems understand, simulate, and act in the real world by supporting diverse data types including vision, language, and sensor inputs."
+        },
+        {
+          "question": "What is the AI performance specification of NVIDIA's RTX Spark chip?",
+          "options": [
+            "100 teraflops",
+            "500 teraflops",
+            "1 petaflop",
+            "10 petaflops"
+          ],
+          "correctIndex": 2,
+          "explanation": "NVIDIA RTX Spark delivers 1 petaflop of AI performance with up to 128GB of unified memory, enabling it to run personal AI agents fully on-device — a significant leap for consumer hardware that was previously limited to cloud-dependent AI workloads."
+        }
+      ]
+    },
+    {
+      "id": "youtube-eRI1q0hx4ik",
+      "type": "video",
+      "title": "AI Weekly Roundup: Anthropic IPO Filing, NVIDIA Cosmos 3, and Trump's AI Executive Order",
+      "youtubeId": "eRI1q0hx4ik",
+      "sourceUrl": "https://www.youtube.com/watch?v=eRI1q0hx4ik",
+      "verified": false,
+      "publishedAt": "2026-06-03",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "WorldofAI's June 3rd weekly roundup (#516) surveys the week's biggest AI stories: Anthropic's confidential S-1 IPO filing targeting a near-trillion-dollar valuation, NVIDIA's dual announcements of the Cosmos 3 open physical AI model and the RTX Spark 1-petaflop AI PC chip, and analysis of Trump's executive order requesting voluntary early government access to frontier AI models before release.",
+      "keyConcepts": [
+        "Anthropic S-1 IPO filing",
+        "NVIDIA Cosmos 3 and RTX Spark",
+        "Trump AI executive order",
+        "frontier AI policy week"
+      ],
+      "whyItMatters": "This was a landmark week for AI policy and infrastructure simultaneously — the first frontier lab moving toward public markets while NVIDIA pushed capable AI inference to consumer laptops and robots, all within the same news cycle as a significant US government policy shift.",
+      "tags": [
+        "weekly-roundup",
+        "worldofai",
+        "anthropic-ipo",
+        "nvidia-cosmos-3",
+        "trump-ai-eo",
+        "ai-industry"
+      ],
+      "relatedIds": [
+        "article-anthropic-ipo-s1-2026-06-01",
+        "article-trump-ai-eo-2026-06-02",
+        "article-nvidia-cosmos3-rtxspark-2026-06-01"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI company was the first frontier lab to confidentially file an S-1 IPO registration with the SEC in 2026?",
+          "options": [
+            "OpenAI",
+            "xAI",
+            "Anthropic",
+            "Mistral"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic was first among frontier AI labs to confidentially submit a draft S-1 to the SEC, beating OpenAI and xAI to the formal IPO process despite all three being expected to list at near-trillion-dollar valuations in 2026."
+        },
+        {
+          "question": "Which NVIDIA product announced in June 2026 is specifically designed to enable personal AI agents to run fully on-device on consumer laptops?",
+          "options": [
+            "Cosmos 3 Nano",
+            "Nemotron 3 Ultra",
+            "RTX Spark",
+            "DGX Spark"
+          ],
+          "correctIndex": 2,
+          "explanation": "NVIDIA RTX Spark is the consumer-facing superchip delivering 1 petaflop of AI performance with up to 128GB unified memory for slim Windows laptops and compact desktops, enabling personal AI agents to run fully on-device without cloud dependencies."
         }
       ]
     }

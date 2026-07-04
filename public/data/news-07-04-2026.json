@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-07-04T10:00:00Z",
+  "weekOf": "2026-06-29",
+  "coverageStart": "2026-07-03",
+  "coverageEnd": "2026-07-03",
+  "items": [
+    {
+      "id": "youtube-cMqB92N6rS8",
+      "type": "video",
+      "title": "Welcome to July 3, 2026 – Daily AI News Roundup",
+      "youtubeId": "cMqB92N6rS8",
+      "sourceUrl": "https://www.youtube.com/watch?v=cMqB92N6rS8",
+      "verified": false,
+      "publishedAt": "2026-07-03",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID's daily news episode covers the week's biggest AI developments including Claude Fable 5's return to global availability after 18 days offline under US export controls, and Claude Sonnet 5 taking over as the default model for all free and paid Claude users. The episode also examines OpenAI's GPT-5.6 Sol family remaining in restricted government-approved access and the launch of the UN AI for Good Global Commission.",
+      "keyConcepts": [
+        "Claude Fable 5 global restoration after US export control suspension",
+        "Claude Sonnet 5 as new default for all Claude users worldwide",
+        "UN AI for Good Global Commission with Jensen Huang, Andy Jassy, Brad Smith",
+        "GPT-5.6 Sol restricted to ~20 government-approved organizations"
+      ],
+      "whyItMatters": "Three converging developments—a flagship model returning from government suspension, AI leaders joining a UN governance body, and OpenAI's next-generation model remaining gated—signal a new phase where government oversight is actively shaping which AI capabilities reach the public and when.",
+      "tags": ["claude-fable-5", "sonnet-5", "un-ai-governance", "gpt-5-6", "ai-policy", "daily-digest"],
+      "relatedIds": ["aigovernance-weekly-july-3-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Why was Claude Fable 5 unavailable for approximately 18 days before July 1, 2026?",
+          "options": [
+            "Anthropic chose to pause it voluntarily for internal safety testing",
+            "US government export controls restricted its availability to foreign nationals",
+            "A critical security vulnerability was discovered in the model",
+            "High demand caused server capacity issues across all regions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Fable 5 was taken offline due to a US government export control directive that restricted Anthropic's most capable models. After 18 days of negotiations with regulators, the model was cleared and restored globally on July 1, 2026."
+        },
+        {
+          "question": "What replaced Claude Sonnet 4.6 as the default model for all free and paid Claude users starting July 1, 2026?",
+          "options": [
+            "Claude Fable 5",
+            "Claude Opus 4.8",
+            "Claude Sonnet 5",
+            "Claude Mythos 5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Sonnet 5 replaced Sonnet 4.6 as the default model for every Free and Pro Claude user worldwide starting July 1, 2026. Anthropic describes Sonnet 5 as their most agentic Sonnet model, capable of planning, using browsers and terminals, and running multi-step tasks autonomously."
+        }
+      ]
+    },
+    {
+      "id": "euronews-glm52-chinese-ai-july-2026",
+      "type": "article",
+      "title": "What is GLM 5.2? The New Chinese AI Model Rivalling Anthropic",
+      "sourceUrl": "https://www.euronews.com/next/2026/07/03/what-is-glm-52-the-new-chinese-ai-model-thats-rivalling-anthropic",
+      "verified": false,
+      "publishedAt": "2026-07-03",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Chinese startup Z.ai (Zhipu AI) has released GLM-5.2, an open-weight language model demonstrating coding and agentic capabilities that rival Anthropic's Claude Opus 4.8 and OpenAI's GPT-5.5 at a fraction of the cost. Built entirely on Huawei silicon despite US chip export restrictions, GLM-5.2 has climbed to the top of open-weight AI rankings. The model represents the continued narrowing of the capability gap between Chinese and US frontier AI systems.",
+      "keyConcepts": [
+        "GLM-5.2: open-weight model from Z.ai (Zhipu AI) running on Huawei silicon",
+        "Performance approaching Claude Opus 4.8 and GPT-5.5 at lower cost",
+        "US export controls on NVIDIA chips have not blocked Chinese AI progress",
+        "Open-weight model releasing full weights for community use"
+      ],
+      "whyItMatters": "GLM-5.2 demonstrates that Chinese AI labs are closing the gap with US frontier models while operating on domestically produced chips, challenging assumptions about the long-term effectiveness of US semiconductor export controls as an AI containment strategy.",
+      "tags": ["chinese-ai", "open-source", "glm-5-2", "z-ai", "zhipu-ai", "ai-competition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Z.ai's GLM-5.2 particularly notable given the current geopolitical context?",
+          "options": [
+            "It was trained using US-provided NVIDIA H100 chips under a special license",
+            "It achieved top open-weight rankings while running entirely on Huawei silicon under export restrictions",
+            "It is the first model to pass the Turing Test in a standardized evaluation",
+            "It was developed as a US-China joint research initiative"
+          ],
+          "correctIndex": 1,
+          "explanation": "GLM-5.2 is significant because it reached competitive performance with US frontier models while being trained on Huawei chips—demonstrating that US export controls on advanced NVIDIA semiconductors have not stopped Chinese AI labs from building top-tier models."
+        },
+        {
+          "question": "How does GLM-5.2 compare in cost to US models with similar capability?",
+          "options": [
+            "It costs roughly the same as GPT-5.5 at current pricing",
+            "It is more expensive due to Huawei chip processing inefficiencies",
+            "It delivers comparable agentic capabilities at a fraction of the cost",
+            "Pricing details have not been publicly disclosed"
+          ],
+          "correctIndex": 2,
+          "explanation": "GLM-5.2 offers coding and agentic performance that approaches Claude Opus 4.8 and GPT-5.5 at a significantly lower cost, making it a compelling alternative for organizations looking to reduce AI spend while maintaining high capability."
+        }
+      ]
+    },
+    {
+      "id": "aigovernance-weekly-july-3-2026",
+      "type": "article",
+      "title": "UN AI for Good Commission Launches as GPT-5.6 Access Restrictions Draw Scrutiny",
+      "sourceUrl": "https://aigovernance.com/news/ai-governance-weekly-july-3-2026",
+      "verified": false,
+      "publishedAt": "2026-07-03",
+      "topics": ["ai-industry"],
+      "summary": "The United Nations and ITU launched the AI for Good Global Commission on July 1, assembling tech CEOs—including NVIDIA's Jensen Huang, Amazon's Andy Jassy, and Microsoft's Brad Smith—alongside world leaders to tackle AI governance at a global scale. Co-chaired by Salesforce CEO Marc Benioff and Rwandan President Paul Kagame, the commission holds its first meeting July 8 in Geneva. Separately, OpenAI's GPT-5.6 Sol remains gated to approximately 20 pre-approved organizations while the US government completes a mandated capability review.",
+      "keyConcepts": [
+        "UN AI for Good Global Commission — first UN body with sitting tech CEOs",
+        "Co-chaired by Salesforce CEO Marc Benioff and Rwandan President Paul Kagame",
+        "GPT-5.6 Sol restricted to ~20 government-approved organizations pending capability review",
+        "Geneva AI summits July 6–10: governance dialogue, ITU summit, commission kickoff"
+      ],
+      "whyItMatters": "Two simultaneous governance tracks—a new UN multilateral body and US government capability reviews before model release—are establishing precedents for how frontier AI will be regulated globally, with direct consequences for who gets access to the most powerful systems and when.",
+      "tags": ["ai-governance", "un-commission", "gpt-5-6", "ai-policy", "export-controls", "frontier-models"],
+      "relatedIds": ["youtube-cMqB92N6rS8"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the stated design principle of the UN AI for Good Global Commission?",
+          "options": [
+            "A large body of 100+ diplomats working toward full multilateral consensus",
+            "A smaller, faster team of executives and leaders that can identify problems and drive solutions",
+            "A regulatory body with binding authority to halt AI model releases",
+            "An academic research consortium funded by member-state contributions"
+          ],
+          "correctIndex": 1,
+          "explanation": "The commission is deliberately designed as a 'smaller, faster team of business executives' and world leaders who can identify specific AI challenges and move toward solutions—explicitly avoiding the slow pace of traditional diplomatic consensus processes."
+        },
+        {
+          "question": "Why is GPT-5.6 Sol currently available to only approximately 20 organizations?",
+          "options": [
+            "OpenAI has not completed training and alignment work on the model",
+            "EU AI Act compliance review is blocking international release",
+            "The US government is conducting a mandated capability review before broader release",
+            "Server infrastructure cannot yet support demand at scale"
+          ],
+          "correctIndex": 2,
+          "explanation": "The US government required early access and a capability review process before GPT-5.6 Sol could be made broadly available. OpenAI has indicated that general availability is expected in mid-to-late July 2026 once the review is complete."
+        }
+      ]
+    }
+  ]
+}
