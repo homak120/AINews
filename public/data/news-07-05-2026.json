@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-05T08:15:00Z",
+  "generatedAt": "2026-07-05T14:30:00Z",
   "weekOf": "2026-06-29",
-  "coverageStart": "2026-07-04",
-  "coverageEnd": "2026-07-04",
+  "coverageStart": "2026-07-03",
+  "coverageEnd": "2026-07-05",
   "items": [
     {
       "id": "article-pentagon-anthropic-autonomous-weapons-july4",
@@ -130,6 +130,137 @@
           ],
           "correctIndex": 0,
           "explanation": "In 2026, leading AI companies increasingly compete not just on technical benchmarks but on cultural adoption and trust. Mainstream advertising campaigns that embed AI into culturally resonant moments reflect a deliberate strategy to normalize AI tool use across demographics beyond early adopters and developers."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-chinese-access-loopholes-july3",
+      "type": "article",
+      "title": "Anthropic Shuts Loopholes Letting Chinese Firms Access Claude via Offshore Workarounds",
+      "sourceUrl": "https://www.banklesstimes.com/articles/2026/07/03/anthropic-moves-to-block-chinese-firms-using-claude-via-offshore-workarounds/",
+      "verified": false,
+      "publishedAt": "2026-07-03",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic is cracking down on Chinese companies like Ant Financial and ByteDance that access Claude through offshore subsidiaries, VPNs, and cloud relay providers in violation of its terms of service. The company now monitors account time zones and usage patterns to flag relay accounts and has rolled out identity verification requiring government IDs and selfies for suspicious users. Anthropic walked back some covert detection measures in early July after user backlash.",
+      "keyConcepts": [
+        "AI terms-of-service enforcement across jurisdictions",
+        "Offshore entity workarounds for AI access",
+        "Behavioral detection for compliance monitoring",
+        "China-US AI access controls and competitive dynamics"
+      ],
+      "whyItMatters": "As frontier AI models become strategically significant, how labs enforce geographic access restrictions—and the limits of that enforcement—sets precedents for AI policy and will increasingly define global AI competition.",
+      "tags": ["anthropic", "china", "export-controls", "ai-policy", "compliance", "access-restrictions"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How were Chinese companies like Ant Financial accessing Claude in violation of Anthropic's terms of service?",
+          "options": [
+            "They reverse-engineered Claude's model weights and hosted them locally",
+            "They used overseas subsidiaries, corporate VPN accounts, and cloud provider relays",
+            "They obtained API keys through paid partnerships with Anthropic resellers",
+            "They distilled Claude's outputs into their own models without API access"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chinese firms accessed Claude through workarounds: Ant Financial provided employees with corporate accounts via its Singapore entity, while ByteDance reimbursed engineers for personal subscriptions accessed through VPNs. These methods violated Anthropic's terms of service, which prohibit Chinese companies from using Claude, but did not breach US or Chinese law."
+        },
+        {
+          "question": "What enforcement measures did Anthropic implement to detect China-linked Claude accounts?",
+          "options": [
+            "IP-based geofencing that blocks all traffic from Chinese IP ranges",
+            "Monitoring account time zones and usage patterns for relay behavior, plus identity verification for flagged users",
+            "Requiring all API users to submit corporate registration documents before access",
+            "Partnering with the US government to share usage data on suspicious accounts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic deployed behavioral detection by monitoring account time zones and usage patterns for signs of relay use, and began requiring government-issued IDs and selfies from flagged accounts. The company later partially walked back its covert detection measures in early July following user pushback."
+        }
+      ]
+    },
+    {
+      "id": "article-h1-2026-vc-record-crunchbase",
+      "type": "article",
+      "title": "Global Startup Funding Hits Record $510B in H1 2026, with OpenAI and Anthropic Claiming 43%",
+      "sourceUrl": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+      "verified": false,
+      "publishedAt": "2026-07-04",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Global venture capital investment hit a record $510 billion in the first half of 2026, surpassing total 2025 funding and driven overwhelmingly by AI mega-rounds. OpenAI and Anthropic alone captured 43% of all global startup investment in H1—approximately $217 billion—with Anthropic's $65 billion Series H in Q2 making it the most valuable AI company at a $965 billion valuation. AI companies received $242 billion in Q1 alone, representing 80% of all global venture that quarter.",
+      "keyConcepts": [
+        "AI mega-round concentration in venture capital",
+        "H1 2026 global startup funding records",
+        "Anthropic's $65B Series H and $965B valuation",
+        "Structural shift in VC market toward frontier AI labs"
+      ],
+      "whyItMatters": "When two AI companies absorb 43% of all global startup funding in six months, capital concentration reaches a level that reshapes which problems get funded, which talent gets hired, and which technical approaches define the next decade of AI.",
+      "tags": ["venture-capital", "anthropic", "openai", "funding", "ai-industry", "market-concentration"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What share of global H1 2026 startup funding did OpenAI and Anthropic together capture?",
+          "options": [
+            "About 12%",
+            "About 25%",
+            "About 43%",
+            "About 67%"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI and Anthropic received roughly 43% of all global startup venture funding in H1 2026—approximately $217 billion out of a record $510 billion total. This unprecedented concentration reflects both the enormous capital requirements of frontier AI and investors' conviction that a small number of labs will dominate the era."
+        },
+        {
+          "question": "What made Q1 2026 particularly notable in venture capital history?",
+          "options": [
+            "It was the first quarter where non-AI startups received zero venture funding",
+            "The SEC approved AI companies to issue digital securities for the first time",
+            "Four of the five largest venture rounds ever recorded closed in a single quarter",
+            "The US government matched private VC investment dollar-for-dollar in AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Four of the five largest venture rounds ever recorded closed in Q1 2026, led by OpenAI ($122B), Anthropic ($30B), xAI ($20B), and Waymo ($16B). Together these four deals represented 65% of all global venture investment for the quarter, illustrating how AI mega-rounds have fundamentally reshaped the VC market."
+        }
+      ]
+    },
+    {
+      "id": "article-un-global-ai-governance-dialogue-july6",
+      "type": "article",
+      "title": "First UN Global Dialogue on AI Governance Opens in Geneva, Setting International Standards Agenda",
+      "sourceUrl": "https://www.techpolicy.press/in-geneva-the-world-can-anchor-ai-governance-in-free-expression/",
+      "verified": false,
+      "publishedAt": "2026-07-05",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "The inaugural UN Global Dialogue on AI Governance convenes July 6-7 in Geneva, co-located with the WSIS Forum and ITU AI for Good Summit. Mandated by the Global Digital Compact and established by UN General Assembly resolution in August 2025, the dialogue brings together all governments, private sector, academia, and civil society to shape international AI governance. The US has directed agencies to leverage the UN, OECD, G7, and G20 to advance AI standards that favor innovation.",
+      "keyConcepts": [
+        "UN Global Digital Compact AI governance mandate",
+        "Multi-stakeholder international AI governance",
+        "Global South representation in AI standards-setting",
+        "US AI Action Plan and international standards strategy"
+      ],
+      "whyItMatters": "The first UN-level AI governance dialogue marks a shift from bilateral agreements and national frameworks toward a formal multilateral process—who participates and which principles prevail will shape the rules for AI development and deployment across 193 member states.",
+      "tags": ["ai-governance", "united-nations", "international-policy", "ai-regulation", "global-standards", "diplomacy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What mandate established the UN Global Dialogue on AI Governance?",
+          "options": [
+            "A Security Council Resolution following the Fable 5 export control controversy",
+            "The G20 Hiroshima AI Process signed by all member states",
+            "A UN General Assembly resolution implementing the Global Digital Compact",
+            "The OECD AI Principles Framework ratified in early 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "The UN Global Dialogue on AI Governance was established by a UN General Assembly Resolution in August 2025, implementing the Global Digital Compact. This makes it the first formal UN platform where all governments, private sector, academia, and civil society meet to discuss international AI governance and share best practices."
+        },
+        {
+          "question": "What primary goal distinguishes the UN AI Governance Dialogue from most existing national AI frameworks?",
+          "options": [
+            "Creating binding treaty obligations for all UN member states on AI development",
+            "Ensuring governance reflects the priorities of all nations, not just the most technologically advanced",
+            "Establishing a single global AI regulator with enforcement authority over frontier labs",
+            "Standardizing AI model benchmark requirements for international trade"
+          ],
+          "correctIndex": 1,
+          "explanation": "A central purpose of the UN AI Governance Dialogue is ensuring that international AI governance reflects the priorities of all nations—particularly those without frontier AI capabilities—and that AI benefits are distributed globally. This distinguishes it from bilateral agreements or frameworks that primarily reflect the interests of the US, EU, and China."
         }
       ]
     }
