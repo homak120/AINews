@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T12:00:00Z",
+  "generatedAt": "2026-07-06T18:30:00Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-05",
   "coverageEnd": "2026-07-06",
@@ -175,6 +175,49 @@
           ],
           "correctIndex": 2,
           "explanation": "GPT-5.6 Terra is priced at $2.50 per 1M input tokens ($15 per 1M output), delivering GPT-5.5-level performance at roughly 2× lower cost than Sol ($5/$30). Luna is cheapest at $1/$6."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-companion-law-doubao-july6",
+      "type": "article",
+      "title": "China's AI Companion Law Forces ByteDance and Alibaba to Shut Down Agent Features on July 15",
+      "sourceUrl": "https://technode.com/2026/07/06/bytedances-doubao-and-alibabas-qwen-to-shut-down-ai-agent-features-on-july-15/",
+      "verified": false,
+      "publishedAt": "2026-07-06",
+      "topics": ["ai-industry"],
+      "summary": "China's Interim Measures for the Administration of AI Anthropomorphic Interactive Services, co-issued by five agencies and effective July 15, 2026, are forcing ByteDance and Alibaba to permanently shut down personalized AI agent features on Doubao and Qwen. ByteDance redirects its 345 million Doubao users to Maoxiang for new agents, while Alibaba has announced no migration path for Qwen users. Users who do not export their data before October 15 will lose it permanently.",
+      "keyConcepts": [
+        "Interim Measures for AI Anthropomorphic Interactive Services (effective July 15, 2026)",
+        "Anti-addiction and session-break requirements incompatible with persistent-memory AI companions",
+        "China's five-agency AI enforcement model (CAC, NDRC, MIIT, MPS, SAMR)",
+        "User data portability risk when platforms shut down AI features under regulatory pressure"
+      ],
+      "whyItMatters": "This is the world's first regulatory shutdown of large-scale personalized AI companions — affecting over 345 million users — and sets a precedent that governments can compel product teardowns rather than just audits or fines, with real data-loss consequences for end users.",
+      "tags": ["china", "ai-regulation", "bytedance", "doubao", "alibaba", "qwen", "ai-companion"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "When does China's Interim Measures for AI Anthropomorphic Interactive Services take effect?",
+          "options": [
+            "October 15, 2026",
+            "January 1, 2027",
+            "July 15, 2026",
+            "September 1, 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "The regulation takes effect July 15, 2026 — forcing ByteDance (Doubao) and Alibaba (Qwen) to shut down AI agent features on that date. October 15, 2026 is the separate deadline for users to export their Doubao data before it becomes permanently inaccessible."
+        },
+        {
+          "question": "Why did ByteDance and Alibaba choose to shut down their AI companion features entirely rather than comply with the new rules?",
+          "options": [
+            "The regulation outright bans all AI companion products in China",
+            "Anti-addiction and two-hour break requirements are architecturally incompatible with persistent-memory companion designs",
+            "Both companies received cease-and-desist orders from Chinese courts",
+            "The regulation requires source code disclosure that both companies refused"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Interim Measures require anti-addiction systems and mandatory two-hour break reminders that fundamentally clash with how persistent-memory AI companions are built. Rather than rebuild their agent architectures from the ground up, both companies chose to pull the features entirely and redirect users to compliant alternatives."
         }
       ]
     }
