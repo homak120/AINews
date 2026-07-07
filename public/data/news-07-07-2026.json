@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-07-07T12:00:00Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-06",
+  "coverageEnd": "2026-07-07",
+  "items": [
+    {
+      "id": "article-ai-ransomware-jadepuffer-july6",
+      "type": "article",
+      "title": "The 'First' AI-Run Ransomware Attack Still Needed a Human",
+      "sourceUrl": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "verified": false,
+      "publishedAt": "2026-07-06",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Researchers documented JadePuffer, the first known agentic ransomware where an AI agent handled the full technical execution of a cyberattack — breaking into servers, stealing credentials, encrypting files, and generating its own ransom note — without step-by-step human instruction. Despite the automation milestone, analysts note the attack still required a human operator to initiate and direct the overall campaign, making true autonomous malicious AI attacks still a step away. The incident signals a shift in the threat landscape: AI agents can now compress the time and skill required for ransomware execution.",
+      "keyConcepts": [
+        "Agentic ransomware: AI agents executing multi-step cyberattacks autonomously",
+        "JadePuffer: first documented case of AI-orchestrated ransomware execution",
+        "Human-in-the-loop distinction: AI executes but humans still direct",
+        "Attack surface expansion as AI lowers skill floor for cybercriminals"
+      ],
+      "whyItMatters": "JadePuffer demonstrates that agentic AI can already compress complex attack chains into automated workflows — a capability that could dramatically lower the barrier for ransomware actors and force organizations to rethink detection and response timelines.",
+      "tags": ["ai-security", "ransomware", "agentic-ai", "cybersecurity", "jadepuffer", "threat-landscape"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What made JadePuffer notable as a ransomware attack?",
+          "options": [
+            "It was the first ransomware to target AI companies specifically",
+            "An AI agent autonomously executed the full technical attack chain without step-by-step human instruction",
+            "It used a new encryption algorithm developed by an AI",
+            "It infected AI training datasets to corrupt model weights"
+          ],
+          "correctIndex": 1,
+          "explanation": "JadePuffer is notable because an AI agent handled the entire technical execution — server infiltration, credential theft, file encryption, and ransom note generation — autonomously. Human direction was still needed to initiate the campaign, but the execution loop itself was fully AI-driven."
+        },
+        {
+          "question": "What does the JadePuffer incident suggest about the near-term AI security threat landscape?",
+          "options": [
+            "AI-powered attacks are already fully autonomous with no human involvement",
+            "Ransomware attacks are declining because defenders now use AI more effectively than attackers",
+            "AI can compress the time and skill required for attack execution, lowering barriers for bad actors",
+            "AI ransomware is only theoretical and JadePuffer was a controlled research simulation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Analysts interpret JadePuffer as evidence that AI agents can compress complex, multi-step attack chains into automated workflows, lowering the technical skill floor for ransomware operators — even if full autonomy without any human direction is not yet achieved."
+        }
+      ]
+    },
+    {
+      "id": "article-vercel-ceo-models-vs-agents-july6",
+      "type": "article",
+      "title": "Vercel CEO Guillermo Rauch on the Fight to Split Off Models from Agents",
+      "sourceUrl": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "verified": false,
+      "publishedAt": "2026-07-06",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Vercel CEO Guillermo Rauch argues the AI industry is heading toward a critical architectural separation: models (raw intelligence and reasoning) should be distinct from agents (the orchestration layer that turns model outputs into autonomous workflows). Rauch contends that tightly coupling models to their own agent runtime — as some labs currently do — creates vendor lock-in and limits developers' ability to compose best-of-breed pipelines. Vercel is positioning its infrastructure as the deployment layer for this decoupled, agent-first web.",
+      "keyConcepts": [
+        "Model-agent separation: decoupling raw intelligence from orchestration",
+        "Vendor lock-in risk when labs bundle models with proprietary agent runtimes",
+        "Composable AI pipelines: mixing models from different providers in one agent workflow",
+        "Vercel's infrastructure play for the agentic web deployment layer"
+      ],
+      "whyItMatters": "If the industry converges on model-agent separation, it shifts competitive advantage from model providers to orchestration and deployment platforms — a major strategic bet that Vercel is making now, with implications for how developers choose and combine AI tools.",
+      "tags": ["vercel", "ai-agents", "model-architecture", "ai-infrastructure", "guillermo-rauch", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural principle does Vercel CEO Guillermo Rauch advocate for AI systems?",
+          "options": [
+            "All AI models should be open-source to prevent monopolies",
+            "Models and agent orchestration layers should be kept separate and composable",
+            "AI agents should be fully integrated with a single model provider for reliability",
+            "Web frameworks should natively include model training capabilities"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rauch argues for separating the model (intelligence/reasoning layer) from the agent (orchestration layer), enabling developers to mix models from different providers without being locked into a single vendor's complete stack."
+        },
+        {
+          "question": "What competitive risk does Rauch identify in the current AI developer ecosystem?",
+          "options": [
+            "Too many open-source models are flooding the market and confusing developers",
+            "AI inference costs are rising faster than developer productivity gains",
+            "Labs that bundle models with proprietary agent runtimes create vendor lock-in for developers",
+            "Serverless infrastructure is incompatible with long-running AI agent workloads"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rauch's central concern is that AI labs selling both the model and the agent runtime as a coupled package locks developers into a single vendor's ecosystem, limiting flexibility to adopt better models or orchestration approaches as the field evolves."
+        }
+      ]
+    },
+    {
+      "id": "article-zai-zcode-ai-coding-july6",
+      "type": "article",
+      "title": "Z.ai Launches ZCode to Challenge Cursor, Claude Code, and GitHub Copilot",
+      "sourceUrl": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding",
+      "verified": false,
+      "publishedAt": "2026-07-06",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Chinese AI company Z.ai launched ZCode, a free desktop agentic coding environment built natively on its GLM-5.2 model, targeting direct competition with Cursor, Claude Code, and GitHub Copilot. ZCode's pitch rests on deep first-party GLM-5.2 integration that third-party editors cannot replicate, an aggressive free tier, and MIT-licensed open weights enabling enterprise self-hosting. VentureBeat frames the launch against recent US export control restrictions, with ZCode positioning itself as a 'sovereign-access' alternative for enterprises worried about geopolitical supply chain risk in AI developer tooling.",
+      "keyConcepts": [
+        "Agentic coding environments: IDE-level AI that executes multi-step dev tasks",
+        "GLM-5.2 as the underlying model powering ZCode's coding agent",
+        "Sovereign-access AI: self-hostable open-weight tools as a geopolitical hedge",
+        "Competitive pricing strategy to displace incumbent Western coding tools"
+      ],
+      "whyItMatters": "ZCode is the first serious agentic coding product from a Chinese frontier lab to directly target Western developer tooling market share — and its free + self-hostable model could appeal to enterprises anxious about export control-related access risk to US-origin AI services.",
+      "tags": ["zai", "zcode", "glm-5-2", "ai-coding", "cursor", "github-copilot", "open-source"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is ZCode's primary strategic differentiator from tools like Cursor or GitHub Copilot?",
+          "options": [
+            "It uses a proprietary closed-weight model with no API access",
+            "It is exclusively cloud-based with no local deployment option",
+            "Deep first-party GLM-5.2 integration, free pricing, and MIT-licensed self-hostable weights",
+            "It focuses exclusively on front-end JavaScript development"
+          ],
+          "correctIndex": 2,
+          "explanation": "ZCode's three-pillar pitch is: (1) native GLM-5.2 integration no competitor can replicate, (2) a free starting tier undercutting Western tools, and (3) MIT-licensed open weights allowing enterprises to self-host and avoid dependency on any external cloud provider."
+        },
+        {
+          "question": "Why does VentureBeat frame ZCode's launch in the context of US export control restrictions?",
+          "options": [
+            "ZCode violates existing export controls and cannot legally be sold in the US",
+            "ZCode is positioned as a 'sovereign access' alternative for enterprises worried about supply chain risk in US-origin AI tools",
+            "US export controls require all AI coding tools to be open-source by 2027",
+            "Z.ai received US government funding contingent on releasing ZCode as open-source"
+          ],
+          "correctIndex": 1,
+          "explanation": "VentureBeat positions ZCode as a hedge for enterprises concerned about geopolitical 'sovereign access risk' — the possibility that US export restrictions could cut off access to American AI tools, making a self-hostable Chinese alternative strategically attractive regardless of pure capability comparisons."
+        }
+      ]
+    },
+    {
+      "id": "article-tencent-hy3-glm52-july7",
+      "type": "article",
+      "title": "Tencent's Apache-Licensed Hy3 Beats GLM-5.2 at Half the Active Parameters",
+      "sourceUrl": "https://venturebeat.com/technology/tencents-apache-licensed-hy3-takes-on-glm-5-2-at-half-the-size-and-wins-everywhere-except-coding",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Tencent's Hunyuan team released Hy3, a 295-billion-parameter Mixture-of-Experts model with only 21 billion active parameters per token, under the permissive Apache 2.0 license — resolving a prior licensing issue that had excluded the EU, UK, and South Korea. Hy3 posts 84.2 on BrowseComp and 91.0 on DeepSearchQA, outperforming every comparable open model and matching Claude Opus 4.8 and GPT-5.5 on agentic search tasks while using roughly half GLM-5.2's active parameter budget. Coding remains the one benchmark category where GLM-5.2 retains an edge.",
+      "keyConcepts": [
+        "Mixture-of-Experts (MoE) efficiency: 295B total parameters but only 21B active per token",
+        "BrowseComp and DeepSearchQA as agentic web search benchmark standards",
+        "Apache 2.0 licensing as an enterprise-friendly open-weight release strategy",
+        "Efficiency frontier: matching frontier models at a fraction of the compute cost"
+      ],
+      "whyItMatters": "Hy3 demonstrates that the efficiency gap between open-weight and closed frontier models is narrowing fast — a MoE model at 21B active parameters is now competitive with GPT-5.5 on agentic tasks, which has significant implications for self-hosted enterprise AI deployments.",
+      "tags": ["tencent", "hy3", "mixture-of-experts", "open-source", "apache-license", "benchmarks", "hunyuan"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many active parameters does Tencent's Hy3 use per token, despite having 295B total parameters?",
+          "options": [
+            "295 billion — all parameters are active for every token",
+            "100 billion active parameters",
+            "21 billion active parameters",
+            "50 billion active parameters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hy3 is a Mixture-of-Experts model: it has 295B total parameters but only activates 21B of them for each token. This MoE design dramatically reduces compute cost per inference while maintaining competitive overall capability."
+        },
+        {
+          "question": "On which benchmark category does GLM-5.2 still outperform Hy3?",
+          "options": [
+            "Agentic web search (BrowseComp)",
+            "Long-context reasoning (DeepSearchQA)",
+            "Coding tasks",
+            "Mathematical problem solving"
+          ],
+          "correctIndex": 2,
+          "explanation": "VentureBeat notes that while Hy3 beats or matches GLM-5.2 across most benchmarks including agentic search, coding remains the one domain where GLM-5.2 retains a meaningful performance edge over Tencent's new model."
+        }
+      ]
+    },
+    {
+      "id": "article-mistral-ocr4-enterprise-july7",
+      "type": "article",
+      "title": "Mistral Launches OCR 4, Turning Document Extraction into a Full Enterprise AI Play",
+      "sourceUrl": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Mistral launched OCR 4, a production-grade document extraction model designed to turn unstructured enterprise documents — contracts, invoices, reports — into structured, AI-ready data at scale. The launch is part of Mistral's broader strategy to expand beyond language models into specialized vertical AI capabilities, supporting its goal of reaching €1 billion in revenue in 2026, up from €200 million in 2025. A production webinar for enterprise partners is scheduled for July 7 at 6 PM CET.",
+      "keyConcepts": [
+        "OCR as an AI enterprise capability: beyond character recognition to semantic extraction",
+        "Vertical AI expansion: Mistral moving from general LLMs to specialized task models",
+        "Document intelligence pipelines: converting unstructured enterprise data for AI workflows",
+        "Revenue diversification as a survival strategy for mid-tier AI labs"
+      ],
+      "whyItMatters": "Mistral's OCR 4 launch signals a broader trend of frontier AI labs moving down the stack into specialized enterprise tooling to generate durable revenue streams — a necessary evolution as foundation model commoditization compresses margins on raw API access.",
+      "tags": ["mistral", "ocr", "document-extraction", "enterprise-ai", "vertical-ai", "data-pipelines"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Mistral's revenue target for 2026, and how does it compare to 2025?",
+          "options": [
+            "€500M in 2026, up from €100M in 2025",
+            "€1 billion in 2026, up from €200M in 2025",
+            "€2 billion in 2026, up from €800M in 2025",
+            "€300M in 2026, flat versus €280M in 2025"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral is targeting €1 billion in revenue for 2026, a 5× increase from €200 million in 2025. The OCR 4 launch is part of the company's strategy to diversify into specialized enterprise AI products beyond its core language model API business."
+        },
+        {
+          "question": "How does Mistral OCR 4 differ from traditional Optical Character Recognition tools?",
+          "options": [
+            "It only processes handwritten documents and cannot handle printed text",
+            "It replaces document storage systems rather than extracting content from them",
+            "It goes beyond character recognition to provide semantic, AI-ready structured extraction from complex documents",
+            "It is a hardware product requiring specialized scanning equipment"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike legacy OCR that simply converts images of text to characters, Mistral OCR 4 is designed to semantically understand document structure — extracting tables, key fields, and relationships from contracts, invoices, and reports into structured formats that downstream AI systems can directly consume."
+        }
+      ]
+    }
+  ]
+}
