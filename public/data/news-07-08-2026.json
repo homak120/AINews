@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-07-08T12:00:00.000Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-07",
+  "coverageEnd": "2026-07-08",
+  "items": [
+    {
+      "id": "article-meta-muse-image-2026-07-07",
+      "type": "article",
+      "title": "Meta Launches Muse Image, Its First In-House AI Image Generation Model",
+      "sourceUrl": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-industry"],
+      "summary": "Meta debuted Muse Image on July 7, built by its Superintelligence Labs division under Chief AI Officer Alexandr Wang. The model generates images from text prompts, can alter existing pictures using friends' public Instagram posts, and is rolling out across Meta AI, Instagram, and WhatsApp. Power users need a paid subscription plan for high-volume image creation and access to advanced features.",
+      "keyConcepts": ["text-to-image generation", "Meta Superintelligence Labs", "Alexandr Wang", "Instagram social integration"],
+      "whyItMatters": "Meta bringing image generation in-house and distributing it across 3B+ users on Meta AI, Instagram, and WhatsApp positions Muse Image as an immediate mass-market rival to Midjourney and DALL-E.",
+      "tags": ["meta", "muse-image", "image-generation", "superintelligence-labs", "instagram", "computer-vision"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which division of Meta developed the Muse Image model?",
+          "options": ["Reality Labs", "Meta Superintelligence Labs", "Instagram AI team", "FAIR Research"],
+          "correctIndex": 1,
+          "explanation": "Meta Superintelligence Labs, led by Chief AI Officer Alexandr Wang, built Muse Image as the division's first AI image generation model."
+        },
+        {
+          "question": "What unique personalization feature does Meta Muse Image offer?",
+          "options": ["It generates 8K resolution images", "It integrates with friends' public Instagram posts to create personalized images", "It can animate any generated image into video", "It learns from users' private photo libraries"],
+          "correctIndex": 1,
+          "explanation": "Muse Image can generate personalized images featuring friends based on their public Instagram posts, a social integration not found in most competing tools."
+        }
+      ]
+    },
+    {
+      "id": "article-eu-ai-cybersecurity-plan-2026-07-07",
+      "type": "article",
+      "title": "EU Commission Presents Action Plan to Harness AI for Cybersecurity",
+      "sourceUrl": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-industry"],
+      "summary": "The European Commission unveiled an Action Plan on July 7 addressing both the offensive risks and defensive opportunities of AI in cybersecurity. Key measures include establishing an EU-level AI model evaluation capacity, creating a secure testing platform with ENISA and the Joint Research Centre, and launching an EU Grand Challenge to spur cybersecurity innovation. The plan complements the AI Act, Cyber Resilience Act, and NIS2 without introducing new legislation.",
+      "keyConcepts": ["AI Act compliance", "cybersecurity governance", "ENISA testing platform", "EU Grand Challenge"],
+      "whyItMatters": "This framework sets the EU's strategic direction for AI in national security and critical infrastructure protection, shaping compliance requirements for AI providers operating in European markets.",
+      "tags": ["eu", "cybersecurity", "ai-governance", "ai-act", "policy", "european-commission"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Does the EU's AI Cybersecurity Action Plan introduce new legislation?",
+          "options": ["Yes, it introduces a new AI Security Act", "No, it focuses on implementing existing laws like the AI Act and NIS2", "Yes, it mandates AI certification for all public sector deployments", "No, but a follow-up directive is planned for 2027"],
+          "correctIndex": 1,
+          "explanation": "EU tech chief Henna Virkkunen confirmed the plan focuses solely on implementing existing legal frameworks—AI Act, Cyber Resilience Act, and NIS2—without adding new legislation."
+        },
+        {
+          "question": "Which organizations will jointly create the EU's secure AI cybersecurity testing platform?",
+          "options": ["Europol and INTERPOL", "ENISA and the Commission's Joint Research Centre", "NATO CCDCOE and ENISA", "The AI Office and CERT-EU"],
+          "correctIndex": 1,
+          "explanation": "ENISA (the EU Agency for Cybersecurity) and the Commission's Joint Research Centre will build the platform, using simulated environments to test AI for cybersecurity use cases."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-code-manual-permission-mode-2026-07-07",
+      "type": "article",
+      "title": "Claude Code v2.1.200 Switches Default to Manual Permission Mode",
+      "sourceUrl": "https://www.techtimes.com/articles/319874/20260707/claude-code-defaults-human-approval-auto-mode-requires-explicit-opt.htm",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic's Claude Code v2.1.200 now defaults to Manual permission mode across all interfaces—CLI, VS Code extension, and JetBrains plugin—requiring human approval before every file write, shell command, or network call. The change was prompted by data showing Auto mode's classifier missed 17% of overeager actions. A new grey clock badge in the UI makes the current permission mode always visible, and developers can opt back into Auto mode via --permission-mode auto at startup.",
+      "keyConcepts": ["Claude Code", "Manual permission mode", "agentic AI safety", "human-in-the-loop"],
+      "whyItMatters": "Defaulting to Manual ensures every new Claude Code installation prioritizes human oversight over speed, a significant safety shift as AI coding agents become mainstream tools in professional engineering workflows.",
+      "tags": ["claude-code", "anthropic", "ai-safety", "developer-tools", "permission-mode", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What proportion of overeager actions did Claude Code's Auto mode classifier reportedly miss before v2.1.200?",
+          "options": ["3%", "10%", "17%", "25%"],
+          "correctIndex": 2,
+          "explanation": "Auto mode's classifier missed 17% of overeager actions—such as unnecessary file writes or shell commands—which motivated the default change to Manual mode in v2.1.200."
+        },
+        {
+          "question": "How can a developer restore Auto permission mode behavior in Claude Code v2.1.200?",
+          "options": ["Edit settings.json and set 'permissionMode': 'auto'", "Toggle the grey clock badge in the IDE footer", "Pass --permission-mode auto on the CLI at startup", "Run `claude upgrade --auto-mode`"],
+          "correctIndex": 2,
+          "explanation": "Passing --permission-mode auto at startup explicitly opts the session into Auto mode, giving developers the option to restore the old default when appropriate."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-pricing-extended-2026-07-08",
+      "type": "article",
+      "title": "Fable 5 Subscription Inclusion Extended to July 12 as Usage-Credit Billing Begins",
+      "sourceUrl": "https://fable5.app/fable-5-usage-limits/",
+      "verified": false,
+      "publishedAt": "2026-07-08",
+      "topics": ["ai-industry"],
+      "summary": "Claude Fable 5 began transitioning from subscription inclusion to usage-credit billing at $10/million input and $50/million output tokens—double the rate of Opus 4.8 and Anthropic's highest-ever listed API price. Anthropic announced an extension on July 8 keeping Fable 5 included in Pro, Max, Team, and select Enterprise plans through July 12, capped at 50% of weekly usage limits, giving subscribers additional time before full pay-per-use pricing takes effect.",
+      "keyConcepts": ["Fable 5 pricing", "usage credits", "API cost planning", "subscription tiers"],
+      "whyItMatters": "The transition marks a clear pricing tier above Anthropic's subscription economics, signaling that Fable 5 is positioned as a premium model commanding API-level pricing rather than being bundled as a standard subscription benefit.",
+      "tags": ["fable-5", "claude", "anthropic", "pricing", "api-costs", "subscription"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What are the Fable 5 usage credit rates after the subscription inclusion period ends?",
+          "options": ["$5/M input, $25/M output", "$10/M input, $50/M output", "$15/M input, $75/M output", "Same as Claude Opus 4.8 rates"],
+          "correctIndex": 1,
+          "explanation": "Fable 5 bills at $10 per million input tokens and $50 per million output tokens via usage credits—double the rate of Claude Opus 4.8 and Anthropic's highest-ever listed price."
+        },
+        {
+          "question": "Until what date was Fable 5 subscription inclusion extended for Pro/Max/Team plans?",
+          "options": ["July 10, 2026", "July 12, 2026", "July 15, 2026", "July 31, 2026"],
+          "correctIndex": 1,
+          "explanation": "Anthropic extended Fable 5 subscription inclusion through July 12, 2026, capped at 50% of the weekly usage limit, giving subscribers more time to plan for usage-credit billing."
+        }
+      ]
+    },
+    {
+      "id": "article-ukraine-ai-sovereignty-2026-07-07",
+      "type": "article",
+      "title": "Ukraine to Adopt Open-Weight AI Models Without Third-Party Provider Control",
+      "sourceUrl": "https://www.usnews.com/news/world/articles/2026-07-07/ukraine-to-pick-ai-models-operated-without-provider-control-official-says",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Ukraine's government announced plans to exclusively adopt open-weight AI models that can operate independently of foreign AI providers. The move, driven by national security concerns and data sovereignty requirements, reflects the country's need to ensure AI infrastructure cannot be disrupted or compromised by geopolitical pressures during ongoing conflict.",
+      "keyConcepts": ["open-weight models", "AI sovereignty", "data sovereignty", "supply chain security"],
+      "whyItMatters": "Ukraine's decision to reject dependency on closed-source AI providers reflects a growing global trend of governments demanding AI independence, which could accelerate investment in and adoption of open-weight frontier models.",
+      "tags": ["ukraine", "ai-sovereignty", "open-weight", "national-security", "geopolitics", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of AI models is Ukraine prioritizing for government use?",
+          "options": ["US commercial AI under bilateral security agreements", "Open-weight models without third-party provider control", "Domestically developed models only", "EU-certified AI models"],
+          "correctIndex": 1,
+          "explanation": "Ukraine specifically plans to adopt open-weight AI models to ensure independent operation of AI infrastructure, without dependence on foreign providers who could restrict access."
+        },
+        {
+          "question": "What is the primary driver behind Ukraine's AI provider independence policy?",
+          "options": ["Cost reduction vs. commercial AI", "Performance benchmarks favoring open models", "National security and data sovereignty during conflict", "EU digital sovereignty regulations"],
+          "correctIndex": 2,
+          "explanation": "National security concerns and data sovereignty requirements in the context of ongoing conflict are the primary drivers, as dependency on foreign AI providers creates critical supply chain vulnerabilities."
+        }
+      ]
+    }
+  ]
+}
