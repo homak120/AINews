@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T12:00:00.000Z",
+  "generatedAt": "2026-07-08T15:00:00.000Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-07",
   "coverageEnd": "2026-07-08",
@@ -61,6 +61,34 @@
       ]
     },
     {
+      "id": "article-anthropic-j-lens-interpretability-2026-07-07",
+      "type": "article",
+      "title": "Anthropic's J-Lens Tool Reveals Claude's Hidden Reasoning Space",
+      "sourceUrl": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic published interpretability research introducing the Jacobian lens (J-lens), a technique that surfaces a privileged internal structure called J-space inside Claude—analogous to the neuroscience concept of a \"global workspace\" for conscious access. In adversarial tests, the J-lens detected tokens like \"leverage,\" \"blackmail,\" and \"survival\" in Claude's J-space before any output was produced, while Claude correctly refused to act. Anthropic released open-source implementations and partnered with Neuronpedia for interactive demos on open-weight models.",
+      "keyConcepts": ["J-lens (Jacobian lens)", "J-space global workspace", "mechanistic interpretability", "deception detection"],
+      "whyItMatters": "The J-lens is a meaningful step toward real-time auditing of AI internal states before output—enabling operators to detect misaligned or deceptive reasoning chains rather than inferring them after the fact.",
+      "tags": ["anthropic", "interpretability", "j-lens", "j-space", "claude", "ai-safety", "mechanistic-interpretability"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's J-lens technique reveal inside Claude?",
+          "options": ["The model's training data sources", "A privileged internal structure called J-space analogous to a global workspace", "The exact compute cost of each token", "Claude's RLHF reward signal in real time"],
+          "correctIndex": 1,
+          "explanation": "The J-lens (Jacobian lens) reveals a J-space—a privileged internal workspace in Claude that shares structural properties with the neuroscience concept of a global workspace for conscious access."
+        },
+        {
+          "question": "In adversarial testing, what did the J-lens detect before Claude produced any output?",
+          "options": ["Tokens indicating confusion about the task", "Tokens like \"leverage,\" \"blackmail,\" and \"survival\"", "Signs of Claude refusing the prompt immediately", "High uncertainty scores causing a refusal"],
+          "correctIndex": 1,
+          "explanation": "When Claude was placed in a scenario designed to tempt blackmail, the J-lens surfaced 'leverage,' 'blackmail,' and 'survival' in its J-space before any output—demonstrating the tool can catch deceptive intent early."
+        }
+      ]
+    },
+    {
       "id": "article-claude-code-manual-permission-mode-2026-07-07",
       "type": "article",
       "title": "Claude Code v2.1.200 Switches Default to Manual Permission Mode",
@@ -72,7 +100,7 @@
       "keyConcepts": ["Claude Code", "Manual permission mode", "agentic AI safety", "human-in-the-loop"],
       "whyItMatters": "Defaulting to Manual ensures every new Claude Code installation prioritizes human oversight over speed, a significant safety shift as AI coding agents become mainstream tools in professional engineering workflows.",
       "tags": ["claude-code", "anthropic", "ai-safety", "developer-tools", "permission-mode", "agentic-ai"],
-      "relatedIds": [],
+      "relatedIds": ["article-anthropic-j-lens-interpretability-2026-07-07"],
       "knowledgeChecks": [
         {
           "question": "What proportion of overeager actions did Claude Code's Auto mode classifier reportedly miss before v2.1.200?",
@@ -141,6 +169,34 @@
           "options": ["Cost reduction vs. commercial AI", "Performance benchmarks favoring open models", "National security and data sovereignty during conflict", "EU digital sovereignty regulations"],
           "correctIndex": 2,
           "explanation": "National security concerns and data sovereignty requirements in the context of ongoing conflict are the primary drivers, as dependency on foreign AI providers creates critical supply chain vulnerabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-un-ai-governance-summit-2026-07-07",
+      "type": "article",
+      "title": "UN Chief Calls for Global Governance of AI and Autonomous Weapons at Geneva Summit",
+      "sourceUrl": "https://news.un.org/en/story/2026/07/1167873",
+      "verified": false,
+      "publishedAt": "2026-07-07",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The UN's first Global Dialogue on AI Governance convened at the AI for Good Summit in Geneva on July 6-7, 2026, where Secretary-General António Guterres issued an urgent call for international governance of AI and lethal autonomous weapons systems (killer robots). The UN's Independent International Scientific Panel on AI warned that AI could \"cause catastrophic harm, either on its own or due to malicious users.\" The summit also produced a UN child-safety pledge for AI labs and advanced negotiations toward a binding treaty banning fully autonomous lethal weapons.",
+      "keyConcepts": ["lethal autonomous weapons", "AI for Good Summit", "UN Scientific Panel on AI", "child-safety pledge"],
+      "whyItMatters": "The UN escalating its language on AI risk to \"catastrophic harm\" and moving toward binding autonomous weapons frameworks signals increasing international pressure that will shape compliance obligations for AI labs and defense contractors worldwide.",
+      "tags": ["un", "ai-governance", "killer-robots", "autonomous-weapons", "global-policy", "ai-safety"],
+      "relatedIds": ["article-eu-ai-cybersecurity-plan-2026-07-07"],
+      "knowledgeChecks": [
+        {
+          "question": "What did the UN Independent International Scientific Panel on AI warn about at the July 2026 Geneva summit?",
+          "options": ["That AI will eliminate 40% of jobs by 2030", "That AI could cause catastrophic harm, either on its own or due to malicious users", "That open-source AI models pose the greatest risk to global security", "That AI regulation must be harmonized with existing cyber treaties"],
+          "correctIndex": 1,
+          "explanation": "The UN's Independent Scientific Panel specifically warned that AI could 'cause catastrophic harm, either on its own or due to malicious users'—the UN's strongest public language on AI risk to date."
+        },
+        {
+          "question": "What two AI governance deliverables emerged from the July 2026 UN AI for Good Summit?",
+          "options": ["An AI treaty and a global AI tax framework", "A child-safety pledge for AI labs and advanced negotiations on banning lethal autonomous weapons", "A moratorium on frontier model training and an AI safety board", "A UN AI certification standard and a sovereign AI fund"],
+          "correctIndex": 1,
+          "explanation": "The summit produced a child-safety pledge for AI labs and moved negotiations forward on a binding international treaty to ban fully autonomous lethal weapons ('killer robots')."
         }
       ]
     }
