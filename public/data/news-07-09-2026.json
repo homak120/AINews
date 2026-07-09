@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-07-09T18:00:00.000Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-08",
+  "coverageEnd": "2026-07-09",
+  "items": [
+    {
+      "id": "article-openai-gpt56-public-launch-2026-07-09",
+      "type": "article",
+      "title": "OpenAI Releases GPT-5.6 Sol, Terra, and Luna to the Public After US Government Approval",
+      "sourceUrl": "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI publicly launched all three GPT-5.6 variants—Sol, Terra, and Luna—on July 9, 2026, after the Trump administration approved the release following weeks of national security testing. Sol is the flagship model for complex reasoning and agentic workloads at $12.50/M input and $75/M output tokens; Terra offers competitive GPT-5.5 performance at half the cost; Luna is the fastest and most affordable tier. The government had initially restricted the launch due to concerns about the model's advanced cybersecurity capabilities.",
+      "keyConcepts": ["GPT-5.6 Sol", "GPT-5.6 Terra", "GPT-5.6 Luna", "government AI oversight", "frontier model release"],
+      "whyItMatters": "GPT-5.6's public availability reshapes the frontier model market, arriving exactly as Anthropic's Fable 5 promotional pricing expired—intensifying direct competition at the highest capability tier while setting a new precedent for government clearance of frontier AI releases.",
+      "tags": ["openai", "gpt-5-6", "frontier-models", "government-oversight", "ai-policy", "model-release"],
+      "relatedIds": ["article-fable5-paid-gpt56-timing-2026-07-08"],
+      "knowledgeChecks": [
+        {
+          "question": "What is OpenAI's most capable model in the GPT-5.6 family?",
+          "options": ["GPT-5.6 Luna", "GPT-5.6 Terra", "GPT-5.6 Sol", "GPT-5.6 Pro"],
+          "correctIndex": 2,
+          "explanation": "GPT-5.6 Sol is the flagship model in the family, designed for complex reasoning and agentic workloads—the most capable and most expensive of the three variants."
+        },
+        {
+          "question": "Why did OpenAI delay the public launch of GPT-5.6?",
+          "options": ["Technical bugs required fixes before release", "OpenAI needed more internal benchmark testing", "The US government requested a hold for national security review", "Anthropic filed a legal challenge against the release"],
+          "correctIndex": 2,
+          "explanation": "The Trump administration asked OpenAI to delay the release for additional government testing amid national security concerns about the model's advanced cybersecurity capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-chinese-ai-models-probe-2026-07-08",
+      "type": "article",
+      "title": "US Lawmakers Open Probe Into Growing Enterprise Adoption of Chinese AI Models",
+      "sourceUrl": "https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html",
+      "verified": false,
+      "publishedAt": "2026-07-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "US lawmakers launched a congressional probe on July 8 into the rapid adoption of Chinese AI models by American enterprises, after data showed 30–46% of developer API tokens on platforms like OpenRouter now flow to Chinese models—up from an average of just 11% over the prior 12 months. The surge is driven largely by cost: open-source Chinese models run 60–90% cheaper than leading OpenAI and Anthropic offerings. Z.ai's GLM 5.2 saw the fastest adoption of any model tracked by Vercel in 2026, with daily token volume growing 27× in its first full week.",
+      "keyConcepts": ["Chinese AI models", "OpenRouter API usage", "Z.ai GLM 5.2", "AI export controls", "enterprise AI cost"],
+      "whyItMatters": "When 30–46% of US enterprise AI traffic routes to Chinese models, it raises immediate questions about data sovereignty, supply chain security, and whether existing US export restrictions are effective at slowing the competitive and geopolitical AI gap.",
+      "tags": ["chinese-ai", "openrouter", "glm-5-2", "ai-policy", "enterprise-ai", "export-controls"],
+      "relatedIds": ["article-openai-gpt56-public-launch-2026-07-09"],
+      "knowledgeChecks": [
+        {
+          "question": "According to CNBC's analysis, what share of enterprise API tokens on OpenRouter are flowing to Chinese AI models?",
+          "options": ["5–10%", "15–20%", "30–46%", "50–65%"],
+          "correctIndex": 2,
+          "explanation": "CNBC confirmed that Chinese AI models account for 30–46% of enterprise API token usage on OpenRouter, a dramatic rise from an average of 11% over the prior 12 months."
+        },
+        {
+          "question": "What is the primary driver of US enterprise adoption of Chinese AI models in 2026?",
+          "options": ["Superior benchmark performance across all tasks", "Faster inference speed", "60–90% cost advantage over US frontier models", "Better data privacy guarantees"],
+          "correctIndex": 2,
+          "explanation": "Chinese open-source models offer 60–90% lower per-token costs compared to OpenAI and Anthropic models, making price the dominant factor routing enterprise workloads to Chinese providers."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-id-verification-2026-07-08",
+      "type": "article",
+      "title": "Anthropic's Updated Privacy Policy Introduces Biometric Identity Verification for Flagged Claude Users",
+      "sourceUrl": "https://cybernews.com/ai-news/anthropic-privacy-policy-id-verification/",
+      "verified": false,
+      "publishedAt": "2026-07-08",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic's updated privacy policy, effective July 8, 2026, introduces identity verification for a subset of consumer Claude users whose accounts have been flagged for potential policy violations. The process—handled by San Francisco-based third-party platform Persona—collects government-issued ID documents, facial photos or videos, and facial geometry templates. The requirement applies only to Claude Free, Pro, and Max plans, not Enterprise or Platform accounts, and raises legal questions under Illinois's Biometric Information Privacy Act regarding data retention timelines and scope of consent.",
+      "keyConcepts": ["identity verification", "biometric data collection", "Persona ID platform", "Biometric Information Privacy Act", "Claude consumer plans"],
+      "whyItMatters": "Anthropic becoming the first major frontier AI lab to collect biometric data from flagged users sets an industry precedent for identity-based enforcement—but also opens significant questions about data retention, scope creep, and how this model of verification might spread to other platforms.",
+      "tags": ["anthropic", "claude", "privacy-policy", "biometric-data", "identity-verification", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which Claude plan tiers are subject to Anthropic's new biometric identity verification requirement?",
+          "options": ["Enterprise and Platform users only", "Claude Free, Pro, and Max consumer plans", "All Claude users regardless of plan", "Only Claude Max subscribers"],
+          "correctIndex": 1,
+          "explanation": "The identity verification requirement applies exclusively to consumer-tier accounts (Claude Free, Pro, Max) for users flagged for policy violations. Enterprise and Platform users under Commercial Terms are not affected."
+        },
+        {
+          "question": "Which third-party service does Anthropic use to process identity documents and biometric data?",
+          "options": ["Stripe Identity", "Jumio", "Persona", "Onfido"],
+          "correctIndex": 2,
+          "explanation": "Anthropic uses Persona, a San Francisco-based identity verification platform, to process government-issued ID documents, selfie videos, and facial geometry templates collected under the new policy."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-paid-gpt56-timing-2026-07-08",
+      "type": "article",
+      "title": "Fable 5 Transitions to Paid Credits as OpenAI Times GPT-5.6 Launch for the Next Day",
+      "sourceUrl": "https://www.techzine.eu/news/applications/142753/fable-5-promotion-extended-gpt-5-6-on-the-way/",
+      "verified": false,
+      "publishedAt": "2026-07-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic's promotional window for Fable 5 closed on July 8, 2026, moving all paying Claude users to usage-credit pricing at $10/million input tokens and $50/million output tokens. OpenAI announced GPT-5.6's full public launch for July 9—the very next day—a timing widely read as deliberate competitive positioning. Analysts noted that the two events force developers into an immediate cost-versus-capability decision between the two leading frontier models.",
+      "keyConcepts": ["Fable 5 usage pricing", "GPT-5.6 competitive launch", "frontier model economics", "AI switching costs", "per-token pricing"],
+      "whyItMatters": "The simultaneous end of Fable 5's inclusive access and GPT-5.6's debut creates a genuine inflection point for AI developers—both top-tier models now require significant per-token investment, and the market must decide which capability trade-offs justify the cost.",
+      "tags": ["fable-5", "gpt-5-6", "anthropic", "openai", "ai-pricing", "frontier-models"],
+      "relatedIds": ["article-openai-gpt56-public-launch-2026-07-09", "article-cnbc-chinese-ai-models-probe-2026-07-08"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the output token price for Claude Fable 5 under the new usage-credit model (as of July 8, 2026)?",
+          "options": ["$10 per million tokens", "$25 per million tokens", "$50 per million tokens", "$100 per million tokens"],
+          "correctIndex": 2,
+          "explanation": "After the promotional period ended July 8, Fable 5 moved to usage-credit pricing: $10 per million input tokens and $50 per million output tokens for Claude Pro subscribers."
+        },
+        {
+          "question": "What was strategically notable about OpenAI's timing of the GPT-5.6 public launch?",
+          "options": ["It was released exactly one year after GPT-5.5", "OpenAI announced it the same day Fable 5's free promotional period ended", "GPT-5.6 launched before any government security testing", "GPT-5.6 launched simultaneously across 50 countries"],
+          "correctIndex": 1,
+          "explanation": "OpenAI announced GPT-5.6's public launch for July 9—the day after Fable 5's promotional pricing ended on July 8—a timing analysts widely interpreted as a deliberate competitive move to capture users reconsidering their AI subscriptions."
+        }
+      ]
+    }
+  ]
+}
