@@ -1,9 +1,126 @@
 {
-  "generatedAt": "2026-07-09T18:00:00.000Z",
+  "generatedAt": "2026-07-09T22:30:00.000Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-08",
   "coverageEnd": "2026-07-09",
   "items": [
+    {
+      "id": "youtube-NvrZEecpAOI",
+      "type": "video",
+      "title": "Grok 4.5 Review: SpaceXAI's New Opus-Class Coding Model",
+      "youtubeId": "NvrZEecpAOI",
+      "sourceUrl": "https://www.youtube.com/watch?v=NvrZEecpAOI",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "TheAIGRID covers the public launch of Grok 4.5 by SpaceXAI (formerly xAI), Elon Musk's rebranded AI lab. The video reviews Grok 4.5's standout capabilities in coding and agentic tasks, its 1.5 trillion parameter V9 foundation model, and its aggressive pricing at $2/$6 per million input/output tokens—significantly undercutting Opus 4.8. The channel highlights how the simultaneous launch with GPT-5.6 Sol makes July 9 one of the most competitive single days in frontier AI history.",
+      "keyConcepts": ["Grok 4.5", "SpaceXAI V9 foundation model", "Cursor training partnership", "frontier model pricing", "agentic coding"],
+      "whyItMatters": "Grok 4.5 entering the market at Opus-class capability but a fraction of the cost forces every AI team to reassess their model stack—it's a direct attack on the economic moat of established frontier labs.",
+      "tags": ["grok-4-5", "spacexai", "elon-musk", "coding-ai", "agentic-ai", "model-release"],
+      "relatedIds": ["youtube-UVFOSpxmSFo", "youtube-jUqTngvA_mc", "article-openai-gpt56-public-launch-2026-07-09"],
+      "knowledgeChecks": [
+        {
+          "question": "What is notable about Grok 4.5's training process compared to previous Grok models?",
+          "options": [
+            "First trained exclusively on SpaceX operational data",
+            "First trained jointly with Cursor coding data",
+            "First trained using Google's TPU clusters",
+            "First trained with synthetic data only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.5 is the first model co-trained by SpaceXAI and Cursor, giving it a strong advantage in real-world engineering and agentic coding tasks."
+        },
+        {
+          "question": "What parameter count does Grok 4.5's V9 foundation model have?",
+          "options": [
+            "500 billion parameters",
+            "800 billion parameters",
+            "1 trillion parameters",
+            "1.5 trillion parameters"
+          ],
+          "correctIndex": 3,
+          "explanation": "Grok 4.5 is built on SpaceXAI's V9 foundation model with 1.5 trillion parameters—approximately three times the size of the prior v8-small production model."
+        }
+      ]
+    },
+    {
+      "id": "youtube-UVFOSpxmSFo",
+      "type": "video",
+      "title": "Grok 4.5 Puts SpaceXAI On The Map",
+      "youtubeId": "UVFOSpxmSFo",
+      "sourceUrl": "https://www.youtube.com/watch?v=UVFOSpxmSFo",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Matthew Berman benchmarks Grok 4.5 using his Bridgemind evaluation framework, finding it to be the first Grok model to earn his stamp of approval. The video compares Grok 4.5 against Claude Opus 4.8 and GPT-5.6 Sol across coding, reasoning, and creative tasks, showing that Grok 4.5 delivers comparable quality at dramatically lower token cost. Berman concludes that SpaceXAI has finally built a model worthy of serious enterprise consideration.",
+      "keyConcepts": ["Bridgemind evaluation", "model benchmarking", "Grok 4.5 vs Opus 4.8", "token efficiency", "enterprise AI selection"],
+      "whyItMatters": "A credible independent benchmark showing Grok 4.5 matching Opus-class models at 60–75% lower token cost is a signal that the frontier model market is becoming genuinely competitive, giving enterprises real pricing leverage.",
+      "tags": ["grok-4-5", "spacexai", "benchmarks", "model-comparison", "matthew-berman", "enterprise-ai"],
+      "relatedIds": ["youtube-NvrZEecpAOI", "youtube-jUqTngvA_mc", "article-fable5-paid-gpt56-timing-2026-07-08"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Grok 4.5's output token price compare to Anthropic's Opus 4.8?",
+          "options": [
+            "Grok 4.5 is more expensive per output token",
+            "Grok 4.5 and Opus 4.8 are identically priced",
+            "Grok 4.5 costs $6/M output tokens versus $25/M for Opus 4.8",
+            "Grok 4.5 is free during a promotional period"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.5 is priced at $2/$6 per million input/output tokens, compared to $5/$25 for Opus 4.8—making it roughly 76% cheaper per output token while claiming comparable capability."
+        },
+        {
+          "question": "What distinction does Grok 4.5 achieve in Matthew Berman's Bridgemind evaluation?",
+          "options": [
+            "First model to score 100% on all math benchmarks",
+            "First Grok model to earn the Bridgemind stamp of approval",
+            "First model to beat Claude Fable 5 on all creative tasks",
+            "First model to pass the Bridgemind AGI threshold"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.5 is the first model in the Grok family to earn Matthew Berman's Bridgemind stamp of approval, indicating it meets his bar for serious recommendation across coding, reasoning, and creative use cases."
+        }
+      ]
+    },
+    {
+      "id": "youtube-jUqTngvA_mc",
+      "type": "video",
+      "title": "Grok 4.5: SpaceXAI's Compute Moat and Developer Demos",
+      "youtubeId": "jUqTngvA_mc",
+      "sourceUrl": "https://www.youtube.com/watch?v=jUqTngvA_mc",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Wes Roth examines what he calls SpaceXAI's 'compute moat'—the company's investment in tens of thousands of Nvidia GB300 GPUs—as the structural advantage behind Grok 4.5's 80 tokens-per-second inference speed. He runs live developer demos including a fully playable 3D sailing game and an Elder Scrolls-style text RPG generated entirely by Grok 4.5, showcasing its strength in long-form code generation and creative coherence. Roth argues the compute infrastructure positions SpaceXAI as a durable competitor even as OpenAI and Anthropic release new models.",
+      "keyConcepts": ["compute moat", "Nvidia GB300 GPUs", "inference speed", "agentic code generation", "SpaceXAI infrastructure"],
+      "whyItMatters": "SpaceXAI's ownership of massive Nvidia GB300 infrastructure gives it a cost and latency advantage that's hard to replicate quickly—meaning Grok's competitive threat isn't just about today's model, but about a structural edge in the next generation of model training.",
+      "tags": ["grok-4-5", "spacexai", "compute-infrastructure", "inference-speed", "wes-roth", "developer-demo"],
+      "relatedIds": ["youtube-NvrZEecpAOI", "youtube-UVFOSpxmSFo", "article-openai-gpt56-public-launch-2026-07-09"],
+      "knowledgeChecks": [
+        {
+          "question": "What inference speed does Grok 4.5 achieve, allowing it to compete with flash-tier models?",
+          "options": [
+            "20 tokens per second",
+            "40 tokens per second",
+            "80 tokens per second",
+            "120 tokens per second"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.5 runs at 80 tokens per second, a speed typically associated with smaller flash models, despite being a full Opus-class frontier model."
+        },
+        {
+          "question": "What hardware infrastructure does Wes Roth identify as SpaceXAI's compute moat?",
+          "options": [
+            "Tens of thousands of AMD MI300X GPUs leased from Azure",
+            "Tens of thousands of Nvidia GB300 GPUs owned by SpaceXAI",
+            "A proprietary silicon chip co-designed with TSMC",
+            "Google Cloud's TPU v6 pods under a long-term contract"
+          ],
+          "correctIndex": 1,
+          "explanation": "SpaceXAI trained Grok 4.5 across tens of thousands of Nvidia GB300 GPUs that the company owns outright, giving it a structural cost and capacity advantage over competitors relying on cloud-leased compute."
+        }
+      ]
+    },
     {
       "id": "article-openai-gpt56-public-launch-2026-07-09",
       "type": "article",
