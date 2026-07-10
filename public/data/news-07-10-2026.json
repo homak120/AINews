@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-07-10T00:00:00.000Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-09",
+  "coverageEnd": "2026-07-09",
+  "items": [
+    {
+      "id": "youtube-IXjJECAwyUw",
+      "type": "video",
+      "title": "The Wire: AI Daily Brief — July 9, 2026",
+      "youtubeId": "IXjJECAwyUw",
+      "sourceUrl": "https://www.youtube.com/watch?v=IXjJECAwyUw",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The AI Daily Brief's Wire episode for July 9 covers the day's major developments, including OpenAI's general availability rollout of the GPT-5.6 Sol, Terra, and Luna model family, Anthropic's new Claude Reflect usage analytics dashboard, and Ollama's $65 million Series B funding round. The episode provides a concise intelligence picture of the AI landscape with research notes and context on what each development means for practitioners and enterprise teams.",
+      "keyConcepts": ["GPT-5.6 model family", "Claude Reflect analytics", "open-source AI infrastructure", "AI investment trends"],
+      "whyItMatters": "July 9, 2026 was a landmark single day in AI with simultaneous major releases from OpenAI and Anthropic alongside a significant open-source AI funding milestone, illustrating the unprecedented pace of concurrent development across the ecosystem.",
+      "tags": ["ai-news", "openai", "anthropic", "gpt-5-6", "ollama", "daily-brief"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What are the three models in OpenAI's GPT-5.6 family released on July 9, 2026?",
+          "options": [
+            "Apex, Base, and Nano",
+            "Sol, Terra, and Luna",
+            "Pro, Standard, and Mini",
+            "Alpha, Beta, and Gamma"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI released GPT-5.6 Sol (flagship for hard reasoning and agentic workflows), Terra (balanced everyday tier), and Luna (fast and affordable) to general availability on July 9, 2026."
+        },
+        {
+          "question": "How much did Ollama raise in its Series B funding round announced July 9, 2026?",
+          "options": [
+            "$45 million",
+            "$110 million",
+            "$65 million",
+            "$88 million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ollama raised a $65 million Series B led by Theory Ventures, bringing its total funding to $88 million. The company had grown to nearly 9 million users at the time of the raise."
+        }
+      ]
+    },
+    {
+      "id": "article-ollama-65m-series-b-2026-07-09",
+      "type": "article",
+      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+      "sourceUrl": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Ollama, the open-source tool for running large language models locally, announced a $65 million Series B funding round led by Theory Ventures, bringing its total funding to $88 million. The company has grown to nearly 9 million users, reflecting strong developer demand for privacy-preserving, offline-capable AI inference. The raise positions Ollama to expand its model library, developer tooling, and enterprise support offerings.",
+      "keyConcepts": ["local LLM inference", "open-source AI tooling", "Series B funding", "developer ecosystem"],
+      "whyItMatters": "Ollama's rapid growth to 9 million users signals that running models locally is becoming a mainstream engineering practice, and the significant VC backing will accelerate the open-source AI infrastructure ecosystem that reduces dependency on proprietary cloud APIs.",
+      "tags": ["ollama", "open-source", "local-llm", "series-b", "developer-tools", "funding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Ollama's primary function for AI developers?",
+          "options": [
+            "Cloud-hosted LLM API access with pay-per-token pricing",
+            "Running large language models locally on developer machines",
+            "Fine-tuning foundation models on proprietary datasets",
+            "Building retrieval-augmented generation pipelines in the cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ollama is an open-source tool that lets developers download and run large language models directly on their local machines, without needing cloud API calls — which is valuable for privacy, latency, and cost."
+        },
+        {
+          "question": "Which firm led Ollama's $65M Series B round announced in July 2026?",
+          "options": [
+            "Sequoia Capital",
+            "Andreessen Horowitz",
+            "Theory Ventures",
+            "Lightspeed Venture Partners"
+          ],
+          "correctIndex": 2,
+          "explanation": "Theory Ventures led Ollama's $65M Series B round, pushing the company's total raised to $88 million and reflecting the firm's conviction in open-source AI tooling infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-reflect-2026-07-09",
+      "type": "article",
+      "title": "Anthropic's New Claude Reflect Feature Tracks and Visualizes Your AI Usage Habits",
+      "sourceUrl": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic launched Claude Reflect, a built-in analytics dashboard that lets Claude users see how frequently they use the product, what types of tasks they delegate to it, and patterns in their AI interaction habits. TechCrunch notes that while Reflect is framed as a user empowerment tool, it also makes Anthropic's value proposition more concrete by surfacing productivity metrics tied to AI use. The feature is part of a broader trend of AI companies building engagement-deepening product layers beyond raw model capabilities.",
+      "keyConcepts": ["AI usage analytics", "user habit tracking", "product engagement design", "behavioral transparency"],
+      "whyItMatters": "Claude Reflect illustrates how AI companies are moving beyond raw capabilities to build richer product experiences that make AI value tangible and measurable — a strategy that could increase retention while also raising important questions about behavioral nudging and data use.",
+      "tags": ["anthropic", "claude", "claude-reflect", "analytics", "product-design", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's Claude Reflect dashboard show users?",
+          "options": [
+            "Benchmark comparisons of Claude against competing AI models",
+            "A personalized news feed curated from the user's past Claude conversations",
+            "Analytics on frequency and types of tasks they use Claude for",
+            "A journal of Claude's reasoning traces from prior sessions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Reflect is a usage analytics dashboard that visualizes how a user interacts with Claude — including frequency, task categories, and usage patterns — giving users visibility into their own AI habits."
+        },
+        {
+          "question": "According to TechCrunch's analysis, what secondary effect does Claude Reflect likely have for Anthropic as a business?",
+          "options": [
+            "It reduces Anthropic's API infrastructure costs by batching common queries",
+            "It makes Claude's productivity value more visible, which is likely to increase user retention",
+            "It enables Anthropic to monetize anonymized usage data through a marketplace",
+            "It creates AI usage quotas that push enterprise customers toward higher-tier plans"
+          ],
+          "correctIndex": 1,
+          "explanation": "By surfacing concrete usage data, Reflect helps users see how much they rely on Claude, which reinforces the product's value proposition and is likely to increase subscription retention and upgrades."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-work-agent-2026-07-09",
+      "type": "article",
+      "title": "OpenAI Unveils ChatGPT Work Agent and Upgraded Desktop App Alongside GPT-5.6 Launch",
+      "sourceUrl": "https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Alongside the GPT-5.6 model family launch, OpenAI unveiled ChatGPT Work, a new agent-based product that bundles Codex and ChatGPT capabilities into a unified desktop experience designed for workplace automation. The updated desktop app allows ChatGPT Work and Codex to share plug-ins, with Codex mode exposing more technical execution details and ChatGPT Work abstracting them for non-technical users. OpenAI also announced a hosted sites service for deploying AI-generated web experiences.",
+      "keyConcepts": ["ChatGPT Work agent", "Codex integration", "workplace AI automation", "agentic desktop app"],
+      "whyItMatters": "ChatGPT Work signals OpenAI's pivot from being a model provider to an enterprise productivity platform, directly challenging Microsoft Copilot and Google Workspace AI — the real battleground for AI revenue at scale is workplace automation, not just API tokens.",
+      "tags": ["openai", "chatgpt-work", "codex", "agentic-ai", "enterprise", "desktop-app"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does ChatGPT Work differ from ChatGPT Codex in OpenAI's updated desktop app?",
+          "options": [
+            "ChatGPT Work uses GPT-5.6 Sol while Codex uses an older model",
+            "ChatGPT Work is only available offline while Codex requires internet access",
+            "ChatGPT Work abstracts technical details for general users while Codex exposes them for developers",
+            "ChatGPT Work is free while Codex requires a paid subscription"
+          ],
+          "correctIndex": 2,
+          "explanation": "In the unified desktop app, both modes share the same plug-ins, but ChatGPT Work abstracts execution details for non-technical workplace users while Codex shows more technical information for developers."
+        },
+        {
+          "question": "What market does ChatGPT Work most directly compete in?",
+          "options": [
+            "Consumer social media AI assistants",
+            "Open-source local model inference tools",
+            "Enterprise workplace AI productivity platforms",
+            "AI-generated video and media creation tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Work targets enterprise workplace productivity, positioning OpenAI directly against Microsoft Copilot and Google Workspace AI — the high-value market where companies pay for AI-augmented professional workflows."
+        }
+      ]
+    }
+  ]
+}
