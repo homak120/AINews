@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-10T00:00:00.000Z",
+  "generatedAt": "2026-07-10T08:30:00.000Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-09",
-  "coverageEnd": "2026-07-09",
+  "coverageEnd": "2026-07-10",
   "items": [
     {
       "id": "youtube-IXjJECAwyUw",
@@ -40,6 +40,45 @@
           ],
           "correctIndex": 2,
           "explanation": "Ollama raised a $65 million Series B led by Theory Ventures, bringing its total funding to $88 million. The company had grown to nearly 9 million users at the time of the raise."
+        }
+      ]
+    },
+    {
+      "id": "youtube-mWlCituW7wo",
+      "type": "video",
+      "title": "A Model Explosion: GPT-5.6 Sol, Grok 4.5, and Meta Muse Spark Rewrite the Rules",
+      "youtubeId": "mWlCituW7wo",
+      "sourceUrl": "https://www.youtube.com/watch?v=mWlCituW7wo",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Wes Roth breaks down the simultaneous frontier model launches from OpenAI (GPT-5.6 Sol), xAI (Grok 4.5), and Meta (Muse Spark 1.1), arguing that pricing pressure is the defining story of the week. He demonstrates Grok 4.5's coding performance, noting its 2x token efficiency edge over Opus 4.8 at 60% lower cost, and analyzes how GPT-5.6 Sol may outperform Claude Fable 5 on price-to-capability ratio. The video examines how this convergence of releases marks a structural shift in the frontier model market.",
+      "keyConcepts": ["Grok 4.5 token efficiency", "GPT-5.6 Sol pricing", "Meta Muse Spark 1.1", "frontier model competition"],
+      "whyItMatters": "When three major frontier models from different labs launch within 48 hours at dramatically lower price points, it signals a pricing inflection point — the question is no longer which model is best in absolute terms but which delivers the most capability per dollar in production workloads.",
+      "tags": ["grok-4-5", "gpt-5-6", "muse-spark", "model-comparison", "ai-pricing", "wes-roth"],
+      "relatedIds": ["youtube-IXjJECAwyUw"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the video's analysis, what is Grok 4.5's key pricing advantage over Claude Opus 4.8?",
+          "options": [
+            "Grok 4.5 is free for API use while Opus 4.8 requires a paid plan",
+            "Grok 4.5 is over 60% cheaper per million tokens than Opus 4.8",
+            "Grok 4.5 offers unlimited context windows while Opus 4.8 caps at 200K",
+            "Grok 4.5 requires no API key for the first 10 million tokens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.5 is priced at $2 input / $6 output per million tokens versus Claude Opus 4.8 at $5 / $25, making Grok 4.5 over 60% cheaper on input tokens and about 75% cheaper on output tokens."
+        },
+        {
+          "question": "What does Wes Roth identify as the defining market dynamic of the July 2026 model wave?",
+          "options": [
+            "Models are getting so large that only hyperscalers can run them",
+            "Open-weight models are finally surpassing proprietary frontier models",
+            "A pricing inflection point where per-token costs are collapsing across all frontier labs",
+            "Multimodal video capabilities are now the primary differentiator between models"
+          ],
+          "correctIndex": 2,
+          "explanation": "The key story of the July 2026 model wave is that pricing pressure drove all three major labs to release highly capable models at dramatically lower per-token costs, shifting competition from raw capability to capability-per-dollar."
         }
       ]
     },
@@ -154,6 +193,82 @@
           ],
           "correctIndex": 2,
           "explanation": "ChatGPT Work targets enterprise workplace productivity, positioning OpenAI directly against Microsoft Copilot and Google Workspace AI — the high-value market where companies pay for AI-augmented professional workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-spark-1-1-2026-07-09",
+      "type": "article",
+      "title": "Meta Enters the Crowded AI Coding Battle with Muse Spark 1.1",
+      "sourceUrl": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta Superintelligence Labs launched Muse Spark 1.1, a multimodal reasoning model designed specifically for agentic coding and autonomous task execution, available through the new Meta Model API. Priced at $1.25 input / $4.25 output per million tokens — roughly one-third cheaper than Grok 4.5 — Muse Spark 1.1 can autonomously manage a 1-million-token context window, orchestrate parallel sub-agents, and zero-shot generalize to new MCP servers and custom tools. TechCrunch notes the model immediately topped professional benchmarks in tax, healthcare, and legal evaluations, directly unseating Grok 4.5 which had just claimed those leaderboards.",
+      "keyConcepts": ["Meta Model API", "agentic coding", "multimodal reasoning", "autonomous multi-agent orchestration"],
+      "whyItMatters": "Muse Spark 1.1 forces a rapid repricing of frontier model expectations: within 24 hours of Grok 4.5 claiming coding leaderboards, Meta's model topped them at lower cost — compressing the competitive cycle from months to days and accelerating price discovery for developers choosing production models.",
+      "tags": ["meta", "muse-spark", "agentic-ai", "coding", "api-pricing", "meta-model-api"],
+      "relatedIds": ["youtube-mWlCituW7wo"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Muse Spark 1.1's maximum context window size?",
+          "options": [
+            "128,000 tokens",
+            "256,000 tokens",
+            "500,000 tokens",
+            "1,000,000 tokens"
+          ],
+          "correctIndex": 3,
+          "explanation": "Muse Spark 1.1 can actively manage a context window of 1 million tokens, allowing it to remember actions and retrieve information from earlier in extended agentic workflows."
+        },
+        {
+          "question": "How does Muse Spark 1.1's pricing compare to Grok 4.5?",
+          "options": [
+            "Muse Spark 1.1 is more expensive, positioning it as a premium alternative",
+            "Both models are priced identically at $2/$6 per million tokens",
+            "Muse Spark 1.1 is approximately one-third cheaper on both input and output tokens",
+            "Muse Spark 1.1 charges per task rather than per token, making comparison impossible"
+          ],
+          "correctIndex": 2,
+          "explanation": "Muse Spark 1.1 costs $1.25 input / $4.25 output per million tokens versus Grok 4.5's $2.00 / $6.00, making it roughly 37% cheaper on input and 29% cheaper on output — about one-third cheaper overall."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-superintelligence-labs-alexandr-wang-2026-07-09",
+      "type": "article",
+      "title": "Meta Accelerates Its AI Push Under Alexandr Wang as Superintelligence Labs Launches Muse Spark 1.1",
+      "sourceUrl": "https://fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Fortune profiles Meta's accelerating AI strategy as its Superintelligence Labs — led by Alexandr Wang, former CEO of Scale AI — releases Muse Spark 1.1. Mark Zuckerberg posted on X for the first time in three years to announce the launch, signaling how central AI has become to Meta's identity. The article examines how Wang's data-labeling and evaluation expertise from Scale AI is shaping Meta's model development philosophy: optimizing for real-world task performance and professional benchmark dominance rather than raw parameter count.",
+      "keyConcepts": ["Meta Superintelligence Labs", "Alexandr Wang leadership", "AI talent strategy", "model evaluation philosophy"],
+      "whyItMatters": "The Scale AI-to-Meta pipeline — where the person who built the world's dominant AI data and evaluation platform now leads a trillion-dollar company's AI division — illustrates how AI evaluation expertise has become a strategic moat, not just an engineering support function.",
+      "tags": ["meta", "alexandr-wang", "superintelligence-labs", "ai-leadership", "ai-career", "scale-ai"],
+      "relatedIds": ["article-meta-muse-spark-1-1-2026-07-09"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Alexandr Wang's role before leading Meta Superintelligence Labs?",
+          "options": [
+            "CTO of OpenAI's research division",
+            "CEO of Scale AI, a leading AI data labeling and evaluation company",
+            "VP of AI Infrastructure at Google DeepMind",
+            "Head of AI Safety at Anthropic"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alexandr Wang was the founder and CEO of Scale AI, which became the dominant platform for AI data labeling and model evaluation. His move to lead Meta Superintelligence Labs brought deep expertise in model assessment to Meta's frontier AI push."
+        },
+        {
+          "question": "According to Fortune's analysis, what evaluation philosophy does Alexandr Wang bring from Scale AI to Meta's model development?",
+          "options": [
+            "Prioritizing parameter count and training compute as the primary quality signals",
+            "Focusing on open-source community benchmarks as the sole measure of model quality",
+            "Optimizing for real-world task performance and professional benchmark dominance over raw scale",
+            "Using user survey data rather than automated benchmarks to measure model usefulness"
+          ],
+          "correctIndex": 2,
+          "explanation": "Wang's philosophy from Scale AI centers on real-world task performance and professional domain benchmarks — the insight being that a model winning on tax, healthcare, and legal evaluations matters more than topping academic leaderboards, because that is where enterprise customers make purchasing decisions."
         }
       ]
     }
