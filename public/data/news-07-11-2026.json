@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-11T08:30:00.000Z",
+  "generatedAt": "2026-07-11T14:00:00.000Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-09",
-  "coverageEnd": "2026-07-10",
+  "coverageEnd": "2026-07-11",
   "items": [
     {
       "id": "youtube-KGtko3y2RXQ",
@@ -233,6 +233,44 @@
           ],
           "correctIndex": 2,
           "explanation": "Deloitte's 2026 report found that nearly three in four companies (approximately 75%) plan to deploy agentic AI within two years — across industries, not just technology — signaling that agentic deployment is approaching mainstream adoption, not just early experimentation."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-reflect-dashboard-techtimes-2026-07-10",
+      "type": "article",
+      "title": "Anthropic Reflect: Claude Usage Dashboard Helps Users Think More Intentionally About AI",
+      "sourceUrl": "https://www.techtimes.com/articles/320092/20260710/anthropic-reflect-claude-usage-dashboard-helps-users-helps-anthropic-too.htm",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic launched Reflect, a beta dashboard inside Claude that lets users visualize their AI usage patterns — topics covered, session frequency, and task types — over 1, 3, 6, or 12-month lookback windows. The feature also supports quiet hours and timed break nudges to encourage more intentional AI habits. While marketed as a user wellbeing tool, Reflect also surfaces richer behavioral data that helps Anthropic understand how Claude is used across its Free, Pro, and Max tiers.",
+      "keyConcepts": ["Claude Reflect dashboard", "AI usage visualization", "intentional AI use", "quiet hours and break nudges"],
+      "whyItMatters": "Anthropic Reflect echoes smartphone screen-time tools, signaling a shift toward AI products that actively surface usage patterns — setting a precedent for how AI companies might balance engagement growth with user welfare as daily AI interaction becomes the norm.",
+      "tags": ["anthropic", "claude", "reflect", "ai-wellness", "usage-dashboard", "user-experience"],
+      "relatedIds": ["youtube-KGtko3y2RXQ"],
+      "knowledgeChecks": [
+        {
+          "question": "What lookback periods does Claude Reflect support for reviewing your AI usage history?",
+          "options": [
+            "Daily and weekly summaries only",
+            "Last 30, 60, and 90 days",
+            "1, 3, 6, or 12 months",
+            "Lifetime usage only with no time-bounded view"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Reflect lets users look back on their chat activity across four time windows — 1, 3, 6, or 12 months — showing topic patterns, task types, and usage frequency to help users understand how their AI use has evolved over time."
+        },
+        {
+          "question": "Which Claude users can access the Reflect beta dashboard at launch?",
+          "options": [
+            "Only Claude Pro subscribers",
+            "Only Claude Max enterprise customers",
+            "Free, Pro, and Max users who have Memory enabled",
+            "All users regardless of Memory settings"
+          ],
+          "correctIndex": 2,
+          "explanation": "At launch, Claude Reflect is available on web and desktop for Free, Pro, and Max users — but only when Memory is enabled, since the dashboard pulls from Claude's stored conversation history to generate usage insights."
         }
       ]
     }
