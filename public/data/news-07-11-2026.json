@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-07-11T08:30:00.000Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-09",
+  "coverageEnd": "2026-07-10",
+  "items": [
+    {
+      "id": "youtube-KGtko3y2RXQ",
+      "type": "video",
+      "title": "Claude's Internal 'Workspace' — Is Anthropic's AI Approaching Consciousness?",
+      "youtubeId": "KGtko3y2RXQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=KGtko3y2RXQ",
+      "verified": false,
+      "publishedAt": "2026-07-09",
+      "topics": ["ai-research"],
+      "summary": "Fireship covers Anthropic's new J-space research, which found a privileged internal workspace inside Claude that mirrors the global workspace theory of consciousness. The model uses this space for silent reasoning, holding thoughts in mind, and multi-step planning before generating responses. Anthropic explicitly states the research does not prove Claude is conscious, but the functional analogy is striking and raises fundamental questions about AI interpretability.",
+      "keyConcepts": ["J-space (global workspace in language models)", "Global Workspace Theory of consciousness", "AI interpretability", "mechanistic interpretability"],
+      "whyItMatters": "This research suggests Claude may develop internal representations with properties analogous to conscious experience, with important implications for AI safety, transparency, and our understanding of what happens inside modern AI systems.",
+      "tags": ["anthropic", "claude", "consciousness", "interpretability", "j-space", "global-workspace-theory"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did Anthropic's J-space research find inside Claude's architecture?",
+          "options": [
+            "Evidence that Claude is definitively conscious and self-aware",
+            "A privileged internal workspace that mirrors the Global Workspace Theory of consciousness",
+            "A hidden training dataset leaking into model outputs",
+            "A new attention mechanism responsible for improved reasoning"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic discovered a small privileged internal 'J-space' inside Claude that functions like a workspace for reportable thoughts and multi-step reasoning — functionally similar to the Global Workspace Theory of consciousness. Crucially, Anthropic explicitly states this does not prove Claude is conscious."
+        },
+        {
+          "question": "According to Anthropic's J-space research, what types of cognitive tasks does this internal workspace support?",
+          "options": [
+            "Storing user conversation history across sessions",
+            "Running external web searches and tool calls",
+            "Silent reasoning, holding thoughts in mind, and multi-step planning",
+            "Encrypting sensitive parts of model outputs before delivery"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's paper describes J-space as a functional workspace Claude uses for thoughts the model can report, silent reasoning it conducts before answering, multi-step planning, and information it sometimes reveals before completing a final answer."
+        }
+      ]
+    },
+    {
+      "id": "youtube-xKg7O46HpH8",
+      "type": "video",
+      "title": "GPT-5.6 Is Here: Hands-On Review of OpenAI's New Three-Tier Model Family",
+      "youtubeId": "xKg7O46HpH8",
+      "sourceUrl": "https://www.youtube.com/watch?v=xKg7O46HpH8",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry"],
+      "summary": "Wes Roth reviews GPT-5.6, which launched on July 9, 2026, in three tiers — Sol (flagship), Terra (balanced), and Luna (fast and low-cost) — making the model family publicly available for the first time. The video covers early benchmarks, use cases, and how the tiered pricing model compares to Claude Fable 5 and Grok 4.5, which both launched the same week. OpenAI's simultaneous release of ChatGPT Work adds an autonomous agent layer to the ecosystem.",
+      "keyConcepts": ["GPT-5.6 Sol/Terra/Luna tiers", "tiered AI pricing", "frontier model benchmarks", "ChatGPT Work agent"],
+      "whyItMatters": "GPT-5.6 represents OpenAI's most capable public model yet, and the three-tier structure allows different user segments to access frontier AI at cost points ranging from affordable to enterprise premium — a structural shift that could accelerate mainstream AI adoption.",
+      "tags": ["openai", "gpt-5-6", "model-review", "tiered-pricing", "frontier-ai", "wes-roth"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What are the three tiers of GPT-5.6, listed from most to least capable?",
+          "options": [
+            "Pro, Standard, Lite",
+            "Sol, Terra, Luna",
+            "Alpha, Beta, Gamma",
+            "Ultra, Plus, Free"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI released GPT-5.6 in three tiers: Sol (flagship, highest capability for demanding reasoning and coding tasks), Terra (balanced everyday tier), and Luna (fast and affordable for high-throughput workloads)."
+        },
+        {
+          "question": "What enables ChatGPT Work to execute extended tasks without continuous user input?",
+          "options": [
+            "A dedicated cloud GPU cluster reserved for each user account",
+            "Integration with the user's calendar for automatic task scheduling",
+            "Codex integration enabling background, multi-step execution across web, mobile, and desktop apps",
+            "A shared workspace model where multiple users collaborate in real time"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Work bundles OpenAI's Codex capabilities into an agentic product that can read user app data, execute multi-step workflows in the background, and run autonomously for hours — without requiring the user to remain engaged at their device."
+        }
+      ]
+    },
+    {
+      "id": "youtube-roGmNXASYOM",
+      "type": "video",
+      "title": "GPT-5.6 Sol Deep Dive: Real-World Assessment After Two Months of Early Access",
+      "youtubeId": "roGmNXASYOM",
+      "sourceUrl": "https://www.youtube.com/watch?v=roGmNXASYOM",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Matthew Berman reviews GPT-5.6 Sol with the advantage of two months of internal access before public launch, comparing it to Claude Fable 5 and examining what the three-tier model family means for AI developers. He found Sol represents a substantial capability jump rather than an incremental update, positioning it as likely the final major GPT-5 variant before GPT-6. The review covers coding performance, reasoning depth, and the practical cost-performance tradeoffs relevant to production engineering teams.",
+      "keyConcepts": ["GPT-5.6 Sol benchmarks", "AI model lifecycle planning", "cost-performance tradeoffs", "developer model evaluation"],
+      "whyItMatters": "A developer who used GPT-5.6 Sol internally for two months provides a uniquely grounded perspective that cuts through launch-day hype, helping engineering teams assess whether it represents a real capability inflection worth migrating to.",
+      "tags": ["openai", "gpt-5-6", "model-review", "ai-engineering", "forward-future", "matthew-berman"],
+      "relatedIds": ["youtube-xKg7O46HpH8"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Matthew Berman characterize GPT-5.6 Sol in OpenAI's model roadmap?",
+          "options": [
+            "An interim patch before GPT-5.5 receives additional improvements",
+            "A major architecture shift that replaces the transformer paradigm",
+            "Likely the final major release in the GPT-5 family before GPT-6",
+            "A limited preview available only through enterprise licensing agreements"
+          ],
+          "correctIndex": 2,
+          "explanation": "After two months of internal testing, Berman concluded GPT-5.6 Sol is not a point update but the maturation of the GPT-5 family — likely its final major iteration before OpenAI moves to a GPT-6 generation, given the degree of capability improvement."
+        },
+        {
+          "question": "What is the primary practical benefit of the Sol/Terra/Luna tier structure for AI engineering teams?",
+          "options": [
+            "All three tiers share a single API endpoint with automatic routing",
+            "Luna, Terra, and Sol can self-upgrade to the next tier automatically based on task complexity",
+            "It allows combining multiple tiers in a single context window for hybrid tasks",
+            "Teams can route tasks to the most cost-appropriate tier based on complexity requirements"
+          ],
+          "correctIndex": 3,
+          "explanation": "The three-tier structure enables intelligent task routing: Luna for fast, cheap, high-volume work; Terra for everyday tasks; Sol for the most demanding reasoning, coding, and planning — optimizing cost without sacrificing quality where it matters most."
+        }
+      ]
+    },
+    {
+      "id": "article-gpt-live-full-duplex-techtimes-2026-07-10",
+      "type": "article",
+      "title": "ChatGPT Voice Goes Full-Duplex: GPT-Live Ends Turn-Based AI Conversations",
+      "sourceUrl": "https://www.techtimes.com/articles/320041/20260710/chatgpt-voice-goes-full-duplex-gpt-live-ends-turn-based-ai-conversations.htm",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI replaced its ChatGPT Advanced Voice Mode with GPT-Live — a new full-duplex voice model that can listen and speak simultaneously, enabling natural interruption and real-time dialogue without turn-based pauses. GPT-Live-1 (premium) and GPT-Live-1 mini (default for paid tiers) both use full-duplex architecture, allowing them to detect mid-sentence pauses and respond naturally while the user is still speaking. The shift marks the end of the push-to-talk paradigm in mainstream AI voice interfaces.",
+      "keyConcepts": ["full-duplex voice AI", "GPT-Live-1 and GPT-Live-1 mini", "natural language interruption", "voice interface design"],
+      "whyItMatters": "Full-duplex voice removes the most unnatural friction in AI voice interfaces — the turn-based structure that made ChatGPT voice feel robotic — potentially making voice the dominant AI interaction modality for mobile and hands-free workflows.",
+      "tags": ["openai", "gpt-live", "voice-ai", "full-duplex", "chatgpt", "voice-interface"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the defining technical capability of GPT-Live that Advanced Voice Mode lacked?",
+          "options": [
+            "Support for 40 additional languages beyond Advanced Voice Mode",
+            "Ability to generate voice from text using a separate TTS pipeline",
+            "Offline voice processing without an internet connection",
+            "Full-duplex architecture enabling simultaneous listening and speaking with natural interruption"
+          ],
+          "correctIndex": 3,
+          "explanation": "Unlike the turn-based Advanced Voice Mode, GPT-Live uses a full-duplex model that can listen and speak at the same time — detecting when users pause or interrupt mid-sentence and responding naturally, eliminating the robotic back-and-forth structure of prior AI voice interfaces."
+        },
+        {
+          "question": "Which GPT-Live model is available to paid ChatGPT subscribers by default?",
+          "options": [
+            "GPT-Live-1, the highest-capability full-duplex model",
+            "GPT-Live-1 mini, the efficient full-duplex model",
+            "Both GPT-Live-1 and GPT-Live-1 mini are available to all paid tiers",
+            "Neither — GPT-Live requires a separate subscription add-on"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-Live-1 mini replaced Advanced Voice Mode as the default voice experience for paid ChatGPT subscribers. GPT-Live-1 — the higher-capability model — is available for users on higher premium tiers. The free tier does not include GPT-Live."
+        }
+      ]
+    },
+    {
+      "id": "article-grok-45-price-analysis-decoder-2026-07-10",
+      "type": "article",
+      "title": "Grok 4.5 Is So Cheap That Benchmark Gaps Against Fable 5 and GPT-5.5 May Not Matter",
+      "sourceUrl": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "The Decoder argues that Grok 4.5's dramatic pricing advantage — at $2 input / $6 output per million tokens versus Claude Opus 4.8's $5 / $25 — may matter more than benchmark gaps in practice, especially for production workloads where cost scales directly with usage volume. While Claude Fable 5 and GPT-5.6 Sol score higher on several capability benchmarks, Grok 4.5's token efficiency claims mean many organizations could achieve equivalent results at a fraction of the cost. The analysis challenges benchmark-first model evaluation culture in favor of total cost of ownership thinking.",
+      "keyConcepts": ["Grok 4.5 pricing", "total cost of ownership for AI", "benchmark vs production performance", "token efficiency"],
+      "whyItMatters": "As frontier model performance converges at the top, pricing becomes a primary differentiator — Grok 4.5's cost advantage may give xAI significant traction with cost-sensitive production use cases even where its benchmark scores trail Fable 5 or GPT-5.6 Sol.",
+      "tags": ["grok-4-5", "xai", "ai-pricing", "benchmarks", "cost-efficiency", "model-comparison"],
+      "relatedIds": ["youtube-xKg7O46HpH8"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Grok 4.5's input token pricing compare to Claude Opus 4.8?",
+          "options": [
+            "$5 per million tokens (same price as Claude Opus 4.8)",
+            "$2 per million tokens (60% cheaper than Claude Opus 4.8 at $5/M)",
+            "$0.50 per million tokens (90% cheaper than all competitors)",
+            "$8 per million tokens (more expensive, premium positioning)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.5 is priced at $2 per million input tokens — 60% cheaper than Claude Opus 4.8 at $5/M — making it the most price-competitive major frontier model at launch, with xAI claiming equivalent Opus-class performance at dramatically lower cost."
+        },
+        {
+          "question": "What is The Decoder's core argument about evaluating Grok 4.5 for production use?",
+          "options": [
+            "Grok 4.5 should not be deployed in production because its benchmarks trail Claude Fable 5",
+            "Benchmark scores remain the most reliable signal for choosing any production AI model",
+            "Grok 4.5's price advantage may outweigh benchmark gaps in cost-sensitive, high-volume workloads",
+            "Token efficiency gains make all benchmark comparisons irrelevant for enterprise AI decisions"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Decoder argues that for high-volume production workloads, Grok 4.5's dramatically lower per-token pricing may make it the better practical choice even where benchmark scores trail Claude Fable 5 or GPT-5.6 Sol — because cost scales with usage in ways that benchmark point differences do not reflect."
+        }
+      ]
+    },
+    {
+      "id": "article-accenture-google-agentic-ai-week-july10-2026",
+      "type": "article",
+      "title": "Week in AI: Accenture and Google Cloud Launch Pre-Built Agentic AI for Mid-Market Enterprises",
+      "sourceUrl": "https://solutionsreview.com/ai-news-for-the-week-of-july-10-updates-from-accenture-google-cloud-supermicro-more/",
+      "verified": false,
+      "publishedAt": "2026-07-10",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Accenture Edge and Google Cloud unveiled a suite of pre-built agentic AI solutions targeting mid-market companies with $300M–$3B in annual revenue, lowering the barrier for enterprise AI adoption beyond the Fortune 500. Deloitte's 2026 State of AI in the Enterprise report found that nearly three in four companies plan to deploy agentic AI within the next two years — signaling the transition from AI experimentation to production deployment is well underway. The week's enterprise AI roundup also covers Supermicro's new AI server infrastructure and continued market analysis of the GPT-5.6 and Grok 4.5 release wave.",
+      "keyConcepts": ["pre-built agentic AI for mid-market", "Accenture Edge platform", "enterprise agentic deployment", "Deloitte AI enterprise survey"],
+      "whyItMatters": "With 75% of enterprises planning agentic AI deployment within two years and packaged solutions now targeting mid-market organizations, the window to begin planning AI-augmented workflows is closing — companies that delay risk ceding competitive ground to faster-moving peers.",
+      "tags": ["enterprise-ai", "accenture", "google-cloud", "agentic-ai", "mid-market", "deloitte-2026"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What annual revenue range defines 'mid-market' companies in the Accenture Edge / Google Cloud agentic AI announcement?",
+          "options": [
+            "$10M to $100M annually",
+            "$100M to $500M annually",
+            "$300M to $3B annually",
+            "Over $10B annually (Fortune 100 only)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Accenture Edge and Google Cloud targeted mid-market companies with $300M to $3B in annual revenue — a segment that previously lacked enterprise-grade agentic AI solutions tailored to their scale and IT resource levels."
+        },
+        {
+          "question": "What does Deloitte's 2026 State of AI in the Enterprise report say about near-term agentic AI plans?",
+          "options": [
+            "About 1 in 4 (25%) of companies plan to deploy agentic AI in two years",
+            "About 1 in 2 (50%) of companies plan to deploy agentic AI in two years",
+            "Nearly 3 in 4 (75%) of companies plan to deploy agentic AI in two years",
+            "Only early-adopter firms in technology and finance are investing in agentic AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Deloitte's 2026 report found that nearly three in four companies (approximately 75%) plan to deploy agentic AI within two years — across industries, not just technology — signaling that agentic deployment is approaching mainstream adoption, not just early experimentation."
+        }
+      ]
+    }
+  ]
+}
