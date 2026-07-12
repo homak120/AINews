@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-07-12T06:00:00.000Z",
+  "weekOf": "2026-07-06",
+  "coverageStart": "2026-07-11",
+  "coverageEnd": "2026-07-11",
+  "items": [
+    {
+      "id": "article-claude-code-auto-mode-bedrock-20260711",
+      "type": "article",
+      "title": "Claude Code Auto Mode Now Default on AWS Bedrock, Vertex AI, and Foundry",
+      "sourceUrl": "https://dev.classmethod.jp/en/articles/20260711-cc-updates-v2-1-207/",
+      "verified": false,
+      "publishedAt": "2026-07-11",
+      "topics": ["ai-engineering"],
+      "summary": "Claude Code v2.1.207 shipped on July 11, 2026, making auto mode the default on Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry — no CLAUDE_CODE_ENABLE_AUTO_MODE environment variable opt-in required. The release also sets Claude Opus 4.8 as the default model on Bedrock and fixes several bugs including terminal freezing during long streaming outputs and a multi-minute startup hang on Bedrock networks with restricted egress. Auto mode can be disabled via the disableAutoMode setting.",
+      "keyConcepts": [
+        "Claude Code auto mode",
+        "AWS Bedrock enterprise deployment",
+        "Claude Opus 4.8 as default model",
+        "Agentic coding in cloud infrastructure"
+      ],
+      "whyItMatters": "Removing the env-var opt-in brings autonomous coding agents to the large population of enterprise teams running Claude Code via Bedrock and Vertex without any config change — a quiet but significant step toward agentic AI becoming default in enterprise pipelines.",
+      "tags": ["claude-code", "aws-bedrock", "vertex-ai", "foundry", "auto-mode", "anthropic"],
+      "relatedIds": ["article-anthropic-claude-government-20260711"],
+      "knowledgeChecks": [
+        {
+          "question": "What changed in Claude Code v2.1.207 regarding auto mode on Bedrock?",
+          "options": [
+            "Auto mode was removed from Bedrock support entirely",
+            "Auto mode now requires a paid Bedrock add-on to enable",
+            "Auto mode became default without needing the CLAUDE_CODE_ENABLE_AUTO_MODE environment variable",
+            "Auto mode was renamed to agent mode in Bedrock environments"
+          ],
+          "correctIndex": 2,
+          "explanation": "v2.1.207 made auto mode default-on for Bedrock, Vertex AI, and Foundry without any environment variable. It can be disabled via disableAutoMode in settings."
+        },
+        {
+          "question": "Which model became the new default on AWS Bedrock in the July 11 Claude Code release?",
+          "options": [
+            "Claude Sonnet 4.6",
+            "Claude Haiku 4.5",
+            "Claude Fable 5",
+            "Claude Opus 4.8"
+          ],
+          "correctIndex": 3,
+          "explanation": "The v2.1.207 release updated the default model on Bedrock to Claude Opus 4.8, which is Anthropic's latest high-capability model available on that platform."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-government-20260711",
+      "type": "article",
+      "title": "Anthropic Launches Claude Code and Claude Cowork for U.S. Government in FedRAMP High Environment",
+      "sourceUrl": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+      "verified": false,
+      "publishedAt": "2026-07-11",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic opened public beta access to Claude Code and Claude Cowork within Claude for Government Desktop, a FedRAMP High authorized environment built for U.S. public sector agencies. The desktop app deploys via standard agency MDM platforms, stores conversation history locally on the agency-managed device, and provides tamper-evident audit logs that support agency ATO processes. Agency admins can allocate and control spending across departments. Anthropic remains the contracted billing party, so agencies don't need a separate cloud-provider relationship to get started.",
+      "keyConcepts": [
+        "FedRAMP High authorization",
+        "Public sector AI tooling",
+        "Tamper-evident audit logs",
+        "Claude Cowork for government desktop"
+      ],
+      "whyItMatters": "Federal agencies can now access Anthropic's most capable agentic tools — including autonomous coding and long-running background tasks — within a compliant environment, marking a significant expansion of AI into critical government operations and software modernization.",
+      "tags": ["anthropic", "government", "fedramp", "claude-code", "public-sector", "enterprise-ai"],
+      "relatedIds": ["article-claude-code-auto-mode-bedrock-20260711"],
+      "knowledgeChecks": [
+        {
+          "question": "Where is conversation history stored in Claude for Government Desktop?",
+          "options": [
+            "Anthropic's cloud servers in the US-East region",
+            "AWS GovCloud at the FedRAMP High boundary",
+            "Locally on the agency-managed device",
+            "A shared government data lake operated by CISA"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude for Government Desktop stores conversation history locally on the agency-managed device, keeping sensitive data within the agency's control while inference runs inside the FedRAMP High authorized environment."
+        },
+        {
+          "question": "What does FedRAMP High authorization mean for Claude for Government?",
+          "options": [
+            "The system has been approved only for unclassified public data",
+            "The system meets federal security requirements for highly sensitive non-classified government data",
+            "Anthropic employees have been granted secret-level security clearances",
+            "The system is approved for classified Top Secret operations"
+          ],
+          "correctIndex": 1,
+          "explanation": "FedRAMP High covers the highest tier of unclassified federal data — systems that could cause severe harm if compromised. It is required for many civilian agency workloads handling sensitive citizen data."
+        }
+      ]
+    }
+  ]
+}
