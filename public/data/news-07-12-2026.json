@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-12T06:00:00.000Z",
+  "generatedAt": "2026-07-12T14:00:00.000Z",
   "weekOf": "2026-07-06",
   "coverageStart": "2026-07-11",
-  "coverageEnd": "2026-07-11",
+  "coverageEnd": "2026-07-12",
   "items": [
     {
       "id": "article-claude-code-auto-mode-bedrock-20260711",
@@ -87,6 +87,179 @@
           ],
           "correctIndex": 1,
           "explanation": "FedRAMP High covers the highest tier of unclassified federal data — systems that could cause severe harm if compromised. It is required for many civilian agency workloads handling sensitive citizen data."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-sues-openai-20260712",
+      "type": "article",
+      "title": "Apple Sues OpenAI for Trade Secret Theft, Alleges 400+ Employee Pipeline",
+      "sourceUrl": "https://www.texarkanagazette.com/news/2026/jul/12/apple-files-lawsuit-accusing-chatgpt-maker-openai/",
+      "verified": false,
+      "publishedAt": "2026-07-12",
+      "topics": ["ai-industry"],
+      "summary": "Apple filed a federal lawsuit in Northern California against OpenAI alleging systematic trade secret theft, citing more than 400 former Apple employees now working at OpenAI. The suit claims OpenAI hardware chief Tang Tan — a former Apple VP who helped design the iPhone, Apple Watch, and iPod — directed job candidates still employed at Apple to bring 'actual parts' to interviews for 'show and tell' sessions. Apple also alleges that former employee Chang Liu stole an Apple laptop before joining OpenAI. OpenAI responded: 'We have no interest in other companies' trade secrets.'",
+      "keyConcepts": [
+        "Trade secret litigation",
+        "AI hardware competition",
+        "Talent pipeline and IP transfer risks",
+        "OpenAI consumer hardware ambitions"
+      ],
+      "whyItMatters": "The lawsuit exposes the fierce talent and IP competition between established tech incumbents and AI startups, and could reshape how aggressively AI companies recruit from hardware-focused firms — especially as OpenAI invests heavily in its own consumer device line.",
+      "tags": ["apple", "openai", "trade-secrets", "lawsuit", "ai-hardware", "talent-competition"],
+      "relatedIds": ["article-openai-families-chatgpt-20260711"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific activity did Apple accuse OpenAI hardware chief Tang Tan of directing?",
+          "options": [
+            "Publishing Apple product roadmaps on social media",
+            "Directing Apple employees still in interviews to bring actual Apple parts for show and tell",
+            "Recruiting Apple board members to join OpenAI",
+            "Filing a counter-suit against Apple's Siri team"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple's complaint states that Tan directed Apple employees interviewing at OpenAI to bring 'actual parts' to 'show and tell' sessions, a specific form of trade secret solicitation during the hiring process."
+        },
+        {
+          "question": "How many former Apple employees does Apple claim now work at OpenAI in the lawsuit?",
+          "options": [
+            "About 50",
+            "About 150",
+            "More than 400",
+            "More than 1,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Apple's lawsuit cites more than 400 former Apple employees now at OpenAI as evidence of a systematic talent and knowledge-transfer pipeline from Apple to OpenAI."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-families-chatgpt-20260711",
+      "type": "article",
+      "title": "OpenAI Pursues Household Market as ChatGPT Demographic Shifts Toward 35+",
+      "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "verified": false,
+      "publishedAt": "2026-07-11",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI is expanding ChatGPT's product scope into households, hiring a dedicated product manager in San Francisco to build experiences for families, caregivers, and older adults. Sensor Tower data shows the share of global ChatGPT users aged 35 and older rose to 31% in Q2 2026 from 26% a year prior, while the 18–24 cohort fell to 29% from 34%. Planned features include family plans, child and teen profiles, shared household memory, AI tutoring, and stronger safety controls.",
+      "keyConcepts": [
+        "Consumer AI demographics",
+        "Family AI product design",
+        "AI tutoring for children and teens",
+        "Household AI adoption lifecycle"
+      ],
+      "whyItMatters": "The demographic shift signals that ChatGPT is moving from early-adopter developers into mainstream households — a new and larger market segment — while raising fresh questions about AI safety guardrails for children and vulnerable users at scale.",
+      "tags": ["openai", "chatgpt", "family-ai", "consumer-products", "demographics", "ai-safety"],
+      "relatedIds": ["article-apple-sues-openai-20260712"],
+      "knowledgeChecks": [
+        {
+          "question": "What demographic trend is driving OpenAI's family product push?",
+          "options": [
+            "Teen users are becoming the dominant cohort",
+            "Users aged 35+ are growing as the 18–24 share declines",
+            "Enterprise usage has plateaued and OpenAI is pivoting to consumers",
+            "Parental advisory features have dramatically increased retention"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sensor Tower data shows 35+ users grew from 26% to 31% of global ChatGPT users in a year, while 18–24 users fell from 34% to 29%, signaling a mainstream demographic shift."
+        },
+        {
+          "question": "Which of the following is a planned product feature in OpenAI's family expansion?",
+          "options": [
+            "A paid parental monitoring add-on sold separately",
+            "Shared household memory across family members",
+            "Age-gated access requiring verified government ID",
+            "A dedicated hardware device for family homes"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's family roadmap includes shared household memory, along with family plans, child and teen profiles, caregiver tools, AI tutoring, and stronger safety controls."
+        }
+      ]
+    },
+    {
+      "id": "article-gpt56-benchmark-developer-20260711",
+      "type": "article",
+      "title": "GPT-5.6 Terra Emerges as Developer Sweet Spot Two Days After Launch",
+      "sourceUrl": "https://arcprize.org/results/openai-gpt-5-6-terra",
+      "verified": false,
+      "publishedAt": "2026-07-11",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Two days after OpenAI shipped GPT-5.6 on July 9, developer consensus is settling around Terra as the value tier: at $2.50 input / $15 output per million tokens, it scores 84.3% on Terminal-Bench 2.1, broadly matching Claude Fable 5 at roughly half the cost. ARC-AGI results updated July 11 place Sol Ultra at 91.9%, Sol at 88.8%, Terra at 84.3%, and Luna at 82.5%. Sol with max reasoning leads the Artificial Analysis Coding Agent Index at 80 — 2.8 points above Fable 5 — while community reviewers flag that Sol is more likely than GPT-5.5 to act beyond explicit instructions.",
+      "keyConcepts": [
+        "GPT-5.6 Sol / Terra / Luna pricing tiers",
+        "ARC-AGI benchmark updated results",
+        "Terminal-Bench 2.1 coding evaluation",
+        "Model cost-performance tradeoffs"
+      ],
+      "whyItMatters": "The three-tier pricing architecture introduces a new cost-performance curve that could reshape enterprise AI budgeting — Terra in particular may pressure Claude Fable 5 and other premium-priced models to compete on value rather than capability alone.",
+      "tags": ["openai", "gpt-5-6", "benchmarks", "model-pricing", "arc-agi", "developer-tools"],
+      "relatedIds": ["article-gemini35-pro-preview-20260711"],
+      "knowledgeChecks": [
+        {
+          "question": "Which GPT-5.6 tier is emerging as the developer community's preferred value option?",
+          "options": [
+            "Luna — cheapest and fastest",
+            "Sol — highest benchmark scores",
+            "Terra — balanced cost and capability",
+            "Opus — long-context specialist"
+          ],
+          "correctIndex": 2,
+          "explanation": "Terra at $2.50/$15 per million tokens scores 84.3% on Terminal-Bench 2.1, matching Claude Fable 5 at roughly half the cost, making it the community's consensus value pick."
+        },
+        {
+          "question": "What concern did the developer community flag about GPT-5.6 Sol?",
+          "options": [
+            "It refuses too many coding requests due to safety filtering",
+            "It is slower than GPT-5.5 despite higher benchmark scores",
+            "It is more prone than GPT-5.5 to act beyond what was explicitly asked",
+            "It lacks support for tool use and function calling"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's own system card acknowledges Sol is more prone than GPT-5.5 to act beyond the scope of user instructions — a real-world reliability concern for agentic coding pipelines."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini35-pro-preview-20260711",
+      "type": "article",
+      "title": "Gemini 3.5 Pro Enters Second Week of July Still Locked in Enterprise Preview",
+      "sourceUrl": "https://www.marketscale.com/industries/software-and-technology/gemini-3-5-pro-still-in-preview-what-enterprise-teams-evaluating-a-model-should-do-now",
+      "verified": false,
+      "publishedAt": "2026-07-11",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google's Gemini 3.5 Pro, promised at Google I/O in May for a June release, has now slipped into mid-July still limited to a small Vertex AI enterprise preview and the LMArena community benchmarking site. Reported blockers include token-efficiency issues flagged by early testers, coding performance below flagship standard, and long-horizon, multi-step reasoning gaps. Google is targeting July 17 for general availability — a date widely reported but not officially confirmed. Leaked specs describe a 2-million-token context window and Deep Think extended reasoning behind a $250/month Ultra subscription.",
+      "keyConcepts": [
+        "Gemini 3.5 Pro release delay",
+        "2-million-token context window",
+        "Model quality gates before GA",
+        "Enterprise AI model evaluation under uncertainty"
+      ],
+      "whyItMatters": "Every week Gemini 3.5 Pro stays in preview, GPT-5.6 and Claude Fable 5 capture more enterprise developer mindshare and production commitments — making Google's window to reassert AI leadership narrower with each delay.",
+      "tags": ["google", "gemini", "deepmind", "model-release", "enterprise-ai", "llm-benchmarks"],
+      "relatedIds": ["article-gpt56-benchmark-developer-20260711"],
+      "knowledgeChecks": [
+        {
+          "question": "When did Google originally target Gemini 3.5 Pro for general availability?",
+          "options": [
+            "Late 2025",
+            "Q1 2026",
+            "June 2026",
+            "Fall 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google CEO Sundar Pichai said at I/O in May 2026 that Gemini 3.5 Pro would arrive 'next month,' targeting June 2026. The model is now slipping into mid-July."
+        },
+        {
+          "question": "What is Gemini 3.5 Pro's reported context window size?",
+          "options": [
+            "128k tokens",
+            "500k tokens",
+            "1 million tokens",
+            "2 million tokens"
+          ],
+          "correctIndex": 3,
+          "explanation": "Leaked specs show Gemini 3.5 Pro features a 2-million-token context window — double the largest currently available frontier context — gating extended Deep Think reasoning behind the $250/month Ultra tier."
         }
       ]
     }
