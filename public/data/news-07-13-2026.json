@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-07-13T14:00:00.000Z",
+  "weekOf": "2026-07-13",
+  "coverageStart": "2026-07-12",
+  "coverageEnd": "2026-07-12",
+  "items": [
+    {
+      "id": "article-robotaxi-ultimatum-20260712",
+      "type": "article",
+      "title": "Waymo Towing Incident Tests Robotaxi Reliability Ahead of Regulatory Ultimatum",
+      "sourceUrl": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+      "verified": false,
+      "publishedAt": "2026-07-12",
+      "topics": ["ai-industry"],
+      "summary": "TechCrunch Mobility's weekly edition spotlights a defining reliability test for the autonomous vehicle industry: during San Francisco's July 4 fireworks event, numerous Waymo robotaxis were towed after depleting their batteries in the resulting gridlock, leaving passengers stranded and amplifying safety concerns. The incident arrives at a pivotal moment as city regulators weigh whether to expand, hold, or restrict robotaxi permits — making each high-profile failure more consequential than a normal product glitch.",
+      "keyConcepts": [
+        "Robotaxi fleet reliability under edge cases",
+        "Autonomous vehicle permit regulation",
+        "Urban AI deployment at scale",
+        "EV battery management in dense events"
+      ],
+      "whyItMatters": "Incidents like the July 4 Waymo battery drain give regulators concrete evidence to justify permit restrictions, potentially slowing the commercial rollout of one of AI's most visible real-world applications just as the industry was gaining momentum.",
+      "tags": ["waymo", "robotaxi", "autonomous-vehicles", "ai-regulation", "transportation", "urban-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What happened to Waymo robotaxis during San Francisco's July 4, 2026 fireworks event?",
+          "options": [
+            "They were rerouted automatically to avoid crowd areas",
+            "They had to be towed after running out of battery power in the gridlock",
+            "They were temporarily suspended by city order until crowds dispersed",
+            "They experienced a software outage requiring remote operator takeover"
+          ],
+          "correctIndex": 1,
+          "explanation": "Multiple Waymo robotaxis drained their batteries in the severe gridlock caused by July 4 fireworks crowds in San Francisco and had to be towed, stranding passengers and highlighting edge-case vulnerability in battery-powered AV fleets."
+        },
+        {
+          "question": "Why are reliability incidents especially consequential for robotaxi companies in mid-2026?",
+          "options": [
+            "They trigger automatic nationwide recall orders by NHTSA",
+            "They cause immediate trading halts on AV company stocks",
+            "They give regulators concrete incidents to cite when weighing permit expansion or restriction",
+            "They require mandatory third-party software audits before resuming service"
+          ],
+          "correctIndex": 2,
+          "explanation": "City regulators are actively evaluating permit decisions for robotaxi fleets; each high-profile failure raises the political cost of expansion and gives officials specific evidence to justify restricting or pausing rollouts."
+        }
+      ]
+    },
+    {
+      "id": "article-grok-build-voice-mcp-20260712",
+      "type": "article",
+      "title": "SpaceXAI Ships Voice Mode and Agent Improvements in Grok Build July 12 Update",
+      "sourceUrl": "https://x.ai/build/changelog",
+      "verified": false,
+      "publishedAt": "2026-07-12",
+      "topics": ["ai-engineering"],
+      "summary": "SpaceXAI's Grok Build developer coding environment received a substantial update on July 12, 2026, adding Voice mode for API-key sessions — enabling hands-free interaction directly inside the coding tool. The release also delivers richer usage and cost tracking dashboards, improved transcript editing with better scrollback, and smoother agent and MCP tool handling. Terminal stability was improved with fixes for crashes and freezes, and session /usage reset times are now localized.",
+      "keyConcepts": [
+        "Voice-mode coding in AI-native IDEs",
+        "MCP (Model Context Protocol) tool integration",
+        "Developer usage and cost observability",
+        "Agentic coding tool stability improvements"
+      ],
+      "whyItMatters": "Voice mode in agentic coding environments lowers the context-switching burden for developers, while the MCP improvements reflect how quickly the AI engineering ecosystem is standardizing around Model Context Protocol as a universal tool-integration layer across competing AI coding tools.",
+      "tags": ["grok-build", "spacexai", "xai", "voice-mode", "mcp", "ai-coding", "agentic-ide"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new interaction mode did SpaceXAI add to Grok Build in the July 12 release?",
+          "options": [
+            "Multi-agent collaborative review mode",
+            "Canvas-based visual code editing",
+            "Voice mode for API-key sessions",
+            "Real-time pair programming with remote team members"
+          ],
+          "correctIndex": 2,
+          "explanation": "The July 12 Grok Build update added Voice mode for API-key sessions, enabling hands-free voice interaction from within the development environment — reducing the need to context-switch to a keyboard."
+        },
+        {
+          "question": "Which protocol does Grok Build's July 12 update improve support for in its agentic workflow?",
+          "options": [
+            "OpenAPI (REST specification)",
+            "JSON-RPC (remote procedure calls)",
+            "MCP (Model Context Protocol)",
+            "GraphQL (schema query language)"
+          ],
+          "correctIndex": 2,
+          "explanation": "The update specifically improves smoother agent and MCP (Model Context Protocol) handling, reflecting the industry-wide adoption of MCP as the standard for connecting AI coding tools to external data sources and tools."
+        }
+      ]
+    }
+  ]
+}
