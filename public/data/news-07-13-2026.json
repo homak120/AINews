@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-13T14:00:00.000Z",
+  "generatedAt": "2026-07-13T16:30:00.000Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-12",
-  "coverageEnd": "2026-07-12",
+  "coverageEnd": "2026-07-13",
   "items": [
     {
       "id": "article-robotaxi-ultimatum-20260712",
@@ -87,6 +87,181 @@
           ],
           "correctIndex": 2,
           "explanation": "The update specifically improves smoother agent and MCP (Model Context Protocol) handling, reflecting the industry-wide adoption of MCP as the standard for connecting AI coding tools to external data sources and tools."
+        }
+      ]
+    },
+    {
+      "id": "youtube-ZUYRV3iyOv0",
+      "type": "video",
+      "title": "AI Business Brief: Key AI Developments — July 12, 2026",
+      "youtubeId": "ZUYRV3iyOv0",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZUYRV3iyOv0",
+      "verified": false,
+      "publishedAt": "2026-07-12",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "The AI Business Brief's July 12, 2026 episode rounds up the week's most important AI business and product news, covering enterprise AI adoption trends, model releases, and the competitive landscape among major AI labs. The brief provides context on developments across OpenAI, Google, and emerging players, synthesizing what matters most for professionals tracking AI's commercial and technical trajectory.",
+      "keyConcepts": [
+        "Weekly AI business news synthesis",
+        "Enterprise AI adoption milestones",
+        "Competitive AI lab landscape",
+        "AI product and model release tracking"
+      ],
+      "whyItMatters": "Weekly AI briefing formats help professionals cut through the noise of a fast-moving field — in mid-2026, with multiple major model releases and shifting competitive dynamics, curated synthesis is increasingly valuable for decision-makers.",
+      "tags": ["ai-business", "weekly-brief", "enterprise-ai", "ai-industry", "openai", "google"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What shift in the AI industry narrative has characterized mid-2026 according to business observers?",
+          "options": [
+            "Moving from open-source to closed-source models exclusively",
+            "Shifting focus from raw model size to usefulness, cost, and reliability",
+            "Abandoning enterprise AI in favor of consumer applications",
+            "Consolidating around a single dominant AI platform"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mid-2026 saw the industry shift from competing on model size to optimizing for practical usefulness, cost-efficiency, and reliability — changing how companies budget for and deploy AI in real workflows.",
+          "": ""
+        },
+        {
+          "question": "Approximately what share of organizations were using generative AI in at least one business function by 2024?",
+          "options": [
+            "Around 20%",
+            "Around 33%",
+            "Around 71%",
+            "Around 90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Generative AI adoption in enterprise jumped from roughly 33% of organizations in 2023 to approximately 71% by 2024, and continued to climb into 2026 as companies embedded AI into core workflows like finance, support, and code review."
+        }
+      ]
+    },
+    {
+      "id": "article-nobel-laureates-ai-economy-20260713",
+      "type": "article",
+      "title": "Nobel Laureates Among 200+ Experts Issue Rare Joint Warning on AI's Economic Transformation",
+      "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-07-13/over-200-experts-call-for-urgent-action-to-tackle-ais-economic-impact",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-career", "ai-research"],
+      "summary": "More than 200 researchers and economists — including sixteen Nobel laureates and researchers from OpenAI, Anthropic, and Google — released \"We Must Act Now,\" a joint statement calling for urgent government action to address AI's looming economic impact. The signatories warn that AI could drive an economic transformation larger than the Industrial Revolution but compressed into a drastically shorter timeframe, giving workers and institutions far less time to adapt. The statement calls for immediate policy development, deeper research on labor displacement, and institutions capable of distributing AI's gains broadly.",
+      "keyConcepts": [
+        "AI-driven labor market disruption",
+        "Industrial Revolution comparison for AI economic impact",
+        "Policy and institutional readiness for AI",
+        "Broad coalition of economists and AI researchers"
+      ],
+      "whyItMatters": "When 16 Nobel laureates — including economists with divergent political views — align on an urgent AI warning, it signals that the economic disruption timeline is no longer speculative. The compressed transformation window means current decisions about education, policy, and social safety nets will define outcomes for millions of workers.",
+      "tags": ["ai-economics", "labor-displacement", "ai-policy", "nobel-laureates", "ai-governance", "workforce"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the central warning in the 'We Must Act Now' statement released by 200+ economists and AI researchers?",
+          "options": [
+            "AI systems are too dangerous to deploy in consumer products",
+            "AI-driven economic transformation may happen faster than society can adapt",
+            "Open-source AI models pose unacceptable national security risks",
+            "Current AI benchmark tests are too easy and mislead industry leaders"
+          ],
+          "correctIndex": 1,
+          "explanation": "The statement warns that AI could trigger an economic transformation larger than the Industrial Revolution, but compressed into years rather than decades — giving workers, governments, and institutions far less time to adapt than past technological shifts allowed."
+        },
+        {
+          "question": "Which historical precedent do the signatories cite to frame why AI's economic impact timeline is uniquely challenging?",
+          "options": [
+            "The 2008 global financial crisis",
+            "The dot-com bust of 2000–2001",
+            "Steam, electricity, and computers — each of which gave societies decades to adapt",
+            "The 1970s oil shock and resulting stagflation"
+          ],
+          "correctIndex": 2,
+          "explanation": "The statement explicitly references past transformative technologies — steam power, electricity, and computers — each of which unfolded over decades, giving institutions time to adapt. The signatories argue AI may compress this into years, leaving far less runway for policy and social adaptation."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini-35-pro-rebuild-20260713",
+      "type": "article",
+      "title": "Gemini 3.5 Pro Targets July 17 Launch After Full Architectural Rebuild — All Specs Still Unconfirmed",
+      "sourceUrl": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Reports indicate Google DeepMind is targeting July 17, 2026 to launch Gemini 3.5 Pro, after engineers scrapped the original 2.5 Pro architecture entirely following failures in recursive tool-calling and SVG generation during enterprise testing. The rebuilt model reportedly introduces a 2 million token context window, a new Deep Think Reasoning Layer for complex multi-step problem-solving, and improved autonomous workflow capabilities — though as of July 13, no official Google documentation, model card, or pricing page has appeared to confirm any of these specifications.",
+      "keyConcepts": [
+        "Architectural rebuild vs. incremental model iteration",
+        "2 million token context window",
+        "Deep Think Reasoning Layer",
+        "Enterprise AI model validation before launch"
+      ],
+      "whyItMatters": "If Google ships a fully rebuilt Gemini 3.5 Pro on July 17, it could shift the competitive balance at the frontier model tier — but the lack of any official confirmation as of July 13 means developers should plan around uncertainty rather than the rumored specs.",
+      "tags": ["google", "gemini", "gemini-3-5-pro", "frontier-models", "context-window", "reasoning", "ai-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Google DeepMind reportedly scrap the original Gemini 3.5 Pro architecture and do a full rebuild?",
+          "options": [
+            "Regulators required a safety audit before any new flagship model launch",
+            "Engineers found structural failures in recursive tool-calling and SVG generation during enterprise testing",
+            "A competing model from Anthropic outperformed it on all coding benchmarks",
+            "Google's infrastructure team could not scale the original architecture cost-effectively"
+          ],
+          "correctIndex": 1,
+          "explanation": "According to reports, Google DeepMind scrapped the existing 2.5 Pro architecture after enterprise testers found structural failures in recursive tool-calling and SVG generation, along with coding performance gaps and token-efficiency issues that fell short of Google's flagship quality bar."
+        },
+        {
+          "question": "What key feature distinguishes the rumored Gemini 3.5 Pro from its predecessor, Gemini 2.5 Pro?",
+          "options": [
+            "A dedicated image generation pipeline built into the base model",
+            "Native voice-to-code transcription support",
+            "A 2 million token context window with a Deep Think Reasoning Layer",
+            "On-device inference capability without cloud connectivity"
+          ],
+          "correctIndex": 2,
+          "explanation": "Leaked specifications describe Gemini 3.5 Pro as featuring a 2 million token context window — double the window of many current flagship models — paired with a new Deep Think Reasoning Layer designed to improve performance on multi-step logic, math, and autonomous workflow tasks. All specs remain unconfirmed by Google."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-model-export-restrictions-20260713",
+      "type": "article",
+      "title": "China Weighs Overseas Restrictions on Its Top AI Models as US-China AI Race Intensifies",
+      "sourceUrl": "https://cryptobriefing.com/china-tightens-control-domestic-ai-technology/",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Beijing is exploring restrictions on overseas access to China's most advanced AI models — including those from Alibaba, ByteDance, and AI startup Z.ai — according to sources familiar with meetings led by China's Ministry of Commerce. Officials discussed limiting which versions of frontier models can be deployed outside China, and are considering making unauthorized AI technology leaks a national security offense. The potential restrictions follow travel curbs already imposed on top AI talent at firms including DeepSeek and Alibaba.",
+      "keyConcepts": [
+        "AI model export controls and national security",
+        "US-China competition in frontier AI",
+        "DeepSeek and Alibaba regulatory constraints",
+        "Tech talent travel restrictions as AI policy tool"
+      ],
+      "whyItMatters": "If China formalizes AI model export restrictions, it would represent a significant escalation in the bifurcation of global AI ecosystems — mirroring the chip export controls the US has already imposed, but targeting model weights and APIs rather than hardware, with major implications for developers worldwide who currently use Chinese frontier models.",
+      "tags": ["china", "ai-policy", "export-controls", "deepseek", "alibaba", "geopolitics", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of AI restriction is China reportedly considering, according to sources familiar with Ministry of Commerce meetings?",
+          "options": [
+            "Banning all foreign AI model APIs inside China",
+            "Limiting overseas access to China's most advanced AI models",
+            "Requiring all AI companies to use open-source models exclusively",
+            "Mandating government review of every AI training run above a certain size"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sources describe China's Ministry of Commerce meetings with Alibaba, ByteDance, and Z.ai to explore restricting overseas access to China's most advanced AI models — the inverse of US chip export controls, targeting AI model availability rather than hardware."
+        },
+        {
+          "question": "Which measure had China already taken before the potential AI model export restrictions were reported?",
+          "options": [
+            "Nationalized all private AI companies with more than 1,000 employees",
+            "Banned domestic developers from using foreign LLM APIs",
+            "Imposed overseas travel restrictions on top AI talent at firms including DeepSeek and Alibaba",
+            "Required all AI models to pass a government safety review before deployment"
+          ],
+          "correctIndex": 2,
+          "explanation": "Prior to the model export restriction discussions, China had already implemented travel curbs requiring top AI professionals at firms like DeepSeek and Alibaba to seek government approval before traveling abroad — a measure aimed at preventing technology and talent from leaving the country."
         }
       ]
     }
