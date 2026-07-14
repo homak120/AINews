@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-07-14T10:00:00.000Z",
+  "weekOf": "2026-07-13",
+  "coverageStart": "2026-07-13",
+  "coverageEnd": "2026-07-13",
+  "items": [
+    {
+      "id": "article-uk-cloud-ctp-20260713",
+      "type": "article",
+      "title": "UK Designates AWS, Azure, Google Cloud and Oracle as Critical Third Parties Under Financial Sector Oversight",
+      "sourceUrl": "https://mlq.ai/news/uk-treasury-designates-aws-azure-google-cloud-oracle-as-critical-third-parties-under-direct-oversight/",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-industry"],
+      "summary": "HM Treasury officially designated AWS EMEA SARL, Microsoft Ireland Operations (Azure), Google Cloud EMEA, and Oracle UK as Critical Third Parties (CTPs) effective July 13, 2026, granting the Bank of England, PRA, and FCA direct oversight and rule-setting powers over these providers. The designation targets the systemic concentration risk created by just three providers supplying 73% of UK financial firms' cloud services. Regulators now have authority to gather information, assess resilience, and impose requirements on the financial-sector operations of these four hyperscalers.",
+      "keyConcepts": [
+        "Critical Third Party (CTP) regulatory designation",
+        "Cloud concentration risk in financial services",
+        "UK FCA / PRA / Bank of England oversight powers",
+        "AI-driven infrastructure systemic risk"
+      ],
+      "whyItMatters": "As AI workloads accelerate cloud dependency in regulated industries, the UK's move signals a global regulatory trend — cloud providers are being regulated like financial utilities, which could reshape how hyperscalers serve banks and impose compliance costs that ripple through AI infrastructure pricing.",
+      "tags": ["uk-regulation", "cloud-providers", "systemic-risk", "aws", "azure", "google-cloud", "financial-stability"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of UK financial firms' cloud services do Amazon, Google, and Microsoft combined supply?",
+          "options": [
+            "Around 40%",
+            "Around 55%",
+            "Around 73%",
+            "Around 90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon, Google, and Microsoft supply approximately 73% of UK financial firms' cloud services, creating a concentration that regulators deemed a systemic risk — a single major outage could disrupt multiple financial institutions simultaneously."
+        },
+        {
+          "question": "Which UK bodies now have direct oversight powers over the four newly designated Critical Third Parties?",
+          "options": [
+            "The Competition and Markets Authority and the ICO",
+            "The Bank of England, PRA, and FCA",
+            "HM Treasury and the National Cyber Security Centre",
+            "The Cabinet Office and the Prudential Regulation Authority only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The designation grants the Bank of England, the Prudential Regulation Authority (PRA), and the Financial Conduct Authority (FCA) powers to gather information, assess resilience, and set rules on the four cloud providers' financial-sector operations."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-sol-limits-20260713",
+      "type": "article",
+      "title": "OpenAI Temporarily Removes GPT-5.6 Sol Usage Caps After Demand Surge From ChatGPT Work and Codex",
+      "sourceUrl": "https://dataconomy.com/2026/07/13/openai-lifts-gpt-5-6-sol-usage-limits-temporarily/",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Following what the product team described as an 'intense' 48 hours of demand driven by ChatGPT Work and Codex agentic workloads, OpenAI temporarily lifted the five-hour usage cap on GPT-5.6 Sol for Plus, Pro, and Business subscribers and issued a one-time usage reset on July 13. OpenAI noted efficiency improvements are giving users roughly 10% additional capacity, while Sol remains rate-limited rather than unlimited. The surge reveals how enterprise adoption of agentic AI tools is straining compute allocation systems designed for conventional chatbot usage patterns.",
+      "keyConcepts": [
+        "Usage rate limits for frontier AI models",
+        "GPT-5.6 Sol compute demand surge",
+        "ChatGPT Work agentic workflows",
+        "Codex AI coding capacity constraints"
+      ],
+      "whyItMatters": "Real-time rate limit adjustments reveal how rapidly enterprise agentic workloads — multi-hour coding tasks, automated document creation — are overwhelming infrastructure provisioned for shorter interactions, forcing AI labs to dynamically rebalance usage policies just days after model launch.",
+      "tags": ["openai", "gpt-5-6", "sol", "usage-limits", "chatgpt-work", "codex", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What triggered OpenAI's decision to temporarily lift GPT-5.6 Sol usage limits on July 13, 2026?",
+          "options": [
+            "A government mandate requiring broader public access to frontier models",
+            "A surge in demand from ChatGPT Work and Codex agentic workloads",
+            "Competitor pressure following Grok 4.5's unlimited usage offer",
+            "A scheduled infrastructure expansion reaching completion"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's product team cited an 'intense' 48-hour period of demand driven specifically by ChatGPT Work and Codex — both of which run long-horizon agentic tasks that consume substantially more compute per session than ordinary chat interactions."
+        },
+        {
+          "question": "What does the GPT-5.6 Sol demand surge most directly indicate about enterprise AI adoption in mid-2026?",
+          "options": [
+            "Enterprises prefer conversational chatbots over coding tools",
+            "Agentic AI workloads are consuming compute at a scale that strains short-session infrastructure",
+            "OpenAI's pricing is too low to be sustainable at current demand",
+            "Enterprise demand for AI has plateaued after the initial model releases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agentic tasks like automated code review, multi-step document creation, and extended Codex sessions run far longer than chat interactions, consuming compute in patterns that usage caps designed for chatbots cannot gracefully handle — a structural tension that mid-2026's demand surge exposed."
+        }
+      ]
+    },
+    {
+      "id": "article-ant-singguard-20260713",
+      "type": "article",
+      "title": "Ant Group Open-Sources SingGuard AI Safety Guardrails Covering 185 Scenarios for Autonomous Agents",
+      "sourceUrl": "https://technode.com/2026/07/13/ant-group-unveils-ai-safety-models-for-agents-and-multimodal-systems/",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Ant Group's AI Safety Lab open-sourced two AI safety systems on July 13: SingGuard-NSFA, a real-time guardrail for filtering unsafe autonomous agent actions, and SingGuard, a comprehensive content moderation model covering 7 major risk categories, 28 subcategories, 185 scenarios, and 133 languages backed by a 100,000-sample evaluation system. Available in four sizes from 0.8B to 9B parameters, SingGuard returns a safety verdict in approximately 50 milliseconds — fast enough for inline supervision of live agent actions without significant pipeline latency.",
+      "keyConcepts": [
+        "AI safety guardrails for autonomous agents",
+        "Real-time content moderation at millisecond latency",
+        "Multimodal and multilingual safety classification",
+        "Open-source AI safety infrastructure"
+      ],
+      "whyItMatters": "As autonomous AI agents take on consequential real-world tasks, inline safety filtering becomes critical infrastructure — SingGuard's 50ms verdict speed and open availability could accelerate adoption of agent safety layers across the industry and set a coverage benchmark other safety efforts must match.",
+      "tags": ["ant-group", "singguard", "ai-safety", "open-source", "agents", "guardrails", "china-ai", "content-moderation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary purpose of SingGuard-NSFA, released by Ant Group's AI Safety Lab on July 13, 2026?",
+          "options": [
+            "Training data deduplication to reduce model hallucinations",
+            "Real-time safety filtering of autonomous agent actions",
+            "Post-hoc audit logging of AI system decisions",
+            "Bias detection in large language model outputs"
+          ],
+          "correctIndex": 1,
+          "explanation": "SingGuard-NSFA (Not Safe For Agents) is specifically designed as a real-time safety guardrail for autonomous agent actions — filtering potentially harmful actions before they execute, rather than auditing them after the fact."
+        },
+        {
+          "question": "How fast can SingGuard return a safety risk verdict, enabling inline supervision of autonomous agents?",
+          "options": [
+            "Approximately 500 milliseconds per judgment",
+            "Approximately 200 milliseconds per judgment",
+            "Approximately 100 milliseconds per judgment",
+            "Approximately 50 milliseconds per judgment"
+          ],
+          "correctIndex": 3,
+          "explanation": "SingGuard can make a single risk judgment in approximately 50 milliseconds, which is fast enough to intercept and filter unsafe actions in real-time autonomous agent pipelines without introducing meaningful latency to the workflow."
+        }
+      ]
+    },
+    {
+      "id": "article-slopsquatting-20260713",
+      "type": "article",
+      "title": "Slopsquatting: How AI Code Assistant Hallucinations Are Enabling a New Software Supply Chain Attack",
+      "sourceUrl": "https://venturebeat.com/security/forget-typosquatting-slopsquatting-is-the-software-supply-chain-threat-created-by-ai-coding-tools",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-engineering"],
+      "summary": "A VentureBeat analysis published July 13 details 'slopsquatting' — a novel supply chain attack that exploits AI coding assistant hallucinations to inject malicious packages into development workflows. When LLMs confidently recommend non-existent npm or PyPI packages, attackers pre-register those names with malicious payloads ready for developers to install. Research shows open-source models are four times more likely to hallucinate package names than proprietary models, with DeepSeek 1B producing a 13.63% hallucination rate versus GPT-4.0 Turbo's 3.59%, though both create exploitable attack surface at scale.",
+      "keyConcepts": [
+        "Slopsquatting via LLM package name hallucinations",
+        "Software supply chain attacks in AI-assisted development",
+        "Hallucination rate comparison: proprietary vs. open-source models",
+        "Dependency verification in agentic coding workflows"
+      ],
+      "whyItMatters": "As AI coding tools generate an increasing proportion of dependency imports across the software industry, slopsquatting turns a quality problem into a security crisis — a single hallucinated package name that an attacker registers can silently compromise entire development pipelines at massive scale.",
+      "tags": ["slopsquatting", "supply-chain-security", "ai-coding", "hallucination", "package-managers", "llm-security", "vibe-coding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes slopsquatting distinct from traditional typosquatting as a supply chain attack?",
+          "options": [
+            "It targets operating system packages instead of language package managers",
+            "It exploits AI coding assistants that hallucinate plausible-sounding package names that attackers pre-register",
+            "It requires physical access to the developer's machine to execute",
+            "It relies on DNS spoofing to redirect legitimate package registry requests"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike typosquatting (which exploits human typing errors), slopsquatting exploits AI coding assistants that confidently recommend packages that don't exist. Attackers pre-register those hallucinated package names with malicious code, ready for AI-directed developers to install unsuspectingly."
+        },
+        {
+          "question": "How do open-source models compare to proprietary models in package hallucination rates, according to research cited in the July 2026 slopsquatting analysis?",
+          "options": [
+            "Open-source models hallucinate packages at roughly the same rate as proprietary models",
+            "Open-source models hallucinate packages at about twice the rate of proprietary models",
+            "Open-source models hallucinate packages at about four times the rate of proprietary models",
+            "Proprietary models hallucinate more packages due to RLHF overconfidence"
+          ],
+          "correctIndex": 2,
+          "explanation": "Research found open-source models are approximately four times more likely to hallucinate package names than proprietary models — DeepSeek 1B produced a 13.63% hallucination rate versus GPT-4.0 Turbo's 3.59%, though both create meaningful slopsquatting attack surface at the scale AI coding tools are now deployed."
+        }
+      ]
+    }
+  ]
+}
