@@ -1,9 +1,142 @@
 {
-  "generatedAt": "2026-07-14T10:00:00.000Z",
+  "generatedAt": "2026-07-14T18:00:00.000Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-13",
-  "coverageEnd": "2026-07-13",
+  "coverageEnd": "2026-07-14",
   "items": [
+    {
+      "id": "youtube-TMhLQRtJg8g",
+      "type": "video",
+      "title": "AI News in a Minute | Monday, July 13, 2026 Episode 2",
+      "youtubeId": "TMhLQRtJg8g",
+      "sourceUrl": "https://www.youtube.com/watch?v=TMhLQRtJg8g",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-industry"],
+      "summary": "Fireship's rapid-fire Monday news roundup covers a South Korean chipmaker pulling off the biggest foreign IPO in US history — a record that signals how AI chip demand is reshaping global capital markets. The episode also covers Apple's trade-secret lawsuit against OpenAI and the ensuing public clash between Elon Musk and Sam Altman on X following allegations that OpenAI poached over 400 Apple chip and on-device AI engineers.",
+      "keyConcepts": [
+        "AI chip demand driving record semiconductor IPOs",
+        "Apple trade-secret lawsuit against OpenAI",
+        "Musk vs. Altman public feud over OpenAI hiring practices",
+        "AI infrastructure investment trends"
+      ],
+      "whyItMatters": "AI chip demand has become significant enough to drive the largest foreign IPO in US history, while the Apple-OpenAI legal battle could reshape how AI companies recruit from Big Tech — two signals that AI is entering a new phase of mainstream economic and legal consequence.",
+      "tags": ["ai-chips", "semiconductor", "ipo", "openai", "apple", "musk", "altman", "fireship"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What milestone did a South Korean chipmaker achieve in the AI-driven capital markets of mid-2026, as covered in this Fireship episode?",
+          "options": [
+            "It became the first Asian company to list on the NASDAQ",
+            "It pulled off the biggest foreign IPO in US history",
+            "It surpassed NVIDIA's market cap for the first time",
+            "It completed a record-breaking SPAC merger valued at $200 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI chip demand fueled a South Korean chipmaker's US IPO that became the biggest foreign IPO in American history — a landmark event illustrating how AI infrastructure spending is driving unprecedented capital flows into the semiconductor sector."
+        },
+        {
+          "question": "What triggered the July 2026 public feud between Elon Musk and Sam Altman on X, as reported in this episode?",
+          "options": [
+            "OpenAI releasing a competing model to Grok on the same day as xAI",
+            "Apple filing a trade-secret lawsuit after OpenAI hired over 400 former Apple engineers",
+            "A leaked internal memo from OpenAI disparaging Musk's AI ventures",
+            "Disagreements over OpenAI's IPO valuation and Goldman Sachs selection"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple sued OpenAI alleging a coordinated effort to poach more than 400 former Apple engineers from chip design and on-device AI teams. Musk amplified Apple's case on X, calling Altman 'Scam Altman,' which drew Altman's public response and ignited the most visible tech founder feud of 2026."
+        }
+      ]
+    },
+    {
+      "id": "youtube-jXGgNb0DLNg",
+      "type": "video",
+      "title": "Google Just Revealed The Timeline From AGI To ASI",
+      "youtubeId": "jXGgNb0DLNg",
+      "sourceUrl": "https://www.youtube.com/watch?v=jXGgNb0DLNg",
+      "verified": false,
+      "publishedAt": "2026-07-13",
+      "topics": ["ai-research"],
+      "summary": "TheAIGRID breaks down Google DeepMind's landmark survey paper 'From AGI to ASI' (arXiv 2606.12683), which maps four potential pathways from human-level artificial general intelligence to artificial superintelligence: scaling, AI paradigm shifts, recursive self-improvement, and multi-agent collectives. The paper, authored by fourteen DeepMind researchers, formally defines ASI as a system capable of outperforming large teams of human experts across domains — a benchmark that reframes how close we actually are to truly superhuman AI.",
+      "keyConcepts": [
+        "Four AGI-to-ASI pathways: scaling, paradigm shifts, recursive self-improvement, multi-agent collectives",
+        "Google DeepMind's formal definition of ASI",
+        "AGI as a waypoint, not a destination",
+        "arXiv 2606.12683 — DeepMind post-AGI research agenda"
+      ],
+      "whyItMatters": "Google DeepMind's framework gives researchers and policymakers a concrete vocabulary for planning post-AGI futures — if any of the four pathways accelerates faster than expected, preparation windows could be far shorter than current policy discussions assume.",
+      "tags": ["agi", "asi", "deepmind", "google", "superintelligence", "ai-safety", "ai-research", "arxiv"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Google DeepMind's 'From AGI to ASI' paper discussed in this video, how is Artificial Superintelligence (ASI) formally defined?",
+          "options": [
+            "A system that can pass the Turing test in all domains simultaneously",
+            "A system that outperforms large teams of human experts across domains",
+            "A system with self-awareness and persistent long-term memory",
+            "A system that can design and train its own successor models without human input"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepMind's paper defines ASI as a system that outperforms large teams of human experts across domains — a precise, measurable definition that raises the bar well above what any current model achieves and provides a clearer target for safety research and governance."
+        },
+        {
+          "question": "Which of the following is NOT one of the four pathways from AGI to ASI identified in Google DeepMind's 2026 survey paper?",
+          "options": [
+            "Scaling",
+            "Recursive self-improvement",
+            "Multi-agent collectives",
+            "Human-AI hybrid augmentation"
+          ],
+          "correctIndex": 3,
+          "explanation": "The four pathways in DeepMind's 'From AGI to ASI' paper are: scaling, AI paradigm shifts, recursive self-improvement, and multi-agent collectives. Human-AI hybrid augmentation is not listed as one of the four identified transition pathways."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Ekr8pSqOtl8",
+      "type": "video",
+      "title": "Anthropic Becomes AI Revenue Leader as OpenAI Eyes September IPO",
+      "youtubeId": "Ekr8pSqOtl8",
+      "sourceUrl": "https://www.youtube.com/watch?v=Ekr8pSqOtl8",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Matthew Berman's July 14 daily briefing covers two seismic business developments: Anthropic has quietly become the AI revenue leader, on track for roughly $47 billion annualized and reportedly profitable in 2026, driven by Claude Code and deep enterprise contracts, while simultaneously negotiating a custom chip partnership with Samsung and preparing for an IPO as early as October. Meanwhile, OpenAI has filed confidentially with Goldman Sachs and Morgan Stanley for a September 2026 IPO targeting a $730 billion valuation — which would be the largest technology IPO in history.",
+      "keyConcepts": [
+        "Anthropic $47B annualized revenue and profitability milestone",
+        "Anthropic-Samsung custom AI chip partnership talks",
+        "OpenAI confidential IPO filing targeting September 2026",
+        "AI lab IPO race and competitive dynamics"
+      ],
+      "whyItMatters": "Two of the world's top AI labs are simultaneously racing to go public, with Anthropic's revenue leadership upending the conventional narrative that OpenAI dominates the commercial AI market — developers and enterprises should revisit their assumptions about which lab has the stronger business model.",
+      "tags": ["anthropic", "openai", "ipo", "revenue", "claude-code", "samsung", "ai-industry", "matthew-berman"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What key business milestone for Anthropic was highlighted in Matthew Berman's July 14 briefing?",
+          "options": [
+            "Anthropic raised a $10 billion Series F at a $200 billion valuation",
+            "Anthropic became AI revenue leader, reportedly profitable with ~$47B annualized revenue",
+            "Anthropic acquired Cohere to expand its enterprise customer base",
+            "Anthropic launched its own consumer smartphone powered by Claude"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's revenue growth — driven primarily by Claude Code adoption and enterprise deals — has put it on track for roughly $47 billion in annualized revenue, making it the reported revenue leader among frontier AI labs and reportedly profitable, which challenges the prevailing assumption that OpenAI dominates the commercial AI landscape."
+        },
+        {
+          "question": "What would make OpenAI's targeted September 2026 IPO historically significant if it proceeds at the reported $730 billion valuation?",
+          "options": [
+            "It would be the first AI company to go public on the New York Stock Exchange",
+            "It would be the largest technology IPO in history by a wide margin",
+            "It would trigger mandatory antitrust review under new 2026 AI merger rules",
+            "It would give Elon Musk a seat on OpenAI's board via a settlement agreement"
+          ],
+          "correctIndex": 1,
+          "explanation": "A $730 billion valuation IPO would make OpenAI's public debut the largest technology IPO in history by a wide margin — surpassing previous records and reflecting how capital markets have repriced frontier AI from a research venture into a dominant technology platform."
+        }
+      ]
+    },
     {
       "id": "article-uk-cloud-ctp-20260713",
       "type": "article",
