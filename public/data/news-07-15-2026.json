@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T18:00:00.000Z",
+  "generatedAt": "2026-07-15T21:30:00.000Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-14",
   "coverageEnd": "2026-07-15",
@@ -236,7 +236,7 @@
       ],
       "whyItMatters": "As multiple AI companies simultaneously face training data copyright suits, courts are being forced to establish precedents that could fundamentally reshape how AI labs license training data — potentially requiring retroactive payments or constraining what future foundation models can legally learn from.",
       "tags": ["google", "gemini", "copyright", "ai-training", "publishers", "class-action", "ai-law", "intellectual-property"],
-      "relatedIds": [],
+      "relatedIds": ["article-tsmc-q2-record-20260714"],
       "knowledgeChecks": [
         {
           "question": "Which publishers joined the July 14, 2026 class action lawsuit against Google over AI training data?",
@@ -259,6 +259,49 @@
           ],
           "correctIndex": 1,
           "explanation": "The accumulation of training data lawsuits across multiple courts means judges must begin establishing whether AI training constitutes fair use. Rulings against AI companies could require retroactive licensing deals and constrain what data future foundation models can legally train on — a potentially existential cost for the entire industry."
+        }
+      ]
+    },
+    {
+      "id": "article-tsmc-q2-record-20260714",
+      "type": "article",
+      "title": "TSMC Posts Record Q2 Revenue of $39.6B as AI Chip Demand Drives 36% Annual Growth",
+      "sourceUrl": "https://www.foreignpolicyjournal.com/2026/07/14/tsmc-nyse-tsm-posts-record-q2-revenue-of-39-62-billion-as-ai-chip-surge-drives-36-annual-growth/",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "TSMC reported a record Q2 2026 revenue of $39.62 billion on July 14, representing a 36% year-on-year increase driven entirely by AI chip demand — coming in just within the company's own guidance range of $39.0–$40.2 billion. June 2026 revenue alone surged 68% year-on-year as hyperscalers and AI labs continued ordering at record pace. TSMC is essentially sold out of its N3 chip process technology used by leading AI GPUs from Nvidia and custom AI accelerators from Apple, Google, and Amazon, with AI chip revenue tracking toward $40 billion annually. Full Q2 earnings — including margin and forward guidance — are due July 16.",
+      "keyConcepts": [
+        "TSMC Q2 2026 revenue: $39.62B record, up 36% YoY",
+        "June 2026 revenue surge: 68% year-on-year",
+        "N3 chip demand: essentially sold out across all customers",
+        "AI chip revenue on track to exceed $40B annually"
+      ],
+      "whyItMatters": "TSMC's revenue is the most reliable real-time indicator of AI infrastructure investment — if AI spending were plateauing, TSMC would show it first. A 36% Q2 surge and 68% June jump signal that hyperscalers and AI labs are still accelerating compute procurement, not pulling back.",
+      "tags": ["tsmc", "ai-chips", "semiconductors", "q2-earnings", "nvidia", "ai-infrastructure", "compute", "taiwan"],
+      "relatedIds": ["article-deepseek-ipo-fundraise-20260714"],
+      "knowledgeChecks": [
+        {
+          "question": "What was TSMC's Q2 2026 revenue and how did it compare to the same quarter the prior year?",
+          "options": [
+            "$28.5 billion, up 14% year-on-year",
+            "$39.62 billion, up 36% year-on-year",
+            "$47.3 billion, up 52% year-on-year",
+            "$33.1 billion, up 22% year-on-year"
+          ],
+          "correctIndex": 1,
+          "explanation": "TSMC posted record Q2 2026 revenue of $39.62 billion, representing a 36% year-on-year increase driven by surging AI chip demand. The result came in within the company's own guidance of $39.0–$40.2 billion, with outperformance largely attributed to Nvidia AI GPU orders and custom accelerator production for hyperscalers."
+        },
+        {
+          "question": "Why does TSMC's revenue growth serve as a proxy indicator for the pace of AI compute investment?",
+          "options": [
+            "TSMC manufactures the chips inside nearly every major AI GPU and custom AI accelerator at the frontier",
+            "TSMC owns Nvidia and AMD, so its revenue is just a roll-up of their sales",
+            "AI training data is stored on TSMC-manufactured memory chips, so revenue tracks dataset growth",
+            "TSMC is the sole provider of cloud infrastructure for US hyperscalers"
+          ],
+          "correctIndex": 0,
+          "explanation": "TSMC is the world's dominant contract chip manufacturer — essentially every frontier AI GPU (Nvidia H100/H200/B200), custom AI accelerator (Google TPU, Amazon Trainium, Apple Neural Engine), and high-end CPU used in AI data centers is fabricated by TSMC. Because AI labs and hyperscalers must order chips months in advance, TSMC's revenue reflects actual committed AI infrastructure spending, making it the clearest leading indicator of the sector's growth trajectory."
         }
       ]
     }
