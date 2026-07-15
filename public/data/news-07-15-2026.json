@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-07-15T18:00:00.000Z",
+  "weekOf": "2026-07-13",
+  "coverageStart": "2026-07-14",
+  "coverageEnd": "2026-07-15",
+  "items": [
+    {
+      "id": "article-claude-for-teachers-20260714",
+      "type": "article",
+      "title": "Anthropic Launches Claude for Teachers for US K-12 Educators",
+      "sourceUrl": "https://www.anthropic.com/news/claude-for-teachers",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic launched Claude for Teachers on July 14, 2026, giving verified K-12 educators in the US free access to premium Claude capabilities — including Claude Opus 4.6, higher usage limits, and unlimited Projects for persistent classroom context. The program includes a standards-mapped curriculum connector called Learning Commons and pre-built teaching workflows for lesson planning, assessment creation, and student feedback, mapped to academic standards in all 50 states. Student data is protected under a K-12 Data Processing Addendum and is not used for model training, and Anthropic is partnering with the American Federation of Teachers on privacy practices.",
+      "keyConcepts": [
+        "Free premium Claude access for verified K-12 educators",
+        "Standards-mapped curriculum connector (Learning Commons)",
+        "FERPA-compliant student data protection",
+        "AFT partnership on teacher AI adoption"
+      ],
+      "whyItMatters": "With AI companies racing to shape how the next generation learns, giving teachers free access to frontier AI tools at scale could close equity gaps in AI-assisted education — while also establishing Anthropic's model as the default AI in America's classrooms.",
+      "tags": ["anthropic", "claude", "education", "k12", "edtech", "teachers", "curriculum"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's Claude for Teachers program offer to verified US K-12 educators?",
+          "options": [
+            "A discounted subscription to Claude Pro at 50% off the standard price",
+            "Free access to premium Claude capabilities including Claude Opus 4.6 and higher usage limits",
+            "A school-site license covering all students and staff in a single district",
+            "Access to Claude Haiku only, with premium tiers reserved for university faculty"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude for Teachers gives verified K-12 educators in the US free access to Anthropic's premium tier — including Claude Opus 4.6, higher usage limits, and unlimited Projects — a service that normally costs $20 per month."
+        },
+        {
+          "question": "Which privacy framework governs student data under Anthropic's Claude for Teachers program?",
+          "options": [
+            "HIPAA, because student health records may be involved",
+            "GDPR, since teachers may interact with international students",
+            "A K-12 Data Processing Addendum written to comply with FERPA",
+            "COPPA only, which protects children under 13 from data collection"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's Claude for Teachers uses a K-12 Data Processing Addendum written to comply with FERPA (the Family Educational Rights and Privacy Act), which protects student educational records. Crucially, student data is not used for model training."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-artifacts-multiplayer-20260714",
+      "type": "article",
+      "title": "Anthropic Adds Public Sharing and Multiplayer Editing to Claude Artifacts",
+      "sourceUrl": "https://www.progressiverobot.com/2026/07/14/anthropic-enables-public-artifact-sharing-and-team-editing-in-claude/",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic rolled out public sharing and multiplayer editing for Claude Artifacts on July 14, allowing users to share AI-generated projects — documents, code, dashboards, and interactive apps — through public links. Teams can now simultaneously edit a shared Claude Code artifact, turning the tool into a collaborative workspace. Artifacts can also be created directly by tagging @Claude in Slack via Claude Tag, letting teams build shared AI outputs without leaving their communication tools. The update positions Claude as a direct competitor to Google Docs, Notion, and Figma for AI-assisted knowledge work.",
+      "keyConcepts": [
+        "Claude Artifacts public sharing via link",
+        "Real-time multiplayer editing for team collaboration",
+        "Claude Tag integration for Slack-based artifact creation",
+        "Claude Code as a collaborative workspace"
+      ],
+      "whyItMatters": "By enabling multiplayer editing and Slack integration, Anthropic is shifting Claude from a personal assistant into team infrastructure — a strategic move that could embed Claude deeply into enterprise workflows and make switching costs prohibitively high for organizations that adopt it.",
+      "tags": ["anthropic", "claude", "artifacts", "collaboration", "slack", "multiplayer", "claude-code", "enterprise"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new collaboration capabilities did Anthropic add to Claude Artifacts on July 14, 2026?",
+          "options": [
+            "Real-time voice collaboration and auto-translation for international teams",
+            "Public sharing via link and multiplayer simultaneous editing",
+            "Version history rollback and conflict resolution powered by Claude",
+            "GitHub integration for one-click code review and pull request generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "The July 14 update added public link sharing (anyone with the link can view an Artifact) and multiplayer editing (multiple teammates can edit the same Claude Code Artifact simultaneously), transforming Claude from a solo tool into a collaborative workspace."
+        },
+        {
+          "question": "What is Claude Tag, as introduced alongside the July 14 Artifacts update?",
+          "options": [
+            "A new metadata system for labeling and organizing Claude conversations",
+            "A feature that automatically suggests relevant tags for Artifact content",
+            "The ability to tag @Claude directly in Slack to create and edit Artifacts from within team conversations",
+            "A subscription tier that grants priority access to Claude's latest model versions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Tag lets users summon Claude directly in Slack by tagging @Claude in a team channel. Claude can then build or edit Artifacts within the conversation context where work is already happening, removing the need to switch to a separate Claude interface."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-ipo-fundraise-20260714",
+      "type": "article",
+      "title": "DeepSeek in Talks to Raise $1.5B at $71B Valuation and Begins IPO Preparations",
+      "sourceUrl": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-industry"],
+      "summary": "DeepSeek, the Chinese AI lab whose open-weight models disrupted global AI rankings in late 2025, is in talks to raise approximately $1.5 billion at a $71 billion valuation — a 37% jump from its $52 billion post-money valuation just one month prior. The Hangzhou-based company has simultaneously begun IPO preparations targeting a domestic listing as early as late 2026 with a 2027 debut. Capital will be deployed toward gigawatt-scale proprietary data centers, in-house AI inference chips, and the rollout of AI agent products. DeepSeek now accounts for nearly 23% of enterprise AI token volume processed by Vercel.",
+      "keyConcepts": [
+        "DeepSeek $1.5B fundraise at $71B valuation",
+        "Domestic China IPO preparation for 2027",
+        "Open-weight model enterprise market share at scale",
+        "AI infrastructure investment: data centers and custom chips"
+      ],
+      "whyItMatters": "DeepSeek's rapid back-to-back funding rounds and IPO preparation signal that the open-weight AI model market is maturing into a capital-intensive infrastructure business — and that Chinese AI companies are building the compute independence needed to compete at the frontier regardless of US export controls.",
+      "tags": ["deepseek", "china-ai", "ipo", "fundraising", "open-source-models", "ai-infrastructure", "valuation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the reported valuation at which DeepSeek is seeking $1.5 billion in new funding as of July 14, 2026?",
+          "options": [
+            "Approximately $30 billion",
+            "Approximately $52 billion",
+            "Approximately $71 billion",
+            "Approximately $100 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek is in talks to raise $1.5 billion at approximately a $71 billion valuation — a 37% increase from its $52 billion post-money valuation from a $7 billion round just one month earlier, reflecting rapid market repricing of its open-weight model dominance."
+        },
+        {
+          "question": "What three major areas will DeepSeek deploy its new capital toward, according to July 2026 reports?",
+          "options": [
+            "Consumer apps, social media acquisitions, and US market expansion",
+            "Gigawatt-scale data centers, in-house AI inference chips, and AI agent products",
+            "Model research only, avoiding hardware to maintain software margins",
+            "Talent acquisition, academic partnerships, and open-source community grants"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek's capital plans focus on gigawatt-scale proprietary data centers, development of in-house AI inference chips (reducing dependence on Nvidia), and AI agent product rollout — a vertical integration strategy mirroring what major US labs have pursued."
+        }
+      ]
+    },
+    {
+      "id": "article-open-models-huggingface-20260714",
+      "type": "article",
+      "title": "Chinese Open-Weight Models Now Dominate Hugging Face and OpenRouter as the Real AI Race Shifts",
+      "sourceUrl": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A TechCrunch analysis published July 14 reveals that Chinese open-weight models now account for 41% of all Hugging Face downloads, surpassing US models for the first time. On OpenRouter — the enterprise AI gateway — the six most-used models are all open-weight models from Chinese firms including Tencent, Xiaomi, DeepSeek, MiniMax, and Z.ai. Hugging Face CEO Clem Delangue argues the frontier model race is becoming secondary to the open, deployable model race, where Chinese labs have structural cost and access advantages that proprietary US labs cannot match.",
+      "keyConcepts": [
+        "Chinese open-weight models at 41% of Hugging Face downloads",
+        "OpenRouter's top 6 models all from Chinese open-weight labs",
+        "Frontier vs. accessible AI as two separate competitive races",
+        "Enterprise cost and data sovereignty driving open model adoption"
+      ],
+      "whyItMatters": "The open-weight model landscape has quietly outpaced proprietary frontier models in enterprise adoption — driven by cost, customizability, and data control. This shift could accelerate AI deployment in sectors where data sovereignty requirements make proprietary cloud models untenable.",
+      "tags": ["open-source", "hugging-face", "openrouter", "china-ai", "deepseek", "enterprise-ai", "open-weight", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What share of Hugging Face downloads did Chinese open-weight models account for in spring 2026, according to the July 14 TechCrunch analysis?",
+          "options": [
+            "Approximately 15%",
+            "Approximately 27%",
+            "Approximately 41%",
+            "Approximately 58%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chinese open-weight models accounted for 41% of Hugging Face downloads in spring 2026, surpassing US models for the first time and signaling a significant shift in which country's AI research is most actively deployed by practitioners globally."
+        },
+        {
+          "question": "According to Hugging Face CEO Clem Delangue, what is driving enterprises to favor open-weight models over proprietary frontier models?",
+          "options": [
+            "Open-weight models consistently outperform proprietary models on benchmarks",
+            "Cost, accessibility, and data ownership advantages over proprietary cloud-hosted models",
+            "US government mandates requiring open-source AI for federal contractors",
+            "Open-weight models support longer context windows than proprietary alternatives"
+          ],
+          "correctIndex": 1,
+          "explanation": "Clem Delangue argues enterprises increasingly want open models primarily for cost efficiency, the ability to self-host (no per-token fees), and data ownership — being able to fine-tune and run models on their own infrastructure without sending sensitive data to a third-party API."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-companion-rules-20260715",
+      "type": "article",
+      "title": "China's AI Companion Rules Take Effect: ByteDance and Alibaba Disable Humanlike Agent Features",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/china-ai-companion-rules/",
+      "verified": false,
+      "publishedAt": "2026-07-15",
+      "topics": ["ai-industry"],
+      "summary": "China's Interim Measures for the Administration of AI Anthropomorphic Interactive Services officially took effect on July 15, 2026 — the first national framework specifically targeting AI services that simulate human characteristics and emotional relationships. ByteDance's Doubao, China's most popular AI chatbot with 345 million users, shut down its user-created AI persona feature on July 15. Alibaba's Qwen disabled humanlike interactive agents and broader agent functions. The regulations — co-issued by five government agencies — target virtual companions, unlicensed digital therapists, and simulated pop-idol clones, while leaving productivity-focused AI agents untouched.",
+      "keyConcepts": [
+        "China's first AI companion regulation framework",
+        "ByteDance Doubao persona creation shutdown for 345M users",
+        "Alibaba Qwen humanlike agent features disabled",
+        "Regulatory distinction between companion AI and productivity AI"
+      ],
+      "whyItMatters": "China's surgical approach — regulating emotional AI companions while leaving work-focused agents untouched — sets a governance template that other countries may adapt. It also reveals how regulatory asymmetry between China and Western markets could shape which consumer AI categories Chinese companies can scale globally.",
+      "tags": ["china-ai-regulation", "bytedance", "doubao", "alibaba", "qwen", "ai-companions", "ai-governance", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific feature did ByteDance's Doubao disable when China's AI companion regulations took effect on July 15, 2026?",
+          "options": [
+            "The ability for users to upload documents and query them in conversation",
+            "Real-time voice interaction and speech recognition",
+            "User-created AI personas, such as virtual companions and pop-idol clones",
+            "Doubao's code generation and debugging capabilities"
+          ],
+          "correctIndex": 2,
+          "explanation": "ByteDance's Doubao shut down its user-created AI persona feature — which allowed users to build and interact with customized AI identities including virtual companions, pop-idol clones, and relationship-simulating agents — in compliance with China's new AI anthropomorphic services rules."
+        },
+        {
+          "question": "How does China's new AI companion regulation distinguish between regulated and permitted AI services?",
+          "options": [
+            "Only AI models with over 100 million parameters require compliance",
+            "Regulation applies to all AI services equally, regardless of use case",
+            "Emotional relationship-simulating AI is regulated; productivity-focused AI agents are not",
+            "Consumer AI requires compliance; enterprise B2B AI is fully exempt"
+          ],
+          "correctIndex": 2,
+          "explanation": "China's framework draws a precise line: AI services that simulate human emotional relationships (virtual companions, digital therapists, parasocial personas) are regulated under the new rules, while AI agents focused on productivity tasks like research, coding, and work automation are explicitly left outside the regulation's scope."
+        }
+      ]
+    },
+    {
+      "id": "article-google-publisher-lawsuit-20260714",
+      "type": "article",
+      "title": "Major Publishers File Class Action Against Google Over AI Training on Copyrighted Works",
+      "sourceUrl": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "verified": false,
+      "publishedAt": "2026-07-14",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "A coalition of major publishers and authors — including Hachette, Cengage, Elsevier, and author Scott Turow — filed a class action lawsuit against Google on July 14, 2026, alleging that Google used their copyrighted works without authorization to train Gemini. The suit joins a growing body of AI training data litigation and follows Apple's July 10 lawsuit against OpenAI over hardware trade secrets. Google denied the allegations, stating its AI training practices are lawful and consistent with industry norms.",
+      "keyConcepts": [
+        "AI training data copyright class action",
+        "Publisher coalition: Hachette, Cengage, Elsevier",
+        "Gemini training data licensing disputes",
+        "Expanding AI intellectual property litigation landscape"
+      ],
+      "whyItMatters": "As multiple AI companies simultaneously face training data copyright suits, courts are being forced to establish precedents that could fundamentally reshape how AI labs license training data — potentially requiring retroactive payments or constraining what future foundation models can legally learn from.",
+      "tags": ["google", "gemini", "copyright", "ai-training", "publishers", "class-action", "ai-law", "intellectual-property"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which publishers joined the July 14, 2026 class action lawsuit against Google over AI training data?",
+          "options": [
+            "The New York Times, The Atlantic, and The Washington Post",
+            "Hachette, Cengage, Elsevier, and author Scott Turow",
+            "Penguin Random House, HarperCollins, and Simon & Schuster",
+            "Reuters, Bloomberg, and the Associated Press"
+          ],
+          "correctIndex": 1,
+          "explanation": "The July 14 class action was filed by Hachette, Cengage, Elsevier, and author Scott Turow, among others — a coalition spanning academic and trade publishing that targets Google's use of their works to train Gemini without authorization or compensation."
+        },
+        {
+          "question": "What is the broader legal significance of multiple AI training data lawsuits accumulating in mid-2026?",
+          "options": [
+            "They will immediately halt all AI model training until resolved",
+            "Courts are being forced to set precedents on whether AI training constitutes fair use, potentially requiring retroactive licensing",
+            "The lawsuits are symbolic — no court has jurisdiction over AI training data practices",
+            "They only apply to models trained in the United States, leaving Chinese and European AI unaffected"
+          ],
+          "correctIndex": 1,
+          "explanation": "The accumulation of training data lawsuits across multiple courts means judges must begin establishing whether AI training constitutes fair use. Rulings against AI companies could require retroactive licensing deals and constrain what data future foundation models can legally train on — a potentially existential cost for the entire industry."
+        }
+      ]
+    }
+  ]
+}

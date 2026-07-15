@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T03:16:28.455Z",
+  "generatedAt": "2026-07-15T03:16:32.578Z",
   "weekOf": "2026-05-31",
   "coverageStart": "2026-05-31",
   "coverageEnd": "2026-06-13",
@@ -4741,6 +4741,445 @@
           ],
           "correctIndex": 1,
           "explanation": "Claude Code's near-$1B ARR run rate and its role in pushing Anthropic past OpenAI in enterprise adoption is specifically cited as the competitive pressure that prompted Microsoft (GitHub Copilot) and Google (Gemini Code Assist) to accelerate their own agentic coding investments in mid-2026."
+        }
+      ]
+    },
+    {
+      "id": "youtube-XxM2eb0IlxI",
+      "type": "video",
+      "title": "US Government Issues Emergency Export Ban on Anthropic's Fable 5 and Mythos 5",
+      "youtubeId": "XxM2eb0IlxI",
+      "sourceUrl": "https://www.youtube.com/watch?v=XxM2eb0IlxI",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Matthew Berman covers the unprecedented US government export control directive issued June 12, 2026, which ordered Anthropic to suspend all access to Fable 5 and Mythos 5 for any foreign national—forcing the company to disable both models worldwide. The government cited national security concerns and knowledge of a jailbreak technique for Fable 5, though Anthropic disputes the severity. Berman also frames the event as a warning about over-reliance on proprietary frontier models and the resilience case for open-source alternatives.",
+      "keyConcepts": [
+        "Export control directive and AI model recall",
+        "AI jailbreak claims and Fable 5 safety bypass",
+        "Frontier model availability risk",
+        "Open-source AI as proprietary alternative"
+      ],
+      "whyItMatters": "This is the first time the US government has used export controls to force the immediate withdrawal of an already-deployed commercial AI model, setting a precedent that any frontier model can be switched off globally with little notice—a systemic risk for anyone building on proprietary AI APIs.",
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "mythos-5",
+        "export-controls",
+        "us-government",
+        "ai-policy"
+      ],
+      "relatedIds": [
+        "youtube-41yzx5uohHI",
+        "theinformation-anthropic-blindsides-partners-june-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why did the US Commerce Department order Anthropic to disable Fable 5 and Mythos 5?",
+          "options": [
+            "The models failed mandatory safety evaluations required before launch",
+            "The government identified a jailbreak technique that could bypass Fable 5's safety guardrails",
+            "Anthropic violated an existing export licensing agreement",
+            "The models were found to contain classified government training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "The US Commerce Department cited awareness of a jailbreak method for Fable 5 as the national security justification. Anthropic disputed that this narrow vulnerability warranted a full product recall, noting the jailbreak would unlock capabilities in only one specific scenario."
+        },
+        {
+          "question": "Why were users worldwide—not just foreign nationals—locked out of Fable 5 and Mythos 5?",
+          "options": [
+            "Anthropic chose to extend the ban out of solidarity with international users",
+            "The government explicitly ordered a complete global shutdown",
+            "Anthropic could not reliably identify and separate foreign nationals from domestic users in real time",
+            "The models were shut down pending a software patch to the jailbreak vulnerability"
+          ],
+          "correctIndex": 2,
+          "explanation": "Because Anthropic lacked the real-time capability to segregate foreign-national users from domestic ones across its systems, it had no choice but to disable both models for all customers globally to comply with the directive."
+        }
+      ]
+    },
+    {
+      "id": "youtube-41yzx5uohHI",
+      "type": "video",
+      "title": "Fable 5 and Mythos 5 Shut Down by US Government: Breakdown and Implications",
+      "youtubeId": "41yzx5uohHI",
+      "sourceUrl": "https://www.youtube.com/watch?v=41yzx5uohHI",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "TheAIGRID provides a detailed breakdown of the sequence of events leading to the government shutdown of Anthropic's two newest models, including context on the Pentagon's prior 'supply chain risk' designation of Anthropic and the legal battles that preceded this export control action. The video reviews what makes Fable 5 a Mythos-class model—particularly its advanced cybersecurity vulnerability detection capabilities—and explores why that specific capability triggered the government concern. It also surveys what users can use instead and discusses the implications for the broader AI industry.",
+      "keyConcepts": [
+        "Mythos-class model capabilities and cybersecurity risk",
+        "Pentagon supply chain risk designation background",
+        "Frontier AI as geopolitical and regulatory surface",
+        "Model alternatives for affected developers and enterprises"
+      ],
+      "whyItMatters": "The shutdown illustrates that frontier AI is now firmly embedded in geopolitics: the same capabilities that make a model commercially valuable (finding software vulnerabilities) are the same ones that trigger government intervention, creating a fundamental tension AI labs must navigate.",
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "mythos-5",
+        "government-ban",
+        "ai-regulation",
+        "cybersecurity-ai"
+      ],
+      "relatedIds": [
+        "youtube-XxM2eb0IlxI"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What specific capability of Mythos 5 is cited as a national security concern?",
+          "options": [
+            "Its ability to autonomously write and deploy malware",
+            "Its advanced proficiency at detecting previously unknown software vulnerabilities",
+            "Its capacity to generate convincing deepfake audio and video",
+            "Its ability to reason about classified government documents"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's Mythos 5 model is particularly adept at detecting software vulnerabilities, including ones that have remained undiscovered for decades. This cybersecurity capability has been used by US authorities to plug security gaps—but also created concerns about what would happen if the capability were misused."
+        },
+        {
+          "question": "What was the Anthropic-Pentagon dispute that preceded the June 2026 export ban?",
+          "options": [
+            "Anthropic refused to sell Claude to the Defense Department at government-negotiated pricing",
+            "The Pentagon demanded Anthropic allow military use of Claude 'for all lawful purposes' including autonomous weapons, which Anthropic refused",
+            "Anthropic was caught selling AI licenses to foreign state actors",
+            "The Pentagon accused Anthropic of embedding backdoors in its models"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Pentagon wanted to renegotiate its deal with Anthropic to permit military use of Claude for all lawful purposes—including lethal autonomous warfare and mass surveillance of Americans. Anthropic refused, which triggered the 'supply chain risk' designation and set the stage for subsequent government actions."
+        }
+      ]
+    },
+    {
+      "id": "youtube-5-CGzLrA4fg",
+      "type": "video",
+      "title": "Fable 5 Shut Down by US Government: Precedent, Backlash, and What Comes Next",
+      "youtubeId": "5-CGzLrA4fg",
+      "sourceUrl": "https://www.youtube.com/watch?v=5-CGzLrA4fg",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "dateEstimated": true,
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "In an emergency episode, NLW of The AI Daily Brief breaks down the US government's order forcing Anthropic to suspend all access to Fable 5 and Mythos 5 for foreign nationals—which resulted in a complete global shutdown. The episode covers Anthropic's public disagreement with the directive, the immediate wave of backlash from developers and the AI community, and the far-reaching precedent this sets for government authority over already-deployed frontier AI models. NLW explores what this moment means for AI labs, enterprises, and individual developers who have built products on proprietary API access.",
+      "keyConcepts": [
+        "Export control law applied to an already-deployed commercial AI",
+        "Anthropic's public disagreement with the government directive",
+        "Global developer and enterprise backlash",
+        "Precedent for government recall authority over frontier AI"
+      ],
+      "whyItMatters": "This marks the first time the US government has exercised export control authority to immediately recall an already-deployed commercial AI model worldwide—establishing a new category of government intervention that any AI lab or developer building on frontier models must now factor into their operational risk planning.",
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "mythos-5",
+        "export-controls",
+        "ai-governance",
+        "developer-impact"
+      ],
+      "relatedIds": [
+        "youtube-XxM2eb0IlxI",
+        "youtube-41yzx5uohHI"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What makes the Fable 5 / Mythos 5 shutdown historically distinct from prior AI regulation?",
+          "options": [
+            "It targeted models that were already commercially deployed and in active global use—the first forced recall of a live AI product",
+            "It was the first time the government cited a jailbreak as a reason to restrict an AI model at all",
+            "It was the first executive action on AI under the Trump administration",
+            "It required Anthropic to permanently delete the model weights rather than just suspend access"
+          ],
+          "correctIndex": 0,
+          "explanation": "Previous AI regulations dealt with development rules, procurement guidelines, or pre-deployment review. What makes this moment historically significant is that Fable 5 and Mythos 5 were already live—used by hundreds of millions of people—when the government ordered them pulled. No commercial AI model had ever been forcibly recalled after deployment."
+        },
+        {
+          "question": "What does Anthropic's public statement 'we disagree that a narrow jailbreak should require recalling a model deployed to hundreds of millions' signal?",
+          "options": [
+            "Anthropic plans to sue the government to restore access",
+            "Anthropic believes the ban will be reversed within days",
+            "Anthropic is complying with the law while publicly contesting the government's safety determination",
+            "Anthropic acknowledges the jailbreak is serious but thinks the ban was improperly scoped"
+          ],
+          "correctIndex": 2,
+          "explanation": "By complying with the directive while simultaneously publishing a public disagreement, Anthropic is establishing a legal and reputational record contesting the government's proportionality judgment—without refusing to comply. This is a strategy to protect its long-term interests while avoiding a direct confrontation with regulators."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-spacex-ipo-spcx-june-2026",
+      "type": "article",
+      "title": "SpaceX IPO Takeaways: SPCX Closes at $161, Jumping 19% After Record $75B Debut",
+      "sourceUrl": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+      "verified": false,
+      "publishedAt": "2026-06-12",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "SpaceX debuted on Nasdaq under ticker SPCX on June 12, 2026, raising $75 billion—the largest IPO in stock market history, triple the previous record. The company, which acquired Elon Musk's AI venture xAI in an all-stock deal in February 2026, priced shares at $135 and saw them close at $161 (+19%), pushing its market cap past $2 trillion. The IPO brings Grok AI, the X social network, and Starlink's satellite internet infrastructure under one publicly-traded entity. MSCI fast-tracked SPCX for inclusion in its large-cap indices starting June 13.",
+      "keyConcepts": [
+        "SpaceX and xAI merger creating a combined public entity",
+        "Record-setting $75 billion public offering",
+        "SPCX Nasdaq debut and MSCI index inclusion",
+        "xAI's Grok models entering public market scrutiny"
+      ],
+      "whyItMatters": "The SpaceX/xAI IPO makes Grok AI publicly traded for the first time, giving public investors direct exposure to a frontier AI lab and intensifying competitive pressure on OpenAI and Anthropic while adding $2T in market-cap accountability to xAI's AI strategy.",
+      "tags": [
+        "spacex",
+        "xai",
+        "grok",
+        "ipo",
+        "spcx",
+        "elon-musk",
+        "ai-industry"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What made the SpaceX June 12, 2026 IPO historically significant?",
+          "options": [
+            "It was the first tech IPO conducted entirely on a blockchain",
+            "It was the first time a rocket company listed on a stock exchange",
+            "It raised $75 billion, making it the largest IPO in stock market history",
+            "It was the first dual-class share structure approved by the SEC"
+          ],
+          "correctIndex": 2,
+          "explanation": "SpaceX raised $75 billion in its IPO, which is approximately triple the size of the previous largest IPO in history. Combined with first-day trading gains, the combined SpaceX-xAI entity reached a market cap exceeding $2 trillion."
+        },
+        {
+          "question": "What AI company was integrated into SpaceX before the IPO, and how?",
+          "options": [
+            "OpenAI, through a $30B licensing deal in December 2025",
+            "xAI, acquired by SpaceX via an all-stock deal in February 2026",
+            "Mistral AI, merged through a European cross-border transaction",
+            "DeepMind, spun out of Google as part of an antitrust settlement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Elon Musk's AI startup xAI—including the Grok large language model and the X social network—was acquired by SpaceX in an all-stock transaction in February 2026. This made the subsequent IPO a combined vehicle for SpaceX's rocket and Starlink businesses alongside xAI's AI assets."
+        }
+      ]
+    },
+    {
+      "id": "techtimes-openai-gpt52-retirement-june-2026",
+      "type": "article",
+      "title": "OpenAI Retires GPT-5.2 and Migrates All Users to GPT-5.5: What Developers Need to Know",
+      "sourceUrl": "https://www.techtimes.com/articles/318345/20260613/openai-retires-gpt-52-moves-everyone-gpt-55-what-changes-chatgpt-users-developers.htm",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "As of June 12, 2026, OpenAI quietly retired GPT-5.2 (Instant, Thinking, and Pro variants), automatically migrating all existing conversations to the corresponding GPT-5.5 model. The change is invisible to casual users but matters for developers with production workflows: prompt behavior can shift between model versions in subtle ways. The article also flags ongoing developer buzz around GPT-5.6 'kindle-alpha,' an unannounced model checkpoint that leaked through Codex testing paths and reportedly features a 1.5-million-token context window—though OpenAI has made no official announcement.",
+      "keyConcepts": [
+        "Model deprecation lifecycle and silent migration",
+        "API version pinning as production best practice",
+        "GPT-5.6 kindle-alpha leaked checkpoint",
+        "1.5-million-token context window rumor"
+      ],
+      "whyItMatters": "Silent model retirements can break production AI applications without warning. This event is a reminder that developers need to explicitly pin model versions in API calls and continuously monitor OpenAI's deprecation notices—while the GPT-5.6 leak suggests another significant capability jump is imminent.",
+      "tags": [
+        "openai",
+        "gpt-5-5",
+        "gpt-5-6",
+        "model-deprecation",
+        "api-versioning",
+        "kindle-alpha"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the recommended developer action following a silent model retirement like GPT-5.2's?",
+          "options": [
+            "Migrate immediately to an open-source model as insurance against future deprecations",
+            "File a support ticket with OpenAI requesting a rollback grace period",
+            "Re-test tuned prompts against the new model and pin explicit model versions in API calls",
+            "Wait for GPT-5.6 before making any code changes"
+          ],
+          "correctIndex": 2,
+          "explanation": "When OpenAI silently retires a model, output behavior can shift in subtle but consequential ways for production systems. The best practice is to immediately re-test prompts and output parsing against the new model version and to explicitly pin model versions in all API calls to prevent future unplanned migrations."
+        },
+        {
+          "question": "What notable capability was associated with the leaked GPT-5.6 'kindle-alpha' checkpoint?",
+          "options": [
+            "Native real-time internet search without requiring tool calls",
+            "A 1.5 million token context window, larger than any current frontier model",
+            "Autonomous deployment of code changes to production environments",
+            "Multimodal audio and video generation from a single API call"
+          ],
+          "correctIndex": 1,
+          "explanation": "Developers watching Codex backend logs spotted the GPT-5.6 'kindle-alpha' checkpoint. Community reports tied it to a 1.5-million-token context window—which would be the largest among frontier models if confirmed—plus improved reasoning, coding, and vision performance."
+        }
+      ]
+    },
+    {
+      "id": "theinformation-anthropic-blindsides-partners-june-2026",
+      "type": "article",
+      "title": "Anthropic Blindsides Its Business Partners",
+      "sourceUrl": "https://www.theinformation.com/articles/anthropic-blindsides-business-partners",
+      "verified": false,
+      "publishedAt": "2026-06-12",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "The Information reports that Anthropic has been launching products competing directly with its API partners while giving them little or no advance notice. Before announcing Claude Design—an AI tool for creating visual designs and software prototypes—Anthropic invited Figma and Canva to be featured 'partners' of the launch, despite Claude Design competing with those companies' core products. The report also describes unannounced pricing changes that caught enterprise partners off guard. The pattern raises platform-risk concerns for companies building significant products on Anthropic's APIs.",
+      "keyConcepts": [
+        "Vertical integration by AI labs into application markets",
+        "Partner-competitive dynamics (platform squeeze)",
+        "Claude Design as Figma and Canva competitor",
+        "API dependency risk for software companies"
+      ],
+      "whyItMatters": "As foundational model providers expand into applications, companies that built on top of their APIs increasingly find themselves competing with their own infrastructure supplier—a classic 'platform squeeze' that developers and startups need to weigh when deciding what to build versus what to buy.",
+      "tags": [
+        "anthropic",
+        "claude-design",
+        "figma",
+        "canva",
+        "platform-risk",
+        "partner-strategy"
+      ],
+      "relatedIds": [
+        "youtube-XxM2eb0IlxI"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What did Anthropic do that The Information described as 'blindsiding' partners?",
+          "options": [
+            "It acquired two partner startups without prior disclosure",
+            "It launched Claude Design—competing with Figma and Canva—while inviting those companies to co-present the launch as partners",
+            "It changed API pricing retroactively on existing enterprise contracts",
+            "It open-sourced its weights, threatening businesses built on proprietary API access"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic launched Claude Design, a direct competitor to products sold by Figma and Canva, while simultaneously inviting those same companies to be featured 'launch partners'—putting them in the uncomfortable position of co-promoting a product that competes with their own."
+        },
+        {
+          "question": "What broader risk does this situation illustrate for developers building on AI foundational model APIs?",
+          "options": [
+            "Proprietary API-based products are technically inferior to open-source alternatives",
+            "AI model providers will always prioritize enterprise contracts over startup customers",
+            "Foundational model providers may expand into applications that compete directly with their API customers",
+            "Companies should build exclusively on multi-provider abstractions to avoid any single dependency"
+          ],
+          "correctIndex": 2,
+          "explanation": "This is a textbook example of 'platform squeeze': the infrastructure provider (Anthropic) builds products that compete with the application companies that depend on its API, eroding the value of being a platform partner and forcing those companies to reassess their strategic dependency."
+        }
+      ]
+    },
+    {
+      "id": "semafor-china-anthropic-mythos-june-2026",
+      "type": "article",
+      "title": "White House Move to Limit Anthropic Linked to Concerns About Chinese Access to Mythos",
+      "sourceUrl": "https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Semafor reports that the White House's export control directive against Anthropic was driven at least partly by intelligence indicating a China-linked group had accessed Mythos—the company's most powerful cybersecurity AI model. While the administration's formal justification centered on a Fable 5 jailbreak, Semafor's sources suggest a parallel national security concern about Chinese adversaries potentially exploiting Mythos's vulnerability-detection capabilities. Anthropic disputed this framing, stating the White House did not raise Chinese access in its conversations about the Fable jailbreak, and noting the company already blocks access from inside China.",
+      "keyConcepts": [
+        "Chinese threat actors and frontier cybersecurity AI access",
+        "Intelligence-driven rationale behind export control decisions",
+        "Mythos vulnerability-detection capability as a geopolitical risk",
+        "Divergence between official public rationale and reported intelligence concerns"
+      ],
+      "whyItMatters": "If confirmed, Chinese access to a model purpose-built for finding previously unknown software vulnerabilities would represent a serious intelligence failure—and suggests the publicly cited jailbreak justification was a simplified version of a more alarming underlying concern about adversarial exploitation of frontier AI.",
+      "tags": [
+        "anthropic",
+        "mythos-5",
+        "china",
+        "national-security",
+        "export-controls",
+        "ai-intelligence"
+      ],
+      "relatedIds": [
+        "youtube-XxM2eb0IlxI",
+        "youtube-41yzx5uohHI",
+        "youtube-5-CGzLrA4fg"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "According to Semafor's reporting, what intelligence concern contributed to the ban beyond the official jailbreak rationale?",
+          "options": [
+            "A Russian cybersecurity firm had begun fine-tuning a locally hosted copy of Mythos",
+            "North Korean state hackers had used Fable 5 to analyze US critical infrastructure code",
+            "A China-linked group had reportedly gained access to the Mythos model",
+            "An Iranian group had submitted thousands of jailbreak probes to map Mythos's safety boundaries"
+          ],
+          "correctIndex": 2,
+          "explanation": "Semafor's reporting indicates the White House was alarmed by intelligence suggesting a China-linked group had accessed Mythos—a model built to find unknown software vulnerabilities. This concern about adversarial access appears to have been a significant driver behind the export control directive, even though the official public rationale focused on the jailbreak."
+        },
+        {
+          "question": "How did Anthropic respond to the claim that Chinese access to Mythos drove the ban?",
+          "options": [
+            "Anthropic confirmed the Chinese access but argued the vulnerability was already patched",
+            "Anthropic said the White House did not raise Chinese access in conversations about the Fable jailbreak, and noted it already blocks access from China",
+            "Anthropic declined to comment on any intelligence-related aspects of the ban",
+            "Anthropic said it had independently discovered the Chinese access and had already reported it to the NSA"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic pushed back on the China access narrative, stating the government did not mention it during the jailbreak discussions, and pointed out that Anthropic already restricts access from inside China as a standing policy. This divergence between the government's reported intelligence concerns and Anthropic's account suggests the two sides have very different pictures of what triggered the ban."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-amazon-anthropic-concerns-june-2026",
+      "type": "article",
+      "title": "Amazon CEO Reportedly Raised Concerns About Anthropic's Frontier Models Before US Government Crackdown",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "verified": false,
+      "publishedAt": "2026-06-13",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "TechCrunch reports that Amazon CEO Andy Jassy had raised concerns about the capabilities and deployment approach for Anthropic's Fable 5 and Mythos 5 models before the US government issued its export control directive. Amazon is Anthropic's largest investor with tens of billions committed, making Jassy's reported concerns a notable signal from inside the AI funding ecosystem rather than from external observers. The article adds a new dimension to the ban story: major corporate stakeholders—not only government officials—had flagged worries about these frontier models before the shutdown.",
+      "keyConcepts": [
+        "Amazon as Anthropic's largest investor and cloud partner",
+        "Corporate governance concerns about frontier model deployment",
+        "Investor-AI lab tensions over capability and deployment decisions",
+        "Pre-ban internal signals from within the AI funding ecosystem"
+      ],
+      "whyItMatters": "If Amazon's CEO had already flagged concerns before the US government acted, it suggests the Anthropic ban did not come entirely from outside the company's inner circle—and raises important questions about how much influence major investors can or should have over an AI lab's decision to deploy potentially risky frontier models.",
+      "tags": [
+        "anthropic",
+        "amazon",
+        "andy-jassy",
+        "investor-relations",
+        "frontier-ai",
+        "model-governance"
+      ],
+      "relatedIds": [
+        "theinformation-anthropic-blindsides-partners-june-2026",
+        "youtube-XxM2eb0IlxI"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Andy Jassy's reported concern about Anthropic's models particularly significant?",
+          "options": [
+            "Amazon is the sole owner of Anthropic and has veto rights over all model releases",
+            "Jassy previously led the team that developed the export control policy being applied to the models",
+            "Amazon is Anthropic's largest investor, making the CEO's concern a signal from inside Anthropic's own funding base",
+            "Jassy is a current member of Anthropic's board with fiduciary responsibility for safety decisions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon has committed tens of billions to Anthropic as its primary investor and cloud partner. This means Jassy's pre-ban concerns didn't come from a neutral outside observer but from the very entity that funds Anthropic's work—making any internal reservations about frontier model deployment much harder for Anthropic to simply dismiss."
+        },
+        {
+          "question": "What broader governance question does the Amazon CEO's reported concern raise about the AI development ecosystem?",
+          "options": [
+            "Whether AI companies should be required to get investor approval before releasing frontier models",
+            "Whether the US government should appoint Amazon as a regulatory liaison to AI labs",
+            "Whether major investors in AI labs should be required to publicly disclose safety concerns",
+            "How much influence major investors can or should have over an AI lab's decision to deploy frontier models"
+          ],
+          "correctIndex": 3,
+          "explanation": "When your biggest investor is reportedly raising concerns about a model before the government pulls it, it points to a governance gap: who has the authority to delay or stop a frontier model launch when powerful stakeholders—not just safety researchers—have reservations? This open question will become increasingly important as AI labs continue pushing capability boundaries."
         }
       ]
     }
