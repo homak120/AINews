@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:13:51Z",
+  "generatedAt": "2026-07-16T08:45:00Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-15",
   "coverageEnd": "2026-07-16",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "Meta's entry into cloud compute — backed by a $145B AI infrastructure commitment and a goal of 14 gigawatts of compute by 2027 — could substantially lower AI compute costs and reshape how enterprises access the AI compute needed to run agents at scale.",
       "tags": ["meta", "cloud-computing", "gpu-rental", "ai-infrastructure", "enterprise-ai", "meta-compute"],
-      "relatedIds": ["article-tsmc-q2-2026-earnings"],
+      "relatedIds": ["article-tsmc-q2-2026-earnings", "article-south-korea-880b-ai-july-2026"],
       "knowledgeChecks": [
         {
           "question": "What is Meta Compute primarily offering to enterprise customers?",
@@ -64,7 +64,7 @@
       ],
       "whyItMatters": "TSMC's record earnings are a real-time signal of AI infrastructure spending intensity. With N3 capacity sold out through year-end and HPC accounting for over 61% of revenue, the AI hardware buildout shows no signs of slowing — and TSMC's Q3 guidance will shape expectations for the next wave of AI model training and inference capacity.",
       "tags": ["tsmc", "semiconductors", "ai-chips", "earnings", "ai-hardware", "n3-process"],
-      "relatedIds": ["article-meta-compute-launch-july-2026"],
+      "relatedIds": ["article-meta-compute-launch-july-2026", "article-nvidia-ai-dominance-july-2026"],
       "knowledgeChecks": [
         {
           "question": "What percentage of TSMC's Q1 2026 revenue came from high-performance computing (AI accelerators and related chips)?",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 1,
           "explanation": "When TSMC says N3 capacity is sold out through year-end, it means the most advanced AI chips (like Nvidia's H-series and B-series GPUs built on N3) will remain supply-constrained through at least Q4 2026, limiting how quickly AI companies can expand their compute fleets."
+        }
+      ]
+    },
+    {
+      "id": "article-south-korea-880b-ai-july-2026",
+      "type": "article",
+      "title": "South Korea Unveils $880 Billion AI and Semiconductor Investment Plan Over 10 Years",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/south-korea-unveils-880-billion-202959111.html",
+      "verified": false,
+      "publishedAt": "2026-07-15",
+      "topics": ["ai-industry"],
+      "summary": "South Korean President Lee Jae-myung announced a 1,350 trillion won ($880 billion) national investment plan targeting semiconductors, AI, and robotics over the next decade — one of the largest national AI commitments in history. The plan coordinates private capital from Samsung Electronics, SK Hynix, and Naver, with Samsung Group and SK Group each building two new chip fabrication plants in the country's southwest worth approximately 800 trillion won combined. An additional 550 trillion won will fund 8.4 gigawatts of AI data-center capacity by 2029.",
+      "keyConcepts": [
+        "National AI industrial policy",
+        "Semiconductor fabrication investment",
+        "AI data-center capacity buildout",
+        "Government-private sector coordination"
+      ],
+      "whyItMatters": "South Korea's $880B plan — weighted heavily toward AI chip fabrication and data-center build-out — signals that the race for AI compute leadership is now a national-security priority for major economies, not just a corporate strategy. It will intensify competition with TSMC, US chip initiatives, and China's semiconductor push.",
+      "tags": ["south-korea", "semiconductors", "ai-policy", "ai-infrastructure", "samsung", "sk-hynix"],
+      "relatedIds": ["article-tsmc-q2-2026-earnings", "article-meta-compute-launch-july-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How much of South Korea's $880 billion AI plan is expected to come from private companies rather than direct government spending?",
+          "options": [
+            "About 10%, with the government funding the rest",
+            "About 50%, split evenly between public and private",
+            "The vast majority — it coordinates private corporate investment, not direct government outlays",
+            "None — it is entirely government-funded through tax revenue"
+          ],
+          "correctIndex": 2,
+          "explanation": "South Korea's $880B figure represents coordinated private capital from major corporations like Samsung and SK Hynix, with the government's role being to organize and incentivize the investment rather than directly fund it from public budgets."
+        },
+        {
+          "question": "Which sector receives the largest share of South Korea's planned 1,350 trillion won commitment?",
+          "options": [
+            "AI software development and foundation models",
+            "EV battery and clean-energy manufacturing",
+            "Semiconductor chip fabrication plants",
+            "Consumer robotics and autonomous vehicles"
+          ],
+          "correctIndex": 2,
+          "explanation": "Approximately 800 trillion won — more than half the total — is committed to building new semiconductor fabrication plants by Samsung Group and SK Group in South Korea's southwest, reflecting the country's bet that hardware manufacturing will be the decisive advantage in the AI era."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-jobs-workers-adapt-july-2026",
+      "type": "article",
+      "title": "AI Is Changing Jobs Faster Than Workers Can Adapt, New Research Finds",
+      "sourceUrl": "https://weeklyblitz.net/2026/07/15/ai-is-changing-jobs-faster-than-workers-can-adapt/",
+      "verified": false,
+      "publishedAt": "2026-07-15",
+      "topics": ["ai-career"],
+      "summary": "New research published July 15, 2026 documents a widening gap between the pace of corporate AI adoption and the effort companies are making to prepare employees for the transition. Only 18% of lower-level employees believe their positions are secure, and AI-cited layoffs have jumped from 0.6% of total layoffs in 2024 to 13% year-to-date in 2026, with March alone seeing 25% of layoffs attributed to AI. The research covers sectors from healthcare and finance to manufacturing and customer service, where AI is automating routine tasks and reshaping workflows.",
+      "keyConcepts": [
+        "AI-driven workforce displacement",
+        "Employee reskilling gap",
+        "Task automation vs. job elimination",
+        "Two-tier AI labor market"
+      ],
+      "whyItMatters": "AI adoption is outpacing corporate investment in workforce transition programs, creating significant skill and confidence gaps at lower organizational levels. Workers in AI-exposed roles who successfully adapt are seeing 16.7% wage growth — more than double peers in unexposed roles — making the difference between adaptation and displacement increasingly consequential.",
+      "tags": ["workforce", "automation", "job-displacement", "reskilling", "ai-adoption", "labor-market"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to 2026 research, what percentage of lower-level employees believe their job positions are secure in the face of AI adoption?",
+          "options": [
+            "18%",
+            "42%",
+            "61%",
+            "79%"
+          ],
+          "correctIndex": 0,
+          "explanation": "Research from July 2026 found that only 18% of employees at the lower levels of organizations expressed confidence that their positions were safe, highlighting the anxiety gap between executive optimism about AI and frontline worker insecurity."
+        },
+        {
+          "question": "How have AI-cited layoffs trended from 2024 to mid-2026?",
+          "options": [
+            "They have remained steady at around 2-3% of total layoffs each year",
+            "They declined from 5% in 2024 to under 1% in 2026 as companies invested in reskilling",
+            "They rose from 0.6% in 2024 to 4.5% in 2025 and approximately 13% year-to-date in 2026",
+            "They jumped to 50% of all layoffs in Q1 2026 before declining sharply"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI-cited layoffs have grown from 0.6% of total layoffs in 2024 to 4.5% in 2025 and approximately 13% year-to-date in 2026, with March 2026 alone seeing 25% of layoffs attributed to AI — indicating an accelerating rather than stabilizing impact on employment."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-ai-dominance-july-2026",
+      "type": "article",
+      "title": "Nvidia Tests $212 as AI Chip Demand Surge Pushes Market Cap Above $5.1 Trillion",
+      "sourceUrl": "https://247wallst.com/investing/2026/07/16/nvidias-75-margins-vs-tsmcs-foundry-gamble-two-paths-to-ai-dominance-one-winner/",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Nvidia's stock touched $212 on July 16, 2026, pushing its market capitalization above $5.1 trillion as AI infrastructure spending shows no signs of slowing. The company reported an 85% revenue increase to $81.6 billion with Data Center revenue up 92% to $75.2 billion, while maintaining approximately 75% gross margins and sitting on $1 trillion in confirmed AI chip purchase commitments through 2027. Blackwell-generation chips remain sold out well into 2026, and management authorized an $80 billion share repurchase program.",
+      "keyConcepts": [
+        "AI accelerator demand and pricing power",
+        "Blackwell GPU supply constraints",
+        "Data center revenue concentration",
+        "AI hardware purchase commitments"
+      ],
+      "whyItMatters": "Nvidia's $5.1T market cap and 75% gross margins reflect the degree to which the company has become the indispensable bottleneck in the global AI buildout. With $1 trillion in committed purchase orders through 2027, the question for AI practitioners is less whether compute will be available and more how much they'll pay for it.",
+      "tags": ["nvidia", "ai-chips", "blackwell", "data-center", "gpu", "ai-hardware"],
+      "relatedIds": ["article-tsmc-q2-2026-earnings", "article-meta-compute-launch-july-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What portion of Nvidia's Q2 2026 revenue came from the Data Center segment?",
+          "options": [
+            "About 30% ($24.5B of $81.6B)",
+            "About 50% ($40.8B of $81.6B)",
+            "About 70% ($57.1B of $81.6B)",
+            "About 92% ($75.1B of $81.6B)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nvidia's Data Center segment — covering AI accelerators (GPUs), networking (NVLink, InfiniBand), and related hardware — generated approximately $75.2 billion, representing about 92% of total company revenue of $81.6 billion in the most recent quarter."
+        },
+        {
+          "question": "Nvidia's $1 trillion in confirmed AI chip purchase commitments through 2027 primarily comes from which customer category?",
+          "options": [
+            "Consumer gaming PC manufacturers upgrading to RTX 5000 series",
+            "Government defense agencies building sovereign AI compute",
+            "The world's largest technology hyperscalers including Microsoft, Amazon, Google, and Meta",
+            "Academic research institutions funded by national AI initiatives"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia's $1 trillion in committed AI chip demand through 2027 represents actual purchase commitments from the world's largest technology hyperscalers — Microsoft, Amazon, Google, and Meta — who are racing to build out AI training and inference infrastructure at massive scale."
         }
       ]
     }
