@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-07-16T03:13:51Z",
+  "weekOf": "2026-07-13",
+  "coverageStart": "2026-07-15",
+  "coverageEnd": "2026-07-16",
+  "items": [
+    {
+      "id": "article-meta-compute-launch-july-2026",
+      "type": "article",
+      "title": "Meta Launches Meta Compute Cloud to Compete with AWS, Azure, and Google Cloud",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/meta-compute-launch-sends-ai-015258040.html",
+      "verified": false,
+      "publishedAt": "2026-07-15",
+      "topics": ["ai-industry"],
+      "summary": "Meta officially launched Meta Compute on July 15, 2026, a new cloud infrastructure business that will sell GPU compute capacity and hosted AI model access to third-party enterprises. Led by infrastructure head Santosh Janardhan, Meta Superintelligence Labs leader Daniel Gross, and president Dina Powell McCormick, the service puts Meta in direct competition with AWS, Microsoft Azure, and Google Cloud. The launch sent AI compute stocks tumbling globally as investors reassessed the competitive landscape for AI infrastructure.",
+      "keyConcepts": [
+        "GPU cloud compute rental",
+        "AI infrastructure monetization",
+        "enterprise AI platform",
+        "cloud compute market disruption"
+      ],
+      "whyItMatters": "Meta's entry into cloud compute — backed by a $145B AI infrastructure commitment and a goal of 14 gigawatts of compute by 2027 — could substantially lower AI compute costs and reshape how enterprises access the AI compute needed to run agents at scale.",
+      "tags": ["meta", "cloud-computing", "gpu-rental", "ai-infrastructure", "enterprise-ai", "meta-compute"],
+      "relatedIds": ["article-tsmc-q2-2026-earnings"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Meta Compute primarily offering to enterprise customers?",
+          "options": [
+            "A new social media API for business advertising",
+            "GPU compute capacity and hosted AI model access",
+            "On-premise AI hardware for enterprise data centers",
+            "A managed AI safety auditing service"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta Compute sells GPU compute capacity and hosted AI models (including Llama-family models) to third-party enterprises, competing directly with AWS, Azure, and Google Cloud."
+        },
+        {
+          "question": "Which of the following best describes Meta's strategic motivation for launching Meta Compute?",
+          "options": [
+            "To exit the consumer AI space and pivot fully to enterprise",
+            "To comply with EU AI Act infrastructure-sharing requirements",
+            "To monetize excess AI compute capacity from its massive infrastructure build",
+            "To offer a lower-cost alternative to its own advertising products"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta has committed up to $145B in AI infrastructure in 2026 and is building toward 14 gigawatts of compute by 2027. Meta Compute monetizes the resulting excess capacity by renting it to outside customers."
+        }
+      ]
+    },
+    {
+      "id": "article-tsmc-q2-2026-earnings",
+      "type": "article",
+      "title": "TSMC Reports Record Q2 2026 Earnings with 36% Revenue Growth, AI Demand Described as Extremely Robust",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "TSMC reported second-quarter 2026 revenue of approximately $39.6 billion, beating the top of its own guidance range and up 36% year-over-year, as AI chip demand continues to drive record-setting results. June revenue alone surged 67.9% year-over-year — the fastest monthly growth rate in 2026 — pushing Q2 above guidance. During the July 16 earnings call, management described demand for AI-related chips as 'extremely robust,' with N3 process capacity sold out through year-end and a 2nm technology ramp underway for 2027.",
+      "keyConcepts": [
+        "TSMC N3 and N2 process nodes",
+        "CoWoS advanced chip packaging",
+        "High-performance computing revenue mix",
+        "AI chip supply constraints"
+      ],
+      "whyItMatters": "TSMC's record earnings are a real-time signal of AI infrastructure spending intensity. With N3 capacity sold out through year-end and HPC accounting for over 61% of revenue, the AI hardware buildout shows no signs of slowing — and TSMC's Q3 guidance will shape expectations for the next wave of AI model training and inference capacity.",
+      "tags": ["tsmc", "semiconductors", "ai-chips", "earnings", "ai-hardware", "n3-process"],
+      "relatedIds": ["article-meta-compute-launch-july-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of TSMC's Q1 2026 revenue came from high-performance computing (AI accelerators and related chips)?",
+          "options": [
+            "Around 30%",
+            "Around 45%",
+            "Around 61%",
+            "Around 80%"
+          ],
+          "correctIndex": 2,
+          "explanation": "High-performance computing — the category covering AI accelerators and related chips — accounted for approximately 61% of TSMC's Q1 2026 revenue, up 20% quarter-over-quarter, reflecting the intense AI chip demand."
+        },
+        {
+          "question": "What does TSMC's N3 process being 'sold out through year-end' most directly imply for AI companies?",
+          "options": [
+            "AI companies must wait until 2027 to train new models",
+            "The leading-edge AI chips designed on N3 will face supply constraints through at least Q4 2026",
+            "TSMC will raise prices for all customers by at least 20%",
+            "Nvidia will shift its manufacturing to Intel Foundry"
+          ],
+          "correctIndex": 1,
+          "explanation": "When TSMC says N3 capacity is sold out through year-end, it means the most advanced AI chips (like Nvidia's H-series and B-series GPUs built on N3) will remain supply-constrained through at least Q4 2026, limiting how quickly AI companies can expand their compute fleets."
+        }
+      ]
+    }
+  ]
+}
