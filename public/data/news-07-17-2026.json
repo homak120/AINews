@@ -1,0 +1,239 @@
+{
+  "generatedAt": "2026-07-17T08:00:00.000Z",
+  "weekOf": "2026-07-13",
+  "coverageStart": "2026-07-16",
+  "coverageEnd": "2026-07-17",
+  "items": [
+    {
+      "id": "youtube-Df_aJfqPlLg",
+      "type": "video",
+      "title": "AI Daily Brief: Jensen Huang Declares Japan's Physical AI Era in Tokyo",
+      "youtubeId": "Df_aJfqPlLg",
+      "sourceUrl": "https://www.youtube.com/watch?v=Df_aJfqPlLg",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Nvidia CEO Jensen Huang visited Tokyo to declare the beginning of Japan's AI era, focusing on physical AI and robotics partnerships. The visit highlights Nvidia's strategy of expanding its AI ecosystem across Asia through hardware and software collaborations. Japan is emerging as a key partner in the global race to deploy physical AI infrastructure.",
+      "keyConcepts": ["Physical AI", "Nvidia partnerships", "Japan AI strategy", "robotics infrastructure"],
+      "whyItMatters": "Nvidia's push into Japan's physical AI market signals a major expansion of AI beyond software, with implications for global supply chains and the deployment of AI-driven robotics.",
+      "tags": ["nvidia", "jensen-huang", "japan", "physical-ai", "robotics", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the focus of Jensen Huang's July 2026 visit to Tokyo?",
+          "options": [
+            "Launching a new GPU data center campus",
+            "Declaring the beginning of Japan's AI era with physical AI partnerships",
+            "Announcing a merger with SoftBank",
+            "Presenting a new chip manufacturing facility"
+          ],
+          "correctIndex": 1,
+          "explanation": "Jensen Huang visited Tokyo to declare the beginning of Japan's AI era, emphasizing physical AI partnerships and Nvidia's expanding ecosystem across Asia."
+        },
+        {
+          "question": "Which company's CEO made the 'physical AI era' announcement in Tokyo?",
+          "options": [
+            "OpenAI",
+            "Google DeepMind",
+            "Nvidia",
+            "ARM Holdings"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jensen Huang, CEO of Nvidia, made the declaration about Japan's AI era during his July 2026 visit to Tokyo, emphasizing robotics and physical AI partnerships."
+        }
+      ]
+    },
+    {
+      "id": "youtube-mN4miK2v1e8",
+      "type": "video",
+      "title": "Kimi K3 Launching Soon: What to Expect from Moonshot AI's 2.8T-Parameter Model",
+      "youtubeId": "mN4miK2v1e8",
+      "sourceUrl": "https://www.youtube.com/watch?v=mN4miK2v1e8",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "This video previews Kimi K3, Moonshot AI's upcoming flagship model with approximately 2.8 trillion parameters and a 1-million-token context window. The model uses a Mixture-of-Experts architecture with 896 experts and targets long-horizon coding and autonomous agent tasks. Full model weights are expected to be released publicly by July 27, 2026.",
+      "keyConcepts": ["Mixture-of-Experts (MoE)", "open-weight model", "1M-token context", "autonomous coding agents"],
+      "whyItMatters": "Kimi K3's planned open-weight release makes a model that rivals proprietary frontier systems accessible to self-hosters, representing a turning point in the open vs. closed AI model race.",
+      "tags": ["kimi-k3", "moonshot-ai", "open-source", "mixture-of-experts", "large-language-model", "ai-research"],
+      "relatedIds": ["youtube-wfx1uEV6gfE", "article-kimi-k3-open-weight"],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately how many parameters does Kimi K3 have?",
+          "options": [
+            "175 billion",
+            "671 billion",
+            "1 trillion",
+            "2.8 trillion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Kimi K3 has approximately 2.8 trillion total parameters in its MoE architecture, making it the largest open-weight model as of its July 2026 release."
+        },
+        {
+          "question": "What is Kimi K3's context window size?",
+          "options": [
+            "128K tokens",
+            "200K tokens",
+            "1 million tokens",
+            "2 million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kimi K3 features a 1-million-token context window, enabling it to process extremely long documents or large codebases in a single pass."
+        }
+      ]
+    },
+    {
+      "id": "youtube-wfx1uEV6gfE",
+      "type": "video",
+      "title": "Kimi K3 Leaked Benchmarks Show It Already Beating Top Frontier Models",
+      "youtubeId": "wfx1uEV6gfE",
+      "sourceUrl": "https://www.youtube.com/watch?v=wfx1uEV6gfE",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-research"],
+      "summary": "Before its official release, Kimi K3's evaluation results leaked and show the model performing neck-and-neck with or ahead of leading proprietary systems including Claude Opus 4.8 and GPT-5.5. The video analyzes leaked scores from LMSYS Chatbot Arena community testing across coding, reasoning, and multimodal benchmarks. The results challenge assumptions about the ceiling of open-weight models.",
+      "keyConcepts": ["benchmark evaluation", "LMSYS Chatbot Arena", "model capability leaks", "frontier model comparison"],
+      "whyItMatters": "If Kimi K3's pre-release benchmark performance holds at official evaluation, it marks the moment open-weight models demonstrably reached parity with the best proprietary frontier systems.",
+      "tags": ["kimi-k3", "benchmarks", "open-source-ai", "model-evaluation", "moonshot-ai", "frontier-models"],
+      "relatedIds": ["youtube-mN4miK2v1e8", "article-kimi-k3-open-weight"],
+      "knowledgeChecks": [
+        {
+          "question": "What platform provided early independent benchmark evidence for Kimi K3?",
+          "options": [
+            "Hugging Face Open LLM Leaderboard",
+            "LMSYS Chatbot Arena",
+            "Stanford HELM",
+            "BIG-bench Hard"
+          ],
+          "correctIndex": 1,
+          "explanation": "The LMSYS Chatbot Arena hosted early community testing of Kimi K3, generating independent evaluation data before the model's official launch announcement."
+        },
+        {
+          "question": "Which proprietary models did leaked Kimi K3 benchmarks reportedly match or outperform?",
+          "options": [
+            "Claude Haiku 4.5 and GPT-4o",
+            "Llama 4 and Mistral Large",
+            "Claude Opus 4.8 and GPT-5.5",
+            "Gemini 3.0 Flash and Falcon 3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Leaked benchmarks showed Kimi K3 performing neck-and-neck with or ahead of Claude Opus 4.8 and GPT-5.5, two of the top proprietary frontier models."
+        }
+      ]
+    },
+    {
+      "id": "article-waic-2026-opening",
+      "type": "article",
+      "title": "Xi Jinping Opens WAIC 2026 in Shanghai, Marking China's Bid for Global AI Leadership",
+      "sourceUrl": "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+      "verified": false,
+      "publishedAt": "2026-07-17",
+      "topics": ["ai-industry"],
+      "summary": "The 2026 World Artificial Intelligence Conference (WAIC) opened in Shanghai today with President Xi Jinping attending for the first time since the event began in 2018. The four-day conference (July 17–20) features over 1,400 guests, 1,000+ exhibitors, and more than 300 global AI product debuts. The event runs alongside a High-Level Meeting on Global AI Governance, positioning China as an alternative voice in international AI regulation.",
+      "keyConcepts": ["AI governance", "China AI strategy", "WAIC 2026", "sovereign AI"],
+      "whyItMatters": "Xi's first-ever WAIC keynote formally elevates AI to China's top-tier national strategy, with major geopolitical implications for global AI regulation and the ongoing US-China technology race.",
+      "tags": ["waic-2026", "china-ai", "xi-jinping", "ai-governance", "global-ai", "ai-regulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the theme of WAIC 2026?",
+          "options": [
+            "AI Safety First",
+            "AI Cooperation for a Brighter Future",
+            "Open AI for Everyone",
+            "Frontier AI and National Security"
+          ],
+          "correctIndex": 1,
+          "explanation": "WAIC 2026 is themed 'AI Cooperation for a Brighter Future,' reflecting China's emphasis on international collaboration while it promotes its own AI governance vision."
+        },
+        {
+          "question": "Why is Xi Jinping's attendance at WAIC 2026 historically significant?",
+          "options": [
+            "It is the first time WAIC has been held in Shanghai",
+            "It is Xi's first in-person appearance at WAIC since the event began in 2018",
+            "It is the first WAIC to be broadcast live internationally",
+            "It marks China signing its first multilateral AI governance treaty"
+          ],
+          "correctIndex": 1,
+          "explanation": "Xi Jinping attending WAIC 2026 marks his first in-person appearance since the conference launched in 2018, signaling AI has been elevated to a top-tier national priority for China."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini-35-delay",
+      "type": "article",
+      "title": "Gemini 3.5 Pro Misses Third Deadline as Google Considers Stopgap Release Strategy",
+      "sourceUrl": "https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google's Gemini 3.5 Pro has missed its third consecutive launch deadline, with the rebuilt model failing to hit the anticipated July 17 date. Google reportedly scrapped the original model architecture after engineers found structural failures in recursive tool-calling and SVG scene generation, requiring a full rebuild. Prediction markets now assign 81% probability to a July 31 delivery as the next realistic target.",
+      "keyConcepts": ["model architecture rebuild", "recursive tool-calling bugs", "launch deadline slippage", "frontier model competition"],
+      "whyItMatters": "Gemini 3.5 Pro's repeated delays leave Google without a new flagship model in a week where GPT-5.6 and Grok 4.5 are already in users' hands, tightening pressure on its competitive position.",
+      "tags": ["google-deepmind", "gemini-3-5-pro", "model-delay", "frontier-ai", "ai-competition", "llm-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Google reportedly scrap the original Gemini 3.5 Pro base model?",
+          "options": [
+            "Licensing conflicts with third-party training data",
+            "Structural failures in recursive tool-calling and SVG generation",
+            "Security vulnerabilities discovered post-training",
+            "Compute costs exceeded budget projections"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google DeepMind scrapped the original model after engineers identified structural failures in recursive tool-calling and SVG scene generation, requiring a complete architectural rebuild."
+        },
+        {
+          "question": "What probability do prediction markets assign to a July 31 Gemini 3.5 Pro launch?",
+          "options": [
+            "42%",
+            "61%",
+            "81%",
+            "95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "As of mid-July 2026, prediction markets place 81% probability on a July 31 delivery as the most likely outcome for Gemini 3.5 Pro, after three missed deadlines."
+        }
+      ]
+    },
+    {
+      "id": "article-kimi-k3-open-weight",
+      "type": "article",
+      "title": "Moonshot AI's Kimi K3 Is the World's Largest Open-Weight Model, Rivaling Top US Systems",
+      "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems/",
+      "verified": false,
+      "publishedAt": "2026-07-16",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "VentureBeat reports that Moonshot AI's Kimi K3 launched on July 16 across the Kimi app, API, and developer tools, with full model weights planned for public release by July 27. At $3.00 input / $15.00 output per million tokens, K3 positions itself as a frontier flagship that undercuts both Claude Opus 4.8 and GPT-5.5 on pricing. The model is built on Kimi Delta Attention (KDA), a novel hybrid linear attention mechanism, paired with an 896-expert MoE architecture.",
+      "keyConcepts": ["Kimi Delta Attention (KDA)", "hybrid linear attention", "MoE pricing strategy", "open-weight frontier model"],
+      "whyItMatters": "K3's planned open-weight release by July 27 means developers worldwide will soon be able to self-host a model that benchmarks suggest competes with the best proprietary systems, at a fraction of proprietary API costs.",
+      "tags": ["kimi-k3", "venturebeat", "open-weight", "moonshot-ai", "moe-architecture", "model-pricing"],
+      "relatedIds": ["youtube-mN4miK2v1e8", "youtube-wfx1uEV6gfE"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Kimi K3's API pricing compare to Claude Opus 4.8 ($5/$25) and GPT-5.5 ($5/$30)?",
+          "options": [
+            "It is significantly more expensive than both",
+            "It matches their pricing exactly",
+            "It is cheaper than both on input and output costs",
+            "It is more expensive on input but cheaper on output"
+          ],
+          "correctIndex": 2,
+          "explanation": "At $3.00 input / $15.00 output per million tokens, Kimi K3 undercuts Claude Opus 4.8 ($5/$25) and GPT-5.5 ($5/$30) on both input and output pricing."
+        },
+        {
+          "question": "What novel architecture component is central to Kimi K3's design?",
+          "options": [
+            "Flash Attention 3",
+            "Kimi Delta Attention (KDA)",
+            "Ring Attention",
+            "Multi-Query Attention (MQA)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kimi K3 is built on Kimi Delta Attention (KDA), a hybrid linear attention mechanism that enables efficient processing across its 1-million-token context window."
+        }
+      ]
+    }
+  ]
+}
