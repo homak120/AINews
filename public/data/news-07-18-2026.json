@@ -1,9 +1,163 @@
 {
-  "generatedAt": "2026-07-18T08:00:00.000Z",
+  "generatedAt": "2026-07-18T12:00:00.000Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-17",
-  "coverageEnd": "2026-07-17",
+  "coverageEnd": "2026-07-18",
   "items": [
+    {
+      "id": "youtube-UMd8yzJ-kuk",
+      "type": "video",
+      "title": "Kimi K3 is INSANELY STRONG! (Real Tests and Review)",
+      "youtubeId": "UMd8yzJ-kuk",
+      "sourceUrl": "https://www.youtube.com/watch?v=UMd8yzJ-kuk",
+      "verified": false,
+      "publishedAt": "2026-07-17",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Matthew Berman puts Moonshot AI's Kimi K3 through real-world coding, web development, and visual benchmark tests, finding it performs competitively with leading proprietary models from US labs. The 2.8 trillion-parameter mixture-of-experts model achieves strong performance in Arena's Frontend Code evaluation, placing above Claude Fable 5 and GPT-5.6 Sol on that benchmark. Berman's hands-on tests provide empirical grounding for claims that Chinese open-weight models have now reached the frontier.",
+      "keyConcepts": ["Kimi K3 benchmarks", "mixture-of-experts architecture", "frontier model evaluation", "China-US AI capability gap"],
+      "whyItMatters": "Hands-on testing confirms that Kimi K3's benchmark numbers are not inflated—Chinese open-weight models have genuinely entered frontier territory, with direct implications for how developers choose models beyond the US proprietary ecosystem.",
+      "tags": ["kimi-k3", "moonshot-ai", "model-benchmarks", "open-weight", "matthew-berman", "china-ai"],
+      "relatedIds": ["article-kimi-k3-market-shock", "article-china-ai-us-export-curbs", "youtube-V0RsocRqjIU"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Matthew Berman's hands-on testing reveal about Kimi K3's benchmark performance?",
+          "options": [
+            "It performs poorly on coding tasks compared to GPT-5.6 Sol",
+            "It matches or exceeds Claude Fable 5 and GPT-5.6 Sol in Arena's Frontend Code evaluation",
+            "It only performs well on math benchmarks, not coding tasks",
+            "Its benchmark scores appear inflated and don't hold up in real tests"
+          ],
+          "correctIndex": 1,
+          "explanation": "Berman's real-world tests confirm Kimi K3 places above Claude Fable 5 and GPT-5.6 Sol on Arena's Frontend Code Arena—empirically validating the strong benchmark numbers from Moonshot AI's announcement."
+        },
+        {
+          "question": "What architectural feature allows Kimi K3 to be efficient despite its 2.8 trillion total parameters?",
+          "options": [
+            "It uses quantization to compress the model to 4-bit precision at runtime",
+            "It runs on custom Moonshot AI hardware not available to other labs",
+            "It is a mixture-of-experts model that activates only a fraction of parameters per query",
+            "It caches all prior queries to avoid recomputing attention"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kimi K3 is a mixture-of-experts (MoE) system — with 2.8 trillion total parameters it only activates roughly 41 billion for any given task, a design that keeps inference costs manageable despite the large total parameter count."
+        }
+      ]
+    },
+    {
+      "id": "youtube-V0RsocRqjIU",
+      "type": "video",
+      "title": "Is This the Biggest AI Release of 2026? (China's New DeepSeek Moment)",
+      "youtubeId": "V0RsocRqjIU",
+      "sourceUrl": "https://www.youtube.com/watch?v=V0RsocRqjIU",
+      "verified": false,
+      "publishedAt": "2026-07-17",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "WorldofAI breaks down Moonshot AI's launch of Kimi K3 — the world's largest open-weight model at 2.8 trillion parameters — and evaluates whether it constitutes a genuine second 'DeepSeek moment' for China's AI industry. The video examines Kimi K3's benchmark results placing it neck-and-neck with Claude Fable 5 and GPT-5.6 Sol, its planned open-weight release on July 27, and its competitive API pricing that undercuts the US frontier models it rivals. Market reactions paralleling the January 2025 DeepSeek shock are analyzed alongside the longer-term implications for the US-China AI race.",
+      "keyConcepts": ["Kimi K3 open-weight release", "DeepSeek moment analogy", "frontier AI competition", "AI market dynamics", "China AI strategy"],
+      "whyItMatters": "Kimi K3 repeats the DeepSeek pattern of surprise competitive parity achieved without matching US compute budgets — confirming that Chinese labs have found systematic ways to reach the frontier, which both rattles markets and undermines the strategic logic of US hardware export controls.",
+      "tags": ["kimi-k3", "worldofai", "china-ai", "open-weight", "deepseek-moment", "frontier-models"],
+      "relatedIds": ["article-kimi-k3-market-shock", "article-china-ai-us-export-curbs", "youtube-UMd8yzJ-kuk"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Kimi K3's release being called a 'second DeepSeek moment'?",
+          "options": [
+            "Because Kimi K3 was built by the same team that created DeepSeek",
+            "Because Kimi K3 is an open-source Chinese model that rivals frontier US models at lower cost, repeating the pattern DeepSeek established",
+            "Because Kimi K3 uses the same training methodology as DeepSeek-R1",
+            "Because both Kimi K3 and DeepSeek launched on the same date in different years"
+          ],
+          "correctIndex": 1,
+          "explanation": "Like DeepSeek before it, Kimi K3 is a Chinese open-weight model that benchmarks at or near the frontier of US proprietary systems at a fraction of the price — surprising markets and challenging assumptions about the compute requirements for frontier AI development."
+        },
+        {
+          "question": "What is the significance of Kimi K3's planned open-weight release on July 27?",
+          "options": [
+            "It means Moonshot AI will open-source its full training codebase and data",
+            "It allows companies and researchers to download, customize, and self-host the model",
+            "It means the model will become free to use via the Kimi API",
+            "It gives US labs access to Moonshot's training techniques for the first time"
+          ],
+          "correctIndex": 1,
+          "explanation": "Open-weight releases let any company or researcher download and run the model weights directly, enabling customization and self-hosting without ongoing API costs — a key advantage over closed proprietary models and a major factor in open-weight models' rapid enterprise adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-yang-zhilin-kimi-k3-profile",
+      "type": "article",
+      "title": "A Chinese Pink Floyd Fan Is Giving Claude and ChatGPT Their Own DeepSeek Moment",
+      "sourceUrl": "https://fortune.com/2026/07/18/yang-zhilin-moonshot-kimi-k3-carnegie-mellon/",
+      "verified": false,
+      "publishedAt": "2026-07-18",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Fortune profiles Yang Zhilin, the Carnegie Mellon PhD and Pink Floyd enthusiast who co-founded Moonshot AI and led the development of Kimi K3. The article traces Zhilin's path from fundamental machine-learning research at CMU to running one of China's most technically ambitious AI labs — one that has now produced a model topping Arena.ai's frontend coding benchmark above Claude Fable 5 and GPT-5.6 Sol. At half the price of GPT-5.6 Sol, Kimi K3 applies financial pressure alongside its technical impact.",
+      "keyConcepts": ["Yang Zhilin founder background", "Moonshot AI founding story", "CMU AI research pipeline", "frontier model pricing competition"],
+      "whyItMatters": "The Moonshot story illustrates that the China AI surge is driven partly by individual researchers trained in US universities — making academic exchange and talent flows a new, underappreciated dimension of the US-China technology competition.",
+      "tags": ["yang-zhilin", "moonshot-ai", "kimi-k3", "founder-profile", "china-ai", "ai-talent"],
+      "relatedIds": ["article-kimi-k3-market-shock", "youtube-V0RsocRqjIU", "article-china-ai-us-export-curbs"],
+      "knowledgeChecks": [
+        {
+          "question": "Where did Moonshot AI founder Yang Zhilin earn his PhD?",
+          "options": [
+            "MIT",
+            "Stanford University",
+            "Carnegie Mellon University",
+            "Tsinghua University"
+          ],
+          "correctIndex": 2,
+          "explanation": "Yang Zhilin earned his PhD at Carnegie Mellon University in 2019, where he made fundamental contributions to machine learning — before returning to China to co-found Moonshot AI and build the Kimi series of models."
+        },
+        {
+          "question": "What does Yang Zhilin's background highlight about the US-China AI competition?",
+          "options": [
+            "That Chinese AI progress depends entirely on state-funded supercomputing centers",
+            "That US universities are deliberately training Chinese AI researchers to undermine US labs",
+            "That talent trained in US academic institutions is a key driver of Chinese AI frontier advances",
+            "That Chinese labs are primarily advancing through reverse-engineering US model weights"
+          ],
+          "correctIndex": 2,
+          "explanation": "Zhilin's CMU PhD and foundational research background show that China's frontier AI progress is partly powered by researchers who trained at top US academic institutions — making talent pipelines and academic exchange a significant factor in US-China tech competition, beyond hardware and compute."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-project-perception",
+      "type": "article",
+      "title": "Microsoft's Project Perception Takes Aim at Anthropic's Mythos in AI Cybersecurity",
+      "sourceUrl": "https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/",
+      "verified": false,
+      "publishedAt": "2026-07-17",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Microsoft is preparing to launch Project Perception, a multi-model AI cybersecurity platform that routes vulnerability detection, code review, threat identification, and incident response tasks across AI systems from Microsoft, OpenAI, and Anthropic — positioning it as a more cost-effective alternative to Anthropic's Mythos enterprise security product. The routing architecture dynamically assigns each security task to the best-fit model for performance, speed, and cost, and reports suggest recent Windows 11 update patches may already have been generated by the system. Project Perception targets the growing enterprise demand for AI-powered continuous security monitoring that current single-model tools cannot cost-effectively sustain.",
+      "keyConcepts": ["multi-model AI routing", "AI security automation", "vulnerability detection", "enterprise AI cybersecurity", "Anthropic Mythos competition"],
+      "whyItMatters": "Project Perception signals that the next wave of enterprise AI adoption is built on multi-model orchestration — not single-API access — and that AI security tooling is becoming a high-stakes competitive front where model vendors and software giants will collide.",
+      "tags": ["microsoft", "project-perception", "ai-security", "cybersecurity", "enterprise-ai", "multi-model"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core technical innovation in Microsoft's Project Perception?",
+          "options": [
+            "A single large model fine-tuned specifically for cybersecurity tasks",
+            "A multi-model routing system that assigns security tasks to the best-fit AI model across Microsoft, OpenAI, and Anthropic",
+            "A hardware-level security chip that runs AI vulnerability scans offline",
+            "A federated learning system that trains on enterprise security data without exposing it"
+          ],
+          "correctIndex": 1,
+          "explanation": "Project Perception's core innovation is a routing layer that dynamically assigns each security task — vulnerability analysis, code review, threat detection, incident response — to the AI model (from Microsoft, OpenAI, or Anthropic) that offers the best balance of performance, speed, and cost for that specific task."
+        },
+        {
+          "question": "Which existing product is Project Perception most directly competing with?",
+          "options": [
+            "Google's Gemini for Workspace Security",
+            "CrowdStrike's Falcon AI platform",
+            "Anthropic's Mythos enterprise security model",
+            "OpenAI's Codex cybersecurity edition"
+          ],
+          "correctIndex": 2,
+          "explanation": "Project Perception is positioned as a lower-cost alternative to Anthropic's Mythos, which has an estimated API cost 100 percent higher than standard Opus-level pricing — Microsoft's multi-model routing approach is designed to match or exceed Mythos performance at significantly lower enterprise cost."
+        }
+      ]
+    },
     {
       "id": "article-suno-breach-training-data",
       "type": "article",
