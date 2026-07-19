@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T12:00:00.000Z",
+  "generatedAt": "2026-07-19T16:00:00.000Z",
   "weekOf": "2026-07-13",
   "coverageStart": "2026-07-17",
   "coverageEnd": "2026-07-18",
@@ -231,6 +231,82 @@
           ],
           "correctIndex": 1,
           "explanation": "Kimi K3's frontier benchmark performance—achieved despite restricted access to leading Nvidia hardware—demonstrates that architectural efficiency (MoE + Kimi Delta Attention) can substitute for raw compute. This weakens the strategic premise that limiting chip access to China will prevent Chinese labs from reaching AI frontier capability."
+        }
+      ]
+    },
+    {
+      "id": "article-waico-china-ai-alliance",
+      "type": "article",
+      "title": "China Launches WAICO, a 29-Nation AI Cooperation Alliance to Counter US Governance Dominance",
+      "sourceUrl": "https://english.www.gov.cn/news/202607/18/content_WS6a5c27e1c6d00ca5f9a0c4d8.html",
+      "verified": false,
+      "publishedAt": "2026-07-18",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Chinese President Xi Jinping announced the creation of the World Artificial Intelligence Cooperation Organization (WAICO) at the opening of the 2026 World AI Conference in Shanghai, with 29 founding member countries—including Indonesia, Brazil, Malaysia, South Africa, Russia, and Pakistan—signing the founding agreement. Headquartered in Shanghai, WAICO positions itself as the institutional home for AI governance among Global South nations, explicitly offering an alternative to US-dominated regulatory frameworks. UN Secretary-General António Guterres attended the signing ceremony, lending the new body a degree of multilateral legitimacy as it frames its mission around 'just and equitable' AI access rather than safety-focused oversight.",
+      "keyConcepts": ["WAICO founding", "Global South AI governance", "multipolar AI regulation", "WAIC 2026 announcements"],
+      "whyItMatters": "WAICO is the most concrete institutional step yet toward fracturing global AI governance into competing blocs—a US-allied safety-focused framework versus a Beijing-led access-and-equity framework—with 29 nations already committing, which gives China real agenda-setting power over how AI is regulated for more than half the world's population.",
+      "tags": ["waico", "china-ai", "global-governance", "waic-2026", "xi-jinping", "ai-regulation"],
+      "relatedIds": ["article-axios-kimi-k3-models-challenge-us", "article-cnbc-kimi-k3-rivals-openai"],
+      "knowledgeChecks": [
+        {
+          "question": "How many founding member countries signed the WAICO agreement at WAIC 2026?",
+          "options": [
+            "7 countries — the G7 equivalents in the Global South",
+            "29 countries",
+            "45 countries",
+            "130 countries — the full UN Global South group"
+          ],
+          "correctIndex": 1,
+          "explanation": "29 countries signed the founding agreement for the World Artificial Intelligence Cooperation Organization (WAICO) on July 16, 2026, ahead of the opening ceremony of the World AI Conference in Shanghai. Members include Indonesia, Brazil, Malaysia, South Africa, Russia, and Pakistan, representing a mix of BRICS nations and major Global South economies."
+        },
+        {
+          "question": "How does WAICO's stated governance philosophy contrast with the US-led AI safety approach?",
+          "options": [
+            "WAICO focuses on military AI applications while the US focuses on civilian use",
+            "WAICO frames governance around 'just and equitable' AI access for all nations, contrasting with the US-led emphasis on safety oversight and export controls",
+            "WAICO and the US approach are identical — both prioritize responsible AI deployment",
+            "WAICO focuses exclusively on technical standards, not policy or regulation"
+          ],
+          "correctIndex": 1,
+          "explanation": "WAICO frames its mission around 'just and equitable' AI access and development rights for all nations — a deliberate counter-narrative to the US-led approach that prioritizes AI safety oversight, export controls, and restricting access to frontier compute. This philosophical divide sets up two competing templates for how the world will regulate AI over the next decade."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fable5-plan-changes",
+      "type": "article",
+      "title": "Anthropic Restructures Claude Fable 5 Access: Max Plans Get 50% Limits Starting July 20, Pro Shifts to Usage Credits",
+      "sourceUrl": "https://windowsforum.com/threads/claude-fable-5-returns-july-20-with-50-max-and-team-premium-limits.439254/",
+      "verified": false,
+      "publishedAt": "2026-07-18",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic announced on July 18 that Claude Fable 5 will be included in all Max ($100+/month) and Team Premium subscription plans starting July 20, capped at 50% of standard message limits. Pro and Team Standard subscribers are transitioning off included Fable 5 access entirely, moving to a usage-based credits system billed separately from their monthly fee—with a one-time $100 credit provided to ease the switch. The restructuring follows months of capacity constraints since Fable 5 re-launched July 1 after a US government-ordered restriction for foreign nationals was lifted.",
+      "keyConcepts": ["Claude Fable 5 subscription tiers", "usage-based billing", "AI frontier model capacity management", "Pro vs Max plan differentiation"],
+      "whyItMatters": "Anthropic's move from flat-rate unlimited Fable 5 access to tiered caps and consumption-based billing for lower tiers reflects the real cost of running frontier inference at scale — and signals that the era of 'unlimited frontier AI for $20/month' is over, with meaningful capability increasingly gated behind premium plans or pay-per-token pricing.",
+      "tags": ["anthropic", "claude-fable-5", "subscription-pricing", "usage-credits", "ai-pricing", "frontier-model"],
+      "relatedIds": ["youtube-4fPLsmJNaMI", "article-venturebeat-kimi-k3-open-source", "article-cnbc-kimi-k3-rivals-openai"],
+      "knowledgeChecks": [
+        {
+          "question": "Starting July 20, 2026, which Claude subscription plans include access to Fable 5?",
+          "options": [
+            "All plans including Free, Pro, and Max",
+            "Pro and above — Fable 5 is included at full limits for Pro subscribers",
+            "Max and Team Premium plans only, at 50% of standard limits",
+            "Only the Enterprise plan — all consumer plans lose Fable 5 access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Starting July 20, Claude Fable 5 is included only in Max (starting at $100/month) and Team Premium plans, at 50% of the standard message limits. Pro and Team Standard subscribers lose included Fable 5 access and must purchase usage credits separately — Anthropic provided a one-time $100 credit to cushion the transition."
+        },
+        {
+          "question": "What event preceded the July 20 restructuring by approximately three weeks and explains the capacity constraints Anthropic is managing?",
+          "options": [
+            "The release of Kimi K3 triggered a surge of Anthropic users switching to the platform to compare models",
+            "Fable 5 re-launched on July 1 after a US government-ordered restriction for foreign nationals was lifted",
+            "A new GPU shortage caused Anthropic to reduce overall inference capacity across all models",
+            "The Anthropic S-1 IPO filing required the company to reduce unprofitable unlimited-access plans"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fable 5 had been restricted by the US government for foreign nationals on national security grounds, then re-enabled on July 1, 2026. The sudden return of a globally unrestricted frontier model created 'difficult to predict' demand that Anthropic has been managing through gradual rollouts — leading to the structured tiering announced July 18."
         }
       ]
     }
