@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-20T09:30:00.000Z",
+  "weekOf": "2026-07-20",
+  "coverageStart": "2026-07-19",
+  "coverageEnd": "2026-07-20",
+  "items": [
+    {
+      "id": "article-ai-mania-eviscerating-decisions-jul19",
+      "type": "article",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "sourceUrl": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+      "verified": false,
+      "publishedAt": "2026-07-19",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Consultant Nik Suresh (pen name Ludicity), writing for Hermit Tech, published a sharp essay drawing on anonymous client anecdotes to document how AI mania is causing executives to override good engineering judgment, cancel working projects, and replace pragmatic strategy with AI-branded initiatives that rarely deliver. The piece went viral on Hacker News on July 19 after Simon Willison amplified it, resonating widely with practitioners who describe leadership imposing AI requirements on systems that don't need them, while shelving cost-effective solutions that already work. Suresh argues the problem is not AI itself but the social contagion of AI hype infecting organizational decision-making at the highest levels.",
+      "keyConcepts": ["AI hype cycle", "organizational decision-making under pressure", "technology adoption failure modes", "AI ROI measurement"],
+      "whyItMatters": "With AI investment at record highs, the human cost—cancelled projects, demoralized engineering teams, and misallocated budgets—is becoming a structural risk that governance frameworks haven't caught up with. This essay crystallizes a problem many practitioners feel but rarely see articulated publicly.",
+      "tags": ["ai-hype", "corporate-strategy", "enterprise-ai", "organizational-culture", "ai-governance", "decision-making"],
+      "relatedIds": ["article-claude-fable5-subscription-restructure-jul20"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Nik Suresh's essay, what is the core harm that 'AI mania' inflicts on organizations?",
+          "options": [
+            "AI tools cause data security breaches that undermine trust",
+            "Engineering teams adopt AI too slowly, falling behind competitors",
+            "Executive pressure to use AI overrides pragmatic judgment, canceling working solutions in favor of AI-branded ones",
+            "AI models produce incorrect outputs that lead to product recalls"
+          ],
+          "correctIndex": 2,
+          "explanation": "Suresh's central argument is that AI mania creates a social pressure where executives override good engineering decisions—canceling functional non-AI solutions and mandating AI integration even when it adds cost and complexity without value, corrupting the decision-making process itself."
+        },
+        {
+          "question": "How did Suresh's essay gain wide attention on July 19, 2026?",
+          "options": [
+            "OpenAI's official account shared it on their blog",
+            "It was featured as the lead story on TechCrunch",
+            "Simon Willison linked to it and it reached the front page of Hacker News",
+            "It was published as an op-ed in the New York Times"
+          ],
+          "correctIndex": 2,
+          "explanation": "Simon Willison, a prominent developer and frequent AI commentator, shared Suresh's essay describing it as 'an entertaining perspective' packed with 'spicy anecdotes from anonymous sources,' which drove it to the Hacker News front page and a wave of wider coverage on July 19."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-fable5-subscription-restructure-jul20",
+      "type": "article",
+      "title": "Anthropic Permanently Includes Claude Fable 5 in Max and Team Premium Plans — With Reduced Limits",
+      "sourceUrl": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+      "verified": false,
+      "publishedAt": "2026-07-20",
+      "topics": ["ai-industry"],
+      "summary": "Starting today, Anthropic permanently includes Claude Fable 5 in Max and Team Premium subscriptions at 50% of standard usage limits, ending the promotional trial period that had been extended several times since the model's return on July 1. The change comes with a sting: base weekly limits simultaneously drop by roughly a third, and the 50% Claude Code rate-limit boost that had been in place since Code's launch also expires today. Pro and Team Standard subscribers retain Fable 5 access via usage credits and receive a one-time $100 credit, but are being steered toward pay-per-use API pricing for heavy consumption. Anthropic cited unpredictable demand as the reason for the staged rollout.",
+      "keyConcepts": ["Claude Fable 5 access tiers", "AI subscription model evolution", "usage credit systems", "frontier model pricing strategy"],
+      "whyItMatters": "Anthropic's restructuring signals that frontier AI is transitioning from promotional access to structured, capacity-managed infrastructure. Power users who relied on uncapped promotional access are being pushed toward API pricing, while the inclusion of Fable 5 in higher subscription tiers at reduced limits sets a new normal for how frontier capability gets packaged and monetized.",
+      "tags": ["anthropic", "claude-fable-5", "ai-pricing", "subscription-tiers", "max-plan", "api-access"],
+      "relatedIds": ["article-ai-mania-eviscerating-decisions-jul19"],
+      "knowledgeChecks": [
+        {
+          "question": "Starting July 20, how is Claude Fable 5 available to Max and Team Premium subscribers?",
+          "options": [
+            "Unlimited access with no caps through end of 2026",
+            "Included at 50% of standard weekly usage limits",
+            "Only available as an API add-on at $0.05 per message",
+            "Removed from subscription tiers entirely and API-only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic permanently includes Fable 5 in Max and Team Premium plans at 50% of standard limits starting July 20—a permanent benefit rather than a promotional trial, but meaningfully capped and paired with a reduction in base weekly limits on the same date."
+        },
+        {
+          "question": "What additional change takes effect on July 20 alongside the Fable 5 subscription restructuring?",
+          "options": [
+            "Claude Sonnet 5 is removed from all subscription plans",
+            "All Claude plans receive a 25% price reduction",
+            "The 50% Claude Code rate-limit boost expires and base limits drop by roughly a third",
+            "Pro users lose all access to Fable 5 and must upgrade to Max"
+          ],
+          "correctIndex": 2,
+          "explanation": "Simultaneously with Fable 5 becoming a permanent subscription feature, the 50% Claude Code rate-limit boost that had been active since Code's launch expires on July 20, and standard weekly limits are reduced by roughly a third—meaning effective access for heavy users decreases even as the headline news is Fable 5 being 'included.'"
+        }
+      ]
+    }
+  ]
+}

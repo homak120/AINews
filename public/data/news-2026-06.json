@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T03:20:04.344Z",
+  "generatedAt": "2026-07-20T03:20:37.950Z",
   "weekOf": "2026-05-31",
   "coverageStart": "2026-05-31",
-  "coverageEnd": "2026-06-18",
+  "coverageEnd": "2026-06-19",
   "items": [
     {
       "id": "findskill-github-copilot-ai-credits-june-2026",
@@ -6560,6 +6560,438 @@
           ],
           "correctIndex": 1,
           "explanation": "Anthropic's Frontier membership was announced on the same day as the G7 AI summit — where Amodei and Hassabis called for international AI governance — letting the lab signal responsible leadership on two fronts simultaneously: geopolitical governance and climate impact. This dual positioning appears deliberate given the heightened public scrutiny AI labs are facing on both issues."
+        }
+      ]
+    },
+    {
+      "id": "article-noam-shazeer-openai-2026-06-18",
+      "type": "article",
+      "title": "Transformer Co-Inventor Noam Shazeer Leaves Google for OpenAI",
+      "sourceUrl": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Noam Shazeer, a co-author of the 2017 transformer paper and Google's VP of Engineering leading the Gemini model family, announced on June 18 that he is joining OpenAI as Lead for Architecture Research. The move comes less than two years after Google reportedly paid $2.7 billion to bring Shazeer back from Character.AI. OpenAI CEO Sam Altman called the partnership 'only 10 years in the making,' framing the hire as a major strategic move ahead of OpenAI's anticipated IPO.",
+      "keyConcepts": [
+        "Transformer architecture",
+        "AI talent competition",
+        "OpenAI IPO",
+        "Model architecture research"
+      ],
+      "whyItMatters": "Shazeer is one of the most influential figures in modern AI — his co-authorship on the transformer paper underpins virtually every major LLM. His move to OpenAI signals intensifying competition for top AI researchers and could meaningfully shift OpenAI's model architecture trajectory.",
+      "tags": [
+        "openai",
+        "google",
+        "talent-acquisition",
+        "transformers",
+        "model-architecture",
+        "ipo"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What role did Noam Shazeer play in the 2017 'Attention Is All You Need' paper?",
+          "options": [
+            "He was the sole author of the paper",
+            "He led the benchmark evaluation team",
+            "He was one of the co-authors who introduced the transformer architecture",
+            "He peer-reviewed the paper but did not contribute to writing it"
+          ],
+          "correctIndex": 2,
+          "explanation": "Shazeer was one of eight co-authors on the seminal 2017 paper introducing the transformer architecture, which became the foundation for virtually all modern large language models including GPT and Gemini."
+        },
+        {
+          "question": "Approximately how much did Google reportedly pay to bring Noam Shazeer back from Character.AI before he departed for OpenAI?",
+          "options": [
+            "$500 million",
+            "$1.2 billion",
+            "$2.7 billion",
+            "$5 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google reportedly paid around $2.7 billion to bring Shazeer and part of his research team back from Character.AI — making his subsequent move to OpenAI a significant blow to Google's AI leadership."
+        }
+      ]
+    },
+    {
+      "id": "article-odyssey-world-models-2026-06-18",
+      "type": "article",
+      "title": "World-Model Startup Odyssey Raises $310M Series B at $1.45B Valuation",
+      "sourceUrl": "https://thetechportal.com/2026/06/18/world-model-ai-startup-odyssey-secures-310mn-in-funding-at-a-1-45bn-valuation/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Odyssey, an AI startup founded by autonomous-vehicle veterans Oliver Cameron and Jeff Hawke, closed a $310 million Series B led by Natural Capital with participation from Amazon, AMD Ventures, Google Ventures, EQT, and In-Q-Tel. The company builds world models — AI systems that learn the physical world's rules around movement, space, object interactions, and cause-and-effect — rather than language generation. The round values Odyssey at $1.45 billion, officially making it a unicorn.",
+      "keyConcepts": [
+        "World models",
+        "Physical AI simulation",
+        "Spatial reasoning in AI",
+        "Autonomous systems"
+      ],
+      "whyItMatters": "World models represent a fundamentally different AI paradigm from LLMs — they aim to simulate physical reality rather than predict text. Odyssey's $310M raise signals serious investor conviction that physical-world simulation is the next major AI frontier, with applications spanning robotics, autonomous vehicles, and interactive media.",
+      "tags": [
+        "world-models",
+        "funding",
+        "startup",
+        "physical-ai",
+        "simulation",
+        "series-b"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How do world models differ from large language models like GPT or Claude?",
+          "options": [
+            "World models use more parameters and require larger datasets",
+            "World models focus on generating text more accurately than LLMs",
+            "World models learn physical rules about space, movement, and causality rather than language patterns",
+            "World models are designed specifically for code generation tasks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike LLMs that predict text tokens, world models learn representations of how the physical world works — including spatial relationships, object interactions, and cause-and-effect dynamics — making them useful for robotics, simulation, and autonomous systems."
+        },
+        {
+          "question": "Who led Odyssey's $310M Series B funding round?",
+          "options": [
+            "Andreessen Horowitz",
+            "Natural Capital",
+            "Sequoia Capital",
+            "Amazon Web Services"
+          ],
+          "correctIndex": 1,
+          "explanation": "Natural Capital led Odyssey's Series B, with participation from Amazon, AMD Ventures, Google Ventures, EQT, In-Q-Tel, and Y Combinator CEO Garry Tan, among others, bringing total funding to $337 million."
+        }
+      ]
+    },
+    {
+      "id": "article-vivatech-nvidia-foxconn-europe-2026-06-18",
+      "type": "article",
+      "title": "VivaTech 2026: Foxconn and Nvidia Anchor Europe's Sovereign AI Infrastructure Push",
+      "sourceUrl": "https://www.euronews.com/next/2026/06/18/from-foxconn-to-nvidia-why-france-is-so-attractive-for-europes-ai-infrastructure",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "At VivaTech 2026 in Paris, NVIDIA CEO Jensen Huang delivered a GTC Paris keynote on AI factories, agentic AI, and physical AI, while announcing Mistral Compute — a sovereign European AI cloud built on 18,000 NVIDIA Grace Blackwell systems in partnership with Mistral AI. Separately, Foxconn and French computing firm Bull announced a partnership to manufacture AI computers in Europe for the continent's growing AI factory network. France is positioning itself as Europe's sovereign AI hub, drawing infrastructure investment from global tech leaders.",
+      "keyConcepts": [
+        "Sovereign AI infrastructure",
+        "AI factories",
+        "European AI strategy",
+        "Mistral Compute GPU cloud"
+      ],
+      "whyItMatters": "Europe's push for sovereign AI compute — infrastructure not dependent on US or Chinese hyperscalers — is gaining real industrial momentum. Mistral Compute backed by 18,000 Blackwell GPUs and Foxconn's European manufacturing partnership are concrete steps beyond political declarations toward making European AI sovereignty tangible.",
+      "tags": [
+        "vivatech",
+        "nvidia",
+        "foxconn",
+        "europe",
+        "sovereign-ai",
+        "mistral",
+        "ai-infrastructure"
+      ],
+      "relatedIds": [
+        "article-modi-vivatech-india-ai-2026-06-18"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is Mistral Compute?",
+          "options": [
+            "A new open-source language model from Mistral AI",
+            "A sovereign European AI cloud built on NVIDIA Blackwell GPUs for European enterprise workloads",
+            "A French government AI research laboratory",
+            "A chipset designed by Mistral AI for edge computing devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral Compute is a sovereign AI infrastructure and GPU cloud platform built on 18,000 NVIDIA Grace Blackwell processors, designed to host Mistral's models and European enterprise workloads without relying on American or Chinese hyperscalers."
+        },
+        {
+          "question": "How many NVIDIA Grace Blackwell processors back the Mistral Compute sovereign AI cloud?",
+          "options": [
+            "2,000",
+            "8,000",
+            "18,000",
+            "50,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral Compute is backed by 18,000 NVIDIA Grace Blackwell processors housed in a planned 40 MW data center in Essonne, France, making it one of the largest sovereign AI infrastructure projects in Europe."
+        }
+      ]
+    },
+    {
+      "id": "article-modi-vivatech-india-ai-2026-06-18",
+      "type": "article",
+      "title": "PM Modi Presents India's MANAV AI Governance Framework at VivaTech 2026",
+      "sourceUrl": "https://aninews.in/news/business/pm-modi-outlines-indias-ai-vision-at-vivatech-2026-rolls-out-red-carpet-for-global-tech-players20260618190713/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Indian Prime Minister Narendra Modi appeared at VivaTech 2026 in Paris alongside French President Emmanuel Macron, where India holds the designation of 'AI Country Partner' for the conference's 10th edition. Modi presented India's MANAV framework for AI governance — standing for Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, and Valid and Legitimate AI. He invited global tech companies to invest in India's AI ecosystem, framing democratization of AI as essential for the Global South.",
+      "keyConcepts": [
+        "AI governance frameworks",
+        "MANAV framework",
+        "Global South AI strategy",
+        "International AI cooperation"
+      ],
+      "whyItMatters": "India's MANAV framework signals an emerging-market-led alternative to US and EU AI governance approaches, centering inclusion and accessibility alongside sovereignty. As India's AI sector grows and its geopolitical weight increases, its governance proposals carry real weight in shaping global AI policy norms.",
+      "tags": [
+        "india",
+        "vivatech",
+        "ai-governance",
+        "manav",
+        "global-south",
+        "policy"
+      ],
+      "relatedIds": [
+        "article-vivatech-nvidia-foxconn-europe-2026-06-18"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What does MANAV stand for in India's AI governance framework?",
+          "options": [
+            "Machine Automation, Neural networks, Artificial Vision",
+            "Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, Valid and Legitimate AI",
+            "Multi-Agent Networks, Autonomous Vehicles",
+            "Ministry of AI, National Advancement, Value-driven systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "MANAV stands for Moral and Ethical Systems, Accountable Governance, National Sovereignty, Accessible and Inclusive AI, and Valid and Legitimate AI — India's framework for responsible AI development rooted in democratic values and Global South priorities."
+        },
+        {
+          "question": "What special designation did India receive at VivaTech 2026?",
+          "options": [
+            "Technology Partner of the Year",
+            "AI Innovation Leader",
+            "AI Country Partner",
+            "Digital Economy Champion"
+          ],
+          "correctIndex": 2,
+          "explanation": "India was designated as the 'AI Country Partner' for VivaTech 2026's 10th edition, reflecting the deepening Franco-Indian partnership in technology and India's growing role as a voice in global AI governance."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-design-overhaul-2026-06-18",
+      "type": "article",
+      "title": "Anthropic Ships Claude Design Overhaul: Design System Imports, Code Round-Trips, and Token Efficiency Fix",
+      "sourceUrl": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Anthropic shipped a major overhaul to Claude Design featuring four key upgrades: design system imports from GitHub repositories or raw uploads, tighter Claude Code integration enabling design-to-code round-trips, direct canvas editing, and stronger layout controls. The update also addresses the token-consumption problem that caused early beta users to burn through large portions of their weekly allowance generating a single prototype. The feature is available to Claude Pro, Max, Team, and Enterprise customers at claude.ai/design.",
+      "keyConcepts": [
+        "AI design-to-code workflows",
+        "Design system integration",
+        "Token efficiency in AI tools",
+        "Claude Code integration"
+      ],
+      "whyItMatters": "Claude Design attracted over one million users in its first week, but voracious token consumption was a real barrier to production use. This overhaul moves Claude Design from prototype-generator to governed enterprise design platform, directly competing with tools like Figma for AI-native design workflows.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "design-tools",
+        "claude-code",
+        "enterprise",
+        "design-to-code"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What major usability problem did Anthropic's Claude Design overhaul specifically address?",
+          "options": [
+            "Lack of mobile support in Claude Design",
+            "Excessive token consumption that could exhaust weekly allowances in minutes",
+            "Missing dark mode in AI-generated design outputs",
+            "Inability to export designs to common file formats"
+          ],
+          "correctIndex": 1,
+          "explanation": "Early Claude Design beta users reported burning through 80% of their weekly Claude Pro token allowance in roughly 25 minutes generating just three variations of a single webpage prototype. The overhaul addressed this token efficiency problem alongside new enterprise features."
+        },
+        {
+          "question": "Which Claude Design feature enables teams to ensure AI-generated designs conform to their existing product's visual standards?",
+          "options": [
+            "Claude Code round-trips",
+            "Direct canvas editing",
+            "Design system imports",
+            "Brand accessibility mode"
+          ],
+          "correctIndex": 2,
+          "explanation": "Design system imports allow teams to pull their existing design systems from GitHub repositories, design files, or raw uploads directly into Claude Design, ensuring AI-generated components and layouts match established brand guidelines and component patterns."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Af6FrHCqhaY",
+      "type": "video",
+      "title": "Midjourney Pivots to Medicine: AI Body Scanner Targets MRI Disruption",
+      "youtubeId": "Af6FrHCqhaY",
+      "sourceUrl": "https://www.youtube.com/watch?v=Af6FrHCqhaY",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "TheAIGRID covers Midjourney's surprise pivot from AI image generation to medical hardware — unveiling the Midjourney Scanner, a full-body ultrasonic CT device designed to image the human body in roughly 60 seconds without radiation. CEO David Holz presented the hardware on June 17, calling it the first new whole-body medical imaging method in 50 years. The current prototype takes about 20 minutes per scan and has been tested on only about a dozen people with no FDA clearance, but the company plans its first Midjourney Spa location in San Francisco by late 2027.",
+      "keyConcepts": [
+        "Ultrasonic CT imaging",
+        "AI company pivots to hardware",
+        "Healthcare disruption",
+        "Medical imaging accessibility"
+      ],
+      "whyItMatters": "Midjourney's medical pivot signals that AI companies are using computational expertise to attack entrenched industries like medical imaging — where a full-body MRI can cost thousands of dollars. If the scanner's claims hold up at scale, it could democratize preventive diagnostics at a fraction of current costs.",
+      "tags": [
+        "midjourney",
+        "medical-imaging",
+        "healthcare-ai",
+        "hardware",
+        "ultrasound",
+        "startups"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What imaging technology does the Midjourney Scanner use that avoids the radiation risks of traditional CT scans?",
+          "options": [
+            "Low-dose X-ray computed tomography at reduced radiation levels",
+            "Magnetic resonance imaging with an AI reconstruction pipeline",
+            "Ultrasonic transducers that emit and receive sound waves to build a 3D body image",
+            "Terahertz radiation scanning with deep-learning image enhancement"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Midjourney Scanner uses roughly 8,960 ultrasonic transducers arranged around the body — acting as both speakers and microphones — that emit and receive sound waves reconstructed by AI into a detailed 3D internal map, with no ionizing radiation required."
+        },
+        {
+          "question": "What critical regulatory milestone does Midjourney Medical need before its scanner can be legally used to diagnose patients in the US?",
+          "options": [
+            "CE marking from the European Medicines Agency",
+            "A partnership with at least one major US hospital network",
+            "Completion of a 10,000-patient clinical trial",
+            "FDA clearance for diagnostic use"
+          ],
+          "correctIndex": 3,
+          "explanation": "As of the June 2026 announcement, the Midjourney Scanner has been tested on roughly a dozen people and carries no FDA clearance, meaning it cannot legally be used to diagnose medical conditions in the US. Obtaining FDA clearance for a novel imaging modality typically requires years of clinical validation."
+        }
+      ]
+    },
+    {
+      "id": "article-fable5-jailbreak-whitehouse-2026-06-19",
+      "type": "article",
+      "title": "White House Demands Anthropic Eliminate All Fable 5 Jailbreaks Before Relaunch — Experts Call Goal Impossible",
+      "sourceUrl": "https://cybernews.com/ai-news/anthropic-fable-5-jailbreak-proof-impossible-white-house/",
+      "verified": false,
+      "publishedAt": "2026-06-19",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "Trump administration officials have told Anthropic that Claude Fable 5 cannot be relaunched until the company demonstrates its guardrails are immune to all possible adversarial prompts — a requirement AI safety researchers say is technically impossible under any current AI architecture. Anthropic's own public statements acknowledge that 'perfect jailbreak resistance is not currently possible for any model provider,' since large language models generate open-ended natural language responses where every safety measure remains vulnerable to novel workarounds. The standoff leaves Fable 5 offline one week after its June 9 launch.",
+      "keyConcepts": [
+        "AI jailbreaks and adversarial prompting",
+        "Model safety vs. national security policy",
+        "Export controls on AI models",
+        "Limits of frontier AI safety techniques"
+      ],
+      "whyItMatters": "The White House's demand for a jailbreak-proof model could set a precedent giving governments veto power over AI model deployments based on theoretical attack surfaces the entire industry acknowledges cannot be fully eliminated. The outcome of the Fable 5 case is likely to shape how AI safety requirements are codified in export control law.",
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "jailbreaks",
+        "ai-safety",
+        "white-house",
+        "export-controls",
+        "ai-policy"
+      ],
+      "relatedIds": [
+        "article-anthropic-seoul-office-korea-mou-2026-06-18",
+        "article-claude-design-overhaul-2026-06-18"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why do AI security researchers say the White House's demand for a jailbreak-proof Fable 5 is technically unachievable?",
+          "options": [
+            "Because Anthropic lacks sufficient engineering resources to fix the vulnerabilities at scale",
+            "Because LLMs use open-ended natural language, making any single safeguard vulnerable to adversarial prompts that cannot all be anticipated in advance",
+            "Because jailbreaks only affect open-source models where weights are publicly accessible",
+            "Because the vulnerabilities were deliberately introduced by foreign-state actors during training"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI safety researchers — and Anthropic itself — have stated that perfect jailbreak prevention is fundamentally incompatible with how LLMs work: they produce open-ended language outputs, so any safety rule written in natural language can theoretically be circumvented by sufficiently creative prompting. Security researchers call this the 'non-universal jailbreak' problem."
+        },
+        {
+          "question": "What originally triggered the chain of events that led the US government to suspend access to Anthropic's Fable 5 and Mythos 5 models worldwide?",
+          "options": [
+            "SK Telecom — a South Korean carrier with historical ties to Chinese infrastructure — gained access to Mythos 5 through Anthropic's cybersecurity program, raising export control concerns",
+            "Anthropic's models were found to have been trained on classified US government documents without authorization",
+            "An OpenAI complaint to the Commerce Department alleged IP violations during Anthropic's model training",
+            "A whistleblower disclosed that Mythos 5 had been deliberately weakened to allow foreign intelligence access"
+          ],
+          "correctIndex": 0,
+          "explanation": "The White House became aware that SK Telecom, South Korea's largest carrier and a $100M Anthropic investor with historical ties to Chinese telecom infrastructure, had gained access to Mythos 5 through Anthropic's Project Glasswing cybersecurity consortium. This triggered an export control directive that suspended all foreign national access to both Fable 5 and Mythos 5 globally."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-seoul-office-korea-mou-2026-06-18",
+      "type": "article",
+      "title": "Anthropic Opens Seoul Office and Signs AI Safety MoU with South Korea Amid Fable 5 Export Ban",
+      "sourceUrl": "https://www.upi.com/Top_News/World-News/2026/06/18/korea-Anthropic-Seoul-office-Korea-partnerships-Washington-AI-export-controls/4641781769900/",
+      "verified": false,
+      "publishedAt": "2026-06-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Anthropic launched its first South Korean office in Seoul on June 18 and simultaneously signed a Memorandum of Understanding with South Korea's Ministry of Science and ICT covering AI safety evaluation in Korean, cybersecurity threat sharing, and red-team assessments of autonomous AI agents. The opening came just six days after the US government suspended access to Anthropic's Fable 5 and Mythos 5 models over export control concerns tied to SK Telecom. Anthropic's international managing director Chris Ciauri stated at the event that he was 'very confident' both models would return 'in the coming days.'",
+      "keyConcepts": [
+        "AI company international expansion",
+        "AI safety diplomacy",
+        "Government AI partnerships",
+        "Export control geopolitics"
+      ],
+      "whyItMatters": "Anthropic's Seoul opening — timed during the Fable 5 export ban crisis — signals a deliberate diplomatic strategy: building direct government relationships to navigate growing tensions between US AI export policy and international commercial AI access. The Korea MoU creates a formal channel for AI safety cooperation that could become a blueprint for other nations seeking sovereign AI partnerships.",
+      "tags": [
+        "anthropic",
+        "south-korea",
+        "seoul",
+        "international-expansion",
+        "ai-safety",
+        "export-controls"
+      ],
+      "relatedIds": [
+        "article-fable5-jailbreak-whitehouse-2026-06-19",
+        "article-claude-design-overhaul-2026-06-18"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What three areas of collaboration does Anthropic's MoU with South Korea's Ministry of Science and ICT cover?",
+          "options": [
+            "Joint GPU procurement, Korean AI model co-development, and data sharing with KAIST",
+            "AI safety evaluation in Korean language, cybersecurity threat information sharing, and red-team assessments of autonomous AI agents",
+            "Exclusive public-sector AI supply agreement, a Korean-language Claude API, and AI regulation co-authorship",
+            "Claude deployment in Korean schools, AI curriculum design, and joint patent filings"
+          ],
+          "correctIndex": 1,
+          "explanation": "The MoU covers evaluating Claude model safety in Korean-language contexts with the Korea AI Safety Institute, exchanging information on AI-enabled cyber threats, and conducting red-team assessments of autonomous AI agents — a scope similar to the AI safety agreements Anthropic has pursued with US and UK government agencies."
+        },
+        {
+          "question": "Which company's access to Anthropic's Mythos 5 model initially prompted US export control action that cascaded into the Fable 5 ban?",
+          "options": [
+            "Samsung Electronics",
+            "LG Electronics",
+            "SK Telecom",
+            "Kakao"
+          ],
+          "correctIndex": 2,
+          "explanation": "SK Telecom, South Korea's largest wireless carrier and a $100 million Anthropic investor, was identified by the White House as a Chinese security risk after it gained access to Mythos 5 through Project Glasswing — Anthropic's invite-only cybersecurity consortium. This triggered an export control directive suspending all foreign national access to both Mythos 5 and Fable 5."
         }
       ]
     }
