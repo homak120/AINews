@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-23T03:11:06.440Z",
+  "generatedAt": "2026-07-24T03:13:33.059Z",
   "weekOf": "2026-05-31",
   "coverageStart": "2026-05-31",
-  "coverageEnd": "2026-06-22",
+  "coverageEnd": "2026-06-23",
   "items": [
     {
       "id": "findskill-github-copilot-ai-credits-june-2026",
@@ -7981,6 +7981,395 @@
           ],
           "correctIndex": 1,
           "explanation": "Before writing a word of script, OpenMontage's agent autonomously searches YouTube, Reddit, Hacker News, news sites, and academic sources to gather data points, audience questions, trending angles, and visual references. It compiles these into a structured research brief with citations — which then informs the script, asset selection, and editing decisions. This research-first approach distinguishes OpenMontage from prompt-to-video tools that skip the research phase entirely."
+        }
+      ]
+    },
+    {
+      "id": "youtube-FwA1bcpSGiM",
+      "type": "video",
+      "title": "Sakana AI Releases Fugu Ultra — A Multi-Model Orchestration System Targeting Fable 5's Benchmark Performance",
+      "youtubeId": "FwA1bcpSGiM",
+      "sourceUrl": "https://www.youtube.com/watch?v=FwA1bcpSGiM",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Tokyo-based Sakana AI released Fugu Ultra on June 22, 2026 — a multi-agent orchestration framework that presents a single model API but internally routes tasks across specialized smaller models. Benchmark results show Fugu Ultra matching or approaching Fable 5 and Mythos 5 on SWE-Bench Pro, TerminalBench 2.1, LiveCodeBench, and GPQA-Diamond. Sakana explicitly positions Fugu as 'frontier capability without the risk of export controls,' making it a timely option for global teams blocked from using Anthropic's offline models.",
+      "keyConcepts": [
+        "Multi-agent orchestration: routing tasks to the best specialist model at inference time, rather than training a single large model to do everything",
+        "Auto synthesis: Fugu's internal mechanism for combining outputs from multiple model calls into a single coherent response",
+        "Benchmark comparison: Fugu Ultra claims shoulder-to-shoulder performance with Fable 5 on coding and reasoning evals, though independent reviews note Fable 5 still leads on most published benchmarks",
+        "Export-control alternative: Sakana's framing targets teams in countries affected by the US June 12 directive blocking foreign nationals from Fable 5 and Mythos 5"
+      ],
+      "whyItMatters": "If orchestrated smaller models can match frontier-class performance, it suggests the next leap in AI capability may come from better systems design — not just bigger training runs — and gives non-US teams a credible frontier alternative while Fable 5 remains offline.",
+      "tags": [
+        "sakana-ai",
+        "fugu-ultra",
+        "multi-agent",
+        "model-orchestration",
+        "benchmarks",
+        "frontier-models"
+      ],
+      "relatedIds": [
+        "article-sakana-fugu-ultra-frontier-2026",
+        "article-claude-fable5-paid-credits-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural approach does Sakana AI's Fugu Ultra use to achieve frontier-level benchmark scores?",
+          "options": [
+            "A single large transformer trained on 100T tokens of curated data",
+            "Multi-agent orchestration that routes tasks to specialized smaller models at inference time",
+            "Distillation from Fable 5's model weights under a licensing agreement with Anthropic",
+            "A mixture-of-experts architecture trained with reinforcement learning from human feedback"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fugu Ultra presents a single API but internally distributes tasks across multiple specialized models, combining their outputs via an auto-synthesis step — achieving high benchmark scores through systems design rather than scale."
+        },
+        {
+          "question": "Why did Sakana specifically position Fugu Ultra as a Fable 5 alternative in June 2026?",
+          "options": [
+            "Fugu Ultra costs less than half of Fable 5's API pricing",
+            "Sakana and Anthropic signed a commercial partnership agreement",
+            "Fable 5 and Mythos 5 are offline worldwide under a US government export control directive issued June 12",
+            "Fugu Ultra outperforms Fable 5 on every published benchmark"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fable 5 and Mythos 5 were suspended for all users globally on June 12, 2026 under a US export-control directive. Sakana's June 22 launch directly targets the gap this leaves, billing Fugu as 'frontier capability without the risk of export controls.'"
+        }
+      ]
+    },
+    {
+      "id": "youtube-wQh-bX-Wv68",
+      "type": "video",
+      "title": "AI Daily Brief — June 22, 2026: AWS Summit Recap, AI Political Spending, and Fable 5 Export Ban Day 10",
+      "youtubeId": "wQh-bX-Wv68",
+      "sourceUrl": "https://www.youtube.com/watch?v=wQh-bX-Wv68",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "The June 22 AI daily brief covers three major story clusters: Amazon's AWS Summit New York recap, including Bedrock price cuts, Grok 4.3 on Bedrock via the new Mantle inference engine, and AgentCore Web Search going generally available; the revelation that AI companies including OpenAI and Anthropic have spent over $35 million combined on the 2026 midterm elections, backing opposing regulatory positions; and day 10 of the US export-control ban on Fable 5 and Mythos 5, with both models still fully offline and prediction markets showing 57% odds of restoration before July 1.",
+      "keyConcepts": [
+        "AWS Bedrock expansion: Grok 4.3 via Mantle inference engine, AgentCore Web Search, and managed Knowledge Base all launched at AWS Summit New York",
+        "AI political spending: OpenAI backs 'Leading the Future' PAC (opposes regulation); Anthropic backs 'Public First Action' (preserves state laws) — $35M+ combined",
+        "Fable 5 export ban: US Commerce Department directive June 12 suspended models globally; June 22 is also the last day of Anthropic's original free-access pricing window",
+        "Prediction markets: 57% probability Fable 5 returns before July 1, 75% before July 17, based on diplomatic signals from the Trump administration"
+      ],
+      "whyItMatters": "Three distinct forces — cloud infrastructure competition, political regulation battles, and government model access controls — are converging this week in ways that directly affect what AI tools developers can use and what regulatory environment they'll be building under.",
+      "tags": [
+        "ai-news",
+        "aws-bedrock",
+        "ai-regulation",
+        "fable-5-ban",
+        "ai-politics",
+        "daily-brief"
+      ],
+      "relatedIds": [
+        "article-aws-weekly-roundup-june22-2026",
+        "article-ai-tech-midterms-spending-2026",
+        "article-claude-fable5-paid-credits-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How many days had Fable 5 been offline as of June 22, 2026?",
+          "options": [
+            "5 days",
+            "7 days",
+            "10 days",
+            "14 days"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fable 5 and Mythos 5 were suspended by US government directive on June 12, 2026. June 22 marks exactly 10 days of the models being offline for all users worldwide."
+        },
+        {
+          "question": "What inference engine did AWS launch to power Grok 4.3 on Amazon Bedrock?",
+          "options": [
+            "AWS Inferentia 3",
+            "SageMaker JumpStart Runtime",
+            "Bedrock Titan Engine",
+            "Mantle inference engine"
+          ],
+          "correctIndex": 3,
+          "explanation": "Amazon launched the Mantle inference engine at AWS Summit New York, designed for price-performance on reasoning models. Grok 4.3 was the first model deployed through it on Bedrock."
+        }
+      ]
+    },
+    {
+      "id": "article-sakana-fugu-ultra-frontier-2026",
+      "type": "article",
+      "title": "Sakana AI's Fugu Ultra Reaches Frontier Performance Through Multi-Model Orchestration — Without Fable 5",
+      "sourceUrl": "https://venturebeat.com/orchestration/no-claude-fable-5-no-problem-sakana-achieves-frontier-performance-with-new-fugu-multi-model-auto-synthesis-system",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "VentureBeat covers Sakana AI's June 22 release of Fugu and Fugu Ultra, a multi-model orchestration system that routes tasks across specialized AI models and combines their outputs through an auto-synthesis step, delivering results through a unified API. Sakana's benchmarks show Fugu Ultra leading Opus 4.8, GPT-5.5, and Gemini 3.1 Pro on SWE-Bench Pro, TerminalBench 2.1, LiveCodeBench, and GPQA-Diamond, while claiming 'shoulder-to-shoulder' performance with the currently-offline Fable 5. Early independent testing by researchers including Ethan Mollick flagged that Fugu Ultra can take 30 minutes for tasks Fable 5 completed quickly, with results falling short of Fable in practice.",
+      "keyConcepts": [
+        "Fugu orchestration: routes incoming tasks to multiple specialist models, aggregates results, then auto-synthesizes a single coherent output",
+        "SWE-Bench Pro: coding benchmark measuring ability to resolve real GitHub issues; Fugu Ultra claims leading scores among currently-available models",
+        "GPQA-Diamond: graduate-level science Q&A benchmark; Fugu Ultra ties Opus 4.8 at ~50%",
+        "Benchmark vs. latency tradeoff: high benchmark scores come at the cost of inference latency — multi-step orchestration takes minutes, not seconds"
+      ],
+      "whyItMatters": "Sakana's approach challenges the assumption that frontier AI requires ever-larger monolithic training runs. If multi-model orchestration can match top-tier benchmarks, engineering teams — especially those outside the US blocked from Fable 5 — have a new architectural pattern to study and potentially deploy.",
+      "tags": [
+        "sakana-ai",
+        "fugu-ultra",
+        "multi-model-orchestration",
+        "benchmarks",
+        "ai-engineering",
+        "frontier-models"
+      ],
+      "relatedIds": [
+        "youtube-FwA1bcpSGiM",
+        "article-claude-fable5-paid-credits-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "On which benchmarks did Fugu Ultra report leading scores among currently available models?",
+          "options": [
+            "MMLU, ARC-Challenge, and TruthfulQA",
+            "SWE-Bench Pro, TerminalBench 2.1, LiveCodeBench, and GPQA-Diamond",
+            "HumanEval, GSM8K, and BIG-Bench Hard",
+            "Massive Multitask Language Understanding (MMLU) only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sakana's benchmark suite focused on coding and reasoning tasks: SWE-Bench Pro (real GitHub issue resolution), TerminalBench 2.1, LiveCodeBench, and GPQA-Diamond (graduate-level science). These are the evals where Fugu Ultra claims competitive performance with Fable 5."
+        },
+        {
+          "question": "What key practical limitation did early independent testers identify in Fugu Ultra?",
+          "options": [
+            "It only supports the English language",
+            "It requires a dedicated GPU cluster to run",
+            "It is significantly slower than single-model systems, taking ~30 minutes for coding tasks",
+            "It cannot handle prompts longer than 8,000 tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fugu Ultra's multi-step orchestration — routing to multiple models, then synthesizing — means high benchmark scores come with high latency. Researcher Ethan Mollick noted the system took roughly 30 minutes for coding tests, with real-world results falling short of what Fable 5 achieves in seconds."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-fable5-paid-credits-2026",
+      "type": "article",
+      "title": "Claude Fable 5 Exits Free Subscription Window — Requires Paid Usage Credits Starting June 23",
+      "sourceUrl": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+      "verified": false,
+      "publishedAt": "2026-06-23",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Starting today (June 23, 2026), Anthropic's Claude Fable 5 is no longer included within Pro, Max, Team, or Enterprise subscription plan limits — access now requires usage credits billed at API rates. During the free window that ran from June 9 to June 22, Fable 5 still counted roughly double normal Opus usage toward plan limits. Anthropic says it intends to restore the model as a standard plan feature once capacity allows but has not announced a timeline.",
+      "keyConcepts": [
+        "Usage credits: pay-as-you-go tokens consumed at API rates ($10/$50 per million input/output tokens), separate from flat monthly subscription fees",
+        "Prompt caching: Fable 5 offers a 90% discount on cached input reads, reducing costs for repeated context windows",
+        "Plan capacity: Anthropic cited compute capacity limits — not just pricing strategy — as the reason for removing Fable 5 from plan entitlements",
+        "Claude Fable 5 pricing: most expensive publicly available Anthropic model, double the cost of Opus 4.8"
+      ],
+      "whyItMatters": "This is the first time Anthropic has pulled a model from subscription plan access after launch — a signal that top-tier frontier models may increasingly require separate billing even for paying subscribers. Developers and heavy Claude Code users will see a direct cost increase beginning today.",
+      "tags": [
+        "claude-fable-5",
+        "anthropic",
+        "ai-pricing",
+        "usage-credits",
+        "subscription-change",
+        "api-costs"
+      ],
+      "relatedIds": [
+        "article-ai-tech-midterms-spending-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "On what date did Claude Fable 5 stop being included free within Anthropic subscription plans?",
+          "options": [
+            "June 9, 2026",
+            "June 12, 2026",
+            "June 22, 2026",
+            "June 23, 2026"
+          ],
+          "correctIndex": 3,
+          "explanation": "Claude Fable 5 was included free in Pro, Max, Team, and Enterprise plans from its launch on June 9 through June 22. Starting June 23, usage requires paid credits billed at API rates."
+        },
+        {
+          "question": "What is the API cost for Claude Fable 5 output tokens per million?",
+          "options": [
+            "$15 per million output tokens",
+            "$30 per million output tokens",
+            "$50 per million output tokens",
+            "$75 per million output tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Fable 5 is priced at $10 per million input tokens and $50 per million output tokens — double the price of Opus 4.8 and the most expensive generally available Anthropic model."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-tech-midterms-spending-2026",
+      "type": "article",
+      "title": "AI Companies Are Spending Millions to Influence the 2026 Midterm Elections",
+      "sourceUrl": "https://www.npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Groups tied to OpenAI and Anthropic have collectively spent more than $15 million on the 2026 midterm elections, with the two companies backing opposing sides that mirror their corporate rivalry over AI regulation. OpenAI president Greg Brockman helped fund the 'Leading the Future' super PAC, which has spent over $23.5 million opposing stricter AI oversight. Rival Anthropic has directed $20 million to Public First Action, which counters federal efforts to preempt state AI laws. NPR's reporting notes the political antagonism 'really mirrors the corporate competition' between the two companies.",
+      "keyConcepts": [
+        "Super PAC: Political action committees that can raise unlimited funds from corporations and individuals for independent political expenditures",
+        "AI regulation divide: OpenAI opposes federal AI restrictions; Anthropic supports regulation it helped design — both now actively funding political races",
+        "Bores: contested congressional candidates at the center of AI policy campaign spending",
+        "IPO context: Both OpenAI and Anthropic are preparing for major IPOs, making favorable regulation a direct financial interest"
+      ],
+      "whyItMatters": "The AI industry's entry into large-scale electoral politics signals that frontier AI companies now view regulation as an existential business issue. The outcome of November's midterms could directly shape the pace and form of US AI regulation, affecting everyone building on or competing with these platforms.",
+      "tags": [
+        "ai-policy",
+        "midterm-elections",
+        "openai",
+        "anthropic",
+        "ai-regulation",
+        "political-spending"
+      ],
+      "relatedIds": [
+        "article-claude-fable5-paid-credits-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Which super PAC is OpenAI president Greg Brockman associated with in the 2026 midterms?",
+          "options": [
+            "Public First Action",
+            "American Mission",
+            "Leading the Future",
+            "Think Big"
+          ],
+          "correctIndex": 2,
+          "explanation": "Greg Brockman helped fund 'Leading the Future,' which has spent over $23.5 million opposing stricter AI regulation across dozens of congressional races."
+        },
+        {
+          "question": "What position does Anthropic's political spending support in the 2026 midterms?",
+          "options": [
+            "Eliminating all federal AI oversight",
+            "Opposing state-level AI laws",
+            "Preserving state AI safeguards against federal preemption",
+            "Delaying any AI regulation until 2028"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic directed $20 million to Public First Action, which 'opposes federal efforts to freeze state progress without adequate federal safeguards' — essentially protecting state-level AI laws from being preempted by weaker federal rules."
+        }
+      ]
+    },
+    {
+      "id": "article-google-adk-a2a-multiagent-2026",
+      "type": "article",
+      "title": "Building Cross-Language Multi-Agent Pipelines with Google's ADK and the A2A Protocol",
+      "sourceUrl": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Google's Developers Blog published a hands-on guide for building production-grade multi-agent pipelines using the Agent Development Kit (ADK) and the Agent2Agent (A2A) protocol, demonstrating a contract compliance system where a Python ADK agent extracts terms using Gemini and a Go agent validates them against corporate policy. The two services communicate entirely through A2A, allowing agents built in different languages and frameworks to interoperate without custom integration code. ADK's RemoteA2aAgent abstraction turns any compliant remote service into a local sub-agent, and native A2A support now ships in LangGraph, CrewAI, LlamaIndex, Semantic Kernel, and AutoGen.",
+      "keyConcepts": [
+        "Agent Development Kit (ADK): Google's open-source framework for building and orchestrating agents; Python-first with multi-language support",
+        "Agent2Agent (A2A) protocol: open standard for cross-framework agent interoperability, donated to the Linux Foundation and supported by 150+ organizations",
+        "RemoteA2aAgent: ADK abstraction that wraps any A2A-compliant remote service as a local sub-agent within an ADK orchestrator",
+        "Modular agent architecture: separate agents with narrow responsibilities (extract vs. validate) replacing monolithic LLM prompts for complex workflows"
+      ],
+      "whyItMatters": "The A2A protocol is quietly becoming the TCP/IP of multi-agent systems — enabling teams to build in their language of choice while agents remain interoperable. This tutorial shows the pattern is production-ready now, not just theoretical, with real cross-language orchestration running on Google infrastructure.",
+      "tags": [
+        "google-adk",
+        "a2a-protocol",
+        "multi-agent",
+        "agent-engineering",
+        "agentic-systems",
+        "interoperability"
+      ],
+      "relatedIds": [
+        "article-aws-weekly-roundup-june22-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What does the A2A (Agent2Agent) protocol enable that was difficult before?",
+          "options": [
+            "Training AI agents on proprietary data without API costs",
+            "Connecting agents built in different languages and frameworks to interoperate",
+            "Running AI agents locally without cloud infrastructure",
+            "Auto-generating agent code from natural language descriptions"
+          ],
+          "correctIndex": 1,
+          "explanation": "A2A is an open standard that allows AI agents built in any language or framework to communicate and collaborate, eliminating the need for custom integration code between different agent systems."
+        },
+        {
+          "question": "In the ADK + A2A contract compliance example, what role does the Go agent play?",
+          "options": [
+            "It extracts contract terms using Gemini",
+            "It translates contracts into multiple languages",
+            "It validates extracted contract terms against corporate policy",
+            "It generates new contract templates based on past agreements"
+          ],
+          "correctIndex": 2,
+          "explanation": "The pipeline splits responsibilities: a Python ADK agent extracts contract terms using Gemini, then passes the results to a Go agent that validates them against corporate policy — both connected via A2A."
+        }
+      ]
+    },
+    {
+      "id": "article-aws-weekly-roundup-june22-2026",
+      "type": "article",
+      "title": "AWS Weekly Roundup: Bedrock Price Cuts, Grok 4.3 on Bedrock, and AgentCore Web Search",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+      "verified": false,
+      "publishedAt": "2026-06-22",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "Amazon's June 22 weekly roundup covers the top launches from the AWS Summit New York (June 17) and the week's announcements: Amazon Bedrock AgentCore gained a fully managed Web Search tool that grounds agent responses in cited, real-time web knowledge without exposing customer data; a new Fully Managed Knowledge Base simplifies enterprise RAG pipelines with Smart Parsing and an Agentic Retriever; and xAI's Grok 4.3 became available on Bedrock via the new Mantle inference engine, designed for price-performance reasoning workloads at $1.25/$2.50 per million input/output tokens with a 1M-token context window.",
+      "keyConcepts": [
+        "Amazon Bedrock AgentCore Web Search: fully managed tool grounding agents in current web knowledge, with zero data egress from the customer's AWS environment",
+        "Bedrock Managed Knowledge Base: native RAG pipeline with Smart Parsing (multi-format auto-prep) and Agentic Retriever for complex multi-step queries",
+        "Mantle inference engine: AWS's new inference backend optimized for price-performance on reasoning models, first used with Grok 4.3",
+        "Grok 4.3 on Bedrock: xAI's reasoning model with always-on and configurable reasoning effort (none/low/medium/high), 1M token context, $1.25/$2.50 per million I/O"
+      ],
+      "whyItMatters": "AWS is assembling a complete agentic infrastructure stack inside Bedrock — models, retrieval, web grounding, and a new inference engine — signaling that enterprise AI adoption is moving from experiment to production-grade deployment. The Bedrock price reductions and the Mantle engine suggest AWS is competing on cost as well as capability against Azure and Google Cloud.",
+      "tags": [
+        "aws",
+        "amazon-bedrock",
+        "grok-4-3",
+        "agentcore",
+        "rag",
+        "cloud-ai-infrastructure"
+      ],
+      "relatedIds": [
+        "article-google-adk-a2a-multiagent-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key advantage of Amazon Bedrock AgentCore's new Web Search tool?",
+          "options": [
+            "It lets agents write directly to public websites",
+            "It grounds agents in real-time web content with zero data egress from the customer's AWS environment",
+            "It enables agents to scrape competitor pricing automatically",
+            "It integrates Bing Search API at no additional cost"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Web Search tool on Bedrock AgentCore lets AI agents access current, cited web knowledge while keeping all data within the customer's secured AWS environment — no data leaves their cloud boundary."
+        },
+        {
+          "question": "What reasoning configuration options does Grok 4.3 on Amazon Bedrock support?",
+          "options": [
+            "Always-on reasoning with no ability to disable",
+            "Only high-effort reasoning for enterprise tiers",
+            "Always-on or configurable reasoning effort: none, low, medium, or high",
+            "Reasoning is only available in us-east-1 region"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grok 4.3 on Bedrock supports both always-on reasoning and configurable reasoning effort (none, low, medium, high), giving developers control over cost vs. accuracy trade-offs."
         }
       ]
     }

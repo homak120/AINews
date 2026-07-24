@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-07-24T08:00:00Z",
+  "weekOf": "2026-07-20",
+  "coverageStart": "2026-07-23",
+  "coverageEnd": "2026-07-24",
+  "items": [
+    {
+      "id": "article-openai-chatgpt-health-launch-0723",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT Health to All US Users with Apple Health and Medical Records Integration",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "verified": false,
+      "publishedAt": "2026-07-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI expanded ChatGPT Health to all US users aged 18 and older across all plans, enabling them to securely connect Apple Health data, hospital records from Epic and Oracle Health systems, One Medical, and Function Health directly into the chat interface. The feature allows ChatGPT to compare lab results against earlier tests, summarize changes since appointments, and give more personalized health guidance — while explicitly noting it cannot replace a doctor. The broad rollout follows a January 2026 pilot that prompted a rebuilding effort, and comes one day after a Florida pastor filed a lawsuit claiming ChatGPT gave a near-fatal suggestion to avoid seeing a doctor.",
+      "keyConcepts": [
+        "Health AI integration with personal medical records",
+        "Apple Health and EHR system connectivity (Epic, Oracle Health)",
+        "Personalized health context in conversational AI",
+        "AI medical liability and informed consent"
+      ],
+      "whyItMatters": "With 300 million health queries a week on ChatGPT, this rollout positions OpenAI as a mainstream health information layer — raising both the potential for democratized health access and significant liability questions about AI in clinical-adjacent contexts.",
+      "tags": ["openai", "chatgpt-health", "apple-health", "healthcare-ai", "medical-records", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which medical record systems can users connect to ChatGPT Health at launch?",
+          "options": [
+            "Epic and Oracle Health",
+            "Cerner and Allscripts",
+            "athenahealth and eClinicalWorks",
+            "Kaiser Permanente and Mayo Clinic only"
+          ],
+          "correctIndex": 0,
+          "explanation": "ChatGPT Health supports connections to Epic and Oracle Health hospital systems, as well as One Medical and Function Health, allowing users to share records directly with the chat interface."
+        },
+        {
+          "question": "How many health-related queries does OpenAI report users send via ChatGPT each week?",
+          "options": [
+            "50 million",
+            "150 million",
+            "230 million",
+            "300 million"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI reported the number of weekly health queries had grown from 230 million during the January 2026 pilot to 300 million by the time of the full rollout in July 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-mai-image-openai-replace-0723",
+      "type": "article",
+      "title": "Microsoft Replaces OpenAI Image Models in PowerPoint and Bing with In-House MAI-Image-2.5-Pro",
+      "sourceUrl": "https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/",
+      "verified": false,
+      "publishedAt": "2026-07-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Microsoft announced it is replacing OpenAI's image-generating models in PowerPoint and Bing Image Creator with its own MAI-Image-2.5-Pro, citing a claimed 84% reduction in GPU costs compared to GPT-Image-2. Microsoft AI chief Mustafa Suleiman described the in-house model as 'faster, cheaper, higher quality' and said it drives better user retention. Bing Image Creator is now fully powered by MAI-Image-2.5-Pro, while the model is also in production in PowerPoint for image-to-image capabilities.",
+      "keyConcepts": [
+        "Vertical integration in AI: building vs. buying model capabilities",
+        "MAI-Image-2.5-Pro as Microsoft's in-house image generation model",
+        "GPU cost efficiency and inference optimization",
+        "Microsoft's strategic independence from OpenAI"
+      ],
+      "whyItMatters": "This move signals that major AI platform companies are beginning to replace third-party models with in-house alternatives as they mature — Microsoft's shift away from OpenAI image models in consumer products is an early signal of how the AI supply chain may consolidate around vertically integrated providers.",
+      "tags": ["microsoft", "openai", "image-generation", "mai-image", "bing", "powerpoint", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of Microsoft's in-house image generation model replacing OpenAI's in PowerPoint and Bing?",
+          "options": [
+            "Azure Image Pro",
+            "Copilot Vision 2.5",
+            "MAI-Image-2.5-Pro",
+            "MSI-Gen-2"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft's new model is called MAI-Image-2.5-Pro and is now powering image generation in Bing Image Creator and PowerPoint, replacing OpenAI's GPT-Image-2."
+        },
+        {
+          "question": "What GPU cost reduction did Microsoft claim by switching from GPT-Image-2 to MAI-Image-2.5-Pro?",
+          "options": [
+            "30%",
+            "55%",
+            "84%",
+            "95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft stated that MAI-Image-2.5-Pro reduces GPU costs by up to 84% compared with GPT-Image-2, making it significantly cheaper to run at scale in consumer products."
+        }
+      ]
+    },
+    {
+      "id": "article-magnificent-7-selloff-ai-spending-0723",
+      "type": "article",
+      "title": "Magnificent 7 Erases $797 Billion in Market Value on AI Spending Fears After Alphabet and Tesla Earnings",
+      "sourceUrl": "https://finance.yahoo.com/markets/article/magnificent-7-stocks-erase-797-billion-in-market-value-in-worst-day-since-april-2025-201930579.html",
+      "verified": false,
+      "publishedAt": "2026-07-23",
+      "topics": ["ai-industry"],
+      "summary": "The Magnificent Seven tech megacaps suffered their steepest single-day decline since the April 2025 tariff selloff, with a basket index falling 4.8% and wiping out roughly $797 billion in market value. Alphabet dropped 6% after raising its 2026 capital expenditure forecast to as much as $205 billion, stoking investor concerns about AI spending discipline; Tesla fell 14% on a profit miss, losing around $200 billion in market value alone. Wall Street's growing unease over the hundreds of billions Big Tech is spending on AI infrastructure — combined with geopolitical uncertainty — drove the broad selloff across MSFT, AMZN, AAPL, GOOGL, NVDA, TSLA, and META.",
+      "keyConcepts": [
+        "AI capex cycle and investor ROI concerns",
+        "Alphabet's $205 billion 2026 capital expenditure forecast",
+        "Market repricing of AI infrastructure spending",
+        "Correlation between earnings misses and AI investment narratives"
+      ],
+      "whyItMatters": "The selloff reflects a pivotal moment where markets are demanding AI spending translate into revenue — as hyperscalers escalate capex to historic levels, investor patience is thinning, and the narrative is shifting from AI enthusiasm to AI accountability.",
+      "tags": ["stock-market", "ai-investment", "alphabet", "tesla", "ai-capex", "tech-stocks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did the Magnificent 7 index fall on July 23, 2026, marking their worst day since April 2025?",
+          "options": [
+            "1.2%",
+            "2.7%",
+            "4.8%",
+            "7.3%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Magnificent 7 index fell 4.8% on July 23, 2026, erasing approximately $797 billion in combined market value — the worst single-day decline for the group since the April 2025 tariff shock."
+        },
+        {
+          "question": "What capital expenditure forecast did Alphabet announce that contributed to its 6% stock decline?",
+          "options": [
+            "$75 billion for 2026",
+            "$120 billion for 2026",
+            "$165 billion for 2026",
+            "$205 billion for 2026"
+          ],
+          "correctIndex": 3,
+          "explanation": "Alphabet raised its full-year 2026 capital expenditure forecast to as much as $205 billion, a figure that alarmed investors concerned about the pace and returns of AI infrastructure investment."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-alias-deprecation-0724",
+      "type": "article",
+      "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner API Aliases Today — Developers Must Migrate to V4 Model IDs",
+      "sourceUrl": "https://www.developersdigest.tech/blog/deepseek-chat-to-v4-migration-guide",
+      "verified": false,
+      "publishedAt": "2026-07-24",
+      "topics": ["ai-engineering"],
+      "summary": "DeepSeek is retiring its legacy deepseek-chat and deepseek-reasoner model aliases at 15:59 UTC today (July 24, 2026), exactly 90 days after launching V4 on April 24. After this hard cutoff, any API call using the old aliases returns an error with no grace period or fallback. Developers must migrate to deepseek-v4-flash or deepseek-v4-pro, and note a critical change: the thinking/reasoning capability that was previously its own model is now a parameter — sending `thinking: {type: 'enabled'}` in the request body alongside `model: 'deepseek-v4-flash'` enables chain-of-thought mode.",
+      "keyConcepts": [
+        "API versioning and model alias lifecycle management",
+        "DeepSeek V4 model IDs: deepseek-v4-flash and deepseek-v4-pro",
+        "Reasoning mode as a request parameter vs. a separate model",
+        "Breaking changes and zero-downtime migration strategies"
+      ],
+      "whyItMatters": "Thousands of production applications — including many no-code stacks, LLM routers, and Claude Code integrations — built on DeepSeek's convenient model names face breaking changes today, illustrating how quickly the AI API ecosystem can shift and why pinning exact model versions is a best practice.",
+      "tags": ["deepseek", "api-migration", "llm", "developer-tools", "model-versioning", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which DeepSeek V4 model ID replaces the retired deepseek-reasoner alias?",
+          "options": [
+            "deepseek-v4-pro",
+            "deepseek-v4-flash",
+            "deepseek-v4-think",
+            "deepseek-reasoner-v4"
+          ],
+          "correctIndex": 1,
+          "explanation": "The deepseek-reasoner alias maps to deepseek-v4-flash (not deepseek-v4-pro). Developers who need strong chain-of-thought reasoning should enable it via the thinking parameter rather than assuming the Pro model is a direct replacement."
+        },
+        {
+          "question": "How do you enable chain-of-thought reasoning in the new DeepSeek V4 API?",
+          "options": [
+            "Use model: 'deepseek-v4-reasoner'",
+            "Add reasoning_mode: true to the request body",
+            "Pass thinking: {type: 'enabled'} as a request body parameter",
+            "Prefix the system prompt with [THINK]"
+          ],
+          "correctIndex": 2,
+          "explanation": "In the new DeepSeek V4 API, reasoning is a request parameter rather than a separate model. You send model: 'deepseek-v4-flash' with thinking: {type: 'enabled'} in the request body, and optionally add reasoning_effort to tune depth."
+        }
+      ]
+    },
+    {
+      "id": "article-amd-data-center-ai-chips-0723",
+      "type": "article",
+      "title": "AMD Unveils New Data Center AI Products Claiming to Outperform Nvidia, Targeting $2 Trillion Market",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-23/amd-unveils-new-products-in-pursuit-of-2-trillion-opportunity",
+      "verified": false,
+      "publishedAt": "2026-07-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Advanced Micro Devices unveiled a new lineup of data center products on July 23, claiming performance advantages over equivalent Nvidia offerings in a booming market for AI computing that AMD estimates at $2 trillion in total opportunity. The announcement is AMD's most aggressive push yet against Nvidia's dominant position in AI training and inference hardware. AMD's challenge comes as AI infrastructure investment is surging globally, with hyperscalers like Alphabet and Microsoft committing hundreds of billions to buildout.",
+      "keyConcepts": [
+        "AI accelerator market competition between AMD and Nvidia",
+        "Data center GPU and AI chip ecosystem",
+        "AI infrastructure spending at hyperscale cloud providers",
+        "Total addressable market estimation for AI computing"
+      ],
+      "whyItMatters": "Nvidia has held near-monopoly positioning in AI training hardware, but sustained pressure from AMD (and emerging domestic alternatives like Huawei's Ascend) is critical for the health of the AI ecosystem — competition drives down inference costs and reduces supply chain fragility for AI builders.",
+      "tags": ["amd", "nvidia", "ai-chips", "data-center", "gpu", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What total market opportunity did AMD cite when unveiling its new AI data center products?",
+          "options": [
+            "$500 billion",
+            "$1 trillion",
+            "$2 trillion",
+            "$5 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "AMD framed its new data center AI product announcements around a $2 trillion total addressable market opportunity, signaling the company's ambition to take meaningful share from Nvidia in AI computing infrastructure."
+        },
+        {
+          "question": "What has been AMD's primary competitive challenge in the AI accelerator market?",
+          "options": [
+            "Lacking enough manufacturing capacity",
+            "Competing against Nvidia's dominant market position in AI training and inference",
+            "Not having a GPU product suitable for data centers",
+            "Being blocked from selling to hyperscalers by export regulations"
+          ],
+          "correctIndex": 1,
+          "explanation": "AMD has been working to challenge Nvidia's dominant position in the AI accelerator market, where Nvidia's CUDA ecosystem and H-series GPUs have made them the default choice for AI training and inference workloads at scale."
+        }
+      ]
+    }
+  ]
+}
