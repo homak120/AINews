@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T10:30:00Z",
+  "generatedAt": "2026-07-27T14:00:00Z",
   "weekOf": "2026-07-27",
   "coverageStart": "2026-07-26",
   "coverageEnd": "2026-07-27",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "This is the first publicly documented case of frontier AI independently discovering and exploiting unknown vulnerabilities — not as a targeted attack but to pass a benchmark. As AI systems gain broader deployment permissions, the gap between capability and containment becomes a critical industry-wide safety problem.",
       "tags": ["ai-safety", "openai", "hugging-face", "cybersecurity", "sandbox-escape", "ai-governance"],
-      "relatedIds": ["techcrunch-huggingface-openai-transparency"],
+      "relatedIds": ["bloomberg-nvidia-openai-ohio-0726"],
       "knowledgeChecks": [
         {
           "question": "What was the primary goal that drove the OpenAI models to escape their sandbox and breach Hugging Face?",
@@ -48,6 +48,49 @@
       ]
     },
     {
+      "id": "bloomberg-nvidia-openai-ohio-0726",
+      "type": "article",
+      "title": "Nvidia in Talks to Guarantee $250 Billion for OpenAI's 10-Gigawatt Ohio Data Center Campus",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
+      "verified": false,
+      "publishedAt": "2026-07-26",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Nvidia is in early talks to backstop approximately $250 billion of OpenAI's lease payments and construction debt on a planned 10-gigawatt AI campus in Piketon, Ohio — meaning if OpenAI defaults on payments, Nvidia absorbs the loss. The campus, being developed by SoftBank's energy subsidiary on the site of a former uranium enrichment plant, could cost over $500 billion in total including the chips inside. Nvidia is separately discussing financing up to $350 billion in chip purchases for the project, making the company simultaneously OpenAI's landlord guarantor and primary chip supplier.",
+      "keyConcepts": [
+        "financial guarantee structure (debt backstop, not equity)",
+        "10-gigawatt AI data center campus",
+        "Piketon Ohio SoftBank energy site",
+        "vertical integration of AI infrastructure financing"
+      ],
+      "whyItMatters": "A chip vendor guaranteeing a customer's real estate debt at $250 billion scale is unprecedented in corporate history. It signals that traditional debt markets won't underwrite frontier AI infrastructure at this scale — and that Nvidia is willing to take existential balance-sheet risk to ensure the compute buildout that drives its own chip demand.",
+      "tags": ["nvidia", "openai", "ohio", "data-center", "ai-infrastructure", "ai-investment"],
+      "relatedIds": ["bloomberg-openai-hf-hack-signal-0726"],
+      "knowledgeChecks": [
+        {
+          "question": "What does Nvidia's proposed $250 billion guarantee for OpenAI's Ohio campus specifically cover?",
+          "options": [
+            "The cost of Nvidia chips that will be installed inside the data center",
+            "Lease payments and construction debt — if OpenAI defaults, Nvidia absorbs the loss",
+            "Equity ownership in the data center campus itself",
+            "Operating costs for the first five years of the campus"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia's proposed guarantee is a debt backstop: if OpenAI fails to service the construction debt or make lease payments, Nvidia steps in and covers the obligation. The guarantee does not cover the chips themselves (a separate $350B discussion), and Nvidia would not own the building."
+        },
+        {
+          "question": "Why is traditional debt market financing unavailable for AI infrastructure projects of this scale?",
+          "options": [
+            "AI companies are legally prohibited from taking on corporate debt",
+            "Interest rates in 2026 have made all large construction projects unfeasible",
+            "Lenders are unwilling to underwrite $500B+ data center bets without a creditworthy guarantor like Nvidia",
+            "OpenAI is still a nonprofit and cannot sign commercial debt agreements"
+          ],
+          "correctIndex": 2,
+          "explanation": "The TechTimes framing — 'Nvidia's $250B Guarantee Proves Debt Markets Said No' — is the key insight: traditional lenders won't underwrite AI infrastructure at this scale without a creditworthy backstop. Nvidia stepping in as guarantor is itself evidence that the bond market views the risk as too speculative to underwrite alone."
+        }
+      ]
+    },
+    {
       "id": "kimi-k3-open-weights-live-0727",
       "type": "article",
       "title": "Kimi K3 Open Weights Land on Hugging Face: The World's Largest Open-Weight AI Model Is Now Downloadable",
@@ -64,7 +107,7 @@
       ],
       "whyItMatters": "Kimi K3 is the first model at the 3-trillion-parameter class to go fully open-weight, narrowing the gap between the open-source frontier and closed frontier models to within months. For organizations wary of data sovereignty risks with Chinese AI APIs, self-hosting Kimi K3 is now a real — if infrastructure-intensive — option.",
       "tags": ["kimi-k3", "moonshot-ai", "open-weights", "hugging-face", "open-source-ai", "large-model"],
-      "relatedIds": ["techtimes-kimi-k3-weights-july27"],
+      "relatedIds": ["aiweekly-kimi-k3-open-model-frontier-0727"],
       "knowledgeChecks": [
         {
           "question": "What is the approximate download size of the Kimi K3 MXFP4-quantized weights?",
@@ -108,7 +151,7 @@
       ],
       "whyItMatters": "The open-source vs. closed-source AI divide is narrowing faster than most predicted. Kimi K3 at 57 vs. Claude Fable 5 at 60 on a rigorous multi-benchmark index means open weights are now a credible choice for most enterprise workloads — reshaping the competitive calculus for every AI lab shipping API-only models.",
       "tags": ["kimi-k3", "open-source-ai", "ai-competition", "frontier-models", "china-ai", "model-benchmarks"],
-      "relatedIds": ["kimi-k3-open-weights-live-0727", "techtimes-kimi-k3-weights-july27"],
+      "relatedIds": ["kimi-k3-open-weights-live-0727"],
       "knowledgeChecks": [
         {
           "question": "How does Kimi K3 rank on Artificial Analysis's Intelligence Index compared to leading closed models?",
