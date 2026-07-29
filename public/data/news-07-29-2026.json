@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-07-29T03:12:00Z",
+  "weekOf": "2026-07-27",
+  "coverageStart": "2026-07-28",
+  "coverageEnd": "2026-07-28",
+  "items": [
+    {
+      "id": "anthropic-research-discovering-cryptographic-weaknesses",
+      "type": "article",
+      "title": "Claude Mythos Discovers Two Novel Cryptographic Attacks in 60 Hours",
+      "sourceUrl": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "verified": false,
+      "publishedAt": "2026-07-28",
+      "topics": ["ai-research"],
+      "summary": "Anthropic's unreleased Claude Mythos Preview model independently discovered two previously unknown cryptographic attacks, accomplishing in 60 hours what human experts failed to find over two years. The model found a structural symmetry in HAWK, a post-quantum digital signature scheme under NIST consideration, reducing secret-key recovery cost from 2^64 to 2^38 operations—roughly 67 million times less work. It also identified a new 200-800x improvement on attacks against round-reduced AES, the world's most widely deployed symmetric cipher.",
+      "keyConcepts": [
+        "Post-quantum cryptography",
+        "HAWK digital signature algorithm",
+        "AES round-reduced attack",
+        "AI-assisted security research"
+      ],
+      "whyItMatters": "This is the first documented case of a frontier AI model making genuine advances in cryptanalysis, demonstrating that AI can now accelerate offensive security research in ways that have direct implications for global encryption standards—both as a tool for finding weaknesses before adversaries do, and as a harbinger of future AI-driven security risks.",
+      "tags": ["cryptography", "post-quantum", "claude-mythos", "security-research", "anthropic", "nist"],
+      "relatedIds": ["modelcontextprotocol-posts-2026-07-28"],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much did Claude Mythos reduce the cost of recovering a secret key in the HAWK post-quantum signature scheme?",
+          "options": [
+            "About 1,000 times easier",
+            "About 67 million times easier",
+            "About 10 billion times easier",
+            "About the same cost as before"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude found a symmetry in HAWK's mathematics that reduced key recovery from 2^64 to 2^38 operations—a factor of roughly 67 million (2^26) times less computational work, achieved in just 60 hours of autonomous model runtime."
+        },
+        {
+          "question": "What does Anthropic's Claude Mythos cryptographic research NOT affect in current production systems?",
+          "options": [
+            "HAWK post-quantum signature systems",
+            "Widely deployed AES encryption in live infrastructure",
+            "NIST post-quantum standardization candidates",
+            "Bitcoin's ECDSA signature scheme"
+          ],
+          "correctIndex": 1,
+          "explanation": "While Claude Mythos found meaningful attacks on HAWK and round-reduced AES, Anthropic clarified that neither finding currently threatens production systems. HAWK has never been deployed, and the AES attack applies only to reduced-round variants—not full AES in live infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "modelcontextprotocol-posts-2026-07-28",
+      "type": "article",
+      "title": "MCP 2026-07-28 Specification Ships: Stateless Core Is the Biggest Change Since Launch",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "verified": false,
+      "publishedAt": "2026-07-28",
+      "topics": ["ai-engineering"],
+      "summary": "The Agentic AI Foundation released the MCP 2026-07-28 specification, the largest revision of the Model Context Protocol since its launch. The headline change is a fully stateless protocol core: MCP drops the bidirectional session model, removes the initialize/initialized handshake entirely, and moves client capabilities into metadata on every request—letting any server instance handle any request without sticky sessions or shared session stores. The update also graduates Tasks and MCP Apps into a formal extensions framework, hardens authorization by deprecating Dynamic Client Registration in favor of CIMD, and ships beta SDKs in Python, TypeScript, Go, and C#.",
+      "keyConcepts": [
+        "Stateless protocol architecture",
+        "MCP extensions framework",
+        "CIMD authorization",
+        "AI agent infrastructure"
+      ],
+      "whyItMatters": "The move to a stateless core removes the main operational barrier to deploying MCP at scale—servers can now run on serverless infrastructure, edge nodes, and plain round-robin load balancers, fundamentally lowering the cost and complexity of building production AI agent systems.",
+      "tags": ["mcp", "model-context-protocol", "ai-agents", "protocol-update", "stateless", "developer-tools"],
+      "relatedIds": ["anthropic-research-discovering-cryptographic-weaknesses"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key architectural change in the MCP 2026-07-28 specification?",
+          "options": [
+            "Adding WebSocket support for real-time streaming",
+            "Moving from a stateful session model to a stateless request/response core",
+            "Requiring all servers to use OAuth 2.0 authentication",
+            "Replacing JSON-RPC with gRPC for better performance"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 2026-07-28 MCP spec moves from a bidirectional stateful protocol—where a session pinned a client to a specific server instance—to a stateless request/response model. Any server instance can now handle any request, enabling serverless and edge deployments without sticky sessions."
+        },
+        {
+          "question": "In the MCP 2026-07-28 spec, where do client capabilities now travel?",
+          "options": [
+            "In a dedicated session initialization message sent once at startup",
+            "In a shared Redis cache accessible to all server instances",
+            "In the _meta field on every request",
+            "In a separate capability registry endpoint"
+          ],
+          "correctIndex": 2,
+          "explanation": "With the session handshake removed, MCP 2026-07-28 moves client info and capabilities into _meta on every request. This ensures any server instance has full context without needing to look up session state, enabling true stateless operation."
+        }
+      ]
+    },
+    {
+      "id": "usnews-trump-ban-chinese-humanoid-robots-2026-07-28",
+      "type": "article",
+      "title": "US Bans New Chinese Humanoid Robots and Inverters to Protect AI Supply Chain",
+      "sourceUrl": "https://www.usnews.com/news/top-news/articles/2026-07-28/exclusive-trump-administration-to-ban-new-chinese-robots-and-inverters-protecting-us-ai-buildout",
+      "verified": false,
+      "publishedAt": "2026-07-28",
+      "topics": ["ai-industry"],
+      "summary": "The Trump administration through the FCC unveiled rules immediately barring US imports of new Chinese humanoid and quadruped robot models as well as connected power inverters used in data center infrastructure. The measures apply only to robot and inverter models not yet released and took effect upon publication, framing the restrictions as shielding the US AI supply chain from Chinese disruption, data theft, and cyberattacks. China leads global inverter manufacturing through companies like Sungrow and Huawei—already under heavy US sanctions.",
+      "keyConcepts": [
+        "AI supply chain security",
+        "Chinese humanoid robot restrictions",
+        "Data center infrastructure protection",
+        "US-China technology competition"
+      ],
+      "whyItMatters": "Extending hardware import bans to humanoid robots and data center inverters signals that US-China AI competition has moved beyond software and semiconductors into physical AI infrastructure—raising the floor for domestic manufacturing investment while potentially constraining the pace of AI deployment in sectors reliant on affordable Chinese hardware.",
+      "tags": ["us-china", "humanoid-robots", "ai-policy", "supply-chain", "fcc", "national-security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What types of Chinese products did the FCC's July 28, 2026 rules ban from US imports?",
+          "options": [
+            "AI software models and large language model weights",
+            "Semiconductor chips and GPU hardware",
+            "Humanoid/quadruped robots and connected power inverters",
+            "Cloud computing services and data storage systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "The FCC rules specifically target new Chinese humanoid and quadruped robot models plus connected power inverters used to link renewables, batteries, and data-center equipment to the grid—framed as protecting the US AI supply chain from disruption and data theft."
+        },
+        {
+          "question": "Which aspect of the robot/inverter ban is most notable about its scope?",
+          "options": [
+            "It retroactively removes all existing Chinese robots from US facilities",
+            "It applies only to products not yet released at the time of publication",
+            "It bans all Chinese technology imports regardless of category",
+            "It requires existing devices to be uninstalled within 30 days"
+          ],
+          "correctIndex": 1,
+          "explanation": "The FCC rules apply only to new Chinese robot and inverter models that had not yet been released as of the publication date—existing deployed hardware is not affected. This forward-looking scope limits market access for future Chinese products while avoiding immediate disruption to operational infrastructure."
+        }
+      ]
+    }
+  ]
+}
