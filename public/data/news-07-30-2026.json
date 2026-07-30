@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:15:00Z",
+  "generatedAt": "2026-07-30T14:45:00Z",
   "weekOf": "2026-07-27",
   "coverageStart": "2026-07-28",
   "coverageEnd": "2026-07-29",
@@ -173,6 +173,92 @@
           ],
           "correctIndex": 2,
           "explanation": "The analysis argues that governance requires visibility—organizations cannot write policy, enforce compliance, or debug failures for systems whose behavior they cannot observe. Observability infrastructure (logging of agent tool calls, decision points, and reasoning chains) is the prerequisite, not a restriction on what agents can do."
+        }
+      ]
+    },
+    {
+      "id": "siliconangle-openai-academic-researchers",
+      "type": "article",
+      "title": "OpenAI Launches Free ChatGPT Program for 100,000 Academic Researchers",
+      "sourceUrl": "https://siliconangle.com/2026/07/29/openai-opens-new-chatgpt-academic-researchers-program-100000-scientists/",
+      "verified": false,
+      "publishedAt": "2026-07-29",
+      "topics": ["ai-research"],
+      "summary": "OpenAI announced ChatGPT for Academic Researchers on July 29, 2026, offering selected scientists free access to frontier AI models including GPT-5.6 for science, math, and engineering research. The program launches with 10,000 researchers and is set to expand to 100,000 by 2027, with access to an agent harness specifically designed to minimize token costs for long research workflows. OpenAI frames this as an attempt to accelerate scientific discovery in fields where access to frontier AI has been limited by cost.",
+      "keyConcepts": [
+        "Frontier model access for academia",
+        "ChatGPT agent harness for research",
+        "AI-accelerated scientific discovery",
+        "OpenAI science partnership program"
+      ],
+      "whyItMatters": "Making frontier AI accessible to 100,000 researchers could compress timelines in fields like drug discovery, materials science, and climate modeling—areas where AI can augment human reasoning but where cost has historically gatekept access to the most capable models.",
+      "tags": ["openai", "academic-research", "frontier-models", "chatgpt", "scientific-discovery", "gpt-5-6"],
+      "relatedIds": ["techcrunch-microsoft-openai-anthropic-competition"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the long-term scale target of OpenAI's ChatGPT for Academic Researchers program?",
+          "options": [
+            "100,000 researchers by 2027",
+            "10,000 researchers permanently",
+            "1,000 universities worldwide by 2030",
+            "Unlimited open access to all academics"
+          ],
+          "correctIndex": 0,
+          "explanation": "The program launches with 10,000 selected researchers and is designed to expand to 100,000 scientists by 2027, focusing on STEM fields where frontier AI can accelerate discovery at a scale researchers couldn't previously afford."
+        },
+        {
+          "question": "What specific infrastructure does OpenAI provide to researchers to reduce usage costs?",
+          "options": [
+            "Dedicated GPU clusters for each institution",
+            "A rate-limited free tier of GPT-4o only",
+            "An agent harness designed to minimize token costs for research workflows",
+            "Monthly compute credits redeemable against any cloud provider"
+          ],
+          "correctIndex": 2,
+          "explanation": "Beyond model access, OpenAI provides an agent harness specifically engineered to minimize token expenditure across long research workflows—addressing the cost barrier that previously made frontier models impractical for extended academic use cases."
+        }
+      ]
+    },
+    {
+      "id": "venturebeat-pangram-ai-detector-images",
+      "type": "article",
+      "title": "Pangram 4 Launches with AI Image Detection and $9M in Funding",
+      "sourceUrl": "https://venturebeat.com/business/pangram-launches-new-worlds-best-ai-detector-expands-to-images-backed-by-9m-from-menlo-ventures",
+      "verified": false,
+      "publishedAt": "2026-07-29",
+      "topics": ["ai-industry"],
+      "summary": "Pangram launched Pangram 4 on July 29, 2026, claiming state-of-the-art accuracy in detecting AI-generated text and mixed human-AI content, with improved robustness against AI humanizer tools that attempt to fool detectors. The release also includes a public research preview of Pangram's first AI image detection model, which achieves 99.5% accuracy in internal benchmarks. The announcements come alongside a $9M funding round led by Menlo Ventures, reflecting growing enterprise and institutional demand for content authenticity tools.",
+      "keyConcepts": [
+        "AI content detection accuracy",
+        "Mixed human-AI writing identification",
+        "AI image provenance detection",
+        "Content authenticity infrastructure"
+      ],
+      "whyItMatters": "As AI-generated text and images flood publishing, academia, and enterprise communications, the ability to reliably detect AI provenance—especially in mixed human-AI content—becomes critical for maintaining trust in information systems. Pangram's expansion into image detection extends the authentication layer to a modality where fabrication is increasingly indistinguishable to human reviewers.",
+      "tags": ["ai-detection", "pangram", "content-authenticity", "image-detection", "menlo-ventures", "ai-writing"],
+      "relatedIds": ["thenextweb-pacing-frontier-ai-employees"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Pangram 4 more robust than previous AI detectors according to the July 2026 announcement?",
+          "options": [
+            "It uses blockchain to verify content origin",
+            "It only analyzes sentence structure, ignoring vocabulary",
+            "It is more resistant to AI humanizer tools that attempt to fool detectors",
+            "It requires a human reviewer to confirm every positive detection"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pangram 4 specifically improves robustness against AI humanizer programs—tools designed to rephrase AI-generated text in ways that defeat detectors. This arms-race improvement is critical for maintaining detection accuracy as adversarial tools grow more sophisticated."
+        },
+        {
+          "question": "What is the claimed internal benchmark accuracy for Pangram's new AI image detection model?",
+          "options": [
+            "78.2%",
+            "88.0%",
+            "95.1%",
+            "99.5%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Pangram's research preview of its AI image detector claims 99.5% accuracy in internal benchmarks—though as a research preview, these figures have not yet been independently validated by third-party researchers."
         }
       ]
     }
