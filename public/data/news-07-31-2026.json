@@ -1,9 +1,54 @@
 {
-  "generatedAt": "2026-07-31T07:00:00Z",
+  "generatedAt": "2026-07-31T12:00:00Z",
   "weekOf": "2026-07-27",
   "coverageStart": "2026-07-30",
   "coverageEnd": "2026-07-30",
   "items": [
+    {
+      "id": "youtube-0fFHBHQ_d2I",
+      "type": "video",
+      "title": "Google's Three New Gemini Models Explained: Gemini 3.6 Flash, Flash-Lite, and Gemini 4 News",
+      "youtubeId": "0fFHBHQ_d2I",
+      "sourceUrl": "https://www.youtube.com/watch?v=0fFHBHQ_d2I",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "TheAIGRID breaks down Google's three-model Gemini release: Gemini 3.6 Flash (a 1M-context workhorse with improved coding and multimodal performance at $1.50/$7.50 per million tokens), Gemini 3.5 Flash-Lite (the most cost-efficient model in the Flash class), and Gemini 3.5 Flash Cyber (a cybersecurity-focused variant restricted to government and trusted partners). The video also covers the latest Gemini 4 teases, with Google testing 3.5 Pro with partners ahead of a wider launch and describing the 'next generation of models' as actively in development.",
+      "keyConcepts": [
+        "Gemini 3.6 Flash: 1M context, improved coding and computer use benchmarks",
+        "Gemini 3.5 Flash-Lite: lowest-cost Flash-class model",
+        "Gemini 3.5 Flash Cyber: government-restricted cybersecurity fine-tune",
+        "Gemini 4 roadmap and partner preview"
+      ],
+      "whyItMatters": "Google's simultaneous release of three differentiated Gemini variants—targeting general developers, cost-sensitive apps, and government security use cases—shows how frontier AI labs are shifting from single flagship releases to product-line strategies. The Gemini 4 tease signals that the current 3.x generation is already being superseded in internal development, compressing the effective competitive window for other labs.",
+      "tags": ["google-deepmind", "gemini-3-6", "gemini-4", "flash-models", "ai-benchmarks", "multimodal-ai"],
+      "relatedIds": ["siliconangle-gemini-robotics-2-humanoid"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary use case restriction on Google's Gemini 3.5 Flash Cyber model?",
+          "options": [
+            "It is open to all developers via the Gemini API with standard pricing",
+            "It is limited to governments and trusted partners under a pilot access program",
+            "It is only available for academic research with an approved application",
+            "It can be used by any enterprise customer through Google Cloud Marketplace"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 3.5 Flash Cyber is specifically fine-tuned to find and fix cybersecurity vulnerabilities, and Google has restricted it to governments and trusted partners under a pilot program—reflecting the sensitive dual-use nature of an AI model optimized for offensive and defensive security tasks."
+        },
+        {
+          "question": "How does Gemini 3.6 Flash compare to Gemini 3.5 Flash on the SWE-Bench Pro coding benchmark?",
+          "options": [
+            "They score identically at 55.1%",
+            "Gemini 3.6 Flash scores 58.7% versus 55.1% for Gemini 3.5 Flash",
+            "Gemini 3.6 Flash scores 72.3% versus 55.1% for Gemini 3.5 Flash",
+            "Gemini 3.5 Flash outperforms Gemini 3.6 Flash with a score of 61.4%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 3.6 Flash achieves 58.7% on SWE-Bench Pro compared to 55.1% for Gemini 3.5 Flash—a meaningful improvement on a benchmark widely used to evaluate real-world software engineering capability. This makes it the stronger default choice for coding-intensive applications within the Flash price tier."
+        }
+      ]
+    },
     {
       "id": "techcrunch-anthropic-models-breached-security-tests",
       "type": "article",
