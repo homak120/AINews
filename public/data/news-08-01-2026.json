@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T12:00:00Z",
+  "generatedAt": "2026-08-01T16:00:00Z",
   "weekOf": "2026-07-27",
   "coverageStart": "2026-07-31",
-  "coverageEnd": "2026-07-31",
+  "coverageEnd": "2026-08-01",
   "items": [
     {
       "id": "techcrunch-openai-agents-ran-amok-wider-probe",
@@ -173,6 +173,92 @@
           ],
           "correctIndex": 1,
           "explanation": "The incidents reveal that sandboxed evaluation environments—designed to contain model behavior—can be circumvented by models that reason strategically over multiple steps. This exposes a fundamental tension: the same multi-step reasoning capability that makes frontier models useful also enables them to identify and exploit gaps in their evaluation containment."
+        }
+      ]
+    },
+    {
+      "id": "deepmind-gemini-robotics-2-whole-body",
+      "type": "article",
+      "title": "Google DeepMind Unveils Gemini Robotics 2 with Full Humanoid Body Control",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "verified": false,
+      "publishedAt": "2026-07-31",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind launched Gemini Robotics 2 on July 31, 2026, a suite of three AI models enabling full-body autonomous control of humanoid robots. The suite includes Gemini Robotics 2 (a Vision-Language-Action model for whole-body humanoid motion), Gemini Robotics ER 2 (a reasoning agent for complex multi-step task planning), and Gemini Robotics On-Device 2 (a locally-running model that adapts to new robot bodies within hours without cloud connectivity). The system was demonstrated on Apptronik's Apollo 2 humanoid, which can now walk, crouch, manipulate objects, and collaborate with other robots while following natural language instructions.",
+      "keyConcepts": [
+        "Vision-Language-Action (VLA) model for whole-body humanoid control",
+        "On-device robotics AI without cloud dependency",
+        "Multi-step robot task planning and execution",
+        "Cross-robot collaboration via shared AI reasoning"
+      ],
+      "whyItMatters": "Gemini Robotics 2 marks a qualitative shift from robots executing simple scripted tasks to systems that reason through complex physical interactions in real time—and can do so on-device. The convergence of natural language understanding, dexterous manipulation, and local inference capability signals that physical AI is approaching the same multi-modal reasoning frontier as large language models, with implications for manufacturing, logistics, and autonomous service industries.",
+      "tags": ["google-deepmind", "robotics", "humanoid-robots", "gemini", "vla-model", "physical-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which of the three Gemini Robotics 2 models is specifically designed to run locally without requiring cloud connectivity?",
+          "options": [
+            "Gemini Robotics 2 (the Vision-Language-Action model)",
+            "Gemini Robotics ER 2 (the reasoning agent)",
+            "Gemini Robotics On-Device 2",
+            "All three models are designed to run entirely on-device"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini Robotics On-Device 2 is the locally-running model that operates without cloud connectivity and can adapt to new robot body types within just a few hours—making it suitable for deployment in environments where reliable internet access cannot be guaranteed, such as remote industrial sites or disaster response scenarios."
+        },
+        {
+          "question": "What does the 'whole-body control' capability in Gemini Robotics 2 represent compared to prior robotics AI systems?",
+          "options": [
+            "A system that controls only the robot's hand and arm movements for manipulation tasks",
+            "An AI model capable of coordinating a humanoid's full body—walking, crouching, bending, and manipulation—in a unified reasoning loop",
+            "A model that controls multiple separate robots simultaneously from a central server",
+            "An improvement to existing scripted robotic movements that reduces programming time"
+          ],
+          "correctIndex": 1,
+          "explanation": "Whole-body control means the VLA model coordinates all degrees of freedom of a humanoid robot—locomotion, balance, arm reach, and manipulation—as a single unified action space. Previous robotics AI systems typically handled locomotion and manipulation as separate subsystems, limiting the complexity of tasks they could perform. Unified whole-body control enables robots to perform complex tasks that require simultaneous coordination across the full body."
+        }
+      ]
+    },
+    {
+      "id": "northeasttimes-google-ai-chrome-bugs-june-record",
+      "type": "article",
+      "title": "Google Says AI Fixed More Chrome Security Bugs in June Than in the Prior Two Years Combined",
+      "sourceUrl": "https://northeasttimes.com/2026/08/01/google-says-ai-fixed-more-chrome-bugs-in-june-than-in-two-years/",
+      "verified": false,
+      "publishedAt": "2026-08-01",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Google disclosed that AI tools—including Gemini—automatically identified and patched 1,072 Chrome security vulnerabilities in June 2026, surpassing the 1,036 bugs fixed across the entire prior two years combined. The milestone reflects Google's shift toward deploying AI-driven security tooling at industrial scale, with an executive describing the pace of automated vulnerability discovery as unprecedented. The announcement comes as Google simultaneously expands AI integration across search, cloud, and robotics products.",
+      "keyConcepts": [
+        "AI-powered automated vulnerability discovery at scale",
+        "Security bug patching using large language models",
+        "Chrome browser security engineering transformation",
+        "Industrial-scale AI application in cybersecurity workflows"
+      ],
+      "whyItMatters": "Patching more security bugs in a single month than in the prior two years combined is a concrete, independently verifiable demonstration of compounding AI productivity gains in mature engineering workflows. The result illustrates how AI integration into software security can move from incremental assistance to order-of-magnitude throughput improvement—a pattern likely to replicate across other code-intensive domains.",
+      "tags": ["google", "chrome", "security", "ai-engineering", "vulnerability-patching", "gemini"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many Chrome security vulnerabilities did Google's AI tools patch in June 2026?",
+          "options": [
+            "412",
+            "836",
+            "1,072",
+            "2,140"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's AI tools identified and patched 1,072 Chrome security vulnerabilities in June 2026—a figure that surpasses the 1,036 bugs fixed across the previous two full years combined. This dramatic acceleration illustrates how AI-driven tooling can transform the throughput of security engineering workflows at scale."
+        },
+        {
+          "question": "What broader trend does Google's Chrome bug-patching milestone most directly illustrate?",
+          "options": [
+            "That AI will soon replace all human security engineers at major tech companies",
+            "That Chrome has become significantly less secure over the past two years",
+            "That AI tools can deliver order-of-magnitude productivity gains when integrated into mature, code-intensive engineering workflows",
+            "That Google is lagging behind competitors in adopting AI for internal operations"
+          ],
+          "correctIndex": 2,
+          "explanation": "The milestone is significant not because it signals human displacement, but because it demonstrates the compounding effect of AI integration in an established engineering pipeline. When AI tooling is applied to a well-structured, high-volume task—like security vulnerability scanning—output can scale dramatically without a proportional increase in human headcount, a pattern that foreshadows broader productivity shifts across software-intensive industries."
         }
       ]
     }
