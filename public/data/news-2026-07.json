@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:00:00.000Z",
+  "generatedAt": "2026-08-01T03:15:13.552Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-06-29",
   "coverageEnd": "2026-07-01",
@@ -11,7 +11,10 @@
       "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
       "verified": false,
       "publishedAt": "2026-06-30",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Anthropic released Claude Science in beta on June 30, 2026 — an AI workbench that integrates the tools scientists most commonly use into a single research environment. The platform comes pre-configured with more than 60 scientific databases, renders 3D protein structures and genome browser tracks, and produces auditable output histories for reproducibility. Available to Claude Pro, Max, Team, and Enterprise subscribers, it also ships with an AI for Science Grant Program offering up to $30,000 in compute credits for up to 50 selected research projects.",
       "keyConcepts": [
         "Scientific AI workbench",
@@ -20,8 +23,18 @@
         "AI for Science grant program"
       ],
       "whyItMatters": "Claude Science targets the fragmented workflow pain of computational researchers — jumping between databases, pipelines, and manuscript tools — and consolidates it into one auditable environment. If it delivers on reproducibility, it could meaningfully accelerate drug discovery and life sciences research timelines.",
-      "tags": ["anthropic", "claude-science", "ai-research-tools", "scientific-computing", "life-sciences", "ai-workbench"],
-      "relatedIds": ["article-anthropic-fable-mythos-restrictions-lifted-20260701", "article-claude-sonnet-5-launch-20260630"],
+      "tags": [
+        "anthropic",
+        "claude-science",
+        "ai-research-tools",
+        "scientific-computing",
+        "life-sciences",
+        "ai-workbench"
+      ],
+      "relatedIds": [
+        "article-anthropic-fable-mythos-restrictions-lifted-20260701",
+        "article-claude-sonnet-5-launch-20260630"
+      ],
       "knowledgeChecks": [
         {
           "question": "Which of the following is a key feature of Anthropic's Claude Science workbench?",
@@ -54,7 +67,10 @@
       "sourceUrl": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
       "verified": false,
       "publishedAt": "2026-07-01",
-      "topics": ["ai-industry", "ai-research"],
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
       "summary": "The US Department of Commerce lifted the export controls it imposed on June 12, 2026 on Claude Fable 5 and Mythos 5 — Anthropic's two most capable models — which had forced the company to pull global access entirely. The original restriction required per-license approval before any foreign national could access the models, proving unworkable at scale after Amazon researchers exposed a jailbreak path that could surface cyberattack-relevant information. Anthropic agreed to proactively detect and report security risks, collaborate with the government on safety protocols for future frontier releases, and inform US agencies of any malicious activity in exchange for the removal of controls. Full access was restored to users on Wednesday, July 1.",
       "keyConcepts": [
         "AI export controls",
@@ -63,8 +79,17 @@
         "Model jailbreak vulnerability disclosure"
       ],
       "whyItMatters": "This episode establishes a real precedent: the US government can and will suspend public access to frontier AI models over national security concerns, and labs will negotiate safety agreements to get that access restored. The Anthropic–Commerce deal is likely a template for how future model safety disputes get resolved — with labs accepting monitoring obligations in exchange for deployment freedom.",
-      "tags": ["anthropic", "fable-5", "mythos-5", "ai-export-controls", "ai-policy", "model-safety"],
-      "relatedIds": ["article-anthropic-claude-science-workbench-20260630"],
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "mythos-5",
+        "ai-export-controls",
+        "ai-policy",
+        "model-safety"
+      ],
+      "relatedIds": [
+        "article-anthropic-claude-science-workbench-20260630"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why did the US Commerce Department initially impose export controls on Claude Fable 5 and Mythos 5?",
@@ -97,7 +122,10 @@
       "sourceUrl": "https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm",
       "verified": false,
       "publishedAt": "2026-06-29",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Google has confirmed that Gemini 3.5 Pro, which missed its June general availability deadline, is now cleared for a July 2026 launch after incorporating tester feedback on token efficiency and long-horizon agentic task performance. Meanwhile, OpenAI's GPT-5.6 family (Sol, Terra, Luna) — previewed June 26 — remains locked to approximately 20 government-vetted organizations under the Trump administration's June AI executive order requiring pre-deployment federal review. The competitive frontier model landscape now spans Gemini 2.5 Pro with Deep Think (launched June 22 with industry-leading benchmark scores), Anthropic's Fable 5 and Mythos 5, and the imminent GPT-5.6 and Gemini 3.5 Pro releases.",
       "keyConcepts": [
         "Gemini 3.5 Pro general availability",
@@ -106,8 +134,17 @@
         "Government-gated frontier model deployment"
       ],
       "whyItMatters": "The frontier model race is compressing: within weeks, developers will gain access to at least two new top-tier models (Gemini 3.5 Pro and GPT-5.6). How they differ on agentic tasks, coding, and cost will determine which becomes the default for builders — and the government-gating of GPT-5.6 is introducing a new variable into enterprise procurement decisions.",
-      "tags": ["google", "gemini-3-5-pro", "openai", "gpt-5-6", "frontier-models", "ai-benchmarks"],
-      "relatedIds": ["article-anthropic-fable-mythos-restrictions-lifted-20260701"],
+      "tags": [
+        "google",
+        "gemini-3-5-pro",
+        "openai",
+        "gpt-5-6",
+        "frontier-models",
+        "ai-benchmarks"
+      ],
+      "relatedIds": [
+        "article-anthropic-fable-mythos-restrictions-lifted-20260701"
+      ],
       "knowledgeChecks": [
         {
           "question": "Why was Gemini 3.5 Pro's June general availability launch delayed?",
@@ -140,7 +177,10 @@
       "sourceUrl": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "verified": false,
       "publishedAt": "2026-06-29",
-      "topics": ["ai-career", "ai-industry"],
+      "topics": [
+        "ai-career",
+        "ai-industry"
+      ],
       "summary": "New workforce data complicates the dominant narrative that AI leads to layoffs: companies classified as 'high-intensity AI adopters' saw overall headcount grow 10.2%, with entry-level roles specifically rising 12% — running counter to widespread predictions that AI would eliminate junior positions. The finding adds nuance to an ongoing debate shaped by high-profile tech layoffs, though critics note that firms investing heavily in AI are often high-growth companies anyway, making the causality between AI adoption and hiring difficult to isolate. Separating AI's effect from broader company expansion remains the central methodological challenge.",
       "keyConcepts": [
         "High-intensity AI adoption metrics",
@@ -149,7 +189,14 @@
         "AI productivity and headcount"
       ],
       "whyItMatters": "For AI practitioners and career-changers, this data is actionable: the companies most likely to use advanced AI are also the companies growing their junior headcounts fastest right now. But the methodological caveat matters — these are generally high-growth firms, so AI may be a correlate of success rather than the cause of hiring. Understanding the difference shapes how you position yourself in the labor market.",
-      "tags": ["ai-jobs", "workforce", "entry-level-hiring", "ai-adoption", "labor-market", "tech-careers"],
+      "tags": [
+        "ai-jobs",
+        "workforce",
+        "entry-level-hiring",
+        "ai-adoption",
+        "labor-market",
+        "tech-careers"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -183,7 +230,9 @@
       "sourceUrl": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
       "verified": false,
       "publishedAt": "2026-06-29",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "TIDAL announced it will prevent fully AI-generated music from earning royalties on its platform, making it the latest streaming service to draw a hard line between human-created and AI-generated audio content. The policy also deploys automated detection tools to identify and remove AI-generated tracks that attempt to impersonate specific artists or groups — addressing a growing problem of synthetic voice clones monetizing off established artists' likenesses. The move reflects an accelerating industry consensus around requiring a human creative contribution for commercial music distribution.",
       "keyConcepts": [
         "AI-generated music monetization policy",
@@ -192,7 +241,14 @@
         "Streaming platform content moderation"
       ],
       "whyItMatters": "TIDAL's policy is one of the clearest statements yet from a major streaming platform on where the line between human and AI creativity sits for commercial purposes. As more services adopt similar policies, AI music tools built around royalty generation will face structural headwinds — and the detection arms race between AI impersonation and platform enforcement is just beginning.",
-      "tags": ["ai-music", "tidal", "content-moderation", "streaming", "ai-copyright", "voice-cloning"],
+      "tags": [
+        "ai-music",
+        "tidal",
+        "content-moderation",
+        "streaming",
+        "ai-copyright",
+        "voice-cloning"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -226,7 +282,10 @@
       "sourceUrl": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
       "verified": false,
       "publishedAt": "2026-06-30",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "Anthropic launched Claude Sonnet 5 on June 30, 2026, positioning it as the most agentic mid-tier model the company has built — capable of autonomous planning, browser and terminal use, and sustained coding at a level previously reserved for larger frontier models. At introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, Sonnet 5 undercuts OpenAI's GPT-5.5 and Google's Gemini 3.1 Pro while benchmarking within striking distance of Anthropic's own Opus 4.8. Starting July 1, Sonnet 5 became the default model for all Claude Free and Pro users and went live across Claude Code, the Claude API, Cursor, VS Code, and GitHub Copilot.",
       "keyConcepts": [
         "Agentic mid-tier model design",
@@ -235,8 +294,18 @@
         "Default model rollout strategy"
       ],
       "whyItMatters": "Sonnet 5 is the most directly actionable release of the week for practitioners: it's cheaper than running Opus 4.8, available in all the major AI coding tools, and performs well enough on agentic tasks to replace Opus for most production agent workflows. The $2 introductory price through August creates a narrow window to build and test at unusually low cost.",
-      "tags": ["claude-sonnet-5", "anthropic", "ai-agents", "pricing", "frontier-models", "ai-engineering"],
-      "relatedIds": ["article-anthropic-claude-science-workbench-20260630", "youtube-hKHyx75WVk0"],
+      "tags": [
+        "claude-sonnet-5",
+        "anthropic",
+        "ai-agents",
+        "pricing",
+        "frontier-models",
+        "ai-engineering"
+      ],
+      "relatedIds": [
+        "article-anthropic-claude-science-workbench-20260630",
+        "youtube-hKHyx75WVk0"
+      ],
       "knowledgeChecks": [
         {
           "question": "What is Claude Sonnet 5's introductory API pricing through August 31, 2026?",
@@ -269,7 +338,10 @@
       "sourceUrl": "https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-$800-Million-at-$8.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All",
       "verified": false,
       "publishedAt": "2026-07-01",
-      "topics": ["ai-industry", "ai-engineering"],
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
       "summary": "Together AI announced a $800 million Series C round on July 1, 2026, at an $8.3 billion post-money valuation — led by Saudi Aramco's Prosperity7 venture arm, with participation from NVIDIA, Vista Equity Partners, General Catalyst, Emergence Capital, and others. The company, which provides inference infrastructure for open-weight models including DeepSeek, Nemotron, MiniMax, and Kimi, plans to use the capital to expand its product surface and scale its infrastructure footprint roughly 50-fold over the next five years. The raise represents a dramatic acceleration from Together AI's $3.3 billion valuation in a February 2025 round and reflects sustained investor conviction in open-source AI compute as an independent business layer beneath closed frontier models.",
       "keyConcepts": [
         "Open-source AI inference infrastructure",
@@ -278,8 +350,17 @@
         "Open-weight model commercialization"
       ],
       "whyItMatters": "Together AI's raise signals that the open-source AI inference layer is now large enough to attract sovereign wealth and strategic investors at frontier valuations — not just AI-native VCs. For developers, it means the infrastructure for running open-weight models at scale is becoming better-capitalized and more stable, which matters as DeepSeek and its successors move from research curiosities to production workloads.",
-      "tags": ["together-ai", "open-source-ai", "ai-infrastructure", "series-c", "aramco", "nvidia"],
-      "relatedIds": ["youtube-Q1nb1W0Yr7Q"],
+      "tags": [
+        "together-ai",
+        "open-source-ai",
+        "ai-infrastructure",
+        "series-c",
+        "aramco",
+        "nvidia"
+      ],
+      "relatedIds": [
+        "youtube-Q1nb1W0Yr7Q"
+      ],
       "knowledgeChecks": [
         {
           "question": "Who led Together AI's $800 million Series C round announced July 1, 2026?",
@@ -313,7 +394,10 @@
       "sourceUrl": "https://www.youtube.com/watch?v=hKHyx75WVk0",
       "verified": false,
       "publishedAt": "2026-06-30",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "Wes Roth breaks down Anthropic's Claude Sonnet 5 launch, analyzing whether the model's near-Opus 4.8 benchmark performance justifies its positioning as the go-to model for agentic workflows. The video focuses on the practical cost calculus: Sonnet 5 at $2 input/$10 output (introductory) versus Opus 4.8's significantly higher rates, and what that means for developers building production agent pipelines. Roth also flags the August 31 pricing cliff and what teams should do before the introductory window closes.",
       "keyConcepts": [
         "Sonnet 5 vs Opus 4.8 performance gap",
@@ -322,8 +406,18 @@
         "Mid-tier frontier model positioning"
       ],
       "whyItMatters": "For developers choosing between models for production agentic systems, Sonnet 5's introductory pricing makes the cost-performance calculus unusually clear: near-Opus performance at roughly one-third the cost is a meaningful shift. Wes Roth's framing of the August 31 deadline adds useful urgency for teams still evaluating whether to migrate existing workflows.",
-      "tags": ["claude-sonnet-5", "anthropic", "wes-roth", "ai-agents", "pricing", "model-comparison"],
-      "relatedIds": ["article-claude-sonnet-5-launch-20260630", "article-anthropic-claude-science-workbench-20260630"],
+      "tags": [
+        "claude-sonnet-5",
+        "anthropic",
+        "wes-roth",
+        "ai-agents",
+        "pricing",
+        "model-comparison"
+      ],
+      "relatedIds": [
+        "article-claude-sonnet-5-launch-20260630",
+        "article-anthropic-claude-science-workbench-20260630"
+      ],
       "knowledgeChecks": [
         {
           "question": "According to Wes Roth's analysis, what is the primary practical reason to use Claude Sonnet 5 over Opus 4.8 for agentic tasks right now?",
@@ -357,7 +451,10 @@
       "sourceUrl": "https://www.youtube.com/watch?v=Q1nb1W0Yr7Q",
       "verified": false,
       "publishedAt": "2026-07-01",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "TheAIGRID's Weekly Roundup #520 covers the week's biggest AI stories: Anthropic's allegation that Alibaba used 25,000 fraudulent accounts to run 28.8 million Claude conversations in a large-scale model distillation attack targeting agentic and cybersecurity capabilities. The roundup also covers the UN's independent scientific panel delivering its first global AI assessment — warning that AI capabilities are outpacing the scientific community's understanding — and Together AI closing an $800 million Series C at an $8.3 billion valuation. Additional stories include chipmaker earnings, Washington's move to block a Chinese AI lab, and Netflix's use of ElevenLabs to recreate Gene Wilder's voice for a competition series.",
       "keyConcepts": [
         "Model distillation attacks at scale",
@@ -366,8 +463,18 @@
         "AI creative voice synthesis"
       ],
       "whyItMatters": "This week's news shows three concurrent AI battlegrounds: IP and security (Alibaba distillation), governance (UN assessment), and infrastructure (Together AI funding). The simultaneity of these developments — not any single story — signals that AI is entering a phase where commercial, regulatory, and security pressures are colliding in real time rather than sequentially.",
-      "tags": ["theaigrid", "weekly-roundup", "alibaba", "distillation", "un-ai-report", "together-ai"],
-      "relatedIds": ["article-together-ai-800m-series-c-20260701", "article-anthropic-fable-mythos-restrictions-lifted-20260701"],
+      "tags": [
+        "theaigrid",
+        "weekly-roundup",
+        "alibaba",
+        "distillation",
+        "un-ai-report",
+        "together-ai"
+      ],
+      "relatedIds": [
+        "article-together-ai-800m-series-c-20260701",
+        "article-anthropic-fable-mythos-restrictions-lifted-20260701"
+      ],
       "knowledgeChecks": [
         {
           "question": "What technique did Alibaba allegedly use to extract Claude's agentic and cybersecurity capabilities?",
