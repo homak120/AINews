@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T12:00:00.000Z",
+  "generatedAt": "2026-08-02T20:00:00.000Z",
   "weekOf": "2026-07-27",
-  "coverageStart": "2026-08-01",
+  "coverageStart": "2026-07-31",
   "coverageEnd": "2026-08-02",
   "items": [
     {
@@ -216,6 +216,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Under EO 14409, the classified benchmarking process designates 'covered frontier models' based on advanced cyber capabilities, with the NSA Director making the final designation. CISA plays a separate but complementary role—issuing Binding Operational Directives to expedite cyber defense of civilian federal systems and expanding AI-enabled defensive cybersecurity tools, but the frontier model designation authority sits with NSA leadership."
+        }
+      ]
+    },
+    {
+      "id": "marktechpost-deepseek-v4-flash-0731-july-2026",
+      "type": "article",
+      "title": "DeepSeek Upgrades V4-Flash-0731 With Major Agentic and Coding Gains, Beating Its Flagship Pro Model on Nine Benchmarks",
+      "sourceUrl": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+      "verified": false,
+      "publishedAt": "2026-07-31",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "DeepSeek released DeepSeek-V4-Flash-0731, the production release of its Flash model, as a retrained version of the earlier V4-Flash-Preview using a significantly improved post-training pipeline focused on coding, AI agents, reasoning, and tool use. The model carries 284 billion total parameters with only 13 billion active per token via a Mixture-of-Experts architecture, supports a 1-million-token context window, and scores higher than DeepSeek's own V4-Pro-Preview on all nine agent and coding benchmarks published. The model maintains the same API endpoint, latency profile, and pricing as the V4-Flash-Preview it replaces.",
+      "keyConcepts": [
+        "Mixture-of-Experts (MoE) architecture with 284B total / 13B active parameters",
+        "Improved post-training pipeline for agentic task performance",
+        "1-million-token context window for long-context reasoning",
+        "Drop-in API replacement with no latency or pricing changes"
+      ],
+      "whyItMatters": "DeepSeek-V4-Flash-0731 demonstrates that aggressive post-training refinement—not just scaling model size—can unlock dramatic capability gains. Beating a larger flagship model on agentic benchmarks while staying at the same price point intensifies competitive pressure on OpenAI, Anthropic, and Google, particularly for developers who depend on low-latency, cost-efficient models for autonomous coding and agentic workflows.",
+      "tags": ["deepseek", "llm-release", "ai-engineering", "agentic-ai", "moe-architecture", "coding-agents"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural approach allows DeepSeek-V4-Flash-0731 to use only 13 billion parameters during inference despite having 284 billion total?",
+          "options": [
+            "Quantization to 4-bit precision",
+            "Knowledge distillation into a smaller student model",
+            "Mixture-of-Experts (MoE), where only a subset of expert modules activate per token",
+            "Speculative decoding with a smaller draft model"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mixture-of-Experts (MoE) architectures contain many specialized sub-networks ('experts') but route each token through only a small fraction of them at inference time. DeepSeek-V4-Flash-0731 activates 13B parameters per token from its 284B total, enabling the model to maintain the knowledge capacity of a much larger system while running at the computational cost of a smaller one—delivering high intelligence per dollar."
+        },
+        {
+          "question": "What is the most significant implication of DeepSeek-V4-Flash-0731 outperforming V4-Pro-Preview on agentic benchmarks?",
+          "options": [
+            "It proves that larger models are always inferior to smaller ones for coding tasks",
+            "It shows that post-training optimization can overcome raw parameter count advantages, reshaping how labs approach capability improvements",
+            "It means DeepSeek will discontinue its Pro model family entirely",
+            "It confirms that benchmark performance is unrelated to real-world agentic task success"
+          ],
+          "correctIndex": 1,
+          "explanation": "V4-Flash-0731 beats DeepSeek's own larger V4-Pro-Preview model on nine agent and coding benchmarks—not through architecture changes or more parameters, but through a better post-training pipeline. This challenges the assumption that larger models automatically win, and suggests that labs with strong post-training expertise can outperform those who simply scale compute. It also signals that the frontier of agentic AI performance is increasingly determined by RLHF, tool-use training, and reasoning fine-tunes rather than raw model size."
+        }
+      ]
+    },
+    {
+      "id": "bleepingcomputer-deepseek-hermes-agent-cyberattacks-july-2026",
+      "type": "article",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Cyberattacks Against 460+ Servers",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
+      "verified": false,
+      "publishedAt": "2026-07-31",
+      "topics": ["ai-industry"],
+      "summary": "Palo Alto Networks' Unit 42 documented a Chinese-speaking threat actor tracked as 'knaithe' who wired DeepSeek's reasoning capabilities into the open-source Hermes Agent framework and directed it via a Telegram channel to autonomously enumerate targets, source public exploits, and attack over 460 internet-facing systems. While most autonomous exploitation attempts were unsuccessful, three organizations suffered confirmed data exfiltration via CVE-2026-3055 in Citrix NetScaler. The campaign illustrates a complete offensive AI workflow—from instruction to autonomous target discovery and exploitation—executed by a single operator through a chat interface.",
+      "keyConcepts": [
+        "Hermes Agent open-source framework for autonomous offensive operations",
+        "DeepSeek as a reasoning engine for autonomous attack planning",
+        "Telegram as a command-and-control interface for AI agents",
+        "FOFA internet asset search for autonomous target discovery"
+      ],
+      "whyItMatters": "This campaign represents one of the first documented cases of an AI reasoning model being used as the 'brain' of an autonomous cyberattack workflow at scale. The operator needed only to issue a high-level objective via Telegram; the AI handled target selection, exploit selection, and attack execution autonomously. This raises the floor for sophisticated cyberattacks by reducing the expertise required to operate them, and signals that agentic AI security risks are no longer theoretical.",
+      "tags": ["cybersecurity", "ai-agents", "deepseek", "agentic-attacks", "unit42", "offensive-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What role did DeepSeek play in the 'knaithe' cyberattack campaign documented by Palo Alto Unit 42?",
+          "options": [
+            "It was used as a phishing lure to trick victims into revealing credentials",
+            "It served as the reasoning engine within the Hermes Agent framework, autonomously planning and executing attack steps",
+            "It generated deepfake audio to impersonate IT support staff",
+            "It was the attack target, not a tool used by the attacker"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek was integrated as the AI reasoning backend within Hermes Agent, an open-source agentic framework. When the operator issued an attack directive via Telegram, DeepSeek evaluated the objective and autonomously orchestrated the subsequent steps—using FOFA to find targets, selecting public exploits, and executing attack attempts. This 'AI as attacker brain' architecture separates the decision-making intelligence from the operator, lowering the skill threshold for running autonomous attack campaigns."
+        },
+        {
+          "question": "What does the 'knaithe' campaign most clearly illustrate about the emerging threat landscape for AI security?",
+          "options": [
+            "That AI reasoning models are too slow to be useful in real cyberattacks",
+            "That autonomous AI agents can lower the skill floor for sophisticated cyberattacks, making previously expert-only operations accessible through a chat interface",
+            "That open-source AI frameworks pose no significant additional risk beyond existing hacking tools",
+            "That AI-powered attacks always succeed against unpatched systems"
+          ],
+          "correctIndex": 1,
+          "explanation": "The campaign required the operator to issue only a high-level objective via Telegram—the AI handled target enumeration, exploit selection, and attack sequencing autonomously. This architecture democratizes capability: tasks that previously required deep operational security expertise can now be delegated to an AI agent. The implication for defenders is that the sophistication ceiling for AI-assisted attacks is rising rapidly while the skill floor is dropping, expanding the pool of threat actors who can execute complex campaigns."
+        }
+      ]
+    },
+    {
+      "id": "9to5google-ai-studio-canceled-gemini-july-2026",
+      "type": "article",
+      "title": "Google Cancels AI Studio Mobile App After 800,000 Preorders, Folds App-Creation Features Into Gemini",
+      "sourceUrl": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+      "verified": false,
+      "publishedAt": "2026-07-31",
+      "topics": ["ai-industry"],
+      "summary": "Google announced on July 31 that it is canceling its standalone AI Studio mobile app for iOS and Android, despite accumulating over 800,000 preorders since Google I/O 2026. Instead, the company is folding app-creation capabilities directly into the Gemini app on both mobile and desktop platforms, so users can build and launch apps through natural conversation with Gemini without a separate download. The AI Studio website for desktop remains available for developers who want a dedicated interface.",
+      "keyConcepts": [
+        "AI Studio app-creation capabilities moving into Gemini conversational interface",
+        "Consolidated AI product strategy under the Gemini brand",
+        "App generation via natural language conversation rather than a dedicated tool",
+        "Product consolidation following Google I/O 2026 announcements"
+      ],
+      "whyItMatters": "Google's decision to cancel a product with 800K preorders in favor of Gemini integration signals a deliberate platform consolidation strategy—concentrating AI capabilities inside a single conversational interface rather than proliferating standalone apps. This mirrors the pattern set by ChatGPT's plugin-to-GPT evolution: as AI assistants become more capable, building separate apps for each capability becomes redundant if the base chat interface can handle them natively.",
+      "tags": ["google", "gemini", "ai-studio", "product-strategy", "mobile-ai", "app-creation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Google cancel the AI Studio standalone mobile app despite having 800,000 preorders?",
+          "options": [
+            "Regulatory pressure from the EU prevented the app from launching in European markets",
+            "Google decided to integrate app-creation features directly into the Gemini app rather than maintain a separate product",
+            "Apple rejected the AI Studio app from the App Store over privacy concerns",
+            "The app was found to violate US AI export control regulations"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google explicitly chose product consolidation over a standalone launch. Rather than distributing AI Studio's app-creation capabilities in a separate app—which would require users to manage another download and context switch between tools—Google integrated those features into the Gemini app itself. The stated vision is that app creation happens naturally within ongoing Gemini conversations, eliminating the need for dedicated tooling."
+        },
+        {
+          "question": "What broader product strategy does Google's cancellation of AI Studio mobile in favor of Gemini integration represent?",
+          "options": [
+            "Google is exiting the mobile AI market to focus exclusively on enterprise cloud products",
+            "Consolidating AI capabilities into a single conversational interface rather than fragmenting them across specialized apps",
+            "Copying Apple's strategy of offering no standalone AI apps on iOS",
+            "Reducing investment in AI development due to declining user interest"
+          ],
+          "correctIndex": 1,
+          "explanation": "The cancellation reflects a deliberate platform strategy: as conversational AI becomes more capable, it can absorb tasks that previously required specialized tools. Rather than asking users to switch between Gemini and AI Studio, Google folds the latter's capabilities into the conversation itself. This consolidation around a single 'AI hub' interface—similar to how ChatGPT absorbed many plugin functions into its core product—reduces user friction while concentrating engagement within one product surface."
         }
       ]
     }
