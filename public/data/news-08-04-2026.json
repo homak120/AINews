@@ -1,9 +1,53 @@
 {
-  "generatedAt": "2026-08-04T10:00:00.000Z",
+  "generatedAt": "2026-08-04T14:00:00.000Z",
   "weekOf": "2026-08-03",
   "coverageStart": "2026-08-03",
-  "coverageEnd": "2026-08-03",
+  "coverageEnd": "2026-08-04",
   "items": [
+    {
+      "id": "youtube-ppfLvPYeLiQ",
+      "type": "video",
+      "title": "This Week in AI: OpenAI Astra Solves Unsolved Math, Gemini Robotics 2, and More",
+      "youtubeId": "ppfLvPYeLiQ",
+      "sourceUrl": "https://www.youtube.com/watch?v=ppfLvPYeLiQ",
+      "verified": false,
+      "publishedAt": "2026-08-03",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "OpenAI's unreleased Astra model produced new proofs for 10 unsolved math problems — some open for decades — publishing a 249-page manuscript and fully verified Lean 4 proof certificates. Google DeepMind also shipped Gemini Robotics 2, a vision-language-action model that brings whole-body intelligence and dexterous manipulation to humanoid robots of different form factors. The episode rounds up the week's biggest AI breakthroughs across research, products, and robotics.",
+      "keyConcepts": [
+        "OpenAI Astra: solving long-standing open math problems with Lean 4 verified proofs",
+        "Non-sofic group construction: settling a 25-year-old open question in group theory",
+        "Gemini Robotics 2: vision-language-action model for humanoid whole-body control",
+        "AI frontier expanding into formal mathematics and physical robotics simultaneously"
+      ],
+      "whyItMatters": "Both stories mark AI crossing into domains where it was previously ineffective: rigorous formal mathematics and real-world physical dexterity. OpenAI's Astra proofs are independently verifiable by machine — removing human trust from the equation — while Gemini Robotics 2 brings the Gemini reasoning stack directly into robotic motor control, accelerating the path to capable physical AI agents.",
+      "tags": ["openai", "astra", "mathematics", "gemini-robotics", "google-deepmind", "robotics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes OpenAI Astra's math proofs particularly significant from a verification standpoint?",
+          "options": [
+            "They were peer-reviewed by Fields Medalists before publication",
+            "They are formalized in Lean 4 with zero 'sorry' placeholders, making them fully machine-checkable",
+            "They were independently reproduced by Google DeepMind",
+            "They were submitted to arXiv before any human reviewed them"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 249-page manuscript's Lean 4 proofs have a 'sorry' count of zero, meaning every logical step across all ten proofs is fully machine-verifiable with no gaps. This removes the need to trust human mathematicians' intuitive leaps — a major milestone in AI-assisted formal mathematics."
+        },
+        {
+          "question": "What type of model is Gemini Robotics 2, and what inputs does it take?",
+          "options": [
+            "A reinforcement learning agent trained purely on simulation data",
+            "A text-only language model fine-tuned on robotics manuals",
+            "A vision-language-action (VLA) model that converts vision and language inputs into motor control",
+            "A diffusion model generating robot trajectories from images"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini Robotics 2 is a vision-language-action (VLA) model — it takes both visual and language inputs and outputs motor control signals. This architecture lets robots understand natural language instructions and visual context, then translate them directly into physical movement."
+        }
+      ]
+    },
     {
       "id": "article-palantir-q2-2026-earnings-ai-demand",
       "type": "article",
