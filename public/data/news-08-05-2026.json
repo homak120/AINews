@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:00:00Z",
+  "generatedAt": "2026-08-05T17:45:00Z",
   "weekOf": "2026-08-03",
   "coverageStart": "2026-08-04",
   "coverageEnd": "2026-08-05",
@@ -173,6 +173,136 @@
           ],
           "correctIndex": 2,
           "explanation": "Think Fast 2.0 reasons in parallel with speech generation — the model handles complex reasoning and produces audio simultaneously rather than completing reasoning before speaking. This preserves low latency while enabling smarter responses."
+        }
+      ]
+    },
+    {
+      "id": "youtube-wAxACbpulQE",
+      "type": "video",
+      "title": "The Entire AI Industry Just Turned Against Anthropic",
+      "youtubeId": "wAxACbpulQE",
+      "sourceUrl": "https://www.youtube.com/watch?v=wAxACbpulQE",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": ["ai-industry"],
+      "summary": "TheAIGRID examines the mounting industry backlash against Anthropic, covering how competitive tensions and policy positions have alienated major partners. Key friction points include the release of Claude Design, which put Anthropic in direct competition with Figma — one of its own partners — and Anthropic's outspoken opposition to open-weight AI models, a stance that has drawn criticism from Nvidia, Microsoft, Meta, Google, and dozens of other major tech companies.",
+      "keyConcepts": [
+        "Open-weight AI model debate",
+        "Anthropic vs. tech industry partner tensions",
+        "AI safety arguments against open-weight models",
+        "Competitive dynamics between AI safety and openness"
+      ],
+      "whyItMatters": "The fracture between Anthropic and much of the tech industry reveals a fundamental strategic divide: can an AI safety company maintain partner relationships while competing with those partners and lobbying against industry-favored open-weight models? How this tension resolves could shape the future of AI access and regulation.",
+      "tags": ["anthropic", "open-weight-ai", "ai-safety", "industry-tensions", "open-source-ai", "ai-policy"],
+      "relatedIds": ["article-anthropic-tino-cuellar-cgao-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Which company did Anthropic's Claude Design tool put it in direct competition with — one of its own partners?",
+          "options": [
+            "Salesforce",
+            "Figma",
+            "Adobe",
+            "Canva"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's release of Claude Design was seen as direct competition to Figma, a design tool company that is also an Anthropic partner. Figma's CEO stated that Anthropic had not been 'consistently candid in their communications.'"
+        },
+        {
+          "question": "What stance has Anthropic taken that drew criticism from Nvidia, Microsoft, Meta, and Google?",
+          "options": [
+            "Opposing the EU AI Act",
+            "Arguing against open-weight AI models",
+            "Blocking API access to non-US companies",
+            "Requiring government review before model releases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic has argued against open-weight AI models on safety grounds, while Nvidia, Microsoft, Meta, Google, IBM, Hugging Face, Mozilla, Palantir, and dozens of other companies have publicly backed open-weight models, creating a significant divide."
+        }
+      ]
+    },
+    {
+      "id": "article-anaconda-enkrypt-ai-security-aug2026",
+      "type": "article",
+      "title": "Anaconda Acquires Enkrypt AI After Finding 143,000 Vulnerabilities in MCP Servers",
+      "sourceUrl": "https://www.anaconda.com/blog/anaconda-acquires-enkrypt-ai",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anaconda acquired AI security startup Enkrypt AI on August 4, 2026, integrating its pre-deployment red-teaming across 300+ attack categories and runtime guardrails into the Anaconda Platform. The acquisition followed Enkrypt's scan of 268,000 tools across 25,000 MCP servers, which uncovered 143,000 vulnerabilities affecting 73% of those servers. The deal also includes compliance automation for NIST AI Risk Management Framework and the EU AI Act. This followed Anaconda's July 2026 acquisition of Kilo Code.",
+      "keyConcepts": [
+        "MCP server security vulnerabilities at scale",
+        "Pre-deployment AI red-teaming",
+        "Runtime guardrails for AI agents",
+        "NIST and EU AI Act compliance automation"
+      ],
+      "whyItMatters": "With AI agents now routinely accessing enterprise systems through MCP servers, the attack surface has expanded dramatically. Enkrypt's finding that 73% of MCP servers carry vulnerabilities signals an urgent security gap — and Anaconda's acquisition moves agent security from a separate concern into the core development platform where teams already build and deploy models.",
+      "tags": ["anaconda", "enkrypt-ai", "mcp-security", "ai-agents", "enterprise-security", "ai-governance"],
+      "relatedIds": ["article-microsoft-orchard-agent-framework-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of MCP servers did Enkrypt AI find to contain vulnerabilities in their pre-acquisition scan?",
+          "options": [
+            "23%",
+            "48%",
+            "73%",
+            "91%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Enkrypt AI scanned more than 268,000 tools across 25,000 MCP servers and found 143,000 vulnerabilities, affecting 73% of those servers — a finding that helped motivate Anaconda's acquisition."
+        },
+        {
+          "question": "What does Enkrypt AI's pre-deployment red-teaming cover?",
+          "options": [
+            "10 basic prompt injection scenarios",
+            "50 standard adversarial attack patterns",
+            "Over 300 attack categories",
+            "Compliance with US government standards only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Enkrypt AI's platform performs pre-deployment red-teaming across more than 300 attack categories, along with runtime guardrails blocking jailbreaks and data leakage, and compliance automation for NIST and EU AI Act frameworks."
+        }
+      ]
+    },
+    {
+      "id": "article-rust-lang-llm-policy-aug2026",
+      "type": "article",
+      "title": "Rust Project Adopts LLM Policy That Bans AI-Generated PR Descriptions and Comments",
+      "sourceUrl": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
+      "verified": false,
+      "publishedAt": "2026-08-05",
+      "topics": ["ai-engineering"],
+      "summary": "Five teams in the Rust project adopted a formal LLM policy on August 5, 2026 governing how AI tools can be used when contributing to the rust-lang/rust monorepo. The policy distinguishes between LLMs that assist (allowed: analysis, review, refinement, suggestions) and LLMs that create (restricted: PR descriptions, issue bodies, code without prior reviewer arrangement). LLM-generated code is permitted only under strict conditions including pre-arrangement with a reviewer, non-critical scope, high quality, and thorough review. The policy does not represent an official project-wide stance on LLMs.",
+      "keyConcepts": [
+        "Assisted vs. AI-generated content distinction",
+        "Open source contribution quality and review bandwidth",
+        "LLM disclosure requirements for contributors",
+        "Experimental pathway for LLM-generated code changes"
+      ],
+      "whyItMatters": "As LLMs become embedded in developer workflows, major open source projects face a credibility challenge: 'polished technical products no longer indicate effort and understanding.' The Rust project's policy is an early and influential precedent for how high-stakes open source foundations handle AI-generated contributions — balancing productivity gains against review burden and code quality guarantees.",
+      "tags": ["rust-lang", "open-source", "llm-policy", "ai-generated-code", "software-engineering", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does the Rust LLM policy explicitly ban when authored by an LLM from a personal user account?",
+          "options": [
+            "Using AI code completion tools like Copilot",
+            "AI-assisted code review and analysis",
+            "Issue bodies, PR descriptions, and comments originally created by an LLM",
+            "Running AI-generated tests in the CI pipeline"
+          ],
+          "correctIndex": 2,
+          "explanation": "The policy bans comments, issue bodies, and PR descriptions that are originally created by an LLM from a personal user account. It distinguishes between LLMs that 'assist' writing (allowed) versus LLMs that 'create' the content directly (restricted)."
+        },
+        {
+          "question": "Under the Rust LLM policy, what conditions must be met for LLM-generated code changes to be permitted?",
+          "options": [
+            "No conditions — LLM code is fully permitted if tests pass",
+            "The code must be marked with a special LLM commit flag",
+            "Pre-arranged with a reviewer, non-critical scope, high quality, well-tested, and thoroughly reviewed",
+            "Only permitted for documentation and README updates"
+          ],
+          "correctIndex": 2,
+          "explanation": "The policy creates a strict experimental pathway for LLM-generated code: it must be pre-arranged with a reviewer, cover non-critical functionality, be high-quality, well-tested, and receive thorough code review — far more stringent than standard human-authored contributions."
         }
       ]
     }
