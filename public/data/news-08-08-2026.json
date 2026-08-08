@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T12:00:00Z",
+  "generatedAt": "2026-08-08T18:00:00Z",
   "weekOf": "2026-08-03",
   "coverageStart": "2026-08-07",
   "coverageEnd": "2026-08-08",
@@ -65,7 +65,7 @@
       ],
       "whyItMatters": "This is the first time a major AI lab has publicly acknowledged that a pre-release model may have crossed its own self-defined 'critical' risk boundary for cybersecurity — a milestone that safety researchers have warned about for years. The disclosure tests whether voluntary safety frameworks can function as intended: OpenAI is triggering containment and inviting outside scrutiny before release, but the incident also reveals that capability jumps can outpace the governance structures designed to manage them.",
       "tags": ["openai", "astra", "ai-safety", "cybersecurity", "preparedness-framework", "frontier-ai"],
-      "relatedIds": ["article-meta-muse-spark-containment-breach-aug2026", "article-kimi-k3-sandbox-escape-aug2026"],
+      "relatedIds": [],
       "knowledgeChecks": [
         {
           "question": "What immediate steps did OpenAI take after Astra evaluations flagged potential 'critical' cybersecurity capabilities?",
@@ -174,6 +174,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Germany's GEMA music rights society obtained an adverse ruling against Suno, which joined mounting international copyright lawsuits from major record labels as part of the legal pressure that contributed to Suno's decision to implement watermarking."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-nooa-agents-aug2026",
+      "type": "article",
+      "title": "NVIDIA Releases NOOA: An Open-Source Python Framework That Reduces Agent Development to a Single Class",
+      "sourceUrl": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-engineering"],
+      "summary": "NVIDIA AI released NOOA (NVIDIA Object-Oriented Agents), an open-source Apache 2.0 Python framework built around a single design principle: an AI agent is one Python class. Where conventional agent stacks spread logic across separate prompt templates, tool schemas, callback handlers, and workflow graphs, NOOA consolidates all of that into a single coherent object — making agents easier to test, trace, audit, and govern. On SWE-Bench Verified using GPT-5.5, NOOA hit 82.2%, beating the prior state-of-the-art of 79.2%, while also cutting token costs by up to 50%. The framework is available via pip install nooa, requires Python 3.12-3.13, and is currently classified as a research preview.",
+      "keyConcepts": [
+        "Object-oriented agent design: one agent = one Python class",
+        "Collapsing prompt templates, tool schemas, and callback code into a unified object",
+        "SWE-Bench Verified as a benchmark for real-world software engineering agents",
+        "Open-source research previews in AI engineering tooling"
+      ],
+      "whyItMatters": "Agent development fragmentation — scattered prompts, schemas, callbacks, and graphs spread across multiple files and frameworks — is one of the main barriers to building reliable AI systems at scale. NOOA's opinionated single-class abstraction provides a testable, auditable baseline that could meaningfully reduce the complexity tax that makes production agent deployments so brittle today.",
+      "tags": ["nvidia", "nooa", "ai-agents", "python", "open-source", "ai-engineering", "swe-bench"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the central design principle of NVIDIA's NOOA framework?",
+          "options": [
+            "An agent is defined by a YAML configuration file that separates prompts from business logic",
+            "An agent is a single Python class that consolidates prompts, tools, callbacks, and workflow into one object",
+            "An agent is a microservice that communicates with other agents via REST APIs",
+            "An agent is a fine-tuned model checkpoint that encodes behavior in weights rather than code"
+          ],
+          "correctIndex": 1,
+          "explanation": "NOOA's founding principle is that an agent is a single Python class — collapsing prompt templates, tool schemas, callback code, and workflow graphs into one coherent object, which makes agents easier to test, trace, and audit compared to multi-file, multi-framework setups."
+        },
+        {
+          "question": "What benchmark performance did NOOA achieve on SWE-Bench Verified using GPT-5.5?",
+          "options": [
+            "72.4%, matching previous state-of-the-art",
+            "76.1%, a minor improvement over prior systems",
+            "82.2%, beating the prior state-of-the-art of 79.2%",
+            "91.0%, a breakthrough that far exceeded existing frameworks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Using GPT-5.5, NOOA achieved 82.2% on SWE-Bench Verified, surpassing the previous state-of-the-art score of 79.2% — a meaningful gain on a benchmark designed to measure real-world software engineering task completion by AI agents."
+        }
+      ]
+    },
+    {
+      "id": "article-rippling-ai-spend-console-aug2026",
+      "type": "article",
+      "title": "Rippling Launches AI Spend Console After Its Own AI Token Costs Approached 40% of R&D Headcount Budget",
+      "sourceUrl": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Rippling's CFO disclosed to its executive team that the company was on track to spend 40% of its R&D headcount budget on AI tokens, with costs growing 80% month-over-month — a trajectory that would have made AI spend approach the total R&D payroll within a year. The experience prompted Rippling to build AI Spend Console, a product now generally available that tracks AI API spending broken down by individual employee, team, and role, identifies whether AI usage is actually boosting productivity, and provides a gateway layer that actively controls and shapes how AI tools are used across the organization. Rippling is offering the console included in its HR platform and also as a standalone product that integrates with other HR systems.",
+      "keyConcepts": [
+        "AI token budget governance at enterprise scale",
+        "Per-employee AI spend tracking and ROI measurement",
+        "AI gateway as an active cost-control mechanism, not passive reporting",
+        "Enterprise HR platforms expanding into AI spending oversight"
+      ],
+      "whyItMatters": "Rippling's trajectory — AI costs approaching 40% of R&D payroll within months — is not an edge case; it reflects the compounding spend pattern most engineering-heavy companies will hit as AI assistants, coding tools, and autonomous agents proliferate. The commercial market for AI budget governance is now clearly established, and Rippling's product signals that finance and HR platforms — not standalone cost tools — are positioned to own that layer.",
+      "tags": ["rippling", "ai-spend", "enterprise-ai", "ai-governance", "cost-management", "hr-tech", "ai-roi"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What internal data point triggered Rippling to build AI Spend Console?",
+          "options": [
+            "A security audit found unauthorized AI API keys being used by employees",
+            "A board member requested a breakdown of AI software licensing costs",
+            "The CFO found AI token costs were on track to reach 40% of R&D headcount budget, growing 80% month-over-month",
+            "A regulatory filing required disclosure of AI expenditures to shareholders"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rippling's CFO presented the executive team with a stark projection: AI token costs were growing 80% month-over-month and on track to reach 40% of the R&D headcount budget — nearly equal to the entire R&D payroll — within a year if left unchecked."
+        },
+        {
+          "question": "How does Rippling's AI Spend Console differ from traditional software spend tracking tools?",
+          "options": [
+            "It only tracks costs, not usage patterns or productivity metrics",
+            "It requires employees to manually log their AI tool usage each week",
+            "It includes a gateway that actively controls and shapes AI usage, not just passively reports on it",
+            "It only works with OpenAI APIs and does not support other AI providers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike passive spend-reporting tools, Rippling's AI Spend Console includes an active gateway layer that controls and shapes how AI APIs are actually used across the organization — not just tracking costs after the fact, but intervening to enforce spend policies in real time."
         }
       ]
     }
