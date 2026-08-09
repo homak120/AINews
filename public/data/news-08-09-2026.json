@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-09T18:00:00Z",
+  "weekOf": "2026-08-03",
+  "coverageStart": "2026-08-07",
+  "coverageEnd": "2026-08-07",
+  "items": [
+    {
+      "id": "article-anthropic-claude-code-automode-aug2026",
+      "type": "article",
+      "title": "Anthropic Sets Claude Code Auto Mode as Default, AI Classifier Catches 89% of Dangerous Commands",
+      "sourceUrl": "https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic announced on August 7 that Auto Mode will become the default permission mode for Claude Code starting August 14 for Pro, Max, and Team plan users. Rather than pausing for manual human approval at each agentic tool call, Auto Mode delegates that decision to a separate AI classifier that evaluates whether a given action is dangerous, irreversible, or out of scope — blocking it if so, and trying a safer alternative or requesting permission only when needed. Internal testing across 1,053 paid users found that the Auto Mode classifier caught 89% of dangerous commands, compared to just 13.6% caught by human reviewers in the same conditions. Teams using Auto Mode also generated approximately 25% more pull requests, suggesting a measurable productivity gain alongside the safety improvement. Users who have manually pinned a different permission mode will not be auto-switched; a one-time prompt will offer the option to opt in.",
+      "keyConcepts": [
+        "Auto Mode: AI classifier replacing manual approval prompts in agentic coding workflows",
+        "89% dangerous-command catch rate vs. 13.6% for human reviewers in controlled testing",
+        "Irreversibility detection as the key classification signal for agentic tool calls",
+        "Default-on rollout strategy: opt-out for users who have set custom permission modes"
+      ],
+      "whyItMatters": "Anthropic's data makes a surprising case: on average, human reviewers in agentic coding workflows are catching fewer than 1 in 7 dangerous commands in testing, while an AI classifier catches nearly 9 in 10. As Claude Code and similar tools take on longer-horizon autonomous tasks — running builds, editing files, executing shell commands — the 'human in the loop at every step' model may be less safe than a well-tuned automated classifier, not more. This shifts the design philosophy for agentic safety from mandatory human interruption toward supervised autonomy with targeted human escalation.",
+      "tags": ["anthropic", "claude-code", "auto-mode", "agentic-ai", "ai-safety", "developer-tools", "human-in-the-loop"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "In Anthropic's internal testing, how did Auto Mode's dangerous-command detection compare to human reviewers?",
+          "options": [
+            "Human reviewers caught 89% of dangerous commands; Auto Mode caught 13.6%",
+            "Both caught approximately the same proportion — around 50% each",
+            "Auto Mode caught 89% of dangerous commands; human reviewers caught only 13.6%",
+            "Auto Mode caught 55% and human reviewers caught 72%, with humans performing better overall"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's study of 1,053 paid users found that the Auto Mode classifier caught 89% of dangerous commands, while human reviewers in the same conditions caught only 13.6% — an outcome that challenges the assumption that manual human approval is inherently safer than well-calibrated AI automation for agentic tool calls."
+        },
+        {
+          "question": "What happens to Claude Code users who have already manually set a custom permission mode when Auto Mode becomes the default on August 14?",
+          "options": [
+            "They are automatically switched to Auto Mode with no notification",
+            "Their custom setting is preserved unless they accept a one-time opt-in prompt",
+            "They must contact Anthropic support to request an exemption from the change",
+            "Their sessions revert to the previous default (normal mode) rather than Auto Mode"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic specified that users or organizations who have already pinned a different permission mode will not be automatically switched to Auto Mode — their custom setting stays in place. They will receive a one-time prompt giving them the option to switch, but it is not mandatory."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-free-unlimited-luna-aug2026",
+      "type": "article",
+      "title": "OpenAI Removes ChatGPT Free-Tier Message Caps and Upgrades Default Model to GPT-5.6 Luna",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/08/07/openai-gpt-5-6-sol-luna-chatgpt-free-limits/",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI announced on August 6 that GPT-5.6 Luna will become the default model for ChatGPT's Free and Go tiers and that unlimited text conversations will replace the previous limit of 10 messages every 5 hours — a cap that had been in place since the service launched. The unlimited text chat rollout is staged, with free users receiving it starting the week of August 10. Free users also gain a 'Think' button for harder questions, providing on-demand access to extended reasoning without upgrading to a paid plan. OpenAI reported that GPT-5.6 Luna produces factual errors 62% less frequently than the previous free-tier default (GPT-5.5 Instant). Paid tier users are simultaneously being upgraded to GPT-5.6 Sol, an improved model emphasizing accuracy and conversational quality. Usage caps remain in place for image generation, voice interactions, file processing, and visual analysis across all free and Go accounts.",
+      "keyConcepts": [
+        "GPT-5.6 Luna as a dedicated free-tier model with improved factual accuracy over GPT-5.5 Instant",
+        "Unlimited text conversations replacing the 10-messages-per-5-hours free cap",
+        "On-demand extended reasoning ('Think' button) for free users",
+        "Tiered feature caps: unlimited text but metered compute-intensive features (image, voice, files)"
+      ],
+      "whyItMatters": "Removing the text message cap makes a current-generation frontier model effectively free for everyday conversational and reasoning use — eliminating the last meaningful access friction in the consumer AI market. The underlying business logic is a deliberate shift: monetize premium compute-intensive outputs (image generation, voice, long context) rather than basic text access, while using unlimited free text to drive ecosystem adoption at scale. This move also raises the floor for what competing products must offer to justify a free tier.",
+      "tags": ["openai", "chatgpt", "gpt-5-6-luna", "free-tier", "democratization", "ai-access", "unlimited-chats"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific usage limit is OpenAI removing for ChatGPT free-tier users?",
+          "options": [
+            "A daily limit of 50 total conversations per account",
+            "A cap of 10 text messages every 5 hours",
+            "A monthly token budget that reset on the first of each month",
+            "A 2,000-character limit on individual messages"
+          ],
+          "correctIndex": 1,
+          "explanation": "ChatGPT's free tier previously restricted users to 10 text messages every 5 hours — a rate cap that limited sustained use. OpenAI is replacing that with unlimited text conversations, with the rollout beginning the week of August 10."
+        },
+        {
+          "question": "Which types of ChatGPT features will still be metered (subject to usage caps) even after the unlimited text rollout for free users?",
+          "options": [
+            "Text conversations and extended reasoning ('Think' mode) will both remain capped",
+            "Only voice interactions remain capped; all other features become unlimited",
+            "Image generation, voice, file uploads, and visual analysis remain capped",
+            "No features remain capped — all usage becomes unlimited for free accounts"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI is removing the text conversation cap but explicitly keeping usage limits in place for compute-intensive features: image generation, voice interactions, file processing, and visual analysis. Only text-based conversations become unlimited for free and Go tier users."
+        }
+      ]
+    }
+  ]
+}
