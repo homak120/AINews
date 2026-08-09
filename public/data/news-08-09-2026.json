@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T18:00:00Z",
+  "generatedAt": "2026-08-09T23:00:00Z",
   "weekOf": "2026-08-03",
   "coverageStart": "2026-08-07",
-  "coverageEnd": "2026-08-07",
+  "coverageEnd": "2026-08-08",
   "items": [
     {
       "id": "article-anthropic-claude-code-automode-aug2026",
@@ -87,6 +87,178 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI is removing the text conversation cap but explicitly keeping usage limits in place for compute-intensive features: image generation, voice interactions, file processing, and visual analysis. Only text-based conversations become unlimited for free and Go tier users."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-astra-critical-cyber-aug2026",
+      "type": "article",
+      "title": "OpenAI Flags Astra as Potential First-Ever 'Critical' Cybersecurity Risk, Pauses Internal Development",
+      "sourceUrl": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI disclosed on August 7 that preliminary evaluations of its upcoming Astra model cannot rule out a 'Critical' cybersecurity capability level under its Preparedness Framework — a designation that has never been triggered before. A Critical rating would mean the model can autonomously identify and develop functioning zero-day exploits across hardened real-world critical systems, or independently devise and execute novel end-to-end attack strategies from only a broad goal. The disclosure triggered immediate containment steps: stricter security controls, a pause on some internal Astra development work, and plans to bring in government agencies and outside safety organizations for formal testing. OpenAI emphasized that the Critical threshold has not been formally confirmed — evaluations are preliminary — but framed the disclosure as a transparency obligation to the public and the security community.",
+      "keyConcepts": [
+        "Critical cybersecurity capability level: the highest tier in OpenAI's Preparedness Framework, indicating autonomous zero-day exploit capability against hardened real-world systems",
+        "Preparedness Framework: OpenAI's structured system for evaluating and gating model releases based on assessed risk levels",
+        "Containment steps: stricter security controls and development pauses triggered proactively before a threshold is formally confirmed",
+        "Government and third-party safety organization engagement as a required response to a potential Critical flag"
+      ],
+      "whyItMatters": "Astra is the first model to trigger even a possible Critical cybersecurity flag under OpenAI's own framework — a threshold the company defined but apparently didn't expect to encounter this soon. If confirmed, it would represent the first model capable of autonomously attacking hardened real-world systems, shifting AI safety from a theoretical concern to an operational one requiring active containment. The development pause, government engagement, and public disclosure before formal confirmation set a new precedent for how frontier labs handle safety thresholds mid-development.",
+      "tags": ["openai", "astra", "cybersecurity", "preparedness-framework", "ai-safety", "zero-day", "frontier-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under OpenAI's Preparedness Framework, what capability must a model demonstrate to reach the 'Critical' cybersecurity level?",
+          "options": [
+            "Producing detailed text descriptions of known cyberattack methodologies upon request",
+            "Autonomously identifying and exploiting zero-day vulnerabilities in hardened real-world critical systems",
+            "Assisting security researchers in documenting existing vulnerabilities in CVE databases",
+            "Generating working proof-of-concept exploits for publicly disclosed CVEs within 24 hours of disclosure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Under OpenAI's Preparedness Framework, the Critical cybersecurity level requires autonomous capability to identify and develop functioning zero-day exploits across hardened real-world critical systems, or to independently devise and execute novel end-to-end attack strategies from only a broad goal. Assisting humans with documentation or generating exploits for already-known CVEs falls far below that bar."
+        },
+        {
+          "question": "What concrete steps did OpenAI take after preliminary evaluations suggested Astra might reach the Critical cybersecurity level?",
+          "options": [
+            "OpenAI immediately terminated the Astra project and archived all model weights",
+            "OpenAI released Astra publicly so the broader security community could evaluate it independently",
+            "OpenAI applied stricter security controls, paused some internal development, and planned government and third-party safety testing",
+            "OpenAI moved Astra training to permanently air-gapped infrastructure with no network access"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI applied stricter security controls, paused some internal Astra development work, and announced plans to bring in government agencies and outside safety organizations for formal testing. The model was not released publicly, terminated, or moved to air-gapped infrastructure — OpenAI framed the response as responsible containment while evaluations continue."
+        }
+      ]
+    },
+    {
+      "id": "article-bytedance-10t-parameter-model-aug2026",
+      "type": "article",
+      "title": "ByteDance Reportedly Pretraining a 10-Trillion Parameter AI Model to Rival Anthropic's Mythos 5",
+      "sourceUrl": "https://www.technology.org/2026/08/08/bytedance-10-trillion-parameter-ai-model-mythos/",
+      "verified": false,
+      "publishedAt": "2026-08-08",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "The Financial Times reported on August 7 that ByteDance is pretraining a model with as many as 10 trillion parameters, citing three people familiar with the project. At that scale, the model would be more than triple the size of Kimi K3 and directly competitive with Anthropic's Mythos 5 on raw parameter count. Pretraining is expected to take three to six months before the model reaches evaluation, and ByteDance has not publicly named the model, disclosed the number of active parameters per token, or provided a release date. Industry analysts note that 10 trillion is a pretraining upper bound, not a finished performance benchmark — architecture choices and active parameter counts at inference will determine actual capability more than the total count.",
+      "keyConcepts": [
+        "Pretraining scale: 10 trillion total parameters as the upper bound under consideration — not a finished or released model",
+        "Active vs. total parameters: mixture-of-experts architectures activate a fraction of total weights per token, making raw count a poor direct capability proxy",
+        "Frontier competition: ByteDance positioning to match Anthropic's Mythos 5 and extend its reach beyond the Kimi K-series",
+        "Three-to-six month pretraining timeline before evaluation can begin"
+      ],
+      "whyItMatters": "A 10-trillion parameter model from ByteDance would be the largest publicly acknowledged pretraining run by a Chinese AI lab, and would represent a direct challenge to Anthropic's top-tier Mythos 5 on raw scale. Even as the AI industry debates whether total parameter count still drives capability gains in an era of efficient MoE architectures, the sheer investment signals that ByteDance is committed to competing at the frontier — not ceding it to US labs while focusing on smaller, cheaper models.",
+      "tags": ["bytedance", "large-language-models", "scaling", "mythos", "frontier-models", "ai-race", "pretraining"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why might ByteDance's 10-trillion parameter figure be misleading as a direct capability benchmark?",
+          "options": [
+            "ByteDance has a pattern of announcing AI models it later cancels before any public release",
+            "In mixture-of-experts architectures, only a fraction of total parameters activate per token — active parameter count drives practical capability more than total count",
+            "10 trillion parameters falls below current estimates of the scale threshold needed for frontier-level performance",
+            "The figure refers to the number of training tokens consumed during pretraining, not the number of model parameters"
+          ],
+          "correctIndex": 1,
+          "explanation": "In mixture-of-experts (MoE) architectures — common in frontier models — the total parameter count includes weights that aren't activated for every token. Active parameters per forward pass determine inference compute and, to a large degree, practical capability. ByteDance's 10 trillion figure is a pretraining upper bound on total parameters and doesn't disclose active parameter counts, making direct capability comparisons to competitor models unreliable."
+        },
+        {
+          "question": "When could ByteDance's 10-trillion parameter model be available for internal evaluation, given the reported pretraining timeline?",
+          "options": [
+            "Evaluation could begin as early as November 2026, assuming pretraining started around August 2026 and takes three to six months",
+            "ByteDance committed to a Q1 2027 public release date in the Financial Times report",
+            "The model is already past pretraining and in the post-training alignment phase",
+            "Evaluation is impossible to estimate because ByteDance did not disclose when pretraining began"
+          ],
+          "correctIndex": 0,
+          "explanation": "If pretraining started around August 2026 and takes the reported three to six months, internal evaluation could begin as early as November 2026 and as late as February 2027. ByteDance has not committed to a release date or confirmed when pretraining started — the Financial Times report only confirmed the pretraining phase was underway."
+        }
+      ]
+    },
+    {
+      "id": "article-cloudflare-kitesurf-agent-browser-aug2026",
+      "type": "article",
+      "title": "Cloudflare Launches Kitesurf, a Rust-Native Browser Engine Built Natively for AI Agents",
+      "sourceUrl": "https://easternherald.com/2026/08/08/cloudflare-kitesurf-browser-ai-agents/",
+      "verified": false,
+      "publishedAt": "2026-08-08",
+      "topics": ["ai-engineering"],
+      "summary": "Cloudflare launched Kitesurf during its 'Agents Week' on August 6 — a headless browser engine written from scratch in Rust, compiled to WebAssembly, and running entirely inside Cloudflare Workers V8 isolates. Built in 12 weeks from open-source components (Blitz rendering, Firefox's Stylo CSS parser, and the Rust-native Boa JS engine), Kitesurf uses 3–7× less CPU and memory than Chromium for common agentic tasks like screenshots and HTML extraction. It is stateless by design, passes more than 235,000 Web Platform Tests with 97% DOM and 96% HTML subtest coverage, and exposes a CDP endpoint compatible with existing Puppeteer, Playwright, and MCP clients. Kitesurf is available free in public beta on Cloudflare Workers.",
+      "keyConcepts": [
+        "Agent-native browser: a headless browser whose design tradeoffs optimize for LLM agents rather than human users — stateless, memory-efficient, no persistent session state",
+        "V8 isolates: lightweight sandboxes inside Cloudflare Workers that run Kitesurf without a full VM or container",
+        "CDP endpoint: Chrome DevTools Protocol compatibility allowing existing Puppeteer, Playwright, and MCP automation to switch with minimal code changes",
+        "3–7× memory and CPU reduction vs. Chromium for typical agentic workloads including screenshots and HTML extraction"
+      ],
+      "whyItMatters": "Until now, AI agents that need to browse the web have relied on Chromium or similar human-oriented browsers — expensive, stateful, and over-engineered for what agents actually do. Kitesurf resets the baseline: a stateless, memory-efficient, Rust-native runtime designed from the ground up for LLM consumption. Running on Cloudflare's global edge network, it also positions Cloudflare as infrastructure for the agent web, not just the human web — a significant expansion of its role in the AI stack.",
+      "tags": ["cloudflare", "kitesurf", "ai-agents", "browser", "rust", "webassembly", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Kitesurf's CDP endpoint compatibility mean for developers who currently automate browsers with Puppeteer or Playwright?",
+          "options": [
+            "They must rewrite their automation scripts entirely to use Kitesurf's proprietary Rust API",
+            "Their existing Puppeteer and Playwright code can target Kitesurf with minimal changes, since CDP is a shared protocol both use",
+            "CDP compatibility only applies to screenshot and HTML extraction tasks; other automation commands are unsupported",
+            "Kitesurf requires a paid Cloudflare Workers plan for CDP access, even during the public beta"
+          ],
+          "correctIndex": 1,
+          "explanation": "CDP (Chrome DevTools Protocol) is the low-level interface that Puppeteer, Playwright, and similar frameworks use to control browser instances. Because Kitesurf exposes a standard CDP endpoint, existing automation scripts that target Chromium can be redirected to Kitesurf with minimal code changes — the protocol is the same, and the switch doesn't require rewriting existing tooling."
+        },
+        {
+          "question": "Why is a stateless architecture particularly valuable for a browser designed for AI agents, compared to a traditional stateful browser?",
+          "options": [
+            "Stateless browsers can parse JavaScript faster because they skip event listener registration",
+            "Stateless sessions eliminate persistent state between requests, reducing memory footprint and enabling trivial horizontal scaling across many simultaneous agent tasks",
+            "Stateless design removes the need for cookie storage, which eliminates an entire class of privacy vulnerabilities that concern enterprise customers",
+            "A stateless architecture is a WebAssembly compilation requirement and has no specific benefit specific to AI agents"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI agents typically handle many short-lived, independent browsing tasks — navigate, extract, screenshot, done — with no need to carry state between requests. A stateless architecture means each task starts fresh with no leftover state, which also makes the system trivially parallelizable: spinning up 100 simultaneous Kitesurf sessions carries no coordination overhead from shared session state, unlike a traditional browser that maintains persistent cookies, cache, and session context."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-code-cross-session-messaging-aug2026",
+      "type": "article",
+      "title": "Claude Code v2.1.224 Adds Native Cross-Session Messaging with ListAgents and SendMessage",
+      "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
+      "verified": false,
+      "publishedAt": "2026-08-07",
+      "topics": ["ai-engineering"],
+      "summary": "Claude Code v2.1.224 shipped on August 7 with two new built-in tools — ListAgents and SendMessage — enabling active Claude Code sessions to discover and message each other directly on macOS and Linux. ListAgents surfaces all currently reachable sessions: in-process subagents, other local sessions including background ones, and remote sessions when Remote Control is connected. SendMessage delivers plain-text summaries between sessions; same-machine traffic travels over a local socket and never reaches Anthropic servers, while cross-machine messages route through Anthropic's relay as reply-only. The release also includes rate limiting, deduplication of repeated identical messages, a 50-message unread queue cap, and a patch for a real sandbox bypass vulnerability.",
+      "keyConcepts": [
+        "ListAgents: discovers all Claude Code sessions currently reachable — subagents, local background sessions, and remote sessions via Remote Control",
+        "SendMessage: delivers plain-text message summaries between sessions; same-machine traffic stays on-device via local socket",
+        "Cross-machine relay: reply-only plain-text messages routed through Anthropic servers for sessions on different machines",
+        "Sandbox bypass patch: a security fix bundled alongside the new messaging tools in the same v2.1.224 release"
+      ],
+      "whyItMatters": "Cross-session messaging is a foundational primitive for multi-agent workflows: an orchestrator session can now delegate work to specialist sessions and receive results back without leaving Claude Code or setting up external messaging infrastructure. Combined with the existing remote execution environment, this moves Claude Code closer to a true multi-agent runtime — one that can spawn background workers, route context between sessions, and coordinate long-horizon tasks that exceed a single context window.",
+      "tags": ["claude-code", "anthropic", "multi-agent", "cross-session-messaging", "developer-tools", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How do same-machine cross-session messages in Claude Code v2.1.224 differ from cross-machine messages in terms of routing?",
+          "options": [
+            "Both same-machine and cross-machine messages are encrypted and routed through Anthropic's relay servers for delivery",
+            "Same-machine messages travel over a local socket and never leave the device; cross-machine messages route through Anthropic's relay servers",
+            "Same-machine messages use shared memory for instant delivery; cross-machine messages use WebSockets to a peer-to-peer relay",
+            "There is no routing difference — all messages use the same protocol regardless of whether sessions are on the same machine"
+          ],
+          "correctIndex": 1,
+          "explanation": "Same-machine Claude Code sessions exchange messages over a local socket — the traffic never reaches Anthropic's servers. Cross-machine messages, by contrast, route through Anthropic's relay infrastructure as reply-only plain text. This distinction matters for privacy and latency: same-machine communication keeps all context entirely on-device, while cross-machine messaging involves a server hop with Anthropic."
+        },
+        {
+          "question": "What is the maximum number of messages that can queue in a Claude Code session's unread inbox before additional incoming messages are dropped?",
+          "options": [
+            "10 messages — sized to prevent context overload in a typical session",
+            "500 messages — sized to handle a full day of background agent activity without dropping",
+            "50 messages — the per-session unread queue cap introduced in v2.1.224",
+            "There is no cap; messages accumulate indefinitely until the session resumes and processes them"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Code v2.1.224 caps each session's unread message queue at 50 messages. Once full, additional incoming messages are dropped until the session resumes and clears its queue. The release also includes rate limiting on repeated messages from the same sender and deduplication of identical messages arriving in a short window, providing additional safeguards against messaging loops in multi-agent setups."
         }
       ]
     }
