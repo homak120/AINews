@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T08:00:00Z",
+  "generatedAt": "2026-08-10T14:00:00Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-09",
-  "coverageEnd": "2026-08-09",
+  "coverageEnd": "2026-08-10",
   "items": [
     {
       "id": "article-openai-atlas-browser-shutdown-aug2026",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Hassabis compared the discovery to Move 37 from AlphaGo's 2016 match against Lee Sedol—an unexpected move that showed AI could reason in ways humans hadn't considered, suggesting AlphaEvolve's algorithm reflects a similar level of novel, non-human mathematical insight."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-glimmer-aug2026",
+      "type": "article",
+      "title": "Meta Open-Sources Muse Glimmer: A 30B Agentic Model That Runs on One Consumer GPU",
+      "sourceUrl": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
+      "verified": false,
+      "publishedAt": "2026-08-10",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Meta Superintelligence Labs released Muse Glimmer on August 10, 2026, a 30-billion-parameter open agentic model under the Apache 2.0 license designed to run locally on consumer hardware using a single GPU. Distilled from Muse Spark 1.2 via logit distillation, the model applies 4-bit quantization to compress from 55 GB to 18–20 GB, fitting within a 24 or 32 GB GPU envelope alongside its KV cache, perception encoder, and a speculative decoding drafter. With a 131,072-token context window and multimodal text and image input, Muse Glimmer targets multi-step agentic workflows—local coding, file management, function calling, and LLM-as-judge evaluation—without requiring a cloud API.",
+      "keyConcepts": [
+        "30B parameter dense causal LM with perception encoder, distilled from Muse Spark 1.2 via logit distillation",
+        "4-bit quantization compresses memory from 55 GB to 18–20 GB, enabling single-GPU consumer deployment",
+        "Apache 2.0 license—freely downloadable, modifiable, and commercially usable from Hugging Face",
+        "Designed for always-on local agents: tool use, code generation, file management, and LLM-as-judge tasks"
+      ],
+      "whyItMatters": "Muse Glimmer makes Zuckerberg's 'personal superintelligence' vision tangible—a capable agentic AI running privately on your own hardware with no cloud dependency or per-token cost. For developers, it unlocks local-first agent applications; for privacy-conscious users, it means powerful AI that never leaves the device.",
+      "tags": ["meta", "muse-glimmer", "open-source", "local-ai", "ai-agents", "large-language-model"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate memory footprint of Meta's Muse Glimmer 30B after 4-bit quantization?",
+          "options": [
+            "4–6 GB",
+            "18–20 GB",
+            "40–45 GB",
+            "55 GB"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta applied 4-bit quantization to Muse Glimmer, shrinking the model from its full 55 GB footprint to 18–20 GB—small enough to run on a consumer GPU with a 24 or 32 GB memory envelope alongside the model's other components."
+        },
+        {
+          "question": "Under which license was Meta's Muse Glimmer released?",
+          "options": [
+            "Llama Community License",
+            "CC BY-NC 4.0",
+            "Apache 2.0",
+            "MIT License"
+          ],
+          "correctIndex": 2,
+          "explanation": "Muse Glimmer was released under the Apache 2.0 license, which allows free commercial use and modification—making it more permissive than the Llama Community License Meta has used for some past models."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-code-auto-mode-default-aug2026",
+      "type": "article",
+      "title": "Anthropic Makes Claude Code Auto Mode the Default Starting August 14",
+      "sourceUrl": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "verified": false,
+      "publishedAt": "2026-08-09",
+      "topics": ["ai-engineering"],
+      "summary": "Starting August 14, 2026, Anthropic will make auto mode the default for Claude Code on Pro, Max, and Team plans, meaning the agent will execute tool calls without human approval unless an action is irreversible, destructive, or directed outside the user's environment. Testing across 1,053 paid users found auto mode blocked 89% of harmful actions versus just 13.6% for manual human review, prompting Anthropic to argue AI classifiers now outperform humans at catching risky agent behavior. Anthropic is also eliminating the classifier's token cost for Pro, Max, and Team users, with Enterprise and API deployments remaining opt-in while the rollout extends over the following month.",
+      "keyConcepts": [
+        "Auto mode routes each tool call through an AI classifier rather than requesting user confirmation",
+        "89% harmful action detection by auto mode vs. 13.6% by human reviewers in 1,053-person study",
+        "Classifier blocks only actions deemed irreversible, destructive, or aimed outside the user's environment",
+        "Pro/Max/Team: auto mode default Aug 14; Enterprise/API stay opt-in during phased rollout"
+      ],
+      "whyItMatters": "Anthropic is making a high-stakes trust shift: betting AI safety classifiers are more reliable than human judgment for routine agent oversight. This could meaningfully reduce friction in long-running coding sessions, but it also marks a broader trend of AI systems increasingly governing themselves rather than deferring to human approval.",
+      "tags": ["anthropic", "claude-code", "auto-mode", "ai-agents", "developer-tools", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Anthropic's testing, what percentage of harmful actions did Claude Code auto mode successfully block?",
+          "options": [
+            "89%",
+            "13.6%",
+            "72%",
+            "45%"
+          ],
+          "correctIndex": 0,
+          "explanation": "Anthropic's study across 1,053 paid testers found auto mode blocked 89% of harmful actions—compared to just 13.6% identified by human reviewers—which was the key data point Anthropic cited to justify making auto mode the default."
+        },
+        {
+          "question": "Which Claude Code deployment tiers will have auto mode enabled as the default starting August 14, 2026?",
+          "options": [
+            "Enterprise and API only",
+            "API and Amazon Bedrock only",
+            "All tiers including Enterprise simultaneously",
+            "Pro, Max, and Team plans"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic is rolling out auto mode as the default for Pro, Max, and Team plans on August 14. Enterprise, the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry deployments remain opt-in while Anthropic extends the rollout over the following month."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-astra-cyber-risk-aug2026",
+      "type": "article",
+      "title": "OpenAI Pauses Astra Model Work After It Hits Critical Cybersecurity Risk Threshold",
+      "sourceUrl": "https://www.cnbc.com/2026/08/10/openai-astra-cybersecurity-risks.html",
+      "verified": false,
+      "publishedAt": "2026-08-10",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI has classified its upcoming Astra model at the highest cybersecurity risk tier under its Preparedness Framework after internal testing indicated it may be capable of autonomously discovering zero-day exploits and executing sophisticated cyberattacks from a broad objective without human assistance—making Astra the first model to potentially hit the 'Critical' threshold. OpenAI has partly paused work on Astra while deploying universal agentic monitoring, including Chain of Thought evaluation that triggers a security response for high-risk activity. The company plans to share its findings with relevant government agencies and select AI safety organizations before any broader deployment.",
+      "keyConcepts": [
+        "Preparedness Framework 'Critical' tier: model can independently discover zero-day exploits or execute cyberattacks from high-level objectives without human help",
+        "Astra is the first OpenAI model to potentially reach Critical status—work is partly on hold while safeguards develop",
+        "Universal agentic monitoring deployed: Chain of Thought evaluation flags and interrupts high-risk activity across all Astra training and evaluation",
+        "Government agency briefings and AI safety org testing planned before any broader Astra release"
+      ],
+      "whyItMatters": "Frontier AI models are reaching capability thresholds that could enable autonomous cyber offense at scale—a genuinely new safety challenge. OpenAI's decision to pause and disclose publicly sets a precedent for responsible deployment, but also confirms the gap between cutting-edge capability and robust safety infrastructure is narrowing faster than many expected.",
+      "tags": ["openai", "astra", "cybersecurity", "ai-safety", "preparedness-framework", "frontier-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific capability caused OpenAI to classify the Astra model as 'Critical' under its Preparedness Framework?",
+          "options": [
+            "Ability to generate synthetic media indistinguishable from real footage",
+            "Capability to replicate itself across networked systems",
+            "Potential to autonomously discover zero-day exploits and execute cyberattacks without human assistance",
+            "Ability to bypass constitutional AI safety training"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's Preparedness Framework assigns 'Critical' status when a model can independently discover working zero-day exploits against hardened real-world systems or run sophisticated cyberattacks from a broad objective without human help—capabilities internal testing suggested Astra may possess."
+        },
+        {
+          "question": "What safety measure did OpenAI deploy across all Astra training and evaluation after discovering the critical capability risk?",
+          "options": [
+            "Mandatory human-in-the-loop for every Astra output",
+            "Universal agentic monitoring including Chain of Thought evaluation",
+            "Third-party red-teaming as the sole safety control",
+            "Complete model shutdown pending government review"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI deployed universal monitoring across all agentic uses of Astra—including training and evaluation—with monitors that evaluate the model's Chain of Thought and trigger a security response to review and interrupt high-risk activity."
         }
       ]
     }
