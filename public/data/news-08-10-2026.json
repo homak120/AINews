@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-10T08:00:00Z",
+  "weekOf": "2026-08-10",
+  "coverageStart": "2026-08-09",
+  "coverageEnd": "2026-08-09",
+  "items": [
+    {
+      "id": "article-openai-atlas-browser-shutdown-aug2026",
+      "type": "article",
+      "title": "OpenAI Shuts Down ChatGPT Atlas Browser After Eight Months",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/openai-shutting-down-browser",
+      "verified": false,
+      "publishedAt": "2026-08-09",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI discontinued its ChatGPT Atlas browser on August 9, 2026, just eight months after its October 2025 launch as a macOS-only Chromium-based browser with deep ChatGPT integration. The product never expanded beyond macOS and faced significant security challenges including prompt injection vulnerabilities and frustratingly slow agent performance. Its features are now being redistributed into the ChatGPT desktop app, a Chrome extension, and ChatGPT Work—OpenAI's enterprise productivity suite.",
+      "keyConcepts": [
+        "Atlas launched October 2025 as a macOS-only Chromium browser with a persistent ChatGPT sidebar and agent mode",
+        "Prompt injection vulnerabilities allowed malicious web content to hijack the browser's AI agent behavior",
+        "Browser capabilities redistributed into ChatGPT desktop app, Chrome extension, and ChatGPT Work",
+        "Product never shipped Windows, iOS, or Android versions despite initial promises"
+      ],
+      "whyItMatters": "Atlas's failure reinforces that building a compelling AI-native browser is harder than integrating AI into existing ones—a lesson shaping how OpenAI and rivals will deliver agentic browsing going forward, likely through extensions and platform integrations rather than standalone browsers.",
+      "tags": ["openai", "chatgpt", "atlas", "browser", "product-deprecation", "ai-agents"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "When did OpenAI shut down the ChatGPT Atlas browser?",
+          "options": [
+            "June 15, 2026",
+            "July 31, 2026",
+            "August 9, 2026",
+            "September 1, 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI shut down ChatGPT Atlas on August 9, 2026, approximately eight months after its October 2025 launch—ending a product that never left macOS and never resolved its core security and performance issues."
+        },
+        {
+          "question": "What was a major security vulnerability identified in the ChatGPT Atlas browser?",
+          "options": [
+            "Weak data encryption at rest",
+            "Password manager bypass attacks",
+            "Prompt injection attacks from malicious web pages",
+            "Browser fingerprinting by advertisers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Atlas faced significant exposure to prompt injection attacks, where malicious content on websites could trick the browser's AI agent into taking unintended actions—a problem that affected reliability and trust in the product."
+        }
+      ]
+    },
+    {
+      "id": "article-alphaevolve-move37-moment-aug2026",
+      "type": "article",
+      "title": "DeepMind's AlphaEvolve Achieves Its Own 'Move 37' Moment in Mathematics",
+      "sourceUrl": "https://aiweekly.co/alerts/deepminds-alphaevolve-delivers-its-own-move-37-moment",
+      "verified": false,
+      "publishedAt": "2026-08-09",
+      "topics": ["ai-research"],
+      "summary": "Google DeepMind CEO Demis Hassabis is drawing parallels between AlphaEvolve's matrix multiplication discovery and AlphaGo's legendary 'Move 37' against Lee Sedol in 2016, per a Wall Street Journal column by Ben Cohen. AlphaEvolve, a Gemini-powered coding agent, discovered a way to multiply 4×4 complex-valued matrices using only 48 scalar multiplications—breaking a record held since Volker Strassen's 1969 breakthrough of 49 multiplications. The new algorithm also improved a critical computational kernel in Gemini's own training pipeline by 23%, directly reducing AI training costs.",
+      "keyConcepts": [
+        "AlphaEvolve: a Gemini-powered coding agent designed to discover and optimize algorithms autonomously",
+        "Matrix multiplication record: reduced 4×4 complex-valued matrix ops from 49 to 48 scalar multiplications",
+        "Strassen's 1969 algorithm: the prior 56-year-old record AlphaEvolve surpassed",
+        "'Move 37' analogy: Hassabis framing the discovery as evidence of AI's capacity for genuinely novel mathematical thinking"
+      ],
+      "whyItMatters": "Matrix multiplication underlies virtually every modern neural network computation, so even small efficiency gains compound massively at scale. More significantly, AlphaEvolve discovered this improvement autonomously—not by following human-defined search strategies—marking a meaningful step toward AI systems that accelerate their own development.",
+      "tags": ["deepmind", "alphaevolve", "matrix-multiplication", "algorithm-discovery", "gemini", "ai-research", "breakthrough"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What mathematical record did DeepMind's AlphaEvolve break?",
+          "options": [
+            "Fastest sorting algorithm for 1 billion integers",
+            "Multiplying 4×4 complex matrices using 48 scalar multiplications instead of 49",
+            "Solving protein folding faster than AlphaFold 3",
+            "Training a transformer model using 23% less compute"
+          ],
+          "correctIndex": 1,
+          "explanation": "AlphaEvolve discovered a method to multiply 4×4 complex-valued matrices using only 48 scalar multiplications, beating Strassen's 1969 record of 49 and ending a 56-year mathematical drought on this specific problem."
+        },
+        {
+          "question": "Which analogy did Demis Hassabis use to frame AlphaEvolve's matrix multiplication discovery?",
+          "options": [
+            "The Kasparov moment",
+            "The Turing moment",
+            "The Move 37 moment",
+            "The Apollo moment"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hassabis compared the discovery to Move 37 from AlphaGo's 2016 match against Lee Sedol—an unexpected move that showed AI could reason in ways humans hadn't considered, suggesting AlphaEvolve's algorithm reflects a similar level of novel, non-human mathematical insight."
+        }
+      ]
+    }
+  ]
+}
