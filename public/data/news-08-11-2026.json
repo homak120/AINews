@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T08:00:00Z",
+  "generatedAt": "2026-08-11T15:00:00Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-10",
-  "coverageEnd": "2026-08-10",
+  "coverageEnd": "2026-08-11",
   "items": [
     {
       "id": "article-meta-muse-glimmer-aug2026",
@@ -22,7 +22,7 @@
       ],
       "whyItMatters": "Muse Glimmer signals a meaningful shift toward personal AI: a frontier-grade agentic model that runs entirely on consumer hardware without a network call. For developers and AI engineers, it opens the door to powerful local agents that don't require cloud costs or data privacy tradeoffs.",
       "tags": ["meta", "open-source", "local-ai", "agentic-ai", "llm", "ai-model-release"],
-      "relatedIds": [],
+      "relatedIds": ["article-zuckerberg-ai-manifesto-aug2026"],
       "knowledgeChecks": [
         {
           "question": "What license is Meta's Muse Glimmer released under?",
@@ -134,6 +134,138 @@
           ],
           "correctIndex": 1,
           "explanation": "Peer review serves as a quality and attribution checkpoint—it catches cases where claimed breakthroughs rely on unacknowledged prior work. When AI labs announce results without peer review, errors and misconduct can reach the public record and media before experts have a chance to scrutinize them."
+        }
+      ]
+    },
+    {
+      "id": "article-zuckerberg-ai-manifesto-aug2026",
+      "type": "article",
+      "title": "Zuckerberg Publishes 6,500-Word AI Manifesto Arguing Open Source Is Key to Personal Superintelligence",
+      "sourceUrl": "https://www.axios.com/2026/08/10/zuckerberg-ai-manifesto-meta",
+      "verified": false,
+      "publishedAt": "2026-08-10",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Mark Zuckerberg published a 6,500-word essay titled 'The Future is for Everyone' on August 10, 2026, outlining Meta's AI philosophy around 'personal superintelligence'—AI systems capable enough to function as personalized tutors, business co-founders, and lifestyle advisors for every individual. Zuckerberg argued that the greatest risk of AI is concentration of control in a single entity or government, positioning Meta's open-source approach as a democratic safeguard against the closed-model strategies of OpenAI and Anthropic. The manifesto accompanied the release of Meta's Muse Glimmer model and framed open-source AI as the path toward broad individual empowerment.",
+      "keyConcepts": [
+        "Personal superintelligence: Zuckerberg's vision of AI that supercharges each individual's capabilities—tutoring, business creation, lifestyle coaching",
+        "Open-source AI as democratic safeguard: distributing power broadly to prevent dangerous concentration by any single entity",
+        "Direct challenge to safety-focused closed-model positions held by OpenAI and Anthropic",
+        "AI enabling Ph.D.-level tutoring, new business creation, and personalized lifestyle advice for everyone",
+        "Manifesto paired with Muse Glimmer launch as a concrete product expression of open distribution philosophy"
+      ],
+      "whyItMatters": "Zuckerberg's manifesto is the clearest articulation yet of the ideological divide in frontier AI: open distribution versus controlled safety. For AI practitioners, it frames the trade-off between democratization and risk management that will define how the industry navigates the approach to superintelligent-level capabilities.",
+      "tags": ["meta", "zuckerberg", "open-source-ai", "personal-ai", "ai-philosophy", "ai-safety-debate"],
+      "relatedIds": ["article-meta-muse-glimmer-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Zuckerberg's central argument in his 'The Future is for Everyone' manifesto?",
+          "options": [
+            "AI development should be paused until safety is guaranteed by regulators",
+            "Closed frontier models are necessary to prevent misuse of superintelligence",
+            "Open-source AI distributes power broadly and is the safest path to beneficial superintelligence",
+            "Meta plans to license its models exclusively to vetted government partners"
+          ],
+          "correctIndex": 2,
+          "explanation": "Zuckerberg argues that concentrating AI control in a single company or government is the greatest risk, and that open-source AI distribution is the democratic safeguard—making 'personal superintelligence' accessible to individuals rather than gatekept by a handful of powerful entities."
+        },
+        {
+          "question": "Which of the following best describes Zuckerberg's concept of 'personal superintelligence'?",
+          "options": [
+            "An AI model with IQ above 200 that operates autonomously without human input",
+            "An always-on, highly personalized AI that augments individual capabilities across work, learning, and life",
+            "A government-run AI system that replaces public services like education and healthcare",
+            "A collective AI that pools knowledge from millions of users to generate policy recommendations"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zuckerberg describes personal superintelligence as deeply individualized AI that acts like a personal tutor, business advisor, and lifestyle coach—a system that supercharges each person's own capabilities rather than operating as a centralized service."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-watermark-claude-aug2026",
+      "type": "article",
+      "title": "Anthropic to Embed Invisible Watermarks in All Claude-Generated Text to Comply With EU AI Act",
+      "sourceUrl": "https://theaiinsider.tech/2026/08/11/anthropic-to-watermark-ai-generated-text-across-claude-products-to-comply-with-eu-rules/",
+      "verified": false,
+      "publishedAt": "2026-08-11",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic announced on August 11, 2026 that it will embed imperceptible watermarks into all text generated by Claude, and attach signed C2PA provenance data to AI-generated files, to comply with the EU AI Act's Transparency Code that took effect August 2. The watermarks are invisible to humans but detectable by other AI systems, and persist when users copy and paste text. Anthropic will apply these markings globally—not only to EU users—across all Claude products including the API, Claude.ai, Claude Code, Claude Cowork, and Claude Tag.",
+      "keyConcepts": [
+        "EU AI Act Transparency Code (effective August 2, 2026) requires AI companies to mark AI-generated content for machine detection",
+        "Invisible text watermarks embedded at the model level, persistent across copy-paste operations",
+        "C2PA open standard used for signed provenance metadata on AI-generated files",
+        "Global scope: watermarks apply to all Claude users worldwide, not only those in the EU",
+        "Coverage spans the full Claude product surface: API, Claude.ai, Claude Code, Claude Cowork, Claude Tag"
+      ],
+      "whyItMatters": "Anthropic's global watermarking commitment sets a new transparency baseline for AI content—and signals that EU regulation is already shaping practices worldwide. For AI engineers building with Claude, every text output will now carry a detectable provenance signal, with compliance, trust, and content-attribution implications for any product that ships Claude-generated text to end users.",
+      "tags": ["anthropic", "claude", "watermarking", "eu-ai-act", "ai-transparency", "content-provenance"],
+      "relatedIds": ["article-openai-astra-math-misconduct-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What EU regulation prompted Anthropic to announce text watermarking for Claude?",
+          "options": [
+            "GDPR Article 22 on automated decision-making",
+            "EU AI Act Transparency Code, effective August 2, 2026",
+            "Digital Services Act content labeling requirement",
+            "EU Cyber Resilience Act for AI-enabled software"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EU AI Act's Transparency Code, which took effect on August 2, 2026, requires AI companies to mark AI-generated or AI-edited content in a way that other systems can identify. This regulation directly triggered Anthropic's watermarking announcement."
+        },
+        {
+          "question": "Which open standard is Anthropic using for provenance metadata on AI-generated files?",
+          "options": [
+            "OpenPGP digital signatures",
+            "W3C PROV ontology",
+            "C2PA (Coalition for Content Provenance and Authenticity)",
+            "ISO/IEC 30107 biometric standards"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic adopted the C2PA (Coalition for Content Provenance and Authenticity) open standard for embedding signed provenance metadata into AI-generated files, enabling downstream systems and platforms to verify the origin of content."
+        }
+      ]
+    },
+    {
+      "id": "article-spotify-ai-persona-labels-aug2026",
+      "type": "article",
+      "title": "Spotify Launches 'AI Persona' Labels and Excludes AI Artists from Algorithmic Recommendations",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-11/spotify-asks-creators-to-label-songs-when-they-re-ai-generated",
+      "verified": false,
+      "publishedAt": "2026-08-11",
+      "topics": ["ai-industry"],
+      "summary": "Spotify announced on August 11, 2026 that it will label artist profiles created by AI with a new 'AI Persona' badge and exclude their music from editorial, algorithmic, and personalized recommendations by default. Starting August 11, artists can self-declare as AI Personas via the Spotify for Artists portal; Spotify will also use AI-powered detection combined with human review to apply a 'Likely AI Persona' label automatically, with an appeals process for artists who believe they've been mislabeled. The visible badge will begin appearing on profiles, in search results, and on playlist track rows in mid-September 2026.",
+      "keyConcepts": [
+        "'AI Persona' badge: new label applied to Spotify artist profiles identified as AI-generated identities",
+        "Self-declaration available from August 11 via Spotify for Artists portal",
+        "Hybrid AI + human detection system applies 'Likely AI Persona' badge with artist appeals process",
+        "AI Persona music excluded by default from editorial, algorithmic, and personalized recommendations",
+        "Limitation: policy does not yet address AI-generated tracks released by real human artists"
+      ],
+      "whyItMatters": "Spotify's move to quarantine AI artists from recommendation systems draws a significant line between human and AI creators in one of music's largest distribution platforms. It establishes a template for how platforms might structure tiered algorithmic access based on content origin—a pattern likely to spread to video, writing, and other creative domains as generative AI content floods distribution networks.",
+      "tags": ["spotify", "ai-music", "content-labeling", "ai-detection", "creative-ai", "platform-policy"],
+      "relatedIds": ["article-anthropic-watermark-claude-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the default algorithmic treatment of music from Spotify-labeled 'AI Persona' profiles?",
+          "options": [
+            "Boosted in new-artist discovery playlists to increase exposure",
+            "Excluded from editorial, algorithmic, and personalized recommendations",
+            "Flagged for manual review before any streaming is permitted",
+            "Quarantined in a separate AI music genre tab only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Spotify will exclude AI Persona music from editorial, algorithmic, and personalized recommendations by default, meaning AI-generated artists won't be surfaced through Spotify's Discover Weekly, editorial playlists, or other recommendation surfaces."
+        },
+        {
+          "question": "Which gap does Spotify's new AI Persona policy explicitly NOT address?",
+          "options": [
+            "AI artists who create entire albums with no human involvement",
+            "AI-generated tracks released by real human artists on their own profiles",
+            "Foreign-language AI music from non-English-speaking markets",
+            "AI-remixed versions of licensed songs uploaded by bots"
+          ],
+          "correctIndex": 1,
+          "explanation": "Spotify's 'AI Persona' policy targets artist profiles that are themselves AI-generated identities. It does not address the separate (and growing) case of real human artists using AI tools to generate the music they release under their own names—a significant limitation of the new system."
         }
       ]
     }
