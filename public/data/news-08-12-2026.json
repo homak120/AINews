@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T06:30:00Z",
+  "generatedAt": "2026-08-12T10:00:00Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-10",
   "coverageEnd": "2026-08-11",
@@ -133,6 +133,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Unitree originally became known for affordable quadruped robots (robot dogs). By 2025, humanoid robot sales had surpassed the quadruped business as the primary revenue category—with overall revenue quadrupling to 1.7B yuan—reflecting the broader market transition from novelty quadruped platforms toward commercially viable bipedal humanoid systems."
+        }
+      ]
+    },
+    {
+      "id": "article-mistral-european-compute-aug2026",
+      "type": "article",
+      "title": "Mistral AI Plans 1 Gigawatt of European Compute by 2030 With Enterprise Sovereign Infrastructure Push",
+      "sourceUrl": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "verified": false,
+      "publishedAt": "2026-08-11",
+      "topics": ["ai-industry"],
+      "summary": "Mistral AI announced a three-part infrastructure expansion on August 11, 2026: regional inference endpoints letting customers choose whether AI workloads run in Europe or the US, a new Priority Tier with uptime guarantees for mission-critical deployments, and a coalition of European enterprise partners making multi-year compute commitments. The coalition targets 200 megawatts of European capacity by end of 2027 and a full gigawatt by 2030, anchored by leaders from ASML, Capgemini, and CMA CGM. Mistral also announced it will host third-party open models on its platform, starting with GLM-5.2 from Z.ai (formerly Zhipu).",
+      "keyConcepts": [
+        "Regional inference endpoints: customers choose EU or US datacenter routing for data sovereignty compliance",
+        "Priority Tier: uptime-backed SLA for enterprise mission-critical AI workloads",
+        "European enterprise consortium commits to multi-year deals: 200MW by end of 2027, 1GW by end of 2030",
+        "Third-party open model hosting begins with GLM-5.2 from Z.ai (formerly Zhipu AI, China)",
+        "Anchor partners include ASML chairman Christophe Fouquet, Capgemini, and CMA CGM shipping group"
+      ],
+      "whyItMatters": "Mistral is building the institutional scaffolding for European AI sovereignty—locking in enterprise compute commitments before US hyperscalers fully dominate regulated industries across the EU. By housing European data locally, offering uptime SLAs, and growing to 1GW capacity, Mistral is positioning data sovereignty and regulatory compliance as structural moats against OpenAI and Google in European markets.",
+      "tags": ["mistral", "european-ai", "data-sovereignty", "ai-infrastructure", "compute", "ai-industry"],
+      "relatedIds": ["article-nvidia-500b-wall-street-aug2026", "article-anthropic-theseus-infrastructure-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core value proposition of Mistral AI's new regional inference endpoints?",
+          "options": [
+            "They enable faster model inference by routing to the nearest data center regardless of jurisdiction",
+            "They let enterprise customers choose whether AI workloads run in Europe or the US for data sovereignty",
+            "They offer free EU-hosted inference for startups under Mistral's startup program",
+            "They automatically load-balance across Mistral's EU and US facilities to minimize latency"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral's regional inference endpoints are designed for data sovereignty—enterprises in regulated industries (finance, healthcare, government) can guarantee their AI workloads never leave a specific jurisdiction. This is the key differentiator from US hyperscalers, who typically don't offer strict regional data guarantees."
+        },
+        {
+          "question": "What is Mistral's 2030 compute capacity target, and how is it being funded?",
+          "options": [
+            "10 gigawatts, funded entirely by the European Commission's AI sovereignty budget",
+            "500 megawatts, funded through a Mistral IPO on Euronext Paris",
+            "1 gigawatt, underwritten by multi-year compute commitments from a European enterprise consortium",
+            "2 gigawatts, funded through a joint venture with ASML and Capgemini"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral's target is 1 gigawatt of European AI compute capacity by end of 2030, with 200MW as the 2027 milestone. The funding mechanism is a coalition of European enterprises making multi-year compute commitments—effectively pre-purchasing capacity—rather than a public offering or government grant."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-theseus-infrastructure-aug2026",
+      "type": "article",
+      "title": "Anthropic, Macquarie Asset Management, and GIC Form Theseus Infrastructure to Finance Dedicated AI Data Centers",
+      "sourceUrl": "https://www.macquarie.com/au/en/about/news/2026/anthropic-mam-gic-data-centre-infrastructure-partnership.html",
+      "verified": false,
+      "publishedAt": "2026-08-11",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic announced a strategic partnership with Macquarie Asset Management and Singapore's sovereign wealth fund GIC to form Theseus Infrastructure, a new platform to develop, operate, and lease purpose-built US data centers to Anthropic under long-term agreements. Macquarie and GIC will own the platform and fund the majority of equity for each project, while Anthropic serves as anchor tenant. The venture follows Anthropic's earlier pledge to spend $50 billion on its own AI data center campuses. Notably, Anthropic committed to absorbing 100% of grid-upgrade costs and any consumer electricity price increases tied to its data center demand—a concession designed to address community opposition that has slowed AI data center approvals nationwide.",
+      "keyConcepts": [
+        "Theseus Infrastructure: purpose-built platform owned by Macquarie + GIC, Anthropic is anchor tenant under long-term leases",
+        "Macquarie Asset Management and Singapore GIC fund the majority of project equity; Anthropic avoids large upfront capital outlay",
+        "Initial focus on new US sites; follows Anthropic's existing $50B commitment to build its own campuses",
+        "Anthropic absorbs 100% of grid-upgrade costs and consumer electricity price hikes—addressing the local-opposition bottleneck to approvals",
+        "Capital-efficiency model: Anthropic secures predictable compute capacity without owning and depreciating physical assets"
+      ],
+      "whyItMatters": "By outsourcing data center ownership to institutional infrastructure investors while keeping anchor-tenant leases, Anthropic unlocks large-scale compute capacity without tying up tens of billions on its balance sheet—freeing capital for research and model development. The pledge to cover grid and electricity costs directly addresses the most common community objection to new AI data centers, potentially accelerating permit timelines across Anthropic's pipeline.",
+      "tags": ["anthropic", "theseus", "data-centers", "macquarie", "gic", "ai-infrastructure"],
+      "relatedIds": ["article-nvidia-500b-wall-street-aug2026", "article-mistral-european-compute-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What role does Anthropic play in the Theseus Infrastructure venture?",
+          "options": [
+            "Anthropic is the majority equity owner and funds the construction of each data center",
+            "Anthropic is the anchor tenant under long-term leases; Macquarie and GIC own the platform and fund equity",
+            "Anthropic operates the data centers on behalf of Macquarie and GIC as a management contractor",
+            "Anthropic and Macquarie split ownership equally, with GIC providing debt financing only"
+          ],
+          "correctIndex": 1,
+          "explanation": "In the Theseus structure, Macquarie Asset Management and GIC own the infrastructure platform and fund the equity for each project. Anthropic's role is anchor tenant—it signs long-term leases for the capacity. This lets Anthropic secure predictable compute without owning the physical assets on its balance sheet."
+        },
+        {
+          "question": "Why did Anthropic commit to covering grid-upgrade costs and consumer electricity price increases?",
+          "options": [
+            "To qualify for federal energy subsidies that require data center operators to absorb grid costs",
+            "To address community opposition to data centers—local electricity price hikes are the most common objection to approvals",
+            "Because Macquarie required it as a condition of joining the venture to protect GIC's returns",
+            "To satisfy EU Digital Markets Act requirements for AI infrastructure operators in Europe"
+          ],
+          "correctIndex": 1,
+          "explanation": "One of the main reasons AI data center proposals get rejected or delayed at the local level is community concern about rising electricity bills. By pledging to absorb 100% of grid-upgrade costs and consumer price increases caused by its demand, Anthropic removes the most common objection—which could significantly shorten approval timelines for its planned campus pipeline."
         }
       ]
     }
