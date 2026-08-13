@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-08-13T08:00:00.000Z",
+  "weekOf": "2026-08-10",
+  "coverageStart": "2026-08-11",
+  "coverageEnd": "2026-08-12",
+  "items": [
+    {
+      "id": "youtube-nR41f79C3ig",
+      "type": "video",
+      "title": "Made by Google 2026: Pixel 11, Gemini AI, and What to Expect",
+      "youtubeId": "nR41f79C3ig",
+      "sourceUrl": "https://www.youtube.com/watch?v=nR41f79C3ig",
+      "verified": false,
+      "publishedAt": "2026-08-11",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "TheAIGRID previews the Made by Google 2026 event scheduled for August 12, covering what to expect from the Pixel 11 lineup, Pixel Watch 5, and expanded Gemini AI integrations. The video outlines Google's strategy to embed AI more deeply into its hardware ecosystem and discusses the competitive significance of the event. It also touches on anticipated features like enhanced on-device AI processing and the introduction of the Pixel Tag accessory.",
+      "keyConcepts": [
+        "Made by Google 2026 hardware event",
+        "Pixel 11 lineup with Tensor G6 chipset",
+        "Gemini AI integration in hardware",
+        "On-device AI processing"
+      ],
+      "whyItMatters": "Google's annual hardware event signals how tightly AI is being woven into consumer devices, with Gemini becoming a first-class citizen across the Pixel lineup—a move that will shape user expectations for AI-native hardware across the industry.",
+      "tags": ["google", "pixel-11", "gemini-ai", "made-by-google", "hardware", "on-device-ai"],
+      "relatedIds": ["article-techcrunch-made-by-google-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of the custom chip expected in the Pixel 11 lineup announced at Made by Google 2026?",
+          "options": [
+            "Tensor G5",
+            "Snapdragon 8 Gen 4",
+            "Tensor G6",
+            "Apple A18 Pro"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Pixel 11 series is powered by Google's Tensor G6 chipset, designed to accelerate on-device AI tasks including Gemini-powered features."
+        },
+        {
+          "question": "Which AI model is most prominently featured in Google's 2026 hardware lineup?",
+          "options": [
+            "GPT-5",
+            "Claude 4",
+            "Gemini",
+            "Grok 4.6"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's Made by Google 2026 event focused on deeply integrating Gemini across Pixel 11 devices, making it the central AI assistant for the hardware lineup."
+        }
+      ]
+    },
+    {
+      "id": "article-venturebeat-grok-4-6",
+      "type": "article",
+      "title": "SpaceXAI Debuts Grok 4.6, a New Frontier Model Built for Long-Running AI Agents",
+      "sourceUrl": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis",
+      "verified": false,
+      "publishedAt": "2026-08-12",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "SpaceXAI (formerly xAI) launched Grok 4.6 on August 12, a new flagship model optimized for long-running agentic tasks such as multi-step research, codebase navigation, and autonomous product prototyping. Scoring 61 on the Artificial Analysis Intelligence Index, it ties with OpenAI's GPT-5.6 Sol Max for world third-best. The model is immediately available in the Cursor code editor, SpaceXAI's Grok Build tool, and via API starting at $2 per million input tokens.",
+      "keyConcepts": [
+        "Long-running AI agents",
+        "Artificial Analysis Intelligence Index benchmarks",
+        "Grok 4.6 API pricing and availability",
+        "SpaceXAI (formerly xAI) corporate identity"
+      ],
+      "whyItMatters": "Grok 4.6's focus on sustained multi-step reasoning for agents represents a shift in model design philosophy—from single-query accuracy to persistent, task-completing agents—a direction that will define the next phase of enterprise AI deployment.",
+      "tags": ["grok", "spacexai", "xai", "ai-agents", "llm", "frontier-models"],
+      "relatedIds": ["article-techcrunch-cognition-40b"],
+      "knowledgeChecks": [
+        {
+          "question": "What score did Grok 4.6 achieve on the Artificial Analysis Intelligence Index?",
+          "options": [
+            "45",
+            "61",
+            "72",
+            "88"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.6 scored 61 on the Artificial Analysis Intelligence Index, matching OpenAI's GPT-5.6 Sol Max and ranking it among the world's top three models."
+        },
+        {
+          "question": "Which code editor received same-day integration with Grok 4.6 at launch?",
+          "options": [
+            "VS Code",
+            "JetBrains",
+            "Cursor",
+            "Windsurf"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cursor was one of the first integrations announced alongside Grok 4.6's launch on August 12, 2026, alongside SpaceXAI's own Grok Build tool."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-made-by-google-2026",
+      "type": "article",
+      "title": "Google Unveils Pixel 11 Lineup, Pixel Tag, and Expanded Gemini Features at Made by Google 2026",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "verified": false,
+      "publishedAt": "2026-08-12",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "At its Made by Google 2026 event in New York, Google announced the Pixel 11 series (including Pro, Pro XL, and Pro Fold models), Pixel Watch 5, and the Pixel Tag—a competitor to Apple's AirTag. The event highlighted deep Gemini AI integration across the lineup, including a new voice-input feature called Rambler that handles unstructured speech, and an expansion of Live Transcribe to support American Sign Language. Google also previewed Android XR glasses and Googlebook laptops.",
+      "keyConcepts": [
+        "Pixel 11 hardware lineup",
+        "Pixel Tag tracker accessory",
+        "Gemini Rambler voice input",
+        "Android XR platform"
+      ],
+      "whyItMatters": "Google's decision to make Gemini the connective tissue across all hardware categories—phones, watches, trackers, and XR devices—signals that the AI model layer is becoming the primary product differentiator in consumer electronics, raising the stakes for every competing platform.",
+      "tags": ["google", "pixel-11", "gemini", "android-xr", "pixel-tag", "hardware-ai"],
+      "relatedIds": ["youtube-nR41f79C3ig"],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'Rambler,' the feature announced at Made by Google 2026?",
+          "options": [
+            "A new AR navigation app",
+            "A Gemini-powered voice input that handles filler words and unstructured speech",
+            "A fitness tracking mode for Pixel Watch 5",
+            "A home automation hub"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rambler is a Gemini-powered voice-input feature designed to intelligently handle run-on sentences, filler words, and less structured speech in a natural way."
+        },
+        {
+          "question": "Which accessibility feature was expanded at Made by Google 2026 to support American Sign Language?",
+          "options": [
+            "TalkBack",
+            "Sound Amplifier",
+            "Live Transcribe",
+            "Magnifier"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google announced an expansion of Live Transcribe at Made by Google 2026, adding American Sign Language translation to text support."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-cognition-40b",
+      "type": "article",
+      "title": "AI Coding Startup Cognition in Talks to Raise at $40B Valuation as Devin Revenue Nears $1B Run Rate",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "verified": false,
+      "publishedAt": "2026-08-12",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Cognition, maker of the AI coding agent Devin, is reportedly in early talks for a new funding round that would value the company at $40 billion or more—a jump of over 50% from its $26 billion valuation just three months ago. The surge is driven by annualized revenue approaching $1 billion, up from $492 million at its last raise, with enterprise customers including Citi, Mercedes-Benz, Goldman Sachs, and branches of the U.S. military. Month-over-month enterprise usage of Devin has grown 50% for six consecutive months.",
+      "keyConcepts": [
+        "AI coding agents in enterprise",
+        "Startup valuation acceleration",
+        "Devin autonomous coding agent",
+        "Enterprise AI adoption metrics"
+      ],
+      "whyItMatters": "Cognition's rapid valuation climb reflects how seriously enterprises are betting on AI coding agents to replace or augment software development teams—a trend with significant implications for AI careers and the software engineering workforce.",
+      "tags": ["cognition", "devin", "ai-coding-agent", "startup-funding", "enterprise-ai", "ai-careers"],
+      "relatedIds": ["article-venturebeat-grok-4-6"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Cognition's current approximate annualized revenue run rate as of August 2026?",
+          "options": [
+            "$100 million",
+            "$492 million",
+            "Nearly $1 billion",
+            "$2 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cognition's annualized revenue run rate is approaching $1 billion as of August 2026, roughly double the $492 million figure from just three months earlier."
+        },
+        {
+          "question": "What primary type of work is Cognition's Devin agent most often tasked with in enterprise settings?",
+          "options": [
+            "Customer support automation",
+            "Long-tail grunt-work like modernizing legacy software",
+            "Real-time data analysis",
+            "Marketing content generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Devin is most commonly deployed for long-tail software maintenance tasks—such as migrating apps between platforms or updating legacy code—that many developers find tedious."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-fermi-ceo",
+      "type": "article",
+      "title": "AI Nuclear Power Firm Fermi Names New CEO After Months-Long Leadership Gap",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
+      "verified": false,
+      "publishedAt": "2026-08-12",
+      "topics": ["ai-industry"],
+      "summary": "Fermi, a startup focused on building nuclear power infrastructure to meet the surging energy demands of AI data centers, has appointed a new CEO more than three months after firing co-founder Toby Neugebauer. The leadership vacuum had cast uncertainty over the company's ability to execute on its reactor development plans. The hire signals renewed investor confidence as demand for reliable, carbon-free power sources for AI workloads continues to accelerate.",
+      "keyConcepts": [
+        "AI data center energy demand",
+        "Nuclear power for AI infrastructure",
+        "Startup leadership transitions",
+        "Carbon-free AI compute"
+      ],
+      "whyItMatters": "The energy crisis underpinning AI scaling is forcing the industry toward nuclear power as a serious infrastructure solution—Fermi's stabilization matters because reliable carbon-free energy is a hard ceiling on how fast AI compute can grow sustainably.",
+      "tags": ["nuclear-power", "ai-infrastructure", "energy", "fermi", "data-centers", "sustainability"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why are AI companies increasingly interested in nuclear power?",
+          "options": [
+            "Nuclear power is the cheapest form of energy available",
+            "AI data centers require massive, reliable, carbon-free electricity",
+            "Nuclear plants are easier to build than solar farms",
+            "Government mandates require nuclear use for AI compute"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI data centers consume enormous and growing amounts of electricity. Nuclear power offers a reliable, high-density, carbon-free source that can meet this demand without the intermittency issues of renewables."
+        },
+        {
+          "question": "Who was the co-founder whose firing left Fermi without a CEO for over three months?",
+          "options": [
+            "Sam Altman",
+            "Toby Neugebauer",
+            "Demis Hassabis",
+            "Dario Amodei"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toby Neugebauer, a co-founder of Fermi, was fired as CEO earlier in 2026, leaving the nuclear AI power startup without leadership for more than three months before a new CEO was named."
+        }
+      ]
+    }
+  ]
+}
