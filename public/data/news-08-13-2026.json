@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T08:00:00.000Z",
+  "generatedAt": "2026-08-13T12:00:00.000Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-11",
-  "coverageEnd": "2026-08-12",
+  "coverageEnd": "2026-08-13",
   "items": [
     {
       "id": "youtube-nR41f79C3ig",
@@ -217,6 +217,92 @@
           ],
           "correctIndex": 1,
           "explanation": "Toby Neugebauer, a co-founder of Fermi, was fired as CEO earlier in 2026, leaving the nuclear AI power startup without leadership for more than three months before a new CEO was named."
+        }
+      ]
+    },
+    {
+      "id": "article-techtimes-deepseek-v4-pro",
+      "type": "article",
+      "title": "DeepSeek V4 Pro 0813 Goes GA: Flagship Model Exits Preview with Major Agentic Benchmark Gains",
+      "sourceUrl": "https://www.techtimes.com/articles/324241/20260813/deepseek-v4-pro-0813-goes-ga-benchmark-claims-await-independent-proof.htm",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "DeepSeek released V4 Pro 0813 on August 12-13 as the general-availability version of its flagship mixture-of-experts model, ending a preview period that began in April. The release came without a blog post—only via API documentation updates. DeepSeek claims dramatic benchmark improvements: Terminal Bench 2.1 rising from 72.1 to 87.9 and DeepSWE jumping from 12.8 to 62.7, nearly matching Anthropic's Fable 5 on agentic coding benchmarks at a fraction of the cost ($0.87/M output tokens vs. significantly higher prices for comparable frontier models).",
+      "keyConcepts": [
+        "Mixture-of-experts architecture (1.6T total, 49B active parameters)",
+        "Terminal Bench and DeepSWE agentic benchmarks",
+        "V4 Pro 0813 API pricing ($0.435/M input, $0.87/M output)",
+        "Independent benchmark verification pending"
+      ],
+      "whyItMatters": "DeepSeek V4 Pro challenges the premise that frontier-level agentic AI requires frontier-level pricing—if the benchmark claims hold under independent testing, it could meaningfully shift enterprise AI procurement decisions away from US labs toward cheaper Chinese alternatives.",
+      "tags": ["deepseek", "llm", "mixture-of-experts", "ai-agents", "benchmarks", "open-weights"],
+      "relatedIds": ["article-venturebeat-grok-4-6"],
+      "knowledgeChecks": [
+        {
+          "question": "What is DeepSeek V4 Pro 0813's approximate output token cost per million tokens?",
+          "options": [
+            "$0.07",
+            "$0.87",
+            "$3.00",
+            "$15.00"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek V4 Pro 0813 is priced at $0.87 per million output tokens, positioning it as a cost-efficient alternative to more expensive frontier models with comparable agentic performance claims."
+        },
+        {
+          "question": "How did DeepSeek announce the V4 Pro 0813 general availability release?",
+          "options": [
+            "A major press conference with live demos",
+            "A detailed technical blog post",
+            "Quietly via API documentation update only",
+            "A partnership announcement with major cloud providers"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek released V4 Pro 0813 without a blog post or public announcement—the release was discovered through updates to their API documentation, a pattern the lab has used for previous releases."
+        }
+      ]
+    },
+    {
+      "id": "article-dataconomy-youtube-ask-ai",
+      "type": "article",
+      "title": "YouTube Expands AI-Powered Ask YouTube to All Signed-In US Users Across All Devices",
+      "sourceUrl": "https://dataconomy.com/2026/08/13/youtube-ai-powered-ask-youtube-expansion-us-users/",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "YouTube expanded its AI-powered Ask YouTube feature on August 13 to all signed-in U.S. users aged 13 and older, covering desktop, mobile, and TV devices. The feature—powered by Google's Gemini—lets users ask conversational, multi-step queries and receive structured answers blending text, Shorts, and long-form video results. It supports follow-up questions for contextual refinement. The tool was initially launched for Premium subscribers in April 2026 and progressively rolled out before this full US release.",
+      "keyConcepts": [
+        "Conversational AI search on video platforms",
+        "Gemini integration in YouTube search",
+        "Multi-modal answer synthesis (text + video)",
+        "Follow-up question support for contextual refinement"
+      ],
+      "whyItMatters": "YouTube's full US rollout of Ask YouTube signals that AI-powered conversational search is moving from a premium upsell to a standard feature—reshaping how billions of people discover video content and setting a new baseline expectation for search interfaces across all platforms.",
+      "tags": ["youtube", "google", "gemini", "conversational-ai", "ai-search", "consumer-ai"],
+      "relatedIds": ["article-techcrunch-made-by-google-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI model powers YouTube's Ask YouTube feature?",
+          "options": [
+            "GPT-5",
+            "Claude",
+            "Gemini",
+            "Grok"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ask YouTube is powered by Google's Gemini model, which enables conversational query understanding and the synthesis of structured answers combining video and text results."
+        },
+        {
+          "question": "When did YouTube first launch Ask YouTube before the full US expansion on August 13, 2026?",
+          "options": [
+            "January 2026 for all users",
+            "April 2026 for Premium subscribers on mobile",
+            "June 2026 for desktop users worldwide",
+            "August 2025 in beta"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ask YouTube launched in April 2026 for Premium subscribers on mobile before gradually expanding to desktop and eventually to all signed-in US users on August 13, 2026."
         }
       ]
     }
