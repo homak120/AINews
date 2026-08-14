@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T12:00:00.000Z",
+  "generatedAt": "2026-08-14T18:00:00.000Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-13",
-  "coverageEnd": "2026-08-13",
+  "coverageEnd": "2026-08-14",
   "items": [
     {
       "id": "youtube-oi_NNxCMjuM",
@@ -178,6 +178,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Gemini 3.7 Flash launched at an introductory price of $0.75 per million input tokens — half the original Gemini 3.6 Flash rate. The introductory pricing expires December 31, 2026, after which it reverts to $1.50."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ibm-openai",
+      "type": "article",
+      "title": "IBM Partners With OpenAI to Bolster Enterprise AI Push",
+      "sourceUrl": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "IBM and OpenAI announced a broad strategic partnership to deploy AI across enterprise core operations, with IBM Consulting Advantage incorporating OpenAI's GPT-5.6, Codex, and ChatGPT Work products. IBM will establish a dedicated OpenAI practice within IBM Consulting and train tens of thousands of consultants on OpenAI technologies over the coming months, while joining OpenAI's Elite partner tier. The collaboration targets regulated sectors including financial services, telecommunications, government, and retail.",
+      "keyConcepts": [
+        "IBM Consulting Advantage integration with GPT-5.6 and Codex",
+        "IBM joins OpenAI's Elite partner tier",
+        "Tens of thousands of IBM consultants to be certified on OpenAI tools",
+        "Target sectors: financial services, telecom, government, retail"
+      ],
+      "whyItMatters": "IBM's deep enterprise trust relationships in regulated industries give OpenAI a distribution channel it has historically lacked — this partnership positions IBM as a primary SI (systems integrator) for OpenAI deployments in Fortune 500 and government accounts where direct OpenAI sales are slower.",
+      "tags": ["ibm", "openai", "enterprise-ai", "ai-consulting", "gpt-5-6", "partnership"],
+      "relatedIds": ["article-techcrunch-openai-ultrafast", "article-fortune-openai-cro"],
+      "knowledgeChecks": [
+        {
+          "question": "Which OpenAI models will be integrated into IBM Consulting Advantage as part of the partnership?",
+          "options": [
+            "GPT-4o and DALL-E 3",
+            "GPT-5.6, Codex, and ChatGPT Work",
+            "o3 and o4-mini only",
+            "Sora and Whisper"
+          ],
+          "correctIndex": 1,
+          "explanation": "The IBM-OpenAI partnership integrates GPT-5.6, Codex (for software development), and ChatGPT Work into IBM Consulting Advantage, targeting enterprise workflows across finance, customer operations, procurement, and HR."
+        },
+        {
+          "question": "What IBM partner tier does the company join as part of the OpenAI deal?",
+          "options": [
+            "Standard tier",
+            "Preferred tier",
+            "Elite tier",
+            "Founding partner tier"
+          ],
+          "correctIndex": 2,
+          "explanation": "IBM joins OpenAI's Elite partner tier as part of the strategic agreement, the highest designation in OpenAI's partner program, reflecting the depth and scale of the planned integration across IBM Consulting."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-openai-cro",
+      "type": "article",
+      "title": "OpenAI Swaps Chief Revenue Officer Amid Ongoing Executive Departures",
+      "sourceUrl": "https://fortune.com/2026/08/14/openai-swaps-chief-revenue-officer-amid-executive-departures/",
+      "verified": false,
+      "publishedAt": "2026-08-14",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "OpenAI is replacing chief revenue officer Denise Dresser, who is departing less than a year into the role, with Dali Rajic — the former president and COO of cybersecurity company Wiz. The executive change continues a pattern of C-suite churn at OpenAI as the company scales aggressively toward enterprise revenue ahead of a potential IPO. Rajic's cybersecurity background is seen as relevant given OpenAI's growing partnerships with enterprise and government security clients, including the newly announced IBM deal.",
+      "keyConcepts": [
+        "CRO Denise Dresser departure after less than one year in role",
+        "Dali Rajic (ex-Wiz COO) named as incoming CRO",
+        "Ongoing C-suite turnover pattern at frontier AI labs",
+        "Enterprise revenue expansion critical ahead of potential IPO"
+      ],
+      "whyItMatters": "Frequent executive turnover at OpenAI's revenue leadership level signals the difficulty of scaling enterprise sales at the speed Sam Altman wants — finding leaders who can bridge technical credibility with Fortune 500 procurement cycles is genuinely hard, and the churn creates relationship risk for major accounts.",
+      "tags": ["openai", "leadership", "enterprise-sales", "cro", "executive-change", "ipo"],
+      "relatedIds": ["article-techcrunch-ibm-openai", "article-techcrunch-openai-ultrafast"],
+      "knowledgeChecks": [
+        {
+          "question": "Who is replacing Denise Dresser as OpenAI's Chief Revenue Officer?",
+          "options": [
+            "Brad Lightcap",
+            "Kevin Weil",
+            "Dali Rajic",
+            "Nick Turley"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dali Rajic, the former president and COO of cybersecurity company Wiz, is replacing Denise Dresser as OpenAI's Chief Revenue Officer."
+        },
+        {
+          "question": "How long did Denise Dresser serve as OpenAI's CRO before departing?",
+          "options": [
+            "More than 3 years",
+            "About 2 years",
+            "Less than one year",
+            "She was never officially appointed"
+          ],
+          "correctIndex": 2,
+          "explanation": "Denise Dresser is departing less than a year after being appointed as OpenAI's Chief Revenue Officer, continuing a pattern of rapid turnover in the company's revenue leadership."
         }
       ]
     }
