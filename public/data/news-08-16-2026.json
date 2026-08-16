@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T08:00:00.000Z",
+  "generatedAt": "2026-08-16T12:00:00.000Z",
   "weekOf": "2026-08-10",
   "coverageStart": "2026-08-15",
-  "coverageEnd": "2026-08-15",
+  "coverageEnd": "2026-08-16",
   "items": [
     {
       "id": "article-qwen38-27b-release",
@@ -131,6 +131,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Fully homomorphic encryption allows computation on ciphertext — meaning the cloud server running HEIR-compiled inference never sees the decrypted patient data, financial records, or other sensitive inputs. This satisfies data-privacy regulations (HIPAA, GDPR) that currently block cloud AI deployment in healthcare, finance, and legal industries."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-q2-2026-first-profit",
+      "type": "article",
+      "title": "Anthropic Reports First Operating Profit as Q2 2026 Revenue Exceeds $11.5 Billion",
+      "sourceUrl": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic reported preliminary Q2 2026 revenue exceeding $11.5 billion — a 14-fold increase year-over-year from $787 million in Q2 2025 — along with its first positive adjusted operating profit, marking a pivotal financial milestone for the Claude model developer. The figures, first reported by Bloomberg citing investor documents, significantly exceed internal projections of $10.9 billion in revenue and $559 million in operating profit that Anthropic had shared with backers in May. The results come as the company is reportedly targeting a September 2026 IPO, with its public S-1 prospectus expected on SEC EDGAR in mid-to-late August.",
+      "keyConcepts": [
+        "Preliminary Q2 2026 revenue: $11.5B+ (14x YoY growth from $787M in Q2 2025)",
+        "First positive adjusted operating profit — two years ahead of Anthropic's own schedule",
+        "Beat internal May 2026 projections of $10.9B revenue and $559M operating profit",
+        "IPO targeting September 2026; public S-1 prospectus expected mid-to-late August on SEC EDGAR"
+      ],
+      "whyItMatters": "Anthropic's first profitable quarter proves that premium AI API businesses can achieve sustainable unit economics at scale — validating the commercial model for compute-intensive frontier AI services and likely accelerating IPO timelines and valuation benchmarks across the broader AI industry.",
+      "tags": ["anthropic", "claude", "ai-revenue", "ipo", "profitability", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Anthropic's revenue grow year-over-year from Q2 2025 to Q2 2026?",
+          "options": [
+            "Approximately 3x, from $3.8B to $11.5B",
+            "Approximately 14x, from $787M to over $11.5B",
+            "Approximately 5x, from $2.3B to $11.5B",
+            "Approximately 2x, from $5.8B to $11.5B"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's preliminary Q2 2026 revenue exceeded $11.5 billion, up from $787 million in Q2 2025 — roughly a 14-fold increase year-over-year, reflecting the rapid scaling of demand for Claude-powered enterprise AI services."
+        },
+        {
+          "question": "What is the significance of Anthropic reporting positive adjusted operating profit in Q2 2026?",
+          "options": [
+            "It means Anthropic no longer needs venture capital funding",
+            "It is the company's first profitable quarter, two years ahead of its own schedule",
+            "It confirms Anthropic has surpassed OpenAI's revenue for the first time",
+            "It allows Anthropic to eliminate all API pricing for research users"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Q2 2026 operating profit marks Anthropic's first profitable quarter — a milestone the company previously projected would not occur until around 2028. Reaching profitability two years ahead of schedule signals that Claude's enterprise adoption has scaled faster than the company's own models predicted."
+        }
+      ]
+    },
+    {
+      "id": "article-ijcai-ecai-2026-safe-agents",
+      "type": "article",
+      "title": "IJCAI-ECAI 2026 Opens in Bremen, Spotlighting Safe Agentic AI and EU AI Act Enforcement",
+      "sourceUrl": "https://2026.ijcai.org/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "The 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026) opened its workshop and tutorial program on August 15 at the University of Bremen, drawing approximately 4,000 AI researchers from over 40 countries. The three-day pre-conference period (August 15–17) features 40 parallel workshops and 25+ tutorials, with the SAFER (Safe Agentic AI Framework and Ecosystem Roadmapping) Workshop on August 16 explicitly designed to produce a community roadmap for trustworthy agentic AI. The conference's 990 accepted papers cover advances in human-centered AI, robotics, healthcare, and AI safety, while the EU AI Act's Jeroen Delfos is scheduled to address academics on August 19 about shaping the compliance standards still being written.",
+      "keyConcepts": [
+        "IJCAI-ECAI 2026: 990 accepted papers, ~4,000 attendees from 40+ countries, August 15-21 in Bremen",
+        "SAFER Workshop (August 16): community roadmap for trustworthy agentic AI — reliability, transparency, oversight",
+        "Safe Physical AI workshop: alignment, intent understanding, runtime verification for robots and autonomous vehicles",
+        "EU AI Act's Article 50 transparency obligations took effect August 2; enforcers attending conference"
+      ],
+      "whyItMatters": "The world's oldest AI research conference is converging on a clear signal: agentic safety is the field's defining challenge, and the EU AI Act is providing urgent real-world stakes — making this week's Bremen workshops a critical venue for shaping safety frameworks, evaluation standards, and governance approaches that practitioners worldwide will follow.",
+      "tags": ["ijcai", "ai-safety", "agentic-ai", "eu-ai-act", "ai-research", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary goal of the SAFER Workshop at IJCAI-ECAI 2026?",
+          "options": [
+            "To launch a new open-source benchmark suite for agentic AI systems",
+            "To produce a community roadmap for trustworthy agentic AI covering reliability, transparency, and governance",
+            "To debate whether agentic AI should be paused pending new regulation",
+            "To demonstrate live AI agent systems on real-world infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "The SAFER (Safe Agentic AI Framework and Ecosystem Roadmapping) Workshop is explicitly designed to bring together researchers, practitioners, and policymakers to produce a community roadmap for trustworthy agentic AI. Its scope includes reliability, transparency, human oversight, governance, and real-world deployment challenges."
+        },
+        {
+          "question": "Why is the timing of IJCAI-ECAI 2026 particularly significant from a regulatory perspective?",
+          "options": [
+            "The conference coincides with the US Congress passing a new AI liability bill",
+            "OpenAI and Anthropic are both presenting new safety frameworks for the first time",
+            "The EU AI Act's Article 50 transparency obligations took effect just two weeks before, making compliance standards a live policy question",
+            "IJCAI is hosting the first international treaty on AI weapons systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "The EU AI Act's Article 50 transparency obligations came into effect on August 2, 2026 — just thirteen days before the conference opened. This means IJCAI-ECAI 2026 is one of the first major research gatherings where AI Act compliance is not a theoretical future concern but an active legal requirement, with EU AI Office representative Jeroen Delfos attending to explain how academics can shape the standards still being written."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-peak-pricing-live",
+      "type": "article",
+      "title": "DeepSeek's Peak/Off-Peak API Pricing Goes Live, Raising Some V4 Model Costs by Over 10x",
+      "sourceUrl": "https://www.infoworld.com/article/4209439/deepseek-raises-some-v4-prices-by-more-than-10x-as-ai-demand-strains-capacity.html",
+      "verified": false,
+      "publishedAt": "2026-08-16",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "DeepSeek's new tiered API pricing structure took effect at 16:00 UTC on August 16, introducing separate peak and off-peak rates for its V4-Pro and V4-Flash models in response to server congestion. V4-Pro output tokens now cost $3.96 per million during peak hours (01:00–04:00 and 06:00–10:00 UTC) and $1.98 per million off-peak — up from the previous flat rate of $0.87. V4-Flash output similarly rose from $0.28 to $1.32 per million at peak, a fourfold increase, with off-peak rates set at half of peak. DeepSeek framed the change as a measure to 'allocate resources more reasonably,' and the models remain substantially cheaper than comparable Western alternatives despite the increases.",
+      "keyConcepts": [
+        "V4-Pro output: $3.96/M (peak) and $1.98/M (off-peak), up from previous flat $0.87/M",
+        "V4-Flash output: $1.32/M (peak) and $0.66/M (off-peak), up from previous flat $0.28/M",
+        "Peak hours: 01:00–04:00 and 06:00–10:00 UTC; off-peak rates are exactly 50% of peak",
+        "Pricing effective 16:00 UTC August 16; increases ranging from 50% to over 1,100% depending on model and token type"
+      ],
+      "whyItMatters": "DeepSeek's shift to dynamic peak/off-peak pricing ends the era of flat ultra-cheap AI API access that disrupted Western providers earlier this year — signaling that even cost-leader AI providers face real infrastructure constraints at scale. Developers now must architect workloads around time-of-day scheduling to optimize costs, adding operational complexity that changes how latency-tolerant batch jobs are built.",
+      "tags": ["deepseek", "api-pricing", "ai-costs", "v4-pro", "developer-tools", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much did DeepSeek increase V4-Pro output token pricing during peak hours?",
+          "options": [
+            "About 50%, from $0.87 to $1.30 per million tokens",
+            "About double, from $0.87 to $1.74 per million tokens",
+            "More than fourfold, from $0.87 to $3.96 per million tokens",
+            "About tenfold, from $0.87 to $8.70 per million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek raised V4-Pro output token pricing from a flat $0.87 per million to $3.96 per million during peak hours — a more than fourfold increase. Off-peak pricing is $1.98 per million, which is still more than double the previous rate but represents a 50% discount from the peak price."
+        },
+        {
+          "question": "What strategy does DeepSeek's off-peak pricing enable for developers with flexible workloads?",
+          "options": [
+            "Run inference during peak hours to access the highest GPU allocations",
+            "Schedule latency-tolerant batch jobs during off-peak hours to pay half the peak rate",
+            "Pre-purchase tokens at a fixed rate regardless of when they are consumed",
+            "Switch between V4-Pro and V4-Flash dynamically based on server load"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek's off-peak rates are exactly 50% of peak rates, providing a built-in incentive for developers to shift latency-tolerant workloads — batch summarization, background analysis, data processing — to run outside the 01:00–04:00 and 06:00–10:00 UTC peak windows. Developers who can architect their pipelines around time-of-day scheduling can roughly halve their API costs compared to running exclusively during peak hours."
         }
       ]
     }
