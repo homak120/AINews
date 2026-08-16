@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-08-16T08:00:00.000Z",
+  "weekOf": "2026-08-10",
+  "coverageStart": "2026-08-15",
+  "coverageEnd": "2026-08-15",
+  "items": [
+    {
+      "id": "article-qwen38-27b-release",
+      "type": "article",
+      "title": "Alibaba Releases Qwen 3.8-27B: Frontier-Class Local AI That Fits on One Consumer GPU",
+      "sourceUrl": "https://startupfortune.com/alibabas-qwen38-27b-squeezes-frontier-ai-benchmarks-onto-one-gaming-gpu/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Alibaba's Qwen team released Qwen3.8-27B on August 15, a 27.8-billion-parameter dense multimodal model under Apache 2.0 that accepts text, images, and video within a 262,144-token native context window. The model distills capabilities from Alibaba's larger Qwen3.8 Max and runs on a single 24 GB consumer GPU, achieving roughly 15% improvement over its predecessor Qwen3.6-27B on Terminal-Bench agentic coding and an 8-point gain on SWE-bench Pro. It introduces customizable reasoning depth — letting developers tune how much chain-of-thought reasoning occurs — alongside enhanced agentic capabilities across tool use and long-horizon coding tasks.",
+      "keyConcepts": [
+        "27.8B dense multimodal model running on a single 24 GB consumer GPU under Apache 2.0",
+        "Gated DeltaNet + Gated Attention hybrid architecture with 262K native context (extensible to 1M)",
+        "Customizable reasoning depth: tunable chain-of-thought effort per query",
+        "~15% Terminal-Bench gain and 8-point SWE-bench Pro improvement over Qwen3.6-27B"
+      ],
+      "whyItMatters": "Qwen3.8-27B is the most capable openly licensed multimodal model yet to fit on widely available consumer hardware — making frontier-class local AI practical for individual developers and small teams without cloud dependencies or licensing restrictions.",
+      "tags": ["qwen", "alibaba", "open-source-llm", "local-ai", "multimodal", "agentic-coding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Qwen3.8-27B accessible to individual developers compared to other frontier-tier models?",
+          "options": [
+            "It runs on standard cloud APIs with a free tier",
+            "It fits on a single 24 GB consumer GPU under an Apache 2.0 license",
+            "It requires only 8 GB of VRAM for full precision inference",
+            "It is exclusively distributed through Alibaba Cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Qwen3.8-27B is designed to run on a single 24 GB consumer GPU (such as RTX 4090 or equivalent) and ships under the Apache 2.0 license, allowing commercial use without restrictions. This combination of low hardware requirements and permissive licensing makes frontier-class local AI inference practical for individual developers."
+        },
+        {
+          "question": "Which architectural feature in Qwen3.8-27B allows developers to control how much reasoning the model applies per query?",
+          "options": [
+            "Mixture-of-Experts (MoE) routing that adapts expert count dynamically",
+            "Gated DeltaNet attention layers that bypass reasoning on simple prompts",
+            "Customizable reasoning depth — tunable chain-of-thought effort",
+            "An external classifier that categorizes query complexity before inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qwen3.8-27B introduces customizable reasoning depth, allowing developers to dial up or down how much chain-of-thought reasoning the model applies to each query. This makes it efficient for simple tasks while preserving deeper reasoning capacity for complex, multi-step problems."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-aug15-update",
+      "type": "article",
+      "title": "ChatGPT August 15 Update: Interactive Quizzes, Flexible Project Memory, and Linux Desktop App",
+      "sourceUrl": "https://www.progressiverobot.com/2026/08/15/chatgpt-update-quiz-reservations-google-drive/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI shipped a broad ChatGPT update on August 15 adding interactive quizzes, improved project memory controls, and a public preview of the Linux desktop app. Users can now ask ChatGPT to quiz them on any topic and answer directly in the conversation, a feature rolling out to all consumer and Edu plans on web and mobile. Project memory settings gained flexibility — users of eligible unshared projects can switch between default and project-only memory without starting a new project — and the 'Think' button now appears for Free and Go users on web.",
+      "keyConcepts": [
+        "Interactive quizzes: ask ChatGPT to quiz you on any topic, answer in-conversation (all plans, web + mobile)",
+        "Project memory toggle: switch between default and project-only memory for unshared projects",
+        "'Think' button now available to Free and Go users on web for extended reasoning",
+        "Linux desktop app public preview; smoother dictation and Android composer behavior"
+      ],
+      "whyItMatters": "The quiz feature signals OpenAI is repositioning ChatGPT as an active learning tool rather than just a Q&A assistant, while the project memory toggle gives power users finer control over how context is scoped — both moves that increase daily utility and stickiness for education and professional workflows.",
+      "tags": ["openai", "chatgpt", "product-update", "memory", "linux", "learning-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which ChatGPT plans received the new interactive quiz feature in the August 15 update?",
+          "options": [
+            "Plus and Pro only",
+            "Pro and Enterprise only",
+            "All consumer plans and Edu plans on web and mobile",
+            "Free tier only as a new user acquisition feature"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI rolled out interactive quizzes to all consumer ChatGPT plans (Free, Go, Plus, Pro) and Edu plans on both web and mobile — making it broadly available rather than gating it behind a premium tier."
+        },
+        {
+          "question": "What limitation exists on the new project memory toggle in the August 15 update?",
+          "options": [
+            "The toggle only works on the mobile app, not web",
+            "It can only switch memory off, not back to default",
+            "It is restricted to unshared projects; shared projects remain project-only",
+            "Memory settings can only be changed once per week to prevent abuse"
+          ],
+          "correctIndex": 2,
+          "explanation": "The new project memory toggle allows users to switch between default and project-only memory settings, but only for eligible unshared projects. Shared projects remain locked to project-only memory, preventing one user from changing memory scope in a way that affects all collaborators."
+        }
+      ]
+    },
+    {
+      "id": "article-google-heir-fhe-expansion",
+      "type": "article",
+      "title": "Google Expands HEIR: Open-Source Compiler Now Brings Private AI Inference to Pretrained Models",
+      "sourceUrl": "https://developers.googleblog.com/en/expanding-our-fully-homomorphic-encryption-offering/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "dateEstimated": true,
+      "topics": ["ai-research"],
+      "summary": "Google announced an expansion of its HEIR (Homomorphic Encryption Intermediate Representation) open-source compiler, which converts pretrained machine learning models to run inference on fully encrypted inputs so that servers process data without ever seeing the underlying plaintext. Built on the MLIR compiler framework, HEIR now supports StableHLO as a frontend — allowing developers to drop in existing TensorFlow, JAX, or PyTorch models and compile them for fully homomorphic encryption (FHE) without rewriting inference logic. Google demonstrated the toolchain on a deep-learning recommender, credit-card fraud detection, network intrusion detection, and hotword recognition, completing private inference in 16 seconds for a three-layer neural network.",
+      "keyConcepts": [
+        "HEIR compiler converts pretrained ML models to FHE inference without rewriting model code",
+        "StableHLO frontend support enables direct use of TensorFlow, JAX, and PyTorch models",
+        "16-second private inference time for a 3-layer neural network as benchmark",
+        "Co-developed hardware acceleration with Belfort, Niobium, Cornami, and Optalysys"
+      ],
+      "whyItMatters": "HEIR makes fully homomorphic encryption practical for real AI workloads for the first time — enabling use cases like medical inference on encrypted patient data or financial fraud detection where the model provider never learns the user's inputs, a capability that could satisfy data-privacy regulations that currently block cloud AI deployment in sensitive industries.",
+      "tags": ["homomorphic-encryption", "private-ai", "google", "open-source", "mlir", "data-privacy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does HEIR's StableHLO frontend support allow developers to do?",
+          "options": [
+            "Export model weights in a new compressed format for edge devices",
+            "Use existing TensorFlow, JAX, or PyTorch models without rewriting inference code",
+            "Automatically parallelize inference across multiple encrypted data shards",
+            "Compile models exclusively for Belfort and Niobium hardware accelerators"
+          ],
+          "correctIndex": 1,
+          "explanation": "HEIR's StableHLO frontend lets developers feed in pretrained models from TensorFlow, JAX, or PyTorch and compile them to run on fully homomorphic encrypted data without rewriting any inference logic. This dramatically lowers the barrier to adopting private AI inference, as teams can use their existing model artifacts directly."
+        },
+        {
+          "question": "Why is running AI inference on fully homomorphic encrypted inputs valuable for regulated industries like healthcare?",
+          "options": [
+            "It reduces inference latency by offloading decryption to specialized hardware",
+            "It allows models to be trained without any labeled data",
+            "The server processes encrypted inputs and never sees the underlying plaintext, satisfying data-privacy regulations",
+            "It eliminates the need for model fine-tuning on domain-specific data"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fully homomorphic encryption allows computation on ciphertext — meaning the cloud server running HEIR-compiled inference never sees the decrypted patient data, financial records, or other sensitive inputs. This satisfies data-privacy regulations (HIPAA, GDPR) that currently block cloud AI deployment in healthcare, finance, and legal industries."
+        }
+      ]
+    }
+  ]
+}
