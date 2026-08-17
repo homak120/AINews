@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T10:00:00.000Z",
+  "generatedAt": "2026-08-17T18:00:00.000Z",
   "weekOf": "2026-08-17",
   "coverageStart": "2026-08-16",
-  "coverageEnd": "2026-08-16",
+  "coverageEnd": "2026-08-17",
   "items": [
     {
       "id": "article-stripe-openrouter-acquisition",
@@ -130,6 +130,135 @@
           ],
           "correctIndex": 3,
           "explanation": "AI data centers are highly water-intensive for cooling and require enormous electricity, creating direct conflicts with agricultural water rights, local power grid capacity, and environmental goals in proposed host communities."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-q2-revenue-ipo",
+      "type": "article",
+      "title": "Anthropic Posts $11.5 Billion Q2 Revenue with First Profitable Quarter, Eyes $2 Trillion IPO",
+      "sourceUrl": "https://www.forbes.com/sites/jonmarkman/2026/08/17/anthropics-groundbreaking-second-quarter-delivers-115b-in-revenue/",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic reported preliminary Q2 2026 revenue exceeding $11.5 billion — a 14-fold jump over Q2 2025 and more than double Q1 2026's $4.73 billion — while also posting positive adjusted operating income for the first time. The results were shared with investors as the company enters early meetings ahead of a potential October IPO at a targeted valuation of $2 trillion, which would surpass SpaceX and become the largest IPO in history. CEO Dario Amodei attributed the growth to enterprise adoption of the Claude 4 model family and strong demand for the Claude Enterprise tier.",
+      "keyConcepts": [
+        "Run-rate revenue: Anthropic's annualized revenue is projected to reach $100–120 billion by year-end",
+        "Adjusted operating income: Anthropic's first profitable quarter as a frontier AI lab",
+        "IPO valuation: $2 trillion target would be the largest in history, exceeding SpaceX's $1.77T debut",
+        "Claude Enterprise tier: enterprise adoption as primary revenue driver, not consumer subscriptions"
+      ],
+      "whyItMatters": "Anthropic becoming operationally profitable at frontier AI scale upends the assumption that safety-focused AI labs must sacrifice revenue for principles — and a $2 trillion IPO would give it capital firepower comparable to established tech giants, reshaping competitive dynamics across the entire industry.",
+      "tags": ["anthropic", "ipo", "revenue", "claude", "enterprise-ai", "ai-industry"],
+      "relatedIds": ["article-amodei-ai-trust-crisis-essay"],
+      "knowledgeChecks": [
+        {
+          "question": "What milestone did Anthropic's Q2 2026 results mark beyond revenue growth?",
+          "options": [
+            "Launch of Claude Opus 5 as the top-ranked model globally",
+            "First profitable quarter in Anthropic's history as measured by adjusted operating income",
+            "Surpassing OpenAI's API user base for the first time",
+            "Completion of Anthropic's first government AI contract"
+          ],
+          "correctIndex": 1,
+          "explanation": "Q2 2026 was the first quarter in which Anthropic posted positive adjusted operating income, a key milestone showing the company can reach frontier AI scale while also being operationally profitable."
+        },
+        {
+          "question": "At $2 trillion, how would Anthropic's targeted IPO valuation compare historically?",
+          "options": [
+            "It would be the second-largest IPO ever, after SpaceX",
+            "It would match OpenAI's last private valuation",
+            "It would be the largest IPO in history, surpassing SpaceX's $1.77 trillion debut",
+            "It would be in line with typical frontier AI lab valuations at the time of listing"
+          ],
+          "correctIndex": 2,
+          "explanation": "A $2 trillion valuation would make Anthropic's IPO the largest in history, eclipsing SpaceX's $1.77 trillion IPO in June 2026, which itself was a record at the time."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-pro-price-hike",
+      "type": "article",
+      "title": "DeepSeek Launches V4 Pro with Better Benchmarks While Hiking API Prices Up to 1,100%",
+      "sourceUrl": "https://www.ghacks.net/2026/08/17/deepseek-releases-v4-pro-with-higher-benchmarks-open-source-tooling-and-upcoming-price-increases/",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "DeepSeek officially released V4 Pro with significantly higher benchmark scores than V4 Flash — scoring 53 on the Artificial Analysis Intelligence Index versus 40 for its predecessor — along with native support for the OpenAI Responses API and improved agentic capabilities. Simultaneously, the company implemented sweeping API price increases ranging from 50% to 1,100%, effective August 16-17, introducing a new peak and off-peak billing structure. The V4 Pro output token price during peak hours rises to $3.96 per million tokens, up from $0.87 — a ~4.5x increase — though still well below comparable Western frontier models.",
+      "keyConcepts": [
+        "DeepSeek V4 Pro: 53 vs 40 on Artificial Analysis Intelligence Index compared to V4 Flash",
+        "Peak/off-peak billing: peak hours at 01:00–04:00 and 06:00–10:00 UTC, off-peak at half price",
+        "Price increases of 50–1,100% signal DeepSeek moving from loss-leader pricing toward sustainable margins",
+        "OpenAI Responses API compatibility: enables drop-in replacement in existing application stacks"
+      ],
+      "whyItMatters": "DeepSeek's era of deeply subsidized API pricing that disrupted the AI market earlier in 2026 is ending — developers who built cost strategies around DeepSeek's ultra-low rates must now reassess, and the move suggests even Chinese AI labs face the economic reality of sustaining frontier model operations.",
+      "tags": ["deepseek", "api-pricing", "v4-pro", "ai-models", "developer-tools", "model-benchmarks"],
+      "relatedIds": ["article-stripe-openrouter-acquisition"],
+      "knowledgeChecks": [
+        {
+          "question": "What pricing structure change did DeepSeek introduce alongside V4 Pro?",
+          "options": [
+            "A flat monthly subscription replacing per-token billing",
+            "Peak and off-peak billing tiers with off-peak rates at half the peak price",
+            "Volume discounts that reduced costs for high-usage enterprise customers",
+            "A free tier capped at 1 million tokens per month"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek introduced a peak and off-peak billing structure where developers pay the full rate during peak hours (01:00–04:00 and 06:00–10:00 UTC) and half the rate during off-peak periods, incentivizing workload scheduling."
+        },
+        {
+          "question": "Despite the large price increases, how does DeepSeek V4 Pro pricing compare to Western frontier models?",
+          "options": [
+            "It is now priced identically to GPT-5.6 Sol and Claude Opus 5",
+            "It still costs significantly less than comparable Western frontier models",
+            "It is now more expensive than most OpenAI models after the increases",
+            "It is priced competitively only for off-peak usage hours"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even after price increases of up to 1,100%, DeepSeek V4 Pro remains substantially cheaper than comparable Western frontier models from OpenAI, Anthropic, and Google, maintaining its cost advantage for developers."
+        }
+      ]
+    },
+    {
+      "id": "article-zuckerberg-ai-vision-skepticism",
+      "type": "article",
+      "title": "Why People Aren't Buying Mark Zuckerberg's AI Vision for Everyone",
+      "sourceUrl": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "verified": false,
+      "publishedAt": "2026-08-16",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Meta CEO Mark Zuckerberg published a 6,500-word essay declaring 'The Future is for Everyone' and arguing that AI will democratize access to expertise — but the vision has been met with widespread public skepticism. A CNBC/Generation Labs survey of over 1,000 Americans aged 18–34 found that 71% don't trust Zuckerberg to act responsibly on AI, and broader analysis shows that young Americans distrust nearly every major AI CEO except Microsoft's Satya Nadella. Critics argue that Zuckerberg's optimistic framing glosses over concerns about AI job displacement, data privacy, and the concentration of AI power within a handful of platform companies.",
+      "keyConcepts": [
+        "Zuckerberg's 'AI for everyone' thesis: AI agents will give ordinary people access to expert-level advice",
+        "Generational trust gap: 71% of Americans aged 18-34 distrust Zuckerberg on AI specifically",
+        "AI CEO trust rankings: Satya Nadella is the only major AI CEO with net positive trust among young Americans",
+        "AI democratization critique: access to AI tools doesn't automatically translate to shared economic benefit"
+      ],
+      "whyItMatters": "The gap between tech leaders' optimistic AI narratives and public distrust is widening fastest among the demographic most expected to adopt AI tools — and that credibility deficit will increasingly shape regulation, product adoption rates, and which companies earn the social license to deploy AI at scale.",
+      "tags": ["meta", "mark-zuckerberg", "ai-trust", "public-opinion", "ai-adoption", "ai-policy"],
+      "relatedIds": ["article-amodei-ai-trust-crisis-essay"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the CNBC/Generation Labs survey, which AI industry leader had net positive trust among Americans aged 18–34?",
+          "options": [
+            "Sam Altman of OpenAI",
+            "Elon Musk of xAI",
+            "Satya Nadella of Microsoft",
+            "Dario Amodei of Anthropic"
+          ],
+          "correctIndex": 2,
+          "explanation": "Satya Nadella was the only major AI executive tested who achieved net positive trust among young Americans, while other AI CEOs including Altman, Musk, Zuckerberg, and Amodei all recorded net distrust scores."
+        },
+        {
+          "question": "What was the core argument of Zuckerberg's 'The Future is for Everyone' essay?",
+          "options": [
+            "Open-source AI will prevent monopolization of artificial intelligence capabilities",
+            "AI agents will give ordinary people access to expert-level knowledge and advice, democratizing opportunity",
+            "AI regulation should be left to industry self-governance rather than government oversight",
+            "Meta's AI assistant will replace search engines within three years"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zuckerberg's essay argued that AI will function like a brilliant advisor available to everyone, democratizing access to the kind of expert guidance previously available only to the wealthy — though this vision was met with significant public skepticism."
         }
       ]
     }
