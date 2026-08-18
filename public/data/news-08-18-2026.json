@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-08-18T12:00:00.000Z",
+  "weekOf": "2026-08-17",
+  "coverageStart": "2026-08-17",
+  "coverageEnd": "2026-08-18",
+  "items": [
+    {
+      "id": "article-nvidia-105b-ohio-openai-campus",
+      "type": "article",
+      "title": "NVIDIA Guarantees Up to $105B for 8-GW Ohio AI Campus Leased by OpenAI",
+      "sourceUrl": "https://www.unite.ai/nvidia-guarantees-up-to-105b-for-8-gw-ohio-ai-campus-leased-by-openai/",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "NVIDIA has agreed to guarantee up to $105 billion in lease obligations at a planned 8-gigawatt AI data center campus in Pike County, Ohio, anchoring a partnership with SB Energy with OpenAI as the primary tenant. The commitment, detailed in an SEC filing, represents one of the largest single infrastructure guarantees in tech history and signals that AI compute demand has reached a scale requiring industrial-grade financial engineering alongside physical construction. The campus would dwarf existing hyperscaler data center footprints and provide OpenAI with a dedicated training and inference facility at a scale not previously seen.",
+      "keyConcepts": [
+        "8 gigawatts of capacity: roughly 10x the size of the largest existing AI data centers",
+        "Lease guarantee: NVIDIA backstops $105B in obligations, essentially co-signing OpenAI's infrastructure bet",
+        "SB Energy partnership: renewable energy developer anchoring the power supply for the campus",
+        "SEC filing disclosure: financial commitments at this scale require public regulatory reporting"
+      ],
+      "whyItMatters": "A $105B infrastructure guarantee by a chip supplier for an AI lab's data center signals that the AI compute race has moved from software competition to industrial-scale physical infrastructure, with compute access becoming a fundamental strategic asset that companies are betting existential capital on securing.",
+      "tags": ["nvidia", "openai", "data-center", "ai-infrastructure", "ohio", "compute"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What role does NVIDIA play in the Ohio AI campus deal announced in August 2026?",
+          "options": [
+            "NVIDIA is building and owning the data center outright",
+            "NVIDIA is providing GPU chips at a discounted rate to OpenAI",
+            "NVIDIA is guaranteeing up to $105 billion in lease obligations for the campus",
+            "NVIDIA is acting as a co-tenant alongside OpenAI"
+          ],
+          "correctIndex": 2,
+          "explanation": "NVIDIA guaranteed up to $105 billion in lease obligations for the 8-gigawatt campus in Pike County, Ohio — essentially co-signing the financial risk for OpenAI's massive infrastructure commitment, a role unprecedented for a chip manufacturer."
+        },
+        {
+          "question": "What does an 8-gigawatt AI campus capacity signify compared to existing data centers?",
+          "options": [
+            "It is roughly equivalent to a standard hyperscaler data center build",
+            "It represents about 10x the scale of the largest existing AI data centers",
+            "It is smaller than Microsoft's Azure campus but optimized for AI workloads",
+            "It matches the combined capacity of Google and Amazon's current AI data centers"
+          ],
+          "correctIndex": 1,
+          "explanation": "8 gigawatts of capacity is roughly 10 times larger than the largest existing AI data centers, representing a step-change in AI infrastructure scale that reflects the compute demands of next-generation frontier model training."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-copilot-single-app",
+      "type": "article",
+      "title": "Microsoft Merges Copilot and Microsoft 365 Copilot Into a Single Unified App",
+      "sourceUrl": "https://www.unite.ai/microsoft-merges-copilot-and-microsoft-365-copilot-into-a-single-app/",
+      "verified": false,
+      "publishedAt": "2026-08-18",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Microsoft is consolidating its consumer Copilot app and the Microsoft 365 Copilot app into a single unified application, with a worldwide rollout for mobile and web versions beginning in mid-August 2026. The merger eliminates a confusing product split that existed since Copilot launched as a separate consumer offering alongside the enterprise-focused Microsoft 365 Copilot, and positions Microsoft to deliver a seamless AI assistant experience across personal and professional contexts within one interface. Microsoft is simultaneously retiring the Podcasts feature from Copilot as part of the consolidation.",
+      "keyConcepts": [
+        "Product consolidation: merging two separate Copilot apps that served distinct consumer vs. enterprise audiences",
+        "Unified AI assistant: single interface covering productivity, creative, and conversational AI needs",
+        "Phased rollout: mobile and web versions first, with desktop presumably following",
+        "Feature retirement: Podcasts feature in Copilot discontinued as part of the streamlining"
+      ],
+      "whyItMatters": "Microsoft's decision to unify Copilot removes friction between personal and work AI contexts, betting that users want one continuous AI relationship rather than switching between apps — a strategy that mirrors how Microsoft once unified Office and consumer productivity tools, and positions Copilot to compete more directly with ChatGPT as a daily-use AI companion.",
+      "tags": ["microsoft", "copilot", "microsoft-365", "ai-assistant", "product-strategy", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Microsoft's merger of its Copilot apps represent strategically?",
+          "options": [
+            "A cost-cutting measure to reduce engineering teams maintaining separate products",
+            "A consolidation that positions one AI assistant to serve both personal and professional contexts",
+            "A response to EU regulations requiring unified AI product disclosure",
+            "An admission that the Microsoft 365 Copilot enterprise product had failed commercially"
+          ],
+          "correctIndex": 1,
+          "explanation": "Merging the apps removes the friction of users maintaining separate AI contexts for personal vs. work tasks, creating a single AI companion relationship — similar to how modern smartphones unified separate device categories into one product."
+        },
+        {
+          "question": "Which feature is Microsoft retiring from Copilot as part of this consolidation?",
+          "options": [
+            "Image generation with DALL-E",
+            "Copilot in Bing Search integration",
+            "Podcasts",
+            "Copilot Studio workflow automation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft is retiring the Podcasts feature from Copilot as part of the streamlining process, focusing the unified app on core AI assistant capabilities rather than content discovery features."
+        }
+      ]
+    },
+    {
+      "id": "article-font-colors-hijack-ai-reasoning",
+      "type": "article",
+      "title": "Study: Changing Font Colors Can Quietly Hijack AI Reasoning Without Altering Text",
+      "sourceUrl": "https://www.unite.ai/changing-font-colors-can-hijack-ai-reasoning/",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "New research published August 17, 2026 finds that ordinary visual formatting changes — specifically altering font colors — can meaningfully steer Vision Language Model (VLM) reasoning, causing models to overlook words, misread meaning, and reach different conclusions without any change to the underlying text. Researchers tested mixed-sentiment text with selectively recolored words, longer passages with color-manipulated structure, and visual question answering tasks where incorrect answers were made more visually prominent through contrast. The findings reveal that VLMs have systematic biases toward visually salient elements that can be exploited without any detectable prompt injection in text.",
+      "keyConcepts": [
+        "Vision Language Models (VLMs): multimodal AI systems that process both text and visual formatting",
+        "Visual salience bias: VLMs give disproportionate weight to high-contrast or distinctively colored text",
+        "Prompt injection alternative: formatting manipulation achieves steering without textual prompt injection",
+        "Mixed-sentiment exploitation: recoloring selected words in ambiguous text shifts model sentiment classifications"
+      ],
+      "whyItMatters": "As AI systems are increasingly used to read documents, analyze presentations, and process structured data, vulnerabilities to visual formatting attacks mean adversaries could manipulate AI decisions through styling choices invisible to human reviewers — a new attack surface in deployed AI pipelines that existing text-based security filters cannot detect.",
+      "tags": ["ai-security", "vision-language-models", "prompt-injection", "ai-research", "vlm", "adversarial-attacks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes font-color-based AI manipulation particularly dangerous compared to traditional prompt injection?",
+          "options": [
+            "It can bypass AI safety filters that only scan for harmful text keywords",
+            "It works on text-only language models without any visual input",
+            "It requires no change to the document text, making it invisible to text-based security scanners",
+            "It only affects older AI models released before 2025"
+          ],
+          "correctIndex": 2,
+          "explanation": "Because font color manipulation alters only visual styling — not the text itself — it bypasses all security filters that analyze text content, making it undetectable by the input scanning tools most AI deployment pipelines rely on."
+        },
+        {
+          "question": "Which type of AI system is directly affected by font-color reasoning manipulation?",
+          "options": [
+            "Text-only large language models like GPT-4 Turbo",
+            "Vision Language Models (VLMs) that process both text content and visual formatting",
+            "Audio transcription models used in voice assistants",
+            "Code generation models that analyze source code formatting"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vision Language Models (VLMs) process documents as images that include visual styling information like font color and contrast. Their bias toward visually salient elements — not present in text-only LLMs — is what creates the vulnerability."
+        }
+      ]
+    }
+  ]
+}
