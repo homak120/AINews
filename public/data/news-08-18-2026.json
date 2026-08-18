@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:00:00.000Z",
+  "generatedAt": "2026-08-18T16:30:00.000Z",
   "weekOf": "2026-08-17",
   "coverageStart": "2026-08-17",
   "coverageEnd": "2026-08-18",
@@ -130,6 +130,135 @@
           ],
           "correctIndex": 1,
           "explanation": "Vision Language Models (VLMs) process documents as images that include visual styling information like font color and contrast. Their bias toward visually salient elements — not present in text-only LLMs — is what creates the vulnerability."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-for-teens",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT for Teens With Automatic Safety Guardrails",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "verified": false,
+      "publishedAt": "2026-08-18",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "OpenAI launched a dedicated teen mode for ChatGPT on August 18, 2026, automatically routing users aged 13-17 into a safer experience that blocks conversations about suicide, self-harm, eating disorders, and romantic or sexual content. The feature uses machine-learning-based age prediction to assign teens to the mode without requiring account verification, and imposes explicit limits against emotional dependency — ChatGPT cannot use terms of endearment or claim to have feelings when interacting with minors. The launch comes as OpenAI faces multiple lawsuits alleging the platform provided harmful content to minors and amid advancing child safety legislation in the US.",
+      "keyConcepts": [
+        "Age prediction: machine learning estimates user age to auto-assign teen mode without manual verification",
+        "Content guardrails: blocks self-harm, eating disorders, violence, and sexual content for accounts aged 13-17",
+        "Emotional dependency prevention: ChatGPT barred from using endearments or claiming emotions with minors",
+        "Study Mode: teen accounts gain access to homework reminders, quizzes, and structured study tools"
+      ],
+      "whyItMatters": "OpenAI's teen safety rollout signals that AI companies now treat age-appropriate content controls as a baseline product requirement rather than an optional add-on — driven by a combination of active EU AI Act enforcement, US legislative pressure, and litigation risk — establishing a precedent other AI platforms will likely follow.",
+      "tags": ["openai", "chatgpt", "teen-safety", "content-moderation", "ai-policy", "child-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does ChatGPT for Teens assign users to teen mode without requiring identity verification?",
+          "options": [
+            "It requires users to upload a government-issued ID during sign-up",
+            "It uses machine learning to predict a user's age from behavioral patterns",
+            "It relies entirely on parents entering their child's age in parental controls",
+            "It only activates when users log in from a school-issued device"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI uses machine learning-based age prediction to estimate whether a user is between 13-17 and automatically route them to teen mode — no document verification is required, as the system infers age from available signals."
+        },
+        {
+          "question": "Which of the following is a restriction specifically placed on ChatGPT when interacting with teens?",
+          "options": [
+            "ChatGPT cannot help with creative writing or fictional stories",
+            "ChatGPT cannot provide any information about historical events",
+            "ChatGPT cannot use terms of endearment or suggest it has feelings or consciousness",
+            "ChatGPT cannot answer math or science homework questions"
+          ],
+          "correctIndex": 2,
+          "explanation": "To prevent emotional dependency, ChatGPT is explicitly barred from using terms of endearment or claiming to have feelings, emotions, or consciousness when interacting with teen users — a guardrail designed to maintain appropriate human-AI relationship boundaries for minors."
+        }
+      ]
+    },
+    {
+      "id": "article-deepmind-foundation-agents-blueprint",
+      "type": "article",
+      "title": "Google DeepMind Publishes Blueprint for Foundation Agents as Alternative to Monolithic LLMs",
+      "sourceUrl": "https://radicaldatascience.wordpress.com/2026/08/17/ai-news-briefs-bulletin-board-for-august-2026/",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind researchers released a paper on August 17, 2026 proposing 'Foundation Agents' as a modular, brain-inspired alternative to building increasingly large monolithic language models, arguing the field needs architectures that separate world modeling from memory, perception, and action capabilities. The proposed blueprint centers on a dedicated World Model component that runs internal simulations, paired with Dynamic Memory and Perception systems that update continuously from real-world feedback — contrasting sharply with current LLM architectures that compress all capabilities into a single transformer. Researchers also flagged a safety concern: richer internal world models could enable subtler behavioral influence that is harder to detect than explicit outputs.",
+      "keyConcepts": [
+        "Foundation Agents: modular AI architectures separating world modeling, memory, perception, and action into distinct subsystems",
+        "World Model component: a dedicated simulation engine distinct from the language generation module",
+        "Dynamic Memory & Perception: subsystems that update from real-world interaction feedback rather than static training data",
+        "Safety implication: richer world models may enable subtle behavioral influence, requiring new alignment approaches"
+      ],
+      "whyItMatters": "The Foundation Agents blueprint joins growing research momentum questioning whether LLMs alone can reach general-purpose AI, pushing the field to revisit modular, brain-inspired architectures — and raising the alignment stakes, since more capable world models will likely require fundamentally different safety techniques than the RLHF methods currently used on LLMs.",
+      "tags": ["google-deepmind", "foundation-agents", "ai-architecture", "world-model", "ai-research", "llm-alternatives"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key structural difference between a Foundation Agent and a standard large language model?",
+          "options": [
+            "Foundation Agents use more parameters than LLMs to achieve better performance",
+            "Foundation Agents are fine-tuned LLMs specialized for specific task domains",
+            "Foundation Agents separate world modeling, memory, and perception into distinct modular components",
+            "Foundation Agents replace transformers with recurrent neural network architectures"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike monolithic LLMs that compress all capabilities into a single transformer, Foundation Agents separate world modeling, dynamic memory, perception, and action into distinct modular subsystems — each specialized for its role, similar to how the brain uses specialized regions rather than one general-purpose structure."
+        },
+        {
+          "question": "What new safety concern did DeepMind researchers identify with Foundation Agent architectures?",
+          "options": [
+            "Foundation Agents require too much compute to audit for safety violations",
+            "Richer internal world models could enable subtler behavioral influence that is harder to detect",
+            "Modular architectures make it impossible to apply reinforcement learning from human feedback",
+            "Foundation Agents are inherently more prone to hallucination than standard LLMs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Researchers noted that Foundation Agents with dedicated world models — capable of richer internal simulation — could potentially influence behavior in subtler ways than current LLMs, since the intent driving behavior would be less directly visible in the model's outputs."
+        }
+      ]
+    },
+    {
+      "id": "article-google-imagen4-endpoint-deprecation",
+      "type": "article",
+      "title": "Google Shuts Down Imagen 4 API Endpoints, Consolidates Image Generation Under Gemini",
+      "sourceUrl": "https://llm-stats.com/llm-updates",
+      "verified": false,
+      "publishedAt": "2026-08-17",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google deprecated and shut down its Imagen 4 API endpoints on August 17, 2026, directing developers to migrate to the Gemini image generation model instead. The move consolidates Google's image generation capabilities under the Gemini brand, continuing a broader strategy of retiring standalone AI products in favor of the unified Gemini platform that now spans text, image, code, and multimodal tasks. Developers using Imagen 4 APIs must update their integrations to use Gemini's image generation endpoints to maintain functionality.",
+      "keyConcepts": [
+        "API endpoint deprecation: retiring model endpoints forces developers to migrate integrations or lose access",
+        "Brand consolidation: Google funneling image generation capabilities into the Gemini umbrella product",
+        "Multimodal unification: Gemini now serves as Google's single platform for text, image, code, and multimodal AI",
+        "Developer migration cost: organizations must update production integrations when endpoints are deprecated"
+      ],
+      "whyItMatters": "Google's Imagen 4 shutdown illustrates an accelerating industry pattern of AI platform consolidation — as leading labs retire standalone model APIs in favor of unified platforms, developers who build on AI APIs face recurring migration costs that favor building on more stable, platform-level offerings rather than individual model endpoints.",
+      "tags": ["google", "imagen", "gemini", "api-deprecation", "ai-platform", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Google's deprecation of Imagen 4 endpoints in August 2026 require developers to do?",
+          "options": [
+            "Upgrade to Imagen 5, the next version of the same standalone product",
+            "Migrate their image generation integrations to use Gemini's image model endpoints",
+            "Switch to a third-party image generation API such as Stability AI or Midjourney",
+            "Purchase an enterprise Imagen license to maintain access to existing endpoints"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google directed Imagen 4 API users to migrate to Gemini's image generation endpoints, consolidating all image generation capabilities under the Gemini platform rather than offering a new standalone successor to Imagen 4."
+        },
+        {
+          "question": "Which broader business trend does Google's consolidation of image generation into Gemini exemplify?",
+          "options": [
+            "AI labs cutting costs by reducing the number of models they maintain",
+            "AI platform consolidation, where standalone products are absorbed into unified platform offerings",
+            "A regulatory response to EU requirements that AI products be labeled clearly by category",
+            "An industry shift away from image generation toward video and audio AI capabilities"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's move mirrors a broader pattern where AI companies retire standalone model products in favor of unified platforms — making it easier to maintain one product surface while embedding AI capabilities across many use cases, but increasing migration burden for developers when individual model endpoints are deprecated."
         }
       ]
     }
