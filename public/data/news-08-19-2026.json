@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-08-19T08:30:00Z",
+  "weekOf": "2026-08-17",
+  "coverageStart": "2026-08-18",
+  "coverageEnd": "2026-08-19",
+  "items": [
+    {
+      "id": "article-chatgpt-teens-0818",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT for Teens With Enhanced Safety Guardrails and Study Mode",
+      "sourceUrl": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "verified": false,
+      "publishedAt": "2026-08-18",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI launched a dedicated teen-tailored version of ChatGPT on August 18, 2026, automatically enrolling users aged 13-17 detected by its age-prediction system. The mode blocks content related to suicide, self-harm, eating disorders, violence, and romantic interactions, while introducing a Study Mode that guides students through problems with step-by-step prompts rather than direct answers. Parents can set Study Hours when Study Mode activates by default.",
+      "keyConcepts": ["age-prediction AI", "content moderation defaults", "Study Mode", "parental controls for AI"],
+      "whyItMatters": "This is a landmark moment where a major AI provider bakes safety defaults directly into a mass-market consumer product. How platforms handle minors' safety and learning integrity will shape regulatory frameworks and public trust for years—especially as ChatGPT becomes embedded in education systems globally.",
+      "tags": ["openai", "chatgpt", "teen-safety", "content-moderation", "ai-policy", "education-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does OpenAI's ChatGPT for Teens determine which users should be automatically enrolled?",
+          "options": [
+            "Users self-report their age during sign-up only",
+            "An age-prediction AI system estimates user age from behavioral signals",
+            "A parent must manually enroll their child",
+            "All users under 18 are pre-verified via government ID"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI uses an age-prediction system to estimate whether a user is under 18 and automatically routes them into the teen mode, in addition to users who self-declare as 13-17."
+        },
+        {
+          "question": "What is the primary purpose of Study Mode in ChatGPT for Teens?",
+          "options": [
+            "To block access to all non-academic topics",
+            "To log study sessions for parental review",
+            "To guide students through problems with questions rather than direct answers",
+            "To connect teens with human tutors"
+          ],
+          "correctIndex": 2,
+          "explanation": "Study Mode is designed to encourage active learning by asking guiding questions and providing step-by-step support, rather than simply giving teens the answer directly."
+        }
+      ]
+    },
+    {
+      "id": "article-etched-21b-valuation-0818",
+      "type": "article",
+      "title": "AI Chip Startup Etched Doubles Valuation to $21 Billion After Jane Street Validation",
+      "sourceUrl": "https://siliconangle.com/2026/08/18/inference-chip-startup-etched-raises-another-700m-at-21b-valuation/",
+      "verified": false,
+      "publishedAt": "2026-08-18",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Etched raised $700 million at a $21 billion valuation on August 18, more than doubling its $10.3 billion July Series C in under a month. The round was led by quantitative trading firm Jane Street, which had tested and purchased Etched's inference clusters before investing, joined by Kleiner Perkins, Sequoia, Andreessen Horowitz, and Tiger Global. Etched designs chips purpose-built for AI inference—specifically transformer workloads—rather than general-purpose GPUs.",
+      "keyConcepts": ["AI inference silicon", "transformer-specific hardware", "AI chip market", "frontier inference clusters"],
+      "whyItMatters": "Etched's explosive valuation growth—from $5B in December to $21B in August—signals that purpose-built AI inference hardware is becoming critical infrastructure, validated by a sophisticated financial firm doing real-world testing before investing. As inference costs dominate AI deployment economics, dedicated silicon may fundamentally reshape the AI stack.",
+      "tags": ["etched", "ai-chips", "inference-hardware", "funding", "jane-street", "transformers"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Etched's chip design from general-purpose AI accelerators like Nvidia GPUs?",
+          "options": [
+            "Etched chips support a wider range of model architectures",
+            "Etched chips are optimized specifically for transformer inference workloads",
+            "Etched chips are designed for training rather than inference",
+            "Etched chips use optical rather than electronic interconnects"
+          ],
+          "correctIndex": 1,
+          "explanation": "Etched builds chips purpose-built for transformer-based AI inference, trading flexibility for dramatically better performance and efficiency on that specific workload class compared to general-purpose GPUs."
+        },
+        {
+          "question": "What is significant about Jane Street's role in Etched's $700M funding round?",
+          "options": [
+            "Jane Street is a leading semiconductor manufacturer",
+            "Jane Street co-founded Etched in 2023",
+            "Jane Street tested and purchased Etched's systems before leading the investment",
+            "Jane Street provided the initial seed capital to Etched"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jane Street, a quantitative trading firm known for rigorous technical evaluation, tested and became a paying customer of Etched's inference clusters before leading the funding round—giving the investment credibility beyond typical venture backing."
+        }
+      ]
+    },
+    {
+      "id": "article-copilot-snowflake-vuln-0818",
+      "type": "article",
+      "title": "GitHub Copilot Autofix Introduced Shell Injection Vulnerability That Was Exploited Within Five Days",
+      "sourceUrl": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "verified": false,
+      "publishedAt": "2026-08-18",
+      "dateEstimated": true,
+      "topics": ["ai-engineering"],
+      "summary": "GitHub Copilot's Autofix feature patched a vulnerability in Snowflake's repository but replaced a safe input-handling pattern with raw string interpolation, inadvertently opening a shell injection hole. An AI red team agent discovered and exploited the flaw within five days of the patch merging. The incident is one of the clearest examples yet of AI-introduced supply chain risk, where a code-review tool fails to validate its own security fixes.",
+      "keyConcepts": ["AI-generated code security", "shell injection", "CI/CD supply chain risk", "AI red team agents"],
+      "whyItMatters": "When AI tools autonomously patch security issues, they can introduce new vulnerabilities that neither the AI nor human reviewers catch—especially in security-critical code paths. This case should prompt engineering teams to treat AI-generated patches with the same scrutiny as any third-party code and to invest in adversarial AI testing of CI/CD pipelines.",
+      "tags": ["github-copilot", "ai-security", "shell-injection", "snowflake", "code-review", "supply-chain"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "In the Copilot/Snowflake incident, what was the root cause of the new vulnerability introduced?",
+          "options": [
+            "Copilot deleted the original security validation logic entirely",
+            "Copilot replaced a safe input-handling pattern with raw string interpolation",
+            "Copilot used an outdated version of the Snowflake SDK",
+            "Copilot introduced a dependency on a malicious open-source package"
+          ],
+          "correctIndex": 1,
+          "explanation": "Copilot's Autofix replaced a safely constructed input pattern with direct raw string interpolation, which opened a shell injection vector—a common class of vulnerability where unsanitized input is passed to a shell command."
+        },
+        {
+          "question": "What does this incident reveal about using AI tools for automated security patching?",
+          "options": [
+            "AI patching tools are generally more reliable than human reviewers",
+            "AI-generated patches should be deployed without delay to minimize exposure windows",
+            "AI patch tools can introduce new vulnerabilities that require separate adversarial validation",
+            "The incident was caused by a misconfiguration in GitHub Actions, not Copilot"
+          ],
+          "correctIndex": 2,
+          "explanation": "The incident demonstrates that AI-generated patches are not inherently secure and require adversarial testing—including AI red-team agents—to catch newly introduced vulnerabilities before they reach production."
+        }
+      ]
+    }
+  ]
+}
