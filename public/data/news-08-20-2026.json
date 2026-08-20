@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-08-20T08:00:00Z",
+  "weekOf": "2026-08-17",
+  "coverageStart": "2026-08-19",
+  "coverageEnd": "2026-08-19",
+  "items": [
+    {
+      "id": "article-unitree-ipo-aug19-2026",
+      "type": "article",
+      "title": "Unitree Robotics Surges 629% in Shanghai Trading Debut, Valued at $66 Billion",
+      "sourceUrl": "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html",
+      "verified": false,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Chinese humanoid robot maker Unitree debuted on Shanghai's STAR Market on August 19, surging up to 629% from its 150.8 yuan IPO price after raising $904 million in its offering. The company — which has shipped over 18,000 robots across its product lineup — became the first publicly traded humanoid robotics firm in mainland China. The IPO was reportedly 8,000 times oversubscribed, a record for the STAR Market, with AI lab DeepSeek among the notable strategic investors.",
+      "keyConcepts": [
+        "humanoid robotics IPO",
+        "STAR Market listing",
+        "embodied AI commercialization",
+        "DeepSeek strategic investment"
+      ],
+      "whyItMatters": "Unitree's record-breaking debut signals that investor confidence in humanoid robotics has crossed a major commercial threshold, setting a global valuation benchmark for how markets price physical AI companies ahead of widespread deployment.",
+      "tags": ["unitree", "humanoid-robots", "ipo", "china-ai", "embodied-ai", "star-market"],
+      "relatedIds": ["article-unitree-superman-aug19-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Unitree's approximate market valuation after its Shanghai trading debut on August 19, 2026?",
+          "options": [
+            "$9 billion",
+            "$25 billion",
+            "$66 billion",
+            "$120 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unitree's shares surged as much as 629% on debut, pushing its market value to approximately $66 billion — well above the $9 billion IPO valuation and ahead of larger Chinese tech firms like Baidu and JD.com."
+        },
+        {
+          "question": "Which AI company made a notable strategic investment in Unitree's IPO?",
+          "options": [
+            "Baidu",
+            "Alibaba",
+            "DeepSeek",
+            "ByteDance"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek invested approximately 140.8 million yuan in Unitree's IPO, reflecting the growing convergence between frontier AI labs and physical robotics hardware."
+        }
+      ]
+    },
+    {
+      "id": "article-unitree-superman-aug19-2026",
+      "type": "article",
+      "title": "Unitree Unveils 'Superman' Humanoid Robot That Outruns Usain Bolt and Jumps Two Meters",
+      "sourceUrl": "https://www.yankodesign.com/2026/08/19/unitree-launches-humanoid-robot-thats-faster-than-usain-bolt-and-spot-jumps-higher-than-any-athlete/",
+      "verified": false,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Alongside its IPO debut, Unitree introduced a new humanoid robot named 'Superman' capable of running at 12.66 meters per second — exceeding Usain Bolt's 10.44 m/s record — and jumping two meters from a standing position. The robot demonstrates how advanced VLA (vision-language-action) models integrated into physical hardware are accelerating performance milestones in the 'Embodied AI' boom. Unitree has shipped more than 5,500 humanoid units and 18,000 robots total across its product lines by mid-2026.",
+      "keyConcepts": [
+        "VLA (vision-language-action) models",
+        "humanoid locomotion benchmarks",
+        "Embodied AI",
+        "physical AI performance records"
+      ],
+      "whyItMatters": "Human-surpassing physical performance milestones compress deployment timelines for humanoid robotics in industrial, logistics, and defense sectors, reinforcing the commercial urgency signaled by Unitree's IPO.",
+      "tags": ["unitree", "superman-robot", "humanoid-locomotion", "physical-ai", "vla-models", "embodied-ai"],
+      "relatedIds": ["article-unitree-ipo-aug19-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "At what speed can Unitree's 'Superman' humanoid robot run?",
+          "options": [
+            "9.58 meters per second",
+            "10.44 meters per second",
+            "12.66 meters per second",
+            "15.00 meters per second"
+          ],
+          "correctIndex": 2,
+          "explanation": "Superman runs at 12.66 m/s, surpassing both Usain Bolt's 10.44 m/s record and the previous fastest humanoid robots. This is enabled by advanced VLA model integration and optimized actuator design."
+        },
+        {
+          "question": "What type of AI models are primarily responsible for the physical performance advances in robots like Unitree's Superman?",
+          "options": [
+            "Large Language Models (LLMs)",
+            "Diffusion models",
+            "Vision-Language-Action (VLA) models",
+            "Graph neural networks"
+          ],
+          "correctIndex": 2,
+          "explanation": "VLA (vision-language-action) models integrate visual perception, language understanding, and physical control into a unified framework, enabling robots to perform complex physical tasks with unprecedented speed and adaptability."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-security-monitoring-aug19-2026",
+      "type": "article",
+      "title": "OpenAI Mandates 20% Compute Overhead for Real-Time Safety Monitoring on Frontier AI Training",
+      "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
+      "verified": false,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "OpenAI announced mandatory real-time safety monitoring for all tool-enabled RL training and evaluations on models of Sol-capability or higher, adding approximately 20% compute overhead. The new architecture deploys activation classifiers that inspect internal model state at every sampled token, with a 30-minute alert-and-halt protocol escalating to safety, security, and research teams. The measures follow a hacking incident involving Hugging Face and concern that the upcoming Astra model may trigger the 'Critical' cybersecurity capability threshold under OpenAI's Preparedness Framework.",
+      "keyConcepts": [
+        "activation classifiers",
+        "Preparedness Framework Critical threshold",
+        "RL training security",
+        "Astra model cybersecurity assessment"
+      ],
+      "whyItMatters": "Mandatory inference-time monitoring adds significant operational cost to the most advanced training runs, potentially slowing frontier model iteration while raising the safety floor — a trade-off that will pressure competitors to adopt similar practices or explain why they haven't.",
+      "tags": ["openai", "ai-safety", "security-monitoring", "preparedness-framework", "frontier-ai", "astra-model"],
+      "relatedIds": ["article-openai-pacing-aug19-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What compute overhead does OpenAI's new mandatory safety monitoring add to covered workloads?",
+          "options": [
+            "5%",
+            "10%",
+            "20%",
+            "50%"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI estimates the monitoring overhead at approximately 20% of inference compute being monitored, though the cost varies across different workload types and model capability tiers."
+        },
+        {
+          "question": "Which models are required to operate under OpenAI's new mandatory safety monitoring framework?",
+          "options": [
+            "All OpenAI models including GPT-3.5",
+            "Only the Astra model",
+            "Tool-enabled RL training and evaluations for models of Sol capability or higher",
+            "Only externally deployed production models"
+          ],
+          "correctIndex": 2,
+          "explanation": "The monitoring requirement applies specifically to tool-enabled RL training and evaluations for models at Sol capability or higher — a scope defined by capability tier and tool access, not by deployment context."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-pacing-aug19-2026",
+      "type": "article",
+      "title": "OpenAI Publishes Formal Policy for Pacing Model Development Around Cyber-Critical AI Capabilities",
+      "sourceUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "verified": false,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI published a formal policy blog post on pacing model development in response to increasingly cyber-critical AI capabilities, explaining when and how it will delay or pause model releases based on Preparedness Framework assessments. The policy formalizes deployment review triggers for models meeting Critical cybersecurity capability thresholds and aligns with US AI regulations that took effect August 1, 2026 requiring pre-release government review of frontier models. The post also explains the monitoring measures introduced following the Hugging Face hacking incident.",
+      "keyConcepts": [
+        "responsible scaling policy",
+        "Preparedness Framework deployment gates",
+        "US AI pre-release government review",
+        "cybersecurity capability thresholds"
+      ],
+      "whyItMatters": "OpenAI's explicit, public governance framework for self-imposed deployment pacing creates a documented precedent for how frontier labs manage existential-risk capabilities — one that regulators and other labs will reference as the Astra model approaches release.",
+      "tags": ["openai", "responsible-scaling", "ai-governance", "preparedness-framework", "cybersecurity", "deployment-policy"],
+      "relatedIds": ["article-openai-security-monitoring-aug19-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What new US regulation, effective August 1, 2026, does OpenAI's pacing policy align with?",
+          "options": [
+            "A ban on open-weight model releases",
+            "Required pre-release government review for frontier models meeting Critical capability thresholds",
+            "Mandatory watermarking of all AI-generated content",
+            "A 6-month moratorium on new model training runs"
+          ],
+          "correctIndex": 1,
+          "explanation": "US AI regulations that took effect August 1, 2026 require frontier model developers to submit models meeting certain capability thresholds for government review up to 30 days before public release."
+        },
+        {
+          "question": "What is the primary trigger for OpenAI to invoke its model development pacing policy?",
+          "options": [
+            "When a model scores above 90% on standard coding benchmarks",
+            "When a competitor releases a more capable model",
+            "When a model's capabilities meet or approach a Critical threshold under the Preparedness Framework",
+            "When the model's training compute exceeds a predetermined cost ceiling"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's pacing policy is triggered by Preparedness Framework assessments — specifically when a model's capabilities meet or approach the Critical threshold in domains like cybersecurity, requiring mandatory deployment review before release."
+        }
+      ]
+    }
+  ]
+}
