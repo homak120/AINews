@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-20T08:00:00Z",
+  "generatedAt": "2026-08-20T12:00:00Z",
   "weekOf": "2026-08-17",
   "coverageStart": "2026-08-19",
-  "coverageEnd": "2026-08-19",
+  "coverageEnd": "2026-08-20",
   "items": [
     {
       "id": "article-unitree-ipo-aug19-2026",
@@ -11,7 +11,10 @@
       "sourceUrl": "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html",
       "verified": false,
       "publishedAt": "2026-08-19",
-      "topics": ["ai-industry", "ai-research"],
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
       "summary": "Chinese humanoid robot maker Unitree debuted on Shanghai's STAR Market on August 19, surging up to 629% from its 150.8 yuan IPO price after raising $904 million in its offering. The company — which has shipped over 18,000 robots across its product lineup — became the first publicly traded humanoid robotics firm in mainland China. The IPO was reportedly 8,000 times oversubscribed, a record for the STAR Market, with AI lab DeepSeek among the notable strategic investors.",
       "keyConcepts": [
         "humanoid robotics IPO",
@@ -20,8 +23,17 @@
         "DeepSeek strategic investment"
       ],
       "whyItMatters": "Unitree's record-breaking debut signals that investor confidence in humanoid robotics has crossed a major commercial threshold, setting a global valuation benchmark for how markets price physical AI companies ahead of widespread deployment.",
-      "tags": ["unitree", "humanoid-robots", "ipo", "china-ai", "embodied-ai", "star-market"],
-      "relatedIds": ["article-unitree-superman-aug19-2026"],
+      "tags": [
+        "unitree",
+        "humanoid-robots",
+        "ipo",
+        "china-ai",
+        "embodied-ai",
+        "star-market"
+      ],
+      "relatedIds": [
+        "article-unitree-superman-aug19-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What was Unitree's approximate market valuation after its Shanghai trading debut on August 19, 2026?",
@@ -54,7 +66,10 @@
       "sourceUrl": "https://www.yankodesign.com/2026/08/19/unitree-launches-humanoid-robot-thats-faster-than-usain-bolt-and-spot-jumps-higher-than-any-athlete/",
       "verified": false,
       "publishedAt": "2026-08-19",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Alongside its IPO debut, Unitree introduced a new humanoid robot named 'Superman' capable of running at 12.66 meters per second — exceeding Usain Bolt's 10.44 m/s record — and jumping two meters from a standing position. The robot demonstrates how advanced VLA (vision-language-action) models integrated into physical hardware are accelerating performance milestones in the 'Embodied AI' boom. Unitree has shipped more than 5,500 humanoid units and 18,000 robots total across its product lines by mid-2026.",
       "keyConcepts": [
         "VLA (vision-language-action) models",
@@ -63,8 +78,17 @@
         "physical AI performance records"
       ],
       "whyItMatters": "Human-surpassing physical performance milestones compress deployment timelines for humanoid robotics in industrial, logistics, and defense sectors, reinforcing the commercial urgency signaled by Unitree's IPO.",
-      "tags": ["unitree", "superman-robot", "humanoid-locomotion", "physical-ai", "vla-models", "embodied-ai"],
-      "relatedIds": ["article-unitree-ipo-aug19-2026"],
+      "tags": [
+        "unitree",
+        "superman-robot",
+        "humanoid-locomotion",
+        "physical-ai",
+        "vla-models",
+        "embodied-ai"
+      ],
+      "relatedIds": [
+        "article-unitree-ipo-aug19-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "At what speed can Unitree's 'Superman' humanoid robot run?",
@@ -97,7 +121,10 @@
       "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
       "verified": false,
       "publishedAt": "2026-08-19",
-      "topics": ["ai-engineering", "ai-research"],
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
       "summary": "OpenAI announced mandatory real-time safety monitoring for all tool-enabled RL training and evaluations on models of Sol-capability or higher, adding approximately 20% compute overhead. The new architecture deploys activation classifiers that inspect internal model state at every sampled token, with a 30-minute alert-and-halt protocol escalating to safety, security, and research teams. The measures follow a hacking incident involving Hugging Face and concern that the upcoming Astra model may trigger the 'Critical' cybersecurity capability threshold under OpenAI's Preparedness Framework.",
       "keyConcepts": [
         "activation classifiers",
@@ -106,8 +133,17 @@
         "Astra model cybersecurity assessment"
       ],
       "whyItMatters": "Mandatory inference-time monitoring adds significant operational cost to the most advanced training runs, potentially slowing frontier model iteration while raising the safety floor — a trade-off that will pressure competitors to adopt similar practices or explain why they haven't.",
-      "tags": ["openai", "ai-safety", "security-monitoring", "preparedness-framework", "frontier-ai", "astra-model"],
-      "relatedIds": ["article-openai-pacing-aug19-2026"],
+      "tags": [
+        "openai",
+        "ai-safety",
+        "security-monitoring",
+        "preparedness-framework",
+        "frontier-ai",
+        "astra-model"
+      ],
+      "relatedIds": [
+        "article-openai-pacing-aug19-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What compute overhead does OpenAI's new mandatory safety monitoring add to covered workloads?",
@@ -140,7 +176,10 @@
       "sourceUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
       "verified": false,
       "publishedAt": "2026-08-19",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "OpenAI published a formal policy blog post on pacing model development in response to increasingly cyber-critical AI capabilities, explaining when and how it will delay or pause model releases based on Preparedness Framework assessments. The policy formalizes deployment review triggers for models meeting Critical cybersecurity capability thresholds and aligns with US AI regulations that took effect August 1, 2026 requiring pre-release government review of frontier models. The post also explains the monitoring measures introduced following the Hugging Face hacking incident.",
       "keyConcepts": [
         "responsible scaling policy",
@@ -149,8 +188,17 @@
         "cybersecurity capability thresholds"
       ],
       "whyItMatters": "OpenAI's explicit, public governance framework for self-imposed deployment pacing creates a documented precedent for how frontier labs manage existential-risk capabilities — one that regulators and other labs will reference as the Astra model approaches release.",
-      "tags": ["openai", "responsible-scaling", "ai-governance", "preparedness-framework", "cybersecurity", "deployment-policy"],
-      "relatedIds": ["article-openai-security-monitoring-aug19-2026"],
+      "tags": [
+        "openai",
+        "responsible-scaling",
+        "ai-governance",
+        "preparedness-framework",
+        "cybersecurity",
+        "deployment-policy"
+      ],
+      "relatedIds": [
+        "article-openai-security-monitoring-aug19-2026"
+      ],
       "knowledgeChecks": [
         {
           "question": "What new US regulation, effective August 1, 2026, does OpenAI's pacing policy align with?",
@@ -173,6 +221,169 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI's pacing policy is triggered by Preparedness Framework assessments — specifically when a model's capabilities meet or approach the Critical threshold in domains like cybersecurity, requiring mandatory deployment review before release."
+        }
+      ]
+    },
+    {
+      "id": "youtube-iuZPTE5qsJY",
+      "type": "video",
+      "title": "The Summer Math Fell to the Machines",
+      "youtubeId": "iuZPTE5qsJY",
+      "sourceUrl": "https://www.youtube.com/watch?v=iuZPTE5qsJY",
+      "verified": false,
+      "publishedAt": "2026-08-20",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Fireship argues that frontier AI models have closed more open mathematics problems in the last few weeks than humans managed in the previous decade. The video walks through the recent run of automated proof results, including OpenAI Astra-style systems solving previously unsolved problems, and what that means for research workflows.",
+      "keyConcepts": [
+        "Automated theorem proving with LLMs",
+        "Lean proof assistants paired with search",
+        "Benchmark saturation on open math problems",
+        "Compute-scaled reasoning traces"
+      ],
+      "whyItMatters": "Mathematics has been a stronghold of human expert judgment. If AI is now routinely closing decades-old open problems, the same reasoning stack is likely to reshape formal verification, scientific research, and engineering practice next.",
+      "tags": [
+        "fireship",
+        "math",
+        "reasoning",
+        "automated-proofs",
+        "openai-astra",
+        "llm-research"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core claim of the video?",
+          "options": [
+            "AI has replaced all mathematicians at major universities",
+            "AI has recently solved more open math problems than were solved in the previous decade",
+            "A single model achieved a Fields Medal-level proof",
+            "Math benchmarks have all been retired"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fireship frames the moment as a step change: a burst of automated proof results eclipsing the last ten years of collective progress on the same problem set."
+        },
+        {
+          "question": "Which tooling pattern is most associated with these recent math breakthroughs?",
+          "options": [
+            "Hand-tuned expert systems from the 1980s",
+            "LLMs paired with formal proof assistants like Lean and heavy inference-time search",
+            "Pure symbolic regression with no neural network",
+            "Reinforcement learning against Chess engines"
+          ],
+          "correctIndex": 1,
+          "explanation": "The current wave combines a large reasoning model as the proposer with a formal proof checker (usually Lean) as the verifier, plus large amounts of inference-time compute."
+        }
+      ]
+    },
+    {
+      "id": "youtube-J5HhFmjB9a4",
+      "type": "video",
+      "title": "Claude Fable 5.1 Leaks, Gemini Update, Anthropic Cancer Research, and Qwen 3.8 27B",
+      "youtubeId": "J5HhFmjB9a4",
+      "sourceUrl": "https://www.youtube.com/watch?v=J5HhFmjB9a4",
+      "verified": false,
+      "publishedAt": "2026-08-19",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "WorldofAI rounds up the days most credible leaks and releases: telemetry pointing to an imminent Claude Fable 5.1 launch, a large Gemini update landing on Google AI Studio, Anthropics push into oncology research with its Mythos-class models, and Alibabas newly open-sourced uncensored Qwen 3.8 27B checkpoint.",
+      "keyConcepts": [
+        "Claude Fable 5.1 release signals and pricing",
+        "Gemini model refresh on Google AI Studio",
+        "AI-assisted oncology and biomedical research",
+        "Open-weight model releases from Alibaba (Qwen 3.8)"
+      ],
+      "whyItMatters": "The frontier lab release cadence is now weekly. Tracking leak signals, open-weight releases, and biomedical claims together is how practitioners decide which stack to build against for the next quarter.",
+      "tags": [
+        "claude-fable-5-1",
+        "gemini",
+        "anthropic",
+        "qwen",
+        "open-weights",
+        "ai-news"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does the video say about Claude Fable 5.1 pricing signals?",
+          "options": [
+            "It will be priced 10x higher than Fable 5",
+            "It is expected to keep the same pricing as Fable 5",
+            "It will only be free during a beta window",
+            "It will replace Opus 5 entirely and cost 3x more"
+          ],
+          "correctIndex": 1,
+          "explanation": "Community trackers and leak analyses cited in the video indicate Anthropic is holding Fable 5.1 at Fable 5 price points, with the improvements concentrated in long-horizon reasoning and agentic work."
+        },
+        {
+          "question": "Which biomedical claim is attributed to Anthropic in this roundup?",
+          "options": [
+            "Anthropic has cured all forms of cancer",
+            "Anthropic is applying Claude to oncology and protein design research",
+            "Anthropic has replaced the FDA approval process",
+            "Anthropic has released a consumer diagnostic app"
+          ],
+          "correctIndex": 1,
+          "explanation": "The framing is that Claude Mythos-class models are being pointed at oncology and protein binder design pipelines, not that a cure exists."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-protein-aug19-2026",
+      "type": "article",
+      "title": "Anthropic Says Claude Designed Working Protein Binders for 14 of 15 Targets",
+      "sourceUrl": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "verified": true,
+      "publishedAt": "2026-08-19",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Anthropic published a technical report describing autonomous de novo protein binder design with Claude Mythos Preview and Opus 4.8. In a 48-hour agentic run the models hit 22.6-26.7% success rates, and 35.1% when Mythos Preview focused on a single target - well above the 10-15% typical for current protein design campaigns. Adaptyv Bio and Twist Bioscience independently synthesized and measured the designs.",
+      "keyConcepts": [
+        "Autonomous agent-driven computational biology pipeline",
+        "De novo protein binder design vs. traditional structure-based methods",
+        "Independent wet-lab validation via Adaptyv Bio and Twist Bioscience",
+        "Blocked life-science capabilities in Anthropic's most capable checkpoint"
+      ],
+      "whyItMatters": "This is one of the first credible demonstrations of an LLM running an end-to-end scientific design loop and beating expert baselines in wet-lab tests. It moves the AI-for-science conversation from suggestive demos to measured hit rates, and forces new questions about biosecurity access controls.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "protein-design",
+        "ai-for-science",
+        "biosecurity",
+        "agents"
+      ],
+      "relatedIds": [
+        "article-openai-security-monitoring-aug19-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What baseline hit rate does Anthropic contrast its results against?",
+          "options": [
+            "0.1-0.5% for current protein design campaigns",
+            "10-15% for current protein design campaigns",
+            "50-60% for current protein design campaigns",
+            "80-90% for current protein design campaigns"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic reports Claude achieving 22-35% hit rates against a stated baseline of 10-15% typical in modern protein binder campaigns."
+        },
+        {
+          "question": "Why did Anthropic use Adaptyv Bio and Twist Bioscience as external partners?",
+          "options": [
+            "To fund the research",
+            "To independently synthesize and measure the AI-designed proteins in a lab",
+            "To run marketing for the release",
+            "To design the underlying model architecture"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both partners produced physical proteins from the AI-generated sequences and measured binding independently, without seeing the model or the other partner's data - the setup that makes the hit-rate claim meaningful."
         }
       ]
     }
