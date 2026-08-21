@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-08-21T00:00:00.000Z",
+  "weekOf": "2026-08-17",
+  "coverageStart": "2026-08-19",
+  "coverageEnd": "2026-08-20",
+  "items": [
+    {
+      "id": "article-techcrunch-ai-trust-crisis-aug19",
+      "type": "article",
+      "title": "AI was supposed to win people over by now — it hasn't",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "verified": true,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-industry"],
+      "summary": "Despite rapid technological progress, consumer sentiment toward AI continues to worsen, with 52% of Americans saying they are 'more concerned than excited' about AI in daily life, up from 37% in 2021. Anthropic CEO Dario Amodei acknowledged the problem is 'fundamentally a crisis of trust', arguing that people distrust corporations and governments broadly and assume new technology is another way to exploit them. He cautioned that marketing campaigns will not fix the trust gap — only tangible results like meaningful advances in medicine will shift public perception.",
+      "keyConcepts": [
+        "Public trust deficit in AI",
+        "Consumer sentiment vs. technological adoption",
+        "Dario Amodei's trust crisis thesis",
+        "Gap between AI promises and delivered benefits"
+      ],
+      "whyItMatters": "AI adoption is stalling at the perception layer even as models improve rapidly — understanding why people don't trust the technology (and what would actually change that) is critical for practitioners building AI products and for the industry's long-term growth.",
+      "tags": ["ai-trust", "public-sentiment", "anthropic", "dario-amodei", "adoption", "consumer-ai"],
+      "relatedIds": ["article-techcrunch-openai-anthropic-b2b-aug20"],
+      "knowledgeChecks": [
+        {
+          "question": "According to recent survey data cited in this article, what percentage of Americans say they are 'more concerned than excited' about AI in daily life?",
+          "options": [
+            "37%",
+            "45%",
+            "52%",
+            "61%"
+          ],
+          "correctIndex": 2,
+          "explanation": "52% of Americans expressed more concern than excitement about AI in daily life, up significantly from 37% in 2021, indicating public sentiment has moved in the wrong direction for the industry despite accelerating model capabilities."
+        },
+        {
+          "question": "What did Dario Amodei say would actually resolve the public's distrust of AI — rather than marketing campaigns?",
+          "options": [
+            "More transparent model documentation",
+            "Government regulation and oversight",
+            "Tangible results like actually curing cancer",
+            "Lower prices for AI products"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amodei argued that an ad saying AI will cure cancer would be dismissed as deceptive, but actually delivering that outcome — demonstrating real-world benefit — is what would shift public trust. He pointed to Anthropic's expanded biology and medicine work as early steps."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-vivodyne-cancer-ai-aug19",
+      "type": "article",
+      "title": "AI isn't close to curing cancer. This startup says it knows what it will take.",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "verified": true,
+      "publishedAt": "2026-08-19",
+      "topics": ["ai-research"],
+      "summary": "Vivodyne, a Philadelphia biotech startup, argues that the core blocker for AI drug discovery is the absence of high-quality, causal human biological data — not AI model capability. The company launched the world's largest human biological datacenter, featuring 12 robotic HIVE laboratories with the annual capacity to run controlled trials on 3.1 million large human tissue samples, roughly twice the combined scale of every clinical trial in the US. Eight major pharmaceutical companies have already paid for early access to the platform.",
+      "keyConcepts": [
+        "Human biological datacenter",
+        "AI-powered drug discovery data pipeline",
+        "Causal biological data vs. observational data",
+        "TissueDisk wafer-scale biological chip"
+      ],
+      "whyItMatters": "Drug discovery AI has long been bottlenecked by the lack of controlled, causal, human-specific training data — Vivodyne's approach of generating that data at scale with robotics and organoids could unlock a new generation of AI-powered therapeutics and validates AI research infrastructure as a research category in its own right.",
+      "tags": ["drug-discovery", "biotech", "vivodyne", "organoids", "ai-biology", "clinical-trials"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Vivodyne, what is the primary bottleneck preventing AI from advancing drug discovery more rapidly?",
+          "options": [
+            "Insufficient compute power for running simulations",
+            "Lack of high-quality causal human biological data",
+            "Regulatory barriers to AI-assisted trial design",
+            "Insufficient AI model accuracy for protein folding"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vivodyne's thesis is that AI drug discovery models are only as good as the data they train on, and existing biological data is largely observational and animal-based rather than causal and human-specific. Their platform generates the missing data class at scale."
+        },
+        {
+          "question": "What is the approximate annual tissue trial capacity of Vivodyne's HIVE robotic laboratory system?",
+          "options": [
+            "500,000 tissue samples",
+            "1.2 million tissue samples",
+            "3.1 million tissue samples",
+            "10 million tissue samples"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vivodyne's 12 robotic HIVE laboratories have a combined capacity to perform controlled trials on 3.1 million large human tissue samples per year — approximately twice the combined scale of all clinical trials in the United States."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-openai-anthropic-b2b-aug20",
+      "type": "article",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "verified": true,
+      "publishedAt": "2026-08-20",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "New data from Ramp, the corporate spend platform used by over 70,000 US businesses, shows OpenAI growing faster than Anthropic in Q3 2026 among paid business AI users. As of July, Anthropic still held a larger share (approaching 44%) compared to OpenAI (around 40%), but the trend has reversed since May when Anthropic first overtook OpenAI. Ramp economist Ara Harazyan noted that OpenAI is currently gaining momentum but the competitive picture remains volatile quarter to quarter.",
+      "keyConcepts": [
+        "B2B AI market share dynamics",
+        "Ramp corporate spend data as AI adoption proxy",
+        "OpenAI vs. Anthropic enterprise competition",
+        "Volatile enterprise AI tool adoption patterns"
+      ],
+      "whyItMatters": "Real-world enterprise spend data is one of the most reliable signals of which AI providers are winning commercial adoption — the OpenAI/Anthropic contest shows that enterprise loyalty in AI is extremely fluid, and product teams selecting AI vendors should plan for rapid market shifts.",
+      "tags": ["openai", "anthropic", "enterprise-ai", "market-share", "b2b", "ramp"],
+      "relatedIds": ["article-techcrunch-ai-trust-crisis-aug19"],
+      "knowledgeChecks": [
+        {
+          "question": "What data source did TechCrunch use to report on OpenAI vs. Anthropic business user market share?",
+          "options": [
+            "Andreessen Horowitz investment portfolio data",
+            "Ramp's corporate card and bill pay spend data",
+            "App store download and subscription data",
+            "Enterprise survey responses from Fortune 500 companies"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ramp is a corporate spend platform used by over 70,000 US businesses. Its data on which AI providers companies are paying for offers a real-world, transaction-based view of enterprise AI adoption — more reliable than self-reported survey data."
+        },
+        {
+          "question": "According to the Ramp data as of July 2026, which company held the larger share of paid US business AI users?",
+          "options": [
+            "OpenAI, at approximately 44%",
+            "Anthropic, at approximately 44%",
+            "Both companies were tied at around 40%",
+            "Google, outpacing both OpenAI and Anthropic"
+          ],
+          "correctIndex": 1,
+          "explanation": "As of July 2026, Anthropic held approximately 44% share among Ramp's paid business users versus OpenAI's roughly 40%. However, OpenAI was growing faster in Q3, making the competitive gap narrower than it was in May when Anthropic first surpassed OpenAI."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-google-preferred-sources-aug20",
+      "type": "article",
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "verified": true,
+      "publishedAt": "2026-08-20",
+      "topics": ["ai-industry"],
+      "summary": "Google is rolling out an embeddable 'Preferred Sources' button that lets readers designate a publisher as a preferred source, boosting that outlet's visibility across Search, Discover, Google News, and AI Overviews. The feature responds to mounting publisher concern that AI-powered search modes are cannibalizing click-through traffic to news websites. Google says users have already selected more than 345,000 unique sources, and internal data shows people are twice as likely to click through to a preferred source when one is available.",
+      "keyConcepts": [
+        "Preferred Sources feature",
+        "AI search traffic displacement for publishers",
+        "User-controlled source personalization",
+        "AI Overviews and its impact on the open web"
+      ],
+      "whyItMatters": "AI search is fundamentally restructuring how information flows from content creators to readers — this Google feature is an early industry response to the collateral damage, and it signals that AI companies will need to design explicit preservation mechanisms for the publishing ecosystem that trained their models.",
+      "tags": ["google", "ai-search", "publishers", "preferred-sources", "ai-overviews", "web-traffic"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much more likely is a user to click through to a source when it is marked as their Preferred Source, according to Google's data?",
+          "options": [
+            "10% more likely",
+            "50% more likely",
+            "Twice as likely",
+            "Three times as likely"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google's internal data shows users are twice as likely to click through to a preferred source when that designation is available, which is why the company is surfacing Preferred Sources prominently across Search, Discover, and AI Overviews."
+        },
+        {
+          "question": "What is the primary motivation for Google launching the Preferred Sources button for publishers?",
+          "options": [
+            "Increasing ad revenue by driving more page views",
+            "Complying with EU AI Act publisher compensation rules",
+            "Helping publishers recover traffic lost to AI-powered search features",
+            "Competing with Apple News aggregation"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI Overviews and AI Mode in Google Search provide direct answers that often eliminate the need to click through to source websites, reducing publisher traffic. The Preferred Sources feature is Google's attempt to partially compensate publishers for this structural traffic shift by making preferred outlets more prominent in AI-mediated results."
+        }
+      ]
+    }
+  ]
+}
