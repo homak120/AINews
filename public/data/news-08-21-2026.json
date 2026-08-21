@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T00:00:00.000Z",
+  "generatedAt": "2026-08-21T12:00:00.000Z",
   "weekOf": "2026-08-17",
   "coverageStart": "2026-08-19",
-  "coverageEnd": "2026-08-20",
+  "coverageEnd": "2026-08-21",
   "items": [
     {
       "id": "article-techcrunch-ai-trust-crisis-aug19",
@@ -107,7 +107,7 @@
       ],
       "whyItMatters": "Real-world enterprise spend data is one of the most reliable signals of which AI providers are winning commercial adoption — the OpenAI/Anthropic contest shows that enterprise loyalty in AI is extremely fluid, and product teams selecting AI vendors should plan for rapid market shifts.",
       "tags": ["openai", "anthropic", "enterprise-ai", "market-share", "b2b", "ramp"],
-      "relatedIds": ["article-techcrunch-ai-trust-crisis-aug19"],
+      "relatedIds": ["article-techcrunch-ai-trust-crisis-aug19", "article-newcomer-nvidia-poolside-aug21"],
       "knowledgeChecks": [
         {
           "question": "What data source did TechCrunch use to report on OpenAI vs. Anthropic business user market share?",
@@ -173,6 +173,135 @@
           ],
           "correctIndex": 2,
           "explanation": "AI Overviews and AI Mode in Google Search provide direct answers that often eliminate the need to click through to source websites, reducing publisher traffic. The Preferred Sources feature is Google's attempt to partially compensate publishers for this structural traffic shift by making preferred outlets more prominent in AI-mediated results."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-nevada-robotaxi-aug20",
+      "type": "article",
+      "title": "Nevada approves permits letting Tesla, Uber, and Waymo deploy up to 8,000 robotaxis in Las Vegas",
+      "sourceUrl": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
+      "verified": false,
+      "publishedAt": "2026-08-20",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Nevada's transportation authority unanimously approved commercial robotaxi permits for Tesla, Uber, and Waymo, allowing paid autonomous vehicle services in Clark County, which includes Las Vegas. Tesla received approval to deploy up to 5,000 robotaxis, while Waymo and Uber are each capped at 1,000 vehicles over the next 12 months — with Uber operating through its Hyundai Motional and Zoox partnerships. Tesla's chief engineer acknowledged the company would consider 2,500 deployed vehicles in the first year a success, given the scale of the logistics challenge.",
+      "keyConcepts": [
+        "Commercial robotaxi permitting",
+        "Autonomous vehicle regulation at scale",
+        "Tesla Cybercab deployment",
+        "Multi-company AV ecosystem in a single market"
+      ],
+      "whyItMatters": "This is one of the largest U.S. regulatory approvals for commercial autonomous vehicles in history and marks a transition from AV pilots to mass commercialization — setting a template that other states are likely to follow as Tesla, Waymo, and Uber race to prove unit economics at scale.",
+      "tags": ["robotaxi", "autonomous-vehicles", "tesla", "waymo", "nevada", "regulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many total robotaxis were approved for deployment in Nevada across all three companies?",
+          "options": [
+            "Up to 1,000",
+            "Up to 3,000",
+            "Up to 8,000",
+            "Up to 15,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nevada approved a combined total of up to 8,000 robotaxis: 5,000 for Tesla, 1,000 for Waymo, and 1,000 for Uber (via Motional and Zoox partnerships), all operating in Clark County over the next 12 months."
+        },
+        {
+          "question": "Which company received the largest robotaxi deployment permit in Nevada, and how many vehicles did they receive approval for?",
+          "options": [
+            "Waymo, approved for 5,000 vehicles",
+            "Uber, approved for 3,000 vehicles via Zoox",
+            "Tesla, approved for 5,000 vehicles",
+            "All three companies were approved for equal numbers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tesla received the largest permit, covering up to 5,000 Cybercab robotaxis in the Las Vegas area. However, Tesla's chief engineer noted the company would be 'extremely happy' to achieve 2,500 deployments in the first year, reflecting the operational complexity of scaling autonomous vehicles."
+        }
+      ]
+    },
+    {
+      "id": "article-newcomer-nvidia-poolside-aug21",
+      "type": "article",
+      "title": "Nvidia pays $6 billion to license Poolside's AI model factory, invests $1 billion in the startup",
+      "sourceUrl": "https://www.newcomer.co/p/sources-poolside-strikes-6-billion",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Nvidia struck a $6 billion non-exclusive licensing deal with AI coding startup Poolside, gaining access to its 'Model Factory' — the proprietary system Poolside used to build its Laguna family of code-generation models. Nvidia also extended job offers to 109 Poolside employees and made a separate $1 billion equity investment in the company at a $12 billion pre-money valuation. Unlike a traditional acquihire, Poolside's three founders are staying with the startup, which will continue to operate independently and can still license its technology to other buyers.",
+      "keyConcepts": [
+        "Model Factory licensing vs. full acquisition",
+        "Laguna AI code-generation models",
+        "Nvidia's AI IP acquisition strategy",
+        "Reverse-acquihire deal structure"
+      ],
+      "whyItMatters": "Nvidia is using novel deal structures — licensing IP and absorbing talent while leaving the original company intact — to rapidly expand from hardware into AI model infrastructure. This is the third such deal Nvidia has executed, signaling a deliberate strategy to own key layers of the AI stack without triggering antitrust scrutiny from full acquisitions.",
+      "tags": ["nvidia", "poolside", "ai-coding", "model-factory", "licensing", "ai-industry"],
+      "relatedIds": ["article-techcrunch-openai-anthropic-b2b-aug20"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Nvidia license from Poolside in this $6 billion deal?",
+          "options": [
+            "The rights to use the Laguna models exclusively",
+            "Poolside's 'Model Factory' — the system used to build its AI models",
+            "Poolside's entire codebase including all customer contracts",
+            "Patents related to transformer-based code generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia licensed Poolside's 'Model Factory' — the platform and process Poolside used to produce its Laguna family of AI models. Crucially, this is a non-exclusive license, so Poolside can still sell or license the same technology to other companies."
+        },
+        {
+          "question": "What made this Nvidia-Poolside deal structurally different from a traditional acquisition?",
+          "options": [
+            "Nvidia paid in stock rather than cash",
+            "Poolside founders stayed with the company, which continues to operate independently",
+            "The deal required EU antitrust approval before closing",
+            "Nvidia only acquired Poolside's hardware assets, not software"
+          ],
+          "correctIndex": 1,
+          "explanation": "Poolside's founders explicitly stated 'this is not an acquisition and it is not an acquihire' — they are staying with the company, which retains its independent legal existence and the ability to sell its technology to other buyers. Nvidia got IP access and employees but did not absorb Poolside as a subsidiary."
+        }
+      ]
+    },
+    {
+      "id": "article-dataconomy-apple-openai-lawsuit-aug21",
+      "type": "article",
+      "title": "Apple fights back against OpenAI's attempt to dismiss AI trade secret lawsuit",
+      "sourceUrl": "https://dataconomy.com/2026/08/21/apple-rebuffs-openais-dismissal-motion-defends-trade/",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Apple filed a rebuttal to OpenAI's motion to dismiss a lawsuit alleging that two former Apple employees stole confidential AI trade secrets before joining OpenAI and io Products. Apple argues that the defendants improperly transferred sensitive information as they transitioned to their new roles and that the theft has caused real competitive harm. The case has become a flashpoint for broader questions about how AI companies protect proprietary methods and datasets as talent churns between rivals.",
+      "keyConcepts": [
+        "AI trade secret litigation",
+        "Employee IP obligations in AI transitions",
+        "io Products and OpenAI talent pipeline",
+        "Intellectual property protection in model development"
+      ],
+      "whyItMatters": "As the AI talent market heats up with engineers moving between OpenAI, Anthropic, Google, and Apple, this case could set binding legal precedents for what departing employees can take with them — with major implications for how AI companies secure their research pipelines and for engineers navigating career moves in the sector.",
+      "tags": ["apple", "openai", "lawsuit", "trade-secrets", "ai-talent", "intellectual-property"],
+      "relatedIds": ["article-techcrunch-openai-anthropic-b2b-aug20"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core allegation in Apple's lawsuit against OpenAI and the former employees?",
+          "options": [
+            "OpenAI copied Apple's Siri voice model architecture without permission",
+            "Former Apple employees transferred confidential AI trade secrets when they joined OpenAI and io Products",
+            "OpenAI violated a joint development agreement signed with Apple in 2024",
+            "Apple claims OpenAI trained models on Apple's proprietary on-device data without consent"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple alleges that two former employees misappropriated confidential information — including trade secrets about its AI systems — as they transitioned to roles at OpenAI and io Products. The lawsuit is specifically about the unauthorized transfer of proprietary information, not about model architecture copying."
+        },
+        {
+          "question": "What is io Products in the context of this lawsuit?",
+          "options": [
+            "Apple's internal AI research division recently spun out",
+            "A hardware startup affiliated with OpenAI named in Apple's trade secret suit",
+            "A Google subsidiary that also hired the same former Apple engineers",
+            "An open-source foundation that received donated Apple AI code"
+          ],
+          "correctIndex": 1,
+          "explanation": "io Products is a hardware company with ties to OpenAI that is named alongside OpenAI in Apple's lawsuit. The suit alleges that the former Apple employees shared confidential information as they moved into roles connected to both OpenAI and io Products."
         }
       ]
     }
