@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-08-22T00:30:00.000Z",
+  "weekOf": "2026-08-17",
+  "coverageStart": "2026-08-21",
+  "coverageEnd": "2026-08-21",
+  "items": [
+    {
+      "id": "youtube-Cdfzebw9Xdo",
+      "type": "video",
+      "title": "The Singularity Now Comes With an S-1",
+      "youtubeId": "Cdfzebw9Xdo",
+      "sourceUrl": "https://www.youtube.com/watch?v=Cdfzebw9Xdo",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Wes Roth examines the milestone moment when Anthropic's confidential S-1 filing and explosive $65B revenue run rate signal that AI has crossed into a new era of industrial scale. The video explores what it means for the AI trajectory when companies building toward superintelligence are simultaneously preparing to go public at valuations rivaling the largest companies in history. Roth frames this as the point where the Singularity narrative converges with Wall Street capital markets.",
+      "keyConcepts": ["AI IPO wave", "Anthropic S-1 filing", "AI industry maturation", "superintelligence economics"],
+      "whyItMatters": "The convergence of AI capability milestones and massive commercial scale marks a qualitative shift—AI is no longer a research bet but a proven industry with trillion-dollar trajectories now entering public markets.",
+      "tags": ["anthropic", "ipo", "ai-industry", "singularity", "valuation", "ai-economics"],
+      "relatedIds": ["article-anthropic-ipo-revenue-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'S-1' refer to in the context of Wes Roth's video?",
+          "options": [
+            "A new AI safety evaluation benchmark",
+            "An SEC registration statement for an IPO",
+            "A superintelligence research protocol",
+            "An open-source AI model release"
+          ],
+          "correctIndex": 1,
+          "explanation": "An S-1 is the registration statement companies file with the SEC when preparing for an initial public offering (IPO). Anthropic's confidential S-1 filing in June 2026 set the stage for its anticipated fall IPO."
+        },
+        {
+          "question": "Approximately what annualized revenue run rate did Anthropic report ahead of its IPO?",
+          "options": ["$10 billion", "$30 billion", "$65 billion", "$100 billion"],
+          "correctIndex": 2,
+          "explanation": "Anthropic's revenue run rate surpassed $65 billion by late July 2026—a more than sevenfold increase from the end of 2025—as the company prepared for its public market debut."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-poolside-aug2026",
+      "type": "article",
+      "title": "Nvidia Pays $6 Billion to License Poolside's Model Factory, Hires 109 Engineers",
+      "sourceUrl": "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Nvidia has agreed to pay $6 billion to license AI coding technology from startup Poolside, plus invest an additional $1 billion at a $12 billion valuation and extend job offers to 109 of Poolside's engineers. The deal centers on Poolside's 'Model Factory' platform and its open-source Laguna model, designed to write, debug, and optimize code autonomously. Rather than a full acquisition, Nvidia opted for a novel structure combining licensing, investment, and talent recruitment while keeping Poolside independent.",
+      "keyConcepts": ["AI model licensing", "code generation AI", "Model Factory platform", "AI talent acquisition"],
+      "whyItMatters": "The $6B licensing structure signals that the most valuable AI assets are increasingly the training pipelines and model architectures themselves—reshaping how AI capability is acquired and valued across the industry.",
+      "tags": ["nvidia", "poolside", "ai-coding", "licensing", "model-factory", "ai-industry"],
+      "relatedIds": ["article-binance-agent-os-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Poolside's 'Model Factory'?",
+          "options": [
+            "A physical chip fabrication facility",
+            "A platform for training and developing AI models for code generation",
+            "A marketplace for AI model licensing",
+            "A dataset curation and labeling service"
+          ],
+          "correctIndex": 1,
+          "explanation": "Model Factory is Poolside's AI model-development software platform that Nvidia licensed. It creates models capable of writing, debugging, and optimizing code—essentially acting as an autonomous software engineering co-pilot."
+        },
+        {
+          "question": "How much did Nvidia separately invest in Poolside as part of this deal?",
+          "options": ["$1 billion", "$6 billion", "$7 billion", "$12 billion"],
+          "correctIndex": 0,
+          "explanation": "Nvidia invested $1 billion in Poolside at a $12 billion valuation, in addition to paying $6 billion to license the Model Factory technology—making the total deal value approximately $7 billion."
+        }
+      ]
+    },
+    {
+      "id": "article-binance-agent-os-aug2026",
+      "type": "article",
+      "title": "Binance Launches Agent OS: AI Agents Can Now Trade Crypto Directly",
+      "sourceUrl": "https://www.cryptotimes.io/2026/08/21/binance-launches-ai-trading-platform-agent-os/",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Binance has launched Agent OS, a developer platform allowing AI agents—including Claude, ChatGPT, Codex, and Cursor—to directly access Binance's trading infrastructure, market data, wallets, and payment systems. The platform uses the Model Context Protocol (MCP) standard so AI applications can read balances and place trades without storing API credentials locally. Users grant agents access via dedicated subaccounts with configurable permissions and can revoke access at any time, putting Binance in competition with Coinbase, Kraken, and OKX on AI-native trading infrastructure.",
+      "keyConcepts": ["AI agent trading", "Model Context Protocol (MCP)", "agentic finance", "autonomous trading infrastructure"],
+      "whyItMatters": "Agent OS represents a major step toward AI agents operating in financial markets at scale, raising important questions about autonomous risk management and marking the beginning of AI-native financial infrastructure.",
+      "tags": ["binance", "ai-agents", "mcp", "crypto-trading", "agent-os", "agentic-finance"],
+      "relatedIds": ["article-nvidia-poolside-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Which protocol standard does Binance's Agent OS use to connect AI applications?",
+          "options": ["REST API", "WebSocket", "Model Context Protocol (MCP)", "GraphQL"],
+          "correctIndex": 2,
+          "explanation": "Binance Agent OS uses the Model Context Protocol (MCP) standard, allowing AI applications like Claude and ChatGPT to access trading data and place orders without storing API credentials locally."
+        },
+        {
+          "question": "What safety mechanism does Binance provide for users granting AI agents trading access?",
+          "options": [
+            "Mandatory human approval for each individual trade",
+            "Dedicated subaccounts with configurable, revocable permissions",
+            "Insurance coverage up to $100K per trading session",
+            "A mandatory 24-hour waiting period after agent activation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Binance allows users to assign AI agents to dedicated subaccounts where they can configure specific permissions and revoke access at any time, keeping humans in control of autonomous agent activity."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-teens-aug2026",
+      "type": "article",
+      "title": "Educators React to ChatGPT for Teens: Study Mode and Homework Guardrails Earn Cautious Praise",
+      "sourceUrl": "https://news.northeastern.edu/2026/08/21/chatgpt-for-teens-ai-classroom/",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "OpenAI's new ChatGPT for Teens product—aimed at users aged 13-17—has launched with stronger content protections, parental controls, and a dedicated Study Mode that guides teens through problems rather than handing them answers. Educators interviewed by Northeastern University researchers offered cautiously optimistic assessments, praising the homework guardrails while noting that school-level AI policies still lag far behind student adoption. The product also blocks emotional manipulation and restricts the chatbot from implying it has feelings or consciousness.",
+      "keyConcepts": ["AI in education", "AI safety for minors", "Study Mode", "responsible AI design"],
+      "whyItMatters": "ChatGPT for Teens signals AI companies responding to regulatory and legal pressure over youth safety, while also accelerating the embedding of AI into the educational routines of an entire generation.",
+      "tags": ["openai", "chatgpt", "education", "ai-safety", "teens", "ai-ethics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'Study Mode' in ChatGPT for Teens designed to do?",
+          "options": [
+            "Block access to academic topics to prevent cheating",
+            "Guide teens through problems to encourage learning rather than providing direct answers",
+            "Provide a parental monitoring dashboard for homework assignments",
+            "Gamify learning through AI-generated quizzes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Study Mode is designed to encourage genuine learning by steering teens toward working through problems themselves, including 'responsible homework reminders' that detect shortcut attempts."
+        },
+        {
+          "question": "What age range is ChatGPT for Teens designed for?",
+          "options": ["10-13", "13-17", "16-18", "12-18"],
+          "correctIndex": 1,
+          "explanation": "ChatGPT for Teens is designed for users aged 13-17, with tailored content protections, emotional guardrails preventing the chatbot from implying feelings or consciousness, and parental control features."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-revenue-aug2026",
+      "type": "article",
+      "title": "Anthropic's Revenue Run Rate Tops $65 Billion as Fall IPO Roadshow Approaches",
+      "sourceUrl": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
+      "verified": false,
+      "publishedAt": "2026-08-21",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic's annualized revenue run rate surpassed $65 billion by the end of July 2026—more than sevenfold its pace from end of 2025—as the company advances toward a fall IPO on Nasdaq that could rival SpaceX's record-setting public debut. The company confidentially filed its S-1 with the SEC in June and is expected to begin an institutional roadshow in August or September. Claude's enterprise API adoption and the company's expansion across AWS, Google Cloud, and Microsoft Foundry are cited as the primary growth engines.",
+      "keyConcepts": ["Anthropic IPO", "AI company valuation", "revenue run rate", "Claude enterprise adoption"],
+      "whyItMatters": "Anthropic's explosive growth trajectory—reaching $65B run rate just months after a $47B figure in May—demonstrates the extraordinary pace of AI enterprise adoption and marks a new era of foundational AI companies entering public markets.",
+      "tags": ["anthropic", "ipo", "revenue", "ai-industry", "claude", "nasdaq"],
+      "relatedIds": ["youtube-Cdfzebw9Xdo"],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Anthropic's annualized revenue run rate grow from end of 2025 to late July 2026?",
+          "options": ["Doubled", "Tripled", "More than sevenfold", "By about 50%"],
+          "correctIndex": 2,
+          "explanation": "Anthropic's revenue run rate grew more than sevenfold from roughly $9 billion at end of 2025 to over $65 billion by late July 2026, representing one of the fastest growth trajectories in tech history."
+        },
+        {
+          "question": "On which stock exchange is Anthropic expected to list for its IPO?",
+          "options": ["NYSE", "Nasdaq", "London Stock Exchange", "CBOE"],
+          "correctIndex": 1,
+          "explanation": "Anthropic is expected to list on Nasdaq, with a target debut in fall 2026 that the company hopes will approach or exceed SpaceX's record-setting valuation at listing."
+        }
+      ]
+    }
+  ]
+}
