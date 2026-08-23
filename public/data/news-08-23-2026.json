@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T00:30:00.000Z",
+  "generatedAt": "2026-08-23T10:00:00.000Z",
   "weekOf": "2026-08-17",
   "coverageStart": "2026-08-22",
-  "coverageEnd": "2026-08-22",
+  "coverageEnd": "2026-08-23",
   "items": [
     {
       "id": "article-frontier-ai-labs-rogue-model-aug2026",
@@ -115,6 +115,120 @@
           ],
           "correctIndex": 1,
           "explanation": "The AI avatars are designed specifically to provide individualized feedback to participants — a task previously constrained by instructor time — enabling personalized coaching at the scale of a large online cohort."
+        }
+      ]
+    },
+    {
+      "id": "article-inherent-faraday-ai-scientist-aug2026",
+      "type": "article",
+      "title": "DeepMind alumni startup's 27B-parameter AI scientist outperforms Claude and GPT-5.5 at research replication",
+      "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "verified": false,
+      "publishedAt": "2026-08-22",
+      "topics": ["ai-research"],
+      "summary": "Inherent, a London-based AI lab founded by ex-Google DeepMind researchers, released Faraday — a 27B-parameter 'AI Scientist' agent that outperforms Claude Opus 4.8 and GPT-5.5 at replicating scientific research across every category in Inherent's new Replica benchmark. The agent uses long-horizon reinforcement learning and runs on a fine-tuned Qwen base, with particular advantages in meta-learning, structural biology, and materials science. Faraday evaluated on 310 tasks spanning 100 machine-learning and AI-for-science papers was backed by a $50M seed round from Index Ventures.",
+      "keyConcepts": ["AI Scientist agents", "scientific research replication", "long-horizon reinforcement learning", "Replica benchmark"],
+      "whyItMatters": "A compact 27B-parameter specialist agent outperforming frontier models on a structured science benchmark weakens the 'scale is everything' assumption — and hints at a future where specialized small models automate domain-specific research tasks more efficiently than large general models.",
+      "tags": ["ai-research", "scientific-ai", "faraday", "deepmind-alumni", "benchmarks", "small-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Faraday's benchmark results notable compared to frontier models?",
+          "options": [
+            "Faraday uses 10x more parameters than Claude Opus 4.8",
+            "Faraday is a 27B-parameter model that outperforms much larger frontier models on science replication tasks",
+            "Faraday was trained entirely on synthetic data",
+            "Faraday requires no GPU and runs on consumer laptops"
+          ],
+          "correctIndex": 1,
+          "explanation": "Faraday's 27 billion parameters is a fraction of the size of Claude Opus 4.8 and GPT-5.5, yet it outperformed both across every category in the Replica benchmark — suggesting that domain-specific training and long-horizon RL can compensate for raw scale."
+        },
+        {
+          "question": "What training technique does Faraday primarily use to achieve its performance?",
+          "options": [
+            "Standard supervised fine-tuning on scientific papers",
+            "Mixture-of-experts architecture",
+            "Long-horizon reinforcement learning",
+            "Constitutional AI with human feedback"
+          ],
+          "correctIndex": 2,
+          "explanation": "Inherent trained Faraday with long-horizon reinforcement learning — a technique that teaches the model to reason and plan over extended multi-step tasks, which is especially effective for complex scientific replication workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-copyright-training-legal-aug2026",
+      "type": "article",
+      "title": "Is it legal to train AI models on copyrighted books? It's complicated",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "verified": false,
+      "publishedAt": "2026-08-23",
+      "topics": ["ai-industry"],
+      "summary": "AI models powering ChatGPT, Gemini, and Claude are trained on vast libraries of books scraped without authors' knowledge or consent — and courts have handled the resulting lawsuits inconsistently. TechCrunch maps four competing legal theories: fair use, implied license, lack of substantial similarity in model outputs, and transformativeness. A definitive Supreme Court ruling has yet to land, leaving major AI labs in legal limbo and authors in an uncertain position over how their work is used commercially.",
+      "keyConcepts": ["AI training data legality", "copyright fair use", "authors' rights", "transformativeness doctrine"],
+      "whyItMatters": "The outcome of AI copyright litigation will determine whether today's training data practices can continue — and if courts rule against labs, it could force costly retraining, licensing deals, or fundamental changes to how frontier models are built.",
+      "tags": ["copyright", "ai-training-data", "legal", "fair-use", "intellectual-property", "authors"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which legal doctrine do AI companies most commonly invoke to defend training on copyrighted books?",
+          "options": [
+            "First sale doctrine",
+            "Fair use",
+            "Safe harbor",
+            "Work-for-hire"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI companies most commonly argue fair use — the legal doctrine that allows limited use of copyrighted material without permission under certain conditions, particularly when the use is transformative or doesn't substitute for the original."
+        },
+        {
+          "question": "What is one reason courts have so far handled AI copyright cases inconsistently?",
+          "options": [
+            "AI labs have settled every case before a ruling",
+            "Copyright law explicitly exempts machine learning",
+            "Courts disagree on whether training constitutes infringement and how to apply existing doctrines to novel AI processes",
+            "Authors have no standing to sue AI companies under current law"
+          ],
+          "correctIndex": 2,
+          "explanation": "Courts have issued inconsistent rulings because existing copyright law was not written with AI training in mind — judges disagree on how to apply fair use, substantial similarity, and transformativeness tests to a process that ingests millions of works but produces no direct copy."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt56-sol-price-cut-aug2026",
+      "type": "article",
+      "title": "OpenAI cuts GPT-5.6 Sol API prices by over 20% amid intensifying AI competition",
+      "sourceUrl": "https://www.business-standard.com/technology/tech-news/openai-cuts-developer-pricing-for-gpt-5-6-sol-model-by-more-than-20-126082200107_1.html",
+      "verified": false,
+      "publishedAt": "2026-08-22",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI cut API pricing for its frontier GPT-5.6 Sol model by more than 20% for a three-month promotional period ending November 21, 2026. Input tokens drop from $5 to $4 per million and output tokens fall from $30 to $20 per million — a 33% output price reduction. Reuters attributed the move to growing competition from Anthropic's Claude lineup and Chinese AI models. ChatGPT Plus, Pro, and Business subscription prices are unchanged; the discount applies to developer API access only.",
+      "keyConcepts": ["API pricing", "AI price war", "GPT-5.6 Sol", "developer costs"],
+      "whyItMatters": "OpenAI's decision to slash frontier model API prices reflects an accelerating price war among the leading labs — lowering barriers for developers building on AI, but signaling that competitive pressure is arriving faster than many industry observers expected.",
+      "tags": ["openai", "pricing", "gpt-5-6", "api", "ai-industry", "competition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did OpenAI reduce GPT-5.6 Sol output token prices?",
+          "options": [
+            "10%",
+            "20%",
+            "33%",
+            "50%"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI cut GPT-5.6 Sol output token pricing from $30 to $20 per million tokens — a 33% reduction — while input tokens dropped 20%, from $5 to $4 per million."
+        },
+        {
+          "question": "What does OpenAI's promotional pricing period cover?",
+          "options": [
+            "ChatGPT Plus subscriptions only",
+            "API (developer) access for GPT-5.6 Sol through November 21, 2026",
+            "All OpenAI products including enterprise plans",
+            "Only usage in the OpenAI Playground"
+          ],
+          "correctIndex": 1,
+          "explanation": "The promotional price cut applies specifically to developer API access for GPT-5.6 Sol and runs through November 21, 2026. ChatGPT subscription prices (Plus, Pro, Business) remain unchanged."
         }
       ]
     }
