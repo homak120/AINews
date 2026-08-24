@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T10:00:00.000Z",
+  "generatedAt": "2026-08-24T14:00:00.000Z",
   "weekOf": "2026-08-24",
   "coverageStart": "2026-08-23",
-  "coverageEnd": "2026-08-23",
+  "coverageEnd": "2026-08-24",
   "items": [
     {
       "id": "article-nvidia-ai-server-15-percent-price-hike-aug2026",
@@ -115,6 +115,120 @@
           ],
           "correctIndex": 2,
           "explanation": "New York became the first state to impose a statewide one-year moratorium on new data centers, while Pennsylvania Governor Josh Shapiro signed an executive order imposing tougher local standards without a full pause."
+        }
+      ]
+    },
+    {
+      "id": "article-xpeng-iron-robot-900m-funding-aug2026",
+      "type": "article",
+      "title": "XPeng's IRON humanoid robot unit raises $900M at $6.3B valuation in record China round",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/xpeng-iron-humanoid-robot-draws-record-physical-ai-funding/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "XPENG's humanoid robotics division raised over $900 million in its first external funding round, giving it a post-money valuation exceeding $6.3 billion — the largest single private-equity funding round in China's embodied intelligence sector to date. IDG Capital led the round, with strategic investors Tencent and Alibaba participating. The company plans to begin mass production of its IRON humanoid robot by year-end, with commercial sales and deliveries in China and overseas markets scheduled for 2027, and proceeds will fund physical AI model training, data collection, and end-to-end production facilities.",
+      "keyConcepts": ["IRON humanoid robot", "physical AI", "embodied intelligence", "mass production timeline"],
+      "whyItMatters": "A $6.3B valuation with backing from China's biggest tech giants signals that humanoid robotics has crossed from research curiosity to investment-grade commercial bet — and that physical AI is now competing for the same capital flows as software-only LLM players.",
+      "tags": ["xpeng", "iron-robot", "humanoid-robotics", "physical-ai", "china-ai", "embodied-intelligence"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What record did XPENG's $900M funding round set?",
+          "options": [
+            "Largest IPO in China's tech sector",
+            "Largest single private-equity funding round in China's embodied intelligence sector",
+            "Largest Series A for a robotics company globally",
+            "Largest government grant for AI research in Asia"
+          ],
+          "correctIndex": 1,
+          "explanation": "XPENG described the transaction as the largest single private-equity funding round completed in China's embodied intelligence sector, reflecting the intense capital competition in humanoid robotics."
+        },
+        {
+          "question": "When does XPENG plan to begin commercial sales and deliveries of the IRON humanoid robot?",
+          "options": [
+            "By the end of 2026",
+            "In early 2027",
+            "In 2028",
+            "Only after receiving regulatory approval in 2029"
+          ],
+          "correctIndex": 1,
+          "explanation": "XPENG plans to begin mass production of IRON by year-end 2026 and start commercial sales and deliveries in China and overseas markets in 2027."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-perplexity-30b-investment-aug2026",
+      "type": "article",
+      "title": "Nvidia in talks to invest in Perplexity at $30B+ valuation as AI strategy expands beyond chips",
+      "sourceUrl": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61383040/nvidia-perplexity-investment-ai-strategy",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia is in discussions to participate in Perplexity's next funding round at a valuation exceeding $30 billion — more than 50% above its prior $20 billion mark — fitting a now-familiar pattern of the chipmaker investing in companies building on its own infrastructure. Perplexity's annualized revenue has climbed above $750 million, driven largely by Perplexity Computer, its cloud AI agent for professional workflows. The company recently announced plans to deploy Nvidia's Vera CPUs for AI agent workloads after finding them significantly outperformed traditional server processors for its core tasks.",
+      "keyConcepts": ["Perplexity valuation", "Nvidia investment strategy", "AI agent infrastructure", "Vera CPUs"],
+      "whyItMatters": "Nvidia is quietly becoming a VC-style kingmaker in the AI application layer — investing in companies that run on its chips creates a demand flywheel that could rival its hardware margins and give it influence over which AI platforms win at scale.",
+      "tags": ["nvidia", "perplexity", "ai-agents", "venture-funding", "ai-search", "vera-cpu"],
+      "relatedIds": ["article-nvidia-ai-server-15-percent-price-hike-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary business driver behind Perplexity's revenue growth above $750M annualized?",
+          "options": [
+            "Advertising on its AI search results",
+            "Perplexity Computer, a cloud AI agent for professional workflows",
+            "Licensing its LLM to enterprise customers",
+            "Consumer Pro subscriptions to its chatbot"
+          ],
+          "correctIndex": 1,
+          "explanation": "Perplexity's revenue surge was driven significantly by Perplexity Computer, a cloud-based AI agent that helps professionals automate computer-based tasks — not just its AI search product."
+        },
+        {
+          "question": "Why does Nvidia's pattern of investing in AI application companies like Perplexity matter strategically?",
+          "options": [
+            "It lets Nvidia avoid paying corporate taxes on chip profits",
+            "It creates a demand flywheel where Nvidia-backed companies buy more Nvidia hardware",
+            "It gives Nvidia voting control over the companies it funds",
+            "It allows Nvidia to bypass U.S. export controls on AI chips"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia repeatedly backs companies — like Perplexity — that build their AI businesses on Nvidia infrastructure, creating a reinforcing loop where Nvidia investments generate GPU demand that grows its core chip business."
+        }
+      ]
+    },
+    {
+      "id": "article-alibaba-wan30-video-model-aug2026",
+      "type": "article",
+      "title": "Alibaba launches Wan3.0 AI video model, reaching #2 globally as it raises $10B to fund AI buildout",
+      "sourceUrl": "https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Alibaba formally released Wan3.0, the newest version of its AI video generation model, climbing to the #2 position in global AI video model rankings as OpenAI's Sora and ByteDance's Seedance fell back. The launch landed a day after Alibaba priced a $10 billion share placement — with 100% of net proceeds earmarked for full-stack AI capabilities spanning chips, infrastructure, and Qwen model development. The release comes a week after Alibaba reported a 75% quarterly earnings drop attributable to its heavy AI infrastructure spending, framing short-term pain as the cost of long-term competitive positioning.",
+      "keyConcepts": ["Wan3.0 video model", "AI video generation benchmarks", "Qwen models", "full-stack AI strategy"],
+      "whyItMatters": "Alibaba absorbing a 75% earnings drop to fund chips, models, and infrastructure signals that Chinese tech giants are committing to sovereign AI stacks — and Wan3.0's #2 global ranking shows that capital-intensive investment is producing competitive frontier models.",
+      "tags": ["alibaba", "wan3-0", "ai-video-generation", "qwen", "china-ai", "open-source-ai"],
+      "relatedIds": ["article-xpeng-iron-robot-900m-funding-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What global ranking did Alibaba's Wan3.0 achieve after its launch?",
+          "options": [
+            "#1, surpassing all competitors",
+            "#2, as Sora and Seedance fell back",
+            "#5, behind several open-source models",
+            "#3, just behind Google's Veo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Wan3.0 climbed to the #2 position in global AI video model rankings, with OpenAI's Sora and ByteDance's Seedance losing ground in the same rankings."
+        },
+        {
+          "question": "How did Alibaba fund its latest AI infrastructure push alongside the Wan3.0 launch?",
+          "options": [
+            "A $10 billion share placement with all proceeds going to full-stack AI",
+            "A government-backed loan from China's state development bank",
+            "A joint venture with Tencent and Baidu",
+            "Divesting its e-commerce business to raise capital"
+          ],
+          "correctIndex": 0,
+          "explanation": "Alibaba priced a $10 billion share placement the day before the Wan3.0 launch, committing 100% of net proceeds to full-stack AI capabilities covering chips, infrastructure, and model development."
         }
       ]
     }
