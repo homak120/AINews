@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-08-24T10:00:00.000Z",
+  "weekOf": "2026-08-24",
+  "coverageStart": "2026-08-23",
+  "coverageEnd": "2026-08-23",
+  "items": [
+    {
+      "id": "article-nvidia-ai-server-15-percent-price-hike-aug2026",
+      "type": "article",
+      "title": "Nvidia AI server prices to rise more than 15% starting early next year",
+      "sourceUrl": "https://thenextweb.com/news/nvidia-ai-server-price-increase-memory-costs",
+      "verified": false,
+      "publishedAt": "2026-08-23",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia has warned its largest customers that servers built around its Vera Rubin and Grace Blackwell chips will cost at least 15% more starting with shipments in early 2027, with the size of the hike varying by generation and memory configuration. The company cited a persistent DRAM shortage from Samsung, SK Hynix, and Micron as the primary cause, with server DRAM roughly doubling in Q1 2026 and rising another 53–58% in Q2. The move ripples through the entire AI hardware supply chain and could push hyperscalers, cloud providers, and enterprise buyers to rework capex plans.",
+      "keyConcepts": ["Vera Rubin", "Grace Blackwell", "DRAM shortage", "AI hardware supply chain"],
+      "whyItMatters": "A 15%+ increase in AI server pricing propagates directly into training costs, inference pricing, and cloud GPU rates — one of the clearest signals yet that the compute economics of frontier AI are being reshaped by memory scarcity, not just accelerator supply.",
+      "tags": ["nvidia", "ai-hardware", "dram", "memory-shortage", "vera-rubin", "grace-blackwell"],
+      "relatedIds": ["article-nvidia-lpddr-smartphone-memory-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Nvidia give as the primary reason for the 15%+ price hike on its AI servers?",
+          "options": [
+            "New export controls from the U.S. government",
+            "The soaring cost of DRAM memory chips",
+            "Higher wafer fab costs at TSMC",
+            "Increased tariffs on chip imports"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia pointed to the rising price of memory chips — server DRAM roughly doubled in Q1 2026 and rose another 53–58% in Q2 — as the driver of AI server price increases affecting Vera Rubin and Grace Blackwell systems."
+        },
+        {
+          "question": "Which two Nvidia chip families are directly affected by the announced price increase?",
+          "options": [
+            "H100 and A100",
+            "Vera Rubin and Grace Blackwell",
+            "Grace Hopper and Ada Lovelace",
+            "Blackwell Ultra and Turing"
+          ],
+          "correctIndex": 1,
+          "explanation": "The price hike applies to servers built around Nvidia's Vera Rubin and Grace Blackwell chips — the two current-generation platforms shipping in early 2027 systems."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-lpddr-smartphone-memory-aug2026",
+      "type": "article",
+      "title": "Nvidia's shift to smartphone-style memory could double server memory prices by end-2026",
+      "sourceUrl": "https://finance.yahoo.com/news/nvidia-shift-smartphone-style-memory-122436986.html",
+      "verified": false,
+      "publishedAt": "2026-08-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Counterpoint Research reports Nvidia is moving its AI servers from server-standard DDR5 to LPDDR — the low-power memory chip typically used in phones and tablets — as part of a push to reduce AI server power costs. Because each AI server needs vastly more memory chips than a smartphone, the change is expected to create demand the LPDDR supply chain isn't prepared to absorb, potentially doubling server-memory prices by end-2026. Samsung, SK Hynix, and Micron gain pricing leverage as buyers scramble to secure allocation.",
+      "keyConcepts": ["LPDDR memory", "power efficiency", "supply chain shock", "AI data center economics"],
+      "whyItMatters": "Memory has quietly become the choke point of the AI buildout — a design decision Nvidia made for power efficiency is now poised to distort the global memory market, raising costs across every AI workload and reshaping supplier margins.",
+      "tags": ["nvidia", "lpddr", "counterpoint-research", "ai-servers", "memory-supply", "power-efficiency"],
+      "relatedIds": ["article-nvidia-ai-server-15-percent-price-hike-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Nvidia moving its AI servers to LPDDR memory?",
+          "options": [
+            "LPDDR offers higher raw bandwidth than DDR5",
+            "LPDDR reduces AI server power costs",
+            "LPDDR is required by the CUDA 13 runtime",
+            "LPDDR is cheaper per gigabyte than DDR5"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia is switching from server-standard DDR5 to LPDDR — the low-power memory typically found in smartphones — specifically to lower AI server power consumption, one of the largest operating costs in a modern AI data center."
+        },
+        {
+          "question": "According to Counterpoint Research, what could Nvidia's LPDDR shift do to server memory prices by end-2026?",
+          "options": [
+            "Cut them roughly in half",
+            "Leave them roughly unchanged",
+            "Push them up by about 15%",
+            "Roughly double them"
+          ],
+          "correctIndex": 3,
+          "explanation": "Counterpoint expects the sudden demand from AI servers — each needing far more memory chips than a phone — to overwhelm LPDDR supply, potentially doubling server-memory prices by the end of 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-data-center-midterm-flashpoint-aug2026",
+      "type": "article",
+      "title": "AI data centers become a bipartisan flashpoint ahead of the 2026 midterms",
+      "sourceUrl": "https://abcnews4.com/news/nation-world/data-centers-emerge-as-bipartisan-flashpoint-ahead-of-2026-midterm-elections-political-issues-national-president-donald-trump",
+      "verified": false,
+      "publishedAt": "2026-08-23",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Opposition to AI data centers is cutting across party lines in the run-up to the 2026 midterms, with Annenberg Public Policy Center polling finding 61% of Americans oppose new data centers nearby (69% of Democrats, 54% of Republicans). The issue now factors into all six Senate races currently rated toss-ups by the Cook Political Report, and Data Center Watch reports that the first three months of 2026 saw local opposition block or delay 75 projects worth $130 billion — as many as all of 2025 combined. New York issued the first statewide moratorium on new data centers, while Pennsylvania's Governor Josh Shapiro imposed sharp new standards via executive order.",
+      "keyConcepts": ["data center backlash", "bipartisan opposition", "AI infrastructure policy", "state moratoriums"],
+      "whyItMatters": "The politics of AI compute are shifting from an abstract debate to a hard local constraint — permits, grid access, and water rights are now the binding limits on the AI buildout, not model capability or chip supply.",
+      "tags": ["data-centers", "ai-infrastructure", "midterms", "policy", "energy", "moratorium"],
+      "relatedIds": ["article-nvidia-ai-server-15-percent-price-hike-aug2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Data Center Watch report about the first quarter of 2026?",
+          "options": [
+            "Data center construction hit an all-time high in the U.S.",
+            "Local opposition blocked or delayed 75 projects worth $130 billion — as many as all of 2025",
+            "The federal government preempted state-level data center regulation",
+            "Data center water usage dropped 40% year-over-year"
+          ],
+          "correctIndex": 1,
+          "explanation": "Data Center Watch reports that local opposition in Q1 2026 blocked or delayed 75 data center projects worth roughly $130 billion — matching the total number of projects affected in all of 2025."
+        },
+        {
+          "question": "Which state issued the first statewide moratorium on new data centers?",
+          "options": [
+            "California",
+            "Texas",
+            "New York",
+            "Virginia"
+          ],
+          "correctIndex": 2,
+          "explanation": "New York became the first state to impose a statewide one-year moratorium on new data centers, while Pennsylvania Governor Josh Shapiro signed an executive order imposing tougher local standards without a full pause."
+        }
+      ]
+    }
+  ]
+}
