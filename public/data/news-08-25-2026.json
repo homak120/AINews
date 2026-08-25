@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T06:00:00Z",
+  "generatedAt": "2026-08-25T12:00:00Z",
   "weekOf": "2026-08-24",
   "coverageStart": "2026-08-24",
   "coverageEnd": "2026-08-25",
@@ -216,6 +216,135 @@
           ],
           "correctIndex": 1,
           "explanation": "The AI Cube mini-PC combines the Xuanjie O3, O100, and D100 chips and is designed to run large language models locally. This enables private AI inference without cloud access, forming the compute foundation for Xiaomi's broader 'human-car-home' AI ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt56-kiro-2026-08-24",
+      "type": "article",
+      "title": "OpenAI Brings GPT-5.6 Family to AWS Kiro, Cutting Dev Task Costs by 82%",
+      "sourceUrl": "https://openai.com/index/gpt-5-6-in-kiro/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI's GPT-5.6 model family — Sol, Terra, and Luna — became available inside AWS Kiro on August 24, 2026. The integration covers the full software development workflow: translating product requirements into structured implementation plans, executing multi-step coding tasks, reviewing outputs at checkpoints, and running property-based tests. Joint testing on Terminal-Bench 2.1 showed an 82% reduction in cost per completed task compared to prior models.",
+      "keyConcepts": [
+        "GPT-5.6 Sol/Terra/Luna variants",
+        "Spec-driven development",
+        "Terminal-Bench 2.1",
+        "Price-performance in AI coding"
+      ],
+      "whyItMatters": "GPT-5.6 in Kiro marks a convergence of frontier model capability with structured, spec-driven development tooling. The 82% cost reduction on realistic engineering benchmarks signals that AI-assisted software development is becoming economically sustainable at enterprise scale, not just in demos.",
+      "tags": ["openai", "gpt-5.6", "aws-kiro", "ai-coding", "developer-tools", "llm-pricing"],
+      "relatedIds": ["article-openai-agents-everything-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What cost reduction did GPT-5.6 achieve in joint testing with Kiro on Terminal-Bench 2.1?",
+          "options": [
+            "Around 40%",
+            "Around 60%",
+            "Around 82%",
+            "Around 95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Joint testing by OpenAI and AWS on Terminal-Bench 2.1 showed that GPT-5.6 in Kiro reduced the cost of completed tasks by roughly 82% compared to previous configurations, making AI-assisted software development significantly more cost-effective."
+        },
+        {
+          "question": "Which are the three model variants in the GPT-5.6 family available in Kiro?",
+          "options": [
+            "Mini, Standard, and Pro",
+            "Sol, Terra, and Luna",
+            "Flash, Turbo, and Max",
+            "Lite, Base, and Ultra"
+          ],
+          "correctIndex": 1,
+          "explanation": "The GPT-5.6 family available in AWS Kiro consists of three variants: Sol (the highest performance tier at $5/$30 per million tokens), Terra (mid-tier at $2.50/$15), and Luna (entry tier at $1/$6, with a subsequent 80% price cut on July 30)."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-agents-everything-2026-08-24",
+      "type": "article",
+      "title": "OpenAI Bets on Agents for Everything: The Push to Automate All of Digital Life",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "TechCrunch reports that OpenAI is aggressively building AI agents across every domain of digital life — coding, research, shopping, communications, and more. The strategy represents OpenAI's bet that agentic AI will become the dominant way people interact with software, replacing discrete apps with delegated autonomous tasks. The expansion raises questions about user trust: how much autonomy are people actually willing to grant language models over their digital environments?",
+      "keyConcepts": [
+        "Agentic AI strategy",
+        "Autonomous task execution",
+        "User trust and control",
+        "Platform dominance via agents"
+      ],
+      "whyItMatters": "OpenAI's all-in agent strategy positions it to become the default interface layer between humans and software — a platform play that could dwarf any single product. If users accept broad delegation, the company that wins agent trust wins the digital economy; if they don't, the strategy could backfire on privacy and safety grounds.",
+      "tags": ["openai", "ai-agents", "agentic-ai", "automation", "ai-strategy", "user-trust"],
+      "relatedIds": ["article-openai-gpt56-kiro-2026-08-24", "article-instinct-ai-privacy-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the central bet behind OpenAI's broad agent strategy?",
+          "options": [
+            "That users prefer text-based interfaces over GUIs",
+            "That agentic AI will replace discrete apps as the main way people use software",
+            "That enterprise customers will pay more for agents than for models",
+            "That open-source agents will be inferior to closed commercial ones"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's agent strategy is built on the belief that agentic AI — autonomous systems that carry out tasks on behalf of users — will become the dominant interaction paradigm, replacing the current model where people switch between specialized apps for each task."
+        },
+        {
+          "question": "What key concern does TechCrunch raise about OpenAI's agent expansion?",
+          "options": [
+            "Agents are too slow for real-world tasks",
+            "OpenAI lacks the infrastructure to run agents at scale",
+            "How much autonomy users are willing to grant language models over their digital lives",
+            "Agents are incompatible with mobile operating systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "TechCrunch identifies user trust as the central open question: even if the technology works, the degree to which people are comfortable delegating broad control over their digital lives to AI agents will determine whether the strategy succeeds."
+        }
+      ]
+    },
+    {
+      "id": "article-instinct-ai-privacy-2026-08-24",
+      "type": "article",
+      "title": "Instinct AI Assistant's Broad Device Access and Perpetual Data License Raise Privacy Alarms",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Instinct, a powerful personal AI assistant, is drawing scrutiny from privacy researchers and security professionals over its Terms of Service. The ToS grants Instinct a 'perpetual and irrevocable' license to use user materials — including content produced during sessions — for training its AI models. The assistant also receives information from users' devices including screen captures, cursor movements, and keyboard inputs, creating a broad ambient data collection footprint that critics say goes well beyond what users typically expect from a productivity tool.",
+      "keyConcepts": [
+        "AI Terms of Service",
+        "Perpetual data licensing",
+        "Ambient computing surveillance",
+        "User data and model training"
+      ],
+      "whyItMatters": "As AI assistants gain access to more of our digital environment, the legal and technical terms under which they operate matter enormously. Instinct's case illustrates a broader pattern: privacy risks from AI tools often emerge not from hacks but from the default permissions users accept without reading the fine print — with implications for anyone using AI at work with sensitive data.",
+      "tags": ["ai-privacy", "ai-safety", "terms-of-service", "data-collection", "ambient-ai", "user-rights"],
+      "relatedIds": ["article-openai-agents-everything-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What type of license does Instinct's Terms of Service grant the company over user materials?",
+          "options": [
+            "A one-year renewable license",
+            "A non-commercial research license",
+            "A perpetual and irrevocable license",
+            "A limited opt-in license revocable at any time"
+          ],
+          "correctIndex": 2,
+          "explanation": "Instinct's Terms of Service grant the company a 'perpetual and irrevocable' license to use materials generated during user sessions for training its AI models. This means users cannot effectively withdraw consent after the fact."
+        },
+        {
+          "question": "Which of the following device data types does Instinct reportedly collect?",
+          "options": [
+            "GPS location and cellular network data",
+            "Screen captures, cursor movements, and keyboard inputs",
+            "Camera and microphone recordings only",
+            "Browser cookies and web history"
+          ],
+          "correctIndex": 1,
+          "explanation": "According to TechCrunch's reporting, Instinct receives screen captures, cursor movements, and keyboard inputs from users' devices — an unusually broad scope of ambient data collection for a productivity-focused AI assistant."
         }
       ]
     }
