@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-08-25T06:00:00Z",
+  "weekOf": "2026-08-24",
+  "coverageStart": "2026-08-24",
+  "coverageEnd": "2026-08-25",
+  "items": [
+    {
+      "id": "article-hugging-face-13b-acquisition-2026-08-24",
+      "type": "article",
+      "title": "Hugging Face Reportedly Exploring Sale at $13 Billion Valuation",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-industry"],
+      "summary": "Hugging Face is reportedly exploring a potential sale that could value the open-source AI platform at $13 billion or more, according to Business Insider. The company has been working with a bank to evaluate bids, though no deal has been reached and potential acquirers have not been named. This follows Hugging Face declining a $500 million Nvidia investment at a $7 billion valuation earlier in 2026.",
+      "keyConcepts": [
+        "AI platform acquisition",
+        "Open-source model hub",
+        "M&A valuation",
+        "AI infrastructure consolidation"
+      ],
+      "whyItMatters": "Hugging Face hosts the central infrastructure for open-source AI — models, datasets, and deployment tooling used by hundreds of thousands of researchers and companies. An acquisition at this scale could reshape community access to that commons and shift governance of a critical AI public good into private hands.",
+      "tags": ["hugging-face", "acquisition", "open-source-ai", "platform", "ai-industry", "mergers"],
+      "relatedIds": ["article-alibaba-wan3-video-model-2026-08-24", "article-nvidia-perplexity-30b-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "At what valuation is Hugging Face reportedly exploring a sale?",
+          "options": [
+            "$7 billion",
+            "$10 billion",
+            "$13 billion or more",
+            "$20 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Business Insider reported that Hugging Face is exploring a sale at a valuation of $13 billion or more. This is notably higher than the $7 billion valuation at which they earlier declined a Nvidia investment."
+        },
+        {
+          "question": "What did Hugging Face turn down from Nvidia earlier in 2026?",
+          "options": [
+            "A $1 billion investment at a $13 billion valuation",
+            "A $500 million investment at a $7 billion valuation",
+            "A full acquisition at a $10 billion valuation",
+            "A $250 million investment at a $5 billion valuation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hugging Face declined a $500 million investment from Nvidia that would have valued the company at $7 billion, stating it did not want a single dominant investor influencing its decisions. The current $13B+ sale exploration represents a significantly higher valuation."
+        }
+      ]
+    },
+    {
+      "id": "article-alibaba-wan3-video-model-2026-08-24",
+      "type": "article",
+      "title": "Alibaba Launches Wan3.0: 30-Second AI Video Generation After $10B Share Sale",
+      "sourceUrl": "https://thenextweb.com/news/alibaba-wan3-video-model-after-share-sale",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Alibaba Cloud officially launched Wan3.0, its latest generative AI video model capable of producing videos up to 30 seconds long — double the length of its predecessor — from diverse inputs including documents, spreadsheets, PDFs, and web pages. The model generates 1080p video with spatial consistency, realistic micro-expressions, and multilingual voice output. The launch follows a $10.2 billion share placement in Hong Kong and API pricing starts at $0.05 per second at 480p.",
+      "keyConcepts": [
+        "AI video generation",
+        "Multimodal inputs",
+        "1080p video synthesis",
+        "Alibaba Cloud Model Studio"
+      ],
+      "whyItMatters": "Wan3.0 doubles the duration of AI-generated video and accepts enterprise document formats as input, opening commercial applications in short-form drama, advertising, and tourism production. Combined with Alibaba's massive infrastructure investment, it signals that Chinese labs are competing at the frontier of multimodal video generation.",
+      "tags": ["alibaba", "wan3", "ai-video", "multimodal", "generative-ai", "alibaba-cloud"],
+      "relatedIds": ["article-xpeng-iron-robot-900m-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum video duration Wan3.0 can generate?",
+          "options": [
+            "10 seconds",
+            "15 seconds",
+            "30 seconds",
+            "60 seconds"
+          ],
+          "correctIndex": 2,
+          "explanation": "Wan3.0 can produce videos up to 30 seconds long, which is double the length supported by its predecessor. It operates at resolutions up to 1080p."
+        },
+        {
+          "question": "Which of the following is NOT a stated capability of Wan3.0?",
+          "options": [
+            "Accepting document and spreadsheet inputs",
+            "Generating multilingual voice output",
+            "Real-time live video streaming",
+            "Maintaining character detail throughout the video"
+          ],
+          "correctIndex": 2,
+          "explanation": "Wan3.0 is a generative video model, not a real-time streaming system. Its capabilities include accepting diverse document inputs, multilingual voice synthesis, and consistent character and spatial detail across generated clips."
+        }
+      ]
+    },
+    {
+      "id": "article-xpeng-iron-robot-900m-2026-08-24",
+      "type": "article",
+      "title": "XPeng Robotics Raises $900M at $6.3B Valuation to Push IRON Humanoid Robot to Production",
+      "sourceUrl": "https://electrek.co/2026/08/24/xpeng-robotics-900m-iron-humanoid-robot-valuation/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "XPeng's humanoid robotics unit raised over $900 million in its first funding round at a $6.3 billion post-money valuation — described as the largest single private-equity round in China's embodied intelligence sector. IDG Capital and Gaorong Ventures led the round, with strategic investors Tencent and Alibaba participating. The capital will accelerate mass production of the IRON humanoid robot, which features 76 degrees of freedom and 2,250 TOPS of on-board compute, targeting production by end of 2026.",
+      "keyConcepts": [
+        "Humanoid robotics",
+        "Embodied AI",
+        "Physical AI deployment",
+        "On-board inference compute"
+      ],
+      "whyItMatters": "XPeng's record funding round reflects surging investor conviction in physical AI as the next frontier after software agents. With 76 degrees of freedom and triple Turing AI chips, IRON represents a significant technical bet on fully autonomous humanoid operation — and a direct challenge to Boston Dynamics and Tesla Optimus.",
+      "tags": ["humanoid-robots", "xpeng", "physical-ai", "robotics", "embodied-ai", "china-ai"],
+      "relatedIds": ["article-alibaba-wan3-video-model-2026-08-24", "article-xiaomi-xuanjie-chips-2026-08-25"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the post-money valuation of XPeng's robotics unit after this funding round?",
+          "options": [
+            "$1.2 billion",
+            "$3.5 billion",
+            "$6.3 billion",
+            "$9 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "XPeng's robotics unit achieved a post-money valuation of over $6.3 billion after raising more than $900 million. This was described as the largest single private-equity funding round in China's embodied intelligence sector."
+        },
+        {
+          "question": "How many degrees of freedom does the IRON humanoid robot feature across its body?",
+          "options": [
+            "42 degrees of freedom",
+            "56 degrees of freedom",
+            "76 degrees of freedom",
+            "104 degrees of freedom"
+          ],
+          "correctIndex": 2,
+          "explanation": "The IRON humanoid robot features 76 degrees of freedom across its body, including 21 in each hand. It is powered by three Turing AI chips delivering up to 2,250 TOPS of computing power for autonomous operation."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-perplexity-30b-2026-08-24",
+      "type": "article",
+      "title": "Nvidia Reportedly in Talks to Invest in Perplexity AI at $30B+ Valuation",
+      "sourceUrl": "https://creati.ai/ai-news/2026-08-24/nvidia-reportedly-discusses-investment-in-perplexity-at-valuation-above-30-billion/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-industry"],
+      "summary": "The Information reported that Nvidia is discussing participating in Perplexity AI's next funding round at a valuation exceeding $30 billion. The potential investment follows Perplexity's announcement that it plans to deploy Nvidia's Vera CPUs for AI agent workloads, after finding the chips significantly outperformed traditional server processors for its core tasks. Analysts describe the move as extending Nvidia's 'compute landlord' strategy into AI search.",
+      "keyConcepts": [
+        "Strategic investment",
+        "Nvidia Vera CPU",
+        "AI search infrastructure",
+        "Compute landlord strategy"
+      ],
+      "whyItMatters": "Nvidia's potential investment in Perplexity extends a pattern of the chip giant backing AI companies that anchor their infrastructure on Nvidia hardware. At $30B+, Perplexity's valuation would signal AI search is now a standalone category rivaling traditional search — and that hardware vendors are becoming the key kingmakers in the AI stack.",
+      "tags": ["nvidia", "perplexity", "ai-investment", "ai-search", "vera-cpu", "venture-capital"],
+      "relatedIds": ["article-hugging-face-13b-acquisition-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What Nvidia hardware product did Perplexity commit to deploying before this investment report?",
+          "options": [
+            "H200 GPU cluster",
+            "Blackwell B200 GPU",
+            "Vera CPU",
+            "DGX GH200"
+          ],
+          "correctIndex": 2,
+          "explanation": "Perplexity announced plans to deploy Nvidia's Vera CPUs for AI agent workloads, stating the chips significantly outperformed traditional server processors for its core tasks. This hardware commitment preceded the investment discussion."
+        },
+        {
+          "question": "What is the approximate valuation at which Nvidia is reportedly discussing investing in Perplexity?",
+          "options": [
+            "Above $10 billion",
+            "Above $20 billion",
+            "Above $30 billion",
+            "Above $50 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to The Information, Nvidia is in discussions to invest in Perplexity at a valuation exceeding $30 billion. This would represent a significant step up from Perplexity's previous funding rounds."
+        }
+      ]
+    },
+    {
+      "id": "article-xiaomi-xuanjie-chips-2026-08-25",
+      "type": "article",
+      "title": "Xiaomi Unveils Three Custom AI Chips: Xuanjie O3 SoC Breaks 5 Million AnTuTu Points",
+      "sourceUrl": "https://www.caixinglobal.com/2026-08-25/xiaomi-steps-up-chip-push-with-new-smartphone-ai-and-self-driving-processors-102477561.html",
+      "verified": false,
+      "publishedAt": "2026-08-25",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Xiaomi unveiled three self-developed chips: the Xuanjie O3 flagship SoC, the O100 on-device AI accelerator, and the D100 autonomous driving chip. Built on a 3nm process with 24 billion transistors, the O3 achieves an AnTuTu score of 5.22 million — the first SoC to break the 5-million-point threshold — and supports LPDDR6 memory. Together, the chips power a new AI Cube mini-PC designed to run LLMs locally, forming the compute backbone for Xiaomi's 'human-car-home' AI ecosystem.",
+      "keyConcepts": [
+        "Custom silicon",
+        "On-device LLM inference",
+        "3nm SoC design",
+        "Consumer AI compute"
+      ],
+      "whyItMatters": "Xiaomi's three-chip announcement signals a major escalation in China's push for domestic AI silicon independence. The ability to run large language models locally on a consumer mini-PC — without cloud dependency — could democratize private AI inference and reduce reliance on US cloud providers amid ongoing export restrictions.",
+      "tags": ["xiaomi", "custom-silicon", "on-device-ai", "ai-chips", "llm-inference", "china-silicon"],
+      "relatedIds": ["article-xpeng-iron-robot-900m-2026-08-24"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes the Xiaomi Xuanjie O3 historically significant in mobile computing?",
+          "options": [
+            "It is the first chip built on a 2nm process",
+            "It is the first mobile SoC to break 5 million AnTuTu points",
+            "It is the first chip to support LPDDR5 memory",
+            "It is the first chip with integrated GPU and NPU on one die"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Xuanjie O3 achieved an AnTuTu benchmark score of 5.22 million, making it the first flagship SoC to break the 5-million-point threshold. It is also the world's first mobile processor to support LPDDR6 memory."
+        },
+        {
+          "question": "What is the primary purpose of Xiaomi's new AI Cube mini-PC?",
+          "options": [
+            "Cloud gaming via GPU streaming",
+            "Running LLMs locally without cloud dependency",
+            "Controlling Xiaomi IoT devices remotely",
+            "Real-time video transcoding for social media"
+          ],
+          "correctIndex": 1,
+          "explanation": "The AI Cube mini-PC combines the Xuanjie O3, O100, and D100 chips and is designed to run large language models locally. This enables private AI inference without cloud access, forming the compute foundation for Xiaomi's broader 'human-car-home' AI ecosystem."
+        }
+      ]
+    }
+  ]
+}
