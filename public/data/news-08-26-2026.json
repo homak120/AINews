@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T03:13:36.000Z",
+  "generatedAt": "2026-08-26T10:45:00.000Z",
   "weekOf": "2026-08-24",
   "coverageStart": "2026-08-24",
   "coverageEnd": "2026-08-26",
@@ -215,6 +215,82 @@
           ],
           "correctIndex": 2,
           "explanation": "GitHub Copilot's primary-tool adoption fell from 29% in 2025 to 21% in 2026, causing it to lose its market leadership position as Claude Code and Cursor gained share."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-jalapeno-chip-benchmarks-2026-08-26",
+      "type": "article",
+      "title": "OpenAI's Jalapeño Inference Chip Outperforms Nvidia Blackwell by Up to 1.9x on Perf-per-Watt",
+      "sourceUrl": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+      "verified": false,
+      "publishedAt": "2026-08-26",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI unveiled first benchmark results for its Jalapeño inference chip—designed with Broadcom—at the Hot Chips 2026 conference on August 25. On SemiAnalysis's InferenceX benchmark, Jalapeño handled 1.5–1.9x more work per watt than Nvidia's Blackwell system while cutting end-to-end latency by 1.7–3.6x. The chip targets low-volume production in late 2026 for inference-only workloads; Nvidia's dominance in AI training hardware remains unchallenged. Analysts told CNBC the results could pressure Nvidia's margins in the fast-growing inference segment.",
+      "keyConcepts": [
+        "custom inference silicon",
+        "performance-per-watt benchmarks",
+        "AI chip market competition",
+        "Broadcom ASIC partnership"
+      ],
+      "whyItMatters": "OpenAI's Jalapeño shows that major AI labs can build competitive custom silicon for inference, potentially reducing hyperscaler dependence on Nvidia for serving workloads and compressing inference hardware margins across the industry.",
+      "tags": ["openai", "jalapeno-chip", "nvidia-blackwell", "inference", "custom-silicon", "hot-chips-2026"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much does OpenAI's Jalapeño chip outperform Nvidia Blackwell on performance per watt?",
+          "options": ["1.1–1.2x", "1.5–1.9x", "2.5–3.0x", "3.6–4.0x"],
+          "correctIndex": 1,
+          "explanation": "According to SemiAnalysis's InferenceX benchmark, Jalapeño handled 1.5 to 1.9 times more work per watt compared to Nvidia's Blackwell system, while also cutting end-to-end latency by 1.7 to 3.6 times."
+        },
+        {
+          "question": "What is the primary limitation of OpenAI's Jalapeño chip compared to Nvidia hardware?",
+          "options": [
+            "It only supports small language models under 7B parameters",
+            "It handles inference only and does not support AI training workloads",
+            "It requires proprietary cloud infrastructure to operate",
+            "It is limited to 8-bit quantized inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Jalapeño is designed exclusively for inference workloads and does not challenge Nvidia's dominance in AI model training, where Blackwell and upcoming Vera Rubin GPUs remain the industry standard."
+        }
+      ]
+    },
+    {
+      "id": "article-amazon-mechanical-turk-shutdown-2026-08-25",
+      "type": "article",
+      "title": "Amazon to Shut Down Mechanical Turk on September 30 After 21 Years as AI Replaces Crowdsourced Labor",
+      "sourceUrl": "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html",
+      "verified": false,
+      "publishedAt": "2026-08-25",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Amazon announced Mechanical Turk will close September 30, 2026, ending the crowdsourced task marketplace Jeff Bezos once called 'artificial artificial intelligence' after 21 years of operation. New customer signups already closed July 30, 2026, alongside AWS SageMaker Ground Truth and Amazon Augmented AI. The platform—which let businesses post Human Intelligence Tasks (HITs) for pennies per task, covering data labeling, transcription, and surveys—has been undercut by advanced AI models and purpose-built labeling startups like Scale AI, Mercor, and Prolific. A 2023 EPFL study found 33–46% of MTurk workers were already using LLMs for writing tasks, undermining its human-signal premise.",
+      "keyConcepts": [
+        "crowdsourced data labeling deprecation",
+        "AI automation of human tasks",
+        "data labeling market consolidation",
+        "human-in-the-loop pipeline disruption"
+      ],
+      "whyItMatters": "MTurk's closure marks the end of an era: the same AI systems it helped train have now made the platform economically obsolete, illustrating AI's recursive disruption of the workforce—and signaling that purpose-built AI labeling startups are the new infrastructure for model training data.",
+      "tags": ["amazon", "mechanical-turk", "data-labeling", "ai-workforce", "crowdsourcing", "scale-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "When will Amazon officially shut down Mechanical Turk?",
+          "options": ["July 30, 2026", "August 31, 2026", "September 30, 2026", "December 31, 2026"],
+          "correctIndex": 2,
+          "explanation": "Amazon announced Mechanical Turk will close on September 30, 2026. New customer signups were already stopped on July 30, 2026, alongside related services SageMaker Ground Truth and Amazon Augmented AI."
+        },
+        {
+          "question": "What did a 2023 EPFL study find about MTurk workers that undermined its value proposition?",
+          "options": [
+            "33–46% of workers were bots, not humans",
+            "33–46% of workers were using LLMs for writing tasks",
+            "Workers completed tasks 3x faster than AI could",
+            "Over 60% of workers were located in a single country"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EPFL study found that 33 to 46 percent of MTurk workers were already using large language models for writing tasks, meaning the supposedly human-generated data was often AI-generated—undermining the platform's core premise of providing human intelligence."
         }
       ]
     }
