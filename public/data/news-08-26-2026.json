@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-08-26T03:13:36.000Z",
+  "weekOf": "2026-08-24",
+  "coverageStart": "2026-08-24",
+  "coverageEnd": "2026-08-26",
+  "items": [
+    {
+      "id": "article-apple-m6-m5-ultra-launch-2026-08-25",
+      "type": "article",
+      "title": "Apple Launches M6, Its First 2nm Chip, with 2x AI Compute Performance",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "verified": false,
+      "publishedAt": "2026-08-25",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Apple unveiled the M6 chip on August 25, 2026, its first processor built on a 2-nanometer process, featuring a Dual 16-core Neural Engine that delivers up to 2x peak AI compute compared to previous generations. The chip introduces per-GPU-core Neural Accelerators that boost on-device LLM inference by nearly 30%, and supports up to 170 GB/s of unified memory bandwidth. The M6 debuts in the new Mac mini alongside the M5 Ultra, Apple's highest-performance chip for demanding AI workloads.",
+      "keyConcepts": [
+        "2nm process node",
+        "Dual 16-core Neural Engine",
+        "on-device LLM inference",
+        "unified memory bandwidth"
+      ],
+      "whyItMatters": "The M6's 2nm process and doubled Neural Engine compute directly accelerate private, on-device AI workloads—reducing cloud dependency and enabling faster local LLM execution for developers and power users.",
+      "tags": ["apple", "m6-chip", "neural-engine", "on-device-ai", "apple-silicon", "2nm"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What manufacturing process does Apple's M6 chip use?",
+          "options": ["3nm", "4nm", "2nm", "5nm"],
+          "correctIndex": 2,
+          "explanation": "The M6 is Apple's first chip built on a 2nm process node, fabricated by TSMC, enabling higher transistor density and power efficiency."
+        },
+        {
+          "question": "How much does the M6's Dual 16-core Neural Engine improve peak AI compute compared to the previous generation?",
+          "options": ["50% more", "2x more", "4x more", "30% more"],
+          "correctIndex": 1,
+          "explanation": "Apple's Dual 16-core Neural Engine delivers up to 2x the peak AI compute of the M5's single Neural Engine, allowing system frameworks to use both engines simultaneously."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-q2-fy27-earnings-2026-08-26",
+      "type": "article",
+      "title": "Nvidia Reports Q2 FY2027 Earnings: Wall Street Expects $92B Revenue as AI Chip Demand Doubles",
+      "sourceUrl": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
+      "verified": false,
+      "publishedAt": "2026-08-26",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia is reporting its fiscal Q2 2027 results after market close on August 26, with analysts forecasting $92.2 billion in revenue—roughly double the $46.7 billion reported one year ago and representing 97% year-over-year growth. The company's data center segment, which powers the global AI infrastructure buildout across hyperscalers including Microsoft, Google, Amazon, Meta, and Oracle, is expected to account for the vast majority of revenue. Nvidia CFO Colette Kress has projected $3 to $4 trillion in cumulative AI infrastructure spending by end of decade.",
+      "keyConcepts": [
+        "AI chip demand",
+        "data center revenue growth",
+        "hyperscaler infrastructure spending",
+        "fiscal Q2 FY2027 guidance"
+      ],
+      "whyItMatters": "Nvidia's quarterly earnings have become the foremost financial indicator of AI infrastructure momentum; continued beats signal sustained enterprise and hyperscaler commitment to the AI buildout, while any guidance miss could ripple across AI-adjacent valuations.",
+      "tags": ["nvidia", "earnings", "ai-chips", "data-center", "ai-infrastructure", "wall-street"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What revenue growth rate does Wall Street expect from Nvidia in Q2 FY2027 compared to the same period last year?",
+          "options": ["45%", "65%", "97%", "120%"],
+          "correctIndex": 2,
+          "explanation": "Analysts expect ~$92.2 billion in Q2 FY2027 revenue, nearly double the $46.7 billion Nvidia reported in Q2 FY2026, representing approximately 97% year-over-year growth."
+        },
+        {
+          "question": "What does Nvidia's CFO project for total AI infrastructure spending by end of the decade?",
+          "options": ["$500 billion", "$1 trillion", "$2 trillion", "$3–4 trillion"],
+          "correctIndex": 3,
+          "explanation": "Colette Kress, Nvidia's CFO, projects between $3 trillion and $4 trillion in total AI infrastructure spending by the end of the decade, underscoring the long runway for AI chip demand."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-groq3-lpx-production-2026-08-24",
+      "type": "article",
+      "title": "Nvidia's Groq 3 LPX Inference Accelerator Enters Full Production, Delivers 3,400 Tokens/Second",
+      "sourceUrl": "https://siliconangle.com/2026/08/24/nvidias-dedicated-inference-accelerator-groq-3-lpx-enters-full-production-to-supercharge-ai-agents/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Nvidia announced on August 24 that its Groq 3 LPX, the dedicated AI inference accelerator resulting from its $20 billion acquisition of Groq's assets, has entered full production. The chip delivers 3,400 output tokens per second running Gemma 4 31B with a 100,000-token context window, and enables agentic tasks like coding to complete in minutes rather than hours. It integrates into the Vera Rubin platform supporting up to 256 LPX accelerators per rack, with Samsung fabricating the chip using 500MB of on-die SRAM to eliminate memory bandwidth bottlenecks.",
+      "keyConcepts": [
+        "dedicated inference accelerator",
+        "token generation throughput",
+        "on-die SRAM memory",
+        "agentic AI workloads"
+      ],
+      "whyItMatters": "Purpose-built inference hardware like Groq 3 LPX dramatically lowers latency for real-time agentic systems—faster token generation enables AI agents to operate interactively rather than in batch mode, unlocking a new class of user experiences.",
+      "tags": ["nvidia", "groq", "inference", "ai-accelerator", "agentic-ai", "vera-rubin"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many output tokens per second does the Groq 3 LPX deliver running Gemma 4 31B?",
+          "options": ["850", "1,200", "3,400", "5,000"],
+          "correctIndex": 2,
+          "explanation": "In benchmarking by Artificial Analysis, the Groq 3 LPX delivered 3,400 output tokens per second on Gemma 4 31B with a 100,000-token context window—far exceeding competing inference platforms."
+        },
+        {
+          "question": "What hardware design choice gives Groq 3 LPX its memory bandwidth advantage?",
+          "options": [
+            "HBM3e memory stacking",
+            "500MB of on-die SRAM",
+            "NVLink interconnect",
+            "LPDDR5X memory controllers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Samsung fabricates the chip with 500 megabytes of SRAM directly on the die, avoiding the memory bandwidth constraints that slow other inference accelerators that rely on off-chip memory."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-vera-cpu-hot-chips-2026-08-24",
+      "type": "article",
+      "title": "Nvidia Reveals Vera CPU at Hot Chips 2026: 88 Cores and 1.2 TB/s Memory for Agentic AI",
+      "sourceUrl": "https://www.servethehome.com/nvidia-vera-cpu-at-hot-chips-2026/",
+      "verified": false,
+      "publishedAt": "2026-08-24",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Nvidia detailed the architecture of its Vera CPU at the Hot Chips 2026 symposium, revealing 88 custom Armv9.2 Olympus cores delivering up to 1.9x IPC gains over AMD Turin, with 176 threads and up to 1.5 TB of LPDDR5X memory support. The monolithic die—fabricated on TSMC's 3nm process—uses spatial multithreading and 1.2 TB/s SOCAMM2 memory bandwidth optimized for agentic AI workloads. Major cloud providers including Alibaba, ByteDance, Meta, Oracle, CoreWeave, and Lambda have already signed up for deployments.",
+      "keyConcepts": [
+        "Olympus CPU cores",
+        "spatial multithreading",
+        "IPC performance vs AMD Turin",
+        "agentic workload optimization"
+      ],
+      "whyItMatters": "Nvidia is extending beyond GPUs into the broader server compute stack—the Vera CPU's agentic-workload optimizations signal Nvidia's intent to own the full AI system stack, potentially reshaping the server CPU market dominated by Intel and AMD.",
+      "tags": ["nvidia", "vera-cpu", "hot-chips-2026", "olympus-cores", "ai-infrastructure", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many cores does Nvidia's Vera CPU have?",
+          "options": ["64", "88", "128", "96"],
+          "correctIndex": 1,
+          "explanation": "Vera has 88 custom Armv9.2 Olympus cores across 176 threads, all on a monolithic die fabricated on TSMC's 3nm process."
+        },
+        {
+          "question": "What IPC improvement does Nvidia claim for Vera over AMD Turin?",
+          "options": ["1.2x", "1.5x", "1.9x", "2.5x"],
+          "correctIndex": 2,
+          "explanation": "Nvidia claims up to 1.9x IPC gains for Vera vs AMD EPYC Turin, driven by higher instruction fetch operations, branch predictions, and taken branch rates per cycle."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-coding-dependence-survey-2026-08-25",
+      "type": "article",
+      "title": "Survey: 80% of Developers Say AI Coding Tools Feel Like Dependence, Not an Advantage",
+      "sourceUrl": "https://www.sonarsource.com/blog/state-of-code-developer-survey-report-the-current-reality-of-ai-coding/",
+      "verified": false,
+      "publishedAt": "2026-08-25",
+      "topics": ["ai-career", "ai-engineering"],
+      "summary": "A Coddy Developer Survey finds that 80% of developers describe their AI coding tool usage as feeling more like dependence than an advantage—while only 29% of the 84% who use AI tools trust their accuracy. Developers now spend an average of 11.4 hours per week reviewing AI-generated code versus 9.8 hours writing new code, a reversal of the 2024 pattern. A separate Sonar State of Code survey found 96% do not fully trust AI-generated code and only 48% always verify it before committing.",
+      "keyConcepts": [
+        "AI coding tool adoption and trust gap",
+        "code review burden",
+        "developer productivity paradox",
+        "AI-generated code verification"
+      ],
+      "whyItMatters": "The trust gap—84% usage but only 29% trust—reveals that AI coding tools have achieved mass adoption without confidence, creating a hidden productivity bottleneck where developers spend more time reviewing AI code than writing original code.",
+      "tags": ["developer-survey", "ai-coding", "productivity", "code-review", "ai-adoption", "trust-gap"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of developers trust the accuracy of AI-generated code, according to 2026 surveys?",
+          "options": ["29%", "48%", "62%", "80%"],
+          "correctIndex": 0,
+          "explanation": "Despite 84% of developers using AI coding tools, only 29% trust their accuracy—a trust gap that contributes to significant code review overhead and the feeling of dependence rather than advantage."
+        },
+        {
+          "question": "How many hours per week do developers now spend reviewing AI-generated code versus writing new code?",
+          "options": [
+            "5.2h reviewing vs 12.1h writing",
+            "8.0h reviewing vs 10.0h writing",
+            "11.4h reviewing vs 9.8h writing",
+            "15.0h reviewing vs 8.0h writing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers now spend 11.4 hours per week reviewing AI-generated code versus 9.8 hours writing new code—a reversal from 2024 where writing exceeded reviewing, indicating AI code quality concerns are generating substantial overhead."
+        }
+      ]
+    },
+    {
+      "id": "article-jetbrains-ai-agent-adoption-2026-08-25",
+      "type": "article",
+      "title": "JetBrains: 90% of Developers Use AI Coding Agents Weekly as GitHub Copilot Loses Market Lead",
+      "sourceUrl": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
+      "verified": false,
+      "publishedAt": "2026-08-25",
+      "dateEstimated": true,
+      "topics": ["ai-career", "ai-engineering"],
+      "summary": "JetBrains' annual developer survey of 15,000 professionals found that 90% now use AI coding agents weekly and 68% use them daily, marking a profound shift from supplementary to essential tooling. GitHub Copilot's primary-tool adoption declined from 29% to 21% year-over-year while losing its market leadership, with open-source OpenCode reaching 7% adoption. AI now accounts for 42% of committed code across the industry and is forecast to reach 65% by 2027.",
+      "keyConcepts": [
+        "AI coding agent weekly adoption rates",
+        "GitHub Copilot market share decline",
+        "AI-generated code percentage",
+        "open-source coding agent emergence"
+      ],
+      "whyItMatters": "When 90% of developers use AI coding agents weekly, these tools have shifted from competitive advantage to baseline expectation—reshaping which skills matter, which tools define the market, and how software development teams measure productivity.",
+      "tags": ["jetbrains", "developer-survey", "github-copilot", "ai-coding-agents", "ai-adoption", "opencode"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of committed code does AI currently account for, per the 2026 JetBrains survey?",
+          "options": ["20%", "42%", "58%", "65%"],
+          "correctIndex": 1,
+          "explanation": "AI now accounts for 42% of committed code in 2026, up significantly from prior years, and is projected to reach 65% by 2027 as AI coding agents become more deeply integrated into development workflows."
+        },
+        {
+          "question": "How has GitHub Copilot's developer adoption changed from 2025 to 2026?",
+          "options": [
+            "Increased from 21% to 29%",
+            "Remained stable at 29%",
+            "Declined from 29% to 21%",
+            "Declined from 35% to 25%"
+          ],
+          "correctIndex": 2,
+          "explanation": "GitHub Copilot's primary-tool adoption fell from 29% in 2025 to 21% in 2026, causing it to lose its market leadership position as Claude Code and Cursor gained share."
+        }
+      ]
+    }
+  ]
+}
