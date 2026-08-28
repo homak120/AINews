@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T06:00:00Z",
+  "generatedAt": "2026-08-28T12:00:00Z",
   "weekOf": "2026-08-24",
   "coverageStart": "2026-08-26",
-  "coverageEnd": "2026-08-27",
+  "coverageEnd": "2026-08-28",
   "items": [
     {
       "id": "article-techcrunch-rogue-ai-coalition-2026-08-27",
@@ -302,6 +302,49 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI recorded $6.7 billion in revenue for Q2 2026 (the quarter ended June 2026), providing context for why the company is exploring ad revenue as an additional income stream."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-anthropic-pentagon-2026-08-28",
+      "type": "article",
+      "title": "Federal Judge Rules Pentagon's Blacklisting of Anthropic 'Illegal and Baseless'",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "verified": false,
+      "publishedAt": "2026-08-28",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "A federal judge in California ruled that the Trump administration's designation of Anthropic as a national security supply chain risk was illegal, handing the AI company its first major court victory against the Pentagon. U.S. District Judge Rita Lin found that Defense Secretary Pete Hegseth's label constituted 'unlawful retaliation' violating the First Amendment, was 'arbitrary and capricious,' and denied Anthropic due process under the Fifth Amendment. The dispute originated from Anthropic's refusal to remove safety guardrails that would allow its models to be used for fully autonomous weapons systems and mass domestic surveillance.",
+      "keyConcepts": [
+        "AI safety guardrails in government contracts",
+        "First Amendment retaliation in the AI sector",
+        "Supply chain risk designation as regulatory tool",
+        "AI policy and national security"
+      ],
+      "whyItMatters": "This ruling sets a major legal precedent protecting AI companies that maintain safety policies from retaliatory government blacklisting — directly affecting how AI labs negotiate with defense agencies and whether safety commitments can be enforced despite government pressure.",
+      "tags": ["anthropic", "pentagon", "ai-safety", "policy", "court-ruling", "first-amendment"],
+      "relatedIds": ["article-techcrunch-anthropic-nscale-2026-08-26", "article-techcrunch-rogue-ai-coalition-2026-08-27"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the core reason Anthropic refused to comply with Pentagon demands, triggering the supply chain risk designation?",
+          "options": [
+            "Anthropic wanted higher payment for its models",
+            "Anthropic refused to remove safety guardrails that would allow its AI to be used for autonomous weapons and mass surveillance",
+            "Anthropic disagreed with the classification level of its security clearances",
+            "Anthropic was already under exclusive contract with a different government agency"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic CEO Dario Amodei stated the company 'cannot in good conscience' remove safety guardrails preventing its models from being used for fully autonomous weapons and mass domestic surveillance — the refusal the Pentagon retaliated against."
+        },
+        {
+          "question": "On which constitutional grounds did Judge Rita Lin rule the Pentagon's designation of Anthropic unlawful?",
+          "options": [
+            "Fourth and Tenth Amendments only",
+            "Second Amendment and Commerce Clause",
+            "First Amendment (unlawful retaliation) and Fifth Amendment (denial of due process)",
+            "Thirteenth Amendment and Equal Protection Clause"
+          ],
+          "correctIndex": 2,
+          "explanation": "Judge Lin ruled the designation violated the First Amendment as unlawful retaliation against Anthropic's constitutionally protected speech criticizing the government, and violated the Fifth Amendment by denying Anthropic due process before being blacklisted."
         }
       ]
     }
