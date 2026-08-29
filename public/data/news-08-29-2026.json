@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-08-29T12:00:00Z",
+  "weekOf": "2026-08-24",
+  "coverageStart": "2026-08-28",
+  "coverageEnd": "2026-08-28",
+  "items": [
+    {
+      "id": "article-aljazeera-anthropic-pentagon-ruling-2026-08-28",
+      "type": "article",
+      "title": "US Judge Blocks Pentagon's Blacklisting of AI Firm Anthropic",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+      "verified": false,
+      "publishedAt": "2026-08-28",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "District Judge Rita Lin issued a 59-page order ruling that the Department of Defense acted illegally when it designated Anthropic a supply chain risk to national security. The Pentagon had blacklisted Anthropic after the company's terms of service prohibited customers from using Claude to conduct mass surveillance of Americans or build autonomous weapons — clauses that put the company at odds with the DoD's stance on battlefield AI deployment. The ruling gives AI developers meaningful legal backing when they resist government demands they consider to cross safety boundaries.",
+      "keyConcepts": [
+        "AI safety terms of service enforcement",
+        "Government AI procurement disputes",
+        "Judicial review of DoD security designations",
+        "AI governance and developer safety principles"
+      ],
+      "whyItMatters": "The ruling establishes a legal precedent that AI companies can enforce safety-aligned usage restrictions even against government contracts, signaling that terms of service clauses banning autonomous weapons and mass surveillance have enforceable legal weight.",
+      "tags": ["anthropic", "pentagon", "legal-ruling", "ai-safety", "autonomous-weapons", "government-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific Anthropic policy triggered the Pentagon's supply chain risk designation?",
+          "options": [
+            "Anthropic's refusal to release Claude's weights as open source",
+            "Anthropic's terms prohibiting Claude from being used for mass surveillance of Americans or building autonomous weapons",
+            "Anthropic's decision to block all US government API access",
+            "Anthropic's partnership with a foreign AI lab"
+          ],
+          "correctIndex": 1,
+          "explanation": "The conflict arose from Anthropic's terms of service clauses that bar customers from using Claude to conduct mass surveillance of Americans or develop autonomous weapons — clauses the DoD viewed as incompatible with military AI deployment goals."
+        },
+        {
+          "question": "What does the judge's ruling mean for AI companies facing government pressure to relax safety policies?",
+          "options": [
+            "AI companies must comply with any DoD request or risk losing all government contracts",
+            "AI companies now have legal precedent supporting their right to enforce safety-aligned usage restrictions, even against government entities",
+            "The ruling only applies to companies with fewer than 500 employees",
+            "AI companies must now submit safety policies to a federal review board before publishing them"
+          ],
+          "correctIndex": 1,
+          "explanation": "Judge Rita Lin's 59-page order ruled the Pentagon acted illegally when it punished Anthropic for upholding its safety terms, giving AI developers legal backing to resist government demands that cross their stated safety lines."
+        }
+      ]
+    },
+    {
+      "id": "article-forbes-nvidia-q2-earnings-2026-08-28",
+      "type": "article",
+      "title": "Nvidia Reports Record $96.2B Revenue in Q2 as AI Chip Demand Stays Hot",
+      "sourceUrl": "https://www.forbes.com/sites/paulocarvao/2026/08/28/nvidia-earnings-scorecard-ai-demand-is-booming-but-risks-remain/",
+      "verified": false,
+      "publishedAt": "2026-08-28",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Nvidia reported fiscal Q2 2026 revenue of $96.2 billion — a 106% year-over-year increase — driven by relentless AI infrastructure spending from hyperscalers and enterprise customers. Data center revenue hit $89 billion, up 18% quarter-over-quarter, with hyperscale spending of $49 billion leading the way on Blackwell GPU demand. Adjusted earnings came in at $2.22 per share, ahead of analyst estimates of $2.08, and the company's forward guidance projects 70% revenue growth in fiscal 2028.",
+      "keyConcepts": [
+        "Blackwell GPU architecture and demand",
+        "Hyperscale AI data center spending",
+        "AI infrastructure capex cycles",
+        "Semiconductor earnings and forward guidance"
+      ],
+      "whyItMatters": "Nvidia's second consecutive record quarter confirms that AI infrastructure investment has not plateaued — hyperscalers are still massively expanding compute capacity, which directly drives demand for AI engineering skills and keeps GPU-accelerated development at the center of the industry.",
+      "tags": ["nvidia", "earnings", "blackwell", "ai-chips", "data-center", "hyperscale"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Nvidia's Q2 2026 total revenue and how did it compare to the prior year?",
+          "options": [
+            "$45 billion, up 30% year-over-year",
+            "$72 billion, up 55% year-over-year",
+            "$96.2 billion, up 106% year-over-year",
+            "$120 billion, up 150% year-over-year"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia reported $96.2 billion in Q2 2026 revenue, more than doubling year-over-year with a 106% growth rate, driven by sustained AI chip demand across hyperscalers and enterprise customers."
+        },
+        {
+          "question": "Which Nvidia product line was most responsible for the record Q2 data center revenue?",
+          "options": [
+            "Hopper H100 GPU clusters for academic research",
+            "Blackwell GPU architecture deployed in hyperscale data centers",
+            "Nvidia DGX personal AI workstations for individual developers",
+            "Nvidia networking and InfiniBand equipment only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Blackwell GPU architecture was the primary driver of Nvidia's Q2 data center revenue of $89 billion, with hyperscale spending of $49 billion showing 13% sequential growth attributed specifically to strong Blackwell demand."
+        }
+      ]
+    },
+    {
+      "id": "article-tomsguide-meta-glasses-privacy-2026-08-28",
+      "type": "article",
+      "title": "Meta Updates AI Glasses to Stop Recording When Privacy Indicator Light Is Covered",
+      "sourceUrl": "https://www.tomsguide.com/ai/less-pervert-y-meta-ai-glasses-will-now-stop-recording-if-you-cover-the-warning-light",
+      "verified": false,
+      "publishedAt": "2026-08-28",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta is rolling out a software update to its AI-powered smart glasses after users discovered that covering the device's visible capture indicator LED after recording had already started could bypass the protection — allowing covert filming to continue without the warning light visible. The updated firmware makes the camera stop functioning whenever the LED is covered at any point during recording. Meta says the update also helps the product meet the European Union's new AI transparency requirements, which became enforceable on August 2, 2026.",
+      "keyConcepts": [
+        "Privacy-by-design in AI-powered wearables",
+        "EU AI Act transparency obligations for consumer devices",
+        "Physical capture indicators and their limitations",
+        "Consumer AI hardware security vulnerabilities"
+      ],
+      "whyItMatters": "The Meta glasses incident illustrates how hardware privacy safeguards can have software-exploitable gaps — and how EU AI Act enforcement is now actively driving product changes in consumer AI devices, raising the stakes for privacy-by-design in AI hardware.",
+      "tags": ["meta", "ai-glasses", "privacy", "eu-ai-act", "wearables", "consumer-ai-hardware"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What vulnerability did users discover in Meta's AI glasses privacy safeguard?",
+          "options": [
+            "The recording LED could be remotely disabled via a third-party app",
+            "Covering the capture indicator LED after recording started allowed covert recording to continue",
+            "The glasses automatically uploaded footage to a public server without user consent",
+            "The LED indicator only activated when connected to Wi-Fi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Users found that covering the visible capture indicator LED after a recording session had already begun did not stop the camera — allowing the glasses to film covertly without the visible warning light. Meta's update fixes this by stopping the camera whenever the LED is covered."
+        },
+        {
+          "question": "Which regulatory framework accelerated Meta's decision to patch the AI glasses recording vulnerability?",
+          "options": [
+            "The US Federal Trade Commission's AI surveillance rules",
+            "California Consumer Privacy Act (CCPA) amendments",
+            "The European Union's AI Act transparency requirements",
+            "GDPR's biometric data processing restrictions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's update is designed partly to comply with the EU AI Act's new transparency obligations, which became enforceable on August 2, 2026, requiring AI systems to clearly indicate when they are capturing data."
+        }
+      ]
+    }
+  ]
+}
