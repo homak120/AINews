@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-08-30T10:00:00.000Z",
+  "weekOf": "2026-08-24",
+  "coverageStart": "2026-08-29",
+  "coverageEnd": "2026-08-30",
+  "items": [
+    {
+      "id": "article-sony-warner-anthropic-lawsuit-2026",
+      "type": "article",
+      "title": "Sony Music and Warner Chappell Sue Anthropic Over Copyright Infringement in Claude Training Data",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "verified": true,
+      "publishedAt": "2026-08-29",
+      "topics": ["ai-industry"],
+      "summary": "Sony Music Publishing, Warner Chappell, and other major music publishers filed a lawsuit against Anthropic and its co-founders on August 29, alleging the company conducted a 'brazen campaign' of illegally scraping and downloading tens of thousands of copyrighted musical compositions to train the Claude AI model. The suit seeks up to $150,000 per infringed work and $25,000 for each instance of removing copyright management information, potentially totaling billions in damages. This follows the landmark Bartz ruling, which found acquiring copyrighted content through piracy for AI training to be illegal even where AI training itself may be permissible.",
+      "keyConcepts": [
+        "copyright infringement",
+        "AI training data sourcing",
+        "music licensing and IP",
+        "Bartz precedent"
+      ],
+      "whyItMatters": "This lawsuit signals escalating legal pressure on AI labs over how they source training data, and could force the industry to fundamentally rethink licensing practices for copyrighted content.",
+      "tags": ["copyright", "anthropic", "claude", "music-industry", "lawsuit", "training-data"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific allegation did Sony Music and Warner Chappell make against Anthropic in their August 2026 lawsuit?",
+          "options": [
+            "Anthropic improperly released copyrighted songs through the Claude interface",
+            "Anthropic used Claude to generate music that directly copied their songs",
+            "Anthropic illegally scraped and downloaded tens of thousands of copyrighted compositions to train Claude",
+            "Anthropic failed to honor a pre-existing licensing agreement with the publishers"
+          ],
+          "correctIndex": 2,
+          "explanation": "The lawsuit alleges Anthropic conducted a 'brazen campaign' of illegally scraping copyrighted musical compositions for Claude's training data — not that Claude generated infringing music."
+        },
+        {
+          "question": "What legal distinction from the Bartz case shaped the music publishers' strategy in this lawsuit?",
+          "options": [
+            "AI companies must obtain explicit consent before any web scraping",
+            "Using copyrighted works for AI training is always legal regardless of how they were obtained",
+            "Using copyrighted works for training can be permissible, but acquiring them through piracy is not",
+            "AI companies must pay a flat statutory fee of $1.5 billion to all rights holders"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Bartz ruling established that while using copyrighted works for AI training may be legal, acquiring that content through piracy (e.g., torrenting) is not — the exact distinction the music publishers' lawsuit relies on."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-dalle-retirement-aug30-2026",
+      "type": "article",
+      "title": "OpenAI Retires DALL-E GPT From ChatGPT, Directing Users to Next-Generation Image Models",
+      "sourceUrl": "https://www.notebookcheck.net/DALL-E-leaves-ChatGPT-on-August-30-download-your-images-first.1360522.0.html",
+      "verified": true,
+      "publishedAt": "2026-08-30",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI officially retired the DALL-E GPT interface within ChatGPT on August 30, 2026, urging users to download any images they wanted to preserve before the deadline. Users are now directed to ChatGPT Images, powered by newer, more capable gpt-image generation models. The retirement is part of a broader lifecycle management push by OpenAI, which also recently retired the o3 reasoning model from ChatGPT.",
+      "keyConcepts": [
+        "DALL-E model lifecycle",
+        "ChatGPT Images (gpt-image)",
+        "AI model deprecation",
+        "image generation evolution"
+      ],
+      "whyItMatters": "The DALL-E retirement marks a generational shift in AI image generation — OpenAI's newer gpt-image models significantly outperform DALL-E, reflecting how fast the field has advanced since DALL-E helped popularize AI-generated images.",
+      "tags": ["openai", "dall-e", "chatgpt", "image-generation", "model-retirement", "gpt-image"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What replaced the DALL-E GPT interface in ChatGPT after its retirement on August 30, 2026?",
+          "options": [
+            "A standalone DALL-E 4 desktop application",
+            "ChatGPT Images powered by newer gpt-image models",
+            "A Midjourney integration built into ChatGPT",
+            "A text-only mode with no image generation capability"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI directed users to ChatGPT Images, powered by newer, more advanced gpt-image models that significantly outperform the older DALL-E architecture."
+        },
+        {
+          "question": "What did OpenAI and tech publications advise users to do before the August 30 DALL-E GPT retirement deadline?",
+          "options": [
+            "Migrate all prompts immediately to the new ChatGPT Images interface",
+            "Delete old DALL-E conversations to free up account storage",
+            "Upgrade to ChatGPT Plus to retain DALL-E access",
+            "Download any images they wanted to keep before the deadline"
+          ],
+          "correctIndex": 3,
+          "explanation": "Multiple sources warned users to download their DALL-E-generated images before August 30, since those images would no longer be accessible once the DALL-E GPT interface was retired."
+        }
+      ]
+    },
+    {
+      "id": "article-europe-ai-sovereignty-techbbq-2026",
+      "type": "article",
+      "title": "European AI Leaders at TechBBQ Ask: Who Actually Controls AI?",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "verified": true,
+      "publishedAt": "2026-08-29",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "At the TechBBQ conference in Copenhagen, European investors, founders, and AI practitioners debated who should control advanced AI systems — a conversation made especially urgent after Anthropic's models Mythos and Fable became unavailable to users outside Europe earlier in 2026. Discussions centered on AI sovereignty: whether European nations and institutions can maintain meaningful control over AI systems developed primarily in the US. Participants explored paths toward European AI independence and the practical hurdles of building or deploying frontier models domestically.",
+      "keyConcepts": [
+        "AI sovereignty",
+        "European AI policy",
+        "AI governance and access control",
+        "transatlantic AI dependency"
+      ],
+      "whyItMatters": "AI sovereignty is moving from an abstract policy debate to a concrete operational risk for European organizations, as access to frontier AI increasingly depends on decisions made by US companies.",
+      "tags": ["europe", "ai-governance", "sovereignty", "regulation", "techbbq", "anthropic"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific event made the AI sovereignty debate especially urgent at TechBBQ Copenhagen in August 2026?",
+          "options": [
+            "The EU passed a law requiring AI companies to open-source all models used in Europe",
+            "Anthropic's models Mythos and Fable became unavailable to users outside Europe earlier in 2026",
+            "Google announced it would withdraw Gemini services from EU markets by end of year",
+            "A major European bank was compromised through a US-developed AI system"
+          ],
+          "correctIndex": 1,
+          "explanation": "The discussion was particularly timely because Anthropic had made certain models unavailable outside Europe earlier in 2026, making questions of AI access control concrete and immediate for European practitioners."
+        },
+        {
+          "question": "What does 'AI sovereignty' mean in the context of the TechBBQ discussions?",
+          "options": [
+            "The legal right of AI systems to make binding decisions autonomously",
+            "The technical ability of AI to override government data regulations",
+            "The capacity of nations and institutions to maintain meaningful control over the AI systems they use",
+            "A certification standard for AI model security in the EU"
+          ],
+          "correctIndex": 2,
+          "explanation": "AI sovereignty in this context refers to whether European nations and institutions can maintain meaningful control over AI systems — including decisions about access, usage, and data governance — particularly when those systems are developed primarily by US companies."
+        }
+      ]
+    }
+  ]
+}
