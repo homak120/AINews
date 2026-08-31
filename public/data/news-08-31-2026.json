@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-08-31T10:00:00.000Z",
+  "weekOf": "2026-08-31",
+  "coverageStart": "2026-08-29",
+  "coverageEnd": "2026-08-29",
+  "items": [
+    {
+      "id": "article-openai-cursor-spacex-aug2026",
+      "type": "article",
+      "title": "OpenAI Terminates Model Access to Cursor After SpaceX Acquisition",
+      "sourceUrl": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+      "verified": false,
+      "publishedAt": "2026-08-29",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI announced it will wind down its contract providing AI models to Cursor, the popular AI coding platform acquired by SpaceX for $60 billion in mid-August 2026. OpenAI cited an inability to trust Elon Musk's companies to comply with its terms of service, referencing past violations involving Twitter/X and xAI, and set a model access shutoff date of November 12, 2026. Cursor CEO Michael Truell noted that OpenAI models account for only about 5% of Cursor traffic, with Anthropic's Claude expected to fill the gap — Anthropic publicly reaffirmed its ongoing partnership with Cursor.",
+      "keyConcepts": [
+        "SpaceX-Cursor acquisition",
+        "AI platform access control",
+        "AI ecosystem competition",
+        "Musk-Altman rivalry"
+      ],
+      "whyItMatters": "This termination shows how AI platform dependencies can become geopolitical fault lines overnight — when a company changes ownership, its access to foundational AI models can be revoked, forcing rapid architectural pivots and highlighting the risk of single-vendor dependency in AI products.",
+      "tags": ["openai", "cursor", "spacex", "elon-musk", "ai-coding", "platform-access"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did OpenAI announce it would terminate model access to Cursor in August 2026?",
+          "options": [
+            "Cursor's user base grew too large for OpenAI's capacity",
+            "Cursor began offering competing AI models that violated exclusivity terms",
+            "SpaceX acquired Cursor, and OpenAI cited distrust of Elon Musk's companies to comply with its terms",
+            "OpenAI is shutting down all third-party API integrations by end of 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's stated reason was that it cannot be confident SpaceX — Cursor's new owner — will comply with its terms of service, based on prior contract and ToS violations by Musk-led entities including X and xAI."
+        },
+        {
+          "question": "What percentage of Cursor user traffic was served by OpenAI models at the time of the termination announcement?",
+          "options": [
+            "About 5%",
+            "About 25%",
+            "About 50%",
+            "About 80%"
+          ],
+          "correctIndex": 0,
+          "explanation": "Cursor CEO Michael Truell stated that OpenAI models account for roughly 5% of Cursor's traffic, meaning the majority of Cursor users rely on other models — primarily Anthropic's Claude — making the termination less operationally disruptive than it might initially appear."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-tech-backlash-ai-data-centers-aug2026",
+      "type": "article",
+      "title": "Tech Backlash Reaches Fever Pitch as AI Angst Collides with Data Center Fears",
+      "sourceUrl": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+      "verified": false,
+      "publishedAt": "2026-08-29",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "A broad public backlash against the tech sector is intensifying, fueled by anxiety over AI-related job displacement, the spread of massive data centers into residential communities, and concerns about AI's role in election integrity and child safety. The rapid rise of AI companies like OpenAI and Anthropic has deepened existing distrust of big tech, with communities increasingly vocal about the land, water, and energy demands of AI infrastructure expansion. This convergence of economic and environmental grievances is generating political momentum that could complicate AI policy and infrastructure buildout.",
+      "keyConcepts": [
+        "AI public perception and trust",
+        "data center NIMBYism",
+        "AI job displacement anxiety",
+        "tech sector political risk"
+      ],
+      "whyItMatters": "Community resistance and regulatory backlash represent a growing constraint on AI infrastructure buildout — if public opposition translates into zoning restrictions or legislation, it could throttle the compute expansion that frontier AI development depends on.",
+      "tags": ["public-perception", "ai-jobs", "data-centers", "tech-backlash", "policy", "regulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the CNBC report, what three concerns are converging to fuel the tech backlash in 2026?",
+          "options": [
+            "High AI prices, lack of open-source models, and slow regulation",
+            "AI job displacement, data center proliferation, and election/child safety concerns",
+            "AI hallucinations, data privacy breaches, and failed AI products",
+            "Nvidia chip shortages, energy costs, and AI-generated misinformation"
+          ],
+          "correctIndex": 1,
+          "explanation": "The CNBC report identifies job displacement fears, data center impacts on residential communities, and concerns about AI's role in elections and child safety as the three converging sources of public tech backlash in 2026."
+        },
+        {
+          "question": "Why is community opposition to data centers particularly significant for the AI industry?",
+          "options": [
+            "Data centers are legally required to be in urban centers, so opposition forces relocation costs",
+            "Public opposition is purely symbolic and has no practical impact on AI development timelines",
+            "Data centers store training data, so community opposition disrupts model versioning",
+            "AI training and inference depend on large-scale compute buildout, so local opposition could restrict the infrastructure frontier AI requires"
+          ],
+          "correctIndex": 3,
+          "explanation": "Frontier AI development is deeply compute-hungry — training and running large models requires massive data centers. If community opposition translates into zoning restrictions or permit denials, it directly constrains the physical infrastructure that AI progress depends on."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-ai-jobs-workforce-aug2026",
+      "type": "article",
+      "title": "Meta Accelerates AI Pivot as Executives Warn Automation Is 'Coming for Us All'",
+      "sourceUrl": "https://247wallst.com/investing/2026/08/29/meta-continues-trade-jobs-for-ai-robots-are-coming-for-us-all/",
+      "verified": false,
+      "publishedAt": "2026-08-29",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Meta reported $60.8 billion in Q2 2026 revenue — up 28% year-over-year — while spending $31.1 billion on AI infrastructure in a single quarter and targeting $130–145 billion in capital expenditure for full-year 2026. CEO Mark Zuckerberg has moved 7,000 employees into AI-focused roles while cutting manager-level positions and other staff, explicitly framing automation as an unstoppable force coming for nearly all job categories. The company's trajectory makes it a leading indicator of how Big Tech is substituting AI investment for human labor at scale.",
+      "keyConcepts": [
+        "AI-driven workforce restructuring",
+        "AI capital expenditure surge",
+        "automation vs. employment",
+        "Big Tech labor strategy"
+      ],
+      "whyItMatters": "Meta's aggressive AI-for-labor substitution is being replicated across Big Tech, signaling that the economic transition from human-intensive to AI-intensive operations is accelerating — with broad implications for tech workers, talent markets, and the future of knowledge work.",
+      "tags": ["meta", "ai-jobs", "workforce", "capex", "automation", "zuckerberg"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Meta plan to spend on capital expenditures for the full year 2026, primarily driven by AI infrastructure?",
+          "options": [
+            "$40–55 billion",
+            "$75–90 billion",
+            "$130–145 billion",
+            "$200–220 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta guided for $130–145 billion in total capital expenditures for 2026, reflecting its massive AI infrastructure buildout. Q2 alone saw $31.1 billion in capex, signaling an unprecedented pace of AI investment."
+        },
+        {
+          "question": "What does Meta's approach of shifting 7,000 employees into AI roles while cutting other positions illustrate about the AI transition?",
+          "options": [
+            "AI creates as many jobs as it eliminates, preserving total employment",
+            "Only lower-wage workers face displacement; knowledge workers are safe",
+            "The AI transition is narrowing the range of valued human roles, concentrating job growth in AI-adjacent work",
+            "AI investment always leads to company-wide headcount expansion within 12 months"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's restructuring shows that even within a growing company, AI is narrowing which human roles are retained — concentrating employment in AI-related work while eliminating managerial and non-AI roles, rather than expanding total headcount proportionally."
+        }
+      ]
+    }
+  ]
+}

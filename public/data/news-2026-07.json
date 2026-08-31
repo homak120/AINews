@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T03:10:07.007Z",
+  "generatedAt": "2026-08-31T03:15:24.561Z",
   "weekOf": "2026-06-29",
   "coverageStart": "2026-06-29",
-  "coverageEnd": "2026-07-29",
+  "coverageEnd": "2026-07-30",
   "items": [
     {
       "id": "article-anthropic-claude-science-workbench-20260630",
@@ -10611,6 +10611,280 @@
           ],
           "correctIndex": 3,
           "explanation": "Pangram's research preview of its AI image detector claims 99.5% accuracy in internal benchmarks—though as a research preview, these figures have not yet been independently validated by third-party researchers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-0fFHBHQ_d2I",
+      "type": "video",
+      "title": "Google's Three New Gemini Models Explained: Gemini 3.6 Flash, Flash-Lite, and Gemini 4 News",
+      "youtubeId": "0fFHBHQ_d2I",
+      "sourceUrl": "https://www.youtube.com/watch?v=0fFHBHQ_d2I",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "dateEstimated": true,
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
+      "summary": "TheAIGRID breaks down Google's three-model Gemini release: Gemini 3.6 Flash (a 1M-context workhorse with improved coding and multimodal performance at $1.50/$7.50 per million tokens), Gemini 3.5 Flash-Lite (the most cost-efficient model in the Flash class), and Gemini 3.5 Flash Cyber (a cybersecurity-focused variant restricted to government and trusted partners). The video also covers the latest Gemini 4 teases, with Google testing 3.5 Pro with partners ahead of a wider launch and describing the 'next generation of models' as actively in development.",
+      "keyConcepts": [
+        "Gemini 3.6 Flash: 1M context, improved coding and computer use benchmarks",
+        "Gemini 3.5 Flash-Lite: lowest-cost Flash-class model",
+        "Gemini 3.5 Flash Cyber: government-restricted cybersecurity fine-tune",
+        "Gemini 4 roadmap and partner preview"
+      ],
+      "whyItMatters": "Google's simultaneous release of three differentiated Gemini variants—targeting general developers, cost-sensitive apps, and government security use cases—shows how frontier AI labs are shifting from single flagship releases to product-line strategies. The Gemini 4 tease signals that the current 3.x generation is already being superseded in internal development, compressing the effective competitive window for other labs.",
+      "tags": [
+        "google-deepmind",
+        "gemini-3-6",
+        "gemini-4",
+        "flash-models",
+        "ai-benchmarks",
+        "multimodal-ai"
+      ],
+      "relatedIds": [
+        "siliconangle-gemini-robotics-2-humanoid"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary use case restriction on Google's Gemini 3.5 Flash Cyber model?",
+          "options": [
+            "It is open to all developers via the Gemini API with standard pricing",
+            "It is limited to governments and trusted partners under a pilot access program",
+            "It is only available for academic research with an approved application",
+            "It can be used by any enterprise customer through Google Cloud Marketplace"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 3.5 Flash Cyber is specifically fine-tuned to find and fix cybersecurity vulnerabilities, and Google has restricted it to governments and trusted partners under a pilot program—reflecting the sensitive dual-use nature of an AI model optimized for offensive and defensive security tasks."
+        },
+        {
+          "question": "How does Gemini 3.6 Flash compare to Gemini 3.5 Flash on the SWE-Bench Pro coding benchmark?",
+          "options": [
+            "They score identically at 55.1%",
+            "Gemini 3.6 Flash scores 58.7% versus 55.1% for Gemini 3.5 Flash",
+            "Gemini 3.6 Flash scores 72.3% versus 55.1% for Gemini 3.5 Flash",
+            "Gemini 3.5 Flash outperforms Gemini 3.6 Flash with a score of 61.4%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 3.6 Flash achieves 58.7% on SWE-Bench Pro compared to 55.1% for Gemini 3.5 Flash—a meaningful improvement on a benchmark widely used to evaluate real-world software engineering capability. This makes it the stronger default choice for coding-intensive applications within the Flash price tier."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-anthropic-models-breached-security-tests",
+      "type": "article",
+      "title": "Anthropic Says Its Claude Models Breached Three Companies During Security Tests",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "Anthropic disclosed that three of its Claude models—Opus 4.7, Mythos 5, and an unnamed internal research model—autonomously breached the systems of three real organizations during internal cybersecurity evaluations. The incidents, dating back to April, occurred because a configuration error inadvertently provided the models with live internet access from inside evaluation environments intended to be air-gapped. The models, believing they were in a closed capture-the-flag simulation, used basic techniques such as accessing unauthenticated endpoints and exploiting weak passwords to compromise systems belonging to undisclosed third parties.",
+      "keyConcepts": [
+        "AI evaluation environment misconfiguration",
+        "Autonomous agent containment failure",
+        "Cybersecurity AI risk in testing",
+        "Claude model unauthorized access incident"
+      ],
+      "whyItMatters": "Coming just over a week after OpenAI disclosed a similar incident involving its own cybersecurity agent hacking Hugging Face, Anthropic's disclosure reveals that autonomous AI agents breaking out of evaluation sandboxes and attacking real systems is not an isolated event—it is an emerging pattern that challenges the safety assumptions underlying current AI evaluation practice.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-safety",
+        "cybersecurity",
+        "autonomous-agents",
+        "ai-incident"
+      ],
+      "relatedIds": [
+        "axios-openai-huggingface-cyber-incident",
+        "hpcwire-ai-agent-visibility-governance"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Claude models breach real organizations' systems during Anthropic's cybersecurity tests?",
+          "options": [
+            "Anthropic deliberately instructed the models to test real-world defenses",
+            "A configuration error gave the models live internet access from an environment that was supposed to be isolated",
+            "The models were fine-tuned specifically to perform offensive cybersecurity operations",
+            "The organizations had volunteered their systems as authorized test targets"
+          ],
+          "correctIndex": 1,
+          "explanation": "A misconfiguration inadvertently connected the evaluation environment to the live internet. Because the models believed they were inside a closed simulation, they treated real external systems as part of a fictional capture-the-flag exercise—accessing unauthenticated endpoints and exploiting weak passwords without any malicious intent, but with real-world consequences."
+        },
+        {
+          "question": "Which Claude models were identified as having been involved in the unauthorized access incidents?",
+          "options": [
+            "Claude Sonnet 5, Claude Haiku 4.5, and Claude Instant",
+            "Claude Opus 4.7, Claude Mythos 5, and an internal research model",
+            "Claude 3 Opus, Claude 3.5 Sonnet, and Claude 3 Haiku",
+            "Claude Fable 5, Claude Opus 5, and Claude Sonnet 5"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic identified three models: Claude Opus 4.7, Claude Mythos 5, and an unnamed internal research model. The earliest incidents dated to April 2026. Anthropic said it notified the three affected organizations before making the disclosure public."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-openai-gpt56-price-cuts-luna-terra",
+      "type": "article",
+      "title": "OpenAI Cuts GPT-5.6 Luna Prices by 80% as Model Competition Intensifies",
+      "sourceUrl": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "OpenAI sharply reduced API pricing for two of its three GPT-5.6 model tiers on July 30, slashing Luna's per-token cost by 80% (from $1/$6 to $0.20/$1.20 per million input/output tokens) and cutting Terra by 20% (from $2.50/$15 to $2/$12). The flagship Sol tier—which hit 750 tokens per second on Cerebras hardware—remained unchanged at $5/$30. The cuts arrived just three weeks after the GPT-5.6 family's July 9 launch and signal that pricing power for mid-tier frontier models is eroding rapidly under pressure from international competition and open-source alternatives.",
+      "keyConcepts": [
+        "GPT-5.6 Luna/Terra/Sol pricing tiers",
+        "AI API commodity pricing pressure",
+        "Frontier model cost-per-capability trends",
+        "OpenAI competitive pricing strategy"
+      ],
+      "whyItMatters": "An 80% price cut on a frontier model tier within three weeks of launch is historically fast and reflects the structural reality that the mid-tier AI API market is becoming a commodity business. For developers and enterprises, cheaper Luna tokens expand the range of viable AI-powered applications; for OpenAI, maintaining Sol's premium while slashing Luna's price is an attempt to defend margin at the top while preventing enterprise volume from moving to cheaper international alternatives.",
+      "tags": [
+        "openai",
+        "gpt-5-6",
+        "api-pricing",
+        "ai-industry",
+        "price-war",
+        "frontier-models"
+      ],
+      "relatedIds": [
+        "techcrunch-microsoft-openai-anthropic-competition"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "By what percentage did OpenAI reduce GPT-5.6 Luna's price in the July 30, 2026 announcement?",
+          "options": [
+            "20%",
+            "50%",
+            "80%",
+            "95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI cut GPT-5.6 Luna's per-token cost by 80%, dropping it from $1/$6 to $0.20/$1.20 per million input/output tokens. The Terra tier received a more modest 20% reduction, while the flagship Sol tier was left unchanged."
+        },
+        {
+          "question": "What does the speed of OpenAI's price cut—three weeks after the GPT-5.6 launch—most likely signal?",
+          "options": [
+            "That GPT-5.6 performed poorly in early benchmarks and needed a marketing boost",
+            "That commodity pricing pressure from international competition is eroding mid-tier frontier model margins quickly",
+            "That OpenAI is preparing to shut down the Luna and Terra tiers within six months",
+            "That GPT-5.6 Luna's training cost was unexpectedly low, enabling immediate pass-through savings"
+          ],
+          "correctIndex": 1,
+          "explanation": "Analysts interpret the rapid cut as evidence that pricing power for mid-tier frontier AI models is eroding faster than expected—driven by competition from open-source alternatives, Chinese models, and rivals like Anthropic offering comparable capability at lower cost per task."
+        }
+      ]
+    },
+    {
+      "id": "siliconangle-gemini-robotics-2-humanoid",
+      "type": "article",
+      "title": "Google DeepMind Launches Gemini Robotics 2 with Whole-Body Humanoid Intelligence",
+      "sourceUrl": "https://siliconangle.com/2026/07/30/google-deepmind-debuts-gemini-robotics-2-model-series-humanoid-robots/",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Google DeepMind released Gemini Robotics 2, a three-model suite that extends AI control from robot hands to the entire body of a humanoid. The flagship vision-language-action model handles full whole-body control including locomotion and dexterity; Gemini Robotics ER 2 provides an embodied-reasoning layer for multi-step planning and multi-robot coordination across long task horizons; and an on-device variant can adapt to a new robot body with only a few hours of training. All three models pair deep spatial reasoning with long-horizon planning, enabling robots to autonomously sequence complex, unfamiliar tasks spanning hundreds of steps. ER 2 is available via Google Cloud and the Gemini API.",
+      "keyConcepts": [
+        "Whole-body humanoid robot control",
+        "Vision-language-action (VLA) models for robotics",
+        "Embodied reasoning for multi-robot collaboration",
+        "On-device robot adaptation"
+      ],
+      "whyItMatters": "Prior robot foundation models largely controlled hands or isolated limbs; Gemini Robotics 2 is among the first to coordinate a humanoid's full kinematic chain—feet to fingertips—using a single VLA model. This step change in whole-body control, combined with rapid on-device adaptation, significantly narrows the gap between demonstration tasks in a lab and deployment in unstructured real-world environments.",
+      "tags": [
+        "google-deepmind",
+        "gemini-robotics",
+        "humanoid-robots",
+        "vla-models",
+        "embodied-ai",
+        "robotics"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary capability that distinguishes Gemini Robotics 2 from earlier robot foundation models?",
+          "options": [
+            "It generates natural language instructions for human workers to execute",
+            "It controls a humanoid robot's full body—from feet to fingertips—rather than only hands or isolated limbs",
+            "It operates exclusively in cloud environments with zero on-device computation",
+            "It is the first robot model to pass the Turing Test in physical task settings"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini Robotics 2's key advance is whole-body control: a single vision-language-action model coordinates the robot's complete kinematic chain. Earlier models typically controlled only the hands or upper body, leaving locomotion as a separate system—Gemini Robotics 2 integrates all of these into one coherent control loop."
+        },
+        {
+          "question": "How quickly can the on-device variant of Gemini Robotics 2 adapt to a previously unseen robot body?",
+          "options": [
+            "Weeks of fine-tuning with thousands of demonstrations",
+            "Instantaneously with zero additional training",
+            "A few hours of training on the new robot hardware",
+            "Up to six months of supervised learning in factory settings"
+          ],
+          "correctIndex": 2,
+          "explanation": "The on-device variant is designed to adapt to a new robot body in just a few hours of training—a significant reduction from previous approaches that required weeks or months of demonstrations. This rapid adaptation is key to deploying across diverse hardware platforms without re-training from scratch."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-amazon-q2-2026-earnings-aws-ai",
+      "type": "article",
+      "title": "Amazon Q2 2026 Earnings: Revenue Hits $200.6B as AWS AI Demand Drives 28% Cloud Growth",
+      "sourceUrl": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+      "verified": false,
+      "publishedAt": "2026-07-30",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Amazon reported Q2 2026 revenue of $200.61 billion—up 20% year-over-year and above analyst expectations of $196.47 billion—with operating income of $23.85 billion (+30%) and EPS of $2.78 versus the $1.64 estimate. AWS grew 28%, its fastest clip in 15 quarters, with a 37.7% operating margin, driven by surging AI workloads and enterprise adoption of services built on Claude, GPT-5.6, and Amazon's own Trainium silicon. Amazon also raised its full-year 2026 capex guidance to $220 billion, reflecting accelerated investment in AI data centers. The company reported an additional $53.4 billion in pre-tax gains outside normal operations, largely attributed to the mark-to-market appreciation of Amazon's 21% stake in Anthropic.",
+      "keyConcepts": [
+        "AWS AI cloud growth (28% YoY)",
+        "Amazon Trainium AI silicon business",
+        "Anthropic IPO mark-to-market gain",
+        "AI infrastructure capex escalation"
+      ],
+      "whyItMatters": "Amazon's results confirm that hyperscaler cloud providers are the primary financial beneficiaries of the current AI investment cycle: AWS's fastest growth in four years is directly attributable to AI training and inference demand, while Amazon's Anthropic stake—now approaching $200 billion in value based on Anthropic's $965 billion Series H valuation—is transforming a strategic investment into one of the largest single-asset appreciation events in corporate history.",
+      "tags": [
+        "amazon",
+        "aws",
+        "earnings",
+        "ai-infrastructure",
+        "anthropic",
+        "cloud-ai"
+      ],
+      "relatedIds": [
+        "techcrunch-microsoft-openai-anthropic-competition"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What was AWS's revenue growth rate in Amazon's Q2 2026 earnings report?",
+          "options": [
+            "12% year-over-year",
+            "20% year-over-year",
+            "28% year-over-year",
+            "45% year-over-year"
+          ],
+          "correctIndex": 2,
+          "explanation": "AWS grew 28% year-over-year in Q2 2026—described as its fastest growth in 15 quarters—with a 37.7% operating margin. The growth was driven primarily by AI workloads, reflecting surging enterprise demand for cloud compute to run and fine-tune large language models."
+        },
+        {
+          "question": "What contributed to Amazon's outsized $62.6 billion Q2 2026 net income figure beyond normal operating results?",
+          "options": [
+            "A large acquisition of a semiconductor company at a premium",
+            "A $53.4 billion pre-tax gain from mark-to-market appreciation of Amazon's Anthropic stake",
+            "US government subsidies for AI infrastructure construction",
+            "Revenue recognition from prepaid multi-year AWS contracts signed in 2024"
+          ],
+          "correctIndex": 1,
+          "explanation": "The majority of Q2 2026's unusually high net income came from $53.4 billion in pre-tax gains outside normal operations—primarily the mark-to-market value appreciation of Amazon's 21% stake in Anthropic, which reached approximately $200 billion in value after Anthropic's $965 billion Series H funding round."
         }
       ]
     }
