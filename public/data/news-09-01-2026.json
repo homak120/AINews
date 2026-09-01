@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T08:00:00.000Z",
+  "generatedAt": "2026-09-01T14:00:00.000Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-08-31",
   "coverageEnd": "2026-09-01",
@@ -115,6 +115,120 @@
           ],
           "correctIndex": 1,
           "explanation": "Apple's September 9 event was set to unveil the first foldable iPhone—described as the biggest change to Apple's smartphone lineup—marking Ternus's debut as CEO with a flagship hardware moment designed to reset the narrative around Apple's innovation pace."
+        }
+      ]
+    },
+    {
+      "id": "article-runway-solaris-2026-08-31",
+      "type": "article",
+      "title": "Runway Launches Solaris: AI That Renders App Interfaces as Live Video Without Code",
+      "sourceUrl": "https://runway.com/news/research/introducing-solaris",
+      "verified": false,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Runway introduced Solaris in early access, an Interface World Model that renders websites and apps as live video with every frame drawn in real time as users click and drag—no code running underneath. The system pairs Runway's Gen-4.5 video model with an LLM that interprets each interaction and prompts the next frames, outputting 720p video that responds to clicks, drags, or voice commands. In Runway's own study, testers preferred Solaris over pages coded by Claude Opus 5 in 71% of matchups on in-scene behavior.",
+      "keyConcepts": ["interface world models", "generative UI", "video-rendered interfaces", "no-code development"],
+      "whyItMatters": "Solaris represents a conceptual shift from software as executable code to software as generated media—if the quality improves, it could fundamentally change how interactive applications are built and experienced.",
+      "tags": ["runway", "solaris", "generative-ui", "world-models", "no-code", "video-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Runway Solaris fundamentally different from traditional web development?",
+          "options": [
+            "It uses a new programming language that compiles to WebAssembly",
+            "It renders the entire UI as live video frames rather than executing code",
+            "It auto-generates React components from natural language prompts",
+            "It runs all application logic on Runway's cloud GPUs instead of browsers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Solaris renders every pixel of the interface as a video frame generated in real time by Runway's Gen-4.5 model. There is no HTML, CSS, or JavaScript executing underneath—the 'app' is a continuously generated video stream that reacts to user input."
+        },
+        {
+          "question": "Which model does Solaris pair with its video generation system to interpret user interactions?",
+          "options": [
+            "A dedicated Runway gesture-recognition model",
+            "An LLM that reads each click or drag and prompts the next frames",
+            "A fine-tuned version of GPT-4o for UI understanding",
+            "A rule-based event handler that maps inputs to pre-rendered states"
+          ],
+          "correctIndex": 1,
+          "explanation": "Solaris combines Runway's Gen-4.5 video model with an LLM that reads user interactions (clicks, drags, voice commands), decides what should happen next, and prompts the video model to render the resulting frames—making the interface feel responsive despite being pure video."
+        }
+      ]
+    },
+    {
+      "id": "article-dod-genai-mil-2026-08-31",
+      "type": "article",
+      "title": "Pentagon Expands GenAI.mil with ChatGPT and Grok, Reaching 3 Million Personnel",
+      "sourceUrl": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/",
+      "verified": false,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "The Department of Defense expanded its GenAI.mil enterprise AI portal on August 31 by adding OpenAI's ChatGPT Mil and xAI's Grok for Government alongside the existing Google Gemini access, giving over 3 million military and civilian personnel a unified secure AI workspace. ChatGPT Mil supports chat, files, projects, and custom GPTs accredited for Controlled Unclassified Information at Impact Level 5. The platform had already onboarded 1.7 million unique users before this expansion.",
+      "keyConcepts": ["enterprise AI deployment", "government AI accreditation", "ChatGPT Mil", "Controlled Unclassified Information"],
+      "whyItMatters": "The DoD rolling out multiple frontier AI models to millions of personnel at once is the largest enterprise AI deployment in the US government's history, setting a template for how regulated institutions adopt AI at scale.",
+      "tags": ["dod", "military-ai", "genai-mil", "chatgpt", "grok", "government", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which three AI models are now available on the Pentagon's GenAI.mil platform?",
+          "options": [
+            "Claude, Gemini, and Llama",
+            "ChatGPT Mil, Grok for Government, and Google Gemini",
+            "Copilot, Gemini, and Perplexity",
+            "ChatGPT Mil, Claude, and Gemini"
+          ],
+          "correctIndex": 1,
+          "explanation": "GenAI.mil now bundles OpenAI's ChatGPT Mil, xAI's Grok for Government, and Google Gemini—three distinct commercial frontier AI systems—under one enterprise portal for DoD personnel."
+        },
+        {
+          "question": "What security classification level is ChatGPT Mil accredited to handle on GenAI.mil?",
+          "options": [
+            "Top Secret / Sensitive Compartmented Information (TS/SCI)",
+            "Secret (SIPRNet level)",
+            "Controlled Unclassified Information at Impact Level 5",
+            "Unclassified publicly releasable information only"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Mil holds accreditation for Controlled Unclassified Information (CUI) at Impact Level 5, which covers sensitive but unclassified data. This allows personnel to use it for procurement, policy, logistics, and administrative work that includes CUI without violating handling rules."
+        }
+      ]
+    },
+    {
+      "id": "article-clay-7b-valuation-2026-08-31",
+      "type": "article",
+      "title": "AI Sales Platform Clay Raises at $7 Billion Pre-Money Valuation",
+      "sourceUrl": "https://www.axios.com/pro/all-deals/2026/08/31/clay-7-billion-pre-money-valuation",
+      "verified": false,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "AI-powered go-to-market platform Clay is raising a new funding round led by Wellington Management at a $7 billion pre-money valuation, up from the $5 billion mark set in a January 2026 employee tender offer. Clay serves over 14,000 enterprise customers including OpenAI and Canva, maintains net revenue retention above 200%, and reached $100M ARR in December 2025. The platform automates sales research and outreach by enriching contact data with AI across 100+ data sources.",
+      "keyConcepts": ["go-to-market engineering", "AI sales automation", "net revenue retention", "B2B SaaS growth"],
+      "whyItMatters": "Clay's rapid valuation climb from $3.1B to $7B in under a year reflects enterprise demand for AI tools that replace human research labor in sales workflows—a signal that AI-native GTM tooling is becoming a major software category.",
+      "tags": ["clay", "ai-sales", "fundraising", "wellington-management", "gtm", "enterprise-ai", "b2b-saas"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What metric indicates that Clay's existing customers are expanding their usage over time?",
+          "options": [
+            "Customer acquisition cost below industry average",
+            "Net revenue retention above 200%",
+            "Gross margin exceeding 85%",
+            "Monthly active user growth of 50% quarter-over-quarter"
+          ],
+          "correctIndex": 1,
+          "explanation": "Net revenue retention (NRR) above 200% means that existing customers collectively more than double their spending year-over-year through expansions and upgrades—a powerful signal that the product becomes more valuable as customers use it more."
+        },
+        {
+          "question": "What core capability does Clay's AI platform provide to sales teams?",
+          "options": [
+            "Generating synthetic leads from publicly scraped social media data",
+            "Real-time cold-calling assistance with AI-generated rebuttals",
+            "Enriching contact and company data across 100+ sources for targeted outreach",
+            "Automating contract negotiation and e-signature workflows"
+          ],
+          "correctIndex": 2,
+          "explanation": "Clay aggregates and enriches prospect data from over 100 data sources using AI, enabling sales teams to build highly targeted outreach sequences without manual research—turning go-to-market teams into 'GTM engineers' who orchestrate AI instead of doing individual research."
         }
       ]
     }
