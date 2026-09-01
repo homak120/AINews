@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-09-01T08:00:00.000Z",
+  "weekOf": "2026-08-31",
+  "coverageStart": "2026-08-31",
+  "coverageEnd": "2026-09-01",
+  "items": [
+    {
+      "id": "article-anthropic-infostealer-2026-08-31",
+      "type": "article",
+      "title": "Anthropic Warns Users of Infostealer Malware Hijacking Claude Sessions",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+      "verified": false,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic detected infostealer malware on user PCs siphoning active Claude login session cookies, enabling attackers to consume paid usage limits without needing passwords or bypassing 2FA. Identified malware variants include Vidar, LummaC2, StealC, RedLine, and Atomic Stealer. Anthropic responded by force-logging out affected users, wiping saved payment methods, and refunding unauthorized charges.",
+      "keyConcepts": ["session cookie hijacking", "infostealer malware", "credential security", "AI platform security"],
+      "whyItMatters": "As AI subscriptions handle increasingly sensitive workflows and billing, they become high-value targets for credential theft—this incident shows users must apply banking-grade session hygiene to AI platform logins.",
+      "tags": ["anthropic", "security", "malware", "claude", "session-hijacking", "infostealer"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How did the infostealer malware access Claude accounts without knowing passwords?",
+          "options": [
+            "By brute-forcing weak passwords",
+            "By stealing session cookies stored in the browser",
+            "By intercepting SMS two-factor codes",
+            "By exploiting an Anthropic server vulnerability"
+          ],
+          "correctIndex": 1,
+          "explanation": "The malware stole browser session cookies that contain authentication tokens. Possessing these tokens lets attackers inherit an active login session without ever needing a password or bypassing 2FA."
+        },
+        {
+          "question": "Which of the following was NOT one of the infostealer malware families identified in this incident?",
+          "options": [
+            "LummaC2",
+            "Vidar",
+            "Pegasus",
+            "RedLine"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pegasus is a targeted mobile spyware platform unrelated to this incident. Vidar, LummaC2, and RedLine were among the specific infostealer variants identified as responsible for hijacking Claude sessions."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-macs-ai-training-2026-08-31",
+      "type": "article",
+      "title": "OpenAI Purchases Tens of Thousands of Apple Macs for Reinforcement Learning",
+      "sourceUrl": "https://www.businesstoday.in/technology/artificial-intelligence/story/openai-is-buying-thousands-of-apple-mac-minis-to-train-ai-agents-heres-whats-driving-the-move-552202-2026-08-31",
+      "verified": false,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI has acquired tens of thousands of Mac mini and Mac Studio computers to run reinforcement learning workloads for training computer-use agents—AI systems that navigate software interfaces like a human would. Apple's unified memory architecture, which lets the CPU, GPU, and Neural Engine share a single memory pool, reduces the overhead of running a full OS in the training loop. The purchasing spree came days after Apple refreshed its Mac lineup with the new M6 chip and positions Apple as an unexpected AI infrastructure player.",
+      "keyConcepts": ["reinforcement learning", "computer-use agents", "Apple Silicon unified memory", "AI training infrastructure"],
+      "whyItMatters": "OpenAI's massive Mac purchase reveals that Apple's hardware architecture is genuinely competitive for specific AI training workloads, disrupting Nvidia's assumed dominance and signaling that the AI compute landscape is more diverse than the GPU narrative suggests.",
+      "tags": ["openai", "apple", "mac", "reinforcement-learning", "ai-agents", "hardware", "nvidia"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of AI workload primarily drove OpenAI's large-scale Mac purchases?",
+          "options": [
+            "Large language model pre-training from scratch",
+            "Real-time inference serving for ChatGPT users",
+            "Reinforcement learning for computer-use agent training",
+            "Image generation and diffusion model fine-tuning"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI bought Macs specifically for reinforcement learning workloads used to train computer-use agents—AI systems that interact with software interfaces as a human would. Running a full OS in the training loop is a key requirement, and Apple Silicon handles this efficiently."
+        },
+        {
+          "question": "What hardware characteristic makes Apple Silicon particularly suitable for this AI workload?",
+          "options": [
+            "Higher raw GPU core count than Nvidia datacenter cards",
+            "Unified memory shared between CPU, GPU, and Neural Engine",
+            "Built-in tensor processing units exclusive to Apple",
+            "Lower per-unit purchase cost compared to cloud GPU instances"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple's unified memory architecture lets the CPU, GPU, and Neural Engine draw from one shared memory pool, avoiding data-shuffling overhead common in discrete GPU setups—a meaningful advantage when training agents that must run and observe a live OS environment."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-ceo-ternus-ai-2026-09-01",
+      "type": "article",
+      "title": "John Ternus Takes Apple's Helm as AI Strategy Becomes His First Priority",
+      "sourceUrl": "https://qz.com/john-ternus-apple-ceo-ai-tim-cook-083126",
+      "verified": false,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-industry"],
+      "summary": "John Ternus officially became Apple CEO on September 1, 2026, ending Tim Cook's 15-year tenure. His most pressing challenge is overhauling Apple's AI strategy after criticism over Siri's delayed generative AI transformation—Apple rebuilt Siri using Google's Gemini as its foundation and plans a full deployment this fall. Ternus's first major product event is September 9, where Apple is expected to unveil the first foldable iPhone alongside a broader AI-powered device lineup.",
+      "keyConcepts": ["Apple Intelligence", "Siri AI overhaul", "Gemini integration", "AI product strategy"],
+      "whyItMatters": "Apple's CEO transition illustrates that AI capability has become the primary lens through which Big Tech leadership is evaluated; how Ternus executes on AI will determine whether Apple can close the gap with competitors who moved earlier on generative AI.",
+      "tags": ["apple", "john-ternus", "apple-intelligence", "siri", "ai-strategy", "leadership"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI foundation did Apple use to rebuild Siri under its new strategic direction?",
+          "options": [
+            "OpenAI's GPT-5",
+            "Meta's Llama",
+            "Google's Gemini",
+            "Anthropic's Claude"
+          ],
+          "correctIndex": 2,
+          "explanation": "Under pressure to modernize its AI capabilities, Apple rebuilt Siri using Google's Gemini technology as its foundation—a significant strategic partnership that signals Apple's willingness to leverage external AI rather than rely solely on in-house models."
+        },
+        {
+          "question": "What was the headline product Apple planned to reveal at its September 9 event under John Ternus?",
+          "options": [
+            "Apple-branded smart glasses with AR overlay",
+            "The first foldable iPhone",
+            "AirPods Pro with environmental cameras",
+            "A home display on a robotic arm"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple's September 9 event was set to unveil the first foldable iPhone—described as the biggest change to Apple's smartphone lineup—marking Ternus's debut as CEO with a flagship hardware moment designed to reset the narrative around Apple's innovation pace."
+        }
+      ]
+    }
+  ]
+}
