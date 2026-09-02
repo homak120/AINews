@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-02T08:00:00.000Z",
+  "weekOf": "2026-08-31",
+  "coverageStart": "2026-08-31",
+  "coverageEnd": "2026-09-01",
+  "items": [
+    {
+      "id": "fortune-pentagon-chatgpt-mil-genaimil",
+      "type": "article",
+      "title": "Pentagon Opens GenAI.mil to 3 Million Personnel with ChatGPT Mil and Grok",
+      "sourceUrl": "https://fortune.com/2026/09/01/pentagon-chatgpt-grok-government-military-ai-members-pete-hegseth-defense-department/",
+      "verified": true,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-industry"],
+      "summary": "The Department of Defense launched ChatGPT Mil and xAI's Grok for Government on its GenAI.mil platform, giving over 3 million military and civilian personnel access to enterprise AI tools in a secure, accredited environment. The system is rated for Controlled Unclassified Information at Impact Level 5. Anthropic's Claude is notably absent from the platform following political considerations from the Trump administration.",
+      "keyConcepts": [
+        "ChatGPT Mil — a customized, air-gapped version of ChatGPT accredited for sensitive government use",
+        "GenAI.mil — DoD's enterprise AI platform, originally launched with Google Gemini",
+        "Impact Level 5 — security accreditation for handling sensitive but unclassified military data",
+        "Grok for Government — xAI's Starshield product, part of the DoD's multi-model AI rollout"
+      ],
+      "whyItMatters": "The U.S. military's large-scale AI adoption signals a decisive shift from pilots to production at defense scale, setting precedents for AI security standards and model vendor selection that will shape government procurement globally.",
+      "tags": ["military-ai", "government", "chatgpt-mil", "dod", "grok", "enterprise-ai"],
+      "relatedIds": ["the-decoder-openai-cursor-spacex"],
+      "knowledgeChecks": [
+        {
+          "question": "What security accreditation level did ChatGPT Mil receive for use on GenAI.mil?",
+          "options": [
+            "Secret Compartmented Information (SCI)",
+            "Impact Level 5 (Controlled Unclassified Information)",
+            "Impact Level 2 (public-facing data only)",
+            "Top Secret / SCI clearance"
+          ],
+          "correctIndex": 1,
+          "explanation": "ChatGPT Mil received Impact Level 5 accreditation, which permits use with sensitive but unclassified material while keeping the system isolated from commercial versions."
+        },
+        {
+          "question": "Which AI provider was notably absent from the DoD's GenAI.mil rollout?",
+          "options": [
+            "OpenAI",
+            "xAI (Grok)",
+            "Anthropic (Claude)",
+            "Google (Gemini)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's Claude was absent from the GenAI.mil launch, reportedly due to political considerations under the Trump administration, even though Anthropic has strong enterprise security credentials."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-air-50m-agent-security",
+      "type": "article",
+      "title": "AIR Raises $50M to Build a Security Firewall for AI Agent Supply Chains",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "verified": true,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "AI security startup AIR emerged from stealth with $50M across two seed rounds to help enterprises discover, monitor, and vet the software supply chain for AI agents — including MCP servers, skills, plugins, and add-ons. The company's research found over 17,800 public AI add-ons linked to untrusted external sources, representing roughly 6.7 million installations at risk. AIR's platform can block agents from interacting with unvetted software or external sources.",
+      "keyConcepts": [
+        "AI agent supply chain — the growing ecosystem of skills, plugins, MCP servers, and add-ons that extend agent capabilities",
+        "Supply chain vetting — continuous security scanning of third-party components that agents use",
+        "Agentic software risk — vulnerabilities introduced when AI agents autonomously invoke external tools or APIs",
+        "MCP (Model Context Protocol) — the emerging standard for connecting AI agents to tools and data sources"
+      ],
+      "whyItMatters": "As companies grant AI agents access to internal systems, the attack surface expands dramatically through third-party add-ons. AIR's funding reflects a market realizing that agentic AI needs the same supply-chain security discipline as traditional software dependencies.",
+      "tags": ["ai-security", "agents", "supply-chain", "mcp", "startup-funding", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What primary risk does AIR's platform address in enterprise AI deployments?",
+          "options": [
+            "Hallucinations in AI model outputs",
+            "Untrusted third-party skills and add-ons used by AI agents",
+            "Token cost overruns in production LLM calls",
+            "Data center energy consumption from AI training"
+          ],
+          "correctIndex": 1,
+          "explanation": "AIR focuses on vetting the supply chain of third-party components (skills, plugins, MCP servers) that AI agents invoke, blocking agents from interacting with untrusted external sources."
+        },
+        {
+          "question": "How many public AI add-ons did AIR's research find linked to untrusted external sources?",
+          "options": [
+            "Approximately 500",
+            "Over 5,000",
+            "Over 17,800",
+            "Approximately 100,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "AIR's research discovered over 17,800 public AI add-ons linked to untrusted external sources, collectively accounting for roughly 6.7 million installations."
+        }
+      ]
+    },
+    {
+      "id": "techcrunch-google-pics-canva",
+      "type": "article",
+      "title": "Google Launches Pics, an AI-First Design Tool to Rival Canva and Adobe Express",
+      "sourceUrl": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "verified": true,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-industry"],
+      "summary": "Google launched Pics, a generative AI design tool that lets users create posters, flyers, presentations, and social media graphics through natural language prompts rather than drag-and-drop editing. Powered by Gemini and Google's Nano Banana image-generation model, Pics is being integrated into Google Workspace and is accessible via pics.new. Unlike Canva, which starts from templates, Pics generates first-draft layouts from a prompt and provides precision editing tools for refinement.",
+      "keyConcepts": [
+        "Prompt-first design — generating complete layouts from a text description rather than selecting templates",
+        "Nano Banana — Google's image-generation model powering Pics' visual output",
+        "Workspace integration — embedding AI design directly into Google Docs, Slides, and the broader productivity suite",
+        "Generative UI — using foundation models to produce professional-quality visual outputs end-to-end"
+      ],
+      "whyItMatters": "Google Pics represents a broader industry shift from template-based design tools to AI-native creation workflows, compressing the skill gap between trained designers and general users while intensifying competition in the $20B+ creative software market.",
+      "tags": ["google", "generative-ai", "design-tools", "workspace", "canva-competitor", "image-generation"],
+      "relatedIds": ["the-decoder-runway-solaris"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Google Pics different from traditional design tools like Canva?",
+          "options": [
+            "It offers more pre-made templates than any competitor",
+            "It starts from a natural language prompt and generates the layout with AI",
+            "It requires no internet connection and runs fully offline",
+            "It uses vector graphics instead of raster images"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike Canva which starts from templates, Google Pics begins from a text prompt — the AI generates the first-draft layout, and users refine with precision editing tools."
+        },
+        {
+          "question": "What is the name of Google's image-generation model powering Google Pics?",
+          "options": [
+            "ImageFX",
+            "Gemini Vision",
+            "Nano Banana",
+            "Veo 3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google Pics is powered by the Nano Banana image-generation model alongside Gemini for layout and content reasoning."
+        }
+      ]
+    },
+    {
+      "id": "the-decoder-runway-solaris",
+      "type": "article",
+      "title": "Runway's Solaris Generates Interactive UI Interfaces Frame by Frame Without Code",
+      "sourceUrl": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time/",
+      "verified": true,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-research"],
+      "summary": "Runway unveiled Solaris, its first Interface World Model — an AI system that generates interactive software interfaces frame by frame in real time as users click, drag, or speak commands, bypassing traditional HTML/CSS/JavaScript compilation entirely. Built on Runway's Gen-4.5 video model, Solaris targets 720p output with sub-500ms per-frame latency. In a 250-participant study, it was preferred over Claude Opus 5 on instruction-following (61%) and natural behavior (71%). The release is currently research-only with early-access sign-ups, and has no public API or pricing.",
+      "keyConcepts": [
+        "Interface World Model — a new model category that synthesizes application interfaces frame-by-frame, rather than compiling code",
+        "Generative UI — producing interactive visual interfaces through AI inference rather than traditional rendering pipelines",
+        "Frame-by-frame interaction — predicting how an interface changes after each user action without an underlying DOM",
+        "Gen-4.5 — Runway's video model family underpinning Solaris's spatial and temporal reasoning"
+      ],
+      "whyItMatters": "Solaris previews a future where software interfaces are generated on demand rather than pre-compiled, potentially democratizing app creation but also raising serious questions about accessibility, auditability, and security in sectors like finance and healthcare.",
+      "tags": ["runway", "generative-ui", "interface-models", "no-code", "ai-research", "world-models"],
+      "relatedIds": ["techcrunch-google-pics-canva"],
+      "knowledgeChecks": [
+        {
+          "question": "How does Runway's Solaris generate interactive software interfaces?",
+          "options": [
+            "By writing HTML, CSS, and JavaScript code that is then rendered in a browser",
+            "By synthesizing interface frames in real time based on video model inference",
+            "By retrieving pre-built UI templates and customizing them with AI",
+            "By executing Python scripts that render GUI components on a server"
+          ],
+          "correctIndex": 1,
+          "explanation": "Solaris uses Runway's Gen-4.5 video model to synthesize interface frames directly — no HTML, CSS, or JavaScript is produced. It predicts how each frame changes in response to user interactions."
+        },
+        {
+          "question": "What is a significant limitation of Solaris identified by multiple analyst outlets?",
+          "options": [
+            "It can only generate mobile interfaces, not desktop layouts",
+            "Generated interfaces have no underlying DOM, blocking accessibility APIs",
+            "It requires a GPU with more than 80GB VRAM to run locally",
+            "It only supports English-language prompts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Because Solaris generates rendered frames rather than code, the resulting interfaces have no underlying DOM or accessibility APIs, which structurally blocks deployments in regulated sectors like banking and healthcare."
+        }
+      ]
+    },
+    {
+      "id": "the-decoder-openai-cursor-spacex",
+      "type": "article",
+      "title": "OpenAI Cuts Off Cursor's Model Access Following SpaceX's $60B Acquisition",
+      "sourceUrl": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
+      "verified": true,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI announced it will terminate Cursor's access to its models on November 12, 2026, following SpaceX's $60 billion acquisition of the AI coding assistant. OpenAI cited Elon Musk's companies' history of violating contracts and terms of service — including confirmed instances of xAI using OpenAI outputs to train its own models via distillation. Anthropic announced it will continue and expand Claude's presence in Cursor, with Tom Brown saying the company is \"excited for what comes next with them at SpaceX.\"",
+      "keyConcepts": [
+        "Model distillation — training a smaller model using outputs from a larger one, which OpenAI's terms prohibit with its models",
+        "Cursor — an AI-native code editor that integrates multiple frontier models (Claude, GPT, Gemini) for coding assistance",
+        "SpaceX acquisition — SpaceX completed its $60B takeover of Cursor on August 14, 2026",
+        "API key fallback — developers can still use OpenAI models in Cursor by supplying their own API key via Azure or Bedrock gateways"
+      ],
+      "whyItMatters": "The Cursor cutoff illustrates how AI model vendor relationships can become leverage in broader business disputes, and signals that Anthropic is positioning Claude as the default model for developer tooling — especially in tools where OpenAI has now created a void.",
+      "tags": ["openai", "cursor", "spacex", "anthropic", "developer-tools", "ai-industry"],
+      "relatedIds": ["techcrunch-air-50m-agent-security"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did OpenAI decide to cut off Cursor's access to its models?",
+          "options": [
+            "Cursor's user base was too small to justify continued support",
+            "SpaceX's acquisition raised concerns about contract violations based on Musk's track record",
+            "Cursor switched to using open-source models exclusively",
+            "OpenAI is shutting down its API business to focus on consumer products"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI cited prior contract and terms-of-service violations by Elon Musk's companies — including xAI using OpenAI outputs for model distillation — as the reason it cannot trust SpaceX-owned Cursor to comply with its usage policies."
+        },
+        {
+          "question": "Which company announced it would increase support for Cursor after OpenAI's cutoff announcement?",
+          "options": [
+            "Google (Gemini)",
+            "Meta (Llama)",
+            "Anthropic (Claude)",
+            "Microsoft (Azure OpenAI)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic co-founder Tom Brown announced that Anthropic will 'continue to increase compute to support Claude models in Cursor,' positioning Claude as the primary frontier model for the Cursor coding assistant going forward."
+        }
+      ]
+    }
+  ]
+}
