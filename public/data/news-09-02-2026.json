@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:00:00.000Z",
+  "generatedAt": "2026-09-02T16:00:00.000Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-08-31",
   "coverageEnd": "2026-09-01",
@@ -64,7 +64,7 @@
       ],
       "whyItMatters": "As companies grant AI agents access to internal systems, the attack surface expands dramatically through third-party add-ons. AIR's funding reflects a market realizing that agentic AI needs the same supply-chain security discipline as traditional software dependencies.",
       "tags": ["ai-security", "agents", "supply-chain", "mcp", "startup-funding", "enterprise-ai"],
-      "relatedIds": [],
+      "relatedIds": ["cnbc-openai-astra-critical"],
       "knowledgeChecks": [
         {
           "question": "What primary risk does AIR's platform address in enterprise AI deployments?",
@@ -193,7 +193,7 @@
       ],
       "whyItMatters": "The Cursor cutoff illustrates how AI model vendor relationships can become leverage in broader business disputes, and signals that Anthropic is positioning Claude as the default model for developer tooling — especially in tools where OpenAI has now created a void.",
       "tags": ["openai", "cursor", "spacex", "anthropic", "developer-tools", "ai-industry"],
-      "relatedIds": ["techcrunch-air-50m-agent-security"],
+      "relatedIds": ["techcrunch-air-50m-agent-security", "fortune-pentagon-chatgpt-mil-genaimil"],
       "knowledgeChecks": [
         {
           "question": "Why did OpenAI decide to cut off Cursor's access to its models?",
@@ -216,6 +216,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Anthropic co-founder Tom Brown announced that Anthropic will 'continue to increase compute to support Claude models in Cursor,' positioning Claude as the primary frontier model for the Cursor coding assistant going forward."
+        }
+      ]
+    },
+    {
+      "id": "techxplore-anthropic-lambda-35b",
+      "type": "article",
+      "title": "Anthropic Signs $35 Billion Cloud-Computing Deal with Nvidia-Backed Lambda",
+      "sourceUrl": "https://techxplore.com/news/2026-09-anthropic-35b-startup-nvidia.html",
+      "verified": true,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic signed a six-year, $35 billion cloud-computing agreement with Lambda, a Nvidia-backed infrastructure company, to secure AI compute capacity for its Claude model family. The deal centers on a 350-megawatt data center in Nueces County, Texas, where Lambda will install Nvidia GPUs at a Hut 8 facility leased by Nvidia. The Anthropic-Lambda deal follows Anthropic's separate $45 billion agreement to rent compute from Nscale's West Virginia campus, underscoring the company's aggressive infrastructure buildout ahead of its next generation of models.",
+      "keyConcepts": [
+        "Lambda — Nvidia-backed cloud provider specializing in GPU compute for AI workloads",
+        "Compute sovereignty — securing long-term access to dedicated AI infrastructure rather than relying on shared public cloud",
+        "Hut 8 — data center operator holding the underlying facility lease in Nueces County, Texas",
+        "Six-year cloud deal — a long-duration commitment locking in GPU capacity at current market rates"
+      ],
+      "whyItMatters": "Anthropic's back-to-back multi-billion-dollar compute deals signal that frontier AI labs are racing to lock in GPU capacity years in advance, treating compute access as a strategic moat in the same way chipmakers treat fab capacity.",
+      "tags": ["anthropic", "cloud-infrastructure", "nvidia", "compute", "lambda", "ai-funding"],
+      "relatedIds": ["the-decoder-openai-cursor-spacex"],
+      "knowledgeChecks": [
+        {
+          "question": "Where is the data center at the center of Anthropic's $35B Lambda deal located?",
+          "options": [
+            "Northern Virginia",
+            "Nueces County, Texas",
+            "Reno, Nevada",
+            "West Virginia"
+          ],
+          "correctIndex": 1,
+          "explanation": "The deal centers on a 350-megawatt facility in Nueces County, Texas, where Lambda will install Nvidia GPUs at a Hut 8 data center leased by Nvidia."
+        },
+        {
+          "question": "What does Anthropic's strategy of signing multiple long-term compute deals primarily reflect?",
+          "options": [
+            "A plan to build its own chip fabrication facility",
+            "A desire to reduce dependency on any single cloud provider",
+            "Racing to lock in dedicated GPU capacity as a strategic moat before prices rise",
+            "A requirement from its investors to diversify its vendor list"
+          ],
+          "correctIndex": 2,
+          "explanation": "By committing to $35B with Lambda after a $45B Nscale deal, Anthropic is treating compute access as a long-term strategic asset — locking in capacity at current rates rather than competing for spot GPU availability as model demands grow."
+        }
+      ]
+    },
+    {
+      "id": "euronews-eu-chatgpt-vlose",
+      "type": "article",
+      "title": "EU Designates ChatGPT a 'Very Large Online Search Engine' Under DSA, Triggering New Obligations",
+      "sourceUrl": "https://www.euronews.com/next/2026/08/31/eu-places-chatgpt-reddit-and-roblox-under-strictest-digital-safety-rules",
+      "verified": true,
+      "publishedAt": "2026-08-31",
+      "topics": ["ai-industry"],
+      "summary": "The European Commission classified ChatGPT as a 'Very Large Online Search Engine' (VLOSE) under the Digital Services Act (DSA) — the first AI chatbot to receive this designation — after ChatGPT reported approximately 159 million average monthly users in the EU, well above the 45-million threshold. The VLOSE label triggers enhanced DSA obligations around algorithmic transparency, misinformation risk assessments, and data access for researchers. OpenAI has four months to comply, with a January 2027 deadline and fines of up to 6% of global annual revenue for non-compliance.",
+      "keyConcepts": [
+        "VLOSE (Very Large Online Search Engine) — a DSA category applying to search services with 45M+ EU monthly users, triggering the strictest platform obligations",
+        "Digital Services Act (DSA) — the EU's framework governing how large online platforms moderate content and handle user data",
+        "Algorithmic transparency — VLOSE designation requires OpenAI to disclose how ChatGPT ranks and retrieves information",
+        "6% global revenue fine — the maximum DSA penalty for non-compliance with VLOSE obligations"
+      ],
+      "whyItMatters": "Regulators formally treating ChatGPT as a search engine sets a precedent for how AI assistants with web-retrieval capabilities are governed, opening the door to mandatory transparency requirements around AI-generated answers that could reshape how all major AI assistants present information to users.",
+      "tags": ["eu-regulation", "dsa", "chatgpt", "openai", "ai-policy", "search-engine"],
+      "relatedIds": ["fortune-pentagon-chatgpt-mil-genaimil"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did the EU classify ChatGPT as a 'Very Large Online Search Engine' under the DSA?",
+          "options": [
+            "ChatGPT replaced Google Search as the most-visited website in the EU",
+            "ChatGPT's web-search capability and 159 million EU monthly users crossed the VLOSE threshold",
+            "OpenAI voluntarily applied for the VLOSE designation to gain regulatory clarity",
+            "The EU required all AI assistants with over 10 million users to register as search engines"
+          ],
+          "correctIndex": 1,
+          "explanation": "The EU's VLOSE threshold is 45 million average monthly users. ChatGPT reported ~159 million EU monthly users, and its integrated web-search functionality is what makes it qualify as an 'online search engine' under DSA definitions."
+        },
+        {
+          "question": "What is the deadline for OpenAI to comply with the new DSA obligations after the VLOSE designation?",
+          "options": [
+            "Immediately upon designation",
+            "Six months — March 2027",
+            "Four months — January 2027",
+            "One year — August 2027"
+          ],
+          "correctIndex": 2,
+          "explanation": "The European Commission gave OpenAI four months to comply with enhanced VLOSE obligations, setting January 2027 as the deadline. Fines of up to 6% of global annual revenue apply for non-compliance."
+        }
+      ]
+    },
+    {
+      "id": "cnbc-openai-astra-critical",
+      "type": "article",
+      "title": "OpenAI Says Its Upcoming Astra Model Is the First to Hit Its 'Critical' Cybersecurity Threshold",
+      "sourceUrl": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+      "verified": true,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI disclosed that its forthcoming Astra model is the first to meet the 'Critical' cybersecurity capability threshold in its Preparedness Framework — meaning the model can autonomously find previously unknown security vulnerabilities and develop exploits across well-protected systems without per-step human guidance. After several weeks of testing, OpenAI delayed the release and is limiting access to Astra's advanced cybersecurity features. The model is still planned for release 'soon,' but with restricted access controls around its most capable cyber capabilities.",
+      "keyConcepts": [
+        "Preparedness Framework — OpenAI's internal safety classification system for assessing model risks across cyber, CBRN, and persuasion domains",
+        "Critical threshold — the highest risk tier in OpenAI's framework, triggering mandatory access restrictions and safety mitigations before release",
+        "Autonomous exploit development — Astra's ability to find novel vulnerabilities and craft working exploits without step-by-step human guidance",
+        "Responsible scaling — the practice of pausing or constraining model releases when internal evaluations reveal dangerous capability thresholds"
+      ],
+      "whyItMatters": "Astra crossing the 'Critical' cyber tier is the first real-world trigger of OpenAI's Preparedness Framework at its highest risk level, signaling that frontier AI has crossed a threshold where autonomous offensive cyber capability is no longer theoretical — and forcing the industry to decide how to govern access to models that can act as autonomous hackers.",
+      "tags": ["openai", "astra", "ai-safety", "cybersecurity", "preparedness-framework", "responsible-scaling"],
+      "relatedIds": ["techcrunch-air-50m-agent-security"],
+      "knowledgeChecks": [
+        {
+          "question": "What does it mean for a model to reach OpenAI's 'Critical' cybersecurity threshold?",
+          "options": [
+            "The model can write code that passes standard security audits",
+            "The model can autonomously find unknown vulnerabilities and develop exploits across well-protected systems",
+            "The model was found to have a backdoor that could be exploited by hackers",
+            "The model requires more compute than any existing data center can provide"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 'Critical' threshold means the model can autonomously identify previously unknown security vulnerabilities and develop working exploits on well-protected systems without requiring a human to guide each step — the highest risk category in OpenAI's Preparedness Framework."
+        },
+        {
+          "question": "How did OpenAI respond to Astra reaching the Critical cybersecurity threshold?",
+          "options": [
+            "It cancelled the Astra model entirely",
+            "It open-sourced Astra so the security community could audit it",
+            "It delayed the release and plans to restrict access to its most capable cyber features",
+            "It transferred Astra development to a government laboratory"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI paused development for several weeks to bolster safeguards, then announced Astra would still be released 'soon' but with limited access to its advanced cybersecurity capabilities to reduce misuse risk."
         }
       ]
     }
