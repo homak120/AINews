@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-09-03T03:09:43Z",
+  "weekOf": "2026-08-31",
+  "coverageStart": "2026-09-01",
+  "coverageEnd": "2026-09-02",
+  "items": [
+    {
+      "id": "article-gemini-38-flash-launch",
+      "type": "article",
+      "title": "Google Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber",
+      "sourceUrl": "https://www.androidheadlines.com/2026/09/google-debuts-gemini-3-8-flash-cyber-variants.html",
+      "verified": false,
+      "publishedAt": "2026-09-02",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind shipped Gemini 3.8 Flash on September 2, 2026, pricing it at $0.75 per million input tokens. The model is designed for long-horizon software engineering, autonomous agents, and multi-step enterprise reasoning. Google also released a Cyber variant (replacing 3.5) for trusted testers via the new Fairwind Program, aimed at autonomous vulnerability discovery.",
+      "keyConcepts": [
+        "Gemini 3.8 Flash: Google's most intelligent workhorse model, released roughly three weeks after 3.7 Flash",
+        "Flash Cyber variant: frontier-level performance in autonomous vulnerability discovery, limited to vetted testers",
+        "Pricing: $0.75/1M input tokens, $3.75/1M output tokens — continuing Google's aggressive Flash-tier cadence",
+        "Availability: Gemini API, Google AI Studio, Android Studio, and Gemini Enterprise"
+      ],
+      "whyItMatters": "Google is maintaining a roughly one-model-per-month release cadence for its Flash tier, keeping pricing pressure high on competitors while steadily improving agentic and coding capabilities. The Cyber variant signals that AI-powered offensive security tools are moving from research to controlled access programs.",
+      "tags": ["google", "gemini", "flash-model", "agentic-ai", "cybersecurity", "model-release"],
+      "relatedIds": ["article-openai-astra-critical-threshold"],
+      "knowledgeChecks": [
+        {
+          "question": "What pricing did Google set for Gemini 3.8 Flash at launch?",
+          "options": [
+            "$0.50 per million input tokens",
+            "$0.75 per million input tokens",
+            "$1.00 per million input tokens",
+            "$1.25 per million input tokens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google priced Gemini 3.8 Flash at $0.75 per million input tokens and $3.75 per million output tokens, maintaining aggressive pricing for its workhorse Flash tier."
+        },
+        {
+          "question": "What is the Gemini 3.8 Flash Cyber variant designed for?",
+          "options": [
+            "General consumer chatbot use",
+            "Multimodal image generation",
+            "Autonomous vulnerability discovery for vetted security researchers",
+            "Real-time translation at the network edge"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini 3.8 Flash Cyber targets 'frontier-level performance in autonomous vulnerability discovery' and is restricted to vetted defenders via the new Fairwind Program, replacing the earlier 3.5 Cyber variant."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-astra-critical-threshold",
+      "type": "article",
+      "title": "OpenAI's Astra Becomes First Model to Cross 'Critical' Cybersecurity Threshold",
+      "sourceUrl": "https://dataconomy.com/2026/09/02/astra-cybersecurity-threshold-release/",
+      "verified": false,
+      "publishedAt": "2026-09-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI announced that its upcoming Astra model has reached the 'Critical' cybersecurity risk level under its Preparedness Framework — the first time any OpenAI model has been classified this way. In benchmarking, Astra scored 100% on ExploitBench and autonomously found two previously unknown zero-day vulnerabilities during testing. Access to the model's full cyber capabilities will be restricted to vetted defenders and the US government.",
+      "keyConcepts": [
+        "Preparedness Framework Critical tier: requires a model to independently find and exploit zero-days across well-defended systems",
+        "ExploitBench: 100% score — AI-generated exploit chains for 20 high-severity mid-2026 vulnerabilities",
+        "Zero-days: Astra autonomously identified two previously unknown flaws mid-benchmark without being asked",
+        "Access controls: full cybersecurity capabilities limited to critical infrastructure defenders and Daybreak partners"
+      ],
+      "whyItMatters": "This is the first public confirmation that a frontier AI model has crossed what OpenAI considers a 'Critical' safety threshold, raising urgent questions about how dual-use AI tools are deployed and who controls access to them. The voluntary access controls OpenAI is applying set a precedent for how labs handle AI capabilities that can function as offensive cyberweapons.",
+      "tags": ["openai", "astra", "cybersecurity", "ai-safety", "preparedness-framework", "zero-day"],
+      "relatedIds": ["article-gemini-38-flash-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's 'Critical' cybersecurity tier under its Preparedness Framework indicate?",
+          "options": [
+            "The model can only be used for defensive security tasks",
+            "The model requires human approval for every output",
+            "The model can independently find and exploit zero-days across hardened systems",
+            "The model has passed basic penetration testing certification"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's 'Critical' designation applies when a model can autonomously find and exploit zero-day vulnerabilities across many well-defended systems, or carry out a complete cyberattack from only a high-level instruction."
+        },
+        {
+          "question": "What score did Astra achieve on ExploitBench?",
+          "options": [
+            "75%",
+            "88%",
+            "95%",
+            "100%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Astra scored 100% on ExploitBench, successfully developing exploits for all 20 high-severity vulnerabilities tested and additionally finding two zero-day flaws autonomously during the benchmark."
+        }
+      ]
+    },
+    {
+      "id": "article-huskeys-27m-series-a",
+      "type": "article",
+      "title": "Huskeys Raises $27M Series A to Secure Networks Against Agentic AI Traffic",
+      "sourceUrl": "https://thenextweb.com/news/huskeys-raises-27m-series-a-led-by-blackstone",
+      "verified": false,
+      "publishedAt": "2026-09-02",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Israeli cybersecurity startup Huskeys closed a $27M Series A led by Blackstone Innovations Investments, pushing its total funding to $35M at a valuation above $100M. The company builds a Network Edge Security Management (NESM) platform that adds an 'agentic AI layer' atop legacy firewalls to distinguish between legitimate AI agents and malicious traffic. Huskeys says it processes over a trillion web requests daily across its client base.",
+      "keyConcepts": [
+        "Network Edge Security Management (NESM): a new category for controlling AI-generated traffic at the network edge",
+        "Agentic AI layer: sits above existing firewalls, classifying AI-originated traffic as benign or malicious in real time",
+        "Investor lineup: Blackstone (lead), Skinos Ventures, Zscaler Ventures, and Okta Ventures",
+        "Scale: over one trillion web requests processed daily across clients"
+      ],
+      "whyItMatters": "As AI agents proliferate, enterprise networks face a new attack surface: traffic that looks legitimate but is AI-generated and potentially malicious. Huskeys' rapid rise to $100M+ valuation in under a year signals that investors see network-edge AI security as a critical gap — and a large commercial opportunity.",
+      "tags": ["ai-security", "funding", "agentic-ai", "network-security", "blackstone", "startup"],
+      "relatedIds": ["article-openai-astra-critical-threshold"],
+      "knowledgeChecks": [
+        {
+          "question": "What security category does Huskeys define for its product?",
+          "options": [
+            "Extended Detection and Response (XDR)",
+            "Network Edge Security Management (NESM)",
+            "Cloud Access Security Broker (CASB)",
+            "AI Security Operations (AISec)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Huskeys defines its product category as Network Edge Security Management (NESM), focused specifically on managing and classifying AI-agent traffic at the network edge — a category it claims to be pioneering."
+        },
+        {
+          "question": "How much did Huskeys raise in its Series A, and who led the round?",
+          "options": [
+            "$15M led by Sequoia",
+            "$27M led by Blackstone Innovations Investments",
+            "$50M led by Andreessen Horowitz",
+            "$27M led by Zscaler Ventures"
+          ],
+          "correctIndex": 1,
+          "explanation": "Huskeys raised $27M in its Series A, led by Blackstone Innovations Investments, with participation from Zscaler Ventures, Okta Ventures, and Skinos Ventures."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-ternus-ceo-ai-era",
+      "type": "article",
+      "title": "John Ternus Becomes Apple CEO as Company Faces AI Strategy Reckoning",
+      "sourceUrl": "https://qz.com/john-ternus-apple-ceo-ai-tim-cook-083126",
+      "verified": false,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "John Ternus officially became Apple's CEO on September 1, 2026, with Tim Cook moving to executive chairman. Ternus, who previously ran Apple's hardware division, inherits the challenge of competing in AI as the only major tech company without a frontier model of its own. Apple has partnered with Google to use Gemini to power Siri upgrades, and a foldable iPhone is expected at the company's September 9 event.",
+      "keyConcepts": [
+        "Leadership transition: John Ternus (hardware veteran) replaces Tim Cook as CEO; Cook becomes executive chairman",
+        "AI gap: Apple is the only large tech company without its own frontier AI model — partnering with Google Gemini instead",
+        "Siri upgrade: major Siri redesign powered by Google Gemini is part of Ternus's immediate product slate",
+        "September 9 event: expected to unveil Apple's first foldable iPhone alongside AI software updates"
+      ],
+      "whyItMatters": "Apple's lack of a proprietary frontier model is increasingly a competitive liability as rivals embed AI into every product layer. Ternus's hardware background and willingness to partner with Google rather than build internally suggests Apple may take a 'best-of-breed integrator' approach rather than competing directly with OpenAI and Google DeepMind — a strategic bet with significant long-term implications.",
+      "tags": ["apple", "leadership", "john-ternus", "ai-strategy", "siri", "frontier-model"],
+      "relatedIds": ["article-gemini-38-flash-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary AI challenge John Ternus inherits as Apple's new CEO?",
+          "options": [
+            "Reducing Apple's AI compute costs",
+            "Competing in AI without a proprietary frontier model",
+            "Launching Apple's own LLM to rival GPT-5",
+            "Integrating Anthropic Claude into all Apple devices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple is the only large technology company without a frontier AI model of its own, instead partnering with Google to use Gemini for its Siri upgrade. Ternus must decide whether to continue this integration strategy or invest in building Apple's own foundational AI."
+        },
+        {
+          "question": "Who did Apple partner with to power its major Siri upgrade under Ternus?",
+          "options": [
+            "OpenAI",
+            "Anthropic",
+            "Meta AI",
+            "Google Gemini"
+          ],
+          "correctIndex": 3,
+          "explanation": "Apple partnered with Google, using Gemini to power its significant Siri upgrade — notable given Apple's usual emphasis on on-device, privacy-preserving AI and its historical reluctance to depend on competitors."
+        }
+      ]
+    }
+  ]
+}
