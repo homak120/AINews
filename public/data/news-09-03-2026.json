@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T03:09:43Z",
+  "generatedAt": "2026-09-03T08:47:00Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-09-01",
-  "coverageEnd": "2026-09-02",
+  "coverageEnd": "2026-09-03",
   "items": [
     {
       "id": "article-gemini-38-flash-launch",
@@ -173,6 +173,135 @@
           ],
           "correctIndex": 3,
           "explanation": "Apple partnered with Google, using Gemini to power its significant Siri upgrade — notable given Apple's usual emphasis on on-device, privacy-preserving AI and its historical reluctance to depend on competitors."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fable-51-mythos-51",
+      "type": "article",
+      "title": "Anthropic Releases Claude Fable 5.1 and Mythos 5.1 With 75% Cache Cost Reduction",
+      "sourceUrl": "https://www.androidheadlines.com/2026/09/anthropic-upgrades-claude-fable-5-1-model.html",
+      "verified": false,
+      "publishedAt": "2026-09-01",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1 on September 1, 2026, offering the same base pricing as Fable 5 but cutting cache-read token costs by 75% — from $1 to $0.25 per million tokens. Fable 5.1 delivers better performance on coding and knowledge-work benchmarks at lower compute effort, while Mythos 5.1 is restricted to US companies in Anthropic's trusted access programs with access to advanced cybersecurity and biological research capabilities. In testing with Millennium, Fable 5.1 identified the root cause of a rare internal system crash that had eluded human engineers for years.",
+      "keyConcepts": [
+        "Cache-read cost cut: 75% reduction (from $1 to $0.25 per million tokens), making persistent agentic workloads significantly cheaper",
+        "Fable 5.1 vs Fable 5: better performance at low/medium effort settings; same or better at high effort — overall 25–45% cheaper for typical workloads",
+        "Mythos 5.1: Fable 5.1 capability set plus access to elevated-risk features; restricted to vetted US organizations",
+        "Root-cause debugging: Fable 5.1 prioritizes systemic fixes over quick patches — demonstrated on a multi-year internal crash at Millennium"
+      ],
+      "whyItMatters": "The 75% cache-read price cut makes Claude significantly more attractive for long-running agents that make repeated calls with shared context, directly competing with Google Gemini and OpenAI's API on cost for agentic use cases. Mythos 5.1's restricted access tier parallels OpenAI's approach with Astra, reflecting a broader industry shift toward tiered access for AI capabilities deemed dual-use.",
+      "tags": ["anthropic", "claude", "fable-5-1", "mythos-5-1", "model-release", "pricing", "agentic-ai"],
+      "relatedIds": ["article-openai-astra-critical-threshold", "article-gemini-38-flash-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did Anthropic reduce cache-read token costs with Claude Fable 5.1?",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "90%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic cut cache-read token prices by 75%, from $1 to $0.25 per million tokens, making it much cheaper to run persistent agentic workloads that reuse the same context window across many calls."
+        },
+        {
+          "question": "What is the key difference between Claude Fable 5.1 and Claude Mythos 5.1?",
+          "options": [
+            "Mythos 5.1 is publicly available while Fable 5.1 is restricted",
+            "Fable 5.1 is optimized for image generation; Mythos 5.1 for text",
+            "Mythos 5.1 includes elevated-risk capabilities and is restricted to vetted US organizations",
+            "They are the same model with different pricing tiers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fable 5.1 and Mythos 5.1 share the same underlying capability level, but Mythos 5.1 unlocks access to elevated-risk features (such as advanced cybersecurity and biological research) and is limited to US companies and individuals in Anthropic's trusted access programs."
+        }
+      ]
+    },
+    {
+      "id": "article-doj-openai-fair-use-nyt",
+      "type": "article",
+      "title": "US Justice Department Backs OpenAI, Calls AI Training on Copyrighted Text Fair Use",
+      "sourceUrl": "https://ipwatchdog.com/2026/09/03/doj-sides-with-openai-warns-obstacles-to-ai-development-threaten-national-security/",
+      "verified": false,
+      "publishedAt": "2026-09-03",
+      "topics": ["ai-industry"],
+      "summary": "The US Department of Justice filed a Statement of Interest on September 3, 2026 in the ongoing New York Times v. OpenAI copyright lawsuit, arguing that training large language models on copyrighted text qualifies as fair use. The DOJ further warned that legal obstacles to AI development threaten national security, framing AI capability as critical infrastructure. The New York Times criticized the government's intervention as prioritizing corporate interests over creators.",
+      "keyConcepts": [
+        "Statement of Interest: a formal legal filing by the government backing OpenAI and Microsoft's fair use defense in the NYT lawsuit",
+        "Fair use argument: the DOJ contends that training ML models on copyrighted works is transformative and does not substitute for the original works",
+        "National security framing: the DOJ argued that hobbling AI development could disadvantage the US relative to adversaries",
+        "NYT response: the newspaper rejected the filing as protecting AI companies at the expense of original content creators"
+      ],
+      "whyItMatters": "A DOJ filing framing AI training as a national-security matter raises the stakes of the copyright debate far beyond a single lawsuit — it signals that the US government is prepared to defend broad AI training rights, potentially chilling future copyright claims against frontier AI labs. The outcome could shape how every AI company in the US builds and trains its models.",
+      "tags": ["openai", "copyright", "fair-use", "doj", "policy", "new-york-times", "ai-regulation"],
+      "relatedIds": ["article-openai-astra-critical-threshold"],
+      "knowledgeChecks": [
+        {
+          "question": "What legal argument did the US DOJ make in its September 2026 AI-copyright filing?",
+          "options": [
+            "AI companies must pay licensing fees for all training data",
+            "Training LLMs on copyrighted text qualifies as fair use",
+            "Copyrighted text should be excluded from all AI training sets",
+            "AI-generated content receives the same copyright protections as human works"
+          ],
+          "correctIndex": 1,
+          "explanation": "The DOJ argued in its Statement of Interest that training large language models on copyrighted text is transformative and qualifies as fair use — siding with OpenAI and Microsoft against the New York Times."
+        },
+        {
+          "question": "How did the DOJ frame AI development in its legal filing?",
+          "options": [
+            "As a purely commercial matter between private parties",
+            "As a potential public health risk requiring oversight",
+            "As critical to national security, where obstacles could disadvantage the US",
+            "As an issue requiring a new federal regulatory framework"
+          ],
+          "correctIndex": 2,
+          "explanation": "The DOJ framed US AI development as a national security imperative, warning that legal obstacles to training AI models could disadvantage the United States relative to global adversaries — a significant escalation of the copyright debate."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-hatch-agent-perf-reviews",
+      "type": "article",
+      "title": "Meta Drops AI Usage from Performance Reviews, Deploys Hatch Agent to All Staff",
+      "sourceUrl": "https://www.progressiverobot.com/2026/09/03/meta-tokenmaxxing-ai-agent-employees/",
+      "verified": false,
+      "publishedAt": "2026-09-03",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Meta confirmed it will no longer evaluate employees on how much AI they consume — ending roughly ten months of 'tokenmaxxing' metrics in performance reviews — after employees challenged the practice. Simultaneously, Meta is deploying Hatch, its new autonomous AI agent, across the entire company. Hatch can browse the web, drive applications, and complete multi-step tasks without supervision, making it the successor to basic chatbot use in Meta's internal AI stack.",
+      "keyConcepts": [
+        "Tokenmaxxing: Meta's now-abandoned practice of grading employees on AI token consumption and 'AI-driven impact' metrics",
+        "Employee pushback: workers contested the AI-usage KPIs in court, forcing Meta to drop the dashboard-based evaluation",
+        "Hatch agent: an autonomous AI agent that completes multi-step tasks across external services (DoorDash, Etsy, Outlook) without user supervision",
+        "Dual signal: dropping token metrics while pushing a heavier-weight agent signals a shift from AI adoption measurement to AI workflow integration"
+      ],
+      "whyItMatters": "Meta's reversal on AI performance metrics is the most visible example yet of a major tech company failing to sustain 'AI adoption as a KPI' — a reminder that mandated adoption doesn't produce genuine productivity gains. The Hatch deployment shows Meta's preferred alternative: embedding AI agents so deeply into workflows that usage becomes an invisible constant rather than a measured metric.",
+      "tags": ["meta", "ai-agents", "hatch", "workplace-ai", "performance-reviews", "ai-adoption", "enterprise-ai"],
+      "relatedIds": ["article-apple-ternus-ceo-ai-era"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Meta stop grading employees on AI token consumption?",
+          "options": [
+            "The metrics showed employees were already fully adopting AI",
+            "Employees challenged the practice and Meta dropped the AI-usage KPIs",
+            "Meta shifted to measuring quality of AI outputs instead of quantity",
+            "Regulators required Meta to eliminate AI tracking of employees"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta ended its AI adoption dashboard after employees challenged the tokenmaxxing performance metrics in court. The company confirmed it 'will not use AI adoption dashboards or token counts to evaluate impact' going forward."
+        },
+        {
+          "question": "What is Meta's Hatch agent designed to do?",
+          "options": [
+            "Generate marketing content for Meta's advertising business",
+            "Answer employee HR questions and submit time-off requests",
+            "Browse the web, drive applications, and complete multi-step tasks autonomously",
+            "Moderate content on Facebook and Instagram"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hatch is Meta's autonomous AI agent capable of browsing the web, driving third-party applications (such as DoorDash and Outlook), and completing multi-step tasks without continuous user supervision — positioning it as an agentic successor to Meta's internal chatbot use."
         }
       ]
     }
