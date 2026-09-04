@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:00:00.000Z",
+  "generatedAt": "2026-09-04T12:00:00.000Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-09-03",
   "coverageEnd": "2026-09-03",
@@ -152,6 +152,139 @@
           ],
           "correctIndex": 1,
           "explanation": "Real-world practitioners found that low and medium effort settings handled most coding and reasoning tasks effectively, suggesting that max effort is not always needed and may even be counterproductive for straightforward tasks."
+        }
+      ]
+    },
+    {
+      "id": "youtube-xdXLzFzxA9Q",
+      "type": "video",
+      "title": "GPT-6 Astra Full Breakdown: Early Access Testing and Real-World Impressions",
+      "youtubeId": "xdXLzFzxA9Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=xdXLzFzxA9Q",
+      "verified": false,
+      "publishedAt": "2026-09-03",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Matthew Berman, who had early access to GPT-6 Astra, tests the model across games, code, writing, browser control, and presentations. Berman calls it 'the best model I've ever used,' highlighting that Astra is another level above GPT-5.6 Sol at browser control and computer use tasks—and significantly faster. The video covers what the model can and cannot do in hands-on practice, distinct from OpenAI's own benchmark claims.",
+      "keyConcepts": [
+        "GPT-6 Astra computer use",
+        "browser control benchmarking",
+        "real-world AI evaluation",
+        "early access model testing",
+        "AI task delegation"
+      ],
+      "whyItMatters": "Independent early-access testing from practitioners provides ground-truth signal on Astra's real capabilities versus official benchmarks—especially valuable given the stakes of the model being called AGI-level by OpenAI.",
+      "tags": ["openai", "gpt-6", "astra", "matthew-berman", "computer-use", "ai-demo"],
+      "relatedIds": ["techcrunch-openai-astra-launch-sep3", "axios-openai-astra-agi-sep3"],
+      "knowledgeChecks": [
+        {
+          "question": "According to Matthew Berman's early access testing, where did GPT-6 Astra most clearly outperform prior models?",
+          "options": [
+            "Creative writing and poetry",
+            "Mathematical theorem proving",
+            "Browser control and computer use tasks",
+            "Audio transcription accuracy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Berman found Astra to be 'another level' above GPT-5.6 Sol specifically at browser control and computer use tasks, and noted it was significantly faster, making it the clearest area of demonstrated improvement."
+        },
+        {
+          "question": "What is the value of independent practitioner testing for models like GPT-6 Astra?",
+          "options": [
+            "It replaces the need for safety evaluations",
+            "It provides ground-truth signal on real-world performance distinct from official benchmarks",
+            "It confirms that official benchmarks are always accurate",
+            "It is less reliable than academic benchmarks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Independent testing by practitioners like Berman provides real-world evidence of model capabilities that may differ from curated benchmark results, helping developers make informed decisions about adoption."
+        }
+      ]
+    },
+    {
+      "id": "hpcwire-k2-horizon-ifm-sep3",
+      "type": "article",
+      "title": "Institute of Foundation Models Launches K2 Horizon: Six Fully Open-Source AI Models from 0.9B to 375B Parameters",
+      "sourceUrl": "https://www.hpcwire.com/aiwire/2026/09/03/institute-of-foundation-models-releases-fully-open-k2-horizon-models-with-weights-code-and-training-data/",
+      "verified": false,
+      "publishedAt": "2026-09-03",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "The Institute of Foundation Models (IFM) released K2 Horizon on September 3, the largest fully open-source AI model launch in history—six foundation models ranging from 0.9B to 375B parameters, all under Apache 2.0 with complete weights, training code, data, checkpoints, and logs. Key innovations include a diffusion distillation technique that speeds inference 3x without quality loss, and a mixture of value attention architecture that improves reasoning. The smallest 0.9B model targets watches and glasses; the largest 375B-A23B targets demanding enterprise deployments.",
+      "keyConcepts": [
+        "K2 Horizon model fleet",
+        "fully open-source AI (Apache 2.0)",
+        "diffusion distillation",
+        "mixture of value attention",
+        "on-device AI deployment"
+      ],
+      "whyItMatters": "K2 Horizon sets a new standard for open-source AI by releasing not just weights but training data and full methodology—making it possible for researchers to truly reproduce, audit, and build upon frontier-class models across every deployment scale.",
+      "tags": ["open-source", "k2-horizon", "ifm", "foundation-models", "apache-2", "on-device-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes K2 Horizon's open-source release different from most model releases?",
+          "options": [
+            "It is available only on Hugging Face",
+            "It includes weights, training code, training data, checkpoints, and logs",
+            "It uses a proprietary license for commercial use",
+            "Only the smallest models are publicly available"
+          ],
+          "correctIndex": 1,
+          "explanation": "K2 Horizon is 'fully open'—it releases model weights, training code, training data, checkpoints, and logs under Apache 2.0, enabling true reproducibility rather than just inference access."
+        },
+        {
+          "question": "What is the purpose of K2 Horizon's diffusion distillation technique?",
+          "options": [
+            "To reduce model size by 50%",
+            "To generate blocks of tokens in parallel, speeding inference roughly 3x without quality loss",
+            "To add multimodal image understanding",
+            "To align the model with human preferences"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diffusion distillation generates blocks of tokens in parallel rather than one at a time, which speeds model performance by roughly 3x without degrading response quality—a key efficiency innovation."
+        }
+      ]
+    },
+    {
+      "id": "unite-ai-gpt6-astra-critical-cyber-sep3",
+      "type": "article",
+      "title": "GPT-6 Astra Is First AI Model Rated Critical for Cybersecurity Under OpenAI's Preparedness Framework",
+      "sourceUrl": "https://www.unite.ai/openai-releases-gpt-6-astra-its-first-model-rated-critical-for-cyber/",
+      "verified": false,
+      "publishedAt": "2026-09-03",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "GPT-6 Astra is the first AI model designated as reaching OpenAI's 'Critical' cybersecurity threshold under its Preparedness Framework, meaning it can autonomously find and exploit unknown vulnerabilities across well-protected systems without step-by-step human guidance. During internal evaluation on 20 high-severity V8 vulnerabilities, Astra achieved higher code-execution rates than prior models and discovered two previously unknown zero-day vulnerabilities. OpenAI's restricted rollout—starting with its Daybreak cybersecurity program—reflects the unprecedented safety considerations surrounding the release.",
+      "keyConcepts": [
+        "Preparedness Framework critical threshold",
+        "autonomous vulnerability discovery",
+        "zero-day exploitation",
+        "AI safety gating",
+        "Daybreak cybersecurity program"
+      ],
+      "whyItMatters": "For the first time, an AI model has been formally designated as capable of autonomous offensive cybersecurity operations—forcing a new category of risk management that will reshape how AI is deployed in security-sensitive environments and what responsible release looks like.",
+      "tags": ["openai", "gpt-6", "astra", "cybersecurity", "ai-safety", "preparedness-framework", "zero-day"],
+      "relatedIds": ["axios-openai-astra-agi-sep3", "techcrunch-openai-astra-launch-sep3"],
+      "knowledgeChecks": [
+        {
+          "question": "What did GPT-6 Astra discover during OpenAI's internal cybersecurity evaluation?",
+          "options": [
+            "Weaknesses in OpenAI's own training pipeline",
+            "Two previously unknown zero-day vulnerabilities",
+            "That it was unable to exploit any real-world systems",
+            "Flaws in the ARC-AGI-3 benchmark design"
+          ],
+          "correctIndex": 1,
+          "explanation": "During evaluation on 20 high-severity V8 vulnerabilities, Astra discovered two previously unknown zero-day vulnerabilities—demonstrating genuine offensive security capability beyond simply exploiting known flaws."
+        },
+        {
+          "question": "Which group received access to GPT-6 Astra first due to the model's critical cybersecurity rating?",
+          "options": [
+            "All ChatGPT Plus subscribers simultaneously",
+            "Academic researchers at partner universities",
+            "Organizations in OpenAI's Daybreak cybersecurity program",
+            "Government agencies via a classified release"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's staged rollout started with a limited group of companies participating in its Daybreak cybersecurity program—trusted organizations equipped to handle advanced offensive AI capabilities responsibly."
         }
       ]
     }
