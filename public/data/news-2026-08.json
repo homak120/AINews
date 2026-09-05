@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T03:14:47.085Z",
+  "generatedAt": "2026-09-05T03:13:21.212Z",
   "weekOf": "2026-07-31",
   "coverageStart": "2026-07-31",
-  "coverageEnd": "2026-08-03",
+  "coverageEnd": "2026-08-05",
   "items": [
     {
       "id": "techcrunch-openai-agents-ran-amok-wider-probe",
@@ -1388,6 +1388,379 @@
           ],
           "correctIndex": 3,
           "explanation": "The combination of MAI-Cyber-1-Flash and GPT-5.4 within Project Perception scored 96% on CyberGym, which measures how well AI systems find real vulnerabilities in large codebases. This represents a significant leap over previous automated security tools."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-tino-cuellar-cgao-aug2026",
+      "type": "article",
+      "title": "Anthropic Names First Chief Global Affairs Officer to Navigate AI Policy Tensions",
+      "sourceUrl": "https://www.cnbc.com/2026/08/04/anthropic-names-global-affairs-chief-as-trump-tensions-persist.html",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Anthropic appointed Mariano-Florentino (Tino) Cuéllar as its first Chief Global Affairs Officer on August 4, 2026. A former California Supreme Court justice and president of the Carnegie Endowment for International Peace, Cuéllar will lead policy and government relations as Anthropic faces export controls and tensions with the Trump administration. He will report to Anthropic President Daniela Amodei.",
+      "keyConcepts": [
+        "Chief Global Affairs Officer role",
+        "AI export control directives",
+        "Long-Term Benefit Trust governance",
+        "AI policy and diplomatic engagement"
+      ],
+      "whyItMatters": "As frontier AI companies face escalating government scrutiny and export controls, creating dedicated global affairs leadership signals that policy navigation is now a first-class business function — not an afterthought. Anthropic choosing a former supreme court justice reflects the high stakes of AI governance negotiations.",
+      "tags": [
+        "anthropic",
+        "ai-policy",
+        "government-relations",
+        "export-controls",
+        "leadership",
+        "trump-administration"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Tino Cuéllar's most recent role before joining Anthropic as Chief Global Affairs Officer?",
+          "options": [
+            "CEO of Google DeepMind",
+            "President of the Carnegie Endowment for International Peace",
+            "Chief Justice of the US Supreme Court",
+            "Chief Technology Officer at OpenAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cuéllar most recently served as President of the Carnegie Endowment for International Peace, a role he left in July 2026 before joining Anthropic. He is a former California Supreme Court justice — not the US Supreme Court."
+        },
+        {
+          "question": "Who does Anthropic's new Chief Global Affairs Officer report to?",
+          "options": [
+            "Dario Amodei (CEO)",
+            "The Board of Directors",
+            "Daniela Amodei (President)",
+            "OpenAI's executive team"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to Anthropic, Cuéllar reports to Daniela Amodei, Anthropic's President and co-founder. This places global affairs under the company president rather than the CEO."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-billion-users-gpt56-price-aug2026",
+      "type": "article",
+      "title": "OpenAI Surpasses 1 Billion Active Users as GPT-5.6 Prices Drop by Up to 80%",
+      "sourceUrl": "https://www.ghacks.net/2026/08/04/openai-reaches-one-billion-active-users-and-cuts-gpt-5-6-luna-and-terra-prices-by-up-to-80/",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "OpenAI announced it has surpassed 1 billion active users across ChatGPT and its AI interfaces, less than four years after launch. Simultaneously, the company slashed prices on GPT-5.6 Luna by 80% (now $0.20/$1.20 per million input/output tokens) and GPT-5.6 Terra by 20%, while introducing a faster Sol processing mode at 2.5× speed for twice the price.",
+      "keyConcepts": [
+        "1 billion active users milestone",
+        "GPT-5.6 Luna pricing reduction (80%)",
+        "GPT-5.6 Terra pricing reduction (20%)",
+        "Sol Fast mode performance tier"
+      ],
+      "whyItMatters": "Reaching 1 billion users in under four years confirms AI has crossed from novelty to core utility for a significant fraction of the global population. Simultaneous steep price cuts intensify competitive pressure on rivals and dramatically lower the cost barrier for developers building AI-powered products.",
+      "tags": [
+        "openai",
+        "gpt-5-6",
+        "pricing",
+        "ai-adoption",
+        "chatgpt",
+        "billion-users"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did OpenAI reduce the price of GPT-5.6 Luna?",
+          "options": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI cut GPT-5.6 Luna's price by 80%, dropping it from $1/$6 to $0.20/$1.20 per million input/output tokens. GPT-5.6 Terra received a smaller 20% reduction."
+        },
+        {
+          "question": "How long did it take OpenAI to reach 1 billion active users after launching ChatGPT?",
+          "options": [
+            "Less than one year",
+            "About two years",
+            "Less than four years",
+            "About five years"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI reached 1 billion active users in less than four years since the November 2022 launch of ChatGPT. The company had hit 900 million weekly active users in late February 2026 before crossing the billion threshold."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-orchard-agent-framework-aug2026",
+      "type": "article",
+      "title": "Microsoft Research Open-Sources Orchard: A Scalable Framework for Training AI Agents",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
+      "summary": "Microsoft Research released Orchard, an open-source framework that separates AI agent training from task execution so developers can train agents in realistic environments without building custom sandbox infrastructure. It ships with domain-specific training recipes for software engineering (Orchard-SWE) and personal assistant tasks (Orchard-Claw), with Orchard-Claw achieving 59.6% pass@3 on Claw-Eval benchmarks using only 0.2K synthetic tasks.",
+      "keyConcepts": [
+        "Separation of agent training and execution",
+        "Orchard-SWE for coding agents",
+        "Orchard-Claw for personal assistant agents",
+        "Reusable environment service (Orchard Env)"
+      ],
+      "whyItMatters": "Training effective AI agents has required expensive, bespoke infrastructure — Orchard standardizes this into reusable open-source components. Democratizing agent training infrastructure could significantly accelerate research velocity and allow smaller teams to build competitive specialized agents without large infrastructure budgets.",
+      "tags": [
+        "microsoft-research",
+        "agentic-ai",
+        "open-source",
+        "agent-training",
+        "orchard",
+        "ai-engineering"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core design principle of Microsoft's Orchard framework?",
+          "options": [
+            "Running all agents on edge devices without cloud access",
+            "Using neural networks as agent memory stores",
+            "Separating agent training from task execution",
+            "Distributing agent workloads across specialized hardware clusters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Orchard's key innovation is separating agent training from execution, meaning developers can train agents using Orchard Env without needing to build their own sandbox infrastructure, data pipelines, or evaluation systems."
+        },
+        {
+          "question": "What task domains do Orchard's specialized training recipes cover?",
+          "options": [
+            "Image recognition and video generation",
+            "Translation and document summarization only",
+            "Software engineering, browser automation, and personal assistant tasks",
+            "Financial forecasting and medical diagnosis"
+          ],
+          "correctIndex": 2,
+          "explanation": "Orchard ships with training recipes for three domains: software engineering (Orchard-SWE), browser automation, and personal assistant tasks (Orchard-Claw). This covers the most common real-world agentic use cases."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-grok-voice-think-fast-2-aug2026",
+      "type": "article",
+      "title": "xAI Deploys Grok Voice Think Fast 2.0 as Default Speech-to-Speech Model",
+      "sourceUrl": "https://x.ai/news/grok-voice-think-fast-2",
+      "verified": false,
+      "publishedAt": "2026-08-05",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "xAI's Grok Voice Think Fast 2.0 became the default model for all grok-voice-latest API calls on August 5, 2026. The model achieves 82.9% on Artificial Analysis' speech-to-speech benchmark (up from 75.7% for v1.0) and reduces time to first audio from 1.25 to 0.70 seconds. A key architectural innovation allows the model to reason in parallel with speech output, maintaining low latency while handling complex queries. Pricing remains $0.08 per audio minute.",
+      "keyConcepts": [
+        "Speech-to-speech AI architecture",
+        "Parallel reasoning during speech generation",
+        "grok-voice-latest API routing",
+        "Real-world voice performance under noise"
+      ],
+      "whyItMatters": "Voice AI quality is a critical frontier for natural human-computer interaction. Grok Voice Think Fast 2.0's parallel reasoning architecture — reasoning while speaking rather than sequentially — represents a meaningful step toward voice interfaces capable of handling complex queries without sacrificing conversational fluency.",
+      "tags": [
+        "xai",
+        "grok",
+        "voice-ai",
+        "speech-to-speech",
+        "api",
+        "real-time-ai"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What benchmark score did Grok Voice Think Fast 2.0 achieve on Artificial Analysis' speech-to-speech benchmark?",
+          "options": [
+            "68.5%",
+            "75.7%",
+            "79.2%",
+            "82.9%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Grok Voice Think Fast 2.0 scored 82.9% on Artificial Analysis' benchmark, up from 75.7% for version 1.0 — a significant jump that also came with faster time-to-first-audio (1.25s → 0.70s)."
+        },
+        {
+          "question": "What is the key architectural difference in Grok Voice Think Fast 2.0 compared to earlier voice models?",
+          "options": [
+            "It uses a separate transcription model for each language",
+            "It processes audio exclusively in offline mode",
+            "It reasons in parallel with speech output rather than sequentially",
+            "It requires specialized GPU hardware to function"
+          ],
+          "correctIndex": 2,
+          "explanation": "Think Fast 2.0 reasons in parallel with speech generation — the model handles complex reasoning and produces audio simultaneously rather than completing reasoning before speaking. This preserves low latency while enabling smarter responses."
+        }
+      ]
+    },
+    {
+      "id": "youtube-wAxACbpulQE",
+      "type": "video",
+      "title": "The Entire AI Industry Just Turned Against Anthropic",
+      "youtubeId": "wAxACbpulQE",
+      "sourceUrl": "https://www.youtube.com/watch?v=wAxACbpulQE",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "TheAIGRID examines the mounting industry backlash against Anthropic, covering how competitive tensions and policy positions have alienated major partners. Key friction points include the release of Claude Design, which put Anthropic in direct competition with Figma — one of its own partners — and Anthropic's outspoken opposition to open-weight AI models, a stance that has drawn criticism from Nvidia, Microsoft, Meta, Google, and dozens of other major tech companies.",
+      "keyConcepts": [
+        "Open-weight AI model debate",
+        "Anthropic vs. tech industry partner tensions",
+        "AI safety arguments against open-weight models",
+        "Competitive dynamics between AI safety and openness"
+      ],
+      "whyItMatters": "The fracture between Anthropic and much of the tech industry reveals a fundamental strategic divide: can an AI safety company maintain partner relationships while competing with those partners and lobbying against industry-favored open-weight models? How this tension resolves could shape the future of AI access and regulation.",
+      "tags": [
+        "anthropic",
+        "open-weight-ai",
+        "ai-safety",
+        "industry-tensions",
+        "open-source-ai",
+        "ai-policy"
+      ],
+      "relatedIds": [
+        "article-anthropic-tino-cuellar-cgao-aug2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Which company did Anthropic's Claude Design tool put it in direct competition with — one of its own partners?",
+          "options": [
+            "Salesforce",
+            "Figma",
+            "Adobe",
+            "Canva"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's release of Claude Design was seen as direct competition to Figma, a design tool company that is also an Anthropic partner. Figma's CEO stated that Anthropic had not been 'consistently candid in their communications.'"
+        },
+        {
+          "question": "What stance has Anthropic taken that drew criticism from Nvidia, Microsoft, Meta, and Google?",
+          "options": [
+            "Opposing the EU AI Act",
+            "Arguing against open-weight AI models",
+            "Blocking API access to non-US companies",
+            "Requiring government review before model releases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic has argued against open-weight AI models on safety grounds, while Nvidia, Microsoft, Meta, Google, IBM, Hugging Face, Mozilla, Palantir, and dozens of other companies have publicly backed open-weight models, creating a significant divide."
+        }
+      ]
+    },
+    {
+      "id": "article-anaconda-enkrypt-ai-security-aug2026",
+      "type": "article",
+      "title": "Anaconda Acquires Enkrypt AI After Finding 143,000 Vulnerabilities in MCP Servers",
+      "sourceUrl": "https://www.anaconda.com/blog/anaconda-acquires-enkrypt-ai",
+      "verified": false,
+      "publishedAt": "2026-08-04",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "Anaconda acquired AI security startup Enkrypt AI on August 4, 2026, integrating its pre-deployment red-teaming across 300+ attack categories and runtime guardrails into the Anaconda Platform. The acquisition followed Enkrypt's scan of 268,000 tools across 25,000 MCP servers, which uncovered 143,000 vulnerabilities affecting 73% of those servers. The deal also includes compliance automation for NIST AI Risk Management Framework and the EU AI Act. This followed Anaconda's July 2026 acquisition of Kilo Code.",
+      "keyConcepts": [
+        "MCP server security vulnerabilities at scale",
+        "Pre-deployment AI red-teaming",
+        "Runtime guardrails for AI agents",
+        "NIST and EU AI Act compliance automation"
+      ],
+      "whyItMatters": "With AI agents now routinely accessing enterprise systems through MCP servers, the attack surface has expanded dramatically. Enkrypt's finding that 73% of MCP servers carry vulnerabilities signals an urgent security gap — and Anaconda's acquisition moves agent security from a separate concern into the core development platform where teams already build and deploy models.",
+      "tags": [
+        "anaconda",
+        "enkrypt-ai",
+        "mcp-security",
+        "ai-agents",
+        "enterprise-security",
+        "ai-governance"
+      ],
+      "relatedIds": [
+        "article-microsoft-orchard-agent-framework-aug2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of MCP servers did Enkrypt AI find to contain vulnerabilities in their pre-acquisition scan?",
+          "options": [
+            "23%",
+            "48%",
+            "73%",
+            "91%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Enkrypt AI scanned more than 268,000 tools across 25,000 MCP servers and found 143,000 vulnerabilities, affecting 73% of those servers — a finding that helped motivate Anaconda's acquisition."
+        },
+        {
+          "question": "What does Enkrypt AI's pre-deployment red-teaming cover?",
+          "options": [
+            "10 basic prompt injection scenarios",
+            "50 standard adversarial attack patterns",
+            "Over 300 attack categories",
+            "Compliance with US government standards only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Enkrypt AI's platform performs pre-deployment red-teaming across more than 300 attack categories, along with runtime guardrails blocking jailbreaks and data leakage, and compliance automation for NIST and EU AI Act frameworks."
+        }
+      ]
+    },
+    {
+      "id": "article-rust-lang-llm-policy-aug2026",
+      "type": "article",
+      "title": "Rust Project Adopts LLM Policy That Bans AI-Generated PR Descriptions and Comments",
+      "sourceUrl": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
+      "verified": false,
+      "publishedAt": "2026-08-05",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Five teams in the Rust project adopted a formal LLM policy on August 5, 2026 governing how AI tools can be used when contributing to the rust-lang/rust monorepo. The policy distinguishes between LLMs that assist (allowed: analysis, review, refinement, suggestions) and LLMs that create (restricted: PR descriptions, issue bodies, code without prior reviewer arrangement). LLM-generated code is permitted only under strict conditions including pre-arrangement with a reviewer, non-critical scope, high quality, and thorough review. The policy does not represent an official project-wide stance on LLMs.",
+      "keyConcepts": [
+        "Assisted vs. AI-generated content distinction",
+        "Open source contribution quality and review bandwidth",
+        "LLM disclosure requirements for contributors",
+        "Experimental pathway for LLM-generated code changes"
+      ],
+      "whyItMatters": "As LLMs become embedded in developer workflows, major open source projects face a credibility challenge: 'polished technical products no longer indicate effort and understanding.' The Rust project's policy is an early and influential precedent for how high-stakes open source foundations handle AI-generated contributions — balancing productivity gains against review burden and code quality guarantees.",
+      "tags": [
+        "rust-lang",
+        "open-source",
+        "llm-policy",
+        "ai-generated-code",
+        "software-engineering",
+        "ai-governance"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does the Rust LLM policy explicitly ban when authored by an LLM from a personal user account?",
+          "options": [
+            "Using AI code completion tools like Copilot",
+            "AI-assisted code review and analysis",
+            "Issue bodies, PR descriptions, and comments originally created by an LLM",
+            "Running AI-generated tests in the CI pipeline"
+          ],
+          "correctIndex": 2,
+          "explanation": "The policy bans comments, issue bodies, and PR descriptions that are originally created by an LLM from a personal user account. It distinguishes between LLMs that 'assist' writing (allowed) versus LLMs that 'create' the content directly (restricted)."
+        },
+        {
+          "question": "Under the Rust LLM policy, what conditions must be met for LLM-generated code changes to be permitted?",
+          "options": [
+            "No conditions — LLM code is fully permitted if tests pass",
+            "The code must be marked with a special LLM commit flag",
+            "Pre-arranged with a reviewer, non-critical scope, high quality, well-tested, and thoroughly reviewed",
+            "Only permitted for documentation and README updates"
+          ],
+          "correctIndex": 2,
+          "explanation": "The policy creates a strict experimental pathway for LLM-generated code: it must be pre-arranged with a reviewer, cover non-critical functionality, be high-quality, well-tested, and receive thorough code review — far more stringent than standard human-authored contributions."
         }
       ]
     }
