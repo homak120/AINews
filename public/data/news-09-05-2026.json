@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T00:00:00.000Z",
+  "generatedAt": "2026-09-05T08:00:00.000Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-09-03",
-  "coverageEnd": "2026-09-04",
+  "coverageEnd": "2026-09-05",
   "items": [
     {
       "id": "youtube-xdXLzFzxA9Q",
@@ -279,6 +279,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Nvidia's investment is structured as progressive capital deployment—each gigawatt of Nvidia systems installed for OpenAI triggers a tranche of investment, aligning Nvidia's financial commitment with compute deployment milestones."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fermats-theorem",
+      "type": "article",
+      "title": "Claude Produces First Fully Machine-Checked Proof of Fermat's Last Theorem in Lean",
+      "sourceUrl": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "verified": false,
+      "publishedAt": "2026-09-05",
+      "topics": ["ai-research"],
+      "summary": "Anthropic announced that Claude worked largely autonomously over 11 days via the Prove2Me platform to produce the first end-to-end, computer-checked proof of Fermat's Last Theorem in the Lean 4 programming language. The run involved several dozen parallel agents generating 13 million lines of Lean code and 6 billion output tokens, proving 30,300 theorems in the process. Mathematicians had estimated that formalizing Wiles' 129-page 1995 proof would take human experts several years.",
+      "keyConcepts": [
+        "formal verification in Lean 4",
+        "multi-agent parallelism",
+        "mathematical theorem proving",
+        "Prove2Me agentic framework"
+      ],
+      "whyItMatters": "Completing a formal machine-checked proof of Fermat's Last Theorem—once considered decades away—demonstrates that frontier AI can compress expert mathematical work from years to days. This signals AI's growing utility as a force multiplier for pure mathematics and formal verification.",
+      "tags": ["anthropic", "claude", "formal-verification", "mathematics", "lean4", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How long did Claude take to produce the formal Lean 4 proof of Fermat's Last Theorem?",
+          "options": [
+            "3 hours",
+            "11 days",
+            "6 weeks",
+            "4 months"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude completed the proof in 11 days of wall-clock time using massive parallelism—dozens of agents running simultaneously—generating 13 million lines of Lean code and 6 billion output tokens."
+        },
+        {
+          "question": "What third-party tool was added to help Claude succeed after an initial attempt failed?",
+          "options": [
+            "LeanCopilot",
+            "AlphaProof",
+            "Prove2Me",
+            "MathLib"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude's first formalization attempt failed; Anthropic added Prove2Me, an open-source tool that optimizes AI agent decisions in long workflows, enabling the successful second run that completed the proof."
+        }
+      ]
+    },
+    {
+      "id": "article-nscale-preipo-raise",
+      "type": "article",
+      "title": "AI Compute Provider Nscale Seeks $3.5B in Pre-IPO Financing Backed by $45B Anthropic Deal",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "verified": false,
+      "publishedAt": "2026-09-04",
+      "topics": ["ai-industry"],
+      "summary": "British AI cloud firm Nscale is in talks to raise $3.5 billion in pre-IPO financing, comprising $1.5 billion in convertible notes and $2 billion from Nvidia, ahead of a potential IPO as early as late 2026. The raise is underpinned by Nscale's $45 billion compute deal with Anthropic signed August 26, which will power Anthropic's services from a West Virginia data center starting in late 2027. The company reported approximately $103 billion in contracted revenue backlog to potential investors.",
+      "keyConcepts": [
+        "AI cloud infrastructure funding",
+        "pre-IPO financing",
+        "compute contract economics",
+        "Nscale-Anthropic partnership"
+      ],
+      "whyItMatters": "Nscale's capital raise illustrates how large-scale compute contracts with frontier labs like Anthropic are becoming the anchor that unlocks billions in infrastructure financing, reshaping how AI cloud capacity gets built and who controls it.",
+      "tags": ["nscale", "anthropic", "ai-infrastructure", "compute", "investment", "ipo"],
+      "relatedIds": [
+        "article-openai-nvidia-partnership"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total value of Nscale's compute deal with Anthropic that anchors its pre-IPO raise?",
+          "options": [
+            "$3.5 billion",
+            "$10 billion",
+            "$35 billion",
+            "$45 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nscale signed a $45 billion compute deal with Anthropic on August 26, 2026, which provides the contracted revenue backlog that Nscale is using to attract pre-IPO investors and a potential Nvidia financing tranche."
+        },
+        {
+          "question": "How is Nscale's $3.5B pre-IPO financing structured?",
+          "options": [
+            "All equity from a single investor",
+            "$1.5B convertible notes plus $2B from Nvidia",
+            "$3.5B in venture debt from a bank syndicate",
+            "$2B equity and $1.5B government grant"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nscale is seeking $1.5 billion in convertible notes from a group of investors and an additional $2 billion in financing from Nvidia, totaling $3.5 billion in pre-IPO capital."
         }
       ]
     }
