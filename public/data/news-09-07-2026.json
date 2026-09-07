@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T06:00:00.000Z",
+  "generatedAt": "2026-09-07T14:00:00.000Z",
   "weekOf": "2026-09-07",
   "coverageStart": "2026-09-05",
-  "coverageEnd": "2026-09-06",
+  "coverageEnd": "2026-09-07",
   "items": [
     {
       "id": "article-openai-research-acceleration-2026-09-06",
@@ -87,6 +87,138 @@
           ],
           "correctIndex": 2,
           "explanation": "About 17,000 of the 18,000 edits came from Microsoft Azure addresses, reflecting the fact that OpenAI runs its research workloads on Azure (part of the Microsoft partnership). This infrastructure footprint is what let researchers attribute the activity to OpenAI systems."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-google-massachusetts-ai-safety-2026-09-07",
+      "type": "article",
+      "title": "OpenAI and Google Push Back on Massachusetts AI Safety Bill Backed by Anthropic",
+      "sourceUrl": "https://cryptobriefing.com/openai-google-oppose-massachusetts-ai-safety-rules-backed-by-anthropic/",
+      "verified": false,
+      "publishedAt": "2026-09-07",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "OpenAI and Google are opposing Massachusetts legislation that would impose the country's strictest AI safety requirements — requirements that Anthropic is actively championing. The Massachusetts Senate bill targets frontier developers with over $500M in AI revenue or $1B in R&D spending, requiring published safety frameworks and giving the state attorney general enforcement power. Anthropic is pushing for independent risk assessments every four to six months, a notably more demanding cadence than the annual third-party audits OpenAI and Google prefer.",
+      "keyConcepts": [
+        "AI safety regulation",
+        "state-level AI governance",
+        "frontier model oversight",
+        "independent risk audits"
+      ],
+      "whyItMatters": "The fight over Massachusetts' bill is a preview of the state-level AI regulation battles that will shape the legal environment for frontier AI companies. Anthropic breaking from its industry peers to support stricter rules is strategically notable — and signals that 'safety' can be both a genuine policy position and a competitive differentiator just as Anthropic's IPO approaches.",
+      "tags": ["ai-regulation", "massachusetts", "openai", "google", "anthropic", "ai-safety-policy"],
+      "relatedIds": ["article-anthropic-ipo-prospectus-2026-09-07"],
+      "knowledgeChecks": [
+        {
+          "question": "What revenue threshold does the Massachusetts AI safety bill use to determine which companies it covers?",
+          "options": [
+            "Over $100M in AI-derived revenue",
+            "Over $500M in AI-derived revenue or $1B in R&D spending",
+            "Over $1B in total company revenue",
+            "Any company deploying a foundation model to consumers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The bill specifically targets frontier developers generating more than $500M in AI-derived revenue or spending over $1B on R&D — a threshold that applies directly to OpenAI, Google, and Anthropic but spares smaller AI companies."
+        },
+        {
+          "question": "How often does Anthropic advocate for independent AI risk assessments under the Massachusetts proposal?",
+          "options": [
+            "Monthly",
+            "Every four to six months",
+            "Annually",
+            "Every two years"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic is pushing for independent evaluations every four to six months. This is significantly more demanding than OpenAI and Google's preferred annual third-party audit — a divide that makes Massachusetts a rare case of an AI company publicly supporting stricter regulation than its rivals."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-prospectus-2026-09-07",
+      "type": "article",
+      "title": "Anthropic Set to Unveil IPO Prospectus After Labor Day, Targeting $2 Trillion Valuation",
+      "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262138104-anthropic-plans-file-ipo-prospectus-after-labor-day-tradingkey",
+      "verified": false,
+      "publishedAt": "2026-09-07",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic is poised to release its public IPO prospectus now that the US Labor Day holiday has passed, targeting a Nasdaq listing in late September or early October 2026. The company's annual revenue run rate topped $65 billion as of late July, up from roughly $9 billion at the end of 2025, and it posted its first-ever operating profit of approximately $559 million in Q2 2026. Potential investors are pressing Anthropic for non-standard disclosures — including revenue per token and revenue per gigawatt of compute — metrics that could set new disclosure benchmarks for the entire AI industry.",
+      "keyConcepts": [
+        "AI company IPO",
+        "frontier AI valuation",
+        "revenue run rate",
+        "AI-native financial metrics"
+      ],
+      "whyItMatters": "Anthropic's public market debut will be the AI industry's most closely watched listing, potentially setting a floor for how public markets value frontier AI companies including OpenAI. The non-standard metrics investors are demanding — revenue per token, revenue per gigawatt — signal that markets are developing an AI-native financial vocabulary that will define how the sector is valued for years.",
+      "tags": ["anthropic", "ipo", "ai-valuation", "nasdaq", "frontier-ai", "ai-industry"],
+      "relatedIds": ["article-openai-google-massachusetts-ai-safety-2026-09-07"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's approximate annualized revenue run rate as of late July 2026?",
+          "options": [
+            "$9 billion",
+            "$25 billion",
+            "$47 billion",
+            "$65 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic's annual revenue run rate topped $65 billion at the end of July 2026, representing a dramatic acceleration from roughly $9 billion at the end of 2025 — a more than seven-fold increase in under a year driven by enterprise adoption of Claude models."
+        },
+        {
+          "question": "What unusual financial metrics are IPO investors asking Anthropic to disclose?",
+          "options": [
+            "Monthly active users and token retention rates",
+            "Revenue per token and revenue per gigawatt of compute",
+            "Profit margin per Claude model version",
+            "API call volume and server utilization rates"
+          ],
+          "correctIndex": 1,
+          "explanation": "Investors are pressing Anthropic to disclose revenue per token (measuring pricing efficiency) and revenue per gigawatt of compute (measuring capital efficiency of AI training). These AI-native metrics don't exist in traditional financial disclosure frameworks, and what Anthropic reveals may set a new standard for how AI companies are expected to report to public markets."
+        }
+      ]
+    },
+    {
+      "id": "article-gpt6-astra-vs-fable-benchmarks-2026-09-06",
+      "type": "article",
+      "title": "GPT-6 Astra vs Claude Fable 5.1: The Frontier Benchmark Battle Explained",
+      "sourceUrl": "https://www.datacamp.com/blog/gpt-6-astra-vs-claude-fable-5-1",
+      "verified": false,
+      "publishedAt": "2026-09-06",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Since OpenAI released GPT-6 Astra on September 3 — just two days after Anthropic's Claude Fable 5.1 launched — the AI community has been parsing a contested benchmark picture. On OpenAI's own published comparisons, Astra leads on most rows and saturates ARC-AGI-3 at 99.9%, but the Artificial Analysis Intelligence Index shows Fable 5.1 ahead (65.7 vs 61.2). Both models are identically priced at $10/$50 per million input/output tokens with one million token context windows, making the choice a pure capability call. The divergence between vendor-reported and independent benchmarks underscores the ongoing challenge of evaluating frontier models fairly.",
+      "keyConcepts": [
+        "frontier model benchmarking",
+        "ARC-AGI-3",
+        "model pricing parity",
+        "independent vs vendor benchmarks"
+      ],
+      "whyItMatters": "When two frontier models release within 48 hours at identical prices, the benchmark war is the entire competitive landscape. The fact that OpenAI and independent evaluators disagree on which model wins — on some of the same tasks — is itself newsworthy: it reveals how much the choice of evaluation harness can determine the winner, and why practitioners should test on their own workloads rather than relying on any single leaderboard.",
+      "tags": ["gpt-6-astra", "claude-fable", "benchmarking", "openai", "anthropic", "model-comparison"],
+      "relatedIds": ["article-openai-research-acceleration-2026-09-06"],
+      "knowledgeChecks": [
+        {
+          "question": "What score did GPT-6 Astra achieve on ARC-AGI-3 according to OpenAI's self-reported benchmarks?",
+          "options": [
+            "72.4%",
+            "85.1%",
+            "97.6%",
+            "99.9%"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI reported that GPT-6 Astra saturates ARC-AGI-3 with a 99.9% score under its provider adapter harness — a remarkable result on a benchmark designed to be resistant to saturation. However, independent evaluators using different harnesses have produced different rankings."
+        },
+        {
+          "question": "According to the Artificial Analysis Intelligence Index, which model leads the other?",
+          "options": [
+            "GPT-6 Astra leads with a score of 71.2",
+            "Claude Fable 5.1 leads with a score of 65.7",
+            "They are tied at 63.4 each",
+            "GPT-6 Astra leads with a score of 65.7"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Artificial Analysis Intelligence Index shows Claude Fable 5.1 leading at 65.7 versus Astra's 61.2 — the opposite of OpenAI's own published ranking. This divergence illustrates why benchmark choice is itself a contested decision when evaluating frontier models."
         }
       ]
     }
