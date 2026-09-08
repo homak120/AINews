@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T12:00:00.000Z",
+  "generatedAt": "2026-09-08T18:00:00.000Z",
   "weekOf": "2026-09-07",
   "coverageStart": "2026-09-06",
-  "coverageEnd": "2026-09-07",
+  "coverageEnd": "2026-09-08",
   "items": [
     {
       "id": "article-openai-an-alien-mind",
@@ -174,6 +174,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Pachocki's phrase 'grown more than designed' captures his view that frontier AI systems emerge from training in ways that are not fully understood or controlled, making full interpretability increasingly difficult."
+        }
+      ]
+    },
+    {
+      "id": "article-mistral-3b-series-d",
+      "type": "article",
+      "title": "Mistral Raises €3B in Samsung-Led Series D to Expand Sovereign AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": ["ai-industry"],
+      "summary": "French AI company Mistral announced a €3 billion Series D funding round led by Samsung Electronics at a post-money valuation exceeding €21 billion—the largest equity fundraising round ever completed by a European technology company three years after its founding. Co-leads include Scaleup Europe Fund (managed by EQT) and PSG Equity, with new investors Advent, BlackRock, and the Grand Duchy of Luxembourg also participating. Mistral says the capital will scale compute for frontier research, expand data center infrastructure, and accelerate international commercial growth.",
+      "keyConcepts": [
+        "Sovereign AI strategy",
+        "European AI competitiveness",
+        "Frontier model compute scaling",
+        "Venture capital in AI"
+      ],
+      "whyItMatters": "Mistral's €21B valuation and record European fundraise signal that investors see a durable market for sovereign, non-US AI infrastructure—especially as European governments seek alternatives to US hyperscaler dependency. The Samsung lead also deepens the chip-to-model supply chain integration trend.",
+      "tags": ["mistral", "funding", "sovereign-ai", "samsung", "europe", "series-d"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who led Mistral's €3 billion Series D funding round?",
+          "options": [
+            "Andreessen Horowitz",
+            "NVIDIA",
+            "Samsung Electronics",
+            "BlackRock"
+          ],
+          "correctIndex": 2,
+          "explanation": "Samsung Electronics led the round, with co-leads Scaleup Europe Fund (managed by EQT) and PSG Equity. BlackRock participated as a new investor but did not lead."
+        },
+        {
+          "question": "What does 'sovereign AI' mean in the context of Mistral's fundraising?",
+          "options": [
+            "AI that is regulated by national governments",
+            "AI infrastructure developed and controlled within a specific country or region, independent of US hyperscalers",
+            "AI models that are open-source and freely distributed",
+            "AI systems with guaranteed uptime SLAs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sovereign AI refers to AI capabilities owned and operated within a country or region, reducing dependence on US-based cloud providers and model suppliers. Mistral's position as a European frontier lab makes it a natural flag-bearer for this strategy."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-managed-agents-devday",
+      "type": "article",
+      "title": "OpenAI to Unveil Managed Agents Platform at DevDay 2026",
+      "sourceUrl": "https://www.progressiverobot.com/2026/09/07/openai-managed-agents-environments-devday-2026/",
+      "verified": false,
+      "publishedAt": "2026-09-07",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI is preparing to announce Managed Agents at its DevDay 2026 conference on September 29 in San Francisco—its biggest developer event yet, expanding to eight additional cities globally. The platform lets developers create and deploy AI agents through a unified system with customizable environments, skills, plugins, and self-hosting options. The announcement follows a year of agent-focused releases: Frontier (February), Workspace Agents GA (April), and Presence for enterprise (July).",
+      "keyConcepts": [
+        "OpenAI Managed Agents platform",
+        "Agent environments and sessions",
+        "Developer ecosystem expansion",
+        "AI agent deployment infrastructure"
+      ],
+      "whyItMatters": "A managed agent platform from OpenAI would lower the infrastructure barrier for building production AI agents, potentially capturing developer workflows currently built on open frameworks. DevDay 2026 may redefine what 'building on OpenAI' means for enterprise developers.",
+      "tags": ["openai", "devday", "ai-agents", "managed-agents", "developer-tools", "ai-platform"],
+      "relatedIds": ["article-openai-research-acceleration"],
+      "knowledgeChecks": [
+        {
+          "question": "When is OpenAI DevDay 2026 scheduled to take place?",
+          "options": [
+            "September 8, 2026 in New York",
+            "September 15, 2026 in Seattle",
+            "September 29, 2026 in San Francisco",
+            "October 5, 2026 in Chicago"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI DevDay 2026 is scheduled for September 29 in San Francisco, with the event expanding for the first time into eight additional cities worldwide."
+        },
+        {
+          "question": "What capability does the OpenAI Managed Agents platform add for developers?",
+          "options": [
+            "Free unlimited API access to GPT-6",
+            "The ability to create and deploy AI agents with customizable environments, skills, and plugins",
+            "Direct access to OpenAI's internal research models",
+            "Automatic code generation for mobile apps"
+          ],
+          "correctIndex": 1,
+          "explanation": "Managed Agents lets developers build intelligent agents through a unified platform with customizable environments, skills, and plugins—including self-hosting options for enterprise deployments."
         }
       ]
     }
