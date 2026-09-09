@@ -1,9 +1,53 @@
 {
-  "generatedAt": "2026-09-09T00:00:00.000Z",
+  "generatedAt": "2026-09-09T12:00:00.000Z",
   "weekOf": "2026-09-07",
   "coverageStart": "2026-09-08",
   "coverageEnd": "2026-09-09",
   "items": [
+    {
+      "id": "youtube-gCHEFZDPVYs",
+      "type": "video",
+      "title": "OpenAI's 10,000-Agent Swarm Solves Navier-Stokes — and the Credit Dispute",
+      "youtubeId": "gCHEFZDPVYs",
+      "sourceUrl": "https://www.youtube.com/watch?v=gCHEFZDPVYs",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Wes Roth breaks down OpenAI's claim that an unreleased model, coordinating roughly 10,000 concurrent agents, solved the Navier-Stokes existence and smoothness Millennium Prize Problem in 88 hours. The video traces the math from Euler's equations through the finite-time blowup result and the Lean formal proof verification step, then sets OpenAI's announcement against the competing work of NYU mathematician Tristan Buckmaster and Anthropic researcher Levent Alpöge, who say they had been working on a related problem for months. Roth examines the credit dispute, OpenAI's account of how it learned of the other researchers' work, and what the result could mean for AI-driven scientific discovery.",
+      "keyConcepts": [
+        "Navier-Stokes Millennium Prize Problem",
+        "Multi-agent AI research systems",
+        "Formal proof verification with Lean",
+        "AI credit attribution in science"
+      ],
+      "whyItMatters": "OpenAI deploying 10,000 agents to crack a century-old unsolved math problem is a landmark demonstration of agentic AI scaling into scientific research — while the credit dispute signals that norms around AI-assisted discovery and data access are urgently unresolved.",
+      "tags": ["openai", "navier-stokes", "multi-agent", "math-ai", "millennium-prize", "scientific-discovery"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the key mathematical result in OpenAI's Navier-Stokes proof?",
+          "options": [
+            "All smooth fluid solutions remain smooth indefinitely",
+            "Smooth fluid motion can break down via finite-time blowup while energy stays bounded",
+            "Turbulent flow is provably unpredictable beyond 88 hours",
+            "Navier-Stokes equations are computationally undecidable"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's agents found that smooth fluid motion can break down — a phenomenon called finite-time blowup — in which a vortex tightens and spins faster while the fluid's energy remains bounded, resolving the existence and smoothness question."
+        },
+        {
+          "question": "Who are the two outside researchers at the center of the Navier-Stokes credit dispute?",
+          "options": [
+            "Terence Tao (UCLA) and Cédric Villani (Paris)",
+            "Tristan Buckmaster (NYU) and Levent Alpöge (Anthropic)",
+            "Yann LeCun (Meta) and Geoffrey Hinton (Google DeepMind)",
+            "Jacob Tsimerman (Toronto) and Akshay Venkatesh (IAS)"
+          ],
+          "correctIndex": 1,
+          "explanation": "NYU mathematician Tristan Buckmaster and Anthropic researcher Levent Alpöge had been working on related Navier-Stokes problems using AI tools for months before OpenAI's announcement, and Buckmaster has alleged the circumstances of OpenAI's rapid entry into the problem raise serious questions."
+        }
+      ]
+    },
     {
       "id": "article-meta-muse-agent-sep8",
       "type": "article",
