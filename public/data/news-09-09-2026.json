@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-09T00:00:00.000Z",
+  "weekOf": "2026-09-07",
+  "coverageStart": "2026-09-08",
+  "coverageEnd": "2026-09-09",
+  "items": [
+    {
+      "id": "article-meta-muse-agent-sep8",
+      "type": "article",
+      "title": "Meta Launches Muse: A Personal AI Agent for Email, Travel, and Smart Home",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta launched Muse on September 8, a personal AI agent that acts on users' behalf across email, calendar, payments, shopping, and the smart home. The agent runs inside Meta's Secure VM architecture to isolate its activity and is available via a dedicated Muse app and WhatsApp in the U.S. Free and paid tiers ($20/$100/month) are offered at launch.",
+      "keyConcepts": [
+        "Personal AI agents",
+        "Secure VM architecture",
+        "Agentic task execution",
+        "Consumer AI privacy"
+      ],
+      "whyItMatters": "Meta's Muse is among the first mass-market personal AI agents from a major social platform, signaling a shift from AI assistants that answer questions to agents that take real-world actions on users' behalf.",
+      "tags": ["meta", "muse", "ai-agent", "personal-assistant", "smart-home", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What security mechanism does Meta use in Muse to protect sensitive user data like passwords?",
+          "options": [
+            "End-to-end encryption of all API calls",
+            "Secure VM that isolates the agent's activity in a virtual machine",
+            "Zero-knowledge proofs for each transaction",
+            "Hardware security keys required for each action"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta's Muse runs inside a Secure VM architecture, which isolates the agent's activity in a virtual machine. Meta states the agent cannot see passwords or payment methods directly."
+        },
+        {
+          "question": "Through which platforms can users access Meta's Muse AI agent at launch?",
+          "options": [
+            "Instagram and Facebook only",
+            "A dedicated Muse app and WhatsApp",
+            "Meta Quest headsets and Ray-Ban glasses",
+            "Messenger and Threads"
+          ],
+          "correctIndex": 1,
+          "explanation": "At launch, Muse is accessible through a dedicated Muse app and through WhatsApp, and is available only in the U.S. in English."
+        }
+      ]
+    },
+    {
+      "id": "article-nsa-cisa-chinese-ai-distillation-sep8",
+      "type": "article",
+      "title": "NSA, CISA, and FBI Warn: Six Chinese AI Firms Systematically Distilled U.S. Frontier Models",
+      "sourceUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "A joint Cybersecurity Advisory from the NSA, CISA, and FBI published September 8 names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI as having conducted systematic distillation campaigns against U.S. frontier AI models including Claude, GPT, Gemini, and Grok since at least late 2024. The agencies say the activity likely occurred with Chinese government knowledge and extracted billions of tokens to generate synthetic training data at dramatically reduced cost.",
+      "keyConcepts": [
+        "Model distillation attacks",
+        "AI intellectual property theft",
+        "Synthetic training data generation",
+        "Cybersecurity advisory"
+      ],
+      "whyItMatters": "The advisory reframes AI distillation — previously treated as a research technique — as an industrial-scale IP theft vector, with direct implications for how U.S. AI companies must monitor and rate-limit API traffic and how AI model security is regulated going forward.",
+      "tags": ["distillation", "deepseek", "geopolitics", "ai-security", "cisa", "model-theft"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which of the following is NOT named in the NSA/CISA/FBI joint advisory as a firm accused of distilling U.S. AI models?",
+          "options": [
+            "DeepSeek",
+            "MiniMax",
+            "Moonshot AI",
+            "Baidu"
+          ],
+          "correctIndex": 3,
+          "explanation": "The advisory names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI. Baidu is not listed among the six named firms in the advisory."
+        },
+        {
+          "question": "What does AI model distillation involve in the context of this advisory?",
+          "options": [
+            "Compressing a large model into a smaller one using only publicly available data",
+            "Extracting outputs from a target model at scale to generate synthetic training data for a competing model",
+            "Fine-tuning an open-source model on publicly released benchmarks",
+            "Converting model weights from one format to another for interoperability"
+          ],
+          "correctIndex": 1,
+          "explanation": "In this advisory, distillation refers to querying U.S. frontier models at massive scale to capture their outputs as synthetic training data, allowing the attacker to replicate capabilities without the full compute cost of original training."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-compute-plan-sep8",
+      "type": "article",
+      "title": "China Plans to Quadruple AI Computing Capacity to 9,800 Exaflops by 2030",
+      "sourceUrl": "https://www.scmp.com/tech/policy/article/3366733/china-targets-fourfold-boost-in-ai-computing-capacity-by-2030-major-tech-push",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "China's Ministry of Industry and Information Technology released its 15th Five-Year Plan for the information and communications sector, targeting 9,800 exaflops of national AI computing capacity by 2030 — more than four times the 2,185 eflops recorded in June 2026. The plan commits ¥3.8 trillion (US$532 billion) in cumulative IT infrastructure investment and calls for orderly deployment of large intelligent computing clusters.",
+      "keyConcepts": [
+        "AI compute infrastructure",
+        "Five-Year Plan industrial policy",
+        "Exaflops-scale GPU clusters",
+        "China-US AI competitiveness"
+      ],
+      "whyItMatters": "The scale of China's compute commitment — over $500 billion through 2030 — means the gap between U.S. and Chinese AI infrastructure investment is narrowing rapidly, reshaping the global competitive landscape for frontier AI development.",
+      "tags": ["china", "ai-policy", "compute", "infrastructure", "geopolitics", "five-year-plan"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was China's national AI computing capacity in June 2026, according to the new Five-Year Plan?",
+          "options": [
+            "9,800 exaflops",
+            "532 exaflops",
+            "2,185 exaflops",
+            "1,590 exaflops"
+          ],
+          "correctIndex": 2,
+          "explanation": "China's intelligent computing capacity had reached 2,185 exaflops at FP16 precision by the end of June 2026, representing a 177% increase from a year earlier. The plan targets 9,800 exaflops by 2030."
+        },
+        {
+          "question": "How much total IT infrastructure investment does China's 15th Five-Year Plan commit for 2026-2030?",
+          "options": [
+            "$95 billion",
+            "$295 billion",
+            "$532 billion",
+            "$1.2 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "The plan calls for ¥3.8 trillion yuan, which is approximately US$532 billion in cumulative information infrastructure investment over the 2026-2030 period."
+        }
+      ]
+    },
+    {
+      "id": "article-pytorch-foundation-china-sep8",
+      "type": "article",
+      "title": "Alibaba Cloud, Cambricon, and Ant Group Join PyTorch Foundation at Shanghai Conference",
+      "sourceUrl": "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At the inaugural PyTorch Conference China held September 7-9 in Shanghai — co-located with KubeCon, CloudNativeCon, and OpenInfra Summit China — the PyTorch Foundation announced Alibaba Cloud and Cambricon as Platinum members and Ant Group as a Gold member. The move gives Chinese AI hardware and cloud players formal governance seats in the world's dominant open-source deep learning framework.",
+      "keyConcepts": [
+        "Open-source AI governance",
+        "PyTorch Foundation membership",
+        "AI hardware ecosystem",
+        "Chinese AI chip manufacturers"
+      ],
+      "whyItMatters": "Bringing Alibaba Cloud, Chinese AI chipmaker Cambricon, and Ant Group into PyTorch governance reflects the framework's growing role as a neutral layer for global AI infrastructure, and signals that Chinese hardware companies are now active contributors — not just consumers — of the open-source AI stack.",
+      "tags": ["pytorch", "open-source", "alibaba", "cambricon", "ai-hardware", "governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What governance rights does a PyTorch Foundation Platinum membership provide?",
+          "options": [
+            "Veto power over model releases",
+            "A Governing Board seat and a Technical Advisory Council seat",
+            "Full IP ownership of contributed code",
+            "An exclusive commercial license to PyTorch"
+          ],
+          "correctIndex": 1,
+          "explanation": "Platinum members receive one seat on the PyTorch Foundation Governing Board and one seat on the Technical Advisory Council, giving them a formal voice in the framework's strategic direction."
+        },
+        {
+          "question": "What type of hardware does Cambricon primarily design?",
+          "options": [
+            "High-bandwidth memory modules",
+            "Networking switches for AI clusters",
+            "AI chips and accelerators for large-scale model training and inference",
+            "CPUs for edge AI applications"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cambricon is a China-based designer of AI chips and accelerators for large-scale model training and inference, and it hosts open-source toolkits and machine learning pipelines for its Machine Learning Unit hardware ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "article-arm-agentic-ai-infrastructure-sep9",
+      "type": "article",
+      "title": "Arm Expands Neoverse Push for Agentic AI Infrastructure",
+      "sourceUrl": "https://www.digitimes.com/news/a20260909PR204/arm-infrastructure-design-data-performance.html",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Arm announced an expanded roadmap for its Neoverse line of server chip designs targeting the infrastructure demands of agentic AI systems, which require low-latency persistent state management, higher memory bandwidth, and fine-grained security isolation compared to traditional inference workloads. Cloud providers, OEM partners, and software vendors are coordinating around Arm's designs as multi-agent frameworks proliferate.",
+      "keyConcepts": [
+        "Neoverse server chip architecture",
+        "Agentic AI infrastructure requirements",
+        "Low-latency persistent state management",
+        "Heterogeneous AI compute"
+      ],
+      "whyItMatters": "As AI systems shift from single-turn inference to long-running agentic loops, the hardware requirements change significantly — Arm's move to address these workloads specifically signals that agentic AI is now driving data center chip roadmaps, not just model performance benchmarks.",
+      "tags": ["arm", "neoverse", "ai-hardware", "agentic-ai", "data-center", "inference"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which Arm product line is expanding to serve agentic AI infrastructure demands?",
+          "options": [
+            "Cortex-A for mobile AI",
+            "Ethos NPU for edge inference",
+            "Neoverse for server/data center chips",
+            "Mali GPU for graphics workloads"
+          ],
+          "correctIndex": 2,
+          "explanation": "Arm's Neoverse line targets server and data center applications. The expansion of Neoverse specifically for agentic AI workloads reflects the growing importance of AI in cloud infrastructure."
+        },
+        {
+          "question": "What makes agentic AI workloads different from traditional single-turn inference in terms of infrastructure needs?",
+          "options": [
+            "Agentic AI requires less memory but more GPU cores",
+            "Agentic AI is primarily run on consumer hardware, not data centers",
+            "Agentic AI requires persistent state management, higher memory bandwidth, and security isolation across long-running sessions",
+            "Agentic AI only differs in needing faster SSD storage for context retrieval"
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike single-turn inference that processes one request at a time, agentic AI systems run multi-step loops with persistent state, requiring different memory, latency, and security characteristics from the underlying hardware infrastructure."
+        }
+      ]
+    }
+  ]
+}
