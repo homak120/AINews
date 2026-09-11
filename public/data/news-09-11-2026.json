@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-09-11T08:00:00.000Z",
+  "weekOf": "2026-09-07",
+  "coverageStart": "2026-09-10",
+  "coverageEnd": "2026-09-10",
+  "items": [
+    {
+      "id": "article-openai-agents-api-public-beta",
+      "type": "article",
+      "title": "OpenAI Launches Agents API in Public Beta, Exposing Codex Harness to All Developers",
+      "sourceUrl": "https://openai.com/index/introducing-the-agents-api/",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": ["ai-engineering"],
+      "summary": "OpenAI released the Agents API in public beta on September 10, bringing the managed infrastructure that powers Codex to all developers through a single API. The API handles orchestration, context compaction, session management, and recovery automatically, while developers supply tools and choose execution environments. Built-in capabilities include sandbox code execution, file editing, MCP connections, artifact generation, and multi-agent delegation.",
+      "keyConcepts": [
+        "Managed cloud-agent infrastructure",
+        "Multi-agent delegation and orchestration",
+        "MCP (Model Context Protocol) integration",
+        "Partner sandboxes and self-hosted environments"
+      ],
+      "whyItMatters": "The Agents API lowers the barrier to building production-grade AI agents by removing the need for developers to manage complex orchestration infrastructure. With no additional API fee beyond model tokens, it could accelerate the shift toward agentic AI workflows across industries.",
+      "tags": ["openai", "agents-api", "codex", "ai-engineering", "developer-tools", "multi-agent"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's Agents API primarily expose to developers?",
+          "options": [
+            "A new large language model trained specifically for agents",
+            "The managed infrastructure and harness powering Codex",
+            "A marketplace for pre-built AI agents",
+            "Direct access to OpenAI's internal compute clusters"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Agents API exposes the harness and infrastructure that powers Codex as a managed cloud-agent service, handling orchestration, sessions, and context compaction automatically."
+        },
+        {
+          "question": "What is the pricing model for the OpenAI Agents API beyond compute costs?",
+          "options": [
+            "$100/month flat subscription",
+            "Per-agent-run fee plus model tokens",
+            "No additional fee beyond model tokens and paid tools",
+            "Enterprise-only pricing on request"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's Agents API carries no additional API fee beyond model tokens and any paid tools developers choose to use, making it accessible without a usage surcharge on top of existing model costs."
+        }
+      ]
+    },
+    {
+      "id": "article-california-ai-audit-laws-sb813-ab1405",
+      "type": "article",
+      "title": "California Becomes First US State to Require Independent AI Audits with SB 813 and AB 1405",
+      "sourceUrl": "https://gizmodo.com/newsom-signs-ai-industry-approved-ai-regulation-bills-into-law-in-california-2000809702",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Governor Gavin Newsom signed SB 813 and AB 1405 into law on September 10, creating the first independent AI auditing framework in the United States. SB 813 establishes a framework for independent verification organizations and a California AI Standards and Safety Commission for voluntary AI standards. AB 1405 creates a state registry for AI auditors with requirements for independence, transparency, integrity, and ethics — rules that apply to frontier AI labs and AI-based hiring tools alike.",
+      "keyConcepts": [
+        "Independent AI verification organizations",
+        "California AI Standards and Safety Commission",
+        "AI auditor registry and accreditation",
+        "Third-party AI system assessments"
+      ],
+      "whyItMatters": "California's AI audit laws set a national precedent — the first legally binding requirement for third-party assessment of AI systems in the US. With both Anthropic and OpenAI endorsing the bills, the framework may become a template for federal legislation and shape hiring, compliance, and transparency expectations across the AI industry.",
+      "tags": ["regulation", "ai-policy", "california", "ai-audit", "ai-governance", "newsom"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does California's SB 813 establish?",
+          "options": [
+            "A ban on generative AI in state hiring processes",
+            "A framework for independent AI verification organizations and a voluntary standards commission",
+            "Mandatory open-sourcing of all commercial AI models",
+            "Criminal penalties for AI model hallucinations"
+          ],
+          "correctIndex": 1,
+          "explanation": "SB 813 creates independent verification organizations to assess AI systems for legal compliance, alongside a California AI Standards and Safety Commission that sets voluntary standards — making it the first such state-level framework in the US."
+        },
+        {
+          "question": "Which major AI companies endorsed California's AI audit legislation before it was signed?",
+          "options": [
+            "Google and Microsoft",
+            "Meta and Apple",
+            "Anthropic and OpenAI",
+            "IBM and Nvidia"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic backed the legislation package in August 2026 and OpenAI endorsed it just before Governor Newsom signed it into law, marking a notable instance of major AI labs supporting binding regulation."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-misuse-report-sep2026",
+      "type": "article",
+      "title": "Anthropic Publishes Widest AI Misuse Report Yet, Detailing State-Sponsored Cyber and Biological Threats",
+      "sourceUrl": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic released its September 2026 threat intelligence report detailing how its Threat Intelligence team identified and disrupted threat actors misusing Claude across seven harm areas between December 2025 and August 2026. The report covers cyber operations, influence operations, surveillance, scams and fraud, biological misuse, conventional weapons development, and illicit model distillation. Cases include state-sponsored groups, financially motivated criminal actors, and commercial spyware vendors.",
+      "keyConcepts": [
+        "AI threat intelligence and misuse monitoring",
+        "State-sponsored actor disruption",
+        "Biological and cyber misuse vectors",
+        "Illicit model distillation attacks"
+      ],
+      "whyItMatters": "Anthropic's detailed disclosure of real-world AI misuse cases — including biological weapons research attempts — raises the stakes for the industry's safety monitoring practices. The report provides the most comprehensive public picture yet of how frontier AI models are being targeted by sophisticated adversaries, informing both policy and safety research agendas.",
+      "tags": ["anthropic", "ai-safety", "misuse-report", "threat-intelligence", "biosecurity", "cyber-operations"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many harm areas does Anthropic's September 2026 misuse report cover?",
+          "options": [
+            "Three",
+            "Five",
+            "Seven",
+            "Ten"
+          ],
+          "correctIndex": 2,
+          "explanation": "The report covers seven harm areas: cyber operations, influence operations, surveillance, scams and fraud, biological misuse, conventional weapons development, and illicit model distillation."
+        },
+        {
+          "question": "Which Claude model classes were involved in the misuse cases documented in the September 2026 report?",
+          "options": [
+            "Only Fable and Mythos-class models",
+            "Haiku, Sonnet, and Opus — not Fable or Mythos except one distillation case",
+            "Exclusively the Sonnet family",
+            "All Claude models equally across every harm category"
+          ],
+          "correctIndex": 1,
+          "explanation": "The misuse cases involved Claude Haiku, Sonnet, and Opus models. None involved Fable or Mythos-class models except one illicit distillation case, suggesting adversaries focused on more accessible model tiers."
+        }
+      ]
+    }
+  ]
+}
