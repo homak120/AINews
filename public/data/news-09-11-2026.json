@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-11T08:00:00.000Z",
+  "generatedAt": "2026-09-11T14:00:00.000Z",
   "weekOf": "2026-09-07",
-  "coverageStart": "2026-09-10",
-  "coverageEnd": "2026-09-10",
+  "coverageStart": "2026-09-09",
+  "coverageEnd": "2026-09-11",
   "items": [
     {
       "id": "article-openai-agents-api-public-beta",
@@ -130,6 +130,223 @@
           ],
           "correctIndex": 1,
           "explanation": "The misuse cases involved Claude Haiku, Sonnet, and Opus models. None involved Fable or Mythos-class models except one illicit distillation case, suggesting adversaries focused on more accessible model tiers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-2Xiljy4xzbc",
+      "type": "video",
+      "title": "Fireship Compares GPT-6 Astra and Claude Fable 5.1 for Game Development",
+      "youtubeId": "2Xiljy4xzbc",
+      "sourceUrl": "https://www.youtube.com/watch?v=2Xiljy4xzbc",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Fireship gives GPT-6 Astra and Claude Fable 5.1 the same brief — build a rocket game — and compares what each produces. The video sets up the comparison one day after GPT-6 Astra became more widely available, making it one of the first practical head-to-head tests at scale. The conclusion: Astra produced a visually polished result while Fable 5.1 built something more playable and fun.",
+      "keyConcepts": [
+        "GPT-6 Astra code generation capabilities",
+        "Claude Fable 5.1 game development",
+        "AI-assisted game prototyping",
+        "Practical frontier model comparison"
+      ],
+      "whyItMatters": "Side-by-side vibe-coding comparisons from trusted developer educators cut through marketing claims and give engineers grounded signal on which frontier model to reach for on creative coding tasks. This video is an early benchmark for GPT-6 Astra's real-world performance against Anthropic's flagship Fable 5.1.",
+      "tags": ["fireship", "gpt-6-astra", "claude-fable", "vibe-coding", "game-development", "model-comparison"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the main task Fireship gave to both GPT-6 Astra and Claude Fable 5.1 in this comparison?",
+          "options": [
+            "Write a REST API in TypeScript",
+            "Build a rocket game",
+            "Generate a full-stack web app",
+            "Solve a LeetCode hard problem"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fireship gave both models the same game-building brief — create a rocket game — allowing a direct, controlled comparison of their creative coding capabilities on identical input."
+        },
+        {
+          "question": "According to Fireship's test, which model produced the more fun and playable result?",
+          "options": [
+            "GPT-6 Astra, which delivered a richer interactive experience",
+            "Both were equivalent in playability",
+            "Claude Fable 5.1, which built something more enjoyable to play",
+            "Neither produced a working game"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fireship's conclusion was that while GPT-6 Astra produced a visually polished result, Claude Fable 5.1 built a game that was more fun to actually play — highlighting how different optimization targets can lead to different practical outcomes."
+        }
+      ]
+    },
+    {
+      "id": "youtube-WBK2WX7TA4g",
+      "type": "video",
+      "title": "Wes Roth Investigates Funding Behind AI Safety Panic After Anthropic Researcher's Resignation",
+      "youtubeId": "WBK2WX7TA4g",
+      "sourceUrl": "https://www.youtube.com/watch?v=WBK2WX7TA4g",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Wes Roth uses the resignation of 27-year-old Anthropic researcher Jacob Coxon — who left because he believes no company can build AGI responsibly without government action — as a lens to examine the funding networks behind AI safety advocacy organizations. Working through public grant records from the Survival and Flourishing Fund alongside Coxon's own resignation post and the Wall Street Journal's coverage, Roth traces which foundations back the AI-slowdown movement and asks whether coordinated dark money explains the intensity of the current safety discourse.",
+      "keyConcepts": [
+        "AI safety advocacy funding networks",
+        "Anthropic researcher resignation and AGI concerns",
+        "Survival and Flourishing Fund grant records",
+        "AI governance and coordinated industry slowdown debate"
+      ],
+      "whyItMatters": "The funding and incentive structures behind AI safety discourse directly shape policy proposals, public narratives, and industry norms. Understanding who is funding AI slowdown advocacy — and why — is essential context for AI professionals evaluating career decisions and policy positions.",
+      "tags": ["ai-safety", "ai-governance", "anthropic", "wes-roth", "ai-policy", "dark-money"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic researcher Jacob Coxon's stated reason for resigning?",
+          "options": [
+            "He was recruited to lead safety research at a competitor",
+            "He believed no company can build AGI responsibly without government action or a coordinated industry slowdown",
+            "He disagreed with Anthropic's approach to Constitutional AI",
+            "He left to start his own AI safety nonprofit"
+          ],
+          "correctIndex": 1,
+          "explanation": "Coxon stated he joined Anthropic for its safety reputation but ultimately resigned because he believes no company — including Anthropic — can build AGI responsibly without mandatory government action or a coordinated industry-wide slowdown."
+        },
+        {
+          "question": "Which organization's grant records did Wes Roth examine to trace AI safety advocacy funding?",
+          "options": [
+            "Open Philanthropy",
+            "Future of Life Institute",
+            "Survival and Flourishing Fund",
+            "Effective Ventures Foundation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Wes Roth worked through public grant records from the Survival and Flourishing Fund, which has been a major funder of AI safety and governance organizations, to map the financial networks behind AI-slowdown advocacy."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-financial-services",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT for Financial Services with Built-In Market Data from S&P, LSEG and Moody's",
+      "sourceUrl": "https://www.business-standard.com/technology/tech-news/openai-launches-chatgpt-for-financial-services-here-s-what-it-offers-126091100133_1.html",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI launched ChatGPT for Financial Services on September 11, a tailored version of ChatGPT Work running on GPT-6 Astra with licensed market data from ten major data providers including S&P Capital IQ, LSEG, Moody's, PitchBook, and Dow Jones Factiva. Developed with Morgan Stanley and Evercore, the product targets the core work of financial analysts: valuations, leveraged buyout models, buyer screening, earnings analysis, and pitchbook creation. GPT-6 Astra enables the product to navigate financial documents, conduct multi-step financial reasoning, and synthesize findings into documents, spreadsheets, and slides.",
+      "keyConcepts": [
+        "GPT-6 Astra financial document reasoning",
+        "Licensed market data integration (S&P, LSEG, Moody's, PitchBook)",
+        "AI-assisted financial modeling and pitchbook generation",
+        "Enterprise ChatGPT Work vertical deployment"
+      ],
+      "whyItMatters": "ChatGPT for Financial Services is one of the most direct challenges yet to junior banking and analyst roles, automating the LBO models, pitchbooks, and earnings summaries that define entry-level Wall Street work. Its integration of licensed data from established financial data providers signals a shift from generic AI tools toward specialized, compliance-ready AI products for regulated industries.",
+      "tags": ["openai", "chatgpt", "financial-services", "gpt-6-astra", "ai-industry", "wall-street"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which two financial institutions co-developed ChatGPT for Financial Services with OpenAI?",
+          "options": [
+            "Goldman Sachs and JPMorgan",
+            "Morgan Stanley and Evercore",
+            "BlackRock and Citadel",
+            "Bridgewater and Vanguard"
+          ],
+          "correctIndex": 1,
+          "explanation": "ChatGPT for Financial Services was developed with Morgan Stanley and Evercore, two institutions deeply invested in AI-augmented financial analysis, ensuring the product targets realistic analyst workflows rather than generic use cases."
+        },
+        {
+          "question": "What underlying model powers ChatGPT for Financial Services?",
+          "options": [
+            "GPT-5 Turbo",
+            "GPT-4.5 Omni",
+            "GPT-6 Astra",
+            "A fine-tuned GPT-6 finance model"
+          ],
+          "correctIndex": 2,
+          "explanation": "The product runs on GPT-6 Astra, OpenAI's flagship model, which provides the document navigation, financial reasoning, and multi-step artifact generation capabilities required for complex financial analysis workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v41-flash-release",
+      "type": "article",
+      "title": "DeepSeek Releases V4.1 Flash: 552B Open-Weight Model with 1M Context and Native Vision at $0.003/M Tokens",
+      "sourceUrl": "https://vgtimes.com/tech-and-hardware/167153-deepseek-releases-deepseek-v4.1-flash-a-very-cheap-ai-model.html",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "DeepSeek released V4.1 Flash on September 10, the smallest model in its new V4.1 architecture family, featuring a 552B-parameter Causal Encoder-Decoder mixture-of-experts design with 8B active parameters on input and 16B on output. The model supports a 1 million token context window, native image understanding, and MIT-licensed open weights on Hugging Face. Priced at $0.003 per million input tokens — far below comparable frontier models — V4.1 Flash outperforms the previous DeepSeek V4 Pro across performance, speed, and cost.",
+      "keyConcepts": [
+        "Causal Encoder-Decoder MoE architecture",
+        "MIT-licensed open weights with native vision",
+        "1 million token context window",
+        "Extreme cost efficiency ($0.003/M tokens)"
+      ],
+      "whyItMatters": "DeepSeek V4.1 Flash continues China's pattern of releasing highly capable open-weight models at a fraction of the cost of US frontier model APIs. The MIT license and Hugging Face availability make it immediately usable for commercial fine-tuning and deployment, raising the competitive pressure on OpenAI, Anthropic, and Google for cost-sensitive enterprise workloads.",
+      "tags": ["deepseek", "open-weights", "model-release", "mixture-of-experts", "ai-research", "cost-efficiency"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the active parameter count for DeepSeek V4.1 Flash on input tokens?",
+          "options": [
+            "16 billion",
+            "8 billion",
+            "552 billion",
+            "70 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek V4.1 Flash uses a mixture-of-experts design with 552B total parameters but only 8B active on input tokens (16B on output), enabling efficient inference at a fraction of the compute cost of a dense model of equivalent total size."
+        },
+        {
+          "question": "Under what license are DeepSeek V4.1 Flash weights released?",
+          "options": [
+            "Apache 2.0",
+            "Creative Commons BY-NC",
+            "MIT",
+            "DeepSeek Community License"
+          ],
+          "correctIndex": 2,
+          "explanation": "V4.1 Flash weights are released under the MIT license, one of the most permissive open-source licenses, allowing commercial use, fine-tuning, and redistribution without restriction."
+        }
+      ]
+    },
+    {
+      "id": "article-cognition-ai-48b-series-e",
+      "type": "article",
+      "title": "Cognition AI Raises $2B at $48B Valuation as Devin's Annual Revenue Run Rate Nears $900M",
+      "sourceUrl": "https://theaiinsider.tech/2026/09/09/cognition-secures-2b-at-48b-valuation-as-ai-coding-race-intensifies/",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Cognition AI closed a $2 billion Series E at a $48 billion valuation on September 9, nearly doubling its valuation from a $26 billion Series D just three and a half months earlier. The round was led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir. Cognition's run-rate revenue grew from $492 million to nearly $900 million since May, with the company projecting $4–5 billion in annualized revenue by end of 2026. Major enterprise customers include Mercedes-Benz, NASA, Goldman Sachs, and Citi.",
+      "keyConcepts": [
+        "Devin AI software engineer product",
+        "Series E funding and AI coding market valuation",
+        "Enterprise AI coding adoption (NASA, Goldman Sachs, Mercedes)",
+        "AI coding market competitive dynamics"
+      ],
+      "whyItMatters": "Cognition's near-doubling in valuation in under four months — driven by Devin's explosive enterprise adoption — signals that investors see AI software engineers as a durable product category, not a feature. The $48B valuation for a company with under $1B in revenue run-rate reflects exceptional growth velocity and suggests the AI coding market is far from winner-take-all.",
+      "tags": ["cognition", "devin", "ai-coding", "funding", "series-e", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Cognition AI's valuation in its previous Series D round in May 2026?",
+          "options": [
+            "$10 billion",
+            "$26 billion",
+            "$36 billion",
+            "$48 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cognition raised its Series D at a $26 billion valuation in May 2026. The September Series E at $48B represents a near-doubling of valuation in roughly three and a half months, driven by rapid growth in Devin's enterprise customer base and revenue."
+        },
+        {
+          "question": "Which of the following is NOT listed as a major enterprise customer of Cognition's Devin product?",
+          "options": [
+            "NASA",
+            "Goldman Sachs",
+            "Mercedes-Benz",
+            "Microsoft"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cognition's disclosed major enterprise customers include NASA, Goldman Sachs, Citi, and Mercedes-Benz. Microsoft is not listed among them — Microsoft has its own GitHub Copilot product and a deep investment in OpenAI, making it an unlikely Devin customer."
         }
       ]
     }
