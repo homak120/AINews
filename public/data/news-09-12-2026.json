@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-09-12T06:00:00.000Z",
+  "weekOf": "2026-09-07",
+  "coverageStart": "2026-09-11",
+  "coverageEnd": "2026-09-11",
+  "items": [
+    {
+      "id": "article-anthropic-bioweapons-sep2026",
+      "type": "article",
+      "title": "Anthropic Identifies Scientists Who Used Claude in Possible Bioweapons Research",
+      "sourceUrl": "https://northeasttimes.com/2026/09/11/anthropic-identifies-scientists-who-used-its-ai-in-possible-bioweapons-research/",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic published a nearly 150-page threat intelligence report covering misuse of its Claude AI between December 2025 and August 2026, documenting five cases where scientists used Claude in ways that could support biological weapons development. In one documented case, the company's biological safety classifier flagged a gain-of-function research grant proposal on chikungunya virus from a researcher affiliated with a military institute. Anthropic said it shared intelligence with governments, added stronger safeguards to its latest models, and published the report to set a transparency precedent for the industry.",
+      "keyConcepts": [
+        "AI safety classifiers",
+        "Biological weapons misuse detection",
+        "AI threat intelligence reporting",
+        "Gain-of-function research risks"
+      ],
+      "whyItMatters": "This report is one of the first detailed public disclosures by a frontier AI lab of real attempted misuse at scale, setting a precedent for responsible transparency and signaling that AI safety classifiers are now catching genuine threats in production.",
+      "tags": ["anthropic", "ai-safety", "bioweapons", "threat-intelligence", "policy", "claude"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many cases of potential bioweapons-related misuse did Anthropic document in its September 2026 threat report?",
+          "options": ["Two cases", "Three cases", "Five cases", "Ten cases"],
+          "correctIndex": 2,
+          "explanation": "Anthropic documented five cases where scientists used Claude in ways that could support biological weapons development, spanning the period from December 2025 to August 2026."
+        },
+        {
+          "question": "What time period did Anthropic's 150-page threat intelligence report cover?",
+          "options": ["June 2025 to June 2026", "December 2025 to August 2026", "January 2026 to September 2026", "March 2025 to March 2026"],
+          "correctIndex": 1,
+          "explanation": "The Anthropic misuse report covered seven harm categories and documented misuse of Claude between December 2025 and August 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-pentagon-fluidstack-5b-2026",
+      "type": "article",
+      "title": "Pentagon in Talks to Lend $5 Billion to AI Cloud Startup Fluidstack",
+      "sourceUrl": "https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain/",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-industry"],
+      "summary": "The Pentagon is in discussions to lend roughly $5 billion to AI cloud-computing startup Fluidstack through its Office of Strategic Capital (OSC), which would make it the largest single loan OSC has ever issued. The funds are intended to shore up the U.S. data center supply chain and manufacturing capacity for critical components. Fluidstack has been building AI infrastructure across the US with data center sites secured in New York, Indiana, Louisiana, and Texas.",
+      "keyConcepts": [
+        "AI infrastructure investment",
+        "Office of Strategic Capital",
+        "US data center supply chain security",
+        "Government-backed AI compute financing"
+      ],
+      "whyItMatters": "A $5 billion government loan to an AI cloud startup signals that US national security strategy now explicitly includes direct support for private AI infrastructure, potentially reshaping how frontier AI compute capacity is financed and governed.",
+      "tags": ["pentagon", "fluidstack", "ai-infrastructure", "government", "data-centers", "us-strategy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which Pentagon office would provide the potential $5 billion loan to Fluidstack?",
+          "options": ["DARPA", "National Science Foundation", "Office of Strategic Capital", "Department of Energy"],
+          "correctIndex": 2,
+          "explanation": "The Pentagon's Office of Strategic Capital (OSC) would be the funding source, and this loan would be the largest OSC has issued since it launched."
+        },
+        {
+          "question": "What is the primary stated purpose of the Pentagon's potential $5 billion loan to Fluidstack?",
+          "options": ["Developing new AI models for military use", "Training government AI personnel", "Shoring up the US data center supply chain", "Funding open-source AI research"],
+          "correctIndex": 2,
+          "explanation": "The loan is intended to strengthen the US supply chain and manufacturing capacity for data center components, not to build a specific AI facility or fund model development."
+        }
+      ]
+    },
+    {
+      "id": "article-kya-framework-visa-mastercard-ant-2026",
+      "type": "article",
+      "title": "Visa, Mastercard, and Ant International Launch Know-Your-Agent (KYA) Framework",
+      "sourceUrl": "https://technode.global/2026/09/11/ant-international-mastercard-visa-to-align-on-know-your-agent-standards-for-ai-driven-payments/",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Ant International, Mastercard, and Visa jointly announced the Know-Your-Agent (KYA) interoperability framework to standardize how AI agents are verified and onboarded across payment ecosystems. The initiative bridges three previously competing proprietary protocols: Visa's Trusted Agent Protocol (TAP), Mastercard Verifiable Intent, and Ant's Agentic Mobile Protocol (AMP). The three companies project that by 2030, AI agents will orchestrate between $3 trillion and $5 trillion of global consumer commerce.",
+      "keyConcepts": [
+        "AI agent identity verification",
+        "Cross-network interoperability standards",
+        "Agentic commerce security",
+        "Payment protocol alignment"
+      ],
+      "whyItMatters": "As AI agents increasingly make autonomous purchasing decisions on behalf of users, establishing shared identity verification standards is critical trust infrastructure — the KYA framework could become the foundational layer for secure global agentic commerce.",
+      "tags": ["ai-agents", "payments", "visa", "mastercard", "ant-international", "interoperability"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which three proprietary protocols does the KYA framework bridge?",
+          "options": [
+            "TAP, Verifiable Intent, and AMP",
+            "OpenAgent, Verifiable Intent, and TAP",
+            "AMP, AgentKey, and VAMP",
+            "TAP, AgentID, and VerifyAgent"
+          ],
+          "correctIndex": 0,
+          "explanation": "KYA bridges Visa's Trusted Agent Protocol (TAP), Mastercard Verifiable Intent, and Ant International's Agentic Mobile Protocol (AMP), aligning three previously competing standards."
+        },
+        {
+          "question": "How much global consumer commerce do the KYA partners project AI agents will orchestrate by 2030?",
+          "options": [
+            "$500 billion to $1 trillion",
+            "$1 trillion to $2 trillion",
+            "$3 trillion to $5 trillion",
+            "$8 trillion to $10 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Visa, Mastercard, and Ant International project that AI agents will orchestrate $3 trillion to $5 trillion of global consumer commerce by 2030, underlining the urgency of establishing agent trust frameworks now."
+        }
+      ]
+    },
+    {
+      "id": "article-sakana-fugu-ultra-v2-sep2026",
+      "type": "article",
+      "title": "Sakana AI Releases Fugu Max and Fugu Ultra v2, Multi-Agent Orchestration Models",
+      "sourceUrl": "https://sakana.ai/fugu-max-release/",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Sakana AI released Fugu Max and Fugu Ultra v2.0 on September 11, 2026, both built as multi-agent orchestration systems that dynamically route tasks across a pool of frontier LLMs behind a single OpenAI-compatible API endpoint. Fugu Ultra v2 achieves best-or-joint-best scores on five of eight benchmarks — including 48.3 on Chartography and 74.3 on DeepSWE — without using Fable 5, Fable 5.1, or GPT-6 Astra in its agent pool. The models are priced at $5 per million input tokens and $30 per million output tokens.",
+      "keyConcepts": [
+        "Multi-agent orchestration",
+        "Model routing and ensembling",
+        "TRINITY and Conductor research",
+        "Performance without frontier models"
+      ],
+      "whyItMatters": "Fugu Ultra v2 demonstrates that a carefully orchestrated ensemble of mid-tier models can match or beat frontier single models, challenging the assumption that top AI performance always requires the latest, most expensive models.",
+      "tags": ["sakana-ai", "multi-agent", "model-orchestration", "fugu", "llm", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Sakana's Fugu architecture deliver results differently from a standard single AI model?",
+          "options": [
+            "It fine-tunes models on user data in real time",
+            "It runs entirely on-device without cloud compute",
+            "It dynamically orchestrates multiple models behind one API endpoint",
+            "It uses a single massive model with 1 trillion parameters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fugu is described as a 'Multi-Agent System, Delivered as One Model' — it dynamically coordinates and orchestrates a diverse pool of powerful models behind a single OpenAI-compatible endpoint."
+        },
+        {
+          "question": "On how many of eight benchmarks did Fugu Ultra v2 achieve best or joint-best scores in Sakana's evaluation?",
+          "options": ["Two of eight", "Three of eight", "Five of eight", "Seven of eight"],
+          "correctIndex": 2,
+          "explanation": "Fugu Ultra v2 is best or joint-best on five of eight benchmarks, including 48.3 on Chartography and 74.3 on DeepSWE, all without using the most powerful frontier models in its agent pool."
+        }
+      ]
+    }
+  ]
+}
