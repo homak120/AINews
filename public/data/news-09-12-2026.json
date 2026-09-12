@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T06:00:00.000Z",
+  "generatedAt": "2026-09-12T12:00:00.000Z",
   "weekOf": "2026-09-07",
   "coverageStart": "2026-09-11",
-  "coverageEnd": "2026-09-11",
+  "coverageEnd": "2026-09-12",
   "items": [
     {
       "id": "article-anthropic-bioweapons-sep2026",
@@ -148,6 +148,131 @@
           "options": ["Two of eight", "Three of eight", "Five of eight", "Seven of eight"],
           "correctIndex": 2,
           "explanation": "Fugu Ultra v2 is best or joint-best on five of eight benchmarks, including 48.3 on Chartography and 74.3 on DeepSWE, all without using the most powerful frontier models in its agent pool."
+        }
+      ]
+    },
+    {
+      "id": "youtube-aspmNhKAFMc",
+      "type": "video",
+      "title": "OpenAI's Math Breakthrough Controversy: Fields Medallists Push Back",
+      "youtubeId": "aspmNhKAFMc",
+      "sourceUrl": "https://www.youtube.com/watch?v=aspmNhKAFMc",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Fireship examines the growing controversy surrounding OpenAI's claim that GPT-6 Astra solved the Navier-Stokes Millennium Prize Problem using 10,000 agents in 88 hours, which prompted 25 Fields Medallists to publish a public declaration criticizing AI labs for treating unsolved mathematical problems as marketing benchmarks. Mathematician Andreas Thom further alleged that the proof relied on his 2019 paper without proper attribution, calling into question the originality of the result. The video dissects how the tension between AI lab speed and mathematical rigor is damaging trust between researchers and frontier labs.",
+      "keyConcepts": [
+        "Navier-Stokes Millennium Prize Problem",
+        "AI-generated mathematical proofs",
+        "Fields Medallists open letter",
+        "Research attribution and reproducibility"
+      ],
+      "whyItMatters": "If AI labs routinely claim high-profile scientific breakthroughs without adequate peer review or attribution, it erodes the credibility of both the labs and the results — a reputational risk with long-term consequences for scientific collaboration.",
+      "tags": ["openai", "gpt-6", "mathematics", "research-integrity", "astra", "fireship"],
+      "relatedIds": ["article-openai-slowing-development-sep2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How many AI agents did OpenAI claim solved the Navier-Stokes problem in Astra's demonstration?",
+          "options": ["100 agents", "1,000 agents", "10,000 agents", "100,000 agents"],
+          "correctIndex": 2,
+          "explanation": "OpenAI's demonstration involved roughly 10,000 agents working in parallel, dividing the problem into subproblems, coordinating their work, and assembling a proposed proof in approximately 88 hours."
+        },
+        {
+          "question": "What did 25 Fields Medallists do in response to AI labs claiming math problem solutions?",
+          "options": [
+            "Submitted a counter-proof disproving the result",
+            "Published a declaration criticizing labs for using math problems as benchmarks",
+            "Called for a government ban on AI research in mathematics",
+            "Invited OpenAI researchers to collaborate on formal verification"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Fields Medallists — among the highest honors in mathematics — issued a public declaration criticizing AI labs for treating important unsolved problems as marketing benchmarks rather than serious scientific endeavors."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-slowing-development-sep2026",
+      "type": "article",
+      "title": "OpenAI CEO Sam Altman Says Company Is Open to Slowing Advanced AI Development",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff",
+      "verified": false,
+      "publishedAt": "2026-09-11",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "In a company-wide meeting, OpenAI CEO Sam Altman told employees that OpenAI could potentially slow development of its most advanced AI systems — a significant reversal from his longstanding public position — and said he hoped other leading AI labs would do the same. The statement comes amid compute demand outrunning supply after GPT-6 Astra's rollout, with ChatGPT Pro closed to new subscribers. Analysts suggest the announcement may also be strategic positioning as OpenAI faces scrutiny over the Navier-Stokes math controversy and the Anthropic misuse report raises industry-wide safety questions.",
+      "keyConcepts": [
+        "AI development pacing",
+        "Frontier AI governance",
+        "Compute capacity constraints",
+        "CEO safety signaling"
+      ],
+      "whyItMatters": "Altman's openness to pacing AI development — even if partly strategic — represents a notable rhetorical shift from the world's most prominent AI CEO, and could influence how other labs publicly frame their own development timelines and safety commitments.",
+      "tags": ["openai", "sam-altman", "ai-safety", "ai-governance", "gpt-6", "development-pace"],
+      "relatedIds": ["youtube-aspmNhKAFMc"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Sam Altman tell OpenAI employees about AI development pace in September 2026?",
+          "options": [
+            "He committed to accelerating development to stay ahead of competitors",
+            "He said the company was open to slowing advanced AI development",
+            "He announced a merger with a major cloud provider to scale faster",
+            "He said OpenAI would spin off its safety team into a separate company"
+          ],
+          "correctIndex": 1,
+          "explanation": "In a company-wide meeting, Altman told staff that OpenAI could potentially slow development of cutting-edge AI — reversing his longstanding public position — and expressed hope that other labs would do the same."
+        },
+        {
+          "question": "Which product access issue coincided with Altman's pacing statement?",
+          "options": [
+            "ChatGPT Enterprise was discontinued",
+            "The API was taken offline for maintenance",
+            "ChatGPT Pro was closed to new subscribers due to GPT-6 Astra compute demand",
+            "OpenAI suspended all API access for non-paying users"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-6 Astra demand outpaced OpenAI's compute capacity, causing the company to close the $200/month ChatGPT Pro tier to new subscribers — a concrete sign of infrastructure strain accompanying the pacing discussion."
+        }
+      ]
+    },
+    {
+      "id": "article-git-config-ai-agent-exploit-sep2026",
+      "type": "article",
+      "title": "Malicious Git Configs Can Hijack Claude Code, Codex, Cursor, and Other AI Coding Agents",
+      "sourceUrl": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "verified": false,
+      "publishedAt": "2026-09-12",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Security researchers and startup Accomplish disclosed that malicious .git configuration files in repositories can cause AI coding agents — including Claude Code, OpenAI Codex CLI, Cursor, and others — to silently execute attacker-controlled shell commands on a developer's machine without approval prompts. The vulnerability exploits how some agents automatically process Git configuration settings stored in hidden .git directories, granting attackers the same file-system and credential access as the affected user. Accomplish flagged the issues to Anthropic, OpenAI, and Cursor this summer; Cursor and OpenAI patched within a week while Anthropic took approximately 50 days.",
+      "keyConcepts": [
+        "AI agent sandbox escape",
+        "Malicious repository supply-chain attacks",
+        "Git configuration exploitation",
+        "Responsible disclosure timelines"
+      ],
+      "whyItMatters": "As AI coding agents achieve mainstream adoption in professional developer workflows, their automatic processing of repository-embedded instructions creates a new supply-chain attack surface requiring both agent-level sandboxing improvements and developer awareness of untrusted repository risks.",
+      "tags": ["security", "claude-code", "codex", "cursor", "ai-agents", "git-exploit"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How do malicious .git configs exploit AI coding agents according to the Accomplish disclosure?",
+          "options": [
+            "They trick the model into generating harmful code suggestions",
+            "They cause agents to automatically execute attacker-controlled commands without approval",
+            "They corrupt the agent's training data through model poisoning",
+            "They intercept API requests and replace them with malicious ones"
+          ],
+          "correctIndex": 1,
+          "explanation": "The attack exploits AI agents that automatically process Git configuration settings in a repository's .git directory — if the config contains malicious instructions, the agent can execute attacker-controlled shell commands with the user's own access level, bypassing approval prompts."
+        },
+        {
+          "question": "How long did Anthropic take to patch the .git config vulnerability after Accomplish's disclosure, compared to OpenAI and Cursor?",
+          "options": [
+            "Anthropic patched fastest, within 3 days",
+            "All three vendors patched within a week",
+            "Cursor and OpenAI patched in about a week; Anthropic took approximately 50 days",
+            "None of the vendors have patched the issue as of the disclosure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Accomplish flagged the vulnerabilities to all three vendors this summer. Cursor and OpenAI each fixed their bugs within about a week, while Anthropic took roughly 50 days to address the issue — a notable difference in response time for a security disclosure."
         }
       ]
     }
