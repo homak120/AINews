@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T08:00:00.000Z",
+  "generatedAt": "2026-09-13T12:00:00.000Z",
   "weekOf": "2026-09-07",
   "coverageStart": "2026-09-11",
-  "coverageEnd": "2026-09-12",
+  "coverageEnd": "2026-09-13",
   "items": [
     {
       "id": "article-anthropic-houthi-claude-missile-2026-09-12",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "This case establishes that AI models have crossed a threshold where they can substitute for specialized human engineers in weapons development, compressing timelines for non-state actors. It directly challenges how AI companies balance commercial deployment with dual-use risks.",
       "tags": ["anthropic", "ai-misuse", "weapons-development", "dual-use", "ai-safety", "claude"],
-      "relatedIds": [],
+      "relatedIds": ["youtube-QP8PWvxpQ9I", "article-anthropic-benton-resign-2026-09-12"],
       "knowledgeChecks": [
         {
           "question": "According to Anthropic's threat intelligence report, what did the Yemen-based cell use Claude Code to develop?",
@@ -130,6 +130,93 @@
           ],
           "correctIndex": 1,
           "explanation": "Fugu Max is optimized for cost-performance, routing to the cheapest model that can handle each subtask at $2/1M input tokens. Fugu Ultra v2 is optimized for maximum quality without cost constraints at $5/1M input tokens, using a smaller but higher-quality pool to push benchmark performance to its ceiling."
+        }
+      ]
+    },
+    {
+      "id": "youtube-QP8PWvxpQ9I",
+      "type": "video",
+      "title": "Something Is Seriously Wrong at Anthropic: Safety Researchers Quit and Sound the Alarm",
+      "youtubeId": "QP8PWvxpQ9I",
+      "sourceUrl": "https://www.youtube.com/watch?v=QP8PWvxpQ9I",
+      "verified": false,
+      "publishedAt": "2026-09-12",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "TheAIGRID breaks down the cascading crisis at Anthropic following two high-profile safety researcher departures in rapid succession. Jacob Coxon resigned September 9 warning about self-improving superintelligence timelines, followed by Joe Benton on September 12 who warned humanity 'may not survive' the current AI development trajectory and that companies could undergo an intelligence explosion without the public knowing. The video examines whether the departures indicate Anthropic is hiding safety incidents and why both researchers chose METR as their next step.",
+      "keyConcepts": [
+        "Safety researcher exodus: Two senior Anthropic safety team members resigning within days, each issuing independent extinction-risk warnings",
+        "METR (Model Evaluation and Threat Research): The independent AI evaluation organization both researchers joined after leaving Anthropic",
+        "Intelligence explosion: The theoretical scenario where AI recursively improves itself faster than humans can monitor or control",
+        "Safety incident disclosure: Joe Benton's specific allegation that Anthropic may be concealing safety-relevant events from the public"
+      ],
+      "whyItMatters": "When safety researchers at a company explicitly founded on AI safety resign and warn about extinction-level risks, it signals a potential gap between Anthropic's public safety narrative and its internal practices. The dual departures and their shared destination (METR) suggest coordinated concern rather than individual disagreement.",
+      "tags": ["anthropic", "ai-safety", "researchers-resign", "joe-benton", "jacob-coxon", "existential-risk"],
+      "relatedIds": ["article-anthropic-houthi-claude-missile-2026-09-12", "article-anthropic-benton-resign-2026-09-12"],
+      "knowledgeChecks": [
+        {
+          "question": "What organization did both departing Anthropic safety researchers Joe Benton and Jacob Coxon join after resigning?",
+          "options": [
+            "OpenAI's safety team",
+            "The Center for AI Safety (CAIS)",
+            "METR (Model Evaluation and Threat Research)",
+            "The Future of Life Institute"
+          ],
+          "correctIndex": 2,
+          "explanation": "Both researchers chose to join METR, an independent organization that conducts autonomous evaluations of the capabilities and risks of advanced AI systems. Their shared destination signals coordinated concern about Anthropic's internal safety practices rather than personal career moves."
+        },
+        {
+          "question": "What specific allegation did Joe Benton make when departing Anthropic?",
+          "options": [
+            "That Anthropic's models were secretly trained on copyrighted material",
+            "That Anthropic may be concealing safety-relevant incidents from the public",
+            "That Anthropic was planning to release a dangerous model without adequate testing",
+            "That Anthropic's safety filters had been deliberately weakened to improve performance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Benton warned that a company could undergo an 'intelligence explosion' or lose control of its AI systems without the public ever knowing—implying that Anthropic's internal transparency about safety incidents is insufficient and that the public lacks visibility into what may be happening inside AI labs."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-benton-resign-2026-09-12",
+      "type": "article",
+      "title": "Anthropic Safety Researcher Joe Benton Resigns, Warns AI Race Poses Extinction-Level Risk",
+      "sourceUrl": "https://www.business-standard.com/technology/tech-news/another-anthropic-researcher-warns-of-ai-race-risks-after-quitting-126091200407_1.html",
+      "verified": false,
+      "publishedAt": "2026-09-12",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Joe Benton, a member of Anthropic's safety team, resigned on September 12 and issued a stark warning that humanity 'may not survive' the development of AI systems far more intelligent than humans. Benton argued that companies could undergo an intelligence explosion or lose control of their systems without the public ever knowing, and announced he was joining METR for independent AI evaluation work. His departure follows Jacob Coxon's exit three days earlier, making it two senior Anthropic safety researchers leaving in the same week with aligned extinction-risk warnings.",
+      "keyConcepts": [
+        "Extinction-level risk: Benton's characterization of the danger from developing AI systems smarter than all humans combined without adequate safety measures",
+        "Intelligence explosion: Theoretical rapid recursive self-improvement of AI that could outpace human ability to control or monitor it",
+        "Independent evaluation: METR's role in assessing AI capabilities and risks outside of the labs developing those systems",
+        "Transparency gap: The concern that AI labs may not disclose safety incidents that would trigger regulatory or public response"
+      ],
+      "whyItMatters": "Consecutive departures from Anthropic's safety team—with both researchers independently citing extinction-level risks and both joining the same external evaluation organization—represent a significant credibility signal. It puts pressure on Anthropic to publicly clarify its internal safety incident reporting practices.",
+      "tags": ["anthropic", "ai-safety", "joe-benton", "safety-researcher", "existential-risk", "metr"],
+      "relatedIds": ["youtube-QP8PWvxpQ9I", "article-anthropic-houthi-claude-missile-2026-09-12"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Joe Benton's primary stated reason for leaving Anthropic?",
+          "options": [
+            "He received a higher-paying offer from a competing AI lab",
+            "He disagreed with Anthropic's decision to release Claude Code publicly",
+            "He believed AI companies are not investing enough in safety while racing toward superhuman AI",
+            "He wanted to pursue academic research at a university AI lab"
+          ],
+          "correctIndex": 2,
+          "explanation": "Benton said he left to work from outside the company to raise public awareness about risks posed by increasingly powerful AI systems, specifically arguing that companies are racing to build systems 'much smarter than any human' without proportionate safety investment."
+        },
+        {
+          "question": "How many senior Anthropic safety researchers departed in the same week as Joe Benton's resignation?",
+          "options": [
+            "None — Benton was the first departure",
+            "One — Jacob Coxon had resigned three days earlier",
+            "Three — including a third unnamed researcher",
+            "Five — a coordinated mass resignation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Jacob Coxon resigned on September 9, warning about self-improving superintelligence timelines. Benton's departure on September 12 made it two senior safety researchers leaving Anthropic within the same week, both issuing independent but aligned extinction-risk warnings."
         }
       ]
     }
