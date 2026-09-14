@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T03:14:42.739Z",
+  "generatedAt": "2026-09-14T03:21:25.619Z",
   "weekOf": "2026-07-31",
   "coverageStart": "2026-07-31",
-  "coverageEnd": "2026-08-13",
+  "coverageEnd": "2026-08-14",
   "items": [
     {
       "id": "techcrunch-openai-agents-ran-amok-wider-probe",
@@ -4309,6 +4309,342 @@
           ],
           "correctIndex": 1,
           "explanation": "Ask YouTube launched in April 2026 for Premium subscribers on mobile before gradually expanding to desktop and eventually to all signed-in US users on August 13, 2026."
+        }
+      ]
+    },
+    {
+      "id": "youtube-oi_NNxCMjuM",
+      "type": "video",
+      "title": "AI News August 13, 2026: Anthropic Eyes Decart, DeepSeek V4 Pro GA, OpenAI Ultrafast, Gemini 3.7 Flash",
+      "youtubeId": "oi_NNxCMjuM",
+      "sourceUrl": "https://www.youtube.com/watch?v=oi_NNxCMjuM",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "WorldofAI's August 13 daily roundup covers the four biggest stories of the day: Anthropic's reported talks to acquire Israeli startup Decart for $6 billion, DeepSeek's official general-availability release of V4 Pro 0813, OpenAI and Cerebras unveiling Ultrafast mode for GPT-5.6 Sol at up to 750 tokens per second, and Google launching Gemini 3.7 Flash. The video contextualizes how these announcements together represent a significant single-day compression of the AI competitive landscape. Pricing pressure from DeepSeek and performance-per-dollar gains from OpenAI's Cerebras partnership are highlighted as key themes.",
+      "keyConcepts": [
+        "Anthropic acquisition strategy targeting inference efficiency",
+        "DeepSeek V4 Pro 0813 general availability release",
+        "OpenAI Ultrafast mode powered by Cerebras wafer-scale silicon",
+        "Gemini 3.7 Flash speed and cost improvements"
+      ],
+      "whyItMatters": "A single day saw four major competitive moves across the top AI labs — acquisition, model release, speed partnership, and Google's latest Flash iteration — signaling that the pace of the AI arms race has meaningfully accelerated in mid-2026.",
+      "tags": [
+        "ai-news-roundup",
+        "worldofai",
+        "deepseek",
+        "anthropic",
+        "openai",
+        "google"
+      ],
+      "relatedIds": [
+        "article-fortune-anthropic-decart",
+        "article-techcrunch-openai-ultrafast",
+        "article-axios-gemini-3-7-flash"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What Israeli AI startup is Anthropic reportedly in talks to acquire for approximately $6 billion?",
+          "options": [
+            "Wix AI",
+            "Decart",
+            "Tabnine",
+            "Cohere"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic is in talks to acquire Decart, an Israeli startup that specializes in world models, real-time generative video, and GPU optimization software that could reduce training and inference costs."
+        },
+        {
+          "question": "Which chip company is powering OpenAI's new Ultrafast mode for GPT-5.6 Sol?",
+          "options": [
+            "NVIDIA",
+            "AMD",
+            "Intel",
+            "Cerebras"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI partnered with Cerebras and its Wafer Scale Engine hardware to power Ultrafast mode, enabling GPT-5.6 Sol to generate up to 750 output tokens per second — 14x faster than standard processing."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-anthropic-decart",
+      "type": "article",
+      "title": "Anthropic Said in Talks to Buy Israeli AI Startup Decart for $6 Billion",
+      "sourceUrl": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Anthropic is in early-stage talks to acquire Decart, an Israel-based AI startup, for approximately $6 billion — a deal that would be Anthropic's largest acquisition by far. Decart specializes in world models, real-time interactive video generation, and GPU optimization software (its DOS platform) that makes chip inference more cost-efficient. If completed, Decart's team would join Anthropic's inference and performance organization ahead of Anthropic's widely anticipated IPO.",
+      "keyConcepts": [
+        "Decart's world models and real-time video generation (Lucy, Oasis)",
+        "GPU optimization software (DOS training/inference platform)",
+        "Anthropic's IPO preparation and scaling needs",
+        "Strategic M&A to reduce inference costs at scale"
+      ],
+      "whyItMatters": "An Anthropic acquisition of Decart would signal that frontier AI labs are shifting from pure model R&D to vertical integration of the infrastructure layer — owning both the model and the silicon efficiency stack — a move with major implications for AI pricing and competitive moats.",
+      "tags": [
+        "anthropic",
+        "decart",
+        "acquisition",
+        "ai-infrastructure",
+        "inference-efficiency",
+        "ipo"
+      ],
+      "relatedIds": [
+        "youtube-oi_NNxCMjuM"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Anthropic reportedly interested in acquiring Decart specifically?",
+          "options": [
+            "To gain a consumer social media platform",
+            "To acquire Decart's chip efficiency software and world model capabilities for inference scaling",
+            "To enter the robotics hardware market",
+            "To obtain EU regulatory approvals for Claude"
+          ],
+          "correctIndex": 1,
+          "explanation": "Decart's GPU optimization software can reduce AI training and inference costs by improving chip efficiency. Anthropic wants this technology to handle surging Claude demand ahead of its IPO, with Decart's team joining the inference and performance organization."
+        },
+        {
+          "question": "What deal stage describes the Anthropic-Decart acquisition as of August 13, 2026?",
+          "options": [
+            "Signed and closed",
+            "Announced publicly by both companies",
+            "Early-stage talks that could still fall through",
+            "Blocked by antitrust regulators"
+          ],
+          "correctIndex": 2,
+          "explanation": "Multiple sources confirmed the talks are at an early stage and both Anthropic and Decart declined to comment. Deals of this size fall through frequently, so 'in talks' should be taken literally rather than as a done deal."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-openai-ultrafast",
+      "type": "article",
+      "title": "OpenAI Introduces 'Ultrafast,' a New Mode That Makes GPT-5.6 Sol Run at 14x the Speed",
+      "sourceUrl": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "OpenAI previewed Ultrafast, a new service tier for GPT-5.6 Sol in the OpenAI API, powered by Cerebras' Wafer Scale Engine hardware. Ultrafast generates up to 750 output tokens per second — 14x faster than standard processing — making it viable for latency-critical applications like financial research, incident response, voice interfaces, and live customer support. The tier is currently in limited preview for select API customers, with expanded rollout expected as capacity grows.",
+      "keyConcepts": [
+        "Cerebras Wafer Scale Engine silicon for inference",
+        "750 tokens/second output throughput",
+        "Latency-critical enterprise use cases (finance, voice, support)",
+        "Limited API preview with capacity-gated rollout"
+      ],
+      "whyItMatters": "Ultrafast mode demonstrates that raw model intelligence is increasingly table stakes — the next AI competitive axis is response latency, with sub-second reasoning unlocking entirely new product categories like real-time voice agents and live trading systems that were previously impractical with standard API speeds.",
+      "tags": [
+        "openai",
+        "gpt-5-6-sol",
+        "ultrafast",
+        "cerebras",
+        "inference-speed",
+        "ai-api"
+      ],
+      "relatedIds": [
+        "youtube-oi_NNxCMjuM",
+        "article-axios-gemini-3-7-flash"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How many output tokens per second can GPT-5.6 Sol generate in Ultrafast mode?",
+          "options": [
+            "100",
+            "250",
+            "500",
+            "750"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ultrafast mode, powered by Cerebras hardware, enables GPT-5.6 Sol to generate up to 750 output tokens per second, which is approximately 14x faster than the standard processing tier."
+        },
+        {
+          "question": "Which of the following is NOT listed as a primary use case for OpenAI's Ultrafast mode?",
+          "options": [
+            "Financial research",
+            "Voice applications",
+            "Long-form essay generation",
+            "Incident response"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI specifically highlights financial research, voice applications, incident response, customer support, and live experimentation as Ultrafast use cases. Long-form essay generation doesn't particularly benefit from 750 token/second throughput since reading speed is the bottleneck."
+        }
+      ]
+    },
+    {
+      "id": "article-axios-gemini-3-7-flash",
+      "type": "article",
+      "title": "Google Launches Gemini 3.7 Flash, Cutting Coding Benchmark Scores and Price in Half",
+      "sourceUrl": "https://www.axios.com/2026/08/13/google-gemini-37-flash",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Google released Gemini 3.7 Flash on August 13, just 23 days after Gemini 3.6 Flash — its fastest Flash iteration cadence yet. The new model is a refined version of 3.6 Flash with algorithmic improvements to its reasoning core, not a full new pretraining run. Key benchmark gains include DeepSWE v1.1 jumping from 49.0% to 65.3% and FrontierCode 1.1 rising from 34.4% to 43.6%, particularly in software engineering and web development tasks. Pricing is halved at launch to $0.75 per million input tokens, with the introductory rate expiring December 31, 2026.",
+      "keyConcepts": [
+        "23-day Flash iteration cycle — fastest Google has moved between Flash versions",
+        "DeepSWE and FrontierCode benchmark improvements targeting coding/agents",
+        "Introductory pricing at $0.75/M input, $3.75/M output (expiring Dec 31, 2026)",
+        "Gemini 3.5 Pro main model still delayed"
+      ],
+      "whyItMatters": "Google's accelerating Flash release cadence suggests the company is iterating its workhorse tier at a much faster pace than its flagship models, keeping Gemini Flash competitive for cost-sensitive developers while Gemini 3.5 Pro continues to slip — a pattern that could reshape which Gemini tier enterprises actually standardize on.",
+      "tags": [
+        "google",
+        "gemini-3-7-flash",
+        "llm",
+        "ai-coding",
+        "model-pricing",
+        "benchmarks"
+      ],
+      "relatedIds": [
+        "youtube-oi_NNxCMjuM",
+        "article-techcrunch-openai-ultrafast"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "How quickly did Google release Gemini 3.7 Flash after its predecessor Gemini 3.6 Flash?",
+          "options": [
+            "3 months",
+            "6 weeks",
+            "23 days",
+            "1 year"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google released Gemini 3.7 Flash just 23 days after Gemini 3.6 Flash, marking its fastest-ever Flash iteration cadence and signaling an accelerating pace of incremental model improvements."
+        },
+        {
+          "question": "What happened to Gemini 3.7 Flash's price at launch compared to Gemini 3.6 Flash?",
+          "options": [
+            "It doubled to $1.50 per million input tokens",
+            "It stayed the same",
+            "It was halved to $0.75 per million input tokens",
+            "It was made free during the preview period"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini 3.7 Flash launched at an introductory price of $0.75 per million input tokens — half the original Gemini 3.6 Flash rate. The introductory pricing expires December 31, 2026, after which it reverts to $1.50."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-ibm-openai",
+      "type": "article",
+      "title": "IBM Partners With OpenAI to Bolster Enterprise AI Push",
+      "sourceUrl": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "verified": false,
+      "publishedAt": "2026-08-13",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "IBM and OpenAI announced a broad strategic partnership to deploy AI across enterprise core operations, with IBM Consulting Advantage incorporating OpenAI's GPT-5.6, Codex, and ChatGPT Work products. IBM will establish a dedicated OpenAI practice within IBM Consulting and train tens of thousands of consultants on OpenAI technologies over the coming months, while joining OpenAI's Elite partner tier. The collaboration targets regulated sectors including financial services, telecommunications, government, and retail.",
+      "keyConcepts": [
+        "IBM Consulting Advantage integration with GPT-5.6 and Codex",
+        "IBM joins OpenAI's Elite partner tier",
+        "Tens of thousands of IBM consultants to be certified on OpenAI tools",
+        "Target sectors: financial services, telecom, government, retail"
+      ],
+      "whyItMatters": "IBM's deep enterprise trust relationships in regulated industries give OpenAI a distribution channel it has historically lacked — this partnership positions IBM as a primary SI (systems integrator) for OpenAI deployments in Fortune 500 and government accounts where direct OpenAI sales are slower.",
+      "tags": [
+        "ibm",
+        "openai",
+        "enterprise-ai",
+        "ai-consulting",
+        "gpt-5-6",
+        "partnership"
+      ],
+      "relatedIds": [
+        "article-techcrunch-openai-ultrafast",
+        "article-fortune-openai-cro"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Which OpenAI models will be integrated into IBM Consulting Advantage as part of the partnership?",
+          "options": [
+            "GPT-4o and DALL-E 3",
+            "GPT-5.6, Codex, and ChatGPT Work",
+            "o3 and o4-mini only",
+            "Sora and Whisper"
+          ],
+          "correctIndex": 1,
+          "explanation": "The IBM-OpenAI partnership integrates GPT-5.6, Codex (for software development), and ChatGPT Work into IBM Consulting Advantage, targeting enterprise workflows across finance, customer operations, procurement, and HR."
+        },
+        {
+          "question": "What IBM partner tier does the company join as part of the OpenAI deal?",
+          "options": [
+            "Standard tier",
+            "Preferred tier",
+            "Elite tier",
+            "Founding partner tier"
+          ],
+          "correctIndex": 2,
+          "explanation": "IBM joins OpenAI's Elite partner tier as part of the strategic agreement, the highest designation in OpenAI's partner program, reflecting the depth and scale of the planned integration across IBM Consulting."
+        }
+      ]
+    },
+    {
+      "id": "article-fortune-openai-cro",
+      "type": "article",
+      "title": "OpenAI Swaps Chief Revenue Officer Amid Ongoing Executive Departures",
+      "sourceUrl": "https://fortune.com/2026/08/14/openai-swaps-chief-revenue-officer-amid-executive-departures/",
+      "verified": false,
+      "publishedAt": "2026-08-14",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "OpenAI is replacing chief revenue officer Denise Dresser, who is departing less than a year into the role, with Dali Rajic — the former president and COO of cybersecurity company Wiz. The executive change continues a pattern of C-suite churn at OpenAI as the company scales aggressively toward enterprise revenue ahead of a potential IPO. Rajic's cybersecurity background is seen as relevant given OpenAI's growing partnerships with enterprise and government security clients, including the newly announced IBM deal.",
+      "keyConcepts": [
+        "CRO Denise Dresser departure after less than one year in role",
+        "Dali Rajic (ex-Wiz COO) named as incoming CRO",
+        "Ongoing C-suite turnover pattern at frontier AI labs",
+        "Enterprise revenue expansion critical ahead of potential IPO"
+      ],
+      "whyItMatters": "Frequent executive turnover at OpenAI's revenue leadership level signals the difficulty of scaling enterprise sales at the speed Sam Altman wants — finding leaders who can bridge technical credibility with Fortune 500 procurement cycles is genuinely hard, and the churn creates relationship risk for major accounts.",
+      "tags": [
+        "openai",
+        "leadership",
+        "enterprise-sales",
+        "cro",
+        "executive-change",
+        "ipo"
+      ],
+      "relatedIds": [
+        "article-techcrunch-ibm-openai",
+        "article-techcrunch-openai-ultrafast"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "Who is replacing Denise Dresser as OpenAI's Chief Revenue Officer?",
+          "options": [
+            "Brad Lightcap",
+            "Kevin Weil",
+            "Dali Rajic",
+            "Nick Turley"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dali Rajic, the former president and COO of cybersecurity company Wiz, is replacing Denise Dresser as OpenAI's Chief Revenue Officer."
+        },
+        {
+          "question": "How long did Denise Dresser serve as OpenAI's CRO before departing?",
+          "options": [
+            "More than 3 years",
+            "About 2 years",
+            "Less than one year",
+            "She was never officially appointed"
+          ],
+          "correctIndex": 2,
+          "explanation": "Denise Dresser is departing less than a year after being appointed as OpenAI's Chief Revenue Officer, continuing a pattern of rapid turnover in the company's revenue leadership."
         }
       ]
     }

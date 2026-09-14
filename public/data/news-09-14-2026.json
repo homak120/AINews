@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-09-14T12:00:00.000Z",
+  "weekOf": "2026-09-14",
+  "coverageStart": "2026-09-13",
+  "coverageEnd": "2026-09-14",
+  "items": [
+    {
+      "id": "article-altman-musk-amodei-ai-slowdown-2026-09-13",
+      "type": "article",
+      "title": "Altman and Musk Publicly Endorse Amodei's Call to Slow AI Development",
+      "sourceUrl": "https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/",
+      "verified": false,
+      "publishedAt": "2026-09-13",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "In an unusual moment of cross-company alignment, OpenAI CEO Sam Altman and xAI founder Elon Musk both publicly endorsed Anthropic CEO Dario Amodei's 'We Must Pace the Frontier' essay, which called for deliberate slowing of AI capability improvements. Altman wrote 'I agree with Dario that we need to pace the frontier,' while Musk expressed similar agreement on X. Amodei's essay warns that recursive self-improvement has been accelerating AI capabilities since summer 2026, and within 6–12 months AI agent swarms could be capable of taking over the entire internet with persistent botnets causing hundreds of billions in damage.",
+      "keyConcepts": [
+        "Recursive self-improvement (RSI): AI systems increasingly contributing to building the next generation of AI, creating a compounding acceleration that human oversight struggles to track",
+        "Pacing the frontier: Amodei's proposal to deliberately slow capability improvements while safety and governance catch up, now endorsed by three of the major frontier AI labs",
+        "Independent evaluators: Anthropic's unilateral commitment to give organizations like METR permanent, employee-level access to systems and the right to publish findings without editorial control",
+        "AI capability overhang: The gap between what AI can technically do and what societal safeguards, regulations, and institutional frameworks are prepared to handle"
+      ],
+      "whyItMatters": "Having Altman, Musk, and Amodei simultaneously advocate for slowing AI development is historically unprecedented and signals that frontier lab leaders now share a concrete safety concern—not just rhetorical alignment. It raises the question of whether voluntary pacing can work without coordinated international pressure on actors who don't sign on.",
+      "tags": ["ai-safety", "anthropic", "openai", "xai", "amodei", "altman", "recursive-self-improvement", "pacing"],
+      "relatedIds": ["article-deepseek-v41-flash-routing-2026-09-14"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific catastrophic scenario did Dario Amodei warn could occur within 6–12 months if AI pacing is not adopted?",
+          "options": [
+            "AI systems autonomously trading on stock markets and triggering a global financial crash",
+            "AI agent swarms taking over the entire internet with a persistent botnet causing hundreds of billions in damage",
+            "AI models leaking their training data and exposing billions of users' personal information",
+            "AI systems autonomously rewriting their own code to bypass safety filters"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amodei specifically warned that within 6–12 months, AI capable of recursive self-improvement could orchestrate a swarm that seizes control of the internet via a persistent botnet, potentially causing hundreds of billions of dollars in damage—a scenario already partially foreshadowed by the PaperCut AI agent attack campaign."
+        },
+        {
+          "question": "What did Anthropic announce as a concrete unilateral action in Amodei's 'We Must Pace the Frontier' essay?",
+          "options": [
+            "A six-month moratorium on training new frontier models",
+            "Giving independent evaluators like METR permanent employee-level access and the right to publish findings freely",
+            "Sharing all model weights with the open-source community",
+            "Requiring government approval before releasing any new model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic announced it would unilaterally give evaluators like METR permanent, employee-like access—including office desks, badges, and the right to publish findings without Anthropic's editorial control. This is a meaningful structural commitment rather than a policy statement, because it removes Anthropic's veto over evaluation results."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v41-flash-routing-2026-09-14",
+      "type": "article",
+      "title": "DeepSeek Retires V4-Pro: All API Traffic Now Routes to V4.1 Flash Starting September 14",
+      "sourceUrl": "https://cellcog.ai/blog/deepseek-v4-1-flash-release-date/",
+      "verified": false,
+      "publishedAt": "2026-09-14",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Starting at 04:00 UTC on September 14, DeepSeek began routing all requests to the deepseek-v4-pro API endpoint to V4.1 Flash, billing callers at Flash prices. V4.1 Flash, released September 10, is a 552B-parameter Mixture-of-Experts model that outperforms V4-Pro across benchmarks while costing significantly less at $0.15/$0.60 per million tokens off-peak. Key architectural advances include LPDDR5X commodity memory instead of HBM (dramatically reducing memory constraints), a 1M token context window with native image input, and MIT-licensed open weights enabling local deployment.",
+      "keyConcepts": [
+        "Forced migration: DeepSeek routing deepseek-v4-pro calls to V4.1 Flash means developers get the newer model's behavior whether they've opted in or not—a significant compatibility consideration",
+        "MoE efficiency: V4.1 Flash activates only 8B/16B parameters per token despite having 552B total, enabling frontier performance at a fraction of inference cost",
+        "LPDDR5X vs HBM: Using commodity low-power memory instead of high-bandwidth memory sidesteps supply constraints while cutting per-chip memory costs significantly",
+        "MIT open weights: Unlike its proprietary predecessors, V4.1 Flash's weights are MIT-licensed, allowing commercial use, fine-tuning, and local deployment without API fees"
+      ],
+      "whyItMatters": "DeepSeek's forced migration pattern—releasing a cheaper, faster model that beats the flagship, then routing all traffic to it—compresses the price-performance frontier faster than competitors who maintain both tiers. Combined with MIT licensing of the weights, V4.1 Flash continues DeepSeek's pattern of collapsing AI inference economics and pressuring closed-model providers on both cost and openness.",
+      "tags": ["deepseek", "v4-1-flash", "llm", "open-source", "inference", "model-release", "mit-license"],
+      "relatedIds": ["article-altman-musk-amodei-ai-slowdown-2026-09-13"],
+      "knowledgeChecks": [
+        {
+          "question": "What architectural choice did DeepSeek make in V4.1 Flash that differs from most frontier models and reduces supply constraints?",
+          "options": [
+            "Using custom DeepSeek-designed TPU chips instead of NVIDIA GPUs",
+            "Using commodity LPDDR5X memory instead of high-bandwidth memory (HBM)",
+            "Running entirely on CPUs using a highly optimized inference engine",
+            "Distributing inference across thousands of small consumer-grade GPUs"
+          ],
+          "correctIndex": 1,
+          "explanation": "V4.1 Flash uses between 288GB and 2,304GB of LPDDR5X commodity memory per chip rather than the expensive, supply-constrained HBM used by most frontier models. This reduces per-chip memory cost dramatically and sidesteps the HBM bottleneck that limits production of competing inference hardware."
+        },
+        {
+          "question": "What is the practical consequence for developers using the deepseek-v4-pro API endpoint starting September 14, 2026?",
+          "options": [
+            "Their API calls will be rejected until they manually migrate to the v4.1 Flash endpoint",
+            "They will continue paying V4-Pro prices but receive V4.1 Flash responses",
+            "Their requests are now served by V4.1 Flash and billed at the lower Flash pricing automatically",
+            "They must purchase new API keys to access V4.1 Flash through the Pro endpoint"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek transparently migrated the deepseek-v4-pro endpoint: existing code continues working unchanged but now runs V4.1 Flash under the hood and is billed at the lower Flash pricing ($0.15/$0.60 per million tokens off-peak). Developers get better performance at lower cost without changing anything in their code."
+        }
+      ]
+    }
+  ]
+}
