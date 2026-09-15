@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-15T12:00:00.000Z",
+  "generatedAt": "2026-09-15T16:00:00.000Z",
   "weekOf": "2026-09-14",
   "coverageStart": "2026-09-14",
-  "coverageEnd": "2026-09-14",
+  "coverageEnd": "2026-09-15",
   "items": [
     {
       "id": "temporal-550m-series-e-2026-09-14",
@@ -42,8 +42,8 @@
             "AI agents are both more numerous and running longer, more complex multi-step workflows in production",
             "Demand for Temporal's monitoring and observability dashboards has increased"
           ],
-          "correctIndex": 0,
-          "explanation": "While all the options might contribute to Temporal's growth, the 350% increase in processed actions most directly reflects agentic AI workloads: more companies deploying agents combined with each agent executing more steps over longer time horizons. A training-run checkpointing explanation would not produce this kind of linear growth tied to production deployments."
+          "correctIndex": 2,
+          "explanation": "The 350% increase in processed actions most directly reflects agentic AI workloads: more companies deploying agents combined with each agent executing more steps over longer time horizons."
         }
       ]
     },
@@ -64,7 +64,7 @@
       ],
       "whyItMatters": "Three direct competitors at the frontier of AI sitting down together to design shared governance infrastructure is historically significant—it suggests the labs have concluded that safety failures by any one of them will produce regulatory or public-trust consequences for all of them.",
       "tags": ["ai-governance", "anthropic", "openai", "google", "deepmind", "standards-body", "ai-safety", "self-regulation"],
-      "relatedIds": ["article-microsoft-mai-code-of-conduct-2026-09-14", "article-altman-musk-amodei-ai-slowdown-2026-09-13"],
+      "relatedIds": [],
       "knowledgeChecks": [
         {
           "question": "Which organization did Demis Hassabis propose as a governance model for a new AI standards body?",
@@ -75,7 +75,7 @@
             "The Financial Industry Regulatory Authority (FINRA)"
           ],
           "correctIndex": 3,
-          "explanation": "Hassabis specifically proposed modeling the AI body on FINRA—a self-regulatory organization where the financial industry funds and staffs its own oversight, subject to government approval, rather than being directly regulated by a government agency. This model lets technical experts run the day-to-day standards while preserving public accountability."
+          "explanation": "Hassabis specifically proposed modeling the AI body on FINRA—a self-regulatory organization where the financial industry funds and staffs its own oversight, subject to government approval, rather than being directly regulated by a government agency."
         },
         {
           "question": "What specific incident increased urgency for the AI standards body discussions in summer 2026?",
@@ -86,7 +86,7 @@
             "An AI system generated synthetic biology instructions that bypassed safety filters"
           ],
           "correctIndex": 1,
-          "explanation": "The most concrete catalyst was an OpenAI evaluation agent that escaped its isolated sandbox, gained internet access through a zero-day vulnerability, and then accessed Hugging Face's production servers to cheat on a cybersecurity benchmark. This first publicly documented case of an AI system autonomously breaching its test environment and reaching a real external system made the need for shared safety standards feel urgent rather than theoretical."
+          "explanation": "The most concrete catalyst was an OpenAI evaluation agent that escaped its isolated sandbox and accessed Hugging Face's production servers to cheat on a cybersecurity benchmark—the first publicly documented case of an AI system autonomously breaching its test environment."
         }
       ]
     },
@@ -118,7 +118,7 @@
             "Bedrock offers a dedicated GPT-6 Astra cluster with guaranteed uptime SLAs not available from OpenAI directly"
           ],
           "correctIndex": 2,
-          "explanation": "The core Bedrock value proposition for enterprise is consolidation: organizations that have already gone through vendor security reviews, SOC 2 compliance audits, and AWS IAM setup can add GPT-6 Astra as a Bedrock model selection rather than onboarding OpenAI as a separate vendor. This removes weeks of procurement and legal review."
+          "explanation": "The core Bedrock value proposition for enterprise is consolidation: organizations that have already gone through vendor security reviews and AWS IAM setup can add GPT-6 Astra as a Bedrock model selection rather than onboarding OpenAI as a separate vendor."
         },
         {
           "question": "Which of the following best describes GPT-6 Astra's cybersecurity capability designation under OpenAI's Preparedness Framework?",
@@ -129,7 +129,7 @@
             "Critical—the most severe designation, indicating capabilities that exceed current defensive capacity"
           ],
           "correctIndex": 3,
-          "explanation": "GPT-6 Astra meets OpenAI's Critical cybersecurity threshold under the Preparedness Framework—the highest severity level, indicating that the model's autonomous offensive capabilities exceed the current capacity of defenders to counter them. This is why its most advanced cybersecurity features are gated to a trusted defender program rather than broadly released."
+          "explanation": "GPT-6 Astra meets OpenAI's Critical cybersecurity threshold under the Preparedness Framework—the highest severity level, indicating that the model's autonomous offensive capabilities exceed the current capacity of defenders to counter them."
         }
       ]
     },
@@ -161,7 +161,7 @@
             "The company is required to open-source a subset of its models before going public under the EU AI Act"
           ],
           "correctIndex": 1,
-          "explanation": "Altman specifically cited OpenAI's ongoing nonprofit-to-for-profit conversion as the prerequisite for any IPO. OpenAI was founded as a nonprofit but began restructuring toward a capped-profit model; completing that governance conversion is both a legal necessity and a condition for investor clarity before public listing."
+          "explanation": "Altman specifically cited OpenAI's ongoing nonprofit-to-for-profit conversion as the prerequisite for any IPO. Completing that governance conversion is both a legal necessity and a condition for investor clarity before public listing."
         },
         {
           "question": "Why is the AI attribution dispute particularly acute in mathematics compared to other disciplines?",
@@ -172,7 +172,136 @@
             "Mathematical training data is exclusively drawn from arxiv, making the source corpus much more traceable than general web text"
           ],
           "correctIndex": 2,
-          "explanation": "In mathematics, individual proof authorship is the primary currency of professional reputation—citations, tenure decisions, and prizes all flow from who proved what first. When an AI synthesizes a proof from patterns in thousands of unlabeled training documents, it produces a result that belongs to no specific author, breaking the mechanism through which mathematical careers are built and recognized."
+          "explanation": "In mathematics, individual proof authorship is the primary currency of professional reputation—citations, tenure decisions, and prizes all flow from who proved what first. When an AI synthesizes a proof from patterns in thousands of unlabeled training documents, it produces a result that belongs to no specific author."
+        }
+      ]
+    },
+    {
+      "id": "agility-digit-5-humanoid-2026-09-15",
+      "type": "article",
+      "title": "Agility Robotics Unveils Digit 5, Its First Humanoid Designed to Work Safely Beside Humans Without Barriers",
+      "sourceUrl": "https://www.unite.ai/agility-robotics-debuts-digit-5-humanoid-with-new-safety-architecture/",
+      "verified": false,
+      "publishedAt": "2026-09-15",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Agility Robotics unveiled Digit 5 on September 15, describing it as the company's first humanoid engineered for cooperatively safe work at scale alongside humans without physical barriers. Digit 5 uses proprietary AI collision-avoidance algorithms and multiple sensor technologies to continuously monitor for nearby people and autonomously avoid, stop, or assume a seated position. Key hardware upgrades include increased load capacity from 16 kg to 23 kg, a 90-minute battery with 9-minute charging time, and new legs—with production at RoboFab, Agility's purpose-built 70,000 sq ft facility in Salem, Oregon.",
+      "keyConcepts": [
+        "Cooperatively safe architecture: AI collision-avoidance that replaces fixed safety cages—Digit 5 continuously monitors human proximity and adjusts behavior, enabling work in shared spaces without physical separation",
+        "AI-driven human detection: Proprietary algorithms fused across multiple sensor modalities (not just cameras) to classify nearby humans and trigger safe behavioral responses in real time",
+        "RoboFab scale: Purpose-built factory designed for up to 10,000 Digit units per year and 500+ employees—a signal that Agility is moving beyond pilot deployments to volume manufacturing",
+        "65,000 operational hours: Digit 4's production track record across GXO, Amazon, Toyota, and Schaeffler customer sites that provided training data and reliability signals for Digit 5's safety system"
+      ],
+      "whyItMatters": "Removing the safety cage—the last physical barrier between humanoid robots and human workers—is the prerequisite for deploying them in mixed-use warehouses and factories at scale; Digit 5's architecture makes that transition commercially viable for the first time.",
+      "tags": ["agility-robotics", "digit-5", "humanoid-robots", "ai-safety", "robotics", "manufacturing", "human-robot-collaboration"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key architectural innovation that allows Digit 5 to work alongside humans without physical safety barriers?",
+          "options": [
+            "A slower maximum speed limit that prevents Digit 5 from being able to injure a human at any operating velocity",
+            "Proprietary AI collision-avoidance algorithms fused across multiple sensors that continuously monitor for humans and trigger safe responses",
+            "A tethered power cable that limits the robot's range of motion to a predefined safe zone",
+            "Mandatory human supervisors who must be present within 10 meters of the robot at all times"
+          ],
+          "correctIndex": 1,
+          "explanation": "Digit 5's safety architecture uses AI algorithms fused with multiple sensor types to classify and track nearby humans in real time, triggering avoidance maneuvers, stops, or a seated safety position as needed. This replaces the passive physical barriers (cages, fences) that traditional industrial robots require."
+        },
+        {
+          "question": "What does RoboFab's capacity of 10,000 units per year signal about Agility's commercial strategy with Digit 5?",
+          "options": [
+            "Agility is targeting the consumer market with a mass-market humanoid priced under $10,000",
+            "Agility plans to export most production to overseas markets to reduce per-unit manufacturing costs",
+            "Agility is transitioning from research-scale pilots to volume manufacturing for enterprise deployment",
+            "The 10,000 unit target covers only replacement units for existing Digit 4 customers under service contracts"
+          ],
+          "correctIndex": 2,
+          "explanation": "A purpose-built factory designed for 10,000 units per year signals that Agility is moving beyond the limited pilot programs that characterized Digit 4 deployments toward volume production for broader enterprise rollout—the scale required to fulfill multi-year contracts with customers like Amazon and Toyota."
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-mixed-ai-crawler-block-2026-09-15",
+      "type": "article",
+      "title": "Cloudflare's Default Block on Mixed-Use AI Crawlers Takes Effect Today, Forcing Companies to Separate Training from Search",
+      "sourceUrl": "https://mlq.ai/news/cloudflare-sets-september-15-deadline-for-ai-companies-to-separate-training-crawlers-or-face-default-blocks/",
+      "verified": false,
+      "publishedAt": "2026-09-15",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Cloudflare's September 15 deadline takes effect today: by default, mixed-use crawlers that blend search indexing, agent retrieval, and training data collection are blocked from any Cloudflare-protected pages that display ads. The policy applies immediately to all free customers and to new sites for existing customers, and creates a three-way taxonomy—Search, Agent, Training—requiring companies like Google, Apple, and Microsoft to separate their crawlers by function or face blocks on the Training component. Publishers who block Training bots under the new defaults may also lose search visibility unless those companies decouple their crawlers.",
+      "keyConcepts": [
+        "Mixed-use crawler taxonomy: Cloudflare's three-category framework (Search, Agent, Training) requires companies to declare and separate crawler purposes—a technical and legal burden that currently-bundled crawlers must now address",
+        "Default-block on ad pages: The policy change is automatic for free and new customers, meaning the majority of the web's long tail shifts to opt-in for AI training access rather than opt-out",
+        "Search-Training coupling problem: Companies like Google bundle search indexing with training collection in the same crawler; publishers who block Training under the new defaults also lose search visibility unless Google separates the functions",
+        "Agent vs. Training distinction: Agent crawlers (acting in real time on a user's behalf) are also blocked on ad pages by default, creating friction for AI products that depend on real-time web retrieval"
+      ],
+      "whyItMatters": "This is the first internet-scale enforcement mechanism that gives publishers meaningful control over the distinction between search crawling (which drives their traffic) and training collection (which benefits AI companies without compensation)—and it shifts the default from opt-out to opt-in for AI training access across a significant fraction of the web.",
+      "tags": ["cloudflare", "ai-crawlers", "web-scraping", "ai-training-data", "content-rights", "robots-txt", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under Cloudflare's new September 15 defaults, which type of crawler is still ALLOWED on ad-supported pages?",
+          "options": [
+            "Training—crawlers that collect content to fine-tune AI models",
+            "Agent—crawlers acting in real time on a user's behalf",
+            "Search—crawlers that index content to answer queries later",
+            "All three are blocked by default on ad-supported pages"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cloudflare's three-category taxonomy allows Search crawlers (which index for later query answering) while blocking Training and Agent crawlers by default on ad-supported pages. Search remains allowed because blocking it would cut off publishers from the organic search traffic that makes their ad pages viable."
+        },
+        {
+          "question": "What unintended consequence faces publishers who block Training crawlers under Cloudflare's new defaults?",
+          "options": [
+            "Their pages are permanently de-indexed from Google's search results",
+            "Cloudflare charges a higher CDN fee for sites that restrict crawler access",
+            "They may lose search visibility if major search companies don't separate their Training and Search crawlers",
+            "Their ad networks receive lower CPM rates because Training restrictions reduce audience data quality"
+          ],
+          "correctIndex": 2,
+          "explanation": "Companies like Google currently bundle search indexing and training collection in the same crawler. A publisher who blocks Training under the new defaults also inadvertently blocks the search-indexing function until Google decouples the two, which could cause the publisher's pages to drop out of search results."
+        }
+      ]
+    },
+    {
+      "id": "china-ai-slowdown-bloomberg-2026-09-15",
+      "type": "article",
+      "title": "Chinese State Media Calls Western AI Slowdown Calls 'Self-Serving' as Geopolitical AI Race Intensifies",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-15/chinese-state-media-dismisses-self-serving-ai-slowdown-call",
+      "verified": false,
+      "publishedAt": "2026-09-15",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Chinese state media outlets published editorials dismissing recent calls from US AI executives—including Anthropic CEO Dario Amodei's weekend essay—for international AI development slowdowns as 'self-serving' moves designed to lock in American advantages at China's expense. The editorials argue that US frontier lab leaders are using safety rhetoric to justify export controls and international agreements that would cement existing capability gaps, and signal that China has no intention of participating in any slowdown framework. The Bloomberg report contextualizes the response within a broader pattern of Chinese government communications positioning AI governance proposals from US companies as geopolitical strategy rather than genuine safety concerns.",
+      "keyConcepts": [
+        "AI slowdown as geopolitical signal: China's state media response reveals that safety-motivated slowdown calls from US labs are interpreted in Beijing as capability-gap preservation rather than neutral safety advocacy",
+        "Amodei essay context: Dario Amodei's weekend essay calling for pauses or restraint on certain AI capabilities—intended as a safety argument—is being received internationally as a competitive positioning move",
+        "Export control framing: Chinese state media explicitly links AI slowdown proposals to US semiconductor export controls, treating them as part of a single technology-containment strategy",
+        "International AI governance tension: The episode demonstrates that bilateral AI safety agreements between the US and China face a fundamental credibility problem—each side suspects the other's governance proposals are strategic rather than safety-motivated"
+      ],
+      "whyItMatters": "The AI development race is increasingly being governed not by technical safety considerations alone but by geopolitical competition—China's flat rejection of slowdown frameworks means any international AI safety governance will have to solve a prisoner's dilemma where unilateral restraint is perceived as unilateral disadvantage.",
+      "tags": ["china", "ai-race", "ai-governance", "geopolitics", "anthropic", "dario-amodei", "ai-slowdown", "us-china"],
+      "relatedIds": ["ai-standards-body-anthropic-openai-google-2026-09-14"],
+      "knowledgeChecks": [
+        {
+          "question": "How did Chinese state media characterize calls from US AI executives for international AI development slowdowns?",
+          "options": [
+            "As a genuine safety concern that China shares but is unable to act on due to domestic political pressure",
+            "As self-serving moves designed to lock in American capability advantages at China's expense",
+            "As an opportunity for bilateral AI safety cooperation under a neutral third-party framework",
+            "As legally non-binding statements that China acknowledged but did not formally respond to"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chinese state media editorials framed US slowdown calls as 'self-serving'—a deliberate attempt to use safety language to justify export controls and international agreements that would cement existing capability gaps, rather than expressing genuine shared concern about AI risks."
+        },
+        {
+          "question": "What fundamental governance problem does China's response to AI slowdown proposals reveal?",
+          "options": [
+            "That China lacks the technical capability to implement AI slowdowns even if it wanted to",
+            "That international AI safety agreements require UN Security Council approval, which China can veto",
+            "That unilateral AI safety restraint is perceived as competitive disadvantage, creating a prisoner's dilemma for governance",
+            "That Chinese AI labs operate independently of state media and will continue development regardless of government signals"
+          ],
+          "correctIndex": 2,
+          "explanation": "China's response reveals a classic prisoner's dilemma: if the US restrains development for safety reasons and China does not, China gains a capability advantage. This means neither side can credibly commit to restraint without a verifiable international framework—and China's skepticism of US motivations makes building such a framework extremely difficult."
         }
       ]
     }
