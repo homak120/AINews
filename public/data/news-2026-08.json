@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-15T03:15:36.131Z",
+  "generatedAt": "2026-09-16T03:10:34.918Z",
   "weekOf": "2026-07-31",
   "coverageStart": "2026-07-31",
-  "coverageEnd": "2026-08-14",
+  "coverageEnd": "2026-08-16",
   "items": [
     {
       "id": "techcrunch-openai-agents-ran-amok-wider-probe",
@@ -4924,6 +4924,324 @@
           ],
           "correctIndex": 1,
           "explanation": "Spending data shows that while Anthropic leads enterprise AI adoption, only 6% of token spending goes to Fable 5 (the premium flagship). This 'downmarket' trend — where businesses choose cheaper models over frontier offerings — could constrain the revenue growth needed to sustain a $2 trillion valuation."
+        }
+      ]
+    },
+    {
+      "id": "article-qwen38-27b-release",
+      "type": "article",
+      "title": "Alibaba Releases Qwen 3.8-27B: Frontier-Class Local AI That Fits on One Consumer GPU",
+      "sourceUrl": "https://startupfortune.com/alibabas-qwen38-27b-squeezes-frontier-ai-benchmarks-onto-one-gaming-gpu/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "Alibaba's Qwen team released Qwen3.8-27B on August 15, a 27.8-billion-parameter dense multimodal model under Apache 2.0 that accepts text, images, and video within a 262,144-token native context window. The model distills capabilities from Alibaba's larger Qwen3.8 Max and runs on a single 24 GB consumer GPU, achieving roughly 15% improvement over its predecessor Qwen3.6-27B on Terminal-Bench agentic coding and an 8-point gain on SWE-bench Pro. It introduces customizable reasoning depth — letting developers tune how much chain-of-thought reasoning occurs — alongside enhanced agentic capabilities across tool use and long-horizon coding tasks.",
+      "keyConcepts": [
+        "27.8B dense multimodal model running on a single 24 GB consumer GPU under Apache 2.0",
+        "Gated DeltaNet + Gated Attention hybrid architecture with 262K native context (extensible to 1M)",
+        "Customizable reasoning depth: tunable chain-of-thought effort per query",
+        "~15% Terminal-Bench gain and 8-point SWE-bench Pro improvement over Qwen3.6-27B"
+      ],
+      "whyItMatters": "Qwen3.8-27B is the most capable openly licensed multimodal model yet to fit on widely available consumer hardware — making frontier-class local AI practical for individual developers and small teams without cloud dependencies or licensing restrictions.",
+      "tags": [
+        "qwen",
+        "alibaba",
+        "open-source-llm",
+        "local-ai",
+        "multimodal",
+        "agentic-coding"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Qwen3.8-27B accessible to individual developers compared to other frontier-tier models?",
+          "options": [
+            "It runs on standard cloud APIs with a free tier",
+            "It fits on a single 24 GB consumer GPU under an Apache 2.0 license",
+            "It requires only 8 GB of VRAM for full precision inference",
+            "It is exclusively distributed through Alibaba Cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Qwen3.8-27B is designed to run on a single 24 GB consumer GPU (such as RTX 4090 or equivalent) and ships under the Apache 2.0 license, allowing commercial use without restrictions. This combination of low hardware requirements and permissive licensing makes frontier-class local AI inference practical for individual developers."
+        },
+        {
+          "question": "Which architectural feature in Qwen3.8-27B allows developers to control how much reasoning the model applies per query?",
+          "options": [
+            "Mixture-of-Experts (MoE) routing that adapts expert count dynamically",
+            "Gated DeltaNet attention layers that bypass reasoning on simple prompts",
+            "Customizable reasoning depth — tunable chain-of-thought effort",
+            "An external classifier that categorizes query complexity before inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qwen3.8-27B introduces customizable reasoning depth, allowing developers to dial up or down how much chain-of-thought reasoning the model applies to each query. This makes it efficient for simple tasks while preserving deeper reasoning capacity for complex, multi-step problems."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-aug15-update",
+      "type": "article",
+      "title": "ChatGPT August 15 Update: Interactive Quizzes, Flexible Project Memory, and Linux Desktop App",
+      "sourceUrl": "https://www.progressiverobot.com/2026/08/15/chatgpt-update-quiz-reservations-google-drive/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "OpenAI shipped a broad ChatGPT update on August 15 adding interactive quizzes, improved project memory controls, and a public preview of the Linux desktop app. Users can now ask ChatGPT to quiz them on any topic and answer directly in the conversation, a feature rolling out to all consumer and Edu plans on web and mobile. Project memory settings gained flexibility — users of eligible unshared projects can switch between default and project-only memory without starting a new project — and the 'Think' button now appears for Free and Go users on web.",
+      "keyConcepts": [
+        "Interactive quizzes: ask ChatGPT to quiz you on any topic, answer in-conversation (all plans, web + mobile)",
+        "Project memory toggle: switch between default and project-only memory for unshared projects",
+        "'Think' button now available to Free and Go users on web for extended reasoning",
+        "Linux desktop app public preview; smoother dictation and Android composer behavior"
+      ],
+      "whyItMatters": "The quiz feature signals OpenAI is repositioning ChatGPT as an active learning tool rather than just a Q&A assistant, while the project memory toggle gives power users finer control over how context is scoped — both moves that increase daily utility and stickiness for education and professional workflows.",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "product-update",
+        "memory",
+        "linux",
+        "learning-tools"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which ChatGPT plans received the new interactive quiz feature in the August 15 update?",
+          "options": [
+            "Plus and Pro only",
+            "Pro and Enterprise only",
+            "All consumer plans and Edu plans on web and mobile",
+            "Free tier only as a new user acquisition feature"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI rolled out interactive quizzes to all consumer ChatGPT plans (Free, Go, Plus, Pro) and Edu plans on both web and mobile — making it broadly available rather than gating it behind a premium tier."
+        },
+        {
+          "question": "What limitation exists on the new project memory toggle in the August 15 update?",
+          "options": [
+            "The toggle only works on the mobile app, not web",
+            "It can only switch memory off, not back to default",
+            "It is restricted to unshared projects; shared projects remain project-only",
+            "Memory settings can only be changed once per week to prevent abuse"
+          ],
+          "correctIndex": 2,
+          "explanation": "The new project memory toggle allows users to switch between default and project-only memory settings, but only for eligible unshared projects. Shared projects remain locked to project-only memory, preventing one user from changing memory scope in a way that affects all collaborators."
+        }
+      ]
+    },
+    {
+      "id": "article-google-heir-fhe-expansion",
+      "type": "article",
+      "title": "Google Expands HEIR: Open-Source Compiler Now Brings Private AI Inference to Pretrained Models",
+      "sourceUrl": "https://developers.googleblog.com/en/expanding-our-fully-homomorphic-encryption-offering/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "dateEstimated": true,
+      "topics": [
+        "ai-research"
+      ],
+      "summary": "Google announced an expansion of its HEIR (Homomorphic Encryption Intermediate Representation) open-source compiler, which converts pretrained machine learning models to run inference on fully encrypted inputs so that servers process data without ever seeing the underlying plaintext. Built on the MLIR compiler framework, HEIR now supports StableHLO as a frontend — allowing developers to drop in existing TensorFlow, JAX, or PyTorch models and compile them for fully homomorphic encryption (FHE) without rewriting inference logic. Google demonstrated the toolchain on a deep-learning recommender, credit-card fraud detection, network intrusion detection, and hotword recognition, completing private inference in 16 seconds for a three-layer neural network.",
+      "keyConcepts": [
+        "HEIR compiler converts pretrained ML models to FHE inference without rewriting model code",
+        "StableHLO frontend support enables direct use of TensorFlow, JAX, and PyTorch models",
+        "16-second private inference time for a 3-layer neural network as benchmark",
+        "Co-developed hardware acceleration with Belfort, Niobium, Cornami, and Optalysys"
+      ],
+      "whyItMatters": "HEIR makes fully homomorphic encryption practical for real AI workloads for the first time — enabling use cases like medical inference on encrypted patient data or financial fraud detection where the model provider never learns the user's inputs, a capability that could satisfy data-privacy regulations that currently block cloud AI deployment in sensitive industries.",
+      "tags": [
+        "homomorphic-encryption",
+        "private-ai",
+        "google",
+        "open-source",
+        "mlir",
+        "data-privacy"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does HEIR's StableHLO frontend support allow developers to do?",
+          "options": [
+            "Export model weights in a new compressed format for edge devices",
+            "Use existing TensorFlow, JAX, or PyTorch models without rewriting inference code",
+            "Automatically parallelize inference across multiple encrypted data shards",
+            "Compile models exclusively for Belfort and Niobium hardware accelerators"
+          ],
+          "correctIndex": 1,
+          "explanation": "HEIR's StableHLO frontend lets developers feed in pretrained models from TensorFlow, JAX, or PyTorch and compile them to run on fully homomorphic encrypted data without rewriting any inference logic. This dramatically lowers the barrier to adopting private AI inference, as teams can use their existing model artifacts directly."
+        },
+        {
+          "question": "Why is running AI inference on fully homomorphic encrypted inputs valuable for regulated industries like healthcare?",
+          "options": [
+            "It reduces inference latency by offloading decryption to specialized hardware",
+            "It allows models to be trained without any labeled data",
+            "The server processes encrypted inputs and never sees the underlying plaintext, satisfying data-privacy regulations",
+            "It eliminates the need for model fine-tuning on domain-specific data"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fully homomorphic encryption allows computation on ciphertext — meaning the cloud server running HEIR-compiled inference never sees the decrypted patient data, financial records, or other sensitive inputs. This satisfies data-privacy regulations (HIPAA, GDPR) that currently block cloud AI deployment in healthcare, finance, and legal industries."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-q2-2026-first-profit",
+      "type": "article",
+      "title": "Anthropic Reports First Operating Profit as Q2 2026 Revenue Exceeds $11.5 Billion",
+      "sourceUrl": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Anthropic reported preliminary Q2 2026 revenue exceeding $11.5 billion — a 14-fold increase year-over-year from $787 million in Q2 2025 — along with its first positive adjusted operating profit, marking a pivotal financial milestone for the Claude model developer. The figures, first reported by Bloomberg citing investor documents, significantly exceed internal projections of $10.9 billion in revenue and $559 million in operating profit that Anthropic had shared with backers in May. The results come as the company is reportedly targeting a September 2026 IPO, with its public S-1 prospectus expected on SEC EDGAR in mid-to-late August.",
+      "keyConcepts": [
+        "Preliminary Q2 2026 revenue: $11.5B+ (14x YoY growth from $787M in Q2 2025)",
+        "First positive adjusted operating profit — two years ahead of Anthropic's own schedule",
+        "Beat internal May 2026 projections of $10.9B revenue and $559M operating profit",
+        "IPO targeting September 2026; public S-1 prospectus expected mid-to-late August on SEC EDGAR"
+      ],
+      "whyItMatters": "Anthropic's first profitable quarter proves that premium AI API businesses can achieve sustainable unit economics at scale — validating the commercial model for compute-intensive frontier AI services and likely accelerating IPO timelines and valuation benchmarks across the broader AI industry.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "ai-revenue",
+        "ipo",
+        "profitability",
+        "ai-industry"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Anthropic's revenue grow year-over-year from Q2 2025 to Q2 2026?",
+          "options": [
+            "Approximately 3x, from $3.8B to $11.5B",
+            "Approximately 14x, from $787M to over $11.5B",
+            "Approximately 5x, from $2.3B to $11.5B",
+            "Approximately 2x, from $5.8B to $11.5B"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's preliminary Q2 2026 revenue exceeded $11.5 billion, up from $787 million in Q2 2025 — roughly a 14-fold increase year-over-year, reflecting the rapid scaling of demand for Claude-powered enterprise AI services."
+        },
+        {
+          "question": "What is the significance of Anthropic reporting positive adjusted operating profit in Q2 2026?",
+          "options": [
+            "It means Anthropic no longer needs venture capital funding",
+            "It is the company's first profitable quarter, two years ahead of its own schedule",
+            "It confirms Anthropic has surpassed OpenAI's revenue for the first time",
+            "It allows Anthropic to eliminate all API pricing for research users"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Q2 2026 operating profit marks Anthropic's first profitable quarter — a milestone the company previously projected would not occur until around 2028. Reaching profitability two years ahead of schedule signals that Claude's enterprise adoption has scaled faster than the company's own models predicted."
+        }
+      ]
+    },
+    {
+      "id": "article-ijcai-ecai-2026-safe-agents",
+      "type": "article",
+      "title": "IJCAI-ECAI 2026 Opens in Bremen, Spotlighting Safe Agentic AI and EU AI Act Enforcement",
+      "sourceUrl": "https://2026.ijcai.org/",
+      "verified": false,
+      "publishedAt": "2026-08-15",
+      "topics": [
+        "ai-research",
+        "ai-engineering"
+      ],
+      "summary": "The 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2026) opened its workshop and tutorial program on August 15 at the University of Bremen, drawing approximately 4,000 AI researchers from over 40 countries. The three-day pre-conference period (August 15–17) features 40 parallel workshops and 25+ tutorials, with the SAFER (Safe Agentic AI Framework and Ecosystem Roadmapping) Workshop on August 16 explicitly designed to produce a community roadmap for trustworthy agentic AI. The conference's 990 accepted papers cover advances in human-centered AI, robotics, healthcare, and AI safety, while the EU AI Act's Jeroen Delfos is scheduled to address academics on August 19 about shaping the compliance standards still being written.",
+      "keyConcepts": [
+        "IJCAI-ECAI 2026: 990 accepted papers, ~4,000 attendees from 40+ countries, August 15-21 in Bremen",
+        "SAFER Workshop (August 16): community roadmap for trustworthy agentic AI — reliability, transparency, oversight",
+        "Safe Physical AI workshop: alignment, intent understanding, runtime verification for robots and autonomous vehicles",
+        "EU AI Act's Article 50 transparency obligations took effect August 2; enforcers attending conference"
+      ],
+      "whyItMatters": "The world's oldest AI research conference is converging on a clear signal: agentic safety is the field's defining challenge, and the EU AI Act is providing urgent real-world stakes — making this week's Bremen workshops a critical venue for shaping safety frameworks, evaluation standards, and governance approaches that practitioners worldwide will follow.",
+      "tags": [
+        "ijcai",
+        "ai-safety",
+        "agentic-ai",
+        "eu-ai-act",
+        "ai-research",
+        "ai-policy"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary goal of the SAFER Workshop at IJCAI-ECAI 2026?",
+          "options": [
+            "To launch a new open-source benchmark suite for agentic AI systems",
+            "To produce a community roadmap for trustworthy agentic AI covering reliability, transparency, and governance",
+            "To debate whether agentic AI should be paused pending new regulation",
+            "To demonstrate live AI agent systems on real-world infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "The SAFER (Safe Agentic AI Framework and Ecosystem Roadmapping) Workshop is explicitly designed to bring together researchers, practitioners, and policymakers to produce a community roadmap for trustworthy agentic AI. Its scope includes reliability, transparency, human oversight, governance, and real-world deployment challenges."
+        },
+        {
+          "question": "Why is the timing of IJCAI-ECAI 2026 particularly significant from a regulatory perspective?",
+          "options": [
+            "The conference coincides with the US Congress passing a new AI liability bill",
+            "OpenAI and Anthropic are both presenting new safety frameworks for the first time",
+            "The EU AI Act's Article 50 transparency obligations took effect just two weeks before, making compliance standards a live policy question",
+            "IJCAI is hosting the first international treaty on AI weapons systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "The EU AI Act's Article 50 transparency obligations came into effect on August 2, 2026 — just thirteen days before the conference opened. This means IJCAI-ECAI 2026 is one of the first major research gatherings where AI Act compliance is not a theoretical future concern but an active legal requirement, with EU AI Office representative Jeroen Delfos attending to explain how academics can shape the standards still being written."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-peak-pricing-live",
+      "type": "article",
+      "title": "DeepSeek's Peak/Off-Peak API Pricing Goes Live, Raising Some V4 Model Costs by Over 10x",
+      "sourceUrl": "https://www.infoworld.com/article/4209439/deepseek-raises-some-v4-prices-by-more-than-10x-as-ai-demand-strains-capacity.html",
+      "verified": false,
+      "publishedAt": "2026-08-16",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "DeepSeek's new tiered API pricing structure took effect at 16:00 UTC on August 16, introducing separate peak and off-peak rates for its V4-Pro and V4-Flash models in response to server congestion. V4-Pro output tokens now cost $3.96 per million during peak hours (01:00–04:00 and 06:00–10:00 UTC) and $1.98 per million off-peak — up from the previous flat rate of $0.87. V4-Flash output similarly rose from $0.28 to $1.32 per million at peak, a fourfold increase, with off-peak rates set at half of peak. DeepSeek framed the change as a measure to 'allocate resources more reasonably,' and the models remain substantially cheaper than comparable Western alternatives despite the increases.",
+      "keyConcepts": [
+        "V4-Pro output: $3.96/M (peak) and $1.98/M (off-peak), up from previous flat $0.87/M",
+        "V4-Flash output: $1.32/M (peak) and $0.66/M (off-peak), up from previous flat $0.28/M",
+        "Peak hours: 01:00–04:00 and 06:00–10:00 UTC; off-peak rates are exactly 50% of peak",
+        "Pricing effective 16:00 UTC August 16; increases ranging from 50% to over 1,100% depending on model and token type"
+      ],
+      "whyItMatters": "DeepSeek's shift to dynamic peak/off-peak pricing ends the era of flat ultra-cheap AI API access that disrupted Western providers earlier this year — signaling that even cost-leader AI providers face real infrastructure constraints at scale. Developers now must architect workloads around time-of-day scheduling to optimize costs, adding operational complexity that changes how latency-tolerant batch jobs are built.",
+      "tags": [
+        "deepseek",
+        "api-pricing",
+        "ai-costs",
+        "v4-pro",
+        "developer-tools",
+        "ai-engineering"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much did DeepSeek increase V4-Pro output token pricing during peak hours?",
+          "options": [
+            "About 50%, from $0.87 to $1.30 per million tokens",
+            "About double, from $0.87 to $1.74 per million tokens",
+            "More than fourfold, from $0.87 to $3.96 per million tokens",
+            "About tenfold, from $0.87 to $8.70 per million tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek raised V4-Pro output token pricing from a flat $0.87 per million to $3.96 per million during peak hours — a more than fourfold increase. Off-peak pricing is $1.98 per million, which is still more than double the previous rate but represents a 50% discount from the peak price."
+        },
+        {
+          "question": "What strategy does DeepSeek's off-peak pricing enable for developers with flexible workloads?",
+          "options": [
+            "Run inference during peak hours to access the highest GPU allocations",
+            "Schedule latency-tolerant batch jobs during off-peak hours to pay half the peak rate",
+            "Pre-purchase tokens at a fixed rate regardless of when they are consumed",
+            "Switch between V4-Pro and V4-Flash dynamically based on server load"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepSeek's off-peak rates are exactly 50% of peak rates, providing a built-in incentive for developers to shift latency-tolerant workloads — batch summarization, background analysis, data processing — to run outside the 01:00–04:00 and 06:00–10:00 UTC peak windows. Developers who can architect their pipelines around time-of-day scheduling can roughly halve their API costs compared to running exclusively during peak hours."
         }
       ]
     }
