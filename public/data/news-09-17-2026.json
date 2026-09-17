@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:00:00.000Z",
+  "generatedAt": "2026-09-17T18:00:00.000Z",
   "weekOf": "2026-09-14",
   "coverageStart": "2026-09-16",
   "coverageEnd": "2026-09-17",
@@ -171,6 +171,121 @@
           "options": ["Llama 4", "LlamaVision", "Muse", "Imagine"],
           "correctIndex": 2,
           "explanation": "Meta's Muse AI model powers the image and video generation capabilities bundled into the Meta One subscription tiers."
+        }
+      ]
+    },
+    {
+      "id": "youtube-thR9_VYJiQo",
+      "type": "video",
+      "title": "Google's Dream-RSI Lets AI Agents Replay Experiments to Self-Improve Research Strategies",
+      "youtubeId": "thR9_VYJiQo",
+      "sourceUrl": "https://www.youtube.com/watch?v=thR9_VYJiQo",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Wes Roth covers Dream-RSI, a project from Google, Google DeepMind, University of Maryland, and University of Virginia researchers that enables AI agents to replay their own past experiments as a simulator to test better research strategies before spending compute. The system functions as a recursive self-improvement method where an agent uses recorded discoveries to generate and evaluate hypotheses. The video explains how this approach could compress AI research cycles by letting agents discover optimal experimental paths without requiring real compute for every trial.",
+      "keyConcepts": [
+        "Recursive self-improvement (Dream-RSI)",
+        "AI research automation",
+        "Simulated experiment replay",
+        "Google DeepMind agent research"
+      ],
+      "whyItMatters": "Dream-RSI represents a step toward AI systems that can meaningfully improve their own research strategies, potentially accelerating the pace of AI capability development by reducing wasted compute on suboptimal experiments.",
+      "tags": ["google-deepmind", "dream-rsi", "recursive-self-improvement", "ai-research", "agent-learning", "compute-efficiency"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core mechanism behind Google's Dream-RSI system?",
+          "options": [
+            "Training a new model from scratch on synthetic data",
+            "Replaying recorded past experiments as a simulator to test better strategies",
+            "Using reinforcement learning with human feedback on research outputs",
+            "Fine-tuning a base model on peer-reviewed papers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dream-RSI works by having an AI agent replay its own recorded past experiments as a simulated environment, allowing it to test and optimize research strategies before committing real compute resources."
+        },
+        {
+          "question": "Which organizations collaborated on the Dream-RSI research project?",
+          "options": [
+            "OpenAI, MIT, and Stanford",
+            "Google, Google DeepMind, University of Maryland, and University of Virginia",
+            "Anthropic, CMU, and UC Berkeley",
+            "Microsoft Research, Harvard, and Caltech"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dream-RSI is a collaborative project from researchers at Google, Google DeepMind, the University of Maryland, and the University of Virginia."
+        }
+      ]
+    },
+    {
+      "id": "article-huawei-ascend-960dt-sep17",
+      "type": "article",
+      "title": "Huawei Accelerates Ascend 960DT AI Chip Launch to Q1 2027, Targeting Nvidia's Market Lead",
+      "sourceUrl": "https://www.trendforce.com/news/2026/09/17/news-huawei-speeds-up-ai-chip-roadmap-reportedly-pulls-ascend-960dt-forward-three-quarters-to-1q27/",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Huawei announced plans to release its Ascend 960DT AI chip in Q1 2027, accelerating the timeline by three quarters from its original schedule due to surging demand that now outstrips Huawei's own production capacity. The 960DT delivers 2 PFLOPS FP8 and 4 PFLOPS FP4 with 288GB HBM and 9.6TB/s bandwidth, while a new 4096-card super node using NPO technology offers 8 EFLOPS FP8 and 1PB HBM. Huawei also announced a one-generation-per-year Ascend cadence, with the 970 and 980 chips planned for 2028 and 2029.",
+      "keyConcepts": [
+        "Ascend 960DT chip specifications",
+        "AI chip supply-demand dynamics",
+        "China-US AI chip competition",
+        "NPO interconnect technology"
+      ],
+      "whyItMatters": "Huawei's accelerated roadmap and increasingly competitive chip specs signal a narrowing gap with Nvidia in the AI accelerator market, with major implications for Chinese AI lab independence from US export controls.",
+      "tags": ["huawei", "ascend-960dt", "ai-chips", "nvidia", "china-ai", "hardware", "gpu-competition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By how much did Huawei accelerate the Ascend 960DT chip's launch timeline?",
+          "options": ["One quarter", "Two quarters", "Three quarters", "One full year"],
+          "correctIndex": 2,
+          "explanation": "Huawei pulled the Ascend 960DT's launch forward by three quarters—from its original schedule to Q1 2027—citing AI chip demand that now exceeds its production capacity."
+        },
+        {
+          "question": "What FP8 performance does the Huawei Ascend 960DT deliver?",
+          "options": ["500 TFLOPS", "1 PFLOPS", "2 PFLOPS", "4 PFLOPS"],
+          "correctIndex": 2,
+          "explanation": "The Ascend 960DT delivers 2 PFLOPS (petaFLOPS) at FP8 precision and 4 PFLOPS at FP4, with 288GB HBM and 9.6TB/s memory bandwidth."
+        }
+      ]
+    },
+    {
+      "id": "article-emerald-ai-aema-sep16",
+      "type": "article",
+      "title": "Google, Nvidia, and Anthropic Launch AI Energy Management Alliance to Unlock 100GW of Grid Capacity",
+      "sourceUrl": "https://www.axios.com/2026/09/16/tech-giants-launch-flexible-power-coalition-data-centers",
+      "verified": false,
+      "publishedAt": "2026-09-16",
+      "topics": ["ai-industry"],
+      "summary": "Emerald AI, Google, Nvidia, and Anthropic announced the AI Energy Management Alliance (AEMA) on September 16, alongside utility partners including AES, Constellation, National Grid, and NRG Energy. The coalition aims to make demand response—where data centers temporarily reduce electricity use by pausing noncritical tasks—a standard part of data center development, with the goal of unlocking an additional 100 gigawatts of grid capacity for AI infrastructure. The initiative would transform data centers from power consumers into flexible grid assets that help utilities manage peak demand.",
+      "keyConcepts": [
+        "AI Energy Management Alliance (AEMA)",
+        "Demand response for data centers",
+        "Grid flexibility and AI compute",
+        "100GW capacity unlock"
+      ],
+      "whyItMatters": "As AI data center buildouts strain power grids globally, the AEMA coalition represents a concrete industry effort to resolve the energy access bottleneck that is one of the largest near-term constraints on AI scaling.",
+      "tags": ["emerald-ai", "aema", "data-centers", "energy", "grid-flexibility", "google", "nvidia", "anthropic"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary mechanism the AEMA proposes to unlock more grid capacity for data centers?",
+          "options": [
+            "Building new nuclear power plants near data centers",
+            "Using solar and wind farms dedicated to AI compute",
+            "Demand response — data centers temporarily reducing power use during peak grid demand",
+            "Switching data centers to run on hydrogen fuel cells"
+          ],
+          "correctIndex": 2,
+          "explanation": "AEMA's strategy centers on demand response: data centers pause noncritical tasks and shift compute loads during peak grid demand, freeing up capacity for other uses and making data centers welcome additions to the grid."
+        },
+        {
+          "question": "How much additional grid capacity does the AI Energy Management Alliance aim to unlock?",
+          "options": ["10 gigawatts", "50 gigawatts", "100 gigawatts", "500 gigawatts"],
+          "correctIndex": 2,
+          "explanation": "The AEMA coalition states that flexible demand response from data centers could allow an additional 100 gigawatts of data center capacity to connect to existing power grids."
         }
       ]
     }
