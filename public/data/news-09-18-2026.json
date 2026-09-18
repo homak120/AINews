@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:00:00Z",
+  "generatedAt": "2026-09-18T12:00:00Z",
   "weekOf": "2026-09-14",
   "coverageStart": "2026-09-17",
   "coverageEnd": "2026-09-17",
@@ -22,7 +22,7 @@
       ],
       "whyItMatters": "Dream-RSI shows that AI systems can improve their own research decision-making using only historical data, potentially reducing the cost of AI-driven scientific discovery by orders of magnitude across domains like mathematics, chemistry, and engineering.",
       "tags": ["dream-rsi", "google-deepmind", "recursive-self-improvement", "ai-research-automation", "simulation", "scientific-discovery"],
-      "relatedIds": [],
+      "relatedIds": ["youtube-JXQcgKNbb0Q"],
       "knowledgeChecks": [
         {
           "question": "What is the core innovation behind Dream-RSI?",
@@ -45,6 +45,96 @@
           ],
           "correctIndex": 2,
           "explanation": "Dream-RSI was authored by seventeen researchers from Google, Google DeepMind, the University of Maryland, and the University of Virginia, and was published on September 14, 2026."
+        }
+      ]
+    },
+    {
+      "id": "youtube-m35NljDbPTI",
+      "type": "video",
+      "title": "Claude Science: Anthropic's AI Agent Workbench for Biopharma Drug Discovery",
+      "youtubeId": "m35NljDbPTI",
+      "sourceUrl": "https://www.youtube.com/watch?v=m35NljDbPTI",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "This video covers Anthropic's Claude Science platform — a purpose-built AI workbench for biopharma R&D that deploys AI agents to accelerate drug discovery. Researchers interact with a generalist coordinating agent that has access to over 60 curated skills and connectors spanning genomics, proteomics, structural biology, and cheminformatics, and can spin up specialist sub-agents as needed. A dedicated reviewer agent validates citations and calculations, ensuring scientific outputs are auditable and reliable.",
+      "keyConcepts": [
+        "Claude Science AI workbench",
+        "Multi-agent scientific workflows",
+        "Biopharma R&D automation",
+        "Auditable AI scientific outputs"
+      ],
+      "whyItMatters": "Anthropic's push into biopharma with Claude Science signals AI's expanding role in life sciences R&D, where AI agent networks could cut years and billions of dollars from the drug discovery pipeline by automating laborious analysis and hypothesis-testing workflows.",
+      "tags": ["claude-science", "drug-discovery", "ai-agents", "biopharma", "anthropic", "bioinformatics"],
+      "relatedIds": ["youtube-thR9_VYJiQo", "youtube-JXQcgKNbb0Q"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary purpose of Anthropic's Claude Science platform?",
+          "options": [
+            "To provide AI chatbot services for hospital patient intake",
+            "An AI workbench for biopharma R&D using AI agents for drug discovery",
+            "A protein folding simulation tool competing with AlphaFold",
+            "A clinical trial management and compliance system"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Science is Anthropic's purpose-built AI workbench for biopharma research and drug discovery, featuring 60+ curated domain-specific skills and connectors for genomics, structural biology, and more."
+        },
+        {
+          "question": "What role does the reviewer agent play in Claude Science?",
+          "options": [
+            "It manages computational resources and GPU allocation",
+            "It assigns research tasks to available scientists",
+            "It validates citations and calculations for scientific accuracy",
+            "It handles API authentication for external databases"
+          ],
+          "correctIndex": 2,
+          "explanation": "The dedicated reviewer agent in Claude Science validates citations and calculations, ensuring all scientific outputs are auditable and reliable — a critical requirement for pharmaceutical research."
+        }
+      ]
+    },
+    {
+      "id": "youtube-JXQcgKNbb0Q",
+      "type": "video",
+      "title": "When AI Builds Itself: Anthropic's Research on AI-Assisted AI Development",
+      "youtubeId": "JXQcgKNbb0Q",
+      "sourceUrl": "https://www.youtube.com/watch?v=JXQcgKNbb0Q",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "This video examines Anthropic's research into AI systems that assist in building and improving future AI models, covering how AI agents can automate parts of the development pipeline from writing training code to evaluating model outputs. The content explores the technical architecture of self-referential AI development loops and addresses the key safety considerations that arise when models influence their own successors. It draws on recent Anthropic publications showing Claude-family models contributing to the development of next-generation Claude versions.",
+      "keyConcepts": [
+        "AI-assisted AI development",
+        "Automated ML engineering pipelines",
+        "Safety in self-referential training loops",
+        "Human oversight at scale"
+      ],
+      "whyItMatters": "AI systems that can meaningfully contribute to their own development represent a critical inflection point — one that could compress AI progress timelines while simultaneously demanding new frameworks for maintaining safety guarantees and human control.",
+      "tags": ["self-improvement", "ai-development", "anthropic", "ai-safety", "recursive-agents", "ml-automation"],
+      "relatedIds": ["youtube-thR9_VYJiQo", "youtube-m35NljDbPTI"],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'AI-assisted AI development' mean in the context of Anthropic's research?",
+          "options": [
+            "Using AI to write marketing copy for new model releases",
+            "AI agents writing training code and evaluating outputs to help build future models",
+            "An automated system for managing GPU cluster scheduling",
+            "A chatbot interface for internal Anthropic engineering queries"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI-assisted AI development refers to deploying AI agents to automate parts of the AI development pipeline itself — including writing training code, running evaluations, and refining model configurations — accelerating the creation of next-generation models."
+        },
+        {
+          "question": "What is the primary safety concern when AI systems participate in building their successors?",
+          "options": [
+            "Increased electricity consumption in data centers",
+            "Compatibility issues with legacy hardware infrastructure",
+            "Reduced need for human ML engineers",
+            "Maintaining meaningful human oversight as AI takes greater control of its own development"
+          ],
+          "correctIndex": 3,
+          "explanation": "The central safety challenge is ensuring humans retain meaningful oversight and control as AI systems become more involved in designing and training their successors — preventing misaligned self-modification or the gradual erosion of human agency in AI development decisions."
         }
       ]
     },
