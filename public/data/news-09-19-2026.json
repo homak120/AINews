@@ -1,9 +1,141 @@
 {
-  "generatedAt": "2026-09-19T08:00:00.000Z",
+  "generatedAt": "2026-09-19T14:00:00.000Z",
   "weekOf": "2026-09-14",
-  "coverageStart": "2026-09-18",
+  "coverageStart": "2026-09-17",
   "coverageEnd": "2026-09-18",
   "items": [
+    {
+      "id": "youtube-LoLYw--s-5w",
+      "type": "video",
+      "title": "Did Google Just Kickstart the Intelligence Explosion?",
+      "youtubeId": "LoLYw--s-5w",
+      "sourceUrl": "https://www.youtube.com/watch?v=LoLYw--s-5w",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "topics": ["ai-research"],
+      "summary": "Fireship covers Dream-RSI, a recursive self-improvement framework from Google, Google DeepMind, the University of Maryland, and the University of Virginia. The technique allows AI agents to replay their past discovery trees as a simulator, letting new search policies score against those replays without running costly new experiments. The video frames this as a potential kickoff to the intelligence explosion long theorized by AI researchers.",
+      "keyConcepts": [
+        "Dream-RSI",
+        "Recursive Self-Improvement",
+        "Discovery Tree Replay",
+        "AI Agent Training"
+      ],
+      "whyItMatters": "Dream-RSI shows a concrete path for AI systems to improve their research strategies using only their own past experience — without changing model weights — potentially accelerating the pace of AI capability development significantly.",
+      "tags": ["dream-rsi", "google-deepmind", "recursive-self-improvement", "fireship", "ai-agents", "intelligence-explosion"],
+      "relatedIds": ["youtube-thR9_VYJiQo", "article-claude-26pct-rd-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "What key property of Dream-RSI allows AI agents to improve without new training runs?",
+          "options": [
+            "It uses cloud-based model fine-tuning on new datasets",
+            "It trains a separate reward model for each new strategy",
+            "It replays past discovery trees as a simulator to score new search policies",
+            "It copies weights from more capable models via distillation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dream-RSI works by having AI agents replay their own past discovery trees as an internal simulator, allowing new search policies to be scored without running expensive new experiments or changing model weights."
+        },
+        {
+          "question": "What happens to the model weights in a Dream-RSI system when the agent improves its research strategies?",
+          "options": [
+            "The weights remain fixed; only the search policy changes",
+            "The weights are fine-tuned after each iteration",
+            "The weights are distilled into a smaller model",
+            "The weights are periodically reset to a base checkpoint"
+          ],
+          "correctIndex": 0,
+          "explanation": "A key feature of Dream-RSI is that the underlying model weights stay fixed — the improvement happens in the agent's search policy, which learns from replayed discovery trees rather than new weight updates."
+        }
+      ]
+    },
+    {
+      "id": "youtube-LYveAOjtqqM",
+      "type": "video",
+      "title": "This New AI Could Be the Biggest Breakthrough Since ChatGPT: Jev Explained",
+      "youtubeId": "LYveAOjtqqM",
+      "sourceUrl": "https://www.youtube.com/watch?v=LYveAOjtqqM",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "TheAIGRID covers Jev, a new AI model by Diogo Almeida — a former core researcher at OpenAI who contributed to ChatGPT and GPT-4. Jev uses Reinforcement Learning for Calibrated Decisions (RLCD) instead of traditional chat model architectures, claiming 20-200x faster inference and 40-400x lower cost than standard LLMs. The model is optimized for structured decision-making rather than open-ended conversation.",
+      "keyConcepts": [
+        "Jev Model",
+        "RLCD (Reinforcement Learning for Calibrated Decisions)",
+        "AI Inference Efficiency",
+        "TypeSafe"
+      ],
+      "whyItMatters": "If Jev's speed and cost claims hold under real-world conditions, it could unlock new categories of real-time AI applications and challenge the dominance of conventional LLM architectures, demonstrating that novel training objectives can be more competitive than continued scaling.",
+      "tags": ["jev", "openai-alumni", "rlcd", "ai-inference", "ai-model", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the name of the training approach Jev uses instead of a standard LLM architecture?",
+          "options": [
+            "Proximal Policy Optimization (PPO)",
+            "Reinforcement Learning for Calibrated Decisions (RLCD)",
+            "Constitutional AI (CAI)",
+            "Direct Preference Optimization (DPO)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Jev uses RLCD — Reinforcement Learning for Calibrated Decisions — rather than the standard chat model fine-tuning used by most LLMs. This is designed to optimize for fast, structured decision-making rather than open-ended conversation."
+        },
+        {
+          "question": "Who created Jev?",
+          "options": [
+            "Sam Altman, former OpenAI CEO",
+            "Ilya Sutskever, former OpenAI Chief Scientist",
+            "Andrej Karpathy, former Tesla and OpenAI researcher",
+            "Diogo Almeida, former core OpenAI researcher who worked on ChatGPT and GPT-4"
+          ],
+          "correctIndex": 3,
+          "explanation": "Jev was created by Diogo Almeida, a former core researcher at OpenAI who contributed to ChatGPT and GPT-4. He launched Jev through his company TypeSafe."
+        }
+      ]
+    },
+    {
+      "id": "youtube-thR9_VYJiQo",
+      "type": "video",
+      "title": "Google is SO Back: DeepMind's Dream-RSI Could Change Everything",
+      "youtubeId": "thR9_VYJiQo",
+      "sourceUrl": "https://www.youtube.com/watch?v=thR9_VYJiQo",
+      "verified": false,
+      "publishedAt": "2026-09-17",
+      "topics": ["ai-research"],
+      "summary": "Wes Roth breaks down Dream-RSI, a new technique from Google and DeepMind researchers that enables AI agents to replay their own past experiments as an internal simulator and develop better research strategies without spending additional compute. The video walks through how the discovery tree replay mechanism works, what makes it different from previous self-improvement approaches, and why it signals a meaningful milestone for Google in AI research.",
+      "keyConcepts": [
+        "Dream-RSI",
+        "Discovery Tree Replay",
+        "AI Self-Improvement Without Weight Updates",
+        "Google DeepMind AI Research"
+      ],
+      "whyItMatters": "Dream-RSI's approach of improving AI strategy through self-replay — without updating weights or running new experiments — could dramatically reduce the cost of AI capability improvement, with significant implications for both research velocity and AI safety oversight.",
+      "tags": ["dream-rsi", "google-deepmind", "wes-roth", "self-improvement", "ai-research", "ai-agents"],
+      "relatedIds": ["youtube-LoLYw--s-5w", "article-claude-26pct-rd-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "In Dream-RSI, what serves as the 'simulator' that AI agents use to test new research strategies?",
+          "options": [
+            "A synthetic environment generated by a separate model",
+            "A physics engine built by Google engineers",
+            "Live A/B tests against human evaluators",
+            "Replays of the agent's own past discovery trees"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dream-RSI uses the agent's own past discovery trees as the simulator. By replaying past experiments, new search policies can be evaluated without the cost of running new live experiments or retraining the model."
+        },
+        {
+          "question": "Which institutions collaborated on Dream-RSI?",
+          "options": [
+            "Google, Google DeepMind, University of Maryland, and University of Virginia",
+            "OpenAI, MIT, Stanford, and Carnegie Mellon",
+            "Meta AI, UC Berkeley, NYU, and Oxford",
+            "Microsoft Research, Harvard, Princeton, and Caltech"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dream-RSI was developed jointly by researchers from Google, Google DeepMind, the University of Maryland, and the University of Virginia."
+        }
+      ]
+    },
     {
       "id": "article-astra-for-law-0918",
       "type": "article",
