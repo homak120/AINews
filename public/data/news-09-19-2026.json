@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-19T08:00:00.000Z",
+  "weekOf": "2026-09-14",
+  "coverageStart": "2026-09-18",
+  "coverageEnd": "2026-09-18",
+  "items": [
+    {
+      "id": "article-astra-for-law-0918",
+      "type": "article",
+      "title": "OpenAI Launches Astra for Law, a Domain-Specific Legal AI Powered by GPT-6",
+      "sourceUrl": "https://openai.com/index/astra-for-law/",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI launched Astra for Law on September 18, combining GPT-6 Astra with a 230-million-URL Legal Search Index covering U.S. case law, statutes, regulations, and administrative decisions. The offering includes partner plugins from Thomson Reuters, Harvey, Legora, DeepJudge, and iManage, with major law firms Latham & Watkins, Ropes & Gray, Cooley, and Sullivan & Cromwell as early adopters. A Trusted Access program allows law firms and legal technology vendors to integrate the model directly into their own workflows.",
+      "keyConcepts": [
+        "GPT-6 Astra",
+        "Legal Search Index",
+        "vertical AI applications",
+        "legal technology integration"
+      ],
+      "whyItMatters": "Astra for Law signals a shift toward domain-specific AI deployments where frontier models are packaged with specialized tools and curated data sources, raising the competitive bar for legal AI startups and raising strategic questions for incumbents like Thomson Reuters and Harvey.",
+      "tags": ["openai", "gpt-6-astra", "legal-ai", "astra-for-law", "legal-tech", "vertical-ai"],
+      "relatedIds": ["article-ai-finra-standards-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "How many documents does OpenAI's Legal Search Index in Astra for Law cover?",
+          "options": [
+            "50 million URLs",
+            "100 million URLs",
+            "230 million URLs",
+            "1 billion URLs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Astra for Law includes a Legal Search Index covering more than 230 million URLs spanning U.S. case law, statutes, regulations, court rules, and administrative decisions."
+        },
+        {
+          "question": "What program allows law firms and legal tech vendors to integrate Astra for Law into their own workflows?",
+          "options": [
+            "Legal Partner Program",
+            "Trusted Access Program",
+            "Enterprise API Gateway",
+            "Bar Association Certification"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI launched a Trusted Access Program alongside Astra for Law, allowing law firms and legal technology vendors to integrate the model directly into their own products and workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-finra-standards-0918",
+      "type": "article",
+      "title": "OpenAI, Anthropic, and Google Secretly Building FINRA-Style AI Self-Regulatory Body",
+      "sourceUrl": "https://uk.finance.yahoo.com/news/openai-anthropic-google-working-create-172400890.html",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI, Anthropic, and Google DeepMind have been collaborating for weeks on a FINRA-modeled self-regulatory organization to test frontier AI models before public release. Demis Hassabis originally proposed the structure in July; working-level executive meetings were confirmed by OpenAI policy chief Chris Lehane. The body would fund independent testing, write pre-deployment evaluation protocols, and refer violations to regulators — but Cohere CEO Aidan Gomez publicly accused the three labs of forming a cartel to protect incumbent interests.",
+      "keyConcepts": [
+        "FINRA model",
+        "AI self-regulation",
+        "frontier AI pre-deployment testing",
+        "industry governance"
+      ],
+      "whyItMatters": "A self-regulatory body backed by the three largest AI labs could establish the de facto standards for which models reach users and how safety is evaluated — and who controls those gatekeeping decisions has major implications for competition and public accountability.",
+      "tags": ["openai", "anthropic", "google-deepmind", "ai-regulation", "self-regulatory-body", "ai-safety"],
+      "relatedIds": ["article-anthropic-accenture-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "Which company's CEO called the AI self-regulatory body proposal a 'cartel'?",
+          "options": [
+            "Meta",
+            "Cohere",
+            "Mistral",
+            "xAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cohere CEO Aidan Gomez publicly accused OpenAI, Anthropic, and Google DeepMind of forming a cartel, questioning who controls the rules and whose interests they ultimately protect."
+        },
+        {
+          "question": "What existing financial regulatory body inspired the proposed AI standards organization?",
+          "options": [
+            "SEC (Securities and Exchange Commission)",
+            "CFTC (Commodity Futures Trading Commission)",
+            "FINRA (Financial Industry Regulatory Authority)",
+            "Federal Reserve"
+          ],
+          "correctIndex": 2,
+          "explanation": "The proposed body is modeled on FINRA — an industry-funded self-regulatory organization that writes rules, examines members, and refers violations to the SEC — applied here to AI pre-deployment safety testing."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-accenture-0918",
+      "type": "article",
+      "title": "Anthropic and Accenture Announce $1 Billion AI Safety Partnership for Embedded Evaluation",
+      "sourceUrl": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic and Accenture announced a $1+ billion, five-year partnership to embed independent evaluators inside Anthropic with direct internal access to frontier AI systems before deployment. The arrangement operationalizes safety governance commitments from Dario Amodei's 'We Must Pace the Frontier' essay, creating third-party oversight with an insider vantage point rather than the arm's-length external audits that have been criticized as insufficient.",
+      "keyConcepts": [
+        "embedded evaluation",
+        "AI safety governance",
+        "third-party model auditing",
+        "responsible AI deployment"
+      ],
+      "whyItMatters": "This deal is one of the first commercial implementations of embedded independent AI evaluation at a frontier lab, potentially setting a template for how AI safety commitments become operationally concrete rather than aspirational — a model regulators may push other labs to adopt.",
+      "tags": ["anthropic", "accenture", "ai-safety", "embedded-evaluation", "ai-governance", "frontier-ai"],
+      "relatedIds": ["article-claude-26pct-rd-0918", "article-ai-finra-standards-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes Anthropic's embedded evaluator arrangement different from traditional external AI audits?",
+          "options": [
+            "It uses a cheaper automated testing pipeline",
+            "Evaluators have direct internal access to frontier AI systems before deployment",
+            "It only reviews models after public release",
+            "It is conducted by government regulators rather than private contractors"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key distinction is that Accenture's embedded evaluators have direct internal access to Anthropic's frontier AI systems during development — rather than reviewing models at arm's length after the fact, which critics say is insufficient for meaningful safety oversight."
+        },
+        {
+          "question": "How large is the Anthropic-Accenture AI safety partnership?",
+          "options": [
+            "$100 million over two years",
+            "$500 million over three years",
+            "$1+ billion over five years",
+            "$2 billion over ten years"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic and Accenture announced a partnership valued at more than $1 billion over five years, focused on embedded AI evaluation and operationalizing safety governance commitments."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-biomolecular-0918",
+      "type": "article",
+      "title": "Claude Achieves 4x Speedup in Biomolecular Modeling, Enabling Single-GPU Large Protein Prediction",
+      "sourceUrl": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-research"],
+      "summary": "Anthropic published research showing Claude optimized more than 30 open-source biomolecular models, achieving roughly a 4x speedup and enabling large-protein prediction on a single GPU node — a task previously requiring expensive multi-GPU clusters. To accelerate real-world applications, Anthropic and Adaptyv Bio launched a protein design competition offering up to $1 million in Claude credits and wet-lab validation for winning designs.",
+      "keyConcepts": [
+        "biomolecular modeling",
+        "protein structure prediction",
+        "AI for scientific discovery",
+        "model optimization"
+      ],
+      "whyItMatters": "Reducing the compute cost and latency for protein structure prediction could accelerate drug discovery pipelines by months and democratize access to structural biology tools for smaller research labs that lack multi-GPU infrastructure.",
+      "tags": ["anthropic", "claude", "biomolecular-modeling", "protein-design", "ai-for-science", "drug-discovery"],
+      "relatedIds": ["article-claude-26pct-rd-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "By roughly how much did Claude speed up open-source biomolecular models?",
+          "options": [
+            "2x speedup",
+            "4x speedup",
+            "10x speedup",
+            "100x speedup"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's research showed Claude achieved roughly a 4x speedup when optimizing more than 30 open-source biomolecular models, also enabling large-protein prediction on single GPU nodes."
+        },
+        {
+          "question": "What did Anthropic offer as prizes for its protein design competition?",
+          "options": [
+            "$100,000 in cash prizes",
+            "Free access to Claude API for one year",
+            "Up to $1 million in Claude credits plus wet-lab validation",
+            "A research fellowship at Anthropic headquarters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Through its partnership with Adaptyv Bio, Anthropic launched a protein design competition offering up to $1 million in Claude credits and wet-lab validation of winning protein designs."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-26pct-rd-0918",
+      "type": "article",
+      "title": "Claude Now Leads 26% of Anthropic's AI Research, Running 30,000 Concurrent Agents",
+      "sourceUrl": "https://thehill.com/policy/technology/6098297-anthropic-claude-leads-ai-development/",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic disclosed that Claude now leads 26% of the company's AI research and development work — up from under 1% in February 2026 — running over 30,000 concurrent agents. More than 90% of all Anthropic AI work now involves Claude as a collaborator or better. The announcement marks a notable milestone in AI-assisted AI development and intensifies debate about the pace of recursive self-improvement and whether human oversight can keep up.",
+      "keyConcepts": [
+        "AI-assisted R&D",
+        "recursive self-improvement",
+        "AI agent scale",
+        "human oversight challenges"
+      ],
+      "whyItMatters": "AI systems contributing to their own development at this scale — leading a quarter of the work that produces the next generation of the same model — is unprecedented, and raises foundational questions about alignment safety, meaningful human oversight, and the pace of capability acceleration.",
+      "tags": ["anthropic", "claude", "ai-self-improvement", "ai-agents", "research-automation", "agi-safety"],
+      "relatedIds": ["article-anthropic-accenture-0918", "article-ai-finra-standards-0918"],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of Anthropic's AI research and development does Claude now lead?",
+          "options": [
+            "5%",
+            "10%",
+            "26%",
+            "50%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic disclosed that Claude now leads 26% of the company's AI R&D work, up from under 1% in February 2026 — a dramatic acceleration in AI-assisted model development."
+        },
+        {
+          "question": "How many concurrent Claude agents is Anthropic running for its internal research?",
+          "options": [
+            "1,000",
+            "5,000",
+            "10,000",
+            "30,000"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic is running over 30,000 concurrent Claude agents as part of the AI-assisted research pipeline that now leads 26% of the company's R&D work."
+        }
+      ]
+    }
+  ]
+}
