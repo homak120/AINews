@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T06:30:00.000Z",
+  "generatedAt": "2026-09-20T14:00:00.000Z",
   "weekOf": "2026-09-14",
   "coverageStart": "2026-09-19",
   "coverageEnd": "2026-09-20",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "This lawsuit puts industry-coordinated AI safety measures directly in conflict with competition law, potentially forcing courts to define where legitimate safety cooperation ends and illegal market coordination begins.",
       "tags": ["antitrust", "openai", "anthropic", "google", "ai-safety", "regulation"],
-      "relatedIds": ["article-ai-safety-conversations-0919"],
+      "relatedIds": ["article-ai-safety-conversations-0919", "article-trump-ai-force-0919"],
       "knowledgeChecks": [
         {
           "question": "What event is cited in the lawsuit as the trigger for the alleged illegal AI slowdown coordination?",
@@ -130,6 +130,49 @@
           ],
           "correctIndex": 2,
           "explanation": "ENZO uses a two-pass approach: the first pass interprets the plain-English task description and generates a structured operating manual for the agent; subsequent passes refine it based on observed user activity, reducing the need for manual configuration."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-force-0919",
+      "type": "article",
+      "title": "Trump Announces 'AI Force' and Plans to Appoint a New AI Czar",
+      "sourceUrl": "https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar",
+      "verified": false,
+      "publishedAt": "2026-09-19",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "President Trump announced plans to create an 'AI Force'—a new government body modeled on the Space Force he created during his first term—and to appoint a new AI czar to oversee the country's artificial intelligence industry. In a Truth Social post, Trump characterized AI as the 'next Industrial Revolution' and vowed to protect and advance the industry rather than restrict it, positioning the announcement as a direct counter to the coordinated slowdown agreement alleged in a separate antitrust lawsuit. The AI Force would advise on protecting AI industry growth and national security implications.",
+      "keyConcepts": [
+        "AI governance structure",
+        "AI czar / industry oversight",
+        "Space Force as policy model",
+        "federal AI strategy"
+      ],
+      "whyItMatters": "The creation of a dedicated AI Force and czar signals that federal AI policy is shifting from light-touch regulation toward active government stewardship, which will influence how companies navigate compliance, national security rules, and competitive strategy.",
+      "tags": ["policy", "regulation", "trump", "government", "ai-industry", "ai-czar"],
+      "relatedIds": ["article-ai-slowdown-antitrust-0919"],
+      "knowledgeChecks": [
+        {
+          "question": "Which existing government body did Trump cite as the model for the proposed AI Force?",
+          "options": [
+            "The Cybersecurity and Infrastructure Security Agency (CISA)",
+            "The National Security Agency (NSA)",
+            "The Space Force",
+            "The Department of Energy's AI office"
+          ],
+          "correctIndex": 2,
+          "explanation": "Trump explicitly likened the proposed AI Force to the Space Force, which he created during his first term as a dedicated military branch for space operations, framing the AI Force as similarly focused on a strategic national domain."
+        },
+        {
+          "question": "What was Trump's stated position on the AI slowdown debate at the center of the antitrust lawsuit?",
+          "options": [
+            "He supported coordinated industry slowdowns for safety",
+            "He proposed mandatory government safety reviews before new models",
+            "He vowed to protect and advance AI development rather than hinder it",
+            "He called for open-source requirements on all frontier models"
+          ],
+          "correctIndex": 2,
+          "explanation": "Trump's announcement directly countered the coordinated slowdown narrative by declaring 'we will not in any way hinder or stifle the growth of this incredible industry,' positioning the AI Force as a pro-growth oversight body rather than a regulatory constraint."
         }
       ]
     }
