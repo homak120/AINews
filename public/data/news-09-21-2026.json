@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "weekOf": "2026-09-21",
+  "coverageStart": "2026-09-18",
+  "coverageEnd": "2026-09-20",
+  "items": [
+    {
+      "id": "article-stepfun-step5-sep20",
+      "type": "article",
+      "title": "StepFun Launches Step 5 Preview: 600B MoE Model with 1M-Token Context",
+      "sourceUrl": "https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on",
+      "verified": false,
+      "publishedAt": "2026-09-20",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "StepFun officially launched Step 5 Preview on September 20, a 600B-parameter sparse Mixture-of-Experts model designed for frontier agentic work. The architecture activates only 27B parameters per token and supports a 1M-token context window with vision capabilities. API access opened immediately at $1/million input tokens and $2.70/million output tokens, with open weights planned for October 15.",
+      "keyConcepts": [
+        "Sparse MoE architecture",
+        "600B total / 27B active parameters",
+        "1M-token context window",
+        "Agentic software engineering"
+      ],
+      "whyItMatters": "Step 5 Preview enters the frontier model race at competitive pricing with imminent open weights, narrowing the gap between Chinese AI labs and Western frontier models on agentic coding and professional knowledge work.",
+      "tags": ["stepfun", "step-5", "moe", "llm", "chinese-ai", "agentic-ai"],
+      "relatedIds": ["article-qwen38-omni-flash-sep18"],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does Step 5 Preview activate per token?",
+          "options": ["600B", "100B", "27B", "8B"],
+          "correctIndex": 2,
+          "explanation": "Step 5 Preview uses a sparse MoE architecture with 600B total parameters but activates only 27B per token, making inference far more efficient than a dense model of equivalent parameter count."
+        },
+        {
+          "question": "When are full open-weight model weights for Step 5 Preview planned for release?",
+          "options": ["September 25, 2026", "October 1, 2026", "October 15, 2026", "November 1, 2026"],
+          "correctIndex": 2,
+          "explanation": "StepFun announced that the complete model weights for Step 5 Preview would be open-sourced on October 15, 2026, enabling self-hosting and research use."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-force-sep19",
+      "type": "article",
+      "title": "Trump Announces 'AI Force' and Plans to Appoint Dedicated AI Czar",
+      "sourceUrl": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+      "verified": false,
+      "publishedAt": "2026-09-19",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "President Trump announced plans to create an 'AI Force' modeled on the Space Force and to appoint a dedicated AI czar on September 19. Trump framed AI as the next Industrial Revolution while explicitly rejecting calls for regulatory constraints championed by Anthropic, OpenAI, and DeepMind leaders. The administration signaled a pro-industry stance that diverges sharply from the AI slowdown movement.",
+      "keyConcepts": [
+        "AI Force federal agency",
+        "AI Czar appointment",
+        "US government AI governance",
+        "Pro-industry regulatory stance"
+      ],
+      "whyItMatters": "A dedicated US AI Force signals a major shift in how the federal government plans to oversee the AI industry, with significant implications for investment, international competition, and safety regulation at the frontier.",
+      "tags": ["ai-policy", "government", "trump", "regulation", "ai-force", "us-politics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What existing government organization did Trump model the proposed 'AI Force' after?",
+          "options": ["NSA", "DARPA", "Space Force", "Cyber Command"],
+          "correctIndex": 2,
+          "explanation": "Trump explicitly modeled the proposed AI Force on the Space Force, which he also established during his first term, framing both as forward-looking strategic institutions."
+        },
+        {
+          "question": "What was Trump's position on regulatory constraints for AI development?",
+          "options": [
+            "He endorsed strict guardrails aligned with EU AI Act standards",
+            "He rejected calls for constraints and vowed to protect industry growth",
+            "He co-signed Dario Amodei's AI slowdown proposal",
+            "He proposed a joint US-China AI safety treaty"
+          ],
+          "correctIndex": 1,
+          "explanation": "Trump explicitly rejected calls for regulatory constraints and framed AI as the next Industrial Revolution that the government would 'cherish, help, and watch over' — a direct contrast to the Amodei/Altman AI slowdown push."
+        }
+      ]
+    },
+    {
+      "id": "article-plugin4shell-rce-sep18",
+      "type": "article",
+      "title": "Plugin4Shell: Zero-Click RCE Flaw Hits Claude Code, Codex, Copilot, and Gemini CLI",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-engineering"],
+      "summary": "Security researchers at AIR disclosed Plugin4Shell, a zero-click remote code execution vulnerability affecting Claude Code, OpenAI Codex, GitHub Copilot, and Google Gemini CLI on September 18. The flaw allows repository owners to silently swap malicious plugin code past SHA-pinning checks with no user interaction required. Anthropic patched it in Claude Code 2.1.179 and OpenAI in Codex 0.146.0; GitHub Copilot and Gemini CLI remain unpatched.",
+      "keyConcepts": [
+        "Zero-click remote code execution (RCE)",
+        "SHA-pinning bypass",
+        "Supply chain attack vector",
+        "AI coding agent security"
+      ],
+      "whyItMatters": "Plugin4Shell is the first documented supply chain vulnerability targeting AI coding agents — tools that often inherit developer credentials and production system access — revealing a shared architectural flaw across competing products.",
+      "tags": ["security", "vulnerability", "rce", "claude-code", "codex", "supply-chain", "ai-agents"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What security mechanism does Plugin4Shell bypass to deliver malicious code?",
+          "options": [
+            "OAuth token validation",
+            "SHA-pinning (commit hash verification)",
+            "TLS certificate checking",
+            "Code signing with GPG"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plugin4Shell exploits a flaw in SHA-pinning: agents fetch a snapshot by commit hash but never verify that the retrieved code actually matches that hash, allowing a branch named to look like a commit hash to point at attacker-controlled code."
+        },
+        {
+          "question": "Which AI coding tools had patches available at the time of the Plugin4Shell disclosure?",
+          "options": [
+            "All four: Claude Code, Codex, Copilot, and Gemini CLI",
+            "Only GitHub Copilot",
+            "Claude Code and Codex only",
+            "None — all four remained unpatched"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic patched Claude Code in version 2.1.179 and OpenAI patched Codex in version 0.146.0. GitHub Copilot had no fix, and Google announced it would not patch Gemini CLI as the product is being retired."
+        }
+      ]
+    },
+    {
+      "id": "article-qwen38-omni-flash-sep18",
+      "type": "article",
+      "title": "Alibaba Releases Qwen3.8-Omni-Flash: 1M-Token Multimodal Model at 98% Lower Audio Cost",
+      "sourceUrl": "https://technode.com/2026/09/18/alibabas-qwen-releases-qwen3-8-omni-flash-with-1m-token-context/",
+      "verified": false,
+      "publishedAt": "2026-09-18",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Alibaba's Qwen team released Qwen3.8-Omni-Flash on September 18, a native omnimodal model capable of jointly processing text, images, audio, and video in a single workflow. The model supports a 1M-token context window (up to one hour of continuous audio-video), thinking mode, tool calling, and web search. Pricing drops 98% for audio input and 93% for combined audio-video compared to its predecessor Qwen3.5-Omni-Plus.",
+      "keyConcepts": [
+        "Native omnimodal processing (text, image, audio, video)",
+        "1M-token context window",
+        "98% reduction in audio processing cost",
+        "Agentic tool calling with multimodal input"
+      ],
+      "whyItMatters": "Qwen3.8-Omni-Flash makes complex agentic workflows combining real-time vision, audio understanding, and reasoning economically viable at scale, lowering the barrier for building production-grade multimodal applications.",
+      "tags": ["qwen", "alibaba", "multimodal", "omni-model", "llm", "audio-video", "agentic"],
+      "relatedIds": ["article-stepfun-step5-sep20"],
+      "knowledgeChecks": [
+        {
+          "question": "What modalities does Qwen3.8-Omni-Flash natively support in a single workflow?",
+          "options": [
+            "Text and images only",
+            "Text, code, and structured data",
+            "Text, images, audio, and video",
+            "Audio and video only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qwen3.8-Omni-Flash is a native omni-modal model that jointly processes text, images, audio, and video in a single call, enabling multimodal reasoning and action in one unified inference pass."
+        },
+        {
+          "question": "How does Qwen3.8-Omni-Flash's audio input pricing compare to Qwen3.5-Omni-Plus?",
+          "options": [
+            "10% cheaper",
+            "50% cheaper",
+            "98% cheaper",
+            "Identical pricing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alibaba priced Qwen3.8-Omni-Flash at 98% less than Qwen3.5-Omni-Plus per hour of audio input, dramatically reducing the cost of large-scale audio-visual AI applications."
+        }
+      ]
+    }
+  ]
+}
