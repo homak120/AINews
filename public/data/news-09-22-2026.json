@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T06:00:00.000Z",
+  "generatedAt": "2026-09-22T12:00:00.000Z",
   "weekOf": "2026-09-21",
   "coverageStart": "2026-09-21",
-  "coverageEnd": "2026-09-21",
+  "coverageEnd": "2026-09-22",
   "items": [
     {
       "id": "article-amazon-blocks-meta-muse-agent",
@@ -216,6 +216,94 @@
           ],
           "correctIndex": 1,
           "explanation": "The core risk is that malicious content embedded in the environment an AI agent is processing—a web page, document, or email—can manipulate the inputs Jev receives, causing it to return a different typed decision than intended, with high confidence scores masking the manipulation."
+        }
+      ]
+    },
+    {
+      "id": "youtube-XOQXWQB0zwg",
+      "type": "video",
+      "title": "Grok 4.7 Just Released: xAI's New Flagship Model Explained",
+      "youtubeId": "XOQXWQB0zwg",
+      "sourceUrl": "https://www.youtube.com/watch?v=XOQXWQB0zwg",
+      "verified": false,
+      "publishedAt": "2026-09-21",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "An overview of xAI's September 21 release of Grok 4.7, covering the model's jump to 2.1 trillion parameters (40% more than Grok 4.6), its unchanged API pricing at $2/M input and $6/M output tokens, and new training data sourced from SpaceX's Starlink telemetry and engineering logs. The video also notes benchmark results showing Grok 4.7 ranking second on GDPval and AA-Briefcase behind Claude Fable 5.1. In a meta demonstration, Grok 4.7 itself edited the final video.",
+      "keyConcepts": [
+        "Grok 4.7 parameter scaling (2.1T parameters)",
+        "Domain-specific training data from SpaceX hardware systems",
+        "Frontier model benchmark comparisons",
+        "AI-assisted video production"
+      ],
+      "whyItMatters": "Grok 4.7 shows xAI's strategy of combining parameter scaling with proprietary real-world engineering data to compete at the frontier without raising prices—while the AI-edited video format doubles as a live capability demonstration of the model's practical, multimodal usefulness.",
+      "tags": ["grok-4-7", "xai", "model-release", "elon-musk", "frontier-ai", "benchmarks"],
+      "relatedIds": ["youtube-MJllZbpvrAc"],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does Grok 4.7 have, and how does that compare to its predecessor?",
+          "options": [
+            "1.5 trillion parameters, same as Grok 4.6",
+            "2.1 trillion parameters, up 40% from Grok 4.6's 1.5 trillion",
+            "3.0 trillion parameters, double the size of Grok 4.6",
+            "1.8 trillion parameters, up 20% from Grok 4.6"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.7 packs 2.1 trillion parameters, a 40% increase over Grok 4.6's 1.5 trillion. Despite this major parameter increase, xAI kept the API pricing unchanged at $2/M input and $6/M output tokens."
+        },
+        {
+          "question": "What unique training data source did xAI incorporate into Grok 4.7 to improve hardware reasoning?",
+          "options": [
+            "NASA satellite telemetry and aerospace engineering databases",
+            "Starlink satellite telemetry, SpaceX manufacturing records, and engineering failure logs",
+            "Tesla autopilot sensor data and vehicle diagnostics",
+            "Open-source robotics datasets and mechanical engineering textbooks"
+          ],
+          "correctIndex": 1,
+          "explanation": "xAI trained Grok 4.7 on supplemental data from SpaceX—including Starlink satellite telemetry, manufacturing records, and engineering failure logs—with the goal of producing a model that reasons better about hardware and physical systems than models trained purely on internet text."
+        }
+      ]
+    },
+    {
+      "id": "youtube-MJllZbpvrAc",
+      "type": "video",
+      "title": "Did Elon Catch Up? Testing Grok 4.7 Against Frontier Models",
+      "youtubeId": "MJllZbpvrAc",
+      "sourceUrl": "https://www.youtube.com/watch?v=MJllZbpvrAc",
+      "verified": false,
+      "publishedAt": "2026-09-22",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Matthew Berman evaluates xAI's newly released Grok 4.7, benchmarking it against leading frontier models including Claude Fable 5.1 and GPT-6 Astra. Grok 4.7 launched with 2.1 trillion parameters—40% more than Grok 4.6—at unchanged API pricing, and incorporates SpaceX engineering data as supplemental training. Berman examines whether these upgrades meaningfully close the gap with top-ranked competitors, looking at real-world coding tasks, reasoning, and agentic workflows.",
+      "keyConcepts": [
+        "Grok 4.7 benchmark evaluation against frontier models",
+        "Model capability vs. pricing analysis",
+        "SpaceX-enhanced hardware reasoning in LLMs",
+        "Agentic and coding task performance"
+      ],
+      "whyItMatters": "Independent third-party evaluations like Berman's are essential for cutting through xAI's marketing claims—Grok 4.7's second-place benchmark rankings show a genuinely competitive model, but the question of whether it surpasses Claude Fable 5.1 or GPT-6 Astra on practical developer tasks determines its real-world adoption.",
+      "tags": ["grok-4-7", "xai", "matthew-berman", "benchmarks", "frontier-models", "model-evaluation"],
+      "relatedIds": ["youtube-XOQXWQB0zwg"],
+      "knowledgeChecks": [
+        {
+          "question": "According to benchmark results for Grok 4.7, how does it rank relative to Claude Fable 5.1?",
+          "options": [
+            "Grok 4.7 ranks first, ahead of Claude Fable 5.1",
+            "Grok 4.7 ranks second to Claude Fable 5.1 on GDPval and AA-Briefcase",
+            "Grok 4.7 and Claude Fable 5.1 are tied on all major benchmarks",
+            "Grok 4.7 ranks third, behind both Claude Fable 5.1 and GPT-6 Astra"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grok 4.7 scored second to Claude Fable 5.1 on both GDPval and AA-Briefcase benchmarks, and second to GPT-6 Astra on EEBench (an electrical-engineering benchmark), placing it as a strong second-tier competitor to the current top-ranked frontier models."
+        },
+        {
+          "question": "What is xAI's stated explanation for Grok 4.7's improved physical-world reasoning?",
+          "options": [
+            "A new chain-of-thought architecture that simulates physical experiments",
+            "Supplemental training on SpaceX Starlink telemetry, manufacturing records, and engineering failure logs",
+            "Integration with a robotics simulator trained on real-world sensor data",
+            "Fine-tuning on curated physics and engineering academic papers"
+          ],
+          "correctIndex": 1,
+          "explanation": "xAI incorporated supplemental training data from SpaceX—Starlink satellite telemetry, manufacturing records, and engineering failure logs—with the explicit goal of making Grok 4.7 reason better about hardware and physical systems than models trained purely on internet text."
         }
       ]
     }
