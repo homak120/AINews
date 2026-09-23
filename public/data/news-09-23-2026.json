@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:00:00.000Z",
+  "generatedAt": "2026-09-23T16:00:00.000Z",
   "weekOf": "2026-09-21",
   "coverageStart": "2026-09-21",
   "coverageEnd": "2026-09-23",
@@ -262,6 +262,49 @@
           ],
           "correctIndex": 3,
           "explanation": "Grok 4.7 scored 71.0% on DeepSWE v1.1 at high effort (up from 65.2% for Grok 4.6) and 46.3% on CursorBench 4.0 (up from 40.4%). These benchmarks measure performance on longer-running, real-world software engineering tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-astroforge-solo-ai-20260922",
+      "type": "article",
+      "title": "AstroForge Puts AI Transformer 'Solo' in Command of First Fully Autonomous Asteroid-Mining Spacecraft",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+      "verified": false,
+      "publishedAt": "2026-09-22",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "AstroForge announced that its Autonomy-1 asteroid-mining spacecraft will be operated entirely by Solo, an in-house transformer-based AI model — with no commands sent from Earth after separation from the launch vehicle. Solo will first fly in 'shadow mode' aboard the DeepSpace-2 mission (launching late 2026) to validate performance before taking full autonomous control of Autonomy-1 in 2027 on a Stoke Space rocket. The mission represents the first spacecraft designed to operate without a single ground command for its primary objectives.",
+      "keyConcepts": [
+        "Autonomous spacecraft control",
+        "Transformer models for robotics",
+        "Deep-space AI autonomy",
+        "Shadow-mode AI validation"
+      ],
+      "whyItMatters": "AstroForge's Solo pushes AI autonomy into extreme-environment robotics where communication latency makes human-in-the-loop control impossible — a proving ground for the reliability and decision-making of transformer models that will inform future autonomous systems in manufacturing, surgery, and remote operations.",
+      "tags": ["astroforge", "autonomous-ai", "space-robotics", "transformer-model", "asteroid-mining", "physical-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is unique about AstroForge's Autonomy-1 mission design compared to conventional spacecraft?",
+          "options": [
+            "It uses a quantum computer for navigation calculations",
+            "It will receive no commands from Earth after separating from its launch vehicle",
+            "It is the first spacecraft to carry a large language model on board",
+            "It relies on solar sails instead of conventional propulsion"
+          ],
+          "correctIndex": 1,
+          "explanation": "After Autonomy-1 separates from its launch vehicle, AstroForge does not intend to send the spacecraft a single ground command — the AI model Solo handles all navigation and mission decisions autonomously, which is necessary given the communication delays at deep-space distances."
+        },
+        {
+          "question": "How will AstroForge validate Solo before the full Autonomy-1 mission?",
+          "options": [
+            "By running Solo in a high-fidelity Earth-based simulation for 12 months",
+            "By flying Solo in shadow mode on the DeepSpace-2 mission",
+            "By testing Solo on the International Space Station",
+            "By deploying Solo on a low-Earth orbit satellite first"
+          ],
+          "correctIndex": 1,
+          "explanation": "Solo will first fly in 'shadow mode' aboard the DeepSpace-2 mission launching in late 2026, allowing AstroForge engineers to compare Solo's autonomous decisions against human controllers before the model takes sole command on the Autonomy-1 mission in 2027."
         }
       ]
     }
