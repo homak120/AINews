@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T07:00:00.000Z",
+  "generatedAt": "2026-09-24T12:00:00.000Z",
   "weekOf": "2026-09-21",
   "coverageStart": "2026-09-23",
-  "coverageEnd": "2026-09-23",
+  "coverageEnd": "2026-09-24",
   "items": [
     {
       "id": "article-claude-opus-55-gpt6-price-war-2026",
@@ -153,6 +153,120 @@
           ],
           "correctIndex": 1,
           "explanation": "Google Gemini saw the largest absolute gain, nearly doubling from 17% to 30% of AI prompt volume from January to June 2026, with Claude having the fastest percentage growth rate at 5x but from a much smaller base."
+        }
+      ]
+    },
+    {
+      "id": "article-sora-api-shutdown-2026",
+      "type": "article",
+      "title": "OpenAI's Sora API Shuts Down Today: The $1M/Day Tool That Generated $2.1M Total",
+      "sourceUrl": "https://www.newsbytesapp.com/news/science/sora-api-shuts-down-september-24-what-users-should-do/story",
+      "verified": false,
+      "publishedAt": "2026-09-24",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI discontinued the Sora API on September 24, 2026, completing the two-stage shutdown of its video generation product (the consumer app went dark in April 2026). Sora cost approximately $1 million per day to operate but generated only $2.1 million in total lifetime revenue — a stark financial mismatch. OpenAI left the 'recommended replacement' column in its official migration table blank, signaling a deliberate pivot away from creative AI tools toward coding and enterprise products.",
+      "keyConcepts": ["Sora API shutdown", "AI video generation", "OpenAI strategic pivot", "API deprecation", "enterprise AI focus"],
+      "whyItMatters": "Sora's closure illustrates that even technically impressive AI products fail without sustainable unit economics; it also signals OpenAI's decisive strategic bet on coding agents and enterprise over creative media generation.",
+      "tags": ["openai", "sora", "api-shutdown", "ai-video", "strategic-pivot", "ai-industry"],
+      "relatedIds": ["article-claude-opus-55-gpt6-price-war-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did OpenAI shut down the Sora API on September 24, 2026?",
+          "options": [
+            "Government regulators forced the shutdown",
+            "OpenAI was acquired and the new owner discontinued the product",
+            "It was financially unsustainable — costing ~$1M/day while generating only ~$2.1M total revenue",
+            "A major security vulnerability was discovered"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI shut down Sora due to severe financial unsustainability: daily operating costs of approximately $1 million far outpaced total lifetime revenue of about $2.1 million, making the product economically inviable."
+        },
+        {
+          "question": "What does OpenAI's migration table list as the recommended replacement for Sora after shutdown?",
+          "options": [
+            "DALL-E 4 video generation",
+            "ChatGPT Video mode",
+            "Third-party tools like Runway and Kling",
+            "Nothing — the replacement column was left blank"
+          ],
+          "correctIndex": 3,
+          "explanation": "OpenAI deliberately left the 'recommended replacement' column blank in its official Sora migration documentation, reflecting that there is no direct Sora successor in OpenAI's current product lineup."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-crispr-enzyme-2026",
+      "type": "article",
+      "title": "Anthropic's Claude Autonomously Discovers Novel CRISPR-Like Enzyme System in 21 Hours",
+      "sourceUrl": "https://dataconomy.com/2026/09/24/anthropic-claude-crispr-enzyme-system-21-hours/",
+      "verified": false,
+      "publishedAt": "2026-09-24",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic announced that Claude autonomously discovered a novel enzyme system in bacteriophage DNA featuring CRISPR-like repeating sequences — completing the discovery in just 21 hours. This is the first scientific result from Anthropic's new biolab. CEO Dario Amodei noted a Stanford team had previously found a similar system through conventional research, suggesting Claude independently replicated and extended a real scientific finding without human direction of the search process.",
+      "keyConcepts": ["AI scientific discovery", "CRISPR-like enzyme system", "bacteriophage DNA", "Anthropic biolab", "autonomous research agents"],
+      "whyItMatters": "An AI independently reproducing a novel biological discovery in 21 hours — compressed from what took conventional research teams much longer — marks a concrete step toward AI systems that meaningfully accelerate scientific progress rather than merely assisting it.",
+      "tags": ["anthropic", "claude", "scientific-discovery", "crispr", "biolab", "autonomous-ai-research"],
+      "relatedIds": ["article-claude-ai-3x-faster-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Claude discover in Anthropic's biolab according to the September 24, 2026 announcement?",
+          "options": [
+            "A new protein folding pathway in human cells",
+            "A novel enzyme system with CRISPR-like repeating sequences in bacteriophage DNA",
+            "A cure for antibiotic-resistant bacteria",
+            "A method to synthesize RNA vaccines faster"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude autonomously discovered a novel enzyme system in bacteriophage (bacteria-infecting virus) DNA that contained CRISPR-like repeating sequences, completing the discovery in 21 hours as the first output of Anthropic's new biolab."
+        },
+        {
+          "question": "How long did Claude take to autonomously complete this scientific discovery?",
+          "options": [
+            "3 days",
+            "6 hours",
+            "21 hours",
+            "2 weeks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude completed the autonomous discovery of the novel CRISPR-like enzyme system in bacteriophage DNA in 21 hours — demonstrating the speed advantage AI research agents can bring to biological discovery workflows."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-ai-3x-faster-2026",
+      "type": "article",
+      "title": "Anthropic Ran a Two-Week Sprint: Claude Wrote 3,000+ Fixes to Make Claude.ai 3x Faster",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/09/24/anthropic-claude-ai-faster/",
+      "verified": false,
+      "publishedAt": "2026-09-24",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic completed a two-week engineering sprint that made claude.ai approximately three times faster, with Claude itself authoring fixes across more than 3,000 code changes — and zero reported rollbacks. The initiative represents one of the largest known examples of an AI system being used to systematically improve its own serving infrastructure, with Claude diagnosing latency bottlenecks, writing patches, and verifying fixes across the full stack.",
+      "keyConcepts": ["AI self-improvement", "claude.ai performance", "latency optimization", "autonomous code fixes", "AI-driven engineering"],
+      "whyItMatters": "Using AI to ship 3,000+ performance fixes with no rollbacks — and achieving a 3x speed improvement — validates the 'AI as engineer' model at scale and sets a new benchmark for how quickly AI companies can iterate on their own infrastructure.",
+      "tags": ["anthropic", "claude-ai", "performance-optimization", "ai-engineering", "self-improvement", "latency"],
+      "relatedIds": ["article-claude-crispr-enzyme-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "How did Anthropic achieve the ~3x speed improvement on claude.ai?",
+          "options": [
+            "By switching to a faster underlying model",
+            "By reducing the context window to increase throughput",
+            "By having Claude autonomously write and apply fixes across 3,000+ code changes",
+            "By migrating to a new cloud provider with lower latency"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic ran a two-week sprint where Claude itself identified performance bottlenecks and wrote fixes across more than 3,000 code changes, achieving approximately 3x faster response times on claude.ai with no reported rollbacks."
+        },
+        {
+          "question": "What was notable about the engineering reliability of this AI-driven optimization sprint?",
+          "options": [
+            "It required extensive human review of every change",
+            "There were zero reported rollbacks across 3,000+ code changes",
+            "It took six months to stabilize in production",
+            "It only applied to the API, not the consumer product"
+          ],
+          "correctIndex": 1,
+          "explanation": "Zero reported rollbacks across more than 3,000 code changes is the standout reliability metric — demonstrating that at this scale, AI-authored infrastructure improvements can match or exceed the reliability of human-driven sprints."
         }
       ]
     }
