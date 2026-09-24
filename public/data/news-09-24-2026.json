@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-09-24T07:00:00.000Z",
+  "weekOf": "2026-09-21",
+  "coverageStart": "2026-09-23",
+  "coverageEnd": "2026-09-23",
+  "items": [
+    {
+      "id": "article-claude-opus-55-gpt6-price-war-2026",
+      "type": "article",
+      "title": "Claude Opus 5.5 and GPT-6 Sol Launch Same Day, Sparking AI Pricing War",
+      "sourceUrl": "https://winbuzzer.com/2026/09/23/claude-opus-5-5-lower-prices-cybersecurity-limits-a004-xcxwbn/",
+      "verified": false,
+      "publishedAt": "2026-09-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Anthropic launched Claude Opus 5.5 on September 22, delivering Fable 5.1-level performance at 20% lower cost ($4/$20 per million tokens) with 30% faster responses and a 1M token context window. OpenAI responded within 90 minutes with GPT-6 Sol ($2/$10) and Luna ($0.10/$0.50), undercutting Opus 5.5 on price while offering similar agentic capabilities. September 23 analysis shows Sol leads on price-performance while Opus 5.5 maintains an edge in complex reasoning and computer use.",
+      "keyConcepts": ["Claude Opus 5.5", "GPT-6 Sol", "GPT-6 Luna", "AI pricing war", "agentic benchmarks", "cost per million tokens"],
+      "whyItMatters": "The simultaneous launches triggered the most aggressive frontier AI price cuts of 2026, making top-tier reasoning and agentic capability dramatically more accessible and accelerating commoditization of frontier LLMs.",
+      "tags": ["claude-opus-5-5", "gpt-6-sol", "gpt-6-luna", "anthropic", "openai", "ai-pricing-war"],
+      "relatedIds": ["article-claude-gemini-market-share-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the API pricing of Claude Opus 5.5 at launch?",
+          "options": [
+            "$10/$50 per million tokens",
+            "$4/$20 per million tokens",
+            "$2/$10 per million tokens",
+            "$0.10/$0.50 per million tokens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Opus 5.5 launched at $4 per million input tokens and $20 per million output tokens — a 20% reduction from Opus 5 — with Anthropic also noting 30% faster response speeds and always-on adaptive thinking."
+        },
+        {
+          "question": "How did OpenAI respond to Anthropic's Claude Opus 5.5 launch on September 22, 2026?",
+          "options": [
+            "By announcing a partnership with Anthropic",
+            "By delaying GPT-7 development",
+            "By launching GPT-6 Sol and Luna within ~90 minutes at up to 50% lower prices",
+            "By releasing a new free tier for ChatGPT"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI released GPT-6 Sol ($2/$10 per MTok) and Luna ($0.10/$0.50 per MTok) approximately 90 minutes after Anthropic's Opus 5.5 announcement, positioning Sol at half the cost of Opus 5.5 while offering comparable agentic capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-connect-2026-ai-hardware",
+      "type": "article",
+      "title": "Meta Connect 2026: VR Glasses, Muse Charm AI Device, and Ray-Ban Meta Gen 3 Announced",
+      "sourceUrl": "https://www.engadget.com/2267230/everything-announced-at-meta-connect-2026/",
+      "verified": false,
+      "publishedAt": "2026-09-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "At Meta Connect 2026 on September 23, Mark Zuckerberg unveiled a ~100g VR headset with 5K micro-OLED display and tethered compute module (shipping spring 2027), Ray-Ban Meta Gen 3 smart glasses with 12MP camera on sale September 23, and the Muse Charm — a compact handheld keychain device featuring Meta's Muse AI agent with real-time voice mode, launching for the holidays. The announcements signal Meta's strategy to place AI-first hardware at every price point and form factor.",
+      "keyConcepts": ["Meta VR Glasses", "Muse Charm", "Ray-Ban Meta Gen 3", "AI wearables", "ambient AI agents"],
+      "whyItMatters": "Meta's hardware bets consolidate AI agents into wearable and compact form factors, positioning the company to own the physical access layer for AI well before Apple Vision Pro reaches mainstream adoption.",
+      "tags": ["meta", "meta-connect-2026", "vr-glasses", "muse-charm", "ray-ban-meta-gen-3", "ai-wearables"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Muse Charm announced at Meta Connect 2026?",
+          "options": [
+            "A new Ray-Ban smart glasses model",
+            "A compact keychain-sized handheld AI device with real-time voice mode",
+            "A VR gaming controller",
+            "Meta's new social media feed powered by AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Muse Charm is a small, keychain-sized device featuring Meta's Muse AI agent with real-time voice mode — designed as an always-accessible AI companion separate from the VR glasses lineup."
+        },
+        {
+          "question": "Which display technology does Meta's new ~100g VR Glasses use?",
+          "options": [
+            "Holographic projection",
+            "OLED panels shared with Meta Quest",
+            "5K micro-OLED with eye tracking and hand gesture controls",
+            "LCD with backlight dimming zones"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's new VR Glasses use a 5K micro-OLED display with eye tracking and hand gesture input, while offloading compute, battery, and storage to a tethered module to keep the eyewear weight around 100g."
+        }
+      ]
+    },
+    {
+      "id": "article-youtube-made-on-2026-ai-tools",
+      "type": "article",
+      "title": "YouTube Unveils AI Creator Tools, Gemini Custom Feeds, and Live Dubbing at Made on YouTube 2026",
+      "sourceUrl": "https://www.socialmediatoday.com/news/youtube-presents-new-ai-and-engagement-features-at-made-on-2026/831216/",
+      "verified": false,
+      "publishedAt": "2026-09-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "YouTube's Made on YouTube 2026 event in New York City on September 23 introduced a wave of AI-powered tools. Creators get Ask Studio (a Gemini assistant for channel performance insights and video feedback), AI-powered thumbnail generation, and A/B video testing. Viewers get Gemini-powered custom feeds built from conversational prompts. Livestreamers get real-time AI language dubbing. The Ask YouTube feature expands into a shopping companion with AI product discovery.",
+      "keyConcepts": ["Ask Studio", "Gemini custom feeds", "real-time AI dubbing", "YouTube Studio AI", "AI video discovery"],
+      "whyItMatters": "YouTube's wholesale Gemini integration moves AI from a back-end enhancement to the primary interface layer for content creation, discovery, and commerce on the world's largest video platform.",
+      "tags": ["youtube", "gemini", "ask-studio", "custom-feeds", "ai-creator-tools", "live-dubbing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'Ask Studio' do for YouTube creators?",
+          "options": [
+            "It automatically edits videos using AI",
+            "It provides Gemini-powered channel performance summaries, viewer comment analysis, and early video draft feedback",
+            "It generates entire YouTube videos from text prompts",
+            "It manages creator sponsorship deals"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ask Studio is a Gemini-powered assistant inside YouTube Studio that helps creators understand channel performance, analyze viewer comments, and get feedback on video drafts — acting as an AI creative partner."
+        },
+        {
+          "question": "What does YouTube's new 'custom feeds' feature announced at Made on YouTube 2026 allow viewers to do?",
+          "options": [
+            "Subscribe to channels without watching ads",
+            "Share private playlists with friends",
+            "Describe what they want to watch and have Gemini build a personalized feed",
+            "Download videos for offline viewing automatically"
+          ],
+          "correctIndex": 2,
+          "explanation": "YouTube's custom feeds feature lets viewers describe the content they want in natural language and Gemini builds a personalized video feed matching their request — changing discovery from algorithmic to conversational."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-gemini-market-share-2026",
+      "type": "article",
+      "title": "Report: Claude's AI Prompt Share Jumps 5x to 11%; Gemini Nearly Doubles to 30% in 2026",
+      "sourceUrl": "https://www.advanced-television.com/2026/09/23/report-claude-and-gemini-gain-ground-on-chatgpt/",
+      "verified": false,
+      "publishedAt": "2026-09-23",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "A report published September 23 reveals that Claude's share of total AI prompt volume grew from 2% in January 2026 to 11% by June 2026 — a more than fivefold increase. Google Gemini nearly doubled from 17% to 30% over the same period. Both gains came primarily at the expense of ChatGPT, which remains the market leader but faces mounting competition as Anthropic and Google aggressively cut prices and improve models.",
+      "keyConcepts": ["AI market share", "prompt volume", "Claude growth trajectory", "Gemini adoption", "ChatGPT competition"],
+      "whyItMatters": "The rapid market share shifts confirm that pricing cuts and capability improvements are directly driving model switching — AI platform loyalty is far more fragile than platform loyalty in social media or search historically.",
+      "tags": ["ai-market-share", "anthropic-claude", "google-gemini", "chatgpt", "ai-adoption", "competitive-landscape"],
+      "relatedIds": ["article-claude-opus-55-gpt6-price-war-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "According to the September 2026 market share report, what happened to Claude's share of AI prompt volume from January to June 2026?",
+          "options": [
+            "It remained flat at about 2%",
+            "It declined from 5% to 2%",
+            "It overtook ChatGPT as market leader",
+            "It grew from 2% to 11%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Claude's share of total AI prompt volume grew from 2% in January 2026 to 11% in June 2026 — a more than fivefold increase driven by Anthropic's pricing cuts, model improvements, and the Opus 5.5 launch."
+        },
+        {
+          "question": "Which AI model family saw the largest absolute market share gain in the first half of 2026?",
+          "options": [
+            "Claude (Anthropic)",
+            "Gemini (Google)",
+            "GPT-6 (OpenAI)",
+            "Grok (SpaceXAI)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google Gemini saw the largest absolute gain, nearly doubling from 17% to 30% of AI prompt volume from January to June 2026, with Claude having the fastest percentage growth rate at 5x but from a much smaller base."
+        }
+      ]
+    }
+  ]
+}
