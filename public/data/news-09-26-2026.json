@@ -1,9 +1,141 @@
 {
-  "generatedAt": "2026-09-26T03:15:00Z",
+  "generatedAt": "2026-09-26T10:00:00Z",
   "weekOf": "2026-09-21",
   "coverageStart": "2026-09-24",
-  "coverageEnd": "2026-09-25",
+  "coverageEnd": "2026-09-26",
   "items": [
+    {
+      "id": "youtube-c1rPlzxSZ8E",
+      "type": "video",
+      "title": "Meta is Pivoting Again — Everything You Missed from Connect 2026",
+      "youtubeId": "c1rPlzxSZ8E",
+      "sourceUrl": "https://www.youtube.com/watch?v=c1rPlzxSZ8E",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-industry"],
+      "summary": "Fireship delivers its signature fast-format recap of Meta Connect 2026, walking through every major announcement in under 10 minutes. Key reveals include Ray-Ban Meta Audio — Meta's first camera-free AI glasses — the next-generation Ray-Ban Meta Gen 3 smart glasses, and Muse, a personal AI agent integrated across Meta's suite of apps. The video frames the event as another strategic pivot in Meta's long-running bet on the future of wearable computing.",
+      "keyConcepts": [
+        "Meta Connect 2026 hardware announcements",
+        "Ray-Ban Meta AI glasses evolution",
+        "Muse personal AI agent",
+        "Ambient computing and wearable AI"
+      ],
+      "whyItMatters": "Meta's continued investment in AI-integrated wearables signals a broader industry shift toward ambient computing — where AI is embedded in everyday accessories rather than screens, potentially reshaping how billions interact with AI daily.",
+      "tags": ["meta-connect", "ray-ban", "ai-glasses", "muse-ai-agent", "wearables", "meta"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes the Ray-Ban Meta Audio from previous Ray-Ban Meta models?",
+          "options": [
+            "It has an upgraded camera resolution",
+            "It is the first version with a built-in display",
+            "It is the first camera-free AI glasses in the line",
+            "It runs a local on-device LLM without cloud connectivity"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ray-Ban Meta Audio is notable for being Meta's first camera-free AI glasses, focusing on audio and AI voice interaction rather than image capture."
+        },
+        {
+          "question": "What is Muse, as announced at Meta Connect 2026?",
+          "options": [
+            "A new AI image generation model",
+            "A personal AI agent integrated across Meta's apps",
+            "A standalone AR headset for creative professionals",
+            "Meta's open-source foundation model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse is Meta's personal AI agent, designed to work across the Meta ecosystem of apps and services to help users with tasks and information."
+        }
+      ]
+    },
+    {
+      "id": "youtube-s3WB5SSJc8w",
+      "type": "video",
+      "title": "Google Just Took a Massive Step Towards AGI",
+      "youtubeId": "s3WB5SSJc8w",
+      "sourceUrl": "https://www.youtube.com/watch?v=s3WB5SSJc8w",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-research"],
+      "summary": "TheAIGRID breaks down Google's latest announcement signaling significant progress toward artificial general intelligence. The video analyzes what Google revealed about its AI capabilities, examines the technical milestones involved, and situates the announcement within the broader race among frontier AI labs. Particular attention is given to what 'a massive step towards AGI' actually means in measurable terms versus marketing language.",
+      "keyConcepts": [
+        "Artificial General Intelligence (AGI) definitions and benchmarks",
+        "Google DeepMind capability milestones",
+        "AI progress measurement and evaluation",
+        "Frontier lab AGI timelines"
+      ],
+      "whyItMatters": "Statements about AGI progress from Google — one of the world's best-resourced AI research organizations — carry significant weight for shaping public expectations, government policy, and competitor strategy across the entire industry.",
+      "tags": ["google", "agi", "artificial-general-intelligence", "deepmind", "ai-research", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why is it important to critically evaluate claims of 'progress toward AGI' from frontier AI labs?",
+          "options": [
+            "AGI has already been achieved so such claims are redundant",
+            "There is no agreed-upon definition of AGI, so claims can mean very different things",
+            "Only academic researchers are qualified to make AGI announcements",
+            "Progress toward AGI is always linear and easily measurable"
+          ],
+          "correctIndex": 1,
+          "explanation": "There is no universally agreed-upon definition of AGI, meaning 'progress toward AGI' can mean different things to different organizations — evaluating such claims requires understanding the specific capabilities being measured."
+        },
+        {
+          "question": "Which Google division leads the company's most advanced AI and AGI research?",
+          "options": [
+            "Google Brain",
+            "Google X",
+            "Google DeepMind",
+            "Google Research Labs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google DeepMind, formed from the 2023 merger of Google Brain and DeepMind, leads Google's most advanced AI and AGI research efforts."
+        }
+      ]
+    },
+    {
+      "id": "youtube-hopBmOGn_W8",
+      "type": "video",
+      "title": "The Wire — AI Daily Brief for September 25, 2026",
+      "youtubeId": "hopBmOGn_W8",
+      "sourceUrl": "https://www.youtube.com/watch?v=hopBmOGn_W8",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-industry"],
+      "summary": "AI Daily Brief's 'The Wire' delivers a rapid-fire daily news digest for September 25, 2026. Top stories include Google accelerating its AI platform advantage, Oracle hitting infrastructure scaling challenges in its AI cloud buildout, and coding startup Lovable closing a new funding round. The episode frames the day's news through the lens of who is winning and losing in the ongoing AI platform race.",
+      "keyConcepts": [
+        "AI platform competition and market positioning",
+        "AI cloud infrastructure scaling challenges",
+        "Startup funding in the AI developer tools space",
+        "Daily AI news curation and synthesis"
+      ],
+      "whyItMatters": "Tracking daily shifts in the AI landscape — who is advancing, who is struggling, and where capital is moving — helps practitioners understand the market dynamics that will determine which platforms and tools are worth investing time in.",
+      "tags": ["ai-news", "google", "oracle", "lovable", "ai-industry", "ai-funding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'Lovable' as referenced in AI industry news in September 2026?",
+          "options": [
+            "A new Google AI model focused on emotional responses",
+            "An AI-powered coding and app-building startup",
+            "Meta's brand name for its consumer AI assistants",
+            "A safety benchmark for evaluating AI model alignment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lovable is an AI developer tools startup focused on AI-powered coding and app-building, which attracted funding attention in September 2026 amid growing demand for AI-assisted software development."
+        },
+        {
+          "question": "What challenge is Oracle facing in the AI market according to September 2026 coverage?",
+          "options": [
+            "Regulatory fines for unauthorized AI data collection",
+            "A major data breach affecting its cloud customers",
+            "Infrastructure scaling difficulties in its AI cloud buildout",
+            "Loss of key AI researchers to competitor firms"
+          ],
+          "correctIndex": 2,
+          "explanation": "Coverage from September 25, 2026 highlighted Oracle encountering infrastructure scaling challenges as it attempts to rapidly expand its AI cloud capabilities to compete with AWS, Azure, and Google Cloud."
+        }
+      ]
+    },
     {
       "id": "article-frontier-ai-standards-agency-2026",
       "type": "article",
