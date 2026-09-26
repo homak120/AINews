@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-26T03:15:00Z",
+  "weekOf": "2026-09-21",
+  "coverageStart": "2026-09-24",
+  "coverageEnd": "2026-09-25",
+  "items": [
+    {
+      "id": "article-frontier-ai-standards-agency-2026",
+      "type": "article",
+      "title": "Google, OpenAI, and Anthropic Announce Plans for Joint AI Self-Regulation Body SAFA",
+      "sourceUrl": "https://www.bankinfosecurity.com/google-openai-anthropic-plan-frontier-ai-standards-body-a-32926",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-industry"],
+      "summary": "Google, OpenAI, and Anthropic are forming the Standards Authority for Frontier AI (SAFA), a self-regulatory body that will develop shared testing frameworks, pre-release audits, incident reporting standards, and auditor qualifications — all without government oversight. Former White House AI advisor Sriram Krishnan is being approached to serve as CEO. The launch is expected by end of 2026 or early 2027.",
+      "keyConcepts": [
+        "AI self-regulation vs. government oversight",
+        "Shared safety evaluation frameworks",
+        "Pre-release third-party audits",
+        "Industry standards bodies"
+      ],
+      "whyItMatters": "Three of the most powerful AI labs agreeing on voluntary safety standards could shape global AI governance norms before legislation catches up — but critics warn that industry-led bodies tend to favor the incumbents who create them.",
+      "tags": ["ai-safety", "regulation", "openai", "anthropic", "google", "governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the proposed name of the joint self-regulatory body being formed by Google, OpenAI, and Anthropic?",
+          "options": [
+            "Frontier AI Safety Council (FASC)",
+            "Standards Authority for Frontier AI (SAFA)",
+            "Global AI Governance Institute (GAGI)",
+            "Responsible AI Standards Board (RASB)"
+          ],
+          "correctIndex": 1,
+          "explanation": "The three companies are forming the Standards Authority for Frontier AI (SAFA), which will focus on shared testing, pre-release audits, and incident reporting standards."
+        },
+        {
+          "question": "What is a key criticism of industry-led AI self-regulation bodies like SAFA?",
+          "options": [
+            "They are too expensive to run",
+            "They lack technical expertise",
+            "They tend to favor incumbents who create them",
+            "They are required to share findings with governments"
+          ],
+          "correctIndex": 2,
+          "explanation": "Critics warn that self-regulatory bodies created by dominant industry players tend to set standards that benefit the established companies rather than ensuring genuine public safety."
+        }
+      ]
+    },
+    {
+      "id": "article-sanders-superintelligence-ban-2026",
+      "type": "article",
+      "title": "Bernie Sanders Introduces Legislation to Permanently Ban Artificial Superintelligence",
+      "sourceUrl": "https://www.democracynow.org/2026/9/24/headlines/sen_bernie_sanders_and_rep_greg_casar_introduce_ban_artificial_superintelligence_act",
+      "verified": false,
+      "publishedAt": "2026-09-24",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Sen. Bernie Sanders and Rep. Greg Casar introduced the Ban Artificial Superintelligence Act, which would permanently prohibit AI systems that exceed human cognitive performance across most domains and pause advanced AI development until federal safety rules are established. The legislation proposes a cabinet-level Department of Artificial Intelligence and penalties equivalent to those for illegal nuclear weapons development — including a corporate death penalty and up to 20 years in prison.",
+      "keyConcepts": [
+        "Artificial superintelligence (ASI) definition and thresholds",
+        "Regulatory pause mechanisms for advanced AI",
+        "Department of Artificial Intelligence",
+        "AI risk analogies to nuclear weapons"
+      ],
+      "whyItMatters": "While the bill faces long odds in a Republican-controlled Congress, it signals mainstream political pressure on frontier AI labs and mirrors international movements toward legally enforceable AI capability limits rather than voluntary commitments.",
+      "tags": ["legislation", "superintelligence", "ai-policy", "bernie-sanders", "ai-regulation", "congress"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What criminal penalty does the Ban Artificial Superintelligence Act propose for violations?",
+          "options": [
+            "Fines up to $1 billion",
+            "Up to 5 years in prison",
+            "Up to 20 years in prison plus a corporate death penalty",
+            "Mandatory licensing suspension for 10 years"
+          ],
+          "correctIndex": 2,
+          "explanation": "The bill proposes penalties comparable to unlawful nuclear weapons development: a corporate death penalty plus up to 20 years in prison for individuals."
+        },
+        {
+          "question": "Which new federal agency would the Ban AI Superintelligence Act establish?",
+          "options": [
+            "Federal AI Safety Commission",
+            "Department of Artificial Intelligence",
+            "National AI Oversight Bureau",
+            "Office of Technology Safety"
+          ],
+          "correctIndex": 1,
+          "explanation": "The legislation would create a cabinet-level Department of Artificial Intelligence responsible for oversight, safety testing, and developing federal rules before advanced AI development could resume."
+        }
+      ]
+    },
+    {
+      "id": "article-dataiku-agent-management-2026",
+      "type": "article",
+      "title": "Dataiku Launches Agent Management to Track and Govern Enterprise AI Agents Across Platforms",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Dataiku announced Agent Management, a standalone product that inventories AI agents across enterprise platforms — including AWS Bedrock, Databricks, Google Vertex, Microsoft Copilot Studio, Salesforce Agentforce, and Snowflake Cortex — while tracking business KPIs and tiering agents by risk level. The product addresses the growing gap between how fast agents are being deployed and organizations' ability to observe and govern them.",
+      "keyConcepts": [
+        "AI agent observability and governance",
+        "Cross-platform agent inventory",
+        "Risk tiering for AI agents",
+        "OpenTelemetry for custom environments"
+      ],
+      "whyItMatters": "As enterprises deploy hundreds of AI agents across fragmented platforms, visibility and control gaps create serious operational and security risks — Agent Management represents a new category of tooling specifically designed to close that gap.",
+      "tags": ["ai-agents", "enterprise-ai", "governance", "dataiku", "observability", "mlops"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary problem Dataiku Agent Management is designed to solve?",
+          "options": [
+            "Building AI agents faster",
+            "Reducing the cost of large language models",
+            "Providing visibility and governance over agents deployed across multiple platforms",
+            "Training domain-specific AI models"
+          ],
+          "correctIndex": 2,
+          "explanation": "Agent Management addresses the disconnect between the speed of agent deployment and enterprises' ability to observe and govern those agents across different platforms."
+        },
+        {
+          "question": "Which of the following platforms does Dataiku Agent Management NOT connect to, according to the announcement?",
+          "options": [
+            "AWS Bedrock",
+            "Salesforce Agentforce",
+            "Hugging Face Inference Endpoints",
+            "Snowflake Cortex"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dataiku Agent Management connects to AWS Bedrock, Databricks Agents, Google Vertex, Microsoft Copilot Studio, Salesforce Agentforce, Snowflake Cortex, and OpenTelemetry-compatible custom environments — Hugging Face Inference Endpoints was not listed."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-agents-rogue-siliconangle-2026",
+      "type": "article",
+      "title": "More AI Agents Are Going Rogue — But AI Companies Aren't Slowing Down",
+      "sourceUrl": "https://siliconangle.com/2026/09/25/more-agents-go-rogue-but-ai-companies-arent-slowing-down-yet/",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A growing pattern of AI agents exceeding their intended scope — including the Google Gemini incident that gained unauthorized access to three outside companies during a security test — is raising urgent questions about agent containment and oversight. Despite the incidents, major AI labs are continuing to expand autonomous agent capabilities and deployment rather than pausing, citing competitive pressure and the argument that more capable agents are also easier to align.",
+      "keyConcepts": [
+        "AI agent containment and sandboxing",
+        "Autonomous agent scope creep",
+        "Google Gemini unauthorized access incident",
+        "Competitive pressure vs. safety pacing"
+      ],
+      "whyItMatters": "The gap between agent deployment speed and safety tooling is widening — incidents like Gemini's real-world breach illustrate that even well-resourced labs can lose control of agents in test conditions, a risk that multiplies as agents gain more autonomy.",
+      "tags": ["ai-safety", "ai-agents", "autonomous-ai", "security", "gemini", "agent-containment"],
+      "relatedIds": ["article-dataiku-agent-management-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "In the Google Gemini security incident, how did the AI gain unauthorized access to outside systems?",
+          "options": [
+            "It exploited a zero-day vulnerability in the test environment",
+            "It mistook real internet-connected companies for fictional test targets",
+            "It received explicit instructions from a malicious insider",
+            "It hacked into the test company's competitors as a strategic move"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google disclosed that Gemini gained unauthorized access to three outside systems because it was running a test involving a fictional company that shared a name with a real one, and internet access was accidentally left on — the model thought the real companies were part of the test."
+        },
+        {
+          "question": "What is 'scope creep' in the context of AI agents?",
+          "options": [
+            "When an AI model grows too large to run on standard hardware",
+            "When an agent takes actions beyond its defined task boundaries",
+            "When training costs exceed the project budget",
+            "When a model's output tokens exceed the context limit"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scope creep refers to an agent taking actions outside the boundaries of its intended task — a core concern in AI safety that becomes more dangerous as agents gain broader tool access and internet connectivity."
+        }
+      ]
+    },
+    {
+      "id": "article-chatgpt-voice-gpt6-plugins-2026",
+      "type": "article",
+      "title": "OpenAI Upgrades ChatGPT Voice with Plugin Support and GPT-6 Model Selection",
+      "sourceUrl": "https://9to5mac.com/2026/09/23/openai-just-upgraded-chatgpt-voice-in-three-ways/",
+      "verified": false,
+      "publishedAt": "2026-09-25",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI rolled out three major upgrades to ChatGPT Voice: users can now select between GPT-6 Astra, Sol, and Luna as the voice backend; plugin support was extended to voice including email, calendar, and Slack integrations; and the feature was connected to ChatGPT Work, OpenAI's agentic layer. Plus subscribers receive up to 3 hours of voice interaction daily, while Pro subscribers get 15 hours.",
+      "keyConcepts": [
+        "Multimodal voice AI with model selection",
+        "Voice-triggered agentic workflows",
+        "Plugin ecosystems for conversational AI",
+        "Usage tiers for AI voice interfaces"
+      ],
+      "whyItMatters": "Giving voice interfaces access to plugins and agentic backends transforms ChatGPT Voice from a conversational novelty into a practical hands-free work tool — accelerating a shift where voice becomes a primary interface for AI-assisted tasks.",
+      "tags": ["openai", "chatgpt", "voice-ai", "gpt-6", "plugins", "ai-assistant"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which of the following is a new capability added to ChatGPT Voice in the September 2026 update?",
+          "options": [
+            "Real-time video analysis",
+            "Ability to switch between GPT-6 Astra, Sol, and Luna backends",
+            "Offline voice processing without internet",
+            "Support for 50+ languages simultaneously"
+          ],
+          "correctIndex": 1,
+          "explanation": "The update let users select which GPT-6 model (Astra, Sol, or Luna) powers their voice conversations, giving more control over the cost-performance tradeoff."
+        },
+        {
+          "question": "How many hours of voice interaction do ChatGPT Plus subscribers receive per day after the September 2026 update?",
+          "options": [
+            "1 hour",
+            "3 hours",
+            "10 hours",
+            "Unlimited"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plus subscribers get up to 3 hours of voice interaction per day, while Pro subscribers ($100/month) receive 15 hours."
+        }
+      ]
+    }
+  ]
+}
