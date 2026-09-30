@@ -1,0 +1,269 @@
+{
+  "generatedAt": "2026-09-30T08:00:00.000Z",
+  "weekOf": "2026-09-28",
+  "coverageStart": "2026-09-28",
+  "coverageEnd": "2026-09-30",
+  "items": [
+    {
+      "id": "youtube-GjN3xLDuc8o",
+      "type": "video",
+      "title": "OpenAI Dev Day 2026: Everything Announced in 15 Minutes",
+      "youtubeId": "GjN3xLDuc8o",
+      "sourceUrl": "https://www.youtube.com/watch?v=GjN3xLDuc8o",
+      "verified": false,
+      "publishedAt": "2026-09-30",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI's DevDay 2026 event in San Francisco on September 29 featured over 20 major announcements, including Dots — always-on AI agents embedded inside ChatGPT that can execute tasks and respond to calls and messages autonomously. OpenAI also unveiled Pro 500, a $500/month plan with 25x the usage of Plus and exclusive access to the new Ultrafast speed tier, which generates tokens up to 8x faster in Codex.",
+      "keyConcepts": [
+        "Dots (always-on AI agents)",
+        "Ultrafast token generation tier",
+        "Pro 500 subscription plan",
+        "Codex autonomous coding assistant"
+      ],
+      "whyItMatters": "Dots represent a fundamental shift from reactive AI to proactive agents that operate continuously on your behalf — the biggest change to how people interact with AI assistants since ChatGPT launched. The Ultrafast tier signals that speed, not just capability, is becoming a core competitive dimension.",
+      "tags": ["openai", "devday", "agents", "dots", "chatgpt", "ultrafast"],
+      "relatedIds": ["youtube-skmIv390Qs4", "youtube-Y_RevX5yMq8"],
+      "knowledgeChecks": [
+        {
+          "question": "What are 'Dots' in the context of OpenAI's DevDay 2026 announcements?",
+          "options": [
+            "A new visual design language for ChatGPT",
+            "Always-on AI agents inside ChatGPT that execute tasks proactively",
+            "A new code-review feature for Codex",
+            "A plugin marketplace for third-party developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dots are always-on AI agents embedded inside ChatGPT that can autonomously execute tasks, answer phone calls, and send messages on the user's behalf — operating continuously rather than only when prompted."
+        },
+        {
+          "question": "How much faster does the Ultrafast tier generate tokens in Codex compared to the standard tier?",
+          "options": [
+            "2x faster",
+            "4x faster",
+            "8x faster",
+            "12x faster"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Ultrafast tier generates tokens up to 8x faster in Codex (and up to 6x faster in the API), reaching approximately 300 tokens per second — making real-time autonomous coding significantly more responsive."
+        }
+      ]
+    },
+    {
+      "id": "youtube-skmIv390Qs4",
+      "type": "video",
+      "title": "OpenAI Unveils The Future of Work: Dots and a New AI Business Revolution",
+      "youtubeId": "skmIv390Qs4",
+      "sourceUrl": "https://www.youtube.com/watch?v=skmIv390Qs4",
+      "verified": false,
+      "publishedAt": "2026-09-30",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "This analysis breaks down how OpenAI's Dots agents, unveiled at DevDay 2026, could fundamentally restructure white-collar work — acting as persistent digital colleagues rather than on-demand tools. The video examines the economic implications of always-on AI agents for businesses, including the potential $100B opportunity across enterprise automation and the shift from SaaS to agent-based services.",
+      "keyConcepts": [
+        "Agent-based enterprise automation",
+        "SaaS to agents transition",
+        "Persistent AI workforce",
+        "Autonomous task delegation"
+      ],
+      "whyItMatters": "The move from reactive chat interfaces to persistent agents marks a step-change in AI's business impact — enterprises can now deploy AI that monitors, decides, and acts without human prompting, compressing entire workflows into automated loops.",
+      "tags": ["openai", "dots", "enterprise-ai", "automation", "future-of-work", "agents"],
+      "relatedIds": ["youtube-GjN3xLDuc8o", "youtube-Y_RevX5yMq8"],
+      "knowledgeChecks": [
+        {
+          "question": "What key business model shift does OpenAI's Dots agent represent?",
+          "options": [
+            "From open-source to proprietary models",
+            "From API-first to mobile-first products",
+            "From on-demand chat tools to persistent autonomous agents",
+            "From consumer to enterprise pricing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dots shift AI from a reactive tool that responds to queries into a persistent agent that monitors context, makes decisions, and executes tasks continuously — changing how businesses integrate AI from a point tool to a workflow participant."
+        },
+        {
+          "question": "Which sector is most directly disrupted by always-on AI agents like Dots?",
+          "options": [
+            "Hardware manufacturing",
+            "White-collar knowledge work and enterprise automation",
+            "Physical logistics and warehousing",
+            "Consumer entertainment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Always-on AI agents that can handle communications, scheduling, and multi-step tasks primarily disrupt knowledge work roles — automating the coordination and execution tasks that currently require human attention throughout the workday."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Y_RevX5yMq8",
+      "type": "video",
+      "title": "OpenAI DevDay: Dots, Agents & $100B Opportunities",
+      "youtubeId": "Y_RevX5yMq8",
+      "sourceUrl": "https://www.youtube.com/watch?v=Y_RevX5yMq8",
+      "verified": false,
+      "publishedAt": "2026-09-30",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "A developer-focused breakdown of the $100B business opportunity emerging from OpenAI's DevDay 2026 announcements, examining how Dots agents and the Ultrafast API tier open new categories of AI-native applications. The video covers practical developer opportunities including agent orchestration, new API pricing, and which existing SaaS categories face the most displacement from autonomous agents.",
+      "keyConcepts": [
+        "AI-native application development",
+        "Agent orchestration patterns",
+        "Ultrafast API tier pricing",
+        "SaaS displacement by agents"
+      ],
+      "whyItMatters": "For AI engineers and entrepreneurs, DevDay 2026 marks a new platform cycle — the combination of persistent agents and ultra-fast inference creates infrastructure for products that weren't viable even 12 months ago.",
+      "tags": ["openai", "devday", "api", "developer", "agents", "entrepreneurship"],
+      "relatedIds": ["youtube-GjN3xLDuc8o", "youtube-skmIv390Qs4"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the Ultrafast API tier primarily enable for developers building agent applications?",
+          "options": [
+            "Lower cost per token",
+            "Access to GPT-4 level models",
+            "Real-time responsiveness with 300 tokens/second throughput",
+            "Unlimited context windows"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Ultrafast tier reaches ~300 tokens/second, making it feasible to build agents that feel instantaneous even in complex multi-step workflows — responsiveness that was impossible with prior generation API speeds."
+        },
+        {
+          "question": "Which existing software category is most vulnerable to displacement by autonomous AI agents?",
+          "options": [
+            "Database management systems",
+            "Network security tools",
+            "Task coordination and workflow automation SaaS",
+            "Hardware device drivers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Task coordination tools (project management, scheduling, email coordination) are most vulnerable because persistent AI agents can now handle the orchestration and follow-through those tools were built to support."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-filing-2026",
+      "type": "article",
+      "title": "Anthropic's IPO Filing Details Steep Losses, Rapid Growth, and $518B AI Infrastructure Commitment",
+      "sourceUrl": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/",
+      "verified": false,
+      "publishedAt": "2026-09-29",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic's confidential IPO prospectus, which became public on September 29, reveals a $42 billion net loss last year alongside 1,088% revenue growth in 2025. The company plans to spend $518 billion on AI infrastructure over the coming decade through commitments with Google ($111B), Amazon ($110B), xAI ($84.5B), Microsoft ($31.4B), and Broadcom ($161.2B). The filing targets a public valuation above $2 trillion on a mid-October Nasdaq listing.",
+      "keyConcepts": [
+        "Confidential IPO prospectus disclosure",
+        "$518B infrastructure commitment over 10 years",
+        "1,088% revenue growth in 2025",
+        "AI infrastructure arms race economics"
+      ],
+      "whyItMatters": "Anthropic's filing reveals the staggering capital intensity of frontier AI — a $42B loss with 1,000%+ revenue growth shows a race where spending velocity matters more than near-term profitability. The $518B infrastructure figure signals that AI compute is becoming a multi-decade, multi-trillion-dollar infrastructure build comparable to railroads or the internet.",
+      "tags": ["anthropic", "ipo", "infrastructure", "funding", "ai-economics", "claude"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's revenue growth rate in 2025 according to the IPO filing?",
+          "options": [
+            "150%",
+            "450%",
+            "780%",
+            "1,088%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic's revenue grew 1,088% in 2025 — but this came alongside an operating loss that widened to $8.06 billion from $2.98 billion, illustrating the extreme cost of scaling frontier AI models."
+        },
+        {
+          "question": "Which partner represents the largest single infrastructure commitment in Anthropic's $518B total?",
+          "options": [
+            "Google ($111B)",
+            "Amazon ($110B)",
+            "Broadcom equipment leases ($161.2B)",
+            "Microsoft ($31.4B)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Broadcom equipment lease obligations account for $161.2B — the largest single component of Anthropic's $518B infrastructure commitment, reflecting the massive custom chip procurement required to train and serve frontier models at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-amd-world-labs-acquisition-2026",
+      "type": "article",
+      "title": "AMD Acquires Fei-Fei Li's World Labs for $8.2 Billion to Lead in Physical AI and Spatial Intelligence",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "verified": false,
+      "publishedAt": "2026-09-28",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "AMD announced a definitive all-stock agreement to acquire World Labs, the spatial-intelligence AI startup founded by Fei-Fei Li, for approximately $8.2 billion. World Labs develops models that generate, reconstruct, and simulate interactive 3D environments from text, image, and video inputs — targeting robotics, simulation, and physical world reasoning. Following the close, Dr. Li will join AMD as EVP and Chief Scientist reporting to CEO Dr. Lisa Su.",
+      "keyConcepts": [
+        "Spatial intelligence models",
+        "3D world generation from multimodal inputs",
+        "Physical AI and robotics simulation",
+        "AMD's AI research expansion"
+      ],
+      "whyItMatters": "AMD is making a multi-billion-dollar bet that spatial intelligence — AI that understands and generates 3D physical environments — is the next frontier beyond language and image models. Bringing Fei-Fei Li aboard as Chief Scientist signals AMD's intent to compete not just on hardware but on foundational AI research.",
+      "tags": ["amd", "world-labs", "fei-fei-li", "spatial-intelligence", "robotics", "acquisition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core capability that World Labs brings to AMD?",
+          "options": [
+            "Large language model training infrastructure",
+            "Spatial intelligence: generating and simulating interactive 3D environments",
+            "Computer vision for medical imaging",
+            "Natural language processing for enterprise search"
+          ],
+          "correctIndex": 1,
+          "explanation": "World Labs specializes in spatial intelligence models that generate, reconstruct, and simulate interactive 3D environments from text, image, and video inputs — critical for robotics, autonomous systems, and physical world simulation."
+        },
+        {
+          "question": "What role will Fei-Fei Li take at AMD after the acquisition closes?",
+          "options": [
+            "Chief Technology Officer",
+            "VP of Research",
+            "Executive Vice President and Chief Scientist",
+            "Independent Board Director"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dr. Fei-Fei Li will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Dr. Lisa Su — a top leadership role that signals AMD is elevating research as a strategic priority alongside hardware."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-revenue-q3-2026",
+      "type": "article",
+      "title": "OpenAI Revenue Run Rate Hits $70 Billion After 70%+ Q3 Growth, B2B Revenue Doubles",
+      "sourceUrl": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html",
+      "verified": false,
+      "publishedAt": "2026-09-29",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI revealed at DevDay 2026 that its annualized revenue run rate has grown more than 70% since the beginning of Q3, reaching nearly $70 billion. B2B revenue more than doubled in the period, and the company added more consumer revenue in Q3 than in all of 2025. The company also disclosed that its Anthropic rival's IPO prospectus target of $2 trillion comes as OpenAI itself continues to scale at historically unprecedented rates.",
+      "keyConcepts": [
+        "Annualized revenue run rate",
+        "B2B vs consumer revenue mix",
+        "AI monetization velocity",
+        "Enterprise AI adoption acceleration"
+      ],
+      "whyItMatters": "OpenAI reaching a $70B revenue run rate at this growth velocity suggests the AI platform transition is well underway — B2B doubling in one quarter indicates enterprises are moving from pilots to full deployment. This sets a high bar for any AI company attempting to IPO against OpenAI's scale.",
+      "tags": ["openai", "revenue", "enterprise", "growth", "b2b", "market"],
+      "relatedIds": ["article-anthropic-ipo-filing-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's annualized revenue run rate reaching $70 billion indicate about enterprise AI adoption?",
+          "options": [
+            "Most revenue still comes from individual consumers",
+            "Enterprises are moving from pilots to broad deployment at scale",
+            "OpenAI is slowing its growth compared to 2025",
+            "The market is primarily driven by API access for developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "B2B revenue doubling in a single quarter, combined with record consumer revenue, shows enterprises accelerating from small pilots to full-scale AI integration — the 'enterprise deployment' phase that many analysts predicted would drive the next revenue wave."
+        },
+        {
+          "question": "How does OpenAI's $70B revenue run rate compare to its growth trajectory?",
+          "options": [
+            "It grew 10% since the start of Q3",
+            "It grew 40% since the start of Q3",
+            "It grew 70%+ since the start of Q3",
+            "It has been flat since the start of Q3"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's annualized revenue run rate grew more than 70% since the beginning of Q3 2026, meaning the company roughly doubled its revenue pace within a single quarter — an extraordinary acceleration for a company already at this scale."
+        }
+      ]
+    }
+  ]
+}
