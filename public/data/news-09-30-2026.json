@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:00:00.000Z",
+  "generatedAt": "2026-09-30T14:00:00.000Z",
   "weekOf": "2026-09-28",
   "coverageStart": "2026-09-28",
   "coverageEnd": "2026-09-30",
@@ -262,6 +262,49 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI's annualized revenue run rate grew more than 70% since the beginning of Q3 2026, meaning the company roughly doubled its revenue pace within a single quarter — an extraordinary acceleration for a company already at this scale."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-selfpolice-accord-2026",
+      "type": "article",
+      "title": "Trump and Top AI Executives Sign Voluntary 'Self-Police' Accord at White House, Rename AI as 'Super Intelligence'",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development",
+      "verified": false,
+      "publishedAt": "2026-09-29",
+      "topics": ["ai-industry"],
+      "summary": "President Trump announced that leaders from OpenAI, Anthropic, Google, Meta, Nvidia, Amazon, Palantir, and X signed a voluntary accord pledging 'robust' AI safeguards including internal and external audits of their models, at a White House summit aimed at addressing public concerns about AI safety. Trump simultaneously signed an executive order directing all government agencies to use the term 'super intelligence' instead of 'artificial intelligence,' calling the voluntary commitment 'morally binding.' Critics noted the accord is entirely voluntary, the companies draft their own principles and hire their own auditors, and the White House refused to support any guardrails.",
+      "keyConcepts": [
+        "Voluntary AI self-governance framework",
+        "Internal and external model audits",
+        "US AI policy under Trump administration",
+        "Industry self-regulation vs government oversight"
+      ],
+      "whyItMatters": "The accord marks the US government's clearest statement on AI governance in the current administration — a light-touch, industry-led framework that prioritizes speed and competitiveness over binding safety rules. Whether voluntary commitments can meaningfully constrain frontier AI development will be debated for years as models grow more capable.",
+      "tags": ["ai-policy", "trump", "regulation", "safety", "white-house", "governance"],
+      "relatedIds": ["article-anthropic-ipo-filing-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What makes the Trump administration's AI safety accord distinct from mandatory regulation?",
+          "options": [
+            "It requires congressional approval before taking effect",
+            "It is entirely voluntary, with companies drafting their own principles and hiring their own auditors",
+            "It mandates government review of all model releases above a capability threshold",
+            "It introduces criminal penalties for safety violations"
+          ],
+          "correctIndex": 1,
+          "explanation": "The accord is voluntary: companies draft the principles themselves, hire their own external auditors, and there are no enforcement mechanisms — critics argue this makes it a public relations exercise rather than a meaningful safety framework."
+        },
+        {
+          "question": "What symbolic action did Trump take to rebrand the AI industry at the White House summit?",
+          "options": [
+            "He renamed OpenAI as a national strategic asset",
+            "He signed an executive order directing all government agencies to use 'super intelligence' instead of 'artificial intelligence'",
+            "He established a new federal AI oversight agency",
+            "He declared AI a public utility subject to rate regulation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Trump signed an executive order mandating all federal agencies replace 'artificial intelligence' with 'super intelligence' — a branding move he argued would signal American confidence and ambition in the technology to international competitors."
         }
       ]
     }
