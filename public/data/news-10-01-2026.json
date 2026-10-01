@@ -1,89 +1,9 @@
 {
-  "generatedAt": "2026-10-01T00:00:00.000Z",
+  "generatedAt": "2026-10-01T08:00:00.000Z",
   "weekOf": "2026-09-28",
-  "coverageStart": "2026-09-29",
-  "coverageEnd": "2026-09-30",
+  "coverageStart": "2026-09-30",
+  "coverageEnd": "2026-10-01",
   "items": [
-    {
-      "id": "youtube-QBlDZw7GPVw",
-      "type": "video",
-      "title": "OpenAI DevDay 2026 in 130 Seconds",
-      "youtubeId": "QBlDZw7GPVw",
-      "sourceUrl": "https://www.youtube.com/watch?v=QBlDZw7GPVw",
-      "verified": false,
-      "publishedAt": "2026-09-29",
-      "dateEstimated": true,
-      "topics": ["ai-industry"],
-      "summary": "OpenAI held its annual DevDay 2026 conference in San Francisco on September 29, announcing over 20 updates to ChatGPT and its developer ecosystem. The headliner was Dots—always-on personal AI agents with their own cloud computers that connect to 4,000+ apps and keep working autonomously even after you close ChatGPT. GPT-6.1 Sol was also introduced, offering near-GPT-6 Astra performance at one-fifth the token cost.",
-      "keyConcepts": ["Dots AI agents", "GPT-6.1 Sol model", "ChatGPT Space", "UltraFast inference"],
-      "whyItMatters": "OpenAI is transitioning AI from a reactive tool into an always-on autonomous operating layer, signaling a fundamental shift in how developers and consumers will interact with AI systems going forward.",
-      "tags": ["openai", "devday-2026", "ai-agents", "gpt-6-1-sol", "dots", "chatgpt"],
-      "relatedIds": [],
-      "knowledgeChecks": [
-        {
-          "question": "What is the primary function of OpenAI's 'Dots' agents announced at DevDay 2026?",
-          "options": [
-            "Generate images using GPT-6 Astra",
-            "Work autonomously on tasks with their own persistent cloud computer",
-            "Provide real-time voice translation only",
-            "Replace the ChatGPT mobile app"
-          ],
-          "correctIndex": 1,
-          "explanation": "Dots are always-on personal AI agents that run on their own cloud computer, connect to 4,000+ apps, and continue working on tasks even after you close ChatGPT—they are autonomous agents, not just an interface change."
-        },
-        {
-          "question": "How does GPT-6.1 Sol compare to GPT-6 Astra in terms of pricing?",
-          "options": [
-            "GPT-6.1 Sol costs twice as much as Astra",
-            "GPT-6.1 Sol is priced identically to Astra",
-            "GPT-6.1 Sol costs roughly one-fifth of Astra's token price",
-            "GPT-6.1 Sol is free for all ChatGPT users"
-          ],
-          "correctIndex": 2,
-          "explanation": "GPT-6.1 Sol is a workhorse model that nearly matches GPT-6 Astra in performance on agentic coding, computer use, and professional work, but at about one-fifth the cost per token—making frontier-level AI much more economically accessible."
-        }
-      ]
-    },
-    {
-      "id": "youtube-zMwQ-rjPvZQ",
-      "type": "video",
-      "title": "OpenAI Dev Day 2026 Livestream Reaction and Developer Analysis",
-      "youtubeId": "zMwQ-rjPvZQ",
-      "sourceUrl": "https://www.youtube.com/watch?v=zMwQ-rjPvZQ",
-      "verified": false,
-      "publishedAt": "2026-09-29",
-      "dateEstimated": true,
-      "topics": ["ai-industry", "ai-engineering"],
-      "summary": "Wes Roth streamed live coverage and real-time analysis of OpenAI's DevDay 2026 keynote, breaking down the implications for developers of Dots agents, GPT-6.1 Sol, and the new Agents API public beta. The stream provided hands-on commentary on how the 20+ announcements affect building AI applications, including the Decisions API and ChatGPT Marketplace. Roth identified the shift to persistent agentic infrastructure as the defining theme of DevDay 2026.",
-      "keyConcepts": ["Dots agent architecture", "Decisions API", "ChatGPT Marketplace", "Agents API public beta"],
-      "whyItMatters": "The DevDay 2026 announcements give AI engineers new primitives—a public Agents API, Decisions API, and 4,000-app integration layer—to build autonomous systems that can act and operate with minimal human intervention.",
-      "tags": ["openai", "devday-2026", "wes-roth", "agents-api", "decisions-api", "ai-engineering"],
-      "relatedIds": [],
-      "knowledgeChecks": [
-        {
-          "question": "What developer API was released in public beta at OpenAI DevDay 2026?",
-          "options": [
-            "Vision API v2",
-            "Embeddings API v3",
-            "Agents API",
-            "Audio API"
-          ],
-          "correctIndex": 2,
-          "explanation": "OpenAI released the Agents API in public beta at DevDay 2026, giving developers programmatic access to build and orchestrate autonomous AI agents that can use tools, memory, and long-running tasks."
-        },
-        {
-          "question": "How many apps can OpenAI's Dots agents connect to at launch?",
-          "options": [
-            "400 apps",
-            "1,000 apps",
-            "2,500 apps",
-            "More than 4,000 apps"
-          ],
-          "correctIndex": 3,
-          "explanation": "OpenAI announced that Dots agents can connect to more than 4,000 apps at launch, enabling them to take real-world actions across a wide range of services without requiring custom integrations."
-        }
-      ]
-    },
     {
       "id": "youtube-NQ4Aoe8wTC0",
       "type": "video",
@@ -235,6 +155,82 @@
           ],
           "correctIndex": 1,
           "explanation": "Laboratory tests across target proteins showed that watermarked designs retained the same performance and natural diversity as unwatermarked versions—meaning SynthID Bio adds provenance tracking without scientific cost."
+        }
+      ]
+    },
+    {
+      "id": "article-ca-ai-worker-oct2026",
+      "type": "article",
+      "title": "California Governor Newsom Signs 13 AI Worker Protection Bills Into Law",
+      "sourceUrl": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/01/california-gov-gavin-newsom-signs-laws-to-protect-workers-from-ai-risks/",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "California Governor Gavin Newsom signed 13 bills on October 1 setting rules for AI in workplaces, healthcare, and online content. Key laws include SB 947—making California the first US state to ban employers from relying solely on automated systems to fire or discipline workers—and AB 1883, which bans AI tools that recognize or predict employee emotional states or collect neural data. Employers must also notify workers when AI contributes to mass layoffs.",
+      "keyConcepts": ["SB 947 AI firing ban", "AB 1883 emotional state surveillance", "AI workplace disclosure", "California AI legislation"],
+      "whyItMatters": "California's package is the most comprehensive U.S. state-level AI labor law to date, establishing a precedent that AI decision-making in high-stakes employment contexts must have a human in the loop—likely to influence similar legislation in other states.",
+      "tags": ["california", "ai-regulation", "labor-law", "workplace-ai", "newsom", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does California's SB 947 specifically prohibit employers from doing?",
+          "options": [
+            "Using AI tools for employee scheduling",
+            "Relying solely on automated systems to fire or discipline workers",
+            "Training AI models on employee data without consent",
+            "Deploying AI chatbots for internal HR questions"
+          ],
+          "correctIndex": 1,
+          "explanation": "SB 947 requires human involvement in AI-based employment decisions—employers cannot use an automated decision system as the sole basis for firing or disciplining a worker, making California the first U.S. state with such a rule."
+        },
+        {
+          "question": "What type of AI surveillance does AB 1883 ban in California workplaces?",
+          "options": [
+            "Video monitoring of employee workstations",
+            "AI tools that track keystrokes or mouse movement",
+            "Tools that recognize or predict employee emotional states or collect neural data",
+            "Automated time-and-attendance systems"
+          ],
+          "correctIndex": 2,
+          "explanation": "AB 1883 specifically targets AI systems that detect or predict emotions and those that gather neural signals (e.g., from brain sensors), protecting workers from this invasive category of biometric surveillance."
+        }
+      ]
+    },
+    {
+      "id": "article-america-gov-ai-oct2026",
+      "type": "article",
+      "title": "Trump Administration Launches America.gov AI Chatbot Powered by Gemini and Grok",
+      "sourceUrl": "https://fedscoop.com/trump-launches-ai-site-america-gov/",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-industry"],
+      "summary": "The Trump administration unveiled America.gov on October 1, an AI-powered federal portal built on Google's Gemini and Elon Musk's Grok, aggregating information from roughly 29,000 government websites. Pitched as a one-stop AI 'concierge,' the chatbot guides users on passports, Medicare, and government services, with plans to allow direct task completion by 2027. The chatbot briefly fact-checked political claims before being updated to avoid political questions entirely, drawing media scrutiny.",
+      "keyConcepts": ["America.gov federal AI portal", "Gemini and Grok integration", "Government services AI", "AI political neutrality"],
+      "whyItMatters": "America.gov represents the first large-scale deployment of competing commercial AI models (Gemini + Grok) in a U.S. federal context, raising questions about data privacy, vendor lock-in, and how government AI handles politically sensitive information.",
+      "tags": ["america-gov", "government-ai", "trump", "gemini", "grok", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI models power the America.gov federal chatbot?",
+          "options": [
+            "OpenAI GPT-6 and Meta Llama",
+            "Google Gemini and Elon Musk's Grok",
+            "Anthropic Claude and Microsoft Copilot",
+            "AWS Bedrock and IBM Watson"
+          ],
+          "correctIndex": 1,
+          "explanation": "America.gov uses Google's Gemini and Elon Musk's Grok as its underlying AI models—an unusual pairing that reflects the administration's existing relationships with both Google and Musk's xAI."
+        },
+        {
+          "question": "What controversy arose shortly after America.gov launched?",
+          "options": [
+            "The chatbot leaked private Social Security numbers",
+            "The chatbot initially fact-checked Trump's political claims, then stopped answering political questions",
+            "The site was hacked within hours of launch",
+            "The chatbot refused to answer any questions about Medicare"
+          ],
+          "correctIndex": 1,
+          "explanation": "America.gov's chatbot initially contradicted some of Trump's political claims when asked, drawing attention; it was then updated to pull back from answering political questions, raising concerns about AI neutrality in government services."
         }
       ]
     }
