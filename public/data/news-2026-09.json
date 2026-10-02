@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T14:00:00.000Z",
+  "generatedAt": "2026-10-02T03:10:51.508Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-08-31",
   "coverageEnd": "2026-09-01",
@@ -11,11 +11,25 @@
       "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
       "verified": false,
       "publishedAt": "2026-08-31",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "Anthropic detected infostealer malware on user PCs siphoning active Claude login session cookies, enabling attackers to consume paid usage limits without needing passwords or bypassing 2FA. Identified malware variants include Vidar, LummaC2, StealC, RedLine, and Atomic Stealer. Anthropic responded by force-logging out affected users, wiping saved payment methods, and refunding unauthorized charges.",
-      "keyConcepts": ["session cookie hijacking", "infostealer malware", "credential security", "AI platform security"],
+      "keyConcepts": [
+        "session cookie hijacking",
+        "infostealer malware",
+        "credential security",
+        "AI platform security"
+      ],
       "whyItMatters": "As AI subscriptions handle increasingly sensitive workflows and billing, they become high-value targets for credential theft—this incident shows users must apply banking-grade session hygiene to AI platform logins.",
-      "tags": ["anthropic", "security", "malware", "claude", "session-hijacking", "infostealer"],
+      "tags": [
+        "anthropic",
+        "security",
+        "malware",
+        "claude",
+        "session-hijacking",
+        "infostealer"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -49,11 +63,27 @@
       "sourceUrl": "https://www.businesstoday.in/technology/artificial-intelligence/story/openai-is-buying-thousands-of-apple-mac-minis-to-train-ai-agents-heres-whats-driving-the-move-552202-2026-08-31",
       "verified": false,
       "publishedAt": "2026-08-31",
-      "topics": ["ai-engineering", "ai-industry"],
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
       "summary": "OpenAI has acquired tens of thousands of Mac mini and Mac Studio computers to run reinforcement learning workloads for training computer-use agents—AI systems that navigate software interfaces like a human would. Apple's unified memory architecture, which lets the CPU, GPU, and Neural Engine share a single memory pool, reduces the overhead of running a full OS in the training loop. The purchasing spree came days after Apple refreshed its Mac lineup with the new M6 chip and positions Apple as an unexpected AI infrastructure player.",
-      "keyConcepts": ["reinforcement learning", "computer-use agents", "Apple Silicon unified memory", "AI training infrastructure"],
+      "keyConcepts": [
+        "reinforcement learning",
+        "computer-use agents",
+        "Apple Silicon unified memory",
+        "AI training infrastructure"
+      ],
       "whyItMatters": "OpenAI's massive Mac purchase reveals that Apple's hardware architecture is genuinely competitive for specific AI training workloads, disrupting Nvidia's assumed dominance and signaling that the AI compute landscape is more diverse than the GPU narrative suggests.",
-      "tags": ["openai", "apple", "mac", "reinforcement-learning", "ai-agents", "hardware", "nvidia"],
+      "tags": [
+        "openai",
+        "apple",
+        "mac",
+        "reinforcement-learning",
+        "ai-agents",
+        "hardware",
+        "nvidia"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -87,11 +117,25 @@
       "sourceUrl": "https://qz.com/john-ternus-apple-ceo-ai-tim-cook-083126",
       "verified": false,
       "publishedAt": "2026-09-01",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "John Ternus officially became Apple CEO on September 1, 2026, ending Tim Cook's 15-year tenure. His most pressing challenge is overhauling Apple's AI strategy after criticism over Siri's delayed generative AI transformation—Apple rebuilt Siri using Google's Gemini as its foundation and plans a full deployment this fall. Ternus's first major product event is September 9, where Apple is expected to unveil the first foldable iPhone alongside a broader AI-powered device lineup.",
-      "keyConcepts": ["Apple Intelligence", "Siri AI overhaul", "Gemini integration", "AI product strategy"],
+      "keyConcepts": [
+        "Apple Intelligence",
+        "Siri AI overhaul",
+        "Gemini integration",
+        "AI product strategy"
+      ],
       "whyItMatters": "Apple's CEO transition illustrates that AI capability has become the primary lens through which Big Tech leadership is evaluated; how Ternus executes on AI will determine whether Apple can close the gap with competitors who moved earlier on generative AI.",
-      "tags": ["apple", "john-ternus", "apple-intelligence", "siri", "ai-strategy", "leadership"],
+      "tags": [
+        "apple",
+        "john-ternus",
+        "apple-intelligence",
+        "siri",
+        "ai-strategy",
+        "leadership"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -125,11 +169,26 @@
       "sourceUrl": "https://runway.com/news/research/introducing-solaris",
       "verified": false,
       "publishedAt": "2026-08-31",
-      "topics": ["ai-engineering", "ai-research"],
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
       "summary": "Runway introduced Solaris in early access, an Interface World Model that renders websites and apps as live video with every frame drawn in real time as users click and drag—no code running underneath. The system pairs Runway's Gen-4.5 video model with an LLM that interprets each interaction and prompts the next frames, outputting 720p video that responds to clicks, drags, or voice commands. In Runway's own study, testers preferred Solaris over pages coded by Claude Opus 5 in 71% of matchups on in-scene behavior.",
-      "keyConcepts": ["interface world models", "generative UI", "video-rendered interfaces", "no-code development"],
+      "keyConcepts": [
+        "interface world models",
+        "generative UI",
+        "video-rendered interfaces",
+        "no-code development"
+      ],
       "whyItMatters": "Solaris represents a conceptual shift from software as executable code to software as generated media—if the quality improves, it could fundamentally change how interactive applications are built and experienced.",
-      "tags": ["runway", "solaris", "generative-ui", "world-models", "no-code", "video-ai"],
+      "tags": [
+        "runway",
+        "solaris",
+        "generative-ui",
+        "world-models",
+        "no-code",
+        "video-ai"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -163,11 +222,27 @@
       "sourceUrl": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/",
       "verified": false,
       "publishedAt": "2026-08-31",
-      "topics": ["ai-industry", "ai-engineering"],
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
       "summary": "The Department of Defense expanded its GenAI.mil enterprise AI portal on August 31 by adding OpenAI's ChatGPT Mil and xAI's Grok for Government alongside the existing Google Gemini access, giving over 3 million military and civilian personnel a unified secure AI workspace. ChatGPT Mil supports chat, files, projects, and custom GPTs accredited for Controlled Unclassified Information at Impact Level 5. The platform had already onboarded 1.7 million unique users before this expansion.",
-      "keyConcepts": ["enterprise AI deployment", "government AI accreditation", "ChatGPT Mil", "Controlled Unclassified Information"],
+      "keyConcepts": [
+        "enterprise AI deployment",
+        "government AI accreditation",
+        "ChatGPT Mil",
+        "Controlled Unclassified Information"
+      ],
       "whyItMatters": "The DoD rolling out multiple frontier AI models to millions of personnel at once is the largest enterprise AI deployment in the US government's history, setting a template for how regulated institutions adopt AI at scale.",
-      "tags": ["dod", "military-ai", "genai-mil", "chatgpt", "grok", "government", "enterprise-ai"],
+      "tags": [
+        "dod",
+        "military-ai",
+        "genai-mil",
+        "chatgpt",
+        "grok",
+        "government",
+        "enterprise-ai"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -201,11 +276,27 @@
       "sourceUrl": "https://www.axios.com/pro/all-deals/2026/08/31/clay-7-billion-pre-money-valuation",
       "verified": false,
       "publishedAt": "2026-08-31",
-      "topics": ["ai-industry", "ai-career"],
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
       "summary": "AI-powered go-to-market platform Clay is raising a new funding round led by Wellington Management at a $7 billion pre-money valuation, up from the $5 billion mark set in a January 2026 employee tender offer. Clay serves over 14,000 enterprise customers including OpenAI and Canva, maintains net revenue retention above 200%, and reached $100M ARR in December 2025. The platform automates sales research and outreach by enriching contact data with AI across 100+ data sources.",
-      "keyConcepts": ["go-to-market engineering", "AI sales automation", "net revenue retention", "B2B SaaS growth"],
+      "keyConcepts": [
+        "go-to-market engineering",
+        "AI sales automation",
+        "net revenue retention",
+        "B2B SaaS growth"
+      ],
       "whyItMatters": "Clay's rapid valuation climb from $3.1B to $7B in under a year reflects enterprise demand for AI tools that replace human research labor in sales workflows—a signal that AI-native GTM tooling is becoming a major software category.",
-      "tags": ["clay", "ai-sales", "fundraising", "wellington-management", "gtm", "enterprise-ai", "b2b-saas"],
+      "tags": [
+        "clay",
+        "ai-sales",
+        "fundraising",
+        "wellington-management",
+        "gtm",
+        "enterprise-ai",
+        "b2b-saas"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {

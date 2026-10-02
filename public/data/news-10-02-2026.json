@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-10-02T08:00:00.000Z",
+  "weekOf": "2026-09-28",
+  "coverageStart": "2026-10-01",
+  "coverageEnd": "2026-10-01",
+  "items": [
+    {
+      "id": "youtube-No-JPdFvYWU",
+      "type": "video",
+      "title": "The One OpenAI DevDay Announcement That Can Make You Money",
+      "youtubeId": "No-JPdFvYWU",
+      "sourceUrl": "https://www.youtube.com/watch?v=No-JPdFvYWU",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Fireship's fast-paced recap of OpenAI DevDay 2026 cuts through 20+ launches to identify the one developer opportunity with immediate income potential. Using its signature joke-heavy format, the video covers Dots always-on agents, GPT-6.1 Sol pricing, and the Agents API public beta before zeroing in on the Decisions API as the most commercially exploitable launch. The video is sponsored by Fastino, which markets an open-weight version of the Jev decision model.",
+      "keyConcepts": ["OpenAI DevDay 2026", "Decisions API", "Dots agents", "GPT-6.1 Sol pricing"],
+      "whyItMatters": "OpenAI's DevDay 2026 marks a shift from AI as a conversational tool to AI as persistent infrastructure—developers who build on Dots and the Decisions API now can establish durable positions before the market saturates.",
+      "tags": ["openai", "devday-2026", "dots-agents", "decisions-api", "developer-tools", "monetization"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "At OpenAI DevDay 2026, what was the Decisions API designed to do?",
+          "options": [
+            "Generate images from text prompts",
+            "Classify inputs, route requests, or choose from predefined answers using Luna",
+            "Run long multi-step coding tasks in the background",
+            "Replace the Chat Completions API for standard text generation"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Decisions API, in limited preview at DevDay 2026, uses OpenAI's Luna model to classify inputs, route requests, or select from predefined actions—making it well-suited for decision-automation workflows."
+        },
+        {
+          "question": "What does OpenAI describe Dots agents as, compared to traditional chatbots?",
+          "options": [
+            "Faster versions of ChatGPT with no memory",
+            "Extensions of the user that run on dedicated cloud computers 24/7",
+            "Fine-tuned models for specific industries",
+            "Offline AI assistants that run on local hardware"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI describes Dots as extensions of the user rather than conversational assistants—each Dot operates on its own cloud computer, maintains context across multiple projects, and acts continuously rather than per session."
+        }
+      ]
+    },
+    {
+      "id": "youtube-Sy1Fjf-H-Qg",
+      "type": "video",
+      "title": "GEMINI 4 Is Nuts: Google's Argon Model vs OpenAI DevDay 2026",
+      "youtubeId": "Sy1Fjf-H-Qg",
+      "sourceUrl": "https://www.youtube.com/watch?v=Sy1Fjf-H-Qg",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Wes Roth examines Google's newly released Gemini 4 Argon, scrutinizing how much the first wave of benchmark results proves about real-world capabilities versus marketing. The second half covers OpenAI's DevDay 2026 push into persistent agents via Dots, analyzing the competitive implications of Google and OpenAI releasing frontier moves within 24 hours of each other. Roth provides developer-focused analysis on which platform offers the best long-horizon agentic capability for production work.",
+      "keyConcepts": ["Gemini 4 Argon benchmarks", "DeepSWE performance", "OpenAI Dots agents", "frontier model competition"],
+      "whyItMatters": "Google and OpenAI made major competing moves within 48 hours—Gemini 4 Argon's 1M output token limit and OpenAI's Dots infrastructure represent fundamentally different architectural bets on where AI capability is heading.",
+      "tags": ["gemini-4-argon", "openai-dots", "google-ai", "frontier-models", "ai-competition", "benchmarks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Gemini 4 Argon's new output token limit announced by Google?",
+          "options": [
+            "64,000 tokens",
+            "128,000 tokens",
+            "500,000 tokens",
+            "1,000,000 tokens"
+          ],
+          "correctIndex": 3,
+          "explanation": "Google raised Gemini 4 Argon's output token limit to one million tokens, up from 64,000 in previous Gemini models—enabling sustained generation for long-horizon software engineering and document tasks."
+        },
+        {
+          "question": "On which benchmarks does Google claim Gemini 4 Argon surpasses rival models?",
+          "options": [
+            "MMLU and HellaSwag",
+            "DeepSWE and AutomationBench",
+            "HumanEval and MATH",
+            "ARC and BIG-Bench Hard"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google specifically cited DeepSWE (long-horizon software engineering) and AutomationBench as the benchmarks where Gemini 4 Argon claims superiority over Anthropic and OpenAI's current models."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-dots-agents-oct2026",
+      "type": "article",
+      "title": "OpenAI Launches Dots: Always-On AI Agents with Dedicated Cloud Computers",
+      "sourceUrl": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI unveiled Dots at DevDay 2026—always-on AI agents powered by GPT-6 Astra that run on dedicated cloud computers around the clock. Unlike conversational chatbots, each Dot has its own browser and cloud computer, connects to 4,000+ apps via plugins, and manages multiple long-running projects simultaneously while sending progress updates. The feature is rolling out to ChatGPT Pro, Business Premium, and Enterprise users in eligible markets, directly competing with Meta's Muse which crossed 2.5 million US downloads this month.",
+      "keyConcepts": ["Dots agents", "persistent AI agents", "GPT-6 Astra", "ChatGPT Spaces collaboration"],
+      "whyItMatters": "Dots represents OpenAI's clearest move yet from selling AI conversations to selling AI labor—agents that own compute, maintain context, and take continuous action rather than per-session fundamentally change the economics of knowledge work.",
+      "tags": ["openai", "dots-agents", "ai-agents", "devday-2026", "autonomous-ai", "chatgpt"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What computational resource does each Dots agent have in OpenAI's system?",
+          "options": [
+            "A dedicated GPU only",
+            "Its own cloud computer and browser",
+            "A local phone companion app",
+            "A fine-tuned domain-specific model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Each Dot operates on its own cloud computer and browser, allowing it to take persistent action across web services and apps without requiring user supervision between sessions."
+        },
+        {
+          "question": "Which ChatGPT plans currently have access to Dots in eligible markets?",
+          "options": [
+            "Free, Plus, and Team",
+            "Pro, Business Premium, and Enterprise",
+            "Pro and API users only",
+            "Enterprise and API Tier 4 only"
+          ],
+          "correctIndex": 1,
+          "explanation": "At launch, Dots is available on ChatGPT Pro, Business Premium, and Enterprise plans in eligible markets—excluding the EEA, Switzerland, and UK for Pro users initially."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini-4-argon-cybersecurity-oct2026",
+      "type": "article",
+      "title": "Google Releases Gemini 4 Argon Targeting Frontier Cybersecurity Defense",
+      "sourceUrl": "https://www.scworld.com/brief/google-releases-gemini-4-argon-ai-model-to-cybersecurity-defenders",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google released Gemini 4 Argon on September 30, initially granting access to cybersecurity defenders through its Fairwind Program. The model raises the output token limit to 1 million—up from 64,000—and claims to surpass rival models on DeepSWE and AutomationBench for long-horizon software engineering. Argon includes built-in resistance to indirect prompt injection, separate action monitors to prevent unintended behavior, and autonomous vulnerability-finding capabilities, priced at $2 per million input tokens and $10 per million output tokens.",
+      "keyConcepts": ["Gemini 4 Argon", "1M output token limit", "cybersecurity AI", "prompt injection resistance"],
+      "whyItMatters": "Argon's 1-million token output limit is a step-change for sustained coding and security tasks—releasing to cybersecurity defenders first signals Google is targeting high-value enterprise security contracts before general availability.",
+      "tags": ["gemini-4-argon", "google-ai", "cybersecurity", "frontier-models", "long-context", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Gemini 4 Argon's introductory input pricing per million tokens?",
+          "options": [
+            "$0.50 per million",
+            "$1.00 per million",
+            "$2.00 per million",
+            "$5.00 per million"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google priced Gemini 4 Argon at $2 per million input tokens (with a 95% cached input discount) and $10 per million output tokens through its Fairwind Program."
+        },
+        {
+          "question": "Which program provides initial access to Gemini 4 Argon?",
+          "options": [
+            "Google AI Studio Pro",
+            "Vertex AI Enterprise",
+            "Google Fairwind Program",
+            "Google One AI Premium"
+          ],
+          "correctIndex": 2,
+          "explanation": "Initial access to Gemini 4 Argon is restricted to members of Google's Fairwind Program, which grants select enterprise customers early access to frontier models ahead of general availability."
+        }
+      ]
+    },
+    {
+      "id": "article-gpt-6-1-sol-ultrafast-oct2026",
+      "type": "article",
+      "title": "GPT-6.1 Sol Brings Astra-Level Coding at One-Fifth the Price with 300-Token/s Ultrafast Tier",
+      "sourceUrl": "https://venturebeat.com/technology/openais-gpt-6-1-sol-offers-astra-like-performance-at-1-5th-price-a-new-ultrafast-tier-clocks-at-300-tokens-per-second",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI released GPT-6.1 Sol at DevDay 2026, positioning it as a near-frontier model for coding and computer use at one-fifth the cost of GPT-6 Astra. A new Ultrafast speed tier reaches up to 300 tokens per second—8× faster in Codex and 6× faster via the API—at 6× standard pricing. Cached input for frequent system prompts is discounted 95% to $0.10 per million tokens, making GPT-6.1 Sol particularly cost-effective for high-volume production coding agents.",
+      "keyConcepts": ["GPT-6.1 Sol", "Ultrafast speed tier", "300 tokens per second", "95% cache discount"],
+      "whyItMatters": "GPT-6.1 Sol resets the cost-per-capability ratio for developer APIs—frontier-adjacent coding quality at $2/million input tokens with 95% cache discounts will make it the default choice for production coding agents that rely on repeated system prompts.",
+      "tags": ["gpt-6-1-sol", "openai", "api-pricing", "ultrafast", "coding-ai", "devday-2026"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is GPT-6.1 Sol's standard input pricing per million tokens?",
+          "options": [
+            "$0.50 per million",
+            "$1.00 per million",
+            "$2.00 per million",
+            "$10.00 per million"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-6.1 Sol's standard input price is $2.00 per million tokens—one-fifth the cost of GPT-6 Astra—making it OpenAI's best price-per-capability option for production coding workflows."
+        },
+        {
+          "question": "How much faster does the Ultrafast tier generate tokens in the API compared to standard?",
+          "options": [
+            "2× faster",
+            "4× faster",
+            "6× faster",
+            "10× faster"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Ultrafast tier delivers up to 6× faster token generation in the API (and up to 8× in Codex), reaching 300 tokens per second, priced at 6× the standard rate."
+        }
+      ]
+    }
+  ]
+}
