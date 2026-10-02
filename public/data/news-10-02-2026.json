@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T08:00:00.000Z",
+  "generatedAt": "2026-10-02T15:30:00.000Z",
   "weekOf": "2026-09-28",
   "coverageStart": "2026-10-01",
-  "coverageEnd": "2026-10-01",
+  "coverageEnd": "2026-10-02",
   "items": [
     {
       "id": "youtube-No-JPdFvYWU",
@@ -193,6 +193,120 @@
           ],
           "correctIndex": 2,
           "explanation": "The Ultrafast tier delivers up to 6× faster token generation in the API (and up to 8× in Codex), reaching 300 tokens per second, priced at 6× the standard rate."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-agi-readiness-dissolved-oct2026",
+      "type": "article",
+      "title": "OpenAI Dissolves AGI Readiness Team as Senior Advisor Miles Brundage Resigns",
+      "sourceUrl": "https://the-decoder.com/openai-disbands-another-team-focused-on-advanced-agi-safety-readiness/",
+      "verified": false,
+      "publishedAt": "2026-10-01",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI disbanded its AGI Readiness team on Wednesday—a group tasked with advising the company on how to manage the internal and societal implications of increasingly powerful AI systems. Senior advisor Miles Brundage announced his departure in a Substack post, warning that 'neither OpenAI nor any other frontier lab is ready, and neither is the world' for superintelligent AI. The dissolution continues a pattern of safety-focused departures at OpenAI, following the exits of Superalignment team co-leaders Ilya Sutskever and Jan Leike, and aligns with reports that three safety researchers were recently parted from the company over alleged information leaks.",
+      "keyConcepts": ["AGI Readiness team", "Miles Brundage resignation", "AI safety departures", "OpenAI governance"],
+      "whyItMatters": "The loss of OpenAI's AGI Readiness advisory function—at the same moment the company ships persistent autonomous agents and frontier coding models—sharpens questions about whether its commercialization velocity has outpaced its safety governance infrastructure.",
+      "tags": ["openai", "ai-safety", "agi-readiness", "miles-brundage", "safety-governance", "openai-departures"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What warning did Miles Brundage issue when announcing his departure from OpenAI?",
+          "options": [
+            "OpenAI had secretly achieved AGI but was not announcing it",
+            "OpenAI's training costs had become financially unsustainable",
+            "Neither OpenAI nor any other frontier lab is ready for superintelligent AI",
+            "OpenAI's safety team had been fully merged into product engineering"
+          ],
+          "correctIndex": 2,
+          "explanation": "In his Substack post announcing his resignation and the AGI Readiness team's dissolution, Brundage warned that 'neither OpenAI nor any other frontier lab is ready, and neither is the world' for superintelligent AI systems."
+        },
+        {
+          "question": "What was the primary function of OpenAI's now-dissolved AGI Readiness team?",
+          "options": [
+            "Accelerating AGI-level model training to beat competitors",
+            "Advising on how to manage AGI's internal and societal implications",
+            "Running red-team safety exercises on deployed models",
+            "Coordinating AI safety research partnerships with universities"
+          ],
+          "correctIndex": 1,
+          "explanation": "The AGI Readiness team was a governance and foresight advisory body tasked with helping OpenAI navigate how to deal internally—and advise the world—on the societal implications of increasingly powerful AI systems."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-october-2026",
+      "type": "article",
+      "title": "Despite IPO Jitters and AI Safety Worries, Anthropic Proceeds with October 2026 Listing",
+      "sourceUrl": "https://siliconangle.com/2026/10/02/despite-ipo-jitters-and-ai-safety-worries-anthropic-sticks-to-a-2026-offering",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic is pressing ahead with its planned IPO despite market concerns and AI safety scrutiny amplified by the same week's OpenAI AGI Readiness team dissolution. The company filed a draft S-1 with the SEC in June 2026 and is targeting a mid-October Nasdaq roadshow underwritten by Morgan Stanley, Goldman Sachs, JPMorgan, and Citi, with the goal of listing before the November US midterm elections. With Q2 2026 revenue of $11.5B (a 14× year-over-year increase) and an annualized run rate projected to reach $100–120B by year-end, underwriters have told investors the offering could raise $100B+ at a roughly $2 trillion valuation—which would make it the largest IPO in history.",
+      "keyConcepts": ["Anthropic IPO", "$2T valuation record", "Q2 2026 $11.5B revenue", "Nasdaq listing"],
+      "whyItMatters": "A $2 trillion Anthropic IPO would be the largest public offering in history and set the valuation reference point for the entire AI industry, reshaping how investors, talent, and regulators assess AI company risk and reward.",
+      "tags": ["anthropic", "ipo", "ai-industry", "valuation", "public-offering", "ai-career"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's reported revenue for Q2 2026?",
+          "options": [
+            "$2.5 billion",
+            "$5 billion",
+            "$11.5 billion",
+            "$30 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic reported $11.5 billion in Q2 2026 revenue—a 14-fold increase compared to the same quarter a year earlier—anchoring its case to investors for the planned $2 trillion IPO valuation."
+        },
+        {
+          "question": "Where is Anthropic targeting its upcoming IPO listing?",
+          "options": [
+            "New York Stock Exchange (NYSE)",
+            "Nasdaq",
+            "London Stock Exchange (LSE)",
+            "Tokyo Stock Exchange (TSE)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic selected Nasdaq for its IPO listing, with Morgan Stanley, Goldman Sachs, JPMorgan, and Citi underwriting a mid-October roadshow that targets completion before the November 2026 US midterm elections."
+        }
+      ]
+    },
+    {
+      "id": "article-google-argon-frontier-race-oct2026",
+      "type": "article",
+      "title": "Can Google's Gemini 4 Argon Close the Gap with OpenAI and Anthropic at the Frontier?",
+      "sourceUrl": "https://www.cnbc.com/amp/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "CNBC's Tech Download examines whether Google's Gemini 4 Argon can genuinely challenge OpenAI and Anthropic at the frontier, given that it currently ranks third behind Claude Opus 5.5 and Sonnet 5.5 on the Artificial Analysis Intelligence Index despite strong vendor benchmark claims. Analysts note that Argon's 1-million output token limit and cybersecurity-focused launch give Google a credible differentiated angle, but that Anthropic and OpenAI's lead in agentic infrastructure and developer adoption may be more durable competitive moats than a single benchmark cycle. The article lands just days after all three companies made major moves—Google with Argon, OpenAI with DevDay 2026, and Anthropic's IPO filing—compressing the competitive timeline.",
+      "keyConcepts": ["Artificial Analysis Intelligence Index rankings", "Gemini 4 Argon vs Claude", "frontier model competition", "agentic infrastructure moat"],
+      "whyItMatters": "For developers choosing their AI stack, independent leaderboard rankings like the Artificial Analysis Intelligence Index now matter more than vendor benchmarks—and Argon's third-place showing suggests Google still trails on real-world tasks despite raw capability gains.",
+      "tags": ["gemini-4-argon", "google", "anthropic", "claude", "frontier-models", "model-comparison"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where does Gemini 4 Argon rank on the Artificial Analysis Intelligence Index?",
+          "options": [
+            "First, ahead of all competitors",
+            "Second, just behind Claude Opus 5.5",
+            "Third, behind both Claude Opus 5.5 and Claude Sonnet 5.5",
+            "Fourth, behind GPT-6 Astra and both Claude models"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to the Artificial Analysis Intelligence Index, Gemini 4 Argon currently ranks third—behind both Claude Opus 5.5 and Claude Sonnet 5.5—despite Google's strong claims on DeepSWE and AutomationBench benchmarks."
+        },
+        {
+          "question": "What does the CNBC analysis identify as OpenAI and Anthropic's most durable competitive advantage over Google?",
+          "options": [
+            "Lower API pricing",
+            "Larger context windows",
+            "Agentic infrastructure and developer adoption",
+            "On-device deployment capabilities"
+          ],
+          "correctIndex": 2,
+          "explanation": "The CNBC analysis argues that Anthropic and OpenAI's lead in agentic infrastructure and developer adoption—from Dots to Claude's coding integrations—represents a more durable moat than a single benchmark cycle advantage."
         }
       ]
     }
