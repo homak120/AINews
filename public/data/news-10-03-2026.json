@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-10-03T12:00:00.000Z",
+  "weekOf": "2026-09-28",
+  "coverageStart": "2026-10-03",
+  "coverageEnd": "2026-10-03",
+  "items": [
+    {
+      "id": "article-safa-ai-safety-standards-body-oct2026",
+      "type": "article",
+      "title": "Google, OpenAI, and Anthropic Advance Plans for Independent AI Safety Standards Body SAFA",
+      "sourceUrl": "https://www.techrepublic.com/article/news-google-openai-anthropic-ai-safety-standards-body/",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Google, OpenAI, and Anthropic are pushing forward with a plan to launch an independent AI safety standards body called the Standards Authority for Frontier AI (SAFA), modeled on FINRA—the self-regulatory body that governs US brokerage firms. The three companies have been in working-group discussions since July 2026 to turn broad safety commitments into practical benchmarks, testing procedures, and reporting standards applicable to all frontier models. Organizers have approached former White House AI policy adviser Sriram Krishnan and former White House science director Arati Prabhakar for the CEO role, with former Secretary of State Condoleezza Rice under consideration for board chair. The group is targeting a launch by end of 2026 or early 2027 and is explicitly designed to operate without government oversight.",
+      "keyConcepts": ["SAFA (Standards Authority for Frontier AI)", "AI safety self-regulation", "FINRA governance model", "frontier model testing standards"],
+      "whyItMatters": "SAFA would be the first industry-wide AI safety standards body with enforcement teeth—if it succeeds, it could set the global benchmark for model evaluation and preempt government regulation; if it fails, it risks becoming a PR shield that delays meaningful accountability.",
+      "tags": ["ai-safety", "safa", "google", "openai", "anthropic", "ai-governance", "standards-body"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What existing financial regulatory body is SAFA modeled after?",
+          "options": [
+            "The Federal Reserve",
+            "FINRA (Financial Industry Regulatory Authority)",
+            "The SEC (Securities and Exchange Commission)",
+            "The FDIC (Federal Deposit Insurance Corporation)"
+          ],
+          "correctIndex": 1,
+          "explanation": "The three AI labs based SAFA's governance model on FINRA—the self-regulatory organization that governs US brokerage firms—as a blueprint for industry-led oversight without direct government control."
+        },
+        {
+          "question": "What is SAFA's primary intended function?",
+          "options": [
+            "Licensing AI developers to operate in the US",
+            "Auditing AI companies' training data for copyright violations",
+            "Turning broad AI safety commitments into practical benchmarks and testing procedures",
+            "Coordinating government procurement of frontier AI models"
+          ],
+          "correctIndex": 2,
+          "explanation": "SAFA's core function is to convert the vague safety pledges made by AI companies into concrete, measurable benchmarks, testing procedures, and reporting standards that can be applied uniformly across all frontier models."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-safety-departures-oct2026",
+      "type": "article",
+      "title": "OpenAI Safety Departures Deepen: Senior Leader Resigns Days After Three Researchers Are Let Go",
+      "sourceUrl": "https://startupfortune.com/openai-safety-leader-david-robinson-resigns-days-after-three-researchers-were-fired/",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "A senior OpenAI safety leader resigned this week, days after the company parted ways with three safety researchers following an internal review that found they had allegedly shared sensitive information with an external AI safety watchdog. The exit marks at least the seventh senior safety departure from OpenAI in roughly two years. The departures land just after the company dissolved its AGI Readiness advisory team and deepen scrutiny of how OpenAI is managing governance obligations as it simultaneously ships autonomous agents, launches GPT-6.1 Sol, and navigates a Q4 2026 commercial push.",
+      "keyConcepts": ["OpenAI safety leadership attrition", "information leak investigation", "AGI governance gap", "frontier AI accountability"],
+      "whyItMatters": "The repeated loss of safety leadership at OpenAI—spanning AGI Readiness, research, and now senior policy roles—raises a structural question: who inside the company has the standing and authority to slow product deployment when safety is not yet adequate?",
+      "tags": ["openai", "ai-safety", "safety-departures", "governance", "accountability", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to reports, why were three OpenAI safety researchers let go?",
+          "options": [
+            "They published unauthorized research papers before a product launch",
+            "They allegedly shared sensitive information with an external AI safety watchdog",
+            "They refused to work on the Dots agents project",
+            "They failed consecutive internal performance reviews"
+          ],
+          "correctIndex": 1,
+          "explanation": "Internal reviews found the three researchers had allegedly shared sensitive OpenAI information with an unnamed external AI safety watchdog organization, leading the company to part ways with them."
+        },
+        {
+          "question": "Roughly how many senior safety departures has OpenAI experienced in the past two years as of October 2026?",
+          "options": [
+            "Two",
+            "Four",
+            "Seven",
+            "Twelve"
+          ],
+          "correctIndex": 2,
+          "explanation": "The senior safety leader's departure represents at least the seventh senior safety exit from OpenAI in roughly two years, spanning team leads, researchers, and policy-facing roles across multiple safety functions."
+        }
+      ]
+    }
+  ]
+}
