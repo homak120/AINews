@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T12:00:00.000Z",
+  "generatedAt": "2026-10-03T18:00:00.000Z",
   "weekOf": "2026-09-28",
-  "coverageStart": "2026-10-03",
+  "coverageStart": "2026-10-02",
   "coverageEnd": "2026-10-03",
   "items": [
     {
@@ -77,6 +77,120 @@
           ],
           "correctIndex": 2,
           "explanation": "The senior safety leader's departure represents at least the seventh senior safety exit from OpenAI in roughly two years, spanning team leads, researchers, and policy-facing roles across multiple safety functions."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-dots-agents-oct2026",
+      "type": "article",
+      "title": "OpenAI's 'Dots' Agents Bring Always-On AI to Slack, Teams, and Enterprise Workflows",
+      "sourceUrl": "https://www.marketingprofs.com/opinions/2026/56056/ai-update-october-02-2026-ai-news-and-views-from-the-past-week",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI launched 'dots'—always-on AI agents powered by GPT-6 Astra—that run continuously in the background to pursue user goals across applications with minimal supervision. Unlike chatbot assistants that require prompts, dots agents integrate directly into workplace tools like Slack and Microsoft Teams, can manage evolving projects, update sales proposals, research information, analyze data, prepare documents, and write software without being actively directed. The launch represents OpenAI's most significant step yet toward autonomous AI that operates on behalf of users throughout the workday.",
+      "keyConcepts": ["always-on AI agents", "dots (OpenAI agent system)", "GPT-6 Astra", "agentic AI workflows"],
+      "whyItMatters": "Always-on agents that work without constant prompting mark a fundamental shift in how AI integrates into work—raising both productivity potential and new questions about what it means to delegate judgment to an AI operating autonomously in your name.",
+      "tags": ["openai", "ai-agents", "dots", "gpt-6", "autonomous-ai", "enterprise-ai"],
+      "relatedIds": ["article-openai-safety-departures-oct2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes OpenAI's 'dots' agents from a standard chatbot assistant?",
+          "options": [
+            "Dots agents use a different language model than ChatGPT",
+            "Dots agents run always-on in the background pursuing goals without constant user prompts",
+            "Dots agents are only available to enterprise customers with 10,000+ seats",
+            "Dots agents replace email and cannot use voice interfaces"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike chatbots that respond to individual prompts, dots agents operate continuously in the background—monitoring context, updating projects, and completing tasks without the user needing to initiate each action."
+        },
+        {
+          "question": "Which underlying model powers OpenAI's dots agents?",
+          "options": [
+            "GPT-4o",
+            "GPT-6 Sol",
+            "GPT-6 Astra",
+            "o3-mini"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dots agents are powered by GPT-6 Astra, OpenAI's flagship GPT-6 model, which was announced to handle complex multi-step tasks with greater autonomy than earlier models."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-ai-agent-security-oct2026",
+      "type": "article",
+      "title": "Apple Adds Full Disk Access Controls to Limit Overpermissioned AI Agents on macOS",
+      "sourceUrl": "https://www.marketingprofs.com/opinions/2026/56056/ai-update-october-02-2026-ai-news-and-views-from-the-past-week",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "Apple is adding new security controls around macOS Full Disk Access targeting AI agent applications that have been granting themselves broad filesystem permissions without clear user consent. The company stated that some developers have been exposing everything on users' systems to AI agents without disclosing the extent of access, and that risks will grow substantially as AI agents become more capable and autonomous. The controls will require explicit user confirmation before any AI agent application can obtain Full Disk Access and introduce new entitlement tiers for agent-specific capabilities.",
+      "keyConcepts": ["macOS Full Disk Access", "AI agent permissions model", "overpermissioned AI apps", "agentic security entitlements"],
+      "whyItMatters": "As AI agents gain the ability to read files, browse the web, and execute code on personal computers, permission hygiene becomes a first-order security problem—Apple's move signals that the OS layer is now the new frontier for controlling what autonomous AI can and cannot touch.",
+      "tags": ["apple", "macos", "ai-agents", "ai-security", "permissions", "operating-systems"],
+      "relatedIds": ["article-openai-dots-agents-oct2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific macOS permission is Apple adding new controls around for AI agents?",
+          "options": [
+            "Camera and microphone access",
+            "Full Disk Access",
+            "Screen Recording permissions",
+            "Contacts and Calendar access"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple is targeting Full Disk Access specifically because it grants an application the ability to read essentially everything on the filesystem—a particularly dangerous permission for autonomous AI agents that could exfiltrate or manipulate sensitive files."
+        },
+        {
+          "question": "What does Apple say is the main concern driving these new AI agent controls?",
+          "options": [
+            "AI agents consuming too much CPU and battery on Apple Silicon",
+            "AI agents generating content that violates App Store guidelines",
+            "Developers exposing user data to AI without full consent, with risks growing as agents become more capable",
+            "AI agents being used to clone App Store app interfaces"
+          ],
+          "correctIndex": 2,
+          "explanation": "Apple explicitly stated that some developers have been exposing user systems to AI agents without full disclosure of the access scope, and that these risks will grow substantially as AI agents become more autonomous—motivating the new permission tiers."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-jalapeno-asic-oct2026",
+      "type": "article",
+      "title": "Inside OpenAI's Jalapeño ASIC: The Broadcom-Designed Inference Chip Built to Out-Efficiency NVIDIA",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/this-week-on-toms-hardware-premium-october-3-2026-ai-chip-design-week-openai-interview-and-ai-agent-safety",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI hardware VP Richard Ho gave a detailed interview this week revealing the design story behind Jalapeño, OpenAI's co-developed inference ASIC built with Broadcom. The chip was designed for serving large-scale inference at lower cost-per-token than comparable NVIDIA hardware, with OpenAI's own AI models contributing to the chip's architecture optimization during the design process itself. The interview is notable for how openly Ho discussed using generative AI internally to iterate on Broadcom's EDA (electronic design automation) toolchain, compressing design cycles that traditionally take years.",
+      "keyConcepts": ["ASIC (Application-Specific Integrated Circuit)", "AI inference hardware", "EDA (Electronic Design Automation)", "cost-per-token optimization"],
+      "whyItMatters": "Custom silicon is OpenAI's hedge against NVIDIA supply constraints and margin compression—if Jalapeño delivers on efficiency claims, it shifts bargaining power between AI labs and chip vendors and signals that building your own inference hardware is now a viable competitive strategy for well-capitalized AI companies.",
+      "tags": ["openai", "jalapeño-asic", "broadcom", "ai-hardware", "inference-chip", "nvidia-alternative"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What company co-developed OpenAI's Jalapeño inference ASIC?",
+          "options": [
+            "TSMC",
+            "Intel",
+            "Broadcom",
+            "Qualcomm"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jalapeño was co-developed with Broadcom, leveraging their chip design expertise and manufacturing relationships, with OpenAI's AI models contributing to architecture optimization throughout the design process."
+        },
+        {
+          "question": "What primary performance metric was Jalapeño's design optimized for?",
+          "options": [
+            "Maximum training throughput for large language models",
+            "Lower cost-per-token inference compared to NVIDIA hardware",
+            "Energy efficiency for edge deployment in mobile devices",
+            "Latency reduction for real-time voice interactions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Jalapeño was designed specifically for serving large-scale inference at lower cost-per-token than comparable NVIDIA hardware, targeting the economics of running deployed models at scale rather than the training workload."
         }
       ]
     }
