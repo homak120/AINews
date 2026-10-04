@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:00:00.000Z",
+  "generatedAt": "2026-10-04T20:30:00.000Z",
   "weekOf": "2026-09-28",
   "coverageStart": "2026-10-02",
   "coverageEnd": "2026-10-03",
@@ -115,6 +115,122 @@
           ],
           "correctIndex": 2,
           "explanation": "The Claude Frontier Academy targets 10,000 certified Frontier Deployed Engineers (FDEs) by end of 2027. Graduates first earn a Claude Resident Engineer badge after initial training, then the full FDE badge after completing the 12-week residency—with first FDE graduates expected in early 2027."
+        }
+      ]
+    },
+    {
+      "id": "youtube-2dWC2vkIzAc",
+      "type": "video",
+      "title": "OpenAI Is Building Past GPT-8 — The Roadmap Getting Serious",
+      "youtubeId": "2dWC2vkIzAc",
+      "sourceUrl": "https://www.youtube.com/watch?v=2dWC2vkIzAc",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "TheAIGRID breaks down leaked and disclosed details showing OpenAI is actively planning and building toward AI generations beyond GPT-8, a signal that the lab's internal roadmap extends far past its current public-facing models. The video examines what this long-horizon development posture means for the competitive race among frontier labs and whether the escalating complexity of planning many generations out introduces new safety and alignment risks.",
+      "keyConcepts": ["OpenAI model roadmap", "frontier AI scaling", "generational model planning", "AI race dynamics"],
+      "whyItMatters": "OpenAI's explicit development effort past GPT-8 marks a qualitative shift—the lab is no longer just shipping the next model but engineering a pipeline of frontier systems, which has downstream implications for compute procurement, safety research timelines, and how enterprise customers should plan long-term AI adoption.",
+      "tags": ["openai", "gpt-8", "model-roadmap", "frontier-ai", "ai-race", "scaling"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does OpenAI's planning 'past GPT-8' primarily reveal about the lab's development strategy?",
+          "options": [
+            "That GPT-8 will be the final model OpenAI releases",
+            "That OpenAI is building a multi-generation pipeline of frontier models",
+            "That GPT-8 is already deployed and in use",
+            "That OpenAI plans to pause model releases after GPT-7"
+          ],
+          "correctIndex": 1,
+          "explanation": "Planning past GPT-8 means OpenAI has shifted from a model-by-model release approach to a multi-generation roadmap—designing future model families in parallel with current releases, which requires different infrastructure, research, and safety investment timelines."
+        },
+        {
+          "question": "Which of the following is most directly implied by an AI lab actively building models beyond its current public frontier?",
+          "options": [
+            "Current models will be deprecated immediately",
+            "Safety and alignment research must race to keep pace with capability advances",
+            "Enterprise customers have nothing to worry about in the near term",
+            "Open-source models will catch up faster"
+          ],
+          "correctIndex": 1,
+          "explanation": "When a lab plans many model generations ahead, it compresses the window in which safety, interpretability, and alignment research must produce usable results—because each new generation arrives faster relative to the research cycle, making safety research a potential bottleneck."
+        }
+      ]
+    },
+    {
+      "id": "youtube-dDgncbBAA0c",
+      "type": "video",
+      "title": "AI News: OpenAI Dots, GPT-6.1 Sol, Claude Sonnet 5.5, and Gemini 4 Breakdown",
+      "youtubeId": "dDgncbBAA0c",
+      "sourceUrl": "https://www.youtube.com/watch?v=dDgncbBAA0c",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Matt Wolfe's weekly AI news breakdown covers the biggest announcements from OpenAI DevDay 2026, including Dots—OpenAI's new always-on AI agents that work asynchronously without constant user prompting—alongside GPT-6.1 Sol, Anthropic's Claude Sonnet 5.5, and Google's Gemini 4 Argon. The video includes timestamps for each major announcement and explains practical implications for developers, covering more than 20 updates OpenAI shipped across its models, ChatGPT, Codex, APIs, and enterprise products.",
+      "keyConcepts": ["OpenAI Dots agents", "GPT-6.1 Sol launch", "DevDay 2026", "AI model comparison"],
+      "whyItMatters": "DevDay 2026's volume of announcements—20+ updates across OpenAI's product suite in a single event—reflects an acceleration in the pace of AI shipping that developers and enterprise buyers need to track carefully to avoid being locked into already-outdated integrations.",
+      "tags": ["openai", "devday", "dots-agents", "gpt-6-sol", "claude-sonnet", "gemini-4", "ai-weekly-roundup"],
+      "relatedIds": ["article-openai-sol-quota-reset-oct2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes OpenAI's Dots from a conventional AI chatbot?",
+          "options": [
+            "Dots is a multimodal image-generation model",
+            "Dots are always-on agents that work independently without constant user prompting",
+            "Dots replaces ChatGPT as the consumer interface",
+            "Dots is an open-source model that runs locally"
+          ],
+          "correctIndex": 1,
+          "explanation": "Unlike a chatbot that requires a user to initiate every interaction, Dots are designed to work asynchronously—taking on tasks, making progress in the background, and surfacing results when ready, closer to how a human assistant operates throughout a workday."
+        },
+        {
+          "question": "How many updates did OpenAI ship across its product suite during DevDay 2026?",
+          "options": [
+            "3",
+            "10",
+            "More than 20",
+            "Exactly 7"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI shipped more than 20 updates during DevDay 2026, spanning its model lineup, ChatGPT, Codex, APIs, and enterprise products—a volume that signals the lab's shift toward treating its platform as an integrated product suite rather than a series of standalone model releases."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-dots-devday-oct2026",
+      "type": "article",
+      "title": "OpenAI Launches GPT-6.1 Sol and Dots: Always-On AI Agents That Work Independently",
+      "sourceUrl": "https://alternativeto.net/news/2026/10/openai-launches-gpt-6-1-sol-and-dots-its-new-always-on-ai-agents-that-work-independently/",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI used DevDay 2026 to launch GPT-6.1 Sol—a lower-cost frontier model targeting daily professional work—alongside Dots, a new product category of always-on AI agents that operate asynchronously without requiring constant user input. Dots can take on delegated tasks, make progress in the background, and surface results when complete, marking OpenAI's most direct push into ambient, proactive AI assistance. The announcements were part of more than 20 updates OpenAI shipped across models, ChatGPT, Codex, APIs, and enterprise products.",
+      "keyConcepts": ["asynchronous AI agents", "GPT-6.1 Sol pricing", "DevDay 2026 announcements", "ambient AI assistance"],
+      "whyItMatters": "Dots represents a meaningful evolution from prompt-response AI toward AI that behaves like a persistent background collaborator—if the product works as described, it shifts the question from 'what can I ask AI?' to 'what can I delegate to AI?', with broad implications for knowledge worker productivity and enterprise software.",
+      "tags": ["openai", "dots", "gpt-6-sol", "devday-2026", "ai-agents", "async-ai"],
+      "relatedIds": ["article-openai-sol-quota-reset-oct2026", "youtube-dDgncbBAA0c"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core behavioral difference between OpenAI's Dots and a standard AI chatbot?",
+          "options": [
+            "Dots can only answer questions, not take actions",
+            "Dots require a paid subscription while ChatGPT is free",
+            "Dots work asynchronously on delegated tasks without constant user prompting",
+            "Dots is a coding-only product targeting software engineers"
+          ],
+          "correctIndex": 2,
+          "explanation": "The defining difference is the interaction model: a chatbot is reactive (waits for prompts), while Dots is proactive and ambient—it accepts delegated tasks, works on them independently, and returns results when ready, more like a human assistant than a question-answering tool."
+        },
+        {
+          "question": "What market positioning does GPT-6.1 Sol target, according to its launch at DevDay 2026?",
+          "options": [
+            "High-end research tasks requiring maximum reasoning depth",
+            "Lower-cost everyday professional work at significantly reduced price",
+            "Consumer entertainment and creative writing",
+            "Replacing GPT-6 Astra for enterprise deployments"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-6.1 Sol is positioned as a lower-cost frontier model optimized for daily professional tasks—offering near-frontier capability at a price point accessible to a broader range of enterprise use cases, complementing the more powerful (and expensive) GPT-6 Astra tier."
         }
       ]
     }
