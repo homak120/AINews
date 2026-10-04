@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-10-04T18:00:00.000Z",
+  "weekOf": "2026-09-28",
+  "coverageStart": "2026-10-02",
+  "coverageEnd": "2026-10-03",
+  "items": [
+    {
+      "id": "article-ling-3-1-flash-oct2026",
+      "type": "article",
+      "title": "Ant Group InclusionAI Ships Ling-3.1-Flash: 560B-Parameter MoE Model for Long-Context Agent Tasks",
+      "sourceUrl": "https://aiweekly.co/alerts/ants-inclusionai-ships-ling-31-flash-with-560b-parameters",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Ant Group's InclusionAI released Ling-3.1-Flash, a 560-billion-parameter mixture-of-experts model that activates roughly 25 billion parameters per token. Targeting a 1-million-token context window, the model launches with a two-week free trial capped at 256K tokens, with open-source weights promised after the trial concludes. InclusionAI positions it for agent tasks, enterprise search, office applications, and other long-context workloads.",
+      "keyConcepts": ["mixture-of-experts architecture", "long-context AI models", "open-source weight release", "enterprise AI agents"],
+      "whyItMatters": "Ling-3.1-Flash extends China's competitive push in frontier open-source AI—with 560B parameters and a 1M-token target, it directly challenges Western long-context leaders like Claude Opus 5.5 and GPT-6, particularly for agent applications that require sustained context across very long documents or multi-step tasks.",
+      "tags": ["ant-group", "inclusion-ai", "ling-llm", "mixture-of-experts", "long-context", "open-source"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total parameter count of Ling-3.1-Flash?",
+          "options": [
+            "25 billion",
+            "175 billion",
+            "560 billion",
+            "1 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ling-3.1-Flash has 560 billion total parameters in a mixture-of-experts architecture, though only about 25 billion are activated per token during inference—making it computationally efficient relative to its total size."
+        },
+        {
+          "question": "What is the current limitation on the model's context window during its initial free trial?",
+          "options": [
+            "32K tokens",
+            "128K tokens",
+            "256K tokens",
+            "1M tokens"
+          ],
+          "correctIndex": 2,
+          "explanation": "Although Ling-3.1-Flash targets a 1-million-token context window, the two-week free trial period caps access at 256K tokens. The full 1M-token context and open-source weight release are both promised after the trial concludes."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-sol-quota-reset-oct2026",
+      "type": "article",
+      "title": "OpenAI Resets GPT-6.1 Sol Usage Quotas as Launch-Day Demand Overwhelms Capacity",
+      "sourceUrl": "https://www.implicator.ai/openai-gives-daily-usage-resets-to-subscribers-still-waiting-for-gpt-6-astra/",
+      "verified": false,
+      "publishedAt": "2026-10-03",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "OpenAI reset global usage quotas for GPT-6.1 Sol across Plus, Pro, and Business tiers after the model's launch generated more demand than its infrastructure could handle, leaving subscribers with degraded inference speeds. The reset compensates users for the reduced service and comes alongside efficiency improvements designed to reduce how quickly Sol consumes each subscriber's weekly allocation.",
+      "keyConcepts": ["AI model capacity planning", "inference infrastructure scaling", "usage quota systems", "subscriber-tier access management"],
+      "whyItMatters": "The quota reset exposes a recurring challenge for frontier AI labs: launching a powerful model and immediately exceeding capacity creates a poor user experience that undermines subscriber trust—and signals that infrastructure planning remains a hard bottleneck even for the industry's leading organizations.",
+      "tags": ["openai", "gpt-6-sol", "usage-limits", "chatgpt", "inference-capacity", "model-launch"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did OpenAI reset GPT-6.1 Sol usage quotas for subscribers?",
+          "options": [
+            "To celebrate the model reaching one million users",
+            "Because a critical bug in the model was patched",
+            "Demand overwhelmed launch capacity, causing degraded inference speeds",
+            "GPT-6.1 Sol was being discontinued in favor of GPT-6 Astra"
+          ],
+          "correctIndex": 2,
+          "explanation": "The quota reset was a compensation measure: GPT-6.1 Sol's launch attracted far more users than OpenAI's infrastructure could handle, resulting in slower inference. OpenAI reset subscribers' allocation and shipped efficiency improvements to prevent the same depletion rate going forward."
+        },
+        {
+          "question": "What does a usage quota reset signal about AI infrastructure challenges?",
+          "options": [
+            "That frontier labs have solved the cost problem for inference",
+            "That subscriber demand for frontier models routinely exceeds launch capacity",
+            "That model quality degrades under high load conditions",
+            "That GPT-6.1 Sol is less capable than GPT-6 Astra"
+          ],
+          "correctIndex": 1,
+          "explanation": "Repeated quota resets and degraded-capacity launches across OpenAI's model family reveal that subscriber demand for frontier models consistently outpaces infrastructure provisioning—a structural challenge that requires significant capital investment in data centers, chips, and serving optimization."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-frontier-academy-oct2026",
+      "type": "article",
+      "title": "Anthropic Launches $100M Claude Frontier Academy to Train 10,000 Enterprise AI Engineers",
+      "sourceUrl": "https://www.anthropic.com/news/claude-frontier-academy",
+      "verified": false,
+      "publishedAt": "2026-10-02",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Anthropic announced the Claude Frontier Academy, committing $100 million to train 10,000 enterprise engineers by the end of 2027 through a medical-residency-style program. The two-phase curriculum pairs a multi-day in-person boot camp with a 12-week residency leading real Claude deployment projects at participants' organizations. Initial cohorts include engineers from Accenture, Bain, Capgemini, McKinsey, Morgan Stanley, and Novo Nordisk, with programs launching in San Francisco, New York, and London.",
+      "keyConcepts": ["enterprise AI training programs", "Frontier Deployed Engineers (FDE)", "residency-model upskilling", "AI deployment at scale"],
+      "whyItMatters": "As AI models grow more powerful, the bottleneck is shifting from model capability to deployment expertise—Anthropic's $100M investment signals the lab sees training a certified AI engineering workforce as both a strategic moat and a commercial necessity for bridging the gap between frontier models and production-ready enterprise systems.",
+      "tags": ["anthropic", "claude", "enterprise-ai", "ai-training", "frontier-academy", "ai-career"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What professional training model did Anthropic use as the blueprint for the Claude Frontier Academy?",
+          "options": [
+            "The law school internship model",
+            "The medical residency model",
+            "The military officer training model",
+            "The tech apprenticeship model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic explicitly designed the Claude Frontier Academy around the medical residency model: participants complete structured training first, then apply skills by leading real AI deployment projects at their own organizations under supervision—mirroring how doctors progress from classroom learning to supervised clinical practice."
+        },
+        {
+          "question": "How many Frontier Deployed Engineers does Anthropic aim to certify through the Claude Frontier Academy by end of 2027?",
+          "options": [
+            "1,000",
+            "5,000",
+            "10,000",
+            "100,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Claude Frontier Academy targets 10,000 certified Frontier Deployed Engineers (FDEs) by end of 2027. Graduates first earn a Claude Resident Engineer badge after initial training, then the full FDE badge after completing the 12-week residency—with first FDE graduates expected in early 2027."
+        }
+      ]
+    }
+  ]
+}
