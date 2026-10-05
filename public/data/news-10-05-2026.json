@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T00:00:00.000Z",
+  "generatedAt": "2026-10-05T12:00:00.000Z",
   "weekOf": "2026-09-28",
   "coverageStart": "2026-10-04",
-  "coverageEnd": "2026-10-04",
+  "coverageEnd": "2026-10-05",
   "items": [
     {
       "id": "article-openai-safety-robinson-resignation-oct04",
@@ -130,6 +130,135 @@
           ],
           "correctIndex": 1,
           "explanation": "Municipal AI regulation acts as an additional governance layer, addressing how AI affects local residents and public services in ways that broader federal or international frameworks may not specifically cover."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-super-intelligence-force-oct04",
+      "type": "article",
+      "title": "Trump Announces 'Super Intelligence Force' Federal AI Task Force",
+      "sourceUrl": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "verified": false,
+      "publishedAt": "2026-10-04",
+      "topics": ["ai-industry"],
+      "summary": "President Trump formally announced the creation of a 'Super Intelligence Force,' a Cabinet-level AI task force headed by Director of National Intelligence Jay Clayton and FTC Chairman Andrew Ferguson. The group also includes the Vice President, Defense Secretary, Treasury Secretary, and former AI czar David Sacks, and must deliver a 120-day report on AI risks and opportunities and the federal government's responsibilities. The task force will coordinate engagement between the federal government, AI companies, consumers, and critical infrastructure providers.",
+      "keyConcepts": [
+        "Federal AI governance",
+        "Super Intelligence Force task force",
+        "AI policy coordination",
+        "National AI strategy"
+      ],
+      "whyItMatters": "A White House-level AI task force with Cabinet-level membership signals a shift toward centralized federal AI coordination in the US, which will directly shape how AI companies interact with regulators and how AI is deployed across critical national sectors.",
+      "tags": ["trump", "government", "ai-policy", "task-force", "federal-regulation", "david-sacks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who was named to lead Trump's 'Super Intelligence Force' AI task force?",
+          "options": [
+            "Sam Altman and Elon Musk",
+            "Director of National Intelligence Jay Clayton and FTC Chairman Andrew Ferguson",
+            "The Secretary of Defense and Secretary of State",
+            "David Sacks as sole AI czar"
+          ],
+          "correctIndex": 1,
+          "explanation": "DNI Jay Clayton and FTC Chairman Andrew Ferguson were named to lead the task force, alongside other Cabinet members and former AI czar David Sacks."
+        },
+        {
+          "question": "What deliverable is the Super Intelligence Force required to produce?",
+          "options": [
+            "A new federal AI licensing framework within 30 days",
+            "An annual AI progress report to Congress",
+            "A 120-day report outlining AI risks, opportunities, and federal responsibilities",
+            "A real-time AI safety dashboard for public access"
+          ],
+          "correctIndex": 2,
+          "explanation": "The task force must complete a 120-day report that outlines the risks and opportunities of AI and determines the federal government's responsibility in governing and promoting AI development."
+        }
+      ]
+    },
+    {
+      "id": "article-huawei-qualcomm-ai-patent-oct05",
+      "type": "article",
+      "title": "Qualcomm and Huawei Sign First-Ever Cross-Licensing Deal Covering AI and 5G Patents",
+      "sourceUrl": "https://thenextweb.com/news/huawei-qualcomm-patent-deal-5g-ai",
+      "verified": false,
+      "publishedAt": "2026-10-05",
+      "topics": ["ai-industry"],
+      "summary": "Qualcomm has agreed to pay Huawei for the first time under a multi-year cross-licensing deal that covers AI, 5G, near-packaged optics, and Huawei's proprietary LogicFolding chipmaking technology. The deal spans more than 680 Huawei patents, some registered in the US, and marks Huawei's first revenue-positive patent agreement with an American company. Huawei expects total patent licensing revenue to exceed $6.9 billion after the transaction closes.",
+      "keyConcepts": [
+        "Cross-licensing agreements in AI hardware",
+        "LogicFolding chip technology",
+        "AI and 5G patent landscape",
+        "US-China technology industry dynamics"
+      ],
+      "whyItMatters": "Even amid ongoing geopolitical tensions, the foundational AI hardware ecosystem is deeply interdependent across national boundaries — this deal signals that AI chip IP is becoming a major commercial asset that transcends trade restrictions.",
+      "tags": ["qualcomm", "huawei", "ai-chips", "patents", "ai-hardware", "licensing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is significant about Qualcomm's payment to Huawei under this deal?",
+          "options": [
+            "It is the largest patent deal in tech history",
+            "It is the first time Qualcomm has paid Huawei under any agreement",
+            "It covers software patents only, not hardware",
+            "It replaces all previous chip export controls"
+          ],
+          "correctIndex": 1,
+          "explanation": "This is the first time Qualcomm has ever paid Huawei under a licensing agreement, making it Huawei's first revenue-positive deal with an American chipmaker — a notable milestone given years of US-China tech tensions."
+        },
+        {
+          "question": "Which technologies does the Huawei-Qualcomm cross-licensing deal cover?",
+          "options": [
+            "Only 5G modem patents",
+            "AI software APIs and developer tools",
+            "AI, 5G, near-packaged optics, and LogicFolding chip technology",
+            "Autonomous vehicle sensor and inference chips"
+          ],
+          "correctIndex": 2,
+          "explanation": "The multiyear deal covers AI services, 5G devices, near-packaged optics networking, and Huawei's novel LogicFolding chipmaking technique — a broad cross-section of frontier hardware technologies."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-popularity-paradox-oct05",
+      "type": "article",
+      "title": "The AI Popularity Paradox: Public Distrust Grows Even as Usage Skyrockets",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "verified": false,
+      "publishedAt": "2026-10-05",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "MIT Technology Review examines the widening gap between what people say about AI and how they actually use it: globally, more people now believe AI will have a negative impact than a positive one, yet AI adoption continues to climb. The piece draws on EmTech Future 2026 sessions and includes a notable legal precedent where an appeals court overturned a conviction after a deepfake of a murder victim 'forgiving' the killer was played at sentencing.",
+      "keyConcepts": [
+        "Public AI sentiment vs. adoption trends",
+        "AI trust deficit",
+        "Deepfake misuse in legal proceedings",
+        "AI social legitimacy"
+      ],
+      "whyItMatters": "Products that feel indispensable but are broadly distrusted sit on fragile social legitimacy — a single regulatory or court-precedent moment can translate diffuse public skepticism into rapid policy shifts, reshaping what AI applications are permissible.",
+      "tags": ["public-trust", "ai-adoption", "ai-sentiment", "deepfakes", "policy", "emtech"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the central contradiction MIT Technology Review highlights in its AI popularity paradox piece?",
+          "options": [
+            "AI companies are profitable but their models are getting worse",
+            "More people believe AI will have a negative impact, yet AI usage keeps rising",
+            "Governments are investing in AI while banning AI in schools",
+            "AI researchers are optimistic about AGI but pessimistic about safety"
+          ],
+          "correctIndex": 1,
+          "explanation": "The paradox is that public sentiment has shifted negative — more people now expect AI to harm rather than help — yet real-world AI usage is simultaneously at an all-time high and still growing."
+        },
+        {
+          "question": "What legal precedent is cited in the MIT Technology Review article?",
+          "options": [
+            "A court ruled AI-generated contracts are legally binding",
+            "An appeals court overturned a conviction after a deepfake of a murder victim was used in sentencing",
+            "A judge ruled AI cannot be used as evidence in criminal trials",
+            "A lawsuit forced OpenAI to disclose training data sources"
+          ],
+          "correctIndex": 1,
+          "explanation": "An appeals court overturned a killer's sentence because a deepfake of the murder victim 'forgiving' the defendant was improperly used at the sentencing hearing — a landmark case for AI misuse in legal contexts."
         }
       ]
     }
