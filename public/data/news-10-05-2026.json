@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-10-05T00:00:00.000Z",
+  "weekOf": "2026-09-28",
+  "coverageStart": "2026-10-04",
+  "coverageEnd": "2026-10-04",
+  "items": [
+    {
+      "id": "article-openai-safety-robinson-resignation-oct04",
+      "type": "article",
+      "title": "OpenAI Safety Lead Resigns After 3.5 Years, Warns of Broken Culture",
+      "sourceUrl": "https://getcoai.com/news/openai-safety-researcher-resigns-over-ai-development-concerns",
+      "verified": false,
+      "publishedAt": "2026-10-04",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "David Robinson, who spent 3.5 years at OpenAI leading the creation of safety reports for more than 12 major model releases, has resigned with a stark warning that the company's \"culture is broken.\" His departure is the latest in a long string of AI safety researcher exits from OpenAI throughout 2026, adding momentum to concerns about whether commercial pressures are eclipsing safety practices at the lab.",
+      "keyConcepts": [
+        "AI safety culture",
+        "Model safety reports",
+        "OpenAI leadership departures",
+        "AI governance and accountability"
+      ],
+      "whyItMatters": "Continued safety leadership departures from one of AI's most prominent labs raise fundamental questions about how organizations scale safety rigor alongside accelerating model releases — and whether external oversight is needed to fill the gap.",
+      "tags": ["openai", "ai-safety", "leadership", "culture", "resignation", "governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was David Robinson's primary role at OpenAI before his resignation?",
+          "options": [
+            "He led product design for ChatGPT",
+            "He led the creation of safety reports for major model releases",
+            "He managed OpenAI's hardware infrastructure",
+            "He directed OpenAI's policy and government relations"
+          ],
+          "correctIndex": 1,
+          "explanation": "David Robinson spent 3.5 years at OpenAI leading the creation of safety reports for more than 12 major model launches — a core function in evaluating risks before deployment."
+        },
+        {
+          "question": "What broader pattern does Robinson's departure fit into at OpenAI?",
+          "options": [
+            "A planned restructuring toward a purely technical leadership team",
+            "A series of product expansions requiring new roles",
+            "An ongoing trend of AI safety researchers leaving the company citing safety concerns",
+            "A government-mandated reduction in headcount"
+          ],
+          "correctIndex": 2,
+          "explanation": "Robinson's exit is the latest in a long series of AI safety researcher departures from OpenAI in 2026, with several citing concerns about organizational culture and the prioritization of commercial products over safety."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-ai-mathematics-papers-oct04",
+      "type": "article",
+      "title": "Meta AI Co-Authors Six Mathematics Papers, Solves Five Previously Open Problems",
+      "sourceUrl": "https://www.implicator.ai/clay-navier-stokes-unsolved-meta-muse-agent.md",
+      "verified": false,
+      "publishedAt": "2026-10-04",
+      "topics": ["ai-research"],
+      "summary": "Meta AI released six peer-reviewed mathematics papers co-authored with human mathematicians, using its Muse Spark 1.1 and 1.2 models in Thinking Mode via the standard Meta.ai interface. Five of the six papers resolve previously open mathematical problems, marking one of the clearest demonstrations to date of AI operating as a genuine mathematical research collaborator rather than a tool that merely checks proofs.",
+      "keyConcepts": [
+        "AI-assisted mathematical research",
+        "Muse Spark models and Thinking Mode",
+        "Open mathematical problems",
+        "Human-AI research collaboration"
+      ],
+      "whyItMatters": "AI successfully solving open mathematical problems through standard chat interfaces signals a qualitative shift from pattern recognition to domain-level creative problem-solving, with direct implications for scientific research acceleration across fields.",
+      "tags": ["meta-ai", "mathematics", "research", "muse-spark", "ai-reasoning", "open-problems"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many of Meta's six newly released mathematics papers resolve previously open problems?",
+          "options": [
+            "One",
+            "Three",
+            "Five",
+            "All six"
+          ],
+          "correctIndex": 2,
+          "explanation": "Five of the six papers Meta released in collaboration with human mathematicians resolve previously open problems, a strong indicator of AI's growing role as a genuine research contributor."
+        },
+        {
+          "question": "Which Meta AI models were used to co-author these papers?",
+          "options": [
+            "LLaMA 4 and LLaMA 5",
+            "Muse Spark 1.1 and 1.2 in Thinking Mode",
+            "GPT-Synopsys and Gemini 4 Argon",
+            "CodeLlama and Segment Anything 3"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta used Muse Spark 1.1 and 1.2 models in Thinking Mode, accessed via the standard Meta.ai chat interface — meaning these results were achieved without any specialized research infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-nyc-council-ai-safety-hearing-oct04",
+      "type": "article",
+      "title": "NYC Council Holds AI Safety Hearing with Whistleblowers and Major Tech Companies",
+      "sourceUrl": "https://bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
+      "verified": false,
+      "publishedAt": "2026-10-04",
+      "topics": ["ai-industry"],
+      "summary": "The New York City Council convened a hearing on AI safeguards featuring representatives from Google, OpenAI, and Meta alongside AI safety whistleblowers, including former Anthropic researcher Jacob Coxon who has warned publicly that AI could become too powerful for humans to control. The session focused on proposed oversight measures for AI systems used in consequential decisions affecting city residents.",
+      "keyConcepts": [
+        "Municipal AI regulation",
+        "AI whistleblower testimony",
+        "Government oversight of AI",
+        "AI deployment in public-sector decisions"
+      ],
+      "whyItMatters": "Municipal governments taking formal oversight steps signals that AI governance is moving beyond federal and international frameworks to local enforcement, setting precedents that could influence how AI is deployed in public services across cities.",
+      "tags": ["ai-regulation", "nyc", "government-oversight", "whistleblowers", "ai-safety", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which former researcher testified at the NYC Council AI hearing?",
+          "options": [
+            "Sam Altman of OpenAI",
+            "Demis Hassabis of Google DeepMind",
+            "Jacob Coxon, a former Anthropic researcher",
+            "Yann LeCun of Meta"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jacob Coxon, a former Anthropic researcher who has publicly warned that AI could become too powerful for human oversight, testified at the New York City Council hearing alongside representatives from major AI companies."
+        },
+        {
+          "question": "What does municipal AI regulation, like NYC's, primarily represent?",
+          "options": [
+            "A replacement for federal AI legislation",
+            "An additional governance layer that addresses local deployment contexts",
+            "A ban on AI systems in city government",
+            "A directive for AI companies to relocate outside of New York"
+          ],
+          "correctIndex": 1,
+          "explanation": "Municipal AI regulation acts as an additional governance layer, addressing how AI affects local residents and public services in ways that broader federal or international frameworks may not specifically cover."
+        }
+      ]
+    }
+  ]
+}
