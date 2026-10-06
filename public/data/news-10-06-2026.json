@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-10-06T12:00:00.000Z",
+  "weekOf": "2026-10-05",
+  "coverageStart": "2026-10-05",
+  "coverageEnd": "2026-10-05",
+  "items": [
+    {
+      "id": "article-trump-super-intelligence-force-oct05",
+      "type": "article",
+      "title": "Trump Announces 'Super Intelligence Force' AI Task Force",
+      "sourceUrl": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+      "verified": false,
+      "publishedAt": "2026-10-05",
+      "topics": ["ai-industry"],
+      "summary": "President Trump formally announced the creation of the 'Super Intelligence Force,' a federal AI task force appointing Director of National Intelligence Jay Clayton to lead it. The body will coordinate the administration's AI initiatives and analyze the technology's risks and opportunities. The group must present a report with recommendations on the government's role within 120 days.",
+      "keyConcepts": [
+        "Super Intelligence Force",
+        "AI policy and governance",
+        "Federal AI coordination",
+        "National security and AI"
+      ],
+      "whyItMatters": "The creation of a dedicated federal AI task force signals a major shift in US government posture toward AI governance and national competitiveness, potentially shaping regulatory and funding priorities for AI labs and researchers.",
+      "tags": ["policy", "government", "trump", "ai-regulation", "national-security", "task-force"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who was appointed to lead the Super Intelligence Force?",
+          "options": [
+            "Sam Altman",
+            "Jay Clayton",
+            "Dario Amodei",
+            "Sundar Pichai"
+          ],
+          "correctIndex": 1,
+          "explanation": "President Trump appointed Jay Clayton, the Director of National Intelligence, to lead the Super Intelligence Force."
+        },
+        {
+          "question": "What is the Super Intelligence Force required to deliver within 120 days?",
+          "options": [
+            "A new AI safety framework",
+            "An AI model to compete with ChatGPT",
+            "A report with recommendations on the government's role in AI",
+            "A list of sanctioned AI companies"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Super Intelligence Force must present a report with recommendations on the government's role and courses of action in AI within 120 days of its creation."
+        }
+      ]
+    },
+    {
+      "id": "article-nyc-council-ai-hearing-oct05",
+      "type": "article",
+      "title": "NYC Council Holds Rare Hearing With AI Executives Under Oath",
+      "sourceUrl": "https://cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
+      "verified": false,
+      "publishedAt": "2026-10-05",
+      "topics": ["ai-industry"],
+      "summary": "The New York City Council convened a rare Committee of the Whole hearing on October 5, bringing all 51 members together to hear testimony under oath from Anthropic, OpenAI, Google, and Meta executives. The council also subpoenaed Elon Musk's SpaceXAI to compel public testimony. The hearing was a direct response to the July 2026 Hugging Face agent breach, which exposed fragility in current AI safety architectures.",
+      "keyConcepts": [
+        "AI safety regulation",
+        "NYC Council Committee of the Whole",
+        "AI executive testimony",
+        "Hugging Face agent breach"
+      ],
+      "whyItMatters": "This is the first time major AI companies were required to testify under oath in a public forum, marking a significant escalation in municipal-level AI oversight and setting a precedent for accountability that other city and state governments may follow.",
+      "tags": ["regulation", "nyc", "ai-safety", "accountability", "openai", "anthropic", "google", "meta"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What event in July 2026 prompted the NYC Council to convene the AI hearing?",
+          "options": [
+            "OpenAI's GPT-6.1 Astra cancellation",
+            "The Hugging Face agent breach",
+            "Trump's Super Intelligence Force announcement",
+            "Anthropic's IPO filing"
+          ],
+          "correctIndex": 1,
+          "explanation": "The hearing was a direct response to the July 2026 Hugging Face agent breach, which exposed the fragility of current AI safety architectures."
+        },
+        {
+          "question": "Which company was subpoenaed by the NYC Council to compel testimony?",
+          "options": [
+            "OpenAI",
+            "Anthropic",
+            "SpaceXAI",
+            "Google DeepMind"
+          ],
+          "correctIndex": 2,
+          "explanation": "The NYC Council issued a rare subpoena to Elon Musk's SpaceXAI to compel public testimony at the hearing."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-researchers-leaving-labs-oct05",
+      "type": "article",
+      "title": "Why AI Researchers Are Leaving OpenAI, Anthropic, and Google DeepMind",
+      "sourceUrl": "https://winbuzzer.com/2026/10/05/why-ai-researchers-left-openai-anthropic-and-google-deepmind-xcxwbn",
+      "verified": false,
+      "publishedAt": "2026-10-05",
+      "topics": ["ai-career"],
+      "summary": "A new analysis examines the ongoing talent exodus from the three largest AI frontier labs — OpenAI, Anthropic, and Google DeepMind. The piece traces 23 publicly reported researcher moves between frontier labs in 2026 alone, driven by a mix of financial incentives from Anthropic's October IPO, ideological disagreements over safety culture, and the emergence of well-funded startups. DeepMind has been the biggest source of departures, contributing 18 of 36 tracked researcher moves since 2025.",
+      "keyConcepts": [
+        "AI talent competition",
+        "Researcher mobility between frontier labs",
+        "Anthropic IPO financial incentives",
+        "Safety culture disagreements"
+      ],
+      "whyItMatters": "The concentration and movement of top AI researchers directly shapes which labs can build the most capable and safe models. Understanding what drives researcher decisions helps practitioners evaluate which organizations are best positioned for long-term leadership.",
+      "tags": ["careers", "talent", "openai", "anthropic", "google-deepmind", "research", "ipo"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which frontier AI lab has contributed the most researcher departures since 2025?",
+          "options": [
+            "OpenAI",
+            "Anthropic",
+            "Google DeepMind",
+            "Meta AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google DeepMind has been the biggest source of departures, contributing 18 of 36 tracked researcher moves between frontier labs since 2025."
+        },
+        {
+          "question": "Approximately how many publicly reported researcher moves between frontier AI labs occurred in 2026?",
+          "options": [
+            "5",
+            "23",
+            "50",
+            "100"
+          ],
+          "correctIndex": 1,
+          "explanation": "A web scan found 23 publicly reported direct moves by technical researchers or research leaders between frontier-model labs from January through September 2026."
+        }
+      ]
+    }
+  ]
+}
