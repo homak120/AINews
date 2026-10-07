@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-10-07T18:00:00.000Z",
+  "weekOf": "2026-10-05",
+  "coverageStart": "2026-10-06",
+  "coverageEnd": "2026-10-07",
+  "items": [
+    {
+      "id": "article-mistral-large-4-oct06",
+      "type": "article",
+      "title": "Mistral Unveils Large 4, a 1-Trillion-Parameter Multimodal AI Model",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+      "verified": false,
+      "publishedAt": "2026-10-06",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Mistral AI released Mistral Large 4 (ML4), its first 1-trillion-parameter multimodal model, on October 6. Nicknamed 'Le Chonk,' the sparse mixture-of-experts model activates 49 billion parameters at inference and targets complex agentic and enterprise workflows. It is available in public preview via the API, with an open-weight release planned for the end of October.",
+      "keyConcepts": [
+        "Mixture-of-Experts (MoE) architecture at 1 trillion parameters",
+        "Multimodal capabilities (text and image)",
+        "Open-weight model release strategy",
+        "US and Chinese AI frontier competition"
+      ],
+      "whyItMatters": "Mistral Large 4 is the first European frontier model to reach the 1-trillion-parameter scale, directly competing with US labs like OpenAI and Anthropic and Chinese rivals like DeepSeek. The planned open-weight release could shift enterprise AI deployments significantly toward sovereign, self-hostable models.",
+      "tags": ["mistral", "large-language-model", "open-weight", "multimodal", "european-ai", "frontier-models", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does Mistral Large 4 activate at inference time?",
+          "options": [
+            "1 trillion",
+            "49 billion",
+            "120 billion",
+            "675 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral Large 4 uses a sparse mixture-of-experts architecture with 1 trillion total parameters, but activates only 49 billion at inference, keeping costs manageable while accessing the full knowledge of the larger model."
+        },
+        {
+          "question": "What is the significance of Mistral Large 4's planned open-weight release?",
+          "options": [
+            "It will only be available through Azure",
+            "It will be the first model to run on a smartphone",
+            "Enterprises can self-host a frontier-scale European model without API dependency",
+            "It replaces all previous Mistral models immediately"
+          ],
+          "correctIndex": 2,
+          "explanation": "By releasing the weights publicly at end of October, Mistral allows enterprises to self-host a frontier-scale multimodal model, reducing dependency on US or Chinese API providers and enabling private deployments."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-copilot-studio-agents-oct06",
+      "type": "article",
+      "title": "Microsoft Copilot Studio Lets AI Agents Collaborate Across Apps",
+      "sourceUrl": "https://spaces.collab365.com/posts/microsoft-copilot-studio-lets-ai-agents-collaborat--rEeqR",
+      "verified": false,
+      "publishedAt": "2026-10-06",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Microsoft announced new cross-application agent collaboration capabilities in Copilot Studio, enabling AI agents built in different environments to coordinate tasks seamlessly. The update also introduced 'Hooks' — a new mechanism that gives developers greater certainty and control over AI agent workflow execution by allowing agents to invoke predefined logic at specific points in a task. This builds on Microsoft's broader agentic AI expansion across its enterprise software stack.",
+      "keyConcepts": [
+        "Multi-agent orchestration",
+        "Copilot Studio Hooks for workflow control",
+        "Cross-application agent coordination",
+        "Enterprise agentic AI deployment"
+      ],
+      "whyItMatters": "As enterprise AI shifts from chatbots to autonomous agents, Microsoft's investment in agent-to-agent collaboration infrastructure positions Copilot Studio as a central orchestration layer across Microsoft 365, Dynamics, and third-party apps — a strategic moat for enterprise AI adoption.",
+      "tags": ["microsoft", "copilot-studio", "ai-agents", "multi-agent", "enterprise-ai", "workflow-automation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the purpose of 'Hooks' in Microsoft Copilot Studio?",
+          "options": [
+            "To allow users to subscribe to AI news feeds",
+            "To give developers control over agent workflow execution at specific task points",
+            "To connect Copilot to GitHub repositories",
+            "To enable voice commands in Teams meetings"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hooks are a new Copilot Studio mechanism that lets developers insert predefined logic at specific points in an agent's workflow, providing more deterministic control over agentic execution and reducing unpredictable behavior."
+        },
+        {
+          "question": "Which broader trend does Microsoft's agent collaboration update reflect?",
+          "options": [
+            "A shift from AI chatbots to autonomous AI agents",
+            "Declining interest in enterprise AI after early failures",
+            "A move away from cloud computing back to on-premise software",
+            "Consolidation of all AI into a single model"
+          ],
+          "correctIndex": 0,
+          "explanation": "The update reflects the industry-wide shift from conversational AI chatbots toward autonomous AI agents that can perform multi-step tasks across multiple applications — a trend that Microsoft, Salesforce, and SAP are all investing heavily in."
+        }
+      ]
+    },
+    {
+      "id": "article-sap-autonomous-enterprise-joule-oct06",
+      "type": "article",
+      "title": "SAP Launches Autonomous Enterprise Initiative, Evolves Joule Into an Agentic Work Layer",
+      "sourceUrl": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-6-2026",
+      "verified": false,
+      "publishedAt": "2026-10-06",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "SAP announced its Autonomous Enterprise initiative on October 6, repositioning its Joule AI assistant as a comprehensive agentic work layer embedded across SAP's enterprise suite. Joule can now autonomously execute multi-step business processes — from procurement workflows to finance reporting — and coordinate with third-party agents via the SAP Business AI Protocol. The announcement signals SAP's strategic bet that AI agents will become the primary interface for enterprise resource planning.",
+      "keyConcepts": [
+        "Agentic AI in enterprise resource planning (ERP)",
+        "SAP Joule as an autonomous work layer",
+        "Business process automation with AI agents",
+        "SAP Business AI Protocol for agent interoperability"
+      ],
+      "whyItMatters": "SAP serves over 400,000 companies worldwide, meaning Joule's evolution into an autonomous agent could automate billions of business transactions. The Autonomous Enterprise initiative is one of the clearest signals yet that agentic AI is moving from pilots into core enterprise infrastructure.",
+      "tags": ["sap", "joule", "enterprise-ai", "ai-agents", "erp", "workflow-automation", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the SAP Business AI Protocol designed to do?",
+          "options": [
+            "Train custom LLMs on SAP proprietary data",
+            "Enable SAP Joule to interoperate with third-party AI agents",
+            "Replace human consultants in SAP implementations",
+            "Provide a chatbot interface for SAP customers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The SAP Business AI Protocol is an interoperability standard that allows Joule and other SAP agents to coordinate with third-party AI agents, enabling complex cross-system automation beyond SAP's own ecosystem."
+        },
+        {
+          "question": "What milestone in agentic AI does SAP's Autonomous Enterprise initiative represent?",
+          "options": [
+            "The first AI model released by an ERP vendor",
+            "Agentic AI moving from pilots into core enterprise infrastructure",
+            "SAP's first generative AI product",
+            "The retirement of all human SAP consultants"
+          ],
+          "correctIndex": 1,
+          "explanation": "SAP's Autonomous Enterprise initiative represents agentic AI crossing from experimental pilots into core enterprise infrastructure, with SAP's massive customer base of 400,000+ companies making this a bellwether for enterprise AI adoption at scale."
+        }
+      ]
+    },
+    {
+      "id": "article-digital-realty-kix15-ai-infra-oct07",
+      "type": "article",
+      "title": "Digital Realty Begins Construction of KIX15 Data Center, Expanding AI Infrastructure in Japan",
+      "sourceUrl": "https://manilatimes.net/2026/10/07/tmt-newswire/globenewswire/digital-realty-commences-construction-of-kix15-data-center-expanding-ai-infrastructure-in-japan/2440525",
+      "verified": false,
+      "publishedAt": "2026-10-07",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Digital Realty announced on October 7 the commencement of construction of KIX15, a new 24-megawatt data center at its KIX Campus in Ibaraki City, Osaka Prefecture, Japan. The facility is designed to support AI and high-performance computing workloads, responding to surging regional demand from Japanese enterprises deploying large language models and AI agents. It is Digital Realty's largest AI-optimized facility in Asia Pacific to date.",
+      "keyConcepts": [
+        "AI data center infrastructure investment",
+        "High-performance computing for AI in Asia Pacific",
+        "Hyperscale colocation expansion",
+        "Japan AI enterprise demand"
+      ],
+      "whyItMatters": "The race to build AI compute infrastructure in Asia Pacific is accelerating as Japanese enterprises and government bodies drive adoption of large AI models. Data center expansion in Japan reflects the growing reality that AI inference and training workloads require purpose-built, power-dense facilities — making AI infrastructure investment a leading indicator of regional AI adoption.",
+      "tags": ["data-center", "ai-infrastructure", "japan", "digital-realty", "asia-pacific", "gpu-compute", "hpc"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the capacity of Digital Realty's new KIX15 data center?",
+          "options": [
+            "5 megawatts",
+            "24 megawatts",
+            "100 megawatts",
+            "500 megawatts"
+          ],
+          "correctIndex": 1,
+          "explanation": "KIX15 is a 24-megawatt facility, making it Digital Realty's largest AI-optimized data center in Asia Pacific to date, designed to handle the dense power requirements of AI and HPC workloads."
+        },
+        {
+          "question": "Why are companies like Digital Realty investing in purpose-built AI data centers rather than using existing infrastructure?",
+          "options": [
+            "Because existing data centers are illegal under new AI regulations",
+            "Because AI and GPU workloads require much higher power density than traditional servers",
+            "Because AI data centers are cheaper to build than regular ones",
+            "Because AI training only works in Japan"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI and GPU-accelerated workloads require significantly higher power density per rack than traditional compute, meaning existing data center facilities often cannot provide sufficient power and cooling without purpose-built infrastructure."
+        }
+      ]
+    }
+  ]
+}
