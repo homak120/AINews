@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-10-08T12:00:00.000Z",
+  "weekOf": "2026-10-05",
+  "coverageStart": "2026-10-07",
+  "coverageEnd": "2026-10-08",
+  "items": [
+    {
+      "id": "article-reuters-ipsos-ai-risks-poll-oct07",
+      "type": "article",
+      "title": "Most US Voters Say Trump and Congress Don't Take AI Risks Seriously, Poll Finds",
+      "sourceUrl": "https://www.usnews.com/news/politics/articles/2026-10-07/most-us-voters-say-trump-congress-dont-take-ai-risks-seriously-reuters-ipsos-poll-finds",
+      "verified": false,
+      "publishedAt": "2026-10-07",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "A Reuters/Ipsos poll published October 7 found that 57% of US registered voters believe the Trump administration has not taken AI risks seriously enough, while 54% say the same about Congress. The survey found widespread bipartisan concern about AI's impact on employment, with large majorities viewing AI as a major threat to American jobs. The findings come as the administration has prioritized AI innovation acceleration over risk mitigation.",
+      "keyConcepts": [
+        "Public opinion on AI risk governance",
+        "AI job displacement as a bipartisan concern",
+        "US AI policy and executive/legislative oversight",
+        "AI regulation vs. innovation acceleration tradeoff"
+      ],
+      "whyItMatters": "When majorities across party lines believe government is failing to address AI risks, it creates concrete pressure for legislation, liability frameworks, and corporate accountability standards — all of which will fundamentally shape where and how AI gets deployed over the next decade.",
+      "tags": ["ai-policy", "public-opinion", "job-displacement", "us-politics", "ai-governance", "reuters-ipsos", "workforce"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Reuters/Ipsos poll from October 2026, what percentage of US registered voters say the Trump administration has not taken AI risks seriously enough?",
+          "options": [
+            "34%",
+            "47%",
+            "57%",
+            "71%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The poll found that 57% of US registered voters believe the Trump administration has not taken AI risks seriously enough, while 54% said the same about Congress — reflecting broad dissatisfaction with AI governance at the federal level."
+        },
+        {
+          "question": "What is the primary concern driving public skepticism about AI policy according to this Reuters/Ipsos poll?",
+          "options": [
+            "AI surpassing human intelligence too quickly",
+            "AI's use in warfare and autonomous weapons",
+            "AI's threat to American jobs and employment",
+            "AI-generated misinformation and deepfakes"
+          ],
+          "correctIndex": 2,
+          "explanation": "The poll found that large swaths of the electorate see AI as a major threat to American jobs, making employment and economic displacement the central driver of public anxiety — a concern that transcends partisan lines."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt61-astra-cancelled-safety-oct07",
+      "type": "article",
+      "title": "OpenAI Pulls GPT-6.1 Astra Back for Safety Review as GPT-6.1 Sol Rolls Out",
+      "sourceUrl": "https://www.csoonline.com/article/4219249/sam-altman-calls-gpt-6-astra-rollout-messy-as-enterprise-users-wait-for-access.html",
+      "verified": false,
+      "publishedAt": "2026-10-07",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI cancelled the planned release of GPT-6.1 Astra after internal safety researchers raised concerns during pre-release testing, according to The Wall Street Journal. The move comes as GPT-6.1 Sol — a smaller, more cost-efficient model that nearly matches Astra in performance at one-fifth the cost — continues rolling out to API customers. The decision marks a significant instance of safety review processes publicly overriding a commercial launch timeline.",
+      "keyConcepts": [
+        "AI safety review processes at frontier labs",
+        "GPT-6.1 model family: Astra vs. Sol architecture",
+        "Internal safety teams influencing product roadmaps",
+        "Cost-performance tradeoffs in LLM deployment"
+      ],
+      "whyItMatters": "OpenAI choosing to halt a flagship model based on internal safety testing signals that safety reviews can override commercial timelines — a precedent that matters as labs race to ship more powerful systems. Meanwhile, GPT-6.1 Sol at $2/M input tokens vs. Astra's $10/M offers a practical near-equivalent for developers.",
+      "tags": ["openai", "gpt-6-1", "ai-safety", "model-release", "safety-review", "enterprise-ai", "product-roadmap"],
+      "relatedIds": ["article-reuters-ipsos-ai-risks-poll-oct07"],
+      "knowledgeChecks": [
+        {
+          "question": "Why was GPT-6.1 Astra's release cancelled?",
+          "options": [
+            "Poor benchmark performance compared to Gemini 4",
+            "Cost too high for enterprise customers",
+            "Internal safety researchers raised concerns during pre-release testing",
+            "Regulatory pressure from the EU AI Office"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Wall Street Journal reported that OpenAI's internal safety researchers raised concerns during pre-release testing of GPT-6.1 Astra, leading the company to pull the launch — a significant example of safety review processes overriding commercial timelines."
+        },
+        {
+          "question": "How does GPT-6.1 Sol's pricing compare to GPT-6 Astra?",
+          "options": [
+            "Sol costs 2x more than Astra",
+            "Sol and Astra cost the same",
+            "Sol costs roughly one-fifth of Astra ($2/M vs $10/M input tokens)",
+            "Sol is free-tier and Astra requires enterprise contracts"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-6.1 Sol was priced at $2 per million input tokens versus GPT-6 Astra's $10 per million — a 5x cost advantage while delivering near-equivalent performance, making Sol the practical choice for most API developers."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-haiku-5-5-imminent-oct08",
+      "type": "article",
+      "title": "Claude Haiku 5.5 Nears Launch: Anthropic's Cheapest 5.5 Model to Complete the Family",
+      "sourceUrl": "https://qcode.cc/en/claude-haiku-5-5-status-tracker",
+      "verified": false,
+      "publishedAt": "2026-10-08",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "With Claude Opus 5.5 (Sept 22) and Sonnet 5.5 (Sept 28) already live, Anthropic's Claude Haiku 5.5 is the final model in the 5.5 family and expected imminently. Haiku 5.5 is designed for high-volume, cost-sensitive applications — the workhorse tier for production AI systems. Leaked community benchmarks suggest it may deliver performance comparable to earlier Opus-class models at a dramatically lower price point, though Anthropic has not yet confirmed any specifications.",
+      "keyConcepts": [
+        "Claude 5.5 model family: Opus, Sonnet, Haiku tiers",
+        "High-volume inference cost optimization",
+        "Model performance tiers and production use cases",
+        "AI pricing trends and cost-per-token efficiency"
+      ],
+      "whyItMatters": "If Haiku 5.5 delivers Opus-class reasoning at significantly lower cost, it could unlock new categories of AI applications that were previously too expensive to operate at scale — a common pattern in AI where cost compression drives rapid adoption across new use cases.",
+      "tags": ["anthropic", "claude", "haiku-5-5", "llm-efficiency", "model-pricing", "cost-optimization", "production-ai"],
+      "relatedIds": ["article-openai-gpt61-astra-cancelled-safety-oct07"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Haiku 5.5's primary design purpose within the Claude 5.5 family?",
+          "options": [
+            "Maximum reasoning depth for complex research",
+            "High-volume, cost-sensitive production applications",
+            "Creative writing and long-form document generation",
+            "Multimodal image and video analysis"
+          ],
+          "correctIndex": 1,
+          "explanation": "Within Anthropic's model tiers, Haiku models are designed for high-volume, cost-sensitive applications — prioritizing inference efficiency and low cost-per-token over maximum capability, making them the workhorse tier for production AI systems."
+        },
+        {
+          "question": "In what order did Anthropic release the Claude 5.5 model family?",
+          "options": [
+            "Haiku first, then Sonnet, then Opus",
+            "All three launched simultaneously",
+            "Sonnet first, then Haiku, then Opus",
+            "Opus (Sept 22), then Sonnet (Sept 28), with Haiku launching last"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic launched Claude Opus 5.5 on September 22, 2026, followed by Sonnet 5.5 on September 28. Haiku 5.5 is the final model in the family, expected to launch within weeks of Sonnet 5.5 for high-volume use cases."
+        }
+      ]
+    }
+  ]
+}
