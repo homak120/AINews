@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T12:00:00.000Z",
+  "generatedAt": "2026-10-08T18:30:00.000Z",
   "weekOf": "2026-10-05",
-  "coverageStart": "2026-10-07",
+  "coverageStart": "2026-10-06",
   "coverageEnd": "2026-10-08",
   "items": [
     {
@@ -92,35 +92,77 @@
       ]
     },
     {
-      "id": "article-claude-haiku-5-5-imminent-oct08",
+      "id": "article-anthropic-cvp-three-tiers-oct06",
       "type": "article",
-      "title": "Claude Haiku 5.5 Nears Launch: Anthropic's Cheapest 5.5 Model to Complete the Family",
-      "sourceUrl": "https://qcode.cc/en/claude-haiku-5-5-status-tracker",
+      "title": "Anthropic Expands Cyber Verification Program to Three Tiers, Folds In Project Glasswing",
+      "sourceUrl": "https://cryptobriefing.com/anthropic-expands-cyber-verification-program-tiers/",
       "verified": false,
-      "publishedAt": "2026-10-08",
-      "dateEstimated": true,
-      "topics": ["ai-research", "ai-engineering"],
-      "summary": "With Claude Opus 5.5 (Sept 22) and Sonnet 5.5 (Sept 28) already live, Anthropic's Claude Haiku 5.5 is the final model in the 5.5 family and expected imminently. Haiku 5.5 is designed for high-volume, cost-sensitive applications — the workhorse tier for production AI systems. Leaked community benchmarks suggest it may deliver performance comparable to earlier Opus-class models at a dramatically lower price point, though Anthropic has not yet confirmed any specifications.",
+      "publishedAt": "2026-10-06",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic announced an expanded Cyber Verification Program (CVP) on October 6, integrating Project Glasswing and introducing three access tiers: Defense Access (security operations and vulnerability validation), Red Team Access (authorized penetration testing, organizations only), and Specialized Access (safety-critical infrastructure testing, conducted in collaboration with the US government). Verified participants gain access to Claude Opus 5.5, Sonnet 5.5, and Mythos 5.1. All tiers require data retention for misuse monitoring, and Reuters reports that Glasswing partners found over 129,000 verified vulnerabilities between April and July, with more than 33,000 rated critical or high severity.",
       "keyConcepts": [
-        "Claude 5.5 model family: Opus, Sonnet, Haiku tiers",
-        "High-volume inference cost optimization",
-        "Model performance tiers and production use cases",
-        "AI pricing trends and cost-per-token efficiency"
+        "Tiered access model for AI security research",
+        "Project Glasswing and critical infrastructure protection",
+        "Red teaming with frontier AI models",
+        "AI safety data retention and misuse monitoring"
       ],
-      "whyItMatters": "If Haiku 5.5 delivers Opus-class reasoning at significantly lower cost, it could unlock new categories of AI applications that were previously too expensive to operate at scale — a common pattern in AI where cost compression drives rapid adoption across new use cases.",
-      "tags": ["anthropic", "claude", "haiku-5-5", "llm-efficiency", "model-pricing", "cost-optimization", "production-ai"],
+      "whyItMatters": "By structuring AI access around verified security roles rather than a flat approval, Anthropic is building a model for how frontier AI labs can safely empower offensive security professionals — filling a genuine gap where LLMs can dramatically accelerate vulnerability discovery at scale.",
+      "tags": ["anthropic", "cybersecurity", "red-teaming", "ai-safety", "project-glasswing", "vulnerability-research", "critical-infrastructure"],
       "relatedIds": ["article-openai-gpt61-astra-cancelled-safety-oct07"],
       "knowledgeChecks": [
         {
-          "question": "What is Claude Haiku 5.5's primary design purpose within the Claude 5.5 family?",
+          "question": "Which of the following is NOT one of Anthropic's three Cyber Verification Program tiers announced in October 2026?",
           "options": [
-            "Maximum reasoning depth for complex research",
-            "High-volume, cost-sensitive production applications",
-            "Creative writing and long-form document generation",
-            "Multimodal image and video analysis"
+            "Defense Access",
+            "Red Team Access",
+            "Zero-Day Research Access",
+            "Specialized Access"
+          ],
+          "correctIndex": 2,
+          "explanation": "The three tiers are Defense Access (security operations), Red Team Access (authorized penetration testing), and Specialized Access (safety-critical infrastructure). 'Zero-Day Research Access' is not a tier — prohibited activities remain blocked regardless of tier."
+        },
+        {
+          "question": "What did Glasswing partners find between April and July, according to Reuters reporting on the CVP expansion?",
+          "options": [
+            "Over 5,000 AI model jailbreaks",
+            "More than 129,000 verified software vulnerabilities",
+            "42 zero-day exploits in critical infrastructure",
+            "Evidence of AI model exfiltration attempts"
           ],
           "correctIndex": 1,
-          "explanation": "Within Anthropic's model tiers, Haiku models are designed for high-volume, cost-sensitive applications — prioritizing inference efficiency and low cost-per-token over maximum capability, making them the workhorse tier for production AI systems."
+          "explanation": "Reuters reported that Glasswing partners found at least 129,000 verified vulnerabilities between April and July 2026, with more than 33,000 rated critical or high severity — figures Anthropic said are likely an undercount."
+        }
+      ]
+    },
+    {
+      "id": "article-claude-haiku-5-5-launch-oct08",
+      "type": "article",
+      "title": "Claude Haiku 5.5 Launches at $0.10/$0.50 Per Million Tokens, Completing the 5.5 Family",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-08",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic launched Claude Haiku 5.5 on October 8, priced at $0.10 per million input tokens and $0.50 per million output tokens — roughly 90% cheaper than Haiku 4.5 and completing the Claude 5.5 family alongside Opus 5.5 (Sept 22) and Sonnet 5.5 (Sept 28). Haiku 5.5 is designed for high-volume, cost-sensitive production applications. Early reports indicate performance comparable to earlier Opus-class models on many benchmarks, confirming the cost-compression trajectory Anthropic had signaled.",
+      "keyConcepts": [
+        "Claude 5.5 model family: Opus, Sonnet, Haiku tiers",
+        "High-volume inference cost optimization",
+        "Cost-performance benchmarking across model tiers",
+        "AI pricing compression and production deployment economics"
+      ],
+      "whyItMatters": "Haiku 5.5 at $0.10/M input tokens makes Opus-comparable reasoning economically viable at a scale previously reserved for much cheaper, less capable models — a pricing shift that typically unlocks entirely new application categories that were cost-prohibitive before.",
+      "tags": ["anthropic", "claude", "haiku-5-5", "llm-efficiency", "model-pricing", "cost-optimization", "production-ai"],
+      "relatedIds": ["article-anthropic-cvp-three-tiers-oct06"],
+      "knowledgeChecks": [
+        {
+          "question": "What is Claude Haiku 5.5's announced input token pricing?",
+          "options": [
+            "$1.00 per million tokens",
+            "$0.50 per million tokens",
+            "$0.25 per million tokens",
+            "$0.10 per million tokens"
+          ],
+          "correctIndex": 3,
+          "explanation": "Claude Haiku 5.5 launched at $0.10 per million input tokens and $0.50 per million output tokens — roughly 90% cheaper than its predecessor Haiku 4.5, which was priced at $1/$5 per million tokens."
         },
         {
           "question": "In what order did Anthropic release the Claude 5.5 model family?",
@@ -128,10 +170,54 @@
             "Haiku first, then Sonnet, then Opus",
             "All three launched simultaneously",
             "Sonnet first, then Haiku, then Opus",
-            "Opus (Sept 22), then Sonnet (Sept 28), with Haiku launching last"
+            "Opus (Sept 22), Sonnet (Sept 28), then Haiku (Oct 8)"
           ],
           "correctIndex": 3,
-          "explanation": "Anthropic launched Claude Opus 5.5 on September 22, 2026, followed by Sonnet 5.5 on September 28. Haiku 5.5 is the final model in the family, expected to launch within weeks of Sonnet 5.5 for high-volume use cases."
+          "explanation": "Anthropic staggered the Claude 5.5 releases: Opus 5.5 on September 22, Sonnet 5.5 on September 28, and finally Haiku 5.5 on October 8 — completing the three-tier family with the cost-optimized model last."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-unreleased-model-math-oct08",
+      "type": "article",
+      "title": "OpenAI's Unreleased Model Posts 372 New Math Results — Nearly All From a Single Agent Prompt",
+      "sourceUrl": "https://aiweekly.co/alerts/openai-unreleased-model-math-results",
+      "verified": false,
+      "publishedAt": "2026-10-08",
+      "dateEstimated": true,
+      "topics": ["ai-research"],
+      "summary": "OpenAI reported that an unreleased internal model generated 372 new mathematical results, with a spokesperson stating that nearly all came from a single prompt to a single AI agent, with some requiring multiple solution attempts. The disclosure highlights rapid progress in AI-assisted mathematical research and raises questions about verification, reproducibility, and what it means for a result to be 'new' when produced by a model under constrained evaluation conditions.",
+      "keyConcepts": [
+        "AI-assisted mathematical discovery",
+        "Single-agent proof generation at scale",
+        "Reproducibility and verification in AI-generated research",
+        "Frontier model capabilities beyond published benchmarks"
+      ],
+      "whyItMatters": "A single agent prompt generating hundreds of new mathematical results in one session suggests that frontier AI is moving from benchmark-level math assistance to genuine research contribution — a meaningful threshold that has implications for scientific productivity, verification infrastructure, and academic attribution norms.",
+      "tags": ["openai", "mathematical-reasoning", "ai-research", "proof-generation", "frontier-models", "scientific-ai"],
+      "relatedIds": ["article-openai-gpt61-astra-cancelled-safety-oct07"],
+      "knowledgeChecks": [
+        {
+          "question": "How many new mathematical results did OpenAI's unreleased model produce, according to the October 2026 disclosure?",
+          "options": [
+            "47",
+            "128",
+            "372",
+            "Over 1,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI reported 372 new mathematical results from its unreleased model, with a spokesperson noting that nearly all came from a single prompt to a single AI agent — some requiring multiple solution attempts."
+        },
+        {
+          "question": "What key verification challenge does AI-generated mathematical discovery raise?",
+          "options": [
+            "AI models can't express proofs in standard notation",
+            "Mathematical results need peer review to confirm they are genuinely new and correct",
+            "AI-generated proofs are always shorter than human proofs",
+            "AI math models only work on problems with known solutions"
+          ],
+          "correctIndex": 1,
+          "explanation": "When an AI agent generates hundreds of results rapidly, the central challenge becomes verification — confirming results are genuinely novel, mathematically valid, and reproducible, rather than reformulations of known results or artifacts of the evaluation setup."
         }
       ]
     }
