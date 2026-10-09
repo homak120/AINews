@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T00:00:00.000Z",
+  "generatedAt": "2026-10-09T07:00:00.000Z",
   "weekOf": "2026-10-05",
   "coverageStart": "2026-10-08",
   "coverageEnd": "2026-10-08",
@@ -130,6 +130,141 @@
           ],
           "correctIndex": 1,
           "explanation": "Interpretability research aims to make an AI model's internal reasoning visible and understandable to humans. Without it, researchers cannot confirm whether a model is reasoning safely or in alignment with intended goals."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-usage-policy-2026-10-08",
+      "type": "article",
+      "title": "Anthropic Updates Usage Policy to Address AI Agents, Surveillance, and Influence Operations",
+      "sourceUrl": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "verified": true,
+      "publishedAt": "2026-10-08",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic's 2026 Usage Policy update, effective November 12, consolidates rules against deceptive campaigns and fake accounts, narrows its elections policy to focus on deceiving voters or disrupting elections, and drops the blanket ban on personalized vote targeting. The update tightens weapons and surveillance prohibitions, adds explicit requirements for human oversight in high-risk AI deployments, and bars sustained cruelty toward Claude models. These changes reflect the reality that Claude now performs longer, more autonomous tasks and requires clearer guardrails for emerging misuse vectors.",
+      "keyConcepts": [
+        "AI usage policy",
+        "influence operations",
+        "human-in-the-loop",
+        "AI agent oversight",
+        "surveillance restrictions",
+        "election integrity"
+      ],
+      "whyItMatters": "As AI models take on more autonomous, long-running tasks, clear policy boundaries become critical for responsible deployment — this update signals how frontier labs are adapting rules to keep pace with rapidly expanding AI capabilities.",
+      "tags": ["anthropic", "usage-policy", "ai-safety", "ai-agents", "influence-operations", "responsible-ai"],
+      "relatedIds": ["article-openai-former-researchers-monitoring-2026-10-08"],
+      "knowledgeChecks": [
+        {
+          "question": "What change did Anthropic make to its elections-related policy in the 2026 update?",
+          "options": [
+            "It banned all AI use for political campaigns",
+            "It removed all election-related restrictions",
+            "It narrowed restrictions to focus specifically on deceiving voters or disrupting elections",
+            "It required government approval for any election-related AI use"
+          ],
+          "correctIndex": 2,
+          "explanation": "Rather than a broad ban, Anthropic's updated policy narrows election rules to explicitly target deception of voters and disruption of elections, while dropping a blanket ban on personalized vote targeting."
+        },
+        {
+          "question": "Why does Anthropic's 2026 policy specifically address Claude-controlled physical hardware?",
+          "options": [
+            "Because Claude is now used in consumer smartphones",
+            "Because Claude increasingly performs longer, autonomous agentic tasks that can affect physical systems",
+            "Because Anthropic builds its own hardware products",
+            "Because Claude's computer use feature requires new licensing"
+          ],
+          "correctIndex": 1,
+          "explanation": "As Claude handles more autonomous, multi-step tasks — including controlling physical systems — the policy adds explicit requirements for human oversight at critical decision points in high-risk deployments."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-cyber-mission-2026-10-08",
+      "type": "article",
+      "title": "Anthropic Launches Cyber Mission to Defend Critical Infrastructure with AI",
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "verified": true,
+      "publishedAt": "2026-10-08",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic launched the Anthropic Cyber Mission, a long-term initiative providing defenders with AI tools, research, and resources for securing software and critical infrastructure. Its Critical Infrastructure Defense Program pairs Claude models with on-site engineers to protect operational technology like power grids and water systems, while OSS Scanner offers free, opt-in vulnerability scanning with proposed patches to open-source projects. The initiative responds to the asymmetric risk where AI is making vulnerabilities cheaper to find while fixing industrial systems — which are difficult to take offline — remains slow and complex.",
+      "keyConcepts": [
+        "cybersecurity AI",
+        "critical infrastructure defense",
+        "operational technology",
+        "OSS vulnerability scanning",
+        "coordinated vulnerability disclosure",
+        "Cyber Verification Program"
+      ],
+      "whyItMatters": "AI is rapidly lowering the cost for attackers to discover and exploit vulnerabilities; Anthropic's Cyber Mission marks a shift toward AI labs taking active responsibility for the security externalities of their own technology.",
+      "tags": ["anthropic", "cybersecurity", "critical-infrastructure", "open-source", "ai-security", "vulnerability-scanning"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's OSS Scanner offer to open-source projects?",
+          "options": [
+            "Paid code review contracts for enterprise clients",
+            "Free opt-in vulnerability scans with proposed patches",
+            "Automated code merges and refactoring",
+            "Access to Claude's internal training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "OSS Scanner is a free, opt-in service Anthropic offers to open-source projects, providing AI-powered vulnerability scanning and suggesting patches — lowering the security maintenance burden for maintainers."
+        },
+        {
+          "question": "Why is securing operational technology (OT) like power grids particularly challenging compared to standard software?",
+          "options": [
+            "OT systems have better security monitoring than consumer software",
+            "OT systems are newer and have more modern codebases",
+            "OT systems are difficult to take offline for patching, creating longer vulnerability windows",
+            "OT systems do not connect to the internet at all"
+          ],
+          "correctIndex": 2,
+          "explanation": "Operational technology systems like power grids and water treatment plants often cannot be easily taken offline for patching without disrupting critical services, meaning vulnerabilities can persist much longer than in standard software."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-genesis-mission-2026-10-08",
+      "type": "article",
+      "title": "Anthropic Commits $150M to Genesis Mission, Bringing Claude to NASA, NIH, and Federal Science",
+      "sourceUrl": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "verified": true,
+      "publishedAt": "2026-10-08",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic committed $150 million over three years to the Genesis Mission, a federal initiative using AI to accelerate scientific and technological discovery, with Claude available to more than 15 agencies including NASA, NIH, and NSF. The commitment covers Claude, Claude Code, and API credits for several hundred research projects, with partnerships focused on fusion energy and quantum computing. The initiative also includes the Model Hardware Standard, a shared specification allowing AI agents to safely operate physical lab instruments.",
+      "keyConcepts": [
+        "federal AI adoption",
+        "Claude Science workbench",
+        "Model Hardware Standard",
+        "fusion energy AI",
+        "quantum computing research",
+        "scientific AI agents"
+      ],
+      "whyItMatters": "Federal AI adoption at this scale represents a significant transition: AI is moving from commercial productivity tool to foundational scientific infrastructure, potentially accelerating breakthroughs in fields from medicine to clean energy.",
+      "tags": ["anthropic", "federal-government", "scientific-discovery", "nasa", "ai-research", "fusion-energy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Model Hardware Standard introduced as part of the Genesis Mission?",
+          "options": [
+            "A benchmark for comparing AI model performance on scientific tasks",
+            "A shared specification that allows AI agents to safely operate physical lab instruments",
+            "A hardware certification program for data centers running Anthropic models",
+            "A standard for AI chip manufacturing used by federal agencies"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Model Hardware Standard is a shared specification enabling AI agents to interface with and operate physical laboratory equipment safely, bridging digital AI capabilities with real-world scientific instrumentation."
+        },
+        {
+          "question": "Which of the following best describes the scope of Anthropic's Genesis Mission commitment?",
+          "options": [
+            "$15 million for one year to support a single NASA project",
+            "$150 million over three years for Claude access across 15+ federal agencies and hundreds of research projects",
+            "$1.5 billion for a ten-year government AI contract",
+            "$150 million to train a new science-focused foundation model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic committed $150 million over three years, providing Claude, Claude Code, and API credits to more than 15 federal agencies including NASA, NIH, and NSF for hundreds of research projects."
         }
       ]
     }
