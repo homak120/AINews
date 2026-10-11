@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T03:15:07.128Z",
+  "generatedAt": "2026-10-11T03:17:00.595Z",
   "weekOf": "2026-08-31",
   "coverageStart": "2026-08-31",
-  "coverageEnd": "2026-09-09",
+  "coverageEnd": "2026-09-10",
   "items": [
     {
       "id": "article-anthropic-infostealer-2026-08-31",
@@ -3117,6 +3117,378 @@
           ],
           "correctIndex": 2,
           "explanation": "Unlike single-turn inference that processes one request at a time, agentic AI systems run multi-step loops with persistent state, requiring different memory, latency, and security characteristics from the underlying hardware infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "youtube-71BiwHJXu20",
+      "type": "video",
+      "title": "I Let GPT-6 Astra and Fable 5.1 Build the Same Game",
+      "youtubeId": "71BiwHJXu20",
+      "sourceUrl": "https://www.youtube.com/watch?v=71BiwHJXu20",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "Fireship builds the same game twice using GPT-6 Astra and Claude Fable 5.1, giving each model an identical brief and judging results on playability rather than coding benchmarks. The head-to-head comparison reveals how the two leading frontier models differ in creative code generation, game logic, and overall output quality when measured by a player's experience.",
+      "keyConcepts": [
+        "GPT-6 Astra vs Claude Fable 5.1 comparison",
+        "AI-assisted game development",
+        "Frontier model creative coding evaluation",
+        "Practical LLM output quality assessment"
+      ],
+      "whyItMatters": "As GPT-6 Astra reaches general availability alongside Claude Fable 5.1, real-world head-to-head tests help developers make informed choices about which model to use for creative coding tasks.",
+      "tags": [
+        "fireship",
+        "gpt-6",
+        "claude-fable",
+        "ai-coding",
+        "game-dev",
+        "model-comparison"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What primary criterion did Fireship use to judge the AI-built games?",
+          "options": [
+            "Lines of code produced",
+            "Speed of generation",
+            "Whether the finished game was actually fun",
+            "Adherence to coding best practices"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fireship judged the outputs from a player's perspective — whether the finished game was actually fun — rather than using traditional coding metrics or benchmark scores."
+        },
+        {
+          "question": "Which two AI models were compared in this Fireship video?",
+          "options": [
+            "GPT-4o and Claude 3.7",
+            "GPT-6 Astra and Claude Fable 5.1",
+            "Gemini Ultra and Claude Sonnet",
+            "GPT-6 Astra and Gemini 2.5"
+          ],
+          "correctIndex": 1,
+          "explanation": "The video compared GPT-6 Astra and Claude Fable 5.1 — both of which became generally available around September 2026 — on the same game-building task."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-v4-1-flash-launch",
+      "type": "article",
+      "title": "DeepSeek Begins Limited Beta of V4.1 Flash Multimodal Model, Official Release Around September 10",
+      "sourceUrl": "https://technode.com/2026/09/09/deepseek-v4-1-flash-multimodal-limited-beta/",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
+      "summary": "DeepSeek opened a limited beta of its V4.1 Flash model, a new multimodal architecture capable of processing up to 427 tokens per second that surpasses V4 Pro across performance, cost, and speed metrics. The official release is targeted for around September 10, 2026, with simultaneous price reductions for the existing V4 Flash line. Developers can access the beta endpoint via DeepSeek's existing API using a time-limited model identifier.",
+      "keyConcepts": [
+        "DeepSeek V4.1 Flash multimodal architecture",
+        "427 tokens-per-second inference throughput",
+        "Time-limited API beta endpoint",
+        "AI inference cost reduction"
+      ],
+      "whyItMatters": "DeepSeek's V4.1 Flash raises the performance ceiling for open-weight-style models while cutting costs, intensifying competition with US frontier models and giving developers a faster, cheaper alternative for time-sensitive applications.",
+      "tags": [
+        "deepseek",
+        "v4-1-flash",
+        "multimodal",
+        "inference",
+        "open-models",
+        "ai-release"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What peak inference speed does DeepSeek V4.1 Flash claim to achieve?",
+          "options": [
+            "127 tokens per second",
+            "250 tokens per second",
+            "427 tokens per second",
+            "600 tokens per second"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek V4.1 Flash claims up to 427 tokens per second throughput, making it well-suited for time-sensitive applications like 3D modeling, game development, and real-time coding assistance."
+        },
+        {
+          "question": "How could developers access the V4.1 Flash model before its official launch?",
+          "options": [
+            "By joining a separate waitlist and receiving a private API key",
+            "By downloading open-source model weights",
+            "Through a time-limited model endpoint in DeepSeek's existing API",
+            "Via a new dedicated DeepSeek Flash platform"
+          ],
+          "correctIndex": 2,
+          "explanation": "Developers accessed the beta by selecting the 'deepseek-v4.1-flash-expires-on-0910' endpoint in DeepSeek's existing API, with the model scheduled to go offline on September 10."
+        }
+      ]
+    },
+    {
+      "id": "article-nsa-cisa-chinese-ai-distillation",
+      "type": "article",
+      "title": "NSA, CISA, and FBI Accuse Six Chinese AI Firms of Industrial-Scale Distillation Against US Models",
+      "sourceUrl": "https://helpnetsecurity.com/2026/09/09/china-malicious-ai-knowledge-distillation-against-us-companies/",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "A joint advisory from the NSA, CISA, and FBI named DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI as conducting aggressive, industrial-scale knowledge distillation campaigns against US frontier AI models since late 2024. The agencies alleged the firms extracted billions of tokens from Claude, GPT, Gemini, and Grok using fraudulent accounts, bulk subscriptions, and proxy routing to evade detection. The advisory recommends that American AI companies quietly degrade responses to suspected distillation accounts rather than outright blocking them.",
+      "keyConcepts": [
+        "Knowledge distillation attacks on frontier LLMs",
+        "Industrial-scale AI capability extraction",
+        "NSA/CISA/FBI joint cybersecurity advisory",
+        "Defensive model degradation countermeasures"
+      ],
+      "whyItMatters": "This advisory signals that model capability theft via systematic API querying has become a national security concern, and may push frontier AI providers to implement new defensive measures that could affect legitimate high-volume API users.",
+      "tags": [
+        "ai-security",
+        "distillation",
+        "cisa",
+        "nsa",
+        "deepseek",
+        "china-ai"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What countermeasure did the advisory recommend US AI companies use against suspected distillation accounts?",
+          "options": [
+            "Immediately block and permanently ban suspicious accounts",
+            "Report to law enforcement before taking any action",
+            "Quietly degrade response quality rather than outright blocking",
+            "Require multi-factor authentication for all high-volume users"
+          ],
+          "correctIndex": 2,
+          "explanation": "The advisory recommended that American AI companies quietly degrade responses for accounts identified as conducting malicious distillation — rather than simply blocking them outright — to avoid alerting the actors that they had been detected."
+        },
+        {
+          "question": "Which US AI models were specifically named as targets in the distillation campaigns?",
+          "options": [
+            "GPT and Llama",
+            "Claude, GPT, Gemini, and Grok",
+            "Gemini and Grok only",
+            "Claude and GPT only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The advisory specifically named Anthropic's Claude, OpenAI's GPT, Google's Gemini, and xAI's Grok as targets of systematic distillation campaigns carried out by the six named Chinese AI companies."
+        }
+      ]
+    },
+    {
+      "id": "article-qualcomm-aws-custom-ai-silicon",
+      "type": "article",
+      "title": "Qualcomm and AWS Announce Multi-Generational Custom AI Inference Silicon Partnership",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/qualcomm-and-aws-partner-on-custom-silicon-for-large-scale-ai-data-centers/",
+      "verified": false,
+      "publishedAt": "2026-09-08",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "Qualcomm and Amazon Web Services announced a multi-generational collaboration to co-design custom AI inference chips and 1.6 Tb/s optical connectivity for AWS data centers, with Amazon committing up to $60 billion in hardware purchases through 2036. Amazon also received a warrant to acquire up to 25 million Qualcomm shares at $161.26 each, deepening the strategic partnership. The deal marks Qualcomm's largest expansion into cloud data center infrastructure and extends its power-efficient chip architecture into hyperscale AI workloads.",
+      "keyConcepts": [
+        "Custom AI inference silicon co-design",
+        "1.6 Tb/s optical data center connectivity",
+        "Hyperscale AI infrastructure investment",
+        "Qualcomm cloud data center expansion"
+      ],
+      "whyItMatters": "A $60-billion commitment to custom silicon signals that hyperscalers are moving beyond off-the-shelf GPU clusters toward purpose-built hardware, which could reshape the AI inference market and reduce the industry's near-total dependence on Nvidia.",
+      "tags": [
+        "qualcomm",
+        "aws",
+        "amazon",
+        "custom-silicon",
+        "ai-infrastructure",
+        "data-center"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the total hardware purchase commitment Amazon made to Qualcomm in this deal?",
+          "options": [
+            "$4 billion over 5 years",
+            "$10 billion over 10 years",
+            "$60 billion through 2036",
+            "$100 billion over 15 years"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon committed up to $60 billion in hardware purchases through 2036, making it one of the largest chip procurement commitments in data center history and a major strategic expansion for Qualcomm into cloud AI infrastructure."
+        },
+        {
+          "question": "Besides custom inference chips, what other technology is part of the Qualcomm-AWS collaboration?",
+          "options": [
+            "Satellite-based AI model delivery",
+            "1.6 Tb/s optical data center connectivity",
+            "Quantum computing accelerators",
+            "Edge AI mobile chipsets"
+          ],
+          "correctIndex": 1,
+          "explanation": "The collaboration also covers advanced optical connectivity for Amazon's data center networks, including links reaching 1.6 terabits per second (Tb/s), supporting the high-bandwidth demands of large-scale AI model serving."
+        }
+      ]
+    },
+    {
+      "id": "article-suno-v6-warner-bmg",
+      "type": "article",
+      "title": "Suno Launches v6 AI Music Models Built on Licensed Warner Music and BMG Catalogues",
+      "sourceUrl": "https://www.digitalmusicnews.com/2026/09/09/suno-v6-launch/",
+      "verified": false,
+      "publishedAt": "2026-09-09",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "Suno released its v6 generation of AI music models trained on licensed content from Warner Music Group, BMG, and Believe, with royalty payments committed to rightsholders. The generation includes three models — v6 for polished output, v6-wild for experimental results, and v6-mini for free users — adding new capabilities including partial song editing, mashups, audio isolation, and sampling. Suno is retiring all previous model versions and migrating its platform entirely to v6.",
+      "keyConcepts": [
+        "Licensed training data for generative AI music",
+        "Royalty sharing framework with music labels",
+        "Multi-tier model release (v6, v6-wild, v6-mini)",
+        "AI music platform commercialization"
+      ],
+      "whyItMatters": "Suno's licensed approach represents a potential blueprint for sustainable AI content generation — converting former adversaries into partners through built-in revenue sharing, which could influence how other AI media companies structure rights deals going forward.",
+      "tags": [
+        "suno",
+        "ai-music",
+        "warner-music",
+        "bmg",
+        "generative-ai",
+        "music-licensing"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes v6-wild from the standard Suno v6 model?",
+          "options": [
+            "It is faster but produces lower audio quality",
+            "It is designed to produce less predictable, more experimental results",
+            "It only supports classical music genres",
+            "It runs locally without an internet connection"
+          ],
+          "correctIndex": 1,
+          "explanation": "v6-wild is intentionally designed to produce less predictable and more experimental musical results, contrasting with the standard v6 model which targets polished, consistent output."
+        },
+        {
+          "question": "Which of the following is NOT listed as a new capability in Suno v6?",
+          "options": [
+            "Partial song editing",
+            "Mashups using multiple audio sources",
+            "Real-time voice cloning",
+            "Audio isolation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Suno v6 supports partial song editing, mashups, audio isolation, and sampling — but real-time voice cloning was not among the announced v6 capabilities."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-siri-ai-gemini-launch",
+      "type": "article",
+      "title": "Apple Confirms Siri AI Powered by Google Gemini at 'Surprise and Shine' Event",
+      "sourceUrl": "https://techbriefly.com/2026/09/10/siri-ai-five-languages-october/",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "At its September 9 'Surprise and Shine' event, Apple confirmed its rebuilt Siri AI assistant is co-developed alongside Google's Gemini 2.5 Pro, running five Apple Foundation Models — four of which were trained on Gemini outputs — through Apple's Private Cloud Compute to ensure user data privacy. The new Siri AI arrives in beta with iOS 27 on September 14 in English, with French, Japanese, Korean, Portuguese, and Spanish support following in October. The partnership is backed by a multi-year deal reportedly worth approximately $1 billion per year.",
+      "keyConcepts": [
+        "Siri AI powered by Google Gemini 2.5 Pro",
+        "Apple Private Cloud Compute for privacy",
+        "Apple Foundation Models (five models, four Gemini-trained)",
+        "iOS 27 Siri AI beta rollout"
+      ],
+      "whyItMatters": "Apple's decision to license Google's frontier model instead of building its own from scratch signals that even the world's most valuable company sees partnerships with AI labs as more practical than solo development — reshaping assumptions about Big Tech AI strategy.",
+      "tags": [
+        "apple",
+        "siri-ai",
+        "google-gemini",
+        "ios-27",
+        "ai-assistant",
+        "ai-partnership"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many Apple Foundation Models power the new Siri AI, and how many were trained using Google Gemini outputs?",
+          "options": [
+            "Three models, all trained by Apple alone",
+            "Five models, four trained using Gemini outputs",
+            "Two models, both trained using Gemini outputs",
+            "Five models, all built entirely by Apple"
+          ],
+          "correctIndex": 1,
+          "explanation": "The new Siri AI uses five Apple Foundation Models, and four of them were trained using outputs from Google's Gemini frontier models, combining Apple's on-device and Private Cloud Compute infrastructure with Gemini's frontier capabilities."
+        },
+        {
+          "question": "What mechanism does Apple use to prevent Google from accessing user personal data in the new Siri AI?",
+          "options": [
+            "All queries are processed entirely on-device with no cloud connection",
+            "A third-party anonymization service sits between Apple and Google",
+            "Apple's Private Cloud Compute processes requests so Google cannot see user data",
+            "Users must opt in before any personal data is sent to any server"
+          ],
+          "correctIndex": 2,
+          "explanation": "Apple routes Siri AI requests through its Private Cloud Compute architecture, which ensures that even though the underlying model was trained with Google's help, Google itself cannot access individual users' personal data or queries."
+        }
+      ]
+    },
+    {
+      "id": "article-chatgpt-voice-gpt6-astra",
+      "type": "article",
+      "title": "ChatGPT Voice Mode Now Lets Users Choose GPT-5.6 Sol or GPT-6 Astra for Reasoning",
+      "sourceUrl": "https://panews.io/articles/01a088c7-65de-76f1-aa4e-bcd78a37ac5e",
+      "verified": false,
+      "publishedAt": "2026-09-10",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "OpenAI updated ChatGPT Voice Mode to allow users to select either GPT-5.6 Sol or GPT-6 Astra as the underlying model, with voice automatically calling the chosen model when search or reasoning is needed. Pro subscribers can access both models including GPT-6 Astra, while Plus subscribers are limited to GPT-5.6 Sol. The update makes voice mode's model selection consistent with ChatGPT's text interface, giving power users fine-grained control over cost versus capability trade-offs in voice interactions.",
+      "keyConcepts": [
+        "ChatGPT Voice Mode model selection",
+        "GPT-6 Astra in voice with reasoning",
+        "GPT-5.6 Sol as a voice model option",
+        "Per-model reasoning intensity controls"
+      ],
+      "whyItMatters": "Adding model choice to voice mode closes the gap between ChatGPT's text and voice interfaces, letting users apply GPT-6 Astra's advanced reasoning to hands-free workflows — expanding the practical use cases for voice AI beyond simple queries.",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "gpt-6-astra",
+        "voice-mode",
+        "gpt-5-6-sol",
+        "ai-assistant"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which ChatGPT subscription tier is required to use GPT-6 Astra in Voice Mode?",
+          "options": [
+            "Free tier — available to all users",
+            "Plus — available to all paid subscribers",
+            "Pro — only available on the highest-tier plan",
+            "Enterprise — only available to business customers"
+          ],
+          "correctIndex": 2,
+          "explanation": "GPT-6 Astra in Voice Mode is limited to ChatGPT Pro subscribers. Plus subscribers can access GPT-5.6 Sol in voice but not GPT-6 Astra, reflecting the significant cost premium of the more powerful model."
+        },
+        {
+          "question": "When does ChatGPT Voice Mode invoke the selected model during a conversation?",
+          "options": [
+            "On every single voice turn regardless of complexity",
+            "Only when the user explicitly types a command to switch models",
+            "When search or reasoning is needed during the conversation",
+            "Only at the start of a new voice conversation session"
+          ],
+          "correctIndex": 2,
+          "explanation": "Voice mode dynamically calls the user's selected model (GPT-5.6 Sol or GPT-6 Astra) when the conversation requires search or reasoning capabilities, rather than using it for every turn — optimizing cost while preserving response quality for complex queries."
         }
       ]
     }
