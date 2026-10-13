@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-10-13T08:00:00.000Z",
+  "weekOf": "2026-10-12",
+  "coverageStart": "2026-10-12",
+  "coverageEnd": "2026-10-13",
+  "items": [
+    {
+      "id": "article-bloomberg-meta-muse-frontier-oct12",
+      "type": "article",
+      "title": "Meta's New Muse Model Reaches AI Frontier After 14-Month Push",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+      "verified": false,
+      "publishedAt": "2026-10-12",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Bloomberg reports that Meta has released its most capable AI model yet, with the company saying the new entry in the Muse family reaches frontier-tier performance after a 14-month intensive development push inside its Superintelligence Labs. The release comes after a series of Muse Spark updates and marks Meta's most significant AI milestone since Mark Zuckerberg restructured the AI operation under Alexandr Wang. Meta describes the model as competitive with leading offerings from OpenAI and Anthropic.",
+      "keyConcepts": ["frontier model", "Meta Superintelligence Labs", "multimodal reasoning", "closed-weights model"],
+      "whyItMatters": "Meta reaching the frontier tier with a proprietary closed-weight model intensifies the top-tier model race, with four major labs — OpenAI, Anthropic, Google, and now Meta — each fielding a genuine frontier contender.",
+      "tags": ["meta", "muse-spark", "frontier-model", "superintelligence-labs", "model-release", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under which organizational unit did Meta develop its new frontier Muse model?",
+          "options": ["Meta AI Research Lab", "Meta Superintelligence Labs", "FAIR (Fundamental AI Research)", "Meta Reality Labs"],
+          "correctIndex": 1,
+          "explanation": "Meta created Superintelligence Labs under Alexandr Wang specifically to build frontier-class models, separate from its older FAIR research org."
+        },
+        {
+          "question": "What is a notable strategic difference between Meta's Muse models and its earlier Llama models?",
+          "options": ["Muse models are smaller and cheaper", "Muse models are released as open weights", "Muse models are closed-weight, unlike open-source Llama", "Muse models are only available via API in Europe"],
+          "correctIndex": 2,
+          "explanation": "Unlike the open-source Llama family, Meta's Muse models have been released as closed-weight, marking a shift in Meta's AI distribution strategy."
+        }
+      ]
+    },
+    {
+      "id": "article-foxnews-microsoft-ai-regulation-oct12",
+      "type": "article",
+      "title": "Microsoft President Urges Global AI Regulation, Warns of Safety Gaps",
+      "sourceUrl": "https://foxnews.com/live-news/ai-news-microsoft-rules-safety-10-12",
+      "verified": false,
+      "publishedAt": "2026-10-12",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Microsoft's president called for international coordination on AI regulation and warned that current safety practices leave significant gaps, particularly around advanced AI systems. The remarks echo earlier advocacy for a dedicated AI oversight body and come amid ongoing debate about whether the September White House voluntary accord is sufficient. Microsoft notably did not sign the accord, and the company's public position emphasizes legally binding standards rather than self-policing commitments.",
+      "keyConcepts": ["AI governance", "international regulation", "AI safety frameworks", "voluntary vs. mandatory standards"],
+      "whyItMatters": "Microsoft's push for mandatory global AI regulation — rather than voluntary pledges — represents a significant policy stance from one of the industry's biggest players, and could influence upcoming Congressional and EU-level AI legislation.",
+      "tags": ["microsoft", "ai-regulation", "ai-safety", "policy", "governance", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was notable about Microsoft's relationship to the September 2026 White House AI voluntary accord?",
+          "options": ["Microsoft was the first to sign", "Microsoft negotiated the accord's terms", "Microsoft did not sign the accord", "Microsoft signed under protest"],
+          "correctIndex": 2,
+          "explanation": "Microsoft was a notable omission from the White House voluntary AI accord signed by OpenAI, Google, Anthropic, Meta, Nvidia, and xAI — consistent with its preference for binding regulatory frameworks."
+        },
+        {
+          "question": "What type of AI oversight structure has Microsoft's leadership historically called for?",
+          "options": ["An industry-run self-regulatory board", "A new dedicated U.S. government agency to license AI", "Expanding existing FTC jurisdiction", "A United Nations AI treaty body only"],
+          "correctIndex": 1,
+          "explanation": "Microsoft has repeatedly called for a new U.S. government regulatory agency empowered to license, test, and set safety standards for the most powerful AI systems."
+        }
+      ]
+    },
+    {
+      "id": "article-epicgames-disney-ai-first-oct13",
+      "type": "article",
+      "title": "Epic Games Delays Disney Collaboration Game to Fully Adopt AI-First Development",
+      "sourceUrl": "https://www.kucoin.com/news/flash/epic-games-delays-disney-game-to-fully-adopt-ai-development",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Epic Games has pushed back a Disney-backed game originally scheduled for November to March 2027, citing the decision to adopt an AI-first development model. According to Bloomberg, the new project will have all art assets generated by AI and no manual coding, making it one of the first major game titles to attempt a fully AI-generated production pipeline. The project is part of Disney's $1.5 billion investment in Epic Games.",
+      "keyConcepts": ["AI-generated art assets", "AI-first game development", "generative AI in games", "production pipeline automation"],
+      "whyItMatters": "A major game studio committing to a fully AI-generated production pipeline on a high-profile Disney title signals that AI-native content creation is moving from experiment to production reality, with significant implications for creative workflows and employment in game development.",
+      "tags": ["epic-games", "disney", "ai-game-development", "generative-ai", "creative-ai", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What two aspects of the Epic-Disney game are described as fully AI-generated under the new development approach?",
+          "options": ["Storyline and dialogue", "Art assets and code", "Audio and physics engine", "Marketing materials and trailers"],
+          "correctIndex": 1,
+          "explanation": "Bloomberg's reporting describes the project as targeting fully AI-generated art assets and no manual coding — making both visual content creation and programming AI-driven."
+        },
+        {
+          "question": "What was the original planned release window for the Epic-Disney game before the AI-first delay?",
+          "options": ["Summer 2026", "Early 2027", "November 2026", "Late 2027"],
+          "correctIndex": 2,
+          "explanation": "The game was originally scheduled for a November 2026 release. The pivot to an AI-first development model pushed the target to March 2027."
+        }
+      ]
+    },
+    {
+      "id": "article-aip-whitehouse-science-ai-oct12",
+      "type": "article",
+      "title": "White House Announces $6B in Science Initiatives Including AI Research Infrastructure",
+      "sourceUrl": "https://aip.org/fyi/the-week-of-october-12-2026",
+      "verified": false,
+      "publishedAt": "2026-10-12",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "The Trump administration announced $6 billion in science initiatives at a White House summit, including dedicated funding for AI-powered scientific research and advanced computing facilities. Separately, the National Science Foundation has begun replacing references to 'artificial intelligence' with 'Super Intelligence' in grant documentation, following a White House executive order reframing AI terminology. The NSF change affects how researchers must describe their work in federal funding applications.",
+      "keyConcepts": ["federal AI research funding", "science policy", "NSF terminology changes", "computing infrastructure investment"],
+      "whyItMatters": "The $6B commitment signals continued federal investment in AI research infrastructure, while the NSF terminology shift — however symbolic — reflects how government framing of AI is shifting toward capability-first language, which may shape how academic researchers pitch and communicate their work.",
+      "tags": ["white-house", "ai-policy", "nsf", "research-funding", "ai-career", "government-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What terminology change did the NSF begin implementing following a White House executive order?",
+          "options": ["Replacing 'machine learning' with 'neural computation'", "Replacing 'artificial intelligence' with 'Super Intelligence'", "Replacing 'large language model' with 'foundation model'", "Replacing 'AI safety' with 'AI assurance'"],
+          "correctIndex": 1,
+          "explanation": "Per the AIP weekly roundup, NSF program directors began advising researchers that grant documents will swap 'AI' for 'Super Intelligence' following a White House executive order reframing AI terminology."
+        },
+        {
+          "question": "What was the total dollar amount of science initiatives announced at the White House summit in the week of October 12, 2026?",
+          "options": ["$1 billion", "$3 billion", "$6 billion", "$12 billion"],
+          "correctIndex": 2,
+          "explanation": "The administration announced $6 billion in science initiatives at its 'Science: A New Golden Age' summit, including support for AI-powered research and advanced computing infrastructure."
+        }
+      ]
+    }
+  ]
+}
