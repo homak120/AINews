@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:00:00.000Z",
+  "generatedAt": "2026-10-13T14:30:00.000Z",
   "weekOf": "2026-10-12",
   "coverageStart": "2026-10-12",
   "coverageEnd": "2026-10-13",
@@ -16,7 +16,7 @@
       "keyConcepts": ["frontier model", "Meta Superintelligence Labs", "multimodal reasoning", "closed-weights model"],
       "whyItMatters": "Meta reaching the frontier tier with a proprietary closed-weight model intensifies the top-tier model race, with four major labs — OpenAI, Anthropic, Google, and now Meta — each fielding a genuine frontier contender.",
       "tags": ["meta", "muse-spark", "frontier-model", "superintelligence-labs", "model-release", "ai-industry"],
-      "relatedIds": [],
+      "relatedIds": ["article-cnbc-meta-muse-wonder-oct12"],
       "knowledgeChecks": [
         {
           "question": "Under which organizational unit did Meta develop its new frontier Muse model?",
@@ -113,6 +113,62 @@
           "options": ["$1 billion", "$3 billion", "$6 billion", "$12 billion"],
           "correctIndex": 2,
           "explanation": "The administration announced $6 billion in science initiatives at its 'Science: A New Golden Age' summit, including support for AI-powered research and advanced computing infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-meta-muse-wonder-oct12",
+      "type": "article",
+      "title": "Meta Releases Muse Wonder Developer Models for Agentic App Builders",
+      "sourceUrl": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html",
+      "verified": false,
+      "publishedAt": "2026-10-12",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Meta launched Muse Wonder and Muse Wonder Full — two new agent-focused AI models available to developers via the Meta Model API and the Muse Code platform. Priced at $4 and $20 per million tokens respectively with a one-million-token context window, the models are purpose-built for autonomous agentic applications. Consumer access requires a Muse app subscription at $20 or $100 per month, marking Meta's push to build a developer API ecosystem around its Muse platform, separate from the consumer agent it launched in September.",
+      "keyConcepts": ["Muse Wonder model", "Meta Model API", "agentic AI architecture", "developer platform monetization"],
+      "whyItMatters": "The Muse Wonder developer API launch puts Meta in direct competition with OpenAI and Anthropic for the enterprise agentic application market, introducing a one-million-token context window as a differentiator for complex, long-running agent tasks.",
+      "tags": ["meta", "muse-wonder", "developer-api", "ai-agents", "model-release", "ai-engineering"],
+      "relatedIds": ["article-bloomberg-meta-muse-frontier-oct12"],
+      "knowledgeChecks": [
+        {
+          "question": "What context window length does the Muse Wonder developer model offer?",
+          "options": ["128K tokens", "512K tokens", "1 million tokens", "4 million tokens"],
+          "correctIndex": 2,
+          "explanation": "Muse Wonder and Muse Wonder Full offer a 1-million-token context window, enabling complex long-form agentic workflows that require large amounts of in-context information."
+        },
+        {
+          "question": "Through which developer platform can subscribers access the Muse Wonder Full model directly?",
+          "options": ["Meta AI Studio", "Llama API", "Muse Code", "WhatsApp Business API"],
+          "correctIndex": 2,
+          "explanation": "Muse Code is Meta's developer platform for building and testing agentic apps using the Muse model family, with direct access to Muse Wonder Full for subscribers."
+        }
+      ]
+    },
+    {
+      "id": "article-disrupt2026-real-world-ai-oct13",
+      "type": "article",
+      "title": "TechCrunch Disrupt 2026 Opens with 'Real World AI' Stage Spotlighting the Robotics Data Gap",
+      "sourceUrl": "https://www.newsbytesapp.com/news/science/techcrunch-disrupt-2026-reveals-real-world-ai-stage-october-13-15/tldr",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "TechCrunch Disrupt 2026 opened today at Moscone West in San Francisco, running through October 15. A new 'Real World AI Stage' centers on physical AI and robotics, with NVIDIA's Head of Physical AI Les Karpas anchoring sessions on why robots haven't had their 'ChatGPT moment.' The answer, per Karpas, is a training data gap: autonomous vehicle systems were built on millions of hours of road data, but robotic platforms lack equivalent foundation datasets for manipulation and navigation. Anthropic, OpenAI, AWS, and Databricks are also featured participants, with over 10,000 attendees expected.",
+      "keyConcepts": ["physical AI", "robotics training data gap", "foundation models for robotics", "ChatGPT moment for hardware"],
+      "whyItMatters": "Identifying data infrastructure — not model architecture — as the primary bottleneck for physical AI shifts the focus of robotics research toward large-scale dataset creation and sim-to-real transfer, similar to how ImageNet transformed computer vision a decade ago.",
+      "tags": ["robotics", "physical-ai", "techcrunch-disrupt", "nvidia", "data-infrastructure", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to NVIDIA's Les Karpas at TechCrunch Disrupt 2026, what is the primary reason robots haven't had their 'ChatGPT moment'?",
+          "options": ["Insufficient GPU compute for training", "Lack of large-scale training data comparable to autonomous vehicles", "Regulatory restrictions on robot deployment", "High hardware costs preventing deployment at scale"],
+          "correctIndex": 1,
+          "explanation": "Karpas frames the data gap as the key blocker: autonomous driving systems were trained on millions of hours of road data, but robotic platforms lack an equivalent large-scale, diverse dataset for manipulation and navigation tasks."
+        },
+        {
+          "question": "Where and when does TechCrunch Disrupt 2026 take place?",
+          "options": ["New York City, November 1-3", "Austin, October 20-22", "San Francisco, October 13-15", "Las Vegas, September 25-27"],
+          "correctIndex": 2,
+          "explanation": "TechCrunch Disrupt 2026 runs October 13-15 at Moscone West in San Francisco, California."
         }
       ]
     }
