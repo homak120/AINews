@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-10-14T06:00:00.000Z",
+  "weekOf": "2026-10-12",
+  "coverageStart": "2026-10-13",
+  "coverageEnd": "2026-10-13",
+  "items": [
+    {
+      "id": "article-ray-ban-meta-audio-launch",
+      "type": "article",
+      "title": "Ray-Ban Meta Audio Glasses Begin Shipping — Camera-Free AI Wearable at $349",
+      "sourceUrl": "https://engadget.com/2267212/meta-announces-ray-ban-meta-audio-its-first-smart-glasses-without-a-camera",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-industry"],
+      "summary": "Meta's Ray-Ban Meta Audio glasses — its first smart glasses without a camera — began shipping on October 13 at $349. The 43-gram frames support calls, music, podcasts, and Meta AI voice access via a wake word, positioning Meta to address privacy concerns raised by camera-equipped smart glasses. Available in Clubmaster and Burbank styles across 23 color and lens combinations, the glasses promise up to 12 hours of battery life with an additional 48 hours from the charging case.",
+      "keyConcepts": [
+        "AI-powered wearables without camera hardware",
+        "Privacy-focused smart glasses design",
+        "Meta AI voice assistant integration",
+        "Consumer AI hardware distribution strategy"
+      ],
+      "whyItMatters": "The launch signals Meta's attempt to broaden the smart glasses market beyond privacy-wary consumers, potentially accelerating mainstream AI wearable adoption ahead of competitors. A camera-free tier at $349 could unlock new retail and enterprise channels where camera devices are restricted.",
+      "tags": ["meta", "ray-ban", "smart-glasses", "ai-wearables", "consumer-hardware", "voice-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What differentiates the Ray-Ban Meta Audio glasses from the standard Ray-Ban Meta Gen 3?",
+          "options": [
+            "They include a heads-up display instead of a camera",
+            "They have no camera but retain audio and AI voice features",
+            "They use a different AI model than Meta AI",
+            "They are designed exclusively for enterprise use"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Ray-Ban Meta Audio removes the camera entirely while keeping the audio capabilities (calls, music, podcasts) and Meta AI voice assistant, addressing privacy concerns raised by camera-equipped smart glasses."
+        },
+        {
+          "question": "At what price did Ray-Ban Meta Audio glasses launch in the US?",
+          "options": [
+            "$249",
+            "$449",
+            "$349",
+            "$299"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ray-Ban Meta Audio glasses launched at $349 in the US — notably cheaper than the camera-equipped Ray-Ban Meta Gen 3 which starts at $449, but slightly more than the older Gen 2 at $379."
+        }
+      ]
+    },
+    {
+      "id": "article-alibaba-qwen-glasses-n1-launch",
+      "type": "article",
+      "title": "Alibaba Launches Qwen Glasses N1 and Bose-Powered Qwen Clip AI Earbuds in China",
+      "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-agentic-computer-ai-wearables-and-more-at-2026-apsara-conference_603599",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Alibaba began selling its Qwen Glasses N1 and N1 Pro in China on October 13, following their unveiling at the 2026 Apsara Conference. The N1 Pro adds eye-tracking, object recognition, and iris-based payment to the base model. Simultaneously, Alibaba launched the Qwen Clip — open-ear AI earbuds co-developed with Bose at 2,999 yuan ($450) — offering translation, note-taking, and voice-driven tasks powered by the Qwen assistant.",
+      "keyConcepts": [
+        "Qwen AI assistant embedded in consumer hardware",
+        "Eye-tracking and iris recognition in smart glasses",
+        "AI-powered earbuds with real-time translation",
+        "China AI consumer hardware market competition"
+      ],
+      "whyItMatters": "Alibaba's hardware launch puts it in direct competition with Meta's Ray-Ban glasses on the same day — both companies are racing to establish AI assistants as ambient wearables. The Bose partnership shows Chinese AI firms securing Western hardware expertise to accelerate consumer product credibility globally.",
+      "tags": ["alibaba", "qwen", "smart-glasses", "ai-wearables", "earbuds", "china-ai"],
+      "relatedIds": ["article-ray-ban-meta-audio-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "What capability does the Qwen Glasses N1 Pro add over the base N1 model?",
+          "options": [
+            "A built-in camera for photo capture",
+            "Eye tracking, object recognition, and iris-based payment",
+            "A transparent heads-up display overlay",
+            "Cellular connectivity independent of a smartphone"
+          ],
+          "correctIndex": 1,
+          "explanation": "The N1 Pro model adds eye tracking for visual interaction, object recognition, and iris-based payment on top of the base N1's AI assistant features."
+        },
+        {
+          "question": "Which audio company co-developed the Qwen Clip AI earbuds with Alibaba?",
+          "options": [
+            "Sony",
+            "Jabra",
+            "Bose",
+            "Sennheiser"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alibaba co-engineered the Qwen Clip open-ear earbuds with Bose, integrating the Qwen AI assistant for translation, note-taking, and voice tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-youtube-ask-feature-mobile-rollout",
+      "type": "article",
+      "title": "YouTube Rolls Out AI-Powered 'Ask YouTube' to All Mobile Users in the US",
+      "sourceUrl": "https://9to5google.com/2026/10/13/ask-youtube-rolls-out-on-mobile",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google announced on October 13 that its Ask YouTube feature is now rolling out broadly to all Android and iOS users in the US, no longer restricted to YouTube Premium subscribers. Powered by Gemini, Ask YouTube lets viewers ask questions that go beyond the content of the specific video they're watching, with the AI drawing on broader knowledge. Over 140 million people had already used the feature in June 2026 alone.",
+      "keyConcepts": [
+        "Gemini AI integration in YouTube",
+        "Contextual video AI assistant",
+        "Free-tier AI feature expansion",
+        "Consumer AI product democratization"
+      ],
+      "whyItMatters": "Removing the Premium paywall from Ask YouTube signals Google's strategy of embedding Gemini throughout its consumer products to build AI engagement at scale. With 140 million monthly users already, a free-tier rollout could dramatically accelerate AI assistant habituation among mainstream audiences.",
+      "tags": ["youtube", "google", "gemini", "ai-assistant", "video-search", "consumer-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What AI model powers the Ask YouTube feature?",
+          "options": [
+            "GPT-6",
+            "Claude",
+            "Gemini",
+            "Llama 4"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ask YouTube is powered by Google's Gemini model, which allows it to answer questions that go beyond the specific video being watched, drawing on broader knowledge."
+        },
+        {
+          "question": "Before October 13, 2026, who could access Ask YouTube?",
+          "options": [
+            "All users globally",
+            "YouTube Premium subscribers only",
+            "US users on Android only",
+            "Creators and verified accounts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ask YouTube was previously limited to YouTube Premium subscribers before its broader rollout to all US users on Android and iOS on October 13, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-connect-2026-ai-wearables-strategy",
+      "type": "article",
+      "title": "Meta Connect 2026 Recap: AI Wearables Push Reaches Retail With October Launches",
+      "sourceUrl": "https://letsdatascience.com/news/meta-unveils-camera-free-ray-ban-meta-audio-glasses-at-conne-dbda6d5c",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Meta's September 2026 Connect event promised multiple October hardware launches, which are now landing on shelves. The Ray-Ban Meta Audio (launching October 13 at $349) is the first camera-free smart glasses with AI voice access. Meta also teased the Muse Charm — a small AI voice device with no confirmed price — and announced Muse AI is coming to Ray-Ban glasses in the coming months. The strategy marks Meta's clearest attempt yet to make AI ambient and always-present for consumers.",
+      "keyConcepts": [
+        "Ambient AI in consumer hardware",
+        "Meta's AI wearables product lineup",
+        "Muse AI assistant expansion to glasses",
+        "Privacy-first hardware design choices"
+      ],
+      "whyItMatters": "Meta is betting that AI voice assistants embedded in everyday wearables — not just phones or dedicated speakers — will be the dominant AI interface. The October launches convert September's announcements into real purchase decisions, a critical test of consumer appetite for ambient AI at scale.",
+      "tags": ["meta", "meta-connect", "ai-strategy", "wearables", "muse-ai", "ambient-ai"],
+      "relatedIds": ["article-ray-ban-meta-audio-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Muse Charm device announced at Meta Connect 2026?",
+          "options": [
+            "A new pair of AR glasses with a built-in display",
+            "A small AI voice device with no confirmed price or release date",
+            "A replacement for Meta Portal video calling devices",
+            "A wristband for health monitoring with AI coaching"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse Charm is a small AI voice device Meta teased at Connect 2026 with no confirmed price or firm release date, positioned as a companion to the broader Muse AI ecosystem."
+        },
+        {
+          "question": "Which of these best describes Meta's AI hardware strategy as of October 2026?",
+          "options": [
+            "Focus exclusively on enterprise AR headsets",
+            "Embed AI assistants across a range of consumer wearables at multiple price points",
+            "License AI technology to third-party hardware makers only",
+            "Compete solely with Apple Vision Pro in the premium XR market"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta is embedding its Muse AI across multiple form factors — camera-equipped glasses, camera-free audio glasses, a voice device, and future wearables — at different price points to capture broad consumer adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-alibaba-apsara-2026-agentic-computer",
+      "type": "article",
+      "title": "Alibaba Unveils 'Agentic Computer' and Full AI Wearables Suite at Apsara Conference 2026",
+      "sourceUrl": "https://technode.global/?p=993675",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "At the 2026 Apsara Conference, Alibaba showcased an 'agentic computer' concept alongside its new Qwen hardware lineup — glasses and earbuds powered by the Qwen AI assistant. The agentic computer, designed to run AI agents autonomously for extended tasks, represents Alibaba's vision for post-smartphone personal computing. Combined with the hardware launches, Alibaba is positioning Qwen as a platform across cloud, device, and agent layers.",
+      "keyConcepts": [
+        "Agentic computing architecture",
+        "AI assistant as cross-device platform",
+        "Post-smartphone personal computing paradigm",
+        "Qwen as unified AI platform across layers"
+      ],
+      "whyItMatters": "Alibaba's agentic computer concept joins a growing wave of AI-native computing form factors — distinct from cloud AI chatbots or smartphone assistants. If AI agents running on dedicated hardware gain traction in China, it could accelerate global demand for purpose-built AI compute at the consumer edge.",
+      "tags": ["alibaba", "qwen", "agentic-ai", "edge-computing", "ai-hardware", "china-ai"],
+      "relatedIds": ["article-alibaba-qwen-glasses-n1-launch"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key distinction of an 'agentic computer' as Alibaba envisions it?",
+          "options": [
+            "A computer that runs only on renewable energy",
+            "A device designed to run AI agents autonomously for extended tasks",
+            "A quantum computer optimized for LLM inference",
+            "A smartphone replacement with no traditional OS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alibaba's agentic computer is designed to run AI agents autonomously for extended periods, representing a shift toward purpose-built hardware for agentic AI rather than running agents on general-purpose devices."
+        },
+        {
+          "question": "Which AI platform powers the Alibaba agentic computer and wearables lineup?",
+          "options": [
+            "Llama",
+            "Claude",
+            "Qwen",
+            "Gemini"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alibaba's Qwen AI assistant powers the full hardware lineup — including the agentic computer concept, Qwen Glasses N1, and Qwen Clip earbuds — positioning Qwen as a unified AI platform across cloud, device, and agent layers."
+        }
+      ]
+    }
+  ]
+}
