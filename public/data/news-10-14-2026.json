@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T06:00:00.000Z",
+  "generatedAt": "2026-10-14T12:00:00.000Z",
   "weekOf": "2026-10-12",
   "coverageStart": "2026-10-13",
-  "coverageEnd": "2026-10-13",
+  "coverageEnd": "2026-10-14",
   "items": [
     {
       "id": "article-ray-ban-meta-audio-launch",
@@ -216,6 +216,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Alibaba's Qwen AI assistant powers the full hardware lineup — including the agentic computer concept, Qwen Glasses N1, and Qwen Clip earbuds — positioning Qwen as a unified AI platform across cloud, device, and agent layers."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-wonder-frontier-launch",
+      "type": "article",
+      "title": "Meta Releases Muse Wonder, Its First Frontier-Class AI Model",
+      "sourceUrl": "https://propakistani.pk/2026/10/13/meta-enters-ai-frontier-with-new-wonder-models/",
+      "verified": false,
+      "publishedAt": "2026-10-13",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full on October 12, its first frontier-class AI models. On the Artificial Analysis Intelligence Index, Muse Wonder scores 52 and Wonder Full scores 56, compared to Claude Opus 5.5 at 58. The standard Muse Wonder is available on Meta's Model API at $4 per million input tokens and $20 per million output tokens; Wonder Full is limited to Muse Code subscribers at $50–$200 per month.",
+      "keyConcepts": [
+        "Frontier AI model development and benchmarking",
+        "LLM API pricing tiers",
+        "Closed-weight frontier models and EU AI Act implications",
+        "Meta Superintelligence Lab research output"
+      ],
+      "whyItMatters": "Meta's move into the frontier model tier — after years of open-weight releases — signals direct competition with Anthropic, OpenAI, and Google at the capability frontier. The closed-weight decision and premium pricing mark a significant strategic shift for a company known for open-source AI.",
+      "tags": ["meta", "muse-wonder", "frontier-ai", "llm", "ai-benchmarks", "ai-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does Muse Wonder Full compare to Claude Opus 5.5 on the Artificial Analysis Intelligence Index?",
+          "options": [
+            "Muse Wonder Full scores higher at 62",
+            "Muse Wonder Full scores slightly lower at 56 vs Opus 5.5 at 58",
+            "They are exactly tied at 58",
+            "Muse Wonder Full scores significantly lower at 44"
+          ],
+          "correctIndex": 1,
+          "explanation": "On the Artificial Analysis Intelligence Index, Muse Wonder Full scores 56 and Muse Wonder scores 52, compared to Claude Opus 5.5 at 58 — placing Meta just below Anthropic's flagship at launch."
+        },
+        {
+          "question": "Which tier of Muse Wonder access requires a paid Muse Code subscription?",
+          "options": [
+            "The standard Muse Wonder via API",
+            "Muse Wonder Full, available at $50–$200/month subscription tiers",
+            "Both models are subscription-only",
+            "Neither — both are available free on Meta AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse Wonder Full is restricted to Muse Code subscribers (Power at $50/month or Maximum at $200/month), while standard Muse Wonder is available on Meta's Model API on a pay-per-token basis."
+        }
+      ]
+    },
+    {
+      "id": "article-tiktok-ceo-ai-science-breakthrough-2029",
+      "type": "article",
+      "title": "TikTok CEO Predicts AI Science Breakthrough by 2029 at Singapore Conference",
+      "sourceUrl": "https://meobserver.news/technology/2026/10/14/tiktok-ceo-predicts-an-ai-science-breakthrough-by-2029-can-the-world-keep-up/",
+      "verified": false,
+      "publishedAt": "2026-10-14",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "At a Singapore conference on October 12, TikTok CEO Shou Zi Chew predicted that AI will produce major breakthroughs in physics, chemistry, biotechnology, and materials science within two to three years. Chew framed AI-driven scientific discovery as the next transformative phase of the technology, following consumer AI product adoption. The prediction aligns with growing industry consensus that AI agents and reasoning systems are accelerating laboratory-scale discovery.",
+      "keyConcepts": [
+        "AI-accelerated scientific discovery timelines",
+        "Frontier AI applications in materials science and biotechnology",
+        "CEO-level AI predictions and industry signals",
+        "AI reasoning systems in research workflows"
+      ],
+      "whyItMatters": "When major tech CEOs publicly commit to near-term scientific AI breakthroughs, it shapes research investment, government policy, and university priorities globally. If AI delivers on these predictions in biology or materials science by 2029, it would compress decades of discovery into years — with profound implications for medicine and energy.",
+      "tags": ["tiktok", "ai-predictions", "ai-science", "biotechnology", "materials-science", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "In which domains did TikTok CEO Shou Zi Chew predict AI breakthroughs by 2029?",
+          "options": [
+            "Transportation, finance, education, and cybersecurity",
+            "Physics, chemistry, biotechnology, and materials science",
+            "Entertainment, gaming, social media, and advertising",
+            "Climate modeling, agriculture, logistics, and manufacturing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chew specifically cited physics, chemistry, biotechnology, and materials science as the domains where he expects AI to produce transformative breakthroughs within two to three years."
+        },
+        {
+          "question": "What is the significance of senior tech executives making specific AI timeline predictions publicly?",
+          "options": [
+            "They have no influence outside their own company's research",
+            "They shape research investment, government policy, and academic priorities globally",
+            "They only matter if backed by peer-reviewed research",
+            "They primarily affect stock prices but not actual research direction"
+          ],
+          "correctIndex": 1,
+          "explanation": "High-profile AI predictions from tech leaders influence where governments, universities, and investors allocate resources — creating self-reinforcing momentum toward the predicted outcomes when the predictions are credible and specific."
         }
       ]
     }
