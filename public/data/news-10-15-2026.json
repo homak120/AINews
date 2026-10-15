@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T03:10:00Z",
+  "generatedAt": "2026-10-15T09:45:00Z",
   "weekOf": "2026-10-12",
   "coverageStart": "2026-10-14",
-  "coverageEnd": "2026-10-14",
+  "coverageEnd": "2026-10-15",
   "items": [
     {
       "id": "article-fortune-openai-spy-oct14",
@@ -109,7 +109,7 @@
       ],
       "whyItMatters": "A self-replicating AI model that runs on ubiquitous cheap hardware and has no central shutdown mechanism would represent a fundamentally new kind of AI safety risk — one that operates outside the datacenter and beyond current containment frameworks.",
       "tags": ["anthropic", "ai-safety", "self-replication", "iot", "red-team", "small-models", "biosecurity-analogy"],
-      "relatedIds": [],
+      "relatedIds": ["article-techcrunch-rivian-ai-agents-oct15"],
       "knowledgeChecks": [
         {
           "question": "According to Anthropic's Frontier Red Team, what hardware did a 26B-parameter model run distributed inference across?",
@@ -132,6 +132,135 @@
           ],
           "correctIndex": 1,
           "explanation": "The key concern is the absence of a central control point: unlike a cloud-hosted model, a self-replicator spread across thousands of consumer devices could not be stopped by shutting down any single server, making it structurally similar to a botnet."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-rivian-ai-agents-oct15",
+      "type": "article",
+      "title": "AI Agents Are Coming to Rivian's Cars",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Rivian CEO RJ Scaringe announced at TechCrunch Disrupt 2026 that future Rivian vehicles will support third-party AI agents running inside the car, citing Anthropic as a potential partner. The company offered no firm timeline, pointing to a December event for specifics. The shift moves Rivian beyond its in-house assistant toward an open, agent-capable vehicle platform.",
+      "keyConcepts": [
+        "AI agents in vehicles",
+        "vehicle AI platforms",
+        "Anthropic integration",
+        "connected car AI"
+      ],
+      "whyItMatters": "Rivian's pivot to an open agent platform signals that automotive AI is moving from voice assistants to autonomous task execution — where a car can run agents that book restaurants, manage schedules, or control vehicle systems on command.",
+      "tags": ["rivian", "autonomous-vehicles", "ai-agents", "anthropic", "automotive-ai", "ev"],
+      "relatedIds": ["article-anthropic-self-replication-iot-oct14"],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI company did Rivian CEO RJ Scaringe name as a potential third-party agent partner for Rivian vehicles?",
+          "options": [
+            "OpenAI",
+            "Google DeepMind",
+            "Anthropic",
+            "Meta AI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Scaringe named Anthropic specifically when discussing third-party agent integrations at TechCrunch Disrupt 2026, though the company gave no firm timeline for when such integrations would arrive."
+        },
+        {
+          "question": "At which event did Rivian announce its plans for in-car AI agents?",
+          "options": [
+            "CES 2026",
+            "TechCrunch Disrupt 2026",
+            "Google I/O 2026",
+            "OpenAI DevDay 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rivian's CEO made the AI agent announcement at TechCrunch Disrupt 2026, which ran October 13-15, with further details promised at a separate December company event."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-amazon-bee-devices-oct15",
+      "type": "article",
+      "title": "Amazon's Bee Launches Two New Personal AI Devices Starting at $75",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-industry"],
+      "summary": "Bee, the personal AI hardware startup Amazon acquired, launched two new products: an updated AI-powered wearable and a smartphone-attached audio recorder, both starting at $75. It marks the first major hardware release under Amazon's ownership since the acquisition. The devices are designed to capture ambient audio and convert it into summaries, reminders, and actionable items throughout the day.",
+      "keyConcepts": [
+        "personal AI wearables",
+        "AI audio processing",
+        "ambient computing",
+        "consumer AI hardware"
+      ],
+      "whyItMatters": "The launch confirms Amazon's strategy to extend its AI ecosystem through acqui-hires and new form factors, with wearable AI shifting away from phone-dependent assistants toward standalone ambient capture devices at accessible price points.",
+      "tags": ["amazon", "bee", "personal-ai", "wearable", "consumer-hardware", "ambient-computing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the starting price for Amazon Bee's new personal AI devices launched in October 2026?",
+          "options": [
+            "$25",
+            "$50",
+            "$75",
+            "$150"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon's Bee launched two new personal AI devices — a wearable and a smartphone-attached recorder — with pricing starting at $75, making them relatively accessible in the consumer AI hardware market."
+        },
+        {
+          "question": "What is the primary function of the new Amazon Bee AI devices?",
+          "options": [
+            "Real-time language translation",
+            "Capturing and processing ambient audio into summaries and action items",
+            "Computer vision and object recognition",
+            "Smart home control and automation"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Bee devices are designed as ambient computing tools that continuously capture audio and use AI to generate summaries, reminders, and actionable items from conversations and daily activities."
+        }
+      ]
+    },
+    {
+      "id": "article-venturebeat-flux3-klein-weights-oct15",
+      "type": "article",
+      "title": "Black Forest Labs Opens FLUX 3 Image Klein Weights With Restricted Commercial Licensing",
+      "sourceUrl": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Black Forest Labs released open weights for FLUX 3 Image Klein, a 5.6-billion-parameter text-to-image model, with free commercial use restricted to smaller businesses. Larger enterprises must purchase a paid license to deploy the model commercially. The move continues the lab's tiered open-sourcing strategy, keeping high-throughput enterprise use behind a paywall while enabling community research and smaller-scale deployment.",
+      "keyConcepts": [
+        "text-to-image generation",
+        "open weights",
+        "commercial licensing tiers",
+        "diffusion models"
+      ],
+      "whyItMatters": "FLUX 3 Image Klein sets a new efficiency benchmark for compact, self-hostable image generation models, and its tiered licensing is a signal that leading AI labs are attempting to balance open community access against enterprise revenue — a model that may define how the next wave of open-weight releases are structured.",
+      "tags": ["black-forest-labs", "flux", "text-to-image", "open-weights", "image-generation", "licensing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does FLUX 3 Image Klein have?",
+          "options": [
+            "1.3 billion",
+            "5.6 billion",
+            "12 billion",
+            "32 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "FLUX 3 Image Klein is a 5.6-billion-parameter text-to-image model, positioning it as a compact but powerful option for self-hosted image generation deployments."
+        },
+        {
+          "question": "Under FLUX 3 Image Klein's licensing terms, who can use the model commercially for free?",
+          "options": [
+            "Anyone, with no restrictions",
+            "Only academic and research institutions",
+            "Smaller businesses, with larger enterprises requiring a paid license",
+            "Only Black Forest Labs employees"
+          ],
+          "correctIndex": 2,
+          "explanation": "Black Forest Labs adopted a tiered commercial licensing approach where free commercial use is available for smaller businesses, while larger enterprises must pay for a license — allowing community access while protecting enterprise revenue streams."
         }
       ]
     }
