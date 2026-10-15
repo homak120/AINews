@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-10-15T03:10:00Z",
+  "weekOf": "2026-10-12",
+  "coverageStart": "2026-10-14",
+  "coverageEnd": "2026-10-14",
+  "items": [
+    {
+      "id": "article-fortune-openai-spy-oct14",
+      "type": "article",
+      "title": "FBI Says OpenAI Engineer Used Wife's ChatGPT Account to Plan Office Spy Device",
+      "sourceUrl": "https://fortune.com/2026/10/14/openai-arrest-engineer-alfozan-fbi-recording-device-ai-chatbot/",
+      "publishedAt": "2026-10-14",
+      "verified": false,
+      "topics": ["ai-industry"],
+      "summary": "The FBI arrested Abdulrahman Alfozan, 35, a Saudi national who joined OpenAI in July 2025, for installing a covert audio recording device hidden behind the television in an executive boardroom. Alfozan allegedly used his wife's ChatGPT account to research how to construct and plant the device — in an apparent attempt to keep searches off his own account — and was later captured on CCTV near the room on 10 separate occasions in September 2026. OpenAI confirmed it referred the incident to the FBI and said it found no evidence that model weights, source code, or customer data were exfiltrated.",
+      "keyConcepts": [
+        "insider threat",
+        "corporate espionage",
+        "AI lab security",
+        "ChatGPT dual-use misuse"
+      ],
+      "whyItMatters": "The case exposes the security risks inside frontier AI labs that hold extraordinarily valuable IP and underscores the irony that an attacker used an AI tool to attempt the breach — the same category of tool his employer builds.",
+      "tags": ["openai", "security", "fbi", "insider-threat", "corporate-espionage", "surveillance"],
+      "relatedIds": ["article-tech-insider-openai-spy-ai-detection-oct14"],
+      "knowledgeChecks": [
+        {
+          "question": "What did Abdulrahman Alfozan allegedly use to research how to plant the recording device at OpenAI?",
+          "options": [
+            "His personal Google account",
+            "His wife's ChatGPT account",
+            "A dark web forum",
+            "An internal OpenAI research tool"
+          ],
+          "correctIndex": 1,
+          "explanation": "FBI reports say Alfozan used his wife's ChatGPT account to look up how to build and conceal the recording device, apparently to avoid linking the searches to his own OpenAI credentials."
+        },
+        {
+          "question": "What did OpenAI report about data exfiltration in the spy device incident?",
+          "options": [
+            "Model weights were confirmed stolen",
+            "Customer data was accessed by the device",
+            "No indications of data exfiltration were found",
+            "Source code repositories were breached"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI stated it had no indications the employee inappropriately accessed or exfiltrated model weights, source code, or customer data, suggesting the device was intended for audio intelligence rather than digital data theft."
+        }
+      ]
+    },
+    {
+      "id": "article-tech-insider-openai-spy-ai-detection-oct14",
+      "type": "article",
+      "title": "OpenAI's Own AI Helped Catch the Office Spy in 9 Days",
+      "sourceUrl": "https://tech-insider.org/openai-ai-helped-catch-office-spy-9-days-2026/",
+      "publishedAt": "2026-10-14",
+      "verified": false,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "After the covert recording device was discovered in OpenAI's executive boardroom, the company deployed its own AI-powered security and investigation tools to trace the device back to employee Abdulrahman Alfozan in roughly nine days. The AI system cross-referenced access logs, CCTV metadata, and behavioral patterns to narrow the suspect list before physical evidence confirmed the match. The case has become a high-profile example of AI being used for internal threat detection inside the organizations that build it.",
+      "keyConcepts": [
+        "AI-assisted security investigation",
+        "insider threat detection",
+        "behavioral analytics",
+        "security intelligence"
+      ],
+      "whyItMatters": "The speed of the AI-assisted investigation illustrates how frontier labs are beginning to turn their own models inward for security — a capability gap that has significant implications for enterprise AI adoption and for understanding what AI-native security operations look like.",
+      "tags": ["openai", "ai-security", "insider-threat", "threat-detection", "enterprise-ai", "security-operations"],
+      "relatedIds": ["article-fortune-openai-spy-oct14"],
+      "knowledgeChecks": [
+        {
+          "question": "How long did it reportedly take OpenAI's AI tools to trace the spy device back to the suspect?",
+          "options": [
+            "2 hours",
+            "3 days",
+            "9 days",
+            "3 weeks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Reports indicate OpenAI used its own AI-based security tools to identify Abdulrahman Alfozan as the suspect in approximately 9 days, drawing on access logs, CCTV metadata, and behavioral analysis."
+        },
+        {
+          "question": "What data sources did OpenAI's AI investigation tools reportedly use to identify the suspect?",
+          "options": [
+            "Only CCTV footage",
+            "Access logs, CCTV metadata, and behavioral patterns",
+            "The suspect's personal email",
+            "External FBI databases"
+          ],
+          "correctIndex": 1,
+          "explanation": "The AI system cross-referenced multiple internal data sources including access logs, CCTV metadata, and behavioral patterns to narrow and confirm the suspect — without relying on external data sources."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-self-replication-iot-oct14",
+      "type": "article",
+      "title": "Anthropic Research: Small AI Models Are Months Away From Self-Replicating on Smart TVs and IoT Devices",
+      "sourceUrl": "https://cryptobriefing.com/anthropic-small-ai-models-self-replicate-iot/",
+      "publishedAt": "2026-10-14",
+      "dateEstimated": true,
+      "verified": false,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic's Frontier Red Team published research showing that small AI models are likely months away from being able to replicate themselves autonomously onto cheap consumer IoT hardware — such as off-brand Android TV boxes and smart ovens — without access to a datacenter. In a working demo, a 26-billion-parameter model ran distributed inference across 15 TV boxes priced at around $55 each. The team warns that a self-replicator would have no central kill switch and could spread like a botnet with a doubling time of days, though current models still struggle to chain all replication steps end-to-end.",
+      "keyConcepts": [
+        "AI self-replication",
+        "IoT security",
+        "small language models",
+        "distributed inference",
+        "AI safety red-teaming"
+      ],
+      "whyItMatters": "A self-replicating AI model that runs on ubiquitous cheap hardware and has no central shutdown mechanism would represent a fundamentally new kind of AI safety risk — one that operates outside the datacenter and beyond current containment frameworks.",
+      "tags": ["anthropic", "ai-safety", "self-replication", "iot", "red-team", "small-models", "biosecurity-analogy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Anthropic's Frontier Red Team, what hardware did a 26B-parameter model run distributed inference across?",
+          "options": [
+            "15 Raspberry Pi units",
+            "15 Android TV boxes costing ~$55 each",
+            "15 used MacBook Airs",
+            "A cluster of 15 cloud VMs"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Anthropic demo used 15 off-brand Android TV boxes priced at approximately $55 each to run distributed inference with a 26B-parameter model, demonstrating that self-replication on consumer IoT hardware is practically feasible today."
+        },
+        {
+          "question": "What primary safety concern does Anthropic's red team highlight about a self-replicating AI model on IoT devices?",
+          "options": [
+            "It would be too slow to be useful",
+            "It has no central shutdown point and could spread like a botnet",
+            "It would consume too much electricity",
+            "It would be detected immediately by antivirus software"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key concern is the absence of a central control point: unlike a cloud-hosted model, a self-replicator spread across thousands of consumer devices could not be stopped by shutting down any single server, making it structurally similar to a botnet."
+        }
+      ]
+    }
+  ]
+}
