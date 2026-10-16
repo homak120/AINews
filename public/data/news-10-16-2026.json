@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T08:00:00Z",
+  "generatedAt": "2026-10-16T14:00:00Z",
   "weekOf": "2026-10-12",
   "coverageStart": "2026-10-15",
-  "coverageEnd": "2026-10-15",
+  "coverageEnd": "2026-10-16",
   "items": [
     {
       "id": "article-techcrunch-meta-muse-spark-open-oct15",
@@ -173,6 +173,49 @@
           ],
           "correctIndex": 2,
           "explanation": "By embedding AI creation tools directly into its platform, Bluesky is differentiating itself from competitors through an AI-native approach to social media, attracting creators and developers who want to build interactive experiences rather than just post text."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-replit-self-driving-company-oct16",
+      "type": "article",
+      "title": "Replit's CEO says the future of work is the 'self-driving company'",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "publishedAt": "2026-10-16",
+      "verified": false,
+      "topics": ["ai-career", "ai-engineering"],
+      "summary": "Replit CEO Amjad Masad, speaking at TechCrunch Disrupt 2026 in San Francisco, described a coming era of 'self-driving companies' where AI agents handle the majority of routine work while humans focus on higher-level decisions and direction. Replit has been internally applying this model, reporting that its engineers nearly tripled code output over six months and support teams resolved complex tickets 60% faster. Masad argues the CEO's routing and task-coordination role is itself a candidate for automation.",
+      "keyConcepts": [
+        "AI-augmented workforce",
+        "agentic automation at scale",
+        "human-AI work division",
+        "future of software development"
+      ],
+      "whyItMatters": "Replit's concrete productivity numbers — not projections — make the 'self-driving company' thesis tangible for engineering and operations leaders deciding how to structure teams. The shift Masad describes would fundamentally change how companies hire, manage, and evaluate knowledge workers.",
+      "tags": ["replit", "ai-agents", "future-of-work", "amjad-masad", "ai-productivity", "agentic-automation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Amjad Masad mean by a 'self-driving company'?",
+          "options": [
+            "A company that manufactures autonomous vehicles",
+            "A company where AI agents handle routine tasks while humans focus on strategic decisions",
+            "A company that operates without any human employees",
+            "A company that uses AI exclusively for customer service"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masad uses 'self-driving company' to describe an organization where AI agents autonomously handle the majority of routine and operational work, freeing humans to focus on higher-level judgment and direction — analogous to how self-driving cars handle low-level driving while a human can intervene when needed."
+        },
+        {
+          "question": "What productivity outcome did Replit report from applying its own 'self-driving company' model internally?",
+          "options": [
+            "Revenue doubled in one quarter",
+            "Headcount was reduced by 50%",
+            "Engineers nearly tripled their code output over six months",
+            "Customer acquisition costs fell by 80%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Replit reported that its own engineers nearly tripled the code each person ships over a six-month period after applying AI-agent-driven workflows — a concrete internal datapoint Masad cited to support the 'self-driving company' model."
         }
       ]
     }
