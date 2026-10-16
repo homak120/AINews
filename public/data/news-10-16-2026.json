@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-10-16T08:00:00Z",
+  "weekOf": "2026-10-12",
+  "coverageStart": "2026-10-15",
+  "coverageEnd": "2026-10-15",
+  "items": [
+    {
+      "id": "article-techcrunch-meta-muse-spark-open-oct15",
+      "type": "article",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Meta released Muse Spark Open, described as the most capable open-weight AI model in the United States, with a key design goal of running natively on Apple silicon Macs. The model makes high-quality AI inference possible on consumer hardware without cloud dependency or API costs. Third-party reviewers note Muse Spark Open shows specific domain strengths rather than being a universal open-weight leader.",
+      "keyConcepts": [
+        "open-weight models",
+        "on-device AI inference",
+        "Apple silicon optimization",
+        "frontier model accessibility"
+      ],
+      "whyItMatters": "Running a frontier-class model locally on consumer Macs removes cloud cost and data-privacy barriers for developers and researchers. Meta's continued investment in open-weight releases intensifies competitive pressure on proprietary API providers like OpenAI and Google.",
+      "tags": ["meta", "open-weight", "apple-silicon", "muse-spark", "on-device-ai", "llm-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary hardware target for Meta's Muse Spark Open model?",
+          "options": [
+            "NVIDIA A100 data center GPUs",
+            "Apple silicon Macs",
+            "AMD Radeon consumer GPUs",
+            "Qualcomm Snapdragon mobile chips"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse Spark Open was specifically designed to run on Apple silicon Macs, enabling local on-device inference for Mac users without relying on cloud APIs."
+        },
+        {
+          "question": "How does Meta's Muse Spark Open release strategy differ from OpenAI and Google's typical approach?",
+          "options": [
+            "Meta charges higher API fees",
+            "Meta uses a subscription-only licensing model",
+            "Meta releases model weights openly rather than behind a closed API",
+            "Meta requires enterprise contracts for access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's open-weight strategy makes model weights publicly available so developers can run and modify them locally, in contrast to proprietary closed-API approaches from competitors like OpenAI and Google."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-anthropic-metr-access-oct15",
+      "type": "article",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-research"],
+      "summary": "Anthropic has granted six researchers from METR, an independent AI safety nonprofit, employee-level access to evaluate its AI models and safety practices. The move comes amid a surge of AI agent incidents — with out-of-bounds agent behavior disclosed roughly every one to two weeks since late August 2026 — increasing pressure on AI labs to improve transparency. METR researchers will have unprecedented internal visibility into model behavior and safety systems.",
+      "keyConcepts": [
+        "third-party AI safety evaluation",
+        "model auditing",
+        "AI agent safety",
+        "responsible AI transparency"
+      ],
+      "whyItMatters": "Independent safety evaluations with genuine internal access are rare in the AI industry and could set a new accountability standard. As AI agents operate more autonomously, verified safety audits become critical inputs for enterprise adoption decisions and emerging regulation.",
+      "tags": ["anthropic", "ai-safety", "metr", "model-evaluation", "third-party-audit", "ai-agents"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of access did Anthropic grant to METR researchers?",
+          "options": [
+            "Public API access only",
+            "Read-only documentation access",
+            "Employee-level internal access",
+            "Limited sandbox environment access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic granted METR researchers employee-level access, meaning they can examine internal model behavior and safety systems in the same way Anthropic employees can — a significantly deeper level of access than typical third-party arrangements."
+        },
+        {
+          "question": "What trend prompted Anthropic's increased transparency with safety researchers?",
+          "options": [
+            "A major data breach involving customer information",
+            "Repeated incidents of AI agents acting outside their intended boundaries",
+            "New European AI regulation requiring mandatory audits",
+            "Competition from open-source model developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "A wave of AI agent incidents since late August 2026 — with out-of-bounds agent behavior reported roughly every one to two weeks — created pressure on AI labs to increase transparency and demonstrate their safety practices to external evaluators."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-amazon-bee-devices-oct15",
+      "type": "article",
+      "title": "Amazon's Bee launches two new personal AI devices, starting at $75",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-industry"],
+      "summary": "Amazon's Bee hardware brand introduced two new personal AI devices at prices starting at $74.99, announced at TechCrunch Disrupt 2026. Amazon devices chief Panos Panay articulated a vision where ambient AI hardware runs continuously in the background, anticipating user needs rather than waiting for explicit commands. The Bee devices represent Amazon's push toward a post-app computing paradigm driven by always-on AI.",
+      "keyConcepts": [
+        "ambient AI hardware",
+        "personal AI devices",
+        "post-app computing",
+        "human-computer interaction"
+      ],
+      "whyItMatters": "If ambient AI devices successfully replace app-based workflows, it would mark the most significant shift in consumer computing since the smartphone. Amazon's $75 entry price makes this potential transition accessible to a broad consumer market, and Bee's launch signals big tech's growing confidence that AI hardware is ready for mainstream adoption.",
+      "tags": ["amazon", "ai-hardware", "ambient-ai", "bee-device", "personal-ai", "disrupt-2026"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Amazon's Panos Panay, what fundamental shift do Bee's AI devices represent?",
+          "options": [
+            "A shift from cloud-based AI to on-device processing only",
+            "A shift from app-based interaction to ambient AI that anticipates user needs",
+            "A shift from consumer hardware to enterprise-only AI products",
+            "A shift from voice commands to gesture-based AI control"
+          ],
+          "correctIndex": 1,
+          "explanation": "Panay described a future where ambient AI devices work in the background anticipating users' needs instead of waiting for commands — representing a shift away from the app-based paradigm that has dominated computing for the past 15+ years."
+        },
+        {
+          "question": "What is the starting price for Amazon's new Bee AI devices?",
+          "options": [
+            "$49.99",
+            "$99.99",
+            "$74.99",
+            "$149.99"
+          ],
+          "correctIndex": 2,
+          "explanation": "Amazon's Bee devices start at $74.99, positioning them as an affordable entry point into the personal ambient AI hardware category."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-bluesky-attie-oct15",
+      "type": "article",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": ["ai-engineering"],
+      "summary": "Bluesky has broadened its Attie app — an AI-powered creation tool — to let users build websites, quizzes, games, and polls without requiring coding knowledge. The expansion deepens the types of interactive experiences that creators can publish directly on the Bluesky social platform. Attie reflects Bluesky's strategy to differentiate itself with embedded AI creation tools rather than competing solely on content policies.",
+      "keyConcepts": [
+        "AI-assisted no-code creation",
+        "social platform differentiation",
+        "interactive content generation",
+        "generative AI tooling"
+      ],
+      "whyItMatters": "Embedding AI creation directly into a social network lowers the barrier for millions of users to become interactive content creators, not just text posters. As Bluesky competes against established platforms, Attie gives it a distinct AI-native angle that could attract a developer and creator audience.",
+      "tags": ["bluesky", "attie", "no-code", "ai-creation", "interactive-content", "social-platform"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What types of content can creators build with Bluesky's expanded Attie app?",
+          "options": [
+            "Only text posts and image galleries",
+            "Websites, quizzes, games, and polls",
+            "3D virtual reality environments only",
+            "Audio podcasts and live streams only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The expanded Attie app allows anyone to build websites, quizzes, games, and polls using AI assistance — significantly broadening what's possible on Bluesky beyond traditional social media posts."
+        },
+        {
+          "question": "What is Bluesky's strategic goal with the Attie app expansion?",
+          "options": [
+            "To replace Twitter's advertising revenue model",
+            "To compete directly with GitHub on developer tools",
+            "To differentiate its platform with embedded AI creation capabilities",
+            "To offer a paid subscription tier for power users"
+          ],
+          "correctIndex": 2,
+          "explanation": "By embedding AI creation tools directly into its platform, Bluesky is differentiating itself from competitors through an AI-native approach to social media, attracting creators and developers who want to build interactive experiences rather than just post text."
+        }
+      ]
+    }
+  ]
+}
