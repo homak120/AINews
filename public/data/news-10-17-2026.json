@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T07:00:00.000Z",
+  "generatedAt": "2026-10-17T14:00:00.000Z",
   "weekOf": "2026-10-13",
   "coverageStart": "2026-10-15",
-  "coverageEnd": "2026-10-16",
+  "coverageEnd": "2026-10-17",
   "items": [
     {
       "id": "article-ftc-openai-anthropic-demands-oct16",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "Legal demands from the FTC represent a shift from voluntary AI safety commitments to compelled disclosure, potentially reshaping how AI companies handle incidents and communicate risks to users. The inclusion of safety evaluator METR signals that the regulatory net extends beyond just lab operators.",
       "tags": ["ftc", "regulation", "openai", "anthropic", "ai-safety", "consumer-protection"],
-      "relatedIds": [],
+      "relatedIds": ["article-white-house-ai-task-force-charter-oct16"],
       "knowledgeChecks": [
         {
           "question": "What legal instrument did the FTC issue to OpenAI, Anthropic, and METR?",
@@ -173,6 +173,135 @@
           ],
           "correctIndex": 2,
           "explanation": "National Intelligence Director Jay Clayton leads the task force. Other members include FTC Chairman Andrew Ferguson, Pentagon CTO Emil Michael, and OPM Director Scott Kupor, reflecting the cross-agency scope of the mandate."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-nova-scotia-datacenter-oct17",
+      "type": "article",
+      "title": "Anthropic Signs 20-Year Lease for First Canadian Data Center in Nova Scotia",
+      "sourceUrl": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-october-17-2026/",
+      "verified": false,
+      "publishedAt": "2026-10-17",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic signed a 20-year lease with EverWind Fuels for capacity at a planned campus in Point Tupper, Nova Scotia, marking the company's first data center footprint in Canada. EverWind announced plans to invest more than C$10 billion in the facility, which is expected to run on green hydrogen and wind power. The deal comes as Anthropic prepares for its November IPO and continues aggressive infrastructure expansion ahead of projected demand growth.",
+      "keyConcepts": [
+        "AI Data Center Infrastructure",
+        "Green Energy for AI",
+        "International Expansion",
+        "Long-Term Infrastructure Leases"
+      ],
+      "whyItMatters": "A 20-year commitment signals Anthropic's confidence in sustained demand for frontier AI compute well beyond near-term model cycles. Anchoring capacity in a renewable-energy-rich region also addresses the growing pressure on AI companies to show credible paths to sustainable operations.",
+      "tags": ["anthropic", "data-center", "canada", "green-energy", "infrastructure", "ipo"],
+      "relatedIds": ["article-anthropic-ipo-q3-revenue-oct16"],
+      "knowledgeChecks": [
+        {
+          "question": "Where is Anthropic's first Canadian data center planned to be located?",
+          "options": [
+            "Toronto, Ontario",
+            "Vancouver, British Columbia",
+            "Point Tupper, Nova Scotia",
+            "Calgary, Alberta"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic signed a lease with EverWind Fuels for capacity at a planned campus in Point Tupper, Nova Scotia—a coastal industrial site that EverWind is developing for green hydrogen and wind power generation."
+        },
+        {
+          "question": "How long is the lease Anthropic signed with EverWind Fuels?",
+          "options": [
+            "5 years",
+            "10 years",
+            "15 years",
+            "20 years"
+          ],
+          "correctIndex": 3,
+          "explanation": "Anthropic signed a 20-year lease, signaling a long-term commitment to Canadian data center capacity and confidence in sustained compute demand well beyond the current model generation."
+        }
+      ]
+    },
+    {
+      "id": "article-india-certin-ai-agents-security-oct17",
+      "type": "article",
+      "title": "India's CERT-In Investigates AI Agents That Accessed Live Business Systems During Testing",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-17",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "India's Computer Emergency Response Team (CERT-In) opened an investigation after reports emerged that AI agents deployed for research and testing at Indian organizations had accessed live production systems and read confidential business records. The incidents highlight the risk of insufficient sandboxing when agentic AI systems are given broad tool access during evaluation phases. CERT-In is working with affected organizations to assess the scope of data exposure.",
+      "keyConcepts": [
+        "AI Agent Security",
+        "Sandboxing and Isolation",
+        "Agentic System Risk",
+        "Incident Response"
+      ],
+      "whyItMatters": "As AI agents gain broader tool-calling capabilities, the gap between a 'test' environment and live production data becomes a critical security boundary. This incident illustrates that insufficient access controls during agent evaluation can cause real-world data exposure even without malicious intent.",
+      "tags": ["ai-agents", "security", "india", "cert-in", "data-exposure", "agentic-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What security issue did CERT-In investigate regarding AI agents in India?",
+          "options": [
+            "AI models leaking training data through API responses",
+            "AI agents accessing live production systems during testing",
+            "Malware embedded in open-source AI model weights",
+            "Prompt injection attacks on chatbot interfaces"
+          ],
+          "correctIndex": 1,
+          "explanation": "CERT-In investigated incidents where AI agents deployed for research and testing—not production use—accessed live business systems and read confidential records. The root cause appears to be insufficient sandboxing and overly broad tool permissions granted during evaluation."
+        },
+        {
+          "question": "What is the primary technical safeguard that could have prevented the CERT-In incidents?",
+          "options": [
+            "Using smaller, less capable AI models",
+            "Disabling internet access for AI systems",
+            "Proper sandboxing and access isolation for agentic systems",
+            "Requiring human approval for every AI output"
+          ],
+          "correctIndex": 2,
+          "explanation": "Proper sandboxing—isolating the agent's tool access to non-production environments—would have prevented the agents from reaching live systems. Sandboxing and least-privilege access are fundamental security controls for agentic AI deployments."
+        }
+      ]
+    },
+    {
+      "id": "article-trump-ai-summit-washington-oct17",
+      "type": "article",
+      "title": "Trump Hosts Washington AI Summit with Major Lab CEOs Amid Chip Policy Talks",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-17",
+      "topics": ["ai-industry"],
+      "summary": "President Trump hosted leading AI company executives at a White House summit on October 17, with discussions centering on US competitiveness, compute export controls, and the Broadcom-arranged $60 billion chip financing package for frontier AI development. The summit coincided with ongoing talks about chip allocation rules designed to keep advanced GPU exports out of adversary nations. Industry leaders reportedly pushed for streamlined permitting for new data center construction alongside the regulatory discussions.",
+      "keyConcepts": [
+        "AI Industrial Policy",
+        "Compute Export Controls",
+        "US AI Competitiveness",
+        "Government-Industry Relations"
+      ],
+      "whyItMatters": "High-level White House summits on AI signal that compute access and export policy have become the primary levers of US AI strategy, moving from content regulation toward infrastructure geopolitics. The alignment—or tension—between government timelines and industry investment cycles will shape how quickly US labs can scale.",
+      "tags": ["us-policy", "white-house", "trump", "ai-summit", "export-controls", "compute"],
+      "relatedIds": ["article-white-house-ai-task-force-charter-oct16"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary policy focus of the October 17 White House AI summit?",
+          "options": [
+            "AI content moderation and deepfake legislation",
+            "US competitiveness, compute export controls, and chip financing",
+            "AI liability frameworks for product safety",
+            "Federal employee reskilling programs for AI adoption"
+          ],
+          "correctIndex": 1,
+          "explanation": "The summit focused on US competitiveness and the infrastructure layer of AI: chip export controls to limit adversary access to advanced GPUs, and the Broadcom-arranged $60 billion chip financing package, rather than content or consumer-facing AI policy."
+        },
+        {
+          "question": "What major financing arrangement was a key topic at the summit?",
+          "options": [
+            "A $10 billion SBA loan program for AI startups",
+            "A $60 billion Broadcom-arranged chip financing package",
+            "A $200 billion CHIPS Act extension",
+            "A $30 billion sovereign wealth fund for AI infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "The $60 billion Broadcom-arranged chip financing package—with Anthropic reportedly offering Blackstone yields above 10% to anchor part of it—was central to summit discussions, representing the largest private capital mobilization for AI compute infrastructure to date."
         }
       ]
     }
