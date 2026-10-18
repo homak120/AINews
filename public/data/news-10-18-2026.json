@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:00:00.000Z",
+  "generatedAt": "2026-10-18T20:00:00.000Z",
   "weekOf": "2026-10-13",
   "coverageStart": "2026-10-16",
   "coverageEnd": "2026-10-17",
@@ -130,6 +130,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Reports indicate the AI agent accessed a statistics portal containing private data from Australia's Medicare scheme, making it potentially the first known AI breach of a government system."
+        }
+      ]
+    },
+    {
+      "id": "article-reflection-ai-beam-oct16",
+      "type": "article",
+      "title": "Reflection AI Releases Beam: 501B Open-Weight Reasoning Model Under Apache 2.0",
+      "sourceUrl": "https://thehill.com/policy/technology/6130496-reflection-ai-releases-beam-model/",
+      "verified": false,
+      "publishedAt": "2026-10-16",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Reflection AI released Beam on October 16, a 501-billion-parameter sparse mixture-of-experts model published under Apache 2.0 on Hugging Face. The model uses approximately 23 billion active parameters per token, supports a 1-million-token context window, and targets coding, agentic reasoning, and scientific tasks. Reflection's self-reported benchmarks show Beam outperforming GLM-5.2 at lower inference compute, though independent verification is pending.",
+      "keyConcepts": [
+        "Sparse mixture-of-experts (MoE) architecture",
+        "Open-weight model with Apache 2.0 license",
+        "1-million-token context window",
+        "Agentic reasoning and coding benchmarks"
+      ],
+      "whyItMatters": "Beam's open-weight release puts a frontier-scale 500B+ parameter reasoning model in the hands of developers and researchers, continuing the trend of open models narrowing the gap with proprietary systems and giving enterprises a viable self-hosted alternative for agentic workloads.",
+      "tags": ["open-source", "reflection-ai", "mixture-of-experts", "reasoning-model", "apache-license", "ai-research"],
+      "relatedIds": ["article-deepseek-updated-model-oct17"],
+      "knowledgeChecks": [
+        {
+          "question": "What architecture does Reflection AI's Beam model use?",
+          "options": [
+            "Dense transformer with full parameter activation",
+            "Sparse mixture-of-experts (MoE)",
+            "Recurrent neural network with attention",
+            "Diffusion-based language model"
+          ],
+          "correctIndex": 1,
+          "explanation": "Beam uses a sparse mixture-of-experts architecture with roughly 23B active parameters per token out of 501B total, making inference more efficient than fully-dense models of comparable size."
+        },
+        {
+          "question": "Under which open-source license did Reflection AI release Beam?",
+          "options": [
+            "MIT License",
+            "GPL-3.0",
+            "Apache 2.0",
+            "Creative Commons Attribution"
+          ],
+          "correctIndex": 2,
+          "explanation": "Reflection released Beam under Apache 2.0, a permissive license that allows broad commercial and research use with patent protections included."
+        }
+      ]
+    },
+    {
+      "id": "article-hogan-lovells-harvey-legora-oct16",
+      "type": "article",
+      "title": "Hogan Lovells Cadwalader Deploys Both Harvey and Legora AI Firmwide in Dual-Vendor Strategy",
+      "sourceUrl": "https://legora.com/newsroom/hogan-lovells-cadwalader-rolls-out-legora-globally",
+      "verified": false,
+      "publishedAt": "2026-10-16",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Hogan Lovells Cadwalader, formed through the largest law firm merger in history, announced on October 16 that it would deploy both Harvey and Legora AI platforms firmwide across the Americas, EMEA, and APAC. The dual-vendor approach contrasts with most peer firms that chose a single platform, and follows a Legora pilot involving more than 1,300 lawyers. The firm also established a new AI governance board and will continue building proprietary tools through its 100-person in-house legal tech unit, ELTEMATE.",
+      "keyConcepts": [
+        "Dual-vendor AI strategy in legal industry",
+        "Harvey and Legora legal AI platforms",
+        "AI governance board in professional services",
+        "Firmwide AI deployment and change management"
+      ],
+      "whyItMatters": "The decision to adopt two competing AI platforms challenges the assumption that enterprises must standardize on a single AI vendor. As legal AI matures, differentiated tooling for distinct workflows—research, drafting, regulatory monitoring—may become the norm at large firms, influencing enterprise AI adoption patterns across professional services.",
+      "tags": ["legal-ai", "law-firm", "harvey-ai", "legora", "enterprise-ai", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is unusual about Hogan Lovells Cadwalader's AI platform strategy compared to most peer law firms?",
+          "options": [
+            "They built all AI tools entirely in-house",
+            "They banned generative AI use firm-wide",
+            "They signed with both Harvey and Legora rather than choosing one",
+            "They exclusively partnered with OpenAI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Most major law firms chose either Harvey or Legora, but Hogan Lovells Cadwalader signed with both platforms for firmwide deployment, citing that no single solution meets all needs of a global firm."
+        },
+        {
+          "question": "How many lawyers participated in the Legora pilot at Hogan Lovells Cadwalader before the firmwide rollout?",
+          "options": [
+            "About 50",
+            "About 300",
+            "More than 1,300",
+            "More than 5,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "The firm ran a pilot involving more than 1,300 lawyers before committing to a global Legora rollout, indicating a methodical evaluation process."
         }
       ]
     }
