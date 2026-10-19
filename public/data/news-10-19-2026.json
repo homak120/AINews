@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T10:00:00Z",
-  "weekOf": "2026-10-19",
-  "coverageStart": "2026-10-18",
+  "generatedAt": "2026-10-19T17:06:00Z",
+  "weekOf": "2026-10-13",
+  "coverageStart": "2026-10-17",
   "coverageEnd": "2026-10-19",
   "items": [
     {
@@ -150,7 +150,7 @@
       ],
       "whyItMatters": "Intel's strategy with the D270 bets that inference workloads can be efficiently served with cheaper, high-capacity LPDDR5X memory rather than expensive HBM, potentially unlocking a lower-cost tier in the AI accelerator market where Nvidia dominates. If the bet pays off, it could accelerate inference deployment at cloud scale.",
       "tags": ["intel", "gpu", "ai-hardware", "inference", "data-center", "chips"],
-      "relatedIds": [],
+      "relatedIds": ["article-replit-openai-anthropic-switch-2026"],
       "knowledgeChecks": [
         {
           "question": "What key architectural difference distinguishes Intel's Crescent Island GPU D270 from Nvidia and AMD's leading AI accelerators?",
@@ -173,6 +173,135 @@
           ],
           "correctIndex": 2,
           "explanation": "Intel designed the Crescent Island D270 to run in air-cooled servers, distinguishing it from competitors that often require liquid cooling. This makes it easier to deploy in existing data center infrastructure without expensive cooling upgrades."
+        }
+      ]
+    },
+    {
+      "id": "article-replit-openai-anthropic-switch-2026",
+      "type": "article",
+      "title": "Replit CEO Says Company Has Stopped Working With Anthropic, Made OpenAI Its Default Provider",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "verified": false,
+      "publishedAt": "2026-10-17",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At TechCrunch Disrupt, Replit CEO Amjad Masad announced that the company has stopped working with Anthropic and has made OpenAI its default model provider, citing cost, partnership quality, and benchmark performance on vibe-coded apps. However, multiple insiders disputed the claim, with one person familiar with the situation saying the Anthropic partnership remains in place — and a September blog post had still cited Claude Fable 5 models in Replit Agent's production environment. Replit announced an OpenAI partnership in August 2026 but had never announced an end to the Anthropic relationship.",
+      "keyConcepts": [
+        "AI coding platform model provider strategy",
+        "Multi-model vs. single-provider platform architecture",
+        "Vibe-coding and AI agent benchmarks",
+        "AI partnership and enterprise pricing dynamics"
+      ],
+      "whyItMatters": "Replit is one of the largest AI-native development platforms, and public statements about provider switches — even contested ones — signal how AI coding platforms are evaluating the major model providers on cost and output quality for agentic coding tasks.",
+      "tags": ["replit", "anthropic", "openai", "ai-coding", "vibe-coding", "model-provider"],
+      "relatedIds": ["article-anthropic-ipo-public-benefit-fund-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What three criteria did Replit CEO Amjad Masad give for switching to OpenAI as the platform's default provider?",
+          "options": [
+            "Speed, safety, and context window size",
+            "Cost, partnership quality, and benchmark performance",
+            "Open-source licensing, latency, and multimodal support",
+            "Enterprise support, regulatory compliance, and pricing flexibility"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masad said the decision was based on cost, partnership, and performance — specifically that OpenAI's models performed better on internal and public benchmarks for building vibe-coded apps."
+        },
+        {
+          "question": "Why do insiders dispute Replit's claim that it stopped working with Anthropic?",
+          "options": [
+            "Anthropic released a public statement denying the switch",
+            "Replit's public API still lists Claude as the only available model",
+            "A September blog post still cited Claude Fable 5 models in Replit Agent's production environment",
+            "The FTC launched an investigation into the partnership termination"
+          ],
+          "correctIndex": 2,
+          "explanation": "A September 2026 Replit blog post cited Anthropic's Claude Fable 5 and Fable 5.1 as running in Replit Agent's production environment, and one insider said the partnership was still in place — suggesting Masad's Disrupt statement may have overstated the break."
+        }
+      ]
+    },
+    {
+      "id": "article-disney-characterai-bankruptcy-2026",
+      "type": "article",
+      "title": "Disney Offers Jobs to 66 Character.AI Employees as Stalking-Horse Bidder in Bankruptcy",
+      "sourceUrl": "https://letsdatascience.com/news/disney-offers-jobs-to-66-characterai-employees-ff9444bc",
+      "verified": false,
+      "publishedAt": "2026-10-18",
+      "topics": ["ai-industry"],
+      "summary": "Disney Worldwide Services emerged as the stalking-horse bidder in Character.AI's Chapter 11 bankruptcy, filed October 12, offering $20 million for a non-exclusive license to certain technology and data claims. Separately, Disney has offered jobs to 66 of Character.AI's approximately 86 full-time employees at an estimated cost of $60 million per year, plus a $30 million retention pool. Disney hired Character.AI's CEO Karandeep Anand as its first-ever company-wide tech chief in mid-September, two weeks before the bankruptcy filing. Several state attorneys general have asked the bankruptcy judge to ensure child data protections for whoever wins the auction.",
+      "keyConcepts": [
+        "Chapter 11 stalking-horse bidder process",
+        "AI talent acquisition through distressed asset deals",
+        "Character.AI content moderation and minor safety lawsuits",
+        "Enterprise AI integration at legacy media companies"
+      ],
+      "whyItMatters": "Disney's move illustrates how large incumbents are using AI startup distress to acquire both IP licenses and engineering talent cheaply. The bankruptcy process, combined with scrutiny over Character.AI's data practices involving minors, will set precedent for how AI companies handle user data in M&A and insolvency situations.",
+      "tags": ["disney", "character-ai", "bankruptcy", "ai-talent", "acquisition", "content-moderation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Disney's stated bid amount in the Character.AI bankruptcy, and what does it cover?",
+          "options": [
+            "$60 million for full ownership of the Character.AI consumer platform",
+            "$20 million for a non-exclusive, perpetual license to certain technology and claims",
+            "$180 million for full IP, staff, and platform acquisition",
+            "$30 million for exclusive rights to Character.AI's training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "Disney Worldwide Services bid $20 million as the stalking-horse for a non-exclusive, perpetual license to certain technology and claims — not the consumer platform itself. This type of bid sets the floor for a public auction where other bidders can offer more."
+        },
+        {
+          "question": "What executive connection existed between Disney and Character.AI before the bankruptcy filing?",
+          "options": [
+            "Disney's CEO Bob Iger had invested personally in Character.AI",
+            "Disney hired Character.AI CEO Karandeep Anand as its first company-wide tech chief",
+            "Character.AI had a content licensing deal with Disney+ for AI-generated shows",
+            "A Disney board member was also a Character.AI angel investor"
+          ],
+          "correctIndex": 1,
+          "explanation": "Disney hired Karandeep Anand, Character.AI's CEO, in mid-September 2026 as its first-ever company-wide tech chief — about two weeks before Character.AI filed for Chapter 11, suggesting Disney had inside knowledge of the platform's trajectory."
+        }
+      ]
+    },
+    {
+      "id": "article-dumbtv-ai-smart-tv-2026",
+      "type": "article",
+      "title": "People Are Using AI Coding Agents to Strip Ads and Bloatware From Their Smart TVs",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": ["ai-engineering"],
+      "summary": "An open-source project called 'dumbtv' has gained traction as owners use AI coding agents to 'vibe-code' custom firmware and scripts that remove sponsored ads, bloatware, and tracking software from their smart TVs. Users are sharing step-by-step prompts that feed into AI coding tools, letting non-developers produce working patches and ADB scripts without writing a line of code themselves. The trend is part of a broader pattern of consumers using generative AI to modify and reclaim consumer electronics that would previously have required specialized programming knowledge.",
+      "keyConcepts": [
+        "Vibe-coding for consumer hardware modification",
+        "ADB (Android Debug Bridge) scripting via AI agents",
+        "Smart TV firmware and ad-tech business models",
+        "Open-source community AI tool adoption"
+      ],
+      "whyItMatters": "The dumbtv phenomenon shows AI coding agents lowering the technical floor for hardware modification from expert developer to any motivated consumer. This creates a new class of AI-enabled user activism that device manufacturers and ad-tech companies will need to address — or face a growing wave of AI-assisted circumvention.",
+      "tags": ["vibe-coding", "smart-tv", "ai-agents", "open-source", "consumer-tech", "ad-blocking"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'vibe-coding' as used in the dumbtv context?",
+          "options": [
+            "Writing code in a specific aesthetic style taught by AI tutors",
+            "Using natural-language prompts to have AI agents generate working code without manual programming",
+            "A smart TV interface standard for streaming mood-based playlists",
+            "An open-source compiler that converts video game scripts into firmware"
+          ],
+          "correctIndex": 1,
+          "explanation": "In this context, vibe-coding means describing what you want in plain English and having an AI coding agent generate working scripts or firmware patches for you — no prior coding experience required. Users are sharing the prompts themselves, not the code."
+        },
+        {
+          "question": "What underlying technology are users primarily exploiting to modify their smart TVs via the dumbtv approach?",
+          "options": [
+            "HDMI-CEC commands sent from a Raspberry Pi",
+            "ADB (Android Debug Bridge) scripting to sideload custom modifications",
+            "Root exploits targeting the TV's Linux kernel",
+            "Man-in-the-middle HTTPS proxies that rewrite streaming content"
+          ],
+          "correctIndex": 1,
+          "explanation": "ADB (Android Debug Bridge) is a tool that allows shell access to Android-based devices, including many smart TVs. The AI agents help users generate ADB commands and scripts to disable bloatware and ad SDKs without requiring users to understand the underlying Android system."
         }
       ]
     }
