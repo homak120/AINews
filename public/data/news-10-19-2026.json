@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-10-19T10:00:00Z",
+  "weekOf": "2026-10-19",
+  "coverageStart": "2026-10-18",
+  "coverageEnd": "2026-10-19",
+  "items": [
+    {
+      "id": "article-schwab-jpmorgan-block-ai-agents-2026",
+      "type": "article",
+      "title": "Schwab and JPMorgan Are Blocking AI Agents From Accessing Customer Accounts",
+      "sourceUrl": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Charles Schwab CEO Rick Wurster disclosed that his firm now receives weekly reports showing it blocks tens to twenties of unauthorized AI agent access attempts. JPMorgan CEO Jamie Dimon made a similar announcement on the firm's October 13 earnings call, saying the bank blocks external AI agents from making transactions on retail customer accounts. Both banks are pointing customers toward their own sanctioned AI assistants while setting up controlled MCP servers for read-only data access.",
+      "keyConcepts": [
+        "AI agents in financial services",
+        "Model Context Protocol (MCP)",
+        "Unauthorized access via browser automation",
+        "Bank liability for AI-driven transactions"
+      ],
+      "whyItMatters": "As agentic AI systems become mainstream, traditional financial institutions face a new attack surface: AI acting on behalf of users without explicit bank authorization. This standoff will shape how MCP and agent authorization protocols get standardized across the industry.",
+      "tags": ["ai-agents", "fintech", "security", "jpmorgan", "schwab", "mcp"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary reason Schwab and JPMorgan are blocking external AI agents from customer accounts?",
+          "options": [
+            "To reduce server load from automated requests",
+            "Liability and inability to control what AI agents do on behalf of customers",
+            "Regulatory requirements from the SEC mandating the blocks",
+            "To prevent competition with their own AI products"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both bank CEOs cited security, liability, and control as the core reasons. Wurster said 'We can't control it, the client can't control it, something could go wrong and who's liable?' Dimon told customers to understand the liability transfer when using outside agents."
+        },
+        {
+          "question": "What technology are banks like Schwab proposing as a safer alternative to browser-based AI agents?",
+          "options": [
+            "OAuth 2.0 authorization servers",
+            "Model Context Protocol (MCP) servers with controlled read-only access",
+            "Blockchain-based transaction signing",
+            "Zero-knowledge proof authentication"
+          ],
+          "correctIndex": 1,
+          "explanation": "Schwab said it plans to set up MCP servers that let a client's chosen AI model connect to Schwab's systems under rules Schwab controls — enabling balance checks and research but not money movement."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-midterm-election-ads-137m-2026",
+      "type": "article",
+      "title": "$137 Million Spent on AI-Generated Political Ads This Midterm Cycle, 70% Carry No Disclosure",
+      "sourceUrl": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Wesleyan Media Project researchers, as reported by the New York Times, found that campaigns and PACs have spent over $137 million on approximately 220 AI-generated or AI-assisted political ads across 34 states this election cycle. Only about 27% of those ads include a disclosure that AI was used, well below the 50-state disclosure standard that advocacy groups had called for. Republicans account for roughly 81% of the identified AI ad spend.",
+      "keyConcepts": [
+        "AI-generated political advertising",
+        "AI disclosure requirements in political ads",
+        "Wesleyan Media Project tracking methodology",
+        "Deepfake and synthetic media in elections"
+      ],
+      "whyItMatters": "The 2026 midterms mark the first large-scale deployment of AI-generated political ads, exposing a gap in disclosure laws — only 30 states require AI labels on political ads. How voters, regulators, and platforms respond will set precedent for future election cycles.",
+      "tags": ["elections", "political-ads", "ai-generated-content", "disclosure", "deepfakes", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does AI ad spend in the 2026 midterms compare to the 2024 election cycle?",
+          "options": [
+            "It is roughly the same as 2024",
+            "It has doubled from approximately $68 million",
+            "It has grown dramatically from under $50,000 in 2024",
+            "It has declined because platforms banned AI ads"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Wesleyan Media Project's co-director noted they identified less than $50,000 in spending on AI-generated ads in the entire 2024 election cycle, compared to over $137 million in 2026 — a roughly 2,700x increase."
+        },
+        {
+          "question": "Why are Democratic candidates and groups less represented in AI-generated ad spending?",
+          "options": [
+            "Democrats have a federal law prohibiting their use of AI in ads",
+            "AI tools are too expensive for most Democratic campaigns",
+            "Democrats face higher reputational risk using tools they argue should be regulated",
+            "Democratic ad agencies have not yet adopted AI production tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to the Wesleyan Media Project's co-director, Democratic candidates and groups face more reputational risk when using a tool they are simultaneously arguing should be regulated, which appears to be driving their lower AI ad adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-public-benefit-fund-2026",
+      "type": "article",
+      "title": "Anthropic Plans to Commit 5% of Shares to New Public Benefit Fund Ahead of IPO",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic is reportedly planning to commit 5% of its shares to a new wholly-owned LLC called the Anthropic Public Benefit Fund, pending stockholder approval, with additional allocations tied to company value growth. This governance move accompanies the company's confidential IPO filing with the SEC, which the company submitted in June 2026. The IPO is expected to list on the Nasdaq, potentially before year-end, though no share price or date has been confirmed.",
+      "keyConcepts": [
+        "Public benefit corporation (PBC) governance",
+        "AI company IPO and dual-class share structures",
+        "Mission-locked AI safety organizations",
+        "Stockholder approval for social commitments"
+      ],
+      "whyItMatters": "Anthropic's attempt to embed a mission-preservation structure into its IPO could set a template for AI safety-focused companies going public. How investors respond to reduced economic control will signal whether the market values AI safety commitments or prices them as risk.",
+      "tags": ["anthropic", "ipo", "governance", "ai-safety", "public-benefit", "nasdaq"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of corporate structure is Anthropic, which gives it a legal obligation to balance shareholder interests with its safety mission?",
+          "options": [
+            "Non-profit organization (501c3)",
+            "Limited Liability Company (LLC)",
+            "Public Benefit Corporation (PBC)",
+            "Benefit LLC with capped returns"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic is a Public Benefit Corporation (PBC), a legal structure that obligates management to maintain a balance between shareholder returns and the company's stated public benefit mission — in Anthropic's case, AI safety research."
+        },
+        {
+          "question": "What is the purpose of the 'Anthropic Public Benefit Fund' described in the IPO reporting?",
+          "options": [
+            "A venture fund to invest in AI safety startups",
+            "A shareholder dividend fund for retail investors",
+            "A mission-preservation vehicle funded by a 5% share commitment",
+            "A government lobbying fund for AI regulation"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Anthropic Public Benefit Fund is a wholly-owned LLC that would receive 5% of Anthropic shares (pending stockholder approval), designed to preserve the company's AI safety mission as it transitions to a public company."
+        }
+      ]
+    },
+    {
+      "id": "article-intel-crescent-island-gpu-d270-2026",
+      "type": "article",
+      "title": "Intel Names Its Crescent Island AI GPU the D270, Supporting Up to 480GB of Memory",
+      "sourceUrl": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+      "verified": false,
+      "publishedAt": "2026-10-18",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Intel formally named its Crescent Island data center GPU the D270 at the Open Compute Project Global Summit, after debuting the design at Hot Chips 2026. The card uses LPDDR5X memory — cheaper than the HBM used by Nvidia and AMD flagships — and the branded configuration ships with 160GB while ODM partners can build versions up to 480GB. Intel positions the chip for inference workloads in air-cooled servers, with customer sampling planned for the second half of 2026 and broader availability in 2027.",
+      "keyConcepts": [
+        "AI inference vs. training hardware",
+        "LPDDR5X vs. HBM memory tradeoffs",
+        "Open Compute Project (OCP)",
+        "ODM (Original Design Manufacturer) GPU ecosystem"
+      ],
+      "whyItMatters": "Intel's strategy with the D270 bets that inference workloads can be efficiently served with cheaper, high-capacity LPDDR5X memory rather than expensive HBM, potentially unlocking a lower-cost tier in the AI accelerator market where Nvidia dominates. If the bet pays off, it could accelerate inference deployment at cloud scale.",
+      "tags": ["intel", "gpu", "ai-hardware", "inference", "data-center", "chips"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What key architectural difference distinguishes Intel's Crescent Island GPU D270 from Nvidia and AMD's leading AI accelerators?",
+          "options": [
+            "It uses a different instruction set architecture (ISA)",
+            "It uses LPDDR5X memory instead of HBM, trading peak bandwidth for lower cost and higher capacity",
+            "It runs entirely on photonic interconnects",
+            "It is optimized for training large models, not inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Intel's D270 uses consumer-oriented LPDDR5X DRAM rather than High Bandwidth Memory (HBM) used by Nvidia and AMD. This reduces cost and increases capacity (up to 480GB) but at lower memory bandwidth, making it best suited for inference rather than large-model training."
+        },
+        {
+          "question": "What deployment environment is the Intel D270 specifically designed for?",
+          "options": [
+            "Edge devices and smartphones",
+            "Consumer desktop GPUs",
+            "Air-cooled data center servers for inference",
+            "Liquid-cooled training clusters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Intel designed the Crescent Island D270 to run in air-cooled servers, distinguishing it from competitors that often require liquid cooling. This makes it easier to deploy in existing data center infrastructure without expensive cooling upgrades."
+        }
+      ]
+    }
+  ]
+}
