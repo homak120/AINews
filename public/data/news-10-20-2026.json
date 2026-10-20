@@ -1,9 +1,47 @@
 {
-  "generatedAt": "2026-10-20T00:00:00.000Z",
+  "generatedAt": "2026-10-20T17:15:00.000Z",
   "weekOf": "2026-10-19",
   "coverageStart": "2026-10-19",
   "coverageEnd": "2026-10-19",
   "items": [
+    {
+      "id": "techcrunch-nvidia-nemotron-35-oct19",
+      "type": "article",
+      "title": "Nvidia Launches Nemotron 3.5 Super VL and Bolt Open Models for Enterprise Agents and AI PCs",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Nvidia expanded its Nemotron 3.5 open-weight model family with the 120-billion-parameter Super VL model for enterprise agents and two compact Bolt models targeting edge and AI PC deployments. The Super VL is designed for multimodal agent tasks, and Nvidia claims it matches its largest reasoning model at roughly one-fifth the parameters while running five times faster than comparable open models. The Bolt 74B-A9B fits in 24GB of memory for RTX and DGX Spark systems, while the smaller Bolt E4B targets conversational and on-device AI agents.",
+      "keyConcepts": [
+        "Open-weight model deployment",
+        "Enterprise AI agents",
+        "Edge AI and on-device inference",
+        "Efficient multimodal reasoning"
+      ],
+      "whyItMatters": "Nvidia's Nemotron 3.5 family brings capable open-weight agent models to both enterprise servers and consumer AI PCs, lowering the barrier for companies to deploy always-on agentic AI without relying on cloud APIs. The 5x speed advantage and on-device Bolt models signal a move toward decentralized agent infrastructure.",
+      "tags": ["nvidia", "nemotron", "open-weights", "ai-agents", "enterprise-ai", "edge-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many parameters does the Nvidia Nemotron 3.5 Super VL model have?",
+          "options": ["7 billion", "32 billion", "70 billion", "120 billion"],
+          "correctIndex": 3,
+          "explanation": "The Nemotron 3.5 Super VL is a 120-billion-parameter open model designed for multimodal enterprise agent tasks, available on Hugging Face, OpenRouter, ModelScope, and NVIDIA NIM."
+        },
+        {
+          "question": "Which deployment environment is the Nemotron 3.5 Bolt 74B-A9B model specifically designed for?",
+          "options": [
+            "Cloud-only API inference",
+            "RTX and DGX Spark systems with 24GB memory",
+            "Mobile smartphones",
+            "Large data center GPU clusters only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Bolt 74B-A9B uses 2-bit quantization to fit into 24GB of memory, targeting RTX consumer and DGX Spark edge systems rather than large data centers or mobile devices."
+        }
+      ]
+    },
     {
       "id": "axios-anthropic-public-benefit-fund-oct19",
       "type": "article",
