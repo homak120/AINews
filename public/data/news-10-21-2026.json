@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-10-21T00:00:00.000Z",
+  "weekOf": "2026-10-19",
+  "coverageStart": "2026-10-20",
+  "coverageEnd": "2026-10-20",
+  "items": [
+    {
+      "id": "article-techcrunch-eric-schmidt-anthropic-oct20",
+      "type": "article",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "verified": false,
+      "publishedAt": "2026-10-20",
+      "topics": ["ai-industry"],
+      "summary": "A Bloomberg report revealed that former Google CEO Eric Schmidt owns approximately 1% of Anthropic, which is roughly half the stake held by Anthropic CEO Dario Amodei at around 2%. Schmidt was an early backer of Anthropic, participating in its $124 million Series A in 2021 alongside other notable investors like Jaan Tallinn and Dustin Moskovitz. Anthropic is preparing for a major IPO with a potential valuation exceeding $2 trillion.",
+      "keyConcepts": [
+        "Anthropic ownership structure",
+        "Eric Schmidt early investment",
+        "AI company equity distribution",
+        "Anthropic IPO preparation"
+      ],
+      "whyItMatters": "Understanding who owns significant stakes in leading AI labs like Anthropic sheds light on the financial interests shaping AI development priorities. As Anthropic approaches an IPO, transparency around equity distribution becomes increasingly important for public and investor scrutiny.",
+      "tags": ["anthropic", "eric-schmidt", "ai-investment", "ipo", "ownership", "venture-capital"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Bloomberg reporting, approximately what percentage of Anthropic does Eric Schmidt own?",
+          "options": ["0.1%", "1%", "5%", "14%"],
+          "correctIndex": 1,
+          "explanation": "Bloomberg reported that Eric Schmidt owns approximately 1% of Anthropic, which is about half of the ~2% stake held by CEO Dario Amodei. Schmidt was an early investor from the Series A round in 2021."
+        },
+        {
+          "question": "Eric Schmidt first invested in Anthropic during which funding round?",
+          "options": ["Seed round (2020)", "Series A (2021)", "Series B (2022)", "Series C (2023)"],
+          "correctIndex": 1,
+          "explanation": "Eric Schmidt participated in Anthropic's $124 million Series A round in 2021, which was led by Jaan Tallinn and also included Dustin Moskovitz and other investors."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-openai-orchestra-bio-oct20",
+      "type": "article",
+      "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+      "verified": false,
+      "publishedAt": "2026-10-20",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI has acquired biotech startup Orchestra Bio, folding the team and technology into its Rosalind life-sciences model and Rosalind Workbench platform. The acquisition signals OpenAI's continued expansion into the life sciences and healthcare space, building on its earlier January 2026 acquisition of health tech company Torch. Orchestra Bio's expertise is expected to accelerate the capabilities of OpenAI's AI systems for biological research applications.",
+      "keyConcepts": [
+        "Rosalind life-sciences model",
+        "AI for biological research",
+        "OpenAI biotech strategy",
+        "Acquisition-driven AI capability building"
+      ],
+      "whyItMatters": "OpenAI's acquisition of Orchestra Bio underscores the accelerating convergence of AI and biotechnology. As frontier AI labs move into life sciences, the pace of biological discovery could increase dramatically, but also raises questions about data governance and the concentration of biotech AI capabilities in a small number of companies.",
+      "tags": ["openai", "biotech", "orchestra-bio", "rosalind", "life-sciences", "acquisition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What OpenAI platform is Orchestra Bio's technology being integrated into?",
+          "options": ["ChatGPT Enterprise", "Codex Workbench", "Rosalind Workbench", "OpenAI Research Hub"],
+          "correctIndex": 2,
+          "explanation": "OpenAI is integrating Orchestra Bio's team and technology into the Rosalind Workbench platform and Rosalind life-sciences model, strengthening its AI capabilities for biological research."
+        },
+        {
+          "question": "Which earlier acquisition did OpenAI make in the health tech space in 2026?",
+          "options": ["DeepMind Health", "Torch", "BioNTech AI", "Verily"],
+          "correctIndex": 1,
+          "explanation": "OpenAI acquired health tech company Torch in January 2026, preceding its October 2026 acquisition of Orchestra Bio as part of a broader push into the life sciences sector."
+        }
+      ]
+    }
+  ]
+}
