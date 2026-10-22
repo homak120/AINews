@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-22T12:00:00Z",
+  "generatedAt": "2026-10-22T18:00:00Z",
   "weekOf": "2026-10-19",
   "coverageStart": "2026-10-21",
-  "coverageEnd": "2026-10-21",
+  "coverageEnd": "2026-10-22",
   "items": [
     {
       "id": "article-anthropic-claude-duet-oct21",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenShell is NVIDIA's open-source sandboxed runtime designed to secure AI agents by isolating their execution environment, addressing enterprise security concerns as agents gain broader system access."
+        }
+      ]
+    },
+    {
+      "id": "article-deepseek-15b-oct22",
+      "type": "article",
+      "title": "DeepSeek Reportedly Raises $15B Days After US Agencies Ordered to Remove Its Technology",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "verified": false,
+      "publishedAt": "2026-10-22",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Chinese AI lab DeepSeek has reportedly raised approximately $15 billion in funding, according to Bloomberg reporting on October 22 — just days after the US government ordered federal civilian agencies to remove DeepSeek's AI technology from their systems over national security concerns. Potential investors in the round include CATL and Tencent. The timing underscores the deepening geopolitical tension around AI, as DeepSeek continues to attract massive domestic investment despite US restrictions.",
+      "keyConcepts": [
+        "AI geopolitics and export controls",
+        "Chinese AI lab funding landscape",
+        "US federal AI procurement restrictions",
+        "DeepSeek's competitive positioning"
+      ],
+      "whyItMatters": "DeepSeek's ability to raise $15B domestically immediately after US restrictions highlights how AI has become a central axis of US-China strategic competition. For AI practitioners, this signals that Chinese frontier labs will remain well-funded and competitive regardless of Western export controls — sustaining a multi-polar AI research environment.",
+      "tags": ["deepseek", "ai-funding", "us-china-ai", "export-controls", "geopolitics", "chinese-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What triggered the timing significance of DeepSeek's $15B fundraise?",
+          "options": [
+            "DeepSeek's new model outperformed GPT-6 on all benchmarks",
+            "The US government ordered federal agencies to remove DeepSeek technology just days before",
+            "DeepSeek announced an IPO on the Shanghai STAR Market",
+            "Meta acquired a minority stake in DeepSeek"
+          ],
+          "correctIndex": 1,
+          "explanation": "The US ordered federal civilian agencies to remove DeepSeek's AI technology from their systems over security concerns, making the $15B fundraise just days later a notable sign that domestic Chinese investment is accelerating despite Western restrictions."
+        },
+        {
+          "question": "Which companies were reportedly among DeepSeek's potential investors in this round?",
+          "options": [
+            "Alibaba and ByteDance",
+            "Baidu and Huawei",
+            "CATL and Tencent",
+            "SoftBank and Samsung"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bloomberg reporting identified CATL (Contemporary Amperex Technology Co. Limited, the world's largest EV battery maker) and Tencent among the potential investors in DeepSeek's latest funding round."
+        }
+      ]
+    },
+    {
+      "id": "article-connectwise-ai-hack-oct22",
+      "type": "article",
+      "title": "China-Linked Hackers Used AI Agents to Breach 2,250 Organizations via IT Giant ConnectWise",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "verified": false,
+      "publishedAt": "2026-10-22",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Microsoft disclosed on October 22 that a China-aligned hacking group breached IT management firm ConnectWise and then used AI agents to rapidly target approximately 2,250 downstream organizations at a rate of nearly 3,000 attempted sign-ins per minute. Microsoft warned that AI-enabled attacks dramatically compress defenders' response windows, with the attack propagating faster than traditional incident response teams can react. The incident represents one of the first publicly documented large-scale supply chain attacks in which AI agents were used as the primary exploitation engine.",
+      "keyConcepts": [
+        "AI-assisted cyberattacks",
+        "Supply chain compromise via MSP platforms",
+        "Attack velocity and defender response windows",
+        "State-sponsored AI offensive capabilities"
+      ],
+      "whyItMatters": "Using AI agents to automate lateral movement at machine speed fundamentally shifts the attack-defense calculus — what once took days now takes minutes. This is a watershed case study showing that AI offensive capabilities are no longer theoretical, with direct implications for enterprise security posture and how security teams must rethink response automation.",
+      "tags": ["cybersecurity", "ai-attacks", "connectwise", "china-apt", "supply-chain", "ai-agents"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What made the ConnectWise breach particularly notable from an AI perspective?",
+          "options": [
+            "The attackers trained a custom LLM on stolen ConnectWise source code",
+            "AI agents were used to automatically target thousands of downstream organizations at machine speed",
+            "An AI model spontaneously discovered and exploited the vulnerability without human direction",
+            "ConnectWise's own AI security tool failed to detect the intrusion"
+          ],
+          "correctIndex": 1,
+          "explanation": "The attackers used AI agents to rapidly escalate from the initial ConnectWise breach to target ~2,250 downstream organizations at nearly 3,000 sign-in attempts per minute — a velocity that far outpaces traditional manual attack methods."
+        },
+        {
+          "question": "What key defender implication did Microsoft highlight about this AI-assisted attack?",
+          "options": [
+            "AI attacks can only be stopped with AI-powered firewalls",
+            "Defenders now have more time to respond because AI generates more detectable noise",
+            "AI-enabled attacks compress the response window, leaving little time for incident response",
+            "The breach would have been prevented by stronger password policies alone"
+          ],
+          "correctIndex": 2,
+          "explanation": "Microsoft warned that AI-assisted attack automation dramatically shrinks the time defenders have to detect and respond to breaches, fundamentally challenging traditional incident response playbooks that assume human-speed attacks."
+        }
+      ]
+    },
+    {
+      "id": "article-nirva-ambient-ai-pendant-oct22",
+      "type": "article",
+      "title": "Nirva Raises $33M for Ambient AI Pendant That Only Listens to Its Wearer",
+      "sourceUrl": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "verified": false,
+      "publishedAt": "2026-10-22",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Wearable AI startup Nirva raised $33 million and announced its $249 ambient AI pendant, which uses directional microphone technology to listen exclusively to the wearer's speech rather than ambient room audio. Unlike competitors such as the Humane AI Pin or the Friend pendant, Nirva's design focuses on privacy-preserving passive capture — the device continuously transcribes and contextualizes only the wearer's spoken words. Nirva plans to ship the device before the end of 2026.",
+      "keyConcepts": [
+        "Ambient AI wearables",
+        "Directional audio capture for privacy",
+        "Passive AI memory and context building",
+        "Wearable AI hardware market"
+      ],
+      "whyItMatters": "Ambient AI wearables represent the next frontier of always-on personal AI — but prior attempts (Humane Pin, Rabbit R1) stumbled on battery life, latency, and creepiness. Nirva's wearer-only listening constraint is a meaningful product design choice that could unlock genuine utility while sidestepping major privacy objections, potentially reviving the wearable AI category.",
+      "tags": ["wearable-ai", "ambient-computing", "nirva", "ai-hardware", "privacy", "startup-funding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key differentiator of Nirva's AI pendant compared to other ambient recording devices?",
+          "options": [
+            "It translates conversations into 50 languages in real time",
+            "It uses directional microphone technology to listen only to the wearer, not ambient audio",
+            "It projects a heads-up display and requires no smartphone",
+            "It stores all data on-device with no cloud connection"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nirva's pendant uses directional microphone technology designed to capture only the wearer's speech, distinguishing it from ambient listening devices that record all nearby audio — addressing a key privacy concern in the wearable AI category."
+        },
+        {
+          "question": "At what price point is Nirva planning to ship its ambient AI pendant?",
+          "options": [
+            "$99",
+            "$149",
+            "$249",
+            "$499"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nirva is pricing its ambient AI pendant at $249 and plans to ship before the end of 2026, following its $33 million fundraise."
         }
       ]
     }
