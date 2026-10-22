@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-10-22T12:00:00Z",
+  "weekOf": "2026-10-19",
+  "coverageStart": "2026-10-21",
+  "coverageEnd": "2026-10-21",
+  "items": [
+    {
+      "id": "article-anthropic-claude-duet-oct21",
+      "type": "article",
+      "title": "Anthropic Launches Claude Duet, a Proactive AI Agent Competing with OpenAI Dots and Meta Muse",
+      "sourceUrl": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/",
+      "verified": false,
+      "publishedAt": "2026-10-21",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic announced Claude Duet on October 21, 2026, a proactive personal AI agent running on Claude Opus 5.5 that works on its own cloud-based computer — continuing tasks even after the user closes the app. Initially launching as a research preview for US-based Pro and Max subscribers via a waitlist, it positions Anthropic directly against OpenAI's Dots and Meta's Muse in the emerging proactive-agent category. The agent seeks explicit user approval before consequential actions like sending messages, making payments, signing agreements, or deleting data.",
+      "keyConcepts": [
+        "Proactive AI agents",
+        "Cloud-based agent runtime",
+        "Human-in-the-loop approvals",
+        "Competitive agent landscape (Dots, Muse, Duet)"
+      ],
+      "whyItMatters": "Claude Duet marks a shift from reactive chatbots to always-on AI agents that autonomously pursue goals between sessions — a paradigm that could fundamentally change how knowledge workers interact with AI tools. The race between Anthropic, OpenAI, and Meta to ship the most capable and trustworthy proactive agent will likely define the next phase of AI product competition.",
+      "tags": ["anthropic", "claude-duet", "proactive-agent", "ai-assistant", "openai-dots", "meta-muse"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is a key feature that distinguishes Claude Duet from traditional AI chatbots like Claude.ai?",
+          "options": [
+            "It generates images and video natively",
+            "It continues working on tasks even after the user closes the app",
+            "It only works on mobile devices",
+            "It replaces the Claude Pro subscription entirely"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Duet runs on its own cloud-based computer, allowing it to keep working autonomously even when the user has closed the application — unlike standard chatbots that only respond when a user is actively present."
+        },
+        {
+          "question": "Which competing products is Claude Duet designed to rival?",
+          "options": [
+            "Google Gemini Live and Perplexity Assistant",
+            "Microsoft Copilot and Apple Intelligence",
+            "OpenAI Dots and Meta Muse",
+            "xAI Grok Voice and Mistral Le Chat"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Duet is Anthropic's direct answer to OpenAI's Dots (powered by GPT-6 Astra) and Meta's Muse — both of which are proactive agents that work on tasks between user sessions."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-gtc-berlin-oct21",
+      "type": "article",
+      "title": "NVIDIA GTC Berlin: Jensen Huang Unveils DSX POD for 14-Day AI Factory Deployment and OpenShell Agent Security",
+      "sourceUrl": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+      "verified": false,
+      "publishedAt": "2026-10-21",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At GTC Berlin 2026 on October 21, Jensen Huang announced DSX POD, a reference design for Vera Rubin AI factories built in modular containers by partners, enabling full data center deployment in as little as 14 days once site utilities are in place — down from the previous six-month timeline. He also introduced OpenShell, an open-source sandboxed runtime for securing AI agents, and the Agent Knowledge Foundation for connecting agents to enterprise data. On the robotics front, Agile ONE SN was unveiled as a reference humanoid robot built on Isaac GR00T, with Volvo, Volkswagen, JLR, and Mercedes-Benz adopting NVIDIA's Hyperion platform.",
+      "keyConcepts": [
+        "DSX POD modular AI factory design",
+        "Vera Rubin GPU architecture",
+        "OpenShell agent sandboxing",
+        "Isaac GR00T humanoid robotics"
+      ],
+      "whyItMatters": "Shrinking AI factory deployment from six months to 14 days is a massive operational unlock for enterprises building sovereign AI infrastructure in Europe and beyond. OpenShell's open-source approach to agent sandboxing addresses a critical security gap as AI agents gain broader access to enterprise systems.",
+      "tags": ["nvidia", "gtc-berlin", "ai-factory", "vera-rubin", "robotics", "agent-security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does NVIDIA's DSX POD announcement aim to reduce?",
+          "options": [
+            "The cost of individual Vera Rubin GPUs",
+            "The time to deploy a complete AI factory from ~6 months to ~14 days",
+            "The power consumption of data center cooling systems by 50%",
+            "The size of AI models required for enterprise tasks"
+          ],
+          "correctIndex": 1,
+          "explanation": "DSX POD is a reference design for complete Vera Rubin AI factories built in modular containers, enabling deployment in approximately 14 days once site utilities are ready — compared to the previous ~6-month timeline."
+        },
+        {
+          "question": "What is OpenShell, announced at GTC Berlin 2026?",
+          "options": [
+            "A new NVIDIA GPU architecture for edge devices",
+            "A closed-source enterprise agent orchestration platform",
+            "An open-source sandboxed runtime for securing AI agents",
+            "A Kubernetes-based container scheduler for LLM inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenShell is NVIDIA's open-source sandboxed runtime designed to secure AI agents by isolating their execution environment, addressing enterprise security concerns as agents gain broader system access."
+        }
+      ]
+    }
+  ]
+}
