@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-10-23T12:00:00Z",
+  "weekOf": "2026-10-19",
+  "coverageStart": "2026-10-23",
+  "coverageEnd": "2026-10-23",
+  "items": [
+    {
+      "id": "article-sk-hyper-350b-datacenter-oct23",
+      "type": "article",
+      "title": "SK Hyper Seeks to Raise Billions to Fund South Korea's Largest AI Data Center Buildout",
+      "sourceUrl": "https://startupfortune.com/sk-hyper-seeks-350-billion-to-fund-south-koreas-biggest-ai-data-center-bet/",
+      "verified": false,
+      "publishedAt": "2026-10-23",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "SK Hyper, the dedicated AI data center subsidiary of SK Telecom, is in talks to raise a massive external financing round targeting closure by early 2027, according to Bloomberg reporting on October 23. The company's first phase targets 5 gigawatts of capacity by 2029, scaling to 15GW by 2035, in alignment with South Korea's national plan to deploy 18.5GW of AI compute capacity nationwide. The announcement comes as South Korean tech stocks sold off on the same day over broader AI infrastructure spending concerns.",
+      "keyConcepts": [
+        "AI data center infrastructure at gigawatt scale",
+        "Sovereign AI compute strategy",
+        "South Korea national AI buildout plan",
+        "Private capital flowing into AI infrastructure"
+      ],
+      "whyItMatters": "The scale of SK Hyper's buildout — and the Korean government's 18.5GW target — illustrates how AI infrastructure investment has become a national strategic priority, not just a commercial one. As US-China competition restricts access to frontier chips and models, nations are racing to establish sovereign AI capacity, creating massive infrastructure financing markets.",
+      "tags": ["sk-hyper", "sk-telecom", "ai-infrastructure", "south-korea", "data-center", "ai-investment"],
+      "relatedIds": ["article-kospi-ai-fears-oct23"],
+      "knowledgeChecks": [
+        {
+          "question": "What is SK Hyper's stated long-term AI data center capacity target by 2035?",
+          "options": [
+            "5 gigawatts",
+            "10 gigawatts",
+            "15 gigawatts",
+            "20 gigawatts"
+          ],
+          "correctIndex": 2,
+          "explanation": "SK Hyper plans to reach 15GW of AI data center capacity by 2035, with an initial 5GW phase by 2029. This aligns with South Korea's national goal of 18.5GW of AI compute capacity across the country."
+        },
+        {
+          "question": "Which parent company created SK Hyper as a dedicated AI data center subsidiary?",
+          "options": [
+            "Samsung Electronics",
+            "SK Hynix",
+            "LG Electronics",
+            "SK Telecom"
+          ],
+          "correctIndex": 3,
+          "explanation": "SK Hyper is a subsidiary of SK Telecom, South Korea's largest mobile carrier, which spun it off to focus on acquiring sites, developing substations, and recruiting customers for AI data center projects."
+        }
+      ]
+    },
+    {
+      "id": "article-kospi-ai-fears-oct23",
+      "type": "article",
+      "title": "KOSPI Plunges 2% as AI Bubble Fears Return, Hitting Samsung Electronics and Chip Stocks",
+      "sourceUrl": "https://sundayguardianlive.com/business/korea-stock-market-krx-today-october-23-kospi-plunges-205-as-ai-fears-hit-samsung-electronics-kosdaq-slides-and-oil-surges-to-114-check-top-gainers-and-losers-310443/",
+      "verified": false,
+      "publishedAt": "2026-10-23",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "South Korea's benchmark KOSPI index fell 2.05% to close at 5,420.18 on October 23, led by sharp declines in AI-exposed chip stocks including Samsung Electronics, as investors globally questioned whether the AI infrastructure spending boom will deliver returns. The sell-off extended a broader global AI stock pullback tied to rising oil prices and concerns about AI investment payback timelines. The Korea JoongAng Daily and other outlets noted the move echoed 2026's July bear market episode, when KOSPI crashed nearly 11% in a single session following the Kimi K3 model shock.",
+      "keyConcepts": [
+        "AI infrastructure investment ROI concerns",
+        "AI bubble risk and market repricing",
+        "Semiconductor demand tied to AI spending cycles",
+        "Macro factors: oil prices and AI capex interdependence"
+      ],
+      "whyItMatters": "Market repricing of AI infrastructure stocks signals growing investor skepticism about whether hyperscaler and sovereign AI capex will generate near-term returns — a shift that could affect funding availability for AI startups and chip demand forecasts. For AI engineers and researchers, understanding this feedback loop between capital markets and AI investment cycles is increasingly important context.",
+      "tags": ["ai-stocks", "kospi", "samsung", "ai-bubble", "ai-investment", "semiconductor"],
+      "relatedIds": ["article-sk-hyper-350b-datacenter-oct23"],
+      "knowledgeChecks": [
+        {
+          "question": "What July 2026 AI event was cited as a precedent for the October 23 KOSPI sell-off?",
+          "options": [
+            "The DeepSeek V3 model release causing a US chip stock crash",
+            "A Moonshot AI Kimi K3 model shock that triggered an 11% single-day KOSPI decline",
+            "OpenAI halting GPT-6 training due to misalignment concerns",
+            "The US government banning NVIDIA chip exports to South Korea"
+          ],
+          "correctIndex": 1,
+          "explanation": "In July 2026, the KOSPI crashed nearly 11% in a single session after Moonshot AI released Kimi K3, reviving DeepSeek-style concerns that Chinese AI labs could undercut the ROI case for expensive Western AI infrastructure. The October 23 move was less severe but echoed the same investor anxiety."
+        },
+        {
+          "question": "What combination of factors drove the October 23 AI stock sell-off according to market analysts?",
+          "options": [
+            "A new US AI regulation announcement and Federal Reserve rate hike",
+            "A Chinese AI model release and NVIDIA earnings miss",
+            "Rising oil prices and doubts about whether AI infrastructure investment will pay off",
+            "Samsung announcing a delay in its next-gen HBM memory chips"
+          ],
+          "correctIndex": 2,
+          "explanation": "The October 23 sell-off was attributed to a combination of high oil prices — adding to macro uncertainty — and renewed investor concerns about whether the massive wave of AI infrastructure capital expenditure will generate returns, causing a pullback in AI-exposed chip and tech stocks globally."
+        }
+      ]
+    }
+  ]
+}
