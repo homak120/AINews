@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-10-26T14:00:00.000Z",
+  "weekOf": "2026-10-19",
+  "coverageStart": "2026-10-25",
+  "coverageEnd": "2026-10-26",
+  "items": [
+    {
+      "id": "article-llm-price-war-oct26",
+      "type": "article",
+      "title": "LLM Price War: 80% Price Cuts in Months as Open-Weight Models Cap Pricing Power",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-26",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "A detailed analysis by data scientist Max Woolf (@minimaxir) lays out how frontier LLM pricing has collapsed — with some tiers dropping roughly 80% in price within months. The report traces the mechanism: open-weight models like DeepSeek V4 and Kimi K3 set a floor that proprietary labs must match or undercut. OpenAI's GPT-5.6 Luna tier fell from $1.00 to $0.20 per million input tokens, with Grok 4.6 and other models following similar trajectories.",
+      "keyConcepts": [
+        "LLM price compression",
+        "Open-weight pricing floor",
+        "Inference economics",
+        "API cost optimization"
+      ],
+      "whyItMatters": "Falling inference costs accelerate AI adoption across applications and reduce barriers for startups and developers, but they also squeeze revenue for labs betting on proprietary moats.",
+      "tags": ["llm-pricing", "open-weights", "deepseek", "openai", "inference-costs", "ai-economics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary mechanism driving LLM price compression according to the minimaxir analysis?",
+          "options": [
+            "Government regulation forcing price caps",
+            "Open-weight models setting a price floor that proprietary labs must match",
+            "A single large lab dumping prices to gain market share",
+            "Hardware costs falling faster than expected"
+          ],
+          "correctIndex": 1,
+          "explanation": "Open-weight models such as DeepSeek V4 and Kimi K3 allow anyone to run inference cheaply, which creates a pricing floor that proprietary API providers must compete with or price above by offering differentiated value."
+        },
+        {
+          "question": "Which OpenAI model tier saw approximately an 80% price cut in 2026?",
+          "options": [
+            "GPT-5.6 Sol (flagship tier)",
+            "GPT-6 Pro",
+            "GPT-5.6 Luna (mid tier)",
+            "GPT-4o"
+          ],
+          "correctIndex": 2,
+          "explanation": "The GPT-5.6 Luna mid-tier saw a price drop from $1.00 to $0.20 per million input tokens — approximately an 80% reduction — while the flagship Sol tier held at higher prices."
+        }
+      ]
+    },
+    {
+      "id": "article-kimi-k31-pro-oct26",
+      "type": "article",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro with 1M-Token Context and Open Weights Pledge",
+      "sourceUrl": "https://www.aibase.com/news/31339",
+      "verified": false,
+      "publishedAt": "2026-10-26",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Moonshot AI deployed Kimi K3.1 Pro across Kimi.ai, Kimi Work, Kimi Code, and its API, positioning it as a post-training upgrade to the earlier Kimi K3 model. The company pledged to release open weights by November 4, 2026. With a native 1M-token context window, K3.1 Pro targets extended reasoning and long-document workloads where it claims improvements over its predecessor.",
+      "keyConcepts": [
+        "Post-training model upgrades",
+        "Long-context reasoning",
+        "Open weights release",
+        "Chinese frontier models"
+      ],
+      "whyItMatters": "Kimi K3.1 Pro's open-weights release will add another capable base model to the open-source ecosystem, putting further price pressure on proprietary APIs and expanding options for developers building on long-context workloads.",
+      "tags": ["kimi", "moonshot-ai", "open-weights", "long-context", "chinese-ai", "llm-release"],
+      "relatedIds": ["article-llm-price-war-oct26"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key architectural advantage Kimi K3.1 Pro is designed to leverage?",
+          "options": [
+            "A 4K token context window optimized for speed",
+            "Multi-modal video generation capabilities",
+            "A 1 million token context window for extended reasoning",
+            "On-device mobile inference"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kimi K3.1 Pro is built around a native 1 million-token context window, enabling extended reasoning and long-document analysis tasks that would overflow smaller context models."
+        },
+        {
+          "question": "What does Moonshot AI's open-weights pledge for Kimi K3.1 Pro mean for the broader AI ecosystem?",
+          "options": [
+            "Only enterprise customers get access to model weights",
+            "Developers can fine-tune and self-host the model without API fees",
+            "The model will be discontinued after release",
+            "Weights will be locked behind a commercial license only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Releasing open weights allows developers and researchers to download, fine-tune, and deploy the model on their own infrastructure without ongoing API costs, contributing to the commoditization of frontier-grade models."
+        }
+      ]
+    },
+    {
+      "id": "article-spacex-gpu-debt-oct25",
+      "type": "article",
+      "title": "SpaceX Closes $40B Nvidia Chip Debt Deal to Fuel xAI Inference Infrastructure",
+      "sourceUrl": "https://www.semafor.com/article/10/07/2026/spacex-looks-to-40-billion-debt-raise-to-buy-chips",
+      "verified": false,
+      "publishedAt": "2026-10-25",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Elon Musk announced that SpaceX finalized its $40 billion debt financing deal, led by Apollo with PIMCO participating, to purchase Nvidia GPUs at scale for xAI's inference infrastructure. The deal, first reported in talks during early October, gives xAI one of the largest dedicated compute pools outside of hyperscalers. Analysts note the total AI chip spend now exceeds SpaceX's core aerospace revenue.",
+      "keyConcepts": [
+        "AI infrastructure financing",
+        "GPU compute at scale",
+        "xAI inference buildout",
+        "Hyperscaler compute competition"
+      ],
+      "whyItMatters": "The scale of compute acquisition signals that non-hyperscaler entities are betting enormous capital on AI inference demand — and that Grok's commercial growth must justify this investment quickly.",
+      "tags": ["spacex", "xai", "nvidia", "gpu-infrastructure", "ai-investment", "elon-musk"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who led the $40B debt financing round for SpaceX's Nvidia chip purchase?",
+          "options": [
+            "Goldman Sachs",
+            "Apollo Global Management",
+            "SoftBank",
+            "Sequoia Capital"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apollo Global Management led the $40B financing deal, with PIMCO reported as a participating lender, structured as a mix of bank loans and investment-grade debt."
+        },
+        {
+          "question": "Why is the SpaceX AI chip deal notable from a business perspective?",
+          "options": [
+            "It is the first time debt has been used to fund GPU purchases",
+            "The AI chip spend exceeds SpaceX's core aerospace revenue",
+            "The deal includes a guaranteed government contract",
+            "SpaceX plans to resell compute time to OpenAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Analysts noted that SpaceX's total AI infrastructure spend now surpasses its revenue from the aerospace side of the business, which means the xAI division must generate substantial commercial returns to justify the financing."
+        }
+      ]
+    }
+  ]
+}
