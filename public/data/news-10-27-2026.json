@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T03:12:31.000Z",
+  "generatedAt": "2026-10-27T17:09:11.000Z",
   "weekOf": "2026-10-26",
   "coverageStart": "2026-10-26",
   "coverageEnd": "2026-10-27",
@@ -173,6 +173,49 @@
           ],
           "correctIndex": 3,
           "explanation": "Sarvam AI became India's newest AI unicorn after raising $234 million in its Series B round at a $1.5 billion valuation, led by HCLTech."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-science-breakthroughs-oct2026",
+      "type": "article",
+      "title": "OpenAI Claims AI Has Made Breakthroughs in Mathematics, Computer Science, and Physics",
+      "sourceUrl": "https://aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-research"],
+      "summary": "OpenAI announced that one of its unreleased frontier models has made verified breakthroughs across three major scientific domains in a single day. In mathematics, the model proved the local smoothing conjecture in every spatial dimension using the Lean theorem prover. In computer science, it disproved the long-standing Exponential Time Hypothesis. In physics, it produced a rigorous existence proof for Quantum Chromodynamics and Yang-Mills theory — touching one of the seven Millennium Prize Problems. The results are currently under review by independent experts, including Nobel laureates in Physics.",
+      "keyConcepts": [
+        "local smoothing conjecture",
+        "Exponential Time Hypothesis",
+        "Yang-Mills theory / QCD",
+        "Lean theorem prover formal verification"
+      ],
+      "whyItMatters": "If independently verified, these would represent the first time AI has produced solutions to Millennium Prize Problems — a symbolic threshold marking a qualitative shift from AI as a research assistant to AI as an autonomous scientific discoverer.",
+      "tags": ["openai", "mathematics", "physics", "scientific-discovery", "millennium-prize", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which tool did OpenAI use to formally verify the mathematical results it claimed?",
+          "options": [
+            "Wolfram Mathematica",
+            "Lean theorem prover",
+            "Coq proof assistant",
+            "Python symbolic math library"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI used the Lean theorem prover — a computer-checkable formal verification system — to validate the math and computer science results, lending them greater credibility than informal proofs."
+        },
+        {
+          "question": "What is the significance of Yang-Mills theory in the context of OpenAI's claimed physics breakthrough?",
+          "options": [
+            "It is a problem in quantum computing design",
+            "It is one of the seven Millennium Prize Problems worth $1 million",
+            "It is a recently solved textbook problem in classical mechanics",
+            "It is an unsolved problem in fluid dynamics"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Yang-Mills existence and mass gap problem is one of the seven Millennium Prize Problems identified by the Clay Mathematics Institute, each carrying a $1 million prize for a correct solution — making it one of the most prestigious unsolved problems in mathematics and physics."
         }
       ]
     }
