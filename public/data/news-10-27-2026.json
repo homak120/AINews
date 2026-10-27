@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-10-27T03:12:31.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-10-26",
+  "coverageEnd": "2026-10-27",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-november-2026",
+      "type": "article",
+      "title": "Anthropic Targets November IPO After Pushing Back from October",
+      "sourceUrl": "https://cryptobriefing.com/anthropic-targets-november-ipo-delay/",
+      "verified": false,
+      "publishedAt": "2026-10-26",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic is targeting a November debut on Nasdaq after delays pushed back its initial October timeline, with reports suggesting the company could begin its IPO roadshow as soon as the week of November 9. The company is expected to publicly file its S-1 registration statement with the SEC before the roadshow, aiming for shares to begin trading before Thanksgiving. At a potential valuation of approximately $2 trillion and expected proceeds of around $100 billion, this would be one of the largest public offerings in stock market history.",
+      "keyConcepts": [
+        "S-1 registration statement",
+        "Nasdaq IPO listing",
+        "IPO roadshow",
+        "pre-IPO valuation"
+      ],
+      "whyItMatters": "Anthropic's public offering would mark a pivotal moment for the AI industry, allowing retail investors to participate in one of the leading frontier AI labs for the first time and setting a public benchmark for AI company valuations at scale.",
+      "tags": ["anthropic", "ipo", "nasdaq", "claude", "public-offering", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "At approximately what valuation is Anthropic expected to go public, based on pre-IPO market pricing?",
+          "options": [
+            "$500 billion",
+            "$965 billion",
+            "$2 trillion",
+            "$5 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pre-IPO trading puts Anthropic's valuation at approximately $2 trillion — significantly above the $965 billion post-money valuation from its last private funding round in May 2026."
+        },
+        {
+          "question": "On which stock exchange is Anthropic expected to list its shares?",
+          "options": [
+            "NYSE",
+            "Nasdaq",
+            "London Stock Exchange",
+            "Hong Kong Stock Exchange"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reports indicate Anthropic has chosen Nasdaq for its initial public offering, the same exchange that hosts many other major tech companies."
+        }
+      ]
+    },
+    {
+      "id": "article-china-ai-bubble-october-2026",
+      "type": "article",
+      "title": "In China, the AI Bubble Has Already Burst",
+      "sourceUrl": "https://kathmandupost.com/world/2026/10/27/in-china-the-ai-bubble-has-already-burst",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-industry"],
+      "summary": "China's AI and semiconductor stocks have entered a severe bear market, with the STAR 50 index of AI and chip companies down approximately 40% from its peak and major chipmakers like MetaX Integrated Circuits and Moore Threads having lost roughly half their market value. The selloff reflects mounting concern that enormous capital poured into AI infrastructure may not generate proportional economic returns. This sharp reversal comes after the STAR 50 surged about 75% in the first half of 2026 on optimism about China's AI capabilities.",
+      "keyConcepts": [
+        "STAR 50 index",
+        "AI investment returns",
+        "semiconductor market correction",
+        "AI infrastructure spending ROI"
+      ],
+      "whyItMatters": "China's sharp AI stock correction is the first major test of whether AI investment enthusiasm translates into real economic returns — a concern that could soon spread to Western AI stocks as Big Tech earnings season gets underway.",
+      "tags": ["china", "ai-bubble", "semiconductor", "stock-market", "ai-investment", "star-50"],
+      "relatedIds": ["article-anthropic-ipo-november-2026"],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much has China's STAR 50 AI and semiconductor index fallen from its 2026 peak?",
+          "options": [
+            "About 10%",
+            "About 20%",
+            "About 40%",
+            "About 60%"
+          ],
+          "correctIndex": 2,
+          "explanation": "China's STAR 50 index fell approximately 40% from its peak, erasing a substantial portion of its spectacular first-half gains when it had surged about 75%."
+        },
+        {
+          "question": "What valuation multiple did the STAR 50 reach at its June 2026 peak, signaling speculative excess?",
+          "options": [
+            "About 20x forward earnings",
+            "About 40x forward earnings",
+            "About 60x forward earnings",
+            "Above 80x forward earnings"
+          ],
+          "correctIndex": 3,
+          "explanation": "At its June 2026 peak, the STAR 50 traded above 80 times forward earnings — a historically extreme multiple that typically signals speculative excess rather than fundamental value."
+        }
+      ]
+    },
+    {
+      "id": "article-uae-ai-power-october-2026",
+      "type": "article",
+      "title": "UAE's AI Power Advantage Faces Its Biggest Test Yet",
+      "sourceUrl": "https://www.thenationalnews.com/future/2026/10/27/uaes-ai-power-advantage-faces-its-biggest-test-yet/",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-industry"],
+      "summary": "Electricity, not chips, has become the primary constraint on AI growth, and the UAE's massive AI infrastructure ambitions are being put to the test. The Stargate UAE campus — a 5-gigawatt project built by G42 in partnership with OpenAI, Oracle, Nvidia, and Cisco — could draw power equivalent to roughly a quarter of the country's current national demand. The analysis argues that energy capacity, not GPU availability, now determines which nations can lead the next phase of AI development.",
+      "keyConcepts": [
+        "AI energy consumption",
+        "data center power constraints",
+        "Stargate UAE",
+        "AI infrastructure geopolitics"
+      ],
+      "whyItMatters": "Energy infrastructure is becoming the decisive factor in the global AI race, shifting competitive advantage from semiconductor supply chains to electricity generation capacity — a fundamental shift that favors nations with aggressive power-buildout plans.",
+      "tags": ["uae", "ai-infrastructure", "energy", "data-centers", "stargate", "g42"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What resource has replaced chip availability as the primary constraint on AI growth?",
+          "options": [
+            "Skilled AI engineers",
+            "Electricity supply",
+            "Government permits",
+            "Cooling water"
+          ],
+          "correctIndex": 1,
+          "explanation": "The article argues that electricity supply — not chip availability or talent — has become the main bottleneck limiting the scale and speed of AI development globally."
+        },
+        {
+          "question": "Which two companies are among the key partners building the Stargate UAE AI campus?",
+          "options": [
+            "OpenAI and Oracle",
+            "Google and Meta",
+            "Microsoft and Amazon",
+            "Anthropic and Apple"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Stargate UAE campus is built by state-backed UAE firm G42, with OpenAI, Oracle, Nvidia, and Cisco as key American partners."
+        }
+      ]
+    },
+    {
+      "id": "article-sarvam-ai-india-defence-2026",
+      "type": "article",
+      "title": "Sarvam AI and India's Integrated Defence Staff Sign MoU for Sovereign Military AI",
+      "sourceUrl": "https://cio.eletsonline.com/technology/hq-ids-sarvam-ai-mou-sovereign-ai-armed-forces/76429",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "India's Headquarters Integrated Defence Staff (HQ IDS) and Bengaluru-based AI startup Sarvam AI have signed a memorandum of understanding to develop secure, India-controlled AI capabilities across the army, navy, and air force. The partnership focuses on building sovereign AI — models and infrastructure under full Indian control — for strategic defense applications, advancing the country's Aatmanirbhar (self-reliant) military technology initiative. Sarvam, which became an Indian AI unicorn after raising $234 million in its Series B at a $1.5 billion valuation, already works with C-DAC on indigenous computing infrastructure.",
+      "keyConcepts": [
+        "sovereign AI",
+        "defense AI applications",
+        "Aatmanirbhar Bharat",
+        "tri-services AI integration"
+      ],
+      "whyItMatters": "Nations are increasingly treating indigenous AI capability in defence as a top strategic priority, and India's partnership with a homegrown AI unicorn sets a template for sovereign military AI that bypasses dependence on US or Chinese technology.",
+      "tags": ["india", "sovereign-ai", "defence", "sarvam-ai", "military-ai", "aatmanirbhar"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does 'Aatmanirbhar' mean in the context of India's military AI initiative?",
+          "options": [
+            "Advanced Technology",
+            "Artificial Intelligence",
+            "Strategic Partnership",
+            "Self-Reliant"
+          ],
+          "correctIndex": 3,
+          "explanation": "Aatmanirbhar means 'self-reliant' in Hindi. India's Aatmanirbhar Bharat program aims to develop indigenous capabilities — including AI — without dependence on foreign technology."
+        },
+        {
+          "question": "What is Sarvam AI's approximate valuation following its Series B funding round?",
+          "options": [
+            "$500 million",
+            "$750 million",
+            "$1 billion",
+            "$1.5 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sarvam AI became India's newest AI unicorn after raising $234 million in its Series B round at a $1.5 billion valuation, led by HCLTech."
+        }
+      ]
+    }
+  ]
+}
