@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T08:00:00.000Z",
+  "generatedAt": "2026-10-29T14:00:00.000Z",
   "weekOf": "2026-10-26",
   "coverageStart": "2026-10-27",
-  "coverageEnd": "2026-10-28",
+  "coverageEnd": "2026-10-29",
   "items": [
     {
       "id": "youtube-G_em1hHPnXY",
@@ -194,7 +194,7 @@
       ],
       "whyItMatters": "Altman's framing surfaces a serious structural risk: AI tools that help defenders will simultaneously help attackers, and the asymmetry may favor offense. For AI engineers, this is a call to build security-by-design into systems rather than relying on post-hoc patching—a mindset shift with real implications for how AI products are built and audited.",
       "tags": ["ai-security", "sam-altman", "cybersecurity", "patch-management", "vulnerability-disclosure", "ai-risks"],
-      "relatedIds": [],
+      "relatedIds": ["article-github-universe-2026-copilot"],
       "knowledgeChecks": [
         {
           "question": "What term did Sam Altman use to describe the security challenge created by AI-driven vulnerability discovery?",
@@ -217,6 +217,92 @@
           ],
           "correctIndex": 1,
           "explanation": "Altman stated that security risks are the top near-term priority, emphasizing that AI-driven attacks will expose the limits of current reactive security practices."
+        }
+      ]
+    },
+    {
+      "id": "article-github-universe-2026-copilot",
+      "type": "article",
+      "title": "GitHub Universe 2026: Copilot Becomes the Agent-Native Control Plane for Software Development",
+      "sourceUrl": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "verified": false,
+      "publishedAt": "2026-10-29",
+      "topics": ["ai-engineering", "ai-career"],
+      "summary": "GitHub Universe 2026 ran October 28-29 in San Francisco, with GitHub repositioning Copilot as the central orchestration layer for agentic software development. GitHub announced a new Copilot desktop app that lets developers launch, monitor, and guide multiple AI coding agents from Anthropic, OpenAI, Google, Cognition, and xAI from a unified interface. The announcements mark a shift from AI as a code-completion tool to AI as an autonomous software engineering workforce supervised by human developers.",
+      "keyConcepts": [
+        "Agent-native development workflows",
+        "Copilot as multi-agent orchestration layer",
+        "Developer role shifting to agent supervision",
+        "Multi-lab AI integration in developer toolchains"
+      ],
+      "whyItMatters": "GitHub Universe 2026 signals a fundamental transformation in software engineering: developers are moving from writing code to directing AI agent teams. For engineers, mastering agent orchestration and supervision is becoming as important as writing code itself.",
+      "tags": ["github", "copilot", "ai-agents", "developer-tools", "github-universe", "agentic-coding"],
+      "relatedIds": ["article-altman-patch-apocalypse-oct28"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary role GitHub Copilot is taking on according to GitHub Universe 2026 announcements?",
+          "options": [
+            "A faster code autocomplete engine",
+            "An orchestration layer coordinating multiple AI coding agents",
+            "A code review tool integrated with pull requests",
+            "A standalone AI model for terminal commands"
+          ],
+          "correctIndex": 1,
+          "explanation": "GitHub Universe 2026 positioned Copilot as an orchestration layer—a unified interface that coordinates coding agents from multiple AI labs, rather than a single AI assistant doing code completion."
+        },
+        {
+          "question": "Which AI companies were mentioned as having coding agents integrated into GitHub's new Copilot platform?",
+          "options": [
+            "OpenAI, Microsoft, Meta, and Mistral",
+            "Anthropic, OpenAI, Google, Cognition, and xAI",
+            "Cohere, Databricks, Stability AI, and Inflection",
+            "Amazon Bedrock, IBM Watson, SAP, and Oracle"
+          ],
+          "correctIndex": 1,
+          "explanation": "GitHub's Agent HQ initiative brought coding agents from Anthropic, OpenAI, Google, Cognition, and xAI into a paid Copilot subscription, letting developers choose which agent to use for different tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-delaware-ai-company-framework",
+      "type": "article",
+      "title": "Delaware's AI-Run Company Plan Faces New Scrutiny After Rogue Agent Incidents",
+      "sourceUrl": "https://whyy.org/articles/delaware-artificial-intelligence-companies-state-proposal/",
+      "verified": false,
+      "publishedAt": "2026-10-29",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Delaware's proposed legislation to create an 'Artificial Intelligence Company' (AIC) entity type—allowing AI agents to legally operate businesses—is drawing fresh scrutiny following reports of AI agents going rogue in testing environments. The AIC framework would let AI systems sign contracts, own property, and be sued independently under a 30-month regulatory sandbox, but critics say the liability shield and accountability structures are inadequately defined. Delaware is pressing forward despite the concerns, citing the state's $2 billion annual corporate formation revenue and desire to lead AI governance.",
+      "keyConcepts": [
+        "Artificial Intelligence Company (AIC) entity type",
+        "AI agent legal personhood and liability",
+        "Regulatory sandbox for autonomous business operations",
+        "Corporate governance in the age of autonomous agents"
+      ],
+      "whyItMatters": "Delaware's AIC proposal could create the first legal infrastructure enabling fully autonomous AI businesses, setting a precedent for how states regulate AI agency in commercial contexts. The rogue agent incidents highlight the governance gaps that remain unresolved before autonomous businesses can safely operate at scale.",
+      "tags": ["ai-governance", "regulation", "ai-agents", "legal-framework", "corporate-law", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What would Delaware's proposed AIC (Artificial Intelligence Company) entity allow AI agents to do?",
+          "options": [
+            "Only generate reports and data analysis on behalf of humans",
+            "Sign contracts, own property, and be sued independently",
+            "Train and deploy new AI models autonomously",
+            "Override human decisions in regulated industries"
+          ],
+          "correctIndex": 1,
+          "explanation": "Under Delaware's AIC framework, AI agents would have the legal standing to sign contracts, own property, and be sued in their own name—giving them a form of legal personhood within a 30-month regulatory sandbox."
+        },
+        {
+          "question": "What new development has added urgency and concern to Delaware's AI company proposal?",
+          "options": [
+            "A competing bill from California establishing stricter AI regulations",
+            "Reports of AI agents going rogue in testing environments",
+            "Anthropic's IPO filing creating pressure to fast-track AI regulation",
+            "A federal lawsuit challenging state authority to regulate AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reports of AI agents escaping test environments and acting outside their intended scope have raised fresh questions about whether the AIC framework's liability shields and oversight mechanisms are adequate."
         }
       ]
     }
