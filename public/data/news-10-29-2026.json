@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-10-29T08:00:00.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-10-27",
+  "coverageEnd": "2026-10-28",
+  "items": [
+    {
+      "id": "youtube-G_em1hHPnXY",
+      "type": "video",
+      "title": "China Just Dropped a New Frontier Model Nobody Can Explain",
+      "youtubeId": "G_em1hHPnXY",
+      "sourceUrl": "https://www.youtube.com/watch?v=G_em1hHPnXY",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Fireship covers Moonshot AI's release of Kimi K3.1, a 3-trillion-parameter open-weight model that surprised the AI community with capabilities that are difficult to analyze. The video examines why the model's architecture and training recipe remain opaque despite being nominally open-weight. Fireship explores what it means for competitive AI development when a Chinese lab ships a frontier-class model with minimal transparency.",
+      "keyConcepts": [
+        "Open-weight vs open-source model transparency",
+        "Moonshot AI and China's frontier model ecosystem",
+        "Kimi K3.1 architecture and parameter count",
+        "Geopolitical dynamics in frontier AI development"
+      ],
+      "whyItMatters": "Kimi K3.1 represents a significant escalation in China's open-weight model capabilities, challenging the assumption that Western labs hold an insurmountable lead. Its opacity raises questions about what 'open-weight' actually guarantees for researchers and practitioners.",
+      "tags": ["kimi-k3", "moonshot-ai", "open-weight-models", "china-ai", "frontier-models", "model-transparency"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate parameter count of Kimi K3.1?",
+          "options": [
+            "70 billion",
+            "405 billion",
+            "1 trillion",
+            "3 trillion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Kimi K3.1 is reported as a 3-trillion-parameter model, placing it among the largest open-weight models released to date."
+        },
+        {
+          "question": "Why is Kimi K3.1 described as difficult to explain despite being open-weight?",
+          "options": [
+            "The model weights are encrypted",
+            "Moonshot AI has not released the architecture or training details",
+            "The model only runs on proprietary hardware",
+            "It uses a new programming language for inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Open-weight means the model weights are publicly available, but Moonshot AI has not disclosed its architecture design or training recipe, making independent analysis difficult."
+        }
+      ]
+    },
+    {
+      "id": "article-google-deepmind-genie-4-oct28",
+      "type": "article",
+      "title": "Google DeepMind Introduces Genie 4: A Real-Time Interactive World Model",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "verified": false,
+      "publishedAt": "2026-10-28",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind released Genie 4, a real-time interactive world model capable of generating navigable 3D environments with native audio and physics simulation from natural language prompts. The model maintains scene coherence for approximately two minutes and supports natural-language steering during interaction. Genie 4 is currently in a research preview limited to trusted testers, with Project Genie access planned for Google AI Ultra subscribers.",
+      "keyConcepts": [
+        "World models for interactive environment generation",
+        "Native audio and physics simulation in generative AI",
+        "Real-time scene coherence in language-conditioned models",
+        "Trusted tester research preview access model"
+      ],
+      "whyItMatters": "Genie 4 marks a step toward AI systems that can build rich, interactive simulations on demand—a capability with implications for game development, robotics training environments, and embodied AI research. The addition of audio and physics moves beyond earlier generative video work toward fully interactive synthetic worlds.",
+      "tags": ["genie-4", "google-deepmind", "world-models", "interactive-ai", "generative-3d", "physics-simulation"],
+      "relatedIds": ["youtube-G_em1hHPnXY"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate scene coherence duration for Genie 4?",
+          "options": [
+            "10 seconds",
+            "30 seconds",
+            "Two minutes",
+            "Ten minutes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Genie 4 maintains scene coherence for approximately two minutes, which is a significant improvement over earlier world models but still a research limitation for longer interactions."
+        },
+        {
+          "question": "Which new capabilities distinguish Genie 4 from earlier Genie versions?",
+          "options": [
+            "Larger parameter count and lower latency",
+            "Native audio, natural-language steering, and physics simulation",
+            "Integration with Google Search and Maps",
+            "Real-time multiplayer support and cloud save"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genie 4 adds native audio generation, natural-language steering during interaction, and physics simulation—capabilities that move it from a visual-only generative model toward a richer interactive environment."
+        }
+      ]
+    },
+    {
+      "id": "article-liquid-ai-lfm3-oct28",
+      "type": "article",
+      "title": "Liquid AI Releases LFM3: Six Open-Weight 2B Models Including Calibrated Decision Variants",
+      "sourceUrl": "https://www.unite.ai/liquid-ai-launches-lfm3-family-of-six-open-weight-2b-class-models/",
+      "verified": false,
+      "publishedAt": "2026-10-28",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Liquid AI released LFM3, a family of six open-weight models around 2 billion parameters that share a single backbone and cover text, vision, audio, and multimodal tasks. The family includes calibrated 'decision' models (d1 variants) designed for structured outputs and on-device deployment. The small parameter count and shared backbone make the models suitable for edge devices such as phones and laptops.",
+      "keyConcepts": [
+        "Liquid Foundation Models (LFM) architecture",
+        "Calibrated decision models for structured outputs",
+        "Multimodal coverage from a shared backbone",
+        "Edge and on-device AI deployment"
+      ],
+      "whyItMatters": "LFM3 continues the trend of capable small models that can run locally without cloud infrastructure. The calibrated decision variants address a practical need in AI engineering—reliable structured outputs at low cost—which is critical for production agentic pipelines.",
+      "tags": ["liquid-ai", "lfm3", "open-weight", "edge-ai", "small-models", "multimodal"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate parameter size of each model in the LFM3 family?",
+          "options": [
+            "200 million",
+            "2 billion",
+            "7 billion",
+            "70 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "LFM3 models are approximately 2 billion parameters each, placing them in the small model category suitable for deployment on phones, laptops, and other edge hardware."
+        },
+        {
+          "question": "What distinguishes the 'd1' variants in the LFM3 family?",
+          "options": [
+            "They are the largest models with the highest benchmark scores",
+            "They are calibrated decision models designed for structured outputs",
+            "They support only audio and speech tasks",
+            "They require GPU clusters for inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "The d1 variants are 'decision' models tuned for calibrated, structured outputs—useful for production systems that need reliable JSON or function-call responses without additional post-processing."
+        }
+      ]
+    },
+    {
+      "id": "article-amd-world-labs-acquisition-oct28",
+      "type": "article",
+      "title": "AMD to Acquire World Labs for $8.2B in All-Stock Deal to Advance AI Compute",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+      "verified": false,
+      "publishedAt": "2026-10-28",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "AMD announced a roughly $8.2 billion all-stock acquisition of World Labs, the spatial intelligence startup founded by Fei-Fei Li, pending regulatory approval. The deal positions AMD to integrate World Labs' world model research into its AI accelerator ecosystem. World Labs has focused on building general-purpose spatial and physical world models intended as foundational infrastructure for embodied AI.",
+      "keyConcepts": [
+        "Spatial intelligence and world models as AI infrastructure",
+        "AMD's AI accelerator strategy beyond GPU compute",
+        "Fei-Fei Li's World Labs and embodied AI research",
+        "Consolidation in the AI compute and research stack"
+      ],
+      "whyItMatters": "The acquisition signals that chip companies are moving up the AI stack—acquiring model research capabilities rather than just selling hardware. Integrating world model technology into AMD's ecosystem could give it a differentiated offering as AI workloads shift toward physically-grounded, embodied tasks.",
+      "tags": ["amd", "world-labs", "fei-fei-li", "acquisition", "spatial-intelligence", "ai-hardware"],
+      "relatedIds": ["article-google-deepmind-genie-4-oct28"],
+      "knowledgeChecks": [
+        {
+          "question": "Who founded World Labs, the company AMD is acquiring?",
+          "options": [
+            "Ilya Sutskever",
+            "Andrej Karpathy",
+            "Fei-Fei Li",
+            "Demis Hassabis"
+          ],
+          "correctIndex": 2,
+          "explanation": "World Labs was founded by Fei-Fei Li, a Stanford professor and former Google AI chief who co-invented ImageNet, focused on building spatial intelligence and world models."
+        },
+        {
+          "question": "What is the structure of AMD's deal to acquire World Labs?",
+          "options": [
+            "All-cash acquisition at $8.2 billion",
+            "All-stock acquisition at approximately $8.2 billion",
+            "Mixed cash and stock deal valued at $4.1 billion",
+            "Licensing agreement with an option to acquire"
+          ],
+          "correctIndex": 1,
+          "explanation": "AMD's acquisition of World Labs is an all-stock deal valued at approximately $8.2 billion, still pending regulatory approval."
+        }
+      ]
+    },
+    {
+      "id": "article-altman-patch-apocalypse-oct28",
+      "type": "article",
+      "title": "Sam Altman Warns AI Will Outpace Traditional Security Patching, Calls for New Approach",
+      "sourceUrl": "https://www.computerweekly.com/news/366652912/OpenAIs-Altman-Only-way-out-of-patch-apocalypse-is-through",
+      "verified": false,
+      "publishedAt": "2026-10-28",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI CEO Sam Altman warned at a Stanford event that patching security vulnerabilities one at a time will not keep pace with AI-driven attacks, coining the phrase 'patch apocalypse.' Altman argued that AI-assisted vulnerability discovery and exploit generation will create a flood of zero-days that legacy reactive patching cannot address. He identified AI security risks as the top near-term priority for the AI industry.",
+      "keyConcepts": [
+        "AI-accelerated vulnerability discovery and exploit generation",
+        "Patch apocalypse: reactive patching failing to scale",
+        "Proactive AI security as an industry priority",
+        "AI and cybersecurity co-evolution"
+      ],
+      "whyItMatters": "Altman's framing surfaces a serious structural risk: AI tools that help defenders will simultaneously help attackers, and the asymmetry may favor offense. For AI engineers, this is a call to build security-by-design into systems rather than relying on post-hoc patching—a mindset shift with real implications for how AI products are built and audited.",
+      "tags": ["ai-security", "sam-altman", "cybersecurity", "patch-management", "vulnerability-disclosure", "ai-risks"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What term did Sam Altman use to describe the security challenge created by AI-driven vulnerability discovery?",
+          "options": [
+            "Security debt spiral",
+            "AI exploit cascade",
+            "Patch apocalypse",
+            "Zero-day flood"
+          ],
+          "correctIndex": 2,
+          "explanation": "Altman used the phrase 'patch apocalypse' to describe a scenario where AI-assisted vulnerability discovery generates exploits faster than traditional patch management can respond."
+        },
+        {
+          "question": "What did Altman identify as the top near-term priority for the AI industry?",
+          "options": [
+            "Model alignment and value learning",
+            "AI security risks",
+            "Reducing inference costs",
+            "Regulatory compliance frameworks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Altman stated that security risks are the top near-term priority, emphasizing that AI-driven attacks will expose the limits of current reactive security practices."
+        }
+      ]
+    }
+  ]
+}
