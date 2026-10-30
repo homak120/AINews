@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-10-30T00:00:00.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-10-29",
+  "coverageEnd": "2026-10-30",
+  "items": [
+    {
+      "id": "article-mistral-large-4-oct31-weights",
+      "type": "article",
+      "title": "Mistral Large 4 Open Weights Slated to Drop October 31",
+      "sourceUrl": "https://aiweekly.co/alerts/mistrals-1t-parameter-large-4-slated-for-october-31-drop",
+      "verified": false,
+      "publishedAt": "2026-10-29",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Mistral AI is set to release open weights for Mistral Large 4 on October 31, 2026. The model features 1.05 trillion total parameters in a mixture-of-experts architecture with approximately 49 billion active parameters per token. Mistral has been red-teaming the model with cybersecurity partners and vetted state authorities ahead of the public weight release.",
+      "keyConcepts": [
+        "Mixture-of-experts (MoE) architecture with sparse activation",
+        "Open-weight model release under a custom license",
+        "1.05T total parameters, ~49B active per token",
+        "Red-teaming with cybersecurity partners before release"
+      ],
+      "whyItMatters": "Mistral Large 4 would be the first open-weight trillion-parameter model from a Western lab, significantly shifting the competitive balance between closed and open AI development and giving researchers and enterprises direct model access.",
+      "tags": ["mistral", "open-weights", "large-language-models", "mixture-of-experts", "european-ai", "model-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate number of active parameters per token in Mistral Large 4?",
+          "options": [
+            "1.05 trillion",
+            "100 billion",
+            "49 billion",
+            "7 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mistral Large 4 uses a mixture-of-experts architecture with 1.05 trillion total parameters but only about 49 billion active per token. MoE models activate only a subset of parameters for each inference, making them more efficient than dense models of the same total size."
+        },
+        {
+          "question": "Which aspect of Mistral Large 4 makes it particularly significant for the AI industry?",
+          "options": [
+            "It is only available through a paid API with no open access",
+            "It is the first Western open-weight model at the trillion-parameter scale",
+            "It was trained exclusively on cybersecurity data",
+            "It surpasses all proprietary models on every benchmark"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mistral Large 4 is notable primarily because it is the first open-weight trillion-parameter model from a Western AI lab. While Chinese labs have released large open models, this represents a major milestone for European AI and open-source development at frontier scale."
+        }
+      ]
+    },
+    {
+      "id": "article-github-agentic-prs-surge-28fold",
+      "type": "article",
+      "title": "GitHub Agentic Pull Requests Surge 28-Fold in Ten Months",
+      "sourceUrl": "https://ai2.work/blog/github-agentic-pull-requests-surge-28-fold-in-ten-months",
+      "verified": false,
+      "publishedAt": "2026-10-29",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "GitHub reports that agentic pull requests—where AI coding agents autonomously write and submit code changes—have surged 28-fold in just ten months. The platform is now processing approximately 275 million AI-generated commits per week, creating significant infrastructure strain. GitHub has launched new tools including Agent HQ and Stacked PRs to manage the accelerating volume of agent-generated contributions.",
+      "keyConcepts": [
+        "Agentic pull requests initiated by AI coding agents",
+        "GitHub Agent HQ for orchestrating third-party coding agents",
+        "Stacked PRs for breaking large agent-generated changes into reviewable pieces",
+        "275 million AI-generated commits per week and rising"
+      ],
+      "whyItMatters": "A 28-fold surge in AI-generated code contributions in under a year signals that software agents are rapidly becoming dominant contributors on major platforms, fundamentally reshaping code review practices, quality assurance workflows, and the role of human engineers.",
+      "tags": ["github", "ai-coding", "software-agents", "agentic-ai", "developer-tools", "pull-requests"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new GitHub feature was launched to manage large batches of agent-generated changes?",
+          "options": [
+            "GitHub Copilot Enterprise",
+            "Agent HQ",
+            "Stacked PRs",
+            "GitHub Actions Max"
+          ],
+          "correctIndex": 2,
+          "explanation": "GitHub introduced Stacked PRs specifically to break large agent-generated code changes into smaller, reviewable pieces. This helps human developers review and merge agent output without being overwhelmed by massive diffs that are hard to audit."
+        },
+        {
+          "question": "How many AI-generated commits per week is GitHub processing as of late October 2026?",
+          "options": [
+            "About 1 million",
+            "About 10 million",
+            "About 100 million",
+            "About 275 million"
+          ],
+          "correctIndex": 3,
+          "explanation": "GitHub COO Kyle Daigle reported approximately 275 million AI-generated commits per week by late 2026, compared with roughly 1 billion for all of 2025. At this pace, 2026 could see around 14 billion AI-generated commits—a historic transformation of how code gets written."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-election-safeguards-nov3-midterms",
+      "type": "article",
+      "title": "OpenAI Activates Election Safeguards Ahead of November 3 Midterms",
+      "sourceUrl": "https://cyberscoop.com/openai-2026-election-security-plans/",
+      "verified": false,
+      "publishedAt": "2026-10-29",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "With U.S. midterm elections four days away on November 3, OpenAI has activated a suite of election safeguards across its platforms. The measures include real-time AP vote count integration, SynthID watermark detection for AI-generated content, C2PA metadata surfacing, and enforcement of policies against AI-generated political disinformation. OpenAI is also supporting legislation to prohibit materially deceptive AI-generated content about federal candidates.",
+      "keyConcepts": [
+        "SynthID watermarking for detecting AI-generated content",
+        "C2PA (Content Provenance and Authenticity) metadata standards",
+        "AI-generated political disinformation policies",
+        "Election interference safeguards for the 2026 midterms"
+      ],
+      "whyItMatters": "As generative AI capabilities reach mass accessibility, the safeguards major AI platforms put in place directly affect electoral integrity. OpenAI's approach—combining technical provenance tools with policy enforcement—sets a precedent for how AI companies govern election-related misuse at scale.",
+      "tags": ["openai", "election-safety", "disinformation", "synthid", "c2pa", "ai-policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the purpose of C2PA metadata in OpenAI's election safeguards?",
+          "options": [
+            "To encrypt political messaging on social media",
+            "To surface content provenance and authenticity information",
+            "To automatically remove AI-generated political content",
+            "To track voter registration data"
+          ],
+          "correctIndex": 1,
+          "explanation": "C2PA (Coalition for Content Provenance and Authenticity) is an open standard for embedding verifiable metadata about a piece of content's origin and history. OpenAI surfaces this metadata to help users identify whether content was AI-generated, supporting informed evaluation of political material."
+        },
+        {
+          "question": "Which organization provides the live vote count data that OpenAI integrates during election night?",
+          "options": [
+            "Reuters",
+            "The New York Times",
+            "Associated Press",
+            "NBC News"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI integrated real-time vote count data from the Associated Press (AP), which has been the authoritative source for U.S. election results for over a century. This allows OpenAI's platforms to surface accurate, real-time results rather than potentially misleading AI-generated speculation."
+        }
+      ]
+    }
+  ]
+}
