@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-30T00:00:00.000Z",
+  "generatedAt": "2026-10-30T17:15:00.000Z",
   "weekOf": "2026-10-26",
-  "coverageStart": "2026-10-29",
-  "coverageEnd": "2026-10-30",
+  "coverageStart": "2026-10-27",
+  "coverageEnd": "2026-10-29",
   "items": [
     {
       "id": "article-mistral-large-4-oct31-weights",
@@ -133,6 +133,92 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI integrated real-time vote count data from the Associated Press (AP), which has been the authoritative source for U.S. election results for over a century. This allows OpenAI's platforms to surface accurate, real-time results rather than potentially misleading AI-generated speculation."
+        }
+      ]
+    },
+    {
+      "id": "article-genie4-world-model-oct27",
+      "type": "article",
+      "title": "Google DeepMind Unveils Genie 4: Real-Time World Model With Native Audio",
+      "sourceUrl": "https://www.freepressjournal.in/tech/google-deepmind-unveils-genie-4-for-real-time-ai-worlds-with-built-in-audio",
+      "verified": false,
+      "publishedAt": "2026-10-27",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind announced Genie 4 on October 27, 2026, as a research preview for trusted testers. Genie 4 is Google's first real-time world model that generates audio natively alongside its visual environments—including music, ambient sound, and dialogue. Users provide a text or image prompt and receive a photorealistic, interactive world they can modify in real time by typing new prompts while the simulation runs.",
+      "keyConcepts": [
+        "Real-time world model generating interactive 3D environments from text/image prompts",
+        "Native audio generation (music, ambient sound, dialogue) within the simulation",
+        "Live scene editing—users can change environments while the simulation runs",
+        "Research preview access initially limited to trusted testers before broader rollout"
+      ],
+      "whyItMatters": "Genie 4 advances generative world models from static scene generation to live, interactive experiences with synchronized audio, opening new possibilities for AI-driven game development, simulation, and embodied AI research—while Google positions it as a stepping stone toward more general world modeling.",
+      "tags": ["genie-4", "google-deepmind", "world-model", "generative-ai", "audio-generation", "real-time-simulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Genie 4 from earlier Google world models like Genie 2?",
+          "options": [
+            "Genie 4 runs on mobile devices without a GPU",
+            "Genie 4 natively generates audio alongside the visual environment",
+            "Genie 4 requires no text prompts—it generates worlds autonomously",
+            "Genie 4 produces only 2D environments, not 3D"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genie 4 is described as Google's first real-time world model with native audio generation, producing music, ambient sound, and dialogue as integral parts of the simulation. Earlier Genie models focused primarily on visual world generation without synchronized native audio."
+        },
+        {
+          "question": "What type of access was Genie 4 offered at launch in October 2026?",
+          "options": [
+            "Fully public via the Gemini app for all users",
+            "Open-source weights on Hugging Face",
+            "Research preview limited to trusted testers",
+            "Paid API access available to all developers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google DeepMind released Genie 4 as a research preview for trusted testers, meaning access was intentionally restricted to a curated group. Broader rollout—including planned availability for AI Ultra subscribers via Project Genie—was not yet live at launch."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini4-carbon-frontier-oct28",
+      "type": "article",
+      "title": "Google DeepMind Launches Gemini 4 Carbon, Claims Top Score on AI Intelligence Index",
+      "sourceUrl": "https://cryptobriefing.com/gemini-4-carbon-secures-top-spots-in-ai-arenas-showcases-potential/",
+      "verified": false,
+      "publishedAt": "2026-10-28",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google DeepMind announced Gemini 4 Carbon on October 28, 2026, positioning it as a new frontier model targeting cybersecurity and long-horizon reasoning. According to Google, Carbon scored 59 on the Artificial Analysis Intelligence Index v5.0, placing it ahead of Claude Opus 5.5 and GPT-6 Astra. Initial access is limited to selected cybersecurity defenders, with broader rollout to follow.",
+      "keyConcepts": [
+        "Artificial Analysis Intelligence Index v5.0—a multi-benchmark aggregate ranking",
+        "Long-horizon task capability and complex multi-step reasoning",
+        "Cybersecurity-focused initial access rollout to vetted defenders",
+        "Frontier model competition between Google, Anthropic, and OpenAI"
+      ],
+      "whyItMatters": "Gemini 4 Carbon's claimed top ranking on a third-party aggregate benchmark signals that Google is mounting a serious competitive challenge at the frontier, two weeks after releasing Gemini 4 Argon—an unusually fast release cadence that intensifies pressure on Anthropic and OpenAI to respond.",
+      "tags": ["gemini-4", "google-deepmind", "frontier-model", "cybersecurity", "benchmarks", "ai-competition"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which benchmark did Google use to claim Gemini 4 Carbon's top ranking at launch?",
+          "options": [
+            "MMLU Pro",
+            "HumanEval",
+            "Artificial Analysis Intelligence Index v5.0",
+            "BIG-Bench Hard"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google cited the Artificial Analysis Intelligence Index v5.0, a third-party aggregate benchmark that combines many capability evaluations into a single composite score. Carbon reportedly scored 59, placing it ahead of competing frontier models. Aggregate indices can obscure trade-offs between specific capability dimensions, so independent replication matters."
+        },
+        {
+          "question": "Who received early access to Gemini 4 Carbon at launch?",
+          "options": [
+            "All Google One subscribers",
+            "Developers with a Gemini API key",
+            "Selected cybersecurity defenders",
+            "Academic researchers via Google Scholar"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google limited initial Gemini 4 Carbon access to selected cybersecurity defenders, reflecting the model's focus on security use cases such as vulnerability research and threat analysis. This gated rollout mirrors Google's approach to other specialized model launches."
         }
       ]
     }
