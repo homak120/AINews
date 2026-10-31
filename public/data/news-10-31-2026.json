@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-10-31T12:00:00.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-10-30",
+  "coverageEnd": "2026-10-31",
+  "items": [
+    {
+      "id": "article-mistral-large-4-weights-oct31",
+      "type": "article",
+      "title": "Mistral Large 4 Drops 1-Trillion-Parameter Open Weights Today",
+      "sourceUrl": "https://aiweekly.co/alerts/mistrals-1t-parameter-large-4-slated-for-october-31-drop",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Mistral AI is releasing open weights for its flagship Large 4 model today (October 31), fulfilling a promise made at the model's October 6 public preview launch. The 1-trillion-parameter mixture-of-experts model — nicknamed 'Le Chonk' — has approximately 52 billion active parameters and focuses on cybersecurity applications. The weights ship under a custom license rather than the Apache 2.0 used by Mistral Large 3.",
+      "keyConcepts": [
+        "Mistral Large 4 (Le Chonk)",
+        "open-weight model release",
+        "mixture-of-experts architecture",
+        "cybersecurity-focused LLM"
+      ],
+      "whyItMatters": "A European lab dropping a 1T-parameter open-weight model directly challenges closed-source frontier systems, giving developers and researchers access to a top-tier cybersecurity-focused LLM without API dependency.",
+      "tags": ["mistral", "open-weights", "large-language-model", "cybersecurity", "mixture-of-experts", "european-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What nickname was given to Mistral Large 4?",
+          "options": ["Le Grand", "Le Chonk", "MistralMax", "Frontier-EU"],
+          "correctIndex": 1,
+          "explanation": "Mistral nicknamed its 1-trillion-parameter model 'Le Chonk' — a playful nod to its massive size compared to leaner models."
+        },
+        {
+          "question": "How many parameters are active at any given time in Mistral Large 4's mixture-of-experts design?",
+          "options": ["1 trillion", "200 billion", "approximately 52 billion", "7 billion"],
+          "correctIndex": 2,
+          "explanation": "Despite having ~1 trillion total parameters, only about 52 billion are active per token due to the MoE routing mechanism, keeping inference costs tractable."
+        }
+      ]
+    },
+    {
+      "id": "article-black-october-ai-cyberattacks",
+      "type": "article",
+      "title": "AI-Powered 'Black October' Cyberattacks Hit Cloud Systems in Hours",
+      "sourceUrl": "https://www.foxnews.com/tech/ai-powered-cyberattacks-fuel-black-october-fears",
+      "verified": false,
+      "publishedAt": "2026-10-30",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Security researchers are tracking a wave of AI-powered cyberattacks in October 2026, with US banks working to contain rogue AI agents accessing accounts. One startup founder reported $449 in unexpected charges after API keys were stolen and exploited during what observers are calling 'Black October.' The attacks leverage AI for autonomous, rapid targeting of cloud infrastructure at a scale previously requiring large human teams.",
+      "keyConcepts": [
+        "AI-powered cyberattacks",
+        "rogue AI agents",
+        "API key security",
+        "autonomous threat actors"
+      ],
+      "whyItMatters": "Black October demonstrates the dual-use reality of agentic AI: the same autonomous capabilities that accelerate legitimate workflows can be weaponized for rapid, scalable attacks — putting AI security hygiene at the top of every team's priority list.",
+      "tags": ["cybersecurity", "ai-agents", "api-security", "cloud-security", "black-october", "ai-threats"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What term have security researchers coined for the wave of AI-powered attacks in October 2026?",
+          "options": ["AI Storm", "Black October", "Operation Rogue", "DeepStrike"],
+          "correctIndex": 1,
+          "explanation": "'Black October' describes a surge of AI-powered cyberattacks targeting cloud systems and financial institutions throughout October 2026."
+        },
+        {
+          "question": "What financial harm did one startup founder experience during these AI-powered attacks?",
+          "options": ["$449 in unexpected API charges from stolen keys", "$44,900 wired to attackers", "Loss of $4.49M in equity", "A $449 ransom demand"],
+          "correctIndex": 0,
+          "explanation": "Attackers stole the founder's API keys and exploited them to generate $449 in charges from major AI providers, illustrating the financial risk of exposed credentials."
+        }
+      ]
+    },
+    {
+      "id": "article-reddit-public-api-ends",
+      "type": "article",
+      "title": "Reddit Closes New Public API Access Today to Block AI Scrapers",
+      "sourceUrl": "https://decrypt.co/379892/reddit-killing-rss-feeds-and-public-api-access-to-fight-ai-scrapers",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "topics": ["ai-industry"],
+      "summary": "Reddit shuts its window for new public API registrations today (October 31, 2026), a move explicitly targeting automated AI scrapers. Existing API users can retain access until January 2027 by registering through Reddit's Developer Platform, while RSS feeds are cut on November 13 and all remaining public API access ends by March 2027. Licensed AI partners such as Google and OpenAI keep their data agreements.",
+      "keyConcepts": [
+        "Reddit public API shutdown",
+        "AI data scraping",
+        "developer platform registration deadline",
+        "AI training data licensing"
+      ],
+      "whyItMatters": "Reddit's closure accelerates the shift to paid AI data licensing, potentially disrupting RAG pipelines, social listening tools, and research that relied on free public Reddit data — a pattern likely to repeat across major platforms.",
+      "tags": ["reddit", "api-access", "ai-data", "web-scraping", "rag", "data-licensing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Reddit's primary stated reason for ending public API access?",
+          "options": [
+            "To improve performance for mobile users",
+            "To prevent automated AI scraping of its content",
+            "To comply with GDPR data regulations",
+            "To reduce server infrastructure costs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reddit explicitly cited automated AI scraping as the driver — it wants AI companies to license data commercially rather than take it for free through the public API."
+        },
+        {
+          "question": "When does all remaining public API access end for non-licensed users?",
+          "options": ["October 31, 2026", "November 13, 2026", "January 12, 2027", "March 2027"],
+          "correctIndex": 3,
+          "explanation": "March 2027 is the final cutoff for all remaining public API access. October 31 closes new registrations, January 12 begins removal of non-registered apps, and November 13 is when RSS feeds are disabled."
+        }
+      ]
+    },
+    {
+      "id": "article-dartmouth-ai-70-conference",
+      "type": "article",
+      "title": "Dartmouth's AI@70 Conference Asks 'What Must Remain Human?' at AI's Birthplace",
+      "sourceUrl": "https://ai.dartmouth.edu/ai-70-what-must-remain-human",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Dartmouth College's 'AI @70: What Must Remain Human?' conference concludes today (October 31), marking the 70th anniversary of the 1956 Dartmouth Summer Research Project that coined the term 'artificial intelligence.' Researchers, developers, and institutional leaders gathered in Hanover, NH from October 29–31 to examine where AI should augment human judgment and where human agency must stay primary. A student hackathon ran alongside the main program.",
+      "keyConcepts": [
+        "AI @70 anniversary",
+        "1956 Dartmouth Summer Research Project",
+        "human-AI collaboration boundaries",
+        "AI governance and values"
+      ],
+      "whyItMatters": "Convening at the literal birthplace of AI, this event surfaces the deepest questions about agency and judgment right as AI systems approach and test human-level performance across many domains — making the 'what must remain human?' question urgently practical, not merely philosophical.",
+      "tags": ["ai-history", "dartmouth", "ai-ethics", "human-ai-collaboration", "anniversary", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What year did the Dartmouth workshop that coined 'artificial intelligence' take place?",
+          "options": ["1946", "1950", "1956", "1963"],
+          "correctIndex": 2,
+          "explanation": "The Dartmouth Summer Research Project on Artificial Intelligence was held in 1956. Organized by John McCarthy, Marvin Minsky, Claude Shannon and others, it is widely considered the founding event of AI as a research field."
+        },
+        {
+          "question": "What is the central question posed by Dartmouth's AI@70 conference theme?",
+          "options": [
+            "When will AI achieve AGI?",
+            "What must remain human?",
+            "How much should AI cost?",
+            "Which countries should regulate AI?"
+          ],
+          "correctIndex": 1,
+          "explanation": "The full conference title is 'AI @70: What Must Remain Human?' — it focuses on identifying the domains of judgment, creativity, and agency where human involvement should be preserved even as AI capabilities grow."
+        }
+      ]
+    }
+  ]
+}
