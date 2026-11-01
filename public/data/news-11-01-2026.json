@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-11-01T00:00:00.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-10-30",
+  "coverageEnd": "2026-11-01",
+  "items": [
+    {
+      "id": "article-ai-crawling-opt-out-standard-oct30",
+      "type": "article",
+      "title": "Google, Anthropic, OpenAI, and Microsoft Back Unified AI Crawling Opt-Out Standard",
+      "sourceUrl": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard",
+      "verified": false,
+      "publishedAt": "2026-10-30",
+      "topics": ["ai-industry"],
+      "summary": "Four major AI companies — Google, Anthropic, OpenAI, and Microsoft — announced support for a single robots.txt-style mechanism that allows website publishers to block AI training crawlers. Implementation timelines vary significantly: Anthropic says it has already started, OpenAI plans to act within months, while Google and Microsoft have committed to 2027 dates. The initiative is designed to replace the current patchwork of individual opt-out protocols each company maintains separately.",
+      "keyConcepts": [
+        "AI training data crawling",
+        "robots.txt opt-out protocol",
+        "publisher consent mechanisms",
+        "multi-company industry standards"
+      ],
+      "whyItMatters": "A unified opt-out standard could shift the legal and ethical landscape for AI training data, but divergent rollout timelines mean publishers will remain in a gray zone for years. The move also signals that AI companies face increasing pressure from content creators to formalize consent.",
+      "tags": ["ai-policy", "web-crawling", "training-data", "content-rights", "industry-standards", "google", "anthropic", "openai"],
+      "relatedIds": ["article-ai-scraping-opt-out-risk-oct31"],
+      "knowledgeChecks": [
+        {
+          "question": "What mechanism are the major AI companies agreeing to support for content opt-out?",
+          "options": [
+            "A paid licensing system through a central registry",
+            "Individual API endpoints per publisher",
+            "A robots.txt-style unified opt-out protocol",
+            "A blockchain-based consent ledger"
+          ],
+          "correctIndex": 2,
+          "explanation": "The companies are supporting a single robots.txt-style mechanism — a file that site owners can update to block AI training crawlers, similar to how search engine crawlers are already managed."
+        },
+        {
+          "question": "Which company has committed the latest timeline for implementing the new opt-out standard?",
+          "options": [
+            "Anthropic",
+            "OpenAI",
+            "Google",
+            "All committed to the same date"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google stated it would implement the standard in 2027, which is the latest of the four companies. Anthropic has already started, OpenAI said 'coming months,' and Microsoft committed to February 2027."
+        }
+      ]
+    },
+    {
+      "id": "article-goldman-sachs-ai-layoffs-oct30",
+      "type": "article",
+      "title": "Goldman Sachs: AI Layoffs Leaving Long-Lasting Scars on Displaced Workers",
+      "sourceUrl": "https://www.kmob1003.com/2026/10/30/ai-layoffs-goldman-sachs-displaced-workers/",
+      "verified": false,
+      "publishedAt": "2026-10-30",
+      "topics": ["ai-career"],
+      "summary": "A new Goldman Sachs research note finds that workers laid off from AI-exposed jobs face significantly worse re-employment outcomes than typical tech layoffs. Displaced workers in AI-impacted roles are roughly 10 percentage points more likely to still be unemployed a full year after losing their jobs. The note warns these lasting economic scars could intensify if a broader recession triggers a second wave of automation-driven layoffs.",
+      "keyConcepts": [
+        "AI-driven labor displacement",
+        "long-term unemployment rates",
+        "AI-exposed job categories",
+        "re-employment difficulty"
+      ],
+      "whyItMatters": "This research puts hard numbers on what had been anecdotal: AI-related layoffs are not like typical tech downturns where workers quickly find equivalent roles. For anyone in knowledge-work roles, understanding which skills are AI-exposed is now a concrete career-planning concern.",
+      "tags": ["ai-jobs", "layoffs", "labor-market", "goldman-sachs", "workforce", "economic-impact"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Goldman Sachs, how much more likely are AI-displaced workers to still be unemployed after one year compared to typical tech layoffs?",
+          "options": [
+            "About 2 percentage points more likely",
+            "About 5 percentage points more likely",
+            "About 10 percentage points more likely",
+            "About 25 percentage points more likely"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Goldman Sachs note found workers displaced from AI-exposed jobs were roughly 10 percentage points more likely to remain unemployed a full year later, suggesting these layoffs are qualitatively different from typical tech-sector contractions."
+        },
+        {
+          "question": "What does the Goldman Sachs report suggest could trigger a second and more severe wave of AI-related layoffs?",
+          "options": [
+            "A major new AI model release",
+            "A broader economic recession",
+            "Government AI regulation",
+            "Increased AI compute costs"
+          ],
+          "correctIndex": 1,
+          "explanation": "The report warns that a broader recession could accelerate automation adoption as companies cut costs, potentially triggering a more severe second wave of AI-driven displacement on top of the current trend."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-scraping-opt-out-risk-oct31",
+      "type": "article",
+      "title": "AI Scraping Opt-Out Standard: The Surprising Risk for Publishers",
+      "sourceUrl": "https://www.progressiverobot.com/2026/10/31/ai-scraping-opt-out-publishers/",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "topics": ["ai-industry"],
+      "summary": "While Google, Anthropic, OpenAI, and Microsoft's new unified AI crawling opt-out standard was widely praised, a new analysis argues publishers may be taking on unexpected risk. By formally opting out, publishers signal their content is not available for training — but companies can continue using already-scraped archives and licensed data under separate agreements. The piece argues that a formal opt-out may actually reduce publishers' legal leverage rather than increase it.",
+      "keyConcepts": [
+        "robots.txt opt-out",
+        "pre-scraped data archives",
+        "publisher legal strategy",
+        "training data licensing"
+      ],
+      "whyItMatters": "Publishers and content creators weighing whether to opt out of AI crawling need to understand that the legal and practical effects may not be as protective as assumed. The analysis highlights a gap between the intent and the actual legal outcome of the new standard.",
+      "tags": ["ai-policy", "content-rights", "publishing", "training-data", "legal-risk", "media"],
+      "relatedIds": ["article-ai-crawling-opt-out-standard-oct30"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the main unintended risk the analysis identifies for publishers who formally opt out of AI crawling?",
+          "options": [
+            "They lose ad revenue from AI-powered recommendation engines",
+            "Opting out may reduce their legal leverage over already-scraped content",
+            "It blocks search engine indexing as well as AI crawlers",
+            "It makes their content ineligible for AI-generated summaries"
+          ],
+          "correctIndex": 1,
+          "explanation": "The analysis argues that formally opting out of future crawling doesn't affect existing scraped archives, and may actually complicate legal claims by signaling the publisher's concerns were addressed — even though past scraping isn't covered."
+        },
+        {
+          "question": "Why might opting into the new standard NOT protect a publisher from past AI training data use?",
+          "options": [
+            "The opt-out only applies to future crawling, not already-scraped content",
+            "AI companies are exempt from opt-out requirements for archived content",
+            "The standard explicitly allows reuse of content older than 2 years",
+            "The standard only applies to images, not text"
+          ],
+          "correctIndex": 0,
+          "explanation": "The opt-out mechanism governs future crawling behavior. AI companies retain the right to use content already in their training datasets or licensed through separate arrangements, which constitutes most of the historical web."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-cuts-funding-target-oct31",
+      "type": "article",
+      "title": "OpenAI Raises $11.5B at $1.25T Valuation as Investor Confidence in AI Cools",
+      "sourceUrl": "https://benzinga.com/markets/tech/26/10/62763209/openai-cuts-funding-target-ai-selloff",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "OpenAI closed a funding round at $11.5 billion, well below its original $20-30 billion target, as a broader tech selloff driven by AI infrastructure spending concerns hit investor appetite. The company's valuation settled at $1.25 trillion, down from the $1.4 trillion the round initially sought. The fundraising comes amid intensifying questions about when AI investments will generate returns, with ChatGPT's market share reportedly declining through 2026.",
+      "keyConcepts": [
+        "AI company valuations",
+        "venture capital sentiment",
+        "AI infrastructure spending concerns",
+        "ChatGPT market share"
+      ],
+      "whyItMatters": "OpenAI trimming its funding target signals a broader shift in how investors view AI company valuations at a time when infrastructure costs continue to grow and profitability timelines remain unclear. This comes as Anthropic prepares its own IPO, creating a high-stakes market test for AI business models.",
+      "tags": ["openai", "funding", "ai-valuation", "venture-capital", "market", "ai-bubble"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What happened to OpenAI's fundraising target compared to its initial goal?",
+          "options": [
+            "It exceeded its target, raising $35 billion",
+            "It met its target exactly at $20 billion",
+            "It raised $11.5 billion, well below its $20-30 billion target",
+            "It canceled the round entirely"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI closed the round at $11.5 billion, significantly below its original $20-30 billion target. The shortfall reflects cooling investor enthusiasm amid broader concerns about AI infrastructure spending and profitability timelines."
+        },
+        {
+          "question": "What broader market trend is cited as contributing to reduced investor appetite for OpenAI's round?",
+          "options": [
+            "Rising interest rates making venture capital more expensive",
+            "A tech selloff driven by fears over massive AI infrastructure spending",
+            "Competition from open-source AI models reducing commercial valuations",
+            "Regulatory crackdowns on AI company fundraising"
+          ],
+          "correctIndex": 1,
+          "explanation": "A broad tech market selloff stemming from investor worries about whether the hundreds of billions in AI infrastructure spending will generate adequate returns helped reduce demand for OpenAI's fundraising round."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-codex-unified-pool-nov1",
+      "type": "article",
+      "title": "OpenAI to Merge ChatGPT and Codex Usage Pools Starting December 2026",
+      "sourceUrl": "https://startupfortune.com/openai-will-make-chatgpt-work-and-codex-share-one-usage-pool-in-december/",
+      "verified": false,
+      "publishedAt": "2026-11-01",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI announced that starting December 2026, subscribers on Plus, Pro, and Business plans will share a single token allowance across ChatGPT Work and Codex rather than maintaining separate quotas. The change also merges the ChatGPT Chat and Work surfaces into a unified experience. This follows the earlier desktop app consolidation in July and the organizational merger of the ChatGPT and Codex product teams in May 2026.",
+      "keyConcepts": [
+        "unified AI usage quotas",
+        "ChatGPT Work and Codex integration",
+        "AI coding agent product strategy",
+        "subscription plan changes"
+      ],
+      "whyItMatters": "For developers and power users who rely on both ChatGPT Work and Codex for coding tasks, this change means their combined usage will now compete for a single shared pool. Understanding how the new quota is allocated matters for planning workflows that mix conversational AI and agentic coding tasks.",
+      "tags": ["openai", "chatgpt", "codex", "ai-coding", "product-update", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What change is OpenAI making to ChatGPT and Codex usage limits in December 2026?",
+          "options": [
+            "Removing usage limits entirely for paid plans",
+            "Separating the products into distinct subscriptions",
+            "Merging ChatGPT and Codex into one shared usage pool",
+            "Introducing per-token billing for all plans"
+          ],
+          "correctIndex": 2,
+          "explanation": "Starting December 2026, OpenAI will give paid subscribers a single combined usage allowance shared across ChatGPT Work and Codex, replacing the previous separate quotas for each product."
+        },
+        {
+          "question": "Which earlier product consolidation preceded the December usage-pool change?",
+          "options": [
+            "The merger of OpenAI's research and product teams in April 2026",
+            "The ChatGPT desktop app integration of Codex in July 2026",
+            "The launch of ChatGPT Pro in January 2026",
+            "The discontinuation of the ChatGPT iOS app in September 2026"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI merged the Codex app into the ChatGPT desktop application in July 2026, several months before the December token-pool change. This was part of a broader consolidation that also saw the product teams formally merged in May 2026."
+        }
+      ]
+    }
+  ]
+}
