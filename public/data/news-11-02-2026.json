@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T08:00:00.000Z",
+  "generatedAt": "2026-11-02T17:45:00.000Z",
   "weekOf": "2026-10-26",
-  "coverageStart": "2026-11-01",
+  "coverageStart": "2026-10-31",
   "coverageEnd": "2026-11-02",
   "items": [
     {
@@ -140,6 +140,133 @@
           ],
           "correctIndex": 2,
           "explanation": "OpenAI is reportedly timing its advocacy campaign to launch after the November 3 US midterm elections, allowing the new congressional composition to take shape before engaging with legislators on frontier AI governance."
+        }
+      ]
+    },
+    {
+      "id": "article-karpathy-hackertube-oct2026",
+      "type": "article",
+      "title": "Andrej Karpathy Builds HackerTube in Two Hours Using Claude — A Curated YouTube Alternative from 6,454 HN Videos",
+      "sourceUrl": "https://newsbytesapp.com/news/science/andrej-karpathy-s-ai-project-gives-hacker-news-its-own-youtube/story",
+      "verified": false,
+      "publishedAt": "2026-10-31",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Andrej Karpathy launched HackerTube, a YouTube-style discovery platform built from 6,454 videos surfaced in Hacker News comments, using Anthropic's Claude Opus 5.5 as the primary coding assistant. Karpathy reported the entire project took approximately two hours to build end-to-end. The site organizes technically relevant YouTube videos by topic and surfacing patterns, providing an alternative to YouTube's ad-driven recommendation algorithm for the technically minded audience.",
+      "keyConcepts": ["AI-assisted development", "vibe coding", "Hacker News corpus", "developer tooling"],
+      "whyItMatters": "HackerTube illustrates how frontier models have compressed meaningful software projects from days to hours for expert engineers, and Karpathy's ongoing public experimentation continues to set benchmarks for what AI-assisted development looks like in practice.",
+      "tags": ["karpathy", "claude", "vibe-coding", "hackertube", "anthropic", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How long did Andrej Karpathy report it took to build HackerTube using Claude as a coding assistant?",
+          "options": ["About 30 minutes", "About two hours", "A full work day", "Two weeks"],
+          "correctIndex": 1,
+          "explanation": "Karpathy stated that HackerTube — a YouTube-style platform indexing 6,454 videos from Hacker News — took approximately two hours to build end-to-end with Claude Opus 5.5 as his coding collaborator."
+        },
+        {
+          "question": "What is the primary data source that HackerTube uses to surface videos?",
+          "options": [
+            "YouTube's trending algorithm API",
+            "A curated list of AI researchers' channels",
+            "Videos linked or mentioned in Hacker News comments",
+            "OpenAI's embedding-based video search index"
+          ],
+          "correctIndex": 2,
+          "explanation": "HackerTube indexes approximately 6,454 videos that appeared in Hacker News comments, giving technical users a community-curated discovery surface independent of YouTube's recommendation engine."
+        }
+      ]
+    },
+    {
+      "id": "article-youtube-ai-music-labels-nov2026",
+      "type": "article",
+      "title": "YouTube Begins Mandatory AI-Generated Music Labels, Plans Search Filter by Year End",
+      "sourceUrl": "https://thestar.com.my/tech/tech-news/2026/11/01/youtube-just-started-labelling-ai-music-have-you-been-misled",
+      "verified": false,
+      "publishedAt": "2026-11-01",
+      "topics": ["ai-industry"],
+      "summary": "YouTube activated mandatory disclosure labels for music tracks produced without human musical performance, requiring creators to tag fully AI-generated audio. The platform also announced a planned search filter to let listeners exclude AI-generated music from results, expected before the end of 2026. The rollout follows months of creator complaints about AI-generated content flooding music recommendation feeds and displacing human artists.",
+      "keyConcepts": ["AI content disclosure", "platform transparency", "AI music generation", "creator protection policies"],
+      "whyItMatters": "YouTube's mandatory AI music labeling establishes a new platform-level precedent for synthetic content transparency, and the forthcoming search filter could materially reduce distribution for fully AI-generated music — reshaping monetization dynamics for AI music tools.",
+      "tags": ["youtube", "ai-music", "content-labeling", "creator-policy", "ai-transparency", "platform-regulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What action is YouTube taking on AI-generated music as of November 2026?",
+          "options": [
+            "Banning all AI-generated music from the platform",
+            "Requiring mandatory disclosure labels on AI-generated tracks",
+            "Charging a licensing fee for AI music uploads",
+            "Redirecting AI music revenue to a human creator fund"
+          ],
+          "correctIndex": 1,
+          "explanation": "YouTube activated mandatory labels requiring creators to disclose when music tracks are AI-generated without human musical performance, alongside a planned search filter to let users filter out such content."
+        },
+        {
+          "question": "When does YouTube plan to launch the search filter for AI-generated music?",
+          "options": ["Immediately, it launched with the labels", "Q1 2027", "Before the end of 2026", "It has no announced timeline"],
+          "correctIndex": 2,
+          "explanation": "YouTube announced a toggle to filter AI-generated music from search results, with the feature planned to launch before the end of 2026, following the initial rollout of mandatory AI content labels."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt6-astra-daily-tasks-nov2026",
+      "type": "article",
+      "title": "OpenAI Benchmark Shows GPT-6 Astra at 80% on Everyday Tasks as Personal AI Race Accelerates",
+      "sourceUrl": "https://www.cnn.com/2026/11/02/tech/openai-chatgpt-personal-assistant-ai",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI disclosed that GPT-6 Astra, its September 2026 flagship model, scored 80% on the company's internal benchmark for everyday task performance, covering use cases like shopping, appointment booking, and meal planning. The results were released alongside positioning of Astra as the foundation of ChatGPT's personal assistant layer. Analysts noted the benchmark is internally developed rather than independently verified, raising questions about comparability across labs.",
+      "keyConcepts": ["personal AI assistants", "agentic task benchmarks", "GPT-6 Astra", "ChatGPT product evolution"],
+      "whyItMatters": "The shift from coding-centric AI benchmarks to everyday task performance signals OpenAI's push into the mass consumer personal assistant market — a much larger addressable audience than developer tools, but one that demands different trust and reliability standards.",
+      "tags": ["openai", "gpt-6-astra", "personal-ai", "benchmarks", "chatgpt", "ai-agents"],
+      "relatedIds": ["article-openai-policy-push-ai-speed-limits-nov2026"],
+      "knowledgeChecks": [
+        {
+          "question": "What score did GPT-6 Astra achieve on OpenAI's internal everyday task benchmark?",
+          "options": ["65%", "72%", "80%", "91%"],
+          "correctIndex": 2,
+          "explanation": "OpenAI reported that GPT-6 Astra scored 80% on its internal benchmark measuring performance on everyday tasks such as shopping, appointment booking, and meal planning."
+        },
+        {
+          "question": "What criticism did analysts raise about OpenAI's everyday task benchmark results?",
+          "options": [
+            "The tasks were too simple to be meaningful",
+            "The benchmark was internally developed rather than independently verified",
+            "The results were not statistically significant",
+            "The benchmark only tested English-language tasks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Analysts noted that because the everyday task benchmark was created and administered by OpenAI itself rather than an independent third party, the 80% score is difficult to compare directly against rival models tested on different benchmarks."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-datacenter-power-georgia-nov2026",
+      "type": "article",
+      "title": "OpenAI Pledges Up to 1 GW Grid Demand Flexibility at Georgia Data Centers",
+      "sourceUrl": "https://fourweekmba.com/ai-openai-pledges-data-center-power-cuts-up-to-1-gw-in-georgia",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI committed to cutting electricity demand at its Georgia data center campus by up to 1 gigawatt during grid stress events, making the company one of the largest voluntary demand-response participants in US grid history. The pledge, published in a company blog post cited by Axios, responds to utility requests for demand flexibility as AI infrastructure growth puts pressure on the Southeastern US power grid. OpenAI is reportedly in discussions with utilities about expanding similar arrangements to other campuses.",
+      "keyConcepts": ["demand response programs", "AI data center energy", "grid flexibility", "infrastructure sustainability"],
+      "whyItMatters": "A 1 GW demand-response commitment places OpenAI's data centers among the largest grid-balancing assets in the US — a scale that transforms AI infrastructure from a pure power consumer into an active participant in grid management, with implications for energy policy and AI expansion plans.",
+      "tags": ["openai", "data-centers", "energy", "sustainability", "grid-management", "georgia"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the maximum amount of electricity demand OpenAI pledged to reduce at its Georgia campus during grid stress events?",
+          "options": ["100 megawatts", "500 megawatts", "1 gigawatt", "5 gigawatts"],
+          "correctIndex": 2,
+          "explanation": "OpenAI committed to reducing electricity demand by up to 1 gigawatt (1,000 megawatts) at its Georgia campus during grid stress events, participating in the utility's demand-response program."
+        },
+        {
+          "question": "What term describes the type of electricity program OpenAI joined with this commitment?",
+          "options": ["Net metering", "Demand response", "Virtual power purchase agreement", "Carbon offset"],
+          "correctIndex": 1,
+          "explanation": "OpenAI joined a demand-response program, where large electricity consumers agree to voluntarily reduce their usage during periods of grid stress in exchange for payments or rate benefits from the utility."
         }
       ]
     }
