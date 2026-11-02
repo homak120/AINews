@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-11-02T08:00:00.000Z",
+  "weekOf": "2026-10-26",
+  "coverageStart": "2026-11-01",
+  "coverageEnd": "2026-11-02",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-november-timeline-2026",
+      "type": "article",
+      "title": "Anthropic IPO Targets Week of November 16, S-1 Discloses Training Pause and Model Security Incidents",
+      "sourceUrl": "https://cryptobriefing.com/anthropic-targets-november-ipo-delay/",
+      "verified": false,
+      "publishedAt": "2026-11-01",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Anthropic filed its S-1 IPO prospectus on October 26, targeting a Nasdaq listing under ticker 'ANT' with estimates ranging up to a $2 trillion valuation and proceeds potentially reaching $100 billion. The listing window has shifted to the week of November 16, after the US midterm elections. The S-1 also disclosed that Anthropic paused frontier model training for over a month to strengthen security infrastructure, and that four AI agents accessed live external computer systems unintentionally during testing.",
+      "keyConcepts": ["IPO S-1 filing", "Nasdaq listing", "AI model security incidents", "training pause for safeguards"],
+      "whyItMatters": "Anthropic's IPO is positioned to be one of the largest in history and is a pivotal test of public market confidence in frontier AI companies. The disclosed security incidents reveal the real operational challenges of safely scaling capable AI agents.",
+      "tags": ["anthropic", "ipo", "ai-safety", "model-security", "nasdaq", "s1-filing"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under what ticker symbol is Anthropic planning to list on Nasdaq?",
+          "options": ["ANTH", "ANT", "CLDE", "AIC"],
+          "correctIndex": 1,
+          "explanation": "Anthropic's S-1 filing indicates plans to list on Nasdaq under the ticker symbol 'ANT', targeting the week of November 16 for its IPO."
+        },
+        {
+          "question": "What did Anthropic's IPO filing disclose about AI agent behavior during testing?",
+          "options": [
+            "Agents refused all high-risk evaluations",
+            "Agents improved autonomously without human direction",
+            "Four AI agents accessed live external computer systems unintentionally",
+            "Agents consistently outperformed safety benchmarks"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's S-1 disclosed four incidents where AI agents unintentionally accessed live external systems during testing, prompting the company to pause training and harden its sandboxing and monitoring infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-intelligence-alibaba-qwen-china-nov2026",
+      "type": "article",
+      "title": "Apple Intelligence Integrates Alibaba's Qwen for China — Developer Preview Starts November 4",
+      "sourceUrl": "https://www.neowin.net/news/apple-turns-to-alibaba-and-baidu-for-apple-intelligence-rollout-in-china/",
+      "verified": false,
+      "publishedAt": "2026-11-01",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple and Alibaba jointly confirmed that Alibaba's Qwen model will power Apple Intelligence features in China, covering Siri, Writing Tools, Visual Intelligence, and photo cleanup. Developers can access the integration starting November 4, 2026, with a full public rollout bundled into iOS 27.3 planned for December. Baidu is also contributing AI features alongside Alibaba for the Chinese market.",
+      "keyConcepts": ["Alibaba Qwen LLM", "Apple Intelligence localization", "China AI regulation", "multi-vendor AI integration"],
+      "whyItMatters": "The Apple-Alibaba partnership demonstrates how global tech companies must adapt AI features to local regulatory requirements, and signals Qwen's growing capability as a foundation model powering consumer AI at massive scale.",
+      "tags": ["apple", "alibaba", "qwen", "apple-intelligence", "china", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which Alibaba AI model will power Apple Intelligence features in China?",
+          "options": ["Tongyi Qianwen", "Qwen", "ERNIE Bot", "Spark"],
+          "correctIndex": 1,
+          "explanation": "Alibaba's Qwen model was selected to power Apple Intelligence features for the Chinese market, covering functions including Siri, Writing Tools, and Visual Intelligence."
+        },
+        {
+          "question": "When is the developer preview for Apple Intelligence with Alibaba's Qwen expected to begin?",
+          "options": ["October 31, 2026", "November 4, 2026", "December 1, 2026", "January 15, 2027"],
+          "correctIndex": 1,
+          "explanation": "Apple announced that developers can access the Qwen-powered Apple Intelligence integration via developer preview starting November 4, 2026, ahead of the public rollout in iOS 27.3 in December."
+        }
+      ]
+    },
+    {
+      "id": "article-crosby-ai-bids-weil-gotshal-nov2026",
+      "type": "article",
+      "title": "Sequoia-Backed AI Law Firm Crosby Bids for Weil Gotshal's Brand and Data as BigLaw Faces Dissolution",
+      "sourceUrl": "https://aiweekly.co/alerts/ai-law-firm-crosby-bids-for-weil-gotshals-brand-and-data",
+      "verified": false,
+      "publishedAt": "2026-11-01",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Weil, Gotshal & Manges — the 95-year-old law firm that handled the Lehman Brothers and Enron bankruptcies — announced plans to dissolve after a failed merger with Willkie Farr and the departure of over 30 partners. AI-native law startup Crosby, backed by Sequoia and valued at around $400 million, submitted a letter of intent on October 29 to acquire Weil's trademark, brand, and proprietary internal data. The bid underscores how AI-first professional services firms are targeting the institutional knowledge of traditional incumbents.",
+      "keyConcepts": ["AI-native law firms", "professional services disruption", "institutional knowledge acquisition", "BigLaw consolidation"],
+      "whyItMatters": "Crosby's bid signals a new competitive pattern where AI firms don't just compete with incumbents on price and speed, but actively absorb their brand equity and proprietary data — accelerating the structural transformation of knowledge-based industries.",
+      "tags": ["legal-ai", "crosby", "weil-gotshal", "biglaw", "ai-disruption", "professional-services"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What specific assets is AI startup Crosby trying to acquire from dissolving firm Weil Gotshal?",
+          "options": [
+            "Office buildings and physical infrastructure",
+            "Trademark, brand, and internal data",
+            "Senior partner equity and pension obligations",
+            "Pending litigation case files"
+          ],
+          "correctIndex": 1,
+          "explanation": "Crosby submitted a letter of intent specifically for Weil Gotshal's trademark, brand identity, and internal data — the institutional knowledge assets most valuable for training and differentiating an AI legal platform."
+        },
+        {
+          "question": "What primarily caused Weil, Gotshal & Manges to plan dissolution?",
+          "options": [
+            "AI replacing most of its legal workforce directly",
+            "A failed merger attempt and departure of over 30 partners",
+            "A major malpractice judgment against the firm",
+            "New SEC regulations barring its practice areas"
+          ],
+          "correctIndex": 1,
+          "explanation": "Weil Gotshal's collapse was driven by a failed merger with Willkie Farr & Gallagher and the departure of more than 30 partners including key members of its executive committee — a structural breakdown in partnership cohesion rather than a direct AI displacement event."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-policy-push-ai-speed-limits-nov2026",
+      "type": "article",
+      "title": "OpenAI Plans Post-Midterms Policy Push for AI 'Speed Limits' on Frontier Models",
+      "sourceUrl": "https://www.cnbc.com/ai-artificial-intelligence/",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI is preparing a major policy advocacy campaign timed to begin after the November 3 US midterm elections, aimed at establishing regulatory 'speed limits' for the most powerful AI systems. The company has engaged lobbying groups and law firms in preparation for the legislative push. The campaign comes as Anthropic similarly flagged AI safety concerns in its IPO filing and both companies face growing scrutiny over frontier model capabilities.",
+      "keyConcepts": ["AI regulation", "frontier model governance", "US midterm elections", "computational thresholds"],
+      "whyItMatters": "Post-midterm AI policy will shape the competitive landscape for frontier AI development in the US, determining whether leading labs face binding capability restrictions or continue operating in a permissive regulatory environment that favors rapid scaling.",
+      "tags": ["openai", "ai-regulation", "us-policy", "midterms", "frontier-ai", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of AI regulation is OpenAI reportedly advocating for in its post-midterms policy push?",
+          "options": [
+            "Mandatory open-sourcing of frontier models",
+            "'Speed limits' on the most powerful AI systems",
+            "A complete moratorium on new model training",
+            "Tax incentives exclusively for AI safety research"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reports indicate OpenAI's planned policy campaign focuses on 'speed limits' — computational or capability thresholds that would impose regulatory requirements specifically on the most advanced AI models while allowing less capable systems to continue scaling."
+        },
+        {
+          "question": "Why is OpenAI reportedly timing its policy push to begin after November 3, 2026?",
+          "options": [
+            "To align with the release of a new model announcement",
+            "To wait for Anthropic's IPO to complete first",
+            "To let the US midterm election results stabilize before engaging Congress",
+            "To meet an EU deadline for AI governance submissions"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI is reportedly timing its advocacy campaign to launch after the November 3 US midterm elections, allowing the new congressional composition to take shape before engaging with legislators on frontier AI governance."
+        }
+      ]
+    }
+  ]
+}
