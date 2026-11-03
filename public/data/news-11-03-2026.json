@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-03T06:00:00.000Z",
+  "generatedAt": "2026-11-03T12:00:00.000Z",
   "weekOf": "2026-11-02",
   "coverageStart": "2026-11-02",
-  "coverageEnd": "2026-11-02",
+  "coverageEnd": "2026-11-03",
   "items": [
     {
       "id": "article-anthropic-s1a-rsp-threshold-1102",
@@ -216,6 +216,92 @@
           ],
           "correctIndex": 1,
           "explanation": "Google had been testing AI Mode search ads exclusively in the US before expanding them globally, as reported by TechCrunch on November 2, 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-snowflake-expedition-agentic-1103",
+      "type": "article",
+      "title": "Snowflake Expands Agentic AI Platform with Business Ontology and Cortex Training at Expedition 2026",
+      "sourceUrl": "https://siliconangle.com/2026/11/03/snowflake-expands-agentic-ai-platform-with-business-context-and-governance-tools",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "At its Expedition 2026 virtual conference (November 3–5), Snowflake unveiled a Business Ontology framework that gives AI agents structured context about an organization's data relationships, alongside expanded agent governance controls for enterprise oversight. The company also launched Cortex Training into public preview, providing managed GPU infrastructure for fine-tuning open-weight models like Qwen and Mistral on proprietary enterprise data. These additions position Snowflake's data cloud as a governance-first orchestration layer for enterprise agentic deployments.",
+      "keyConcepts": [
+        "Business Ontology framework",
+        "Agent governance and oversight",
+        "Cortex Training for fine-tuning LLMs",
+        "Agentic enterprise data cloud"
+      ],
+      "whyItMatters": "Enterprises adopting AI agents need more than raw model capability — they need structured business context and auditable governance. Snowflake's approach of embedding ontology and compliance directly into the data layer could become a key differentiator as agentic AI moves from pilots to production.",
+      "tags": ["snowflake", "agentic-ai", "enterprise-ai", "cortex-training", "fine-tuning", "data-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the purpose of Snowflake's Business Ontology framework announced at Expedition 2026?",
+          "options": [
+            "To replace SQL queries with natural language across all Snowflake accounts",
+            "To give AI agents structured context about an organization's data relationships",
+            "To index external web data for enterprise search within Snowflake",
+            "To automatically generate data models from raw ingestion pipelines"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Business Ontology framework provides AI agents with a structured representation of how an organization's data entities and relationships connect — critical business context that improves agent accuracy and reduces hallucinations in enterprise use cases."
+        },
+        {
+          "question": "What capability does Snowflake Cortex Training provide that entered public preview at Expedition 2026?",
+          "options": [
+            "Real-time streaming inference for Snowflake-hosted models",
+            "Managed GPU infrastructure for fine-tuning open-weight models on proprietary data",
+            "Automated synthetic data generation from existing Snowflake tables",
+            "Cross-cloud model sharing between Snowflake and Azure ML workspaces"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cortex Training offers managed GPU compute for fine-tuning open-weight models such as Qwen and Mistral on proprietary enterprise data — letting organizations customize models without managing their own GPU infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-25b-ai-bond-1103",
+      "type": "article",
+      "title": "Microsoft Completes $25 Billion Bond Sale to Fund AI Capex, Its Largest US Debt Offering Since 2017",
+      "sourceUrl": "https://businesstoday.in/technology/news/story/microsoft-raises-25-billion-as-ai-investments-accelerate-after-buyout-offer-to-60000-staff-565352-2026-11-03",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Microsoft completed a $25 billion senior notes offering across 10 tranches — its first US investment-grade bond sale since 2017 — to fund AI capital expenditures. The offering attracted over $115 billion in orders, more than four times the deal size, reflecting strong institutional demand for exposure to AI infrastructure. The raise comes after Microsoft offered voluntary buyouts to 60,000 staff as part of a cost-restructuring effort while simultaneously accelerating AI spending, with AI capex reaching $45.2 billion in Q1 FY2027.",
+      "keyConcepts": [
+        "AI capital expenditure financing",
+        "Investment-grade corporate debt",
+        "AI infrastructure buildout",
+        "Workforce restructuring alongside AI investment"
+      ],
+      "whyItMatters": "Microsoft's decision to tap debt markets — rather than use cash flow alone — for AI capex signals that even profitable hyperscalers view AI infrastructure investment as too large and too urgent to fund organically, setting a precedent that may drive other tech companies to do the same.",
+      "tags": ["microsoft", "ai-infrastructure", "bond-sale", "capital-expenditure", "hyperscaler", "ai-investment"],
+      "relatedIds": ["article-ai-stock-selloff-openai-round-1102"],
+      "knowledgeChecks": [
+        {
+          "question": "Why is Microsoft's $25 billion bond sale considered historically significant?",
+          "options": [
+            "It is the largest corporate bond sale in history",
+            "It is Microsoft's first US investment-grade bond sale since 2017",
+            "It was the first bond sale structured specifically for AI compute purchases",
+            "It introduced a new AI-indexed bond instrument tied to compute performance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Microsoft last issued US investment-grade bonds in 2017 to help finance the LinkedIn acquisition. The 2026 offering is its return to US debt markets after a nine-year gap, driven by the scale of AI infrastructure spending."
+        },
+        {
+          "question": "How much investor demand (total orders) did Microsoft's $25 billion bond offering attract?",
+          "options": [
+            "Approximately $25 billion (1x covered)",
+            "Approximately $50 billion (2x covered)",
+            "Approximately $80 billion (3x covered)",
+            "Over $115 billion (more than 4x covered)"
+          ],
+          "correctIndex": 3,
+          "explanation": "The offering drew over $115 billion in orders — more than four times the $25 billion deal size — indicating strong institutional appetite for investment-grade paper from a company seen as a core AI infrastructure beneficiary."
         }
       ]
     }
