@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-11-03T06:00:00.000Z",
+  "weekOf": "2026-11-02",
+  "coverageStart": "2026-11-02",
+  "coverageEnd": "2026-11-02",
+  "items": [
+    {
+      "id": "article-anthropic-s1a-rsp-threshold-1102",
+      "type": "article",
+      "title": "Anthropic's Amended IPO Filing Warns Future AI May Soon Accelerate Its Own Research",
+      "sourceUrl": "https://pasqualepillitteri.it/en/news/29574/anthropic-ipo-s1a-ai-research-threshold",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic filed an amended S-1/A with the SEC on November 2, disclosing that future models may imminently reach its Responsible Scaling Policy (RSP) threshold for AI-accelerated research — the point at which AI could meaningfully speed up its own development. The filing also revealed Q3 2026 revenue of approximately $17 billion, alongside a $567 million operating loss and $895 billion in total commitments. Anthropic also announced it is carving out $3.5 billion of its US IPO shares for Japanese investors.",
+      "keyConcepts": [
+        "Responsible Scaling Policy (RSP)",
+        "AI-accelerated research threshold",
+        "S-1/A amended IPO filing",
+        "ASL safety levels"
+      ],
+      "whyItMatters": "Reaching the RSP threshold for AI-accelerated research would represent a significant safety milestone — the point where an AI model could meaningfully compress the R&D timeline of future AI, raising governance and oversight challenges that Anthropic itself has identified as critical risks.",
+      "tags": ["anthropic", "ipo", "responsible-scaling-policy", "ai-safety", "frontier-ai", "self-improvement"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Anthropic's Responsible Scaling Policy (RSP) threshold for AI-accelerated research refer to?",
+          "options": [
+            "The point at which Anthropic's revenue surpasses its compute costs",
+            "The capability level at which an AI could meaningfully speed up AI research itself",
+            "The regulatory threshold at which an AI company must register with the SEC",
+            "The compute threshold beyond which training runs require federal approval"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic's RSP defines capability thresholds (ASL levels) that trigger additional safety requirements. The AI-accelerated research threshold refers to a model capable of meaningfully compressing the R&D cycle for future AI systems."
+        },
+        {
+          "question": "What was Anthropic's reported Q3 2026 revenue, per its amended S-1/A filing?",
+          "options": [
+            "Approximately $3.5 billion",
+            "Approximately $8 billion",
+            "Approximately $17 billion",
+            "Approximately $32 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's amended S-1/A disclosed approximately $17 billion in Q3 2026 revenue, though the company still posted a $567 million operating loss."
+        }
+      ]
+    },
+    {
+      "id": "article-google-suncatcher-orbit-inference-1102",
+      "type": "article",
+      "title": "Google Reports First Successful AI Inference on Orbital TPU in Project Suncatcher Test",
+      "sourceUrl": "https://interestingengineering.com/innovation/google-project-suncatcher-space-ai",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google announced that its Project Suncatcher prototype satellite, launched October 1 on a SpaceX Transporter-18 rideshare with Planet Labs, successfully ran an AI inference task on a data-center-class TPU in low Earth orbit — producing output via Gemma 4. The prototype carries four Trillium v6e TPU chips and represents the first real-world test of orbital AI compute. Google plans to follow with two satellites in 2027 to test laser inter-satellite links.",
+      "keyConcepts": [
+        "Orbital AI compute",
+        "Trillium v6e TPU chips",
+        "Space-based inference",
+        "Low Earth Orbit data centers"
+      ],
+      "whyItMatters": "Running AI inference in orbit opens a path toward globally distributed AI compute with reduced latency for remote regions — but the results also validate that consumer-grade TPUs can survive the radiation environment of LEO, a key engineering uncertainty.",
+      "tags": ["google", "project-suncatcher", "space-ai", "tpu", "low-earth-orbit", "gemma"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary engineering challenge Google was testing with Project Suncatcher's TPU chips?",
+          "options": [
+            "Whether TPUs could be cooled efficiently in a vacuum",
+            "Whether TPU chips could survive the radiation environment of low Earth orbit",
+            "Whether satellite-to-ground AI inference latency was below 50ms",
+            "Whether TPUs could generate enough power from solar panels alone"
+          ],
+          "correctIndex": 1,
+          "explanation": "A key uncertainty was whether Trillium v6e chips could tolerate radiation in LEO. Google's ground test used a 67 MeV proton beam to simulate radiation exposure before the orbital launch."
+        },
+        {
+          "question": "Which AI model ran on Google's orbital TPU during the Project Suncatcher test?",
+          "options": [
+            "Gemini 3 Pro",
+            "PaLM 2",
+            "Gemma 4",
+            "AlphaCode 3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google reported that the orbital inference task used Gemma 4, its open-weight model family, run on a Trillium v6e chip aboard the prototype satellite."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-congress-ai-policy-1102",
+      "type": "article",
+      "title": "OpenAI Plans Lame-Duck Congress Push for Mandatory AI Safeguards and 'AI Compute Campus' Rebranding",
+      "sourceUrl": "https://www.pymnts.com/?p=2428522",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "OpenAI is preparing a policy and public relations campaign during the upcoming post-election lame-duck Congressional session to advocate for mandatory safeguards for powerful AI systems. The company plans to rebrand data centers as 'AI compute campuses' as part of its public messaging strategy. On the same day, ADNOC became the first energy company to deploy OpenAI Frontier infrastructure, through G42's Inception42, on UAE-based inference hardware.",
+      "keyConcepts": [
+        "AI mandatory safeguards",
+        "Lame-duck legislative session",
+        "AI compute campus rebranding",
+        "OpenAI Frontier deployment"
+      ],
+      "whyItMatters": "OpenAI's decision to push for mandatory safeguards during a politically fragile period suggests the company believes some form of binding oversight is inevitable and is positioning to shape what those rules look like — a significant shift from earlier industry resistance to AI regulation.",
+      "tags": ["openai", "ai-regulation", "congress", "policy", "data-centers", "ai-governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What term is OpenAI reportedly using to rebrand data centers as part of its public relations strategy?",
+          "options": [
+            "Neural Processing Parks",
+            "AI Compute Campuses",
+            "Inference Infrastructure Zones",
+            "Frontier Model Facilities"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's strategy involves rebranding data centers as 'AI compute campuses,' a messaging shift designed to make AI infrastructure sound more approachable and less industrial to the public and policymakers."
+        },
+        {
+          "question": "Which company became the first energy firm to deploy OpenAI Frontier according to November 2 reports?",
+          "options": [
+            "Saudi Aramco",
+            "ExxonMobil",
+            "ADNOC",
+            "Shell"
+          ],
+          "correctIndex": 2,
+          "explanation": "ADNOC (Abu Dhabi National Oil Company) became the first energy company to deploy OpenAI Frontier, doing so through G42's Inception42 platform on UAE-based inference infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-stock-selloff-openai-round-1102",
+      "type": "article",
+      "title": "AI Stock Selloff Erases $5 Trillion as OpenAI Trims Funding Round to $20B",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "A prolonged three-week selloff in AI-linked stocks has erased approximately $5 trillion in market value, prompting Bank of America analysts to flag AI trade correction as one of the larger risks to the US and global economy. Amid the turbulence, OpenAI trimmed its latest funding round to $20 billion at a $1.25 trillion valuation, down from earlier expectations. Oracle is simultaneously reported to be raising $10 billion in bonds plus a similar amount in stock to fund AI capital expenditures.",
+      "keyConcepts": [
+        "AI market correction",
+        "OpenAI funding valuation",
+        "AI capital expenditure cycle",
+        "Investor sentiment in AI"
+      ],
+      "whyItMatters": "The $5 trillion drawdown signals that even as AI revenue grows rapidly, markets are beginning to price in uncertainty about the pace and profitability of AI monetization — a recalibration that could affect how quickly AI infrastructure investment continues.",
+      "tags": ["openai", "ai-investment", "stock-market", "valuation", "funding-round", "market-correction"],
+      "relatedIds": ["article-anthropic-s1a-rsp-threshold-1102"],
+      "knowledgeChecks": [
+        {
+          "question": "How much market value did AI-linked stocks reportedly lose in the three-week selloff ending November 2, 2026?",
+          "options": [
+            "Approximately $500 billion",
+            "Approximately $1.5 trillion",
+            "Approximately $5 trillion",
+            "Approximately $10 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bank of America flagged the AI correction as a systemic risk after AI-linked stocks shed approximately $5 trillion in value over a three-week period."
+        },
+        {
+          "question": "At what valuation did OpenAI trim its funding round amid the AI stock selloff?",
+          "options": [
+            "$800 billion",
+            "$1.0 trillion",
+            "$1.25 trillion",
+            "$1.5 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI trimmed its round to $20 billion at a $1.25 trillion valuation, a reduction from earlier reported expectations for the round size."
+        }
+      ]
+    },
+    {
+      "id": "article-google-ai-mode-ads-worldwide-1102",
+      "type": "article",
+      "title": "Google Rolls Out AI Mode Search Ads Worldwide After US-Only Testing Phase",
+      "sourceUrl": "https://riorundown.substack.com/p/ai-news-nov-02-2026-agentic-benchmarks",
+      "verified": false,
+      "publishedAt": "2026-11-02",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Google is expanding AI Mode search ads globally, following a testing period restricted to the US market, according to a TechCrunch report. The move integrates advertising directly into AI-generated search responses, marking a significant shift in how Google monetizes its AI-first search product. Meta's advertising revenue is simultaneously growing faster than Google's traditional search business, adding competitive urgency to the rollout.",
+      "keyConcepts": [
+        "AI Mode search ads",
+        "AI-generated search monetization",
+        "Digital advertising competitive dynamics",
+        "Google Search vs Meta advertising"
+      ],
+      "whyItMatters": "Monetizing AI search effectively is Google's central challenge for maintaining advertising dominance — a global ad rollout in AI Mode is a direct answer to investor concerns about whether AI-first search can match traditional search's revenue model.",
+      "tags": ["google", "ai-search", "advertising", "ai-mode", "search-monetization", "meta"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What competitive pressure is partly driving Google's global AI Mode ad rollout?",
+          "options": [
+            "OpenAI's SearchGPT gaining enterprise market share in the US",
+            "Meta's advertising revenue growing faster than Google's traditional search business",
+            "Anthropic's Claude capturing 30% of B2B search queries",
+            "Apple's AI Search replacing Google as default on iOS"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reports from November 2 noted that Meta's ad revenue is growing faster than Google Search's, which adds urgency to Google's efforts to prove AI Mode can generate strong advertising returns."
+        },
+        {
+          "question": "Where was Google's AI Mode search advertising previously limited before this global rollout?",
+          "options": [
+            "Europe and Canada only",
+            "The United States only",
+            "APAC markets only",
+            "Premium Workspace accounts only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google had been testing AI Mode search ads exclusively in the US before expanding them globally, as reported by TechCrunch on November 2, 2026."
+        }
+      ]
+    }
+  ]
+}
