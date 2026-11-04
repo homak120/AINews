@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-11-04T10:00:00.000Z",
+  "weekOf": "2026-11-02",
+  "coverageStart": "2026-11-03",
+  "coverageEnd": "2026-11-04",
+  "items": [
+    {
+      "id": "article-google-openai-anthropic-scraping-controls-20261103",
+      "type": "article",
+      "title": "Google, OpenAI and Anthropic Unite to Introduce New AI Scraping Controls",
+      "sourceUrl": "https://www.itechpost.com/articles/237707/20261103/google-openai-anthropic-unite-introduce-new-ai-scraping-controls.htm",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-industry"],
+      "summary": "Google, OpenAI, and Anthropic have jointly backed a new standard that extends the robots.txt protocol to allow website owners to opt out of AI training data crawlers. The collaborative framework gives publishers granular control over which AI systems can crawl their content. Google plans to support the shared opt-out mechanism in early 2027, making it the most significant cross-lab data governance initiative to date.",
+      "keyConcepts": [
+        "robots.txt opt-out extension",
+        "AI training data governance",
+        "cross-industry content standards",
+        "publisher data rights"
+      ],
+      "whyItMatters": "This joint standard addresses a growing tension between AI labs and content publishers, potentially reshaping how frontier models are trained and what data they can access at scale.",
+      "tags": ["data-governance", "ai-policy", "web-scraping", "openai", "anthropic", "google"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What existing web standard are Google, OpenAI, and Anthropic extending with their new AI scraping controls?",
+          "options": [
+            "HTTP headers",
+            "robots.txt",
+            "SSL certificates",
+            "DNS records"
+          ],
+          "correctIndex": 1,
+          "explanation": "The new standard extends robots.txt, the decades-old protocol that tells web crawlers which pages to avoid, to give publishers control over AI training crawlers specifically."
+        },
+        {
+          "question": "When does Google plan to support the new shared AI opt-out mechanism?",
+          "options": [
+            "Immediately upon announcement",
+            "By end of Q4 2026",
+            "Early 2027",
+            "Late 2027"
+          ],
+          "correctIndex": 2,
+          "explanation": "Google announced it plans to support the shared AI content opt-out mechanism in early 2027, giving publishers advance notice to implement the new controls."
+        }
+      ]
+    },
+    {
+      "id": "article-amd-q3-2026-earnings-data-center",
+      "type": "article",
+      "title": "AMD Q3 2026: Data Center Revenue Surges 97% YoY as AI Chip Demand Hits Record Highs",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-industry"],
+      "summary": "AMD reported Q3 2026 revenue of $13.4 billion, exceeding guidance, with its Data Center segment surging 97% year-over-year driven by record Instinct GPU and EPYC CPU sales. Non-GAAP operating income reached $3.9 billion, with the company citing accelerating AI infrastructure demand as the primary growth driver. The results reinforce AMD's position as a major beneficiary of the ongoing AI hardware buildout.",
+      "keyConcepts": [
+        "AI accelerator chips",
+        "Instinct GPU sales records",
+        "data center infrastructure demand",
+        "semiconductor earnings"
+      ],
+      "whyItMatters": "AMD's 97% data center growth signals that AI infrastructure investment remains robust despite macro concerns, confirming that the hardware layer of the AI stack continues to see compounding demand.",
+      "tags": ["amd", "semiconductors", "ai-hardware", "data-center", "earnings", "instinct-gpu"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was AMD's Q3 2026 Data Center revenue growth rate year-over-year?",
+          "options": [
+            "45%",
+            "67%",
+            "97%",
+            "120%"
+          ],
+          "correctIndex": 2,
+          "explanation": "AMD's Data Center segment grew 97% year-over-year in Q3 2026, driven by record sales of Instinct GPUs used for AI training and inference workloads."
+        },
+        {
+          "question": "Which AMD product lines drove record Data Center revenue in Q3 2026?",
+          "options": [
+            "Radeon GPUs and Ryzen CPUs",
+            "Instinct GPUs and EPYC CPUs",
+            "Xilinx FPGAs and Threadripper CPUs",
+            "Versal AI and EPYC CPUs"
+          ],
+          "correctIndex": 1,
+          "explanation": "AMD reported record Instinct GPU sales (for AI workloads) and EPYC CPU sales (for server infrastructure) as the two key drivers of its Data Center segment growth."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-anthropic-election-war-rooms-2026",
+      "type": "article",
+      "title": "OpenAI and Anthropic Launch Election War Rooms for 2026 US Midterms as ChatGPT Reaches 1 Billion Users",
+      "sourceUrl": "https://www.zetik.com/news/article/story_id-p008-229294",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI deployed more than a dozen staff in a San Francisco war room to monitor ChatGPT for election-related misuse during the 2026 US midterms, while Anthropic opened its first dedicated election integrity operation. The efforts include real-time monitoring for disinformation, voter suppression content, and deepfake political ads. This comes as ChatGPT reached 1 billion active users, amplifying concerns about AI's potential influence on democratic processes.",
+      "keyConcepts": [
+        "AI election integrity",
+        "disinformation monitoring",
+        "responsible AI deployment",
+        "ChatGPT scale milestones"
+      ],
+      "whyItMatters": "With ChatGPT at 1 billion users, the scale at which AI could influence elections has reached a new threshold, making proactive safety measures by labs both a reputational necessity and a democratic responsibility.",
+      "tags": ["election-safety", "openai", "anthropic", "chatgpt", "disinformation", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What milestone did ChatGPT reach around the time of the 2026 US midterms?",
+          "options": [
+            "500 million users",
+            "750 million users",
+            "1 billion users",
+            "2 billion users"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT reached 1 billion active users around the time of the 2026 US midterms, raising the stakes for election integrity monitoring by OpenAI and other AI labs."
+        },
+        {
+          "question": "What was Anthropic's election-related initiative for the 2026 midterms?",
+          "options": [
+            "It partnered with the FEC to audit AI-generated ads",
+            "It opened its first dedicated election 'war room'",
+            "It temporarily suspended Claude during voting hours",
+            "It published a voluntary transparency report on election queries"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic opened its first dedicated election war room to monitor Claude for misuse related to the 2026 US midterms, mirroring OpenAI's real-time monitoring operation."
+        }
+      ]
+    },
+    {
+      "id": "article-bigtech-ai-debt-32-trillion-nikkei-20261104",
+      "type": "article",
+      "title": "Big Tech's Off-Balance-Sheet AI Obligations Double to $3.2 Trillion, Nikkei Reports",
+      "sourceUrl": "https://aiweekly.co/alerts/nikkei-big-tech-off-balance-sheet-ai-debt-doubles-to-32t",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-industry"],
+      "summary": "A Nikkei analysis reveals that off-balance-sheet AI commitments at Alphabet, Microsoft, Amazon, Meta, and Oracle have roughly doubled in six months to approximately $3.2 trillion, with Meta alone accounting for around $420 billion—nearly triple its reported long-term debt. These obligations, primarily multi-year cloud and data center contracts, are not visible on standard balance sheets, raising concerns about the true scale of AI infrastructure risk. The report comes as AMD reported record AI chip sales and Anthropic filed for an IPO.",
+      "keyConcepts": [
+        "off-balance-sheet obligations",
+        "AI infrastructure financing",
+        "Big Tech capital commitments",
+        "data center build-out scale"
+      ],
+      "whyItMatters": "Hidden multi-trillion-dollar AI commitments suggest the AI infrastructure buildout is deeper and riskier than public financials indicate, with potential systemic implications if demand fails to materialize at the pace assumed.",
+      "tags": ["big-tech", "ai-infrastructure", "finance", "data-centers", "meta", "microsoft", "alphabet"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to Nikkei, how much have Big Tech's off-balance-sheet AI obligations grown to as of late 2026?",
+          "options": [
+            "$800 billion",
+            "$1.6 trillion",
+            "$3.2 trillion",
+            "$5 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nikkei reported that off-balance-sheet AI obligations at five major tech companies (Alphabet, Microsoft, Amazon, Meta, Oracle) roughly doubled in six months to approximately $3.2 trillion."
+        },
+        {
+          "question": "Why are these AI obligations described as 'off-balance-sheet'?",
+          "options": [
+            "They are classified as trade secrets",
+            "They involve foreign subsidiaries excluded from US reporting",
+            "They are multi-year contracts not fully reflected on standard balance sheets",
+            "They are contingent liabilities pending regulatory approval"
+          ],
+          "correctIndex": 2,
+          "explanation": "Off-balance-sheet obligations are primarily multi-year cloud and data center contracts that are legally binding but not prominently disclosed as debt on standard financial statements, making the true scale of AI infrastructure risk harder to assess."
+        }
+      ]
+    },
+    {
+      "id": "article-google-schools-ai-bernie-sanders-20261103",
+      "type": "article",
+      "title": "Bernie Sanders Calls Google's School AI Policy 'Extortion' as Search Access Tied to AI Adoption",
+      "sourceUrl": "https://www.androidheadlines.com/?p=1262433",
+      "verified": false,
+      "publishedAt": "2026-11-03",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Senator Bernie Sanders accused Google of 'extortion' after the company announced that schools choosing to block AI features in student accounts would lose access to Google Search starting early 2027. Google defended the policy by saying its search product is now deeply integrated with AI and cannot be easily separated. The controversy highlights growing tensions over AI mandates in educational settings and the market power of dominant platform providers.",
+      "keyConcepts": [
+        "AI in education policy",
+        "platform bundling",
+        "digital equity in schools",
+        "AI opt-out rights"
+      ],
+      "whyItMatters": "The Google-schools dispute is a preview of a wider policy conflict: as AI becomes deeply embedded in platform services, opting out may mean losing access to essential tools, raising antitrust and equity questions for public institutions.",
+      "tags": ["google", "education", "ai-policy", "antitrust", "bernie-sanders", "schools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What consequence did Google announce for schools that choose to block AI features in student accounts?",
+          "options": [
+            "Loss of Google Classroom access",
+            "Loss of Google Search access starting early 2027",
+            "Removal from the Google for Education program",
+            "Increased licensing fees"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google stated that students at schools opting out of AI features would lose access to Google Search starting early 2027, as the company says search is now too integrated with AI to disable independently."
+        },
+        {
+          "question": "Which US senator publicly called Google's school AI policy 'extortion'?",
+          "options": [
+            "Elizabeth Warren",
+            "Ron Wyden",
+            "Bernie Sanders",
+            "Amy Klobuchar"
+          ],
+          "correctIndex": 2,
+          "explanation": "Senator Bernie Sanders used the term 'extortion' to describe Google's policy of linking AI adoption to continued access to Search for school accounts, drawing national attention to the debate over AI mandates in education."
+        }
+      ]
+    }
+  ]
+}
