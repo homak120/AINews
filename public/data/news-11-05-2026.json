@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-05T08:00:00.000Z",
+  "generatedAt": "2026-11-05T14:30:00.000Z",
   "weekOf": "2026-11-02",
   "coverageStart": "2026-11-04",
-  "coverageEnd": "2026-11-04",
+  "coverageEnd": "2026-11-05",
   "items": [
     {
       "id": "article-axios-ai-earthquake-election-20261104",
@@ -174,6 +174,179 @@
           ],
           "correctIndex": 1,
           "explanation": "Researchers and advocacy groups have highlighted AI data centers' enormous electricity demand—which raises utility bills for communities—and their water consumption for cooling as the primary concerns driving voter opposition."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-kernel-security-20261104",
+      "type": "article",
+      "title": "OpenAI's Autonomous Agents Found 948 Linux Kernel Vulnerabilities in One Run",
+      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "OpenAI published a technical report describing an autonomous pipeline that triaged 2,308 candidate findings in the Linux kernel master branch, producing 948 working local privilege-escalation exploits and 948 candidate patches in a single run—at a reported cost of $1,213,430 in API credits. The pipeline operated without human oversight during the analysis phase. OpenAI frames the work as an offensive-security benchmark demonstrating that AI agents can now conduct end-to-end vulnerability research at industrial scale.",
+      "keyConcepts": [
+        "autonomous AI agents for security",
+        "vulnerability discovery pipelines",
+        "Linux kernel privilege escalation",
+        "AI-generated security patches"
+      ],
+      "whyItMatters": "The demonstration that AI agents can find, exploit, and patch nearly a thousand kernel vulnerabilities autonomously marks a qualitative shift in offensive security capability—compressing what previously required months of expert researcher time into a single automated run.",
+      "tags": ["ai-security", "linux-kernel", "autonomous-agents", "vulnerability-research", "ai-engineering", "openai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many working local privilege-escalation exploits did OpenAI's autonomous pipeline produce in its Linux kernel run?",
+          "options": [
+            "47",
+            "948",
+            "2,308",
+            "12,430"
+          ],
+          "correctIndex": 1,
+          "explanation": "The pipeline triaged 2,308 candidate findings and produced 948 working exploits—and 948 corresponding candidate patches—in a single automated run against the Linux kernel master branch."
+        },
+        {
+          "question": "What term best describes the type of AI capability demonstrated by OpenAI's kernel security pipeline?",
+          "options": [
+            "Retrieval-augmented generation",
+            "End-to-end autonomous agents",
+            "Fine-tuned code completion",
+            "Supervised vulnerability classification"
+          ],
+          "correctIndex": 1,
+          "explanation": "The pipeline is an example of end-to-end autonomous agents—AI systems that independently triage, exploit, and generate patches without requiring human input at each step."
+        }
+      ]
+    },
+    {
+      "id": "article-tencent-hy4-launch-20261105",
+      "type": "article",
+      "title": "Tencent Launches Hy4: A ~770B-Parameter Mixture-of-Experts Model with 1M-Token Context",
+      "sourceUrl": "https://www.caixinglobal.com/2026-11-05/tencent-launches-upgraded-hy4-ai-model-with-visual-understanding-102501068.html",
+      "verified": false,
+      "publishedAt": "2026-11-05",
+      "topics": ["ai-research"],
+      "summary": "Tencent's Hunyuan team officially released Hy4, described as a roughly 770-billion-parameter mixture-of-experts model supporting a one-million-token context window. The model introduces Tencent's first vision and computer-operation capabilities, allowing it to understand images and interact with on-screen interfaces. Whether the official release includes publicly available model weights remains contested across sources.",
+      "keyConcepts": [
+        "mixture-of-experts (MoE) architecture",
+        "1M-token context window",
+        "vision-language models",
+        "computer-use AI agents"
+      ],
+      "whyItMatters": "Hy4's combination of a very large MoE architecture, long context, and built-in computer-operation capabilities positions Tencent as a serious competitor in both enterprise AI and agentic applications—an important signal about the breadth of frontier model development outside the US.",
+      "tags": ["tencent", "hunyuan", "moe-models", "vision-language", "ai-research", "long-context"],
+      "relatedIds": ["article-kimi-k31-pro-weights-20261105"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate parameter count of Tencent's Hy4 model?",
+          "options": [
+            "7 billion",
+            "72 billion",
+            "405 billion",
+            "770 billion"
+          ],
+          "correctIndex": 3,
+          "explanation": "Hy4 is described as a roughly 770-billion-parameter mixture-of-experts model—one of the largest publicly announced models at its release."
+        },
+        {
+          "question": "Which new capability does Hy4 introduce for the first time in Tencent's Hunyuan model family?",
+          "options": [
+            "Code generation and debugging",
+            "Vision understanding and computer operation",
+            "Real-time voice conversation",
+            "Mathematical theorem proving"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hy4 is Tencent's first Hunyuan model to include vision understanding and computer-operation capabilities, allowing it to interpret images and interact with on-screen interfaces."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-acquires-conductor-20261104",
+      "type": "article",
+      "title": "Meta Acquires Conductor, the Startup That Coordinates Parallel AI Coding Agents",
+      "sourceUrl": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta announced it has acquired Conductor, a startup that built orchestration infrastructure for running parallel AI coding agents. Conductor Cloud will shut down on November 20, with write access ending November 13. The acquisition is seen as bolstering Meta's AI coding capabilities at a time when rivals OpenAI (Codex) and Anthropic (Claude Code) are racing to build developer-facing coding agents. Financial terms were not disclosed.",
+      "keyConcepts": [
+        "AI coding agent orchestration",
+        "parallel agent execution",
+        "AI acquisition strategy",
+        "developer tooling consolidation"
+      ],
+      "whyItMatters": "As AI coding agents move from single-threaded assistants to parallel multi-agent systems, the infrastructure for coordinating them becomes strategically valuable—Meta's acquisition signals that orchestration capability is now a competitive differentiator in the AI coding race.",
+      "tags": ["meta", "conductor", "ai-coding-agents", "acquisition", "ai-engineering", "developer-tools"],
+      "relatedIds": ["article-openai-kernel-security-20261104"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the core capability that Conductor built, which made it attractive for acquisition?",
+          "options": [
+            "A code review tool that flags security vulnerabilities",
+            "Infrastructure for orchestrating parallel AI coding agents",
+            "A model fine-tuning platform for code generation",
+            "A real-time pair programming AI assistant"
+          ],
+          "correctIndex": 1,
+          "explanation": "Conductor's key product is orchestration infrastructure that allows multiple AI coding agents to work in parallel—a capability that becomes critical as coding tasks grow in complexity and scope."
+        },
+        {
+          "question": "When does Conductor Cloud shut down following Meta's acquisition?",
+          "options": [
+            "November 10, 2026",
+            "November 13, 2026",
+            "November 20, 2026",
+            "December 1, 2026"
+          ],
+          "correctIndex": 2,
+          "explanation": "Conductor Cloud is scheduled to shut down on November 20, 2026, with write access ending on November 13—giving existing users roughly two weeks to migrate."
+        }
+      ]
+    },
+    {
+      "id": "article-kimi-k31-pro-weights-20261105",
+      "type": "article",
+      "title": "Moonshot AI Releases Open Weights for Kimi K3.1 Pro, a 2.8-Trillion-Parameter Model",
+      "sourceUrl": "https://alphasignal.ai/news/moonshot-ai-opens-kimi-k3-1-pro-weights-to-beat-claude-on-coding-agents",
+      "verified": false,
+      "publishedAt": "2026-11-05",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Moonshot AI has released the full model weights for Kimi K3.1 Pro on Hugging Face under the handle moonshotai/Kimi-K3.1-Pro, making one of the largest openly available models accessible to researchers. The 2.8-trillion-parameter model targets competitive performance on coding agent benchmarks, with vendor-reported scores positioning it against Claude and other frontier models. License terms have been disputed across sources, and benchmarks are vendor-reported.",
+      "keyConcepts": [
+        "open-weights model release",
+        "mixture-of-experts scaling",
+        "coding agent benchmarks",
+        "Chinese open-source AI models"
+      ],
+      "whyItMatters": "Open-weight releases at the 2.8-trillion-parameter scale dramatically lower the barrier to research and fine-tuning of frontier-class models—and intensify competition with closed-weight proprietary models from US labs, particularly in coding-agent applications.",
+      "tags": ["moonshot-ai", "kimi", "open-weights", "coding-agents", "ai-research", "hugging-face"],
+      "relatedIds": ["article-tencent-hy4-launch-20261105"],
+      "knowledgeChecks": [
+        {
+          "question": "Where did Moonshot AI release the Kimi K3.1 Pro model weights?",
+          "options": [
+            "GitHub",
+            "Hugging Face",
+            "ModelScope",
+            "Weights & Biases"
+          ],
+          "correctIndex": 1,
+          "explanation": "Moonshot AI released Kimi K3.1 Pro's weights on Hugging Face under the handle moonshotai/Kimi-K3.1-Pro, making them accessible to researchers and developers worldwide."
+        },
+        {
+          "question": "What application area does Kimi K3.1 Pro's benchmark positioning primarily target?",
+          "options": [
+            "Image generation",
+            "Long-document summarization",
+            "Coding agents",
+            "Speech recognition"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vendor-reported benchmarks position Kimi K3.1 Pro competitively against Claude and other frontier models specifically on coding agent tasks—the primary focus of its release."
         }
       ]
     }
