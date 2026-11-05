@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-11-05T08:00:00.000Z",
+  "weekOf": "2026-11-02",
+  "coverageStart": "2026-11-04",
+  "coverageEnd": "2026-11-04",
+  "items": [
+    {
+      "id": "article-axios-ai-earthquake-election-20261104",
+      "type": "article",
+      "title": "\"What We Just Witnessed Was an AI Earthquake\": Voters Revolt Against Tech at the Polls",
+      "sourceUrl": "https://www.axios.com/2026/11/04/ai-data-center-election-slowdown",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-industry"],
+      "summary": "The 2026 US midterm elections delivered a sweeping rebuke of the AI industry, with voters across dozens of jurisdictions passing ballot measures restricting or banning new data center construction. Analysts describe the results as an unexpected \"AI earthquake\" that could significantly slow the expansion of AI infrastructure in the United States. The scale of opposition—cutting across party lines—took tech executives and industry super PACs by surprise.",
+      "keyConcepts": [
+        "midterm election ballot measures",
+        "AI data center opposition",
+        "AI industry political backlash",
+        "super PAC spending failure"
+      ],
+      "whyItMatters": "The coordinated voter rejection of AI data centers signals a profound shift in public sentiment that could constrain the physical infrastructure needed to train and run frontier AI models at scale—affecting everything from model development timelines to energy consumption planning.",
+      "tags": ["midterms-2026", "data-centers", "ai-regulation", "ai-policy", "ai-industry", "elections"],
+      "relatedIds": ["article-wapo-data-center-ballot-20261104", "article-cnbc-ai-stocks-election-20261104"],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary reason voters gave for opposing new AI data centers in the 2026 midterms?",
+          "options": [
+            "Concerns about AI job displacement",
+            "Worries about electricity costs, water usage, and community impact",
+            "Opposition to foreign investment in US tech infrastructure",
+            "Distrust of large language model safety"
+          ],
+          "correctIndex": 1,
+          "explanation": "Exit polling showed that local concerns—electricity demand raising utility bills, water consumption, and the character of communities—drove the ballot measure opposition, not abstract AI safety concerns."
+        },
+        {
+          "question": "Which term did analysts use to describe the scale of voter opposition to AI data centers in the 2026 midterms?",
+          "options": [
+            "A tech reckoning",
+            "An AI earthquake",
+            "A digital revolt",
+            "A silicon backlash"
+          ],
+          "correctIndex": 1,
+          "explanation": "Analysts and commentators described the widespread ballot measure defeats as an 'AI earthquake,' reflecting how unexpectedly comprehensive the rejection was across different states and communities."
+        }
+      ]
+    },
+    {
+      "id": "article-wapo-data-center-ballot-20261104",
+      "type": "article",
+      "title": "A Nationwide Backlash Against Data Centers Erupts at the Polls",
+      "sourceUrl": "https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Voters in at least 38 jurisdictions across the United States passed ballot measures restricting or banning new AI data center development in a historic midterm election result. Only one jurisdiction—Harwood, North Dakota—voted in favor of permitting new data centers. Democrats gained control of Congress, with candidates who ran on AI regulation and data center restrictions winning key seats. The results complicate the permitting, land acquisition, and power procurement plans of major AI companies.",
+      "keyConcepts": [
+        "ballot measure data center restrictions",
+        "AI policy in midterm elections",
+        "Democratic congressional gains",
+        "AI infrastructure permitting challenges"
+      ],
+      "whyItMatters": "With Democrats controlling Congress and over 38 jurisdictions enacting local data center restrictions, AI companies face a new landscape of regulatory and community opposition that could significantly delay or redirect infrastructure investments worth hundreds of billions of dollars.",
+      "tags": ["midterms-2026", "data-centers", "ai-regulation", "congress", "ai-policy", "ai-infrastructure"],
+      "relatedIds": ["article-axios-ai-earthquake-election-20261104", "article-cnbc-ai-stocks-election-20261104"],
+      "knowledgeChecks": [
+        {
+          "question": "How many jurisdictions passed ballot measures restricting AI data centers in the 2026 midterm elections?",
+          "options": [
+            "At least 15",
+            "At least 38",
+            "At least 50",
+            "Fewer than 10"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Washington Post reported at least 38 jurisdictions passed measures restricting or banning new data center development, with only Harwood, North Dakota voting in favor of permitting them."
+        },
+        {
+          "question": "Which party gained control of the US Congress in the 2026 midterm elections?",
+          "options": [
+            "Republicans",
+            "Democrats",
+            "Control split between chambers",
+            "Results were still undecided"
+          ],
+          "correctIndex": 1,
+          "explanation": "Democrats gained control of Congress in the 2026 midterms, with CNBC expecting the new Democratic majority to scrutinize tech companies and data center expansion more closely."
+        }
+      ]
+    },
+    {
+      "id": "article-cnbc-ai-stocks-election-20261104",
+      "type": "article",
+      "title": "AI Data Center Stocks Decline as Texas Governor Race Result Raises Slowdown Risks",
+      "sourceUrl": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "verified": false,
+      "publishedAt": "2026-11-04",
+      "topics": ["ai-industry"],
+      "summary": "AI-linked stocks fell sharply on November 4 after Democrat Gina Hinojosa defeated incumbent Republican Governor Greg Abbott in Texas—a state that hosts 25–30% of projected US data center capacity. Investors grew jittery as the scale of anti-data-center ballot measure victories became clear. Analysts flagged that companies including Nvidia, Microsoft, and AI-focused REITs faced compounded headwinds from both market reaction and the prospect of stricter federal oversight under a newly Democratic Congress.",
+      "keyConcepts": [
+        "AI stock market reaction",
+        "Texas governor election impact on AI",
+        "data center REITs",
+        "Nvidia market exposure"
+      ],
+      "whyItMatters": "Texas's outsized role in planned AI infrastructure expansion—roughly a quarter of projected US gigawatt capacity—means the governor's race outcome has direct implications for the capital expenditure plans of every major AI company and hyperscaler.",
+      "tags": ["ai-stocks", "texas", "data-centers", "midterms-2026", "nvidia", "market-impact"],
+      "relatedIds": ["article-axios-ai-earthquake-election-20261104", "article-wapo-data-center-ballot-20261104"],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately what percentage of projected US data center gigawatt capacity is expected to come from Texas?",
+          "options": [
+            "5–10%",
+            "15–20%",
+            "25–30%",
+            "40–50%"
+          ],
+          "correctIndex": 2,
+          "explanation": "CNBC reported that around 25–30% of data center gigawatts and capacity is expected to come from Texas, making the state's governor race directly relevant to AI infrastructure expansion plans."
+        },
+        {
+          "question": "Who won the Texas governorship in the 2026 midterm elections?",
+          "options": [
+            "Greg Abbott (Republican, incumbent)",
+            "Gina Hinojosa (Democrat)",
+            "Ron DeSantis (Republican)",
+            "Wendy Davis (Democrat)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Democrat Gina Hinojosa defeated incumbent Republican Governor Greg Abbott in Texas, a result that alarmed AI investors given Texas's central role in the US data center buildout."
+        }
+      ]
+    },
+    {
+      "id": "article-scientificamerican-election-data-centers-20261105",
+      "type": "article",
+      "title": "2026 Election Results Show Widespread Opposition to AI Data Centers",
+      "sourceUrl": "https://www.scientificamerican.com/article/2026-election-results-show-widespread-opposition-to-ai-data-centers/",
+      "verified": false,
+      "publishedAt": "2026-11-05",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Scientific American reports that of the jurisdictions voting on AI data center measures in the 2026 midterms, all but one voted to restrict or ban new developments. An NBC News exit poll reportedly found that 76% of voters opposed a new data center in their own community. Market analysts observed investors getting jittery on the day after the election, sending AI data center stocks tumbling. Analysts remain divided on the long-term impact, with some predicting a slowdown in construction and others arguing projects already underway will continue.",
+      "keyConcepts": [
+        "voter opposition polling",
+        "AI infrastructure investment thesis",
+        "public opinion on AI energy usage",
+        "data center stock market impact"
+      ],
+      "whyItMatters": "The near-universal voter opposition—76% per exit polling—demonstrates that concerns about AI's energy and resource footprint have moved from academic debate into mainstream political reality, creating new constraints for the research infrastructure behind frontier model development.",
+      "tags": ["ai-data-centers", "public-opinion", "ai-energy", "midterms-2026", "research-infrastructure", "ai-policy"],
+      "relatedIds": ["article-axios-ai-earthquake-election-20261104", "article-wapo-data-center-ballot-20261104"],
+      "knowledgeChecks": [
+        {
+          "question": "According to an NBC News exit poll, what percentage of voters opposed a new data center in their own community?",
+          "options": [
+            "52%",
+            "63%",
+            "76%",
+            "89%"
+          ],
+          "correctIndex": 2,
+          "explanation": "An NBC News exit poll reportedly found that 76% of voters opposed a new data center in their own community, reflecting strong local sentiment that cut across party lines."
+        },
+        {
+          "question": "What is the main concern about AI data centers that researchers and advocates have highlighted as driving voter opposition?",
+          "options": [
+            "Data privacy risks from always-on AI surveillance",
+            "Energy and water consumption at scale",
+            "Displacement of skilled IT workers",
+            "National security risks from foreign hardware"
+          ],
+          "correctIndex": 1,
+          "explanation": "Researchers and advocacy groups have highlighted AI data centers' enormous electricity demand—which raises utility bills for communities—and their water consumption for cooling as the primary concerns driving voter opposition."
+        }
+      ]
+    }
+  ]
+}
