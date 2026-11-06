@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-06T08:00:00.000Z",
+  "generatedAt": "2026-11-06T17:10:00.000Z",
   "weekOf": "2026-11-02",
   "coverageStart": "2026-11-05",
-  "coverageEnd": "2026-11-05",
+  "coverageEnd": "2026-11-06",
   "items": [
     {
       "id": "article-mit-weight-space-programming-20261105",
@@ -217,6 +217,135 @@
           ],
           "correctIndex": 1,
           "explanation": "SWE-2 scores 50.0% on FrontierCode 1.1 Main, just below Claude Fable 5.1's 50.9%, while offering approximately 64% lower cost per rollout—making it compelling for cost-sensitive production deployments."
+        }
+      ]
+    },
+    {
+      "id": "article-ramp-ai-spending-plateau-20261106",
+      "type": "article",
+      "title": "Ramp Data Shows Enterprise AI Spending Has Stalled Even as Usage Climbs",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "verified": false,
+      "publishedAt": "2026-11-06",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Financial data from corporate card provider Ramp shows that enterprise spending on AI tools has leveled off even as companies report using AI more than ever, creating an unexpected divergence. The data, surfaced just as Anthropic prepares for its IPO, suggests companies have consolidated onto fewer AI vendors rather than expanding their AI tool budgets. This spending plateau raises questions about the AI sector's near-term revenue growth trajectory, particularly for mid-tier providers squeezed between free tiers and enterprise contracts.",
+      "keyConcepts": [
+        "enterprise AI spending trends",
+        "AI vendor consolidation",
+        "usage vs. spend divergence",
+        "AI market saturation signals"
+      ],
+      "whyItMatters": "Real spending data cutting against the narrative of unbounded AI growth matters for practitioners and investors alike—if enterprise budgets are consolidating rather than expanding, mid-market AI tools and startups face a more challenging environment than the usage metrics alone suggest.",
+      "tags": ["enterprise-ai", "ai-spending", "ramp", "anthropic-ipo", "market-trends", "ai-adoption"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What divergence does Ramp's enterprise data reveal about AI adoption?",
+          "options": [
+            "Spending is growing faster than actual usage",
+            "Usage is growing but spending has leveled off",
+            "Both spending and usage have declined sharply",
+            "Enterprise AI spending is concentrated only in Fortune 500 companies"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ramp's data shows that companies are using AI more than ever, but their spending on AI tools has plateaued—suggesting vendor consolidation rather than expanded AI budgets, which has significant implications for smaller AI providers."
+        },
+        {
+          "question": "What context makes the Ramp spending data particularly notable?",
+          "options": [
+            "It was released alongside a major OpenAI product announcement",
+            "It emerged just as Anthropic is preparing for its IPO",
+            "It contradicts a recent Stanford AI Index report",
+            "It follows a government mandate for AI spend reporting"
+          ],
+          "correctIndex": 1,
+          "explanation": "The spending plateau data is especially notable because it surfaces just as Anthropic is approaching its IPO, raising questions about the AI sector's near-term revenue growth story at a critical moment for investor sentiment."
+        }
+      ]
+    },
+    {
+      "id": "article-underdog-32mb-speech-model-20261106",
+      "type": "article",
+      "title": "Startup Underdog Ships a 32MB Voice Model That Runs Entirely in the Browser",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "verified": false,
+      "publishedAt": "2026-11-06",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "AI startup Underdog has released a demo game called Woof built on its new 32MB speech model that runs entirely in a web browser without server round-trips. The model represents a significant reduction from typical speech model sizes, which commonly require hundreds of megabytes to gigabytes when deployed locally. By fitting a functional speech model into 32MB, Underdog is targeting use cases where low latency, offline operation, or cost-sensitive edge deployments are priorities over raw accuracy.",
+      "keyConcepts": [
+        "edge AI model compression",
+        "browser-native voice AI",
+        "on-device speech processing",
+        "model size vs. latency tradeoffs"
+      ],
+      "whyItMatters": "Running AI voice models in a browser at 32MB—no server, no latency, no API cost—points toward a future where sophisticated AI features ship as standard web assets, democratizing voice interfaces for indie developers and low-budget applications that can't afford cloud inference costs.",
+      "tags": ["edge-ai", "speech-model", "browser-ai", "model-compression", "voice-interface", "ai-engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key technical achievement of Underdog's voice model demo?",
+          "options": [
+            "It achieves state-of-the-art accuracy on the LibriSpeech benchmark",
+            "A functional speech model runs entirely in the browser at only 32MB",
+            "It supports 50 languages with no additional model size increase",
+            "The model runs on a Raspberry Pi Zero with no GPU"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key achievement is packaging a working speech model into just 32MB that executes entirely in-browser, eliminating server infrastructure and enabling offline voice applications as standard web assets."
+        },
+        {
+          "question": "What type of application did Underdog use to demonstrate the speech model?",
+          "options": [
+            "A voice-to-text transcription tool",
+            "A multilingual translation service",
+            "A game called Woof",
+            "An AI customer service chatbot"
+          ],
+          "correctIndex": 2,
+          "explanation": "Underdog released a browser game called Woof as the demonstration vehicle for its 32MB speech model, showing practical deployment of voice interaction without cloud infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "article-physicl-robot-training-funding-20261106",
+      "type": "article",
+      "title": "Physicl Raises $10M to Build Photo-Realistic 3D Environments for Robot Training",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "verified": false,
+      "publishedAt": "2026-11-06",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Physicl, a startup founded by a former e-commerce rendering engineer, raised a $10M seed round to create highly realistic 3D digital environments for training physical robots. The company's approach repurposes techniques from product visualization—where photorealism directly impacts purchasing decisions—to generate training data for robot manipulation tasks. The goal is to close the sim-to-real gap, the persistent challenge where robots trained in simulation fail to transfer skills reliably to the physical world.",
+      "keyConcepts": [
+        "sim-to-real transfer gap",
+        "synthetic training data for robotics",
+        "photorealistic simulation environments",
+        "robot manipulation training"
+      ],
+      "whyItMatters": "The sim-to-real gap remains one of robotics AI's hardest unsolved problems—if Physicl's photorealism approach meaningfully narrows it, it could accelerate robot deployment in unstructured environments like homes and warehouses without requiring costly real-world data collection at scale.",
+      "tags": ["robotics", "sim-to-real", "synthetic-data", "robot-training", "physicl", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the 'sim-to-real gap' problem that Physicl is trying to address?",
+          "options": [
+            "The latency difference between cloud and edge AI inference",
+            "The challenge of robots trained in simulation failing to transfer skills to the physical world",
+            "The cost gap between simulated and real-world robot hardware",
+            "The accuracy gap between AI visual recognition in photos vs. live video"
+          ],
+          "correctIndex": 1,
+          "explanation": "The sim-to-real gap describes the persistent challenge where robots trained on simulated data struggle to perform reliably in the physical world—different lighting, surface textures, and physics make the real world harder than any simulation."
+        },
+        {
+          "question": "What is Physicl's founder's background that informs their approach to robot training environments?",
+          "options": [
+            "Academic robotics research at a major university",
+            "Computer vision engineering at a self-driving car company",
+            "E-commerce product rendering for photorealistic visuals",
+            "Game engine development for major console titles"
+          ],
+          "correctIndex": 2,
+          "explanation": "Physicl's founder comes from e-commerce product rendering, where photorealism is commercially critical—that expertise in creating convincing digital representations of physical objects directly transfers to building training environments where robots need to recognize and manipulate real-world objects."
         }
       ]
     }
