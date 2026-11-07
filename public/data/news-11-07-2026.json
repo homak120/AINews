@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T06:00:00Z",
+  "generatedAt": "2026-11-07T12:00:00Z",
   "weekOf": "2026-11-02",
   "coverageStart": "2026-11-06",
-  "coverageEnd": "2026-11-06",
+  "coverageEnd": "2026-11-07",
   "items": [
     {
       "id": "article-openai-11b-funding-nov6",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "OpenAI's ability to close this round at a $1.25 trillion valuation will signal whether investor confidence in leading AI labs remains robust or is cooling — a bellwether for the entire industry's near-term capital access and expansion plans.",
       "tags": ["openai", "funding", "valuation", "ai-investment", "anthropic", "market-dynamics"],
-      "relatedIds": [],
+      "relatedIds": ["article-thinking-machines-5b-round-nov6"],
       "knowledgeChecks": [
         {
           "question": "What valuation target did OpenAI reportedly lower its funding round to amid the AI market selloff?",
@@ -44,6 +44,92 @@
           ],
           "correctIndex": 1,
           "explanation": "The reports indicate a broader AI market selloff caused some large investors to show tepid interest and reduce commitments, forcing OpenAI to lower its target valuation from $1.4T to $1.25T."
+        }
+      ]
+    },
+    {
+      "id": "article-thinking-machines-5b-round-nov6",
+      "type": "article",
+      "title": "Mira Murati's Thinking Machines Lab in Talks to Raise $5–6 Billion at $40 Billion Valuation",
+      "sourceUrl": "https://forkast.news/thinking-machines-lab-seeks-40b-valuation-as-nvidia-extends-its-capital-allocator-role-into-model-space/",
+      "verified": false,
+      "publishedAt": "2026-11-06",
+      "topics": ["ai-industry"],
+      "summary": "Thinking Machines Lab, the AI startup founded by former OpenAI CTO Mira Murati, is reportedly in advanced talks to close a $5–6 billion funding round led by Accel at a pre-money valuation of at least $40 billion. Nvidia is in separate talks to contribute approximately $2.5 billion, deepening its strategic bet on the emerging frontier AI lab. The company previously raised $2 billion at a $12 billion valuation in a July 2025 seed round led by Andreessen Horowitz, representing a more than 3x valuation increase in roughly 15 months.",
+      "keyConcepts": [
+        "Frontier AI lab valuation escalation",
+        "Nvidia's expanding role as strategic AI investor",
+        "Accel's bet on post-OpenAI talent",
+        "AI startup funding velocity in 2026"
+      ],
+      "whyItMatters": "The $40 billion valuation for a lab still in early product stages reflects how much the market is pricing in future AI capabilities rather than current revenue, and Nvidia's repeated co-investments signal a strategy to secure chip customer relationships by backing the labs most likely to need massive compute.",
+      "tags": ["thinking-machines", "mira-murati", "nvidia", "funding", "ai-startups", "frontier-models"],
+      "relatedIds": ["article-openai-11b-funding-nov6"],
+      "knowledgeChecks": [
+        {
+          "question": "Who leads Thinking Machines Lab, and what is their previous role in AI?",
+          "options": [
+            "Ilya Sutskever, former OpenAI Chief Scientist",
+            "Sam Altman, founder of OpenAI",
+            "Mira Murati, former OpenAI CTO",
+            "Andrej Karpathy, former OpenAI research director"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thinking Machines Lab was founded by Mira Murati, who served as CTO of OpenAI before departing to start her own frontier AI lab."
+        },
+        {
+          "question": "What is Nvidia's reported motivation for investing ~$2.5 billion in Thinking Machines Lab?",
+          "options": [
+            "To acquire the company outright and absorb its research team",
+            "To secure a chip customer relationship with a likely high-compute frontier AI lab",
+            "To comply with government regulations requiring semiconductor investment in AI",
+            "To slow down OpenAI's compute procurement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia has increasingly acted as a strategic co-investor in frontier AI startups, securing future chip customer relationships with labs expected to require massive GPU compute as they scale their models."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-datacenter-ballot-measures-nov7",
+      "type": "article",
+      "title": "Voters Reject AI Data Centers in 38 of 40+ Ballot Measures Across 13 States",
+      "sourceUrl": "https://404media.co/american-voters-overwhelmingly-reject-ai-data-centers",
+      "verified": false,
+      "publishedAt": "2026-11-07",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Final counts from the November 3 midterm elections show that anti-data-center positions won 38 of more than 40 local ballot measures across 13 states, with voters backing outright prohibitions, construction moratoriums, and energy-use restrictions on AI data centers. Ohio alone had 21 municipal measures, the most of any state, and an NBC exit poll found 56% of voters called AI and data centers a crucial or major factor in their congressional vote. Only one measure — in North Dakota — favored construction, with additional votes expected in Arkansas and North Dakota in December.",
+      "keyConcepts": [
+        "Local democratic opposition to AI infrastructure",
+        "Energy and land-use concerns driving data center pushback",
+        "AI as a ballot-box issue in US midterms",
+        "Mismatch between federal AI promotion and local community resistance"
+      ],
+      "whyItMatters": "The scale of the rejection — 38 of 40+ measures across 13 states — signals that AI infrastructure expansion is becoming a significant political flashpoint at the local level, potentially creating regulatory fragmentation that complicates hyperscaler and AI lab compute buildout plans in communities they depend on.",
+      "tags": ["data-centers", "ballot-measures", "ai-policy", "midterms-2026", "community-opposition", "ai-infrastructure"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "In the November 3, 2026 midterms, what was the approximate outcome of ballot measures related to AI data centers?",
+          "options": [
+            "Roughly half passed and half failed",
+            "Most measures favored data center construction",
+            "38 of 40+ measures went against data centers",
+            "Data center measures only appeared in California and Texas"
+          ],
+          "correctIndex": 2,
+          "explanation": "Per 404 Media and multiple sources, opponents of data centers won 38 of more than 40 ballot measures spread across 13 states, representing a broad-based democratic rejection of AI infrastructure expansion."
+        },
+        {
+          "question": "What types of restrictions did voters typically support in the data center ballot measures?",
+          "options": [
+            "Federal oversight of data center security only",
+            "Outright prohibitions, moratoriums, energy limits, and requiring voter approval before construction",
+            "Tax incentives to relocate existing data centers",
+            "Mandatory open-source requirements for AI models hosted in data centers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The measures varied by community but typically covered outright prohibitions, temporary moratoriums, limitations on energy use, requirements that voters approve construction, and advisory measures — reflecting a range of local concerns about noise, energy consumption, water use, and community character."
         }
       ]
     }
