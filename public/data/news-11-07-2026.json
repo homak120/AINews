@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-11-07T06:00:00Z",
+  "weekOf": "2026-11-02",
+  "coverageStart": "2026-11-06",
+  "coverageEnd": "2026-11-06",
+  "items": [
+    {
+      "id": "article-openai-11b-funding-nov6",
+      "type": "article",
+      "title": "OpenAI Raises $11 Billion at $1.25 Trillion Valuation Amid AI Market Turbulence",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "verified": false,
+      "publishedAt": "2026-11-06",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI has reportedly secured $11 billion in commitments from investors as part of a funding round that hasn't yet closed, lowering its valuation target from $1.4 trillion to $1.25 trillion amid an AI market selloff. Bloomberg reports the round could ultimately reach around $20 billion, though some large investors have shown tepid interest and reduced their commitments. The same report notes concerns about Anthropic's IPO valuation, with some prospective buyers valuing it as low as $1.1 trillion against a $2 trillion target from a month prior.",
+      "keyConcepts": [
+        "AI company valuations and funding dynamics",
+        "Investor sentiment shifts in AI market",
+        "Comparison of OpenAI and Anthropic funding trajectories",
+        "Impact of AI market selloff on venture rounds"
+      ],
+      "whyItMatters": "OpenAI's ability to close this round at a $1.25 trillion valuation will signal whether investor confidence in leading AI labs remains robust or is cooling — a bellwether for the entire industry's near-term capital access and expansion plans.",
+      "tags": ["openai", "funding", "valuation", "ai-investment", "anthropic", "market-dynamics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What valuation target did OpenAI reportedly lower its funding round to amid the AI market selloff?",
+          "options": [
+            "$850 billion",
+            "$1.4 trillion",
+            "$1.25 trillion",
+            "$2 trillion"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to Bloomberg reporting, OpenAI lowered its proposed valuation from $1.4 trillion to $1.25 trillion amid an AI selloff and investor hesitation, with $11 billion committed so far toward a potential $20 billion total round."
+        },
+        {
+          "question": "Which of the following best describes why some investors reduced commitments to OpenAI's funding round?",
+          "options": [
+            "OpenAI released a disappointing quarterly earnings report",
+            "An AI market selloff dampened enthusiasm for high valuations",
+            "Regulatory agencies blocked the round",
+            "OpenAI's CEO publicly discouraged large investments"
+          ],
+          "correctIndex": 1,
+          "explanation": "The reports indicate a broader AI market selloff caused some large investors to show tepid interest and reduce commitments, forcing OpenAI to lower its target valuation from $1.4T to $1.25T."
+        }
+      ]
+    }
+  ]
+}
