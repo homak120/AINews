@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:00:00Z",
+  "generatedAt": "2026-11-08T22:00:00Z",
   "weekOf": "2026-11-02",
   "coverageStart": "2026-11-07",
   "coverageEnd": "2026-11-07",
@@ -173,6 +173,95 @@
           ],
           "correctIndex": 1,
           "explanation": "GPU partitioning is designed for smaller models — embeddings, rerankers, classifiers — that don't need a full H100 or A100 GPU. By partitioning, multiple such models can share one GPU, eliminating the waste of expensive hardware running at a fraction of its capacity."
+        }
+      ]
+    },
+    {
+      "id": "youtube-9dSUkgtPcDU",
+      "type": "video",
+      "title": "Gemini 4 Hydrogen Flash Demonstrates Fast 3D Spatial Reasoning",
+      "youtubeId": "9dSUkgtPcDU",
+      "sourceUrl": "https://www.youtube.com/watch?v=9dSUkgtPcDU",
+      "verified": false,
+      "publishedAt": "2026-11-07",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "This daily AI news breakdown covers Google's Gemini 4 Hydrogen Flash model demonstrating advanced 3D reasoning and spatial processing capabilities. The video analyzes performance benchmarks and covers how this lighter, faster variant of the Gemini 4 family achieves spatial understanding skills previously seen only in larger frontier models. The demonstration suggests flash-tier models are becoming competitive in specialized cognitive tasks beyond text and 2D images.",
+      "keyConcepts": [
+        "Gemini 4 Hydrogen Flash model architecture",
+        "3D spatial AI reasoning",
+        "Fast inference model benchmarking",
+        "Multimodal capability expansion"
+      ],
+      "whyItMatters": "Flash models achieving strong 3D capabilities signal that Google is extending spatial AI intelligence without sacrificing inference speed, expanding the range of applications — robotics, AR, digital twins — that can run cost-efficiently on lightweight model tiers.",
+      "tags": ["gemini-4", "google-ai", "flash-model", "3d-reasoning", "multimodal", "ai-benchmarks"],
+      "relatedIds": ["article-kimi-k31-pro-top-open-weight-nov7"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes a 'flash' AI model variant from its full-sized counterpart?",
+          "options": [
+            "It runs on mobile devices only",
+            "It is optimized for faster inference with lower compute requirements",
+            "It is an older, deprecated version of the model",
+            "It only handles image inputs, not text"
+          ],
+          "correctIndex": 1,
+          "explanation": "Flash variants are designed for speed and efficiency — lower latency and reduced compute cost — while sacrificing some performance relative to the full model. The Gemini 4 Hydrogen Flash is a faster, more economical version of the larger Gemini 4 family."
+        },
+        {
+          "question": "Why is 3D spatial reasoning capability in a flash-tier AI model particularly noteworthy?",
+          "options": [
+            "It allows the model to generate 3D-printable objects",
+            "It enables cost-efficient spatial reasoning for robotics, AR, and autonomous systems at scale",
+            "It reduces the model's hallucination rate on text tasks",
+            "It makes the model the first to pass 3D benchmark tests"
+          ],
+          "correctIndex": 1,
+          "explanation": "3D spatial reasoning lets AI understand objects, depth, and environments — critical for robotics, AR, and autonomous systems. When a fast, economical flash-tier model gains this capability, it makes spatial AI accessible at scale without the cost of running full frontier models."
+        }
+      ]
+    },
+    {
+      "id": "youtube-efnEcbHnRa0",
+      "type": "video",
+      "title": "Claude Sonnet 6 and Fable 6 Leaks Emerge Alongside GPT-6.2 Astra Release",
+      "youtubeId": "efnEcbHnRa0",
+      "sourceUrl": "https://www.youtube.com/watch?v=efnEcbHnRa0",
+      "verified": false,
+      "publishedAt": "2026-11-07",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "WorldofAI covers circulating leaks about Anthropic's upcoming Claude Sonnet 6 model and a secretive project codenamed 'Fable 6,' alongside the official launch of OpenAI's GPT-6.2 Astra. The video examines what the leaked specs suggest about capability jumps from the current Sonnet 4.6 generation and what Fable 6's rumored scope could mean for the frontier. With multiple major releases potentially weeks away, the video frames the competitive dynamics across Anthropic, OpenAI, and Google.",
+      "keyConcepts": [
+        "Claude Sonnet 6 leaked specs and rumored capabilities",
+        "Anthropic Fable 6 project speculation",
+        "GPT-6.2 Astra release and positioning",
+        "Frontier model competitive landscape"
+      ],
+      "whyItMatters": "Leaked model specs from reliable sources often predict the actual capability trajectory within weeks. Practitioners tracking AI tools should monitor these signals to anticipate when the current generation's ceiling will shift and when to re-evaluate their model choices.",
+      "tags": ["claude-sonnet-6", "anthropic", "fable-6", "gpt-6", "openai", "model-releases", "frontier-ai"],
+      "relatedIds": ["article-openai-gpt6-cyber-nov7"],
+      "knowledgeChecks": [
+        {
+          "question": "What does the codename 'Fable' likely signify in the context of Anthropic's model naming?",
+          "options": [
+            "It is a safety evaluation framework, not a deployable model",
+            "It appears to be a new tier in Anthropic's model lineup, based on leaked information",
+            "It is a rebranding of the existing Claude 3 Opus model",
+            "It is a code name for Anthropic's internal training infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Based on the leaked information discussed in the video, 'Fable' appears to be a new model tier in Anthropic's lineup — distinct from the Claude Sonnet and Opus families. Its specific capabilities are still unconfirmed, but its emergence in leaks alongside Sonnet 6 suggests Anthropic is preparing a broader generational update."
+        },
+        {
+          "question": "Why do AI practitioners monitor model leak signals, even when they are unconfirmed?",
+          "options": [
+            "Leaked specs are always more accurate than official announcements",
+            "They help practitioners anticipate when to re-evaluate tools and prepare for capability jumps",
+            "AI companies are legally required to confirm leaks within 30 days",
+            "Tracking leaks is required for SOC 2 compliance when using AI tools"
+          ],
+          "correctIndex": 1,
+          "explanation": "Reliable model leaks — especially those involving specs from known internal sources — often precede official releases by weeks and give practitioners advance notice to test integrations, plan migrations, and anticipate capability changes in their AI-powered workflows."
         }
       ]
     }
