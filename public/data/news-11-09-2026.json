@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-11-09T07:00:00.000Z",
+  "weekOf": "2026-11-09",
+  "coverageStart": "2026-11-09",
+  "coverageEnd": "2026-11-09",
+  "items": [
+    {
+      "id": "article-ai-stocks-midterm-nov9",
+      "type": "article",
+      "title": "AI Stocks Fall as Democratic Midterm Sweep Fuels Regulatory Concerns",
+      "sourceUrl": "https://www.itiger.com/news/1136765194",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-industry"],
+      "summary": "AI-heavy equities slid sharply following Tuesday's midterm elections after Democrats gained seats in both chambers, raising investor fears of heightened AI regulation. Bank of America warned a Democratic sweep could cut 10% off US stocks tied to the AI complex, citing expected congressional investigations and stricter regulatory frameworks. Citadel's Scott Rubner countered that markets would eventually rebound once political uncertainty around AI policy clarified.",
+      "keyConcepts": [
+        "AI sector stocks and regulatory risk",
+        "Midterm elections and technology policy",
+        "Democratic vs Republican AI regulation stances",
+        "Investor sentiment on AI legislative risk"
+      ],
+      "whyItMatters": "The midterm outcome directly shapes the congressional landscape for AI oversight in 2027-28, with significant implications for how quickly AI labs can operate and whether federal guardrails get enacted. Markets are pricing in that risk today.",
+      "tags": ["ai-regulation", "midterm-elections", "ai-stocks", "policy", "congress", "market-reaction"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary market concern following the 2026 midterm results for AI companies?",
+          "options": [
+            "Rising interest rates impacting tech valuations",
+            "Democratic gains raising the risk of stricter AI regulation",
+            "Loss of government AI contracts",
+            "Increased competition from Chinese AI firms"
+          ],
+          "correctIndex": 1,
+          "explanation": "Investors feared that Democratic gains in Congress would lead to investigations, hearings, and stricter regulatory frameworks targeting AI companies, which weighed on AI-heavy stocks."
+        },
+        {
+          "question": "Which Wall Street bank warned a Democratic midterm sweep could knock 10% off AI-linked US stocks?",
+          "options": [
+            "JPMorgan Chase",
+            "Goldman Sachs",
+            "Bank of America",
+            "Morgan Stanley"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bank of America strategist Michael Hartnett warned that a Democratic sweep could knock 10% off US stocks because of risk to the AI complex, pointing to AI-heavy names with high valuations."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-agi-warning-nov9",
+      "type": "article",
+      "title": "Anthropic IPO Filing Warns Company Is 'Very Close' to Self-Improving AI Capability",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-promises-to-pay-for-electricity-price-increases-due-to-its-ai-data-centers-firm-to-pay-100-percent-of-its-grid-infrastructure-costs-produce-new-power-sources-as-sector-predicted-to-hit-50-gw-in-coming-years",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic's S-1 IPO filing has drawn attention this week as analysts flagged language warning the company believes it is 'very close' to developing self-improving AI capabilities, a threshold that could dramatically accelerate AI progress. The filing also disclosed that some planned data centers will run on on-site natural gas generators, with Anthropic committing to pay 100% of grid infrastructure costs caused by its facilities. The company faces a junk credit rating risk post-IPO according to some analysts.",
+      "keyConcepts": [
+        "Self-improving AI and recursive capability gain",
+        "IPO S-1 risk disclosures",
+        "AI data center energy infrastructure",
+        "Natural gas power for AI compute"
+      ],
+      "whyItMatters": "A company publicly acknowledging proximity to self-improving AI in a legal filing is unprecedented and signals how seriously frontier labs view near-term capability jumps. Combined with massive energy infrastructure buildout, this underscores the scale and risk of the current AI development race.",
+      "tags": ["anthropic", "ipo", "agi", "self-improvement", "data-centers", "energy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What controversial capability did Anthropic's IPO filing indicate the company is approaching?",
+          "options": [
+            "Real-time video generation at human quality",
+            "Autonomous robotic control",
+            "Self-improving AI that can enhance its own capabilities",
+            "Full human-level natural language understanding"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's S-1 filing warned the company is very close to developing self-improving AI—systems that can enhance their own capabilities—a milestone that could dramatically accelerate AI progress beyond current projections."
+        },
+        {
+          "question": "How is Anthropic planning to power some of its new AI data centers?",
+          "options": [
+            "Exclusively renewable solar and wind energy",
+            "Nuclear microreactors",
+            "On-site natural gas generators",
+            "Shared public utility grid only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's IPO filing disclosed that some planned data centers would run on on-site natural gas generators rather than grid power, with the company committing to pay 100% of grid infrastructure costs its facilities incur."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-jensen-congress-nov9",
+      "type": "article",
+      "title": "Congress Presses Nvidia's Jensen Huang for Briefing on Chinese Intelligence Ties",
+      "sourceUrl": "https://thehill.com/policy/technology/6181938-nvidia-huang-china-intelligence-report/amp/",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Three House committee chairs formally requested a closed-door briefing from Nvidia CEO Jensen Huang following reports that US intelligence identified Alice Huang, a Singapore-based executive at chip customer Megaspeed, as a suspected Chinese intelligence asset. Intelligence officials reportedly do not believe Jensen Huang was aware of Alice Huang's alleged activities. Nvidia has pushed back firmly, calling the diversion allegations against Megaspeed 'thoroughly investigated and debunked last year.'",
+      "keyConcepts": [
+        "AI chip export controls and national security",
+        "Congressional oversight of AI hardware companies",
+        "Chinese intelligence operations targeting US tech",
+        "Nvidia's geopolitical risk exposure"
+      ],
+      "whyItMatters": "As the dominant supplier of AI training chips, Nvidia sits at the center of US-China technology competition. Congressional pressure over potential espionage links could accelerate export control tightening, reshaping who can access the most powerful AI hardware and at what scale.",
+      "tags": ["nvidia", "jensen-huang", "china", "espionage", "export-controls", "congress", "national-security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the congressional concern that prompted House chairs to request a briefing from Jensen Huang?",
+          "options": [
+            "Nvidia's pricing practices for AI chips in the US market",
+            "Reports that a Nvidia customer executive was a suspected Chinese intelligence asset",
+            "Allegations that Nvidia directly sold chips to the Chinese military",
+            "Nvidia's failure to comply with SEC disclosure requirements"
+          ],
+          "correctIndex": 1,
+          "explanation": "US intelligence reportedly identified Alice Huang, an executive at Megaspeed (a Nvidia chip customer), as a suspected Chinese intelligence asset with close ties to CEO Jensen Huang, prompting three House committee chairs to request a closed-door briefing."
+        },
+        {
+          "question": "What was Nvidia's official response to the espionage allegations?",
+          "options": [
+            "Nvidia launched an internal investigation and suspended Megaspeed as a customer",
+            "Nvidia refused to comment on the allegations",
+            "Nvidia called the diversion allegations thoroughly investigated and debunked",
+            "Nvidia agreed to cooperate fully and voluntarily requested the congressional briefing"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia pushed back against the reporting, stating the diversion allegations against Megaspeed were 'thoroughly investigated and debunked last year,' and characterized Jensen Huang's interactions with Megaspeed executives as routine for a major customer relationship."
+        }
+      ]
+    },
+    {
+      "id": "article-us-ai-safety-independence-nov9",
+      "type": "article",
+      "title": "US AI Safety Center Staff Raise Concerns Over White House Interference",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Staff at the US AI Safety Institute (AISI) have reportedly been informally briefing White House officials on internal research findings, raising concerns from watchdog groups that the Institute lacks operational independence. Critics argue this arrangement undermines AISI's ability to issue objective safety assessments of frontier AI systems, particularly as the agency evaluates models from companies with close White House relationships. AISI was established under the AI Safety Executive Order and operates within NIST.",
+      "keyConcepts": [
+        "AI Safety Institute (AISI) and its mandate",
+        "Government AI oversight independence",
+        "Frontier AI model evaluation",
+        "Regulatory capture in AI governance"
+      ],
+      "whyItMatters": "Independent technical evaluation of AI safety is foundational to meaningful governance. If the primary federal body responsible for AI safety assessments lacks autonomy from political pressure, it erodes public and international confidence in US AI oversight at a moment when frontier models are becoming significantly more capable.",
+      "tags": ["ai-safety", "governance", "aisi", "white-house", "regulation", "oversight"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the main concern raised about the US AI Safety Institute (AISI)?",
+          "options": [
+            "It lacks sufficient funding to test frontier AI models",
+            "Its staff have been informally briefing White House officials, raising independence concerns",
+            "It has been captured by Big Tech companies through revolving-door hiring",
+            "It is duplicating work already done by the FTC and DOJ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Watchdog groups raised concerns that AISI staff informally briefing White House officials could compromise the Institute's independence, potentially undermining objective safety assessments of frontier AI systems."
+        },
+        {
+          "question": "Within which federal agency does the AI Safety Institute (AISI) operate?",
+          "options": [
+            "Department of Energy (DOE)",
+            "Federal Trade Commission (FTC)",
+            "National Institute of Standards and Technology (NIST)",
+            "Department of Homeland Security (DHS)"
+          ],
+          "correctIndex": 2,
+          "explanation": "The US AI Safety Institute was established under an AI Safety Executive Order and operates within the National Institute of Standards and Technology (NIST), part of the Department of Commerce."
+        }
+      ]
+    }
+  ]
+}
