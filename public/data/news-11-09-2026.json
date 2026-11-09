@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T07:00:00.000Z",
+  "generatedAt": "2026-11-09T17:11:53.063Z",
   "weekOf": "2026-11-09",
   "coverageStart": "2026-11-09",
   "coverageEnd": "2026-11-09",
@@ -11,7 +11,9 @@
       "sourceUrl": "https://www.itiger.com/news/1136765194",
       "verified": false,
       "publishedAt": "2026-11-09",
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "AI-heavy equities slid sharply following Tuesday's midterm elections after Democrats gained seats in both chambers, raising investor fears of heightened AI regulation. Bank of America warned a Democratic sweep could cut 10% off US stocks tied to the AI complex, citing expected congressional investigations and stricter regulatory frameworks. Citadel's Scott Rubner countered that markets would eventually rebound once political uncertainty around AI policy clarified.",
       "keyConcepts": [
         "AI sector stocks and regulatory risk",
@@ -20,7 +22,14 @@
         "Investor sentiment on AI legislative risk"
       ],
       "whyItMatters": "The midterm outcome directly shapes the congressional landscape for AI oversight in 2027-28, with significant implications for how quickly AI labs can operate and whether federal guardrails get enacted. Markets are pricing in that risk today.",
-      "tags": ["ai-regulation", "midterm-elections", "ai-stocks", "policy", "congress", "market-reaction"],
+      "tags": [
+        "ai-regulation",
+        "midterm-elections",
+        "ai-stocks",
+        "policy",
+        "congress",
+        "market-reaction"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -55,7 +64,10 @@
       "verified": false,
       "publishedAt": "2026-11-09",
       "dateEstimated": true,
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Anthropic's S-1 IPO filing has drawn attention this week as analysts flagged language warning the company believes it is 'very close' to developing self-improving AI capabilities, a threshold that could dramatically accelerate AI progress. The filing also disclosed that some planned data centers will run on on-site natural gas generators, with Anthropic committing to pay 100% of grid infrastructure costs caused by its facilities. The company faces a junk credit rating risk post-IPO according to some analysts.",
       "keyConcepts": [
         "Self-improving AI and recursive capability gain",
@@ -64,7 +76,14 @@
         "Natural gas power for AI compute"
       ],
       "whyItMatters": "A company publicly acknowledging proximity to self-improving AI in a legal filing is unprecedented and signals how seriously frontier labs view near-term capability jumps. Combined with massive energy infrastructure buildout, this underscores the scale and risk of the current AI development race.",
-      "tags": ["anthropic", "ipo", "agi", "self-improvement", "data-centers", "energy"],
+      "tags": [
+        "anthropic",
+        "ipo",
+        "agi",
+        "self-improvement",
+        "data-centers",
+        "energy"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -99,7 +118,9 @@
       "verified": false,
       "publishedAt": "2026-11-09",
       "dateEstimated": true,
-      "topics": ["ai-industry"],
+      "topics": [
+        "ai-industry"
+      ],
       "summary": "Three House committee chairs formally requested a closed-door briefing from Nvidia CEO Jensen Huang following reports that US intelligence identified Alice Huang, a Singapore-based executive at chip customer Megaspeed, as a suspected Chinese intelligence asset. Intelligence officials reportedly do not believe Jensen Huang was aware of Alice Huang's alleged activities. Nvidia has pushed back firmly, calling the diversion allegations against Megaspeed 'thoroughly investigated and debunked last year.'",
       "keyConcepts": [
         "AI chip export controls and national security",
@@ -108,7 +129,15 @@
         "Nvidia's geopolitical risk exposure"
       ],
       "whyItMatters": "As the dominant supplier of AI training chips, Nvidia sits at the center of US-China technology competition. Congressional pressure over potential espionage links could accelerate export control tightening, reshaping who can access the most powerful AI hardware and at what scale.",
-      "tags": ["nvidia", "jensen-huang", "china", "espionage", "export-controls", "congress", "national-security"],
+      "tags": [
+        "nvidia",
+        "jensen-huang",
+        "china",
+        "espionage",
+        "export-controls",
+        "congress",
+        "national-security"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
@@ -142,7 +171,10 @@
       "sourceUrl": "https://aiweekly.co/ai-news-today",
       "verified": false,
       "publishedAt": "2026-11-09",
-      "topics": ["ai-research", "ai-industry"],
+      "topics": [
+        "ai-research",
+        "ai-industry"
+      ],
       "summary": "Staff at the US AI Safety Institute (AISI) have reportedly been informally briefing White House officials on internal research findings, raising concerns from watchdog groups that the Institute lacks operational independence. Critics argue this arrangement undermines AISI's ability to issue objective safety assessments of frontier AI systems, particularly as the agency evaluates models from companies with close White House relationships. AISI was established under the AI Safety Executive Order and operates within NIST.",
       "keyConcepts": [
         "AI Safety Institute (AISI) and its mandate",
@@ -151,7 +183,14 @@
         "Regulatory capture in AI governance"
       ],
       "whyItMatters": "Independent technical evaluation of AI safety is foundational to meaningful governance. If the primary federal body responsible for AI safety assessments lacks autonomy from political pressure, it erodes public and international confidence in US AI oversight at a moment when frontier models are becoming significantly more capable.",
-      "tags": ["ai-safety", "governance", "aisi", "white-house", "regulation", "oversight"],
+      "tags": [
+        "ai-safety",
+        "governance",
+        "aisi",
+        "white-house",
+        "regulation",
+        "oversight"
+      ],
       "relatedIds": [],
       "knowledgeChecks": [
         {
