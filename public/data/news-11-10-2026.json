@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-11-10T10:00:00.000Z",
+  "weekOf": "2026-11-09",
+  "coverageStart": "2026-11-09",
+  "coverageEnd": "2026-11-10",
+  "items": [
+    {
+      "id": "youtube-pf5tXJZM1Rw",
+      "type": "video",
+      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
+      "youtubeId": "pf5tXJZM1Rw",
+      "sourceUrl": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Fireship covers OpenAI's report 'A thousand fewer paths to root,' which describes an agentic AI pipeline that autonomously discovered 948 Linux kernel local privilege escalation vulnerabilities in a single run costing $1.2 million in API credits. The pipeline validated each finding, generated working exploits, and produced patches. The model used is not yet publicly released.",
+      "keyConcepts": [
+        "AI-assisted vulnerability research",
+        "Local privilege escalation",
+        "Linux kernel security",
+        "Agentic security pipelines"
+      ],
+      "whyItMatters": "AI systems can now autonomously discover and exploit critical security vulnerabilities at a scale impossible for human researchers, fundamentally shifting the economics of both offensive security and patch management.",
+      "tags": ["openai", "cybersecurity", "linux", "vulnerability-research", "ai-agents", "security"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the approximate cost of the OpenAI pipeline run that discovered 948 Linux vulnerabilities?",
+          "options": [
+            "$120,000 in compute credits",
+            "$1.2 million in API credits",
+            "$12 million in infrastructure costs",
+            "$120 million in total R&D"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's report states the agentic pipeline cost approximately $1.2 million in API credits to run, validating 948 local privilege escalation vulnerabilities in the Linux kernel."
+        },
+        {
+          "question": "What type of vulnerability did OpenAI's pipeline primarily find in the Linux kernel?",
+          "options": [
+            "Remote code execution via network interfaces",
+            "SQL injection in kernel modules",
+            "Local privilege escalation bugs allowing root access",
+            "Memory corruption in device drivers only"
+          ],
+          "correctIndex": 2,
+          "explanation": "The pipeline found local privilege escalation (LPE) bugs — these require a local login first but allow an unprivileged user to gain root access on the system."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fable-52-mythos-52-nov9",
+      "type": "article",
+      "title": "Anthropic Releases Claude Fable 5.2 and Mythos 5.2, Its First Frontier Models Since Calling for AI Slowdown",
+      "sourceUrl": "https://cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, its first frontier model updates since CEO Dario Amodei publicly called for a slowdown in frontier AI development. The new models generate outputs 30% faster than their predecessors. Fable 5.2 is publicly accessible while Mythos 5.2 remains restricted to select security research partners due to its reduced safety guardrails.",
+      "keyConcepts": [
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2",
+        "AI safety routing",
+        "Frontier model iteration"
+      ],
+      "whyItMatters": "Anthropic releasing new frontier models while simultaneously calling for an industry slowdown underscores the competitive pressure AI labs face and raises questions about the credibility of voluntary restraint commitments as the company heads into its IPO.",
+      "tags": ["anthropic", "claude", "frontier-models", "ai-safety", "language-models", "fable"],
+      "relatedIds": ["article-anthropic-ipo-nov9-roadshow"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the key difference between Claude Fable 5.2 and Claude Mythos 5.2?",
+          "options": [
+            "Fable is for coding only; Mythos handles general reasoning",
+            "Fable has safety guardrails for public use; Mythos has reduced guardrails for security partners",
+            "Fable runs on-device; Mythos runs only in the cloud",
+            "Fable is free; Mythos requires an enterprise subscription"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Fable and Mythos share an underlying model but differ in safety routing: Fable includes safety classifiers for public deployment, while Mythos has those guardrails reduced for authorized security research partners."
+        },
+        {
+          "question": "By how much did Anthropic claim Fable 5.2 and Mythos 5.2 improved output speed over their predecessors?",
+          "options": [
+            "10% faster",
+            "50% faster",
+            "30% faster",
+            "2x faster"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic reported that the new 5.2 models generate outputs approximately 30% faster than the previous Fable 5 and Mythos 5 versions."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-nov9-roadshow",
+      "type": "article",
+      "title": "Anthropic Begins IPO Roadshow Targeting $2 Trillion Valuation, Potential Nasdaq Listing Before Thanksgiving",
+      "sourceUrl": "https://www.newsbytesapp.com/news/business/anthropic-aims-for-mid-november-2026-ipo-before-thanksgiving/tldr",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic kicked off its IPO investor roadshow the week of November 9, targeting a valuation between $1.8 and $2 trillion in what could become the largest IPO in history. The company reported quarterly revenue of approximately $16.8 billion, up roughly 50% year-over-year. Anthropic has selected Nasdaq for its listing and aims to begin trading before the US Thanksgiving holiday, with Nvidia reportedly participating as an investor.",
+      "keyConcepts": [
+        "Anthropic IPO",
+        "AI company valuations",
+        "Nasdaq listing",
+        "AI industry economics"
+      ],
+      "whyItMatters": "Anthropic's IPO is a watershed moment for the AI industry, bringing one of the leading frontier AI labs into the public markets at a valuation that reflects both the explosive revenue growth of AI companies and investor expectations of an AI-driven economic transformation.",
+      "tags": ["anthropic", "ipo", "ai-valuation", "nasdaq", "ai-industry", "wall-street"],
+      "relatedIds": ["article-anthropic-fable-52-mythos-52-nov9"],
+      "knowledgeChecks": [
+        {
+          "question": "What approximate valuation is Anthropic targeting for its November 2026 IPO?",
+          "options": [
+            "$200 billion",
+            "$965 billion",
+            "$2 trillion",
+            "$500 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic is reportedly targeting a valuation of approximately $1.8–$2 trillion for its IPO, which would make it one of the largest public offerings in history. Its last private round valued it at $965 billion."
+        },
+        {
+          "question": "Which stock exchange has Anthropic selected for its IPO listing?",
+          "options": [
+            "NYSE",
+            "Tokyo Stock Exchange",
+            "London Stock Exchange",
+            "Nasdaq"
+          ],
+          "correctIndex": 3,
+          "explanation": "Reports indicate Anthropic has selected Nasdaq as its listing exchange, with the NYSE as an alternative option that was considered."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-groot2-corl-2026",
+      "type": "article",
+      "title": "Nvidia Unveils GR00T 2 at CoRL 2026: A 2B-Parameter Foundation Model for Humanoid Robots",
+      "sourceUrl": "https://cryptobriefing.com/nvidia-gr00t-jim-fan-corl-keynote-teaser/",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Nvidia unveiled GR00T 2, a 2-billion-parameter vision-language-action (VLA) foundation model, at the Conference on Robot Learning (CoRL) 2026 in Austin, Texas. Built on the Cosmos-Predict2.5 architecture, GR00T 2 enables humanoid robots to learn new tasks from video demonstrations and human teleoperation without task-specific retraining. Project co-lead Jim Fan presented footage of robots operating autonomously without a human operator.",
+      "keyConcepts": [
+        "Vision-language-action models",
+        "Humanoid robotics",
+        "GR00T 2 foundation model",
+        "Physical AI"
+      ],
+      "whyItMatters": "GR00T 2 represents a major advance in general-purpose robot learning, reducing the data and engineering effort needed to deploy humanoid robots in new environments and potentially accelerating their commercialization in manufacturing and logistics.",
+      "tags": ["nvidia", "robotics", "humanoid-robots", "foundation-models", "physical-ai", "corl"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What architecture does Nvidia's GR00T 2 build upon?",
+          "options": [
+            "GPT-4 Vision",
+            "Cosmos-Predict2.5",
+            "LLaMA 4 Multimodal",
+            "Gemini Robotics"
+          ],
+          "correctIndex": 1,
+          "explanation": "GR00T 2 is built on Nvidia's Cosmos-Predict2.5 world-action-model architecture, which allows it to predict physical world states and generate robot actions from visual observations."
+        },
+        {
+          "question": "What is the parameter count of Nvidia's GR00T 2 model?",
+          "options": [
+            "70 billion parameters",
+            "2 billion parameters",
+            "405 billion parameters",
+            "7 billion parameters"
+          ],
+          "correctIndex": 1,
+          "explanation": "GR00T 2 is a 2-billion-parameter model. Despite its relatively compact size, it achieves strong generalization across robot manipulation tasks by training on diverse physical demonstration data."
+        }
+      ]
+    },
+    {
+      "id": "article-apple-intelligence-usage-caps-nov10",
+      "type": "article",
+      "title": "Apple Intelligence Hits Monthly Usage Caps, Ending All-Free AI Tier for Heavy Users",
+      "sourceUrl": "https://forums.macrumors.com/threads/icloud-subscribers-get-higher-apple-intelligence-usage-limits-in-ios-27.2483632/",
+      "verified": false,
+      "publishedAt": "2026-11-10",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Apple has begun enforcing monthly usage caps on Apple Intelligence features in iOS 27, ending its all-free AI posture as server-side models reach capacity limits. Users with paid iCloud+ subscriptions receive higher usage limits under the new tiered system, while free-tier users face monthly quotas on features like image generation and advanced Siri capabilities. The change represents Apple's first step toward directly monetizing AI beyond hardware sales.",
+      "keyConcepts": [
+        "Apple Intelligence",
+        "AI monetization models",
+        "Usage-based pricing",
+        "iCloud+ tiers"
+      ],
+      "whyItMatters": "Apple's shift to usage-based AI pricing signals that the era of unlimited free AI features from major consumer tech companies is ending, potentially setting a precedent for how hardware makers bundle and monetize on-device and cloud AI capabilities going forward.",
+      "tags": ["apple", "apple-intelligence", "ai-monetization", "ios27", "consumer-ai", "siri"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How is Apple differentiating Apple Intelligence usage limits between free users and paid subscribers?",
+          "options": [
+            "Free users get no AI features; paid users get everything",
+            "Free users get unlimited text AI; paid users also get image generation",
+            "Paid iCloud+ subscribers receive higher monthly usage limits than free-tier users",
+            "Usage limits only apply to third-party app integrations, not first-party Apple apps"
+          ],
+          "correctIndex": 2,
+          "explanation": "Apple's new tiered system gives paid iCloud+ subscribers higher monthly usage limits for Apple Intelligence features, while free-tier users face lower quotas on server-side AI capabilities like image generation."
+        },
+        {
+          "question": "What does Apple's introduction of usage caps on Apple Intelligence primarily represent?",
+          "options": [
+            "A technical limitation that Apple will remove in a future iOS update",
+            "Apple's first step toward directly monetizing AI beyond hardware sales",
+            "A response to EU regulatory requirements on AI usage",
+            "An anti-competitive measure against third-party AI app developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The usage caps tied to iCloud+ subscriptions represent Apple's first direct attempt to monetize AI features, shifting from the previous model where all Apple Intelligence was included free with device ownership."
+        }
+      ]
+    },
+    {
+      "id": "article-qantas-ai-workforce-india-nov10",
+      "type": "article",
+      "title": "Qantas to Move 850 Jobs to India as Part of AI-Driven Workforce Overhaul",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-10",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Qantas announced plans to relocate 850 positions to India as part of a major AI-driven restructuring, citing AI automation of routine tasks including customer service, ticketing, and back-office operations. The move follows a broader trend of large enterprises using AI as justification for significant workforce restructuring. Qantas framed the changes as necessary to remain competitive as AI reduces the labor required for many previously manual processes.",
+      "keyConcepts": [
+        "AI workforce displacement",
+        "Job automation",
+        "AI in service industries",
+        "Corporate AI restructuring"
+      ],
+      "whyItMatters": "Qantas's move is an early large-scale case study in how major enterprises are using AI automation as justification for workforce restructuring, with implications for labor markets, policy debates around AI transition support, and how workers in service industries adapt.",
+      "tags": ["qantas", "ai-jobs", "workforce", "automation", "ai-displacement", "airlines"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How many Qantas jobs are being relocated to India as part of its AI overhaul?",
+          "options": [
+            "85 positions",
+            "8,500 positions",
+            "850 positions",
+            "250 positions"
+          ],
+          "correctIndex": 2,
+          "explanation": "Qantas announced plans to move 850 positions to India as part of its AI-driven workforce restructuring, citing AI automation reducing the need for human labor in routine operational tasks."
+        },
+        {
+          "question": "What does the Qantas workforce restructuring primarily illustrate about AI's impact on employment?",
+          "options": [
+            "AI is creating more jobs in the airline industry than it displaces",
+            "AI is only affecting technology companies, not traditional industries",
+            "Major enterprises are using AI automation as justification for large-scale workforce changes in service industries",
+            "AI restructuring is exclusively happening in countries with high labor costs"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Qantas announcement illustrates how large enterprises in traditional industries are now using AI automation to justify significant workforce restructuring, extending AI's labor market impact well beyond the technology sector."
+        }
+      ]
+    }
+  ]
+}
