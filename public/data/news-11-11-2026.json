@@ -1,234 +1,222 @@
 {
-  "generatedAt": "2026-11-11T08:00:00Z",
+  "generatedAt": "2026-11-11T12:00:00.000Z",
   "weekOf": "2026-11-09",
-  "coverageStart": "2026-11-09",
-  "coverageEnd": "2026-11-09",
+  "coverageStart": "2026-11-10",
+  "coverageEnd": "2026-11-11",
   "items": [
     {
-      "id": "article-anthropic-fable-5-2-mythos-5-2",
+      "id": "article-anthropic-ipo-roadshow-november",
       "type": "article",
-      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 with 20% Price Cut",
-      "sourceUrl": "https://www.datacamp.com/blog/claude-fable-5-2-and-mythos-5-2",
+      "title": "Anthropic IPO Roadshow Underway, Nasdaq Debut Targeted for Nov 19-20",
+      "sourceUrl": "https://cryptobriefing.com/anthropic-nasdaq-ipo-november-valuation-range/",
       "verified": false,
-      "publishedAt": "2026-11-09",
-      "topics": ["ai-engineering", "ai-industry"],
-      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2, its most capable models for coding, finance, and science. Fable 5.2 is priced at $8/$40 per million tokens — 20% below Fable 5.1 — while delivering output up to 30% faster. Mythos 5.2 is a restricted variant with select safety guardrails removed, available only to vetted organizations for specialized research.",
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic has launched its IPO roadshow with a potential valuation range of $1.1 trillion to $2 trillion, targeting a Nasdaq listing around November 19-20. The company is seeking to raise approximately $75-100 billion in what could be the largest AI-sector IPO in history. The offering comes ahead of planned releases of updated versions of its most powerful models.",
       "keyConcepts": [
-        "Fable 5.2 price reduction",
-        "Mythos 5.2 restricted access model",
-        "Accelerator kernel optimization constraints",
-        "Frontier AI model pricing"
+        "IPO valuation range $1.1T-$2T",
+        "Nasdaq listing target November 19-20",
+        "AI company public offering",
+        "Capital raise for model development"
       ],
-      "whyItMatters": "Anthropic's price cut makes frontier AI significantly more accessible to developers, while Mythos 5.2's selective safety removal for vetted organizations opens important questions about how capability and safety are balanced at the frontier.",
-      "tags": ["anthropic", "claude", "fable-5-2", "mythos-5-2", "llm-pricing", "ai-safety"],
-      "relatedIds": ["article-anthropic-ipo-roadshow"],
+      "whyItMatters": "Anthropic going public would be a defining moment for the AI industry, setting a market benchmark for how investors value frontier AI labs and influencing capital flows into AI research.",
+      "tags": ["anthropic", "ipo", "ai-industry", "nasdaq", "valuation", "funding"],
+      "relatedIds": [],
       "knowledgeChecks": [
         {
-          "question": "By how much did Anthropic reduce the price of Claude Fable 5.2 compared to Fable 5.1?",
-          "options": ["10%", "20%", "30%", "50%"],
+          "question": "What is the reported valuation range for Anthropic's planned IPO?",
+          "options": [
+            "$100 billion to $500 billion",
+            "$1.1 trillion to $2 trillion",
+            "$50 billion to $75 billion",
+            "$500 billion to $750 billion"
+          ],
           "correctIndex": 1,
-          "explanation": "Fable 5.2 is priced 20% below Fable 5.1, at $8 per million input tokens and $40 per million output tokens, while also being up to 30% faster."
+          "explanation": "Reports indicate Anthropic is targeting a valuation between $1.1 trillion and $2 trillion for its Nasdaq IPO, up from its $965 billion Series H post-money valuation in May 2026."
         },
         {
-          "question": "What distinguishes Claude Mythos 5.2 from Claude Fable 5.2?",
+          "question": "Which stock exchange is Anthropic targeting for its IPO?",
           "options": [
-            "Mythos 5.2 is cheaper and faster than Fable 5.2",
-            "Mythos 5.2 has a larger context window",
-            "Mythos 5.2 has certain safety guardrails removed and is restricted to vetted organizations",
-            "Mythos 5.2 is an open-source version of Fable 5.2"
+            "NYSE",
+            "Tokyo Stock Exchange",
+            "Nasdaq",
+            "London Stock Exchange"
           ],
           "correctIndex": 2,
-          "explanation": "Mythos 5.2 is Fable 5.2 with select safety safeguards removed, restricted to vetted organizations for specialized scientific and research use cases."
+          "explanation": "Anthropic is targeting a listing on the Nasdaq stock exchange, with trading expected to begin around November 19-20, 2026."
         }
       ]
     },
     {
-      "id": "article-nvidia-gr00t-2-corl-2026",
+      "id": "article-nvidia-jensen-huang-board-investigation",
       "type": "article",
-      "title": "NVIDIA Unveils GR00T 2 World Action Model for Robot Learning at CoRL 2026",
-      "sourceUrl": "https://www.unite.ai/nvidia-introduces-gr00t-2-for-robots-learning-from-human-video/",
+      "title": "Nvidia Board Opens Independent Probe into CEO Jensen Huang Over Foreign Intelligence Reports",
+      "sourceUrl": "https://letsdatascience.com/news/nvidia-board-opens-investigation-into-reported-foreign-intel-c5b93236",
       "verified": false,
-      "publishedAt": "2026-11-09",
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia's board of directors opened an independent investigation on November 8 after reports that CEO Jensen Huang was targeted by a foreign intelligence effort linked to a former Singapore executive. A committee of independent directors with external legal counsel is leading the probe, while Huang remains as CEO and says he will cooperate. Congress has asked Huang for a closed-door briefing on November 18, with a response deadline of November 11.",
+      "keyConcepts": [
+        "Independent board investigation",
+        "Foreign intelligence targeting",
+        "Corporate governance under scrutiny",
+        "Congressional oversight of AI hardware"
+      ],
+      "whyItMatters": "As the dominant supplier of AI training chips, Nvidia sits at the center of global AI competition, making any national security concern around its leadership a matter of significant geopolitical and market consequence.",
+      "tags": ["nvidia", "jensen-huang", "corporate-governance", "national-security", "ai-chips", "investigation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Who is conducting Nvidia's independent investigation into Jensen Huang?",
+          "options": [
+            "The US Department of Justice",
+            "An external SEC auditor",
+            "A committee of independent directors with external legal counsel",
+            "CISA cybersecurity division"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia's board formed a committee of independent directors assisted by external independent legal counsel to oversee the investigation, keeping Huang as CEO while the probe proceeds."
+        },
+        {
+          "question": "What did Congress request from Jensen Huang related to the investigation?",
+          "options": [
+            "His resignation",
+            "A closed-door briefing on November 18",
+            "A public congressional hearing",
+            "Full access to Nvidia's internal communications"
+          ],
+          "correctIndex": 1,
+          "explanation": "Three House committee chairs asked Jensen Huang for a closed-door briefing on November 18, with a November 11 deadline to accept the date or propose an alternative."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-q3-revenue-brockman-wsj",
+      "type": "article",
+      "title": "OpenAI Q3 Annualized Revenue Grew 70% QoQ After Rough First Half, Brockman Says",
+      "sourceUrl": "https://aiweekly.co/alerts/brockman-openai-q3-annualized-revenue-grew-70-after-rough-h1",
+      "verified": false,
+      "publishedAt": "2026-11-10",
+      "topics": ["ai-industry"],
+      "summary": "OpenAI co-founder Greg Brockman disclosed at WSJ Tech Live that Q3 annualized revenue grew 70% quarter-over-quarter following a difficult first half of 2026. The company's operating losses reached $12.3 billion in Q2, up from $9.3 billion in Q1, driven by massive infrastructure investments. The revenue acceleration signals that consumer and enterprise adoption is rebounding ahead of the company's expected IPO.",
+      "keyConcepts": [
+        "70% QoQ annualized revenue growth",
+        "Operating losses exceeding $12B per quarter",
+        "Revenue recovery after H1 slowdown",
+        "Enterprise and consumer AI adoption trends"
+      ],
+      "whyItMatters": "OpenAI's revenue rebound matters because it validates the company's ability to monetize its AI products at scale, a key concern for investors evaluating both OpenAI and the broader frontier AI sector ahead of multiple planned IPOs.",
+      "tags": ["openai", "revenue", "financials", "greg-brockman", "ai-industry", "ipo"],
+      "relatedIds": ["article-anthropic-ipo-roadshow-november"],
+      "knowledgeChecks": [
+        {
+          "question": "What was OpenAI's reported operating loss in Q2 2026?",
+          "options": [
+            "$3.7 billion",
+            "$6.7 billion",
+            "$12.3 billion",
+            "$20 billion"
+          ],
+          "correctIndex": 2,
+          "explanation": "OpenAI's Q2 2026 operating loss reached $12.3 billion, up from $9.3 billion in Q1, even as revenue was growing — reflecting the massive infrastructure costs of building and running frontier AI models."
+        },
+        {
+          "question": "Where did Greg Brockman disclose OpenAI's Q3 revenue growth figures?",
+          "options": [
+            "An OpenAI earnings call",
+            "WSJ Tech Live",
+            "A congressional hearing",
+            "A Bloomberg interview"
+          ],
+          "correctIndex": 1,
+          "explanation": "Greg Brockman announced the Q3 annualized revenue growth of 70% QoQ at the WSJ Tech Live conference in early November 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-genai-news-adoption-survey-2026",
+      "type": "article",
+      "title": "Global Survey: Weekly GenAI Use Hits 38%, But AI-Specific News Consumption Stays at 9%",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-career"],
+      "summary": "A nine-country Reuters Institute audience survey published November 11 found that weekly use of generative AI tools jumped from 24% in 2025 to 38% in 2026. Despite the surge in general GenAI usage, the share of people using AI specifically for news consumption remained flat at 9%, suggesting consumers are adopting AI for productivity and creativity but remain cautious about AI-generated news.",
+      "keyConcepts": [
+        "GenAI weekly adoption rate 38%",
+        "AI-specific news consumption at 9%",
+        "Consumer trust gap in AI journalism",
+        "Generational split in AI tool adoption"
+      ],
+      "whyItMatters": "The gap between general GenAI adoption and AI-driven news consumption reveals a trust divide — people are integrating AI into daily workflows but remain skeptical of AI as a news source, which has significant implications for media, journalism, and AI literacy.",
+      "tags": ["ai-adoption", "survey", "generative-ai", "media", "consumer-behavior", "ai-news"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Reuters Institute 2026 survey, what percentage of respondents use generative AI tools weekly?",
+          "options": [
+            "9%",
+            "24%",
+            "38%",
+            "55%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The 2026 Reuters Institute survey across nine countries found 38% weekly GenAI use, up from 24% in 2025, indicating rapid mainstream adoption of AI tools."
+        },
+        {
+          "question": "What percentage of survey respondents use AI specifically for news consumption?",
+          "options": [
+            "2%",
+            "9%",
+            "24%",
+            "38%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Despite GenAI's broad adoption, only 9% of survey respondents use AI specifically for news — unchanged from 2025 — suggesting persistent skepticism about AI-generated journalism."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-cosmos-3-edge-open-weight",
+      "type": "article",
+      "title": "NVIDIA Releases Cosmos 3 Edge: Open-Weight World Foundation Model for Robotics and Edge AI",
+      "sourceUrl": "https://www.nocode.mba/ai-release-tracker/2026/11",
+      "verified": false,
+      "publishedAt": "2026-11-10",
+      "dateEstimated": true,
       "topics": ["ai-research", "ai-engineering"],
-      "summary": "NVIDIA unveiled GR00T 2 at the Conference on Robot Learning (CoRL) 2026 in Austin — a 2-billion-parameter 'world action model' that predicts future views and actions to enable robots to learn from human video demonstrations. The system achieves 71% average task success rate from just one demonstration per task. Open-source code is targeted for release in December 2026.",
+      "summary": "NVIDIA released Cosmos 3 Edge, an open-weight world foundation model designed for robotic and edge deployment use cases. The model enables physical AI systems to simulate and reason about real-world environments with reduced compute requirements compared to its data center counterparts. The release continues NVIDIA's strategy of open-sourcing AI infrastructure while maintaining proprietary hardware advantages.",
       "keyConcepts": [
-        "World action model",
-        "Robot learning from video",
-        "One-shot imitation learning",
-        "Isaac Lab 3.0 simulation"
+        "World foundation models for robotics",
+        "Open-weight model release",
+        "Edge deployment optimization",
+        "Physical AI and embodied reasoning"
       ],
-      "whyItMatters": "GR00T 2's ability to learn new tasks from a single human demonstration represents a major step toward generalist robots that could be deployed across diverse real-world environments with minimal task-specific training.",
-      "tags": ["nvidia", "gr00t", "robotics", "imitation-learning", "corl-2026", "physical-ai"],
+      "whyItMatters": "Cosmos 3 Edge lowers the barrier to deploying sophisticated world-modeling AI on robotic systems at the edge, potentially accelerating automation in manufacturing, logistics, and autonomous vehicles without requiring cloud connectivity.",
+      "tags": ["nvidia", "cosmos", "robotics", "edge-ai", "open-weights", "physical-ai"],
       "relatedIds": [],
       "knowledgeChecks": [
         {
-          "question": "What is the key capability that distinguishes GR00T 2 as a 'world action model'?",
+          "question": "What is the primary deployment target for NVIDIA's Cosmos 3 Edge model?",
           "options": [
-            "It runs entirely on-device without cloud connectivity",
-            "It predicts future visual states and actions to enable robot task learning",
-            "It uses reinforcement learning from human feedback exclusively",
-            "It was trained on 100 million robot teleoperation hours"
+            "Large-scale cloud data centers",
+            "Robotic and edge AI systems",
+            "Mobile phones and consumer devices",
+            "High-performance computing clusters"
           ],
           "correctIndex": 1,
-          "explanation": "GR00T 2 is called a 'world action model' because it jointly predicts future visual states (what the world will look like) and the actions needed to reach those states, enabling one-shot learning from human video demonstrations."
+          "explanation": "Cosmos 3 Edge is specifically designed for robotic and edge deployment, allowing physical AI systems to run world-modeling capabilities locally without relying on cloud infrastructure."
         },
         {
-          "question": "What average task success rate does GR00T 2 achieve from a single human demonstration?",
-          "options": ["45%", "58%", "71%", "89%"],
-          "correctIndex": 2,
-          "explanation": "NVIDIA reports GR00T 2 achieves 71% average success across tasks when given just one demonstration per task, a significant improvement over previous one-shot robotic learning approaches."
-        }
-      ]
-    },
-    {
-      "id": "article-meta-muse-ember-agent-model",
-      "type": "article",
-      "title": "Meta Releases Muse Ember 1.0: A Lightweight Model Built for Agentic Workflows",
-      "sourceUrl": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "verified": false,
-      "publishedAt": "2026-11-09",
-      "topics": ["ai-engineering", "ai-industry"],
-      "summary": "Meta released Muse Ember 1.0, a lightweight language model optimized for repetitive agentic tasks, priced at just $0.10 per million input tokens and $0.50 per million output tokens. The model features a 1-million-token context window and is designed for developers building high-volume, cost-sensitive AI agent pipelines. An independent benchmark showed it scoring 36 on the Artificial Analysis Intelligence Index.",
-      "keyConcepts": [
-        "Lightweight agentic LLM",
-        "Cost-efficient inference at scale",
-        "1M token context window",
-        "Agent pipeline optimization"
-      ],
-      "whyItMatters": "As AI agents move from demos to production, the cost of inference at scale becomes a major bottleneck. Muse Ember gives developers an affordable option for the high-frequency, lower-complexity calls that make up the bulk of agentic workflows.",
-      "tags": ["meta", "muse-ember", "ai-agents", "lightweight-model", "llm-pricing", "agent-workflow"],
-      "relatedIds": ["article-anthropic-fable-5-2-mythos-5-2"],
-      "knowledgeChecks": [
-        {
-          "question": "What is the input token price for Meta's Muse Ember 1.0?",
-          "options": ["$0.01 per million tokens", "$0.10 per million tokens", "$1.00 per million tokens", "$8.00 per million tokens"],
-          "correctIndex": 1,
-          "explanation": "Muse Ember 1.0 is priced at $0.10 per million input tokens, making it one of the most affordable frontier-class models for high-volume agentic applications."
-        },
-        {
-          "question": "What is the context window size of Meta's Muse Ember 1.0?",
-          "options": ["128K tokens", "256K tokens", "512K tokens", "1M tokens"],
-          "correctIndex": 3,
-          "explanation": "Muse Ember 1.0 supports a 1-million-token context window, enabling it to handle very long documents and conversation histories within a single inference call."
-        }
-      ]
-    },
-    {
-      "id": "article-anthropic-ipo-roadshow",
-      "type": "article",
-      "title": "Anthropic Begins IPO Roadshow Targeting $1.2–1.3 Trillion Valuation",
-      "sourceUrl": "https://seekingalpha.com/article/4964841-wall-street-brunch-anthropic-ipo-goes-on-the-road",
-      "verified": false,
-      "publishedAt": "2026-11-09",
-      "topics": ["ai-industry", "ai-career"],
-      "summary": "Anthropic launched its IPO roadshow on November 9, 2026, targeting a trading debut around November 19–20. The expected valuation has moderated to approximately $1.2–1.3 trillion, down from earlier estimates of up to $1.75 trillion. The company is simultaneously releasing new Claude models during the roadshow, signaling continued product momentum ahead of the public offering.",
-      "keyConcepts": [
-        "AI company IPO valuation",
-        "Public AI market debut",
-        "AI safety company financials",
-        "Investor confidence in frontier AI"
-      ],
-      "whyItMatters": "Anthropic's IPO will serve as a critical market test for how investors value AI safety-focused companies and could set the valuation baseline for other AI lab public offerings.",
-      "tags": ["anthropic", "ipo", "ai-valuation", "public-markets", "investment", "ai-career"],
-      "relatedIds": ["article-anthropic-fable-5-2-mythos-5-2"],
-      "knowledgeChecks": [
-        {
-          "question": "What valuation range is Anthropic targeting for its IPO?",
-          "options": ["$500B–$750B", "$800B–$1.0T", "$1.2T–$1.3T", "$1.5T–$1.75T"],
-          "correctIndex": 2,
-          "explanation": "Anthropic's roadshow valuation has converged around $1.2–1.3 trillion, down from earlier estimates of up to $1.75 trillion as market expectations moderated."
-        },
-        {
-          "question": "What is notable about Anthropic releasing new Claude models during its IPO roadshow?",
+          "question": "How does NVIDIA Cosmos 3 Edge differ from its full Cosmos models?",
           "options": [
-            "It is required by SEC regulations for tech IPOs",
-            "It demonstrates continued product momentum to potential investors",
-            "It was done to avoid the SEC quiet period restrictions",
-            "It signals Anthropic plans to open-source its models after the IPO"
-          ],
-          "correctIndex": 1,
-          "explanation": "Releasing new models during an IPO roadshow is unusual and signals to investors that the company has strong ongoing product development momentum, which can support a higher valuation."
-        }
-      ]
-    },
-    {
-      "id": "article-google-tpu-8tx-confidential-ai",
-      "type": "article",
-      "title": "Google Launches TPU 8tx with Confidential Computing and TPU 8i Max for AI Training",
-      "sourceUrl": "https://cryptobriefing.com/google-unveils-tpu-8tx-tpu-8i-max/",
-      "verified": false,
-      "publishedAt": "2026-11-09",
-      "topics": ["ai-research", "ai-industry"],
-      "summary": "Google announced two new custom AI chips: the TPU 8tx, which pairs its 8t silicon with AMD EPYC hosts to enable confidential computing for sensitive workloads, and the TPU 8i Max, which combines two 8i chips to double compute capacity, SRAM, and HBM bandwidth for large-scale training. The 8tx is designed to process encrypted data throughout the entire AI inference cycle.",
-      "keyConcepts": [
-        "Confidential AI computing",
-        "TPU hardware architecture",
-        "HBM bandwidth scaling",
-        "Privacy-preserving inference"
-      ],
-      "whyItMatters": "Confidential computing in AI hardware could unlock deployments in healthcare, finance, and government sectors where regulatory requirements prevent sensitive data from being processed in unencrypted form.",
-      "tags": ["google", "tpu", "ai-hardware", "confidential-computing", "cloud-infrastructure", "ai-research"],
-      "relatedIds": [],
-      "knowledgeChecks": [
-        {
-          "question": "What is the primary innovation of Google's TPU 8tx chip?",
-          "options": [
-            "It doubles the number of tensor cores compared to the previous generation",
-            "It enables confidential computing by processing sensitive data while keeping it encrypted",
-            "It is the first TPU designed for edge deployment without cloud connectivity",
-            "It supports multi-modal inputs including video and audio natively"
-          ],
-          "correctIndex": 1,
-          "explanation": "The TPU 8tx pairs Google's 8t silicon with AMD EPYC hosts to enable confidential computing — processing AI workloads on encrypted data, making it suitable for sensitive enterprise and government use cases."
-        },
-        {
-          "question": "How does the TPU 8i Max achieve its increased performance?",
-          "options": [
-            "By using a new 3nm manufacturing process",
-            "By adding a dedicated neural network accelerator co-processor",
-            "By combining two 8i chips to double compute, SRAM, and HBM bandwidth",
-            "By using optical interconnects instead of electrical connections"
+            "It uses a larger parameter count",
+            "It is closed-source and proprietary",
+            "It is optimized for reduced compute requirements at the edge",
+            "It is designed only for language tasks"
           ],
           "correctIndex": 2,
-          "explanation": "The TPU 8i Max achieves higher performance by combining two 8i chips, which Google states doubles the compute capacity, SRAM, and HBM bandwidth compared to a single 8i chip."
-        }
-      ]
-    },
-    {
-      "id": "article-fireworks-ai-llmjacking-breach",
-      "type": "article",
-      "title": "Fireworks AI Discloses Security Breach Exposing Customer Data and AI Model Weights",
-      "sourceUrl": "https://cryptobriefing.com/fireworks-ai-october-security-incident-customer-data/",
-      "verified": false,
-      "publishedAt": "2026-11-09",
-      "topics": ["ai-industry", "ai-engineering"],
-      "summary": "Fireworks AI disclosed that a third-party hosting provider was breached on October 23, allowing attackers to access billing data and, for some accounts, customer datasets and partial AI model weights. The company attributes the attack to 'LLMjacking' — the targeted theft of AI model credentials and assets for resale or competitive espionage. This is the second security incident affecting Fireworks AI this year.",
-      "keyConcepts": [
-        "LLMjacking attack vector",
-        "AI model IP theft",
-        "Third-party hosting risk",
-        "AI infrastructure security"
-      ],
-      "whyItMatters": "LLMjacking represents an emerging class of cyberattack targeting the growing value of trained AI models and inference infrastructure, signaling that AI assets are now attractive enough to warrant the same security posture as financial data.",
-      "tags": ["fireworks-ai", "security", "llmjacking", "data-breach", "ai-infrastructure", "cybersecurity"],
-      "relatedIds": [],
-      "knowledgeChecks": [
-        {
-          "question": "What term describes the type of cyberattack that targeted Fireworks AI?",
-          "options": ["Prompt injection", "Model poisoning", "LLMjacking", "Adversarial example attack"],
-          "correctIndex": 2,
-          "explanation": "Fireworks AI described the attack as 'LLMjacking' — a form of cyberattack that targets AI model weights, credentials, and inference infrastructure rather than traditional data or financial assets."
-        },
-        {
-          "question": "What was the original entry point for the Fireworks AI breach?",
-          "options": [
-            "A phishing attack on a Fireworks employee",
-            "A vulnerability in Fireworks AI's API",
-            "A breach at a third-party hosting provider",
-            "A supply chain attack on an open-source dependency"
-          ],
-          "correctIndex": 2,
-          "explanation": "The attackers gained access through a third-party hosting provider used by Fireworks AI for R&D machines, highlighting the security risks that arise from dependencies on external infrastructure providers."
+          "explanation": "Cosmos 3 Edge is optimized for edge deployment, meaning it has reduced compute requirements to run on robotic hardware rather than requiring data center GPUs, while maintaining world-modeling capabilities."
         }
       ]
     }
