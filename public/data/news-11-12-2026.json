@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-11-12T12:00:00.000Z",
+  "weekOf": "2026-11-09",
+  "coverageStart": "2026-11-09",
+  "coverageEnd": "2026-11-12",
+  "items": [
+    {
+      "id": "youtube-RbQzXnaNWCU",
+      "type": "video",
+      "title": "AI Daily November 10: Anthropic Launches Claude Fable 5.2, Files for IPO",
+      "youtubeId": "RbQzXnaNWCU",
+      "sourceUrl": "https://www.youtube.com/watch?v=RbQzXnaNWCU",
+      "verified": false,
+      "publishedAt": "2026-11-10",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "AI Daily covers Anthropic's dual announcements: the release of Claude Fable 5.2 and Mythos 5.2 frontier models, alongside Anthropic's official S-1 filing for a Nasdaq IPO under the ticker ANT. The models represent Anthropic's first major model updates since CEO Dario Amodei's public call for AI development to slow down, with Fable 5.2 immediately ranking #1 on Artificial Analysis' Intelligence Index.",
+      "keyConcepts": ["Claude Fable 5.2", "Claude Mythos 5.2", "Anthropic IPO", "Nasdaq ANT ticker", "frontier model benchmarks"],
+      "whyItMatters": "Anthropic's simultaneous model launch and IPO filing marks a pivotal moment for the AI industry — the company is publicly betting that frontier capability leadership and commercial scale can coexist, setting the stage for what could be the largest tech IPO in history.",
+      "tags": ["anthropic", "claude", "fable-5-2", "ipo", "frontier-models", "nasdaq"],
+      "relatedIds": ["article-anthropic-ipo-valuation", "article-anthropic-fable-52-cnbc"],
+      "knowledgeChecks": [
+        {
+          "question": "Under what ticker symbol is Anthropic planning to list on the Nasdaq?",
+          "options": ["ANTH", "ANT", "CLAI", "AIAI"],
+          "correctIndex": 1,
+          "explanation": "Anthropic filed to list its Class A common stock on the Nasdaq Global Select Market under the ticker symbol ANT, as announced in its S-1 filing in October 2026."
+        },
+        {
+          "question": "What was notable about Claude Fable 5.2's performance upon release?",
+          "options": [
+            "It was the cheapest frontier model available",
+            "It ranked #1 on Artificial Analysis' Intelligence Index",
+            "It was the first multimodal Claude model",
+            "It ran entirely on-device without cloud infrastructure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Fable 5.2 debuted at #1 on Artificial Analysis' Intelligence Index, 5 points ahead of Google's Gemini 4 Carbon, marking a strong re-entry for Anthropic into the competitive frontier model space."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-valuation",
+      "type": "article",
+      "title": "Anthropic Files for Nasdaq IPO Under Ticker ANT, Targeting Week of November 16",
+      "sourceUrl": "https://mena.entrepreneur.com/business-news/anthropic-files-for-nasdaq-ipo",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Anthropic has filed its S-1 with the SEC and is targeting a Nasdaq listing under the symbol ANT for the week of November 16–20, 2026. The offering is led by Goldman Sachs and Morgan Stanley across a syndicate of 22 banks, with valuation estimates ranging from $1.1 trillion to over $2 trillion. The filing reveals Anthropic's first-half 2026 revenue of $16.2 billion alongside $80.74 billion in losses, underscoring the enormous scale of frontier AI infrastructure costs.",
+      "keyConcepts": ["Anthropic IPO", "S-1 filing", "Nasdaq ANT", "Goldman Sachs", "AI company valuation", "frontier AI economics"],
+      "whyItMatters": "Anthropic's IPO could become the largest in U.S. history, and its financials lay bare the uncomfortable economics of frontier AI: even at $16B in first-half revenue, the costs of training and running cutting-edge models outpace income by nearly 5x.",
+      "tags": ["anthropic", "ipo", "nasdaq", "ai-finance", "frontier-ai", "valuation"],
+      "relatedIds": ["youtube-RbQzXnaNWCU", "article-anthropic-fable-52-cnbc"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Anthropic's reported first-half 2026 revenue in its IPO filing?",
+          "options": ["$6.7 billion", "$16.2 billion", "$80.7 billion", "$47 billion"],
+          "correctIndex": 1,
+          "explanation": "Anthropic's S-1 filing revealed first-half 2026 revenue of $16.2 billion, though this was accompanied by $80.74 billion in losses driven primarily by the enormous cost of training and operating frontier AI models."
+        },
+        {
+          "question": "Which banks are leading Anthropic's IPO underwriting?",
+          "options": [
+            "JPMorgan and Citibank",
+            "Goldman Sachs and Morgan Stanley",
+            "Deutsche Bank and Barclays",
+            "Bank of America and Wells Fargo"
+          ],
+          "correctIndex": 1,
+          "explanation": "Goldman Sachs and Morgan Stanley are co-leading a 22-bank syndicate for Anthropic's IPO, standard practice for the largest public offerings."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-fable-52-cnbc",
+      "type": "article",
+      "title": "Anthropic Releases Claude Fable 5.2 and Mythos 5.2 Ahead of IPO Roadshow",
+      "sourceUrl": "https://www.cnbc.com/video/2026/11/09/anthropic-unveils-updated-fable-mythos-frontier-models-ahead-of-anticipated-ipo.html",
+      "verified": false,
+      "publishedAt": "2026-11-09",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on November 9, 2026 — its first major frontier model updates since CEO Dario Amodei's widely discussed call for responsible development pacing. Fable 5.2 is the generally available model with enhanced safeguards, while Mythos 5.2 is a restricted-access, higher-capability variant. The release comes days before Anthropic's anticipated IPO roadshow, positioning the company's technical leadership front and center for investors.",
+      "keyConcepts": ["Claude Fable 5.2", "Claude Mythos 5.2", "frontier model release", "AI safeguards", "restricted-access AI"],
+      "whyItMatters": "The simultaneous launch of consumer-safe and research-grade variants signals Anthropic's dual-track approach: competing at the frontier while maintaining its Constitutional AI safety identity, a posture it must defend convincingly as a public company.",
+      "tags": ["anthropic", "claude-fable", "claude-mythos", "frontier-model", "ai-safety", "model-release"],
+      "relatedIds": ["youtube-RbQzXnaNWCU", "article-anthropic-ipo-valuation"],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Claude Fable 5.2 from Claude Mythos 5.2?",
+          "options": [
+            "Fable is free, Mythos requires a subscription",
+            "Fable is the general-availability model with safeguards; Mythos is restricted-access with higher capabilities",
+            "Fable supports only text, while Mythos handles images and video",
+            "Fable runs on-device; Mythos runs in the cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Fable 5.2 is Anthropic's broadly available model with safety guardrails, while Mythos 5.2 is a restricted-access variant designed for research and specialized enterprise use cases that require higher raw capability."
+        },
+        {
+          "question": "Why is the timing of Anthropic's model release significant?",
+          "options": [
+            "It was released on the same day as GPT-6",
+            "It came just before Anthropic's IPO roadshow, showcasing technical leadership to investors",
+            "It was the first Claude model to support agentic workflows",
+            "It marked the first time Anthropic released two models simultaneously"
+          ],
+          "correctIndex": 1,
+          "explanation": "Releasing frontier models days before an IPO roadshow is a strategic move to demonstrate to potential investors that Anthropic remains at the leading edge of AI capability."
+        }
+      ]
+    },
+    {
+      "id": "article-google-gemini-4-carbon",
+      "type": "article",
+      "title": "Google Releases Gemini 4 Carbon to Paid API and AI Ultra Users at $2/$10 Introductory Pricing",
+      "sourceUrl": "https://capitalandcompute.net/md/gemini-4-carbon-pricing-benchmarks.md",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-engineering", "ai-research"],
+      "summary": "Google has made Gemini 4 Carbon available to paying API and AI Ultra subscribers, initially priced at $2 per million input tokens and $10 per million output tokens — matching Gemini 4 Argon's introductory rate, which rises to $4/$20 on December 1. Carbon is a cybersecurity-focused frontier model that scores top marks on cyber defense benchmarks and is being rolled out in staged access, with priority for security-focused enterprise customers through Google's interest form.",
+      "keyConcepts": ["Gemini 4 Carbon", "cybersecurity AI", "API pricing", "token costs", "staged rollout", "Google AI Ultra"],
+      "whyItMatters": "Carbon's cybersecurity specialization reflects the growing trend of domain-tuned frontier models — moving beyond general-purpose AI toward systems optimized for high-stakes professional verticals, with pricing and access structures that reflect enterprise, not consumer, priorities.",
+      "tags": ["google", "gemini-4-carbon", "cybersecurity", "api-pricing", "enterprise-ai", "frontier-model"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Google Gemini 4 Carbon's introductory API pricing per million tokens?",
+          "options": [
+            "$5 input / $15 output",
+            "$2 input / $10 output",
+            "$1 input / $5 output",
+            "$4 input / $20 output"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 4 Carbon launched at $2 per million input tokens and $10 per million output tokens. This introductory rate matches Gemini 4 Argon's current pricing, which is set to rise to $4/$20 on December 1, 2026."
+        },
+        {
+          "question": "What is Gemini 4 Carbon specifically optimized for?",
+          "options": [
+            "Creative writing and content generation",
+            "Cybersecurity defense and threat analysis",
+            "Real-time video generation",
+            "Mathematical theorem proving"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gemini 4 Carbon is a cybersecurity-focused frontier model from Google, designed to assist security professionals with threat detection, vulnerability analysis, and cyber defense tasks."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-q3-2026-losses",
+      "type": "article",
+      "title": "OpenAI Q3 2026: Revenue Hits $10B But Operating Loss Reaches $10.9B as Compute Costs Soar",
+      "sourceUrl": "https://emergent.sh/news/openai-q3-2026-revenue-surges-70-after-rough",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "OpenAI's Q3 2026 results show annualized revenue growing 70% to approximately $10 billion, driven by a surge in enterprise sales that now make up the majority of revenue. Despite this growth, the company reported an operating loss of $10.9B in Q3 alone — an improvement from Q2's $12.3B loss — as infrastructure spending continues to outpace income. President Greg Brockman announced the figures at the Wall Street Journal's Tech conference on November 4.",
+      "keyConcepts": ["OpenAI Q3 2026", "AI company financials", "enterprise AI sales", "compute costs", "AI economics", "operating loss"],
+      "whyItMatters": "OpenAI's financials reveal the fundamental tension in frontier AI: revenue is growing rapidly, but so are losses — illustrating that scaling laws and infrastructure costs may prevent profitability for years, even at the company generating the most AI revenue in the world.",
+      "tags": ["openai", "q3-2026", "financials", "enterprise-ai", "ai-economics", "compute-costs"],
+      "relatedIds": ["article-anthropic-ipo-valuation"],
+      "knowledgeChecks": [
+        {
+          "question": "What drove OpenAI's revenue growth in Q3 2026 according to Greg Brockman?",
+          "options": [
+            "Consumer ChatGPT subscriptions",
+            "Enterprise sales, which now generate the majority of revenue",
+            "API usage by startups",
+            "Hardware sales from their new compute division"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI President Greg Brockman stated at the WSJ Tech conference that enterprise sales now generate the majority of OpenAI's revenue and were the key driver behind the 70% annualized revenue growth in Q3 2026."
+        },
+        {
+          "question": "How did OpenAI's Q3 2026 operating loss compare to Q2 2026?",
+          "options": [
+            "It increased significantly from Q2",
+            "It decreased from $12.3B in Q2 to $10.9B in Q3",
+            "It stayed flat at around $10B",
+            "It turned positive for the first time"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI's operating loss fell from $12.3B in Q2 2026 to $10.9B in Q3 2026, suggesting some improvement in unit economics even as losses remain substantial compared to revenue."
+        }
+      ]
+    }
+  ]
+}
