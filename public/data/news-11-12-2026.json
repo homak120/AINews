@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:00:00.000Z",
+  "generatedAt": "2026-11-12T18:30:00.000Z",
   "weekOf": "2026-11-09",
   "coverageStart": "2026-11-09",
   "coverageEnd": "2026-11-12",
@@ -182,6 +182,77 @@
           ],
           "correctIndex": 1,
           "explanation": "OpenAI's operating loss fell from $12.3B in Q2 2026 to $10.9B in Q3 2026, suggesting some improvement in unit economics even as losses remain substantial compared to revenue."
+        }
+      ]
+    },
+    {
+      "id": "article-deepmind-gemini-robotics-25",
+      "type": "article",
+      "title": "Google DeepMind Releases Gemini Robotics 2.5 with 96% Factory Success Rate and Robot Safety Benchmark",
+      "sourceUrl": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google DeepMind released Gemini Robotics 2.5, its most capable vision-language-action model for physical robots, achieving a 96% task success rate in a Mercedes-Benz factory trial using Apptronik's Apollo 2 humanoid. The model is rolling out to partners including Agile Robots, Apptronik, and Boston Dynamics. Alongside the launch, DeepMind open-sourced the ASIMOV-Jailbreak benchmark for measuring how well robots resist attempts to coerce them into dangerous actions.",
+      "keyConcepts": ["vision-language-action models", "humanoid robotics", "Gemini Robotics 2.5", "ASIMOV-Jailbreak benchmark", "embodied AI"],
+      "whyItMatters": "A 96% factory success rate for AI-powered humanoids marks a threshold shift from laboratory demos to practical industrial deployment, while the robot safety benchmark signals the field is maturing enough to need formal jailbreak resistance standards.",
+      "tags": ["google-deepmind", "gemini-robotics", "humanoid-robots", "embodied-ai", "robot-safety", "factory-automation"],
+      "relatedIds": ["article-google-gemini-4-carbon"],
+      "knowledgeChecks": [
+        {
+          "question": "What success rate did Gemini Robotics 2.5 achieve in Mercedes-Benz factory trials?",
+          "options": ["72%", "88%", "96%", "100%"],
+          "correctIndex": 2,
+          "explanation": "In a Mercedes-Benz factory proof-of-concept using Apptronik's Apollo 2 humanoid, Gemini Robotics 2.5 achieved a 96% task success rate — a milestone figure for real-world industrial robot deployment."
+        },
+        {
+          "question": "What is the ASIMOV-Jailbreak benchmark designed to measure?",
+          "options": [
+            "How fast robots can learn new assembly tasks",
+            "Whether robots can be talked into performing dangerous actions",
+            "Energy efficiency of robot actuators",
+            "Natural language comprehension accuracy in robots"
+          ],
+          "correctIndex": 1,
+          "explanation": "DeepMind's open-source ASIMOV-Jailbreak benchmark evaluates whether AI-powered robots can be manipulated through language instructions into taking unsafe actions — a critical safety metric as robots are deployed in environments with people."
+        }
+      ]
+    },
+    {
+      "id": "article-deepmind-alphagenome-2",
+      "type": "article",
+      "title": "Google DeepMind's AlphaGenome 2 Predicts Genetic Variants at Single-Cell Resolution",
+      "sourceUrl": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+      "verified": false,
+      "publishedAt": "2026-11-11",
+      "topics": ["ai-research"],
+      "summary": "Google DeepMind released AlphaGenome 2, a genomic AI model that predicts how genetic variants affect individual cell types rather than bulk tissue averages. Available through a free API for noncommercial research, it represents a major advance in precision genomics by offering cell-type-specific predictions that bulk models cannot provide. DeepMind plans to integrate it into Google's Antigravity life sciences platform.",
+      "keyConcepts": ["AlphaGenome 2", "single-cell genomics", "genetic variant prediction", "precision medicine", "bioinformatics AI"],
+      "whyItMatters": "Moving from bulk-tissue to single-cell-type resolution in genomic AI unlocks disease research that was previously intractable — different cell types express genes differently, so a variant that is benign in muscle may be pathogenic in neurons, a distinction that only single-cell models can detect.",
+      "tags": ["google-deepmind", "alphagenome", "genomics", "single-cell", "precision-medicine", "bioinformatics"],
+      "relatedIds": ["article-deepmind-gemini-robotics-25"],
+      "knowledgeChecks": [
+        {
+          "question": "What key capability distinguishes AlphaGenome 2 from earlier genomic AI models?",
+          "options": [
+            "It can sequence DNA faster than existing tools",
+            "It predicts genetic variant effects at the individual cell-type level rather than across bulk tissue",
+            "It identifies new protein structures from genomic data",
+            "It generates synthetic genomes for drug testing"
+          ],
+          "correctIndex": 1,
+          "explanation": "AlphaGenome 2's key advance is cell-type-specific prediction: it can tell you how a genetic variant affects neurons versus muscle cells versus immune cells, rather than providing a single averaged prediction across mixed tissue samples."
+        },
+        {
+          "question": "How is AlphaGenome 2 being made available to researchers?",
+          "options": [
+            "As a paid API starting at $0.01 per query",
+            "Only through Google Cloud enterprise contracts",
+            "As a free API for noncommercial research",
+            "As open-source model weights on Hugging Face"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepMind is offering AlphaGenome 2 access through a free API specifically for noncommercial research use, lowering the barrier for academic and public health researchers to apply it to disease studies."
         }
       ]
     }
