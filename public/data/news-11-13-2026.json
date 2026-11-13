@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-11-13T08:00:00.000Z",
+  "weekOf": "2026-11-09",
+  "coverageStart": "2026-11-12",
+  "coverageEnd": "2026-11-13",
+  "items": [
+    {
+      "id": "article-openai-google-anthropic-lawsuit-nov12",
+      "type": "article",
+      "title": "Nonprofits File Lawsuit to Halt Frontier AI Development by OpenAI, Google, and Anthropic",
+      "sourceUrl": "https://www.investing.com/news/stock-market-news/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-5022948",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Nonprofit organizations filed a lawsuit in San Francisco federal court on Thursday, November 12, seeking a court order to halt development of the most advanced AI models by OpenAI, Anthropic, Meta, Google, and SpaceX's AI division. The suit targets flagship products including ChatGPT, Gemini, and Claude, arguing that unchecked frontier AI development poses existential and societal risks. OpenAI had not responded to requests for comment at the time of filing.",
+      "keyConcepts": [
+        "Frontier AI regulation",
+        "AI liability and legal accountability",
+        "Existential risk arguments",
+        "Injunctive relief in tech"
+      ],
+      "whyItMatters": "This legal action represents a significant escalation in AI governance debates, potentially setting precedent for how courts treat AI safety obligations. If even partially successful, it could force the largest AI labs to demonstrate safety standards before releasing new frontier models.",
+      "tags": ["ai-safety", "lawsuit", "openai", "anthropic", "google", "regulation", "frontier-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary legal objective of the November 12 lawsuit against OpenAI, Anthropic, and Google?",
+          "options": [
+            "Seeking monetary damages for copyright infringement",
+            "Requesting a court order to halt development of the most advanced AI models",
+            "Challenging the tax-exempt status of AI nonprofit labs",
+            "Requiring mandatory open-sourcing of frontier model weights"
+          ],
+          "correctIndex": 1,
+          "explanation": "The lawsuit, filed in San Francisco by nonprofit organizations, sought an injunction to stop development of the most advanced frontier AI models, arguing they pose existential and societal risks."
+        },
+        {
+          "question": "Which of the following companies was NOT named as a defendant in the November 12 AI development lawsuit?",
+          "options": [
+            "OpenAI",
+            "Meta",
+            "Microsoft",
+            "Anthropic"
+          ],
+          "correctIndex": 2,
+          "explanation": "The lawsuit named OpenAI, Anthropic, Meta, Google, and SpaceX's AI division as defendants. Microsoft was not among those named in this particular filing."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-tops-ai-rankings-nov13",
+      "type": "article",
+      "title": "Anthropic's Claude Takes Top AI Rankings Spot as OpenAI Restricts GPT-6 Cyber Model",
+      "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropics-claude-tops-ai-rankings-as-openai-limits-cyber-model/",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Anthropic's latest Claude model has moved to the top of the Artificial Analysis Intelligence Index, surpassing Google's Gemini 4 Carbon in the benchmark rankings. Meanwhile, OpenAI continues to keep its GPT-6 Cyber model restricted to vetted security customers only, limiting access while other organizations compete publicly on general-purpose benchmarks. The divergence in release strategies highlights different philosophies between the leading AI labs.",
+      "keyConcepts": [
+        "AI benchmark rankings",
+        "Artificial Analysis Intelligence Index",
+        "Model access restrictions",
+        "Competitive AI landscape"
+      ],
+      "whyItMatters": "Claude reaching the top of the Artificial Analysis Intelligence Index signals that Anthropic's models have caught up with or surpassed Google's latest flagship, intensifying competition in the enterprise AI market. OpenAI's restricted approach to GPT-6 Cyber reflects growing tension between capability showcasing and responsible deployment.",
+      "tags": ["anthropic", "claude", "openai", "benchmarks", "ai-models", "gemini", "gpt-6"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to November 2026 benchmark data, which model did Anthropic's Claude surpass to reach the top of the Artificial Analysis Intelligence Index?",
+          "options": [
+            "OpenAI GPT-6",
+            "Meta Llama 4",
+            "Google Gemini 4 Carbon",
+            "Mistral Large"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's latest Claude model moved ahead of Google's Gemini 4 Carbon on the Artificial Analysis Intelligence Index, claiming the top spot in the benchmark ranking."
+        },
+        {
+          "question": "Why is OpenAI's GPT-6 Cyber model not competing on public AI benchmarks?",
+          "options": [
+            "It has not been released yet",
+            "It is restricted to vetted security customers only",
+            "It scored too low to be listed publicly",
+            "It operates exclusively in offline mode"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI has kept GPT-6 Cyber limited to vetted security customers, meaning it does not appear in public benchmark comparisons. This deliberate restriction reflects caution around deploying a cyber-focused model broadly."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-jensen-huang-investigation-market-nov12",
+      "type": "article",
+      "title": "Nvidia Shares Drop as Board Investigation into Jensen Huang Rattles AI Markets",
+      "sourceUrl": "https://eurasiabusinessnews.com/2026/11/12/stock-market-today-november-12-2026-nvidia-stock-tumbles-after-jensen-huang-exit-ai-shares-face-leadership-shock/",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Nvidia shares fell sharply on November 12 as markets reacted to ongoing uncertainty surrounding CEO Jensen Huang following an independent board investigation opened on November 8 into reports that Huang has been the target of a foreign intelligence effort. AI-linked equities broadly declined on the leadership uncertainty, with AMD and Broadcom rising as investors rotated out of Nvidia. The board has not disclosed the investigation's scope or timeline.",
+      "keyConcepts": [
+        "Corporate governance in AI",
+        "Market sensitivity to AI leadership",
+        "Foreign intelligence threats to tech executives",
+        "AI sector equity volatility"
+      ],
+      "whyItMatters": "Jensen Huang's leadership has been central to Nvidia's decade-long dominance in AI hardware. Any sustained uncertainty about his tenure could affect Nvidia's strategic direction, investor confidence, and the broader AI chip supply chain that most AI labs depend on.",
+      "tags": ["nvidia", "jensen-huang", "ai-stocks", "corporate-governance", "ai-industry", "market-news"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the stated reason Nvidia's board opened an independent investigation in November 2026?",
+          "options": [
+            "Allegations of financial fraud in earnings reports",
+            "Reports that CEO Jensen Huang had been the target of a foreign intelligence effort",
+            "A hostile takeover attempt by a competitor",
+            "Insider trading allegations by senior executives"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia's board opened an independent investigation on November 8, 2026 into reports that CEO Jensen Huang had been targeted by a foreign intelligence operation. This triggered market uncertainty and a sharp share price decline."
+        },
+        {
+          "question": "Which AI hardware competitors saw their shares rise when Nvidia's stock fell on November 12, 2026?",
+          "options": [
+            "Intel and Qualcomm",
+            "AMD and Broadcom",
+            "Samsung and TSMC",
+            "Texas Instruments and Micron"
+          ],
+          "correctIndex": 1,
+          "explanation": "As Nvidia shares declined on leadership uncertainty, investors rotated into AMD and Broadcom, which both rose on the day — reflecting market expectations that rivals could benefit if Nvidia's strategic direction becomes uncertain."
+        }
+      ]
+    }
+  ]
+}
