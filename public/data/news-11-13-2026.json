@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T08:00:00.000Z",
+  "generatedAt": "2026-11-13T14:30:00.000Z",
   "weekOf": "2026-11-09",
   "coverageStart": "2026-11-12",
   "coverageEnd": "2026-11-13",
@@ -131,6 +131,135 @@
           ],
           "correctIndex": 1,
           "explanation": "As Nvidia shares declined on leadership uncertainty, investors rotated into AMD and Broadcom, which both rose on the day — reflecting market expectations that rivals could benefit if Nvidia's strategic direction becomes uncertain."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-price-range-nov12",
+      "type": "article",
+      "title": "Anthropic Sets $70-$78 Per Share IPO Price Range, Targeting Nasdaq Debut Week of November 17",
+      "sourceUrl": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic set its IPO price range at $70 to $78 per share as the company launched its roadshow, offering 825 million Class A shares in what could be one of the largest technology IPOs ever. At the top of the range, the offering would raise approximately $64 billion and value the company around $1.2 trillion. The roadshow launched November 10 with pricing expected around November 18 and trading on Nasdaq under the ticker ANT beginning November 19.",
+      "keyConcepts": [
+        "AI company valuations",
+        "Technology IPO market",
+        "Anthropic business model",
+        "Dual-class share structures in AI companies"
+      ],
+      "whyItMatters": "Anthropic's IPO will be a critical test of how public markets value AI safety-focused companies generating $17 billion in annual revenue but still operating at a loss. The offering's reception will likely influence OpenAI's own path to public markets and set a benchmark for the broader AI sector.",
+      "tags": ["anthropic", "ipo", "nasdaq", "ai-industry", "investment", "ai-valuation", "public-markets"],
+      "relatedIds": ["article-anthropic-claude-tops-ai-rankings-nov13"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the ticker symbol Anthropic plans to use when it lists on the Nasdaq?",
+          "options": [
+            "ANTH",
+            "CLAUD",
+            "ANT",
+            "ANTHR"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic filed to list on the Nasdaq Global Select Market under the ticker symbol ANT, referencing the company's focus on building safe AI systems."
+        },
+        {
+          "question": "Approximately how much did Anthropic report in annual revenue when it launched its IPO roadshow in November 2026?",
+          "options": [
+            "$4.2 billion",
+            "$17 billion",
+            "$8.5 billion",
+            "$31 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "According to Anthropic's S-1 filing, the company reported approximately $17 billion in annual revenue. Despite this, the company was still operating at a loss, making the valuation a test of market confidence in long-term AI profitability."
+        }
+      ]
+    },
+    {
+      "id": "article-google-gemini-4-hydrogen-default-nov12",
+      "type": "article",
+      "title": "Google Makes Gemini 4 Hydrogen Its New Lightweight Default Model",
+      "sourceUrl": "https://9to5google.com/?p=736356",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google announced on November 12 that Gemini 4 Hydrogen, the lightweight Flash-tier variant of its Gemini 4 model family, is now the default model across its consumer and developer products. The announcement was made by Koray Kavukcuoglu, Google DeepMind's VP of Research, and positions Hydrogen as a faster, cheaper option for everyday AI tasks while Gemini 4 Argon remains the company's highest-capability offering. Developers using the Gemini API will see Hydrogen as the default starting point.",
+      "keyConcepts": [
+        "Model tiering strategies",
+        "Efficiency vs. capability tradeoffs",
+        "Gemini API defaults",
+        "Flash-class AI models"
+      ],
+      "whyItMatters": "Defaulting to a lighter model signals Google's focus on cost and latency for the mass market, a strategy that mirrors OpenAI's GPT-4o Mini positioning. For developers, the default model choice has significant downstream effects on application costs and response speed.",
+      "tags": ["google", "gemini", "gemini-4-hydrogen", "model-release", "ai-research", "deepmind", "flash-models"],
+      "relatedIds": ["article-anthropic-claude-tops-ai-rankings-nov13"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the relationship between Gemini 4 Hydrogen and Gemini 4 Argon in Google's model lineup?",
+          "options": [
+            "Hydrogen is more powerful than Argon",
+            "Hydrogen is the lightweight Flash-tier variant; Argon is the highest-capability model",
+            "They are identical models with different API names",
+            "Argon is a preview and Hydrogen is the production version"
+          ],
+          "correctIndex": 1,
+          "explanation": "Within Google's Gemini 4 family, Hydrogen is the lightweight Flash-tier model optimized for speed and cost, while Gemini 4 Argon is the company's highest-capability offering for complex tasks."
+        },
+        {
+          "question": "What developer-facing change did Google make when it announced Gemini 4 Hydrogen as default on November 12, 2026?",
+          "options": [
+            "It removed Gemini 3.8 Flash from the API entirely",
+            "It required developers to re-verify API keys",
+            "Developers using the Gemini API see Hydrogen as the default starting model",
+            "It raised pricing on all Gemini 4 tier models"
+          ],
+          "correctIndex": 2,
+          "explanation": "With Gemini 4 Hydrogen becoming the default, developers accessing the Gemini API will now start with Hydrogen as their default model, reducing the barrier to lower-cost and faster AI integrations."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-google-cloud-nov12",
+      "type": "article",
+      "title": "Meta's Muse AI Models Now Available on Google Cloud Model Garden",
+      "sourceUrl": "https://riorundown.substack.com/p/ai-news-nov-12-2026-ai-agents-infrastructure",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Meta's three Muse models became available on Google Cloud's Model Garden on November 12, with Google CEO Sundar Pichai publicly welcoming the addition. The Muse family, Meta's latest generation of open-weight multimodal models, can now be deployed and fine-tuned directly within Google Cloud's AI infrastructure. The move continues a pattern of major cloud providers offering competitors' open-weight models as managed services, giving enterprises deployment flexibility without infrastructure overhead.",
+      "keyConcepts": [
+        "Open-weight model distribution",
+        "Cloud AI model marketplaces",
+        "Cross-company AI partnerships",
+        "Enterprise AI deployment"
+      ],
+      "whyItMatters": "Meta placing Muse on Google Cloud means enterprises can now run Meta's models at scale using Google's managed infrastructure, reducing the barrier to adopting open-weight alternatives to proprietary models. It also reflects the growing importance of model distribution deals alongside model capability in the competitive AI landscape.",
+      "tags": ["meta", "muse", "google-cloud", "model-garden", "open-weights", "enterprise-ai", "ai-deployment"],
+      "relatedIds": ["article-google-gemini-4-hydrogen-default-nov12"],
+      "knowledgeChecks": [
+        {
+          "question": "Which Google Cloud service now hosts Meta's Muse AI models as of November 12, 2026?",
+          "options": [
+            "Google Cloud AI Hub",
+            "Vertex AI Catalog",
+            "Model Garden",
+            "Google AI Studio"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's Muse models were added to Google Cloud's Model Garden on November 12, allowing enterprises to deploy and fine-tune them directly within Google Cloud's managed infrastructure."
+        },
+        {
+          "question": "What does Meta's Muse model family represent in terms of model access strategy?",
+          "options": [
+            "Proprietary models available only through Meta's own API",
+            "Open-weight models that can be deployed on third-party cloud infrastructure",
+            "Research-only models with no commercial licensing",
+            "Models exclusively licensed to Google Cloud"
+          ],
+          "correctIndex": 1,
+          "explanation": "Meta's Muse models are open-weight models, meaning their weights are publicly available and can be hosted on platforms like Google Cloud's Model Garden, fine-tuned, and deployed by enterprises without being locked into Meta's own APIs."
         }
       ]
     }
