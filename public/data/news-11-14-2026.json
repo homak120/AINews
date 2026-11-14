@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-11-14T08:00:00.000Z",
+  "weekOf": "2026-11-09",
+  "coverageStart": "2026-11-12",
+  "coverageEnd": "2026-11-13",
+  "items": [
+    {
+      "id": "article-nvidia-jensen-huang-resignation-nov12",
+      "type": "article",
+      "title": "Jensen Huang Officially Resigns as Nvidia CEO; Colette Kress Named Interim",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "verified": false,
+      "publishedAt": "2026-11-12",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "NVIDIA's board announced on November 12, 2026 that Jensen Huang has resigned as President, CEO, and board member, effective immediately, following an independent investigation into reports he was targeted by a foreign intelligence operation. CFO Colette Kress was named Interim CEO while retaining her CFO role. Harvey C. Jones was simultaneously appointed as NVIDIA's first-ever board chair. The company's quarterly earnings call, scheduled for November 17, will proceed as planned.",
+      "keyConcepts": [
+        "CEO succession in AI hardware companies",
+        "Corporate governance and foreign intelligence risk",
+        "NVIDIA leadership transition",
+        "AI infrastructure dependency on key executives"
+      ],
+      "whyItMatters": "Jensen Huang co-founded NVIDIA in 1993 and has been the singular architect of its pivot from gaming GPUs to AI infrastructure. His departure creates genuine uncertainty around NVIDIA's strategic direction at a moment when it supplies the chips powering most of the world's frontier AI training runs — making this transition relevant not just to investors but to every major AI lab.",
+      "tags": ["nvidia", "jensen-huang", "ceo-resignation", "colette-kress", "ai-industry", "leadership", "ai-hardware"],
+      "relatedIds": ["article-nvidia-jensen-huang-investigation-market-nov12"],
+      "knowledgeChecks": [
+        {
+          "question": "Who was named NVIDIA's Interim CEO following Jensen Huang's resignation in November 2026?",
+          "options": [
+            "Harvey C. Jones",
+            "Colette Kress",
+            "Bill Dally",
+            "Ajay Puri"
+          ],
+          "correctIndex": 1,
+          "explanation": "Colette Kress, NVIDIA's Executive Vice President and Chief Financial Officer, was named Interim CEO while also retaining her CFO role until a permanent successor is identified."
+        },
+        {
+          "question": "What was the stated trigger for the NVIDIA board's independent investigation that preceded Jensen Huang's resignation?",
+          "options": [
+            "Allegations of financial misstatements in quarterly filings",
+            "Reports that Huang had been targeted by a foreign intelligence operation",
+            "Insider trading allegations by senior executives",
+            "A hostile acquisition attempt by a competitor"
+          ],
+          "correctIndex": 1,
+          "explanation": "NVIDIA's board opened an independent investigation on November 8 after reports that CEO Jensen Huang had been the target of a foreign intelligence effort. This investigation preceded and apparently led to his resignation four days later."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-chatgpt-wallet-agentic-nov13",
+      "type": "article",
+      "title": "OpenAI Launches ChatGPT Wallet, Enabling AI Agents to Make Purchases on Users' Behalf",
+      "sourceUrl": "https://openai.com/index/buy-it-in-chatgpt/",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI rolled out ChatGPT Wallet on November 13, allowing its Dots AI agents to purchase items on a user's behalf after a one-time card entry and per-transaction approval. The feature is integrated with OpenAI's Dots agentic platform, which launched in September 2026, and partners with Visa for tokenized card credentials. Users retain explicit approval control over each transaction, distinguishing it from fully autonomous spending. The move represents OpenAI's most direct entry into consumer commerce.",
+      "keyConcepts": [
+        "Agentic AI commerce",
+        "AI agent payment infrastructure",
+        "Tokenized payment credentials",
+        "Human-in-the-loop transaction approval"
+      ],
+      "whyItMatters": "ChatGPT Wallet marks a significant expansion of AI agents from task automation into financial transactions. As AI agents gain the ability to spend real money, questions around authorization boundaries, fraud prevention, and liability become critical engineering and policy challenges for the entire industry.",
+      "tags": ["openai", "chatgpt", "ai-agents", "agentic-ai", "commerce", "payments", "dots"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What safeguard does ChatGPT Wallet include to prevent unauthorized spending by AI agents?",
+          "options": [
+            "A daily spending limit enforced server-side",
+            "Per-transaction user approval before each purchase",
+            "A 24-hour delay between agent authorization and execution",
+            "Mandatory two-factor authentication for each payment"
+          ],
+          "correctIndex": 1,
+          "explanation": "ChatGPT Wallet requires per-transaction approval from the user before the Dots AI agent completes any purchase, keeping the human in the loop even though the payment infrastructure is handled by the agent."
+        },
+        {
+          "question": "ChatGPT Wallet is most directly linked to which of OpenAI's existing product lines?",
+          "options": [
+            "GPT-4o Mini API",
+            "OpenAI Codex development tools",
+            "Dots agentic platform",
+            "DALL-E image generation"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Wallet integrates with Dots, OpenAI's agentic platform launched in September 2026, which coordinates AI agents to complete multi-step tasks on behalf of users — with Wallet now extending that capability to purchasing."
+        }
+      ]
+    },
+    {
+      "id": "article-redhat-openshift5-ai-agents-nov13",
+      "type": "article",
+      "title": "Red Hat OpenShift 5 Goes Generally Available with Autonomous AI Cluster Management Agents",
+      "sourceUrl": "https://solutionsreview.com/ai-news-for-the-week-of-november-13-updates-from-cisco-coreweave-red-hat-more/",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-engineering"],
+      "summary": "Red Hat released OpenShift 5 as generally available on November 13, introducing Lightspeed agents that autonomously investigate cluster problems and recommend corrective actions. Administrators retain execution control — the agents diagnose and explain issues but do not automatically apply fixes without human approval. The release marks a significant shift toward AI-assisted platform operations in enterprise Kubernetes environments, building on the AI features Red Hat introduced in preview earlier in 2026.",
+      "keyConcepts": [
+        "AI-powered platform operations (AIOps)",
+        "Kubernetes cluster management",
+        "Human-in-the-loop AI automation",
+        "Enterprise AI infrastructure"
+      ],
+      "whyItMatters": "OpenShift 5's Lightspeed agents represent a mature implementation of AI-driven infrastructure management, where AI moves from advisory to investigative but stops short of autonomous execution. This human-in-the-loop model is likely to become the enterprise standard as organizations balance automation speed with operational safety.",
+      "tags": ["red-hat", "openshift", "kubernetes", "ai-agents", "lightspeed", "aiops", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What do Red Hat OpenShift 5's Lightspeed agents do when they detect a cluster problem?",
+          "options": [
+            "Automatically apply the recommended fix without user input",
+            "Shut down the affected node and restart it",
+            "Investigate the problem and recommend fixes, leaving execution to the administrator",
+            "Escalate to a Red Hat support engineer via API"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lightspeed agents investigate cluster problems and recommend corrective actions, but administrators retain execution control — the agents do not automatically apply fixes. This design keeps humans in the loop for all operational changes."
+        },
+        {
+          "question": "What container orchestration platform is OpenShift 5 built on?",
+          "options": [
+            "Docker Swarm",
+            "Apache Mesos",
+            "Kubernetes",
+            "Nomad"
+          ],
+          "correctIndex": 2,
+          "explanation": "Red Hat OpenShift is built on Kubernetes, the open-source container orchestration system. OpenShift 5 extends Kubernetes with AI-powered management agents (Lightspeed) alongside enterprise security and developer tooling."
+        }
+      ]
+    },
+    {
+      "id": "article-notion-fireworks-ai-breach-nov13",
+      "type": "article",
+      "title": "Notion Confirms Customer Chat Data Exposed in Fireworks AI Provider Breach",
+      "sourceUrl": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-13-2026",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Notion confirmed on November 13 that hackers accessed some customer chat transcripts through a security breach at Fireworks, the AI inference provider that powers several of Notion AI's features. The scope of the breach — including which users were affected and how many transcripts were accessed — had not been fully disclosed at time of reporting. The incident highlights growing supply chain security risks as enterprises increasingly route sensitive data through third-party AI API providers.",
+      "keyConcepts": [
+        "AI supply chain security",
+        "Third-party AI provider risk",
+        "Data breach disclosure",
+        "AI inference provider security"
+      ],
+      "whyItMatters": "As enterprises embed AI features powered by third-party inference APIs, their data security perimeter expands beyond systems they control. The Notion/Fireworks breach is likely to accelerate enterprise demands for stronger contractual data protections, isolated inference environments, and security audits of AI vendors in procurement processes.",
+      "tags": ["notion", "fireworks-ai", "data-breach", "ai-security", "supply-chain", "enterprise-ai", "privacy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the attack vector in the Notion data breach reported in November 2026?",
+          "options": [
+            "A SQL injection attack directly against Notion's database",
+            "A phishing attack on a Notion employee's credentials",
+            "A breach at Fireworks, the third-party AI inference provider used by Notion",
+            "An exploit in Notion's browser extension"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hackers accessed Notion customer chat transcripts through a breach at Fireworks, an AI inference provider that Notion uses to power its AI features. This is a supply chain attack, where the target's data is compromised via a trusted third-party vendor."
+        },
+        {
+          "question": "What class of risk does the Notion/Fireworks breach most clearly illustrate for enterprise AI adopters?",
+          "options": [
+            "Model hallucination and factual accuracy risk",
+            "AI supply chain and third-party inference provider risk",
+            "Regulatory compliance risk from AI-generated content",
+            "Intellectual property risk from AI training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "The breach occurred not through Notion itself, but through Fireworks, an AI inference provider. This exemplifies supply chain security risk — where enterprise data can be exposed through a trusted vendor's infrastructure rather than the enterprise's own systems."
+        }
+      ]
+    },
+    {
+      "id": "article-airbnb-ai-support-cost-reduction-nov13",
+      "type": "article",
+      "title": "Airbnb Reports AI Cut Support Cost Per Booking by More Than 17% in One Year",
+      "sourceUrl": "https://riorundown.substack.com/p/ai-news-nov-13-2026-leadership-transitions",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-career", "ai-industry"],
+      "summary": "Airbnb disclosed on November 13 that AI-powered customer support tooling reduced its per-booking support cost by more than 17% over the past year. The company did not specify whether the reduction came from automated resolution, agent-assist tools, or reduced escalation rates. The disclosure comes as travel and hospitality companies increasingly deploy AI to manage high-volume, repetitive customer service interactions at scale.",
+      "keyConcepts": [
+        "AI in customer support operations",
+        "Cost reduction through AI automation",
+        "Support cost per unit metric",
+        "Human workforce and AI augmentation"
+      ],
+      "whyItMatters": "A 17% cost reduction at Airbnb's scale is a substantial figure that will influence how other consumer platforms justify AI support investments. It also sets a measurable industry benchmark at a time when ROI on AI deployments remains hotly debated — and signals that workforce restructuring in support roles is a near-term consequence of these efficiencies.",
+      "tags": ["airbnb", "ai-support", "cost-reduction", "customer-service", "ai-roi", "automation", "workforce"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "By approximately how much did Airbnb report reducing its support cost per booking through AI in November 2026?",
+          "options": [
+            "More than 5%",
+            "More than 17%",
+            "More than 35%",
+            "More than 50%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Airbnb disclosed that AI-powered support tooling cut its support cost per booking by more than 17% over the previous year, making it one of the clearest public ROI disclosures for enterprise AI in customer operations."
+        },
+        {
+          "question": "Why is a per-booking cost metric more meaningful than total support cost when measuring AI efficiency in travel?",
+          "options": [
+            "It excludes agent salaries which skew the data",
+            "It normalizes for volume changes, showing cost efficiency regardless of how many bookings were made",
+            "It only counts automated resolutions, filtering out human escalations",
+            "It is an industry-standard GAAP accounting metric for hospitality"
+          ],
+          "correctIndex": 1,
+          "explanation": "Per-booking cost normalizes for fluctuations in total booking volume. If Airbnb doubled its bookings in a year, total support costs might still rise even if AI made each individual booking cheaper to service — making per-unit cost the more accurate efficiency measure."
+        }
+      ]
+    }
+  ]
+}
