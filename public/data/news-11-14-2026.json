@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T08:00:00.000Z",
+  "generatedAt": "2026-11-14T16:00:00.000Z",
   "weekOf": "2026-11-09",
   "coverageStart": "2026-11-12",
-  "coverageEnd": "2026-11-13",
+  "coverageEnd": "2026-11-14",
   "items": [
     {
       "id": "article-nvidia-jensen-huang-resignation-nov12",
@@ -21,7 +21,7 @@
       ],
       "whyItMatters": "Jensen Huang co-founded NVIDIA in 1993 and has been the singular architect of its pivot from gaming GPUs to AI infrastructure. His departure creates genuine uncertainty around NVIDIA's strategic direction at a moment when it supplies the chips powering most of the world's frontier AI training runs — making this transition relevant not just to investors but to every major AI lab.",
       "tags": ["nvidia", "jensen-huang", "ceo-resignation", "colette-kress", "ai-industry", "leadership", "ai-hardware"],
-      "relatedIds": ["article-nvidia-jensen-huang-investigation-market-nov12"],
+      "relatedIds": [],
       "knowledgeChecks": [
         {
           "question": "Who was named NVIDIA's Interim CEO following Jensen Huang's resignation in November 2026?",
@@ -216,6 +216,135 @@
           ],
           "correctIndex": 1,
           "explanation": "Per-booking cost normalizes for fluctuations in total booking volume. If Airbnb doubled its bookings in a year, total support costs might still rise even if AI made each individual booking cheaper to service — making per-unit cost the more accurate efficiency measure."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-oversubscribed-nov13",
+      "type": "article",
+      "title": "Anthropic IPO Multiple Times Oversubscribed; Nvidia and Google Each Buy $10B in Deal",
+      "sourceUrl": "https://aiweekly.co/alerts/anthropic-ipo-oversubscribed-bankers-weigh-15t-valuation-nvidia-and-google-each",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic's Nasdaq IPO is reportedly multiple times oversubscribed at the $70–$78 per share range, with Nvidia and Google each committing $10 billion in cornerstone purchases. Bankers are weighing raising the price above the initial range as demand significantly exceeds available shares. The company plans to price on November 18 and begin Nasdaq trading on November 19 under the ticker ANT, targeting a valuation that could exceed $1.4 trillion if the price range is raised.",
+      "keyConcepts": [
+        "AI company public market valuations",
+        "Cornerstone IPO investor commitments",
+        "Nasdaq technology sector listings",
+        "AI safety company financing"
+      ],
+      "whyItMatters": "Anthropic's IPO is the largest AI safety-focused company to go public and will serve as a major market test for how public investors value frontier AI development. The oversubscription and large cornerstone commitments from Nvidia and Google signal that strategic infrastructure investors are positioning for long-term influence over Anthropic's direction at the moment it transitions from private to public governance.",
+      "tags": ["anthropic", "ipo", "nasdaq", "nvidia", "google", "ai-valuation", "frontier-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which two companies each committed $10 billion as cornerstone investors in Anthropic's November 2026 IPO?",
+          "options": [
+            "Microsoft and Amazon",
+            "Apple and Meta",
+            "Nvidia and Google",
+            "Softbank and Saudi Aramco"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia and Google each committed $10 billion in cornerstone purchases during Anthropic's IPO roadshow, which became multiple times oversubscribed at the initial $70–$78 per share price range."
+        },
+        {
+          "question": "What does it mean when an IPO is described as 'multiple times oversubscribed'?",
+          "options": [
+            "The company issued more shares than originally planned",
+            "Investor demand for shares exceeds the number of shares available to purchase",
+            "The IPO was delayed multiple times before pricing",
+            "The underwriters exercised their greenshoe option"
+          ],
+          "correctIndex": 1,
+          "explanation": "An oversubscribed IPO means that investor orders exceed the total number of shares being offered. When an IPO is multiple times oversubscribed, it means demand is several times larger than supply — typically giving underwriters and the company leverage to raise the offer price above the initial range."
+        }
+      ]
+    },
+    {
+      "id": "article-faa-ai-smart-ground-stop-nov13",
+      "type": "article",
+      "title": "FAA Investigating Whether Its New AI Traffic System Contributed to Nationwide Ground Stop",
+      "sourceUrl": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "The FAA is investigating whether its recently deployed AI traffic optimization system, SMART, may have contributed to a nationwide ground stop on November 13. The SMART (Stratospheric Measurement and Air-Route Tool) system was designed to predict flight delays and optimize routing, but officials have not established that the AI system directly caused the disruption. The incident has reignited debate over the pace of AI deployment in safety-critical infrastructure.",
+      "keyConcepts": [
+        "AI in safety-critical infrastructure",
+        "Air traffic control automation",
+        "AI incident investigation and accountability",
+        "Human oversight of AI decision systems"
+      ],
+      "whyItMatters": "A ground stop affecting national airspace — even if AI is ultimately cleared — raises fundamental questions about the testing rigor and oversight requirements for AI systems in critical infrastructure. As AI moves from advisory to operational roles in sectors like aviation, the accountability frameworks and incident investigation processes must evolve accordingly.",
+      "tags": ["faa", "air-traffic-control", "ai-safety", "smart-system", "critical-infrastructure", "aviation", "ai-accountability"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the FAA's SMART system designed to do?",
+          "options": [
+            "Autonomously land aircraft in poor weather conditions",
+            "Predict flight delays and optimize air traffic routing",
+            "Replace human air traffic controllers in en-route airspace",
+            "Detect unauthorized drone intrusions near airports"
+          ],
+          "correctIndex": 1,
+          "explanation": "SMART (Stratospheric Measurement and Air-Route Tool) is designed to predict flight delays before takeoff and optimize routing decisions. It does not directly control aircraft but provides recommendations to human controllers — though its role in a November 13 nationwide ground stop was under investigation."
+        },
+        {
+          "question": "In the November 2026 FAA investigation, what had been established at the time of initial reporting?",
+          "options": [
+            "SMART directly caused the ground stop by issuing incorrect routing commands",
+            "The ground stop was caused by a cyberattack on FAA infrastructure",
+            "Officials had not yet established a direct link between the AI system and the disruption",
+            "SMART was immediately decommissioned pending a full review"
+          ],
+          "correctIndex": 2,
+          "explanation": "At the time of initial reporting, the FAA had not established that its SMART AI system directly caused the nationwide ground stop. The investigation was underway, and officials were careful not to draw conclusions before a full review of system logs and decision outputs."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-regional-access-restrictions-nov13",
+      "type": "article",
+      "title": "Anthropic's Updated Regional Access Rules Now in Effect, Blocking Claude in China and Unsupported Regions",
+      "sourceUrl": "https://www.tokenpost.com/news/technology/53665",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Anthropic's updated regional access policy took effect November 12, prohibiting use of Claude from mainland China and other unsupported regions. The policy was announced October 8 and gives users in affected areas no migration path; API access from restricted regions is now blocked at the network level. The restrictions align with OpenAI's similar access changes, as both companies respond to US export control guidance on frontier AI model access.",
+      "keyConcepts": [
+        "AI access georestrictions and export controls",
+        "Frontier model access policy",
+        "US-China AI technology decoupling",
+        "Compliance obligations for AI platform operators"
+      ],
+      "whyItMatters": "The coordinated access restrictions from both Anthropic and OpenAI mark a significant escalation in US-China AI decoupling. For developers and enterprises in affected regions, this creates immediate operational disruption and signals that geopolitical constraints on frontier AI access are likely to tighten further as AI is increasingly treated as dual-use technology subject to export controls.",
+      "tags": ["anthropic", "access-restrictions", "china", "export-controls", "ai-policy", "geopolitics", "claude"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "When did Anthropic's updated regional access restrictions take effect in November 2026?",
+          "options": [
+            "November 8",
+            "November 10",
+            "November 12",
+            "November 14"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic's updated access rules took effect Thursday, November 12, 2026. The policy had been announced on October 8, giving users roughly five weeks of notice before enforcement began."
+        },
+        {
+          "question": "What is the most likely regulatory driver behind Anthropic's decision to restrict Claude access in mainland China?",
+          "options": [
+            "GDPR compliance requirements from the European Union",
+            "US export control guidance treating frontier AI models as dual-use technology",
+            "A bilateral AI governance treaty between the US and China",
+            "Chinese government restrictions on foreign AI platforms"
+          ],
+          "correctIndex": 1,
+          "explanation": "The coordinated access restrictions by both Anthropic and OpenAI align with US export control guidance that increasingly treats access to frontier AI models as a matter of national security — similar to how advanced semiconductor exports are controlled. This positions frontier AI as dual-use technology subject to federal oversight."
         }
       ]
     }
