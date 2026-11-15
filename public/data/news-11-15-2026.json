@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-11-15T08:00:00.000Z",
+  "weekOf": "2026-11-12",
+  "coverageStart": "2026-11-13",
+  "coverageEnd": "2026-11-14",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-nov2026",
+      "type": "article",
+      "title": "Anthropic Sets $70–78 IPO Price Range Targeting $1.2T Market Cap on Nasdaq",
+      "sourceUrl": "https://abc11.com/post/anthropic-set-make-stock-market-debut-questions-swirl-safety-ai/19980936/",
+      "verified": false,
+      "publishedAt": "2026-11-14",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic filed amended S-1 terms for its landmark IPO on November 10, offering 825 million Class A shares at $70–78 each on Nasdaq under the ticker 'ANT.' At the midpoint, the offering implies a $1.2 trillion fully diluted market cap and a $61 billion raise — the second-largest IPO in history. A concurrent $26 billion private placement was subscribed by Nvidia, Google, and Microsoft, alongside four other strategic investors.",
+      "keyConcepts": [
+        "Foundation model IPO",
+        "Fully diluted market capitalization",
+        "Private placement concurrent with IPO",
+        "AI company public market valuation"
+      ],
+      "whyItMatters": "Anthropic's debut as the first major AI foundation model company on public markets will establish the benchmark valuation methodology for the entire sector — and hand the AI safety narrative its most prominent shareholder meeting yet.",
+      "tags": ["anthropic", "ipo", "nasdaq", "ai-valuation", "claude", "public-markets"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under what Nasdaq ticker will Anthropic trade after its IPO?",
+          "options": ["CLAI", "ANT", "ATHR", "OPUS"],
+          "correctIndex": 1,
+          "explanation": "Anthropic's S-1 filing designates 'ANT' as the Nasdaq ticker symbol for its Class A shares."
+        },
+        {
+          "question": "Which of the following best describes the concurrent $26B private placement in Anthropic's IPO?",
+          "options": [
+            "Retail investors purchasing shares at IPO price before trading opens",
+            "Anthropic buying back shares from early employees",
+            "Strategic investors such as Nvidia and Google buying Class N shares alongside the public offering",
+            "A secondary offering from existing venture investors"
+          ],
+          "correctIndex": 2,
+          "explanation": "The $26B private placement consists of Class N shares purchased by strategic investors — including Nvidia, Google, and Microsoft — concurrent with the public IPO, separate from the 825M Class A shares offered to public market investors."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini4-carbon-nov2026",
+      "type": "article",
+      "title": "Google Ships Gemini 4 Carbon to Paid API and AI Ultra, Tops Coding Benchmarks",
+      "sourceUrl": "https://fourweekmba.com/ai-gemini-catalogue-16-model-launches-in-99-days-with-prices/",
+      "verified": false,
+      "publishedAt": "2026-11-14",
+      "dateEstimated": true,
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Google rolled out Gemini 4 Carbon to paid API users and AI Ultra subscribers, pricing it at an introductory $2 per million input tokens and $10 per million output tokens — a rate that doubles to $4/$20 after November 30. Carbon tops both the CursorBench and WANDR evaluation suites for coding tasks. The release continues Google's aggressive Gemini 4 cadence, which has included multiple named variants since the family launched earlier this year.",
+      "keyConcepts": [
+        "Gemini 4 model family",
+        "Introductory LLM pricing windows",
+        "Coding benchmark evaluations",
+        "Paid API tier access"
+      ],
+      "whyItMatters": "Gemini 4 Carbon's benchmark leadership in coding, combined with introductory pricing below comparable tiers from Anthropic and OpenAI, signals Google's intent to capture developer adoption before prices normalize.",
+      "tags": ["google", "gemini", "llm-pricing", "coding-benchmark", "ai-engineering", "api"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the introductory output token price for Gemini 4 Carbon per million tokens?",
+          "options": ["$5", "$7.50", "$10", "$20"],
+          "correctIndex": 2,
+          "explanation": "Gemini 4 Carbon launched at an introductory rate of $2 per million input tokens and $10 per million output tokens, valid through November 30, 2026."
+        },
+        {
+          "question": "Which benchmarks does Google highlight for Gemini 4 Carbon's coding performance?",
+          "options": [
+            "MMLU and HumanEval",
+            "CursorBench and WANDR",
+            "SWE-Bench and LiveCodeBench",
+            "BIG-Bench and MATH"
+          ],
+          "correctIndex": 1,
+          "explanation": "Google's release notes for Gemini 4 Carbon highlight top performance on CursorBench and WANDR, two coding-focused evaluation suites."
+        }
+      ]
+    },
+    {
+      "id": "article-chatgpt-wallet-nov2026",
+      "type": "article",
+      "title": "OpenAI Building ChatGPT Wallet to Let AI Agents Make Purchases Autonomously",
+      "sourceUrl": "https://runtimewire.com/article/exclusive-openai-is-building-a-chatgpt-wallet-for-agentic-purchases",
+      "verified": false,
+      "publishedAt": "2026-11-13",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI is developing a ChatGPT Wallet feature that enables AI agents to make purchases and payments on behalf of users, using Visa-tokenized card credentials rather than storing raw card numbers. The system is designed to integrate with merchant checkout flows without requiring merchants to build custom agent interfaces. A PayPal integration is also in development, complementing the earlier Visa arrangement announced by OpenAI's platform team.",
+      "keyConcepts": [
+        "Agentic payments",
+        "Payment tokenization",
+        "AI agent autonomy",
+        "Platform monetization"
+      ],
+      "whyItMatters": "Payment capability transforms AI agents from information tools into economic actors — enabling end-to-end task completion for commerce, travel, and services while introducing new threat vectors around unauthorized agent transactions.",
+      "tags": ["openai", "chatgpt", "ai-agents", "payments", "agentic-ai", "visa"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does ChatGPT Wallet protect payment credentials when agents make purchases?",
+          "options": [
+            "It stores encrypted card numbers in OpenAI's vault",
+            "It uses one-time PINs texted to the user for each transaction",
+            "It uses Visa-tokenized card credentials instead of raw card numbers",
+            "It requires biometric confirmation from the user's device"
+          ],
+          "correctIndex": 2,
+          "explanation": "ChatGPT Wallet uses Visa payment tokenization, giving agents a token that represents the card rather than the actual card number, reducing exposure in the event of a breach."
+        },
+        {
+          "question": "Which of the following best describes the agentic payment model OpenAI is building?",
+          "options": [
+            "Users pre-fund a balance that agents draw from",
+            "Agents charge to a corporate account managed by an employer",
+            "Agents use tokenized credentials to pay at merchant checkouts without user action per transaction",
+            "Users approve each purchase via a push notification before funds move"
+          ],
+          "correctIndex": 2,
+          "explanation": "The ChatGPT Wallet is designed to let agents complete purchases autonomously using tokenized credentials, enabling end-to-end task completion without per-transaction user friction — though OpenAI has signaled it is still figuring out guardrails."
+        }
+      ]
+    }
+  ]
+}
