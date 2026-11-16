@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-11-16T03:08:57.000Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-15",
+  "coverageEnd": "2026-11-15",
+  "items": [
+    {
+      "id": "article-apple-health-ai-app-nov15",
+      "type": "article",
+      "title": "Apple Launches New App to Study How People Use AI for Health",
+      "sourceUrl": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "verified": false,
+      "publishedAt": "2026-11-15",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Apple launched a new app on November 15 that lets US users ask health questions and receive answers grounded in clinical sources. The app marks a significant move by Apple into consumer health AI, delivering clinically-informed responses directly on users' devices. It is initially available for US users to download, with Apple apparently assessing how people engage with AI-powered health guidance before a broader rollout.",
+      "keyConcepts": [
+        "Consumer health AI",
+        "Clinical knowledge grounding",
+        "AI safety in medical contexts",
+        "Apple ecosystem health strategy"
+      ],
+      "whyItMatters": "Apple entering health AI with clinically-grounded responses could set new standards for safety and accuracy in consumer health applications, while raising important questions about liability, trust, and the boundary between information and diagnosis.",
+      "tags": ["apple", "health-ai", "consumer-ai", "clinical-grounding", "ios", "ai-safety"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinguishes Apple's new health AI app from general-purpose chatbots?",
+          "options": [
+            "It runs entirely offline without any cloud connection",
+            "Its answers are grounded in clinical sources",
+            "It can order prescriptions on behalf of the user",
+            "It is built on GPT-4 with Apple customization"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apple's health AI app grounds its responses in clinical sources, aiming to provide medically informed answers rather than general web-scraped information."
+        },
+        {
+          "question": "In which region was Apple's health AI app available starting November 15, 2026?",
+          "options": [
+            "European Union",
+            "United Kingdom",
+            "United States",
+            "Canada and Australia"
+          ],
+          "correctIndex": 2,
+          "explanation": "The app launched for US users on November 15, 2026, allowing Apple to study real-world usage patterns before a broader international rollout."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-jensen-huang-ai-industry-nov15",
+      "type": "article",
+      "title": "Is Bad News for Jensen Huang Also Bad News for the AI Industry?",
+      "sourceUrl": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "verified": false,
+      "publishedAt": "2026-11-15",
+      "topics": ["ai-industry"],
+      "summary": "Following Jensen Huang's resignation from Nvidia, TechCrunch examines what the leadership change means for the broader AI sector. With Nvidia controlling approximately 80% of the AI GPU market, the company's strategic direction and partnerships under new leadership could have ripple effects across the entire AI ecosystem. The piece explores whether Nvidia's institutional strength is enough to maintain its AI hardware dominance even without its founding CEO.",
+      "keyConcepts": [
+        "AI hardware supply chain",
+        "Nvidia GPU market dominance",
+        "Founder-led company transitions",
+        "AI infrastructure concentration risk"
+      ],
+      "whyItMatters": "Nvidia's near-monopoly position in AI training hardware means that any shift in its strategic priorities affects every organization building AI — from hyperscalers to startups — making this leadership transition one of the most consequential in the AI industry.",
+      "tags": ["nvidia", "jensen-huang", "ai-hardware", "gpu", "ai-infrastructure", "leadership"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Approximately what share of the AI GPU market does Nvidia control?",
+          "options": [
+            "About 30%",
+            "About 50%",
+            "About 65%",
+            "About 80%"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nvidia controls approximately 80% of the AI GPU market, which is why leadership transitions at the company carry outsized implications for the entire AI industry."
+        },
+        {
+          "question": "Why does Nvidia's CEO transition matter for AI practitioners and engineers?",
+          "options": [
+            "Jensen Huang personally wrote CUDA and his departure ends GPU software support",
+            "Nvidia's dominant hardware position means strategic shifts affect AI training costs and availability globally",
+            "It signals that Nvidia will exit the AI market entirely",
+            "It has no particular significance for the AI engineering community"
+          ],
+          "correctIndex": 1,
+          "explanation": "Because Nvidia supplies the overwhelming majority of AI training hardware, any shift in product roadmap or pricing under new leadership could affect every AI team's access to compute."
+        }
+      ]
+    }
+  ]
+}

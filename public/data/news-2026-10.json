@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-15T03:10:56.987Z",
+  "generatedAt": "2026-11-16T03:13:14.541Z",
   "weekOf": "2026-09-30",
   "coverageStart": "2026-09-30",
-  "coverageEnd": "2026-10-15",
+  "coverageEnd": "2026-10-16",
   "items": [
     {
       "id": "youtube-NQ4Aoe8wTC0",
@@ -4635,6 +4635,216 @@
           ],
           "correctIndex": 2,
           "explanation": "Black Forest Labs adopted a tiered commercial licensing approach where free commercial use is available for smaller businesses, while larger enterprises must pay for a license — allowing community access while protecting enterprise revenue streams."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-meta-muse-spark-open-oct15",
+      "type": "article",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": [
+        "ai-industry",
+        "ai-research"
+      ],
+      "summary": "Meta released Muse Spark Open, described as the most capable open-weight AI model in the United States, with a key design goal of running natively on Apple silicon Macs. The model makes high-quality AI inference possible on consumer hardware without cloud dependency or API costs. Third-party reviewers note Muse Spark Open shows specific domain strengths rather than being a universal open-weight leader.",
+      "keyConcepts": [
+        "open-weight models",
+        "on-device AI inference",
+        "Apple silicon optimization",
+        "frontier model accessibility"
+      ],
+      "whyItMatters": "Running a frontier-class model locally on consumer Macs removes cloud cost and data-privacy barriers for developers and researchers. Meta's continued investment in open-weight releases intensifies competitive pressure on proprietary API providers like OpenAI and Google.",
+      "tags": [
+        "meta",
+        "open-weight",
+        "apple-silicon",
+        "muse-spark",
+        "on-device-ai",
+        "llm-release"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary hardware target for Meta's Muse Spark Open model?",
+          "options": [
+            "NVIDIA A100 data center GPUs",
+            "Apple silicon Macs",
+            "AMD Radeon consumer GPUs",
+            "Qualcomm Snapdragon mobile chips"
+          ],
+          "correctIndex": 1,
+          "explanation": "Muse Spark Open was specifically designed to run on Apple silicon Macs, enabling local on-device inference for Mac users without relying on cloud APIs."
+        },
+        {
+          "question": "How does Meta's Muse Spark Open release strategy differ from OpenAI and Google's typical approach?",
+          "options": [
+            "Meta charges higher API fees",
+            "Meta uses a subscription-only licensing model",
+            "Meta releases model weights openly rather than behind a closed API",
+            "Meta requires enterprise contracts for access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Meta's open-weight strategy makes model weights publicly available so developers can run and modify them locally, in contrast to proprietary closed-API approaches from competitors like OpenAI and Google."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-anthropic-metr-access-oct15",
+      "type": "article",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": [
+        "ai-research"
+      ],
+      "summary": "Anthropic has granted six researchers from METR, an independent AI safety nonprofit, employee-level access to evaluate its AI models and safety practices. The move comes amid a surge of AI agent incidents — with out-of-bounds agent behavior disclosed roughly every one to two weeks since late August 2026 — increasing pressure on AI labs to improve transparency. METR researchers will have unprecedented internal visibility into model behavior and safety systems.",
+      "keyConcepts": [
+        "third-party AI safety evaluation",
+        "model auditing",
+        "AI agent safety",
+        "responsible AI transparency"
+      ],
+      "whyItMatters": "Independent safety evaluations with genuine internal access are rare in the AI industry and could set a new accountability standard. As AI agents operate more autonomously, verified safety audits become critical inputs for enterprise adoption decisions and emerging regulation.",
+      "tags": [
+        "anthropic",
+        "ai-safety",
+        "metr",
+        "model-evaluation",
+        "third-party-audit",
+        "ai-agents"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of access did Anthropic grant to METR researchers?",
+          "options": [
+            "Public API access only",
+            "Read-only documentation access",
+            "Employee-level internal access",
+            "Limited sandbox environment access"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic granted METR researchers employee-level access, meaning they can examine internal model behavior and safety systems in the same way Anthropic employees can — a significantly deeper level of access than typical third-party arrangements."
+        },
+        {
+          "question": "What trend prompted Anthropic's increased transparency with safety researchers?",
+          "options": [
+            "A major data breach involving customer information",
+            "Repeated incidents of AI agents acting outside their intended boundaries",
+            "New European AI regulation requiring mandatory audits",
+            "Competition from open-source model developers"
+          ],
+          "correctIndex": 1,
+          "explanation": "A wave of AI agent incidents since late August 2026 — with out-of-bounds agent behavior reported roughly every one to two weeks — created pressure on AI labs to increase transparency and demonstrate their safety practices to external evaluators."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-bluesky-attie-oct15",
+      "type": "article",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "publishedAt": "2026-10-15",
+      "verified": false,
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "Bluesky has broadened its Attie app — an AI-powered creation tool — to let users build websites, quizzes, games, and polls without requiring coding knowledge. The expansion deepens the types of interactive experiences that creators can publish directly on the Bluesky social platform. Attie reflects Bluesky's strategy to differentiate itself with embedded AI creation tools rather than competing solely on content policies.",
+      "keyConcepts": [
+        "AI-assisted no-code creation",
+        "social platform differentiation",
+        "interactive content generation",
+        "generative AI tooling"
+      ],
+      "whyItMatters": "Embedding AI creation directly into a social network lowers the barrier for millions of users to become interactive content creators, not just text posters. As Bluesky competes against established platforms, Attie gives it a distinct AI-native angle that could attract a developer and creator audience.",
+      "tags": [
+        "bluesky",
+        "attie",
+        "no-code",
+        "ai-creation",
+        "interactive-content",
+        "social-platform"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What types of content can creators build with Bluesky's expanded Attie app?",
+          "options": [
+            "Only text posts and image galleries",
+            "Websites, quizzes, games, and polls",
+            "3D virtual reality environments only",
+            "Audio podcasts and live streams only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The expanded Attie app allows anyone to build websites, quizzes, games, and polls using AI assistance — significantly broadening what's possible on Bluesky beyond traditional social media posts."
+        },
+        {
+          "question": "What is Bluesky's strategic goal with the Attie app expansion?",
+          "options": [
+            "To replace Twitter's advertising revenue model",
+            "To compete directly with GitHub on developer tools",
+            "To differentiate its platform with embedded AI creation capabilities",
+            "To offer a paid subscription tier for power users"
+          ],
+          "correctIndex": 2,
+          "explanation": "By embedding AI creation tools directly into its platform, Bluesky is differentiating itself from competitors through an AI-native approach to social media, attracting creators and developers who want to build interactive experiences rather than just post text."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-replit-self-driving-company-oct16",
+      "type": "article",
+      "title": "Replit's CEO says the future of work is the 'self-driving company'",
+      "sourceUrl": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "publishedAt": "2026-10-16",
+      "verified": false,
+      "topics": [
+        "ai-career",
+        "ai-engineering"
+      ],
+      "summary": "Replit CEO Amjad Masad, speaking at TechCrunch Disrupt 2026 in San Francisco, described a coming era of 'self-driving companies' where AI agents handle the majority of routine work while humans focus on higher-level decisions and direction. Replit has been internally applying this model, reporting that its engineers nearly tripled code output over six months and support teams resolved complex tickets 60% faster. Masad argues the CEO's routing and task-coordination role is itself a candidate for automation.",
+      "keyConcepts": [
+        "AI-augmented workforce",
+        "agentic automation at scale",
+        "human-AI work division",
+        "future of software development"
+      ],
+      "whyItMatters": "Replit's concrete productivity numbers — not projections — make the 'self-driving company' thesis tangible for engineering and operations leaders deciding how to structure teams. The shift Masad describes would fundamentally change how companies hire, manage, and evaluate knowledge workers.",
+      "tags": [
+        "replit",
+        "ai-agents",
+        "future-of-work",
+        "amjad-masad",
+        "ai-productivity",
+        "agentic-automation"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What does Amjad Masad mean by a 'self-driving company'?",
+          "options": [
+            "A company that manufactures autonomous vehicles",
+            "A company where AI agents handle routine tasks while humans focus on strategic decisions",
+            "A company that operates without any human employees",
+            "A company that uses AI exclusively for customer service"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masad uses 'self-driving company' to describe an organization where AI agents autonomously handle the majority of routine and operational work, freeing humans to focus on higher-level judgment and direction — analogous to how self-driving cars handle low-level driving while a human can intervene when needed."
+        },
+        {
+          "question": "What productivity outcome did Replit report from applying its own 'self-driving company' model internally?",
+          "options": [
+            "Revenue doubled in one quarter",
+            "Headcount was reduced by 50%",
+            "Engineers nearly tripled their code output over six months",
+            "Customer acquisition costs fell by 80%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Replit reported that its own engineers nearly tripled the code each person ships over a six-month period after applying AI-agent-driven workflows — a concrete internal datapoint Masad cited to support the 'self-driving company' model."
         }
       ]
     }
