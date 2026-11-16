@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-16T03:08:57.000Z",
-  "weekOf": "2026-11-16",
+  "generatedAt": "2026-11-16T10:30:00.000Z",
+  "weekOf": "2026-11-11",
   "coverageStart": "2026-11-15",
-  "coverageEnd": "2026-11-15",
+  "coverageEnd": "2026-11-16",
   "items": [
     {
       "id": "article-apple-health-ai-app-nov15",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 1,
           "explanation": "Because Nvidia supplies the overwhelming majority of AI training hardware, any shift in product roadmap or pricing under new leadership could affect every AI team's access to compute."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-nov16",
+      "type": "article",
+      "title": "Anthropic Sets IPO Pricing Window Ahead of Nasdaq Debut Under Ticker ANT",
+      "sourceUrl": "https://investinglive.com/stock-market-update/wsj-anthropic-targets-nasdaq-debut-next-week-under-ticker-ant-despite-tech-selloff/",
+      "verified": false,
+      "publishedAt": "2026-11-16",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic is on track to price its IPO on November 18 and begin trading on the Nasdaq under the ticker ANT on November 19, according to multiple reports. The offering covers 825 million Class A shares at an estimated $70–$78 each, targeting a market cap of approximately $1.2 trillion in what would be the largest tech IPO in years. Seven companies including Nvidia, Google, and Microsoft agreed to a concurrent $26 billion private placement of Class N shares, underscoring the depth of institutional demand for the Claude maker.",
+      "keyConcepts": [
+        "AI company valuations",
+        "IPO mechanics and share classes",
+        "Private placement and institutional investors",
+        "AI industry consolidation signals"
+      ],
+      "whyItMatters": "Anthropic going public at a $1.2 trillion valuation creates a new benchmark for AI company valuations, affects how investors price every other AI startup, and forces Anthropic to balance safety mission commitments with public-market earnings expectations.",
+      "tags": ["anthropic", "ipo", "nasdaq", "ant", "ai-valuation", "claude"],
+      "relatedIds": ["article-nvidia-jensen-huang-ai-industry-nov15"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the ticker symbol Anthropic plans to use on the Nasdaq?",
+          "options": [
+            "CLAUD",
+            "ANTH",
+            "ANT",
+            "AICP"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic plans to list on the Nasdaq Global Select Market under the ticker symbol ANT, with pricing expected on November 18 and trading starting November 19, 2026."
+        },
+        {
+          "question": "Which companies participated in the concurrent $26 billion private placement alongside the Anthropic IPO?",
+          "options": [
+            "Apple, Meta, and Tesla",
+            "Nvidia, Google, and Microsoft among others",
+            "Amazon, Samsung, and TSMC",
+            "OpenAI, Mistral, and xAI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia, Google, and Microsoft were among the seven companies that agreed to purchase $26 billion in Class N shares in a private placement concurrent with the Anthropic IPO."
+        }
+      ]
+    },
+    {
+      "id": "article-tensorwave-openai-infrastructure-nov16",
+      "type": "article",
+      "title": "TensorWave Signs 457-Megawatt AMD Deal to Power OpenAI's AI Compute Needs",
+      "sourceUrl": "https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios",
+      "verified": false,
+      "publishedAt": "2026-11-16",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "TensorWave, an AMD-backed cloud provider, announced a deal to supply OpenAI with 457 megawatts of dedicated AI infrastructure across multiple US sites, further diversifying OpenAI's compute base beyond its core Microsoft relationship. The agreement falls under OpenAI's broader AMD partnership and relies on AMD's Instinct accelerator lineup to handle large-scale AI training and inference workloads. The deal signals that OpenAI is actively reducing single-vendor compute dependency as it scales toward ever-larger training runs.",
+      "keyConcepts": [
+        "AI infrastructure scaling",
+        "AMD Instinct accelerators vs Nvidia GPUs",
+        "Hyperscale compute procurement",
+        "OpenAI compute diversification"
+      ],
+      "whyItMatters": "OpenAI sourcing hundreds of megawatts from AMD-based infrastructure accelerates AMD's challenge to Nvidia's GPU dominance, and indicates that frontier AI labs are willing to bet on non-CUDA ecosystems when scale demands it.",
+      "tags": ["openai", "amd", "tensorwave", "ai-infrastructure", "compute", "cloud"],
+      "relatedIds": ["article-nvidia-jensen-huang-ai-industry-nov15"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the capacity of the TensorWave infrastructure deal announced with OpenAI?",
+          "options": [
+            "57 megawatts",
+            "157 megawatts",
+            "457 megawatts",
+            "1,200 megawatts"
+          ],
+          "correctIndex": 2,
+          "explanation": "TensorWave's deal with OpenAI covers 457 megawatts of dedicated AI compute infrastructure across multiple US locations, powered by AMD accelerators."
+        },
+        {
+          "question": "Why is OpenAI diversifying compute vendors beyond Microsoft and Nvidia?",
+          "options": [
+            "Microsoft terminated its partnership with OpenAI in 2026",
+            "To reduce single-vendor dependency and access more capacity as training runs scale",
+            "Because AMD accelerators are always faster than Nvidia GPUs for AI training",
+            "Regulatory requirements mandate using multiple chip vendors"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI is diversifying its compute supply to avoid concentration risk and secure the massive infrastructure needed for future training runs, not because any single vendor relationship has ended."
+        }
+      ]
+    },
+    {
+      "id": "article-us-ai-national-champions-nov16",
+      "type": "article",
+      "title": "Trump Administration Plans to Designate AI National Champions Including Nvidia, OpenAI, and Anthropic",
+      "sourceUrl": "https://creati.ai/ai-news/2026-11-16/",
+      "verified": false,
+      "publishedAt": "2026-11-16",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "The Wall Street Journal reported on November 16 that the Trump administration plans to designate more than two dozen US companies as AI national champions, with Nvidia, Amazon, Microsoft, OpenAI, and Anthropic expected to be among the named firms. The designation is intended to signal government backing for a core group of domestic AI companies and may come with preferential treatment on export licensing, federal procurement, and regulatory coordination. The plan has not been confirmed by any of the named companies.",
+      "keyConcepts": [
+        "Industrial policy for AI",
+        "AI export controls and national security",
+        "Government-industry AI partnerships",
+        "AI geopolitics and US-China competition"
+      ],
+      "whyItMatters": "Formalizing AI national champions could reshape competitive dynamics in the industry by granting select companies faster access to export licenses, favorable regulatory treatment, and government contracts — while potentially disadvantaging companies not on the list.",
+      "tags": ["ai-policy", "national-champions", "trump-administration", "export-controls", "openai", "nvidia"],
+      "relatedIds": ["article-anthropic-ipo-nov16"],
+      "knowledgeChecks": [
+        {
+          "question": "What is the reported purpose of the Trump administration's AI national champions designation?",
+          "options": [
+            "To nationalize AI companies and place them under government control",
+            "To signal government backing and potentially provide preferential treatment on exports and procurement",
+            "To ban foreign AI companies from the US market",
+            "To set a maximum valuation cap on AI companies receiving government support"
+          ],
+          "correctIndex": 1,
+          "explanation": "The designation is intended to identify companies the US government considers strategic to maintaining AI leadership, potentially granting them advantages on export licensing and federal procurement."
+        },
+        {
+          "question": "Which of the following was NOT reported as a likely AI national champion designee?",
+          "options": [
+            "Nvidia",
+            "Amazon",
+            "DeepSeek",
+            "Anthropic"
+          ],
+          "correctIndex": 2,
+          "explanation": "DeepSeek is a Chinese AI company and would not be eligible for US national champion designation. Nvidia, Amazon, Microsoft, OpenAI, and Anthropic were the companies named in reporting."
         }
       ]
     }
