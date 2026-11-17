@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-11-17T12:00:00.000Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-16",
+  "coverageEnd": "2026-11-17",
+  "items": [
+    {
+      "id": "article-cnbc-fed-ai-warsh-20261116",
+      "type": "article",
+      "title": "Fed Chair Kevin Warsh Warns AI Could 'Disappoint' While Stressing Its Economic Importance",
+      "sourceUrl": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
+      "verified": false,
+      "publishedAt": "2026-11-16",
+      "topics": ["ai-industry"],
+      "summary": "Federal Reserve Chairman Kevin Warsh addressed the importance of AI to the economy while sounding a cautionary note at a Fed AI task force event on Sunday. A recent Federal Reserve survey found AI is now the most-cited risk to the financial system, with 87% of market contacts naming it — up from 50% in the spring. Warsh outlined three scenarios: AI as a productivity engine, AI displacing jobs, or AI simply underdelivering on expectations.",
+      "keyConcepts": [
+        "Federal Reserve AI risk survey",
+        "Economic productivity vs. job displacement",
+        "Systemic financial risk from AI concentration",
+        "AI 'disappointment' scenario"
+      ],
+      "whyItMatters": "When the Fed chair publicly flags AI as the top systemic financial risk, it signals that regulators are moving beyond 'AI is good for growth' narratives and preparing for adverse scenarios — which will shape future oversight and capital requirements for AI-exposed financial institutions.",
+      "tags": ["federal-reserve", "ai-regulation", "economic-risk", "kevin-warsh", "systemic-risk", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Federal Reserve survey mentioned in this article, what percentage of market contacts cited AI as a risk to the financial system?",
+          "options": [
+            "50%",
+            "65%",
+            "87%",
+            "92%"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Fed survey found 87% of market contacts named AI as a top risk to the financial system, a sharp increase from 50% in the spring of 2026."
+        },
+        {
+          "question": "What was Fed Chair Kevin Warsh's 'third scenario' for AI's economic impact?",
+          "options": [
+            "AI triggers a financial crisis",
+            "AI eliminates the need for central banks",
+            "AI simply disappoints and underdelivers",
+            "AI accelerates inflation beyond control"
+          ],
+          "correctIndex": 2,
+          "explanation": "Warsh outlined three possibilities: AI as productivity engine, AI displacing jobs, or a third path where AI simply underdelivers — the 'disappointment' scenario — which the market is currently not pricing in."
+        }
+      ]
+    },
+    {
+      "id": "article-fastcompany-anthropic-ipo-20261117",
+      "type": "article",
+      "title": "Anthropic Sets $70–$78 IPO Price Range Targeting $1.4 Trillion Valuation Ahead of Nasdaq Debut",
+      "sourceUrl": "https://fastcompany.com/91639303/anthropic-stock-listing-target-price-valuation-as-ipo-date-nears",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "Anthropic has set an IPO price range of $70 to $78 per share, targeting a valuation of up to $1.4 trillion in what could be one of the largest public offerings in history. The company plans to price the offering on November 18 and begin trading on Nasdaq under the ticker ANT on November 19. Seven major cloud and technology partners have committed to purchasing $26 billion in Class N (non-voting) shares at the IPO price alongside the public offering.",
+      "keyConcepts": [
+        "Anthropic IPO price range $70–$78",
+        "Nasdaq ticker ANT",
+        "Class N non-voting shares",
+        "AI safety company going public"
+      ],
+      "whyItMatters": "Anthropic's public market debut will be a defining moment for the AI industry — it sets a public market valuation benchmark for safety-focused frontier AI labs and will intensify scrutiny of Anthropic's safety commitments versus growth imperatives under shareholder pressure.",
+      "tags": ["anthropic", "ipo", "nasdaq", "ai-industry", "valuation", "frontier-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Under what ticker symbol is Anthropic expected to begin trading on Nasdaq?",
+          "options": [
+            "ANTH",
+            "CLAI",
+            "ANT",
+            "ANTAI"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic plans to list on Nasdaq under the ticker symbol ANT, with trading expected to begin on November 19, 2026."
+        },
+        {
+          "question": "What is notable about the $26 billion side deal announced alongside Anthropic's IPO?",
+          "options": [
+            "It is from retail investors via a direct listing",
+            "Seven tech partners will buy Class N non-voting shares at IPO price",
+            "It represents a leveraged buyout of Anthropic's cloud assets",
+            "OpenAI is the sole buyer of this secondary tranche"
+          ],
+          "correctIndex": 1,
+          "explanation": "Seven technology and cloud partners committed to buying $26 billion of Class N (non-voting) shares at the IPO price, providing Anthropic with additional capital while keeping strategic voting control concentrated."
+        }
+      ]
+    },
+    {
+      "id": "article-asianetnews-openai-research-time-20261117",
+      "type": "article",
+      "title": "New OpenAI Study Finds AI Agents Help Researchers Complete Work in Nearly Half the Time",
+      "sourceUrl": "https://newsable.asianetnews.com/business/new-openai-study-finds-ai-can-cut-scientific-research-time-by-half-articleshow-gm4xcr1",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "dateEstimated": true,
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "A new OpenAI study measuring AI's impact on internal research productivity found that researchers with access to AI coding agents were able to complete the same quality of scientific work in roughly half the time. By mid-2026, OpenAI's research organization was running 3.1 agent-workdays for every human workday, an internal metric tracking automation of research workflows. The company says the August 2026 period hit an all-time high for experiments per active researcher.",
+      "keyConcepts": [
+        "AI agent-workday ratio (3.1:1 agent-to-human)",
+        "Scientific research productivity multiplier",
+        "Automated AI researcher milestone",
+        "Research workflow automation"
+      ],
+      "whyItMatters": "If AI is genuinely compressing research timelines by half at the organization building the most capable AI systems, it creates a feedback loop — faster AI research leading to faster AI improvements — that will accelerate the entire field's pace and compress timelines for both capabilities and safety.",
+      "tags": ["openai", "ai-research", "productivity", "ai-agents", "science", "automation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was OpenAI's reported agent-to-human workday ratio by mid-August 2026?",
+          "options": [
+            "1.5 agent-workdays per human workday",
+            "2.0 agent-workdays per human workday",
+            "3.1 agent-workdays per human workday",
+            "5.0 agent-workdays per human workday"
+          ],
+          "correctIndex": 2,
+          "explanation": "By mid-August 2026, OpenAI's research organization was running 3.1 agent-workdays for every human workday — meaning AI coding agents were doing more than three times the runtime work relative to human researchers."
+        },
+        {
+          "question": "What important caveat does OpenAI acknowledge about these productivity metrics?",
+          "options": [
+            "The metrics were fabricated for investor relations",
+            "Overall research progress won't keep pace with these specific runtime metrics",
+            "The agents only work on coding, not scientific thinking",
+            "These numbers only apply to hardware research teams"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI explicitly acknowledges that AI research is a complex process with many potential bottlenecks, so overall research progress likely won't keep pace with the agent-runtime metrics. A runtime ratio is not the same as a productivity or insight multiplier."
+        }
+      ]
+    },
+    {
+      "id": "article-decrypt-anthropic-ipo-pricing-20261117",
+      "type": "article",
+      "title": "Anthropic IPO Could Spark Broader AI Stock Rally as Investors Watch Nvidia Results",
+      "sourceUrl": "https://www.axios.com/2026/11/10/anthropic-ipo-nvidia-stocks-spark",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Market analysts are watching two major events on November 17–18: Nvidia's Q3 fiscal 2027 earnings report and the Anthropic IPO pricing. Nvidia stock had fallen roughly 27% since early October amid the Jensen Huang security investigation, and a strong earnings beat could serve as a catalyst for the broader AI sector. Anthropic's $1.4 trillion IPO valuation, if sustained at market open on November 19, would signal that public markets believe frontier AI safety labs are worth more than most Fortune 500 companies.",
+      "keyConcepts": [
+        "Nvidia Q3 FY2027 earnings",
+        "Jensen Huang congressional appearance",
+        "AI sector market sentiment",
+        "Frontier AI valuations in public markets"
+      ],
+      "whyItMatters": "The dual catalysts of Nvidia earnings and the Anthropic IPO this week represent the most significant public market test for AI infrastructure and AI application investments since the AI boom began — the results will shape venture valuations, hiring plans, and capital allocation across the AI industry for 2027.",
+      "tags": ["nvidia", "anthropic", "ipo", "market-sentiment", "ai-industry", "investment"],
+      "relatedIds": ["article-fastcompany-anthropic-ipo-20261117"],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Nvidia's stock fall roughly 27% between early October and mid-November 2026?",
+          "options": [
+            "A major product recall of Blackwell GPUs",
+            "Press reports about CEO Jensen Huang's personal relationship with a suspected foreign intelligence contact",
+            "Nvidia missed its Q2 earnings estimates badly",
+            "The US government seized Nvidia's overseas manufacturing plants"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nvidia's stock declined approximately 27% from October 9, 2026, the day the New York Times first reported on Jensen Huang's situation involving a suspected foreign intelligence contact — creating uncertainty about the company's leadership stability."
+        },
+        {
+          "question": "What would Anthropic sustaining its $1.4 trillion IPO valuation signal to the AI industry?",
+          "options": [
+            "That AI safety is commercially worthless",
+            "That public markets value frontier AI safety labs above most Fortune 500 companies",
+            "That Anthropic has surpassed Nvidia in market cap",
+            "That the AI bubble has already popped"
+          ],
+          "correctIndex": 1,
+          "explanation": "A $1.4 trillion public market valuation for Anthropic would rank it among the most valuable companies in the world, signaling that investors believe safety-focused frontier AI development is a viable and enormously valuable commercial endeavor."
+        }
+      ]
+    }
+  ]
+}
