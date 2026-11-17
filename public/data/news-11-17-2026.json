@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T12:00:00.000Z",
+  "generatedAt": "2026-11-17T18:00:00.000Z",
   "weekOf": "2026-11-16",
   "coverageStart": "2026-11-16",
   "coverageEnd": "2026-11-17",
@@ -176,6 +176,136 @@
           ],
           "correctIndex": 1,
           "explanation": "A $1.4 trillion public market valuation for Anthropic would rank it among the most valuable companies in the world, signaling that investors believe safety-focused frontier AI development is a viable and enormously valuable commercial endeavor."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-nvidia-national-security-20261117",
+      "type": "article",
+      "title": "Nvidia's First Major Move After Jensen Huang's Departure Targets National Security",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia's new leadership team is taking its first major strategic step by forming a board-level national security committee in direct response to U.S. government pressure over AI chip export controls. The Commerce Department announced plans to introduce new export controls on AI chips and data centers located outside the United States, a development Nvidia's new board is responding to with dedicated governance. This marks a significant policy pivot for the company following CEO Jensen Huang's abrupt exit in November 2026.",
+      "keyConcepts": [
+        "Nvidia board-level national security committee",
+        "AI chip export controls",
+        "Post-Jensen leadership governance",
+        "Commerce Department AI hardware policy"
+      ],
+      "whyItMatters": "Nvidia forming a national security committee signals that AI chip access is now explicitly treated as a matter of national security requiring dedicated corporate governance — a move that will shape how other chip companies respond to export control policy and may alter the global AI hardware supply chain.",
+      "tags": ["nvidia", "export-controls", "national-security", "jensen-huang", "ai-chips", "governance"],
+      "relatedIds": ["article-decrypt-anthropic-ipo-pricing-20261117"],
+      "knowledgeChecks": [
+        {
+          "question": "What was Nvidia's first major strategic action after Jensen Huang's departure?",
+          "options": [
+            "Announcing a new GPU architecture to compete with AMD",
+            "Filing for a spinoff of its data center business",
+            "Forming a board-level national security committee",
+            "Acquiring a U.S. semiconductor startup"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nvidia's new leadership formed a board-level national security committee as its first major move, signaling a direct response to U.S. government pressure around AI chip export controls."
+        },
+        {
+          "question": "Which U.S. government agency announced new export controls on AI chips referenced in this article?",
+          "options": [
+            "The Commerce Department",
+            "The Department of Defense",
+            "The Federal Trade Commission",
+            "The Treasury Department"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Commerce Department announced plans to introduce new export controls on AI chips and data centers outside the U.S., prompting Nvidia's board-level governance response."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-isomorphic-labs-5b-20261117",
+      "type": "article",
+      "title": "Isomorphic Labs Raises $5 Billion to Advance AI-Discovered Drug Candidates to Clinical Trials",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "topics": ["ai-research"],
+      "summary": "Isomorphic Labs, a drug discovery AI company spun out of DeepMind, has closed a $5 billion Series C funding round as it prepares to advance AI-discovered drug candidates into clinical trials. The company uses AI to predict protein structures and design novel molecules, building on the foundational work of AlphaFold. The raise is one of the largest in AI-driven biotech history and signals investor conviction that AI can compress decades-long drug discovery timelines.",
+      "keyConcepts": [
+        "AI-driven drug discovery",
+        "Clinical trial advancement for AI-designed molecules",
+        "DeepMind spinout scaling",
+        "AlphaFold applications in medicine",
+        "Series C biotech funding"
+      ],
+      "whyItMatters": "Isomorphic Labs moving AI-designed drug candidates into clinical trials represents a major inflection point for AI in life sciences — if these candidates succeed, it would validate AI as a genuine engine of medical innovation and could fundamentally change how pharmaceuticals are discovered and developed.",
+      "tags": ["isomorphic-labs", "drug-discovery", "deepmind", "ai-research", "biotech", "clinical-trials"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which AI research organization did Isomorphic Labs originally spin out from?",
+          "options": [
+            "OpenAI",
+            "DeepMind",
+            "Meta AI",
+            "Microsoft Research"
+          ],
+          "correctIndex": 1,
+          "explanation": "Isomorphic Labs was spun out of DeepMind and builds on AlphaFold's foundational protein-structure prediction work to design novel drug molecules."
+        },
+        {
+          "question": "What milestone is Isomorphic Labs using its $5 billion Series C to achieve?",
+          "options": [
+            "Building a new GPU datacenter for AI training",
+            "Acquiring established pharmaceutical companies",
+            "Launching a consumer health diagnostics app",
+            "Advancing AI-discovered drug candidates to clinical trials"
+          ],
+          "correctIndex": 3,
+          "explanation": "Isomorphic Labs raised $5B in a Series C round specifically to take its AI-discovered drug candidates into clinical trials — the phase where candidate molecules are tested in humans for the first time."
+        }
+      ]
+    },
+    {
+      "id": "article-techcrunch-genesis-ai-robots-20261117",
+      "type": "article",
+      "title": "Genesis AI Raises $500 Million to Deploy Dexterous Glove-Wearing Robots",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Genesis AI has closed a $500 million Series A round to deploy robots equipped with its novel glove-based dexterity system, enabling machines to handle objects with human-like precision. The company captures human hand motion using instrumented gloves and transfers those learned skills to robotic hands. The funding will accelerate deployment in manufacturing, logistics, and healthcare settings where fine manipulation has historically resisted automation.",
+      "keyConcepts": [
+        "Dexterous robot manipulation",
+        "Glove-based motion capture for robot training",
+        "Physical AI deployment",
+        "Human-to-robot skill transfer"
+      ],
+      "whyItMatters": "Dexterous manipulation has been one of the hardest unsolved problems in robotics — a viable glove-based training approach could unlock physical AI deployment in environments that have resisted automation for decades, dramatically expanding where AI-driven robotics can substitute for human labor.",
+      "tags": ["genesis-ai", "robotics", "dexterous-manipulation", "physical-ai", "manufacturing", "funding"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What unique training method does Genesis AI use to teach robots dexterous manipulation?",
+          "options": [
+            "Reinforcement learning in photorealistic simulated environments",
+            "Instrumented gloves that capture and transfer human hand motion",
+            "Direct neural interface connections with human operators",
+            "Copying movements extracted from video footage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Genesis AI uses instrumented gloves worn by humans to capture fine motor movements, then transfers those learned skills to robotic hands — a novel approach to the longstanding robotics challenge of dexterous manipulation."
+        },
+        {
+          "question": "Which industries does Genesis AI primarily target for robot deployment?",
+          "options": [
+            "Mining, agriculture, and deep-sea exploration",
+            "Software engineering and financial trading",
+            "Manufacturing, logistics, and healthcare",
+            "Entertainment, journalism, and education"
+          ],
+          "correctIndex": 2,
+          "explanation": "Genesis AI is targeting manufacturing, logistics, and healthcare — settings where fine manual manipulation is currently required but has historically resisted automation due to the complexity of human-like dexterity."
         }
       ]
     }
