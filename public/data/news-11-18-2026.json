@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-11-18T10:00:00Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-16",
+  "coverageEnd": "2026-11-17",
+  "items": [
+    {
+      "id": "article-dhs-ai-outages-nov17",
+      "type": "article",
+      "title": "Homeland Security Secretary Warns AI Upgrades May Be Causing Tech Outages",
+      "sourceUrl": "https://washingtontimes.com/news/2026/nov/17/homeland-security-secretary-markwayne-mullin-warns-ai-upgrades-could",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Department of Homeland Security Secretary Markwayne Mullin publicly warned that AI system upgrades at major technology companies may be contributing to recent widespread service outages affecting Chase Bank, United Airlines, and Microsoft's cloud services. While Microsoft attributed its outages to a Windows update rather than AI, Mullin indicated the government is closely watching the intersection of rapid AI deployment and critical infrastructure reliability. The statement signals growing federal interest in overseeing AI rollout within systems that underpin everyday economic activity.",
+      "keyConcepts": [
+        "AI infrastructure reliability",
+        "Critical infrastructure risk",
+        "Responsible AI deployment",
+        "Government AI oversight"
+      ],
+      "whyItMatters": "As AI is woven into banking, aviation, and cloud infrastructure, failures carry systemic risk. Government warnings like this signal that policymakers are moving toward oversight frameworks that could shape how and when AI upgrades are permitted in critical systems.",
+      "tags": ["homeland-security", "ai-outages", "critical-infrastructure", "regulation", "ai-deployment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the main concern raised by DHS Secretary Markwayne Mullin regarding AI?",
+          "options": [
+            "AI was being used to launch cyberattacks on US infrastructure",
+            "Rapid AI upgrades may be contributing to tech outages in critical systems",
+            "AI chips are being exported illegally to adversarial nations",
+            "AI is replacing too many federal government jobs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mullin warned that the pace of AI upgrades in critical sectors like banking, airlines, and cloud services could be a contributing factor to recent widespread tech outages, calling for greater scrutiny."
+        },
+        {
+          "question": "Which of the following best describes why AI reliability in critical infrastructure is a national security concern?",
+          "options": [
+            "AI systems are more expensive than traditional software to maintain",
+            "AI models can generate disinformation about infrastructure events",
+            "Failures in AI-integrated critical systems can cascade across banking, travel, and government operations",
+            "AI makes it easier for foreign governments to monitor US infrastructure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Critical infrastructure like banking and aviation is tightly interconnected. When AI-driven systems in these sectors fail simultaneously or sequentially, the downstream effects can be broad and difficult to isolate, raising national security stakes."
+        }
+      ]
+    },
+    {
+      "id": "article-cop31-ai-pledge-nov16",
+      "type": "article",
+      "title": "COP31 AI Pledge: Alibaba Signs, Major US Tech Companies Absent",
+      "sourceUrl": "https://casrai.org/news/cop31-ai-pledge-us-big-tech-absent-2026",
+      "verified": false,
+      "publishedAt": "2026-11-16",
+      "topics": ["ai-industry"],
+      "summary": "At the COP31 climate summit in Antalya on November 16, a UN-backed voluntary AI pledge attracted 90 endorsements at its launch, but notably lacked signatures from major US technology companies. Alibaba emerged as the only big-tech signatory, underscoring a growing divide between Chinese and American AI companies on global climate and AI governance frameworks. The pledge focuses on reducing the environmental impact of AI model training and data center operations as the industry's energy consumption continues to surge.",
+      "keyConcepts": [
+        "AI energy consumption",
+        "Climate and AI governance",
+        "Corporate AI ethics commitments",
+        "UN AI policy frameworks"
+      ],
+      "whyItMatters": "AI training is consuming enormous and growing amounts of energy. The absence of US Big Tech from this pledge highlights a geopolitical fracture in AI governance at a moment when voluntary international standards could shape future regulation.",
+      "tags": ["cop31", "ai-climate", "sustainability", "alibaba", "un-ai-policy", "big-tech"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which major technology company was the only big-tech signatory to the COP31 AI pledge?",
+          "options": [
+            "Microsoft",
+            "OpenAI",
+            "Alibaba",
+            "Google"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alibaba was the only major tech company to sign the UN-backed COP31 AI pledge at the Antalya summit, while US Big Tech companies such as Google, Microsoft, and OpenAI were notably absent."
+        },
+        {
+          "question": "What is the primary focus of the COP31 AI pledge that launched in November 2026?",
+          "options": [
+            "Restricting AI use in military applications worldwide",
+            "Reducing the environmental and energy impact of AI model training and data centers",
+            "Creating a universal AI content moderation standard",
+            "Establishing AI transparency requirements for all commercial products"
+          ],
+          "correctIndex": 1,
+          "explanation": "The COP31 AI pledge focuses on the environmental footprint of AI — particularly the significant energy consumption associated with training large AI models and operating data centers — as part of the broader climate agenda at COP31."
+        }
+      ]
+    },
+    {
+      "id": "article-quad-ai-initiative-nov17",
+      "type": "article",
+      "title": "Quad Nations Launch $85M AI Super Intelligence Accelerator at Manila Summit",
+      "sourceUrl": "https://cryptobriefing.com/quad-nations-launch-ai-super-intelligence-accelerator/",
+      "verified": false,
+      "publishedAt": "2026-11-17",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "At a Manila summit, the four Quad nations — the United States, India, Australia, and Japan — unveiled a joint initiative called the Quad Super Intelligence Accelerator, backed by over $85 million in funding. US President Donald Trump announced the commitment, framing the initiative as a counterweight to China's state-backed AI programs. The accelerator aims to coordinate research and infrastructure investment across the four democracies to maintain a competitive edge in advanced AI development.",
+      "keyConcepts": [
+        "Multilateral AI cooperation",
+        "AI geopolitics",
+        "AI national security strategy",
+        "US-China AI competition"
+      ],
+      "whyItMatters": "The Quad AI Accelerator represents a formal geopolitical alliance around AI development, signaling that advanced AI is now viewed as a strategic national security asset on par with military alliances. This shapes how governments fund, regulate, and share AI research.",
+      "tags": ["quad", "us-india-japan-australia", "ai-geopolitics", "national-security", "ai-funding", "manila-summit"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which four nations make up the Quad that launched the AI Super Intelligence Accelerator?",
+          "options": [
+            "USA, UK, Canada, Australia",
+            "USA, India, Australia, Japan",
+            "USA, South Korea, Japan, Taiwan",
+            "USA, Germany, France, Japan"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Quad alliance consists of the United States, India, Australia, and Japan. This group has increasingly focused on technology and AI cooperation as a strategic counterbalance to China's AI ambitions."
+        },
+        {
+          "question": "What is the strategic rationale behind the Quad Super Intelligence Accelerator?",
+          "options": [
+            "To develop open-source AI tools freely available to all nations",
+            "To coordinate AI research and infrastructure among democratic allies against China's state-backed AI programs",
+            "To replace the UN's AI governance role with a multilateral tech body",
+            "To build a shared AI safety review board for frontier models"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Quad initiative is explicitly framed as a democratic counterweight to China's heavily state-subsidized AI programs. By pooling resources and coordinating research, the four nations aim to maintain a competitive edge in frontier AI development."
+        }
+      ]
+    }
+  ]
+}
