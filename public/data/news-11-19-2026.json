@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:00:00.000Z",
+  "generatedAt": "2026-11-19T18:30:00.000Z",
   "weekOf": "2026-11-16",
   "coverageStart": "2026-11-18",
   "coverageEnd": "2026-11-19",
@@ -217,6 +217,49 @@
           ],
           "correctIndex": 1,
           "explanation": "President Trump signed an executive order in December 2025 blocking states from enforcing their own AI regulations, creating a federal preemption issue that makes it legally uncertain whether California can enforce frontier AI safety rules."
+        }
+      ]
+    },
+    {
+      "id": "article-gemini-4-neon-release-nov18",
+      "type": "article",
+      "title": "Google Releases Gemini 4 Neon: Frontier Model Competing with Claude Opus 5.5 and GPT-6.2",
+      "sourceUrl": "https://www.digitaltrends.com/computing/google-says-gemini-4-neon-can-hang-with-claude-opus-5-5-and-gpt-6-2-sol-for-less/",
+      "verified": false,
+      "publishedAt": "2026-11-18",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Google released Gemini 4 Neon on November 18, 2026, its fourth model in the Gemini 4 family and positioned between the demanding Carbon model and the fast everyday Hydrogen model. Neon is available to Google AI Pro and Ultra subscribers and through the API at $3 per million input tokens and $15 per million output tokens. The model targets coding, long-horizon knowledge work, and scientific reasoning, with Vals independently placing it second overall, just behind Claude Fable 5.2.",
+      "keyConcepts": [
+        "Gemini 4 family now has four tiers: Carbon, Neon, Hydrogen, and Flash",
+        "Neon pricing: $3/M input tokens, $15/M output — 50% above Carbon through November 30",
+        "Available to Google AI Pro/Ultra subscribers and developers via API and AI Studio",
+        "Vals benchmark placed Neon second overall, behind only Claude Fable 5.2"
+      ],
+      "whyItMatters": "Google's rapid expansion of the Gemini 4 model family puts sustained competitive pressure on Anthropic and OpenAI at the frontier, with Neon offering near-top-tier reasoning at a price point between the two leaders — accelerating the commoditization of frontier-level AI.",
+      "tags": ["gemini-4-neon", "google-deepmind", "frontier-models", "ai-benchmarks", "model-release", "ai-industry"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where does Gemini 4 Neon sit in Google's model tier hierarchy?",
+          "options": [
+            "It is Google's fastest and cheapest model, below Hydrogen",
+            "It is Google's most capable model, above Carbon",
+            "It sits between Carbon (hardest tasks) and Hydrogen (fast everyday tasks)",
+            "It replaces the entire previous Gemini 3.x family"
+          ],
+          "correctIndex": 2,
+          "explanation": "Neon is positioned between Carbon, which handles the most demanding long-horizon work, and Hydrogen, which is optimized for speed on everyday tasks. It targets coding, knowledge work, and scientific reasoning."
+        },
+        {
+          "question": "According to independent benchmarking by Vals, how does Gemini 4 Neon rank overall?",
+          "options": [
+            "First place, surpassing all other frontier models",
+            "Third place, behind GPT-6.2 and Claude Opus 5.5",
+            "Second place, just behind Claude Fable 5.2",
+            "Fourth place, below both Claude and GPT-6.2"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vals placed Gemini 4 Neon second overall, just behind Claude Fable 5.2. This makes it competitive with Claude Opus 5.5 and GPT-6.2 Sol at a lower price point than Carbon."
         }
       ]
     }
