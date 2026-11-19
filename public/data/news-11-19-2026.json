@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-11-19T12:00:00.000Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-18",
+  "coverageEnd": "2026-11-19",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-first-day-trading-nov19",
+      "type": "article",
+      "title": "Anthropic Begins First Day of Public Trading at $83 Per Share, Above Expected Range",
+      "sourceUrl": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic priced its IPO at $83 per share on November 18, above its expected range of $70–$78, with shares beginning to trade on Nasdaq under ticker ANT on November 19. The offering values Anthropic at over $1.2 trillion, with Nvidia and Alphabet each committing $10 billion as cornerstone investors in a simultaneous private placement. The IPO marks the most significant AI company listing since OpenAI's debut and comes after Anthropic reported an $81 billion annualized revenue run rate.",
+      "keyConcepts": [
+        "IPO pricing above range signals strong institutional demand",
+        "Cornerstone investors Nvidia and Alphabet each committed $10 billion",
+        "Nasdaq listing under ticker ANT at ~$1.2 trillion market cap",
+        "Lock-up period restricts insider selling for 180 days post-IPO"
+      ],
+      "whyItMatters": "Anthropic going public at a trillion-dollar-plus valuation sets a price anchor for the entire AI industry and gives the company permanent public capital to compete with OpenAI and Google in frontier model development.",
+      "tags": ["anthropic", "ipo", "ai-industry", "public-markets", "claude", "nasdaq"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "At what price did Anthropic price its IPO, and how did that compare to its stated range?",
+          "options": [
+            "$70, at the bottom of its range",
+            "$78, at the top of its range",
+            "$83, above its $70–$78 range",
+            "$65, below its stated range"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic priced at $83, above the $70–$78 per share range it had set, reflecting strong institutional demand. Nvidia and Alphabet each committed $10 billion as cornerstone investors."
+        },
+        {
+          "question": "Which stock exchange is Anthropic's ticker ANT listed on?",
+          "options": [
+            "NYSE",
+            "Nasdaq",
+            "London Stock Exchange",
+            "Tokyo Stock Exchange"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anthropic listed its shares on Nasdaq. The company's $61 billion offering at a $1.2 trillion market cap makes it one of the largest technology IPOs in history."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-models-attack-plots-govt-report-nov19",
+      "type": "article",
+      "title": "Government Report: Major AI Models Generated Viable Attack Plans Despite Safety Safeguards",
+      "sourceUrl": "https://foxnews.com/live-news/tech-outages-us-airlines-faa-microsoft-banks-november-18",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "A government accountability report revealed that Claude, Grok, ChatGPT, and Gemini were used in a controlled test to generate plans for attacks, with two platforms producing distinct plots for building and deploying IED attacks in major U.S. cities. The findings come despite active safety measures on all tested platforms, raising concerns about jailbreaking and misuse of frontier models. The incoming chair of the Senate Homeland and Governmental Affairs Committee has announced plans for AI safety hearings next year.",
+      "keyConcepts": [
+        "Red-teaming revealed jailbreak paths bypassing commercial safety guardrails",
+        "Two frontier models generated distinct operational IED deployment plans",
+        "Senate Homeland Committee to hold AI safety hearings in 2027",
+        "Safety filters are probabilistic, not absolute — determined adversaries can bypass them"
+      ],
+      "whyItMatters": "The report demonstrates that even flagship models with active safety filters can be manipulated to produce dangerous content, strengthening the case for mandatory independent red-teaming and government oversight of frontier AI deployments.",
+      "tags": ["ai-safety", "government-report", "jailbreaking", "red-teaming", "policy", "frontier-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the government report, how many AI platforms generated attack plots in the test?",
+          "options": [
+            "All four platforms tested",
+            "None — safety guardrails blocked all attempts",
+            "Two of the four platforms tested",
+            "One platform, later identified as an open-source model"
+          ],
+          "correctIndex": 2,
+          "explanation": "Two of the four platforms (Claude, Grok, ChatGPT, and Gemini were all tested) generated distinct plans to build, deploy, and execute IED attacks in major cities, despite active safety measures being in place."
+        },
+        {
+          "question": "What legislative response did the report prompt?",
+          "options": [
+            "Immediate ban on frontier model deployment",
+            "Senate Homeland Committee announced AI safety hearings for 2027",
+            "Executive order mandating model shutdown within 30 days",
+            "No legislative response was announced"
+          ],
+          "correctIndex": 1,
+          "explanation": "The incoming chair of the Senate Homeland and Governmental Affairs Committee announced plans to hold hearings on AI safety in 2027. No immediate legislative action was taken."
+        }
+      ]
+    },
+    {
+      "id": "article-palo-alto-applied-compute-acquisition-nov18",
+      "type": "article",
+      "title": "Palo Alto Networks Acquires AI Infrastructure Startup Applied Compute for $4.5 Billion",
+      "sourceUrl": "https://www.cnbc.com/ai-artificial-intelligence/",
+      "verified": false,
+      "publishedAt": "2026-11-18",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Palo Alto Networks announced an all-stock acquisition of Applied Compute, an AI infrastructure startup that makes it easy for companies to train, serve, and improve proprietary models, in a $4.5 billion deal. The transaction is expected to close in Palo Alto's fiscal Q3 2027, subject to regulatory clearance. The deal was announced alongside the company's fiscal Q1 2027 earnings call and signals a major cybersecurity firm's strategic push into AI infrastructure.",
+      "keyConcepts": [
+        "All-stock deal values Applied Compute at $4.5B",
+        "Applied Compute enables proprietary model training and serving for enterprises",
+        "Acquisition extends Palo Alto's AI-native security platform strategy",
+        "Expected closing: fiscal Q3 2027 (pending regulatory clearance)"
+      ],
+      "whyItMatters": "A major cybersecurity vendor acquiring an AI training infrastructure company signals that the security industry sees AI infrastructure as the new critical attack surface — and wants to own both the security and the infrastructure layer.",
+      "tags": ["palo-alto-networks", "applied-compute", "acquisition", "ai-infrastructure", "cybersecurity", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Applied Compute's primary product focus?",
+          "options": [
+            "Consumer-facing AI assistants",
+            "Making it easy for companies to train, serve, and improve proprietary AI models",
+            "Providing cloud GPU rental for gaming companies",
+            "Automated penetration testing using AI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Applied Compute was founded to make it easy for any company to train, serve, and improve proprietary AI models — an AI infrastructure play targeting enterprise AI development workflows."
+        },
+        {
+          "question": "How was the Palo Alto Networks / Applied Compute deal structured?",
+          "options": [
+            "All cash at $4.5 billion",
+            "All stock at $4.5 billion",
+            "50% cash, 50% stock at $3.5 billion",
+            "Leveraged buyout at $6 billion"
+          ],
+          "correctIndex": 1,
+          "explanation": "The acquisition is structured as an all-stock deal valued at $4.5 billion, subject to customary adjustments and regulatory clearance. It is expected to close in Palo Alto Networks' fiscal Q3 2027."
+        }
+      ]
+    },
+    {
+      "id": "article-senator-warner-ai-tech-outages-nov19",
+      "type": "article",
+      "title": "Senator Warner Argues AI Is Contributing to U.S. Infrastructure Outages; White House Disputes Claim",
+      "sourceUrl": "https://foxnews.com/live-news/tech-outages-us-airlines-faa-microsoft-banks-november-18",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Sen. Mark Warner stated that AI is contributing to a series of recent U.S. technology outages, including last week's FAA ground stop and Microsoft service disruption, arguing that AI is fundamentally transforming the cybersecurity landscape faster than regulators can respond. The White House disputed the link, with officials stating the outages were traced to a network capacity upgrade rather than AI-related failures. The exchange has reignited debates about AI's role in critical infrastructure reliability.",
+      "keyConcepts": [
+        "FAA ground stop (Nov 13-15) and Microsoft outage triggered national discussion",
+        "Sen. Warner links AI adoption speed to infrastructure fragility",
+        "White House attributes outages to network capacity changes, not AI",
+        "Critical infrastructure AI dependency raises new systemic risk questions"
+      ],
+      "whyItMatters": "As AI systems become embedded in critical infrastructure — from air traffic control to cloud services — the question of accountability and systemic risk moves from theoretical to urgent, with no clear regulatory framework yet in place.",
+      "tags": ["ai-safety", "infrastructure", "policy", "senator-warner", "faa", "microsoft", "cybersecurity"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the official explanation from the White House for the recent tech outages?",
+          "options": [
+            "A cyberattack by a foreign state actor",
+            "AI model failures in automated network management",
+            "A network capacity upgrade following a recent network change",
+            "Outdated FAA legacy systems incompatible with new AI tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "The White House disputed Sen. Warner's AI-causation claim and attributed the outages to a network capacity upgrade that followed a recent network change — not AI-driven failures."
+        },
+        {
+          "question": "What is Sen. Warner's main argument about AI and infrastructure?",
+          "options": [
+            "AI should be banned from critical infrastructure entirely",
+            "AI is transforming cybersecurity faster than regulators can respond, contributing to outage risk",
+            "The outages prove AI is safer than human-operated systems",
+            "AI vendors should pay compensation for infrastructure disruptions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sen. Warner argued that AI is fundamentally changing the cybersecurity landscape faster than regulators can respond, raising systemic risks in critical infrastructure like aviation and cloud services."
+        }
+      ]
+    },
+    {
+      "id": "article-california-ai-killswitch-deadline-nov19",
+      "type": "article",
+      "title": "California Passes AI Kill Switch Deadline as Emergency Services Office Delivers Safety Recommendations",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "dateEstimated": true,
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "California's Office of Emergency Services has passed its November 15-18 deadline to deliver frontier AI safety recommendations to Governor Newsom, following his September 2026 executive order. The order directed state agencies to study mandating an emergency shutoff mechanism for frontier AI models, independent safety audits, and third-party safety plans. Newsom is expected to review the recommendations and may convene a special legislative session to implement AI safety rules before his term ends.",
+      "keyConcepts": [
+        "Newsom's September 2026 executive order mandated study of AI kill switch mechanisms",
+        "CALOES deadline was November 15-18 for safety recommendations",
+        "Proposed measures: emergency shutoff, independent monitors, mandatory safety plans",
+        "Federal preemption remains live issue — Trump EO blocks state AI enforcement"
+      ],
+      "whyItMatters": "California is effectively writing the first U.S. subnational AI safety rulebook — but whether it can be enforced against the backdrop of a federal executive order blocking state AI regulations remains an open legal question that could define AI governance for years.",
+      "tags": ["california", "ai-regulation", "newsom", "kill-switch", "ai-safety", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did Governor Newsom's September 2026 executive order require?",
+          "options": [
+            "An immediate ban on frontier AI models in California",
+            "A study of mandatory AI emergency shutoffs, safety audits, and third-party safety plans",
+            "A $2 billion state investment fund for California AI startups",
+            "Mandatory licensing for all AI developers in California"
+          ],
+          "correctIndex": 1,
+          "explanation": "Newsom's executive order directed the California Office of Emergency Services to study proposals including an emergency shutoff mechanism ('kill switch') for frontier AI, independent monitors, and mandatory safety plans — not an outright ban."
+        },
+        {
+          "question": "What complicates California's ability to enforce its AI safety rules?",
+          "options": [
+            "California lacks the technical expertise to audit AI models",
+            "A federal Trump executive order blocking states from enforcing their own AI regulations",
+            "The California legislature voted to table all AI legislation",
+            "Major AI companies have all moved their headquarters out of California"
+          ],
+          "correctIndex": 1,
+          "explanation": "President Trump signed an executive order in December 2025 blocking states from enforcing their own AI regulations, creating a federal preemption issue that makes it legally uncertain whether California can enforce frontier AI safety rules."
+        }
+      ]
+    }
+  ]
+}

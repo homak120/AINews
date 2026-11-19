@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-18T03:11:11.054Z",
+  "generatedAt": "2026-11-19T03:09:01.179Z",
   "weekOf": "2026-09-30",
   "coverageStart": "2026-09-30",
-  "coverageEnd": "2026-10-17",
+  "coverageEnd": "2026-10-19",
   "items": [
     {
       "id": "youtube-NQ4Aoe8wTC0",
@@ -5486,6 +5486,378 @@
           ],
           "correctIndex": 2,
           "explanation": "The firm ran a pilot involving more than 1,300 lawyers before committing to a global Legora rollout, indicating a methodical evaluation process."
+        }
+      ]
+    },
+    {
+      "id": "article-schwab-jpmorgan-block-ai-agents-2026",
+      "type": "article",
+      "title": "Schwab and JPMorgan Are Blocking AI Agents From Accessing Customer Accounts",
+      "sourceUrl": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": [
+        "ai-industry",
+        "ai-engineering"
+      ],
+      "summary": "Charles Schwab CEO Rick Wurster disclosed that his firm now receives weekly reports showing it blocks tens to twenties of unauthorized AI agent access attempts. JPMorgan CEO Jamie Dimon made a similar announcement on the firm's October 13 earnings call, saying the bank blocks external AI agents from making transactions on retail customer accounts. Both banks are pointing customers toward their own sanctioned AI assistants while setting up controlled MCP servers for read-only data access.",
+      "keyConcepts": [
+        "AI agents in financial services",
+        "Model Context Protocol (MCP)",
+        "Unauthorized access via browser automation",
+        "Bank liability for AI-driven transactions"
+      ],
+      "whyItMatters": "As agentic AI systems become mainstream, traditional financial institutions face a new attack surface: AI acting on behalf of users without explicit bank authorization. This standoff will shape how MCP and agent authorization protocols get standardized across the industry.",
+      "tags": [
+        "ai-agents",
+        "fintech",
+        "security",
+        "jpmorgan",
+        "schwab",
+        "mcp"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary reason Schwab and JPMorgan are blocking external AI agents from customer accounts?",
+          "options": [
+            "To reduce server load from automated requests",
+            "Liability and inability to control what AI agents do on behalf of customers",
+            "Regulatory requirements from the SEC mandating the blocks",
+            "To prevent competition with their own AI products"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both bank CEOs cited security, liability, and control as the core reasons. Wurster said 'We can't control it, the client can't control it, something could go wrong and who's liable?' Dimon told customers to understand the liability transfer when using outside agents."
+        },
+        {
+          "question": "What technology are banks like Schwab proposing as a safer alternative to browser-based AI agents?",
+          "options": [
+            "OAuth 2.0 authorization servers",
+            "Model Context Protocol (MCP) servers with controlled read-only access",
+            "Blockchain-based transaction signing",
+            "Zero-knowledge proof authentication"
+          ],
+          "correctIndex": 1,
+          "explanation": "Schwab said it plans to set up MCP servers that let a client's chosen AI model connect to Schwab's systems under rules Schwab controls — enabling balance checks and research but not money movement."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-midterm-election-ads-137m-2026",
+      "type": "article",
+      "title": "$137 Million Spent on AI-Generated Political Ads This Midterm Cycle, 70% Carry No Disclosure",
+      "sourceUrl": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": [
+        "ai-industry",
+        "ai-career"
+      ],
+      "summary": "Wesleyan Media Project researchers, as reported by the New York Times, found that campaigns and PACs have spent over $137 million on approximately 220 AI-generated or AI-assisted political ads across 34 states this election cycle. Only about 27% of those ads include a disclosure that AI was used, well below the 50-state disclosure standard that advocacy groups had called for. Republicans account for roughly 81% of the identified AI ad spend.",
+      "keyConcepts": [
+        "AI-generated political advertising",
+        "AI disclosure requirements in political ads",
+        "Wesleyan Media Project tracking methodology",
+        "Deepfake and synthetic media in elections"
+      ],
+      "whyItMatters": "The 2026 midterms mark the first large-scale deployment of AI-generated political ads, exposing a gap in disclosure laws — only 30 states require AI labels on political ads. How voters, regulators, and platforms respond will set precedent for future election cycles.",
+      "tags": [
+        "elections",
+        "political-ads",
+        "ai-generated-content",
+        "disclosure",
+        "deepfakes",
+        "policy"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How does AI ad spend in the 2026 midterms compare to the 2024 election cycle?",
+          "options": [
+            "It is roughly the same as 2024",
+            "It has doubled from approximately $68 million",
+            "It has grown dramatically from under $50,000 in 2024",
+            "It has declined because platforms banned AI ads"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Wesleyan Media Project's co-director noted they identified less than $50,000 in spending on AI-generated ads in the entire 2024 election cycle, compared to over $137 million in 2026 — a roughly 2,700x increase."
+        },
+        {
+          "question": "Why are Democratic candidates and groups less represented in AI-generated ad spending?",
+          "options": [
+            "Democrats have a federal law prohibiting their use of AI in ads",
+            "AI tools are too expensive for most Democratic campaigns",
+            "Democrats face higher reputational risk using tools they argue should be regulated",
+            "Democratic ad agencies have not yet adopted AI production tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "According to the Wesleyan Media Project's co-director, Democratic candidates and groups face more reputational risk when using a tool they are simultaneously arguing should be regulated, which appears to be driving their lower AI ad adoption."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-ipo-public-benefit-fund-2026",
+      "type": "article",
+      "title": "Anthropic Plans to Commit 5% of Shares to New Public Benefit Fund Ahead of IPO",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Anthropic is reportedly planning to commit 5% of its shares to a new wholly-owned LLC called the Anthropic Public Benefit Fund, pending stockholder approval, with additional allocations tied to company value growth. This governance move accompanies the company's confidential IPO filing with the SEC, which the company submitted in June 2026. The IPO is expected to list on the Nasdaq, potentially before year-end, though no share price or date has been confirmed.",
+      "keyConcepts": [
+        "Public benefit corporation (PBC) governance",
+        "AI company IPO and dual-class share structures",
+        "Mission-locked AI safety organizations",
+        "Stockholder approval for social commitments"
+      ],
+      "whyItMatters": "Anthropic's attempt to embed a mission-preservation structure into its IPO could set a template for AI safety-focused companies going public. How investors respond to reduced economic control will signal whether the market values AI safety commitments or prices them as risk.",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "governance",
+        "ai-safety",
+        "public-benefit",
+        "nasdaq"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What type of corporate structure is Anthropic, which gives it a legal obligation to balance shareholder interests with its safety mission?",
+          "options": [
+            "Non-profit organization (501c3)",
+            "Limited Liability Company (LLC)",
+            "Public Benefit Corporation (PBC)",
+            "Benefit LLC with capped returns"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic is a Public Benefit Corporation (PBC), a legal structure that obligates management to maintain a balance between shareholder returns and the company's stated public benefit mission — in Anthropic's case, AI safety research."
+        },
+        {
+          "question": "What is the purpose of the 'Anthropic Public Benefit Fund' described in the IPO reporting?",
+          "options": [
+            "A venture fund to invest in AI safety startups",
+            "A shareholder dividend fund for retail investors",
+            "A mission-preservation vehicle funded by a 5% share commitment",
+            "A government lobbying fund for AI regulation"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Anthropic Public Benefit Fund is a wholly-owned LLC that would receive 5% of Anthropic shares (pending stockholder approval), designed to preserve the company's AI safety mission as it transitions to a public company."
+        }
+      ]
+    },
+    {
+      "id": "article-intel-crescent-island-gpu-d270-2026",
+      "type": "article",
+      "title": "Intel Names Its Crescent Island AI GPU the D270, Supporting Up to 480GB of Memory",
+      "sourceUrl": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+      "verified": false,
+      "publishedAt": "2026-10-18",
+      "topics": [
+        "ai-engineering",
+        "ai-research"
+      ],
+      "summary": "Intel formally named its Crescent Island data center GPU the D270 at the Open Compute Project Global Summit, after debuting the design at Hot Chips 2026. The card uses LPDDR5X memory — cheaper than the HBM used by Nvidia and AMD flagships — and the branded configuration ships with 160GB while ODM partners can build versions up to 480GB. Intel positions the chip for inference workloads in air-cooled servers, with customer sampling planned for the second half of 2026 and broader availability in 2027.",
+      "keyConcepts": [
+        "AI inference vs. training hardware",
+        "LPDDR5X vs. HBM memory tradeoffs",
+        "Open Compute Project (OCP)",
+        "ODM (Original Design Manufacturer) GPU ecosystem"
+      ],
+      "whyItMatters": "Intel's strategy with the D270 bets that inference workloads can be efficiently served with cheaper, high-capacity LPDDR5X memory rather than expensive HBM, potentially unlocking a lower-cost tier in the AI accelerator market where Nvidia dominates. If the bet pays off, it could accelerate inference deployment at cloud scale.",
+      "tags": [
+        "intel",
+        "gpu",
+        "ai-hardware",
+        "inference",
+        "data-center",
+        "chips"
+      ],
+      "relatedIds": [
+        "article-replit-openai-anthropic-switch-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What key architectural difference distinguishes Intel's Crescent Island GPU D270 from Nvidia and AMD's leading AI accelerators?",
+          "options": [
+            "It uses a different instruction set architecture (ISA)",
+            "It uses LPDDR5X memory instead of HBM, trading peak bandwidth for lower cost and higher capacity",
+            "It runs entirely on photonic interconnects",
+            "It is optimized for training large models, not inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Intel's D270 uses consumer-oriented LPDDR5X DRAM rather than High Bandwidth Memory (HBM) used by Nvidia and AMD. This reduces cost and increases capacity (up to 480GB) but at lower memory bandwidth, making it best suited for inference rather than large-model training."
+        },
+        {
+          "question": "What deployment environment is the Intel D270 specifically designed for?",
+          "options": [
+            "Edge devices and smartphones",
+            "Consumer desktop GPUs",
+            "Air-cooled data center servers for inference",
+            "Liquid-cooled training clusters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Intel designed the Crescent Island D270 to run in air-cooled servers, distinguishing it from competitors that often require liquid cooling. This makes it easier to deploy in existing data center infrastructure without expensive cooling upgrades."
+        }
+      ]
+    },
+    {
+      "id": "article-replit-openai-anthropic-switch-2026",
+      "type": "article",
+      "title": "Replit CEO Says Company Has Stopped Working With Anthropic, Made OpenAI Its Default Provider",
+      "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "verified": false,
+      "publishedAt": "2026-10-17",
+      "topics": [
+        "ai-engineering",
+        "ai-industry"
+      ],
+      "summary": "At TechCrunch Disrupt, Replit CEO Amjad Masad announced that the company has stopped working with Anthropic and has made OpenAI its default model provider, citing cost, partnership quality, and benchmark performance on vibe-coded apps. However, multiple insiders disputed the claim, with one person familiar with the situation saying the Anthropic partnership remains in place — and a September blog post had still cited Claude Fable 5 models in Replit Agent's production environment. Replit announced an OpenAI partnership in August 2026 but had never announced an end to the Anthropic relationship.",
+      "keyConcepts": [
+        "AI coding platform model provider strategy",
+        "Multi-model vs. single-provider platform architecture",
+        "Vibe-coding and AI agent benchmarks",
+        "AI partnership and enterprise pricing dynamics"
+      ],
+      "whyItMatters": "Replit is one of the largest AI-native development platforms, and public statements about provider switches — even contested ones — signal how AI coding platforms are evaluating the major model providers on cost and output quality for agentic coding tasks.",
+      "tags": [
+        "replit",
+        "anthropic",
+        "openai",
+        "ai-coding",
+        "vibe-coding",
+        "model-provider"
+      ],
+      "relatedIds": [
+        "article-anthropic-ipo-public-benefit-fund-2026"
+      ],
+      "knowledgeChecks": [
+        {
+          "question": "What three criteria did Replit CEO Amjad Masad give for switching to OpenAI as the platform's default provider?",
+          "options": [
+            "Speed, safety, and context window size",
+            "Cost, partnership quality, and benchmark performance",
+            "Open-source licensing, latency, and multimodal support",
+            "Enterprise support, regulatory compliance, and pricing flexibility"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masad said the decision was based on cost, partnership, and performance — specifically that OpenAI's models performed better on internal and public benchmarks for building vibe-coded apps."
+        },
+        {
+          "question": "Why do insiders dispute Replit's claim that it stopped working with Anthropic?",
+          "options": [
+            "Anthropic released a public statement denying the switch",
+            "Replit's public API still lists Claude as the only available model",
+            "A September blog post still cited Claude Fable 5 models in Replit Agent's production environment",
+            "The FTC launched an investigation into the partnership termination"
+          ],
+          "correctIndex": 2,
+          "explanation": "A September 2026 Replit blog post cited Anthropic's Claude Fable 5 and Fable 5.1 as running in Replit Agent's production environment, and one insider said the partnership was still in place — suggesting Masad's Disrupt statement may have overstated the break."
+        }
+      ]
+    },
+    {
+      "id": "article-disney-characterai-bankruptcy-2026",
+      "type": "article",
+      "title": "Disney Offers Jobs to 66 Character.AI Employees as Stalking-Horse Bidder in Bankruptcy",
+      "sourceUrl": "https://letsdatascience.com/news/disney-offers-jobs-to-66-characterai-employees-ff9444bc",
+      "verified": false,
+      "publishedAt": "2026-10-18",
+      "topics": [
+        "ai-industry"
+      ],
+      "summary": "Disney Worldwide Services emerged as the stalking-horse bidder in Character.AI's Chapter 11 bankruptcy, filed October 12, offering $20 million for a non-exclusive license to certain technology and data claims. Separately, Disney has offered jobs to 66 of Character.AI's approximately 86 full-time employees at an estimated cost of $60 million per year, plus a $30 million retention pool. Disney hired Character.AI's CEO Karandeep Anand as its first-ever company-wide tech chief in mid-September, two weeks before the bankruptcy filing. Several state attorneys general have asked the bankruptcy judge to ensure child data protections for whoever wins the auction.",
+      "keyConcepts": [
+        "Chapter 11 stalking-horse bidder process",
+        "AI talent acquisition through distressed asset deals",
+        "Character.AI content moderation and minor safety lawsuits",
+        "Enterprise AI integration at legacy media companies"
+      ],
+      "whyItMatters": "Disney's move illustrates how large incumbents are using AI startup distress to acquire both IP licenses and engineering talent cheaply. The bankruptcy process, combined with scrutiny over Character.AI's data practices involving minors, will set precedent for how AI companies handle user data in M&A and insolvency situations.",
+      "tags": [
+        "disney",
+        "character-ai",
+        "bankruptcy",
+        "ai-talent",
+        "acquisition",
+        "content-moderation"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is Disney's stated bid amount in the Character.AI bankruptcy, and what does it cover?",
+          "options": [
+            "$60 million for full ownership of the Character.AI consumer platform",
+            "$20 million for a non-exclusive, perpetual license to certain technology and claims",
+            "$180 million for full IP, staff, and platform acquisition",
+            "$30 million for exclusive rights to Character.AI's training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "Disney Worldwide Services bid $20 million as the stalking-horse for a non-exclusive, perpetual license to certain technology and claims — not the consumer platform itself. This type of bid sets the floor for a public auction where other bidders can offer more."
+        },
+        {
+          "question": "What executive connection existed between Disney and Character.AI before the bankruptcy filing?",
+          "options": [
+            "Disney's CEO Bob Iger had invested personally in Character.AI",
+            "Disney hired Character.AI CEO Karandeep Anand as its first company-wide tech chief",
+            "Character.AI had a content licensing deal with Disney+ for AI-generated shows",
+            "A Disney board member was also a Character.AI angel investor"
+          ],
+          "correctIndex": 1,
+          "explanation": "Disney hired Karandeep Anand, Character.AI's CEO, in mid-September 2026 as its first-ever company-wide tech chief — about two weeks before Character.AI filed for Chapter 11, suggesting Disney had inside knowledge of the platform's trajectory."
+        }
+      ]
+    },
+    {
+      "id": "article-dumbtv-ai-smart-tv-2026",
+      "type": "article",
+      "title": "People Are Using AI Coding Agents to Strip Ads and Bloatware From Their Smart TVs",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "verified": false,
+      "publishedAt": "2026-10-19",
+      "topics": [
+        "ai-engineering"
+      ],
+      "summary": "An open-source project called 'dumbtv' has gained traction as owners use AI coding agents to 'vibe-code' custom firmware and scripts that remove sponsored ads, bloatware, and tracking software from their smart TVs. Users are sharing step-by-step prompts that feed into AI coding tools, letting non-developers produce working patches and ADB scripts without writing a line of code themselves. The trend is part of a broader pattern of consumers using generative AI to modify and reclaim consumer electronics that would previously have required specialized programming knowledge.",
+      "keyConcepts": [
+        "Vibe-coding for consumer hardware modification",
+        "ADB (Android Debug Bridge) scripting via AI agents",
+        "Smart TV firmware and ad-tech business models",
+        "Open-source community AI tool adoption"
+      ],
+      "whyItMatters": "The dumbtv phenomenon shows AI coding agents lowering the technical floor for hardware modification from expert developer to any motivated consumer. This creates a new class of AI-enabled user activism that device manufacturers and ad-tech companies will need to address — or face a growing wave of AI-assisted circumvention.",
+      "tags": [
+        "vibe-coding",
+        "smart-tv",
+        "ai-agents",
+        "open-source",
+        "consumer-tech",
+        "ad-blocking"
+      ],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'vibe-coding' as used in the dumbtv context?",
+          "options": [
+            "Writing code in a specific aesthetic style taught by AI tutors",
+            "Using natural-language prompts to have AI agents generate working code without manual programming",
+            "A smart TV interface standard for streaming mood-based playlists",
+            "An open-source compiler that converts video game scripts into firmware"
+          ],
+          "correctIndex": 1,
+          "explanation": "In this context, vibe-coding means describing what you want in plain English and having an AI coding agent generate working scripts or firmware patches for you — no prior coding experience required. Users are sharing the prompts themselves, not the code."
+        },
+        {
+          "question": "What underlying technology are users primarily exploiting to modify their smart TVs via the dumbtv approach?",
+          "options": [
+            "HDMI-CEC commands sent from a Raspberry Pi",
+            "ADB (Android Debug Bridge) scripting to sideload custom modifications",
+            "Root exploits targeting the TV's Linux kernel",
+            "Man-in-the-middle HTTPS proxies that rewrite streaming content"
+          ],
+          "correctIndex": 1,
+          "explanation": "ADB (Android Debug Bridge) is a tool that allows shell access to Android-based devices, including many smart TVs. The AI agents help users generate ADB commands and scripts to disable bloatware and ad SDKs without requiring users to understand the underlying Android system."
         }
       ]
     }
