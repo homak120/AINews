@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-11-20T10:00:00.000Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-19",
+  "coverageEnd": "2026-11-19",
+  "items": [
+    {
+      "id": "article-anthropic-ipo-2026-11-19",
+      "type": "article",
+      "title": "Anthropic Closes First Day of Trading at $97.17, Valuation Hits $1.76 Trillion",
+      "sourceUrl": "https://cnn.com/2026/11/19/business/live-news/anthropic-ipo",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry"],
+      "summary": "Anthropic, the AI safety company behind Claude, began trading on the Nasdaq under ticker ANT on November 19, 2026, closing at $97.17—a 17% gain from its $83 IPO price. The offering raised a record $81.3 billion, valuing the company at $1.76 trillion at close. The IPO came amid controversy, with academics and safety advocates accusing the company of prioritizing growth over its stated safety mission.",
+      "keyConcepts": ["Anthropic IPO", "ANT ticker", "AI company valuations", "public market debut"],
+      "whyItMatters": "Anthropic's public market debut marks a watershed moment for AI industry financing, setting a new benchmark for AI company valuations and intensifying scrutiny of the tension between safety commitments and commercial scale.",
+      "tags": ["anthropic", "ipo", "nasdaq", "claude", "ai-safety", "valuation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "At what price did Anthropic's stock close on its first day of trading?",
+          "options": ["$70.00", "$83.00", "$97.17", "$112.50"],
+          "correctIndex": 2,
+          "explanation": "Anthropic (ANT) closed at $97.17 on its first day, a 17% gain from its $83 IPO price."
+        },
+        {
+          "question": "What was Anthropic's fully diluted valuation at its first-day closing price?",
+          "options": ["$500 billion", "$1.0 trillion", "$1.76 trillion", "$2.5 trillion"],
+          "correctIndex": 2,
+          "explanation": "At the $97.17 closing price, Anthropic's fully diluted valuation was $1.76 trillion."
+        }
+      ]
+    },
+    {
+      "id": "article-google-gemini-4-neon-2026-11-19",
+      "type": "article",
+      "title": "Google Launches Gemini 4 Neon: Fast Model for Software Engineering and Knowledge Work",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Google introduced Gemini 4 Neon on November 19, 2026, a model designed for fast task completion across software engineering, knowledge work, and scientific applications. The model scores 61 on the Artificial Analysis Intelligence Index at its highest thinking level, ranking third overall behind larger, slower models. Neon represents Google's push to offer lower-latency options within the Gemini 4 family.",
+      "keyConcepts": ["Gemini 4 Neon", "model benchmarks", "AI for software engineering", "Artificial Analysis Intelligence Index"],
+      "whyItMatters": "Gemini 4 Neon signals that the frontier model race has shifted toward specialization and speed, not just raw capability—giving developers a practical option for real-time agentic coding tasks.",
+      "tags": ["google", "gemini", "llm", "software-engineering", "benchmarks", "model-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What score does Gemini 4 Neon achieve on the Artificial Analysis Intelligence Index?",
+          "options": ["45", "53", "61", "78"],
+          "correctIndex": 2,
+          "explanation": "Gemini 4 Neon scores 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level."
+        },
+        {
+          "question": "What is Gemini 4 Neon primarily designed for?",
+          "options": ["Image generation", "Fast task completion in software engineering and science", "Long-context document analysis", "Real-time speech translation"],
+          "correctIndex": 1,
+          "explanation": "Google built Gemini 4 Neon for fast task completion across software engineering, knowledge work, and science."
+        }
+      ]
+    },
+    {
+      "id": "article-palo-alto-applied-compute-2026-11-19",
+      "type": "article",
+      "title": "Palo Alto Networks Acquires AI Post-Training Startup Applied Compute for $4.5 Billion",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry"],
+      "summary": "Palo Alto Networks agreed to acquire Applied Compute, an AI post-training and inference platform for open-weight models, for $4.5 billion in stock. The deal brings Applied Compute's platform and research team into Palo Alto Networks, with co-founder Yash Patil set to become Co-Chief AI Officer upon closing. The acquisition signals Palo Alto's strategic push to become a comprehensive AI security platform spanning the full model lifecycle.",
+      "keyConcepts": ["Applied Compute", "post-training platforms", "AI security", "enterprise AI acquisition"],
+      "whyItMatters": "The $4.5B deal underscores how cybersecurity vendors are racing to control the AI infrastructure layer, as enterprises increasingly deploy open-weight models that require post-training tuning and security hardening.",
+      "tags": ["palo-alto-networks", "applied-compute", "acquisition", "ai-security", "post-training", "enterprise-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "How much did Palo Alto Networks agree to pay for Applied Compute?",
+          "options": ["$1.2 billion", "$2.8 billion", "$4.5 billion", "$7.1 billion"],
+          "correctIndex": 2,
+          "explanation": "Palo Alto Networks agreed to pay $4.5 billion in stock for Applied Compute."
+        },
+        {
+          "question": "What role will Applied Compute's co-founder take after the acquisition closes?",
+          "options": ["Chief Product Officer", "Head of AI Research", "Co-Chief AI Officer", "VP of Engineering"],
+          "correctIndex": 2,
+          "explanation": "Applied Compute's co-founder Yash Patil is slated to become Palo Alto Networks' Co-Chief AI Officer once the transaction closes."
+        }
+      ]
+    },
+    {
+      "id": "article-banks-ai-agent-liability-2026-11-19",
+      "type": "article",
+      "title": "Citi, PNC and Citizens Bank Shift Liability for AI Agent Losses to Customers",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "Citi, PNC, and Citizens Bank updated customer terms this week to shift responsibility for losses caused by third-party AI agents onto account holders, even if the agent is compromised or hacked. The move comes as AI agents gain access to banking accounts for bill payment and financial management. Consumer advocates warn this policy could expose millions of users to uncompensated losses from agent exploits.",
+      "keyConcepts": ["AI agent liability", "banking terms of service", "consumer protection", "third-party AI agents"],
+      "whyItMatters": "As AI agents gain financial access on behalf of users, the legal frameworks governing their actions remain dangerously vague—these bank policy updates put consumers on notice that the law has not caught up with the technology.",
+      "tags": ["banking", "ai-agents", "consumer-protection", "liability", "fintech", "terms-of-service"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to updated bank terms, who bears responsibility if an AI agent loses a customer's money?",
+          "options": ["The bank", "The AI developer", "The account holder", "Split between bank and AI developer"],
+          "correctIndex": 2,
+          "explanation": "Updated terms from Citi, PNC and Citizens place the loss on the account holder, even if the AI agent was hacked."
+        },
+        {
+          "question": "What scenario triggered these new liability terms?",
+          "options": ["A bank data breach", "AI agents gaining access to banking accounts", "A new federal regulation", "A class-action lawsuit settlement"],
+          "correctIndex": 1,
+          "explanation": "The updates were prompted by AI agents gaining access to banking accounts for bill payment and financial management on customers' behalf."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-china-chip-ban-2026-11-19",
+      "type": "article",
+      "title": "Nvidia Halts AI Chip Shipments to China Amid Tightened US Export Controls",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-19",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia stopped shipping AI chips to China following newly tightened U.S. export controls announced this week. The restrictions target high-performance AI accelerators used in data centers, cutting off China from advanced compute needed to train and run frontier models. The move escalates technology restrictions that began in 2022 and further fragments global AI supply chains.",
+      "keyConcepts": ["export controls", "AI chips", "US-China tech competition", "compute access"],
+      "whyItMatters": "Restricting China's access to AI compute is a key lever in the geopolitical AI race; each tightening of export controls reshapes which nations can build and deploy frontier AI systems at scale.",
+      "tags": ["nvidia", "china", "export-controls", "ai-chips", "geopolitics", "us-china"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Why did Nvidia stop shipping AI chips to China?",
+          "options": ["A manufacturing defect recall", "China imposed import restrictions", "New US export controls tightened chip restrictions", "Nvidia signed an exclusive deal with US defense"],
+          "correctIndex": 2,
+          "explanation": "The U.S. tightened AI chip export controls, prompting Nvidia to halt shipments of high-performance AI accelerators to China."
+        },
+        {
+          "question": "What type of AI hardware is primarily affected by these export restrictions?",
+          "options": ["Consumer-grade GPUs for gaming", "High-performance AI accelerators for data centers", "Mobile AI chips for smartphones", "Edge computing devices"],
+          "correctIndex": 1,
+          "explanation": "The export controls target high-performance AI accelerators used in data centers, cutting off China from advanced compute for training frontier models."
+        }
+      ]
+    }
+  ]
+}
