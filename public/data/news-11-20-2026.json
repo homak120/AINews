@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-20T10:00:00.000Z",
+  "generatedAt": "2026-11-20T18:00:00.000Z",
   "weekOf": "2026-11-16",
   "coverageStart": "2026-11-19",
-  "coverageEnd": "2026-11-19",
+  "coverageEnd": "2026-11-20",
   "items": [
     {
       "id": "article-anthropic-ipo-2026-11-19",
@@ -141,6 +141,62 @@
           "options": ["Consumer-grade GPUs for gaming", "High-performance AI accelerators for data centers", "Mobile AI chips for smartphones", "Edge computing devices"],
           "correctIndex": 1,
           "explanation": "The export controls target high-performance AI accelerators used in data centers, cutting off China from advanced compute for training frontier models."
+        }
+      ]
+    },
+    {
+      "id": "article-moonshot-ai-nvidia-indonesia-2026-11-20",
+      "type": "article",
+      "title": "Moonshot AI Cancels $150 Million Nvidia Chip Deal With Indonesian Data Center After US Export Tightening",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-20",
+      "topics": ["ai-industry"],
+      "summary": "Chinese AI startup Moonshot AI canceled a $150 million order for Nvidia AI chips through an Indonesian data center following the latest round of US export control tightening. The cancellation is the most visible consequence so far of the new restrictions, which cut off Chinese firms from acquiring high-performance accelerators through third-party operators in Southeast Asia. Moonshot had been using data centers outside mainland China to route around previous chip bans.",
+      "keyConcepts": ["export controls", "chip circumvention", "Moonshot AI", "Southeast Asia compute routing"],
+      "whyItMatters": "The canceled deal illustrates how rapidly the new export restrictions are reshaping global AI compute procurement, closing the third-country loopholes that Chinese AI labs had relied on to maintain access to frontier hardware.",
+      "tags": ["moonshot-ai", "nvidia", "export-controls", "indonesia", "china", "ai-chips"],
+      "relatedIds": ["article-nvidia-china-chip-ban-2026-11-19"],
+      "knowledgeChecks": [
+        {
+          "question": "How was Moonshot AI previously acquiring Nvidia chips despite US export restrictions?",
+          "options": ["Directly from Nvidia's US offices", "Via data centers in Southeast Asian countries outside China", "Through European resellers", "Purchasing older-generation chips not covered by restrictions"],
+          "correctIndex": 1,
+          "explanation": "Moonshot AI, like other Chinese AI firms, had been routing chip procurement through third-party data centers in Southeast Asia to circumvent restrictions on direct China sales."
+        },
+        {
+          "question": "What was the value of the Moonshot AI chip order that was canceled?",
+          "options": ["$25 million", "$75 million", "$150 million", "$400 million"],
+          "correctIndex": 2,
+          "explanation": "Moonshot AI canceled a $150 million Nvidia chip deal with an Indonesian data center operator following the new US export controls."
+        }
+      ]
+    },
+    {
+      "id": "article-eu-commission-ai-cyberattack-2026-11-20",
+      "type": "article",
+      "title": "AI-Assisted Cyberattack Disrupts European Commission Payroll and Medical Reimbursement Systems",
+      "sourceUrl": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
+      "verified": false,
+      "publishedAt": "2026-11-20",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "An AI-assisted cyberattack struck the European Commission on November 20, 2026, temporarily disrupting its staff payroll and medical reimbursement systems. The intrusion is the most operationally damaging AI-assisted attack on an EU institution to date. EU cybersecurity officials are investigating the incident and assessing whether AI-generated phishing or automated exploit tools were used to penetrate the systems.",
+      "keyConcepts": ["AI-assisted cyberattacks", "critical infrastructure security", "EU cybersecurity", "AI-enabled threats"],
+      "whyItMatters": "The incident marks an escalation in the use of AI as an offensive cyberweapon against government infrastructure, putting pressure on the EU to accelerate its AI-assisted cyber defense plans that were already in development.",
+      "tags": ["cybersecurity", "european-commission", "ai-threats", "critical-infrastructure", "eu", "cyberattack"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which European Commission systems were disrupted by the AI-assisted cyberattack?",
+          "options": ["External website and social media", "Staff payroll and medical reimbursement systems", "Border control and visa processing", "Energy grid monitoring"],
+          "correctIndex": 1,
+          "explanation": "The attack temporarily disrupted the European Commission's staff payroll and medical reimbursement systems."
+        },
+        {
+          "question": "What makes this cyberattack notable compared to previous incidents targeting the EU?",
+          "options": ["It was the largest data breach in EU history", "It is the most operationally damaging AI-assisted attack on an EU institution to date", "It exposed classified diplomatic communications", "It was attributed to a state actor for the first time"],
+          "correctIndex": 1,
+          "explanation": "The incident stands out as the most operationally damaging AI-assisted cyberattack against an EU institution, disrupting critical internal systems rather than only exfiltrating data."
         }
       ]
     }
