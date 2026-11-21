@@ -1,9 +1,53 @@
 {
-  "generatedAt": "2026-11-21T10:00:00Z",
+  "generatedAt": "2026-11-21T18:30:00Z",
   "weekOf": "2026-11-16",
   "coverageStart": "2026-11-20",
   "coverageEnd": "2026-11-21",
   "items": [
+    {
+      "id": "youtube-xjX3jESpZqs",
+      "type": "video",
+      "title": "Claude and the Riemann Hypothesis: What Actually Happened",
+      "youtubeId": "xjX3jESpZqs",
+      "sourceUrl": "https://www.youtube.com/watch?v=xjX3jESpZqs",
+      "verified": false,
+      "publishedAt": "2026-11-21",
+      "topics": ["ai-research"],
+      "summary": "Wes Roth reviews Anthropic mathematician Levent Alpöge's claim to have produced a Lean-formalized partial proof of the Riemann Hypothesis with Claude's assistance. The video contextualizes what Claude actually contributed — improving a known lower bound on the fraction of zeros satisfying the hypothesis from 41.6% to 67.2% — against the more sensational coverage. Roth also covers a contemporaneous all-human proof draft by Alessandro Masullo posted the same day.",
+      "keyConcepts": [
+        "Riemann Hypothesis and the Millennium Prize Problems",
+        "Lean formal proof verification",
+        "AI-assisted mathematical research",
+        "Bounds on Riemann zeta zeros"
+      ],
+      "whyItMatters": "If the bound improvement is verified, this is among the most significant AI contributions to pure mathematics to date — not a full proof, but a formally verified advance on a 167-year-old open problem. It tests the frontier of how far large language models can function as genuine mathematical collaborators.",
+      "tags": ["anthropic", "claude", "riemann-hypothesis", "mathematics", "formal-proof", "ai-research"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did Claude actually accomplish regarding the Riemann Hypothesis?",
+          "options": [
+            "Claude produced a complete proof verified by the Clay Mathematics Institute",
+            "Claude improved the lower bound on the fraction of Riemann zeros on the critical line from 41.6% to 67.2%",
+            "Claude found a counterexample that disproved the hypothesis for large primes",
+            "Claude generated a list of 1 billion primes to test the hypothesis numerically"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude didn't prove the Riemann Hypothesis. Working with Anthropic mathematician Levent Alpöge, it improved a known lower bound: the fraction of zeros satisfying the hypothesis rose from 41.6% to 67.2%. The result was formalized in Lean but the full hypothesis remains unproven."
+        },
+        {
+          "question": "What is Lean, as used in the context of the Riemann Hypothesis work?",
+          "options": [
+            "A new AI model from Anthropic optimized for mathematical reasoning",
+            "A statistical method for testing conjectures on number sequences",
+            "A formal proof verification system that checks mathematical proofs mechanically",
+            "A programming language used to describe the structure of prime numbers"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lean is a formal proof assistant that allows mathematicians to write proofs checkable by machine. Formalizing the result in Lean adds mechanically verified confidence beyond a traditional manuscript proof."
+        }
+      ]
+    },
     {
       "id": "article-big-tech-open-source-vs-anthropic-2026-11-20",
       "type": "article",
