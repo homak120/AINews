@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-11-22T08:00:00.000Z",
+  "weekOf": "2026-11-16",
+  "coverageStart": "2026-11-20",
+  "coverageEnd": "2026-11-22",
+  "items": [
+    {
+      "id": "article-inkling-2-mini-thinking-machines-2026-11-20",
+      "type": "article",
+      "title": "Thinking Machines Lab Releases Inkling 2 Mini Open-Weights Model",
+      "sourceUrl": "https://digg.com/ai/5366qvrf",
+      "verified": false,
+      "publishedAt": "2026-11-20",
+      "topics": ["ai-research", "ai-engineering"],
+      "summary": "Mira Murati's Thinking Machines Lab released Inkling 2 Mini, a compact 26.4B-parameter open-weights transformer model with 3.4B active parameters per token. The model scores 20 on the Artificial Analysis Intelligence Index and uses a looped transformer architecture designed for efficient inference. It represents the third model generation from the lab following the original 975B Inkling and the 594B Inkling 2 Small.",
+      "keyConcepts": [
+        "Open-weights AI models",
+        "Mixture-of-Experts (MoE) architecture",
+        "Looped transformer design",
+        "Model efficiency vs. capability tradeoffs"
+      ],
+      "whyItMatters": "Open-weights compact models like Inkling 2 Mini enable developers to fine-tune and deploy powerful AI locally without cloud dependency, reducing costs and increasing privacy for enterprise use cases.",
+      "tags": ["open-weights", "thinking-machines-lab", "mira-murati", "small-language-model", "inference-efficiency", "model-release"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the approximate parameter count of Thinking Machines Lab's Inkling 2 Mini model?",
+          "options": [
+            "975 billion parameters",
+            "594 billion parameters",
+            "26.4 billion parameters",
+            "7 billion parameters"
+          ],
+          "correctIndex": 2,
+          "explanation": "Inkling 2 Mini has 26.4 billion total parameters with 3.4 billion active parameters per token, making it the most compact model in the Inkling 2 family. The larger 594B Inkling 2 Small was released earlier in November."
+        },
+        {
+          "question": "What was distinctive about Inkling 2 Mini's release strategy compared to some competitors?",
+          "options": [
+            "It was released exclusively on Azure",
+            "It was released as open weights, allowing community fine-tuning",
+            "It was only available through an enterprise license",
+            "It required special hardware accelerators"
+          ],
+          "correctIndex": 1,
+          "explanation": "Inkling 2 Mini was released as open weights, following Thinking Machines Lab's commitment to open-source AI development. This allows the broader developer community to access, run, and fine-tune the model."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-midterms-data-centers-political-reality-2026-11-21",
+      "type": "article",
+      "title": "AI Industry Faces New Political Reality After Democratic Midterm Gains and Data Center Backlash",
+      "sourceUrl": "https://katu.com/news/nation-world/ai-industry-faces-new-political-reality-after-democratic-gains-in-midterms-data-centers-moratorium-regulations",
+      "verified": false,
+      "publishedAt": "2026-11-21",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "The 2026 midterm elections delivered a dramatic shift in the political landscape for AI, with Democratic gains in both chambers and data center restriction measures passing in 44 of 45 state ballot elections. Texas governor-elect pledged a moratorium on new data center approvals, while New York's existing statewide moratorium on hyperscale data centers gained national attention. The wins signal a new era of AI governance scrutiny at the state level.",
+      "keyConcepts": [
+        "Data center moratoriums",
+        "AI regulation at state level",
+        "2026 US midterm elections",
+        "AI infrastructure and community impact"
+      ],
+      "whyItMatters": "Data centers are the physical backbone of AI development; sweeping state-level restrictions could significantly constrain where and how fast AI infrastructure can be built in the US, with direct implications for model training capacity and AI development timelines.",
+      "tags": ["ai-regulation", "data-centers", "midterm-elections", "policy", "infrastructure", "us-politics"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the outcome of data center restriction ballot measures in the 2026 US midterm elections?",
+          "options": [
+            "All measures were rejected by voters",
+            "Only a handful passed in coastal states",
+            "44 out of 45 state measures passed",
+            "The federal government preempted all state measures"
+          ],
+          "correctIndex": 2,
+          "explanation": "Data Center Watch tracked 45 ballot elections related to data center restrictions and found that 44 of them passed, reflecting broad voter frustration with the rapid proliferation of large AI data centers in their communities."
+        },
+        {
+          "question": "Which factor most drove voter opposition to data center expansion in the 2026 midterms?",
+          "options": [
+            "Concerns about AI job displacement",
+            "Energy consumption, water use, and local infrastructure strain",
+            "Fears of foreign AI espionage",
+            "Opposition to cryptocurrency mining"
+          ],
+          "correctIndex": 1,
+          "explanation": "Voters primarily objected to the significant energy demands, water cooling requirements, and strain on local power grids from large AI data centers, which often failed to deliver significant local employment benefits."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-labs-rsi-progress-autonomous-2026-11-21",
+      "type": "article",
+      "title": "Leading AI Labs Say Models Are Approaching Ability to Improve Themselves Autonomously",
+      "sourceUrl": "https://abcnews.com/US/wireStory/ai-models-achieve-ability-improve-autonomously-leading-labs-136582737",
+      "verified": false,
+      "publishedAt": "2026-11-21",
+      "dateEstimated": true,
+      "topics": ["ai-research"],
+      "summary": "Anthropic and OpenAI have published reports indicating their AI models are increasingly contributing to their own development processes, with Claude reportedly contributing to over 80% of code merged into Anthropic's production codebase. Labs are carefully navigating how to define and disclose progress toward recursive self-improvement (RSI), a threshold considered significant in AI safety circles. Experts caution that current systems still require human oversight for goal-setting and final decisions.",
+      "keyConcepts": [
+        "Recursive Self-Improvement (RSI)",
+        "AI-assisted AI development",
+        "Model training automation",
+        "AI safety thresholds"
+      ],
+      "whyItMatters": "RSI is considered one of the most consequential thresholds in AI development — if models can meaningfully improve their own training process, the pace of AI advancement could accelerate dramatically, potentially outpacing safety research and regulatory frameworks.",
+      "tags": ["recursive-self-improvement", "rsi", "anthropic", "openai", "ai-safety", "autonomous-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What percentage of code merged into Anthropic's production codebase was reportedly contributed by Claude?",
+          "options": [
+            "About 20%",
+            "About 50%",
+            "Over 80%",
+            "About 95%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic reported that Claude contributed to over 80% of code merged into its production codebase, one of the metrics used to gauge AI's growing role in its own development process."
+        },
+        {
+          "question": "What do most AI safety researchers consider the key distinction of true recursive self-improvement?",
+          "options": [
+            "An AI that can write code faster than a human developer",
+            "An AI that can fully autonomously set its own goals, evaluate its performance, and implement architectural improvements without human direction",
+            "An AI that scores above 90% on standard benchmarks",
+            "An AI that can train smaller models on its own"
+          ],
+          "correctIndex": 1,
+          "explanation": "True RSI requires an AI to autonomously set development goals, evaluate its own success metrics, and implement changes — the full loop without human direction. Current systems still rely on humans for goal-setting and final approval, even if AI contributes heavily to implementation."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-backlash-washington-vance-regulation-2026-11-21",
+      "type": "article",
+      "title": "AI Backlash Raises Political Costs of Washington's Hands-Off Approach as Industry Urges Oversight",
+      "sourceUrl": "https://komonews.com/news/nation-world/ai-backlash-raises-political-costs-of-washingtons-hands-off-approach-midterms-data-centers-artificial-intelligence-regulation",
+      "verified": false,
+      "publishedAt": "2026-11-21",
+      "topics": ["ai-industry"],
+      "summary": "Several major AI executives have publicly called for government oversight of increasingly advanced AI systems, while Vice President JD Vance pushed back against their calls, questioning the motives of tech executives asking to be regulated. The 2026 midterm results have made the administration's light-touch AI regulation approach politically costly, with safety-minded PACs backed by Anthropic and Dario Amodei outspending industry PACs during the campaign cycle.",
+      "keyConcepts": [
+        "AI self-regulation vs. government oversight",
+        "AI policy and the 2026 elections",
+        "PAC spending in AI-related races",
+        "Executive branch vs. industry on AI safety"
+      ],
+      "whyItMatters": "The tension between AI industry calls for regulation and administration resistance represents a critical inflection point: how US AI governance is structured in the next two years will determine whether frontier AI development proceeds with meaningful safety oversight or under voluntary industry commitments.",
+      "tags": ["ai-regulation", "jd-vance", "anthropic", "dario-amodei", "ai-policy", "government-oversight"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was VP Vance's response to AI executives calling for government regulation of AI?",
+          "options": [
+            "He agreed and introduced a bill for AI oversight",
+            "He questioned their motives, suggesting they wanted regulation to entrench incumbents",
+            "He proposed a voluntary safety pledge instead",
+            "He had no comment on the matter"
+          ],
+          "correctIndex": 1,
+          "explanation": "VP Vance pushed back on AI executives calling for government oversight, questioning their motives — a common argument that incumbent companies seek regulation to create barriers that disadvantage new competitors."
+        },
+        {
+          "question": "Which organization's PAC outspent industry PACs in AI-related 2026 midterm races?",
+          "options": [
+            "OpenAI's political action committee",
+            "Microsoft's government affairs arm",
+            "Safety-minded PACs backed by Anthropic and CEO Dario Amodei",
+            "The Electronic Frontier Foundation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Safety-minded PACs backed by Anthropic and Dario Amodei outspent the broader tech industry's PACs in AI-focused campaigning during the 2026 midterms, reflecting the company's strategy to shift political norms around AI safety regulation."
+        }
+      ]
+    }
+  ]
+}
