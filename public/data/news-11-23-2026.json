@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-11-23T08:00:00.000Z",
+  "weekOf": "2026-11-23",
+  "coverageStart": "2026-11-22",
+  "coverageEnd": "2026-11-23",
+  "items": [
+    {
+      "id": "article-openai-safety-limits-20261123",
+      "type": "article",
+      "title": "OpenAI's Chief Scientist Proposes Industry-Wide Limits on AI Development",
+      "sourceUrl": "https://business-standard.com/technology/artificial-intelligence/openai-s-chief-scientist-proposes-industry-limits-on-ai-development-126112300085_1.html",
+      "verified": false,
+      "publishedAt": "2026-11-23",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "OpenAI chief scientist Jakub Pachocki proposed that AI companies adopt common, industry-wide thresholds on development that no lab would exceed until safety requirements are met. Pachocki warned that AI could begin accelerating advances in its own development as early as 2027, raising the stakes for coordinated action. His proposal calls for third-party auditors or international oversight to enforce the agreed limits.",
+      "keyConcepts": [
+        "Responsible Scaling Policies (RSPs)",
+        "Chain-of-thought monitoring limitations",
+        "Coordinated AI development pacing",
+        "Automated AI research acceleration"
+      ],
+      "whyItMatters": "If leading labs voluntarily agree to development thresholds backed by independent audits, it could represent the most significant industry-wide safety coordination since AI's commercial boom began. The proposal sets up a defining debate about whether labs will act collectively or compete unchecked.",
+      "tags": ["openai", "ai-safety", "pachocki", "pacing", "frontier-ai", "industry-standards"],
+      "relatedIds": ["article-openai-loss-curves-20261122"],
+      "knowledgeChecks": [
+        {
+          "question": "What specific development metric did Jakub Pachocki propose labs agree not to exceed?",
+          "options": [
+            "Parameter count per model",
+            "Pretraining perplexity scores",
+            "Monthly compute spend",
+            "Number of model releases per year"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pachocki proposed that labs publish and agree on common limits on pretraining perplexity scores — a measure of model capability — that no company would cross until the industry's safety monitoring tools catch up."
+        },
+        {
+          "question": "What year did Pachocki warn AI might begin autonomously accelerating its own research?",
+          "options": ["2026", "2027", "2028", "2030"],
+          "correctIndex": 1,
+          "explanation": "Pachocki warned that AI systems could begin meaningfully accelerating their own research and development as soon as 2027, which is a key reason he sees urgency in establishing shared safety thresholds now."
+        }
+      ]
+    },
+    {
+      "id": "article-ai-market-selloff-20261122",
+      "type": "article",
+      "title": "AI Stock Sell-Off Erases Nasdaq's Annual Gains as Anthropic IPO Stumbles",
+      "sourceUrl": "https://www.foxnews.com/live-news/ai-news-markets-correction-11-22-26",
+      "verified": false,
+      "publishedAt": "2026-11-22",
+      "topics": ["ai-industry"],
+      "summary": "A wave of AI stock selling on November 22 erased the Nasdaq's year-to-date gains and pushed the Dow and S&P 500 into correction territory. Anthropic's shares fell roughly 9% in just their second day of trading after a record-breaking IPO, contributing to a broader rout in AI-linked equities including Nvidia. The sell-off followed weeks of market concern about the pace and profitability of AI infrastructure spending.",
+      "keyConcepts": [
+        "Nasdaq correction territory",
+        "Anthropic IPO second-day trading performance",
+        "AI infrastructure investment returns",
+        "Nvidia stock volatility"
+      ],
+      "whyItMatters": "The sell-off signals growing investor skepticism that current AI spending levels can generate returns quickly enough to justify valuations — a tension that could reshape how labs and hyperscalers fund AI development over the next year.",
+      "tags": ["anthropic-ipo", "nasdaq", "nvidia", "ai-stocks", "market-correction", "ai-investment"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the approximate market cap of Anthropic at its IPO?",
+          "options": ["$50 billion", "$75 billion", "$93.5 billion", "$120 billion"],
+          "correctIndex": 2,
+          "explanation": "Anthropic's IPO was valued at approximately $93.5 billion, making it one of the largest AI company listings ever — but its shares declined roughly 9% in just the second trading session amid a broad market sell-off."
+        },
+        {
+          "question": "Which market index entered correction territory during the November 22 sell-off?",
+          "options": ["Only the S&P 500", "Only the Dow Jones", "Only the Nasdaq", "The Nasdaq, S&P 500, and Dow Jones"],
+          "correctIndex": 3,
+          "explanation": "The sell-off pushed all three major indices into decline, with the Nasdaq erasing its annual gains, while the Dow and S&P 500 fell into correction territory as AI-related stocks led the broader market lower."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-loss-curves-20261122",
+      "type": "article",
+      "title": "OpenAI Publishes Internal Pretraining Loss Curves, Proposing Them as a Safety Coordination Tool",
+      "sourceUrl": "https://fourweekmba.com/ai-daily-roundup-22-nov-2026-openai-limits/",
+      "verified": false,
+      "publishedAt": "2026-11-22",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "OpenAI released its internal pretraining perplexity scores on November 22 — an unusual disclosure of the raw capability metric labs have historically kept private. Chief scientist Jakub Pachocki accompanied the release with a proposal to use these scores as a shared coordination point, inviting other frontier labs to publish the same data and agree not to cross shared thresholds. The move is framed both as a transparency gesture and a groundwork-laying step for voluntary pacing.",
+      "keyConcepts": [
+        "Pretraining perplexity as a capability metric",
+        "Transparency in AI development",
+        "Voluntary frontier lab coordination",
+        "OpenAI Preparedness Framework"
+      ],
+      "whyItMatters": "Publishing raw scaling metrics is a significant departure from AI labs' typical opacity — if other frontier labs follow suit, it could create a shared empirical basis for safety thresholds that is harder to game than self-reported benchmarks.",
+      "tags": ["openai", "pretraining", "loss-curves", "scaling", "transparency", "safety-coordination"],
+      "relatedIds": ["article-openai-safety-limits-20261123"],
+      "knowledgeChecks": [
+        {
+          "question": "What is 'pretraining perplexity' in the context of large language models?",
+          "options": [
+            "A measure of how confused users are by model outputs",
+            "A metric for how well a model predicts held-out training data, indicating capability level",
+            "A benchmark score from academic evaluations like MMLU",
+            "The computational cost per token during inference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pretraining perplexity measures how well a model predicts text it hasn't seen during training. Lower perplexity generally indicates a more capable model, which is why Pachocki proposed it as a shared threshold metric — it's a direct window into raw model capability."
+        },
+        {
+          "question": "Why is publishing pretraining loss curves considered a significant transparency step?",
+          "options": [
+            "It reveals the exact dataset used for training",
+            "It exposes proprietary code that competitors can copy",
+            "It discloses a capability metric labs usually keep private for competitive reasons",
+            "It allows the public to run the model locally"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pretraining loss curves have traditionally been treated as highly proprietary because they reveal how capable a model is relative to competitors before public benchmarks are run. OpenAI publishing them is a notable shift toward transparency."
+        }
+      ]
+    },
+    {
+      "id": "article-26-governors-federal-ai-rules-20261123",
+      "type": "article",
+      "title": "26 Governors Urge Congress to Pass Federal AI Rules That Preserve State Authority",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-23",
+      "topics": ["ai-industry", "ai-career"],
+      "summary": "A bipartisan group of 26 state governors sent a letter to Congress on November 23 calling for a federal AI framework that sets baseline national standards while explicitly preserving states' ability to pass stronger consumer and worker protections. The governors opposed the administration's push for broad federal preemption of state AI laws, arguing that states have been filling a legislative vacuum that Congress has not addressed. The letter arrives as a major AI provisions fight continues in negotiations over the defense authorization bill.",
+      "keyConcepts": [
+        "Federal AI preemption vs. state authority",
+        "National Defense Authorization Act (NDAA) AI provisions",
+        "Bipartisan state-federal AI governance tensions",
+        "State AI consumer protection laws"
+      ],
+      "whyItMatters": "The governors' push highlights a deepening conflict between a federal government that wants uniform AI rules and states that have already built the most detailed AI protections in place. How this standoff resolves will determine whether the US ends up with a single AI governance layer or a patchwork of state frameworks.",
+      "tags": ["ai-regulation", "federal-preemption", "governors", "state-law", "congress", "policy"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What do the 26 governors want from federal AI legislation?",
+          "options": [
+            "A complete federal takeover of AI regulation with no state input",
+            "No federal AI legislation at all",
+            "Federal baseline standards that preserve states' ability to pass stronger protections",
+            "An international AI treaty rather than domestic legislation"
+          ],
+          "correctIndex": 2,
+          "explanation": "The governors are asking for a federal floor — baseline standards — combined with an explicit carveout that lets states pass additional or stronger protections. This is the opposite of preemption, which would void state laws wherever federal rules exist."
+        },
+        {
+          "question": "Which legislative vehicle is currently a battleground for AI preemption provisions?",
+          "options": ["The Infrastructure Investment Act", "The National Defense Authorization Act (NDAA)", "The American Innovation and Choice Online Act", "The AI Accountability Act"],
+          "correctIndex": 1,
+          "explanation": "The NDAA (National Defense Authorization Act), the annual defense spending bill, has become a vehicle for attaching AI governance provisions — including preemption language — because it must pass each year and rarely fails."
+        }
+      ]
+    }
+  ]
+}
