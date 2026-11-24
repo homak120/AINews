@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:00:00.000Z",
+  "generatedAt": "2026-11-24T14:00:00.000Z",
   "weekOf": "2026-11-23",
   "coverageStart": "2026-11-23",
   "coverageEnd": "2026-11-24",
@@ -94,10 +94,9 @@
       "id": "article-amazon-decart-acquisition-20261124",
       "type": "article",
       "title": "Amazon Nears $7 Billion Deal to Acquire AI Chip Optimization Startup Decart",
-      "sourceUrl": "https://www.techrepublic.com/article/news-amazon-decart-ai-acquisition-talks/",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
       "verified": false,
       "publishedAt": "2026-11-24",
-      "dateEstimated": true,
       "topics": ["ai-industry"],
       "summary": "Amazon is in advanced talks to acquire Israeli AI startup Decart for approximately $7 billion, with the total potentially rising to $7.5 billion if performance milestones are met. Decart's chip optimization software is reportedly valued for its ability to improve efficiency on Amazon's Trainium AI chips and simplify moving models between hardware platforms. The deal would value Decart at roughly 1.75 times its $4 billion valuation from May 2026, after Anthropic previously walked away from an acquisition.",
       "keyConcepts": [
@@ -131,6 +130,92 @@
           ],
           "correctIndex": 2,
           "explanation": "Anthropic conducted due diligence on Decart as a potential $6 billion acquisition but ultimately walked away. Amazon later entered talks at a higher valuation, reportedly due to the strategic value of Decart's hardware optimization capabilities for AWS."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-claude-ship-20261123",
+      "type": "article",
+      "title": "Anthropic Launches Claude Ship, an AI Agent That Reviews, Fixes, and Approves Code Changes",
+      "sourceUrl": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "verified": false,
+      "publishedAt": "2026-11-23",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Anthropic has launched Claude Ship, a product that lets AI agents autonomously review, fix, and approve routine code changes in software development workflows. Teams retain control over where Claude Ship runs, which review settings to apply, and which changes require escalation to a human engineer. The launch marks Anthropic's first major push into autonomous software engineering agents for production codebases.",
+      "keyConcepts": [
+        "Autonomous code review agents",
+        "AI-assisted software development workflows",
+        "Human-in-the-loop escalation controls",
+        "Anthropic's agentic product strategy"
+      ],
+      "whyItMatters": "Claude Ship represents a shift from AI as a coding assistant to AI as an autonomous participant in the software release pipeline — compressing review cycles for routine changes while keeping humans in the loop for high-stakes decisions.",
+      "tags": ["anthropic", "claude-ship", "code-review", "ai-agents", "software-engineering", "developer-tools"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary function of Anthropic's Claude Ship product?",
+          "options": [
+            "Generating new features from natural-language product specs",
+            "Reviewing, fixing, and approving routine code changes autonomously",
+            "Running automated security penetration tests on codebases",
+            "Generating documentation from existing source code"
+          ],
+          "correctIndex": 1,
+          "explanation": "Claude Ship is designed to let AI agents autonomously handle the review, fix, and approval of routine code changes, aiming to reduce the manual burden on engineering teams for lower-risk modifications."
+        },
+        {
+          "question": "What safeguard does Claude Ship include to keep humans in control?",
+          "options": [
+            "All changes require a human signature before merging",
+            "It only works on open-source, non-production repositories",
+            "Teams configure review settings and which changes get escalated to a human",
+            "It runs only in read-only mode and never modifies code"
+          ],
+          "correctIndex": 2,
+          "explanation": "Claude Ship gives teams control over where it runs, what review settings to use, and which changes should be escalated to a human engineer rather than approved autonomously — keeping humans in the decision loop for higher-risk changes."
+        }
+      ]
+    },
+    {
+      "id": "article-meta-muse-instagram-dms-20261124",
+      "type": "article",
+      "title": "Meta Brings Its Muse AI Assistant Directly Into Instagram DMs",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-industry"],
+      "summary": "Meta is expanding its Muse AI assistant to Instagram direct messages, letting users interact with the AI agent in the same inbox they use for personal and creator conversations. Muse was previously accessible through the standalone Muse app, WhatsApp, and Instagram profiles, but DM integration brings it into everyday messaging flows. The expansion continues Meta's strategy of embedding AI assistants across its entire social platform portfolio.",
+      "keyConcepts": [
+        "Meta Muse AI assistant expansion",
+        "AI agents in social media messaging",
+        "Meta's social platform AI integration strategy",
+        "Instagram AI features"
+      ],
+      "whyItMatters": "By integrating Muse into Instagram DMs, Meta positions AI assistance where billions of daily social conversations happen — a significant distribution advantage over standalone AI apps competing for user attention and habit.",
+      "tags": ["meta", "muse", "instagram", "ai-assistant", "social-media", "messaging-ai"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Where was Meta's Muse AI assistant available before the Instagram DM integration?",
+          "options": [
+            "Only in Facebook Groups and Pages",
+            "Exclusively through a subscription-only Muse Pro app",
+            "In the standalone Muse app, WhatsApp, and Instagram profiles",
+            "In LinkedIn and Twitter integrations via API"
+          ],
+          "correctIndex": 2,
+          "explanation": "Before the Instagram DM launch, Muse was available through the dedicated Muse app, WhatsApp, and directly on Instagram profiles — but not yet in the DM inbox where users spend a significant portion of their daily Instagram time."
+        },
+        {
+          "question": "What strategic advantage does embedding Muse in Instagram DMs give Meta over standalone AI apps?",
+          "options": [
+            "It makes Muse free to use for all Instagram users",
+            "It distributes AI assistance into existing high-frequency social messaging habits",
+            "It gives Muse access to private message data for training",
+            "It allows Muse to automatically reply on behalf of users"
+          ],
+          "correctIndex": 1,
+          "explanation": "Integrating Muse into Instagram DMs means Meta can reach users inside a messaging habit they already have, rather than asking them to adopt a new standalone AI app. This distribution edge is difficult for independent AI assistants to match."
         }
       ]
     }
