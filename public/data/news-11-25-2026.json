@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-25T10:00:00.000Z",
+  "generatedAt": "2026-11-25T14:00:00.000Z",
   "weekOf": "2026-11-23",
   "coverageStart": "2026-11-24",
-  "coverageEnd": "2026-11-24",
+  "coverageEnd": "2026-11-25",
   "items": [
     {
       "id": "article-un-ai-oversight-year-20261124",
@@ -87,6 +87,135 @@
           ],
           "correctIndex": 1,
           "explanation": "The departure of xAI's entire founding team raises concerns about continuity and direction at a company that has grown rapidly under Musk — particularly following its acquisition by SpaceX, which introduced new organizational pressures."
+        }
+      ]
+    },
+    {
+      "id": "article-nvidia-jensen-huang-reinstatement-20261124",
+      "type": "article",
+      "title": "Jensen Huang Reinstated as Nvidia CEO After Board Reversal, Calming Markets but Raising Capitol Hill Questions",
+      "sourceUrl": "https://foxnews.com/live-news/ai-tech-jensen-huang-nvidia-trade-stocks-market-donald-trump-november-24",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-industry"],
+      "summary": "Nvidia's board voted unanimously to reinstate Jensen Huang as President and CEO on November 22, reversing its own decision from just days earlier that had accepted his resignation. The board cited input from senior levels of the US government, stating it was confident the reinstatement posed no national security risk. Markets responded positively to the news, though Huang and Nvidia's general counsel face closed-door questioning from Congressional committees on December 1–2.",
+      "keyConcepts": [
+        "Nvidia leadership and board governance",
+        "AI industry and stock market volatility",
+        "Congressional oversight of AI-critical executives",
+        "National security review of tech leadership"
+      ],
+      "whyItMatters": "Nvidia's chips underpin most of the world's AI training infrastructure — leadership instability at the company reverberates through the entire AI industry, and the Congressional scrutiny signals growing government interest in controlling who leads companies central to US AI supremacy.",
+      "tags": ["nvidia", "jensen-huang", "ceo", "ai-chips", "governance", "congress"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What reason did Nvidia's board give for reinstating Jensen Huang after initially accepting his resignation?",
+          "options": [
+            "Shareholder pressure from major institutional investors",
+            "Input from senior US government officials confirming no national security risk",
+            "A court order blocking the original resignation from taking effect",
+            "Huang's personal appeal to the board at an emergency meeting"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Nvidia board cited input from senior levels of the United States government, stating it was confident that Huang's reinstatement posed no national security risk — an unusual public framing for a CEO reinstatement decision."
+        },
+        {
+          "question": "What scrutiny does Jensen Huang face following his reinstatement?",
+          "options": [
+            "An SEC investigation into insider trading around the resignation announcement",
+            "A shareholder lawsuit over governance failures during the leadership transition",
+            "Closed-door Congressional questioning from the House Foreign Affairs, Intelligence, and CCP committees",
+            "A CFIUS review of Nvidia's recent semiconductor joint ventures"
+          ],
+          "correctIndex": 2,
+          "explanation": "Huang and Nvidia's general counsel are scheduled to answer questions from the House Foreign Affairs and Intelligence Committees and the House Select Committee on the Chinese Communist Party on December 1 and 2."
+        }
+      ]
+    },
+    {
+      "id": "article-chinese-tech-ai-us-curbs-nvidia-20261124",
+      "type": "article",
+      "title": "Chinese Tech Firms Fear AI Setbacks From Escalating US Export Controls Following Nvidia Fallout",
+      "sourceUrl": "https://www.ajc.com/news/2026/11/chinese-tech-firms-fear-ai-hits-from-us-curbs-after-nvidia-fallout/",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-industry", "ai-engineering"],
+      "summary": "Chinese technology companies are increasingly alarmed about the impact of tightening US export controls on their AI development programs, particularly following the Nvidia fallout and new Commerce Department rules restricting remote access to advanced chips through third-country data centers. Analysts expect further chip control tightening from the US, while Beijing has denounced the remote-access rules as 'economic coercion.'",
+      "keyConcepts": [
+        "US semiconductor export controls and Entity List",
+        "Remote computing access restrictions for AI chips",
+        "China AI development under hardware constraints",
+        "US-China technology decoupling"
+      ],
+      "whyItMatters": "As frontier AI increasingly demands massive compute at scale, the ability of Chinese labs to access advanced chips is becoming a central battleground in the US-China technology rivalry — with direct consequences for who can compete in the next generation of AI development.",
+      "tags": ["export-controls", "china", "nvidia", "chips", "ai-policy", "us-china", "semiconductor"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What new restriction did the US Commerce Department introduce that alarmed Chinese tech firms in November 2026?",
+          "options": [
+            "A ban on all Chinese companies importing US software licenses",
+            "Rules restricting remote computing access to advanced chips through third-country data centers",
+            "A requirement that Chinese firms divest all US-designed chip holdings within 90 days",
+            "An outright ban on exporting any AI model weights to China"
+          ],
+          "correctIndex": 1,
+          "explanation": "The Commerce Department issued an interim final rule restricting remote access to advanced chips and servers through data centers in third countries — a move designed to prevent Chinese firms from using overseas cloud infrastructure to circumvent direct export controls."
+        },
+        {
+          "question": "How did Beijing characterize the new US remote-access chip restrictions?",
+          "options": [
+            "An expected and proportionate national security measure",
+            "A violation of WTO trade agreements requiring immediate arbitration",
+            "Economic coercion targeting China's legitimate technology development",
+            "An acceptable temporary measure pending bilateral trade negotiations"
+          ],
+          "correctIndex": 2,
+          "explanation": "Beijing called the US rules blocking Chinese companies' remote access to overseas computing power 'economic coercion' — framing the controls as aggressive trade policy rather than legitimate national security measures."
+        }
+      ]
+    },
+    {
+      "id": "article-uber-nuro-lucid-robotaxi-bay-area-20261124",
+      "type": "article",
+      "title": "Uber, Nuro, and Lucid Launch Driverless Robotaxi Testing Across Four Bay Area Cities",
+      "sourceUrl": "https://aiweekly.co/ai-news-today",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "A new multi-partner robotaxi testing initiative has begun in four Bay Area cities, with Uber providing the ride-hailing network, Nuro handling autonomous vehicle software, and Lucid contributing its electric vehicle platform. The collaboration represents a convergence model for autonomous driving — combining ride-hailing distribution, AI routing, and purpose-built EV hardware rather than a single vertically integrated approach.",
+      "keyConcepts": [
+        "Autonomous vehicle testing and regulatory approval",
+        "Robotaxi business model and multi-partner stacks",
+        "AI perception and routing software for self-driving",
+        "EV platform integration with autonomous systems"
+      ],
+      "whyItMatters": "The partnership model — where separate companies contribute ride-hailing, AI software, and vehicle hardware — could become the dominant structure for autonomous mobility as the complexity and cost of full vertical integration proves prohibitive for most players.",
+      "tags": ["robotaxi", "autonomous-vehicles", "uber", "nuro", "lucid", "bay-area", "self-driving"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What distinct role does each company play in the Uber-Nuro-Lucid robotaxi collaboration?",
+          "options": [
+            "Uber handles AI software, Nuro provides vehicles, Lucid runs the ride-hailing network",
+            "Uber provides ride-hailing distribution, Nuro handles autonomous software, Lucid contributes the EV platform",
+            "All three companies jointly develop each component and share intellectual property equally",
+            "Nuro manages the full stack, with Uber and Lucid as minority financial investors only"
+          ],
+          "correctIndex": 1,
+          "explanation": "The collaboration is structured so each partner contributes its core competency: Uber's ride-hailing network for passenger distribution, Nuro's autonomous vehicle software for navigation, and Lucid's electric vehicle hardware as the purpose-built platform."
+        },
+        {
+          "question": "What does the multi-partner structure of this robotaxi initiative suggest about the autonomous vehicle industry?",
+          "options": [
+            "Full vertical integration remains the only viable path for autonomous mobility",
+            "Modular partnerships combining specialized players may dominate over single vertically integrated stacks",
+            "Robotaxi testing has become too expensive for any single company to fund alone",
+            "AI software is no longer a differentiator in autonomous vehicle deployments"
+          ],
+          "correctIndex": 1,
+          "explanation": "The emergence of partnerships where separate firms contribute ride-hailing, AI routing, and EV hardware suggests that the complexity and cost of full vertical integration is pushing the industry toward modular collaboration models rather than the everything-in-house approach."
         }
       ]
     }
