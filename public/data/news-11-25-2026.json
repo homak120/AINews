@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-11-25T10:00:00.000Z",
+  "weekOf": "2026-11-23",
+  "coverageStart": "2026-11-24",
+  "coverageEnd": "2026-11-24",
+  "items": [
+    {
+      "id": "article-un-ai-oversight-year-20261124",
+      "type": "article",
+      "title": "UN Secretary-General Urges World to Agree on AI Oversight Framework Within One Year",
+      "sourceUrl": "https://aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-industry"],
+      "summary": "UN Secretary-General António Guterres called on governments at a conference in Barbados to draft a Multilateral AI Risk Management Framework within a year, warning that international regulation of AI remains distant as the US and China compete for technological supremacy. His push for a credible and independent oversight body comes as his second five-year term nears its end in December 2026, making this one of his final major AI governance appeals.",
+      "keyConcepts": [
+        "Multilateral AI Risk Management Framework",
+        "AI governance and independent oversight",
+        "US-China AI competition and policy",
+        "UN advisory body Governing AI for Humanity report"
+      ],
+      "whyItMatters": "Without international coordination, the most powerful AI systems may develop without safety guardrails, particularly as frontier labs race toward increasingly capable models — Guterres's window to shape global norms is narrowing with his term ending in December.",
+      "tags": ["ai-governance", "un", "global-policy", "ai-safety", "regulation", "guterres"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the core demand UN Secretary-General Guterres made at the Barbados conference regarding AI?",
+          "options": [
+            "Ban the development of frontier AI models until safety benchmarks are met",
+            "Establish a UN-led AI development lab funded by member states",
+            "Draft a global AI risk framework with independent oversight within one year",
+            "Mandate that all AI systems be open-sourced by 2028"
+          ],
+          "correctIndex": 2,
+          "explanation": "Guterres called for a Multilateral AI Risk Management Framework with credible and independent oversight to be agreed upon within a year — a governance milestone he sought to achieve before his December 2026 term end."
+        },
+        {
+          "question": "Which geopolitical dynamic did Guterres identify as the main obstacle to global AI regulation?",
+          "options": [
+            "Disagreements among EU member states over data privacy rules",
+            "The US and China each seeking technological supremacy",
+            "Lack of technical expertise within the United Nations",
+            "Opposition from major AI companies to any regulatory framework"
+          ],
+          "correctIndex": 1,
+          "explanation": "Guterres noted that international regulation remains distant as the two AI superpowers — the United States and China — continue competing for the upper hand, making multilateral agreement difficult."
+        }
+      ]
+    },
+    {
+      "id": "article-xai-founders-epochal-startup-20261124",
+      "type": "article",
+      "title": "Former xAI Co-Founders Launch Epochal, an AI Startup Focused on Predicting Future Events",
+      "sourceUrl": "https://bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+      "verified": false,
+      "publishedAt": "2026-11-24",
+      "topics": ["ai-industry", "ai-research"],
+      "summary": "Three founding members of Elon Musk's xAI have launched a new company called Epochal, which aims to build AI systems capable of predicting future events. The departure is part of a broader exodus — reporting confirms that all 11 non-Musk co-founders have now left xAI, raising questions about the company's direction following its acquisition by SpaceX.",
+      "keyConcepts": [
+        "AI forecasting and prediction markets",
+        "xAI co-founder exodus and talent wars",
+        "Specialized AI startups vs. general-purpose AI labs",
+        "SpaceX acquisition of xAI"
+      ],
+      "whyItMatters": "The near-complete departure of xAI's founding team to build competing ventures signals that experienced AI researchers see more opportunity in specialized applications like forecasting — and raises concerns about continuity at xAI as it navigates post-acquisition integration with SpaceX.",
+      "tags": ["xai", "epochal", "startups", "elon-musk", "ai-forecasting", "talent-wars", "spacex"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the primary focus of Epochal, the startup launched by former xAI co-founders?",
+          "options": [
+            "Building open-source large language models to rival Grok",
+            "Developing autonomous AI agents for enterprise workflows",
+            "Predicting future events using AI",
+            "Creating AI-powered chip design tools"
+          ],
+          "correctIndex": 2,
+          "explanation": "Epochal is focused on predicting future events — a specialized AI application distinct from the general-purpose AI development work at xAI under Elon Musk."
+        },
+        {
+          "question": "What is the significance of all 11 non-Musk xAI co-founders having departed the company?",
+          "options": [
+            "It means xAI will shut down operations immediately",
+            "It raises questions about leadership continuity and research direction after SpaceX acquired xAI",
+            "It proves that AI safety research is declining at frontier labs",
+            "It has no practical impact since Musk remains the sole decision-maker"
+          ],
+          "correctIndex": 1,
+          "explanation": "The departure of xAI's entire founding team raises concerns about continuity and direction at a company that has grown rapidly under Musk — particularly following its acquisition by SpaceX, which introduced new organizational pressures."
+        }
+      ]
+    }
+  ]
+}
