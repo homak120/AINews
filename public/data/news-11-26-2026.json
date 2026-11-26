@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T00:00:00.000Z",
+  "generatedAt": "2026-11-26T08:00:00.000Z",
   "weekOf": "2026-11-23",
   "coverageStart": "2026-11-25",
-  "coverageEnd": "2026-11-25",
+  "coverageEnd": "2026-11-26",
   "items": [
     {
       "id": "article-fcc-spacex-ai-data-centers-space",
@@ -115,6 +115,44 @@
           ],
           "correctIndex": 1,
           "explanation": "Agent safeguards are controls — like permission scopes, human-in-the-loop checkpoints, or kill switches — that constrain what an autonomous AI agent can do, observe, or access, reducing the risk of unintended or harmful actions."
+        }
+      ]
+    },
+    {
+      "id": "article-amodei-ai-free-will-2026-11-26",
+      "type": "article",
+      "title": "Anthropic CEO Dario Amodei Denies Wanting Humans to Surrender Free Will to AI",
+      "sourceUrl": "https://www.euronews.com/2026/11/26/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai",
+      "verified": false,
+      "publishedAt": "2026-11-26",
+      "topics": ["ai-research", "ai-career"],
+      "summary": "Anthropic CEO Dario Amodei publicly denied wanting humanity to surrender free will to artificial intelligence, responding to an Axios report claiming he and other Anthropic executives believe it would be 'irrational or even unethical' not to hand authority to AI for tasks it performs better than humans. In a lengthy post on X (formerly Twitter), Amodei stated he does not support ceding human agency to AI systems. The controversy coincides with Anthropic's preparations for its NASDAQ IPO under the ticker $ANT.",
+      "keyConcepts": ["AI governance", "human agency", "AI deference", "Anthropic leadership", "AI accountability"],
+      "whyItMatters": "The debate over when humans should defer to AI judgment is one of the most consequential questions in AI development — and the stated views of a founder-CEO building frontier AI systems carry disproportionate weight in shaping industry norms.",
+      "tags": ["anthropic", "dario-amodei", "ai-ethics", "human-agency", "ai-governance", "frontier-ai"],
+      "relatedIds": ["article-anthropic-openai-agent-safeguards-2026-11-25"],
+      "knowledgeChecks": [
+        {
+          "question": "What claim in an Axios report prompted Dario Amodei to publicly respond on X?",
+          "options": [
+            "That Anthropic was planning to open-source its frontier models",
+            "That Amodei believed it would be irrational not to defer to AI on tasks it does better than humans",
+            "That Anthropic executives had voted to pause development of its most capable models",
+            "That Amodei had privately criticized OpenAI's safety practices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Axios reported that Amodei and other Anthropic executives believed it would be 'irrational or even unethical' not to hand authority over to AI for tasks where AI outperforms humans — a characterization Amodei publicly denied on X."
+        },
+        {
+          "question": "Which of the following best describes the concept of 'AI deference' that is at the center of this debate?",
+          "options": [
+            "The practice of AI systems deferring to human oversight when uncertain",
+            "The idea that humans should follow or yield to AI recommendations for tasks AI handles better",
+            "A technical standard for multi-agent coordination protocols",
+            "A regulatory framework for approving autonomous AI decisions"
+          ],
+          "correctIndex": 1,
+          "explanation": "AI deference refers to the idea that humans should yield decision-making authority to AI systems in domains where AI demonstrably outperforms human judgment — a philosophically and practically contested proposition at the heart of ongoing debates about AI autonomy and human oversight."
         }
       ]
     }
