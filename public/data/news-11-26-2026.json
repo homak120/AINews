@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-11-26T00:00:00.000Z",
+  "weekOf": "2026-11-23",
+  "coverageStart": "2026-11-25",
+  "coverageEnd": "2026-11-25",
+  "items": [
+    {
+      "id": "article-fcc-spacex-ai-data-centers-space",
+      "type": "article",
+      "title": "FCC Approves SpaceX Plan to Put AI Data Centers in Space",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "verified": false,
+      "publishedAt": "2026-11-25",
+      "topics": ["ai-industry"],
+      "summary": "SpaceX received conditional FCC approval to launch up to 1 million satellites designed to function as solar-powered orbital AI data centers. The plan would put AI compute infrastructure in low Earth orbit, bypassing terrestrial energy and land constraints. Amazon and other competitors had filed objections citing space debris risks and economic feasibility concerns.",
+      "keyConcepts": ["orbital data centers", "satellite AI infrastructure", "FCC regulatory approval", "edge computing in space"],
+      "whyItMatters": "If viable, SpaceX's orbital data center constellation could fundamentally reshape where and how AI compute is deployed, reducing dependence on power-hungry ground-based facilities.",
+      "tags": ["spacex", "fcc", "orbital-computing", "data-centers", "ai-infrastructure", "satellite"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the primary objection raised by companies like Amazon against SpaceX's orbital AI data center plan?",
+          "options": [
+            "Concerns about satellite signal interference with GPS",
+            "Space debris risks and economic feasibility",
+            "Regulatory conflicts with existing FCC licenses",
+            "Security vulnerabilities of space-based compute"
+          ],
+          "correctIndex": 1,
+          "explanation": "Amazon and other companies objected primarily on the grounds of increased space debris risks from launching up to 1 million satellites, as well as doubts about the economic feasibility of running AI workloads in orbit."
+        },
+        {
+          "question": "What type of power source does SpaceX's proposed orbital data center constellation rely on?",
+          "options": [
+            "Nuclear fission reactors",
+            "High-altitude wind turbines",
+            "Solar power",
+            "Wireless energy beamed from Earth"
+          ],
+          "correctIndex": 2,
+          "explanation": "SpaceX's orbital data center proposal uses solar power to run the satellite-based compute nodes, taking advantage of continuous sunlight available in low Earth orbit without the atmospheric interruptions that affect ground-based solar."
+        }
+      ]
+    },
+    {
+      "id": "article-sp-nvidia-credit-downgrade-2026-11-25",
+      "type": "article",
+      "title": "S&P Considers Nvidia Credit Downgrade Over Governance and Key Man Risks",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "verified": false,
+      "publishedAt": "2026-11-25",
+      "topics": ["ai-industry"],
+      "summary": "S&P Global Ratings has placed Nvidia under review for a potential credit downgrade, citing governance concerns and the company's heavy dependence on CEO Jensen Huang. The review follows a period of leadership uncertainty at Nvidia, one of AI's most critical chip suppliers. S&P expects to complete the review within 90 days.",
+      "keyConcepts": ["credit rating", "corporate governance", "key person risk", "AI chip supply chain"],
+      "whyItMatters": "A credit downgrade for Nvidia could raise its borrowing costs during a period of massive capital investment in next-generation AI chip capacity, with potential ripple effects across the entire AI industry supply chain.",
+      "tags": ["nvidia", "credit-rating", "jensen-huang", "corporate-governance", "ai-chips", "sp-global"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What two concerns did S&P Global Ratings cite when placing Nvidia under review for a potential credit downgrade?",
+          "options": [
+            "Revenue decline and market share loss",
+            "Governance concerns and key man risk tied to CEO Jensen Huang",
+            "Export control violations and supply chain shortfalls",
+            "Excessive debt load and missed earnings targets"
+          ],
+          "correctIndex": 1,
+          "explanation": "S&P cited corporate governance concerns and over-reliance on a single key executive (Jensen Huang) as the primary reasons for opening the credit review, reflecting risks to Nvidia's strategic continuity if leadership changes."
+        },
+        {
+          "question": "What is the practical consequence for a company if its credit rating is downgraded?",
+          "options": [
+            "It is required to pause stock buybacks",
+            "Its products face import restrictions",
+            "Its borrowing costs typically increase",
+            "Regulators must approve all new investments"
+          ],
+          "correctIndex": 2,
+          "explanation": "A credit downgrade signals higher perceived risk to lenders, which typically causes them to charge higher interest rates when the company borrows money — raising the cost of financing large investments like new chip fabrication capacity."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-openai-agent-safeguards-2026-11-25",
+      "type": "article",
+      "title": "Anthropic and OpenAI Roll Out Agent Safeguards as Insiders Fear Their Top Models Are Too Powerful",
+      "sourceUrl": "https://dailycaller.com/2026/11/25/anthropic-openai-artificial-intelligence-safeguards-models-powerful/",
+      "verified": false,
+      "publishedAt": "2026-11-25",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "Both Anthropic and OpenAI are rolling out new agent-level safeguards following internal reports that employees believe their most capable models have become too powerful to release safely. The measures include expanded oversight mechanisms and tighter controls on autonomous agent behavior. Some insiders have reportedly called for pausing training of the most advanced systems.",
+      "keyConcepts": ["AI safety", "agent safeguards", "frontier models", "autonomous AI governance"],
+      "whyItMatters": "When the organizations building the most advanced AI systems express serious internal concern about their own models' power, it marks a critical inflection point — signaling that frontier AI safety is moving from theoretical debate to urgent operational challenge.",
+      "tags": ["anthropic", "openai", "ai-safety", "frontier-models", "agents", "governance"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What was the main concern driving Anthropic and OpenAI to implement new agent safeguards according to this report?",
+          "options": [
+            "Regulatory pressure from EU AI Act enforcement",
+            "Internal fears that their top models are too powerful to safely release",
+            "A series of publicly disclosed model security breaches",
+            "Competitive pressure from open-source model releases"
+          ],
+          "correctIndex": 1,
+          "explanation": "The report states that insiders at both companies fear their most capable frontier models have become so powerful that safe public deployment is in question — prompting the rollout of expanded agent oversight and safeguard mechanisms."
+        },
+        {
+          "question": "Which of the following best describes the concept of an 'agent safeguard' in AI systems?",
+          "options": [
+            "A cryptographic method for securing model weights",
+            "A mechanism that limits or monitors what autonomous AI agents can do",
+            "An insurance product for AI-related business losses",
+            "A training technique that reduces model hallucination"
+          ],
+          "correctIndex": 1,
+          "explanation": "Agent safeguards are controls — like permission scopes, human-in-the-loop checkpoints, or kill switches — that constrain what an autonomous AI agent can do, observe, or access, reducing the risk of unintended or harmful actions."
+        }
+      ]
+    }
+  ]
+}
