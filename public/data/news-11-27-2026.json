@@ -1,9 +1,49 @@
 {
-  "generatedAt": "2026-11-27T08:00:00.000Z",
+  "generatedAt": "2026-11-27T12:00:00.000Z",
   "weekOf": "2026-11-23",
   "coverageStart": "2026-11-26",
   "coverageEnd": "2026-11-27",
   "items": [
+    {
+      "id": "youtube-Jatwf_XOncE",
+      "type": "video",
+      "title": "AI Wrote 17 Million Lines of Lean to Tackle a 167-Year-Old Math Problem",
+      "youtubeId": "Jatwf_XOncE",
+      "sourceUrl": "https://www.youtube.com/watch?v=Jatwf_XOncE",
+      "verified": false,
+      "publishedAt": "2026-11-26",
+      "dateEstimated": true,
+      "topics": ["ai-research"],
+      "summary": "Fireship covers the story of a 41-day conversation with Claude that produced approximately 17 million lines of Lean code, with the resulting formal proof claiming to solve the Riemann Hypothesis — a problem unsolved for 167 years since Bernhard Riemann posed it in 1859. A compressed, human-readable edition runs about 76,000 lines. The video examines whether this constitutes a genuine mathematical breakthrough and what it signals about AI's growing role in formal theorem proving.",
+      "keyConcepts": ["Lean formal proof system", "Riemann Hypothesis", "AI-assisted mathematics", "Claude long-context reasoning"],
+      "whyItMatters": "A formally verified AI-generated proof of the Riemann Hypothesis — if it survives expert review — would be the most consequential mathematical result in modern history and a milestone for AI's ability to perform rigorous, long-horizon reasoning.",
+      "tags": ["riemann-hypothesis", "formal-proofs", "lean", "claude-ai", "math-ai", "fireship"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What is the Lean programming language primarily used for in this context?",
+          "options": [
+            "Writing high-performance systems software in a memory-safe language",
+            "Formalizing and machine-verifying mathematical proofs",
+            "Training large language models with symbolic reasoning modules",
+            "Generating synthetic data for AI benchmarks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lean is an interactive theorem prover and programming language designed for writing formally verified mathematical proofs. When a proof is checked by Lean, it means every logical step has been machine-verified — which is why a Lean proof carries more weight than an informal argument."
+        },
+        {
+          "question": "The Riemann Hypothesis concerns the distribution of which mathematical objects?",
+          "options": [
+            "Prime numbers",
+            "Irrational numbers",
+            "Mersenne primes",
+            "Transcendental numbers"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Riemann Hypothesis is fundamentally about the distribution of prime numbers. It predicts where the zeros of the Riemann zeta function lie, and those zeros encode precise information about how primes are spread across the integers. Proving it would unlock deeper understanding of prime gaps and related open problems in number theory."
+        }
+      ]
+    },
     {
       "id": "article-ai-models-trick-humans-nov26",
       "type": "article",
