@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-11-28T12:00:00Z",
+  "weekOf": "2026-11-23",
+  "coverageStart": "2026-11-26",
+  "coverageEnd": "2026-11-27",
+  "items": [
+    {
+      "id": "youtube-xvV8C8D_QlU",
+      "type": "video",
+      "title": "AI News: OpenAI Cancels the Pro Cut, Gemini 4 Carbon Takes #1",
+      "youtubeId": "xvV8C8D_QlU",
+      "sourceUrl": "https://www.youtube.com/watch?v=xvV8C8D_QlU",
+      "verified": false,
+      "publishedAt": "2026-11-27",
+      "dateEstimated": true,
+      "topics": ["ai-industry"],
+      "summary": "A daily AI news roundup covering OpenAI's decision not to cut Pro plan limits despite demand, and Gemini 4 Carbon's rise to the top position on the Artificial Analysis intelligence index. The episode contextualizes what these shifts mean for competitive positioning between OpenAI and Google.",
+      "keyConcepts": [
+        "ChatGPT Pro plan pricing and limits",
+        "Gemini 4 Carbon benchmark performance",
+        "Artificial Analysis intelligence index",
+        "AI model competitive landscape"
+      ],
+      "whyItMatters": "Gemini 4 Carbon taking the #1 spot on a major AI benchmark signals Google's renewed competitiveness, while OpenAI holding its Pro pricing reveals confidence in demand despite competition.",
+      "tags": ["openai", "google", "gemini", "chatgpt", "benchmarks", "ai-models"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What did OpenAI decide regarding its Pro plan limits amid high demand?",
+          "options": [
+            "It reduced limits by 40% to manage server load",
+            "It maintained limits and did not cut the Pro plan",
+            "It paused new Pro subscriptions temporarily",
+            "It merged Pro and Business Premium into one tier"
+          ],
+          "correctIndex": 1,
+          "explanation": "OpenAI chose not to cancel or cut usage limits on its $100/$200/$500 Pro plans, signaling confidence in sustained demand even as competitors gained ground."
+        },
+        {
+          "question": "Which AI model reportedly reached the #1 position on the Artificial Analysis intelligence index?",
+          "options": [
+            "GPT-6.2 Astra",
+            "Claude Fable 5.2",
+            "Gemini 4 Carbon",
+            "DeepSeek V4 Pro"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gemini 4 Carbon topped the Artificial Analysis intelligence index, marking a significant milestone for Google's AI competitiveness in late 2026."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-anthropic-safety-warning-nov26",
+      "type": "article",
+      "title": "OpenAI and Anthropic Staff Warn Latest Models Are Becoming Too Powerful to Control",
+      "sourceUrl": "https://novaramedia.com/2026/11/26/openai-and-anthropic-staff-say-latest-models-will-soon-be-able-to-trick-us/",
+      "verified": false,
+      "publishedAt": "2026-11-26",
+      "topics": ["ai-research", "ai-industry"],
+      "summary": "More than two dozen current and former OpenAI and Anthropic staff told Axios that their labs are building models too powerful to safely release, with researchers reportedly unable to reliably control the most advanced models. The disclosures come as both companies approach major public offerings, adding pressure to their stated commitments to responsible AI development.",
+      "keyConcepts": [
+        "AI alignment and control",
+        "Researcher safety disclosures",
+        "Model capability versus safety gap",
+        "Responsible AI development commitments"
+      ],
+      "whyItMatters": "Internal warnings from safety researchers at the two leading AI labs create significant reputational and regulatory risk, and raise questions about whether commercial timelines are outpacing safety research.",
+      "tags": ["ai-safety", "anthropic", "openai", "alignment", "whistleblower", "model-control"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "According to the Axios report, what did over 24 OpenAI and Anthropic staff claim?",
+          "options": [
+            "Their models are ready for AGI-level deployment",
+            "Their labs are building models too powerful to safely release",
+            "Both companies plan to pause model development for 6 months",
+            "AI safety teams have been dissolved to cut costs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Staff at both labs said their organizations are developing models whose capabilities exceed current safety controls, raising concerns about whether the most advanced models can be reliably constrained."
+        },
+        {
+          "question": "Why is the timing of these disclosures particularly notable?",
+          "options": [
+            "They coincide with both companies' major public offerings",
+            "They followed a government-mandated safety audit",
+            "They were triggered by a specific model failure event",
+            "They came after both companies lost key safety personnel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Both Anthropic and OpenAI are approaching major IPOs, making internal safety warnings especially impactful for investor confidence and public perception of their safety commitments."
+        }
+      ]
+    },
+    {
+      "id": "article-microsoft-artex-storm0940-nov27",
+      "type": "article",
+      "title": "Chinese State Hackers Used AI Agent ARTEX to Breach 2,250 Microsoft 365 Tenants",
+      "sourceUrl": "https://cryptobriefing.com/microsoft-storm-0940-artex-ai-attacks/",
+      "verified": false,
+      "publishedAt": "2026-11-27",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "Microsoft disclosed that Storm-0940, a China state-linked group, weaponized the open-source ARTEX AI penetration-testing framework to compromise over 2,250 Microsoft 365 tenants, reaching privileged cloud access in under three hours in some cases. The campaign, which also targeted ConnectWise cloud backup environments, marks a significant escalation in state-sponsored use of autonomous AI agents for offensive cyber operations.",
+      "keyConcepts": [
+        "ARTEX AI penetration-testing framework",
+        "Storm-0940 Chinese state-linked threat group",
+        "AI-powered autonomous cyberattacks",
+        "Microsoft 365 tenant compromise"
+      ],
+      "whyItMatters": "This is one of the first documented cases of a nation-state actor using an open-source AI agent framework at scale for offensive operations, demonstrating that AI is now operationalizing adversarial cyber campaigns far faster than human teams.",
+      "tags": ["cybersecurity", "ai-agents", "microsoft", "china", "threat-intelligence", "artex"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What tool did Storm-0940 use to automate its cyberattack campaign?",
+          "options": [
+            "GPT-6.2 Astra via API",
+            "A custom-built Microsoft 365 exploit kit",
+            "The open-source ARTEX AI penetration-testing framework",
+            "ConnectWise's internal agent SDK"
+          ],
+          "correctIndex": 2,
+          "explanation": "ARTEX is an open-source AI agent framework originally designed for security research. Storm-0940 repurposed it to automate large-scale Microsoft 365 tenant compromises."
+        },
+        {
+          "question": "How quickly did attackers reach privileged cloud access in some ARTEX-driven incidents?",
+          "options": [
+            "Within 3 days",
+            "In under 3 hours",
+            "In approximately 48 hours",
+            "After a week of reconnaissance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Some ARTEX-assisted attacks escalated to privileged cloud access in less than three hours, highlighting how AI automation dramatically compresses attack timelines compared to manual methods."
+        }
+      ]
+    },
+    {
+      "id": "article-big-tech-openai-open-source-ai-nov27",
+      "type": "article",
+      "title": "Big Tech Unites Behind Open-Source AI While Anthropic Stands Apart",
+      "sourceUrl": "https://aidailybrief.ai/",
+      "verified": false,
+      "publishedAt": "2026-11-27",
+      "topics": ["ai-industry"],
+      "summary": "Major technology companies including Google, Meta, and Microsoft have formed a joint open-source AI coalition, backing open-weight models as a strategic counterweight to Anthropic's closed-model approach. The alignment could shape pending US AI policy and shift the regulatory debate over how safety obligations should be applied to open versus proprietary frontier models.",
+      "keyConcepts": [
+        "Open-weight versus closed AI models",
+        "Big Tech coalition strategy",
+        "US AI policy and regulation",
+        "Anthropic's proprietary model approach"
+      ],
+      "whyItMatters": "A unified Big Tech front on open-source AI could significantly influence US AI legislation, potentially creating a regulatory split between permissive rules for open-weight models and stricter rules for closed frontier labs like Anthropic.",
+      "tags": ["open-source-ai", "ai-policy", "google", "meta", "microsoft", "anthropic", "regulation"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "Which major AI company is notably NOT joining the Big Tech open-source AI coalition?",
+          "options": [
+            "Google",
+            "Meta",
+            "Anthropic",
+            "Microsoft"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic has maintained a closed, safety-focused approach to frontier models and is not part of the coalition backing open-weight AI, setting up a regulatory contrast that could affect pending US AI legislation."
+        },
+        {
+          "question": "What is the primary policy implication of this open-source AI coalition?",
+          "options": [
+            "It may push for a global AI moratorium",
+            "It could lead to regulatory differentiation between open and closed frontier models",
+            "It is expected to accelerate chip export restrictions",
+            "It aims to ban proprietary AI training data"
+          ],
+          "correctIndex": 1,
+          "explanation": "The coalition's lobbying could result in US AI policy applying more permissive rules to open-weight models while imposing stricter safety requirements on closed frontier labs."
+        }
+      ]
+    },
+    {
+      "id": "article-openai-gpt62-billing-fix-nov27",
+      "type": "article",
+      "title": "OpenAI Fixes GPT-6.2 Billing Bug That Was Resetting Usage Limits 40% Faster",
+      "sourceUrl": "https://samonai.substack.com/p/ai-brief-november-27-2026",
+      "verified": false,
+      "publishedAt": "2026-11-27",
+      "topics": ["ai-engineering", "ai-industry"],
+      "summary": "OpenAI engineer Thibault Sottiaux announced a fix for a billing bug introduced during the GPT-6.2 rollout that had given most subscribers incorrect discounts, causing usage limits on Astra and Sol to reset roughly 40% and 25% faster than expected respectively. The fix restores correct billing, meaning subscribers will now hit their monthly caps sooner than the bugged behavior had allowed.",
+      "keyConcepts": [
+        "GPT-6.2 Astra and Sol usage limits",
+        "Subscription billing bug disclosure",
+        "API rate limit and quota management",
+        "OpenAI Pro and Business Premium plans"
+      ],
+      "whyItMatters": "The incident highlights the complexity of rolling out new model families with changed pricing structures, and signals that GPT-6.2's high inference cost is translating directly to faster quota exhaustion for heavy users.",
+      "tags": ["openai", "gpt-6-2", "billing", "api", "usage-limits", "developer-experience"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What effect did the GPT-6.2 billing bug have on users before it was fixed?",
+          "options": [
+            "Users were charged double for Astra API calls",
+            "Users received incorrect discounts causing limits to reset faster than intended",
+            "Users lost access to Sol entirely during the rollout",
+            "Users were billed for GPT-6 Astra rates instead of GPT-6.2 rates"
+          ],
+          "correctIndex": 1,
+          "explanation": "The bug gave most users incorrect discounts, which meant their usage counted against limits at a reduced rate. The fix restored correct billing, so limits now reset at the intended cadence — roughly 40% sooner for Astra users."
+        },
+        {
+          "question": "Which GPT-6.2 model tier is most affected by the billing correction in terms of faster limit resets?",
+          "options": [
+            "GPT-6.2 Sol at 25% faster",
+            "GPT-6.2 Astra at 40% faster",
+            "Both are equally affected at 30%",
+            "Only the API tier is affected, not ChatGPT subscriptions"
+          ],
+          "correctIndex": 1,
+          "explanation": "GPT-6.2 Astra users see the larger impact, with limits now resetting approximately 40% faster than the bugged behavior allowed, compared to 25% faster for Sol users."
+        }
+      ]
+    },
+    {
+      "id": "article-anthropic-api-rust-migration-nov27",
+      "type": "article",
+      "title": "Anthropic Rewrites Its Messages API in Rust, Cutting CPU Use by 70%",
+      "sourceUrl": "https://samonai.substack.com/p/ai-brief-november-27-2026",
+      "verified": false,
+      "publishedAt": "2026-11-27",
+      "topics": ["ai-engineering"],
+      "summary": "Anthropic published a detailed engineering post-mortem on migrating its core Messages API from Python to Rust, reporting approximately 70% reduction in CPU usage and over 80% reduction in memory consumption after the transition. The rewrite was motivated by latency and cost concerns at scale as Claude usage surged following the company's public market debut.",
+      "keyConcepts": [
+        "Rust versus Python performance for inference APIs",
+        "Memory and CPU efficiency at LLM API scale",
+        "Systems engineering for AI infrastructure",
+        "Post-mortem engineering culture"
+      ],
+      "whyItMatters": "A 70% CPU reduction at Anthropic's scale translates to substantial infrastructure cost savings and improved latency for all Claude API users, and sets a precedent for other AI labs evaluating similar migrations away from Python-heavy production stacks.",
+      "tags": ["anthropic", "rust", "python", "infrastructure", "api-performance", "engineering"],
+      "relatedIds": [],
+      "knowledgeChecks": [
+        {
+          "question": "What language did Anthropic migrate its Messages API TO in the reported rewrite?",
+          "options": [
+            "Go",
+            "C++",
+            "Rust",
+            "TypeScript"
+          ],
+          "correctIndex": 2,
+          "explanation": "Anthropic migrated from Python to Rust for its Messages API, achieving approximately 70% CPU reduction and 80%+ memory reduction — common outcomes when replacing Python with Rust for high-throughput networking code."
+        },
+        {
+          "question": "Which metric showed the largest improvement in Anthropic's Python-to-Rust API migration?",
+          "options": [
+            "Request latency at 50th percentile",
+            "CPU usage reduction (~70%)",
+            "Memory consumption reduction (>80%)",
+            "Both CPU and memory improved equally"
+          ],
+          "correctIndex": 2,
+          "explanation": "Memory consumption saw the largest reported improvement at over 80% reduction, slightly ahead of the ~70% CPU reduction, though both were significant gains for infrastructure efficiency."
+        }
+      ]
+    }
+  ]
+}
